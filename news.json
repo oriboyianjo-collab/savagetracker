@@ -29442,5 +29442,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "אינסולט (PODD): הדירקטוריון אישר תוכנית רכישה עצמית חדשה של עד מיליארד דולר עד סוף 2028; כ-400 מיליון דולר מתוכננים לרבעון הרביעי 2026 מהמזומן הקיים",
+    "category": "micro",
+    "חברה": "PODD",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000190/podd-20261104.htm",
+    "מקורות": [
+      {
+        "label": "דוח 8-K של Insulet, סעיף 7.01, 4 בנובמבר 2026 (SEC) - מקור ראשוני",
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000190/podd-20261104.htm",
+        "label_en": "Insulet 8-K, Item 7.01, Nov 4, 2026 (SEC) - primary source"
+      }
+    ],
+    "טקסט": "04.11.2026 | דוח 8-K באתר ה-SEC, נקרא (התגלה בסריקת השלמה).\n\nדירקטוריון Insulet אישר ב-30 באוקטובר תוכנית רכישה עצמית חדשה של עד מיליארד דולר במניות החברה, בתוקף עד 31 בדצמבר 2028, ובנוסף לתוכנית הקיימת. החברה מתכננת להקצות כ-400 מיליון דולר ממנה לרכישות ברבעון הרביעי של 2026, מהמזומן הקיים. ההדגשה: זו אישור תוכנית וכוונה מתוכננת - לא רכישות שבוצעו; הקנייה בפועל תיעשה מעת לעת לפי שיקול החברה ובכפוף לתנאי השוק, בשוק הפתוח, בעסקאות משא-ומתן, במתווה מואץ או בתוכנית 10b5-1. הגילוי פורסם ב-4 בנובמבר בסעיף 7.01 (Regulation FD) של ה-8-K, לצד דוחות הרבעון השלישי (סעיף 2.02) - שאינם מסוקרים כאן.",
+    "כותרת_en": "Insulet (PODD): board authorized a new share repurchase program of up to $1B through end-2028; ~$400M planned for Q4 2026 from existing cash",
+    "טקסט_en": "Nov 4, 2026 | the 8-K on SEC, read (surfaced in a catch-up sweep).\n\nInsulet's Board authorized on October 30 a new share repurchase program of up to $1 billion of its common stock, effective through December 31, 2028, in addition to the existing program. The company plans to allocate roughly $400 million of it toward repurchases in Q4 2026, using existing cash. To be clear: this is an authorization and a stated plan - not executed purchases; actual repurchases will occur from time to time at the company's discretion subject to market conditions, via open market, negotiated transactions, accelerated repurchase or a 10b5-1 plan. The disclosure was published November 4 under Item 7.01 (Regulation FD) of the 8-K, alongside third-quarter results (Item 2.02) - which are not covered here.",
+    "תאריך": "2026-11-04",
+    "הועלה": "2026-11-10 14:44",
+    "מזהה": "n-1211",
+    "_translation": {
+      "en": {
+        "source_hash": "3efc2894fc5674971f9708b2610c2b8b2668693f999468450b919de596a5a05a",
+        "schema_version": 1
+      }
+    }
   }
 ]
