@@ -1,5 +1,29 @@
 [
   {
+    "מזהה": "n-1248",
+    "category": "macro",
+    "כותרת": "EIA מעלה את תחזיות מחירי הדיזל והבנזין ל-2027 ומפחיתה את תחזית הגז הטבעי",
+    "כותרת_en": "EIA raises 2027 diesel and gasoline price forecasts and lowers natural gas outlook",
+    "קישור": "https://www.eia.gov/outlooks/steo/",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 19:16",
+    "מקורות": [
+      {
+        "label": "EIA: דוח STEO לנובמבר 2026, טבלת עדכוני התחזיות",
+        "label_en": "EIA: November 2026 STEO and forecast-revision table",
+        "url": "https://www.eia.gov/outlooks/steo/"
+      }
+    ],
+    "טקסט": "10.11.2026 | דוח נובמבר הרשמי נקרא; קלט המודל נסגר ב-5 בנובמבר.\n\nEIA העלתה את תחזית המחיר הקמעונאי הממוצע בארה״ב לדיזל ב-2027 ל-5.03 דולר לגלון, לעומת 4.49 בתחזית אוקטובר, ואת תחזית הבנזין ל-3.73 דולר לעומת 3.56. לפי טבלת EIA, העדכונים הם כ-12% וכ-4.7% בהתאמה. הסוכנות מניחה שמגבלות ההיצע בשוקי מוצרי הנפט יימשכו עד סוף 2027.\n\nמנגד, תחזית Henry Hub השנתית ל-2027 ירדה ל-2.88 דולר ל-MMBtu לעומת 3.16 באוקטובר. תחזית החורף, נובמבר עד מרץ, היא 2.87 דולר ל-MMBtu, נמוכה ב-16% מתחזית החורף הקודמת על רקע מזג אוויר מתון ומלאים גבוהים מהצפוי. אין לערבב בין תקופת החורף לממוצע השנתי.\n\nברנט צפוי להישאר סמוך ל-100 דולר לחבית ביתרת 2026; ממוצע 2027 הוא 86 דולר לעומת 84 בתחזית אוקטובר, עם ירידה ל-77 דולר ברבעון הרביעי של 2027. מדובר בתחזיות, לא במחירי שוק נוכחיים או בתוצאות שכבר הושגו; אירועים אחרי 5 בנובמבר אינם נכללים במפורש במודל.",
+    "טקסט_en": "Nov 10, 2026 | official November report read; model inputs finalized Nov 5.\n\nEIA raised its forecast for average US retail diesel prices in 2027 to $5.03/gal from $4.49 in October, and gasoline to $3.73 from $3.56. EIA's revision table reports increases of about 12% and 4.7%, respectively. The agency assumes petroleum-product supply constraints persist through end-2027.\n\nThe annual 2027 Henry Hub forecast fell to $2.88/MMBtu from $3.16 in October. The separate November-March winter forecast is $2.87/MMBtu, 16% below its previous winter forecast amid mild weather and higher expected inventories. The winter period is not the annual average.\n\nBrent is forecast near $100/b for the rest of 2026; the 2027 annual average is $86 versus $84 in October, declining to $77 in Q4 2027. These are forecasts, not current market quotes or realized outcomes; events after Nov 5 are not specifically incorporated in the model.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2b4d4c8e3fd8017e8956cb9fd6ea41a4c1433e6da7839614a134c2ba9feac3f4"
+      }
+    }
+  },
+  {
     "מזהה": "n-1247",
     "category": "macro",
     "כותרת": "לוגן: ייתכן קצב העלאות מהיר יותר בחורף; מדד אוקטובר מגביר את החשש לאינפלציית PCE",
