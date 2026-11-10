@@ -2313,16 +2313,24 @@
     "אירוע": "פאנל אשראי הצרכנים - Consumer Credit Panel",
     "חשיבות": 1,
     "מקור": "https://www.newyorkfed.org/research/calendars/nationalecon_cal",
-    "הערה": "מועד לפי לוח המקור; צפי וקודם לא אומתו. ללא נתון בפועל.",
+    "הערה": "בפועל 10.11.2026: סה\"כ חוב משקי הבית עלה ב-334 מיליארד דולר (+1.8%) ל-19.1 טריליון ברבעון השלישי. משכנתאות +257 מיליארד ל-13.4 טריליון; כרטיסי אשראי +22 מיליארד ל-1.29 טריליון; רכב +21 מיליארד ל-1.73 טריליון; HELOC +23 מיליארד ל-481 מיליארד (העלייה הגדולה מאז 2005); הלוואות סטודנטים +5 מיליארד ל-1.66 טריליון. שיעורי המעבר לפיגורים נותרו יציבים. מקור: הודעת הפד של ניו יורק הרשמית, נקראה.",
     "מזהה": "c-0096",
     "אירוע_en": "Consumer Credit Panel",
-    "הערה_en": "Timing per the source calendar; estimate and prior not verified. No actual figure.",
+    "הערה_en": "Actual Nov 10, 2026: total household debt rose $334B (+1.8%) to $19.1T in Q3. Mortgages +$257B to $13.4T; credit cards +$22B to $1.29T; auto +$21B to $1.73T; HELOC +$23B to $481B (largest increase since 2005); student loans +$5B to $1.66T. Delinquency transition rates remained flat. Source: official New York Fed release, read.",
     "_translation": {
       "en": {
-        "source_hash": "637bfe694842c66b247c9270816b85a50914c92ebb3d7a47111b2d9d422b441c",
+        "source_hash": "10de5ab77bf5c6914ddb0dfdc35391f3e74640c904848217461e39ddb7580a54",
         "schema_version": 1
       }
-    }
+    },
+    "בפועל": "חוב משקי הבית +334 מיליארד דולר (+1.8%) ל-19.1 טריליון",
+    "תקופה": "רבעון 3 2026",
+    "תקופה_en": "Q3 2026",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "https://www.newyorkfed.org/microeconomics/hhdc"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-10"
   },
   {
     "תאריך": "2026-11-10",
