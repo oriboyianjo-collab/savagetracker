@@ -30791,5 +30791,35 @@
         "source_hash": "9c32808db7c3139becabbf993515317d838a639c0db9ee2703e76e7315f33a94"
       }
     }
+  },
+  {
+    "מזהה": "n-1260",
+    "category": "micro",
+    "חברה": "NVDA",
+    "כותרת": "NVIDIA (NVDA), לפי Axios: שר המסחר לוטניק קיבל מזכר מסווג שהזהיר על הקשר של הואנג עם אליס הואנג",
+    "כותרת_en": "NVIDIA (NVDA), Axios reports: Commerce Secretary Lutnick was sent classified warning about Huang's relationship with Alice Huang",
+    "תאריך": "2026-11-11 01:47",
+    "הועלה": "2026-11-11 01:53",
+    "קישור": "https://www.axios.com/2026/11/10/lutnick-nvidia-jensen-huang-china-memo",
+    "מקורות": [
+      {
+        "label": "Axios: הדיווח המקורי המלא של Maria Curi ו-Marc Caputo, פורסם 10 בנובמבר ב-23:47 UTC, 11 בנובמבר ב-01:47 בישראל",
+        "label_en": "Axios: full original report by Maria Curi and Marc Caputo, published Nov 10 at 23:47 UTC, Nov 11 at 01:47 in Israel",
+        "url": "https://www.axios.com/2026/11/10/lutnick-nvidia-jensen-huang-china-memo"
+      },
+      {
+        "label": "NVIDIA: הודעת הדירקטורים הבלתי תלויים מ-10 בנובמבר על שכירת יועצים לחקירה; רקע נפרד",
+        "label_en": "NVIDIA: Nov 10 independent directors statement retaining investigation counsel; separate context",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+      }
+    ],
+    "טקסט": "לא מאומת מול מזכר ממשלתי או אישור משרד המסחר; לפי דיווח Axios המקורי שנקרא במלואו.\n\nAxios דיווחה, מפי כמה מקורות הבקיאים בנושא, ששר המסחר האמריקאי הווארד לוטניק קיבל מזכר מסווג ביותר שהזהיר על הקשר של מנכ״ל NVIDIA ג׳נסן הואנג עם אליס הואנג, החשודה לפי הדיווחים בקשר למודיעין הסיני. משרד המסחר לא הגיב לכתבה. עצם קבלת המזכר ותוכנו לא אומתו כאן במסמך ממשלתי פומבי.\n\nהחידוש לעומת n-1098, שכבר תיאר דיווח על הפצת מזכר באביב בין קובעי מדיניות, הוא הזיהוי של לוטניק כנמען במשרד האחראי לבקרות הייצוא. לפי הכתבה, המזכר הופץ לפני נסיעת טראמפ לסין במאי. אין מדובר באזהרה חדשה שנשלחה הלילה או בהחלטת ייצוא חדשה.\n\nAxios קושרת את השאלה לידיעת משרד המסחר על הסיכונים בעת אישור מכירת שבבים, אך מבהירה שחלק מהאישורים קדמו לאזהרה ושלא ברור כיצד האישורים תורגמו בפועל למכירות. אין להסיק מהדיווח שהוכח ריגול, שמידע נפגע, שאנבידיה הפרה את החוק או שהוטלה הגבלת ייצוא חדשה.\n\nבנפרד, NVIDIA הודיעה ב-10 בנובמבר על שכירת יועצים לחקירה העצמאית, כפי שכבר כוסה ב-n-1252. ההודעה אינה מפרסמת ממצאים. אין כאן ציטוט מניה חדש או ייחוס של תנועת מחיר לדיווח.",
+    "טקסט_en": "Not verified against a government memo or Commerce Department confirmation; based on the full original Axios report.\n\nAxios reported, citing multiple people familiar with the matter, that U.S. Commerce Secretary Howard Lutnick was sent a highly classified memo warning about NVIDIA CEO Jensen Huang's relationship with Alice Huang, who is suspected in reporting of links to Chinese intelligence. Commerce did not comment to Axios. Receipt and contents of the memo have not been verified here through a public government document.\n\nThe new detail relative to n-1098, which already described reporting on a memo circulated among policymakers in the spring, is Lutnick's identification as a recipient at the department responsible for export controls. The article says the memo circulated before Trump's May China trip. This is not a new warning sent tonight or a new export decision.\n\nAxios raises questions about what Commerce knew about security risks when approving chip sales, but notes that some approvals predated the warning and that it is unclear how approvals translated into actual sales. The report does not establish espionage, compromised information, an NVIDIA legal violation or a new export restriction.\n\nSeparately, NVIDIA announced on Nov 10 that independent directors had retained counsel for the investigation, already covered in n-1252. That statement provides no findings. No new stock quote or claim that this report caused a price move is made here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "85157cc5599fe2107cbe44c765c6e02334aa4244c3158b898748fd727c5ea423"
+      }
+    }
   }
 ]
