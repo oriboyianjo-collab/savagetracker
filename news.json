@@ -29417,5 +29417,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "עליבאבא (BABA), לפי IFR (לא מאומת מול מקור ראשוני): יחידת השבבים T-Head מתכננת הנפקה בהונג קונג ב-2027 לגיוס 2-3 מיליארד דולר",
+    "category": "micro",
+    "חברה": "BABA",
+    "קישור": "https://www.thestandard.com.hk/finance/article/347954/Alibabas-chip-unit-T-Head-eyes-US3-billion-Hong-Kong-IPO-in-2027-IFR",
+    "מקורות": [
+      {
+        "label": "The Standard על בסיס IFR, 9 בנובמבר 2026 (לא מאומת מול מקור ראשוני)",
+        "url": "https://www.thestandard.com.hk/finance/article/347954/Alibabas-chip-unit-T-Head-eyes-US3-billion-Hong-Kong-IPO-in-2027-IFR",
+        "label_en": "The Standard citing IFR, Nov 9, 2026 (not verified against primary source)"
+      }
+    ],
+    "טקסט": "09.11.2026 | לא מאומת מול מקור ראשוני: מבוסס על דיווח IFR (International Financing Review) מקורות, בשידור The Standard; עליבאבא לא הודיעה רשמית.\n\nלפי IFR, T-Head - זרוע תכנון השבבים של עליבאבא שהוקמה ב-2018 - מתכננת הנפקה ראשונית בהונג קונג במהלך 2027, לגיוס של כ-2 עד 3 מיליארד דולר. רקע מהחברה עצמה: בספטמבר חשפה T-Head את שבב ה-AI מהדור הבא Zhenwu V900, שלטענת עליבאבא הוא שבב ה-AI החזק בסין מבחינת ביצועי מחשוב - פי שלושה מקודמו M890, עם אפשרות לקלסטרים של עד 500 אלף שבבים לאימון מודלים מתקדמים; אלו טענות החברה. עליבאבא צופה תחילת ייצור המוני ושיווק של ה-V900 ברבעון הראשון של 2027.",
+    "כותרת_en": "Alibaba (BABA), per IFR (not verified against primary source): chip unit T-Head plans a Hong Kong IPO in 2027 to raise $2-3 billion",
+    "טקסט_en": "Nov 9, 2026 | not verified against a primary source: based on an IFR (International Financing Review) sources report carried by The Standard; Alibaba has not officially announced.\n\nPer IFR, T-Head - Alibaba's chip-design arm founded in 2018 - is planning a Hong Kong IPO during 2027, aiming to raise about $2 billion to $3 billion. Background from the company itself: in September T-Head unveiled its next-generation AI chip, the Zhenwu V900, which Alibaba claims is China's most powerful AI chip in computing performance - three times its predecessor M890, scalable into clusters of up to 500,000 chips for frontier model training; these are the company's claims. Alibaba expects V900 mass production and market launch in Q1 2027.",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-10 14:44",
+    "מזהה": "n-1210",
+    "_translation": {
+      "en": {
+        "source_hash": "dc52cf9c12882a20ab3a7813c74ff7cd03f832495136fee471e263258981938f",
+        "schema_version": 1
+      }
+    }
   }
 ]
