@@ -30604,5 +30604,30 @@
         "source_hash": "1180bdadafb69b7f7029a0d79c545a9c523e1903e6913b670050193939332e66"
       }
     }
+  },
+  {
+    "מזהה": "n-1253",
+    "category": "micro",
+    "חברה": "DUK",
+    "כותרת": "Duke Energy (DUK): הוגשו בפלורידה תוכניות לארבעה אתרים סולאריים בהספק כולל של 300 מגה-ואט, להפעלה מתוכננת עד יוני 2028",
+    "כותרת_en": "Duke Energy (DUK): Florida plans filed for four solar sites totaling 300 MW, with service planned by June 2028",
+    "תאריך": "2026-11-10 21:24",
+    "הועלה": "2026-11-10 21:32",
+    "קישור": "https://www.prnewswire.com/news-releases/duke-energy-florida-plans-4-new-solar-energy-sites-to-deliver-1b-in-customer-savings-302935424.html",
+    "מקורות": [
+      {
+        "label": "Duke Energy דרך PRNewswire: הודעת החברה המלאה, 10.11.2026 14:24 ET",
+        "label_en": "Duke Energy via PRNewswire: full company release, Nov 10, 2026, 14:24 ET",
+        "url": "https://www.prnewswire.com/news-releases/duke-energy-florida-plans-4-new-solar-energy-sites-to-deliver-1b-in-customer-savings-302935424.html"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה נקראה במלואה; פרסום ב-14:24 ET, 21:24 בישראל.\n\nDuke Energy Florida הגישה לוועדת השירותים הציבוריים של פלורידה תוכניות לבניית ארבעה אתרים סולאריים במחוזות Orange ו-Sumter, שיוסיפו יחד 300 מגה-ואט לרשת. מדובר בהגשת תוכניות, לא באישור רגולטורי או בהשלמת בנייה.\n\nלוחות הזמנים המתוכננים: Nova - תחילת בנייה בינואר 2027 וסיום בפברואר 2028; Bull Creek - מרץ 2027 ואפריל 2028; Hogeye - מאי 2027 ומאי 2028; Wewahootee - מאי 2027 ויוני 2028. החברה מציינת שהכניסה לשירות עד יוני 2028 היא לפי לוח זמנים ראשוני.\n\nלפי הערכת החברה, ארבעת האתרים יחסכו ללקוחות יחד כמיליארד דולר בעלויות דלק לאורך חיי ההפעלה, כ-30 שנה. זה אינו סכום השקעה, הכנסות או שווי חוזה; היקף השקעה כולל לא נמסר. זו הגשה תפעולית נפרדת מעדכון תוצאות הרבעון והתחזית של Duke שכוסה ב-n-0324.",
+    "טקסט_en": "Nov 10, 2026 | Full company release read; published at 14:24 ET, 21:24 in Israel.\n\nDuke Energy Florida filed plans with the Florida Public Service Commission for four solar sites in Orange and Sumter counties, adding a combined 300 MW to the grid. This is a plan filing, not regulatory approval or completed construction.\n\nPlanned construction starts and completion dates are: Nova - January 2027 and February 2028; Bull Creek - March 2027 and April 2028; Hogeye - May 2027 and May 2028; Wewahootee - May 2027 and June 2028. The company describes service by June 2028 as tentative.\n\nThe company estimates the four sites will save customers a combined $1 billion in displaced fuel costs over their roughly 30-year operating lives. This is not capital spending, revenue or contract value; no total investment amount was disclosed. This is a standalone operational filing, separate from Duke's earnings and outlook covered in n-0324.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "91edd41daa055cc93b6d25ffe0caca6958827bf0b9a643bd83e5fd36ca83007e"
+      }
+    }
   }
 ]
