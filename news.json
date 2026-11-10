@@ -28970,5 +28970,59 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Anthropic (לא מאומת מול מקור ראשוני): לפי רויטרס, טיוטת תשקיף עדכנית להנפקה מתמחרת את המניות ב-70-78 דולר - גיוס של עד 64.4 מיליארד דולר; מספר מודלפף של 69.3 מיליארד נמשך אתמול כמיושן",
+    "category": "micro",
+    "קישור": "https://www.khaleejtimes.com/business/anthropic-ipo-to-raise-as-much-as-644-billion-latest-draft-prospectus-shows",
+    "מקורות": [
+      {
+        "label": "רויטרס דרך Khaleej Times, 10 בנובמבר 2026 (לא מאומת מול מקור ראשוני)",
+        "url": "https://www.khaleejtimes.com/business/anthropic-ipo-to-raise-as-much-as-644-billion-latest-draft-prospectus-shows",
+        "label_en": "Reuters via Khaleej Times, Nov 10, 2026 (not verified against a primary source)"
+      },
+      {
+        "label": "Bloomberg Law, 10 בנובמבר 2026",
+        "url": "https://news.bloomberglaw.com/capital-markets/anthropic-seeks-to-raise-69-3-billion-via-its-ipo-reuters-says",
+        "label_en": "Bloomberg Law, Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | לא מאומת מול מקור ראשוני: טיוטת התשקיף אינה פומבית; הדיווח מבוסס על רויטרס שעיינה בטיוטה, ולא נבדק מול המסמך עצמו.\n\nלפי רויטרס (בשידור חוזר של Khaleej Times, נקרא), טיוטת התשקיף העדכנית של Anthropic מתמחרת את מניות ההנפקה בטווח אינדיקטיבי של 70-78 דולר למניה, מה שיצביע על גיוס של עד כ-64.4 מיליארד דולר; החברה וחלק ממשקיעיה ימכרו מניות, ופרטי העסקה צפויים להתפרסם בקרוב. לפי Bloomberg Law, השיווק הפורמלי של ההנפקה עשוי להיפתח כבר היום, ואתמול הודלף בטעות מספר יעד של 69.3 מיליארד דולר שנמשך לאחר דקות והוצג על ידי החברה כמיושן - מכאן הפער בין המספרים בדיווחים השונים. יש להבחין: הטווח והיקף הגיוס הם מטיוטה שטרם פורסמה ועלולים להשתנות עד התשקיף הסופי. ההקשר הקודם: דיווח WSJ (לא מאומת) על יעד לתחילת מסחר ב-19-20 בנובמבר.",
+    "כותרת_en": "Anthropic (not verified against a primary source): per Reuters, latest draft prospectus prices IPO shares at $70-78 - a raise of up to $64.4B; a leaked $69.3B figure was withdrawn yesterday as outdated",
+    "טקסט_en": "Nov 10, 2026 | not verified against a primary source: the draft prospectus is not public; the report relies on Reuters having reviewed the draft and was not checked against the document itself.\n\nPer Reuters (carried by Khaleej Times, read), Anthropic's latest draft prospectus sets an indicative price band of $70-78 per share for the IPO, pointing to a raise of up to about $64.4 billion; the company and some of its investors will sell shares, with deal details expected soon. Per Bloomberg Law, formal marketing of the offering could begin as early as today, and a leaked target of $69.3 billion briefly appeared yesterday before being retracted and described by the company as outdated - which explains the differing figures across reports. Note: the band and the raise size come from an unpublished draft and may change before the final prospectus. Prior context: a WSJ report (unverified) pointed to a trading start on November 19-20.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 13:09",
+    "מזהה": "n-1193",
+    "_translation": {
+      "en": {
+        "source_hash": "a56e3fcd7d1b6df2c839a5fe18135063a181df5f9264951b3b5abde257f9dbb1",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "כותרת": "SLB זכתה בהסכם מסגרת מורחב מחברת הנפט הלאומית של שארג'ה (SNOC) לקידוחים בשדה הגז Moveyeid - קמפיין כפול בהיקפו מפרויקט 2024; החל מ-2027, ללא שווי מפורסם",
+    "category": "micro",
+    "חברה": "SLB",
+    "קישור": "https://www.wam.ae/en/article/c36osvn-snoc-awards-slb-expanded-drilling-agreement",
+    "מקורות": [
+      {
+        "label": "סוכנות הידיעות של איחוד האמירויות (WAM), 10 בנובמבר 2026",
+        "url": "https://www.wam.ae/en/article/c36osvn-snoc-awards-slb-expanded-drilling-agreement",
+        "label_en": "Emirates News Agency (WAM), Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי שידור WAM, סוכנות הידיעות הרשמית של איחוד האמירויות, נקרא.\n\nחברת הנפט הלאומית של שארג'ה (SNOC) העניקה ל-SLB הסכם מסגרת מורחב לקידוח בצינור גמיש בתת-שיווי-משקל (UBCTD) בשדה הגז Moveyeid, בקמפיין חדש הגדול כפליים בערך מפרויקט 2024. החל מ-2027 יכסה הקמפיין שלבי פיתוח חדשים בשדה אגירת הגז Moveyeid ובשדה הגז Hedebah החדש. ההסכם נחתם על ידי מנכ\"ל SNOC חמיס אל-מזרועי ומנהל SLB באמירויות דני רחל; לא פורסם שווי כספי. הקמפיין הראשון ב-2024 עלה על יעדי הקידוח והייצור עם תפוקת בארות גבוהה יותר ועלויות נמוכות יותר. SLB תספק ניהול פרויקט משולב ותבצע את שירותי הקידוח בצינור הגמיש. טכנולוגיית ה-UBCTD שומרת על לחץ נמוך בבאר במהלך הקידוח ומפחיתה נזק למעבה - ב-Moveyeid היא משפרת את קצב ההזרקה והשאיבה מהאגירה, וב-Hedebah את תפוקת בארות הגז.",
+    "כותרת_en": "SLB wins expanded framework agreement from Sharjah National Oil Corporation (SNOC) for Moveyeid gas field drilling - a campaign roughly twice the 2024 project; from 2027, no disclosed value",
+    "טקסט_en": "Nov 10, 2026 | per the official Emirates News Agency (WAM) dispatch, read.\n\nSharjah National Oil Corporation (SNOC) awarded SLB an expanded framework agreement for Underbalanced Coiled Tubing Drilling (UBCTD) at the Moveyeid gas field, in a new campaign roughly twice the size of the 2024 project. Starting in 2027 it will cover new development phases at the Moveyeid gas storage field and the newly developed Hedebah gas field. The agreement was signed by SNOC CEO Khamis Al Mazrouei and SLB UAE Managing Director Dany Rahal; no value was disclosed. The first 2024 campaign exceeded drilling and production targets with higher well productivity and lower costs. SLB will provide integrated project management and execute the coiled-tubing drilling services. UBCTD keeps wellbore pressure below reservoir pressure during drilling, reducing formation damage - at Moveyeid it improves gas injection and withdrawal rates for storage, and at Hedebah it supports higher gas-well productivity.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 13:09",
+    "מזהה": "n-1194",
+    "_translation": {
+      "en": {
+        "source_hash": "925a8b17839e4d0054cb65746b327d3a2bf498029a832edd35c29fd547628910",
+        "schema_version": 1
+      }
+    }
   }
 ]
