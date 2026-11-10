@@ -1,5 +1,29 @@
 [
   {
+    "כותרת": "פד ניו יורק: חוב משקי הבית בארה\"ב עלה ל-19.1 טריליון דולר; הפיגורים החמירו והלוואות על רקע הון ביתי בקצב שיא מאז 2005",
+    "category": "macro",
+    "קישור": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+    "מקורות": [
+      {
+        "label": "הפד של ניו יורק: הדוח הרבעוני לחוב ואשראי של משקי הבית, רבעון 3 2026 - מקור ראשוני",
+        "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+        "label_en": "New York Fed: Quarterly Report on Household Debt and Credit, Q3 2026 - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי הדוח הרבעוני של הפד של ניו יורק, נקרא.\n\nסה\"כ חוב משקי הבית בארה\"ב עלה ב-334 מיליארד דולר (+1.8%) ברבעון השלישי ל-19.1 טריליון דולר. שני סימנים בולטים בדוח: פיגורים מצטברים החמירו - 5.0% מהחוב בפיגור כלשהו, עלייה של 0.3 נקודות אחוז מהרבעון הקודם, כשהמעבר לפיגור מוקדם עלה במשכנתאות ובהלוואות רכב (בכרטיסי אשראי הוא השתפר מעט); ויתרות הלוואות על רקע הון ביתי (HELOC) קפצו ב-23 מיליארד דולר ל-481 מיליארד - העלייה הרבעונית הגדולה מאז 2005, בהמשך להתרחבות מתמשכת שהחלה ב-2022. יציאת משכנתאות חדשות התאיצה ל-595 מיליארד דולר ברבעון. לדברי דונגהון לי, יועץ מחקר בפד, איכות האשראי של חובות הדיור נותרה חזקה למרות הטפטוף כלפי מעלה במעברי הפיגור.",
+    "כותרת_en": "New York Fed: US household debt rose to $19.1T; delinquencies worsened and home-equity-line borrowing grew at the fastest pace since 2005",
+    "טקסט_en": "Nov 10, 2026 | per the New York Fed's quarterly report, read.\n\nTotal US household debt rose $334B (+1.8%) in Q3 to $19.1T. Two standouts: aggregate delinquency worsened - 5.0% of outstanding debt in some stage of delinquency, up 0.3 percentage points from the prior quarter, with transitions into early delinquency rising for mortgages and auto loans (credit cards improved slightly); and HELOC balances jumped $23B to $481B - the largest quarterly increase since 2005, extending an expansion that began in 2022. New mortgage originations accelerated to $595B in the quarter. The New York Fed's Donghoon Lee said credit quality of housing debts remains strong despite the uptick in delinquency transitions.",
+    "תאריך": "2026-11-10 18:10",
+    "הועלה": "2026-11-10 18:10",
+    "מזהה": "n-1238",
+    "_translation": {
+      "en": {
+        "source_hash": "da9b482f6fedf0a398cc65a2c2a505dcb19b32e6276657781adae4643d8391ca",
+        "schema_version": 1
+      }
+    }
+  },
+  {
     "כותרת": "Progressive (PGR): השלימה את השקת Snapshot Pro - איחוד תוכניות הטלמטיקה המסחריות ProView ו-Smart Haul לתוכנית אחת",
     "category": "micro",
     "קישור": "https://www.prnewswire.com/news-releases/progressive-insurance-unifies-commercial-telematics-with-new-snapshot-pro-program-302935136.html",
