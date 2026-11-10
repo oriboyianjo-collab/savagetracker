@@ -1,5 +1,29 @@
 [
   {
+    "מזהה": "n-1242",
+    "category": "micro",
+    "כותרת": "Lockheed Martin (LMT): מסרה את רקטת ה-GMLRS ה-100,000; ניסוי ראשון למנוע חדש עם General Dynamics הושלם",
+    "כותרת_en": "Lockheed Martin (LMT): delivers 100,000th GMLRS rocket; completes first test of new motor with General Dynamics",
+    "קישור": "https://www.prnewswire.com/news-releases/more-rockets-faster-lockheed-martin-reaches-major-gmlrs-production-milestone-302935201.html",
+    "תאריך": "2026-11-10 18:30",
+    "הועלה": "2026-11-10 18:36",
+    "מקורות": [
+      {
+        "label": "Lockheed Martin / PRNewswire: הודעת החברה, 10 בנובמבר, 11:30 ET",
+        "label_en": "Lockheed Martin / PRNewswire: company release, Nov 10, 11:30 ET",
+        "url": "https://www.prnewswire.com/news-releases/more-rockets-faster-lockheed-martin-reaches-major-gmlrs-production-milestone-302935201.html"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה, נקראה במלואה.\n\nלוקהיד מרטין הודיעה שמסרה את רקטת ה-GMLRS ה-100,000 וכי קצב הייצור הגיע לכמעט 14,000 רקטות בשנה, לפני לוח הזמנים המתוכנן.\n\nבנוסף, שיתוף הפעולה שלה עם General Dynamics Ordnance and Tactical Systems (GDOTS) השלים לאחרונה ניסוי ראשון במנוע רקטי מוצק חדש עבור GMLRS. בדיקות נוספות והסמכת המנוע מתוכננות ל-2027, במטרה להוסיף מקור אספקה מקומי שלישי לרכיב. זו אבן דרך בניסוי, לא מנוע שכבר הוסמך או נכנס לייצור סדרתי; ההודעה אינה מכריזה על חוזה חדש.",
+    "טקסט_en": "Nov 10, 2026 | company release, read in full.\n\nLockheed Martin announced delivery of its 100,000th GMLRS rocket and said production has reached nearly 14,000 rockets per year ahead of schedule.\n\nIts collaboration with General Dynamics Ordnance and Tactical Systems (GDOTS) also recently completed the first test of a new solid rocket motor for GMLRS. Further testing and motor qualification are planned for 2027, aiming to add a third domestic source for the component. This is a test milestone, not a motor already qualified or in serial production; the announcement contains no new contract.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f0c18eb9a55b9387238ce661ad3bc4ac387f79f02d877ccb9f3c4e95061b6b95"
+      }
+    }
+  },
+  {
     "מזהה": "n-1241",
     "category": "macro",
     "כותרת": "לפי Fox Business: משרד האנרגיה האמריקני סגר הלוואה של 480 מיליון דולר לפרויקט נפט וגז של Arena Energy",
