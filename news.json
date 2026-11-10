@@ -1,5 +1,34 @@
 [
   {
+    "מזהה": "n-1239",
+    "category": "micro",
+    "כותרת": "השלמה מ-3.11 | Harley-Davidson (HOG): לפי USA TODAY, ריקול ל-21,643 אופנועים בשל חיווי סרק שגוי",
+    "כותרת_en": "Nov 3 backfill | Harley-Davidson (HOG): per USA TODAY, 21,643 motorcycles recalled over false neutral indication",
+    "קישור": "https://www.usatoday.com/story/cars/recalls/2026/11/10/harley-davidson-motorcycles-recall/92704956007/",
+    "תאריך": "2026-11-03",
+    "הועלה": "2026-11-10 18:15",
+    "מקורות": [
+      {
+        "label": "USA TODAY, דיווח מ-10.11 על ריקול מ-3.11",
+        "label_en": "USA TODAY, Nov 10 report on the Nov 3 recall",
+        "url": "https://www.usatoday.com/story/cars/recalls/2026/11/10/harley-davidson-motorcycles-recall/92704956007/"
+      },
+      {
+        "label": "USA TODAY: רשומת ריקול NHTSA 26V730000, מ-3.11",
+        "label_en": "USA TODAY: recall record NHTSA 26V730000, dated Nov 3",
+        "url": "https://www.usatoday.com/recalls/automotive/NHTSA-26V730000/"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני\nהשלמה לריקול מ-03.11.2026, לא אירוע חדש מהיום.\n\nלפי USA TODAY, Harley-Davidson קראה לתיקון 21,643 אופנועים מתשעה דגמי שנת 2026, משום שמודול בקרת המנוע עלול להציג מצב סרק כשהתמסורת נמצאת בהילוך. מספר הקמפיין המדווח הוא NHTSA 26V730000 ומספר הריקול של החברה 0194.\n\nלפי הדיווח, נכון ל-27 באוקטובר החברה ידעה על שתי פציעות שעשויות להיות קשורות לליקוי; קשר סיבתי לא אושר. שיעור הכלים שבהם מוערך שקיים הליקוי הוא פחות מ-1% מאוכלוסיית הריקול. הסוכנויות יחליפו ללא תשלום את חיישן מיקום ההילוך. פרטי הריקול נקראו ב-USA TODAY; הדוח המקורי של NHTSA לא נקרא.",
+    "טקסט_en": "Not verified against a primary source\nBackfill for the Nov 3, 2026 recall, not a new event today.\n\nAccording to USA TODAY, Harley-Davidson recalled 21,643 motorcycles across nine model-year 2026 models because the engine control module may indicate neutral while the transmission is in gear. The reported campaign is NHTSA 26V730000; the company recall number is 0194.\n\nThe report says the company knew of two potentially related injuries as of Oct 27; causation was not confirmed. The estimated defect rate is less than 1% of the recall population. Dealers will replace the gear position sensor free of charge. Recall details were read in USA TODAY; the original NHTSA filing was not read.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d4b801f368c0070f1415615b8e666b91c9c6b25cc800863c2909efecfaa7a283"
+      }
+    }
+  },
+  {
     "כותרת": "פד ניו יורק: חוב משקי הבית בארה\"ב עלה ל-19.1 טריליון דולר; הפיגורים החמירו והלוואות על רקע הון ביתי בקצב שיא מאז 2005",
     "category": "macro",
     "קישור": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
