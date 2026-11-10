@@ -29292,5 +29292,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Wyndham (WH) הודתה באירוע סייבר: סיסמה שהוטבעה באפליקציית האנדרואיד חשפה מאגר לקוחות פנימי ב-Salesforce עם שמות, מיילים ואסימוני התחברות",
+    "category": "micro",
+    "חברה": "WH",
+    "קישור": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+    "מקורות": [
+      {
+        "label": "TechCrunch (זאק וויטאקר), 9 בנובמבר 2026",
+        "url": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+        "label_en": "TechCrunch (Zack Whittaker), Nov 9, 2026"
+      }
+    ],
+    "טקסט": "09.11.2026 | דיווח TechCrunch, נקרא במלואו.\n\nחוקר האבטחה רוברט וויגינס (What Security) מצא סיסמה שהוטבעה בקוד המקור של אפליקציית האנדרואיד של Wyndham, והעניקה גישה למאגר לקוחות פנימי המתארח אצל Salesforce: שמות, כתובות מייל, מספרי חברי מועדון, ואסימוני התחברות (JWT) השומרים על לקוחות מחוברים - לצד קבצים ומסמכים של החברה. לטענת החוקר, במאגר מיליוני רשומות, אך מספר הלקוחות שנחשפו בפועל לא נקבע; 129 מיליון חברי המועדון של החברה אינו מספר הנחשפים. החוקר פנה דרך TechCrunch משום שלחברה לא היה ערוץ דיווח תקלות, וזמן קצר לאחר הפנייה הסיסמה בוטלה והגישה נחסמה. Wyndham מסרה כי \"ננקטו צעדים לטיפול בנושא\" ושאין לצוותי האבטחה \"ראיות לגישה בלתי מורשית\", אך סירבה לומר אם יש לה יכולת טכנית לבדוק גישות קודמות, אם תודיע ללקוחות או תדווח לרגולטורים (כולל ה-SEC), וכמה זמן הסיסמה שהתה באפליקציה. זו תגלית שנייה של וויגינס בתוך שבועיים של סיסמה מוטבעת (לאחר Applebee's).",
+    "כותרת_en": "Wyndham (WH) acknowledged a cybersecurity incident: a password hardcoded in its Android app exposed an internal Salesforce customer database with names, emails and login tokens",
+    "טקסט_en": "Nov 9, 2026 | TechCrunch report, read in full.\n\nSecurity researcher Robert Wiggins (What Security) found a password hardcoded in the source code of Wyndham's Android app, granting access to an internal customer database hosted on Salesforce: names, email addresses, loyalty member numbers, and login tokens (JWTs) that keep customers signed in - alongside company files and documents. Per the researcher, the database held millions of entries, but the actual number of exposed customers could not be determined; Wyndham's 129 million enrolled rewards members is NOT the exposure count. The researcher reached out through TechCrunch because the company had no vulnerability-reporting channel, and the credential was revoked shortly after, blocking further access. Wyndham said \"steps have been taken to address the issue\" and that its security teams have \"no evidence of any unauthorized access,\" but declined to say whether it has the technical means to check for prior access, whether it will notify customers or report to regulators (including the SEC), or how long the password sat in the app. This is Wiggins' second hardcoded-credential discovery in two weeks (after Applebee's).",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-10 14:06",
+    "מזהה": "n-1205",
+    "_translation": {
+      "en": {
+        "source_hash": "44040802b26a10da8c9ee5e86e4a938acb498447f0b5b3015f1628410fd61138",
+        "schema_version": 1
+      }
+    }
   }
 ]
