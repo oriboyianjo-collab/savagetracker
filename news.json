@@ -30028,5 +30028,39 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Chevron (CVX): QatarEnergy רוכשת 25% מרישיון PEL 82 מול חופי נמיביה; שברון נשארת המפעילה ויורדת ל-55%, ההשלמה מותנית באישורי רגולציה",
+    "category": "micro",
+    "קישור": "https://www.investegate.co.uk/announcement/rns/sintana-energy-inc---sei/pel-82-farm-out/9866479",
+    "מקורות": [
+      {
+        "label": "הודעת Sintana Energy לבורסות טורונטו ולונדון (RNS): מבנה העסקה המלא, 10 בנובמבר 2026",
+        "url": "https://www.investegate.co.uk/announcement/rns/sintana-energy-inc---sei/pel-82-farm-out/9866479",
+        "label_en": "Sintana Energy RNS (TSX-V/AIM): full deal structure, Nov 10, 2026"
+      },
+      {
+        "label": "הודעת Custos Energy (BusinessWire): הכניסה של QatarEnergy ל-PEL 82, 9 בנובמבר 2026",
+        "url": "https://www.businesswire.com/news/home/20261109232614/en/QatarEnergy-Farm-In-to-PEL-82",
+        "label_en": "Custos Energy release (BusinessWire): QatarEnergy farm-in to PEL 82, Nov 9, 2026"
+      },
+      {
+        "label": "The National: הודעת QatarEnergy וציטוט אל-כעבי, 9 בנובמבר 2026",
+        "url": "https://www.thenationalnews.com/business/energy/2026/11/09/qatarenergy-agrees-to-buy-25-stake-in-namibias-offshore-oil-block-in-expansion-push/",
+        "label_en": "The National: QatarEnergy statement and Al-Kaabi quote, Nov 9, 2026"
+      }
+    ],
+    "טקסט": "9-10.11.2026 | QatarEnergy הודיעה אתמול על הסכם לרכישת זכות השתתפות של 25% ברישיון הנפט PEL 82 (בלוקים 2112B ו-2212A באגן וולוויס, מול חופי נמיביה) מחברת-בת של Chevron. לאחר ההשלמה: שברון תחזיק 55% (ירידה מ-80%) ותישאר המפעילה, QatarEnergy 25%, וחברת הנפט הלאומית של נמיביה (NAMCOR) ו-Custos Energy ימשיכו להחזיק 10% כל אחת. ההשלמה מותנית באישורי רגולציה מקובלים והתמורה לשברון לא נחשפה - כלומר העסקה עדיין לא הושלמה.\n\nהרישיון משתרע על כ-11,450 קמ\"ר בעומקי מים של 350-2,300 מטר, נמצא בשלב חקר עם כיסוי סיסמי של כ-70% וקידוחי עבר Wingat-1 ו-Murombe-1; לא נרשמו לו עדיין עתודות או משאבים מוכחים. מנכ\"ל QatarEnergy סעד אל-כעבי אמר שההסכם מחזק את הקשר עם שברון ומרחיב את נוכחות החברה בנמיביה; QatarEnergy כבר שותפה של שברון גם ברישיון PEL 90 הסמוך. היום אישרה זאת גם Sintana Energy בהודעה לבורסה (החזקתה העקיפה דרך Custos לא משתנה). משמעות לשברון: פיזור סיכוני חקר באגן מתפתח תוך שמירת ההפעלה, ללא ערך עסקה ידוע.",
+    "כותרת_en": "Chevron (CVX): QatarEnergy buys 25% of the PEL 82 license offshore Namibia; Chevron stays operator at 55%, completion subject to regulatory approvals",
+    "טקסט_en": "Nov 9-10, 2026 | QatarEnergy announced yesterday an agreement to acquire a 25% participating interest in the PEL 82 petroleum exploration license (blocks 2112B and 2212A in the Walvis Basin, offshore Namibia) from a Chevron affiliate. Following completion: Chevron will hold 55% (down from 80%) and remain operator, QatarEnergy 25%, and Namibia's national oil company NAMCOR and Custos Energy will each continue to hold 10%. Completion is subject to customary regulatory approvals and the consideration to Chevron was not disclosed - the deal is not yet complete.\n\nThe license covers about 11,450 km2 in water depths of 350-2,300 meters, is in an exploration period with about 70% seismic coverage and the prior Wingat-1 and Murombe-1 wells; no reserves or resources have been attributed to it yet. QatarEnergy CEO Saad Al-Kaabi said the agreement strengthens the relationship with Chevron and expands the company's footprint in Namibia; QatarEnergy is already Chevron's partner in the adjacent PEL 90 license. Sintana Energy confirmed the transaction in a stock-exchange announcement today (its indirect interest via Custos is unchanged). For Chevron, this spreads frontier exploration risk while retaining operatorship, with no disclosed deal value.",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-10 16:49",
+    "מזהה": "n-1232",
+    "_translation": {
+      "en": {
+        "source_hash": "ca4bfc3a828c3a9a31b53e2854e68fa9f8969b0f6c61057e8b81d1b83c57ae56",
+        "schema_version": 1
+      }
+    }
   }
 ]
