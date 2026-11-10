@@ -6121,7 +6121,6 @@ let newsSeq = 0, newsRequest = null, newsRaw = null, newsLanguage = ''; const NS
 // Revalidate the canonical URL so unchanged responses can reuse the HTTP cache.
 // Keep an existing list on screen while checking. Timeout covers response body too.
 async function loadNews(){ const el = $('newsList'); if(!el) return;
-  if(newsItems.length && newsLanguage===I18n.language){ newsAt = ++alNewsTick; alReveal(); }
   if(newsRequest) return newsRequest;
   const seq = ++newsSeq, tick = ++alNewsTick;
   newsRequest = (async()=>{ let items = null, err = false, nextRaw = null;
