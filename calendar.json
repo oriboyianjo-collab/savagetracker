@@ -2183,14 +2183,14 @@
     "תקופה": "אוקטובר · שנתי",
     "חשיבות": 3,
     "קודם": "3.7%",
-    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. יש לבדוק את זמינות השינוי השנתי בסדרה זו בפרסום עצמו; מקף חסר אינו אפס ואין להשלים נתון מחושב. הקודם והצפי נשמרו; אין נתון בפועל חדש.\nבפועל 10.11.2026: לא פורסם. בפרסום אוקטובר 2026 מופיע מקף בעמודת שינוי 12 החודשים - BLS לא אסף מדדי אוקטובר 2025 עקב השבתת הממשל ולכן אינו מפרסם שינוי שנתי בסדרה זו. המקף אינו אפס ואין להשלים נתון מחושב. מקור: פרסום BLS הרשמי, נקרא.",
+    "הערה": "השנתי לא פורסם עקב חוסר בנתוני אוקטובר 2025. צפי לא נמצא ב־ForexFactory.",
     "מזהה": "c-0091",
     "אירוע_en": "Consumer price index - annual",
     "תקופה_en": "October · annual",
-    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. Check this series in the release itself; a missing dash is not zero and must not be replaced with a calculated figure. Prior and estimate retained; no new actual.\nActual Nov 10, 2026: not published. The October 2026 release shows a dash in the 12-month change column - BLS did not collect October 2025 indexes due to the government shutdown and therefore publishes no over-the-year change for this series. A dash is not zero and no computed figure is substituted. Source: official BLS release, read.",
+    "הערה_en": "The annual figure was not published due to missing October 2025 data. No estimate found on ForexFactory.",
     "_translation": {
       "en": {
-        "source_hash": "79338830107b57306ebb4cdb02bd64fa071adcbb6e9e7f16fc0882c015717ff2",
+        "source_hash": "bf8ab2563f853fd57ddba46e8ed8f8f624b87487b4e709f420acdbd50a71bafa",
         "schema_version": 1
       }
     },
@@ -2239,14 +2239,14 @@
     "תקופה": "אוקטובר · שנתי",
     "חשיבות": 3,
     "קודם": "2.6%",
-    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. יש לבדוק את זמינות השינוי השנתי בסדרה זו בפרסום עצמו; מקף חסר אינו אפס ואין להשלים נתון מחושב. הקודם והצפי נשמרו; אין נתון בפועל חדש.\nבפועל 10.11.2026: לא פורסם. בפרסום אוקטובר 2026 מופיע מקף בעמודת שינוי 12 החודשים - BLS לא אסף מדדי אוקטובר 2025 עקב השבתת הממשל ולכן אינו מפרסם שינוי שנתי בסדרה זו. המקף אינו אפס ואין להשלים נתון מחושב. מקור: פרסום BLS הרשמי, נקרא.",
+    "הערה": "השנתי לא פורסם עקב חוסר בנתוני אוקטובר 2025. צפי לא נמצא ב־ForexFactory.",
     "מזהה": "c-0093",
     "אירוע_en": "Core consumer price index - annual",
     "תקופה_en": "October · annual",
-    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. Check this series in the release itself; a missing dash is not zero and must not be replaced with a calculated figure. Prior and estimate retained; no new actual.\nActual Nov 10, 2026: not published. The October 2026 release shows a dash in the 12-month change column - BLS did not collect October 2025 indexes due to the government shutdown and therefore publishes no over-the-year change for this series. A dash is not zero and no computed figure is substituted. Source: official BLS release, read.",
+    "הערה_en": "The annual figure was not published due to missing October 2025 data. No estimate found on ForexFactory.",
     "_translation": {
       "en": {
-        "source_hash": "be444d3880eea274d9cc59c1b69d8baa191abf6d05cd0058b25957ec27d7e26c",
+        "source_hash": "644b0f5bce3aa997dce749cb517290eab8efd771929130ccf78cb02d87631d93",
         "schema_version": 1
       }
     },
