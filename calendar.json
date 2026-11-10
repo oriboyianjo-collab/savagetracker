@@ -2126,23 +2126,25 @@
     "תקופה": "שבועי",
     "חשיבות": 1,
     "קודם": "16.75K",
-    "הערה": "ADP הודיעה ב-27.10 שה-NER Pulse הבא יפורסם ב-10.11, סמוך לאחר 08:15 ניו יורק (15:15 בישראל). אין פרסום שבועי בשבוע שבו מתפרסם דוח ADP החודשי; הפרסום החודשי ב-4.11 הוא סדרה נפרדת.\nבפועל 10.11.2026 (מקור משני; טרם אומת מול עמוד ADP הרשמי): לפי ForexFactory, השינוי השבועי בתעסוקה 19.8K; השבוע הקודם מוצג שם 19.5K והשבוע שלפניו 16.8K, וממסר FJ (19.75K) עולה בקנה אחד עם העיגול. עמוד ADP הרשמי נבדק 15:36 שעון ישראל והציג רק את הדוח החודשי לאוקטובר (86K) - פרסום NER Pulse שבועי לא אותר בעמוד. ערך הקודם הקיים (16.75K) נשמר כפי שנרשם; ייתכן שהוא מתייחס לשבוע הקודם-קודם. הערך יעודכן עם אימות רשמי.",
+    "הערה": "ADP הודיעה ב-27.10 שה-NER Pulse הבא יפורסם ב-10.11, סמוך לאחר 08:15 ניו יורק (15:15 בישראל). אין פרסום שבועי בשבוע שבו מתפרסם דוח ADP החודשי; הפרסום החודשי ב-4.11 הוא סדרה נפרדת.\nבפועל 10.11.2026, אומת מול המקור הרשמי (adpri.org, NER Pulse): השבוע שהסתיים ב-24.10.2026 - תוספת של 19,750 משרות במגזר הפרטי; זהו שינוי שבועי בממוצע נע של ארבעה שבועות, לא שינוי שבועי פשוט. הערך המשני הקודם (19.8K מ-ForexFactory) היה עיגול של אותו נתון; ממסר FJ (19.75K) תאם במדויק. לפי ForexFactory (משני), השבוע הקודם 19.5K - לא מוצג בעמוד הרשמי. ערך הקודם הרשום (16.75K) נשמר כפי שנרשם; ייתכן שהוא מתייחס לשבוע הקודם-קודם. הדוח החודשי לאוקטובר (86K) הוא סדרה נפרדת.",
     "מזהה": "c-0089",
     "אירוע_en": "Employment change - ADP weekly",
     "תקופה_en": "Weekly",
-    "הערה_en": "ADP announced on Oct 27 that the next NER Pulse will be published on Nov 10, shortly after 08:15 New York (15:15 Israel). There is no weekly release in the week the monthly ADP report is published; the Nov 4 monthly release is a separate series.\nActual Nov 10, 2026 (secondary source; not yet verified against the official ADP page): per ForexFactory, weekly employment change 19.8K; the prior week is shown there as 19.5K and the week before as 16.8K, and the FJ relay (19.75K) is consistent with rounding. The official ADP page was checked 15:36 Israel time and displayed only the October monthly report (86K) - no weekly NER Pulse print was located on the page. The existing prior value (16.75K) is retained as recorded; it may correspond to the week before last. The figure will be updated upon official verification.",
+    "הערה_en": "ADP announced on Oct 27 that the next NER Pulse will be published on Nov 10, shortly after 08:15 New York (15:15 Israel). There is no weekly release in the week the monthly ADP report is published; the Nov 4 monthly release is a separate series.\nActual Nov 10, 2026, verified against the official source (adpri.org, NER Pulse): week ending Oct 24, 2026 - private-sector employment up 19,750; this is the week-over-week change in a four-week moving average, not a simple weekly change. The earlier secondary value (19.8K from ForexFactory) was a rounding of the same figure; the FJ relay (19.75K) matched exactly. Per ForexFactory (secondary), the prior week was 19.5K - not shown on the official page. The recorded prior value (16.75K) is retained as recorded; it may correspond to the week before last. The October monthly report (86K) is a separate series.",
     "_translation": {
       "en": {
-        "source_hash": "5d6bfd4ecfc192018b7923b12ec363d9add015c6ef6b7bb6edc9ab4f4639bee6",
+        "source_hash": "3e9bf1ddcafdad276c8d2a67060feb5865a6365beecf0a15ec6082e091177d36",
         "schema_version": 1
       }
     },
-    "בפועל": "19.8K",
+    "בפועל": "19.75K",
     "מקורות_בדיקה_עדכנית": [
+      "https://adpri.org/",
       "https://www.forexfactory.com/calendar?week=nov8.2026",
       "https://adpemploymentreport.com/"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-10"
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
+    "בפועל_en": "19.75K"
   },
   {
     "תאריך": "2026-11-10",
