@@ -30654,5 +30654,34 @@
         "source_hash": "e5c21f6b644d8f64a3f3632347ef5202ef24008ac5ac39a5a7595bc0db24b76d"
       }
     }
+  },
+  {
+    "מזהה": "n-1255",
+    "category": "macro",
+    "כותרת": "באומן (הפד): לפי הערכתה, ליבת PCE השנתית עלתה ל-3.3% באוקטובר; יש לשקול בזהירות את עלות ההידוק הנוסף",
+    "כותרת_en": "Fed's Bowman estimates October annual core PCE at 3.3%; says further tightening benefits must be weighed carefully against costs",
+    "תאריך": "2026-11-10 22:30",
+    "הועלה": "2026-11-10 22:35",
+    "קישור": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+    "מקורות": [
+      {
+        "label": "הפד: נאום באומן המלא במועצה ליחסי חוץ, 10 בנובמבר 2026",
+        "label_en": "Federal Reserve: full Bowman Council on Foreign Relations speech, Nov 10, 2026",
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm"
+      },
+      {
+        "label": "הפד: לוח נובמבר, אירוע 15:30 ET",
+        "label_en": "Federal Reserve: November calendar, 15:30 ET event",
+        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+      }
+    ],
+    "טקסט": "10.11.2026 | נוסח הנאום הרשמי נקרא במלואו; אירוע המועצה ליחסי חוץ ב-15:30 ET, 22:30 בישראל.\n\nסגנית יו״ר הפד לפיקוח מישל באומן אמרה שנתוני ה-CPI שפורסמו היום מצביעים, לפי הערכתה, על עלייה נוספת באינפלציית ליבת ה-PCE ל-3.3% ב-12 החודשים עד אוקטובר. זהו אומדן שלה לקראת דוח PCE אוקטובר, לא נתון רשמי שכבר פורסם. לדבריה, לחצי האינפלציה מתמשכים ואף עשויים להתרחב, בעוד תנאי שוק העבודה מראים התייצבות והתחזקות.\n\nלצד הדגש על הורדת האינפלציה, באומן אמרה שהירידות במניות, העלייה בריביות פרטיות והתחזקות הדולר כבר הידקו את התנאים הפיננסיים. על רקע זה יש לשקול בזהירות את התועלת מהידוק מוניטרי נוסף מול העלות לענפים הרגישים לריבית. היא לא נקבה בהעלאה מסוימת לישיבת דצמבר; תחזיתה היא שליבת ה-PCE תתקרב ל-2% בשנה הבאה ככל שהשפעות המכסים, האנרגיה והביקוש הקשור ל-AI ידעכו או יתהפכו. זו תחזית אישית, לא התחייבות של הפד.\n\nבסיכוני מימון ה-AI ציינה שהחוב הקשור לתחום נמצא בדרך לעבור 800 מיליארד דולר השנה. בנפרד, תשלומים פוטנציאליים בגין התחייבויות חכירה וחוזים ארוכי טווח וערבויות לערך שיורי נאמדים ביותר מפי שלושה מסכום החוב. אין מדובר באותו סכום חוב או בהפסד שכבר נוצר. היא הזהירה שמבני המימון המורכבים וקשרי השקעה בין ספקים ללקוחות מקשים להעריך סיכון צד נגדי; אכזבה מהכנסות AI עלולה לפגוע במניות, באשראי ובהשקעות.\n\nהחידוש הוא הערכת האינפלציה והאיזון המדיני בנאום שאחרי ה-CPI, לא חזרה על תצוגות האירוע ב-n-1093 וב-n-1158. דברי וולר מ-n-1185 נמסרו לפני המדד ואינם מוצגים כאן כהצהרה חדשה לאחריו.",
+    "טקסט_en": "Nov 10, 2026 | Full official speech read; Council on Foreign Relations event at 15:30 ET, 22:30 in Israel.\n\nFed Vice Chair for Supervision Michelle Bowman said today's CPI suggests, in her assessment, that 12-month core PCE inflation rose further to 3.3% in October. This is her estimate ahead of the October PCE report, not an official actual already released. She sees inflation pressures persisting and potentially broadening, while labor market conditions appear to be stabilizing and firming.\n\nAlongside the priority of lowering inflation, Bowman said lower equity prices, higher private interest rates and a stronger dollar have already tightened financial conditions. Against that backdrop, further monetary tightening benefits must be weighed carefully against costs to interest-rate-sensitive sectors. She did not specify a particular December increase. Her forecast is for core PCE to move closer to 2% next year as tariff, energy and AI-demand effects wane or unwind. This is her outlook, not a Fed commitment.\n\nOn AI financing risks, she said AI-related debt is on track to exceed $800 billion this year. Separately, potential payments under long-term lease and contract commitments and residual value guarantees are estimated at more than three times the amount of debt. These are not the same debt amount or losses already incurred. She warned that complex financing and supplier-customer equity links make counterparty risk hard to assess; disappointing AI revenues could hurt equities, credit and investment.\n\nThe new information is her post-CPI inflation assessment and policy balance, rather than the event previews in n-1093 and n-1158. Waller's remarks in n-1185 preceded CPI and are not presented here as a new post-release statement.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5bad7787cab964160a41cb94e0e354dde086a8d0157c8b0e7b5cd3c90f18db29"
+      }
+    }
   }
 ]
