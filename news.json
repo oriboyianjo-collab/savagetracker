@@ -29492,5 +29492,130 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "IBM (IBM) ומיקרוסופט (MSFT) משיקות את Imagine Enterprise: פלטפורמת סוכני AI ייעודית לתעשיות, עם מעל 6,000 סוכנים ונכסים מוכנים של IBM Consulting",
+    "category": "micro",
+    "חברה": "IBM",
+    "קישור": "https://www.prnewswire.com/news-releases/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation-302934280.html",
+    "מקורות": [
+      {
+        "label": "הודעה משותפת, PRNewswire, 10 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://www.prnewswire.com/news-releases/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation-302934280.html",
+        "label_en": "Joint announcement, PRNewswire, Nov 10, 2026 - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | ההודעה המשותפת, נקראה.\n\nIBM ומיקרוסופט הודיעו על Imagine Enterprise, פלטפורמה אג'נטית לבנייה, הפעלה וממשול של סוכני AI לתהליכים ייעודיים לתעשיה, במיוחד בענפים מוסדרים. IBM Consulting מביאה יותר מ-6,000 סוכנים ונכסים מוכנים מראש (agents and assets - לא כולם מוצרים חדשים) שנבנו על פלטפורמת Consulting Advantage, ומיקרוסופט מספקת את תשתית ה-AI, הנתונים, הענן והאבטחה; מהנדסים פרוסים-קדימה משתי החברות ילוו הזמנות מתאימות מניסוי לייצור. כדוגמה לצרכים, צוינה טרנספורמציית SEI - שיתוף-פעולה שנבחן, לא חוזה שנחתם. מסגרות ייעודיות מיועדות לפיננסים, ביטוח וקמעונאות, עם בקרות, תצפיתיות ותמיכת תאימות ל-AI.",
+    "כותרת_en": "IBM (IBM) and Microsoft (MSFT) launch Imagine Enterprise: an industry-specific AI-agent platform with 6,000+ pre-built IBM Consulting agents and assets",
+    "טקסט_en": "Nov 10, 2026 | the joint announcement, read.\n\nIBM and Microsoft announced Imagine Enterprise, an agentic platform to build, run and govern AI agents for industry-specific processes, especially in regulated industries. IBM Consulting brings more than 6,000 pre-built agents and assets (not all new products) built on its Consulting Advantage platform, while Microsoft provides the AI, data, cloud and security foundation; forward-deployed engineers from both companies will support qualifying engagements from experimentation to production. SEI's enterprise transformation was cited as an example of the needs addressed - a collaboration being explored, not a signed contract. Industry frameworks target financial services, insurance and retail, with controls, observability and AI-compliance support.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 15:07",
+    "מזהה": "n-1213",
+    "_translation": {
+      "en": {
+        "source_hash": "b9ef1e5c6e008c7f0df9bdf617bdc8e5f847877e5ca4394f8feaf7f78d755253",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "כותרת": "Waters (WAT): אישור FDA 510(k) לשני מבדקי זרימה-ציטומטרית מוכנים לשימוש לזיהוי לימפומה מסוג B, כולל CLL - רגישות 96.3% וסגוליות 98.2%; זמינות בארה\"ב באביב 2027",
+    "category": "micro",
+    "חברה": "WAT",
+    "קישור": "https://www.prnewswire.com/news-releases/waters-achieves-fda-510k-clearance-for-ready-to-use-flow-cytometry-clinical-tests-for-leukemia-and-lymphoma-302934180.html",
+    "מקורות": [
+      {
+        "label": "הודעת Waters, PRNewswire, 10 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://www.prnewswire.com/news-releases/waters-achieves-fda-510k-clearance-for-ready-to-use-flow-cytometry-clinical-tests-for-leukemia-and-lymphoma-302934180.html",
+        "label_en": "Waters announcement, PRNewswire, Nov 10, 2026 - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה, נקראה.\n\nWaters הודיעה שמבדקי BD OneFlow LST ו-BD OneFlow B-CLPD T1 קיבלו אישור FDA במסלול 510(k), המאפשר שיווק מסחרי בארה\"ב: פתרון סטנדרטי מוכן-לשימוש לזיהוי לימפומות B לא-הודג'קין, כולל לוקמיה לימפוציטית כרונית (CLL) - כסיוע לאבחון, לא כתחליף לשיפוט קליני. לפי החברה, הפתרון משיג רגישות של 96.3% וסגוליות של 98.2% בזיהוי CLL ומצמצם כ-95% מהצעדים הידניים. ההזמנות המוקדמות נפתחו כעת; הזמינות המסחרית בארה\"ב צפויה באביב 2027 - המוצר עדיין אינו נשלח. BD נשארת הייצרן החוקי בתקופת ההעברה.",
+    "כותרת_en": "Waters (WAT): FDA 510(k) clearance for two ready-to-use flow-cytometry tests for B-cell lymphoma identification incl. CLL - 96.3% sensitivity, 98.2% specificity; US availability spring 2027",
+    "טקסט_en": "Nov 10, 2026 | per the company's announcement, read.\n\nWaters announced FDA 510(k) clearance of the BD OneFlow LST and BD OneFlow B-CLPD T1 tests, enabling US commercialization: a standardized ready-to-use flow-cytometry solution aiding identification of B-cell non-Hodgkin lymphoma, including chronic lymphocytic leukemia (CLL) - an aid to diagnosis, not a replacement for clinical judgment. Per the company, the solution delivers 96.3% sensitivity and 98.2% specificity in identifying CLL and cuts about 95% of manual steps. Pre-orders are open now; US commercial availability is expected in spring 2027 - the product is not yet shipping. BD remains the legal manufacturer during the transfer period.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 15:07",
+    "מזהה": "n-1214",
+    "_translation": {
+      "en": {
+        "source_hash": "69d3323400dbca8132bcede612bf328165ae282c408badfebd9591747c7306db",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "כותרת": "ג'ונסון אנד ג'ונסון (JNJ): CAPLYTA עמד ביעדים במחקר שלב 3 פיבוטלי שני במאניה דו-קוטבית - שיפור 3.7 נקודות YMRS מול פלצבו; הגשה ל-FDA מתוכננת, לא אושר להתוויה זו",
+    "category": "micro",
+    "חברה": "JNJ",
+    "קישור": "https://www.prnewswire.com/news-releases/johnson--johnson-announces-caplyta-lumateperone-shows-significant-and-rapid-improvement-in-bipolar-mania-in-second-pivotal-phase-3-study-302934074.html",
+    "מקורות": [
+      {
+        "label": "הודעת J&J, PRNewswire, 10 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://www.prnewswire.com/news-releases/johnson--johnson-announces-caplyta-lumateperone-shows-significant-and-rapid-improvement-in-bipolar-mania-in-second-pivotal-phase-3-study-302934074.html",
+        "label_en": "J&J announcement, PRNewswire, Nov 10, 2026 - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה, נקראה.\n\nמחקר 452 - מחקר שלב 3 פיבוטלי שני של CAPLYTA (לומטפרון) 42 מ\"ג יומי במבוגרים עם פרקי מאניה במסגרת הפרעה דו-קוטבית מסוג I - עמד ביעד הראשי וביעדי המשנה המרכזיים: שיפור מובהק של 3.7 נקודות במדד YMRS מול פלצבו בשבוע 3 (גודל אפקט -0.43; P<.0001), עם שיפור מובהק כבר ביום 3. כמעט כפל המטופלים השיגו תגובה קלינית: 43.9% מול 23.7% בפלצבו. יחד עם מחקר 451, שני המחקרים יתמכו בהגשה מתוכננת ל-FDA להתוויית מאניה - התרופה אינה מאושרת עדיין להתוויה זו. הפרופיל הבטיחותי עקבי עם מחקרים קודמים. התוצאות הוצגו כהרצאת late-breaker בכנס NEI (5-8 בנובמבר, קולורדו ספרינגס).",
+    "כותרת_en": "Johnson & Johnson (JNJ): CAPLYTA met endpoints in a second pivotal Phase 3 study in bipolar mania - 3.7-point YMRS improvement vs placebo; FDA submission planned, not yet approved for this indication",
+    "טקסט_en": "Nov 10, 2026 | per the company's announcement, read.\n\nStudy 452 - the second pivotal Phase 3 study of once-daily CAPLYTA (lumateperone) 42 mg in adults with manic episodes associated with bipolar I disorder - met its primary and key secondary endpoints: a statistically significant 3.7-point greater YMRS reduction vs placebo at Week 3 (effect size -0.43; P<.0001), with significant improvement as early as Day 3. Nearly twice as many patients achieved clinical response: 43.9% vs 23.7% on placebo. Together with Study 451, the two studies will support a planned FDA submission for the mania indication - the drug is not yet approved for it. The safety profile was consistent with prior studies. Results were featured as a late-breaking presentation at the NEI Fall Congress (Nov 5-8, Colorado Springs).",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 15:07",
+    "מזהה": "n-1215",
+    "_translation": {
+      "en": {
+        "source_hash": "780e2c3ee7ad105f97e693f5b4b9d3fdaa71e4359fc7d975732fae04dee19b6b",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "כותרת": "רוקוול אוטומיישן (ROK) משיקה את PanelView Pro: מסך HMI מודולרי להמסח הייצור, ממשיך יישומי FactoryTalk View ME קיימים בלי פיתוח מחדש; זמינות ברבעון הרביעי 2026",
+    "category": "micro",
+    "חברה": "ROK",
+    "קישור": "https://www.prnewswire.com/news-releases/rockwell-automation-introduces-panelview-pro-to-deliver-high-performance-visualization-for-modern-manufacturing-302934165.html",
+    "מקורות": [
+      {
+        "label": "הודעת Rockwell, PRNewswire, 10 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://www.prnewswire.com/news-releases/rockwell-automation-introduces-panelview-pro-to-deliver-high-performance-visualization-for-modern-manufacturing-302934165.html",
+        "label_en": "Rockwell announcement, PRNewswire, Nov 10, 2026 - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה, נקראה.\n\nרוקוול אוטומיישן השיקה את PanelView Pro, מסוף גרפי (HMI) לסביבות תעשייתיות תובעניות, המיועד ליישומי FactoryTalk View Machine Edition: ביצועים מהירים יותר, עמידות מוגברת וארכיטקטורה מודולרית לפישוט תחזוקה - עם מסלול המרה ישיר: יישומים קיימים ופתחי התקנה (cutouts) ממשיכים ללא פיתוח מחדש או שינוי לוח, במעבר מדור PanelView Plus 7. הזמינות צפויה ברבעון הרביעי של 2026, עם אפשרויות נוספות במהלך 2027. לא פורסמו מחיר או מדדי ביצועים מספריים.",
+    "כותרת_en": "Rockwell Automation (ROK) launches PanelView Pro: a modular HMI for modern manufacturing that carries existing FactoryTalk View ME apps without redevelopment; availability Q4 2026",
+    "טקסט_en": "Nov 10, 2026 | per the company's announcement, read.\n\nRockwell Automation launched PanelView Pro, a high-performance graphic terminal (HMI) for demanding industrial environments, built for FactoryTalk View Machine Edition applications: faster performance, enhanced durability and a modular architecture simplifying maintenance - with a straightforward migration path: existing applications and panel cutouts carry over without redevelopment or panel modification, easing the move from the PanelView Plus 7 generation. Availability is expected in Q4 2026, with additional options during 2027. No pricing or numeric performance metrics were disclosed.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 15:07",
+    "מזהה": "n-1216",
+    "_translation": {
+      "en": {
+        "source_hash": "dd08c41617341c201407a0f1ba7dfc3fe6fa3f74d198626e84fee05b7b2e3179",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "כותרת": "אורקל (ORCL) משיקה גלובלית שני יישומי ניתוח עם AI שיחתי למוסדות פיננסיים: Treasury Analytics לניהול נזילות וסיכוני מאזן ו-Customer Analytics לרווחיות לקוחות",
+    "category": "micro",
+    "חברה": "ORCL",
+    "קישור": "https://www.prnewswire.com/news-releases/oracle-helps-financial-institutions-make-faster-more-informed-treasury-and-customer-decisions-with-ai-assisted-analytics-302934373.html",
+    "מקורות": [
+      {
+        "label": "הודעת Oracle, PRNewswire, 10 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://www.prnewswire.com/news-releases/oracle-helps-financial-institutions-make-faster-more-informed-treasury-and-customer-decisions-with-ai-assisted-analytics-302934373.html",
+        "label_en": "Oracle announcement, PRNewswire, Nov 10, 2026 - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה, נקראה.\n\nאורקל הודיעה על Oracle Financial Services Data Intelligence Treasury Analytics ו-Customer Analytics - יישומי אנליטיקה חדשים הזמינים כבר עכשיו (GA) גלובלית, המשלבים נתונים פיננסיים מסודרים עם סיוע AI שיחתי: שאלות בשפה טבעית שמייצרות ויזואליזציות וגילוי דפוסים אוטומטי, באמצעות AI Assistant ו-Auto Insights של Oracle Analytics Cloud. Treasury Analytics מיועד לניהול נזילות וסיכוני מאזן; Customer Analytics לניתוח רווחיות והתנהגות לקוחות בבנקים ובחברות ביטוח. היישומים משלימים את פלטפורמת OFSAA הקיימת. לא נמסרו לקוחות, חוזים או מדדי אימוץ.",
+    "כותרת_en": "Oracle (ORCL) globally launches two conversational-AI analytics apps for financial institutions: Treasury Analytics for liquidity/balance-sheet risk and Customer Analytics for customer profitability",
+    "טקסט_en": "Nov 10, 2026 | per the company's announcement, read.\n\nOracle announced Oracle Financial Services Data Intelligence Treasury Analytics and Customer Analytics - new analytics applications generally available globally now, combining curated financial-services data with conversational AI assistance: natural-language questions generating visualizations and automatic pattern discovery, via Oracle Analytics Cloud's AI Assistant and Auto Insights. Treasury Analytics targets liquidity and balance-sheet risk management; Customer Analytics targets customer profitability and behavior analysis for banks and insurers. The applications complement the existing OFSAA platform. No customers, contracts or adoption metrics were disclosed.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 15:07",
+    "מזהה": "n-1217",
+    "_translation": {
+      "en": {
+        "source_hash": "8e40801f2afa1e7a7aa47490bce8d0dc22ad146360b13f7e2363d232706a72bb",
+        "schema_version": 1
+      }
+    }
   }
 ]
