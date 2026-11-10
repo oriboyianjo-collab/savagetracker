@@ -2426,17 +2426,21 @@
     "מדינה": "US",
     "אירוע": "ריביות נבחרות (H.15) - הפד",
     "חשיבות": 1,
-    "הערה": "המשך סדרות שכבר ביומן ל2–6.11; לוח הפד13:00/16:15ET. CP בדרך כלל13:00 אך השעה אינה מובטחת; אין צפי יחיד",
-    "מקור": "https://federalreserve.gov/newsevents/2026-november.htm",
+    "הערה": "פרסום H.15 הרשמי מ-10 בנובמבר אומת ב-11.11 בשעה 00:13 בישראל. התצפית האחרונה היא ל-9 בנובמבר, לא ליום הפרסום. שיעורים שנתיים באחוזים: ריבית פד אפקטיבית 3.88%; prime 7.00%; primary credit 4.00%. תשואות אג״ח אוצר נומינליות לפדיון קבוע: שנתיים 4.56%, עשר שנים 4.88%, שלושים שנה 5.26%. תשואת עשר שנים צמודה לאינפלציה 2.66%. סדרות נפרדות ללא נתון בפועל יחיד או קונצנזוס יחיד, ולא החלטת ריבית חדשה. n.a. מציין נתון שאינו זמין, לא אפס. יתר הסדרות במקור הרשמי.",
+    "מקור": "https://www.federalreserve.gov/releases/h15/",
     "מזהה": "c-0101",
     "אירוע_en": "Selected interest rates (H.15) - Fed",
-    "הערה_en": "Continuation of series already in the calendar for Nov 2-6; Fed schedule 13:00/16:15 ET. CP usually at 13:00 but the time is not guaranteed; no single estimate",
+    "הערה_en": "Official H.15 release dated Nov 10 verified Nov 11 at 00:13 Israel. The latest observation is Nov 9, not the release day. Annual rates in percent: effective fed funds 3.88%; prime 7.00%; primary credit 4.00%. Nominal Treasury constant-maturity yields: 2-year 4.56%, 10-year 4.88%, 30-year 5.26%. 10-year inflation-indexed yield 2.66%. Separate series with no single actual or consensus, and not a new policy-rate decision. n.a. marks unavailable data, not zero. Remaining series are in the official source.",
     "_translation": {
       "en": {
-        "source_hash": "53436c4f456bfa5f5303ce35130dd6a3bdf438d52ad386f1cbfadb830c48e715",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "70ebf643dad616b82e3e7cf2ad98a7f64b2e0d0c5a52f1eba799a56e9b15ba87"
       }
-    }
+    },
+    "בפועל": "פורסם · נתוני 9.11",
+    "בפועל_en": "Published · Nov 9 data",
+    "תקופה": "נתוני 9.11.2026; פרסום 10.11",
+    "תקופה_en": "Nov 9, 2026 observations; Nov 10 release"
   },
   {
     "תאריך": "2026-11-11",
