@@ -29467,5 +29467,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "מיקרוסופט (MSFT), לפי רויטרס (לא מאומת מול מקור ראשוני): לוחצת על ממשל טראמפ לבטל איסור FCC מתוכנן על יבוא משדרים אופטיים סיניים למרכזי נתונים",
+    "category": "micro",
+    "חברה": "MSFT",
+    "קישור": "https://www.investing.com/news/stock-market-news/microsoft-pushes-trump-to-halt-chinese-data-center-component-ban-reuters-5014871",
+    "מקורות": [
+      {
+        "label": "Reuters, 10 בנובמבר 2026 (לא מאומת מול מקור ראשוני)",
+        "url": "https://www.investing.com/news/stock-market-news/microsoft-pushes-trump-to-halt-chinese-data-center-component-ban-reuters-5014871",
+        "label_en": "Reuters, Nov 10, 2026 (not verified against primary source)"
+      }
+    ],
+    "טקסט": "10.11.2026 | לא מאומת מול מקור ראשוני: דיווח רויטרס משלושה מקורות; אין הודעה רשמית של מיקרוסופט או ה-FCC.\n\nלפי רויטרס, מיקרוסופט מפעילה לובי על ממשל טראמפ לוותר על תוכנית ה-FCC לאסור יבוא של משדרים אופטיים (optical transceivers) סיניים - רכיב מפתח במרכזי נתוני AI. ההדגשה: מדובר בהצעה בבחינה מאז אוגוסט לפחות, לא באיסור שנחקק. מיקרוסופט וחברות וארגוני סחר נוספים טוענים שאיסור יאט את בניית מרכזי הנתונים ויפגע ביתרון האמריקאי ב-AI; למיקרוסופט 35 מרכזי נתונים בבנייה בארה\"ב ו-134 מתוכננים, לפי נתוני Cleanoview שצוטטו בדיווח. נציגי החברה נפגשו בספטמבר עם בכירי מדע וביטחון לאומי בבית הלבן. לפי Counterpoint, סין מחזיקה כשני שלישים מהשוק העולמי (Eoptolink ו-Zhongji Innolight - האחרונה ברשימת הפנטגון); Coherent ו-Lumentum האמריקאיות חסרות קנה-מידה להחלפה, לפי דו\"ח Foundation for American Innovation - אלו הערכות התעשייה, לא קביעות עצמאיות. שני מקורות אמרו שה-FCC שוקל סף של 3.2 טרה-ביט לשנייה; משדרים כאלה צפויים להיות נפוצים רק ב-2028-2029.",
+    "כותרת_en": "Microsoft (MSFT), per Reuters (not verified against primary source): lobbying the Trump administration to drop a proposed FCC ban on Chinese optical transceiver imports for data centers",
+    "טקסט_en": "Nov 10, 2026 | not verified against a primary source: a Reuters report citing three sources; no official Microsoft or FCC statement.\n\nPer Reuters, Microsoft is lobbying the Trump administration to abandon an FCC plan to bar imports of Chinese optical transceivers - a key AI data-center component. To be clear: this is a proposal under consideration since at least August, not an enacted ban. Microsoft and other companies and trade groups argue a ban would slow data-center construction and hurt the US edge in AI; Microsoft has 35 US data centers under construction and 134 planned, per Cleanview data cited in the report. Company representatives met White House science and national security officials in September. Per Counterpoint, China holds about two-thirds of the global market (Eoptolink and Zhongji Innolight - the latter on the Pentagon's list); US makers Coherent and Lumentum lack the scale to replace Chinese vendors, per a Foundation for American Innovation report - these are industry assessments, not independent findings. Two sources said the FCC is weighing a 3.2 Tbps threshold; such transceivers are expected to ramp only in 2028 with widespread installation in 2029.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 14:53",
+    "מזהה": "n-1212",
+    "_translation": {
+      "en": {
+        "source_hash": "0a10e4a9b0a3e4c22a47e397a44956e89b6e7ebb327023a53f0849396d781656",
+        "schema_version": 1
+      }
+    }
   }
 ]
