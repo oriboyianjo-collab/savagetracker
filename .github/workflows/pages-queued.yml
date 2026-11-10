@@ -1,0 +1,52 @@
+name: Publish Pages (queued)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Let the current publication finish. GitHub coalesces waiting runs to the newest.
+concurrency:
+  group: pages-publication
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: write # Delete only this run's temporary deployment artifact.
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Read the complete latest snapshot when this queued run starts, not an
+      # obsolete triggering commit. All accumulated articles remain in main.
+      - name: Checkout latest complete snapshot
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Record published revision
+        run: git rev-parse HEAD
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload unchanged site
+        id: upload
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+          retention-days: 1
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Remove this run's temporary artifact
+        if: success() && steps.upload.outputs.artifact_id != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+        run: gh api --method DELETE "repos/$GITHUB_REPOSITORY/actions/artifacts/$ARTIFACT_ID"
