@@ -1,5 +1,34 @@
 [
   {
+    "כותרת": "PNC Bank (PNC): קבלת תשלומי USDC נכנסים ללקוחות בנקאות תאגידית, בהמרה אוטומטית 1:1 לדולר (פיילוט מוגבל)",
+    "category": "micro",
+    "קישור": "https://pnc.mediaroom.com/2026-11-09-PNC-Bank-Launches-Incoming-Stablecoin-Payments-for-Corporate-and-Institutional-Banking-Clients",
+    "מקורות": [
+      {
+        "label": "PNC Media Room: הודעת החברה, 9 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://pnc.mediaroom.com/2026-11-09-PNC-Bank-Launches-Incoming-Stablecoin-Payments-for-Corporate-and-Institutional-Banking-Clients",
+        "label_en": "PNC Media Room: company announcement, November 9, 2026 - primary source"
+      },
+      {
+        "label": "Banking Dive: PNC adds stablecoin option for corporate clients, 10 בנובמבר 2026",
+        "url": "https://www.bankingdive.com/news/pnc-stablecoin-payments-corporate-clients-coinbase-usdc/874229/",
+        "label_en": "Banking Dive: PNC adds stablecoin option for corporate clients, November 10, 2026"
+      }
+    ],
+    "טקסט": "09.11.2026 | לפי הודעת החברה.\n\nPNC Bank הודיעה שלקוחות הבנקאות התאגידית והמוסדית (C&IB) יכולים לקבל תשלומים נכנסים ב-USDC, המטבע היציב הצמוד לדולר של Circle, ברשת Ethereum, באמצעות מוצרי התשלומים של Coinbase. התשלומים מומרים אוטומטית 1:1 לדולרים ומופקדים לחשבון PNC ייעודי. בשלב ראשון השירות מוצע בהיקף מוגבל ללקוחות זכאים במסגרת תוכנית פיילוט, והוא מרחיב את שיתוף הפעולה הקיים של הבנק עם Coinbase ואת יכולות ניהול האוצר (Treasury Management). לא נמסרו תנאים פיננסיים.",
+    "כותרת_en": "PNC Bank (PNC): incoming USDC payments for corporate and institutional banking clients, auto-converted 1:1 to USD (limited pilot)",
+    "טקסט_en": "Nov 9, 2026 | per the company announcement.\n\nPNC Bank announced that Corporate & Institutional Banking (C&IB) clients can receive incoming payments in USDC, Circle's dollar-backed stablecoin, on the Ethereum blockchain, via Coinbase payment products. Payments are automatically converted 1-to-1 to U.S. dollars and deposited into a designated PNC account. Initially the service is offered on a limited basis to eligible clients as part of a pilot program, expanding the bank's existing Coinbase relationship and its Treasury Management capabilities. No financial terms were disclosed.",
+    "תאריך": "2026-11-10 17:40",
+    "הועלה": "2026-11-10 17:40",
+    "מזהה": "n-1234",
+    "_translation": {
+      "en": {
+        "source_hash": "aadcb588704964b11e3e9dd7261580e7a8dcf174e49508bd7607c3e6b82b49e0",
+        "schema_version": 1
+      }
+    }
+  },
+  {
     "כותרת": "Johnson & Johnson (JNJ): בשילוב הניסיוני pasritamig ו-JNJ-9401 בסרטן ערמונית גרורתי, 73% מהמטופלים במינון המומלץ השיגו הפחתה של 50%+ ב-PSA; נתוני שלב 1 על 15 מטופלים בלבד",
     "category": "micro",
     "קישור": "https://www.prnewswire.com/news-releases/johnson--johnson-reports-73-psa-response-rate-with-investigational-pasritamig-based-immunotherapy-combination-in-advanced-prostate-cancer-302932750.html",
