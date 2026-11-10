@@ -29642,5 +29642,35 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "אמריקן איירליינס (AAL): מועצת שארלוט אישרה 8-2 חוזה שכירות חדש ל-10.5 שנים בין חמש חברות התעופה לשדה CLT - מאפשר תוכנית הרחבה של 2.1 מיליארד דולר במימון דמי חברות",
+    "category": "micro",
+    "חברה": "AAL",
+    "קישור": "https://www.axios.com/local/charlotte/2026/11/10/charlotte-airport-airline-deal-city-council",
+    "מקורות": [
+      {
+        "label": "Axios Charlotte, 10 בנובמבר 2026",
+        "url": "https://www.axios.com/local/charlotte/2026/11/10/charlotte-airport-airline-deal-city-council",
+        "label_en": "Axios Charlotte, Nov 10, 2026"
+      },
+      {
+        "label": "WFAE (NPR), 10 בנובמבר 2026",
+        "url": "https://www.wfae.org/politics/2026-11-10/city-council-backs-critical-10-year-lease-between-american-airlines-other-carriers-and-clt",
+        "label_en": "WFAE (NPR), Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | שני מקומיים מלאים (Axios Charlotte ו-WFAE), נקראו.\n\nמועצת העיר שארלוט אישרה אתמול בקולות 8 מול 2 את הסכם השימוש והשכירות (AULA) החדש בין נמל התעופה שארלוט דאגלס (CLT) לחמש חברות התעופה החותמות: אמריקן, דלתא, פרונטיר, סאות'ווסט ויונייטד. ההסכם נכנס לתוקף ב-1 בינואר 2027 ל-10.5 שנים, עם אופציה להארכה של חמש. הוא מניע את תוכנית ההשקעות CLT Beyond בהיקף 2.1 מיליארד דולר: הרחבת הטרקלין המרכזי, שערים חדשים בקצה Concourse C ומנהרת נוסעים אליהם - במימון דמי חברות התעופה; בתמורה, חלק חברות התעופה בהכנסות מסחר וחניון עולה מ-40% ל-45%. ההסכם מוסיף יעדי ניצול שערים שיאפשרו לשדה להקצות שער לא-מנוצל לחברה מתחרה. ההצבעה נערכה לאחר לחץ ציבורי משני הצדדים ואיום של הסנאטור טיליס להעביר את השדה לרשות עצמאית אם לא יאושר. CLT הוא hub מרכזי של אמריקן, שצופה שהפרויקטים יאפשרו לה להרחיב טיסות.",
+    "כותרת_en": "American Airlines (AAL): Charlotte council approved 8-2 a new 10.5-year lease between five carriers and CLT - enabling a $2.1B expansion funded by airline fees",
+    "טקסט_en": "Nov 10, 2026 | two full local sources (Axios Charlotte and WFAE), read.\n\nThe Charlotte City Council voted 8-2 last night to approve the new Airline Use and Lease Agreement (AULA) between Charlotte Douglas International Airport (CLT) and its five signatory carriers: American, Delta, Frontier, Southwest and United. The agreement takes effect January 1, 2027 for 10.5 years, with a five-year extension option. It kickstarts the $2.1 billion CLT Beyond capital program: main-atrium expansion, new gates at the end of Concourse C and a passenger tunnel to them - funded through airline fees; in return, the airlines' share of concessions and parking revenue rises from 40% to 45%. The lease adds gate-utilization targets letting the airport reassign an underused gate to a competing carrier. The vote followed public pressure on both sides and Senator Tillis's threat to move the airport to an independent authority if rejected. CLT is a key American Airlines hub, and the carrier expects the projects to allow it to add flights.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 15:24",
+    "מזהה": "n-1219",
+    "_translation": {
+      "en": {
+        "source_hash": "0fefc2330546cc54850d2bae1df4c77fb1694ac647f202614f9d684c62802442",
+        "schema_version": 1
+      }
+    }
   }
 ]
