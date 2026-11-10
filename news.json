@@ -30767,5 +30767,29 @@
         "source_hash": "d2647c4cfa7a35a951b3ee2566c3251a56979674659c8e45f7e31e0292f26dc9"
       }
     }
+  },
+  {
+    "מזהה": "n-1259",
+    "category": "macro",
+    "כותרת": "פולסון (הפד): הידוק הדרגתי נוסף נראה מתאים; דילוג על ישיבה משנה את הקצב, לא את הכיוון",
+    "כותרת_en": "Fed's Paulson: further gradual tightening seems appropriate; skipping a meeting changes pace, not direction",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 01:36",
+    "קישור": "https://www.philadelphiafed.org/the-economy/monetary-policy/261110-81st-annual-field-meeting-capstone-speech",
+    "מקורות": [
+      {
+        "label": "הפד של פילדלפיה: נוסח נאומה המלא של אנה פולסון, 10 בנובמבר 2026; שעת הפרסום המקורית לא אומתה",
+        "label_en": "Philadelphia Fed: full Anna Paulson speech, Nov 10, 2026; original publication clock not verified",
+        "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/261110-81st-annual-field-meeting-capstone-speech"
+      }
+    ],
+    "טקסט": "נאום מ-10.11.2026 | נוסח המקור הרשמי נקרא במלואו ונבדק ב-11 בנובמבר בישראל; שעת הפרסום המקורית לא אומתה.\n\nנשיאת הפד של פילדלפיה אנה פולסון אמרה כי לעת עתה הידוק מוניטרי הדרגתי נוסף נראה מתאים, אך המסלול המדויק תלוי בהתפתחות התנאים והנתונים. היא תמכה בהעלאת הריבית בספטמבר ובהשארתה ללא שינוי באוקטובר, והדגישה שדילוג על ישיבה הוא עניין של קצב, לא של כיוון, ושכנראה נותרה עוד עבודה. אלו עמדותיה האישיות, לא החלטת ריבית חדשה של הפד.\n\nלדבריה, מדדי האינפלציה הבסיסית תקועים בטווח של 2.5%-3%, מעל היעד, ולא ירדו. צעדים הדרגתיים מאפשרים למשקי בית, לעסקים ולמערכת הפיננסית להסתגל וגם מאפשרים ללמוד מהנתונים; התנודות האחרונות במניות ובנפט עשויות לשנות את התמונה.\n\nפולסון אמרה שהייתה רוצה לפעול מהר יותר אם ציפיות האינפלציה יעלו, לחצי השכר יתחזקו או האינפלציה הבסיסית תעלה. היא הדגישה שכרגע אינה רואה תנאים כאלה: הציפיות לטווח ארוך מעוגנות היטב ולחצי השכר מוגבלים. זו מסגרת מותנית להאצה, לא תמיכה בהעלאה של 50 נקודות בסיס. בנאום לא נקבע גודל העלאה או צעד מסוים לדצמבר.\n\nהחידוש לעומת תצוגת האירוע ב-n-1158 הוא עמדת המדיניות בנאום עצמו; התצוגה הקודמת כללה את שעת האירוע בלבד ולא את הדברים האלה.",
+    "טקסט_en": "Speech dated Nov 10, 2026 | Full official text read and checked on Nov 11 in Israel; original publication clock not verified.\n\nPhiladelphia Fed President Anna Paulson said further gradual monetary tightening seems appropriate for now, but the exact path depends on how conditions and the data evolve. She supported the September rate increase and the October hold, stressing that skipping a meeting is a matter of pace, not direction, and that there is likely more work to do. These are her own views, not a new Fed rate decision.\n\nShe said underlying inflation measures remain stuck between 2.5% and 3%, above target, and have not declined. Gradual steps give households, businesses and the financial system time to adjust and allow her to learn from the data; recent swings in equities and oil could change the picture.\n\nPaulson said she would want to act faster if inflation expectations drift up, wage pressures build or underlying inflation rises. She stressed that she is not currently seeing those conditions: long-term expectations are well anchored and wage pressures have been limited. This is a conditional framework for moving faster, not an endorsement of a 50-basis-point increase. The speech does not specify a hike size or a particular December action.\n\nThe new information relative to the event preview in n-1158 is the policy guidance in the speech itself; the earlier preview listed the event time, not these remarks.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9c32808db7c3139becabbf993515317d838a639c0db9ee2703e76e7315f33a94"
+      }
+    }
   }
 ]
