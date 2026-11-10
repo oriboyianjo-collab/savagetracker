@@ -1,5 +1,29 @@
 [
   {
+    "מזהה": "n-1247",
+    "category": "macro",
+    "כותרת": "לוגן: ייתכן קצב העלאות מהיר יותר בחורף; מדד אוקטובר מגביר את החשש לאינפלציית PCE",
+    "כותרת_en": "Logan: rate hikes could move faster this winter; October CPI raises PCE inflation concern",
+    "קישור": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261110",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 19:13",
+    "מקורות": [
+      {
+        "label": "הפד של דאלאס: נאום לורי לוגן בכנס האנרגיה, 10 בנובמבר 2026",
+        "label_en": "Dallas Fed: Lorie Logan energy-conference speech, Nov 10, 2026",
+        "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261110"
+      }
+    ],
+    "טקסט": "10.11.2026 | הנאום הרשמי נקרא במלואו; שעת העלאתו למקור לא אומתה.\n\nנשיאת הפד של דאלאס לורי לוגן אמרה כי ייתכן שיהיה אפשר להתקדם בחורף בהעלאות ריבית מהר יותר מכפי שהפד התקדם בסתיו. היא שבה על עמדתה שנדרשות לפחות שתי העלאות נוספות של 25 נקודות בסיס, ואז יהיה הגיוני לעצור ולבחון את ההתפתחויות. זו עמדתה האישית המותנית בתחזית, לא החלטת הוועדה.\n\nהחידוש לעומת נאומה מ-30 באוקטובר (n-0710): היא מתייחסת במפורש לאפשרות להאיץ בחורף ולמדד המחירים של אוקטובר שפורסם הבוקר, שהיה לדבריה גבוה מהצפוי. היא חוששת שנתוני PCE של אוקטובר, שיתפרסמו בעוד כשבועיים, יצביעו על עלייה באינפלציה.\n\nלוגן מעריכה שהריבית הריאלית היא 78 נקודות בסיס, על בסיס ריבית נומינלית של 3.88% וציפיות אינפלציית PCE קרובה של כ-3.1% בסקרים. זהו אומדן המבוסס על ציפיות, לא הריבית הנומינלית או ריבית ריאלית שנמדדה בדיעבד. לדבריה הוא נמוך בכרבע נקודת אחוז מהקצה התחתון של אומדני הריבית הניטרלית הריאלית (1%-1.85%), ולכן המדיניות עדיין תומכת בפעילות.",
+    "טקסט_en": "Nov 10, 2026 | official speech read in full; source posting time not verified.\n\nDallas Fed President Lorie Logan said it may be possible to move more rapidly with rate increases this winter than the Fed has this fall. She reiterated her view that at least two further 25-basis-point hikes are needed, after which a pause to assess developments would make sense. This is her personal, outlook-dependent view, not an FOMC decision.\n\nNew versus her Oct 30 speech (n-0710): the explicit possibility of accelerating this winter and her response to this morning's October CPI, which she said was higher than expected. She is concerned October PCE data, due in a couple of weeks, could show inflation rising.\n\nLogan estimates the real fed funds rate at 78 basis points, using a 3.88% nominal rate and surveys suggesting near-term expected PCE inflation around 3.1%. This is an expectations-based estimate, not the nominal rate or an ex-post measured real rate. She says it is about a quarter percentage point below the low end of published real-neutral-rate estimates (1%-1.85%), leaving policy accommodative.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fcc47c4b5ff32a0dfc126a82194fa2ca3ef79839d00bc57b440864c34e7620f5"
+      }
+    }
+  },
+  {
     "מזהה": "n-1246",
     "category": "micro",
     "כותרת": "AMD (AMD): מעבדי EPYC דור 6 זמינים כעת ומערכות שרתים כבר נשלחות; זמינות ענן רחבה עדיין בהמשך",
