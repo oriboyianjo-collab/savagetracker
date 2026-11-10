@@ -3770,5 +3770,105 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "תאריך": "2026-12-10",
+    "שעה": "15:30",
+    "מדינה": "US",
+    "אירוע": "מדד המחירים לצרכן - חודשי",
+    "תקופה": "נובמבר · חודשי",
+    "חשיבות": 3,
+    "קודם": "0.4%",
+    "הערה": "מועד BLS: 10.12.2026, 08:30 ET = 15:30 בישראל (לפי הודעת הפרסום של אוקטובר). צפי טרם נאסף. ",
+    "מזהה": "c-0173",
+    "אירוע_en": "Consumer price index - monthly",
+    "תקופה_en": "November · monthly",
+    "הערה_en": "BLS timing: Dec 10, 2026, 08:30 ET = 15:30 Israel time (per the October release notice). Estimate not yet collected. ",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
+    "_translation": {
+      "en": {
+        "source_hash": "6e025dc2ecfd4cdbb6da8c7897ffb247dcd0660d6f5b05450a4e5e8411991e51",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "תאריך": "2026-12-10",
+    "שעה": "15:30",
+    "מדינה": "US",
+    "אירוע": "מדד המחירים לצרכן - שנתי",
+    "תקופה": "נובמבר · שנתי",
+    "חשיבות": 3,
+    "קודם": "3.7%",
+    "הערה": "מועד BLS: 10.12.2026, 08:30 ET = 15:30 בישראל (לפי הודעת הפרסום של אוקטובר). צפי טרם נאסף. הקודם הוא הערך השנתי האחרון שפורסם (ספטמבר 2026; אוקטובר לא פורסם).",
+    "מזהה": "c-0174",
+    "אירוע_en": "Consumer price index - annual",
+    "תקופה_en": "November · annual",
+    "הערה_en": "BLS timing: Dec 10, 2026, 08:30 ET = 15:30 Israel time (per the October release notice). Estimate not yet collected. The prior is the last published annual value (September 2026; October was not published).",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
+    "_translation": {
+      "en": {
+        "source_hash": "7b481677d4d8d1e2218dcd5725e12ffadd9d659fc18aae08919b628c147de7ab",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "תאריך": "2026-12-10",
+    "שעה": "15:30",
+    "מדינה": "US",
+    "אירוע": "מדד המחירים לצרכן ליבה - חודשי",
+    "תקופה": "נובמבר · חודשי",
+    "חשיבות": 3,
+    "קודם": "0.3%",
+    "הערה": "מועד BLS: 10.12.2026, 08:30 ET = 15:30 בישראל (לפי הודעת הפרסום של אוקטובר). צפי טרם נאסף. ",
+    "מזהה": "c-0175",
+    "אירוע_en": "Core consumer price index - monthly",
+    "תקופה_en": "November · monthly",
+    "הערה_en": "BLS timing: Dec 10, 2026, 08:30 ET = 15:30 Israel time (per the October release notice). Estimate not yet collected. ",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
+    "_translation": {
+      "en": {
+        "source_hash": "e2515000c28ed6e8bc2e49ad3438e4d3ad81e21fe66ff5f4a5ca53f773cc004e",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "תאריך": "2026-12-10",
+    "שעה": "15:30",
+    "מדינה": "US",
+    "אירוע": "מדד המחירים לצרכן ליבה - שנתי",
+    "תקופה": "נובמבר · שנתי",
+    "חשיבות": 3,
+    "קודם": "2.6%",
+    "הערה": "מועד BLS: 10.12.2026, 08:30 ET = 15:30 בישראל (לפי הודעת הפרסום של אוקטובר). צפי טרם נאסף. הקודם הוא הערך השנתי האחרון שפורסם (ספטמבר 2026; אוקטובר לא פורסם).",
+    "מזהה": "c-0176",
+    "אירוע_en": "Core consumer price index - annual",
+    "תקופה_en": "November · annual",
+    "הערה_en": "BLS timing: Dec 10, 2026, 08:30 ET = 15:30 Israel time (per the October release notice). Estimate not yet collected. The prior is the last published annual value (September 2026; October was not published).",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
+    "_translation": {
+      "en": {
+        "source_hash": "49ce97a9c0d06175af4981b441a480a27b4ca99aa7b18938f277ed8ba642c177",
+        "schema_version": 1
+      }
+    }
   }
 ]
