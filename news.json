@@ -29262,5 +29262,35 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Alphabet (GOOGL) מרחיבה את דור 8 של ה-TPU: שתי מערכות חדשות - 8tx למחשוב חסוי ברמת החומרה (עם מעבדי AMD EPYC) ו-8i Max לחלונות הקשר עצומים",
+    "category": "micro",
+    "חברה": "GOOGL",
+    "קישור": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+    "מקורות": [
+      {
+        "label": "בלוג Google הרשמי: הצגת TPU 8tx ו-8i Max, 9 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+        "label_en": "Google official blog: TPU 8tx and 8i Max, Nov 9, 2026 - primary source"
+      },
+      {
+        "label": "Reuters, 10 בנובמבר 2026",
+        "url": "https://indianexpress.com/article/technology/tech-news-technology/google-unveils-new-ai-chip-variants-as-cloud-demand-surges-10957168/",
+        "label_en": "Reuters, Nov 10, 2026"
+      }
+    ],
+    "טקסט": "09.11.2026 | בלוג החברה הרשמי, נקרא (הצבעת מניה וסיכום דוחות הושמטו).\n\nגוגל הודיעה על שתי מערכות חדשות בדור השמיני של מאיצי ה-TPU - ארבע מערכות בשנה אחת, לראשונה. TPU 8tx מיועד למסכות חסויות עבור ממשלות ותעשיות מוסדרות: מבוסס על אותו סיליקון של 8t, בשילוב מעבדי AMD EPYC דור 5, עם הצפנה ברמת החומרה ששומרת על נתונים ומשקלי מודלים מבודלים גם בזמן עיבוד; לפי החברה, חביון נמוך פי שניים מ-8t כמעט ללא פגיעה בביצועים (טענת החברה). TPU 8i Max משלב שני שבבי 8i בחבילה אחת - כפל מחשוב, SRAM ורוחב-פס HBM - לחלונות הקשר עצומים ולצפיפות מחשוב הגבוהה ביותר למדף. לפי גוגל, ל-TPU כבר כמעט 100 לקוחות, והיא פותחת את הפלטפורמה למפתחי PyTorch (TorchTPU בקוד פתוח) וכלים נוספים.",
+    "כותרת_en": "Alphabet (GOOGL) expands its 8th-gen TPU line: two new systems - 8tx for hardware-level confidential computing (with AMD EPYC CPUs) and 8i Max for massive context windows",
+    "טקסט_en": "Nov 9, 2026 | the company's official blog, read (share-move color and earnings recap omitted).\n\nGoogle announced two new systems in its eighth-generation TPU portfolio - four systems in a single year, a first. TPU 8tx targets confidential workloads for governments and regulated industries: built on the same silicon as 8t, paired with 5th Gen AMD EPYC CPUs, with hardware-level encryption keeping data and model weights isolated even during processing; per the company, up to 2x lower latency than 8t with a near-zero performance penalty (company claim). TPU 8i Max combines two 8i chips in one package - double the compute, SRAM and HBM bandwidth - for massive context windows and the highest compute density per rack. Google says TPUs now serve nearly 100 customers and it is opening the platform to PyTorch developers (open-sourced TorchTPU) plus additional tooling.",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-10 14:02",
+    "מזהה": "n-1204",
+    "_translation": {
+      "en": {
+        "source_hash": "806c1fbbc88811c63faf09cb5e29ce93dae8ce092befbc2853685998dc536bbd",
+        "schema_version": 1
+      }
+    }
   }
 ]
