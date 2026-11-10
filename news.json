@@ -30712,5 +30712,30 @@
         "source_hash": "5d78d65f1aa400697551c1368879ceb63dcde54483eae24278b64f1d2cc7258e"
       }
     }
+  },
+  {
+    "מזהה": "n-1257",
+    "category": "micro",
+    "חברה": "MRSH",
+    "כותרת": "Marsh (MRSH): CC Capital ו-Motive הסכימו למכור לה את Wilshire; השלמה צפויה ברבעון הראשון של 2027, ללא מחיר שנמסר",
+    "כותרת_en": "Marsh (MRSH): CC Capital and Motive agree to sell Wilshire to it; closing expected in Q1 2027, price not disclosed",
+    "תאריך": "2026-11-10 23:10",
+    "הועלה": "2026-11-10 23:17",
+    "קישור": "https://www.prnewswire.com/news-releases/cc-capital-and-motive-partners-reach-agreement-to-sell-wilshire-to-marsh-302935572.html",
+    "מקורות": [
+      {
+        "label": "CC Capital דרך PRNewswire: הודעת המוכרים המלאה, 10 בנובמבר 16:10 ET",
+        "label_en": "CC Capital via PRNewswire: full sellers release, Nov 10, 16:10 ET",
+        "url": "https://www.prnewswire.com/news-releases/cc-capital-and-motive-partners-reach-agreement-to-sell-wilshire-to-marsh-302935572.html"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת המוכרים נקראה במלואה; פורסמה ב-16:10 ET, 23:10 בישראל.\n\nCC Capital ו-Motive Partners הודיעו על הסכם למכירת Wilshire, חברת ייעוץ השקעות, פתרונות ואנליטיקה, ל-Marsh. לפי ההודעה, ההשלמה צפויה ברבעון הראשון של 2027 וכפופה לאישורים רגולטוריים ולתנאי סגירה מקובלים נוספים. זו עסקה מוסכמת שטרם הושלמה; מחיר הרכישה לא נמסר בהודעה.\n\nWilshire מוסיפה יכולות בייעוץ השקעות, פתרונות עושר ופרישה, חשבונות מנוהלים לקרנות גידור ושווקים פרטיים, לצד פלטפורמת נתונים ואנליטיקה מבוססת ענן וממשקי API.\n\nנתוני הגודל בהודעה הם נכון ל-30 ביוני 2026: כ-1.6 טריליון דולר נכסי לקוחות תחת ייעוץ וכ-221 מיליארד דולר תחת ניהול. נכסי הייעוץ כוללים את הנכסים המנוהלים, ולכן אין לחבר את שני הסכומים. הם אינם מחיר העסקה, הכנסות או כסף חדש שנכנס ל-Marsh. נתון הניהול עשוי להיות שונה מהנכסים הרגולטוריים המדווחים.\n\nזו רכישת Wilshire המתוכננת, נפרדת מהשלמת רכישת AltamarCAM שכוסתה ב-n-0393. הודעת קונה נפרדת או תנאים כספיים נוספים לא אומתו כאן.",
+    "טקסט_en": "Nov 10, 2026 | Full sellers release read; published at 16:10 ET, 23:10 in Israel.\n\nCC Capital and Motive Partners announced an agreement to sell Wilshire, an investment advisory, solutions and analytics firm, to Marsh. The release expects closing in Q1 2027, subject to regulatory approvals and other customary conditions. This is an agreed transaction, not a completed acquisition; the purchase price was not disclosed in the release.\n\nWilshire brings investment advisory, wealth and retirement solutions, hedge fund managed accounts and private markets capabilities, alongside a cloud-based, API-enabled data and analytics platform.\n\nThe scale figures are as of June 30, 2026: approximately $1.6 trillion of client assets under advisement and $221 billion under management. Advised assets include managed assets, so the figures must not be added. They are not the purchase price, revenue or new money flowing into Marsh. The management figure may differ from regulatory assets under management.\n\nThis planned Wilshire acquisition is separate from the completed AltamarCAM purchase covered in n-0393. A separate buyer release or additional financial terms were not verified here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fc1fe876bfc8dc91c5baa47611883b95383428b0f9f4f80aaed47a1b2b623e86"
+      }
+    }
   }
 ]
