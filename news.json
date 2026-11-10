@@ -29875,5 +29875,35 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Pfizer (PFE): ה-FDA הרחיב את אישור TALZENNA עם XTANDI לשלב מוקדם יותר בסרטן ערמונית גרורתי עם מוטציות HRR - ירידה של 52% בסיכון להתקדמות בניסוי TALAPRO-3 (פורסם במקור ב-26.10)",
+    "category": "micro",
+    "חברה": "PFE",
+    "קישור": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-talzenna-plus-xtandi-fda-approved-earlier",
+    "מקורות": [
+      {
+        "label": "הודעת פייזר, 26 באוקטובר 2026 - מקור ראשוני",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-talzenna-plus-xtandi-fda-approved-earlier",
+        "label_en": "Pfizer release, Oct 26, 2026 - primary source"
+      },
+      {
+        "label": "עמוד האישורים של ה-FDA",
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive",
+        "label_en": "FDA approvals page"
+      }
+    ],
+    "טקסט": "26.10.2026 | הודעת פייזר, נקראה במלואה (התגלה בסריקת השלמה; סיקור משלים).\n\nה-FDA הרחיב את אישור TALZENNA (talazoparib, מעכב PARP) בשילוב XTANDI (enzalutamide) לטיפול בגברים עם סרטן ערמונית גרורתי רגיש למודולציית מסלול אנדרוגן או טרם-טיפול בו (mAPMN/S, המכונה גם mHSPC) עם מוטציות בגני תיקון שחול הומולוגי (HRR), כולל BRCA ולא-BRCA. זהו מעבר לקו טיפול מוקדם יותר: השילוב אושר לראשונה ב-2023 למחלה גרורתית עמידה לאחר מודולציית מסלול אנדרוגן (mCRPC עם מוטציות HRR). הבקשה להרחבה נבחנה ב-Bביקורת עדיפות (Priority Review) ונשענה על ניסוי שלב 3 TALAPRO-3, שהראה ירידה משוערת של 52% בסיכון להתקדמות רדיוגרפית או תמותה, עם תועלת עקבית ב-BRCA ובלא-BRCA. האישור הופך את השילוב לאפשרות טיפולית בשלב שבו רופאים ממליצים על בדיקת ביומרקרים בעת האבחון.",
+    "כותרת_en": "Pfizer (PFE): FDA expanded TALZENNA plus XTANDI approval to an earlier setting in HRR-mutated metastatic prostate cancer - 52% risk reduction in TALAPRO-3 (originally published Oct 26)",
+    "טקסט_en": "Oct 26, 2026 | Pfizer's release, read in full (found on a catch-up sweep; catch-up coverage).\n\nThe FDA expanded approval of TALZENNA (talazoparib, a PARP inhibitor) in combination with XTANDI (enzalutamide) to treat men with metastatic androgen pathway modulation-naive or -sensitive prostate cancer (mAPMN/S, also known as mHSPC) with homologous recombination repair (HRR) gene mutations, including both BRCA and non-BRCA. This moves the combination to an earlier line: it was first approved in 2023 for androgen-pathway-modulation-resistant metastatic disease (HRRm mCRPC). The expansion was reviewed under FDA Priority Review and supported by the Phase 3 TALAPRO-3 trial, which showed an estimated 52% reduction in the risk of radiographic progression or death, with consistent benefit across BRCA and non-BRCA mutations. The approval reinforces biomarker testing at diagnosis.",
+    "תאריך": "2026-10-26",
+    "הועלה": "2026-11-10 15:48",
+    "מזהה": "n-1227",
+    "_translation": {
+      "en": {
+        "source_hash": "6f1adbfd7ed41cba0075ec7445d67f9992d0c123d61f348d07d0472f1dea8fa7",
+        "schema_version": 1
+      }
+    }
   }
 ]
