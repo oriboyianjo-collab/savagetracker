@@ -2339,18 +2339,24 @@
     "אירוע": "תחזית אנרגיה לטווח קצר - EIA STEO",
     "תקופה": "נובמבר",
     "חשיבות": 1,
-    "הערה": "EIA קובע10.11; בדרך כלל12:00–12:15EST. זהו חלון ולא שעה מדויקת; אין נתון צפי יחיד",
+    "הערה": "דוח נובמבר פורסם ב-10.11; קלט התחזית נסגר ב-5.11. תחזית 2027: דיזל 5.03 דולר לגלון (קודם 4.49), בנזין 3.73 (קודם 3.56), Henry Hub 2.88 דולר ל-MMBtu (קודם 3.16). ברנט: 86 דולר לחבית בממוצע 2027, לעומת 77 דולר ברבעון הרביעי של 2027. אלו תחזיות, לא נתוני תפוקה או מחיר בפועל.",
     "מקור": "https://www.eia.gov/outlooks/steo/release_schedule.php",
     "מזהה": "c-0097",
     "אירוע_en": "Short-Term Energy Outlook - EIA STEO",
     "תקופה_en": "November",
-    "הערה_en": "EIA sets Nov 10; usually 12:00-12:15 EST. This is a window, not an exact time; no single estimate figure",
+    "הערה_en": "November report released Nov 10; forecast inputs finalized Nov 5. 2027 forecasts: diesel $5.03/gal (previous $4.49), gasoline $3.73/gal (previous $3.56), Henry Hub $2.88/MMBtu (previous $3.16). Brent: $86/b annual average for 2027 versus $77/b in Q4 2027. These are forecasts, not realized output or prices.",
     "_translation": {
       "en": {
-        "source_hash": "7ca8d498e046fca331dbdc5afe7106b8f55b98d7212c2cdabb29c06c7d3cb01f",
+        "source_hash": "8fe42152c7d458ccf677b3b5d3e987a248938371a7c9775d246d7d5d1fed424e",
         "schema_version": 1
       }
-    }
+    },
+    "בפועל": "פורסם דוח נובמבר: דיזל 2027 $5.03 לגלון; בנזין $3.73",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.eia.gov/outlooks/steo/",
+      "https://www.eia.gov/outlooks/steo/release_schedule.php"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-10"
   },
   {
     "תאריך": "2026-11-10",
