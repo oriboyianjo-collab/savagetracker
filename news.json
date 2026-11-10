@@ -29367,5 +29367,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "תיקון (שגיאה) לפריטי רישום Apple Intelligence בסין: n-1182 ו-n-1197 דיווחו פעמיים על אותו אירוע רישום; הרישום עצמו מבוסס על שידור רויטרס בלבד בשלב זה",
+    "category": "micro",
+    "חברה": "AAPL",
+    "קישור": "https://www.streetinsider.com/Reuters/Apple+Intelligence+AI+service+registers+with+Chinese+regulator+for+use+on+tablets%2C+laptops/27310788.html",
+    "מקורות": [
+      {
+        "label": "רויטרס דרך StreetInsider, 9 בנובמבר 2026",
+        "url": "https://www.streetinsider.com/Reuters/Apple+Intelligence+AI+service+registers+with+Chinese+regulator+for+use+on+tablets%2C+laptops/27310788.html",
+        "label_en": "Reuters via StreetInsider, Nov 9, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | תיקון לשני פרסומים מהיום.\n\nאירוע רישום Apple Intelligence אצל רשם הסייבר של שנגחאי פורסם אצלנו פעמיים: בפריט n-1182 ובפריט n-1197. שני הפריטים מתבססים על אותו שידור רויטרס מ-9.11.2026 ומתארים את אותן עובדות: הרשם אישר את רישום השירות לשימוש בטאבלטים ובמחשבים ניידים, לאחר שהאייפון אושר ביולי. הכפילות היא שגיאת פרסום; אין בה התפתחות חדשה, ופריט n-1182 הוא הרישום הראשוני של האירוע.\n\nבנוסף נוצר פער בסימון האימות: n-1197 סומן \"לא מאומת מול מקור ראשוני\" ואילו n-1182 פורסם בלי סימון, אף ששניהם נשענים על אותו דיווח מסונדך. הדיוק: רשימת הרישום הרשמית של הרגולטור לא נבדקה ישירות, ועובדת הרישום נשענת בשלב זה על דיווח רויטרס בלבד; אם הרשימה הרשמית תאומת ישירות, נעדכן.\n\nהיבט אחד ב-n-1197 אינו כפילות: לפי הודעת עליבאבא מחודש אוקטובר, יכולות Apple Intelligence צפויות להיות זמינות למשתמשים בסין בדצמבר עם iOS 27.3, בעקבות גרסת מבחן מ-4 בנובמבר. זהו ייחוס לדברי עליבאבא מאוקטובר ולא הודעה חדשה; מועדי ההשקה בפועל לטאבלטים ולמחשבים שולחניים טרם אושרו.",
+    "כותרת_en": "Correction (error) on the Apple Intelligence China registration items: n-1182 and n-1197 reported the same registration event twice; the registration itself rests solely on a Reuters syndication at this stage",
+    "טקסט_en": "Nov 10, 2026 | correction to two of today's publications.\n\nThe registration of Apple Intelligence with Shanghai's cyber regulator was published twice: in item n-1182 and item n-1197. Both items rest on the same Reuters report of Nov 9, 2026 and describe the same facts: the regulator approved registration for use on tablets and laptops, after the iPhone was approved in July. The duplication is a publication error; it is not a new development, and n-1182 is the event's original record.\n\nIn addition, the verification labeling was inconsistent: n-1197 was labeled \"not verified against a primary source\" while n-1182 was published without the label, although both rely on the same syndicated report. To be precise: the regulator's official registration list has not been checked directly, and the registration fact rests solely on the Reuters report at this stage; we will update if the official list is directly confirmed.\n\nOne element of n-1197 is not a duplicate: per Alibaba's October statement, Apple Intelligence features are expected to become available to users in China in December with iOS 27.3, following a November 4 beta. This is an attribution to Alibaba's October remarks, not a newly issued announcement; actual launch timing for tablets and desktops remains unconfirmed.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 14:35",
+    "מזהה": "n-1208",
+    "_translation": {
+      "en": {
+        "source_hash": "1a6453bc9f9a09d6ab7b314709be8395267934b41e079389d3ef61f39f9fa7e6",
+        "schema_version": 1
+      }
+    }
   }
 ]
