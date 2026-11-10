@@ -29109,5 +29109,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Parsons (PSN): הבת Altamira זכתה בהזמנת משימה חדשה של 63 מיליון דולר (תקרה) לארבע שנים ממרכז המודיעין האווירי והחללי NASIC - עבודה חדשה, לא הכנסה מובטחת",
+    "category": "micro",
+    "חברה": "PSN",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/10/3399279/0/en/altamira-a-parsons-company-awarded-63-million-novastar-contract.html",
+    "מקורות": [
+      {
+        "label": "הודעת Parsons ב-GlobeNewswire, 10 בנובמבר 2026",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3399279/0/en/altamira-a-parsons-company-awarded-63-million-novastar-contract.html",
+        "label_en": "Parsons via GlobeNewswire, Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי הודעת החברה, נקראה.\n\nAltamira, בית של Parsons מינואר 2026, זכתה בהזמנת משימה (task order) חדשה בתקרה של 63 מיליון דולר לארבע שנים ממרכז המודיעין האווירי והחללי הלאומי של ארה\"ב (NASIC), במסגרת תוכנית Services of Common Concern: פיתוח, אספקה, תחזוקה, קיימות ושיפור של תוכנת שיתוף-פעולה מאובטחת ב-Collaboration Collection לשיתוף מידע בסביבות מודיעין קריטיות. זו עבודה חדשה לחברה; תקרת ההזמנה אינה הכנסה מובטחת והיקף הביצוע בפועל ייקבע לפי צרכי הממשל. Altamira מתמחה ב-SIGINT, ISR, סייבר ואנליטיקת AI/ML ותשולב במלואה ב-Parsons במהלך 2027.",
+    "כותרת_en": "Parsons (PSN): subsidiary Altamira awarded a new four-year $63M (ceiling) task order from the NASIC intelligence center - new work, not guaranteed revenue",
+    "טקסט_en": "Nov 10, 2026 | per the company's announcement, read.\n\nAltamira, a Parsons company since January 2026, was awarded a new four-year task order with a $63 million ceiling from the US National Air & Space Intelligence Center (NASIC) under the Services of Common Concern program: development, delivery, maintenance, sustainment and enhancement of secure collaboration software in the Collaboration Collection for information sharing across mission-critical intelligence environments. This is new work for the company; the ceiling is not guaranteed revenue and actual volumes depend on government requirements. Altamira specializes in SIGINT, ISR, cyber and AI/ML analytics and will fully integrate into Parsons during 2027.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 13:42",
+    "מזהה": "n-1198",
+    "_translation": {
+      "en": {
+        "source_hash": "3fabccb5a291c09f54a9ba3d9b8dfb930569576e430afa260ebeb394a316482f",
+        "schema_version": 1
+      }
+    }
   }
 ]
