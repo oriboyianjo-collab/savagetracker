@@ -29024,5 +29024,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "MetLife (MET) מוכרת את חברת הביטוח הסגורה MetLife UK ל-Chesnara: כ-18 אלף פוליסות ו-1.7 מיליארד ליש\"ט בנכסים; התמורה לא צפויה מהותית, השלמה צפויה במחצית הראשונה של 2027",
+    "category": "micro",
+    "חברה": "MET",
+    "קישור": "https://www.londonstockexchange.com/en/news/article/CSN/acquisition/3079-e1-4c-16-69-44ff89",
+    "מקורות": [
+      {
+        "label": "הודעת RNS של Chesnara מס' 1337C, 6 בנובמבר 2026",
+        "url": "https://www.londonstockexchange.com/en/news/article/CSN/acquisition/3079-e1-4c-16-69-44ff89",
+        "label_en": "Chesnara RNS no. 1337C, Nov 6, 2026"
+      }
+    ],
+    "טקסט": "06.11.2026 (ההודעה המקורית; פורסם במעקב 10.11) | לפי הודעת Chesnara לבורסת לונדון (RNS), נקראה.\n\nChesnara הבריטית, מתאחדת חברות ביטוח חיים ופנסיה, הודיעה על הסכם לרכישת 100% ממניות MetLife UK Limited, חברת הביטוח הסגורה (closed book) של MetLife בבריטניה. העסקה אינה כוללת את פעילות ביטוח ההגנה הפעילה של MetLife בבריטניה, שממשיכה כרגיל. MLUK, שנסגרה ללקוחות חדשים ב-2017, מנהלת כ-18 אלף פוליסות (יחידות השקעה מקושרות עם ערבויות אופציונליות ואנונה משתנה) עם נכסים בהיקף 1.7 מיליארד ליש\"ט נכון לסוף 2025. התמורה כפופה להתאמות מקובלות בסגירה ואינה צפויה להיות מהותית; תזרים מצטבר צפוי כ-90 מיליון ליש\"ט, כמחציתו בחמש השנים הראשונות. ההשלמה צפויה במחצית הראשונה של 2027 בכפוף לאישור רגולטורי בבריטניה. זו עסקת הרכישה הרביעית של Chesnara בשנתיים האחרונות; ניהול הפוליסות כבר מוחוץ ל-SS&C, שותפת המיקור החוץ הקיימת של Chesnara.",
+    "כותרת_en": "MetLife (MET) sells its closed-book UK insurer MetLife UK to Chesnara: ~18,000 policies and £1.7bn in assets; consideration not expected to be material, completion expected H1 2027",
+    "טקסט_en": "Nov 6, 2026 (original announcement; tracked coverage Nov 10) | per Chesnara's RNS to the London Stock Exchange, read.\n\nChesnara, the UK life and pensions consolidator, announced an agreement to acquire 100% of the share capital of MetLife UK Limited, MetLife's closed-book UK life insurer. The deal excludes MetLife's ongoing UK protection business, which continues as usual. MLUK, closed to new business since 2017, manages about 18,000 policies (unit-linked with optional guarantees and variable annuities) with £1.7bn of assets under administration as of end-2025. The consideration is subject to customary completion adjustments and is not expected to be material; expected lifetime cash flows are about £90m, roughly half emerging in the first five years. Completion is expected in H1 2027 subject to UK regulatory approval. This is Chesnara's fourth acquisition in the last two years; policy administration is already outsourced to SS&C, Chesnara's existing UK partner.",
+    "תאריך": "2026-11-06",
+    "הועלה": "2026-11-10 13:29",
+    "מזהה": "n-1195",
+    "_translation": {
+      "en": {
+        "source_hash": "5c42bb15493fcd06e13db19f0b7af9079c89097033b71dc38e1a16009afb1d1d",
+        "schema_version": 1
+      }
+    }
   }
 ]
