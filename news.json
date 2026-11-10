@@ -28782,5 +28782,53 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "מחירי החשמל באירופה זינקו לשיא מאז 2022: צרפת 334 אירו וגרמניה 346 אירו למגהוואט-שעה, שיאי ערב מעל 600 אירו בגרמניה; ייצור רוח ושמש בצניחה עד אמצע השבוע",
+    "category": "macro",
+    "קישור": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Power-Prices-Jump-to-2022-High-as-Wind-and-Solar-Falter.html",
+    "מקורות": [
+      {
+        "label": "Oilprice (מייקל קרן), 9 בנובמבר 2026, על בסיס נתוני בלומברג ו-Epex Spot",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Power-Prices-Jump-to-2022-High-as-Wind-and-Solar-Falter.html",
+        "label_en": "Oilprice (Michael Kern), Nov 9, 2026, based on Bloomberg and Epex Spot data"
+      }
+    ],
+    "טקסט": "9-10.11.2026 | לפי Oilprice על בסיס נתוני בלומברג ו-Epex Spot, נקרא.\n\nחזית מזג אוויר עם רוח חלשה ועננות מכבידה על שוקי החשמל הגדולים באירופה: מחיר ה-day-ahead בצרפת נסגר אתמול ב-334 אירו למגהוואט-שעה, הגבוה מאז דצמבר 2022; בגרמניה נסגר ב-345.64 אירו, עם קפיצות מעל 600 אירו למגהוואט-שעה בשעות השיא של הערב. ייצור הרוח והשמש צפוי להישאר מתחת לרגיל עד אמצע השבוע לפחות, בעיקר בגרמניה, בריטניה, בלגיה והולנד, ולכן המחיר נקבע על ידי תחנות גז - כשהגז באירופה במחיר הגבוה ביותר זה ארבע שנים. בבריטניה פרסם מפעיל הרשת NESO התראת רזרבות שגרתית לבוקר שני וביטל אותה בבוקר. בסקנדינביה, מפלסים נמוכים במאגרי ההידרו וגז מתייקר לוחצים את המחירים לקראת החורף. סוקרת Mind Energy: \"פאניקה ניכרת בשוקי האנרגיה האירופיים, שבמובן מסוים העריכו בחוסר רצינות את המצב מוקדם יותר השנה\".",
+    "כותרת_en": "European power prices jump to highest since 2022: France 334 euros and Germany 346 euros per MWh, German evening peaks above 600 euros; wind and solar output slumping until mid-week",
+    "טקסט_en": "Nov 9-10, 2026 | per Oilprice based on Bloomberg and Epex Spot data, read.\n\nA weather front bringing still and cloudy conditions is pressuring Europe's largest power markets: France's day-ahead price settled yesterday at 334 euros per MWh, the highest since December 2022; Germany settled at 345.64 euros, with spikes above 600 euros per MWh in peak evening slots. Wind and solar generation is expected to stay below normal until at least mid-week, especially in Germany, the UK, Belgium and the Netherlands, leaving price-setting to gas-fired plants - with European gas at its most expensive in four years. In the UK, grid operator NESO issued a routine margin notice for Monday morning and canceled it in the morning. In the Nordics, low hydropower reservoir levels and rising gas prices are pressuring prices into winter. Mind Energy: \"panic is evident across the European energy markets, which had clearly underestimated the seriousness of the situation earlier in the year.\"",
+    "תאריך": "2026-11-09 10:30",
+    "הועלה": "2026-11-10 11:57",
+    "מזהה": "n-1186",
+    "_translation": {
+      "en": {
+        "source_hash": "b69561a25bd8bd2d569be277f0a1548c32362e369a47e7e9ec44b33f554e6073",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "כותרת": "אוסטרליה תחוקק הגנות בטיחות חובה לחברות AI מתקדם: רגולטור ייעודי חדש, הערכה עצמאית של מודלים ודיווח חובה מהיר על תקריות",
+    "category": "macro",
+    "קישור": "https://pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+    "מקורות": [
+      {
+        "label": "משרד ראש ממשלת אוסטרליה: הודעה רשמית, 10 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+        "label_en": "Australian Prime Minister's office: official release, Nov 10, 2026 - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי הודעת משרד ראש ממשלת אוסטרליה - מקור ראשוני, נקראה.\n\nממשלת אלבניז תחוקק הגנות בטיחות ואבטחה מחייבות לחברות \"AI מתקדם\" (frontier AI) שיפעלו באוסטרליה, במסגרת חקיקת AI Standards. האכיפה תוטל על רגולטור ייעודי חדש לבטיחות AI, שיפעל עם מכון הבטיחות הלאומי האוסטרלי ל-AI ויוכל להטיל קנסות משמעותיים. החברות יחויבו: לשמור בקרות אבטחה בכל שלבי הפיתוח והפריסה; לזהות ולנהל סיכונים חמורים במודלים; לאפשר הערכה עצמאית של המודלים; לדווח לממשלה על תקריות במהירות; לפרסם מסגרות בטיחות ואבטחה; ולהיענות לסטנדרטים מתעדכנים. ההגנות מיושרות עם המלצות הדוח הביניים של הוועדה הפרלמנטרית המשותפת ל-AI. ההודעה מתוזמנת לפני סבב שיחות בינלאומיות על פיתוח והשקעות ב-AI: \"אנחנו בוחרים להודיע על הגישה לבטיחות קודם\". AP ורויטרס סיקרו את ההודעה בהקשר של פריצה שיוחסה ל-OpenAI בפורטל ממשלתי - רקע זה לא אומת מול הכתבות עצמן.",
+    "כותרת_en": "Australia to legislate mandatory safety protections for frontier AI companies: new dedicated regulator, independent model evaluation and rapid mandatory incident reporting",
+    "טקסט_en": "Nov 10, 2026 | per the Australian Prime Minister's office release - primary source, read.\n\nThe Albanese government will legislate mandatory AI safety and security protections for \"frontier AI\" companies operating in Australia, through the AI Standards legislation. Enforcement will sit with a new targeted AI-safety regulator working with the Australian AI Safety Institute, with powers to impose significant penalties. Companies will be required to: maintain security controls across all development and deployment stages; identify and manage serious model risks; allow independent evaluation of their models; rapidly notify the government of incidents; publish safety and security frameworks; and respond to updated standards. The protections align with interim recommendations of the Joint Select Committee on Artificial Intelligence. The announcement is timed ahead of major international talks on AI development and investment: \"we are choosing to announce our approach to safety first.\" AP and Reuters covered the announcement in the context of a government-portal breach attributed to OpenAI - that background was not verified against those articles themselves.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 11:57",
+    "מזהה": "n-1187",
+    "_translation": {
+      "en": {
+        "source_hash": "e667db91bc16fe5c5bc7a9a6eb1a6ad6467ef4d335303616c61c07b15dd5d9bd",
+        "schema_version": 1
+      }
+    }
   }
 ]
