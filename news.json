@@ -30683,5 +30683,34 @@
         "source_hash": "5bad7787cab964160a41cb94e0e354dde086a8d0157c8b0e7b5cd3c90f18db29"
       }
     }
+  },
+  {
+    "מזהה": "n-1256",
+    "category": "micro",
+    "כותרת": "Independence Realty Trust (IRT) ו-Centerspace (CSR): בעלי המניות אישרו את ההצעות הנדרשות למיזוג; ההשלמה עדיין מותנית",
+    "כותרת_en": "Independence Realty Trust (IRT) and Centerspace (CSR): shareholders approve required merger proposals; closing remains conditional",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 23:13",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1466085/000143774926036159/ex_1042137.htm",
+    "מקורות": [
+      {
+        "label": "הודעת החברות מ-10 בנובמבר, נספח 99.1 ב-SEC; שעת ההודעה המקורית לא אומתה",
+        "label_en": "Nov 10 company release, SEC Exhibit 99.1; original release clock not verified",
+        "url": "https://www.sec.gov/Archives/edgar/data/1466085/000143774926036159/ex_1042137.htm"
+      },
+      {
+        "label": "Independence Realty Trust: דיווח 8-K על ההצבעה, 10 בנובמבר 2026",
+        "label_en": "Independence Realty Trust: voting-results Form 8-K, Nov 10, 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/1466085/000143774926036159/irt20261110c_8k.htm"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברות ודיווח 8-K נקראו במלואם; שעת פרסום ההודעה המקורית לא אומתה.\n\nIndependence Realty Trust ו-Centerspace הודיעו שבאסיפות המיוחדות שנערכו היום אישרו בעלי המניות של שתי החברות את כל ההצעות הדרושות להשלמת המיזוג שהוכרז בעבר. זהו שלב אישור בעלי המניות, לא הודעה שהמיזוג הושלם.\n\nלפי ההודעה, כ-88.1% מהקולות שהצביעו באסיפת IRT תמכו בהנפקת מניות IRT לצורך העסקה. באסיפת Centerspace תמכו במיזוג כ-99.6% מהקולות שהצביעו, המייצגים 80.4% ממניותיה הרגילות שבמחזור. אלה מכנים שונים, ואין להציג את שיעור ההצבעה כתמיכה מכלל המניות. דיווח IRT כולל גם את תוצאות ההצבעה הסופיות שלו; שיעורי Centerspace מובאים מההודעה המשותפת.\n\nההשלמה כפופה לסיפוק או לוויתור על יתר תנאי הסגירה. בנוסף, ל-IRT זכות לדחות את הסגירה לפי מנגנון הקשור להסכמות מלווים של הלוואות משכנתה מסוימות של חברות בנות ב-Centerspace ולמועדים המפורטים בהסכם. אין כאן מועד השלמה מובטח.\n\nבתנאים הקיימים, בעת הסגירה יקבלו בעלי מניות Centerspace 3.800 מניות IRT לכל מניה, עם התאמות מסוימות ותשלום מזומן במקום שברי מניות. יחס ההחלפה אינו תנאי חדש; החדשות הן אישורי בעלי המניות היום.",
+    "טקסט_en": "Nov 10, 2026 | Full joint release and Form 8-K read; the original release clock was not verified.\n\nIndependence Realty Trust and Centerspace said shareholders at both companies' special meetings today approved all proposals needed to close the previously announced merger. This is the shareholder-approval milestone, not a completed merger.\n\nThe release says approximately 88.1% of votes cast at IRT's meeting supported issuing IRT shares for the transaction. At Centerspace, approximately 99.6% of votes cast supported the merger, representing 80.4% of outstanding common shares. These are different denominators; votes cast must not be presented as all outstanding shares. IRT's filing also provides its final vote counts; the Centerspace percentages are from the joint release.\n\nClosing remains subject to satisfaction or waiver of other conditions. IRT also has a deferral right under a mechanism tied to lender consents on specified Centerspace subsidiary mortgage loans and the dates set out in the agreement. No guaranteed closing date is established here.\n\nUnder the existing terms, at closing Centerspace common shareholders receive 3.800 IRT shares per share, subject to certain adjustments and cash instead of fractional shares. The exchange ratio is not a new term; today's shareholder approvals are the new event.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5d78d65f1aa400697551c1368879ceb63dcde54483eae24278b64f1d2cc7258e"
+      }
+    }
   }
 ]
