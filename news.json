@@ -29317,5 +29317,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "אמזון (AMZN): תובעי מילאנו מסרו הודעת סיום חקירה ליחידה האירופית ולשני מנהלים בחשד למכירת סחורה סינית ללא מע\"מ ומכס כראוי - צעד המקדים בקשת משפט, לא הרשעה",
+    "category": "micro",
+    "חברה": "AMZN",
+    "קישור": "https://ca.marketscreener.com/news/italian-prosecutors-target-amazon-over-sale-of-chinese-goods-ce785edada8cf124",
+    "מקורות": [
+      {
+        "label": "Reuters, 10 בנובמבר 2026",
+        "url": "https://ca.marketscreener.com/news/italian-prosecutors-target-amazon-over-sale-of-chinese-goods-ce785edada8cf124",
+        "label_en": "Reuters, Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | דיווח רויטרס, נקרא במלואו.\n\nתובעי מילאנו מסרו הודעת סיום חקירה - צעד פרוצדורלי שבדרך כלל מקדים בקשה להעמדה לדין, ואינו כתב אישום שהושלם או הרשעה - ל-Amazon EU S.à.r.l. הלוקסמבורגית (במסגרת חוק אחריות תאגידית) ולשני מנהלים בכירים. לטענת התביעה, יותר מ-1.5 מיליון מוצרים מחוץ לאיחוד האירופי נמכרו באיטליה דרך זירת המסחר והלוגיסטיקה של אמזון ללא תשלום מע\"מ יבוא ומכסים כראוי; מע\"מ שלא שולם הוערך עד כה ביותר מ-3.52 מיליון יורו, והמכס עדיין מחשב את החוב הכולל. ההודעה נמסרה ל-70 חשודים, בהם מפעילי חנויות מקוונות. לפי המסמך, התביעה טוענת שאמזון ידעה או היה עליה לדעת שכ-80% מהסחורה בלוגיסטיקה האיטלקית שלה מקורה בסין, ולא יישמה אמצעים ארגוניים מספקים. אמזון מסרה כי ההליכים \"חסרי יסוד\" וכי תלחם בעמדתה. הרקע: הפשיטות על מטה אמזון במילאנו ומרכז לוגיסטי ליד ברגמו בנובמבר אשתקד, כשהתביעה תיארה אז את אמזון כ\"סוס טרויאני\" לסחורה סינית.",
+    "כותרת_en": "Amazon (AMZN): Milan prosecutors served an investigation-completion notice on the European unit and two managers over alleged improper VAT/customs on Chinese goods - a step that generally precedes a trial request, not a conviction",
+    "טקסט_en": "Nov 10, 2026 | Reuters report, read in full.\n\nMilan prosecutors served an investigation-completion notice - a procedural step that usually precedes a request for trial, and is neither a completed indictment nor a conviction - on Luxembourg-based Amazon EU S.à.r.l. (under Italy's corporate liability law) and two senior managers. Prosecutors allege more than 1.5 million non-EU products were sold in Italy through Amazon's marketplace and logistics network without proper import VAT and customs duties; unpaid VAT has been quantified at over EUR3.52 million so far, with customs authorities still calculating the total. The notice was served on 70 suspects, including online store operators. Per the document, prosecutors argue Amazon knew or should have known that around 80% of goods in its Italian logistics originated in China and failed to implement adequate organizational measures. Amazon called the proceedings \"ungrounded\" and said it will vigorously defend itself. Background: last November's raids on Amazon's Milan HQ and a Bergamo-area logistics hub, when prosecutors described Amazon as a \"Trojan horse\" for Chinese goods.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 14:12",
+    "מזהה": "n-1206",
+    "_translation": {
+      "en": {
+        "source_hash": "6f37b125d830f6251c346bf25473ee8dacc42318a34de0ece19253e79eba5cc1",
+        "schema_version": 1
+      }
+    }
   }
 ]
