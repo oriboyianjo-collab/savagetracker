@@ -29940,5 +29940,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Charter (CHTR): הצעות רכש במזומן לשמונה סדרות אג\"ח מובטחות ארוכות (2041-2062) בתקרת תמורה כוללת של 1.5 מיליארד דולר; קבלה לפי סדר עדיפויות, פקיעה 17 בנובמבר",
+    "category": "micro",
+    "חברה": "CHTR",
+    "קישור": "https://www.prnewswire.com/news-releases/charter-announces-tender-offers-for-eight-series-of-notes-302934959.html",
+    "מקורות": [
+      {
+        "label": "הודעת Charter דרך PRNewswire, 10 בנובמבר 2026, 08:31 ET - מקור ראשוני",
+        "url": "https://www.prnewswire.com/news-releases/charter-announces-tender-offers-for-eight-series-of-notes-302934959.html",
+        "label_en": "Charter release via PRNewswire, Nov 10, 2026, 08:31 ET - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה (PRNewswire), נקראה במלואה.\n\nCharter Communications הודיעה על פתיחת שמונה הצעות רכש (tender) במזומן של החברות הבנות CCO ו-CCO Capital לסדרות אג\"ח מובטחות בכירות עם פקיעות ארוכות בין 2041 ל-2062, בתקרת תמורה כוללת של 1.5 מיליארד דולר (Offer Cap), לא כולל ריבית שנצברה. הקבלה תיעשה בשיטת 'מפל': אם סך התמורה על אג\"ח שהוגשו יעלה על התקרה, הסדרות יתקבלו לפי רמת עדיפות 1 עד 8, כשייתכן חלוקה יחסית בסדרת הגבול (עם אפשרות להגדלה של עד 2% מיתרת הסדרה ללא שינוי ההצעה) ואי-קבלה של סדרות בעדיפות נמוכה יותר. התמורה לכל 1,000 דולר ע\"נ תיקבע ב-17 בנובמבר בשעה 15:00 ניו יורק כתשואת אגרת החוזה הייחוסית בתוספת מרווח קבוע של 205-250 נקודות בסיס לפי הסדרה; ישולמה גם ריבית שנצברה. פקיעת ההצעות: 17 בנובמבר 2026 בשעה 17:00 ניו יורק; סילוק צפוי ב-19 בנובמבר. אין תנאי מינימום ואף הצעה אינה מותנית בהשלמת אחרת. זהו פתיחת הצעות בלבד - לא רכישה שהושלמה ולא הוצאה מובטחת; יתרת הסדרות המוצעות כוללת כ-11.6 מיליארד דולר ע\"נ, כך שברור שלא כל האג\"ח יירכשו.",
+    "כותרת_en": "Charter (CHTR): cash tender offers for eight series of long-dated secured notes (2041-2062) with a $1.5B aggregate consideration cap; waterfall acceptance priority, expiry Nov 17",
+    "טקסט_en": "Nov 10, 2026 | the company's release (PRNewswire), read in full.\n\nCharter Communications announced the commencement by its subsidiaries CCO and CCO Capital of eight separate cash tender offers for senior secured note series maturing between 2041 and 2062, with a $1.5 billion aggregate consideration cap (Offer Cap), excluding accrued interest. Acceptance follows a waterfall: if total consideration for tendered notes exceeds the cap, series are accepted in Acceptance Priority order 1 through 8, with possible proration at the boundary series (which the company may increase by up to 2% of that series without amending the offer) and no acceptance of lower-priority series. Consideration per $1,000 principal will be set on Nov 17 at 3:00 p.m. New York time as the reference Treasury yield plus a fixed spread of 205-250 basis points by series; accrued interest is paid in addition. The offers expire Nov 17, 2026 at 5:00 p.m. New York time; settlement is expected Nov 19. There is no minimum tender condition and no offer is conditioned on any other. This is the commencement of offers only - not a completed repurchase or guaranteed spend; the offered series total about $11.6 billion principal, so not all notes will be purchased.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 16:00",
+    "מזהה": "n-1229",
+    "_translation": {
+      "en": {
+        "source_hash": "4bf98211e1276506b36ed9cb7d996548a193388c4f462f2863624985f4fc2988",
+        "schema_version": 1
+      }
+    }
   }
 ]
