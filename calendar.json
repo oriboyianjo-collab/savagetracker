@@ -2125,22 +2125,22 @@
     "אירוע": "שינוי בתעסוקה - ADP שבועי",
     "תקופה": "שבועי",
     "חשיבות": 1,
-    "קודם": "16.75K",
-    "הערה": "ADP הודיעה ב-27.10 שה-NER Pulse הבא יפורסם ב-10.11, סמוך לאחר 08:15 ניו יורק (15:15 בישראל). אין פרסום שבועי בשבוע שבו מתפרסם דוח ADP החודשי; הפרסום החודשי ב-4.11 הוא סדרה נפרדת.\nבפועל 10.11.2026, אומת מול המקור הרשמי (adpri.org, NER Pulse): השבוע שהסתיים ב-24.10.2026 - תוספת של 19,750 משרות במגזר הפרטי; זהו שינוי שבועי בממוצע נע של ארבעה שבועות, לא שינוי שבועי פשוט. הערך המשני הקודם (19.8K מ-ForexFactory) היה עיגול של אותו נתון; ממסר FJ (19.75K) תאם במדויק. לפי ForexFactory (משני), השבוע הקודם 19.5K - לא מוצג בעמוד הרשמי. ערך הקודם (16.75K) אומת כערך הפרסום השבועי הקודם בפועל: פרסום 27.10 (לארבעה השבועות שהסתיימו ב-10.10), לפי FXStreet וממסר בציטוט ADP. לא היה פרסום שבועי ב-3.11 (שבוע הדוח החודשי), ולכן לא קיים ערך רשמי לשבוע שביניהם; ה-19.5K שמוצג ב-ForexFactory כ'קודם' הוא נתון ספק שלא תואם את רצף הפרסומים הרשמי ולא נעשה בו שימוש. הדוח החודשי לאוקטובר (86K) הוא סדרה נפרדת.",
+    "קודם": "19.5K",
+    "הערה": "תוקן: הערך הקודם הוא 19.5K. בטבלה הרשמית של ADP בפרסום היום (mediacenter.adp.com): 19,750 לשבוע שהסתיים ב-24.10, ו-19,500 לשבוע שהסתיים ב-17.10. קריאת ה-19,500 פורסמה לראשונה בטבלת 12 השבועות של פרסום היום - ADP לא מפרסמת NER Pulse נפרד בשבוע שבו יוצא הדוח החודשי (החודשי לאוקטובר, 86K, פורסם ב-4.11 והוא סדרה נפרדת). הפרסום השבועי הקודם בפועל (27.10) היה 16,750 לשבוע שהסתיים ב-10.10. בגרסה קודמת של רשומה זו נכתב בטעות ש-19.5K אינו תואם את הסדרה הרשמית; הוא מתואם במדויק לטבלה של ADP.",
     "מזהה": "c-0089",
     "אירוע_en": "Employment change - ADP weekly",
     "תקופה_en": "Weekly",
-    "הערה_en": "ADP announced on Oct 27 that the next NER Pulse will be published on Nov 10, shortly after 08:15 New York (15:15 Israel). There is no weekly release in the week the monthly ADP report is published; the Nov 4 monthly release is a separate series.\nActual Nov 10, 2026, verified against the official source (adpri.org, NER Pulse): week ending Oct 24, 2026 - private-sector employment up 19,750; this is the week-over-week change in a four-week moving average, not a simple weekly change. The earlier secondary value (19.8K from ForexFactory) was a rounding of the same figure; the FJ relay (19.75K) matched exactly. Per ForexFactory (secondary), the prior week was 19.5K - not shown on the official page. The prior value (16.75K) is verified as the previous actual weekly release: the Oct 27 release (four weeks ended Oct 10), per FXStreet and a wire quoting ADP. There was no weekly release on Nov 3 (monthly report week), so no official value exists for the intervening week; the 19.5K shown as 'prior' on ForexFactory is a vendor figure that does not match the official release sequence and was not used. The October monthly report (86K) is a separate series.",
+    "הערה_en": "Corrected: the prior value is 19.5K. Per ADP's official table in today's release (mediacenter.adp.com): 19,750 for the week ending Oct 24, and 19,500 for the week ending Oct 17. The 19,500 reading was first published in today's 12-week historical table - ADP does not publish a standalone NER Pulse in the week the monthly report comes out (the October monthly, 86K, released Nov 4, is a separate series). The previous actual weekly release (Oct 27) was 16,750 for the week ending Oct 10. An earlier version of this record wrongly stated that 19.5K did not match the official series; it matches ADP's table exactly.",
     "_translation": {
       "en": {
-        "source_hash": "e1e2ca0378027387c06bfd2f6e88942bfa4fe861555d178bd32b3caff4096722",
+        "source_hash": "3a65a75a97b4a2f3667447aa3457e7f5d8b02a2929c2e0f670e7b4ba23eb763b",
         "schema_version": 1
       }
     },
     "בפועל": "19.75K",
     "מקורות_בדיקה_עדכנית": [
+      "https://mediacenter.adp.com/2026-11-10-ADP-National-Employment-Report-Preliminary-Estimate-for-October-24,-2026",
       "https://adpri.org/",
-      "https://www.fxstreet.com/news/us-adp-employment-change-4-week-average-drops-to-1675k-202610271222",
       "https://www.forexfactory.com/calendar?week=nov8.2026"
     ],
     "תאריך_בדיקה_עדכנית": "2026-11-10",
