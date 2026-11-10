@@ -28758,5 +28758,29 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "וולר (הפד) נוטה להעלאת ריבית של 25 נ\"ב בדצמבר גם אם מדד אוקטובר יתמתן; אם הנתונים יהיו גבוהים מהצפוי - \"יש לשקול העלאה של 50 נ\"ב\"",
+    "category": "macro",
+    "קישור": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
+    "מקורות": [
+      {
+        "label": "CNBC (ג'ף קוקס), סיקור מקורי של הנאום בלונדון, 10 בנובמבר 2026, 04:00 EST; נוסח הנאום המלא טרם פורסם באתר הפד",
+        "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
+        "label_en": "CNBC (Jeff Cox), original coverage of the London speech, Nov 10, 2026, 04:00am EST; full speech text not yet published on the Fed site"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי CNBC (סיקור מקורי של הנאום בלונדון), נקרא. נוסח הנאום המלא טרם פורסם באתר הפד.\n\nנגיד הפד כריסטופר וולר אמר בנאום בלונדון שהוא נוטה להעלאת ריבית של 25 נקודות בסיס בישיבת דצמבר (8-9 בדצמבר) גם אם נתוני האינפלציה לאוקטובר יהיו מתונים מהצפוי, ויתמוך בפעולה נחושה יותר אם הנתונים יהיו גבוהים מהתחזית: \"במקרה כזה, אני מאמין שיש לשקול העלאה של 50 נקודות בסיס בישיבת דצמבר. העלאה של 25 נקודות בסיס בלבד תסכן את האמינות שלנו, סיכון שאני לא להוט לקחת\". וולר תמך בהשהיית הריבית באוקטובר בתנאי שהפד יממש את הציפיות להחמרה: ריבית גבוהה יותר \"תידרש, מוקדם ולא מאוחר\"; התזמון המדויק פחות חשוב כל עוד ההעלאות שהובטחו מיושמות בתוך פרק זמן סביר, ואין צורך בהעלאות בישיבות רצופות. שוק העבודה יציב באקלים של \"מעט גיוס, מעט פיטורים\". החלטת אוקטובר לא הייתה פה אחד - ליסה קוק ובת' האמאק הצביעו נגד. לפי הכתבה, על בסיס CME FedWatch, השוק מתמחר מעל 80% להעלאת 25 נ\"ב בדצמבר וללא סיכוי מתומחר ל-50 נ\"ב. מדד המחירים לצרכן לאוקטובר מתפרסם היום ב-15:30 שעון ישראל.",
+    "כותרת_en": "Fed's Waller leans toward a 25bp December hike even if October CPI softens; if data comes in above forecast - \"a 50bp hike should be considered\"",
+    "טקסט_en": "Nov 10, 2026 | per CNBC (original coverage of the London speech), read. The full speech text has not yet been published on the Fed site.\n\nFed Governor Christopher Waller said in a London speech he is leaning toward a 25 basis point rate hike at the December meeting (Dec 8-9) even if October inflation data comes in softer than expected, and would support more robust action if readings come in above forecast: \"In that case, I believe a 50 basis point hike in the policy rate should be considered at the December meeting. Hiking only 25 basis points would put our credibility at risk, a risk I am not eager to take.\" Waller backed the October hold on condition the Fed follows through on tightening expectations: higher rates \"will be needed, sooner rather than later\"; precise timing matters less so long as the promised hikes are implemented within a reasonable period, and hikes at consecutive meetings are not necessary. The labor market is solid in a \"low-hire, low-fire\" climate. The October decision was not unanimous - Lisa Cook and Beth Hammack dissented. Per the article, based on CME FedWatch, markets price over 80% for a 25bp December hike and no priced chance of 50bp. The October CPI is released today at 3:30pm Israel time.",
+    "תאריך": "2026-11-10 04:00",
+    "הועלה": "2026-11-10 11:27",
+    "מזהה": "n-1185",
+    "_translation": {
+      "en": {
+        "source_hash": "94631b422670ce8c86c4be6f2ea4441dcb995465e0f1c144c56060d1e1193fab",
+        "schema_version": 1
+      }
+    }
   }
 ]
