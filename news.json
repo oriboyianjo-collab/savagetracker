@@ -28885,5 +28885,35 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "אקסון מוביל (XOM) חתמה על מזכר הבנות עם ונצואלה לקראת חזרה אחרי 19 שנה: שדות עם \"מיליארדי חביות רזרבות\"; הסכמי הפעלה סופיים עוד לפנינו",
+    "category": "micro",
+    "חברה": "XOM",
+    "קישור": "https://efe.com/economia/2026-11-10/venezuela-firma-memorando-entendimiento-exxonmobil-regreso-pais/",
+    "מקורות": [
+      {
+        "label": "EFE מקארקס, 10 בנובמבר 2026",
+        "url": "https://efe.com/economia/2026-11-10/venezuela-firma-memorando-entendimiento-exxonmobil-regreso-pais/",
+        "label_en": "EFE from Caracas, Nov 10, 2026"
+      },
+      {
+        "label": "Financial Times, 10 בנובמבר 2026",
+        "url": "https://www.ft.com/content/cd3b2969-9c58-404a-a80a-c823754899ef",
+        "label_en": "Financial Times, Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 (החתימה: 9.11) | לפי EFE מקארקס וה-FT, נקראו.\n\nונצואלה ואקסון מוביל חתמו ביום שני בקארקס על מזכר הבנות לקראת חזרת החברה למדינה אחרי 19 שנה, בטקס בנוכחות הנשיאה הזמנית דלסי רודריגס ונשיא ExxonMobil Upstream דן אמאן. ההסכם המקדמי מכסה שדות \"חומים\" ו\"ירוקים\" עם \"מיליארדי חביות של רזרבות\", לדברי רודריגס, שציפתה שהמזכר \"יתורגם במהרה להסכמים קונקרטיים\"; אמאן כינה את החתימה \"צעד ראשון חשוב\" בתהליך שיוביל לחזרת החברה. חשוב: זהו מזכר הבנות בלבד - לא הסכמי הפעלה סופיים, לא החלטת השקעה ולא תוספת תפוקה נוכחית. אקסון עזבה את ונצואלה ב-2007 עם ההלאמות של צ'אווס; במארס 2025 האשימה רודריגס את החברה ב\"קנוניה של יותר מעשור\" נגד ונצואלה, ובאפריל האחרון נפגשה עם נציגי חברות אנרגיה לאחר רפורמת חוק ההידרוקרבונים שפתחה את הענף להשקעה פרטית וזרה. לפי ה-FT, המהלך בא חודשים לאחר שמנכ\"ל אקסון דארן וודס כינה את ונצואלה \"לא ניתנת להשקעה\". הרקע הרחב: לכידת מאדורו בהתערבות האמריקנית בינואר ולחץ הנשיא טראמפ על חברות אנרגיה אמריקניות להשקיע במדינה.",
+    "כותרת_en": "ExxonMobil (XOM) signs MOU with Venezuela ahead of a return after 19 years: fields with \"billions of barrels of reserves\"; definitive operating agreements still ahead",
+    "טקסט_en": "Nov 10, 2026 (signing: Nov 9) | per EFE from Caracas and the FT, read.\n\nVenezuela and ExxonMobil signed a memorandum of understanding in Caracas on Monday toward the company's return to the country after 19 years, at a ceremony attended by interim president Delcy Rodriguez and ExxonMobil Upstream president Dan Ammann. The preliminary agreement covers brownfield and greenfield fields with \"billions of barrels of reserves,\" per Rodriguez, who expected the MOU to \"translate very soon into concrete agreements\"; Ammann called the signing \"an important first step\" in a process leading to the company's return. Important: this is an MOU only - not definitive operating agreements, not a final investment decision and no current production addition. Exxon left Venezuela in 2007 amid the Chavez nationalizations; in March 2025 Rodriguez accused the company of \"more than a decade of conspiring\" against Venezuela, and last April she met energy-company representatives after the hydrocarbons-law reform opened the sector to private and foreign investment. Per the FT, the move comes months after Exxon CEO Darren Woods called Venezuela \"uninvestable.\" Broader context: Maduro's capture in the January US intervention and President Trump's pressure on US energy companies to invest in the country.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 12:08",
+    "מזהה": "n-1190",
+    "_translation": {
+      "en": {
+        "source_hash": "b4bc07a482d22ddf3360e4dab3a9f797270673604e0f9afe8caa6ff9d34f76d8",
+        "schema_version": 1
+      }
+    }
   }
 ]
