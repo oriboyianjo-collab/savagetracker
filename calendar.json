@@ -2091,7 +2091,7 @@
     "תקופה": "אוקטובר · חודשי",
     "חשיבות": 1,
     "קודם": "97.9",
-    "הערה": "NFIB: ביום שלישי השני בחודש; שעה11:00UTC לפי FXStreet (06:00EST). צפי אינו זמין במקור שנבדק\nעדכון 07.11.2026: צפי לפי ForexFactory 97.7. מקורו לא אומת מול מקור ראשוני. היסטוריית הצפי וההערות נשמרה; אין כאן נתון בפועל חדש.",
+    "הערה": "NFIB: ביום שלישי השני בחודש; שעה11:00UTC לפי FXStreet (06:00EST). צפי אינו זמין במקור שנבדק\nעדכון 07.11.2026: צפי לפי ForexFactory 97.7. מקורו לא אומת מול מקור ראשוני. היסטוריית הצפי וההערות נשמרה; אין כאן נתון בפועל חדש.\nבפועל 10.11.2026: 97.8 לאוקטובר, ירידה של 0.1 נקודה מספטמבר (97.9), מעט מתחת לממוצע של 53 שנה (98.0). מדד אי-הוודאות ירד 6 נקודות ל-84, הנמוך מאז דצמבר 2025. מקור: דף הסקר הרשמי של NFIB, נקרא.",
     "מקור": "https://www.nfib.com/surveys/small-business-economic-trends/",
     "היסטוריית_צפי": [
       {
@@ -2103,19 +2103,20 @@
     ],
     "צפי": "97.7",
     "מקורות_בדיקה_עדכנית": [
-      "https://www.forexfactory.com/calendar?week=nov8.2026"
+      "https://www.nfib.com/surveys/small-business-economic-trends/"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-07",
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
     "מזהה": "c-0088",
     "אירוע_en": "NFIB small business optimism index",
     "תקופה_en": "October · monthly",
-    "הערה_en": "NFIB: second Tuesday of the month; 11:00 UTC per FXStreet (06:00 EST). Estimate unavailable in the source checked\nUpdate Nov 7, 2026: estimate per ForexFactory 97.7. Its source was not verified against a primary source. Estimate history and notes were retained; there is no new actual figure here.",
+    "הערה_en": "NFIB: second Tuesday of the month; 11:00 UTC per FXStreet (06:00 EST). Estimate unavailable in the source checked\nUpdate Nov 7, 2026: estimate per ForexFactory 97.7. Its source was not verified against a primary source. Estimate history and notes were retained; there is no new actual figure here.\nActual Nov 10, 2026: 97.8 for October, down 0.1 point from September (97.9), slightly below the 53-year average of 98.0. The Uncertainty Index fell 6 points to 84, the lowest since December 2025. Source: official NFIB survey page, read.",
     "_translation": {
       "en": {
-        "source_hash": "cdc298440d54dff2a45d6a398e0f73443407153ab821a492623edd1ac77b11bb",
+        "source_hash": "59531acb7c2550410912a1567fecebf3ac2286f442f0e0d663c31e653e9b5e1b",
         "schema_version": 1
       }
-    }
+    },
+    "בפועל": "97.8"
   },
   {
     "תאריך": "2026-11-10",
