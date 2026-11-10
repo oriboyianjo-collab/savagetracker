@@ -28915,5 +28915,35 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "פרוביאל (FER) זכתה בחוזה של 537.9 מיליון דולר להקמת מתקן טיהור השפכים Mary's Creek בפורט וורת' - פרויקט המים הגדול ביותר שלה בארה\"ב; הבנייה תיפתח החודש ותושלם בקיץ 2030",
+    "category": "micro",
+    "חברה": "FER",
+    "קישור": "https://newsroom.ferrovial.com/en/press-releases/ferrovial-awarded-water-facility-project-in-texas/",
+    "מקורות": [
+      {
+        "label": "הודעת פרוביאל, 5 בנובמבר 2026",
+        "url": "https://newsroom.ferrovial.com/en/press-releases/ferrovial-awarded-water-facility-project-in-texas/",
+        "label_en": "Ferrovial press release, Nov 5, 2026"
+      },
+      {
+        "label": "Chemical Engineering, 6 בנובמבר 2026",
+        "url": "https://www.chemengonline.com/ferrovial-wins-537-9-million-contract-for-water-reclamation-facility-in-fort-worth/",
+        "label_en": "Chemical Engineering, Nov 6, 2026"
+      }
+    ],
+    "טקסט": "05.11.2026 | לפי הודעת החברה, נקראה.\n\nפרוביאל הודיעה כי זכתה בחוזה בהיקף 537.9 מיליון דולר להקמת מתקן טיהור השפכים Mary's Creek בפורט וורת', טקסס - פרויקט תשתית המים הגדול ביותר שלה בארה\"ב עד כה. הביצוע ייעשה באמצעות הבת האמריקנית Webber. המתקן, שייבנה על שטח פתוח, יעבד 10 מיליון גלון שפכים ביום וירחיב את קיבולת הטיהור של מערב פורט וורת'; המים המטוהרים ישמשו לתעשייה ולהשקיה. היקף העבודות כולל אגני איזון ואגירת שיא, מערכות סינון גס ועדין והסרת חולצות, ביו-ריאקטורים בטכנולוגיית ממברנה (MBR) עם הסרת נוטריינטים מתקדמת, טיפול במוצקים, בקרת ריחות ומערכות חשמל ובקרה. הבנייה צפויה להיפתח בנובמבר 2026 ולהושלם בקיץ 2030. זהו פרויקט המים הגדול השני של Webber עבור פורט וורת', לאחר הרחבת מתקן Eagle Mountain בהיקף 295 מיליון דולר שהחלה ב-2025.",
+    "כותרת_en": "Ferrovial (FER) wins $537.9M contract for the Mary's Creek Water Reclamation Facility in Fort Worth - its largest US water project to date; construction starts this month, completion targeted for summer 2030",
+    "טקסט_en": "Nov 5, 2026 | per the company's press release, read.\n\nFerrovial announced it has been awarded a $537.9 million contract to deliver the Mary's Creek Water Reclamation Facility in Fort Worth, Texas - its largest US water infrastructure project to date. Delivery will be through its US subsidiary Webber. The greenfield facility will process 10 million gallons of wastewater per day and expand treatment capacity in western Fort Worth; reclaimed water will serve industrial and irrigation use. The scope includes equalization and peak-flow storage basins with mixing systems, preliminary treatment with coarse and fine screening and grit removal, membrane bioreactor (MBR) systems with advanced nutrient removal, solids handling, odor control, and electrical, instrumentation and control systems. Construction is scheduled to begin in November 2026 and to be completed by summer 2030. This is Webber's second major water project for Fort Worth, following the $295 million Eagle Mountain plant expansion that began in 2025.",
+    "תאריך": "2026-11-05",
+    "הועלה": "2026-11-10 12:16",
+    "מזהה": "n-1191",
+    "_translation": {
+      "en": {
+        "source_hash": "d6934b0486ca82a37ff50df6987459c9ccd13f1b725a7e359b649cbabcece3a4",
+        "schema_version": 1
+      }
+    }
   }
 ]
