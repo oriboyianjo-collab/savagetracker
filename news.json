@@ -29054,5 +29054,60 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Cognizant (CTSH) מקימה ארגון ייעודי לספק Claude עם יותר מ-25 אלף אנשי מקצוע קיימים, ומשיקה מודל שירותים מנוהלים להפעלת Claude בליבת פעילות הארגון",
+    "category": "micro",
+    "חברה": "CTSH",
+    "קישור": "https://www.prnewswire.com/news-releases/cognizant-dedicates-more-than-25-000-professionals-to-claude-delivery-introduces-managed-services-model-to-run-claude-at-the-core-of-enterprise-operations-302934078.html",
+    "מקורות": [
+      {
+        "label": "הודעת Cognizant ב-PRNewswire, 10 בנובמבר 2026",
+        "url": "https://www.prnewswire.com/news-releases/cognizant-dedicates-more-than-25-000-professionals-to-claude-delivery-introduces-managed-services-model-to-run-claude-at-the-core-of-enterprise-operations-302934078.html",
+        "label_en": "Cognizant via PRNewswire, Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי הודעת החברה, נקראה.\n\nCognizant הודיעה על הקמת Claude Frontier Capability Group - ארגון גלובלי ייעודי המאגד יותר מ-25 אלף אנשי מקצוע קיימים (לא גיוס חדש) לסיפוק Claude ללקוחות, לצד מודל שירותים מנוהלים שבו החברה מפעילה מערכות מבוססות Claude בייצור אצל הלקוח: גישה ברישיון ל-Claude, קניין רוחני של החברה (AI Delivery Operating System) ובקרות אבטחה וממשל ברמה ארגונית. יותר מ-44 אלף עובדים כבר הוכשרו או הוסמכו ב-Claude, והחברה מחזיקה מעל 26 אלף הסמכות Claude. המנכ\"ל ראווי קומאר: הימור משמעותי על Claude; סמנכ\"ל המסחר של Anthropic, פול סמית, צוטט בהודעה. לא נמסרו תנאים כספיים; נתוני הביצועים אצל לקוחות (למשל קיצור זמן הורדה ב-35% אצל יצרנית תרופות גלובלית) הם טענות החברה.",
+    "כותרת_en": "Cognizant (CTSH) forms a dedicated Claude delivery organization of more than 25,000 existing professionals and launches a managed services model to run Claude at the core of enterprise operations",
+    "טקסט_en": "Nov 10, 2026 | per the company's announcement, read.\n\nCognizant announced the Claude Frontier Capability Group - a dedicated global organization bringing together more than 25,000 existing professionals (not new hiring) to deliver Claude for clients, alongside a managed services model in which it operates Claude-powered systems in production on clients' behalf: licensed Claude access, its own IP (AI Delivery Operating System) and enterprise-grade security and governance controls. More than 44,000 associates are already trained or certified on Claude, and the company holds over 26,000 Claude certifications. CEO Ravi Kumar called it a significant bet on Claude; Anthropic CCO Paul Smith is quoted in the release. No financial terms were disclosed; client performance figures (such as 35% downtime reduction at a global pharmaceutical manufacturer) are company claims.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 13:42",
+    "מזהה": "n-1196",
+    "_translation": {
+      "en": {
+        "source_hash": "baa4455a9756e32bae2469abe70261420849b4ffd5118c62d999644aeadbbb32",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "כותרת": "אפל (AAPL), דיווח רויטרס (לא מאומת מול מקור ראשוני): Apple Intelligence נרשמה אצל רשם הסייבר של שנגחאי לטאבלטים ולפטופים, אחרי אישור האייפון ביולי; שילוב Qwen של עליבאבא צפוי בדצמבר עם iOS 27.3",
+    "category": "micro",
+    "חברה": "AAPL",
+    "קישור": "https://www.streetinsider.com/Reuters/Apple+Intelligence+AI+service+registers+with+Chinese+regulator+for+use+on+tablets%2C+laptops/27310788.html",
+    "מקורות": [
+      {
+        "label": "רויטרס דרך StreetInsider, 9 בנובמבר 2026 (לא מאומת מול מקור ראשוני)",
+        "url": "https://www.streetinsider.com/Reuters/Apple+Intelligence+AI+service+registers+with+Chinese+regulator+for+use+on+tablets%2C+laptops/27310788.html",
+        "label_en": "Reuters via StreetInsider, Nov 9, 2026 (not verified against a primary source)"
+      },
+      {
+        "label": "MarketScreener, נובמבר 2026 (לא מאומת מול מקור ראשוני)",
+        "url": "https://www.marketscreener.com/news/apple-intelligence-ai-service-registers-with-chinese-regulator-for-use-on-tablets-laptops-ce785fd3da81f42d",
+        "label_en": "MarketScreener, Nov 2026 (not verified against a primary source)"
+      }
+    ],
+    "טקסט": "09.11.2026 | לא מאומת מול מקור ראשוני: רשימת הרישום הרשמית של הרגולטור לא נבדקה ישירות; מבוסס על שידור רויטרס מבייג'ינג שנקרא דרך שני ערוצי סינדיקציה.\n\nלפי רויטרס, רשם הסייבר של שנגחאי רישם את שירות ה-AI הגנרטיבי של אפל, Apple Intelligence, לשימוש בטאבלטים ובלפטופים בסין - לאחר שאושר לאייפון ביולי. הרגולציה הסינית מחייבת רישום מודלי שפה גדולים ושירותי AI גנרטיבי לפני זמינות לציבור. לפי דיווח רויטרס מאוגוסט, אפל אימנה מודל שפה ייעודי לשוק הסיני בתמיכת עליבאבא, ומשתמשים בסין יוכלו לגשת ליכולות מודל Qwen דרך Siri וכלי הכתיבה; עליבאבא מסרה באוקטובר שהתכונות יושקו למשתמשים בסין בדצמבר עם iOS 27.3, בעקבות גרסת מבחן מ-4 בנובמבר. מועדי ההשקה בפועל לטאבלטים ולמחשבים שולחניים טרם אושרו.",
+    "כותרת_en": "Apple (AAPL), Reuters report (not verified against a primary source): Apple Intelligence registered with Shanghai's cyber regulator for tablets and laptops, after July iPhone approval; Alibaba Qwen integration expected in December with iOS 27.3",
+    "טקסט_en": "Nov 9, 2026 | not verified against a primary source: the regulator's official registration list was not checked directly; based on a Reuters dispatch from Beijing read through two syndication channels.\n\nPer Reuters, Shanghai's cyberspace regulator registered Apple's generative AI service, Apple Intelligence, for use on tablets and laptops in China - after iPhone approval in July. Chinese regulation requires registration of large language models and generative AI services before public availability. Per Reuters' August reporting, Apple trained a China-specific large language model with Alibaba's support, and users in China will access Qwen model capabilities through Siri and writing tools; Alibaba said in October the features would roll out to Chinese users in December with iOS 27.3, following a test version released November 4. Actual launch timing for tablets and desktops remains unconfirmed.",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-10 13:42",
+    "מזהה": "n-1197",
+    "_translation": {
+      "en": {
+        "source_hash": "3e44dc1b9306a6e8025231d728d07f22cf54fe809b81679f301ce341a6fe27d4",
+        "schema_version": 1
+      }
+    }
   }
 ]
