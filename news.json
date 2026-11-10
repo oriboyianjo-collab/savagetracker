@@ -29617,5 +29617,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "רוקט לאב (RKLB): שני הלוויינים התאומים Blue ו-Gold שבנתה למשימת ESCAPADE של נאס\"א השלימו בהצלחה את בעירות ההאצה לכיוון מאדים",
+    "category": "micro",
+    "חברה": "RKLB",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/10/3399441/0/en/twin-satellites-built-by-rocket-lab-for-nasa-s-escapade-mission-complete-successful-trans-mars-injection-burns-setting-course-for-the-red-planet.html",
+    "מקורות": [
+      {
+        "label": "הודעת Rocket Lab ב-GlobeNewswire, 10 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3399441/0/en/twin-satellites-built-by-rocket-lab-for-nasa-s-escapade-mission-complete-successful-trans-mars-injection-burns-setting-course-for-the-red-planet.html",
+        "label_en": "Rocket Lab via GlobeNewswire, Nov 10, 2026 - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה, נקראה.\n\nשני הלוויינים שתכננה ובנתה Rocket Lab לנאס\"א ולמעבדת מדעי החלל של אוניברסיטת קליפורניה בברקלי השלימו את בעירות ההחדרה למסלול-מאדים (TMI) במסגרת תמרון האצת-כובד כדוה\"א מונע: Blue ב-7 בנובמבר ו-Gold ב-9 בנובמבר, כל אחד בבעירה רציפה של כ-10 דקות שבוצעה אוטונומית בפיקוח המפעילים. זו אינה שיגור או הגעה - אלא אבן-דרך קריטית בדרך: החדרה למסלול מאדים מתוכננת לספטמבר 2027 והפעילות המדעית בתצורת מבנה ב-2028, לחקר שכבת האטמוספרה העליונה ומזג-האויר החללי של מאדים. לפי החברה, הבעירות בוצעו בדיוק כולל של מעל 99% ובסטיית כיוון סופית של פחות ממעלה אחת - טענות החברה. הביצוע העצמאי של הבעירות (בלי שלב עליון של משגר) דרש מערכת הנעה חזקה ותכנון מסלול מדויק.",
+    "כותרת_en": "Rocket Lab (RKLB): the twin Blue and Gold satellites it built for NASA's ESCAPADE mission successfully completed their trans-Mars injection burns",
+    "טקסט_en": "Nov 10, 2026 | per the company's announcement, read.\n\nThe two spacecraft Rocket Lab designed and built for NASA and UC Berkeley's Space Sciences Laboratory completed their trans-Mars injection (TMI) burns during a powered Earth gravity-assist maneuver: Blue on November 7 and Gold on November 9, each in a continuous ~10-minute burn executed autonomously under operator oversight. This is neither a launch nor an arrival - it is a critical milestone en route: Mars orbit insertion is planned for September 2027 with science formation operations in 2028, studying Mars' upper atmosphere and space weather. Per the company, the burns were executed with greater than 99% overall accuracy and a final attitude error under 1 degree - company claims. Performing the departure burns without a launch vehicle's upper stage required a powerful onboard propulsion system and precise trajectory planning.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 15:08",
+    "מזהה": "n-1218",
+    "_translation": {
+      "en": {
+        "source_hash": "fabb523426b6c3f13bb7163261703bb2f4fffada7341534b362816518ea384c0",
+        "schema_version": 1
+      }
+    }
   }
 ]
