@@ -1,7 +1,7 @@
 name: push-news
-# Instant alerts: when a data update touches news.json / reports.json, tell the alerts Worker right away (before GitHub Pages has even rebuilt).
-# Free (public repo). Needs the repository secret PUSH_NEWS_KEY (same value as the Worker's PUSH_NEWS_KEY secret); without it this job does nothing.
-# Reads public data only; never writes to the repo; never fails the push (the Worker's cron stays as fallback).
+# Queue public data changes durably. Worker sends only after exact public item/version readiness.
+# Uses repository secret PUSH_NEWS_KEY, matching the Worker. Missing credentials fail visibly.
+# Reads public data only; does not edit the repo. Ingest failure is a visible failed job.
 on:
   push:
     branches: [main]
@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
-        with: { ref: main, fetch-depth: 2 }
+        with: { ref: "${{ github.sha }}", fetch-depth: 2 }
       - name: tell the Worker
         env:
           PUSH_NEWS_KEY: ${{ secrets.PUSH_NEWS_KEY }}
