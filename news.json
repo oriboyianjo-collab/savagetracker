@@ -1,5 +1,29 @@
 [
   {
+    "מזהה": "n-1243",
+    "category": "micro",
+    "כותרת": "Amazon (AMZN): Ring הכריזה על מצלמת רחפן לבית ורובוט אבטחה לעסקים; משלוחים מתוכננים לדצמבר ולינואר",
+    "כותרת_en": "Amazon (AMZN): Ring announces home drone camera and business security robot; shipping planned for December and January",
+    "קישור": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 18:40",
+    "מקורות": [
+      {
+        "label": "Amazon: הודעה רשמית על Ring Robotics, 10 בנובמבר 2026",
+        "label_en": "Amazon: official Ring Robotics announcement, Nov 10, 2026",
+        "url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת אמזון, נקראה במלואה; שעת ההודעה לא צוינה.\n\nRing הכריזה על קטגוריית Ring Robotics עם שני מוצרים: Drone Cam, מצלמה מעופפת לשימוש בתוך הבית עם וידאו 2K, ו-Rover Cam, רובוט אבטחה לעסקים עם מצלמה מתכווננת ותיעוד עד 4K. מערכת AI Pilot משלבת מצלמות, חיישנים ועיבוד בענן כדי למפות חללים, להציע נקודות סיור ולנווט סביב מכשולים; שני המוצרים משתלבים באפליקציה ובמכשירי Ring הקיימים. אלו יכולות לפי החברה, לא בדיקת ביצועים עצמאית.\n\nזמינות בארה״ב: Rover Cam זמין להזמנה מוקדמת ב-999.99 דולר ומשלוחיו מתוכננים להתחיל ב-16 בדצמבר 2026. Drone Cam במחיר 249.99 דולר מיועד למשלוחים מ-27 בינואר 2027, אך טרם קיבל אישור FCC ואינו מותר למכירה או להשכרה עד לקבלת האישור. אין כאן הודעה ששני המוצרים כבר נשלחים ללקוחות.\n\nסיורים מתוזמנים ותכונות מסוימות דורשים תוכנית Ring Protect תואמת. לפי החברה, מצלמת הרחפן כבויה בעמדת העגינה; מצב שינה ב-Rover מכניס את המצלמה ומכבה את המיקרופון. החברה מציינת חיווי הקלטה והצפנת TAKE כברירת מחדל.",
+    "טקסט_en": "Nov 10, 2026 | Amazon announcement, read in full; no release time specified.\n\nRing announced Ring Robotics with two products: Drone Cam, an indoor flying camera with 2K video, and Rover Cam, a business security robot with an adjustable camera and up to 4K recording. AI Pilot combines cameras, sensors and cloud processing to map spaces, suggest patrol points and navigate around obstacles; both integrate with the existing Ring app and devices. These are company-described capabilities, not independent performance testing.\n\nUS availability: Rover Cam is available for preorder at $999.99, with shipping planned to begin Dec 16, 2026. Drone Cam costs $249.99 with shipping planned from Jan 27, 2027, but has not received FCC authorization and cannot be sold or leased until authorized. This is not an announcement that both products are already shipping.\n\nScheduled patrols and certain features require a compatible Ring Protect plan. The company says the drone camera is off while docked; Rover Sleep Mode retracts the camera and turns off its microphone. Recording indicators and default TAKE encryption are also described.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1a0468a64d2c78be3865ff747e23798f13725bf1023eb357c96521f9a75fdd11"
+      }
+    }
+  },
+  {
     "מזהה": "n-1242",
     "category": "micro",
     "כותרת": "Lockheed Martin (LMT): מסרה את רקטת ה-GMLRS ה-100,000; ניסוי ראשון למנוע חדש עם General Dynamics הושלם",
