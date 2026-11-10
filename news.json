@@ -30737,5 +30737,35 @@
         "source_hash": "fc1fe876bfc8dc91c5baa47611883b95383428b0f9f4f80aaed47a1b2b623e86"
       }
     }
+  },
+  {
+    "מזהה": "n-1258",
+    "category": "micro",
+    "חברה": "COST",
+    "כותרת": "Costco (COST): הוכרז דיבידנד מיוחד של 30 דולר למניה, כ-13.3 מיליארד דולר; אושרה מחדש מסגרת רכישה עצמית של עד 4 מיליארד דולר במקום הקודמת",
+    "כותרת_en": "Costco (COST): declares $30 special dividend, about $13.3 billion; reauthorizes up to $4 billion in buybacks to replace prior program",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 23:33",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000134/costex9918-k111026.htm",
+    "מקורות": [
+      {
+        "label": "Costco: הודעת החברה המלאה, נספח 99.1 ב-SEC, 10 בנובמבר; שעת המקור לא אומתה",
+        "label_en": "Costco: full company release, SEC Exhibit 99.1, Nov 10; original clock not verified",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000134/costex9918-k111026.htm"
+      },
+      {
+        "label": "Costco: דיווח 8-K, סעיף 8.01 על הדיבידנד",
+        "label_en": "Costco: Form 8-K, dividend disclosure in Item 8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000134/cost-20261107.htm"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה ודיווח 8-K נקראו במלואם; שעת פרסום ההודעה המקורית לא אומתה.\n\nדירקטוריון Costco הכריז על דיבידנד מזומן מיוחד של 30 דולר למניה רגילה, בהיקף כולל משוער של 13.3 מיליארד דולר. התשלום נקבע ל-4 בדצמבר 2026, לבעלי מניות רשומים בסיום יום העסקים ב-24 בנובמבר 2026. מדובר בהכרזה על תשלום עתידי, לא בכסף שכבר שולם. תאריך אקס-דיבידנד לא נקבע כאן.\n\nבנפרד, הדירקטוריון אישר מחדש תוכנית לרכישה עצמית של מניות רגילות בהיקף של עד 4 מיליארד דולר, שתפקע בנובמבר 2030. היא מחליפה את תוכנית ה-4 מיליארד דולר שאושרה ב-2023 ונועדה לפקוע בינואר 2027, אשר במסגרתה כבר נרכשו מניות ב-3.1 מיליארד דולר לפי ההודעה.\n\nאין לחבר את שתי מסגרות הרכישה כאילו אושרה מסגרת חדשה של 8 מיליארד דולר; המסגרת החדשה היא תחליף. ההרשאה לרכישות אינה דיווח שבוצעו רכישות נוספות בסכום זה. זהו אירוע חלוקת הון נפרד מתוצאות כספיות או מתחזית רווח.",
+    "טקסט_en": "Nov 10, 2026 | Full company release and Form 8-K read; the original release clock was not verified.\n\nCostco's board declared a special cash dividend of $30 per common share, totaling approximately $13.3 billion. Payment is scheduled for December 4, 2026, to shareholders of record at the close of business on November 24, 2026. This is a declared future payment, not cash already paid. No ex-dividend date is established here.\n\nSeparately, the board reauthorized a common-stock buyback program of up to $4 billion, expiring in November 2030. It replaces the $4 billion program adopted in 2023 and due to expire in January 2027, under which $3.1 billion had been purchased, per the release.\n\nThe two authorizations must not be added as if a new $8 billion program were approved; the new program is a replacement. The authorization does not report additional completed purchases of that amount. This is a standalone capital-return event, not an earnings or profit-outlook update.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d2647c4cfa7a35a951b3ee2566c3251a56979674659c8e45f7e31e0292f26dc9"
+      }
+    }
   }
 ]
