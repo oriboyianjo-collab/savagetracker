@@ -30062,5 +30062,34 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Fox Corporation (FOXA, FOX): השיקה הצעת אג\"ח בכירות של 7 סדרות לפרעון מלוא הלוואת הגישור של עסקת Roku; התנאים עדיין לא תומחרו",
+    "category": "micro",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1754301/000119312526454550/d147100d424b2.htm",
+    "מקורות": [
+      {
+        "label": "טיוטת תשקיף משלים 424B2 ל-SEC (ראשוני, כפוף להשלמה), 10 בנובמבר 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/1754301/000119312526454550/d147100d424b2.htm",
+        "label_en": "Preliminary 424B2 prospectus supplement filed with the SEC (subject to completion), Nov 10, 2026"
+      },
+      {
+        "label": "Bloomberg Law: יעד של כ-8 מיליארד דולר ושיחת תמחור ראשונית (מקור אנונימי, לא סופי), 10 בנובמבר 2026",
+        "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/fox-begins-high-grade-bond-sale-to-repay-debt-for-roku-deal",
+        "label_en": "Bloomberg Law: ~$8B target and initial price talk (anonymous source, not final), Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | Fox Corporation הגישה היום ל-SEC טיוטת תשקיף משלים (424B2, ראשוני וכפוף להשלמה) להצעת שבע סדרות אג\"ח בכירות לא מובטחות. ההיקפים, הריביות והמועדים עדיין ריקים - ההנפקה הושקה אך טרם תומחרה, ולכן אין עדיין גובה גיוס סופי. לפי התשקיף, התמורה הנטו, יחד עם מזומן קיים, תשמש לפרעון מלוא הלוואת הגישור שמימנה חלק מתמורת המזומן של רכישת Roku (הושלמה ב-6.11, פריט n-0157), והשאר לצרכים כלליים. הלוואת הגישור (8.4 מיליארד דולר שנמשכו ביום הסגירה, פריט n-0075) נושאת פירעון 364 יום לאחר הסגירה וניתנת לפרעון מוקדם; לאחר הפרעון ההתחייבויות במסגרת יסתיימו.\n\nלפי Bloomberg Law, ממקור אנונימי, ההצעה מכוונת לכ-8 מיליארד דולר בעד 7 פלחים למועדים של 3-40 שנה, ושיחת התמחור הראשונית על הפלח הארוך היא כ-225 נקודות בסיס מעל האג\"ח הממשלתי - נתוני שיווק ראשוניים, לא תמחור סופי. ההבחנה חשובה: ההשקה עצמה וייעוד התמורה מאושרים במסמך הרשמי; הגודל והמרווח הם דיווח בלבד בשלב זה.",
+    "כותרת_en": "Fox Corporation (FOXA, FOX): launches a 7-tranche senior notes offering to repay the Roku-deal bridge facility in full; terms not yet priced",
+    "טקסט_en": "Nov 10, 2026 | Fox Corporation today filed a preliminary prospectus supplement (424B2, subject to completion) with the SEC for an offering of seven series of senior unsecured notes. Amounts, coupons and maturities are still blank - the offering has launched but not priced, so there is no final raise size yet. Per the prospectus, net proceeds, together with cash on hand, will repay in full the bridge facility that funded part of the cash consideration for the Roku acquisition (completed Nov 6, item n-0157), with any remainder for general corporate purposes. The bridge facility ($8.4B drawn at closing, item n-0075) matures 364 days after closing and is prepayable; upon repayment its commitments terminate.\n\nPer Bloomberg Law, citing an anonymous source, the offering targets about $8 billion in up to 7 tranches of 3-40 years, with initial price talk on the longest tranche around +225bp over Treasuries - early marketing indications, not final pricing. The distinction matters: the launch itself and the use of proceeds are confirmed in the official filing; size and spread are report-only at this stage.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 16:57",
+    "מזהה": "n-1233",
+    "_translation": {
+      "en": {
+        "source_hash": "74fc7f39ac519a4cc0d082611c619ae3ec3fdc73bd2f1866e26dcd185511252c",
+        "schema_version": 1
+      }
+    }
   }
 ]
