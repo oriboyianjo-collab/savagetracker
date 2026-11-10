@@ -30526,5 +30526,29 @@
         "source_hash": "6a12ea2e28619dc8c84e7817888dcd27dd3a59d7d9a65a1afa3383c16dd79c28"
       }
     }
+  },
+  {
+    "מזהה": "n-1250",
+    "category": "micro",
+    "כותרת": "Anthropic משיקה כלי עבודה משותפים ב-Claude: Sheets, Whiteboards ו-Data; Meetings בהמשך",
+    "כותרת_en": "Anthropic launches collaborative Claude Sheets, Whiteboards and Data; Meetings to follow",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 20:29",
+    "קישור": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+    "מקורות": [
+      {
+        "label": "Anthropic: הודעת מוצר Claude Sheets, Whiteboards ו-Interactive Connectors - ראשוני",
+        "label_en": "Anthropic: Claude Sheets, Whiteboards and Interactive Connectors product announcement - primary",
+        "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה נקראה במלואה. החידוש הוא כלי עבודה ומחברים, לא טווח מחיר ההנפקה שכבר כוסה ב-n-1193 או שדרוג המודלים ב-n-1128.\n\nAnthropic הודיעה כי מהיום Claude יכול לבנות עם צוותים גיליונות אלקטרוניים, לוחות עבודה ודשבורדים. Claude Sheets מאפשר עבודה משותפת על נתונים, נוסחאות וכמה לשוניות; Claude Whiteboards מארגן רעיונות ומסכם אותם; Claude Data, שנקרא קודם Dashboards, מתחבר לכלים כגון Snowflake ו-Salesforce. שימוש בהגדרות נתונים מאושרות בידי צוות הנתונים מסומן בטא.\n\nהחברה מרחיבה גם Interactive Connectors כך ששותפים יכולים להטמיע יישומים בתוך Claude. תוספים של Salesforce וב-Workday מסומנים בטא; ההודעה מזכירה גם NetSuite וכלים נוספים. Auto-connect נמצא בבטא במסלולי Team ו-Enterprise זכאים, ולא מוצג כזמין לכל משתמש. מנהלי Enterprise קובעים גישה למוצרים ולמחברים ומגבלות הוצאה; הרשאות המחבר נשארות כפופות להרשאות הקיימות.\n\nClaude Meetings, להוספת Claude לשיחות לצורך רישום ועדכון מסמכים, מוגדר coming soon ולא זמין מהיום. גם Claude Motion מסומן בטא. לא פורסמו בהודעה תוצאות כספיות או תנאי מכירה חדשים. דוגמאות חיסכון בזמן אצל החברה ולקוחותיה הן עדויות וטענות בהודעת החברה, לא מדידה עצמאית; אין כאן טענה שההשקה לבדה גרמה לשינוי במחיר מניית Microsoft.",
+    "טקסט_en": "Nov 10, 2026 | company announcement read in full. The new information concerns workplace tools and connectors, not the IPO range already covered in n-1193 or the model upgrade in n-1128.\n\nAnthropic says Claude can now build spreadsheets, whiteboards and dashboards collaboratively with teams. Claude Sheets supports shared data work, formulas and multiple tabs; Claude Whiteboards organizes and summarizes ideas; Claude Data, formerly Dashboards, connects to tools such as Snowflake and Salesforce. Use of definitions certified by a data team is labeled beta.\n\nInteractive Connectors are also expanding so partners can embed apps inside Claude. Salesforce and Workday plugins are labeled beta; the announcement also names NetSuite and other tools. Auto-connect is in beta on eligible Team and Enterprise plans, not stated as available to everyone. Enterprise admins control access to products and connectors and set spending limits; connector actions remain subject to existing permissions.\n\nClaude Meetings, for adding Claude to calls to take notes and update documents, is coming soon rather than available today. Claude Motion is also labeled beta. The announcement provides no financial results or new sales terms. Time-saving examples from Anthropic and customers are company-published testimonials and claims, not independent measurements. This item makes no claim that the launch alone caused a move in Microsoft shares.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "71dd9b91f62a094c48e6ded20e2d3d150b8f0500b4764e4168bae43e80bde7b2"
+      }
+    }
   }
 ]
