@@ -2366,17 +2366,23 @@
     "אירוע": "מכרז אג\"ח ממשלת ארה\"ב ל-10 שנים",
     "חשיבות": 1,
     "מקור": "https://home.treasury.gov/news/press-releases/sb0678",
-    "הערה": "הודעת ההחזר הרבעוני מ-4.11: מכרז בשעה13:00ניו יורק=20:00ישראל; היקף הצעה 42 מיליארד דולר. זהו היקף הנפקה מתוכנן, לא תשואת תוצאת המכרז או צפי לתשואה. סליקה ב-16.11.",
+    "הערה": "הודעת ההחזר הרבעוני מ-4.11: מכרז בשעה13:00ניו יורק=20:00ישראל; היקף הצעה 42 מיליארד דולר. זהו היקף הנפקה מתוכנן, לא תשואת תוצאת המכרז או צפי לתשואה. סליקה ב-16.11. תוצאה רשמית אומתה ב-10.11 לאחר הפרסום: אג\"ח חדשה ל-10 שנים, CUSIP 91282CRX1, סליקה 16.11.2026 ופדיון 15.11.2036. תשואה גבוהה 5.020%; יחס ביקוש לכיסוי 2.46. היקף ההצעה 42 מיליארד דולר אינו תשואה או סכום גיוס שהוסק מהיחס. חותמת עדכון המקור 13:03:35 ET. אין צפי תשואה או פער מול when-issued שאומתו כאן.",
     "שעה": "20:00",
     "מזהה": "c-0098",
     "אירוע_en": "US Treasury 10-year note auction",
-    "הערה_en": "Quarterly refunding announcement of Nov 4: auction at 13:00 New York = 20:00 Israel; offering size 42 billion USD. This is a planned issuance size, not an auction result yield or a yield estimate. Settlement Nov 16.",
+    "הערה_en": "Quarterly refunding announcement of Nov 4: auction at 13:00 New York = 20:00 Israel; offering size 42 billion USD. This is a planned issuance size, not an auction result yield or a yield estimate. Settlement Nov 16. Official result verified Nov 10 after release: new 10-year note, CUSIP 91282CRX1, settlement Nov 16, 2026 and maturity Nov 15, 2036. High yield 5.020%; bid-to-cover 2.46. The $42B offering size is not a yield or proceeds inferred from the ratio. Source update timestamp 13:03:35 ET. No verified yield consensus or when-issued spread is provided here.",
     "_translation": {
       "en": {
-        "source_hash": "4841a5cbec63ac401c00e1e594cba2e1a31474f43307b3486c5432a5e48c83aa",
+        "source_hash": "408a1c2d172d828ff6c899f1660304c9f562ca25da6669100b9335c1e1cd1dd5",
         "schema_version": 1
       }
-    }
+    },
+    "בפועל": "5.020%",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.treasurydirect.gov/auctions/announcements-data-results/",
+      "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261110_1.pdf"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-10"
   },
   {
     "תאריך": "2026-11-10",
