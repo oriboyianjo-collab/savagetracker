@@ -30501,5 +30501,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "מזהה": "n-1249",
+    "category": "micro",
+    "חברה": "TRMB",
+    "כותרת": "Trimble (TRMB) משיקה את SketchUp 2027; יבואן Revit צפוי בהמשך נובמבר",
+    "כותרת_en": "Trimble (TRMB) releases SketchUp 2027; Revit importer expected later in November",
+    "קישור": "https://www.prnewswire.com/news-releases/trimble-expands-design-and-constructability-workflows-with-new-sketchup-capabilities-302933970.html",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 19:32",
+    "מקורות": [
+      {
+        "label": "Trimble: הודעת SketchUp דרך PRNewswire, 10.11.2026 - ראשוני",
+        "label_en": "Trimble: SketchUp release via PRNewswire, Nov 10, 2026 - primary",
+        "url": "https://www.prnewswire.com/news-releases/trimble-expands-design-and-constructability-workflows-with-new-sketchup-capabilities-302933970.html"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה פורסמה ב-12:30 ET, 19:30 בישראל, ונקראה במלואה. זהו מוצר תכנון נפרד מהרחבת שכבת ה-AI של Trimble Connect שכוסתה ב-n-1124.\n\nSketchUp 2027.0 זמין כעת למנויי Pro ומעלה, כולל Studio for Higher Ed; יכולות נבחרות זמינות גם למנויי Go ב-SketchUp ל-iPad. החידוש המרכזי הוא Procedures, מערכת מידול לא-הרסנית שמאפשרת לשנות ולשלב פעולות בלי לבנות מחדש את המודל. נוספים דפוסי מילוי לחתכים, משטח עבודה ב-LayOut בקנה מידה 1:1 לפני בחירת גודל עמוד, ורכיבים המתאימים את גודלם למשטח. תוסף Spatial Preview מציג שינויים במודל ב-Apple Vision Pro בזמן אמת דרך Mac Virtual Display.\n\nבנפרד, SketchUp Importer for Revit צפוי להיות זמין בנובמבר 2026 ללא תשלום נוסף למנויי Pro Advanced Workflows ו-Studio. הוא מיועד להמיר רכיבי SketchUp לרכיבים אדריכליים מקוריים ב-Revit; ההכרזה אינה אישור לזמינות היום. Trimble Connect Design Hub מסומן Labs, ולא כהשקה כללית.\n\nלא נמסרו בהודעה חוזי לקוחות או השפעה כספית כמותית. תיאורי חיסכון בזמן וצמצום עבודה חוזרת הם טענות החברה, לא תוצאות עצמאיות שאומתו כאן.",
+    "טקסט_en": "Nov 10, 2026 | company release at 12:30 p.m. ET, 7:30 p.m. Israel time, read in full. This is a separate design-product release from the Trimble Connect AI expansion covered in n-1124.\n\nSketchUp 2027.0 is available now to Pro and higher-tier subscribers, including Studio for Higher Ed; selected features are also available to Go subscribers on SketchUp for iPad. The main addition is Procedures, a non-destructive modeling system for changing and combining operations without rebuilding the model. Other additions include section hatch patterns, a 1:1 Paperless Canvas in LayOut before choosing a page size, and components that automatically size themselves to a surface. The Spatial Preview extension displays live model changes in Apple Vision Pro using Mac Virtual Display.\n\nSeparately, SketchUp Importer for Revit is expected in November 2026 at no extra cost to Pro Advanced Workflows and Studio subscribers. It is designed to convert SketchUp components into native Revit architectural elements; the announcement does not establish availability today. Trimble Connect Design Hub is labeled Labs, not generally available.\n\nThe release states no customer contracts or quantified financial impact. Claims of faster work and less rework are company descriptions, not independently verified outcomes.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6a12ea2e28619dc8c84e7817888dcd27dd3a59d7d9a65a1afa3383c16dd79c28"
+      }
+    }
   }
 ]
