@@ -29392,5 +29392,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "אנטגריס (ENTG): הדירקטוריון אישר תוכנית רכישה עצמית של עד 500 מיליון דולר; החברה צופה העלאת דיבידנד של 10% החל מרבעון ראשון 2027, בכפוף להכרזה",
+    "category": "micro",
+    "חברה": "ENTG",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1101302/000114036126042892/ef20085135_ex99-1.htm",
+    "מקורות": [
+      {
+        "label": "נספח 99.1 לדוח 8-K של Entegris, 9 בנובמבר 2026 (SEC) - מקור ראשוני",
+        "url": "https://www.sec.gov/Archives/edgar/data/1101302/000114036126042892/ef20085135_ex99-1.htm",
+        "label_en": "Entegris 8-K Exhibit 99.1, Nov 9, 2026 (SEC) - primary source"
+      }
+    ],
+    "טקסט": "09.11.2026 | נספח ההודעה ל-8-K באתר ה-SEC, נקרא. מטרות המודל הפיננסי לטווח הארוך (צמיחה/מרווחים) הושמטו כהנחיית תוכן - אין כאן סיקורן.\n\nביום שוק ההון שלה, Entegris הודיעה שהדירקטוריון אישר תוכנית רכישה עצמית של עד 500 מיליון דולר. הרכישות יבוצעו מעת לעת בשוק הפתוח, בעסקאות משא-ומתן, במתווים מואצים או בתוכניות 10b5-1, לפי שיקול ההנהלה ותנאי השוק; התוכנית אינה מחייבת רכישה בפועל וניתנת להשעיה או הפסקה בכל עת, והיא עדיין לא בוצעה. בנוסף, החברה צופה העלאה של כ-10% בדיבידנד הרבעוני החל מהרבעון הראשון של 2027, בכפוף להכרזת הדירקטוריון. הצעדים במסגרת מדיניות הקצאת הון חדשה: השקעה בצמיחה אורגנית, M&A מושכל, והחזרת כ-50% מהמזומן העודף לבעלי המניות.",
+    "כותרת_en": "Entegris (ENTG): board authorizes a share repurchase program of up to $500M; company expects a 10% dividend raise starting Q1 2027, subject to declaration",
+    "טקסט_en": "Nov 9, 2026 | the 8-K exhibit on SEC, read. The long-term financial model targets (growth/margins) are omitted as guidance-class content.\n\nAt its Capital Markets Day, Entegris announced that its Board authorized a share repurchase program of up to $500 million. Repurchases may occur from time to time via open market purchases, privately negotiated transactions, accelerated arrangements or Rule 10b5-1 plans, at management's discretion based on market conditions; the program does not obligate any purchases, may be suspended or discontinued at any time, and has not yet been executed. The company also expects to raise its quarterly cash dividend by about 10% starting in Q1 2027, subject to Board declaration. The moves sit within a new capital-allocation framework: organic growth investment, disciplined M&A, and returning roughly 50% of excess cash to shareholders.",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-10 14:42",
+    "מזהה": "n-1209",
+    "_translation": {
+      "en": {
+        "source_hash": "f78741d64879a184c28a2dabc98bac3c6ea7eb7a14145b30009a7714b257d989",
+        "schema_version": 1
+      }
+    }
   }
 ]
