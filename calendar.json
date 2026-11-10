@@ -2287,18 +2287,22 @@
     "מדינה": "US",
     "אירוע": "עדכון מחירי בנזין וסולר שבועי (EIA)",
     "חשיבות": 1,
-    "הערה": "לוח EIA:שלישי10ET=17ישראל; סדרת מחירים, לא מלאי נפט; בלי צפי יחיד.",
-    "מקור": "https://www.eia.gov/reports/upcoming.php",
+    "הערה": "מחירים קמעונאיים בארה\"ב, לא מלאי נפט\nבנזין רגיל: 3.995 USD לגלון\n- שבוע קודם 02.11: 4.153 USD לגלון\n- שינוי שבועי: -0.158 USD לגלון\nסולר לתחבורה בכבישים: 6.127 USD לגלון\n- שבוע קודם 02.11: 6.292 USD לגלון\n- שינוי שבועי: -0.165 USD לגלון\nתאריך הייחוס: 09.11.2026\nתאריך פרסום EIA: 10.11.2026\nלא פורסם כאן צפי; אין השוואת הפתעה",
+    "מקור": "https://www.eia.gov/petroleum/gasdiesel/",
     "שעה": "17:00",
     "מזהה": "c-0095",
     "אירוע_en": "Weekly gasoline and diesel price update (EIA)",
-    "הערה_en": "EIA schedule: Tuesday 10 ET = 17:00 Israel; a price series, not oil inventories; no single estimate.",
+    "הערה_en": "U.S. retail prices, not oil inventories\nRegular gasoline: 3.995 USD/gal\n- prior week Nov 2: 4.153 USD/gal\n- weekly change: -0.158 USD/gal\nOn-highway diesel: 6.127 USD/gal\n- prior week Nov 2: 6.292 USD/gal\n- weekly change: -0.165 USD/gal\nReference date: 09.11.2026\nEIA release date: 10.11.2026\nNo estimate published here; no surprise comparison",
     "_translation": {
       "en": {
-        "source_hash": "3ef11b49380a964e2aa9081ebe4d209b4c7b72abb77a87294f618b4d3b2d98ae",
+        "source_hash": "4061d53795d0db8907dd978ec832912b3e7d2bcc38d570cedf6d20f0c2452d44",
         "schema_version": 1
       }
-    }
+    },
+    "בפועל": "בנזין 3.995; סולר 6.127",
+    "תקופה": "שבוע ייחוס 09.11.2026",
+    "בפועל_en": "Gasoline 3.995; diesel 6.127",
+    "תקופה_en": "Reference week 09.11.2026"
   },
   {
     "תאריך": "2026-11-10",
