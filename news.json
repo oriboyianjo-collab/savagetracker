@@ -30550,5 +30550,29 @@
         "source_hash": "71dd9b91f62a094c48e6ded20e2d3d150b8f0500b4764e4168bae43e80bde7b2"
       }
     }
+  },
+  {
+    "מזהה": "n-1251",
+    "category": "macro",
+    "כותרת": "לפי Jerusalem Post: ראש ממשלת קטאר תיאר ל-G7 חלון דיפלומטי של לפחות שבועיים לפני תקיפה אמריקאית אפשרית באיראן",
+    "כותרת_en": "Jerusalem Post: Qatar PM described at least two weeks for diplomacy before a possible US attack on Iran",
+    "תאריך": "2026-11-10 20:24",
+    "הועלה": "2026-11-10 20:41",
+    "קישור": "https://www.jpost.com/middle-east/article-914504",
+    "מקורות": [
+      {
+        "label": "Jerusalem Post: עמיחי שטיין, 10.11.2026 20:24; דיווח מפי מקורות דיפלומטיים, משני",
+        "label_en": "Jerusalem Post: Amichai Stein, Nov 10, 2026, 20:24; diplomatic-sources report, secondary",
+        "url": "https://www.jpost.com/middle-east/article-914504"
+      }
+    ],
+    "טקסט": "לא מאומת מול הודעה או תמליל רשמיים\n10.11.2026, 20:24 | דיווח Jerusalem Post מאת עמיחי שטיין, נקרא במלואו.\n\nלפי מקורות דיפלומטיים ששוחחו עם העיתון, ראש ממשלת קטאר מוחמד בן עבד א-רחמן אאל ת׳אני אמר לשרי החוץ של G7 בפריז כי דוחא השיגה \"לפחות שבועיים\" למאמצים דיפלומטיים להבנות בין וושינגטון לטהרן לפני תקיפה אמריקאית אפשרית. זהו תיאור של דברים שנמסרו למשתתפים לפי מקורות העיתון, לא הצהרה פומבית מאומתת של ראש הממשלה ולא התחייבות אמריקאית להימנע מתקיפה.\n\nלפי אותו דיווח, נותרו פערים מהותיים, ובפרט בסדר הצעדים הנוגע להסרת הסגר הימי, הסוגיה הגרעינית ושחרור כספים איראניים מוקפאים. אאל ת׳אני הדגיש גם את הצורך בשיקום אמון כדי להחזיר את הצדדים לשולחן המשא ומתן.\n\nהחידוש לעומת דיווחי התיווך והעמדה המבצעית הקודמים (n-1183, n-1236, n-1245) הוא חלון הזמן המיוחס לראש ממשלת קטאר והפירוט על סדר הצעדים. אין כאן אישור להסכם, להפסקת אש, למועד תקיפה או לאולטימטום של שבועיים. היום המדויק של הפגישה הקודמת בוושינגטון אינו נקבע כאן בשל הבדל בין תיאורי המקורות.",
+    "טקסט_en": "Not verified against an official statement or transcript\nNov 10, 2026, 20:24 | Jerusalem Post report by Amichai Stein, read in full.\n\nDiplomatic sources told the newspaper that Qatari Prime Minister Mohammed bin Abdulrahman Al Thani told G7 foreign ministers in Paris that Doha had secured \"at least two weeks\" for diplomacy toward an understanding between Washington and Tehran before a possible US attack. This is a source-reported account of remarks to participants, not a verified public statement by the prime minister or a US commitment to refrain from strikes.\n\nThe same report says significant differences remain, particularly over the sequence of lifting the naval blockade, addressing the nuclear issue and unfreezing Iranian funds. Al Thani also stressed rebuilding trust to bring the parties back to negotiations.\n\nCompared with prior mediation and operational-stance reports (n-1183, n-1236, n-1245), the new information is the time window attributed to Qatar's prime minister and the sequencing detail. It does not confirm an agreement, ceasefire, attack date or two-week ultimatum. This item does not establish the day of the earlier Washington meeting because source accounts differ.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "75c728456f56bbbb15af989704777bfec37253ca6abf5648967750d27994c0ba"
+      }
+    }
   }
 ]
