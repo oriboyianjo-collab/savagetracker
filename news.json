@@ -1,5 +1,34 @@
 [
   {
+    "מזהה": "n-1246",
+    "category": "micro",
+    "כותרת": "AMD (AMD): מעבדי EPYC דור 6 זמינים כעת ומערכות שרתים כבר נשלחות; זמינות ענן רחבה עדיין בהמשך",
+    "כותרת_en": "AMD (AMD): 6th Gen EPYC now generally available and server systems shipping; broader cloud availability still ahead",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/10/3400032/0/en/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing.html",
+    "תאריך": "2026-11-10 19:00",
+    "הועלה": "2026-11-10 19:10",
+    "מקורות": [
+      {
+        "label": "AMD / GlobeNewswire: הודעת זמינות מלאה, 10 בנובמבר, 12:00 ET",
+        "label_en": "AMD / GlobeNewswire: full availability release, Nov 10, 12:00 ET",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3400032/0/en/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing.html"
+      },
+      {
+        "label": "AMD Newsroom: הודעת Embedded נפרדת וכותרת מפרט",
+        "label_en": "AMD Newsroom: separate Embedded announcement and specification summary",
+        "url": "https://www.amd.com/en/newsroom.html"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת AMD המלאה נקראה ישירות ב-GlobeNewswire.\n\nAMD הודיעה על זמינות כללית של מעבדי השרתים EPYC דור 6 לפלטפורמת SP7, המבוססים על ארכיטקטורת Zen 6. לפי החברה, מערכות המבוססות על המעבדים כבר נשלחות מספקיות שרתים. מופעי ענן של Azure ושל Oracle Cloud Infrastructure מיועדים לזמינות כללית בקרוב; אין כאן טענה שכל שירותי הענן כבר זמינים. Azure HDv2 נמצא כעת בתצוגה מקדימה ו-Meta ממשיכה באימות פלטפורמות לקראת פריסה בקנה מידה רחב.\n\nבנפרד, חדר החדשות הרשמי מציג הכרזה על EPYC Embedded 9006 עם עד 256 ליבות, PCIe Gen 6, קישוריות CXL 3.1 ואורך חיי מוצר של שבע שנים. פרטי Embedded אלה נקראו בתקציר הרשמי בלבד, לא בגוף הודעה נפרדת. טענות יתרון ביצועים מול מתחרים לא אומתו עצמאית ולא נכללו.\n\nהחידוש לעומת הכרזות השותפות הקודמות עם Oracle ו-Meta הוא זמינות דור המעבדים ומשלוחי מערכות בפועל, לא חוזה חדש או הכנסות שדווחו.",
+    "טקסט_en": "Nov 10, 2026 | full AMD release read directly on GlobeNewswire.\n\nAMD announced general availability of 6th Gen EPYC SP7 server processors based on Zen 6. The company says processor-based systems are already shipping from server vendors. Azure and Oracle Cloud Infrastructure instances are due to become generally available soon; this does not mean all cloud services are already available. Azure HDv2 is currently in preview, while Meta continues platform validation ahead of deployment at scale.\n\nSeparately, the official newsroom lists an EPYC Embedded 9006 announcement with up to 256 cores, PCIe Gen 6, CXL 3.1 connectivity and seven-year product longevity. These Embedded details were read in the official summary only, not a separate full release. Competitive performance claims were not independently verified and are omitted.\n\nCompared with earlier Oracle and Meta partnership announcements, the new event is processor availability and actual system shipments, not a new contract or reported revenue.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "69868aaf2bb29aeee4d29ce756006e570156d85dad6c010b42630f04cfe97717"
+      }
+    }
+  },
+  {
     "מזהה": "n-1245",
     "category": "macro",
     "כותרת": "רוביו לפי AFP: אין כעת צורך במבצע לחימה גדול נגד איראן; האפשרות נותרת אם תחצה קווים אדומים",
