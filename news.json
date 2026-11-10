@@ -1,5 +1,53 @@
 [
   {
+    "מזהה": "n-1245",
+    "category": "macro",
+    "כותרת": "רוביו לפי AFP: אין כעת צורך במבצע לחימה גדול נגד איראן; האפשרות נותרת אם תחצה קווים אדומים",
+    "כותרת_en": "Rubio, per AFP: no current need for major combat operations against Iran; option remains if red lines crossed",
+    "טקסט": "לא מאומת מול תמליל אמריקאי רשמי; לפי דיווח AFP דרך Korea Times\n10.11.2026 | הדיווח פורסם ב-18:31 בישראל (11.11 בשעה 01:31 בקוריאה).\n\nלאחר מפגש שרי החוץ של G7 בפריז, מרקו רוביו אמר שטראמפ הגיע למסקנה שלעת עתה אין צורך במבצעי לחימה גדולים נגד איראן, משום שלדבריו ארה״ב משיגה את אותה מטרה באמצעים כלכליים. הוא הדגיש שצבא ארה״ב מוכן לפעול אם איראן תחצה קווים אדומים, והביע ספק בסיכויי הסכם בתנאים הנוכחיים של טהרן.\n\nהחידוש ביחס לדברי טראמפ על מומנטום מדיני ולתגובות החיוביות שעליהן דיווחה קטאר (n-1183, n-1236) הוא תיאור מפורש של העמדה המבצעית הנוכחית מפי רוביו, לא הסכם או התחייבות להימנע מתקיפה. שר החוץ הצרפתי בארו הזהיר שסיכון להסלמה מחודשת לא נשלל. ראש ממשלת קטאר הצטרף לשיחות בשולי המפגש עם דיפלומטים אירופים ושר החוץ הסעודי.",
+    "טקסט_en": "Not verified against an official US transcript; per AFP via The Korea Times\nNov 10, 2026 | published 18:31 Israel time (Nov 11 at 01:31 in Korea).\n\nAfter the G7 foreign ministers meeting in Paris, Marco Rubio said Trump concluded there is no current need for major combat operations against Iran because, he said, the US is achieving the same objective through economic means. He stressed the US military remains ready if Iran crosses red lines and expressed doubt about a deal under Tehran's current conditions.\n\nCompared with Trump's diplomatic-momentum remarks and Qatar's reported positive responses (n-1183, n-1236), the new element is Rubio's explicit description of the current operational stance, not a deal or a commitment to avoid strikes. French Foreign Minister Barrot warned renewed escalation had not been ruled out. Qatar's prime minister joined sideline talks with European diplomats and the Saudi foreign minister.",
+    "קישור": "https://www.koreatimes.co.kr/world/20261111/rubio-sees-no-need-for-major-combat-operations-against-iran",
+    "מקורות": [
+      {
+        "label": "AFP דרך Korea Times: דיווח מפריז, 10 בנובמבר בישראל",
+        "label_en": "AFP via The Korea Times: Paris report, Nov 10 Israel time",
+        "url": "https://www.koreatimes.co.kr/world/20261111/rubio-sees-no-need-for-major-combat-operations-against-iran"
+      }
+    ],
+    "תאריך": "2026-11-10 18:31",
+    "הועלה": "2026-11-10 18:47",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9762e26ef0815f768e555f3e1541db65f401c328f6dee7cfad10569c9053ff0e"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1244",
+    "category": "micro",
+    "כותרת": "לפי Bloomberg: גולדמן, סיטי ובנקים נוספים התחייבו לכ-270 מיליון דולר למיזם מטבע יציב דולרי",
+    "כותרת_en": "Per Bloomberg: Goldman, Citi and other banks commit about $270M to dollar-stablecoin venture",
+    "טקסט": "לא מאומת מול מקור ראשוני\n10.11.2026 | דיווח Bloomberg Law, פורסם ב-18:12 בישראל; החלק הזמין של הדיווח נקרא.\n\nלפי אנשים המכירים את הנושא שצוטטו ב-Bloomberg, קבוצת חברות פיננסיות ובהן Goldman Sachs, Citigroup, Santander ו-Deutsche Bank התחייבה לכ-270 מיליון דולר למיזם משותף להנפקת מטבע יציב דולרי. הכסף מיועד לכסות חמש שנות פעילות.\n\nהמיזם, שתוכניותיו הוצגו מוקדם יותר השנה בידי 21 מוסדות, צפוי להתאגד בארה״ב. החידוש הוא התחייבות המימון המדווחת, לא עצם התוכנית. לא אומתו העברת הכסף בפועל או השקת המטבע; אין כאן מועד השקה מאומת או אישור רגולטורי.",
+    "טקסט_en": "Not verified against a primary source\nNov 10, 2026 | Bloomberg Law report, published 18:12 Israel time; the accessible portion was read.\n\nPeople familiar with the matter told Bloomberg that a group of financial firms including Goldman Sachs, Citigroup, Santander and Deutsche Bank committed around $270 million toward a joint dollar-stablecoin venture. Funding is intended to cover five years of operations.\n\nPlans for the venture were detailed by 21 institutions earlier this year; the company is expected to be incorporated in the US. The new information is the reported funding commitment, not the original plan. Actual transfer of funds or a token launch was not verified; no verified launch date or regulatory approval is asserted.",
+    "קישור": "https://news.bloomberglaw.com/banking-law/goldman-citi-among-banks-in-270-million-stablecoin-backing",
+    "מקורות": [
+      {
+        "label": "Bloomberg Law: מקורות המכירים את העניין, 10 בנובמבר",
+        "label_en": "Bloomberg Law: people familiar with the matter, Nov 10",
+        "url": "https://news.bloomberglaw.com/banking-law/goldman-citi-among-banks-in-270-million-stablecoin-backing"
+      }
+    ],
+    "תאריך": "2026-11-10 18:12",
+    "הועלה": "2026-11-10 18:47",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "633f4c83a768cac2d1b5ea597c011e8831733a3de86c9185b702578188cae28d"
+      }
+    }
+  },
+  {
     "מזהה": "n-1243",
     "category": "micro",
     "כותרת": "Amazon (AMZN): Ring הכריזה על מצלמת רחפן לבית ורובוט אבטחה לעסקים; משלוחים מתוכננים לדצמבר ולינואר",
