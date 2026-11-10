@@ -1,5 +1,34 @@
 [
   {
+    "מזהה": "n-1241",
+    "category": "macro",
+    "כותרת": "לפי Fox Business: משרד האנרגיה האמריקני סגר הלוואה של 480 מיליון דולר לפרויקט נפט וגז של Arena Energy",
+    "כותרת_en": "Per Fox Business: US Energy Department closes $480M loan for Arena Energy oil and gas project",
+    "קישור": "https://www.foxbusiness.com/politics/trump-admin-pouring-480m-loan-gulf-america-oil-gas-project",
+    "תאריך": "2026-11-10 17:00",
+    "הועלה": "2026-11-10 18:30",
+    "מקורות": [
+      {
+        "label": "Fox Business: דיווח המצטט הודעת DOE שהועברה ל-Fox, 10 בנובמבר",
+        "label_en": "Fox Business: report quoting a DOE release obtained by Fox, Nov 10",
+        "url": "https://www.foxbusiness.com/politics/trump-admin-pouring-480m-loan-gulf-america-oil-gas-project"
+      },
+      {
+        "label": "DOE: מסמכי סקירה סביבתית לפרויקט Arena Energy (רקע, לא אימות לסגירת ההלוואה)",
+        "label_en": "DOE: Arena Energy environmental-review documents (background, not verification of loan closing)",
+        "url": "https://www.energy.gov/edf/arena-energy-llc-environmental-reviews"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני לגבי סגירת ההלוואה והיקפה\n10.11.2026 | לפי Fox Business, המצטטת הודעה של משרד האנרגיה שהועברה ל-Fox.\n\nלפי הדיווח, משרד Energy Dominance Financing של DOE הודיע על סגירה פיננסית של הלוואה בסך 480 מיליון דולר לפרויקט Elkhorn של Arena Energy, למודרניזציה של 22 פלטפורמות ימיות מול חופי לואיזיאנה. בשיא ההפקה, הפרויקט צפוי להוסיף עד 38,600 חביות נפט ביום ועד 77 מיליון רגל מעוקב גז טבעי ביום. אלה תחזיות לתוספת עתידית, לא תפוקה שכבר הושגה.\n\nמסמכי הסקירה הסביבתית של DOE מאשרים שקיים פרויקט פיתוח מחדש של תשתיות קיימות באזור Southern Eugene Island, אך הודעת הסגירה מהיום לא אותרה ישירות. אין בדיווח פרטים על ריבית ההלוואה או מועד תחילת התפוקה הנוספת.",
+    "טקסט_en": "Loan closing and amount not verified against a primary source\nNov 10, 2026 | per Fox Business, quoting a DOE release obtained by Fox.\n\nThe report says DOE's Office of Energy Dominance Financing announced financial close of a $480 million loan for Arena Energy's Project Elkhorn to modernize 22 offshore platforms off Louisiana. At peak production, the project is expected to add up to 38,600 barrels of oil per day and up to 77 million cubic feet of natural gas per day. These are projected future additions, not output already achieved.\n\nDOE environmental-review documents confirm an existing-infrastructure redevelopment project in the Southern Eugene Island area, but today's closing announcement was not located directly. The report provides no loan interest rate or start date for the additional production.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b0b92f76b4d29cdef8d0ce36a5a15c87a71562e79af389a40eea52d0f701d7f4"
+      }
+    }
+  },
+  {
     "מזהה": "n-1240",
     "category": "micro",
     "כותרת": "Tesla (TSLA): שירות הרובוטקסי החל לפעול בסן אנטוניו; זמינות מוגבלת, ללא נסיעות לנמל התעופה",
