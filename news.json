@@ -29134,5 +29134,30 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Diamondback (FANG) ו-KKR רוכשות יחד מ-Five Point את 70% מפלטפורמת המים Deep Blue באגן מידלנד - החזקה משותפת של 100% לאחר הסגירה; מחיר לא נמסר",
+    "category": "micro",
+    "חברה": "FANG",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/10/3399290/22886/en/diamondback-energy-and-kkr-to-acquire-deep-blue-midland-basin-from-five-point-infrastructure.html",
+    "מקורות": [
+      {
+        "label": "הודעת Diamondback ב-GlobeNewswire, 10 בנובמבר 2026",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3399290/22886/en/diamondback-energy-and-kkr-to-acquire-deep-blue-midland-basin-from-five-point-infrastructure.html",
+        "label_en": "Diamondback via GlobeNewswire, Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי הודעת החברה, נקראה.\n\nDiamondback Energy ו-KKR הודיעו על הסכם לרכישה משותפת של אחזקת Five Point Infrastructure (70%) ב-Deep Blue Midland Basin, פלטפורמת תשתיות המים המובילה באגן מידלנד שבפרמיין; Diamondback כבר מחזיקה 30%, כך שלאחר הסגירה השתיים יחזיקו יחד 100% מהחברה. מחיר העסקה והחלוקה בין הרוכשים לא נמסרו. Deep Blue, שהוקמה ב-2023 כמיזם משותף, מפעילה רשת מים משולבת הכוללת שאיבה, הובלה, אחסון, מחזור וסילוק, ומשרתת בסיס לקוחות רחב של חברות E&P; מנכ\"ל Diamondback, Kaes Van't Hof, ציין כי פעילות הליבה של החברה דורשת הובלה של כמעט 2 מיליון חביות מים ביום (מים - לא נפט). ההשקעה של KKR תמומן בעיקר דרך קרן Global Infrastructure Investors V. הסגירה צפויה ברבעון הרביעי של 2026, בכפוף לאישורים רגולטוריים ותנאים מקובלים.",
+    "כותרת_en": "Diamondback (FANG) and KKR to jointly acquire Five Point's 70% of Deep Blue Midland Basin water platform - 100% joint ownership after closing; price undisclosed",
+    "טקסט_en": "Nov 10, 2026 | per the company's announcement, read.\n\nDiamondback Energy and KKR announced an agreement to jointly acquire Five Point Infrastructure's 70% stake in Deep Blue Midland Basin, the leading full-cycle water infrastructure platform in the Midland Basin of the Permian; Diamondback already holds 30%, so after closing the two will jointly own 100% of the company. The transaction price and the buyers' split were not disclosed. Deep Blue, formed in 2023 as a joint venture, operates an integrated water network covering sourcing, transportation, storage, recycling and disposal for a large E&P customer base; Diamondback CEO Kaes Van't Hof noted the company's core operations require transportation of nearly 2 million barrels of water per day (water - not oil). KKR's investment will be funded primarily through its Global Infrastructure Investors V fund. Closing is expected in Q4 2026, subject to customary regulatory approvals and conditions.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 13:52",
+    "מזהה": "n-1199",
+    "_translation": {
+      "en": {
+        "source_hash": "2bf586f56122d30b8117593371430cb9dac12f9b0cbc7f997dd1cb56c6cf305f",
+        "schema_version": 1
+      }
+    }
   }
 ]
