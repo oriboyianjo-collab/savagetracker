@@ -29905,5 +29905,40 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Union Pacific (UNP): בהתאם לצו STB, סרטון נאום המנכ\"ל וינה ממרץ שוחרר לציבור - בו נשמע: 'אעלה ב-3-4 אחוזים נוספים את התעריפים למי שמתנגד למיזוג, כדי ללמד אתכם לקח'; החברה: 'הערה חולפת'",
+    "category": "micro",
+    "חברה": "UNP",
+    "קישור": "https://www.railwayage.com/wp-content/uploads/2026/11/53312.pdf",
+    "מקורות": [
+      {
+        "label": "החלטת STB מס' 45, תיק FD 36873, 4 בנובמבר 2026 - מסמך רשמי",
+        "url": "https://www.railwayage.com/wp-content/uploads/2026/11/53312.pdf",
+        "label_en": "STB Decision No. 45, Docket FD 36873, Nov 4, 2026 - official document"
+      },
+      {
+        "label": "Railway Age: צו ה-STB ומילוי הוראותיו, 5 בנובמבר 2026",
+        "url": "https://www.railwayage.com/regulatory/stb-orders-up-to-redesignate-swars-video-as-public/",
+        "label_en": "Railway Age: STB order and UP compliance, Nov 5, 2026"
+      },
+      {
+        "label": "Supply Chain Dive: ציטוט הנאום והתגובות, 6 בנובמבר 2026",
+        "url": "https://www.supplychaindive.com/news/up-ceos-rate-threat-adds-wrinkle-to-norfolk-southern-merger-process/874006/",
+        "label_en": "Supply Chain Dive: the speech quote and reactions, Nov 6, 2026"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני בחלקו 5-6.11.2026 | החלטת STB מס' 45 (4.11) נקראה במקורה; ההתאמה והציטוט מבוססים על Railway Age ו-Supply Chain Dive - הסרטון עצמו לא נצפה ישירות. סיקור משלים לפריטים n-0048 ו-n-0369.\n\nלאחר שה-STB דחתה פה-אחד (החלטה מס' 45, תיק FD 36873) את ערעור יוניון פסיפיק והורתה להסיר את הסימון 'סודי' מסרטון נאום המנכ\"ל ג'ים וינה בכנס SWARS (17 במרץ 2026, כ-900 משתתפי ענף), החברה מילאה את ההוראה ב-5 בנובמבר, לפני המועד: לפי הצהרה מאומתת שהוגשה ל-STB, הסימון הוסר והסרטון החדש חולק לכל הצדדים הרשומים בהליך; הוא פורסם גם באתר החברה.\n\nלפי Supply Chain Dive, שצפתה בסרטון, וינה נשמע אומר בסיום נאום ששיבח את המיזוג עם נורפוק סאותרן: 'אני כנראה אעלה את התעריפים לכל מי שאמר שהוא לא רוצה רכבת רצופה (seamless) בשלושה או ארבעה אחוזים נוספים, כדי ללמד אתכם לקח'. יוניון פסיפיק מסרה שמדובר ב'הערה חולפת' (offhand), שהיא אינה נוקמת בלקוחות ושעמדה כלפי המיזוג אינה קובעת תעריפים או איכות שירות. ההקשר הרחב: CPKC ביקשה מה-STB ב-30 באוקטובר לשקול סיום הליך המיזוג והובילה את הדרישה לפרסום הסרטון; התאחדויות השולחים (JSA) תמכו בעמדה ב-2 בנובמבר וטענו שהדברים 'מצננים את קולן של השולחים'. בהחלטתה מסרה ה-STB שכל ראיה לנקמה תישקל בהליך ועשויה להשפיע על המשך הדיון ועל שקלול הראיות להכרעה בענייניות העסקה. אין כאן קביעה סופית שהתרחשה נקמה.",
+    "כותרת_en": "Union Pacific (UNP): per STB order, the March CEO speech video was made public - Vena heard saying he'd raise rates 'three or four extra percent' on merger opponents 'to teach you a lesson'; company calls it an 'offhand comment'",
+    "טקסט_en": "Partially not verified against primary sources. Nov 5-6, 2026 | STB Decision No. 45 (Nov 4) read in the original; the compliance and quote rest on Railway Age and Supply Chain Dive - the video itself was not viewed directly. Catch-up coverage to items n-0048 and n-0369.\n\nAfter the STB unanimously (Decision No. 45, Docket FD 36873) denied Union Pacific's appeal and ordered it to remove the 'Confidential' designation from the video of CEO Jim Vena's March 17, 2026 SWARS keynote (about 900 industry attendees), the company complied on Nov 5, ahead of the deadline: per a Verified Statement filed with the STB, the label was removed and the redesignated video distributed to all parties of record; it was also published on UP's website.\n\nPer Supply Chain Dive, which viewed the video, Vena is heard saying at the close of a speech praising the Norfolk Southern merger: 'I'll probably increase everybody's rates that said they didn't want a seamless railroad by three or four extra percent to teach you a lesson.' Union Pacific said it was an 'offhand comment,' that it does not retaliate against customers and that a customer's merger position does not determine rates or service. Broader context: CPKC asked the STB on Oct 30 to consider terminating the merger proceeding and led the push to publish the video; the Joint Shipper Associations backed that stance on Nov 2, saying the remarks 'chill shipper voices.' In its decision the STB said any evidence of retaliation will be weighed and may affect continuation of the proceeding and the merits determination. There is no final finding that retaliation occurred.",
+    "תאריך": "2026-11-06",
+    "הועלה": "2026-11-10 15:55",
+    "מזהה": "n-1228",
+    "_translation": {
+      "en": {
+        "source_hash": "a9fbd6a9366c1fedb48b808d16454e5f2350d51ca8e5585238694af1491831a8",
+        "schema_version": 1
+      }
+    }
   }
 ]
