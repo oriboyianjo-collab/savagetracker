@@ -30629,5 +30629,30 @@
         "source_hash": "91edd41daa055cc93b6d25ffe0caca6958827bf0b9a643bd83e5fd36ca83007e"
       }
     }
+  },
+  {
+    "מזהה": "n-1254",
+    "category": "micro",
+    "חברה": "NVDA",
+    "כותרת": "NVIDIA (NVDA), לפי ABC: יו״ר ועדת החוץ מאסט מוכן להוציא זימון מחייב להואנג אם לא ישיב עד יום רביעי לבקשת התדריך",
+    "כותרת_en": "NVIDIA (NVDA), per ABC: Foreign Affairs chair Mast prepared to subpoena Huang if he does not respond to briefing request by Wednesday",
+    "תאריך": "2026-11-10 21:38",
+    "הועלה": "2026-11-10 21:43",
+    "קישור": "https://abcnews.com/Politics/house-republicans-issuing-subpoena-nvidia-ceo-jensen-huang/story?id=138022782",
+    "מקורות": [
+      {
+        "label": "ABC News: דיווח מקורי על דברי בריאן מאסט לרשת, 10.11.2026 14:38 ET",
+        "label_en": "ABC News: original report of Brian Mast remarks to the network, Nov 10, 2026, 14:38 ET",
+        "url": "https://abcnews.com/Politics/house-republicans-issuing-subpoena-nvidia-ceo-jensen-huang/story?id=138022782"
+      }
+    ],
+    "טקסט": "לא מאומת מול הודעת ועדה או תמליל רשמי; לפי דיווח ABC News\n10.11.2026 | פורסם ב-14:38 ET, 21:38 בישראל; הדיווח המקורי נקרא במלואו.\n\nיו״ר ועדת החוץ של בית הנבחרים, הרפובליקני בריאן מאסט, אמר ל-ABC News ביום שלישי שהוא מוכן להוציא זימון מחייב (subpoena) למנכ״ל NVIDIA ג׳נסן הואנג אם לא ישיב עד יום רביעי, 11 בנובמבר, לבקשת כמה רפובליקנים לתדריך סגור על הקשר שעליו דווח עם אישה החשודה בריגול עבור סין. טענות הריגול הן טענות שדווחו, לא ממצאים שנקבעו כאן.\n\nהחידוש לעומת הבקשה לתדריך שכבר כוסתה ב-n-0003 הוא דברי מאסט על נכונות לצעד מחייב בתנאי שלא יתקבל מענה. אין בדיווח אישור שכבר הוצא זימון, שהמועד למענה חלף או שהואנג סירב להופיע. הדרישה הקודמת למענה עד 11 בנובמבר והתדריך המבוקש ל-18 בנובמבר אינם מוצגים כאירועים חדשים.",
+    "טקסט_en": "Not verified against a committee statement or official transcript; per ABC News\nNov 10, 2026 | Published at 14:38 ET, 21:38 in Israel; original report read in full.\n\nRepublican House Foreign Affairs Committee chair Brian Mast told ABC News on Tuesday that he is prepared to subpoena NVIDIA CEO Jensen Huang if he does not respond by Wednesday, November 11, to several House Republicans' request for a closed-door briefing on his reported relationship with an alleged Chinese spy. The espionage claims remain reported allegations, not findings established here.\n\nCompared with the briefing request already covered in n-0003, the new information is Mast's stated readiness for compulsory action if no response arrives. The report does not confirm that a subpoena has been issued, that the response deadline has passed or that Huang has refused to appear. The previously requested November 11 response and November 18 briefing are not presented as new events.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e5c21f6b644d8f64a3f3632347ef5202ef24008ac5ac39a5a7595bc0db24b76d"
+      }
+    }
   }
 ]
