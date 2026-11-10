@@ -28830,5 +28830,55 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "NVIDIA (NVDA) נתבעת על ידי בעלי מניות: לפי התלונה, אי-גילוי הקשר של ג'נסן הואנג עם אליס הואנג וסיכוני הביטחון הלאומי הטעו משקיעים והנפיחו את מחיר המניה; קישור לפריט n-1155",
+    "category": "micro",
+    "חברה": "NVDA",
+    "קישור": "https://www.theguardian.com/business/live/2026/nov/10/nvidia-shareholder-lawsuit-jensen-huang-relationship-suspected-chinese-spy-fbi-trump-bank-of-england-latest-news-updates",
+    "מקורות": [
+      {
+        "label": "Guardian Business Live, 10 בנובמבר 2026 - על בסיס דיווח Politico על התלונה שהוגשה",
+        "url": "https://www.theguardian.com/business/live/2026/nov/10/nvidia-shareholder-lawsuit-jensen-huang-relationship-suspected-chinese-spy-fbi-trump-bank-of-england-latest-news-updates",
+        "label_en": "Guardian Business Live, Nov 10, 2026 - based on Politico's reporting of the filed complaint"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי Guardian Business Live על בסיס דיווח Politico על התלונה, נקרא. כל הטענות הן מסמך תביעה ודיווחים - לא ממצאים שהוכחו.\n\nבעלי מניות הגישו תביעה נגד NVIDIA בבית המשפט הפדרלי בסן חוזה, קליפורניה: לטענת התובעים, הנתבעים הטעו משקיעים באי-גילוי הקשר הנטען של מנכ\"ל החברה ג'נסן הואנג עם אליס הואנג, בכירה לשעבר ב-Megaspeed הסינגפורית, ולא גילו שהנושא מעלה חששות ביטחון לאומי המאיימים על המוניטין וסיכויי העסקים של החברה; התלונה טוענת עוד שאי-הגילוי הנפיח באופן מלאכותי את מחיר המניה ועלול להיוות הפרה של חוקי ניירות הערך הפדרליים. Megaspeed מואשמת - בדיווחים קודמים, לא בממצדים - בהעברת שבבים מוגבלים של NVIDIA לסין. המניה ירדה אתמול 3.2% ומחקה כמעט 200 מיליארד דולר משווי החברה, ל-4.3 טריליון דולר; בטרום-מסחר היא עולה כ-1.8%. טראמפ אתמול: שאלתי את הואנג והוא אמר ש\"לא היה לו שום מושג שהאדם המדובר הוא מרגל\"; ה-FBI \"בודק את זה בהקשר של משהו אחר\". נוכחותו של הואנג במשלחת טראמפ ל-APEC \"בספק\", והסנאטור כריס קונס קורא לחקור אם הביטחון הלאומי נפגע. המשך ישיר לפריט n-1155.",
+    "כותרת_en": "NVIDIA (NVDA) sued by shareholders: the complaint alleges nondisclosure of Jensen Huang's relationship with Alice Huang and of national-security risks misled investors and inflated the share price; linked to item n-1155",
+    "טקסט_en": "Nov 10, 2026 | per Guardian Business Live based on Politico's reporting of the complaint, read. All claims are from a lawsuit filing and reports - not established findings.\n\nShareholders filed suit against NVIDIA in federal court in San Jose, California: the plaintiffs allege the defendants misled investors by not disclosing CEO Jensen Huang's alleged relationship with Alice Huang, a former executive of Singapore-based Megaspeed, and by not disclosing that the matter raised national-security concerns threatening the company's reputation and business prospects; the complaint further claims the nondisclosure artificially inflated the share price and may have violated federal securities laws. Megaspeed has been accused - in prior reports, not findings - of diverting restricted Nvidia chips to China. The stock fell 3.2% yesterday, cutting almost $200bn off the company's valuation, to $4.3tn; it is up about 1.8% in premarket. Trump yesterday: he asked Huang, who said he had \"absolutely no idea that the person in question was a spy\"; the FBI is \"looking into it in terms of something else.\" Huang's presence in Trump's APEC delegation is \"in doubt,\" and Senator Chris Coons calls for investigating whether national security was compromised. Direct continuation of item n-1155.",
+    "תאריך": "2026-11-10 02:22",
+    "הועלה": "2026-11-10 11:58",
+    "מזהה": "n-1188",
+    "_translation": {
+      "en": {
+        "source_hash": "7b70e5760a0ea5615213f6440a3e6f36e054543bdf5849d124173afa3f42b7c5",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "כותרת": "Vodafone (VOD): הכנסות המחצית +11.4%, העלאת תחזית הרווח והתזרים לשנת הכספים; הפסד של 3.6 מיליארד אירו בעקבות ירידת ערך של כ-5 מיליארד בגרמניה; 3,000 משרות קוצצו",
+    "category": "micro",
+    "חברה": "VOD",
+    "קישור": "https://www.theguardian.com/business/live/2026/nov/10/nvidia-shareholder-lawsuit-jensen-huang-relationship-suspected-chinese-spy-fbi-trump-bank-of-england-latest-news-updates",
+    "מקורות": [
+      {
+        "label": "Guardian Business Live (מרק סוויני), 10 בנובמבר 2026",
+        "url": "https://www.theguardian.com/business/live/2026/nov/10/nvidia-shareholder-lawsuit-jensen-huang-relationship-suspected-chinese-spy-fbi-trump-bank-of-england-latest-news-updates",
+        "label_en": "Guardian Business Live (Mark Sweney), Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי Guardian Business Live, נקרא.\n\nVodafone דיווחה על מחצית ראשונה: הכנסות קבוצתיות עלו 11.4% בהשוואה לשנה (בבריטניה +10% ל-4.9 מיליארד אירו), רווח מתואם עלה 6.4% ל-6.45 מיליארד אירו, והחברה העלתה את תחזית השנה: רווח לפני מס צפוי 13.2-13.4 מיליארד אירו (לעומת 13-13.3 קודם) והתזרים הועלה ל-3 מיליארד אירו מ-2.8 מיליארד. עם זאת, החברה רשמה הפסד מחציתי של 3.6 מיליארד אירו לאחר ירידת ערך של כמעט 5 מיליארד אירו בגרמניה; המנכ\"לית דלה ואלה: \"מרוצה מאוד מהביצועים הקבוצתיים, אבל גרמניה עדיין לא במקום שבו היא צריכה להיות\". החברה קיצצה 3,000 משרות באירופה בין אפריל לספטמבר שחסכו 200 מיליון אירו, ואתמול הודיעה על 2,300 קיצוצים נוספים בגרמניה בשנתיים הקרובות; יעד החיסכון של VodafoneThree הוא מיליארד ליש\"ט בשנה עד 2032. המניה ירדה מעט היום ועולה כ-30% בשנה האחרונה.",
+    "כותרת_en": "Vodafone (VOD): first-half revenue +11.4%, full-year profit and cash-flow guidance raised; 3.6bn euro loss on a near-5bn euro Germany impairment; 3,000 jobs cut",
+    "טקסט_en": "Nov 10, 2026 | per Guardian Business Live, read.\n\nVodafone reported its first half: group revenue rose 11.4% year on year (UK +10% to 4.9bn euros), adjusted earnings rose 6.4% to 6.45bn euros, and the company raised full-year guidance: pre-tax earnings now expected at 13.2-13.4bn euros (from 13-13.3bn previously) with cash flow raised to 3bn euros from 2.8bn. However, it posted a 3.6bn euro half-year loss after an impairment charge of almost 5bn euros in Germany; CEO Della Valle: \"very happy about our overall group performance, but Germany is not yet where it needs to be.\" The company cut 3,000 European roles between April and September, delivering 200m euros of savings, and on Monday announced a separate 2,300 cuts in Germany over the next two years; the VodafoneThree savings target is 1bn pounds a year by 2032. The shares dipped slightly today and are up almost 30% over the past year.",
+    "תאריך": "2026-11-10 04:38",
+    "הועלה": "2026-11-10 11:58",
+    "מזהה": "n-1189",
+    "_translation": {
+      "en": {
+        "source_hash": "d3243c9756a9b5044bf2c8526e3abb93616d6b028af9ff052e451474630f7052",
+        "schema_version": 1
+      }
+    }
   }
 ]
