@@ -30574,5 +30574,35 @@
         "source_hash": "75c728456f56bbbb15af989704777bfec37253ca6abf5648967750d27994c0ba"
       }
     }
+  },
+  {
+    "מזהה": "n-1252",
+    "category": "micro",
+    "חברה": "NVDA",
+    "כותרת": "NVIDIA (NVDA): הדירקטורים הבלתי תלויים שכרו את Joon H. Kim ואת Wachtell, Lipton, Rosen & Katz לביצוע החקירה",
+    "כותרת_en": "NVIDIA (NVDA): independent directors retain Joon H. Kim and Wachtell, Lipton, Rosen & Katz for the investigation",
+    "תאריך": "2026-11-10 21:07",
+    "הועלה": "2026-11-10 21:14",
+    "קישור": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+    "מקורות": [
+      {
+        "label": "NVIDIA Newsroom: הודעת הדירקטורים הבלתי תלויים, 10 בנובמבר 2026",
+        "label_en": "NVIDIA Newsroom: independent directors statement, Nov 10, 2026",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+      },
+      {
+        "label": "GlobeNewswire: הודעת NVIDIA המלאה, 14:07 ET",
+        "label_en": "GlobeNewswire: full NVIDIA release, 14:07 ET",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3400124/0/en/statement-from-the-independent-members-of-the-nvidia-board.html"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה נקראה במלואה באתר NVIDIA וב-GlobeNewswire; פרסום ב-14:07 ET, 21:07 בישראל.\n\nהדירקטורים הבלתי תלויים של NVIDIA הודיעו ששכרו את Joon H. Kim, לשעבר ממלא מקום התובע הפדרלי במחוז הדרומי של ניו יורק, ואת משרדו Wachtell, Lipton, Rosen & Katz, לביצוע החקירה היסודית והעצמאית שעליה הוכרז ביום ראשון. השם והתיאור של המשרד מובאים כפי שנכתבו בהודעת החברה.\n\nזהו עדכון לביצוע החקירה שעליה כבר דווח ב-n-1043: אז הוכרז על פיקוח של ועדת דירקטורים בלתי תלויים בסיוע ייעוץ משפטי חיצוני; כעת נמסר על שכירת היועץ והמשרד בשמם. ההודעה החדשה אינה מפרסמת ממצאים, מסקנות או לוח זמנים, ואינה מודיעה על הרחבת היקף החקירה או על שינוי בתפקיד המנכ״ל. אין כאן פרסום נוסף של תביעת בעלי המניות שכוסתה ב-n-1188.",
+    "טקסט_en": "Nov 10, 2026 | Full company statement read on NVIDIA's website and GlobeNewswire; published at 14:07 ET, 21:07 in Israel.\n\nNVIDIA's independent directors said they retained Joon H. Kim, former acting US Attorney for the Southern District of New York, and his firm Wachtell, Lipton, Rosen & Katz to conduct the thorough and independent investigation announced on Sunday. The firm name and description are reproduced as stated in the company announcement.\n\nThis implements the investigation already covered in n-1043: that announcement described oversight by a committee of independent directors assisted by outside independent counsel; the new statement names the retained lawyer and firm. It provides no findings, conclusions or timetable, and does not announce an expanded scope or a change in the CEO's role. This is not another report of the shareholder lawsuit covered in n-1188.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1180bdadafb69b7f7029a0d79c545a9c523e1903e6913b670050193939332e66"
+      }
+    }
   }
 ]
