@@ -28718,5 +28718,35 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "Toast (TOST), הדגלת השהיה: ה-FTC, שבע מדינות ותובעים מקומיים בקליפורניה תבעו את החברה ב-29 באוקטובר על עמלות נסתרות ומכשולי ביטול מנויים",
+    "category": "micro",
+    "חברה": "TOST",
+    "קישור": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
+    "מקורות": [
+      {
+        "label": "FTC: הודעת הרגולטור מ-29 באוקטובר 2026 - מקור ראשוני",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
+        "label_en": "FTC: the regulator's release of Oct 29, 2026 - primary source"
+      },
+      {
+        "label": "Nation's Restaurant News: סיקור מקורי מ-29 באוקטובר 2026",
+        "url": "https://www.nrn.com/restaurant-technology/toast-is-sued-by-the-ftc-over-alleged-hidden-fees-and-subscription-claims",
+        "label_en": "Nation's Restaurant News: original coverage, Oct 29, 2026"
+      }
+    ],
+    "טקסט": "29.10.2026 (פרסום מקורי; דיווח השהיה מ-10.11.2026) | לפי הודעת ה-FTC, נקראה - מקור ראשוני.\n\nה-FTC, התובעים המקומיים של מחוז לוס אנג'לס וסן פרנסיסקו בקליפורניה והתובעים הכלליים של קולורדו, פלורידה, אילינוי, איווה, נברסקה, אוקלהומה ויוטה הגישו תביעה נגד Toast בטענה לעמלות נסתרות ובלתי מורשות, שיווק מטעה של תוכנית 'Pay-as-you-Go' ב-0 דולר לחודש לצד עמלות שלא נחשפו כראוי, ורישום מסעדות לתוספות מנוי ללא הסכמתן. לפי התלונה, Toast גבתה עמלת 0.99 דולר מסועדים על הזמנות אונליין מעל 10 דולר בין ספטמבר 2021 לסוף יולי 2023 ללא גילוי נאות (העמלה עברה ל-Toast ולא למסעדות); דרשה הודעת 'אי-חידוש' בכתב 30 יום מראש שלא נחשפה בתהליך ההרשמה; העמיסה דמי ביטול מוקדמים של 150 דולר לכל חודש שנותר בחוזה (מלקוח אחד נגבו 5,318.87 דולר שסירבה להחזיר); ולטענתה לא עמדה בהבטחות התמיכה שלה. ביטול מנוי לבעלי יתרת הלוואת Toast Capital נחשב למחדל ומאיץ את מלוא ההלוואה. עלות המנוי הממוצעת כ-900 דולר לחודש. הפריט פורסם כעת בעקבות סיקור משני מ-9 בנובמבר, ולכן מסומן כדיווח השהיה - התאריך המקורי הוא 29 באוקטובר.",
+    "כותרת_en": "Toast (TOST), catch-up flag: the FTC, seven states and local California prosecutors sued on Oct 29 over hidden fees and subscription-cancellation hurdles",
+    "טקסט_en": "Oct 29, 2026 (original date; catch-up report of Nov 10, 2026) | per the FTC's release, read - primary source.\n\nThe FTC, the local prosecutors of Los Angeles County and San Francisco in California and the attorneys general of Colorado, Florida, Illinois, Iowa, Nebraska, Oklahoma and Utah filed suit against Toast alleging hidden and unauthorized fees, deceptive marketing of a '$0-per-month Pay-as-you-Go' plan alongside improperly disclosed fees, and enrolling restaurants in subscription add-ons without consent. Per the complaint, Toast charged diners a $0.99 fee on online orders above $10 between September 2021 and late July 2023 without adequate disclosure (the fee went to Toast, not the restaurants); required 30 days' written 'non-renewal' notice not disclosed in the enrollment flow; imposed early termination fees of $150 for each remaining contract month (one customer was charged $5,318.87, which Toast refused to refund); and allegedly failed to deliver on its support promises. Cancelling a subscription with an outstanding Toast Capital loan balance is treated as a default and accelerates the entire loan. Average subscription cost is about $900 per month. This item is published now following Nov 9 secondary coverage and is therefore flagged as a catch-up - the original date is October 29.",
+    "תאריך": "2026-10-29",
+    "הועלה": "2026-11-10 10:46",
+    "מזהה": "n-1184",
+    "_translation": {
+      "en": {
+        "source_hash": "e72a0477bcb379aab7a2cf1f7b049beda89d7f9c5a60631ea07ce0ab145292e9",
+        "schema_version": 1
+      }
+    }
   }
 ]
