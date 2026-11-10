@@ -29999,5 +29999,34 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "ASML (ASML), Samsung Electronics (005930.KS) ו-SK hynix (000660.KS): דיווח קוריאני על מרוץ אחר מכונות EUV - כל אחת מקצה לפי הדיווח 10-20 טריליון וון לשריון משלוחים",
+    "category": "micro",
+    "קישור": "https://biz.chosun.com/en/en-it/2026/11/08/DFQLMZWPGBFL5A77JVYXGWPHZU/",
+    "מקורות": [
+      {
+        "label": "צ'וסון ביז (מקור הדיווח): מירוץ הזמנות EUV, 8 בנובמבר 2026",
+        "url": "https://biz.chosun.com/en/en-it/2026/11/08/DFQLMZWPGBFL5A77JVYXGWPHZU/",
+        "label_en": "Chosunbiz (report origin): EUV order race, Nov 8, 2026"
+      },
+      {
+        "label": "TrendForce: תקציר המירוץ והגמ״ח של ASML, 10 בנובמבר 2026",
+        "url": "https://www.trendforce.com/news/2026/11/10/news-samsung-sk-hynix-reportedly-race-for-asml-euv-amid-2027-2028-shortages-orders-worth-up-to-krw-20t-each/",
+        "label_en": "TrendForce: race summary and ASML backlog, Nov 10, 2026"
+      }
+    ],
+    "טקסט": "מבוסס על דיווחי תקשורת קוריאנית (צ'וסון אילבו, Solution News) ממקורות בענף; ההיקפים לא אושרו על-ידי החברות.\n\n10.11.2026 | לפי צ'וסון אילבו (8.11) ו-Solution News, סמסונג אלקטרוניקס ו-SK hynix מתחרות על חריצי אספקה של מכונות ליתוגרפיה EUV של ASML, כשכל אחת מקצה לפי הדיווח בין 10 ל-20 טריליון וון. שתי החברות שוקלות להקדים הזמנות עתידיות לאור זמני אספקה שהתארכו לפי הדיווח עד כפליים, והזמנות נוספות צפויות - מה שעשוי להעלות את ההוצאות ההוניות. אלה תוכניות והקצאות מדווחות, לא הזמנות שאושרו רשמית. לפי Solution News, סמסונג כבר הזמינה ציוד ליתוגרפיה לקו P5 בפיונגטק, עם כניסת ציוד צפויה לאחר השלמת החדר הנקי של השלב הראשון במחצית הראשונה של 2027.\n\nהרקע המאומת: במרץ השנה SK hynix גילתה בדיווח לרגולטור רכישת ציוד EUV בהיקף 11.95 טריליון וון, עם אספקה עד 31 בדצמבר 2027 לצורך המעבר ל-DRAM מדור 1c. בתוצאות הרבעון השלישי באוקטובר ASML מסרה שההיצע המתוכנן שלה לשנים 2027-2028 לא יספק את הביקוש, שלקוחות כבר מתעניינים במשלוחים ל-2029 ו-2030, ושהיא בוחנת הרחבת קיבולת 2028 מעבר לתוספת של 30% שנתית שנשקלה קודם.",
+    "כותרת_en": "ASML (ASML), Samsung Electronics (005930.KS) and SK hynix (000660.KS): Korean report of an EUV tool race - each reportedly committing KRW 10-20T to lock in deliveries",
+    "טקסט_en": "Based on Korean media reports (Chosun Ilbo, Solution News) citing industry sources; the amounts were not confirmed by the companies.\n\nNov 10, 2026 | per Chosun Ilbo (Nov 8) and Solution News, Samsung Electronics and SK hynix are competing for ASML EUV lithography delivery slots, each reportedly committing KRW 10-20 trillion. Both are reportedly considering moving future orders earlier as lead times have stretched to as much as double, with additional orders expected - potentially pushing capital expenditures higher. These are reported plans and commitments, not officially confirmed orders. Per Solution News, Samsung has already ordered lithography tools for its Pyeongtaek P5 line, with move-in expected after the phase-one cleanroom is completed in H1 2027.\n\nVerified background: in March, SK hynix disclosed to the regulator an EUV equipment purchase worth KRW 11.95 trillion, with delivery by Dec 31, 2027, supporting its transition to 1c DRAM. In its October Q3 results, ASML said its planned 2027-2028 supply would not meet demand, that customers are already asking about 2029 and 2030 deliveries, and that it is considering expanding 2028 capacity beyond the previously weighed 30% year-on-year increase.",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-10 16:29",
+    "מזהה": "n-1231",
+    "_translation": {
+      "en": {
+        "source_hash": "1dd608cec4a555d0b75c350f905d54f6ac6617709db00a2b457e5ebb4ffa6e86",
+        "schema_version": 1
+      }
+    }
   }
 ]
