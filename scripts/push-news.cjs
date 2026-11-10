@@ -7,7 +7,7 @@
 const { execFileSync } = require('child_process');
 const fs = require('fs');
 require('../alerts-core.js');
-const URL_ = process.env.PUSH_NEWS_URL || 'https://savage-orderbook.oriboyianjo.workers.dev/push/news';
+const URL_ = process.env.PUSH_NEWS_URL || 'https://savage-orderbook.oriboyianjo.workers.dev/push/v2/news';
 const arg = (n) => { const i = process.argv.indexOf('--' + n); return i > 0 ? process.argv[i + 1] : ''; };
 const warn = (m) => console.log('::warning::push-news: ' + m);
 let key = process.env.PUSH_NEWS_KEY || '';
