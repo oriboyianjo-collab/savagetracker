@@ -3,7 +3,8 @@ name: issuer-holdings
 # Free: GitHub Actions on a public repo, built-in GITHUB_TOKEN, no secrets. Never touches portfolio data / news / reports / calendar.
 on:
   schedule:
-    - cron: '40 3 * * 2-6'    # after the US close + issuers' overnight publish (UTC; weekdays' files)
+    - cron: '40 6 * * *'      # every day, 06:40 Israel wall clock, including DST
+      timezone: 'Asia/Jerusalem'
     - cron: '40 16 * * 1-5'   # before the US open (Roundhill / Defiance / ARK post intraday-fresh files)
   workflow_dispatch:
     inputs:
@@ -58,6 +59,16 @@ jobs:
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "issuer holdings update"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break || sleep 5; done
+      - name: check all-session ETF tracking
+        run: node scripts/check-etf-tracking.cjs --live
+      - name: save tracking integrity report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: etf-tracking-integrity
+          path: etf-tracking-check.json
+          if-no-files-found: warn
+          retention-days: 7
       - name: answer the issue
         if: github.event_name == 'issues'
         env:
