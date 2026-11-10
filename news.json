@@ -1,5 +1,44 @@
 [
   {
+    "מזהה": "n-1240",
+    "category": "micro",
+    "כותרת": "Tesla (TSLA): שירות הרובוטקסי החל לפעול בסן אנטוניו; זמינות מוגבלת, ללא נסיעות לנמל התעופה",
+    "כותרת_en": "Tesla (TSLA): Robotaxi service begins in San Antonio; limited availability, no airport trips",
+    "קישור": "https://www.tesla.com/support/robotaxi",
+    "תאריך": "2026-11-09 13:00",
+    "הועלה": "2026-11-10 18:30",
+    "מקורות": [
+      {
+        "label": "Tesla: עמוד תמיכה רשמי, זמינות מוגבלת בסן אנטוניו",
+        "label_en": "Tesla: official support page, limited availability in San Antonio",
+        "url": "https://www.tesla.com/support/robotaxi"
+      },
+      {
+        "label": "KSAT: כתב התחנה נסע בשירות ב-9 בנובמבר",
+        "label_en": "KSAT: reporter rode the service on Nov 9",
+        "url": "https://www.ksat.com/news/local/2026/11/09/tesla-launches-self-driving-robotaxi-service-in-san-antonio/"
+      },
+      {
+        "label": "News 4 San Antonio: דיווח מקומי, 10 בנובמבר",
+        "label_en": "News 4 San Antonio: local report, Nov 10",
+        "url": "https://news4sanantonio.com/news/local/tesla-robotaxi-debuts-in-san-antonio-opening-270-square-mile-service-zone-texas-cybercab-driverless-austin-south-side-loop-1604-taxi"
+      },
+      {
+        "label": "Axios: דוברת נמל התעופה מאשרת שאין שירות לנמל",
+        "label_en": "Axios: airport spokesperson confirms no airport service",
+        "url": "https://www.axios.com/local/san-antonio/2026/11/09/tesla-robotaxis-san-antonio-self-driving-cars"
+      }
+    ],
+    "טקסט": "השלמה להשקה מ-09.11.2026.\n\nטסלה כוללת כעת את סן אנטוניו בין אזורי שירות הרובוטקסי המוגבלים בעמוד התמיכה הרשמי שלה. זו הרחבת שירות בפועל, לא יעד עתידי: כתב KSAT הזמין ונסע בשירות ביום ההשקה. לפי הדיווח המקומי, השירות נפתח ב-05:00 בשעון טקסס (13:00 בישראל), והזמנות מתבצעות באפליקציית Robotaxi באמצעות חשבון טסלה.\n\nNews 4 מדווחת על אזור השקה ממופה של יותר מ-270 מייל רבוע ועל כלי Model Y ללא נהג בטיחות ברכב. אלה פרטי דיווח משני: העמוד הרשמי מאשר זמינות מוגבלת בעיר, אך אינו מאמת את שטח הכיסוי או את היעדר מלווה בטיחות בהשקה. מפה אינה הוכחה שאפשר להזמין נסיעה בכל נקודה בשטח. לפי דוברת נמל התעופה שצוטטה ב-Axios, טסלה עדיין אינה מורשית לבצע נסיעות אל נמל התעופה וממנו. אין כאן אימות של גודל הצי או של פריסת Cybercab בעיר.",
+    "טקסט_en": "Backfill for the Nov 9, 2026 launch.\n\nTesla now lists San Antonio among its limited Robotaxi service areas on its official support page. This is an actual service expansion, not a future target: a KSAT reporter booked and rode the service on launch day. Local reporting says service opened at 5 a.m. Texas time (1 p.m. Israel time). Riders book through the Robotaxi app using a Tesla account.\n\nNews 4 reports a mapped launch zone of more than 270 square miles and Model Y vehicles without an onboard safety driver. Those details remain secondary reporting: the official page confirms limited city availability, but does not verify the coverage area or the absence of a safety monitor at launch. A map does not prove rides are bookable at every location within it. An airport spokesperson told Axios that Tesla is not yet authorized for airport pickups or drop-offs. Fleet size and a local Cybercab deployment are not verified here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c8dd0ed17732b1daa880353ea1b9a343d445656fe7f852bbbdff302f8a6e8731"
+      }
+    }
+  },
+  {
     "מזהה": "n-1239",
     "category": "micro",
     "כותרת": "השלמה מ-3.11 | Harley-Davidson (HOG): לפי USA TODAY, ריקול ל-21,643 אופנועים בשל חיווי סרק שגוי",
