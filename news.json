@@ -29672,5 +29672,34 @@
         "schema_version": 1
       }
     }
+  },
+  {
+    "כותרת": "תיקון (שגיאה) לפריט העודף המסחרי של סין: n-1200 שכפל את n-1151 ואת n-1156 שפורסמו הבוקר; אין התפתחות חדשה בנתוני המכס לאוקטובר",
+    "category": "macro",
+    "קישור": "https://apnews.com/article/china-trade-economy-trump-surplus-0fc56d7bd8bbff86ce6672bb67691f22",
+    "מקורות": [
+      {
+        "label": "AP: נתוני המכס הכללי של סין (GAC), 10 בנובמבר 2026",
+        "url": "https://apnews.com/article/china-trade-economy-trump-surplus-0fc56d7bd8bbff86ce6672bb67691f22",
+        "label_en": "AP: China GAC customs data, Nov 10, 2026"
+      },
+      {
+        "label": "Euronews/AFP: נתוני GAC, 10 בנובמבר 2026",
+        "url": "https://www.euronews.com/2026/11/10/chinas-trade-surplus-surpasses-1-trillion-as-ai-boom-powers-exports",
+        "label_en": "Euronews/AFP: GAC data, Nov 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | תיקון לפרסום מהצהריים.\n\nנתוני הסחר החוץ של סין לאוקטובר 2026 פורסמו אצלנו שלוש פעמים היום: פריט n-1151 (04:40) הביא את נתוני המכס הרשמיים (GACC) המלאים עם פרסומם הבוקר; פריט n-1156 (07:12) עדכן באבן הדרך - חציית רף טריליון הדולר בעודף המסחרי המצטבר ב-2026 - לפי CNBC; ופריט n-1200 (13:53) חזר על אותם נתונים: זינוק יצוא של 35.2%, עליית יבוא של 41.6%, עודף חודשי של 105.3 מיליארד דולר ועודף מצטבר של 1.04 טריליון דולר. פריט n-1200 לא הוסיף עובדה או התפתחות חדשה, והכפילות היא שגיאת פרסום; הרישום הראשוני של האירוע הוא n-1151 ופריט העדכון הוא n-1156.\n\nיתר התוכן בפריט n-1200 הוא הקשר רקע ולא התפתחות חדשה: הארכת הפיוס הסחרי עם וושינגטון בחודשיים נמסרה רשמית אתמול, ופסגת APEC בשנזן מתוכננת ל-18-19 בנובמבר.",
+    "כותרת_en": "Correction (error) on the China trade surplus item: n-1200 duplicated n-1151 and n-1156 published this morning; there is no new development in the October customs data",
+    "טקסט_en": "Nov 10, 2026 | correction to this afternoon's publication.\n\nChina's October 2026 foreign trade data were published three times today: item n-1151 (04:40) carried the full official customs (GACC) data on their morning release; item n-1156 (07:12) updated with the milestone - the 2026 cumulative trade surplus crossing the one-trillion-dollar mark - per CNBC; and item n-1200 (13:53) repeated the same figures: exports up 35.2%, imports up 41.6%, a monthly surplus of $105.3 billion and a cumulative surplus of $1.04 trillion. Item n-1200 added no new fact or development; the duplication is a publication error. n-1151 is the event's original record and n-1156 its update.\n\nThe remaining content of n-1200 is background context, not a new development: the two-month extension of the trade truce with Washington was formally announced yesterday, and the Shenzhen APEC summit is scheduled for Nov 18-19.",
+    "תאריך": "2026-11-10",
+    "מזהה": "n-1220",
+    "הועלה": "2026-11-10 15:37",
+    "_translation": {
+      "en": {
+        "source_hash": "e21ebc1bc25b1644a9ef8a8beaa566546d6d490ff8533e6544a5a7ec748e4493",
+        "schema_version": 1
+      }
+    }
   }
 ]

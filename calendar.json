@@ -2126,17 +2126,23 @@
     "תקופה": "שבועי",
     "חשיבות": 1,
     "קודם": "16.75K",
-    "הערה": "ADP הודיעה ב-27.10 שה-NER Pulse הבא יפורסם ב-10.11, סמוך לאחר 08:15 ניו יורק (15:15 בישראל). אין פרסום שבועי בשבוע שבו מתפרסם דוח ADP החודשי; הפרסום החודשי ב-4.11 הוא סדרה נפרדת.",
+    "הערה": "ADP הודיעה ב-27.10 שה-NER Pulse הבא יפורסם ב-10.11, סמוך לאחר 08:15 ניו יורק (15:15 בישראל). אין פרסום שבועי בשבוע שבו מתפרסם דוח ADP החודשי; הפרסום החודשי ב-4.11 הוא סדרה נפרדת.\nבפועל 10.11.2026 (מקור משני; טרם אומת מול עמוד ADP הרשמי): לפי ForexFactory, השינוי השבועי בתעסוקה 19.8K; השבוע הקודם מוצג שם 19.5K והשבוע שלפניו 16.8K, וממסר FJ (19.75K) עולה בקנה אחד עם העיגול. עמוד ADP הרשמי נבדק 15:36 שעון ישראל והציג רק את הדוח החודשי לאוקטובר (86K) - פרסום NER Pulse שבועי לא אותר בעמוד. ערך הקודם הקיים (16.75K) נשמר כפי שנרשם; ייתכן שהוא מתייחס לשבוע הקודם-קודם. הערך יעודכן עם אימות רשמי.",
     "מזהה": "c-0089",
     "אירוע_en": "Employment change - ADP weekly",
     "תקופה_en": "Weekly",
-    "הערה_en": "ADP announced on Oct 27 that the next NER Pulse will be published on Nov 10, shortly after 08:15 New York (15:15 Israel). There is no weekly release in the week the monthly ADP report is published; the Nov 4 monthly release is a separate series.",
+    "הערה_en": "ADP announced on Oct 27 that the next NER Pulse will be published on Nov 10, shortly after 08:15 New York (15:15 Israel). There is no weekly release in the week the monthly ADP report is published; the Nov 4 monthly release is a separate series.\nActual Nov 10, 2026 (secondary source; not yet verified against the official ADP page): per ForexFactory, weekly employment change 19.8K; the prior week is shown there as 19.5K and the week before as 16.8K, and the FJ relay (19.75K) is consistent with rounding. The official ADP page was checked 15:36 Israel time and displayed only the October monthly report (86K) - no weekly NER Pulse print was located on the page. The existing prior value (16.75K) is retained as recorded; it may correspond to the week before last. The figure will be updated upon official verification.",
     "_translation": {
       "en": {
-        "source_hash": "d48dae242cd341e7722e982e9b063147f0a3dd5f1c8652fe54ae905f752427dc",
+        "source_hash": "5d6bfd4ecfc192018b7923b12ec363d9add015c6ef6b7bb6edc9ab4f4639bee6",
         "schema_version": 1
       }
-    }
+    },
+    "בפועל": "19.8K",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.forexfactory.com/calendar?week=nov8.2026",
+      "https://adpemploymentreport.com/"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-10"
   },
   {
     "תאריך": "2026-11-10",
@@ -2146,24 +2152,26 @@
     "תקופה": "אוקטובר · חודשי",
     "חשיבות": 3,
     "קודם": "0.6%",
-    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון 06.11.2026: צפי לפי ForexFactory 0.3%. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. זהו סייג לשינוי השנתי, לא הודעת ביטול הפרסום החודשי. יש לבדוק כל נתון בפרסום עצמו. הקודם והצפי נשמרו; אין נתון בפועל חדש.",
+    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון 06.11.2026: צפי לפי ForexFactory 0.3%. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. זהו סייג לשינוי השנתי, לא הודעת ביטול הפרסום החודשי. יש לבדוק כל נתון בפרסום עצמו. הקודם והצפי נשמרו; אין נתון בפועל חדש.\nבפועל 10.11.2026: עלייה של 0.4% באוקטובר, מתואם עונתית, לאחר 0.6% בספטמבר. מדד הדיור עלה 0.3% ותרם מעל שליש לעלייה החודשית; מזון +0.5%, אנרגיה +0.7%. מקור: פרסום BLS הרשמי לאוקטובר 2026, נקרא.",
     "צפי": "0.3%",
     "מקורות_בדיקה_עדכנית": [
       "https://www.forexfactory.com/calendar?week=nov8.2026",
       "https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm",
-      "https://www.bls.gov/schedule/news_release/cpi.htm"
+      "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-09",
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
     "מזהה": "c-0090",
     "אירוע_en": "Consumer price index - monthly",
     "תקופה_en": "October · monthly",
-    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nUpdate Nov 6, 2026: estimate per ForexFactory 0.3%. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. This qualifies annual changes, not cancellation of the monthly release. Check each figure in the release itself. Prior and estimate retained; no new actual.",
+    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nUpdate Nov 6, 2026: estimate per ForexFactory 0.3%. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. This qualifies annual changes, not cancellation of the monthly release. Check each figure in the release itself. Prior and estimate retained; no new actual.\nActual Nov 10, 2026: +0.4% in October, seasonally adjusted, after +0.6% in September. Shelter +0.3% contributed over a third of the monthly rise; food +0.5%, energy +0.7%. Source: official BLS October 2026 release, read.",
     "_translation": {
       "en": {
-        "schema_version": 1,
-        "source_hash": "3aa715df45b6cf3f449b3621d6d2a5aaa849e7962dc28c18b8c8bdd37df0fa02"
+        "source_hash": "8653120064c6820050ee27f40de3d9f17930817300089c3fb9e83266753103b7",
+        "schema_version": 1
       }
-    }
+    },
+    "בפועל": "0.4%"
   },
   {
     "תאריך": "2026-11-10",
@@ -2173,22 +2181,24 @@
     "תקופה": "אוקטובר · שנתי",
     "חשיבות": 3,
     "קודם": "3.7%",
-    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. יש לבדוק את זמינות השינוי השנתי בסדרה זו בפרסום עצמו; מקף חסר אינו אפס ואין להשלים נתון מחושב. הקודם והצפי נשמרו; אין נתון בפועל חדש.",
+    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. יש לבדוק את זמינות השינוי השנתי בסדרה זו בפרסום עצמו; מקף חסר אינו אפס ואין להשלים נתון מחושב. הקודם והצפי נשמרו; אין נתון בפועל חדש.\nבפועל 10.11.2026: לא פורסם. בפרסום אוקטובר 2026 מופיע מקף בעמודת שינוי 12 החודשים - BLS לא אסף מדדי אוקטובר 2025 עקב השבתת הממשל ולכן אינו מפרסם שינוי שנתי בסדרה זו. המקף אינו אפס ואין להשלים נתון מחושב. מקור: פרסום BLS הרשמי, נקרא.",
     "מזהה": "c-0091",
     "אירוע_en": "Consumer price index - annual",
     "תקופה_en": "October · annual",
-    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. Check this series in the release itself; a missing dash is not zero and must not be replaced with a calculated figure. Prior and estimate retained; no new actual.",
+    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. Check this series in the release itself; a missing dash is not zero and must not be replaced with a calculated figure. Prior and estimate retained; no new actual.\nActual Nov 10, 2026: not published. The October 2026 release shows a dash in the 12-month change column - BLS did not collect October 2025 indexes due to the government shutdown and therefore publishes no over-the-year change for this series. A dash is not zero and no computed figure is substituted. Source: official BLS release, read.",
     "_translation": {
       "en": {
-        "schema_version": 1,
-        "source_hash": "d8e8c5d6875a2e4ddd48b32c2f28b19f3a12b4e845dbfa9b645eb25f43cd3d82"
+        "source_hash": "79338830107b57306ebb4cdb02bd64fa071adcbb6e9e7f16fc0882c015717ff2",
+        "schema_version": 1
       }
     },
     "מקורות_בדיקה_עדכנית": [
       "https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm",
-      "https://www.bls.gov/schedule/news_release/cpi.htm"
+      "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-09"
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
+    "בפועל": "-"
   },
   {
     "תאריך": "2026-11-10",
@@ -2198,24 +2208,26 @@
     "תקופה": "אוקטובר · חודשי",
     "חשיבות": 3,
     "קודם": "0.3%",
-    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון 06.11.2026: צפי לפי ForexFactory 0.2%. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. זהו סייג לשינוי השנתי, לא הודעת ביטול הפרסום החודשי. יש לבדוק כל נתון בפרסום עצמו. הקודם והצפי נשמרו; אין נתון בפועל חדש.",
+    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון 06.11.2026: צפי לפי ForexFactory 0.2%. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. זהו סייג לשינוי השנתי, לא הודעת ביטול הפרסום החודשי. יש לבדוק כל נתון בפרסום עצמו. הקודם והצפי נשמרו; אין נתון בפועל חדש.\nבפועל 10.11.2026: עלייה של 0.3% באוקטובר, מתואם עונתית - שלישית ברציפות (אוגוסט, ספטמבר, אוקטובר). מקור: פרסום BLS הרשמי לאוקטובר 2026, נקרא.",
     "צפי": "0.2%",
     "מקורות_בדיקה_עדכנית": [
       "https://www.forexfactory.com/calendar?week=nov8.2026",
       "https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm",
-      "https://www.bls.gov/schedule/news_release/cpi.htm"
+      "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-09",
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
     "מזהה": "c-0092",
     "אירוע_en": "Core consumer price index - monthly",
     "תקופה_en": "October · monthly",
-    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nUpdate Nov 6, 2026: estimate per ForexFactory 0.2%. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. This qualifies annual changes, not cancellation of the monthly release. Check each figure in the release itself. Prior and estimate retained; no new actual.",
+    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nUpdate Nov 6, 2026: estimate per ForexFactory 0.2%. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. This qualifies annual changes, not cancellation of the monthly release. Check each figure in the release itself. Prior and estimate retained; no new actual.\nActual Nov 10, 2026: +0.3% in October, seasonally adjusted - a third consecutive 0.3% (August, September, October). Source: official BLS October 2026 release, read.",
     "_translation": {
       "en": {
-        "schema_version": 1,
-        "source_hash": "f3cbf94893f9ba843d3c369c79ef9a76422772103223433c74876bd3a6697b9d"
+        "source_hash": "8e697c98dc0abd23b2a591db551d09fe1d98c87111f4569844a688f1f34961b6",
+        "schema_version": 1
       }
-    }
+    },
+    "בפועל": "0.3%"
   },
   {
     "תאריך": "2026-11-10",
@@ -2225,22 +2237,24 @@
     "תקופה": "אוקטובר · שנתי",
     "חשיבות": 3,
     "קודם": "2.6%",
-    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. יש לבדוק את זמינות השינוי השנתי בסדרה זו בפרסום עצמו; מקף חסר אינו אפס ואין להשלים נתון מחושב. הקודם והצפי נשמרו; אין נתון בפועל חדש.",
+    "הערה": "מועד BLS: 08:30 ET; קודם מפרסום ספטמבר. צפי טרם נאסף\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. לפי סעיף 16 בשאלות ותשובות BLS (עודכן 16.09.2026), לא יפורסמו שינויי 12 חודשים לאוקטובר 2026 בסדרות שחסר להן בסיס אוקטובר 2025 בגלל השבתת הממשל. יש חריגים בסדרות המבוססות כולן על נתונים שאינם מסקר. יש לבדוק את זמינות השינוי השנתי בסדרה זו בפרסום עצמו; מקף חסר אינו אפס ואין להשלים נתון מחושב. הקודם והצפי נשמרו; אין נתון בפועל חדש.\nבפועל 10.11.2026: לא פורסם. בפרסום אוקטובר 2026 מופיע מקף בעמודת שינוי 12 החודשים - BLS לא אסף מדדי אוקטובר 2025 עקב השבתת הממשל ולכן אינו מפרסם שינוי שנתי בסדרה זו. המקף אינו אפס ואין להשלים נתון מחושב. מקור: פרסום BLS הרשמי, נקרא.",
     "מזהה": "c-0093",
     "אירוע_en": "Core consumer price index - annual",
     "תקופה_en": "October · annual",
-    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. Check this series in the release itself; a missing dash is not zero and must not be replaced with a calculated figure. Prior and estimate retained; no new actual.",
+    "הערה_en": "BLS timing: 08:30 ET; prior from the September release. Estimate not yet collected\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. BLS FAQ section 16 (updated Sep 16, 2026) says October 2026 twelve-month changes will not be published for series with missing October 2025 bases due to the shutdown. Exceptions exist for series composed entirely of nonsurvey data. Check this series in the release itself; a missing dash is not zero and must not be replaced with a calculated figure. Prior and estimate retained; no new actual.\nActual Nov 10, 2026: not published. The October 2026 release shows a dash in the 12-month change column - BLS did not collect October 2025 indexes due to the government shutdown and therefore publishes no over-the-year change for this series. A dash is not zero and no computed figure is substituted. Source: official BLS release, read.",
     "_translation": {
       "en": {
-        "schema_version": 1,
-        "source_hash": "88a2da9118a2ea19ef8c6f3e0a3f856fdd8538d82a335b3b4a8ab8f9513fe026"
+        "source_hash": "be444d3880eea274d9cc59c1b69d8baa191abf6d05cd0058b25957ec27d7e26c",
+        "schema_version": 1
       }
     },
     "מקורות_בדיקה_עדכנית": [
       "https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm",
-      "https://www.bls.gov/schedule/news_release/cpi.htm"
+      "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-09"
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
+    "בפועל": "-"
   },
   {
     "תאריך": "2026-11-10",
@@ -2249,15 +2263,15 @@
     "אירוע": "שכר ריאלי",
     "תקופה": "אוקטובר · חודשי",
     "חשיבות": 1,
-    "הערה": "מועד רשמי BLS, יחד עם CPI; צפי וקודם טרם נאספו\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. הטענה שלא יפורסמו נתוני שכר ריאלי שנתיים טרם אומתה במקור BLS; יש לבדוק כל שורה בפרסום עצמו. אין נתון בפועל חדש.",
+    "הערה": "מועד רשמי BLS, יחד עם CPI; צפי וקודם טרם נאספו\nעדכון היערכות 09.11.2026: מועד BLS נבדק מחדש: 10.11.2026, 08:30 ET = 15:30 בישראל. הטענה שלא יפורסמו נתוני שכר ריאלי שנתיים טרם אומתה במקור BLS; יש לבדוק כל שורה בפרסום עצמו. אין נתון בפועל חדש.\nבפועל 10.11.2026: שכר שעתי ריאלי ללא שינוי (0.0%) מספטמבר לאוקטובר, מתואם עונתית - שכר שעתי נומינלי +0.4% מול CPI +0.4%; לעובדי ייצור ולא-מפקחים עלייה של 0.1%. שכר שבועי ריאלי ללא שינוי. ההשוואה השנתית לא פורסמה: BLS לא אסף נתוני CPI לאוקטובר 2025 עקב השבתת הממשל. מקור: פרסום BLS Real Earnings הרשמי, נקרא.",
     "מזהה": "c-0094",
     "אירוע_en": "Real earnings",
     "תקופה_en": "October · monthly",
-    "הערה_en": "Official BLS timing, together with CPI; estimate and prior not yet collected\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. The claim that annual real earnings will be unavailable has not yet been verified in a BLS source; check each line in the release itself. No new actual.",
+    "הערה_en": "Official BLS timing, together with CPI; estimate and prior not yet collected\nReadiness update Nov 9, 2026: BLS timing rechecked: Nov 10, 2026, 08:30 ET = 15:30 Israel time. The claim that annual real earnings will be unavailable has not yet been verified in a BLS source; check each line in the release itself. No new actual.\nActual Nov 10, 2026: real average hourly earnings unchanged (0.0%) from September to October, seasonally adjusted - nominal hourly earnings +0.4% vs CPI +0.4%; production and nonsupervisory employees +0.1%. Real weekly earnings unchanged. Over-the-year comparison not published: BLS did not collect October 2025 CPI data due to the government shutdown. Source: official BLS Real Earnings release, read.",
     "_translation": {
       "en": {
-        "schema_version": 1,
-        "source_hash": "f55981e91c2ffad1eed3dce7d9cadbab10d3f1e1b85e2489dfb948ae55d496ca"
+        "source_hash": "38c13dbb897f017cb44571d911a0440225958b0cb014cd13f69b1a22a9f4652d",
+        "schema_version": 1
       }
     },
     "מקורות_בדיקה_עדכנית": [
@@ -2265,7 +2279,8 @@
       "https://www.bls.gov/schedule/news_release/cpi.htm",
       "https://www.bls.gov/news.release/realer.nr0.htm"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-09"
+    "תאריך_בדיקה_עדכנית": "2026-11-10",
+    "בפועל": "0.0%"
   },
   {
     "תאריך": "2026-11-10",
