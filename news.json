@@ -1,5 +1,29 @@
 [
   {
+    "כותרת": "קטאר: \"תגובות חיוביות\" מארה\"ב ומאיראן למאמצי התיווך; גורם איראני מכחיש מגעים על הורמוז תמורת 8 מיליארד דולר",
+    "category": "macro",
+    "קישור": "https://www.aa.com.tr/en/us-israel-iran-war/qatar-says-us-iran-give-positive-responses-to-mediation-efforts/4118765",
+    "מקורות": [
+      {
+        "label": "סוכנות האנاضול (AA): דיווח מלא, 10 בנובמבר 2026",
+        "url": "https://www.aa.com.tr/en/us-israel-iran-war/qatar-says-us-iran-give-positive-responses-to-mediation-efforts/4118765",
+        "label_en": "Anadolu Agency (AA): full report, November 10, 2026"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי סוכנות האנاضול (AA), נקרא במלואו.\n\nאיברהים אל-האשמי, מנהל מחלקת המדיה והתקשורת של משרד החוץ הקטארי, אמר במסיבת עיתונאים בדוחא כי התקבלו \"תגובות חיוביות\" הן מארה\"ב והן מאיראן למאמצי התיווך המתמשכים, וכי המתווכים פועלים לסיים את מצב ה\"לא מלחמה, לא שלום\" באזור. ההצהרה באה יום לאחר שראש ממשלת קטאר, מוחמד בן עבד א-רחמן אאל ת'אני, נפגש בוושינגטון עם טראמפ ועם סגן הנשיא ואנס ותיאר \"דיונים חיוביים\" (כיסוי קודם: n-1183).\n\nבמקביל, גורם איראני שלא נזכר בשמו אמר לסוכנות פארס החצי-רשמית כי הדיווחים על מגעים לפתיחת מצר הורמוז בתמורה לשחרור 8 מיליארד דולר מנכסים קפואים אינם נכונים. לדבריו, טהרן תדון רק במסגרת שבע הדרישות שהעבירה לוושינגטון, ובהן הסרת הסגר הימי והסנקציות החד-צדדיות, מעבר בטוח במצר, שחרור הנכסים הקפואים וסיום המלחמה.",
+    "כותרת_en": "Qatar: \"positive responses\" from the US and Iran to mediation efforts; Iranian official denies Hormuz-for-$8B talks",
+    "טקסט_en": "Nov 10, 2026 | per Anadolu Agency (AA), read in full.\n\nIbrahim Al-Hashimi, director of the Qatari Foreign Ministry's Media and Communications Department, told a Doha press conference that \"positive responses\" were received from both the US and Iran to ongoing mediation efforts, and that mediators are working to end the state of \"no war, no peace\" in the region. The statement came a day after Qatari Prime Minister Mohammed bin Abdulrahman Al Thani met Trump and Vice President Vance in Washington and described \"positive discussions\" (prior coverage: n-1183).\n\nMeanwhile, an unnamed Iranian official told the semi-official Fars News Agency that reports of talks to reopen the Strait of Hormuz in exchange for the release of $8 billion in frozen assets are untrue. He said Tehran will engage only within the framework of seven conditions conveyed to Washington, including lifting the naval blockade and unilateral sanctions, safe passage through the strait, releasing frozen assets, and ending the war.",
+    "תאריך": "2026-11-10 18:01",
+    "הועלה": "2026-11-10 18:01",
+    "מזהה": "n-1236",
+    "_translation": {
+      "en": {
+        "source_hash": "f43246014390ca809f5f8ff21e5648a9b51b5467eaac36e0bef1392f7c2893fe",
+        "schema_version": 1
+      }
+    }
+  },
+  {
     "כותרת": "General Motors (GM): S&P שיפרה את אופק הדירוג לחיובי מיציב; דירוג BBB אושר",
     "category": "micro",
     "קישור": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3657230",
