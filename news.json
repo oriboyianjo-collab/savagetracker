@@ -1,5 +1,29 @@
 [
   {
+    "כותרת": "General Motors (GM): S&P שיפרה את אופק הדירוג לחיובי מיציב; דירוג BBB אושר",
+    "category": "micro",
+    "קישור": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3657230",
+    "מקורות": [
+      {
+        "label": "S&P Global Ratings: הודעת הדירוג, 10 בנובמבר 2026 - מקור ראשוני",
+        "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3657230",
+        "label_en": "S&P Global Ratings: rating action release, November 10, 2026 - primary source"
+      }
+    ],
+    "טקסט": "10.11.2026 | לפי הודעת סוכנות הדירוג.\n\nS&P Global Ratings שיפרה את אופק הדירוג של General Motors ושל חברת-הבת General Motors Financial לחיובי מיציב, ואישרה את דירוג האשראי BBB של שתיהן. לדברי הסוכנות, שולי הרווח של GM התאוששו השנה באופן משמעותי למרות עלויות סחורות גבוהות והשפעות המכסים; היא מצפה לשולי EBITDA מתואמים (במונחי S&P) של מעל 10% ב-2027 ולהמרת מזומנים חזקה, על רקע משמעת בעיצומים, במלאי ובעלויות, צי מוצרים חזק, גידול במכירות תוכנה והצטמצמות ההפסדים ברכב החשמלי. האופק החיובי משקף פוטנציאל מוגבר לשדרוג אם מגמת השיפור תימשך.",
+    "כותרת_en": "General Motors (GM): S&P revises rating outlook to positive from stable; BBB rating affirmed",
+    "טקסט_en": "Nov 10, 2026 | per the rating agency's release.\n\nS&P Global Ratings revised its outlook on General Motors and subsidiary General Motors Financial to positive from stable and affirmed both at a 'BBB' issuer credit rating. The agency said GM's margins recovered significantly this year despite commodity headwinds and tariff drag; it expects S&P-adjusted EBITDA margin above 10% in 2027 and solid cash conversion, supported by discipline on incentives, inventory and costs, a strong product pipeline, growing software sales and reduced EV losses. The positive outlook reflects increased potential for an upgrade if the improvement continues.",
+    "תאריך": "2026-11-10 17:47",
+    "הועלה": "2026-11-10 17:47",
+    "מזהה": "n-1235",
+    "_translation": {
+      "en": {
+        "source_hash": "e262523828bcc3a7dcff59a04f050fa0549240587f8a87f3fa745f71c38c409b",
+        "schema_version": 1
+      }
+    }
+  },
+  {
     "כותרת": "PNC Bank (PNC): קבלת תשלומי USDC נכנסים ללקוחות בנקאות תאגידית, בהמרה אוטומטית 1:1 לדולר (פיילוט מוגבל)",
     "category": "micro",
     "קישור": "https://pnc.mediaroom.com/2026-11-09-PNC-Bank-Launches-Incoming-Stablecoin-Payments-for-Corporate-and-Institutional-Banking-Clients",
