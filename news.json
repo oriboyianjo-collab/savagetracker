@@ -28972,14 +28972,19 @@
     }
   },
   {
-    "כותרת": "Anthropic (לא מאומת מול מקור ראשוני): לפי רויטרס, טיוטת תשקיף עדכנית להנפקה מתמחרת את המניות ב-70-78 דולר - גיוס של עד 64.4 מיליארד דולר; מספר מודלפף של 69.3 מיליארד נמשך אתמול כמיושן",
+    "כותרת": "Anthropic בהודעה רשמית ל-SEC: הנפקת 825 מיליון מניות A בטווח משוער של 70-78 דולר תחת הסמל ANT בנאסד\"ק; הצמדה פרטית מותנית של 26 מיליארד דולר עם AMD, Broadcom, Google, Micron, Microsoft, NVIDIA ו-TSMC",
     "category": "micro",
-    "קישור": "https://www.khaleejtimes.com/business/anthropic-ipo-to-raise-as-much-as-644-billion-latest-draft-prospectus-shows",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
     "מקורות": [
       {
-        "label": "רויטרס דרך Khaleej Times, 10 בנובמבר 2026 (לא מאומת מול מקור ראשוני)",
+        "label": "תשקיף S-1/A ל-SEC, 10 בנובמבר 2026 (Subject to Completion)",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+        "label_en": "S-1/A prospectus filed with the SEC, Nov 10, 2026 (Subject to Completion)"
+      },
+      {
+        "label": "רויטרס דרך Khaleej Times, 10 בנובמבר 2026",
         "url": "https://www.khaleejtimes.com/business/anthropic-ipo-to-raise-as-much-as-644-billion-latest-draft-prospectus-shows",
-        "label_en": "Reuters via Khaleej Times, Nov 10, 2026 (not verified against a primary source)"
+        "label_en": "Reuters via Khaleej Times, Nov 10, 2026"
       },
       {
         "label": "Bloomberg Law, 10 בנובמבר 2026",
@@ -28987,15 +28992,15 @@
         "label_en": "Bloomberg Law, Nov 10, 2026"
       }
     ],
-    "טקסט": "10.11.2026 | לא מאומת מול מקור ראשוני: טיוטת התשקיף אינה פומבית; הדיווח מבוסס על רויטרס שעיינה בטיוטה, ולא נבדק מול המסמך עצמו.\n\nלפי רויטרס (בשידור חוזר של Khaleej Times, נקרא), טיוטת התשקיף העדכנית של Anthropic מתמחרת את מניות ההנפקה בטווח אינדיקטיבי של 70-78 דולר למניה, מה שיצביע על גיוס של עד כ-64.4 מיליארד דולר; החברה וחלק ממשקיעיה ימכרו מניות, ופרטי העסקה צפויים להתפרסם בקרוב. לפי Bloomberg Law, השיווק הפורמלי של ההנפקה עשוי להיפתח כבר היום, ואתמול הודלף בטעות מספר יעד של 69.3 מיליארד דולר שנמשך לאחר דקות והוצג על ידי החברה כמיושן - מכאן הפער בין המספרים בדיווחים השונים. יש להבחין: הטווח והיקף הגיוס הם מטיוטה שטרם פורסמה ועלולים להשתנות עד התשקיף הסופי. ההקשר הקודם: דיווח WSJ (לא מאומת) על יעד לתחילת מסחר ב-19-20 בנובמבר.",
-    "כותרת_en": "Anthropic (not verified against a primary source): per Reuters, latest draft prospectus prices IPO shares at $70-78 - a raise of up to $64.4B; a leaked $69.3B figure was withdrawn yesterday as outdated",
-    "טקסט_en": "Nov 10, 2026 | not verified against a primary source: the draft prospectus is not public; the report relies on Reuters having reviewed the draft and was not checked against the document itself.\n\nPer Reuters (carried by Khaleej Times, read), Anthropic's latest draft prospectus sets an indicative price band of $70-78 per share for the IPO, pointing to a raise of up to about $64.4 billion; the company and some of its investors will sell shares, with deal details expected soon. Per Bloomberg Law, formal marketing of the offering could begin as early as today, and a leaked target of $69.3 billion briefly appeared yesterday before being retracted and described by the company as outdated - which explains the differing figures across reports. Note: the band and the raise size come from an unpublished draft and may change before the final prospectus. Prior context: a WSJ report (unverified) pointed to a trading start on November 19-20.",
+    "טקסט": "10.11.2026 | עדכון: התשקיף הרשמי (S-1/A) הוגש ל-SEC ונקרא - האימות מול מקור ראשוני הושלם, תווית אי-האימות הוסרה, ודיווח רויטרס הקודם על הטיוטה אומת במלואו. זהו עדכון, לא תיקון.\n\nAnthropic הגישה ל-SEC תיקון מס' 2 לתשקיף ההנפקה: 825 מיליון מניות A - מתוכן 801,351,354 מטעם החברה ו-23,648,646 מטעם בעלי מניות מוכרים - בטווח מחיר משוער של 70-78 דולר למניה, תחת הסמל ANT בנאסד\"ק Global Select. לקנסחי ההנפקה אופציית הרחבה של עד 123.75 מיליון מניות נוספות. במקביל, ובכפוף להשלמת ההנפקה, תיסגר מיד לאחריה הצמדה פרטית של 26 מיליארד דולר במניות N (חסרות זכויות הצבעה) במחיר ההנפקה ל-AMD, Broadcom, Google LLC (במסגרת חלק מהתחייבויות 2026 NPA), Micron, Microsoft, NVIDIA ו-TSMC Partners. גורמים הקשורים לדירקטוריון הביעו עניין לא מחייב ברכישה של עד 303 מיליון דולר. מבנה השליטה: מניות F למייסדים עם 50.1% מכוח ההצבעה ללא זכויות כלכליות, ונאמנות LTBT שממנה רוב דירקטורים - החברה מוגדרת controlled company. המספר 69.3 מיליארד דולר שהודלף אתמול נמשך כמיושן; התשקיף הרשמי עדיין Subject to Completion והטווח עלול להשתנות. ההקשר הקודם: דיווח WSJ (עדיין לא מאומת) על תחילת מסחר ב-19-20 בנובמבר.",
+    "כותרת_en": "Anthropic files officially with the SEC: 825M Class A shares at an estimated $70-78 under the symbol ANT on Nasdaq; a contingent $26B private placement with AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC",
+    "טקסט_en": "Nov 10, 2026 | UPDATE: the official prospectus (Amendment No. 2 to Form S-1) was filed with the SEC and read - primary-source verification complete, the unverified label removed, and the earlier Reuters draft report confirmed in full. This is an update, not a correction.\n\nAnthropic filed Amendment No. 2 to its IPO registration: 825 million Class A shares - of which 801,351,354 from the company and 23,648,646 from selling stockholders - at an estimated $70-78 per share, under the symbol ANT on the Nasdaq Global Select Market. Underwriters hold a greenshoe of up to 123.75 million additional shares. Concurrently, contingent on the offering's completion and closing immediately after it, a $26.0 billion private placement of non-voting Class N shares at the IPO price goes to AMD, Broadcom, Google LLC (funding part of its Google 2026 NPA obligations), Micron, Microsoft, NVIDIA and TSMC Partners. Director-affiliated parties indicated non-binding interest of up to $303 million. Governance: founders' Class F share carries 50.1% of voting power with no economic rights, and the LTBT trust appoints a majority of directors - a controlled company. The leaked $69.3B figure was withdrawn yesterday as outdated; the official filing is still Subject to Completion and the band may change. Prior context: a WSJ report (still unverified) pointed to a November 19-20 trading start.",
     "תאריך": "2026-11-10",
-    "הועלה": "2026-11-10 13:09",
+    "הועלה": "2026-11-10 13:36",
     "מזהה": "n-1193",
     "_translation": {
       "en": {
-        "source_hash": "a56e3fcd7d1b6df2c839a5fe18135063a181df5f9264951b3b5abde257f9dbb1",
+        "source_hash": "6a967da7e3f9440253f3d40fd718ec9520a6876d2cc9f0b329863205ee1c240b",
         "schema_version": 1
       }
     }
