@@ -1133,7 +1133,18 @@ html.ext-sess #wlLists .wr[data-continuous="true"]>.pc-d{padding-block:7.5px}
 .pcard [data-f="extp"]{font-size:.75rem}
 #posList .pcard.pc .pgrid>.pc-d{overflow:visible}
 #posList .pcard.pc .pgrid>.pc-d>[data-f=he]:not(:empty):not(.hltx){font-size:.75rem!important;width:max-content;max-width:none;align-self:flex-end}
-</style><style>#tnAc [data-free],#pnStockAc [data-free]{display:none}</style><style>body.watch-near-full header.top .tot-wrap,body.watch-near-full header.top .tot-pre,body.watch-near-full header.top .hcash,body.watch-near-full header.top .hmin,body.watch-near-full header.top .upd{display:none!important}body.watch-near-full header.top .hcard{padding-bottom:12px!important}</style></head>
+</style><style>#tnAc [data-free],#pnStockAc [data-free]{display:none}</style><style>body.watch-near-full header.top .tot-wrap,body.watch-near-full header.top .tot-pre,body.watch-near-full header.top .hcash,body.watch-near-full header.top .hmin,body.watch-near-full header.top .upd{display:none!important}body.watch-near-full header.top .hcard{padding-bottom:12px!important}</style><style id="logo-safe-approved-overlays">
+body.overlay-logo-safe{overflow:hidden;--nav-h:64px}
+body.overlay-logo-safe header.top .tot-wrap,body.overlay-logo-safe header.top .tot-pre,body.overlay-logo-safe header.top .hcash,body.overlay-logo-safe header.top .hmin,body.overlay-logo-safe header.top .upd{display:none!important}
+body.overlay-logo-safe header.top .hcard{padding-bottom:12px!important}
+body.overlay-logo-safe nav.bottom{display:block!important;bottom:var(--ov-bottom,0px)}
+body.overlay-logo-safe nav.bottom .nav-srch{display:flex!important}
+body.overlay-logo-safe #srchOv,body.overlay-stock-card #sheet,body.overlay-stock-card #sheetBg,body.overlay-logo-safe .ct-shell{top:var(--ov-top,80px);bottom:var(--ov-end,64px);max-height:none;height:auto}
+body.overlay-stock-card #sheet{border-radius:22px 22px 0 0}
+body.overlay-logo-safe .ct-shell{overflow:hidden}
+body.overlay-logo-safe .ct-work:not(.ct-rotated){width:100%!important;height:100%!important}
+body.overlay-logo-safe .ct-work.ct-rotated{width:var(--ov-height)!important;height:var(--ov-width)!important}
+</style></head>
 <body><dialog id="wlOrderDialog" aria-labelledby="wlOrderTitle"><h3 id="wlOrderTitle">סדר הרשימות</h3><p>גררו את הידית כדי לשנות את סדר הרשימות</p><div id="wlOrderRows"></div><div class="wl-orderactions"><button type="button" id="wlOrderSave">שמירה</button><button type="button" id="wlOrderCancel">ביטול</button></div></dialog>
 <header class="top">
   <div class="wrap"><div class="hcard">
@@ -7562,5 +7573,35 @@ html.dark .al-tg{background:#334155}.al-tg::after{content:"";position:absolute;t
  const list=document.querySelector('#posList');if(list){new MutationObserver(records=>{if(records.some(r=>r.target===list||r.target.nodeType===1&&r.target.matches?.('.pcard,.pgrid,.pc-h,.pc-d,[data-f="hp"]')||r.target.parentElement?.closest('[data-f="hp"]')))queue();}).observe(list,{childList:true,characterData:true,subtree:true});new ResizeObserver(queue).observe(list);document.fonts?.ready.then(queue);queue();}
 })();
 </script>
-<script>(()=>{const tab=sessionStorage.getItem('portfolioTracker.languageReturnTab');if(tab){sessionStorage.removeItem('portfolioTracker.languageReturnTab');if(tab==='settings')document.querySelector('#btnSet').click();}})();</script></body>
+<script>(()=>{const tab=sessionStorage.getItem('portfolioTracker.languageReturnTab');if(tab){sessionStorage.removeItem('portfolioTracker.languageReturnTab');if(tab==='settings')document.querySelector('#btnSet').click();}})();</script><script id="logo-safe-overlay-layout">
+(function(){
+ const body=document.body,search=document.getElementById('srchOv'),sheet=document.getElementById('sheet'),sheetBody=document.getElementById('sheetBody'),header=document.querySelector('header.top'),nav=document.querySelector('nav.bottom'),V=window.visualViewport;
+ let pending=false,was=false,saved=null,lastFocus=null;
+ const toggle=(name,on)=>{if(body.classList.contains(name)!==on)body.classList.toggle(name,on)};
+ const prop=(name,value)=>{if(body.style.getPropertyValue(name)!==value)body.style.setProperty(name,value)};
+ function layout(){pending=false;
+  const stock=sheet.classList.contains('open')&&!!sheetBody.querySelector('#isRange,#posRange');
+  const active=!search.hidden||stock||!!document.querySelector('.ct-shell');
+  if(active&&!was)saved={x:scrollX,y:scrollY,focus:lastFocus};
+  toggle('overlay-stock-card',stock);toggle('overlay-logo-safe',active);
+  if(active){
+   const vvTop=V?V.offsetTop:0,vvBottom=V?V.offsetTop+V.height:innerHeight;
+   const bottom=Math.max(0,innerHeight-vvBottom),navHeight=nav.getBoundingClientRect().height||64;
+   const top=Math.max(header.getBoundingClientRect().bottom+8,vvTop);
+   const end=bottom+navHeight,height=Math.max(0,innerHeight-end-top);
+   prop('--ov-top',top+'px');prop('--ov-bottom',bottom+'px');prop('--ov-end',end+'px');prop('--ov-height',height+'px');prop('--ov-width',innerWidth+'px');
+   const el=document.activeElement;
+   if(el&&el.matches('input,textarea,select,[contenteditable=true]')&&el.closest('#srchOv,#sheet,.ct-shell')){
+    const sc=el.closest('.ct-settings,.sheet,.sov');if(sc){const r=el.getBoundingClientRect(),b=sc.getBoundingClientRect();if(r.bottom>b.bottom-12)sc.scrollTop+=r.bottom-b.bottom+12;else if(r.top<b.top+12)sc.scrollTop+=r.top-b.top-12;}
+   }
+  }else if(was&&saved){const restore=saved;saved=null;window.scrollTo(restore.x,restore.y);if(restore.focus?.isConnected&&!restore.focus.closest('#sheet,#srchOv,.ct-shell'))restore.focus.focus({preventScroll:true});}
+  was=active;
+ }
+ function queue(){if(!pending){pending=true;requestAnimationFrame(layout)}}
+ document.addEventListener('pointerdown',e=>{if(!was)lastFocus=e.target.closest('button,[tabindex],input')||document.activeElement},true);
+ new MutationObserver(queue).observe(body,{subtree:true,childList:true,attributes:true,attributeFilter:['class','hidden']});
+ addEventListener('resize',queue,{passive:true});V?.addEventListener('resize',queue,{passive:true});V?.addEventListener('scroll',queue,{passive:true});document.addEventListener('focusin',queue);document.addEventListener('focusout',queue);
+ new ResizeObserver(queue).observe(header);queue();
+})();
+</script></body>
 </html>
