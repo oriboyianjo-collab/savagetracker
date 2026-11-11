@@ -32712,5 +32712,29 @@
         "source_hash": "d0c64052e500b58a002467d46d502f18ad8499818f0bf65c535764d3c1525502"
       }
     }
+  },
+  {
+    "מזהה": "n-1328",
+    "category": "macro",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 15:11",
+    "קישור": "https://www.cnbc.com/2026/11/11/mortgage-rates-jump-sharply-higher-after-easing-for-4-straight-weeks.html",
+    "כותרת": "לפי CNBC: ריבית המשכנתאות היומית בארה\"ב קפצה ל-7.30%; בקשות המשכנתה דווקא עלו בשבוע הקודם",
+    "כותרת_en": "CNBC: US daily mortgage rate jumped to 7.30%, while applications rose in the prior week",
+    "טקסט": "מקור משני: כתבת CNBC נקראה במלואה; דוח MBA המקורי לא נקרא ישירות. פרסום CNBC: 11.11.2026 ב-07:38 EST, 14:38 שעון ישראל.\n\nלפי CNBC המצטטת את Mortgage News Daily, ריבית המשכנתה הקבועה ל-30 שנה עלתה ביום שלישי ב-12 נקודות בסיס לעומת יום שני, ל-7.30%. הכתבה מתארת זאת כזינוק היומי הגדול ביותר זה יותר מחודש, לאחר פרסום נתוני האינפלציה. זהו נתון ריבית יומי של MND, לא שינוי שבועי בסקר MBA ולא החלטת ריבית חדשה של הפד.\n\nבנפרד, לפי מדד MBA המנוכה עונתיות כפי שמובא בכתבה, בקשות המשכנתה עלו בשבוע הקודם ב-6.2% לעומת השבוע שלפניו. באותה תקופה מוקדמת יותר, הריבית השבועית הממוצעת למשכנתה קבועה ל-30 שנה בתנאי הסקר ירדה ל-7.21% מ-7.30%, ירידה שבועית רביעית ברציפות. לכן עליית הריבית היומית ביום שלישי אינה סותרת את הירידה בממוצע השבועי הקודם.\n\nCNBC מדווחת שבקשות לרכישת בית עלו בכ-8% בשבוע, אך היו נמוכות ב-18% משנה קודם; בקשות למימון מחדש עלו בכ-5% והיו נמוכות ב-57% משנה קודם. אלה המספרים המעוגלים בכתבה, ואין כאן דיוק נוסף שלא אומת במקור. שיעורי הבקשות אינם שיעורי שינוי במחירי הבתים או במספר עסקאות שהושלמו.\n\nלפי כלכלן MBA המצוטט, ההקלה בריביות בשבועות הקודמים סייעה לפעילות, עם גידול בולט בבקשות FHA ו-VA. העדכון מדגיש את ההבדל בין הקלה שבועית קודמת לבין התייקרות מימון יומית מאוחרת יותר; אין בו תחזית מאומתת להמשך הריבית או אישור למגמת התאוששות קבועה בדיור.",
+    "טקסט_en": "Secondary source: the full CNBC article was read; the original MBA release was not directly checked. CNBC publication: Nov 11, 2026 at 07:38 EST, 14:38 Israel time.\n\nCNBC, citing Mortgage News Daily, reports that the daily 30-year fixed mortgage rate rose 12 basis points Tuesday from Monday to 7.30%. It describes the largest one-day increase in more than a month following inflation data. This is an MND daily rate, not a weekly MBA survey change or a new Federal Reserve rate decision.\n\nSeparately, CNBC reports a 6.2% weekly increase in mortgage applications on MBA's seasonally adjusted index for the prior week. During that earlier period, the survey's average 30-year fixed rate fell to 7.21% from 7.30%, its fourth consecutive weekly decline. Tuesday's daily increase therefore does not contradict the previous week's lower average.\n\nCNBC says home-purchase applications rose about 8% for the week but were 18% lower year over year; refinancing applications rose about 5% but were 57% lower year over year. These are the article's rounded figures, without invented extra precision. Application changes are not house-price changes or completed home sales.\n\nThe quoted MBA economist says earlier rate declines supported activity, including strong FHA and VA purchase-application gains. The update distinguishes earlier weekly easing from a later daily financing-cost increase. It does not establish a future rate path or a sustained housing recovery.",
+    "מקורות": [
+      {
+        "label": "CNBC: דיווח מלא המצטט בנפרד את MBA ואת Mortgage News Daily",
+        "label_en": "CNBC: full report separately citing MBA and Mortgage News Daily",
+        "url": "https://www.cnbc.com/2026/11/11/mortgage-rates-jump-sharply-higher-after-easing-for-4-straight-weeks.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "23032bf81dfb2500c79d2e495ce80bf990397e71393033518a721868a7e77b9e"
+      }
+    }
   }
 ]
