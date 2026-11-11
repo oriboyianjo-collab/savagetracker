@@ -32819,5 +32819,34 @@
         "source_hash": "8aca3b349abea26f9b12f600b137c82cafd05088b405f8ae5082ce8b26664f31"
       }
     }
+  },
+  {
+    "מזהה": "n-1332",
+    "category": "macro",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 16:19",
+    "קישור": "https://www.cbr.ru/press/event/?id=32972",
+    "כותרת": "בנק רוסיה: בורסות יוכלו להתחיל מסחר בקריפטו מ-22 בנובמבר, רק לאחר תיאום כללי המסחר עם הרגולטור",
+    "כותרת_en": "Bank of Russia: exchanges may launch crypto trading from Nov 22 after agreeing trading rules with the regulator",
+    "טקסט": "11.11.2026 | הודעת בנק רוסיה הרשמית נקראה במלואה ברוסית, לצד הודעתו הנפרדת מ-6 בנובמבר באנגלית. שעת הפרסום המקורית של ההודעה החדשה אינה מוצגת. קובץ ההוראה המשפטית עצמו לא נקרא ישירות; הפרטים להלן מבוססים על הודעת הרגולטור.\n\nבנק רוסיה הודיע שבורסות רשאיות להתחיל מסחר במטבעות קריפטוגרפיים מ-22 בנובמבר 2026, אך עליהן לתאם תחילה עם הרגולטור את כללי המסחר. משרד המשפטים רשם את הוראת הבנק המסדירה דרישות למסחר מאורגן במטבעות דיגיטליים ובזכויות דיגיטליות. אין בכך אישור שבורסה מסוימת כבר קיבלה הסכמה או שהמסחר בה יתחיל בוודאות באותו יום.\n\nלפי ההודעה, הבורסות יידרשו לרשום משתתפים כגון ברוקרים, מנהלי נאמנות וצדדים נגדיים מרכזיים, לנהל מרשמי פקודות ועסקאות ולפקח על ביצוע הפעולות. עליהן גם לחשב מחירי שוק, מחירים שוטפים, ממוצעים משוקללים ומחירי סגירה, ולהעביר לבנק רוסיה מידע על מהלך המסחר ותוצאותיו בדומה לנכסים אחרים.\n\nזהו שלב יישום נוסף למסגרת שכבר סוקרה ב-6 בנובמבר ב-n-0014. ההודעה הקודמת עסקה ברשימת נכסים למשקיעים לא מוסמכים ובכניסת הוראה נפרדת לתוקף ב-17 בנובמבר. המועד החדש, 22 בנובמבר, מתייחס להתחלת מסחר בידי בורסות בכפוף להסכמת הרגולטור לכללים. אין להחליף בין שני המועדים או להציג את 17 בנובמבר כאישור שכל זירת מסחר יכולה להיפתח ללא התנאי החדש.\n\nההודעה החדשה אינה מבטלת במפורש את מבחן ההתאמה ואת מגבלת הרכישה דרך מתווך יחיד שתוארו במסגרת הקודמת, ואינה מעניקה גישה קמעונאית בלתי מוגבלת. היא מפרטת תנאי הפעלה ודיווח, לא זרימות כספיות שכבר התרחשו או תחזית למחירי הקריפטו.",
+    "טקסט_en": "Nov 11, 2026 | The full official Bank of Russia release was read in Russian, alongside its separate Nov 6 English release. No original time is displayed for the new release. The legal directive PDF itself was not directly read; the details below come from the regulator's announcement.\n\nThe Bank of Russia says exchanges may launch cryptocurrency trading from Nov 22, 2026, but must first agree their trading rules with the regulator. The Justice Ministry has registered its directive setting requirements for organized trading in digital currencies and digital rights. This does not confirm that any particular exchange has received agreement or will definitely open trading that day.\n\nExchanges must register participants such as brokers, trust managers and central counterparties, maintain order and transaction registers and monitor trading activity. They must also calculate current, weighted-average, market and closing prices, and report trading activity and results to the Bank of Russia as they do for other assets.\n\nThis is an additional implementation step beyond the Nov 6 framework covered in n-0014. The earlier announcement concerned the eligible-asset list for non-qualified investors and a separate ordinance taking effect Nov 17. The new Nov 22 date concerns exchange trading subject to regulatory agreement on trading rules. These dates should not be interchanged, or Nov 17 presented as unconditional permission for every venue to open.\n\nThe new release does not explicitly repeal the investor testing and single-intermediary purchase limit described in the earlier framework, or grant unrestricted retail access. It sets operating and reporting conditions, not realized investment flows or a crypto-price forecast.",
+    "מקורות": [
+      {
+        "label": "בנק רוסיה, 11 בנובמבר: דרישות למסחר ומועד 22 בנובמבר המותנה בתיאום הכללים",
+        "label_en": "Bank of Russia, Nov 11: trading requirements and conditional Nov 22 start date",
+        "url": "https://www.cbr.ru/press/event/?id=32972"
+      },
+      {
+        "label": "בנק רוסיה, 6 בנובמבר: רשימת נכסים למשקיעים לא מוסמכים והוראה נפרדת לתוקף מ-17 בנובמבר",
+        "label_en": "Bank of Russia, Nov 6: eligible assets and separate ordinance effective Nov 17",
+        "url": "https://www.cbr.ru/eng/press/event/?id=32966"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e1b7860cd3b3c1032dba3b66d0c92658f599c9b7c7fbb9b201c85f0e500b5980"
+      }
+    }
   }
 ]
