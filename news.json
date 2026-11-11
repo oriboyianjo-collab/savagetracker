@@ -30890,5 +30890,55 @@
         "source_hash": "9f2c4bb06d6370be7e3c7c26efbba181e39f761b263454225cbeb3dcbbed515f"
       }
     }
+  },
+  {
+    "מזהה": "n-1263",
+    "category": "micro",
+    "חברה": "GGG",
+    "כותרת": "Graco (GGG) חתמה על רכישה עצמית מואצת של 600 מיליון דולר, כ-5% מהמניות, במסגרת הרשאה קיימת",
+    "כותרת_en": "Graco (GGG) signs $600 million accelerated buyback, about 5% of shares, under existing authorization",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 06:02",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/42888/000119312526455736/d125383dex991.htm",
+    "מקורות": [
+      {
+        "label": "Graco: הודעת החברה המלאה מ-10 בנובמבר, נספח 99.1 ב-SEC; שעת ההודעה המקורית לא אומתה",
+        "label_en": "Graco: full Nov 10 company release, SEC Exhibit 99.1; original release clock not verified",
+        "url": "https://www.sec.gov/Archives/edgar/data/42888/000119312526455736/d125383dex991.htm"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת החברה נקראה במלואה; פורסם באפליקציה באיחור ב-11 בנובמבר.\n\nGraco חתמה עם Bank of America על הסכם לרכישה עצמית מואצת (ASR) של מניות רגילות בסך 600 מיליון דולר. לפי החברה, ההיקף מייצג כ-5% מהמניות שבמחזור. המימון יגיע ממזומן קיים ומשיכות ממסגרת האשראי המתחדשת הקיימת.\n\nהחברה תשלם מראש 600 מיליון דולר ומצפה לקבל ולבטל בתחילה כ-6.9 מיליון מניות. זהו מספר מסירה ראשוני צפוי, לא אישור שכבר נמסרו המניות ולא מספר המניות הסופי. המספר הסופי ייקבע בסליקה לפי מחיר ממוצע משוקלל-מחזור בתקופת העסקה, בניכוי הנחה ובכפוף להתאמות. ההשלמה צפויה במרץ 2027.\n\nההסכם משתמש בהרשאת הרכישה העצמית הקיימת, שבה נותרו כ-17 מיליון מניות זמינות ב-10 בנובמבר. אין זו הרשאה נוספת על גבי הקיימת, והודעת החתימה אינה הודעה שהרכישה כבר הושלמה. זהו מהלך חלוקת הון נפרד מתוצאות או מתחזית רווח.",
+    "טקסט_en": "Nov 10, 2026 | Full company release read; published in the app as a catch-up on Nov 11.\n\nGraco entered a $600 million accelerated share repurchase agreement with Bank of America for common stock. The company says it represents approximately 5% of outstanding shares. Funding will come from cash on hand and borrowings under its existing revolving credit facility.\n\nGraco will make a $600 million upfront payment and expects to initially receive and retire about 6.9 million shares. This is an expected initial delivery, not confirmation shares have already been delivered or the final share count. The final number will be determined at settlement using the volume-weighted average share price during the transaction, less a discount and subject to adjustments. Completion is expected in March 2027.\n\nThe agreement uses the existing buyback authorization, under which about 17 million shares remained available on Nov 10. It is not an additional authorization on top of that program, and signing does not mean the buyback is complete. This is a standalone capital-return event, not an earnings or profit-outlook report.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7e475e4871b2ee85dc39c2a4c421c91d591981e0d828d951cd33841eb4e4b0e2"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1264",
+    "category": "micro",
+    "חברה": "HL",
+    "כותרת": "Hecla Mining (HL) חתמה על מסגרת ATM למכירת עד 50 מיליון מניות; אין התחייבות למכור או דיווח על הנפקה שבוצעה",
+    "כותרת_en": "Hecla Mining (HL) signs ATM facility for up to 50 million shares; no obligation to sell or completed issuance reported",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 06:02",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/719413/000119312526455667/d104256d8k.htm",
+    "מקורות": [
+      {
+        "label": "Hecla Mining: טופס 8-K המלא מ-10 בנובמבר, סעיף Equity Distribution Agreement",
+        "label_en": "Hecla Mining: full Nov 10 Form 8-K, Equity Distribution Agreement section",
+        "url": "https://www.sec.gov/Archives/edgar/data/719413/000119312526455667/d104256d8k.htm"
+      }
+    ],
+    "טקסט": "10.11.2026 | דיווח 8-K נקרא במלואו; פורסם באפליקציה באיחור ב-11 בנובמבר.\n\nHecla Mining חתמה ב-10 בנובמבר על הסכם הפצת מניות המאפשר לה להציע ולמכור מעת לעת עד 50 מיליון מניות רגילות באמצעות סוכני מכירות או אליהם. המכירות, אם יבוצעו, יהיו בעסקאות ברוקר רגילות או בדרך אחרת שתוסכם. עמלת כל סוכן לא תעלה על 1.5% מהתמורה ברוטו ממניות שמכר.\n\nהחברה אינה מחויבת למכור מניות במסגרת ההסכם. זהו ערוץ גיוס הון פוטנציאלי שעשוי לדלל בעלי מניות אם ינוצל, לא דיווח שכבר הונפקו 50 מיליון מניות או שהתקבלה תמורה. לא נקבע כאן סכום גיוס בדולרים באמצעות הכפלת מספר המניות במחיר שוק. ההסכם נשען על תשקיף המדף הקיים מפברואר 2025 והשלמת תשקיף, ולא מוצג כהנפקה ציבורית שכבר הושלמה.\n\nבנפרד, אותו דיווח מתאר פדיון מתוכנן של מניות בכורה בסכום מזומן משוער של כ-7.64 מיליון דולר, בכפוף לאפשרות המרה של המחזיקים. זה אינו סכום מסגרת ה-ATM. סיום עבודתו של Stuart Absolom ב-6 בנובמבר הוא בתפקיד החשבונאי הראשי, לא סמנכ״ל הכספים; Russell Lawlar נשאר סמנכ״ל כספים ומוסיף את האחריות החשבונאית. החברה מסרה שלא הייתה מחלוקת בענייני חשבונאות, גילוי או בקרה פנימית.",
+    "טקסט_en": "Nov 10, 2026 | Full Form 8-K read; published in the app as a catch-up on Nov 11.\n\nHecla Mining signed an equity distribution agreement on Nov 10 allowing it to offer and sell up to 50 million common shares from time to time through or to sales agents. Sales, if any, will be ordinary brokers' transactions or otherwise agreed. Each agent's commission will not exceed 1.5% of gross proceeds from shares sold by that agent.\n\nThe company has no obligation to sell shares under the agreement. This is a potential equity-funding channel that could dilute shareholders if used, not a report that 50 million shares have already been issued or proceeds received. No dollar fundraising amount is inferred by multiplying the share limit by a market price. The agreement relies on the existing February 2025 shelf registration and a prospectus supplement; it is not presented as a completed public offering.\n\nSeparately, the filing describes a planned preferred-share redemption for an estimated $7.64 million in cash, subject to holders' conversion option. That is not the ATM facility amount. Stuart Absolom's Nov 6 departure concerns the Principal Accounting Officer role, not the CFO; Russell Lawlar remains CFO and adds the accounting role. The company says there was no disagreement over accounting, disclosures or internal control.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8630207a4bd028e11b1fb62358f50c56731c0bb80c2c946df97e6d610321547f"
+      }
+    }
   }
 ]
