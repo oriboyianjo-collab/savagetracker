@@ -32981,5 +32981,55 @@
         "source_hash": "856062f88d7584c8cdde9f658ee8b18bf48942178409b54eeda354e31ea28e2d"
       }
     }
+  },
+  {
+    "מזהה": "n-1338",
+    "category": "company",
+    "חברה": "META",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 20:56",
+    "קישור": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html",
+    "כותרת": "לפי CNBC: ראש התשתיות של Meta יעזוב ב-2027; דייוויד בראון יוביל את התשתיות וישמש CTO של Meta Compute",
+    "כותרת_en": "CNBC: Meta infrastructure chief to leave in 2027; David Brown to lead infrastructure and serve as Meta Compute CTO",
+    "טקסט": "11.11.2026 | CNBC פורסם ב-13:05 EST, 20:05 בישראל; הכתבה נקראה במלואה. המידע מיוחס למזכר פנימי שהגיע ל-CNBC; המזכר עצמו והודעת מינוי פומבית של Meta לא נקראו בנפרד. Bloomberg דיווחה ראשונה לפי CNBC, ושעת המקור הראשון לא אומתה.\n\nלפי CNBC, סנטוש ג׳נארדהן, ראש התשתיות וראש הנדסה משותף ב-Meta, הודיע היום במזכר פנימי שיעזוב ב-2027. הוא צפוי לסייע לדייוויד בראון לאורך הרבעון הראשון של 2027 כחלק מהעברת התפקיד. אין כאן עזיבה מיידית או תאריך יום אחרון מאומת.\n\nבראון, לשעבר סגן נשיא בכיר ב-Amazon Web Services, הצטרף ל-Meta ביולי. לפי הכתבה, כעת יוביל רשמית את פעילות התשתיות וישמש מנהל טכנולוגיות ראשי של יוזמת Meta Compute, שאותה מובילים דינה פאוול מק׳קורמיק ודניאל גרוס. התואר CTO כאן מתייחס ליוזמה, לא להחלפת מנהל הטכנולוגיות של Meta כולה.\n\nהאירוע החדש הוא שינוי בהובלת התשתיות הטכניות ומרכזי הנתונים. הוא נפרד מעזיבת דייב ווהנר לתפקיד הכספים ב-Fireworks שכוסתה ב-n-0021, ומהסכמי החומרה עם AMD ו-NVIDIA שכוסו קודם. אין במידע שנקרא הודעה על ביטול או השלמת פרויקט, הזמנה חדשה או שינוי כמותי בהוצאות. תוצאות הרבעון ותחזיות ההון שבכתבת הרקע אינן מתפרסמות כאן מחדש.",
+    "טקסט_en": "Nov 11, 2026 | CNBC published at 1:05 p.m. EST, 20:05 Israel time; the article was read in full. The information is attributed to an internal memo obtained by CNBC; the memo itself and a public Meta appointment release were not separately read. CNBC credits Bloomberg with reporting first; the earliest source clock was not verified.\n\nAccording to CNBC, Santosh Janardhan, Meta's head of infrastructure and co-head of engineering, said in an internal memo today that he will leave in 2027. He will support David Brown through the first quarter of 2027 as part of the transition. This is not an immediate departure or a verified final working date.\n\nBrown, formerly an Amazon Web Services senior vice president, joined Meta in July. CNBC says he will now formally lead infrastructure and serve as chief technical officer of the Meta Compute initiative, led by Dina Powell McCormick and Daniel Gross. The CTO title here concerns that initiative, not a replacement of Meta's company-wide CTO.\n\nThe new event is a technical infrastructure and data-center leadership transition. It is separate from Dave Wehner's move to Fireworks as CFO in n-0021 and earlier AMD and NVIDIA hardware partnerships. The source read does not announce a project cancellation or completion, a new order, or a quantified spending change. Quarterly results and capex forecasts included as article background are not republished here.",
+    "מקורות": [
+      {
+        "label": "CNBC: דיווח מלא על מזכר המעבר; Bloomberg מצוינת כמדווחת הראשונה",
+        "label_en": "CNBC: full report on the transition memo; credits Bloomberg with first reporting",
+        "url": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ed459481f53991aa4a045f5d2d1469e91a49bf238446fba32e8edddd5a216140"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1339",
+    "category": "company",
+    "חברה": "Kalshi / Polymarket",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 20:56",
+    "קישור": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
+    "כותרת": "לפי CNBC: שני סנאטורים דורשים מ-HHS מידע והגנות בנוגע לשווקי חיזוי של ניסויים קליניים ואישורי תרופות; לא איסור חדש",
+    "כותרת_en": "CNBC: Senators seek HHS records and safeguards over clinical-trial and drug-approval prediction markets; no new ban",
+    "טקסט": "11.11.2026 | CNBC פורסם ב-12:52 EST, 19:52 בישראל; הכתבה נקראה במלואה. המכתב מתואר כמסמך שהגיע ראשון ל-CNBC, ולא נקרא כאן ישירות מאתר הסנאט או HHS.\n\nלפי CNBC, הסנאטורים הדמוקרטים אנג׳לה אלסוברוקס ורון ויידן פנו היום לשר הבריאות רוברט פ׳ קנדי ג׳וניור בנוגע לחוזי אירועים על תוצאות ניסויים קליניים ועל החלטות אישור תרופות של ה-FDA. הם ביקשו לדעת אילו צעדים נקט משרד הבריאות לצמצום הסיכונים.\n\nהם דרשו תכתובות פנימיות הנוגעות להשתתפות עובדים בשווקים כאלה, תכתובות עם פלטפורמות שוקי החיזוי ועם ה-CFTC, וניתוחים פנימיים של ההשפעות האפשריות. החששות במכתב נוגעים להשפעה על החלטות מטופלים להשתתף בניסויים ולסיכון למסחר במידע לא פומבי של חוקרים ורגולטורים. אלה חששות ודרישות פיקוח של המחוקקים, לא קביעה שהתרחש מסחר אסור או שנפגע ניסוי מסוים.\n\nCNBC מציינת ש-Kalshi מציעה חוזים כאלה בארה״ב, ואילו החוזים של Polymarket בנושא זמינים בזירה הבינלאומית שלה, שאינה מפוקחת בארה״ב. Kalshi מסרה בעת ההשקה ביולי שהיא מגבילה חוזים לניסויים בשלבים מאוחרים ולאחר השלמת ההרשמה, ומשתמשת בטכנולוגיית אימות עובדים. אלו הגנות שהחברה מתארת, לא אישור עצמאי שהן מונעות כל סיכון.\n\nזו פנייה חדשה בנושא רפואי ל-HHS, בנפרד מבדיקת ה-CFTC על הגשות חוזי מזג האוויר ב-n-1334 ומתקני הזכאות לחוזי מניות ב-n-1294. אין בכתבה צו איסור חדש, אישום, החלטת FDA על תרופה או הוכחה שהמסחר כבר הופסק. CNBC מגלה קשר מסחרי עם Kalshi הכולל גיוס לקוחות והחזקת מיעוט.",
+    "טקסט_en": "Nov 11, 2026 | CNBC published at 12:52 p.m. EST, 19:52 Israel time; the article was read in full. The letter is described as obtained first by CNBC; it was not read directly from a Senate or HHS website here.\n\nAccording to CNBC, Democratic Senators Angela Alsobrooks and Ron Wyden wrote to HHS Secretary Robert F. Kennedy Jr. today about event contracts tied to clinical-trial outcomes and FDA drug approvals. They asked what measures HHS has taken to mitigate the risks.\n\nThey requested internal communications about staff participation in such markets, communications with prediction-market platforms and the CFTC, and internal analyses of possible effects. Their concerns include effects on patients deciding whether to enroll in trials and potential trading on nonpublic information held by researchers or regulators. These are lawmakers' concerns and oversight requests, not a finding of illegal trading or harm to a particular trial.\n\nCNBC says Kalshi offers these contracts in the U.S., while Polymarket's related markets are on its international exchange, which is not U.S.-regulated. At its July launch, Kalshi said it limited contracts to late-stage trials after enrollment was complete and used employee-verification technology. These are company-described safeguards, not independent proof that all risks are prevented.\n\nThis is a new healthcare-focused HHS inquiry, separate from the CFTC weather-contract filing investigation in n-1334 and equity-futures eligibility standards in n-1294. The article does not establish a new ban, filed charges, an FDA drug decision or a trading halt. CNBC discloses a commercial relationship with Kalshi involving customer acquisition and a minority investment.",
+    "מקורות": [
+      {
+        "label": "CNBC: דיווח מלא על מכתב הסנאטורים, תגובת Kalshi וגילוי הקשר המסחרי",
+        "label_en": "CNBC: full report on senators letter, Kalshi safeguards and commercial disclosure",
+        "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a27d1d7510f3725488f8f5afa4471d29c7e3780770f35ab9d8662c83baeb6644"
+      }
+    }
   }
 ]
