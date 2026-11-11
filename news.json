@@ -30821,5 +30821,29 @@
         "source_hash": "85157cc5599fe2107cbe44c765c6e02334aa4244c3158b898748fd727c5ea423"
       }
     }
+  },
+  {
+    "מזהה": "n-1261",
+    "category": "macro",
+    "כותרת": "דרום קוריאה: היצוא ב-1–10 בנובמבר עלה ב-111.9% לעומת התקופה המקבילה; 7.5 ימי עבודה מול 7 אשתקד",
+    "כותרת_en": "South Korea: Nov 1-10 exports rose 111.9% year over year; 7.5 working days versus 7 a year earlier",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 02:10",
+    "קישור": "https://www.customs.go.kr/kcs/main.do",
+    "מקורות": [
+      {
+        "label": "רשות המכס הקוריאנית: נתוני סחר לחודש הנוכחי בדף הבית, תקופה 1–10 בנובמבר, נבדקו ב-11 בנובמבר ב-02:09 בישראל",
+        "label_en": "Korea Customs Service: current-month trade data on homepage, Nov 1-10 period, checked Nov 11 at 02:09 Israel time",
+        "url": "https://www.customs.go.kr/kcs/main.do"
+      }
+    ],
+    "טקסט": "11.11.2026 | נתוני רשות המכס הקוריאנית נקראו ישירות בדף הבית; שעת העלאתם המקורית לא מוצגת.\n\nהיצוא של דרום קוריאה ב-1–10 בנובמבר הסתכם ב-33.460 מיליארד דולר, עלייה של 111.9% לעומת אותם תאריכים ב-2025. היבוא הסתכם ב-24.710 מיליארד דולר, עלייה של 45%. ההפרש בין הסכומים הוא עודף של 8.750 מיליארד דולר, בחישוב מנתוני הרשות. היחידות במקור הן מיליוני דולר, והשינויים הם לעומת התקופה המקבילה אשתקד.\n\nהרשות מציינת 7.5 ימי עבודה בתקופה השנה לעומת 7.0 אשתקד. שיעור העלייה הראשי אינו מנוכה מהבדל ימי העבודה ואינו השוואה לחודש הקודם. הנתונים מתייחסים לעשרת הימים הראשונים בלבד, לפי מועד אישור המכס, לא לכל נובמבר ולא לרבעון השלישי.\n\nהיקף העלייה אינו מוכיח לבדו האצה בביקוש הריאלי: נתוני ערך הסחר מושפעים גם ממחירים, תמהיל ובסיס ההשוואה. בעמוד שנבדק אין פירוט מוצרי שמאפשר לייחס את העלייה לשבבים או לכמת תרומה שלהם; לא פורסם כאן מספר ענפי שלא אומת.",
+    "טקסט_en": "Nov 11, 2026 | Korea Customs Service figures read directly on its homepage; the original posting clock is not displayed.\n\nSouth Korean exports for Nov 1-10 totaled $33.460 billion, up 111.9% from the same dates in 2025. Imports totaled $24.710 billion, up 45%. The difference is an $8.750 billion surplus, calculated from the agency's figures. The source reports millions of U.S. dollars and year-over-year changes for the comparable period.\n\nCustoms lists 7.5 working days this year versus 7.0 a year earlier. The headline increase is not adjusted for that working-day difference and is not a month-over-month comparison. These figures cover only the first ten days, on a customs-clearance basis, not the full month of November or the third quarter.\n\nThe scale of the increase alone does not establish faster real demand: trade values can also reflect prices, product mix and the comparison base. The page checked provides no product breakdown to attribute the increase to semiconductors or quantify their contribution; no unverified sector figure is published here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0a6aa2dfbeada1bbeb2e38371ce701ecf385236904f8ac3b1714b41471a07d8f"
+      }
+    }
   }
 ]
