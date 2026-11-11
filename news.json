@@ -32906,5 +32906,30 @@
         "source_hash": "989661bd5831d0c3831b181cb5b4f059416be21ed07c1c1942a03956934e74e6"
       }
     }
+  },
+  {
+    "מזהה": "n-1335",
+    "category": "company",
+    "חברה": "NVDA",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 17:21",
+    "קישור": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
+    "כותרת": "לפי Axios: בסנט התעמת עם לוטניק על אי-הכנסת Megaspeed לרשימת ההגבלות; אין הודעה על הוספה לרשימה",
+    "כותרת_en": "Axios: Bessent confronted Lutnick over not listing Megaspeed; no new blacklist action announced",
+    "טקסט": "לפי דיווח Axios המקורי שנקרא במלואו | 11.11.2026. שעת הפרסום המוחלטת לא אומתה; תווית זמן יחסית אינה משמשת כאן כשעה מדויקת. הדיווח נשען על מקורות הבקיאים בנושא ועל מקור שתודרך על הפגישה, לא על תמליל ממשלתי או מזכר שנקראו ישירות.\n\nAxios מדווחת ששר האוצר סקוט בסנט התעמת עם שר המסחר הווארד לוטניק בפגישה בחדר המצב בבית הלבן ביום חמישי שלאחר הבחירות, 5 בנובמבר, בשאלה מדוע לקוחת NVIDIA בשם Megaspeed לא הוכנסה לרשימת Entity List של משרד המסחר. לפי מקור שתודרך על הפגישה, לוטניק השיב שיבדוק את העניין. זו חשיפה עיתונאית חדשה על פגישה קודמת, לא פגישה שהתקיימה היום.\n\nלפי המקורות בכתבה, בכירים בבית הלבן ובמודיעין לחצו מאז סתיו 2025 לפעול נגד Megaspeed, ולוטניק התנגד לצעדים מחשש להסלמה במלחמת הסחר עם סין. גם תת-שר המסחר ג׳ף קסלר קיבל, לפי הדיווח, אזהרות חוזרות. אלה טענות מקורות על התנהלות ומניעים; הן אינן ממצאים משפטיים או אישור רשמי של משרד המסחר.\n\nהחידוש ביחס ל-n-1260, על המזכר המסווג שנשלח לפי Axios ללוטניק, ול-n-1117, על עצירת עבודת משרד המסחר והמשך חקירת DOJ לפי NYT, הוא העימות המיוחס לבסנט סביב אי-הכללת החברה ברשימה והסיבה שהמקורות מייחסים להתנגדות. אין כאן הודעה ש-Megaspeed הוכנסה לרשימה, רישיון יצוא חדש שנשלל, אישום או קביעה שהוכחה הסטת שבבים.\n\nטענות הקשר למודיעין הסיני והריגול בפרשת אליס הואנג נותרות טענות מדווחות; אין בדיווח הזה ממצא חדש ש-NVIDIA או ג׳נסן הואנג מסרו ביודעין מידע חסוי. לא נכלל ציטוט מחיר מניה או ייחוס של תנועת מסחר לדיווח.",
+    "טקסט_en": "According to the original Axios report, read in full | Nov 11, 2026. An absolute publication time was not verified; a relative time label is not treated as an exact timestamp. The report relies on familiar sources and a source briefed on the meeting, not a directly read government transcript or memo.\n\nAxios reports that Treasury Secretary Scott Bessent confronted Commerce Secretary Howard Lutnick at a White House Situation Room meeting on the Thursday after the midterms, Nov 5, asking why NVIDIA customer Megaspeed had not been placed on the Commerce Department's Entity List. A source briefed on the meeting says Lutnick replied that he would look into it. This is a new report about an earlier meeting, not a meeting held today.\n\nSources tell Axios that White House and intelligence officials had pressed for action against Megaspeed since fall 2025, and that Lutnick resisted over concerns about escalating the trade war with China. Commerce Undersecretary Jeff Kessler also received repeated warnings, according to the report. These are source allegations about conduct and motives, not legal findings or official Commerce confirmation.\n\nBeyond n-1260 on the classified memo reportedly sent to Lutnick, and n-1117 on the NYT report about Commerce halting work while a DOJ investigation continued, the new detail is the confrontation attributed to Bessent over non-listing and the motive sources attribute to resistance. This is not an announcement that Megaspeed has been listed, a new export-license revocation, filed charges or an established chip-diversion finding.\n\nThe Chinese-intelligence and spying allegations involving Alice Huang remain reported allegations. This article does not establish a new finding that NVIDIA or Jensen Huang knowingly shared confidential information. No new share-price quote or claim that the report caused a market move is included.",
+    "מקורות": [
+      {
+        "label": "Axios: דיווח מקורי על העימות המיוחס לבסנט וללוטניק בעניין Megaspeed",
+        "label_en": "Axios: original sourced report on the alleged Bessent-Lutnick confrontation over Megaspeed",
+        "url": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e94b644f0c2dfb410e6042f07367ba847b116b4e90c27f5f17a9b227323f995a"
+      }
+    }
   }
 ]
