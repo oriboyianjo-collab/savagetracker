@@ -28865,10 +28865,15 @@
     }
   },
   {
-    "כותרת": "GLP-1 ו-NAION: אומתה דרישת FDA מ-9.11 לאזהרה בכל תרופות הסוג; האזהרה הקוריאנית נשארת בייחוס עיתונאי",
+    "כותרת": "GLP-1 ו-NAION: אומתו מסמכי FDA ו-MFDS; מכתב קוריאה מ-10.11 פורסם בהודעת 11.11, שינוי התווית עדיין בבחינה",
     "category": "macro",
     "קישור": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential",
     "מקורות": [
+      {
+        "label": "MFDS: הודעת 11 בנובמבר ו-PDF המצורף עם מכתב 10 בנובמבר",
+        "label_en": "MFDS: Nov 11 notice and attached PDF with Nov 10 letter",
+        "url": "https://www.mfds.go.kr/brd/m_99/view.do?seq=50485"
+      },
       {
         "label": "FDA: הודעת בטיחות רשמית מלאה, 9 בנובמבר 2026",
         "label_en": "FDA: full official Nov 9, 2026 safety communication",
@@ -28885,16 +28890,16 @@
         "url": "https://www.koreatimes.co.kr/southkorea/society/20261111/korea-warns-of-rare-vision-loss-risk-linked-to-glp-1-drugs"
       }
     ],
-    "טקסט": "עדכון אימות 11.11.2026: הודעת FDA הרשמית מ-9 בנובמבר נקראה במלואה. היא מחייבת את בעלי האישורים לכל תרופות GLP-1 להוסיף לסעיף האזהרות ואמצעי הזהירות מידע על סיכון מוגבר אפשרי ל-NAION, מצב נדיר העלול לגרום לאובדן ראייה פתאומי וקבוע. זו דרישת שינוי תווית, לא איסור שיווק ולא הוכחה שכל התוויות כבר עודכנו. ההיקף האמריקאי אומת כעת מול מקור ממשלתי, ולא נשען עוד רק על CNBC.\n\nה-FDA מצא 6.4 אירועים ל-100,000 שנות-מטופל מול 3.8 בביקורת בניתוח 126 ניסויים. אין לערבב שיעור זה עם השיעורים הגבוהים יותר במחקר Sentinel באוכלוסיית סוכרת: שם לא נמצאה עלייה מובהקת בהשוואה ל-SGLT-2, אך נמצאה עלייה בהשוואה ל-DPP-4. הראיות אינן אחידות בכל השוואה ואין כאן הוכחת מנגנון סיבתי. רשימת ה-FDA כוללת בין היתר Wegovy, Ozempic, Mounjaro, Zepbound ו-Foundayo.\n\nהודעת ה-FDA מורה לדווח מיד לרופא על ירידה פתאומית וללא כאב בראייה. לאנשי מקצוע: חשד מחייב הפניה מהירה לרופא עיניים; יש לשקול הפסקה אם מתפתח NAION אלא אם התועלת גוברת בבירור על הסיכון. אין כאן הוראה אישית לכל מטופל להפסיק טיפול.\n\nבקוריאה, לפי כתבת Korea Times מ-11 בנובמבר שנקראה במלואה, MFDS פרסם אזהרת בטיחות וביקש מהחברות נתונים ותוכניות לשינוי אישורים; יבחן עדכון אמצעי זהירות. מסמך MFDS המלא לא נקרא כאן, ולכן ההנחיה הקוריאנית נשארת מיוחסת לעיתון, לא שינוי תווית שהושלם. אין להחיל את אומדן EMA לסמגלוטייד על כל הסוג.\n\nזהו אימות מקור ראשוני והבהרת הראיות של אותה החלטת FDA מ-9 בנובמבר ועדכון קוריאה שכבר דווחו, לא החלטה אמריקאית נוספת מ-11 בנובמבר.",
-    "כותרת_en": "GLP-1 and NAION: Nov 9 FDA class-wide warning requirement verified; Korean alert remains media-attributed",
-    "טקסט_en": "Verification update Nov 11, 2026: The full official FDA communication dated Nov 9 was read. It requires application holders for all GLP-1 drugs to add Warnings and Precautions information about a potential increased risk of rare NAION, which can cause sudden and permanent vision loss. This is a labeling-change requirement, not a marketing ban or confirmation that every label has already changed. The U.S. scope is now verified against a government original rather than CNBC alone.\n\nFDA found 6.4 events per 100,000 person-years versus 3.8 in comparators across 126 trials. This must not be confused with higher rates in the Sentinel diabetes cohort: that study found no statistically significant increase against SGLT-2 drugs but an increase against DPP-4 drugs. Evidence is not uniform across every comparison and no causal mechanism is established here. The FDA list includes Wegovy, Ozempic, Mounjaro, Zepbound and Foundayo, among others.\n\nFDA advises patients to promptly report sudden painless vision changes to their clinician. For professionals, suspected NAION warrants prompt ophthalmology evaluation; discontinuation should be considered if NAION develops unless benefits clearly outweigh risk. This is not personal advice for every patient to stop treatment.\n\nIn Korea, according to the full Nov 11 Korea Times report, MFDS issued a safety alert and sought company data and approval-change plans, with precautions to be considered. The full MFDS document was not read here, so Korean instructions remain attributed to the newspaper, not a completed label change. EMA’s semaglutide frequency estimate must not be applied to the entire class.\n\nThis is primary-source verification and evidence clarification for the same Nov 9 FDA decision and previously covered Korean update, not a further U.S. decision on Nov 11.",
+    "טקסט": "עדכון אימות 11.11.2026: הודעת FDA הרשמית מ-9 בנובמבר נקראה במלואה. היא מחייבת את בעלי האישורים לכל תרופות GLP-1 להוסיף לסעיף האזהרות ואמצעי הזהירות מידע על סיכון מוגבר אפשרי ל-NAION, מצב נדיר העלול לגרום לאובדן ראייה פתאומי וקבוע. זו דרישת שינוי תווית, לא איסור שיווק ולא הוכחה שכל התוויות כבר עודכנו. ההיקף האמריקאי אומת כעת מול מקור ממשלתי, ולא נשען עוד רק על CNBC.\n\nה-FDA מצא 6.4 אירועים ל-100,000 שנות-מטופל מול 3.8 בביקורת בניתוח 126 ניסויים. אין לערבב שיעור זה עם השיעורים הגבוהים יותר במחקר Sentinel באוכלוסיית סוכרת: שם לא נמצאה עלייה מובהקת בהשוואה ל-SGLT-2, אך נמצאה עלייה בהשוואה ל-DPP-4. הראיות אינן אחידות בכל השוואה ואין כאן הוכחת מנגנון סיבתי. רשימת ה-FDA כוללת בין היתר Wegovy, Ozempic, Mounjaro, Zepbound ו-Foundayo.\n\nהודעת ה-FDA מורה לדווח מיד לרופא על ירידה פתאומית וללא כאב בראייה. לאנשי מקצוע: חשד מחייב הפניה מהירה לרופא עיניים; יש לשקול הפסקה אם מתפתח NAION אלא אם התועלת גוברת בבירור על הסיכון. אין כאן הוראה אישית לכל מטופל להפסיק טיפול.\n\nהשלמת אימות קוריאה: הודעת MFDS הרשמית מ-11 בנובמבר וה-PDF המצורף נקראו, כולל מכתב בטיחות הנושא תאריך 10 בנובמבר. המשרד מאשר שהפיץ מכתב לאנשי מקצוע ולמטופלים וביקש מהחברות נתוני בטיחות ותוכניות לשינוי אישורים; עדכון אמצעי הזהירות עדיין בבחינה, לא שינוי שכבר הושלם.\n\nיש להפריד בין הניסוח המקוצר בהודעה לבין המכתב המצורף: המכתב מורה לאנשי מקצוע להפנות חשד ל-NAION להערכת רופא עיניים מיד, ולהפסיק GLP-1 אם מתפתח NAION אלא אם תועלת הטיפול גוברת בבירור על הסיכון. מטופלים עם תסמינים צריכים לפנות לרופא. אין להציג זאת כהוראה לכל מטופל להפסיק טיפול עצמאית או להחיל את אומדן EMA לסמגלוטייד על כל הסוג.\n\nזהו אימות מקור ראשוני והבהרת הראיות של אותה החלטת FDA מ-9 בנובמבר ועדכון קוריאה שכבר דווחו, לא החלטה אמריקאית נוספת מ-11 בנובמבר.",
+    "כותרת_en": "GLP-1 and NAION: FDA and MFDS originals verified; Korea’s Nov 10 letter released with Nov 11 notice, label changes under review",
+    "טקסט_en": "Verification update Nov 11, 2026: The full official FDA communication dated Nov 9 was read. It requires application holders for all GLP-1 drugs to add Warnings and Precautions information about a potential increased risk of rare NAION, which can cause sudden and permanent vision loss. This is a labeling-change requirement, not a marketing ban or confirmation that every label has already changed. The U.S. scope is now verified against a government original rather than CNBC alone.\n\nFDA found 6.4 events per 100,000 person-years versus 3.8 in comparators across 126 trials. This must not be confused with higher rates in the Sentinel diabetes cohort: that study found no statistically significant increase against SGLT-2 drugs but an increase against DPP-4 drugs. Evidence is not uniform across every comparison and no causal mechanism is established here. The FDA list includes Wegovy, Ozempic, Mounjaro, Zepbound and Foundayo, among others.\n\nFDA advises patients to promptly report sudden painless vision changes to their clinician. For professionals, suspected NAION warrants prompt ophthalmology evaluation; discontinuation should be considered if NAION develops unless benefits clearly outweigh risk. This is not personal advice for every patient to stop treatment.\n\nKorea verification completed: The official Nov 11 MFDS notice and attached PDF were read, including the safety letter dated Nov 10. The ministry confirms distribution to professionals and patients and requests for company safety data and approval-change plans; precaution updates remain under review, not completed.\n\nThe short press notice must be distinguished from its attached letter: the letter directs professionals to promptly refer suspected NAION for ophthalmology evaluation and discontinue GLP-1 if NAION develops unless treatment benefits clearly outweigh risk. Patients with symptoms should contact their doctor. This is not a directive for all patients to stop treatment on their own, and EMA’s semaglutide frequency estimate must not be applied to the entire class.\n\nThis is primary-source verification and evidence clarification for the same Nov 9 FDA decision and previously covered Korean update, not a further U.S. decision on Nov 11.",
     "תאריך": "2026-11-10 02:52",
-    "הועלה": "2026-11-11 09:04",
+    "הועלה": "2026-11-11 09:06",
     "מזהה": "n-1174",
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "c4bec25f2b7c0bd1421c622b055dede37bb4c1a7d30ce00ffba79834bd059b2d"
+        "source_hash": "23ce10dedab8eda379620a549f721930150248749075d4bd835eae23a6ad107d"
       }
     }
   },
@@ -31125,6 +31130,56 @@
       "en": {
         "schema_version": 1,
         "source_hash": "5285f1a265ba58e772efa7fbad04ee23f34a31d626e882646e00bfead3a8a974"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1270",
+    "category": "micro",
+    "חברה": "WU, IMXI",
+    "כותרת": "Western Union (WU) ביטלה את הסכם רכישת Intermex (IMXI), בעקבות תנאי אישור קליפורניה שאינם מקובלים עליה",
+    "כותרת_en": "Western Union (WU) terminates Intermex (IMXI) acquisition agreement over California approval conditions it rejects",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 09:06",
+    "טקסט": "11.11.2026 | הודעת Western Union המלאה ב-Business Wire; שעת הפרסום המקורית בשעון ישראל לא אומתה.\n\nWestern Union הודיעה שמסרה הודעת ביטול להסכם לרכישת International Money Express (Intermex). הדירקטוריון החליט לבטל לאחר בחינת התנאים הסופיים שהעביר רגולטור הפיננסים של קליפורניה DFPI בערב 10 בנובמבר. לפי הודעת החברה, אף צד אינו חייב לשלם לצד השני עקב הביטול.\n\nהחברה טוענת שהתנאים היו מחייבים שינויים מהותיים במודל העסקי שלה, בקשרי הסוכנים וביישום האסטרטגיה. היא מוסרת שקיבלה אישורים בכל יתר תחומי השיפוט הרלוונטיים, ושקליפורניה לא זיהתה הפרה של דרישות מניעת הונאה והלבנת הון או גישה הוגנת ללקוחות. אלו טענות Western Union והסבר שלה לביטול, לא ממצא עצמאי או תגובת DFPI שנקראה כאן.\n\nזהו ביטול עסקה שהחברה הודיעה עליו, לא רק עיכוב או חשש לאי-השלמה. אין כאן הודעה על רכישה חלופית, מחיר מניה בזמן אמת או תחזית כספית חדשה.",
+    "טקסט_en": "Nov 11, 2026 | Full Western Union announcement through Business Wire; original publication time in Israel was not verified.\n\nWestern Union says it delivered notice terminating its agreement to acquire International Money Express (Intermex). The board decided to terminate after reviewing final conditions California’s Department of Financial Protection and Innovation delivered on the evening of Nov 10. According to the company, neither party owes the other a payment in connection with termination.\n\nThe company says the conditions would require material changes to its business model, agent relationships and strategy. It says all other relevant jurisdictions had granted approvals and California did not identify failures to meet requirements on fraud prevention, money laundering or fair customer access. These are Western Union’s assertions and explanation, not independently established findings or a DFPI response read here.\n\nThis is a company-announced termination, not merely a delay or risk of non-completion. No replacement acquisition, live share-price move or new financial outlook is announced here.",
+    "קישור": "https://www.businesswire.com/news/home/20261110492943/en/Western-Union-Announces-Termination-of-Agreement-to-Acquire-Intermex",
+    "מקורות": [
+      {
+        "label": "Western Union: הודעה רשמית מלאה בהפצת Business Wire",
+        "label_en": "Western Union: full official announcement via Business Wire",
+        "url": "https://www.businesswire.com/news/home/20261110492943/en/Western-Union-Announces-Termination-of-Agreement-to-Acquire-Intermex"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "105efe3d5ae28def6a852a8802354ac72d142d8f86f8f1aaebcb6b10bb25aaf7"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1271",
+    "category": "micro",
+    "חברה": "TSM",
+    "כותרת": "TSMC (TSM): הדירקטוריון אישר עד 500 מיליון דולר ב-OpenAI ועד 500 מיליון להקמת חברת השקעות; אישור נפרד ל-Anthropic",
+    "כותרת_en": "TSMC (TSM): board approves up to $500 million in OpenAI and $500 million for an investment company; separate Anthropic approval",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:06",
+    "טקסט": "10.11.2026 | החלטות הדירקטוריון הרשמיות נקראו במלואן; הפריט הושלם ב-11 בנובמבר. שעת הפרסום המקורית לא צוינה.\n\nדירקטוריון TSMC אישר השקעה של עד 500 מיליון דולר לרכישת מניות בכורה של OpenAI Group PBC. בנפרד אישר עד 500 מיליון דולר להקמת חברת השקעות שתבצע השקעות אסטרטגיות בתעשיית המוליכים למחצה ובמערכת שסביבה. אלה שני יעדים נפרדים ושתי תקרות אישור, לא אישור שכסף כבר הועבר או שכל מסגרת נוצלה.\n\nהדירקטוריון אישר גם עד 500 מיליון דולר לרכישת מניות Anthropic במחיר ההנפקה. השתתפות TSMC בהנפקה כבר הופיעה בהקשר התשקיף ב-n-1193; אין לספור את האישור כהתחייבות נוספת מעבר לאותה השתתפות. החלטות TSMC אינן מודיעות שההנפקה הושלמה או על מחיר סופי.\n\nהחידוש העצמאי כאן הוא אישור השקעת OpenAI והקמת חברת ההשקעות, לא סיכום תוצאות רבעוניות, תחזית השקעות הוניות או תמחור מחדש של Anthropic. אישור דירקטוריון אינו כשלעצמו הכנסה של TSMC או הזמנת ייצור חדשה.",
+    "טקסט_en": "Nov 10, 2026 | Full official board resolutions read; coverage completed Nov 11. Original publication time was not stated.\n\nTSMC’s board approved up to $500 million to acquire preferred stock in OpenAI Group PBC. Separately, it approved up to $500 million to establish an investment company for strategic investments in the semiconductor industry and related ecosystem. These are two separate purposes and approval ceilings, not confirmation of cash transfers or full utilization.\n\nThe board also approved up to $500 million to acquire Anthropic shares at the IPO price. TSMC participation was already covered in the prospectus context in n-1193; the approval must not be counted as an additional commitment beyond that participation. TSMC’s resolutions do not announce IPO completion or a final price.\n\nThe standalone news is the OpenAI investment approval and investment-company formation, not a quarterly earnings recap, capital expenditure outlook or Anthropic repricing. A board approval is not itself TSMC revenue or a new manufacturing order.",
+    "קישור": "https://pr.tsmc.com/english/news/3352",
+    "מקורות": [
+      {
+        "label": "TSMC: החלטות דירקטוריון רשמיות, 10 בנובמבר",
+        "label_en": "TSMC: official Nov 10 board resolutions",
+        "url": "https://pr.tsmc.com/english/news/3352"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "70422458a5f56d55a15eb528a23cf0bf8371ebc9d7ffa2985d0419a6942a4ade"
       }
     }
   }
