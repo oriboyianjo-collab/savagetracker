@@ -32015,5 +32015,35 @@
         "source_hash": "e031119b3a23927420f2737bedaa0c9abf7a3c95911ef93d02f39868b7793f68"
       }
     }
+  },
+  {
+    "מזהה": "n-1302",
+    "category": "macro",
+    "חברה": "Nasdaq ISE / SEC",
+    "כותרת": "ה-SEC אישרה ל-Nasdaq ISE כללי רישום מעודכנים לאופציות על נאמנויות סחורות דיגיטליות; לא אישור גורף למטבעות",
+    "כותרת_en": "SEC approves revised Nasdaq ISE listing rules for digital-commodity trust options, not blanket coin approvals",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 13:08",
+    "קישור": "https://www.sec.gov/files/rules/sro/ise/2026/34-106863.pdf",
+    "טקסט": "השלמת סיקור לצו ה-SEC המקורי מ-10 בנובמבר 2026, Release 34-106863 בתיק SR-ISE-2026-42. הצו המלא, כולל מסקנת האישור, נקרא. שעת הפרסום המקורית לא אומתה.\n\nה-SEC אישרה בהליך מואץ את שינוי הכללים של Nasdaq ISE, כפי ששונה בתיקון מספר 2. השינוי מתאים את תנאי רישום האופציות על מניות נאמנויות המחזיקות סחורה דיגיטלית אחת או יותר לכללי הרישום המעודכנים של נאסד״ק. כשמוצר הבסיס והאופציות עומדים בתנאים, ISE יכולה לרשום את האופציות בלי אישור נוסף של ה-SEC לכל מוצר כזה.\n\nהכלל משתמש במונח המצומצם יותר digital commodity במקום crypto asset. הוא משמר דרישה שלפיה ההיצע העולמי של כל סחורה דיגיטלית שמחזיקה הנאמנות יהיה בעל שווי שוק יומי ממוצע של לפחות 700 מיליון דולר ב-12 החודשים האחרונים. אין מדובר בשווי מינימלי של הקרן עצמה.\n\nבנוסף, נדרש שלכל סחורה דיגיטלית יהיה חוזה נגזר הנסחר בשוק ש-ISE חולקת עמו מידע לצורכי פיקוח. החריג מאפשר לעד 15% מהשווי הנכסי הנקי של החזקות הנאמנות במצטבר לא לעמוד בדרישת שיתוף המידע הזאת. גם החזקות החריג חייבות לעמוד בסף 700 מיליון הדולר; נגזרים נספרים לפי שווי נקוב ברוטו בחישוב מגבלת ה-15%.\n\nהאישור הוא למסגרת זכאות ורישום, לא הכרזה שאופציות על 19 מטבעות הושקו, לא אישור לכל מטבע או לכל מוצר בנפרד, ולא ביטול דרישות הרישום והפיקוח המתמשכות. השינוי נפרד מכללי פתיחת ETP במסחר הלילי ב-n-0695 ומהרחבת שעות המסחר. הצו אינו מאמת כאן מועד השקה של מוצר אופציות מסוים.",
+    "טקסט_en": "Catch-up coverage of the original Nov 10, 2026 SEC order, Release 34-106863, file SR-ISE-2026-42. The full order, including its approval conclusion, was read. The original publication time was not verified.\n\nThe SEC granted accelerated approval to the Nasdaq ISE rule change as modified by Amendment No. 2. It aligns listing criteria for options on trust shares holding one or more digital commodities with revised Nasdaq trust-share listing standards. When the underlying product and options meet the criteria, ISE may list the options without another SEC approval for each qualifying product.\n\nThe rule uses the narrower term digital commodity instead of crypto asset. It retains a requirement that the total global supply of each underlying digital commodity held by the trust have an average daily market value of at least $700 million over the previous 12 months. This is not a minimum fund size.\n\nEach digital commodity must also underlie a derivatives contract traded on a market with which ISE has a comprehensive surveillance-sharing agreement. An exception permits up to 15% of aggregate trust-holdings net asset value to fall outside that surveillance requirement. Assets in the exception still must meet the $700 million threshold. Derivatives are counted at gross notional value for the 15% limit.\n\nThis approves eligibility and listing rules. It does not announce launched options on 19 coins, approve every coin or product individually, or remove ongoing listing and surveillance requirements. The change is separate from initial ETP opening rules for overnight trading in n-0695 and from extended trading hours. No specific options-product launch date was verified here.",
+    "מקורות": [
+      {
+        "label": "SEC: צו האישור המקורי 34-106863, נוסח מלא",
+        "label_en": "SEC: original complete approval order 34-106863",
+        "url": "https://www.sec.gov/files/rules/sro/ise/2026/34-106863.pdf"
+      },
+      {
+        "label": "SEC: דף התיק והיסטוריית ההחלטות",
+        "label_en": "SEC: filing page and decision history",
+        "url": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-ise-2026-42"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b740392fefd3faeb7453aadb84367f03c2f3d624ea0bafd3748b3a30ca86b6c6"
+      }
+    }
   }
 ]
