@@ -31337,5 +31337,175 @@
         "source_hash": "ce69ab6b338999c65d3597b18e69969c8e5b5a3d99e8ff0ad75430391d1e625a"
       }
     }
+  },
+  {
+    "מזהה": "n-1278",
+    "category": "micro",
+    "חברה": "AMZN",
+    "כותרת": "Amazon (AMZN): יפן אישרה התחייבויות לשינוי הצגת הצעות ב-Marketplace; אין קביעה שהחברה הפרה את החוק",
+    "כותרת_en": "Amazon (AMZN): Japan approves Marketplace display commitments without an infringement finding",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 09:24",
+    "טקסט": "11.11.2026 | הודעת רשות התחרות היפנית JFTC נקראה במלואה במקור היפני.\n\nהרשות אישרה תוכנית התחייבויות של Amazon Japan לאחר בדיקת חשד להגבלת חופש התמחור של מוכרים. לפי תיאור הרשות, הזכאות להצעה המומלצת בדף המוצר הותנתה במחיר שאינו גבוה מהמחיר הנמוך ביותר בפלטפורמות מתחרות; כשלא הייתה הצעה זכאית, פרטי ההצעות לא הוצגו בדף המוצר, גם אם המוצר היה זמין באתר.\n\nלפי התוכנית, במצב שבו אין הצעה מומלצת זכאית יוצגו באופן בולט בדף המוצר המחיר, תנאי המשלוח, הגורם השולח וזהות המוכר של ההצעה הזולה ביותר הזמינה לרכישה ב-Amazon, בחישוב המחיר בתוספת דמי משלוח אם ישנם, וכן כניסה להליך הרכישה. אין כאן ביטול גורף של מנגנון ההצעה המומלצת.\n\nההתחייבות לתצוגה תישמר חמש שנים מתחילת היישום. התוכנית כוללת גם הודעות למוכרים, הדרכה וביקורת פנימית, פיקוח של צד שלישי שאישרה הרשות ודיווח שנתי. הרשות מדגישה שהאישור אינו קביעה שבוצעה הפרה; היא יכולה לבטל את האישור ולחדש את הבדיקה אם ההתחייבויות לא ימומשו.\n\nזהו הליך יפני נפרד מתביעת מדיניות התמחור בארה״ב ב-n-0435 ומהליך האכיפה הספרדי ב-n-0526. לא פורסם כאן קנס חדש.",
+    "טקסט_en": "Nov 11, 2026 | JFTC announcement read in full in Japanese.\n\nJapan's competition authority approved Amazon Japan's commitment plan after investigating suspected restrictions on sellers' pricing freedom. The authority describes featured-offer eligibility requiring a price no higher than the lowest price on competing platforms; where no offer qualified, offer details were absent from the product page even when the item was available on Amazon.\n\nUnder the plan, when no featured offer qualifies, the product page will prominently display the price, delivery terms, shipper and seller of the lowest-priced purchasable Amazon offer, using price plus delivery charges where applicable, and an entry point to purchase. This is not a wholesale abolition of the featured-offer system.\n\nThe display remedy must be maintained for five years from implementation. The plan also includes seller notices, internal training and audits, monitoring by an approved independent third party and annual reporting. JFTC stresses that approval is not an infringement finding; it can revoke approval and reopen the investigation if the commitments are not implemented.\n\nThis Japanese proceeding is separate from the U.S. pricing-policy case in n-0435 and Spanish enforcement in n-0526. No new fine is announced.",
+    "קישור": "https://www.jftc.go.jp/houdou/pressrelease/2026/nov/261111_daisan.sample.html",
+    "מקורות": [
+      {
+        "label": "JFTC: הודעת ההתחייבויות המקורית ביפנית",
+        "label_en": "JFTC: original Japanese commitment announcement",
+        "url": "https://www.jftc.go.jp/houdou/pressrelease/2026/nov/261111_daisan.sample.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "26a6756fa2f10b4597b3fb815baaa3db51bad20507745a4d9e1bde7b06210112"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1279",
+    "category": "micro",
+    "חברה": "GOOGL",
+    "כותרת": "Alphabet (GOOGL): בית המשפט דחה שוב את תביעת DMCA נגד SerpApi, עם 21 ימים לתיקון",
+    "כותרת_en": "Alphabet (GOOGL): court again dismisses SerpApi DMCA claims, allowing 21 days to amend",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-11 09:24",
+    "טקסט": "החלטה מ-9.11.2026, פורסמה בידי SerpApi ב-10 בנובמבר; השלמת סיקור. צו בית המשפט בן 19 העמודים נקרא במלואו, בעותק שפרסמה הנתבעת.\n\nהשופטת Yvonne Gonzalez Rogers במחוז הצפוני של קליפורניה קיבלה את בקשת SerpApi לדחות את כתב התביעה המתוקן של Google בתיק 4:25-cv-10826-YGR. התביעה נשענת על סעיפי DMCA נגד עקיפת אמצעי הגנה טכנולוגיים, בעקבות הטענה לעקיפת SearchGuard כדי לאסוף תוצאות חיפוש.\n\nבית המשפט קבע שהטענות אינן מספיקות, בין היתר לגבי זיהוי תוכן מוגן בזכויות יוצרים בתוצאות שנאספו ולגבי ההרשאה הרלוונטית מבעלי הזכויות. הדיון כולל תוכן ברישיון מ-Reddit, משני ספקים אחרים ותוכן ש-Google קישרה למדיניות הפרטיות שלה. אלו ליקויים בכתב התביעה, לא פסק דין שכל תוכן Reddit אינו מוגן.\n\nניתנו ל-Google 21 ימים ממועד הצו להגיש תיקון שמרפא את הליקויים. אם לא יוגש תיקון במועד, הצו קובע שהתיק יידחה ללא אפשרות להגישו מחדש. בינתיים הליכי גילוי המסמכים מעוכבים. זו אינה דחייה סופית שכבר נכנסה לתוקף, ואינה היתר כללי לגרידת נתונים או לעקיפת הגנות באתרי אינטרנט.",
+    "טקסט_en": "Order dated Nov 9, 2026, published by SerpApi on Nov 10; catch-up coverage. The full 19-page court order was read in the copy published by the defendant.\n\nJudge Yvonne Gonzalez Rogers of the Northern District of California granted SerpApi's motion to dismiss Google's amended complaint in case 4:25-cv-10826-YGR. The claims use the DMCA's anti-circumvention provisions and allege bypassing SearchGuard to scrape search results.\n\nThe court found insufficient allegations concerning, among other issues, identified copyrighted material in the results allegedly scraped and relevant authorization from rights owners. The analysis addresses Reddit-licensed content, two other providers and content Google linked to its Privacy Policy. These are pleading deficiencies, not a ruling that all Reddit content lacks copyright.\n\nGoogle has 21 days from the order to file an amendment curing the deficiencies. Failure to amend within that period will result in dismissal with prejudice. Discovery remains stayed. The case is not already finally dismissed, and the order does not grant general permission to scrape data or bypass website protections.",
+    "קישור": "https://serpapi.com/blog/content/files/2026/11/62.0--2026-11-09--ORDER-GRANTING-MOTION-TO-DISMISS-WITH-LEAVE-TO-AMEND-by.pdf",
+    "מקורות": [
+      {
+        "label": "צו בית המשפט, מסמך62 מ-9 בנובמבר; עותק שפרסמה SerpApi",
+        "label_en": "Court order, document62 dated Nov9; copy published by SerpApi",
+        "url": "https://serpapi.com/blog/content/files/2026/11/62.0--2026-11-09--ORDER-GRANTING-MOTION-TO-DISMISS-WITH-LEAVE-TO-AMEND-by.pdf"
+      },
+      {
+        "label": "SerpApi: הודעת הנתבעת וקישור לצו",
+        "label_en": "SerpApi: defendant statement and order link",
+        "url": "https://www.serpapi.com/blog/court-dismisses-googles-amended-complaint-against-serpapi/"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "145f0fb7d73592b18bef64c1024b9a7a8757eb9384cfa96738508487c6a215f3"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1280",
+    "category": "micro",
+    "חברה": "NWE, BKH",
+    "כותרת": "NorthWestern Energy (NWE) ו-Black Hills (BKH): לפי דיווחים, מונטנה אישרה את המיזוג ברוב 3 מול 2; העסקה טרם הושלמה",
+    "כותרת_en": "NorthWestern Energy (NWE) and Black Hills (BKH): reports say Montana approves merger 3-2; deal not yet closed",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:24",
+    "טקסט": "10.11.2026 | Daily Montanan ו-NBC Montana נקראו במלואם. הצו הסופי עצמו לא נבדק ישירות; רקע האישור נבדק מול הודעות הרשות והחברות.\n\nלפי שני הדיווחים, נציבות השירותים הציבוריים של מונטנה אישרה ברוב 3 מול 2 את המיזוג המתוכנן בין NorthWestern Energy ו-Black Hills. Daily Montanan מתארת את מונטנה כמדינה האחרונה שנדרשה להצביע; הודעת החברות מאוקטובר מאשרת שכבר התקבלו אישורי נברסקה, דרום דקוטה, FERC ובעלי המניות, והסתיימה בדיקת HSR.\n\nלפי Daily Montanan, האישור כולל דרישה ל-NorthWestern להגיש עד יוני 2027 תוכנית הבוחנת שימוש בחלקה של Puget בתחנת Colstrip, בהספק 370MW, עבור לקוחות מונטנה, ולבחון שילובו בתכנון משאבי האנרגיה. אין לראות בכך הקצאה שכבר הושלמה של ההספק ללקוחות.\n\nהחברה מסרה לעיתון שתבחן את הצו. האישור המדינתי אינו הודעת סגירה, ואין כאן טענה שכל תנאי העסקה כבר הושלם. לפי הודעת החברות הקודמת, רק לאחר השלמת העסקה Black Hills תשנה את שמה ל-Bright Horizon Energy ואת הסימול ל-HZN; אין להציג את שינוי הסימול כאילו כבר נכנס לתוקף.",
+    "טקסט_en": "Nov 10, 2026 | Daily Montanan and NBC Montana read in full. The final order itself was not directly inspected; regulatory and company announcements were checked for background.\n\nBoth reports say the Montana Public Service Commission approved the planned NorthWestern Energy/Black Hills merger by 3-2. Daily Montanan calls Montana the last state required to vote; the companies' October statement confirms prior Nebraska, South Dakota, FERC and shareholder approvals and HSR clearance.\n\nDaily Montanan reports conditions requiring NorthWestern to submit by June 2027 a plan evaluating whether the 370MW Puget share of Colstrip could serve Montana customers, and to analyze its inclusion in resource planning. This does not mean that capacity has already been allocated to those customers.\n\nThe company told the paper it would review the order. State approval is not a closing announcement or confirmation that every condition is satisfied. The companies previously said Black Hills would become Bright Horizon Energy and trade as HZN only after completion; that ticker change is not presented as already effective.",
+    "קישור": "https://dailymontanan.com/2026/11/10/public-service-commission-approves-northwestern-energy-black-hills-corp-merger/",
+    "מקורות": [
+      {
+        "label": "Daily Montanan: ההחלטה, התנאים ותגובת החברה; ללא קריאה ישירה של הצו",
+        "label_en": "Daily Montanan: vote, conditions and company response; order not directly read",
+        "url": "https://dailymontanan.com/2026/11/10/public-service-commission-approves-northwestern-energy-black-hills-corp-merger/"
+      },
+      {
+        "label": "NBC Montana: דיווח נוסף על ההצבעה",
+        "label_en": "NBC Montana: additional vote reporting",
+        "url": "https://nbcmontana.com/news/local/montana-psc-approves-northwestern-energy-merger-with-black-hills"
+      },
+      {
+        "label": "החברות,22 באוקטובר: אישורים קודמים ושינוי שם מותנה בסגירה",
+        "label_en": "Companies,Oct22: prior approvals and closing-dependent name change",
+        "url": "https://www.northwesternenergy.com/about-us/our-company/2026/10/23/subject-to-receipt-of-satisfactory-final-regulatory-approval-and-completion-of-proposed-merger--black-hills-corp.-to-be-renamed-bright-horizon-energy-corporation-with-ticker-symbol--hzn"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fa2206e47e888b5b95ee5611d8e1d8ce35bac2f1529dc08e04bd6ba7b7eb73ee"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1281",
+    "category": "micro",
+    "חברה": "QCOM",
+    "כותרת": "Qualcomm (QCOM): לפי Investing.com, החלו קיצוצי המשרות שתוכננו באוקטובר; היקף הפיטורים טרם אושר",
+    "כותרת_en": "Qualcomm (QCOM): Investing.com reports October-planned job cuts have begun; scale unconfirmed",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:24",
+    "טקסט": "10.11.2026 | תחקיר Investing.com נקרא במלואו; אין אימות נפרד מול הודעת חברה או דיווח WARN חדש.\n\nלפי Investing.com, המצטטת אנשים המכירים את התוכניות, Qualcomm החלה לממש קיצוצי משרות בפעילותה הגלובלית, כולל הודעות שכבר התקבלו אצל עובדים בהודו. הדיווח מציין שהמנכ״ל מסר לעובדים באוקטובר על קיצוצים ממוקדי ביצועים; החידוש הוא תחילת הביצוע המדווחת, לא תוכנית פיטורים חדשה לחלוטין.\n\nהמספר אינו מאומת. מקורות Investing.com אמרו שההיקף בהודו צפוי להיות נמוך משמעותית מדיווחים על עד אלף עובדים. דיווח Fortune India מ-11 בנובמבר חוזר על אפשרות של עד אלף בהודו וכ-3,600 בעולם, אך מבהיר שלא התקבל אישור חברה. אין כאן בסיס לקבוע שמספרים אלה בוצעו או אושרו.\n\nלגבי קליפורניה, Investing.com צופה הגשות WARN בימים הקרובים, אך לא מפרסמת מספר עובדים מאושר. אין כאן טענה שהוגשה הודעת WARN חדשה או שעובדי קליפורניה כבר קיבלו הודעות. Qualcomm סירבה להגיב לדיווח. נתוני תוצאות והנחיות מהדוח האחרון אינם חלק מעדכון תפעולי זה.",
+    "טקסט_en": "Nov 10, 2026 | Investing.com report read in full; not independently verified against a company announcement or new WARN filing.\n\nInvesting.com, citing people familiar with the plans, reports Qualcomm has begun implementing global job cuts, including notices already received by employees in India. It says the CEO told staff in October about performance-focused reductions; the development is reported implementation, not an entirely new layoff plan.\n\nThe count is unconfirmed. Investing.com's sources expect the India total to be significantly below reports of up to 1,000. Fortune India on Nov11 repeats possible figures of up to 1,000 in India and about 3,600 globally but acknowledges no company confirmation. Those numbers are not presented as implemented or approved.\n\nFor California, Investing.com expects WARN filings in coming days but gives no confirmed employee count. This does not establish that a new WARN notice has been filed or California employees have already received notices. Qualcomm declined to comment. Results and guidance from the latest earnings report are excluded from this operational update.",
+    "קישור": "https://www.investing.com/news/stock-market-news/exclusive-qualcomm-begins-job-cuts-india-and-california-among-regions-impacted-5016480",
+    "מקורות": [
+      {
+        "label": "Investing.com: דיווח מקורי על תחילת הקיצוצים, ממקורות לא מזוהים",
+        "label_en": "Investing.com: original implementation report, citing unnamed sources",
+        "url": "https://www.investing.com/news/stock-market-news/exclusive-qualcomm-begins-job-cuts-india-and-california-among-regions-impacted-5016480"
+      },
+      {
+        "label": "Fortune India,11 בנובמבר: אומדני כוח אדם לא מאושרים",
+        "label_en": "Fortune India,Nov11: unconfirmed workforce estimates",
+        "url": "https://www.fortuneindia.com/business-news/qualcomm-begins-global-layoffs-up-to-1000-jobs-may-be-cut-in-india/169684"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "494588aea30ea2d7a936ba98a21283a54e606666bedda3bffabfe0fe5b31f76c"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1282",
+    "category": "micro",
+    "חברה": "ALK",
+    "כותרת": "Alaska Air (ALK): לפי Aero Crew News, הנהגות טייסי Alaska ו-Hawaiian אישרו הסכם קיבוצי זמני; נדרש אישור הטייסים",
+    "כותרת_en": "Alaska Air (ALK): Aero Crew News says Alaska-Hawaiian pilot leaders approve tentative joint contract; ratification pending",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:24",
+    "טקסט": "10.11.2026 | דיווח Aero Crew News נקרא במלואו. מדריך ההסכם המקורי בן 76 העמודים והנוסח המלא לא נבדקו ישירות.\n\nלפי האתר, שתי המועצות המנהלות של איגוד ALPA ב-Alaska וב-Hawaiian אישרו הסכם קיבוצי משותף זמני והעבירו אותו להצבעה של שתי קבוצות הטייסים. רק אם הטייסים יאשרו אותו הוא יהפוך לחוזה משותף. אין כאן אישור שההסכם כבר אושרר או נכנס לתוקף.\n\nהדיווח מתאר הסכם לארבע שנים, עם תעריפי שכר חדשים מ-31 בינואר 2027, התאמה שנתית לשכר בחברות מתחרות או עלייה של 3%, הגבוה מביניהם, והפרשות מעסיק של 18% לתוכניות 401(k) הרלוונטיות. אלה תנאים מוצעים מתוך סיקור המדריך, לא עלויות עבודה שכבר הוכרו.\n\nלפי הדיווח, הנוסח כולל גם הגנות תפעוליות, החזרי הוצאות ותנאי נסיעות. לא פורסם בו מועד סגירת הצבעת האשרור. מדובר בצעד באיחוד חוזי העבודה לאחר המיזוג, לא במיזוג חדש של חברות התעופה.",
+    "טקסט_en": "Nov 10, 2026 | Aero Crew News report read in full. The underlying 76-page agreement guide and full contract were not directly inspected.\n\nThe outlet says the Alaska and Hawaiian ALPA Master Executive Councils approved a tentative Joint Collective Bargaining Agreement and sent it to both pilot groups for a vote. It becomes a joint contract only if pilots ratify it. Ratification and entry into effect are not confirmed.\n\nThe report describes a four-year agreement, with new pay rates from Jan 31, 2027, annual market-rate adjustments or 3% increases, whichever is greater, and 18% employer contributions for relevant 401(k) participants. These are proposed terms reported from the guide, not labor costs already recognized.\n\nThe report also describes operating protections, reimbursements and travel provisions. It gives no voting deadline. This is a labor-integration milestone after the airline merger, not a new airline merger.",
+    "קישור": "https://aerocrewnews.com/2026/11/10/alaska-and-hawaiian-pilots-get-details-of-joint-contract-tentative-agreement/",
+    "מקורות": [
+      {
+        "label": "Aero Crew News: דיווח מלא על מדריך ההסכם; המקור הראשוני לא נבדק בנפרד",
+        "label_en": "Aero Crew News: full guide reporting; underlying primary not separately inspected",
+        "url": "https://aerocrewnews.com/2026/11/10/alaska-and-hawaiian-pilots-get-details-of-joint-contract-tentative-agreement/"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d868d1378427cc30a546c67d4f614b7fbc02825d720c448a64db5f548ce4482b"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1283",
+    "category": "micro",
+    "חברה": "META",
+    "כותרת": "Meta (META): לפי Jiji, בית משפט בטוקיו דחה את תביעת מאזאווה על מודעות מתחזות; אין חסינות כללית לפלטפורמות",
+    "כותרת_en": "Meta (META): Jiji reports Tokyo court rejects Maezawa fake-ad suit; no general platform immunity",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:24",
+    "טקסט": "הכרעה מיום שלישי,10.11.2026; דיווח Jiji ב-Japan Times מ-11 בנובמבר נקרא במלואו. פסק הדין המקורי לא נבדק ישירות.\n\nלפי הדיווח, בית המשפט המחוזי בטוקיו דחה את בקשת היזם Yusaku Maezawa לצו מניעה ולפיצויים נגד Meta והיחידה היפנית שלה, בעקבות מודעות השקעה מזויפות ב-Facebook וב-Instagram שהשתמשו בשמו ובדמותו ללא רשות.\n\nבית המשפט מצא שהמודעות פגעו בזכות המסחרית לדמותו, אך קבע ש-Meta היא מפעילת פלטפורמה ולא הייתה מעורבת ישירות בפרסומים. ביחס לצו המניעה, השופט הסתמך גם על צעדי התיקון של החברה ועל היעדר סיכון שהמודעות יישארו ללא טיפול. אין להציג זאת כקביעה שהמודעות היו חוקיות או כפטור גורף מאחריות לכל מודעה.\n\nעורך דינו של מאזאווה אמר שהוא שוקל ערעור. זהו הליך שונה מתביעות של נפגעי הונאות השקעה המתנהלות בשישה בתי משפט ביפן, ומההחלטה שניתנה ביוקוהמה באוקטובר. לא פורסמה כאן סגירה של כלל התביעות נגד Meta ביפן.",
+    "טקסט_en": "Ruling on Tuesday, Nov 10, 2026; Jiji's Nov 11 report in The Japan Times read in full. The original judgment was not directly inspected.\n\nThe report says the Tokyo District Court dismissed entrepreneur Yusaku Maezawa's requests for an injunction and damages against Meta and its Japanese unit over fake investment ads on Facebook and Instagram using his name and likeness without permission.\n\nThe court found the ads infringed his publicity rights but said Meta was a platform operator not directly involved in the posts. For the injunction, the judge also relied on the company's corrective measures and the lack of risk that the ads would remain unaddressed. This does not make the ads lawful or establish blanket immunity for all platform advertising.\n\nMaezawa's lawyer said an appeal was being considered. This proceeding is distinct from investment-fraud victims' lawsuits in six Japanese courts and the October Yokohama ruling. It does not close all Japanese claims against Meta.",
+    "קישור": "https://www.japantimes.co.jp/news/2026/11/11/japan/crime-legal/yusaku-maezawa-lawsuit-meta/",
+    "מקורות": [
+      {
+        "label": "Jiji באמצעות Japan Times: דיווח על ההכרעה, ללא בדיקה ישירה של פסק הדין",
+        "label_en": "Jiji via The Japan Times: ruling report; original judgment not directly inspected",
+        "url": "https://www.japantimes.co.jp/news/2026/11/11/japan/crime-legal/yusaku-maezawa-lawsuit-meta/"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "eb632f44a9a774c486dd048ae0f5363df85610bacbaaac5973af75a522cdb45a"
+      }
+    }
   }
 ]
