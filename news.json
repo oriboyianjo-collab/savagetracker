@@ -30974,5 +30974,64 @@
         "source_hash": "7996de7d012eb5fbf14e29af245b034a9798b829e53637c4a3cf978aa3882f07"
       }
     }
+  },
+  {
+    "מזהה": "n-1266",
+    "category": "macro",
+    "כותרת": "וול סטריט היום, 11.11: המניות פתוחות 16:30-23:00; חופשת אג״ח ודוח הנפט רק מחר",
+    "כותרת_en": "Wall Street today, Nov 11: stocks open 16:30-23:00 Israel time; bond holiday and oil report tomorrow",
+    "תאריך": "2026-11-11 08:08",
+    "הועלה": "2026-11-11 08:08",
+    "קישור": "https://www.nyse.com/markets/hours-calendars",
+    "מקורות": [
+      {
+        "label": "NYSE: שעות המסחר ולוח החגים הרשמי",
+        "label_en": "NYSE: official trading hours and holiday calendar",
+        "url": "https://www.nyse.com/markets/hours-calendars"
+      },
+      {
+        "label": "SIFMA: המלצות חופשות לשוק האג״ח",
+        "label_en": "SIFMA: fixed-income holiday recommendations",
+        "url": "https://www.sifma.org/resources/general/holiday-schedule/"
+      },
+      {
+        "label": "EIA: חריגי פרסום דוח הנפט השבועי",
+        "label_en": "EIA: weekly petroleum report holiday schedule",
+        "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+      },
+      {
+        "label": "הפד: לוח נובמבר והזזת פרסומי החג",
+        "label_en": "Fed: November calendar and holiday release delays",
+        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+      },
+      {
+        "label": "BLS: לוח נובמבר 2026",
+        "label_en": "BLS: November 2026 release calendar",
+        "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+      },
+      {
+        "label": "BEA: לוח פרסומים",
+        "label_en": "BEA: release schedule",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      {
+        "label": "Census: לוח המדדים 2026",
+        "label_en": "Census: 2026 economic indicator calendar",
+        "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+      },
+      {
+        "label": "Forex Factory: לוח 11 בנובמבר, מקור משני",
+        "label_en": "Forex Factory: Nov 11 calendar, secondary source",
+        "url": "https://www.forexfactory.com/calendar?day=nov11.2026"
+      }
+    ],
+    "טקסט": "יום רביעי, 11.11.2026 | סקירת בוקר. כל השעות לפי שעון ישראל; לוחות המקורות נבדקו הבוקר.\n\nהמניות פתוחות: Veterans Day אינו יום חופשה ב-NYSE. המסחר הרגיל מתוכנן ל-16:30-23:00 בישראל (09:30-16:00 בחוף המזרחי בארה״ב). אין לבלבל בין חופשת בנקים ואג״ח לבין סגירת שוק המניות.\n\nבאג״ח: SIFMA ממליצה על חופשה מלאה היום בשוקי החוב שבתחום המלצתה, ובהם אג״ח ממשלת ארה״ב ואג״ח דולריות נוספות. זו המלצת לוח שוק האג״ח, לא הוראה לסגור את כל המכשירים או את המניות.\n\nבלוחות BLS, BEA, Census ו-Forex Factory שנבדקו לא נמצאו להמשך היום פרסומי מאקרו אמריקאיים מרכזיים מתוכננים. בלוח Board of Governors שנבדק לא נמצאה הופעה מתוכננת נוספת להמשך היום. אין בכך כיסוי מלא לכל נשיאי השלוחות האזוריות או הבטחה שלא יהיו ראיונות והתבטאויות לא מתוכננים.\n\nמחר, חמישי 12.11, ולא היום: דוח הנפט השבועי של EIA לשבוע שהסתיים ב-6 בנובמבר מתוכנן ל-19:00 בישראל (12:00 ET), חריג רשמי בגלל החג. אין כאן נתון מלאי שכבר פורסם או תחזית חדשה. הפד מציין שהפרסומים הסטטיסטיים היומיים והשבועיים שנועדו ליום החג יפורסמו ביום חמישי.\n\nמשלים את התצוגה השבועית n-1093: שעות המניות אומתו מול NYSE, חופשת החוב מול SIFMA ושעת דוח הנפט מול לוח EIA הרשמי. זו תזכורת תפעולית ליום החג ולמחר, לא הודעה על סגירת המסחר במניות ולא סיכום תוצאות חברות.",
+    "טקסט_en": "Wednesday, Nov 11, 2026 | Morning preview. All times are Israel time; source calendars checked this morning.\n\nStocks are open: Veterans Day is not an NYSE holiday. Regular trading is scheduled for 16:30-23:00 in Israel (09:30-16:00 U.S. Eastern). A bank or bond-market holiday should not be confused with an equity-market closure.\n\nBonds: SIFMA recommends a full holiday today for the fixed-income markets covered by its recommendation, including U.S. government securities and other dollar-denominated debt. This is a bond-market calendar recommendation, not an order closing every instrument or stocks.\n\nThe checked BLS, BEA, Census and Forex Factory calendars showed no major scheduled U.S. macro releases for the remainder of today. The checked Board of Governors calendar showed no additional scheduled appearance for the remainder of today. This is not a complete check of every regional Fed president, nor a guarantee against unscheduled interviews or remarks.\n\nTomorrow, Thursday Nov 12, not today: EIA's weekly petroleum report for the week ended Nov 6 is scheduled for 19:00 Israel time (12:00 ET), an official holiday exception. This is neither a published inventory result nor a new forecast. The Fed says daily and weekly statistical releases scheduled for the holiday will be released Thursday.\n\nThis supplements weekly preview n-1093: equity hours verified with NYSE, the fixed-income holiday with SIFMA and the oil-report time with EIA's official schedule. It is an operational holiday and next-day reminder, not an equity-market closure announcement or a company earnings recap.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "acb42284b820610892c17389a527e7688b8b863534662155a540a627c973f7a3"
+      }
+    }
   }
 ]
