@@ -33219,5 +33219,35 @@
         "source_hash": "127d4482c9ee6b33f8d274b2e98d00b11b97026ba8bc6d2210abd006961c0f16"
       }
     }
+  },
+  {
+    "מזהה": "n-1346",
+    "category": "company",
+    "חברה": "NVDA",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 00:31",
+    "קישור": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+    "כותרת": "NVIDIA (NVDA): לפי WSJ, הדירקטוריון נערך להדחת הואנג; אין דיווח על החלטה סופית או מינוי מחליף",
+    "כותרת_en": "NVIDIA (NVDA): WSJ says board is preparing to oust Huang; no final decision or successor announced",
+    "טקסט": "דיווח עיתונאי, לא הודעה רשמית של NVIDIA או החלטת דירקטוריון שאומתה בנפרד.\n\nהידיעה המקורית הקצרה של Wall Street Journal, מאת Robbie Whelan ו-Josh Dawsey, נקראה באתר. נתוני הפרסום והעדכון של העמוד מציינים 11 בנובמבר 2026 בשעה 22:28 UTC, כלומר 12 בנובמבר בשעה 00:28 בישראל.\n\nלפי הידיעה, דירקטוריון NVIDIA נערך להדחת המייסד והמנכ״ל ג׳נסן הואנג. אנשים הבקיאים בנושא אמרו לעיתון שהדירקטוריון נערך להיפגש כבר ״היום״ כדי להכריע בעתידו. המילה ״היום״ היא של המקור האמריקאי; לא פורסמו בידיעה שעה, מיקום או זימון ישיבה רשמי, ואין להמיר אותה להבטחה לישיבה ביום הישראלי החדש.\n\nהשלב המדווח הוא היערכות ודיון אפשרי, לא הודעה שהישיבה התקיימה או שהתקבלה החלטה. הידיעה אינה מציינת שם מחליף, מועד סיום כהונה, התפטרות או הצבעת דירקטוריון שהושלמה. בטקסט הקצר שנקרא לא נכללה תגובה רשמית של החברה או הואנג.\n\nזהו עדכון ממשל תאגידי נפרד מהטענות על הקשר עם כפופה בפריט n-1344 ומחקירת הדירקטוריון וגיוס היועצים בפריטים n-1043 ו-n-1252. הרקע העיתונאי כולל קשרים אישיים וטענת ריגול שנויה במחלוקת; הוא אינו ממצא עצמאי כאן שהתרחש ריגול, שהייתה הפרת מדיניות או שנמסר מידע סודי. אין כאן ציטוט מחיר מניה או טענה שהידיעה גרמה לתנועה במחיר.",
+    "טקסט_en": "Journalistic reporting, not an official NVIDIA announcement or an independently verified board decision.\n\nThe original short Wall Street Journal report by Robbie Whelan and Josh Dawsey was read at its site. The page publication and update metadata say Nov 11, 2026 at 22:28 UTC, equivalent to Nov 12 at 00:28 in Israel.\n\nAccording to the report, NVIDIA's board is preparing to oust founder and CEO Jensen Huang. People familiar with the matter told the newspaper that the board is preparing to meet as soon as \"today\" to determine his future. \"Today\" is the American source's wording. The brief gives no time, location or official meeting notice, and it should not be converted into a promise of a meeting on the new Israeli calendar day.\n\nThe reported stage is preparation and a possible discussion, not confirmation that a meeting occurred or a decision was made. The brief names no successor, final working date, resignation or completed board vote. The short text read contains no official company or Huang response.\n\nThis is a separate corporate-governance update from the direct-report relationship allegations in n-1344 and the board investigation and retention of counsel in n-1043 and n-1252. Its journalistic background includes personal relationships and a disputed espionage allegation; it is not an independent finding here of espionage, a policy violation or disclosure of confidential information. No share-price quote or claim that this report caused a price move is included.",
+    "מקורות": [
+      {
+        "label": "Wall Street Journal: ידיעה מקורית, נתוני עמוד 11 בנובמבר 22:28 UTC",
+        "label_en": "Wall Street Journal: original brief, page metadata Nov 11 at 22:28 UTC",
+        "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
+      }
+    ],
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6864ed85bfc585a6ce8acd02ddd5731973cd2e3ff28cc7495354fff004663a29"
+      }
+    }
   }
 ]
