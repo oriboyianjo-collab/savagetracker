@@ -32931,5 +32931,30 @@
         "source_hash": "e94b644f0c2dfb410e6042f07367ba847b116b4e90c27f5f17a9b227323f995a"
       }
     }
+  },
+  {
+    "מזהה": "n-1336",
+    "category": "company",
+    "חברה": "CRWV",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 17:49",
+    "קישור": "https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html",
+    "כותרת": "מנכ״ל CoreWeave ל-CNBC: תוכנית מכירת המניות האישית שלי הושעתה עד לשינוי מהותי במחיר; מכירות לצורכי מס עדיין אפשריות",
+    "כותרת_en": "CoreWeave CEO tells CNBC his stock-sale plan is sidelined pending a material price change; tax sales remain possible",
+    "טקסט": "11.11.2026 | לפי גוף כתבת CNBC המעודכן שנקרא במלואו. הכתבה המקורית פורסמה ב-09:20 EST, 16:20 שעון ישראל, אך שעת הוספת העדכון על מכירות המנכ״ל לא אומתה. תווית העדכון היחסית אינה משמשת כשעה מדויקת.\n\nמנכ״ל קורוויב מייקל אינטרטור אמר היום בתוכנית Squawk on the Street של CNBC כי תוכנית מכירת המניות שלו הושמה בצד עד שיהיה שינוי מהותי בתמחור המניה. לדבריו, מכירות נוספות יהיו לצורכי מס רגילים בלבד. ההצהרה מתייחסת לתוכנית מכירת מניות אישית של המנכ״ל, לא לתוכנית רכישה עצמית של החברה ולא להתחייבות שיקנה מניות.\n\nCNBC מתארת את המהלך כביטול תוכנית 10b5-1. הפריט מביא את דברי המנכ״ל כפי שדווחו בראיון, ולא אימות עצמאי של הודעת ביטול משפטית או הגשה ל-SEC. גם אין להסיק ממנו התחייבות בלתי חוזרת להפסיק את כל המכירות או תאריך לחידוש התוכנית.\n\nלפי CNBC, תחת התוכנית האחרונה שהוכרזה בנובמבר 2025, אינטרטור מכר עד כה 8.26 מיליון מניות במחיר ממוצע של 96.14 דולר ובסכום כולל של 794.2 מיליון דולר. אלה נתונים היסטוריים שמדווחים בכתבה, לא מכירה חדשה היום ולא שווי תיק נוכחי; טפסי המכירה עצמם לא נבדקו בנפרד.\n\nהחידוש הוא הצהרת המנכ״ל על תוכנית המכירה, בנפרד מפריטי האשראי והמימון הקודמים של קורוויב, ובהם n-0007 ו-n-0953. אותו קישור של CNBC עסק קודם בתגובת החברה לשינוי הפוליטי ולבניית מרכזי נתונים; הגוף המעודכן מוסיף אירוע אישי של בעל עניין. תוצאות הרבעון, התחזית והוצאות ההון אינן מתפרסמות כאן מחדש, ואין ייחוס של תנועת המניה להצהרה.",
+    "טקסט_en": "Nov 11, 2026 | Based on the updated CNBC article, read in full. The original article was published at 9:20 a.m. EST, 16:20 Israel time, but the exact time the CEO stock-sale update was added was not verified. A relative update label is not treated as an exact timestamp.\n\nCoreWeave CEO Michael Intrator told CNBC's Squawk on the Street today that his stock-sale plan has been sidelined until a material change in the company's equity pricing. He said any further selling would be normal tax-related selling. This concerns the CEO's personal sale plan, not a company share buyback or a commitment to buy shares.\n\nCNBC describes the action as canceling a 10b5-1 plan. This item reports the CEO's statement as covered in the interview, not independent verification of a legal termination notice or SEC filing. It does not establish an irrevocable halt to all sales or a date for restarting the plan.\n\nAccording to CNBC, under the latest plan announced in November 2025, Intrator has sold 8.26 million shares at an average price of $96.14, totaling $794.2 million. These are historical figures reported by the article, not a new sale today or a current portfolio valuation; the transaction forms were not independently checked.\n\nThe new development is the CEO's statement about his sale plan, separate from earlier CoreWeave credit and financing items, including n-0007 and n-0953. The same CNBC URL previously discussed the company's political and data-center buildout response; the updated body adds a personal insider-sale event. Quarterly results, guidance and capital spending are not republished here, and no share-price move is attributed to the statement.",
+    "מקורות": [
+      {
+        "label": "CNBC: כתבה מעודכנת עם דברי אינטרטור על תוכנית המכירה האישית",
+        "label_en": "CNBC: updated article with Intrator statement on his personal sale plan",
+        "url": "https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3d3c26f4b23eee346663d79ec3fc89aa8c1123b85ae0712e01b3cbc525a57cfc"
+      }
+    }
   }
 ]
