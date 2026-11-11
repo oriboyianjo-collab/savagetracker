@@ -1144,6 +1144,11 @@ body.overlay-stock-card #sheet{border-radius:22px 22px 0 0}
 body.overlay-logo-safe .ct-shell{overflow:hidden}
 body.overlay-logo-safe .ct-work:not(.ct-rotated){width:100%!important;height:100%!important}
 body.overlay-logo-safe .ct-work.ct-rotated{width:var(--ov-height)!important;height:var(--ov-width)!important}
+</style><style id="approved-near-invisible-logo-gap">
+body.watch-near-full section.tab{padding-top:.5px!important}
+body.watch-near-full header.top,body.overlay-logo-safe header.top{padding-bottom:0!important}
+body.watch-near-full header.top .hcard,body.overlay-logo-safe header.top .hcard{padding-bottom:0!important}
+body:not(.kb-on):has(#tab-watch.on){padding-bottom:calc(var(--nav-h) + var(--safe-b) - 2.4px)}
 </style></head>
 <body><dialog id="wlOrderDialog" aria-labelledby="wlOrderTitle"><h3 id="wlOrderTitle">סדר הרשימות</h3><p>גררו את הידית כדי לשנות את סדר הרשימות</p><div id="wlOrderRows"></div><div class="wl-orderactions"><button type="button" id="wlOrderSave">שמירה</button><button type="button" id="wlOrderCancel">ביטול</button></div></dialog>
 <header class="top">
@@ -7587,7 +7592,7 @@ html.dark .al-tg{background:#334155}.al-tg::after{content:"";position:absolute;t
   if(active){
    const vvTop=V?V.offsetTop:0,vvBottom=V?V.offsetTop+V.height:innerHeight;
    const bottom=Math.max(0,innerHeight-vvBottom),navHeight=nav.getBoundingClientRect().height||64;
-   const top=Math.max(header.getBoundingClientRect().bottom+8,vvTop);
+   const top=Math.max(header.querySelector('.hcard').getBoundingClientRect().bottom+.5,vvTop);
    const end=bottom+navHeight,height=Math.max(0,innerHeight-end-top);
    prop('--ov-top',top+'px');prop('--ov-bottom',bottom+'px');prop('--ov-end',end+'px');prop('--ov-height',height+'px');prop('--ov-width',innerWidth+'px');
    const el=document.activeElement;
