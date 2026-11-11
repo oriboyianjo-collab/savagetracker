@@ -31960,5 +31960,30 @@
         "source_hash": "3b3b855a399df55fa04ca5f794dfa08d9ce9bfea8c95241c100c9a5681ef5988"
       }
     }
+  },
+  {
+    "מזהה": "n-1300",
+    "category": "micro",
+    "חברה": "Old Dominion Freight Line (ODFL)",
+    "כותרת": "Old Dominion: בית המשפט העליון בארקנסו אישר פיצויים של 75 מיליון דולר לנפגעי חשיפה לחומר מסוכן",
+    "כותרת_en": "Old Dominion: Arkansas Supreme Court affirms $75 million compensatory award for hazardous-material exposure",
+    "תאריך": "2026-11-05",
+    "הועלה": "2026-11-11 12:43",
+    "קישור": "https://opinions.arcourts.gov/ark/supremecourt/en/524756/1/document.do",
+    "טקסט": "השלמת סיקור לפסק הדין המקורי מ-5 בנובמבר 2026, בתיק CV-22-305, שנקרא במקור בית המשפט. שעת הפרסום המקורית לא אומתה. אין כאן פסק דין חדש מ-11 בנובמבר.\n\nבית המשפט העליון של ארקנסו אישר פסק דין של חבר מושבעים בסך 75 מיליון דולר לטובת שישה אנשי כוחות חירום וגרירה שנפגעו מחשיפה לחומצה פורמית לאחר תאונת משאית ב-2018. בית המשפט ביטל את החלטת ערכאת הערעור שהורתה על משפט חדש בשל גובה הפיצויים.\n\nמדובר בפיצויים נזיקיים מפצים, לא בקנס רגולטורי ולא בפיצויים עונשיים. חבר המושבעים לא מצא אחריות לפיצויים עונשיים. סכום ה-75 מיליון דולר הוא הסכום שאושר בערעור, לא סכום נוסף שמתווסף לפסק הדין הקודם.\n\nרוב השופטים מצא ראיות מספיקות לקשר בין אי-גילוי החומר המסוכן לכוחות החירום לבין הפגיעות, ולנזקים קבועים או להחמרה קבועה במצב הנפגעים. שלושה שופטים חלקו על התוצאה, לרבות בעניין סיבתיות וגובה הפיצוי; דעת המיעוט אינה ההכרעה המחייבת.\n\nהחידוש הוא אישור החיוב בערכאה העליונה במדינה, לא אירוע בטיחות חדש או הודעת תשלום. המקור שנבדק אינו מאמת מועד תשלום בפועל, כיסוי ביטוחי או השפעה כספית נטו חדשה על החברה. אין להסיק ממנו שכל מסלול לבקשה נוספת או לבחינה משפטית כבר נסגר.",
+    "טקסט_en": "Catch-up coverage of the original Nov 5, 2026 opinion in case CV-22-305, read from the court's source. The original publication time was not verified. This is not a new Nov 11 ruling.\n\nThe Arkansas Supreme Court affirmed a $75 million jury award to six emergency responders and towing workers injured by formic-acid exposure after a 2018 truck accident. It vacated the intermediate appeals court's decision ordering a new trial because of the damages amount.\n\nThese are compensatory damages, not a regulatory fine or punitive damages. The jury found no liability for punitive damages. The $75 million is the award upheld on appeal, not an additional amount on top of the earlier judgment.\n\nThe majority found sufficient evidence linking the failure to disclose the hazardous material to emergency responders with the injuries, including permanent injuries or permanent worsening of existing conditions. Three justices dissented, including on causation and the size of the award. Their opinion is not the binding outcome.\n\nThe development is affirmation of the award by the state's highest court, not a new safety incident or payment announcement. The reviewed source does not verify actual payment timing, insurance coverage or a new net financial impact on the company. It does not establish that every possible further motion or legal review has been exhausted.",
+    "מקורות": [
+      {
+        "label": "בית המשפט העליון של ארקנסו: פסק הדין המקורי ודעת המיעוט",
+        "label_en": "Arkansas Supreme Court: original majority and dissenting opinions",
+        "url": "https://opinions.arcourts.gov/ark/supremecourt/en/524756/1/document.do"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0eea1fbcb02da581c4c2252ff244984473ef8d3974100c6a1957f49a80ea4c6a"
+      }
+    }
   }
 ]
