@@ -2580,15 +2580,15 @@
     "מדינה": "US",
     "אירוע": "מכירות בתים קיימים",
     "חשיבות": 1,
-    "הערה": "NARקובע12.11לנתוני אוקטובר; כל הפרסומים10:00ET. צפי וקודם לא אומתו.\nעדכון 06.11.2026: צפי לפי ForexFactory 3.88 מיליון. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.\nעדכון 07.11.2026: צפי לפי ForexFactory 3.86 מיליון. מקורו לא אומת מול מקור ראשוני. היסטוריית הצפי וההערות נשמרה; אין כאן נתון בפועל חדש.",
+    "הערה": "NARקובע12.11לנתוני אוקטובר; כל הפרסומים10:00ET. צפי וקודם לא אומתו.\nעדכון 06.11.2026: צפי לפי ForexFactory 3.88 מיליון. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.\nעדכון 07.11.2026: צפי לפי ForexFactory 3.86 מיליון. מקורו לא אומת מול מקור ראשוני. היסטוריית הצפי וההערות נשמרה; אין כאן נתון בפועל חדש.\nבדיקת 11.11.2026: צפי Forex Factory העדכני 3.89 מיליון. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.\nהקודם: 3.99 מיליון בקצב שנתי מנוכה עונתיות בספטמבר, לפי הודעת NAR מ-13.10.2026; לא 3.99 מיליון עסקאות בחודש אחד.",
     "מקור": "https://www.nar.realtor/press-releases/nar-releases-2026-statistical-news-release-schedule",
     "שעה": "17:00",
-    "תקופה": "אוקטובר · חודשי",
-    "צפי": "3.86 מיליון",
+    "תקופה": "אוקטובר · קצב שנתי מנוכה עונתיות",
+    "צפי": "3.89 מיליון",
     "מקורות_בדיקה_עדכנית": [
       "https://www.forexfactory.com/calendar?week=nov8.2026"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-07",
+    "תאריך_בדיקה_עדכנית": "2026-11-11",
     "היסטוריית_צפי": [
       {
         "צפי": "3.88 מיליון",
@@ -2597,19 +2597,33 @@
           "https://www.forexfactory.com/calendar?week=nov8.2026"
         ],
         "תאריך_בדיקה_עדכנית": "2026-11-06"
+      },
+      {
+        "צפי": "3.86 מיליון",
+        "צפי_en": "3.86 million",
+        "הערה": "NARקובע12.11לנתוני אוקטובר; כל הפרסומים10:00ET. צפי וקודם לא אומתו.\nעדכון 06.11.2026: צפי לפי ForexFactory 3.88 מיליון. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.\nעדכון 07.11.2026: צפי לפי ForexFactory 3.86 מיליון. מקורו לא אומת מול מקור ראשוני. היסטוריית הצפי וההערות נשמרה; אין כאן נתון בפועל חדש.",
+        "הערה_en": "NAR sets Nov 12 for October data; all releases at 10:00 ET. Estimate and prior not verified.\nUpdate Nov 6, 2026: estimate per ForexFactory 3.88 million. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.\nUpdate Nov 7, 2026: estimate per ForexFactory 3.86 million. Its source was not verified against a primary source. Estimate history and notes were retained; there is no new actual figure here.",
+        "מקורות_בדיקה_עדכנית": [
+          "https://www.forexfactory.com/calendar?week=nov8.2026"
+        ],
+        "תאריך_בדיקה_עדכנית": "2026-11-07",
+        "נשמר_ב": "2026-11-11"
       }
     ],
     "מזהה": "c-0108",
     "אירוע_en": "Existing home sales",
-    "תקופה_en": "October · monthly",
-    "הערה_en": "NAR sets Nov 12 for October data; all releases at 10:00 ET. Estimate and prior not verified.\nUpdate Nov 6, 2026: estimate per ForexFactory 3.88 million. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.\nUpdate Nov 7, 2026: estimate per ForexFactory 3.86 million. Its source was not verified against a primary source. Estimate history and notes were retained; there is no new actual figure here.",
-    "צפי_en": "3.86 million",
+    "תקופה_en": "October · seasonally adjusted annual rate",
+    "הערה_en": "NAR sets Nov 12 for October data; all releases at 10:00 ET. Estimate and prior not verified.\nUpdate Nov 6, 2026: estimate per ForexFactory 3.88 million. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.\nUpdate Nov 7, 2026: estimate per ForexFactory 3.86 million. Its source was not verified against a primary source. Estimate history and notes were retained; there is no new actual figure here.\nNov 11, 2026 check: current Forex Factory forecast 3.89 million. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.\nPrior: 3.99 million seasonally adjusted annual rate in September, per the Oct 13, 2026 NAR release; not 3.99 million transactions in one month.",
+    "צפי_en": "3.89 million",
     "_translation": {
       "en": {
-        "source_hash": "38e600b64e016cab96d9dcdb63db2ac2d97800c9acf783b59d258c19799ced64",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "2f188d440bcd76a7cd12192f83d142ae6347baad67340c6bf02580c1cb302a24"
       }
-    }
+    },
+    "קודם": "3.99 מיליון",
+    "קודם_en": "3.99 million",
+    "מקור_קודם": "https://www.nar.realtor/newsroom/existing-home-sales-increased-1-5-in-september-according-to-nar-report"
   },
   {
     "תאריך": "2026-11-12",
@@ -2654,7 +2668,7 @@
     "מדינה": "US",
     "אירוע": "מלאי נפט גולמי שבועי (EIA)",
     "חשיבות": 1,
-    "הערה": "חריג Veterans Day רשמי: חמישי12.11 בשעה12:00EST=19:00 בישראל, במקום רביעי. צפי לפרסום הבא טרם אומת.\nקודם לפרסום12.11: ירידה של כ-0.9מיליון חביות במלאי המסחרי ללאSPR בשבוע שהסתיים30.10, בפרסום4.11. זהו עיגול הסיכום הרשמי; השינוי המדויק היה ירידה0.865מיליון. אין זה שינוי ברזרבה האסטרטגית או ב-Cushing.",
+    "הערה": "חריג Veterans Day רשמי: חמישי12.11 בשעה12:00EST=19:00 בישראל, במקום רביעי. צפי לפרסום הבא טרם אומת.\nקודם לפרסום12.11: ירידה של כ-0.9מיליון חביות במלאי המסחרי ללאSPR בשבוע שהסתיים30.10, בפרסום4.11. זהו עיגול הסיכום הרשמי; השינוי המדויק היה ירידה0.865מיליון. אין זה שינוי ברזרבה האסטרטגית או ב-Cushing.\nבדיקת 11.11.2026: צפי Forex Factory העדכני -0.6 מיליון חביות. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.",
     "מקור": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
     "שעה": "19:00",
     "תקופה": "שבועי",
@@ -2664,14 +2678,31 @@
     "מזהה": "c-0111",
     "אירוע_en": "Weekly crude oil inventories (EIA)",
     "תקופה_en": "Weekly",
-    "הערה_en": "Official Veterans Day exception: Thursday Nov 12 at 12:00 EST = 19:00 Israel, instead of Wednesday. Estimate for the next release not yet verified.\nPrior for the Nov 12 release: a draw of about 0.9 million barrels in commercial inventories ex-SPR in the week ended Oct 30, in the Nov 4 release. This is the official summary rounding; the exact change was a 0.865 million draw. This is not a change in the Strategic Reserve or at Cushing.",
+    "הערה_en": "Official Veterans Day exception: Thursday Nov 12 at 12:00 EST = 19:00 Israel, instead of Wednesday. Estimate for the next release not yet verified.\nPrior for the Nov 12 release: a draw of about 0.9 million barrels in commercial inventories ex-SPR in the week ended Oct 30, in the Nov 4 release. This is the official summary rounding; the exact change was a 0.865 million draw. This is not a change in the Strategic Reserve or at Cushing.\nNov 11, 2026 check: current Forex Factory forecast -0.6 million barrels. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.",
     "קודם_en": "-0.9 million barrels",
     "_translation": {
       "en": {
-        "source_hash": "d930179c91e54119b36965a6464754b3e71ca7d402eaaefe1661f523603cf8bb",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "b1a34e049267149217a53f419fe228dff84d2e3903d9e142db05140e93f15ed3"
       }
-    }
+    },
+    "היסטוריית_צפי": [
+      {
+        "צפי": null,
+        "צפי_en": null,
+        "הערה": "חריג Veterans Day רשמי: חמישי12.11 בשעה12:00EST=19:00 בישראל, במקום רביעי. צפי לפרסום הבא טרם אומת.\nקודם לפרסום12.11: ירידה של כ-0.9מיליון חביות במלאי המסחרי ללאSPR בשבוע שהסתיים30.10, בפרסום4.11. זהו עיגול הסיכום הרשמי; השינוי המדויק היה ירידה0.865מיליון. אין זה שינוי ברזרבה האסטרטגית או ב-Cushing.",
+        "הערה_en": "Official Veterans Day exception: Thursday Nov 12 at 12:00 EST = 19:00 Israel, instead of Wednesday. Estimate for the next release not yet verified.\nPrior for the Nov 12 release: a draw of about 0.9 million barrels in commercial inventories ex-SPR in the week ended Oct 30, in the Nov 4 release. This is the official summary rounding; the exact change was a 0.865 million draw. This is not a change in the Strategic Reserve or at Cushing.",
+        "מקורות_בדיקה_עדכנית": null,
+        "תאריך_בדיקה_עדכנית": null,
+        "נשמר_ב": "2026-11-11"
+      }
+    ],
+    "צפי": "-0.6 מיליון חביות",
+    "צפי_en": "-0.6 million barrels",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.forexfactory.com/calendar?week=nov8.2026"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-11"
   },
   {
     "תאריך": "2026-11-12",
@@ -2715,7 +2746,7 @@
     "מדינה": "US",
     "אירוע": "מאזן תקציב ממשלתי חודשי (Monthly Treasury Statement)",
     "חשיבות": 1,
-    "הערה": "Treasury מאשר תאריך הנתונים הבא 12.11.2026. השעה 14:00 ET נשארת מאומתת מול לוח שוק בלבד, לא מקור ראשוני. אין שינוי צפי/קודם.",
+    "הערה": "Treasury מאשר תאריך הנתונים הבא 12.11.2026. השעה 14:00 ET נשארת מאומתת מול לוח שוק בלבד, לא מקור ראשוני. אין שינוי צפי/קודם.\nבדיקת 11.11.2026: צפי Forex Factory העדכני -298.6 מיליארד דולר. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.",
     "מקור": "https://www.mtsinsights.com/events/4194/",
     "תקופה": "אוקטובר · חודשי",
     "הערת_מקור_קודמת": "מועד12.11ב14:00ET מאומת כרגע בלוח שוקMTSInsightsובForexFactoryבלבד; דףTreasuryלא סיפק לוח קריא וFREDלנובמברריק. אין אימות ראשוני לשעה; אין צפי/קודם מאומתים.",
@@ -2723,14 +2754,31 @@
     "מזהה": "c-0114",
     "אירוע_en": "Monthly federal budget statement (Monthly Treasury Statement)",
     "תקופה_en": "October · monthly",
-    "הערה_en": "Treasury confirms the next data date is Nov 12, 2026. The 14:00 ET time remains verified only against a market calendar, not a primary source. No change to estimate/prior.",
+    "הערה_en": "Treasury confirms the next data date is Nov 12, 2026. The 14:00 ET time remains verified only against a market calendar, not a primary source. No change to estimate/prior.\nNov 11, 2026 check: current Forex Factory forecast -$298.6 billion. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.",
     "הערת_מקור_קודמת_en": "The Nov 12 14:00 ET timing is currently verified only in the MTS Insights market calendar and ForexFactory; the Treasury page provided no readable schedule and FRED for November is empty. No primary verification of the time; no verified estimate/prior.",
     "_translation": {
       "en": {
-        "source_hash": "aac22162dcc44f19dfce18f55a5b72eedeccdd41c99161d0dbd77aa07956129a",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "71db823cda05ea69c774e905963280caff0953711e3febf8c3e1546c64c11859"
       }
-    }
+    },
+    "היסטוריית_צפי": [
+      {
+        "צפי": null,
+        "צפי_en": null,
+        "הערה": "Treasury מאשר תאריך הנתונים הבא 12.11.2026. השעה 14:00 ET נשארת מאומתת מול לוח שוק בלבד, לא מקור ראשוני. אין שינוי צפי/קודם.",
+        "הערה_en": "Treasury confirms the next data date is Nov 12, 2026. The 14:00 ET time remains verified only against a market calendar, not a primary source. No change to estimate/prior.",
+        "מקורות_בדיקה_עדכנית": null,
+        "תאריך_בדיקה_עדכנית": null,
+        "נשמר_ב": "2026-11-11"
+      }
+    ],
+    "צפי": "-298.6 מיליארד דולר",
+    "צפי_en": "-$298.6 billion",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.forexfactory.com/calendar?week=nov8.2026"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-11"
   },
   {
     "תאריך": "2026-11-12",
@@ -2892,21 +2940,38 @@
     "תקופה": "שבועי",
     "חשיבות": 1,
     "מקור": "https://ir.eia.gov/ngs/schedule.html",
-    "הערה": "חריג Veterans Day רשמי: יום שישי13.11 בשעה10:30ET,17:30בישראל. קודם:+77מיליארד רגל מעוקבת מפרסום5.11 לשבוע שהסתיים30.10. צפי טרם אומת.",
+    "הערה": "חריג Veterans Day רשמי: יום שישי13.11 בשעה10:30ET,17:30בישראל. קודם:+77מיליארד רגל מעוקבת מפרסום5.11 לשבוע שהסתיים30.10. צפי טרם אומת.\nבדיקת 11.11.2026: צפי Forex Factory העדכני +65 מיליארד רגל מעוקבת. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.",
     "הערות_מקור_ארכיון": "חריג Veterans Day רשמי: יום שישי 13.11 בשעה 10:30 ET, 17:30 בישראל, במקום חמישי. צפי וקודם ייבדקו לאחר פרסום 5.11; לא הועתק קודם ישן.",
     "קודם": "+77 מיליארד רגל מעוקבת",
     "מקור_קודם": "https://ir.eia.gov/ngs/ngs.html",
     "מזהה": "c-0122",
     "אירוע_en": "Weekly natural gas inventories (EIA)",
     "תקופה_en": "Weekly",
-    "הערה_en": "Official Veterans Day exception: Friday Nov 13 at 10:30 ET, 17:30 Israel. Prior: +77 Bcf from the Nov 5 release for the week ended Oct 30. Estimate not yet verified.",
+    "הערה_en": "Official Veterans Day exception: Friday Nov 13 at 10:30 ET, 17:30 Israel. Prior: +77 Bcf from the Nov 5 release for the week ended Oct 30. Estimate not yet verified.\nNov 11, 2026 check: current Forex Factory forecast +65 Bcf. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.",
     "קודם_en": "+77 Bcf",
     "_translation": {
       "en": {
-        "source_hash": "acbf215beeec465aefdf3b821ccf987a4204d0838f846b055095da7c50cfa1ef",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "a6f79f6623c1b8fad0c5b3ea81c82ed1402ae6bb4342b6c5fa5bbe92d09d6680"
       }
-    }
+    },
+    "היסטוריית_צפי": [
+      {
+        "צפי": null,
+        "צפי_en": null,
+        "הערה": "חריג Veterans Day רשמי: יום שישי13.11 בשעה10:30ET,17:30בישראל. קודם:+77מיליארד רגל מעוקבת מפרסום5.11 לשבוע שהסתיים30.10. צפי טרם אומת.",
+        "הערה_en": "Official Veterans Day exception: Friday Nov 13 at 10:30 ET, 17:30 Israel. Prior: +77 Bcf from the Nov 5 release for the week ended Oct 30. Estimate not yet verified.",
+        "מקורות_בדיקה_עדכנית": null,
+        "תאריך_בדיקה_עדכנית": null,
+        "נשמר_ב": "2026-11-11"
+      }
+    ],
+    "צפי": "+65 מיליארד רגל מעוקבת",
+    "צפי_en": "+65 Bcf",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.forexfactory.com/calendar?week=nov8.2026"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-11"
   },
   {
     "תאריך": "2026-11-13",
@@ -3412,13 +3477,13 @@
     "הערה": "לוח BEA מציג17.11בשעה10:00AM אך אזור הזמן לא אומת עבור פרסום זה; לכן לא מוצגת שעה בישראל. פרסום ניסיוני, לא תמ\"ג שוטף או מדד AI שוטף; אין צפי/קודם יחיד.",
     "תקופה": "2024",
     "מזהה": "c-0149",
-    "אירוע_en": "Experimental data on the AI economy",
+    "אירוע_en": "Experimental Super Intelligence Economic Statistics",
     "תקופה_en": "2024",
     "הערה_en": "The BEA calendar shows Nov 17 at 10:00 AM but the time zone was not verified for this release, so no Israel time is shown. An experimental release, not current GDP or a current AI index; no single estimate/prior.",
     "_translation": {
       "en": {
-        "source_hash": "f0382d40799972b2db8b69d543d1920028c53a8e50af6ce0bc5fc46c577dee88",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "f0382d40799972b2db8b69d543d1920028c53a8e50af6ce0bc5fc46c577dee88"
       }
     }
   },
@@ -3846,10 +3911,11 @@
     "תאריך_בדיקה_עדכנית": "2026-11-10",
     "_translation": {
       "en": {
-        "source_hash": "1be1f2fc3bd013c403e73b18d9891f50cdabd0635f257db70fb29fa9781a6c3b",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "1be1f2fc3bd013c403e73b18d9891f50cdabd0635f257db70fb29fa9781a6c3b"
       }
-    }
+    },
+    "קודם_en": "3.7% (September)"
   },
   {
     "תאריך": "2026-12-10",
@@ -3896,9 +3962,10 @@
     "תאריך_בדיקה_עדכנית": "2026-11-10",
     "_translation": {
       "en": {
-        "source_hash": "bb4997bc9e960ee63c3d1f67cef50a97a62e7ede9d4ec144427d5d9b169bffb2",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "bb4997bc9e960ee63c3d1f67cef50a97a62e7ede9d4ec144427d5d9b169bffb2"
       }
-    }
+    },
+    "קודם_en": "2.6% (September)"
   }
 ]
