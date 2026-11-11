@@ -28865,7 +28865,7 @@
     }
   },
   {
-    "כותרת": "ה-FDA מחייב אזהרת סיכון לאובדן ראייה (NAION) בכל תרופות ה-GLP-1, כולל Wegovy של נובו ו-Zepbound של לילי; קשר סיבתי לא הוכח",
+    "כותרת": "GLP-1 וסיכון NAION: לפי Korea Times, קוריאה פרסמה אזהרת בטיחות ובוחנת שינויי הוראות; דיווח ה-FDA הקודם נשמר",
     "category": "macro",
     "קישור": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
     "מקורות": [
@@ -28873,17 +28873,22 @@
         "label": "CNBC, 10 בנובמבר 2026, 02:52 EST",
         "url": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
         "label_en": "CNBC, Nov 10, 2026, 02:52 EST"
+      },
+      {
+        "label": "Korea Times: דיווח Park Ung המלא, 11 בנובמבר 13:08 KST; אזהרת MFDS וסקירת שינויי הוראות אפשריים, ללא מסמך רשמי שנבדק",
+        "label_en": "Korea Times: full Park Ung report, Nov 11 at 13:08 KST; MFDS alert and review of possible precaution changes, no official document checked",
+        "url": "https://www.koreatimes.co.kr/southkorea/society/20261111/korea-warns-of-rare-vision-loss-risk-linked-to-glp-1-drugs"
       }
     ],
-    "טקסט": "10.11.2026 | לפי CNBC, נקרא במלואו.\n\nה-FDA מחייב את יצרניות כל תרופות ה-GLP-1 להוסיף אזהרה על סיכון מוגבר אפשרי ל-NAION - מצב נדיר שעלול לגרום לירידה פתאומית בראייה, כולל אובדן ראייה קבוע; הקשר הסיבתי לא הוכח. מקרי NAION דווחו בכל מוצרי ה-GLP-1 שבשוק. ניתוח של 126 ניסויים עם מעל 134,000 מטופלים מצא 6.4 מקרים ל-100,000 שנות-מטופל אצל משתמשי GLP-1 לעומת 3.8 בקבוצות הביקורת. ההחלטה התקבלה ביום שני בעקבות סקירת ניסויים קליניים, נתוני שוק ומחקרים; השינוי רוחבי-סוג ונוגע לנובו נורדיסק (Wegovy/Ozempic) ולאלי לילי (Zepbound/Mounjaro/Foundayo).",
-    "כותרת_en": "FDA requires vision-loss (NAION) risk warning on all GLP-1 drugs, including Novo's Wegovy and Lilly's Zepbound; causal relationship not established",
-    "טקסט_en": "Nov 10, 2026 | per CNBC, read in full.\n\nThe FDA is requiring the makers of all GLP-1 medications to add a warning about a potential increased risk of NAION - a rare condition that can cause sudden vision loss, including permanent loss; a causal relationship has not been established. NAION cases have been reported for all currently marketed GLP-1 products. An analysis of 126 trials with over 134,000 patients found 6.4 cases per 100,000 patient-years among GLP-1 users versus 3.8 in control groups. The decision, made Monday, followed a review of clinical trials, real-world data and published studies; it is class-wide, covering Novo Nordisk (Wegovy/Ozempic) and Eli Lilly (Zepbound/Mounjaro/Foundayo).",
+    "טקסט": "עדכון 11.11.2026, 06:13 בישראל: לפי כתבת Korea Times מ-13:08 KST (06:08 בישראל), שנקראה במלואה, משרד בטיחות המזון והתרופות הקוריאני (MFDS) פרסם ביום רביעי אזהרת בטיחות על קשר אפשרי בין תרופות GLP-1 להשמנה, ובהן Wegovy ו-Mounjaro, לבין NAION, מצב נדיר העלול לגרום לאובדן ראייה פתאומי ולעיתים קבוע. המשרד ביקש מהחברות נתוני בטיחות ותוכניות לשינויי אישור אפשריים, ויבחן עדכון אמצעי זהירות. זהו דיווח עיתונאי שלא אומת כאן מול מכתב MFDS רשמי.\n\nהכתבה מתארת הנחיה לצוותים רפואיים לבחון מיד מטופלים ולהפסיק טיפול אם מתעורר חשד ל-NAION, ולמטופלים עם תסמינים לפנות לרופא. אין כאן המלצה אישית להפסיק טיפול ללא ייעוץ רפואי. האזהרה והבחינה אינן איסור מכירה או שינוי תווית קוריאני שכבר הושלם, ואין להחיל את אומדן EMA לסמגלוטייד על כל תרופות GLP-1.\n\nזהו עדכון רגולטורי קוריאני לאותו נושא בטיחות, לא דיווח נוסף על החלטת FDA חדשה. הטקסט הקודם להלן מבוסס על CNBC; גם לאחר קריאה חוזרת של הכתבה המלאה לא אומת כאן מסמך FDA ראשוני, ולכן היקף הפעולה האמריקאית נשמר כדיווח מיוחס ולא כאימות ממשלתי עצמאי.\n\n10.11.2026 | לפי CNBC, נקרא במלואו.\n\nה-FDA מחייב את יצרניות כל תרופות ה-GLP-1 להוסיף אזהרה על סיכון מוגבר אפשרי ל-NAION - מצב נדיר שעלול לגרום לירידה פתאומית בראייה, כולל אובדן ראייה קבוע; הקשר הסיבתי לא הוכח. מקרי NAION דווחו בכל מוצרי ה-GLP-1 שבשוק. ניתוח של 126 ניסויים עם מעל 134,000 מטופלים מצא 6.4 מקרים ל-100,000 שנות-מטופל אצל משתמשי GLP-1 לעומת 3.8 בקבוצות הביקורת. ההחלטה התקבלה ביום שני בעקבות סקירת ניסויים קליניים, נתוני שוק ומחקרים; השינוי רוחבי-סוג ונוגע לנובו נורדיסק (Wegovy/Ozempic) ולאלי לילי (Zepbound/Mounjaro/Foundayo).",
+    "כותרת_en": "GLP-1 and NAION risk: Korea Times reports Korean safety alert and review of precaution changes; earlier FDA report retained",
+    "טקסט_en": "Update Nov 11, 2026, 06:13 Israel: A full Korea Times article published at 13:08 KST (06:08 Israel) reports that Korea's Ministry of Food and Drug Safety issued a Wednesday safety alert about a possible link between GLP-1 obesity drugs, including Wegovy and Mounjaro, and NAION, a rare condition that can cause sudden, potentially permanent vision loss. It requested company safety data and plans for possible approval amendments, and will consider precaution revisions. This is a media report not verified here against an official MFDS letter.\n\nThe article describes advice to medical professionals to arrange immediate examination and stop treatment if NAION is suspected, and to patients with symptoms to contact a doctor. This is not personal advice to stop treatment without medical consultation. The alert and review are not a sales ban or a completed Korean label change, and the EMA semaglutide frequency estimate must not be generalized to every GLP-1 drug.\n\nThis is a Korean regulatory update on the same safety topic, not another new FDA decision. The earlier text below is based on CNBC. Even after re-reading the full article, a primary FDA document has not been verified here, so the American action's scope remains attributed reporting, not independent government-source verification.\n\nNov 10, 2026 | per CNBC, read in full.\n\nThe FDA is requiring the makers of all GLP-1 medications to add a warning about a potential increased risk of NAION - a rare condition that can cause sudden vision loss, including permanent loss; a causal relationship has not been established. NAION cases have been reported for all currently marketed GLP-1 products. An analysis of 126 trials with over 134,000 patients found 6.4 cases per 100,000 patient-years among GLP-1 users versus 3.8 in control groups. The decision, made Monday, followed a review of clinical trials, real-world data and published studies; it is class-wide, covering Novo Nordisk (Wegovy/Ozempic) and Eli Lilly (Zepbound/Mounjaro/Foundayo).",
     "תאריך": "2026-11-10 02:52",
-    "הועלה": "2026-11-10 10:32",
+    "הועלה": "2026-11-11 06:13",
     "מזהה": "n-1174",
     "_translation": {
       "en": {
-        "source_hash": "05ef8f72a97a7e6128f01f75aa7e0b1d94df3f56297a7c585f4c03847e00b4bf",
+        "source_hash": "57b104b6e878e7fea13263c6c8678d967bc714b582e4098637f2be78b467e646",
         "schema_version": 1
       }
     }
