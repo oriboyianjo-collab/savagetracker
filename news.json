@@ -33282,5 +33282,38 @@
         "source_hash": "2a0c8d02361c73ab721ce3f56e09c43f6c85dfae42c4a8454988279c7f5cce0c"
       }
     }
+  },
+  {
+    "מזהה": "n-1348",
+    "category": "macro",
+    "חברה": "",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 01:56",
+    "קישור": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2610.pdf",
+    "כותרת": "יפן: מחירי היצרן באוקטובר עלו 7.1% בשנה ו-0.7% בחודש; ספטמבר תוקן לירידה חודשית של 0.2%",
+    "כותרת_en": "Japan: October producer prices rose 7.1% yearly and 0.7% monthly; September revised to a 0.2% monthly decline",
+    "טקסט": "מקור ראשוני אומת: קובץ Bank of Japan המלא לפרסום CGPI, נתונים מקדמיים לאוקטובר 2026, נקרא. מועד השחרור המוצהר: יום חמישי 12 בנובמבר 08:50 ביפן, 01:50 בישראל.\n\nמדד מחירי היצרן המקומי עלה 0.7% לעומת ספטמבר ו-7.1% לעומת אוקטובר אשתקד, לרמה של 136.8 נקודות, בבסיס 2020=100. בטבלת הפרסום ספטמבר מציג ירידה חודשית מתוקנת של 0.2% ועלייה שנתית של 6.8%. לכן אין להציג את הירידה החודשית הקודמת של 0.3% כנתון ספטמבר העדכני.\n\nהמדד המנכה חיובי קיץ נוספים לחשמל עלה 0.9% בחודש; זהו מדד נפרד מהכותרת של 0.7%, ולא תיקון שלה. הבנק מצביע בין התורמים לעלייה החודשית על מוצרי נפט ופחם, כימיקלים, וחשמל/גז/מים. תרומות אלה אינן שיעורי העלייה של כל ענף.\n\nמחירי היצוא במונחי מטבע החוזה עלו 0.6% בחודש ומחירי היבוא באותו בסיס עלו 2.3%. אין לערבב נתונים אלה עם המדדים הנקובים בין, שעלו 1.1% ו-3.3% בהתאמה בחודש.\n\nהפרסום מודד מחירי טובין ברמת היצרן, לא את מדד המחירים לצרכן. אלה נתונים מקדמיים שעשויים להתעדכן, ולא החלטת ריבית או התחייבות למדיניות של BoJ. תחזית קונצנזוס לא אומתה כאן ולכן לא נכללת השוואה לצפי או טענת הפתעה. אין כאן נתון אמריקאי חדש או טענה לתגובת שוק שנבדקה.",
+    "טקסט_en": "Primary source verified: the full Bank of Japan CGPI release for preliminary October 2026 figures was read. Its stated release time is Thursday Nov 12 at 08:50 in Japan, 01:50 in Israel.\n\nThe domestic Producer Price Index rose 0.7% from September and 7.1% from a year earlier, to 136.8 on a 2020=100 base. The release table shows September at a revised monthly decline of 0.2% and yearly increase of 6.8%. The earlier 0.3% monthly decline must therefore not be presented as the latest September figure.\n\nThe index excluding extra summer electricity charges rose 0.9% monthly. This is separate from, not a correction to, the 0.7% headline. The bank lists petroleum and coal products, chemicals, and electricity/gas/water among monthly upward contributors. Contributions are not the price-increase rates of each sector.\n\nExport prices on a contract-currency basis rose 0.6% monthly, and import prices on the same basis rose 2.3%. These must not be confused with yen-based changes of 1.1% and 3.3%, respectively.\n\nThe release measures goods prices at the producer level, not consumer inflation. The figures are preliminary and may change; this is not an interest-rate decision or BoJ policy commitment. A consensus forecast was not verified here, so no forecast comparison or surprise claim is included. This item includes no new U.S. data or verified market-reaction claim.",
+    "מקורות": [
+      {
+        "label": "Bank of Japan: פרסום CGPI מלא, אוקטובר 2026 מקדמי, 12 בנובמבר 08:50 יפן",
+        "label_en": "Bank of Japan: full CGPI release, preliminary October 2026, Nov 12 at 08:50 Japan",
+        "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2610.pdf"
+      },
+      {
+        "label": "Bank of Japan: רשימת הפרסומים הרשמית וקישור למסמך אוקטובר",
+        "label_en": "Bank of Japan: official release index linking October document",
+        "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/index.htm"
+      }
+    ],
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b5efa9f039505df9776e20c9b676a1d0b7545c08c0e7245dc510eebc2a316e04"
+      }
+    }
   }
 ]
