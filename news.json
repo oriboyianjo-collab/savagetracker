@@ -33031,5 +33031,30 @@
         "source_hash": "a27d1d7510f3725488f8f5afa4471d29c7e3780770f35ab9d8662c83baeb6644"
       }
     }
+  },
+  {
+    "מזהה": "n-1340",
+    "category": "company",
+    "חברה": "ACM",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 21:12",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/11/3401073/0/en/chiefs-name-clark-aecom-to-construction-team-for-new-stadium-set-to-open-in-2031.html",
+    "כותרת": "AECOM ו-Clark נבחרו לצוות הבנייה של אצטדיון הצ׳יפס החדש בקנזס; פתיחה מתוכננת ב-2031, ללא סכום זכייה שפורסם",
+    "כותרת_en": "AECOM and Clark selected for Chiefs stadium construction team in Kansas; planned 2031 opening, no award value disclosed",
+    "טקסט": "11.11.2026 | 14:05 ET, 21:05 בישראל, לפי הפצת הודעת Clark Construction Group ב-GlobeNewswire. הודעת המקור נקראה במלואה.\n\nקבוצת Kansas City Chiefs בחרה במיזם המשותף Clark Construction Group ו-AECOM לצוות הבנייה של אצטדיונה החדש במחוז Wyandotte שבקנזס. לפי ההודעה, האצטדיון מתוכנן לגג קבוע ולקיבולת של 70 אלף איש, עם פתיחה מתוכננת ב-2031. זו בחירה בצוות לפרויקט עתידי, לא הודעה שהאצטדיון כבר נבנה או נפתח.\n\nבשלב הנוכחי הצוות עובד עם הקבוצה, האדריכלים ויתר השותפים על הפיכת התכנון הראשוני לפרויקט שניתן להתיר, לתקצב ולבצע. MANICA ו-HNTB ממשיכות לחדד את התכנון, וצוות הבנייה מספק המלצות על היתכנות ביצוע, זמינות חומרים ורכש, שיטות התקנה ולוחות זמנים. אין להסיק מההודעה שכל ההיתרים כבר התקבלו או שהתקציב הסופי הושלם.\n\nClark ו-AECOM יובילו גם את אסטרטגיית המכרזים ואת לוח הזמנים לבחירת קבלני משנה וספקים. עבודות האתר מתוכננות להתחיל ב-2027; ההודעה אינה אומרת שהבנייה החלה היום. ההשתתפות מטעם AECOM מתוארת בהודעה באמצעות פעילות AECOM Hunt.\n\nלא פורסמו שווי חוזה, חלקה הכספי של AECOM, התחייבות הכנסות או תרומה לרווח. זהו אירוע זכייה תפעולי נפרד, לא פרסום תוצאות או הנחיה פיננסית, ואין בו אימות לכמות ההכנסות שתוכר בכל שנה.",
+    "טקסט_en": "Nov 11, 2026 | 14:05 ET, 21:05 Israel time, according to Clark Construction Group's GlobeNewswire distribution. The original release was read in full.\n\nThe Kansas City Chiefs selected the joint venture of Clark Construction Group and AECOM as the construction team for their new stadium in Wyandotte County, Kansas. The release describes a planned fixed-roof, 70,000-person venue targeting a 2031 opening. This is a team selection for a future project, not an announcement that the stadium has been built or opened.\n\nAt the current stage, the team is working with the club, designers and other stakeholders to turn the initial concept into a permitted, budgeted and buildable project. MANICA and HNTB are refining the design, while the construction team advises on constructability, materials and procurement, installation and scheduling. The release does not establish that all permits have been secured or a final budget completed.\n\nClark and AECOM will also lead competitive bidding strategy and scheduling for subcontractors and suppliers. Sitework is planned to begin in 2027; the release does not say construction began today. AECOM's participation is described through its AECOM Hunt business.\n\nNo contract value, AECOM financial share, revenue commitment or profit contribution was disclosed. This is a separate operating award, not an earnings release or financial guidance, and it does not verify annual revenue recognition.",
+    "מקורות": [
+      {
+        "label": "Clark Construction Group: הודעה מלאה ב-GlobeNewswire, 11 בנובמבר, 14:05 ET",
+        "label_en": "Clark Construction Group: full GlobeNewswire release, Nov 11, 14:05 ET",
+        "url": "https://www.globenewswire.com/news-release/2026/11/11/3401073/0/en/chiefs-name-clark-aecom-to-construction-team-for-new-stadium-set-to-open-in-2031.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c0282a39c3d6a4a7e9e2bd9dc781fd6654ccd23eceee42a902d7f2cc46c182d1"
+      }
+    }
   }
 ]
