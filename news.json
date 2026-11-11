@@ -32848,5 +32848,34 @@
         "source_hash": "e1b7860cd3b3c1032dba3b66d0c92658f599c9b7c7fbb9b201c85f0e500b5980"
       }
     }
+  },
+  {
+    "מזהה": "n-1333",
+    "category": "macro",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 16:36",
+    "קישור": "https://www.interfax.ru/russia/1128351",
+    "כותרת": "לפי Interfax, אושקוב מאשר שוויטקוף וקושנר יגיעו למוסקבה ב-12 בנובמבר; פגישה עם פוטין צפויה, לא התקיימה",
+    "כותרת_en": "Interfax: Ushakov confirms Witkoff and Kushner will arrive in Moscow Nov 12; Putin meeting is expected, not completed",
+    "טקסט": "11.11.2026 | שני דיווחי Interfax המקוריים נקראו במלואם. דברי יורי אושקוב מובאים מראיון לכתב קומרסנט; הראיון המקורי ותמליל רשמי של הקרמלין לא נקראו ישירות. שעת הפרסום המוחלטת באזור זמן מאומת לא נקבעה.\n\nלפי Interfax, יועצו של נשיא רוסיה יורי אושקוב אמר לכתב קומרסנט אנדריי קולסניקוב כי שליחי נשיא ארה\"ב סטיב וויטקוף וג׳ארד קושנר יגיעו למוסקבה ביום חמישי, 12 בנובמבר, בבוקר. הסוכנות מוסיפה כי פוטין צפוי לקיים עמם שיחות במחצית הראשונה של היום. יש להבחין בין אישור ההגעה המיוחס לאושקוב לבין הפגישה המוצגת בדיווח כצפויה; אין כאן תיעוד שהמשלחת כבר הגיעה או שהשיחות התקיימו.\n\nכשנשאל על הצעות משמעותיות, לרבות סוגיות טריטוריאליות וערבויות ביטחון, אושקוב אמר שעדיין אינם יודעים את תוצאות שיחות אבו דאבי, אך שהשליחים מביאים עמם משהו. ההודעה אינה מפרטת הצעה מוסכמת או מאשרת שנפתרו המחלוקות.\n\nבדיווח נפרד של Interfax אמר שר החוץ סרגיי לברוב כי פוטין יקבל דיווח מהמשלחת הרוסית ומהשליחים האמריקנים, ועל בסיס מה שישמע יגבש את המשך הקו הרוסי. לברוב הוסיף שהמטרות שהציג פוטין ביוני 2024 לא השתנו. אלה הצהרות של הצד הרוסי על התהליך ועל עמדתו, לא הסכמה אוקראינית לתנאים.\n\nהחידוש לעומת פתיחת השיחות באבו דאבי ב-n-1175 והדיווחים המוקדמים על תוכנית נסיעה הוא ייחוס אישור ההגעה לבכיר בקרמלין ומיקודה לבוקר 12 בנובמבר. אין כאן הסכם שלום, הפסקת אש, ויתור טריטוריאלי או חילופי שבויים שבוצעו, ואין להסיק מהביקור לבדו שינוי מאומת במחירי נפט או בסיכון השוק.",
+    "טקסט_en": "Nov 11, 2026 | Both original Interfax reports were read in full. Yuri Ushakov's remarks are relayed from an interview with a Kommersant reporter; that original interview and an official Kremlin transcript were not directly read. An absolute publication time in a verified timezone was not established.\n\nInterfax reports that Russian presidential aide Yuri Ushakov told Kommersant reporter Andrei Kolesnikov that US presidential envoys Steve Witkoff and Jared Kushner will arrive in Moscow on Thursday morning, Nov 12. The agency adds that Putin is expected to hold talks with them in the first half of the day. Ushakov's attributed arrival confirmation should be distinguished from the meeting described as expected. This does not establish that the delegation has arrived or that talks have taken place.\n\nAsked about substantive proposals, including territorial issues and security guarantees, Ushakov said they did not yet know the results of the Abu Dhabi talks, but that the envoys were bringing something. The report does not specify an agreed proposal or confirm that differences have been resolved.\n\nIn a separate Interfax report, Foreign Minister Sergei Lavrov said Putin would hear from the Russian delegation and American envoys and determine Russia's subsequent approach based on those briefings. Lavrov added that the goals Putin set out in June 2024 had not changed. These are Russian statements about the process and its position, not Ukrainian agreement to terms.\n\nBeyond the opening of Abu Dhabi talks covered in n-1175 and earlier travel plans, the new detail is arrival confirmation attributed to a senior Kremlin aide and the Thursday-morning timing. This is not a peace agreement, ceasefire, territorial concession or completed prisoner exchange. The visit alone does not establish a change in oil prices or market risk.",
+    "מקורות": [
+      {
+        "label": "Interfax: דברי אושקוב לכתב קומרסנט על הגעת השליחים ב-12 בנובמבר",
+        "label_en": "Interfax: Ushakov remarks to Kommersant on envoys arriving Nov 12",
+        "url": "https://www.interfax.ru/russia/1128351"
+      },
+      {
+        "label": "Interfax: לברוב על התדריכים לפוטין והמשך העמדה הרוסית",
+        "label_en": "Interfax: Lavrov on Putin briefings and Russia's subsequent position",
+        "url": "https://www.interfax.ru/russia/1128346"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a03075e06114dfd3a34f8b5b02936f052fe8df75ff522f450d37eb03ad71a8c8"
+      }
+    }
   }
 ]
