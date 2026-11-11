@@ -32454,5 +32454,30 @@
         "source_hash": "1204e0d242385e529ddadd27281308c60deb9d6750c7f308dd18b0e3eeaff530"
       }
     }
+  },
+  {
+    "מזהה": "n-1318",
+    "category": "micro",
+    "חברה": "NOW",
+    "תאריך": "2026-11-04",
+    "הועלה": "2026-11-11 14:02",
+    "קישור": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-adds-Hiring-Assistant-to-a-suite-of-Productivity-Assistants-for-HR-leaders-and-managers-/default.aspx",
+    "כותרת": "השלמה מ-4.11 | ServiceNow (NOW) מוסיפה Hiring Assistant לחבילת עוזרי משאבי אנוש; הזמינות מבוקרת",
+    "כותרת_en": "Nov 4 catch-up | ServiceNow (NOW) adds Hiring Assistant to HR productivity suite; controlled availability",
+    "טקסט": "השלמת סיקור להודעת ServiceNow מ-4 בנובמבר 2026, שנקראה במלואה במקור הישיר. שעת הפרסום המקורית אינה מצוינת; זו אינה השקה חדשה מהיום.\n\nServiceNow הציגה Hiring Assistant כחלק מ-Productivity Assistants ל-HR Service Delivery בתוך EmployeeWorks. העוזר החדש מיועד לרכז את תהליך הגיוס, מפתיחת דרישה ועד הצעה, בשיחה אחת ובחיבור למערכות ולתהליכים הארגוניים. הוא מצטרף לעוזרי Manager, HRBP ו-Talent Insights, ולא מוצג כאן כאילו כל ארבעת העוזרים הומצאו כעת.\n\nFindem מספקת נתוני שוק וכישורים ל-Hiring ול-Talent Insights, לרבות איתור, סינון והערכת מועמדים לפי תיאור החברה. Deloitte משתפת פעולה בהטמעה ובטרנספורמציית משאבי אנוש. אלה יכולות ושותפויות שמדווחת ServiceNow, לא בדיקה עצמאית לדיוק הסינון או להיעדר הטיות.\n\nכל ארבעת העוזרים מוגדרים Controlled Availability במועד ההודעה, לא זמינות כללית לכל לקוח. ההודעה אינה מוסרת מחיר, סכום הזמנות, הכנסות או תאריך מעבר לזמינות כללית. דוגמאות NBA, LTM ו-Robinhood מתארות שימושים ותוצאות של פתרונות ServiceNow; אין לייחס את כל המדדים ההיסטוריים דווקא ל-Hiring Assistant החדש.\n\nזהו מוצר משאבי אנוש נפרד מתוסף OpenAI שסוקר ב-n-0089 ומפתרון התפעול המשותף עם Kyndryl ב-n-1133. שלב הזמינות והאימוץ בפועל נפרדים מההבטחה השיווקית לשיפור פרודוקטיביות.",
+    "טקסט_en": "Catch-up coverage of ServiceNow's Nov 4, 2026 announcement, read in full at its direct original source. No original publication time is shown; this is not a new launch today.\n\nServiceNow introduced Hiring Assistant within its HR Service Delivery Productivity Assistants in EmployeeWorks. The new assistant is designed to bring hiring from requisition to offer into one conversation connected to enterprise systems and workflows. It joins Manager, HRBP and Talent Insights assistants; this item does not imply all four were newly invented at once.\n\nFindem supplies talent-market and skills data for Hiring and Talent Insights, including candidate sourcing, screening and assessment as described by the company. Deloitte collaborates on implementation and HR transformation. These are ServiceNow-reported capabilities and partnerships, not independent tests of screening accuracy or absence of bias.\n\nAll four assistants were in Controlled Availability at announcement, not general availability for every customer. No price, order value, revenue or general-release date is disclosed. NBA, LTM and Robinhood examples describe use and results of ServiceNow solutions; their historical metrics should not all be attributed to the new Hiring Assistant.\n\nThis HR product is separate from the OpenAI connector in n-0089 and the Kyndryl autonomous-operations solution in n-1133. Availability and actual adoption remain distinct from the marketing promise of greater productivity.",
+    "מקורות": [
+      {
+        "label": "ServiceNow: הודעת 4 בנובמבר המקורית, כולל זמינות מבוקרת",
+        "label_en": "ServiceNow: original Nov 4 announcement, including controlled availability",
+        "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-adds-Hiring-Assistant-to-a-suite-of-Productivity-Assistants-for-HR-leaders-and-managers-/default.aspx"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5c0a86d9fc12bdcc6ddd9a377c34f143d33283286de0fa4521342c27830e8bc8"
+      }
+    }
   }
 ]
