@@ -33088,5 +33088,66 @@
         "source_hash": "820287699fb9d4ea87e8e18c207256909888a62552c1402196d878fff9ac2298"
       }
     }
+  },
+  {
+    "מזהה": "n-1342",
+    "category": "company",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 23:47",
+    "כותרת": "United Airlines (UAL): לפי CNBC, תפעל להגבלת גישת סוכני AI לפלטפורמות ולערוצי ההפצה; לא אישור שהחסימה כבר הושלמה",
+    "כותרת_en": "United Airlines (UAL): CNBC reports planned AI-agent access restrictions across platforms and distribution; not confirmation of a completed block",
+    "טקסט": "לא מאומת מול הודעת חברה מקורית\n11.11.2026 | CNBC, פורסם ב-15:02 EST, 22:02 בישראל. הכתבה נקראה במלואה.\n\nלפי CNBC, יונייטד אמרה ביום רביעי שתנקוט צעדים להגבלת גישה של כלי AI אוטומטיים לפלטפורמות הדיגיטליות שלה, מטעמי אבטחת מידע. ההיקף המתואר כולל גישה ישירה וגם גישה עקיפה דרך סוכנויות נסיעות ואגרגטורים, לרבות עדכונים למדיניות הזמנות, כרטוס והפצה.\n\nהדיווח מתאר צעדים שהחברה מתכוונת לנקוט. הוא אינו מפרט מועד כניסה לתוקף, רשימת שירותים שנחסמו או אישור שהחסימה כבר הושלמה. אין להסיק ממנו איסור על כל שימוש ב-AI או ביטול כל שיתוף פעולה טכנולוגי.\n\nהחברה הזהירה, לפי הכתבה, ששיתוף פרטי חשבון עם עוזרי AI של צד שלישי עלול לחשוף מידע, להביא לרכישות או לשינויי חשבון לא מכוונים ולשימוש לא מורשה במיילים. היא ציינה גם סיכון רגולטורי בפעולות כגון צ׳ק-אין, הדורשות אישור אנושי לגבי פריטים אסורים. אלו נימוקי החברה כפי שדווחו, לא הוכחה שאירוע מסוים כזה התרחש.\n\nלא נבדקה הודעת יונייטד המקורית או גרסה חדשה של תנאי השימוש, ולא פורסמו כאן השפעה כספית, שינוי בטיסות או פגיעה מוכחת בחשבונות. זהו עדכון מדיניות תפעולית לפי מקור משני, לא תוצאות כספיות.",
+    "טקסט_en": "Not verified against the original company announcement\nNov 11, 2026 | CNBC, published at 15:02 EST, 22:02 Israel time. The full article was read.\n\nAccording to CNBC, United said Wednesday it would take steps to restrict automated AI tools from accessing its digital platforms, citing data security. The described scope includes direct access and indirect access through travel agencies and aggregators, including updates to booking, ticketing and distribution policies.\n\nThe report describes intended steps. It gives no effective date, list of blocked services or confirmation that blocking is complete. It does not establish a ban on every use of AI or termination of every technology partnership.\n\nThe carrier warned, according to the article, that sharing account credentials with third-party AI assistants could expose information, cause unintended purchases or account changes, and permit unauthorized use of frequent-flyer miles. It also cited regulatory risks for actions such as check-in, which require human acknowledgment about prohibited items. These are the company's reported reasons, not proof a particular incident occurred.\n\nThe original United announcement and revised terms were not directly inspected. No financial impact, flight change or established account harm is reported here. This is an attributed operating-policy update from a secondary source, not an earnings report.",
+    "קישור": "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html",
+    "מקורות": [
+      {
+        "label": "CNBC: הכתבה המלאה, 11 בנובמבר 2026",
+        "label_en": "CNBC: full article, Nov 11, 2026",
+        "url": "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html"
+      }
+    ],
+    "symbols": [
+      "UAL"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "חברה": "UAL",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b52d25dc621e1413477e6a51696b98e16969b8549e167c6a175140e19237ad88"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1343",
+    "category": "company",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 23:47",
+    "כותרת": "CANARX: לפי CNBC, בכיר נעצר באישומי יבוא תרופות והברחה; אחיו מבוקש, השניים מכחישים את האישומים",
+    "כותרת_en": "CANARX: CNBC reports official arrested on drug-importation and smuggling charges; brother wanted, both deny charges",
+    "טקסט": "לא מאומת מול מסמכי בית המשפט המקוריים\n11.11.2026 | CNBC, פורסם ב-16:33 EST, 23:33 בישראל. הכתבה המלאה נקראה; אין כאן הרשעה.\n\nלפי CNBC, המצטטת מסמכי בית משפט שהוגשו ביום שלישי, ג׳ון תומס הווארד, גזבר ודירקטור בחברת CANARX הקנדית, נעצר ביום ראשון באישומי קשירת קשר, הברחה, יבוא תרופות לא חוקי והכנסת תרופות שסומנו שלא כדין למסחר בין-מדינתי. ביחס לתאריך הכתבה, מדובר במעצר ב-8 בנובמבר ובמסמכים מ-10 בנובמבר, לא במעצר שהתרחש היום.\n\nהכתבה מדווחת שגם אחיו בוב הווארד, נשיא ודירקטור בחברה, מבוקש בחקירה וטרם נעצר. לפי עורך הדין של החברה בתגובה ל-CNBC, השניים מכחישים את כל האישומים, יתגוננו ומצפים ששמם ינוקה. לא הוגשה תשובה לאישום לפי הכתבה; האישומים אינם ממצאים שהוכחו במשפט.\n\nלפי הדיווח, התלונה הפלילית נוגעת לתקופה מפברואר 2017 עד אפריל 2026, והתצהיר אינו מפרט אילו תרופות נטען שיובאו. לכן אין לייחס את התיק לתרופה מסוימת או לקבוע שכל מוצר שהחברה סיפקה היה מזויף.\n\nתביעה אזרחית נפרדת של Gilead על יבוא Biktarvy מוזכרת כרקע בלבד; אין כאן אישום פלילי נגד Gilead או הכרעה בתביעה ההיא. לא נבדקו ישירות התלונה, צו המעצר או הודעת FDA/משרד המשפטים בנושא. אין בדיווח שנקרא הוראת סגירה לכל פעילות החברה, ריקול מאומת או הוראה למטופלים לשנות טיפול.",
+    "טקסט_en": "Not verified against the original court documents\nNov 11, 2026 | CNBC, published at 16:33 EST, 23:33 Israel time. The full article was read; this is not a conviction.\n\nCNBC, citing court records filed Tuesday, reports that John Thomas Howard, treasurer and a director of Canadian company CANARX, was arrested Sunday on conspiracy, smuggling, illegal drug-importation and interstate misbranded-drug charges. Relative to the article date, the arrest was Nov 8 and the records Nov 10, not an arrest today.\n\nThe report says his brother Bob Howard, CANARX president and a director, is wanted in the investigation and has not been taken into custody. The company's lawyer told CNBC both deny all charges, will defend vigorously and expect to be vindicated. No plea has been filed according to the article; charges are not facts proven at trial.\n\nThe complaint reportedly covers February 2017 through April 2026, and the affidavit does not specify which medicines were allegedly imported. It does not establish a particular drug's involvement or that every product supplied by the company was counterfeit.\n\nA separate Gilead civil suit over Biktarvy imports appears only as background. This is not a criminal charge against Gilead or a decision in that suit. The complaint, warrant and any FDA/Justice Department announcement were not directly inspected. The report read establishes no shutdown order for the entire business, verified recall or instruction for patients to change treatment.",
+    "קישור": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
+    "מקורות": [
+      {
+        "label": "CNBC: הכתבה המלאה, 11 בנובמבר 2026",
+        "label_en": "CNBC: full article, Nov 11, 2026",
+        "url": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
+      }
+    ],
+    "symbols": [],
+    "sectors": [
+      "health-care"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1ba3df9873f055ad4e3c80b1454a634e6cc29ddb7720de50d055bf71df1d9912"
+      }
+    }
   }
 ]
