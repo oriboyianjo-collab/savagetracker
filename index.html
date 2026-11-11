@@ -6167,7 +6167,7 @@ function setTab(tab){if(navOrderDraft&&tab!=='settings'){navDragStop();navOrderD
   if(tab==='watch'){ wlSwapCancel(); wlMenu = null; wlGlide = null; wlLastCur = null; const strip = $('wlTabs').querySelector('.wltabs'); if(strip) strip.scrollLeft = 0; const first = wlData.lists[0]; if(first && wlData.cur!==first.id){ wlData.cur = first.id; saveWl(); } }   // v122: every watch-tab entry starts on the leftmost saved list; redraws and list swipes keep their selection
   if(tab==='market' && ui.tab!=='market') mktRange = '1D';
   if((tab==='perf'||tab==='portfolio') && ui.tab!==tab){ ui.perfRange = 'YTD'; syncRangeChips(); }   // v66: the performance tab always opens on YTD   // v51: reset to daily on every entry
-  ui.tab = tab; document.body.classList.toggle('watch-near-full',tab==='watch');
+  ui.tab = tab; document.body.classList.toggle('watch-near-full',tab!=='portfolio');
   if(tab!=='watch' && typeof wlSwapCancel==='function') wlSwapCancel();   // v114: never let a staged watchlist swap scroll or rewrite after leaving watch
   document.querySelectorAll('section.tab').forEach(s=>s.classList.toggle('on', s.id==='tab-'+tab));
   document.querySelectorAll('nav.bottom button').forEach(b=>b.classList.toggle('on', b.dataset.tab===tab));
