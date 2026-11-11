@@ -32956,5 +32956,30 @@
         "source_hash": "3d3c26f4b23eee346663d79ec3fc89aa8c1123b85ae0712e01b3cbc525a57cfc"
       }
     }
+  },
+  {
+    "מזהה": "n-1337",
+    "category": "company",
+    "חברה": "J",
+    "תאריך": "2026-11-05",
+    "הועלה": "2026-11-11 20:32",
+    "קישור": "https://www.jacobs.com/newsroom/press-release/jacobs-selected-major-new-zealand-highway-project",
+    "כותרת": "השלמת כיסוי מ-5 בנובמבר: Jacobs נבחרה לתכנון וליווי פרויקט כביש בניו זילנד; 3.6 מיליארד דולר ניו זילנדי הם אומדן הפרויקט כולו",
+    "כותרת_en": "Nov 5 catch-up: Jacobs selected for New Zealand highway design and delivery services; NZ$3.6 billion is the whole-project estimate",
+    "טקסט": "השלמת כיסוי באיחור | הודעת Jacobs מ-5.11.2026 נקראה במלואה. שעת הפרסום המקורית אינה מוצגת, אך התאריך לבדו מוכיח שהמקור ישן ביותר מ-12 שעות בעת ההעלאה. זו אינה זכייה חדשה מ-11 בנובמבר.\n\nJacobs הודיעה שנבחרה בידי ACCIONA לספק שירותי תכנון רב-תחומיים וליווי ביצוע למקטע Warkworth עד Te Hana של תוכנית הכבישים Northland Corridor בניו זילנד. התכנון כולל את כל 15 הגשרים, העתקת תשתיות וחבילות מבנים, וכן ניהול תכנון, הנדסה גאוטכנית, הנדסה דיגיטלית ומערכות מבנים.\n\nהפרויקט כולו כולל כ-26 קילומטרים של כביש מהיר בן ארבעה נתיבים, מחלפים ב-Warkworth, Wellsford ו-Te Hana, שתי מנהרות דרך Dome Valley ו-15 גשרים. לפי הודעת החברה, ממשלת ניו זילנד מעריכה את שווי הפרויקט הכולל בכ-3.6 מיליארד דולר ניו זילנדי, כ-2.1 מיליארד דולר אמריקאי. אלה אינם שווי החוזה של Jacobs או הכנסות שהובטחו לה; שכרה והיקף הכנסותיה מהעבודה לא נמסרו.\n\nהחברה מתארת את המקטע כחלק הראשון של Northland Corridor ואת מטרותיו כשיפור בטיחות, אמינות נסיעה וחיבורי מטען בין אוקלנד לנורת׳לנד. מדובר בבחירת ספק שירותים לפרויקט, לא בדיווח שהכביש נפתח או שהתקבלו מלוא התשלומים. אין בהודעה שנקראה מועד מסירה מאומת או תחזית רווח לפרויקט.\n\nזהו אירוע נפרד מ-n-1051, העוסק בפרויקט טיהור השפכים בסן פרנסיסקו. הפריט הנוכחי נשמר בתאריך המקור במסגרת השלמת הכיסוי; הוא אינו דיווח תוצאות או הנחיה פיננסית.",
+    "טקסט_en": "Delayed coverage catch-up | Jacobs' Nov 5, 2026 release was read in full. The original publication clock is not shown, but the date alone establishes that the source is over 12 hours old at upload. This is not a new Nov 11 award.\n\nJacobs said ACCIONA selected it to provide multidisciplinary design and project delivery services for the Warkworth to Te Hana section of New Zealand's Northland Corridor highway program. Its design work covers all 15 bridges, utility relocations and building packages, together with design management, geotechnical engineering, digital engineering and building services.\n\nThe overall project includes about 26 kilometers of four-lane expressway, interchanges at Warkworth, Wellsford and Te Hana, twin tunnels through Dome Valley and 15 bridges. The company release says the New Zealand government estimates the whole project at about NZ$3.6 billion, or US$2.1 billion. These figures are not Jacobs' contract value or guaranteed revenue; its fee and expected revenue from the work were not disclosed.\n\nThe company describes this as the first section of the Northland Corridor, intended to improve safety, travel reliability and freight links between Auckland and Northland. This is a service-provider selection, not a report that the highway has opened or all payments have been received. The release read does not give a verified completion date or project profit forecast.\n\nThis is separate from n-1051 on the San Francisco wastewater project. The item retains its original source date as catch-up coverage; it is not an earnings report or financial guidance.",
+    "מקורות": [
+      {
+        "label": "Jacobs: הודעה רשמית מלאה, 5 בנובמבר 2026, שעת פרסום אינה מוצגת",
+        "label_en": "Jacobs: full official Nov 5, 2026 release; publication clock not shown",
+        "url": "https://www.jacobs.com/newsroom/press-release/jacobs-selected-major-new-zealand-highway-project"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "856062f88d7584c8cdde9f658ee8b18bf48942178409b54eeda354e31ea28e2d"
+      }
+    }
   }
 ]
