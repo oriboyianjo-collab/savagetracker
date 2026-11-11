@@ -1133,7 +1133,7 @@ html.ext-sess #wlLists .wr[data-continuous="true"]>.pc-d{padding-block:7.5px}
 .pcard [data-f="extp"]{font-size:.75rem}
 #posList .pcard.pc .pgrid>.pc-d{overflow:visible}
 #posList .pcard.pc .pgrid>.pc-d>[data-f=he]:not(:empty):not(.hltx){font-size:.75rem!important;width:max-content;max-width:none;align-self:flex-end}
-</style><style>#tnAc [data-free],#pnStockAc [data-free]{display:none}</style></head>
+</style><style>#tnAc [data-free],#pnStockAc [data-free]{display:none}</style><style>body.watch-near-full header.top .tot-wrap,body.watch-near-full header.top .tot-pre,body.watch-near-full header.top .hcash,body.watch-near-full header.top .hmin,body.watch-near-full header.top .upd{display:none!important}body.watch-near-full header.top .hcard{padding-bottom:12px!important}</style></head>
 <body><dialog id="wlOrderDialog" aria-labelledby="wlOrderTitle"><h3 id="wlOrderTitle">סדר הרשימות</h3><p>גררו את הידית כדי לשנות את סדר הרשימות</p><div id="wlOrderRows"></div><div class="wl-orderactions"><button type="button" id="wlOrderSave">שמירה</button><button type="button" id="wlOrderCancel">ביטול</button></div></dialog>
 <header class="top">
   <div class="wrap"><div class="hcard">
@@ -6167,7 +6167,7 @@ function setTab(tab){if(navOrderDraft&&tab!=='settings'){navDragStop();navOrderD
   if(tab==='watch'){ wlSwapCancel(); wlMenu = null; wlGlide = null; wlLastCur = null; const strip = $('wlTabs').querySelector('.wltabs'); if(strip) strip.scrollLeft = 0; const first = wlData.lists[0]; if(first && wlData.cur!==first.id){ wlData.cur = first.id; saveWl(); } }   // v122: every watch-tab entry starts on the leftmost saved list; redraws and list swipes keep their selection
   if(tab==='market' && ui.tab!=='market') mktRange = '1D';
   if((tab==='perf'||tab==='portfolio') && ui.tab!==tab){ ui.perfRange = 'YTD'; syncRangeChips(); }   // v66: the performance tab always opens on YTD   // v51: reset to daily on every entry
-  ui.tab = tab;
+  ui.tab = tab; document.body.classList.toggle('watch-near-full',tab==='watch');
   if(tab!=='watch' && typeof wlSwapCancel==='function') wlSwapCancel();   // v114: never let a staged watchlist swap scroll or rewrite after leaving watch
   document.querySelectorAll('section.tab').forEach(s=>s.classList.toggle('on', s.id==='tab-'+tab));
   document.querySelectorAll('nav.bottom button').forEach(b=>b.classList.toggle('on', b.dataset.tab===tab));
