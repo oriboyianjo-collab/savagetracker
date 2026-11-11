@@ -32070,5 +32070,40 @@
         "source_hash": "ca72ee362407d55f6204de156aac0da440cd497fc6b51ddf742974861e2fd75c"
       }
     }
+  },
+  {
+    "מזהה": "n-1304",
+    "category": "micro",
+    "חברה": "Micron (MU) / Intel (INTC)",
+    "תאריך": "2026-10-30",
+    "הועלה": "2026-11-11 13:18",
+    "קישור": "https://www.cafc.uscourts.gov/opinions-orders/26-1085.RULE_36_JUDGMENT.10-30-2026_2779623.pdf",
+    "כותרת": "Micron (MU): אושר בערעור פסק הדין לטובתה בתיק BeSang; בנפרד, אתגרי הפטנט של מיקרון ואינטל נדחו",
+    "כותרת_en": "Micron (MU): appeals court affirms favorable BeSang judgment; separate Micron and Intel patent challenges fail",
+    "טקסט": "השלמת סיקור באיחור לפסיקות מ-30 באוקטובר 2026, לא הכרעה חדשה מ-9 בנובמבר. שני המסמכים המקוריים של בית המשפט לערעורים נקראו במלואם. שעת הפרסום המקורית לא אומתה.\n\nבית המשפט הפדרלי לערעורים אישר בתיק 2026-1085 את פסק הדין של בית המשפט המחוזי במזרח טקסס בתביעת BeSang נגד Micron. זהו אישור קצר לפי Rule 36, ללא נימוקים כתובים חדשים, וההחלטה מסומנת כלא-תקדימית.\n\nלפי עמוד משרד O'Melveny, המייצג את Micron, שאף הוא מתוארך ל-30 באוקטובר ונקרא, האישור משאיר על כנה את ההכרעה שהובילה את BeSang להסכים שמוצרי Micron אינם מפרים את הפטנט. פסק הדין המחוזי המלא עצמו לא נקרא כאן; אין כאן טענה שכל מוצר של החברה קיבל פטור מכל פטנט, ולא אומת סכום פיצויים או חיסכון כספי.\n\nבאותו יום ניתנה החלטה נפרדת בתיקי 2025-1320 ו-2025-1377: בית המשפט אישר את החלטות ועדת הערעורים בפטנטים, שלפיהן Micron ואינטל לא הוכיחו שתביעות הפטנט שנבחנו בפטנט 7,378,702 אינן כשירות לפטנט. מיקרון ערערה ביחס לתביעות 13-17, ואינטל ביחס לתביעה 1 ולתביעות 13-17. אלה אינם פסקי דין שמבטלים את הפטנט.\n\nלכן יש להפריד בין ניצחון Micron במסלול אי-ההפרה לבין כישלון אתגרי הפטנט במסלול הנפרד. אין להסיק מהאישור בערעור שהפטנט בוטל, שכל תביעות הפטנטים נגד מיקרון הסתיימו או שכל אפשרות לבקשה לדיון נוסף מוצתה.",
+    "טקסט_en": "Late catch-up coverage of Oct 30, 2026 decisions, not a new Nov 9 ruling. Both original appellate court documents were read in full. The original publication time was not verified.\n\nIn case 2026-1085, the Federal Circuit affirmed the Eastern District of Texas judgment in BeSang's case against Micron. The short Rule 36 judgment contains no new written reasoning and is designated nonprecedential.\n\nAn Oct 30 page from O'Melveny, Micron's counsel, also read in full, says the affirmance leaves intact the ruling that led BeSang to concede Micron's products do not infringe. The full district-court judgment itself was not read here. This does not mean every Micron product is exempt from every patent. No damages figure or quantified savings was verified.\n\nIn separate cases 2025-1320 and 2025-1377 decided the same day, the court affirmed Patent Trial and Appeal Board decisions that Micron and Intel had not shown the challenged claims of patent 7,378,702 to be unpatentable. Micron challenged claims 13-17; Intel challenged claim 1 and claims 13-17. These are not decisions invalidating the patent.\n\nMicron's favorable noninfringement result must therefore be distinguished from its and Intel's unsuccessful separate patent challenges. The affirmance does not establish that the patent was invalidated, all patent cases against Micron are over or every possible rehearing route has been exhausted.",
+    "מקורות": [
+      {
+        "label": "בית המשפט הפדרלי לערעורים: פסק הדין המקורי 2026-1085",
+        "label_en": "Federal Circuit: original judgment 2026-1085",
+        "url": "https://www.cafc.uscourts.gov/opinions-orders/26-1085.RULE_36_JUDGMENT.10-30-2026_2779623.pdf"
+      },
+      {
+        "label": "בית המשפט הפדרלי לערעורים: ההחלטה הנפרדת באתגרי הפטנט",
+        "label_en": "Federal Circuit: separate patent-challenge opinion",
+        "url": "https://www.cafc.uscourts.gov/opinions-orders/25-1320.OPINION.10-30-2026_2779607.pdf"
+      },
+      {
+        "label": "O'Melveny: עמוד משרד עורכי הדין המייצג את מיקרון, 30 באוקטובר",
+        "label_en": "O'Melveny: Micron counsel page dated Oct 30",
+        "url": "https://www.omm.com/news/in-the-news/law360-fed-circ-upholds-besang-patent-keeps-micron-ruling-intact/"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d42e9b39566888d7182272948a882edf62a6949c6a79170c85c18cbb2fe2ea7b"
+      }
+    }
   }
 ]
