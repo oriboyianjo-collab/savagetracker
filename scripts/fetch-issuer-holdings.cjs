@@ -68,6 +68,22 @@ const adapters = {
         const url = `https://www.roundhillinvestments.com/assets/data/filepointroundhill.40ru.ru_holdings_${s}.csv`, txt = await get(url); if(txt && /StockTicker/.test(txt.slice(0, 300))) ctx.rh = {url, rows: csv(txt)}; } }
     if(!ctx.rh) return null; const R = ctx.rh.rows, H = R[0], iA = H.indexOf('Account'), iT = H.indexOf('StockTicker'), iN = H.indexOf('SecurityName'), iW = H.indexOf('Weightings'), iD = H.indexOf('Date'), iM = H.indexOf('MoneyMarketFlag');
     const mine = R.slice(1).filter(r => r[iA] === t); if(!mine.length) return null; const asOf = mdy(mine[0][iD]);
+    // NCLD issuer weights combine direct stock with TRS on the same underlying CUSIP.
+    // Match only an unambiguous direct equity line in this very fund/file; never infer a ticker from a swap name.
+    if(t === 'NCLD'){
+      const iC = H.indexOf('CUSIP'); if(iC < 0) throw new Error('NCLD CUSIP header missing');
+      const direct = mine.filter(r => !/\b(TRS|SWAP)\b/i.test((r[iT]||'')+' '+(r[iN]||'')) && !r[iM] && !/^(912797|FGXXX|Cash&Other)/.test(r[iT]) && !NOTSTOCK.test(r[iN]||'') && num(r[iW]) > 0);
+      const byCusip = new Map(); direct.forEach(r => { const c = String(r[iC]||'').trim(); if(!c) return; const a = byCusip.get(c)||[]; a.push(r); byCusip.set(c,a); });
+      const merged = direct.map(r => [r[iT],r[iN],num(r[iW])]); let swapWeight = 0;
+      for(const r of mine.filter(r => /\b(TRS|SWAP)\b/i.test((r[iT]||'')+' '+(r[iN]||'')))){
+        const w = num(r[iW]), m = String(r[iC]||'').trim().match(/^([A-Z0-9]{9})\s+TRS\b/i), matches = m && byCusip.get(m[1]);
+        if(!(w > 0) || !matches || matches.length !== 1) throw new Error('NCLD swap underlying cannot be mapped unambiguously');
+        const b = matches[0]; merged.push([b[iT],b[iN],w]); swapWeight += w;
+      }
+      const out = done('roundhill','Roundhill',ctx.rh.url,asOf,merged); if(!out) return null;
+      const fm = ctx.rh.url.match(/holdings_(\d{2})(\d{2})(\d{4})\.csv/i);
+      return Object.assign(out,{exposureVersion:1,weightBasis:'stock-plus-trs',directWeight:Math.round(direct.reduce((v,r)=>v+num(r[iW]),0)*1e4)/1e4,swapWeight:Math.round(swapWeight*1e4)/1e4,sourceFileAsOf:fm?iso(fm[1],fm[2],fm[3]):''});
+    }
     return done('roundhill', 'Roundhill', ctx.rh.url, asOf, mine.filter(r => !/ TRS /.test(r[iT]) && !r[iM] && !/^(912797|FGXXX|Cash&Other)/.test(r[iT]) && !/CASH[A-Z]{3}/.test(r[iT + 1] || '')).map(r => [r[iT], r[iN], num(r[iW])])); },
   async ark(t){ const F = {ARKK:'ARK_INNOVATION_ETF_ARKK',ARKW:'ARK_NEXT_GENERATION_INTERNET_ETF_ARKW',ARKG:'ARK_GENOMIC_REVOLUTION_ETF_ARKG',ARKQ:'ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ',ARKF:'ARK_FINTECH_INNOVATION_ETF_ARKF',ARKX:'ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX'}[t]; if(!F) return null;
     const url = `https://assets.ark-funds.com/fund-documents/funds-etf-csv/${F}_HOLDINGS.csv`, txt = await get(url); if(!txt) return null; const rows = csv(txt), H = rows[0].map(x => x.trim().toLowerCase());
@@ -102,7 +118,7 @@ const ORDER = ['ishares', 'roundhill', 'ssga', 'ark', 'direxion', 'defiance', 'f
   let extra = []; try{ const j = JSON.parse(fs.readFileSync(path.join(ROOT, 'holdings', 'extra-funds.json'), 'utf8')); extra = (j.tickers || j.funds || []).map(x => String(x).toUpperCase().trim()).filter(x => /^[A-Z][A-Z0-9.\-]{0,9}$/.test(x)); }catch(e){}
   const list = [...new Set([...Object.keys(BUILTIN), ...extra])].filter(t => !ONLY.length || ONLY.includes(t)), ctx = {}, funds = Object.assign({}, prev.funds || {}), missing = [];
   for(const t of list){ const hint = BUILTIN[t], order = hint ? [hint, ...ORDER.filter(a => a !== hint)] : ORDER; let e = null, tried = [];
-    for(const a of order){ try{ e = await adapters[a](t, ctx); }catch(err){ log('  ', t, a, 'error', err.message); e = null; } tried.push(a); if(e) break; }
+    for(const a of order){ try{ e = await adapters[a](t, ctx); }catch(err){ log('  ', t, a, 'error', err.message); e = null; if(t==='NCLD' && a==='roundhill'){ if(funds[t]) funds[t] = Object.assign({},funds[t],{stale:true,mappingIssue:'NCLD swap mapping rejected'}); break; } } tried.push(a); if(e) break; }
     if(e){ funds[t] = e; log(`OK   ${t.padEnd(6)} ${e.adapter.padEnd(10)} ${String(e.n).padStart(4)} rows  asOf ${e.asOf}  ${e.issuer}`); }
     else { missing.push(t); log(`MISS ${t.padEnd(6)} (tried ${tried.join(',')})${funds[t] ? ' – keeping previous ' + funds[t].asOf : ''}`); } }
   Object.keys(funds).forEach(t => { if(!BUILTIN.hasOwnProperty(t) && !extra.includes(t)) delete funds[t]; });

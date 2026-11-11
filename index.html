@@ -4239,7 +4239,7 @@ function etfFinish(rows){ const by = new Map(); let nq = 0;
 const ISS_URL = 'holdings/issuer.json', ISS_REPO = 'oriboyianjo-collab/portfolio'; let issP = null, issAt = 0, issData = null;
 function etfIssuer(force){ if(issP && !force && Date.now()-issAt < 20*60e3) return issP; issAt = Date.now();
   return issP = fetch(ISS_URL+'?h='+Math.floor(Date.now()/6e5), {cache:'no-store'}).then(r=>r.ok ? r.json() : null).then(j=>{ if(j && j.funds && typeof j.funds==='object') issData = j; return issData; }).catch(()=>issData); }
-async function etfLoad(t, force){ const c = etfData[t]; if(!force && c && c.v===ETF_SCHEMA && Date.now()-c.at < ETF_TTL) return c;
+async function etfLoad(t, force){ const c = etfData[t]; if(!force && c && c.v===ETF_SCHEMA && Date.now()-c.at < ETF_TTL && (t!=='NCLD' || c.exposureVersion===1)) return c;
   const lo = encodeURIComponent(t.toLowerCase()), h = Math.floor(Date.now()/36e5);
   const [a, b, iss] = await Promise.all([etfFetch(`https://tickerinside.com/api/v1/fund/${lo}.json?h=${h}`), etfFetch(`https://etfiq.com/data/books/${lo}.json?h=${h}`), etfIssuer(!!force).catch(()=>null)]);
   const I = iss && iss.funds && iss.funds[t] && Array.isArray(iss.funds[t].rows) && iss.funds[t].rows.length && /^\d{4}-\d{2}-\d{2}$/.test(iss.funds[t].asOf||'') && (Date.now()-Date.parse(iss.funds[t].asOf)) < 12*864e5 ? iss.funds[t] : null;
@@ -4258,8 +4258,8 @@ async function etfLoad(t, force){ const c = etfData[t]; if(!force && c && c.v===
   if(!useIss && d.src==='TickerInside' && a.j && d.layer==='sponsor_files' && d.unm > 0){   // sponsor-file fund (e.g. NCLD): add the stock lines that have no ticker in the file
     const e = await etfFetch(`https://tickerinside.com/api/v1/etf/${lo}.json?h=${h}`); const lines = e.j && Array.isArray(e.j.lines) ? e.j.lines.filter(l=>l && l.kind==='stock' && l.pct > 0) : [];
     if(lines.length) rows = rows.concat(await etfNameLines(lines)); else partial = d.unm; }
-  d = {name:d.name||'', asOf:d.asOf||'', kind:d.kind||'', listed:d.listed, src:d.src, rows: etfFinish(rows), v:ETF_SCHEMA, at:Date.now()}; if(useIss) d.iss = 1;
-  if(partial) d.partial = partial; if(d.kind==='derivative') d.listed = d.rows.reduce((s,r)=>s+r[2],0);
+  d = {name:d.name||'', asOf:d.asOf||'', kind:d.kind||'', listed:d.listed, src:d.src, rows: etfFinish(rows), v:ETF_SCHEMA, at:Date.now()}; if(useIss){ d.iss = 1; if(t==='NCLD' && I.exposureVersion===1){ d.exposureVersion=1; d.weightBasis=I.weightBasis; d.directWeight=I.directWeight; d.swapWeight=I.swapWeight; d.sourceFileAsOf=I.sourceFileAsOf||''; d.listed=I.directWeight; if(I.stale || I.mappingIssue) d.partial=Math.max(+d.partial||0,+I.swapWeight||0.001); } }
+  if(partial) d.partial = partial; if(d.kind==='derivative' && !(t==='NCLD' && d.exposureVersion===1)) d.listed = d.rows.reduce((s,r)=>s+r[2],0);
   etfData[t] = d;
   try{ localStorage.setItem(ETF_KEY, JSON.stringify(etfData)); }catch(e){ etfData = {[t]:d}; try{ localStorage.setItem(ETF_KEY, JSON.stringify(etfData)); }catch(e2){} }
   return d; }
@@ -4390,6 +4390,12 @@ function drawEtf(){ const t = etfUi.sel, d = etfData[t], ei = secInst({sym:t, ty
   note.textContent = `${I18n.p("ui-0535","מקור ההרכב: ")}${d.src}${dt ? ' · '+dt : ''}${d.kind==='derivative' ? `${I18n.p("ui-0534"," · חלק מהחשיפה בנגזרים")}${d.listed!=null ? `${I18n.p("ui-0533"," (מניות ישירות ~")}${Math.round(d.listed)}%)` : ''}` : ''}${I18n.p("ui-0536",". משקל = אומדן לפי שינוי המחירים מאז תאריך ההרכב. מחירים: המקורות הקיימים באפליקציה.")}`
     + (nqn ? ` ${nqn}${I18n.p("ui-0537"," פוזיציות ללא סימול נסחר מוצגות לפי שם, בלי מחיר.")}` : '') + (d.partial ? `${I18n.p("ui-0538"," ⚠️ כ-")}${Math.round(d.partial)}${I18n.p("ui-0539","% מנכסי הקרן במניות שהמקור לא זיהה – הן לא מוצגות.")}` : '')
     + (age > 21 ? I18n.p("ui-0540"," ⚠️ ההרכב מדו״ח SEC רבעוני ישן – ייתכן שהקרן עודכנה מאז ויש החזקות שלא מופיעות כאן.") : '');
+  if(t==='NCLD' && d.exposureVersion===1){
+    const en=I18n.language==='en', total=d.rows.reduce((v,r)=>v+r[2],0).toFixed(2), direct=(+d.directWeight||0).toFixed(2), swaps=(+d.swapWeight||0).toFixed(2);
+    note.textContent = en
+      ? `Holdings source: ${d.src}. Economic equity exposure combines direct stock (${direct}%) and total return swaps (${swaps}%) on the same underlying: ${total}% in total. Cash and collateral are not counted again. CSV row date: ${d.asOf}; source filename date: ${d.sourceFileAsOf||'unavailable'}. These are separate source dates, not an agreed valuation date. Displayed weights are live estimates, not the issuer snapshot weights.`
+      : `מקור ההרכב: ${d.src}. החשיפה לכל חברה כוללת מניות ישירות (${direct}%) וחוזי החלף (${swaps}%): סך הכול ${total}% חשיפה מנייתית. מזומן וביטחונות אינם נספרים שוב. תאריך השורות בקובץ: ${d.asOf}; תאריך שם קובץ המקור: ${d.sourceFileAsOf||'לא זמין'}. אלה תאריכי מקור נפרדים, לא תאריך שווי מוסכם. המשקל המוצג הוא אומדן חי, לא משקל המנפיק במועד ההרכב.`;
+  }
   note.textContent += I18n.language==='en'
     ? ' Estimate, not official NAV. Weights follow regular, pre, after and night prices. Current quote coverage is by the displayed stock weights; quotes older than 15 minutes in an active session are not counted as current. Missing quotes/base closes retain the regular price or snapshot weight. Basket daily change is against prior regular closes; the extra session line is against the last regular close. No per-share NAV is inferred from total assets.'
     : ' אומדן, לא NAV רשמי. המשקלים כוללים מסחר רציף, pre, after ו-night. כיסוי מחירים עדכניים מחושב מתוך משקלי המניות המוצגות; מחיר מלפני יותר מ-15 דקות בשלב פעיל אינו נספר כעדכני. בהיעדר מחיר או מחיר בסיס נשמר המחיר הרגיל או משקל ההרכב. שינוי הסל היומי ביחס לסגירה הקודמת, ושורת המסחר הנוסף ביחס לסגירה הרגילה האחרונה. לא מחושב NAV ליחידה מתוך סך הנכסים.';
