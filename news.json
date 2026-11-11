@@ -32315,5 +32315,34 @@
         "source_hash": "3c01868ddfccf7a1766b662ec8ea635f3c236fa903b5c8ccd2e5ec8777d381d2"
       }
     }
+  },
+  {
+    "מזהה": "n-1313",
+    "category": "macro",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-11 13:48",
+    "קישור": "https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-oil-prices-on-core-inflation-recent-evidence-from-the-advanced-economies-20261109.html",
+    "כותרת": "השלמה מ-9.11 | מחקר חוקרי הפד: התייקרות הנפט עשויה לחלחל יותר לאינפלציית הליבה, בתרחיש מותנה ולא בתחזית רשמית",
+    "כותרת_en": "Nov 9 catch-up | Fed staff research: oil increases may feed more strongly into core inflation, a conditional risk rather than an official forecast",
+    "טקסט": "9.11.2026 | FEDS Notes, מאמר מחקר של Andrea De Michelis, Musa Orak, Avani Pradhan ו-Albert Queralto. המקור המלא נקרא; שעת הפרסום המקורית לא מצוינת. כתבת Yahoo מ-11 בנובמבר היא סיקור מאוחר, לא תאריך פרסום המחקר.\n\nבפאנל של ארה\"ב, גוש האירו, בריטניה, יפן וקנדה עד הרבעון השני של 2026, החוקרים מוצאים שהתמדת אינפלציית הליבה והעברת מחירי הנפט אליה התחזקו אחרי המגפה. זהו ניתוח מחקרי נפרד מאמירות וולר שכבר סוקרו ב-n-1185, לא החלטת ריבית או נתון אינפלציה חדש.\n\nבתרגיל המודל, עלייה קבועה של 10% במחיר הנפט מעלה את רמת מחירי הליבה הממוצעת לאחר שלוש שנים בכ-0.35%, לעומת כ-0.05% בדינמיקה שלפני המגפה. אלה שינויים מצטברים ברמת המחירים, לא תחזית לתוספת של 0.35 נקודת אחוז לקצב האינפלציה השנתי.\n\nבתרגיל מותנה נוסף, המתבסס בין היתר על עקום חוזי Brent מתחילת אוגוסט ועל נתוני שרשראות אספקה עד יוני, אינפלציית הליבה הממוצעת בחמש הכלכלות מגיעה לכמעט 2.8% סביב אמצע 2027, לעומת שיא של כ-2.2% במודל עם הדינמיקה הישנה. החוקרים מגדירים את המסלול גבול עליון אפשרי להשפעה ולא תחזית מרכזית; אין זו תחזית רשמית של הפד או תחזית לארה\"ב לבדה.\n\nהתקופה שלאחר המגפה קצרה וחריגה, והמודל אינו יכול להפריד בוודאות שינוי מבני מהשפעת זעזועים גלובליים תכופים או מתמשכים. לא ידוע אם התמסורת החזקה תימשך; באירופה ובבריטניה העלייה בה לא נמצאה מובהקת בנפרד. לפי המאמר, אפקטים משניים עדיין לא התממשו. המסקנה היא סיכון מותנה לאינפלציה אם האנרגיה תישאר יקרה או שיבושי האספקה יימשכו, לא הוכחה שאינפלציית הליבה כבר האיצה או התחייבות להעלאת ריבית.",
+    "טקסט_en": "Nov 9, 2026 | FEDS Notes research by Andrea De Michelis, Musa Orak, Avani Pradhan and Albert Queralto. Full primary read; no original publication time is shown. Yahoo coverage dated Nov 11 is a later article, not the research publication date.\n\nUsing a panel of the U.S., euro area, U.K., Japan and Canada through 2026 Q2, the authors find stronger post-pandemic core-inflation persistence and oil-to-core pass-through. This is a separate research analysis from Waller remarks already covered in n-1185, not a rate decision or new measured inflation release.\n\nIn the model exercise, a permanent 10% oil-price increase raises the average core price level after three years by about 0.35%, compared with about 0.05% under pre-pandemic dynamics. These are cumulative price-level changes, not a forecast of a 0.35-percentage-point addition to annual inflation.\n\nA separate conditional exercise, using inputs including the early-August Brent futures curve and supply-chain data through June, puts average core inflation across the five economies near 2.8% around mid-2027, compared with a peak near 2.2% under old dynamics. The authors describe this path as an upper bound on the likely impact rather than a central prediction. It is neither an official Fed forecast nor a forecast for the U.S. alone.\n\nThe post-pandemic sample is short and unusual. The model cannot conclusively distinguish structural change from more frequent or persistent global shocks. Stronger pass-through may not endure; its increase was not separately statistically significant in the euro area and U.K. The note says second-round effects have not yet materialized. The finding is a conditional upside inflation risk if energy stays expensive or supply disruption persists, not proof that core inflation has already accelerated or a commitment to raise rates.",
+    "מקורות": [
+      {
+        "label": "הפדרל ריזרב: FEDS Notes מ-9 בנובמבר, מחקר מלא ודעות המחברים",
+        "label_en": "Federal Reserve: full Nov 9 FEDS Notes research, authors' views",
+        "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-oil-prices-on-core-inflation-recent-evidence-from-the-advanced-economies-20261109.html"
+      },
+      {
+        "label": "Yahoo Finance: סיקור מ-11 בנובמבר, לא תאריך המקור",
+        "label_en": "Yahoo Finance: Nov 11 coverage, not the original publication date",
+        "url": "https://finance.yahoo.com/economy/article/energy-prices-matter-way-more-for-inflation-than-they-used-to-fed-report-110000366.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "46810cc5811b4bc36ed6c1ee9bd810d1f10713bba97ea1d9d99fb74b10638f40"
+      }
+    }
   }
 ]
