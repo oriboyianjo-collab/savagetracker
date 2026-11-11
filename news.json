@@ -32280,5 +32280,40 @@
         "source_hash": "bac1bb87a6064e18643387d519538f03bbe8fccba2321f2a019e6b4b37c1758d"
       }
     }
+  },
+  {
+    "מזהה": "n-1312",
+    "category": "micro",
+    "חברה": "Western Union (WU) / Intermex (IMXI)",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 13:42",
+    "קישור": "https://markets.financialcontent.com/stocks/article/gnwcq-2026-11-11-intermex-rejects-western-unions-purported-termination-of-merger-agreement",
+    "כותרת": "עדכון Western Union (WU) / Intermex (IMXI): אינטרמקס דוחה את הודעת הביטול ודורשת להשלים את המיזוג",
+    "כותרת_en": "Western Union (WU) / Intermex (IMXI) update: Intermex rejects termination notice and demands merger completion",
+    "טקסט": "11.11.2026 | הודעת Intermex בהפצת GlobeNewswire דרך FinancialContent פורסמה ב-06:30 EST, 13:30 שעון ישראל, ונקראה במלואה. נקראו גם הודעת Western Union המקורית ותגובת רגולטור קליפורניה.\n\nעדכון ל-n-1270, שסיקר את הודעת Western Union על ביטול רכישת Intermex: Intermex מסרה שהיא דוחה את תוקף הודעת הביטול שנמסרה לה בלילה, ובאמצעות עורכי דינה דורשת מ-Western Union לעשות את הנדרש להשלמת המיזוג. זו מחלוקת על ביטול העסקה, לא אישור ששני הצדדים הסכימו להיפרד.\n\nIntermex טוענת שמילאה את התחייבויותיה ושהיא מוכנה להשלים את העסקה. היא שומרת על זכויותיה לבקש אכיפה של ההסכם ופיצויים משמעותיים. ההודעה אינה פסיקה לטובתה ואינה מאמתת שהוגשה כבר תביעה או שנקבע סכום פיצויים.\n\nWestern Union הודיעה ב-10 בנובמבר על מסירת הודעת ביטול, בטענה שתנאי האישור הסופיים של DFPI בקליפורניה אינם מקובלים עליה ומשנים מהותית את המודל העסקי וקשרי הסוכנים. הטענה שאין תשלום בין הצדדים עקב הביטול היא עמדת Western Union בהודעתה, לא הכרעה שמבטלת את דרישות Intermex.\n\nDFPI מצדו הודיע על אישור מותנה, לא על חסימה מוחלטת של העסקה. התנאים נוגעים למניעת הונאות והלבנת הון, לחופש בחירת שירות אצל סוכנים ולשמירת גישה תחרותית. אין כאן אישור שהעסקה הושלמה, שהמחלוקת הוכרעה או שתנאי קליפורניה בוטלו.",
+    "טקסט_en": "Nov 11, 2026 | Intermex's GlobeNewswire release carried by FinancialContent was published at 06:30 EST, 13:30 Israel time, and read in full. Western Union's original release and California regulator DFPI's announcement were also read.\n\nUpdate to n-1270, which covered Western Union's announced termination of its Intermex acquisition: Intermex rejects the validity of the notice delivered overnight and, through counsel, demands that Western Union take the actions needed to complete the merger. Termination is disputed, not mutually agreed.\n\nIntermex says it satisfied its obligations and stands ready to close. It reserves rights to seek specific performance and substantial damages. This is not a ruling in its favor, confirmation that a lawsuit has already been filed or an awarded damages amount.\n\nWestern Union announced its termination notice Nov 10, saying California DFPI's final approval conditions were unacceptable and would materially change its business model and agent relationships. Its statement that neither party owes a payment upon termination is Western Union's position, not a ruling extinguishing Intermex's demands.\n\nDFPI announced conditional approval, not an outright block. Conditions address fraud and money-laundering prevention, consumer choice at agent locations and competitive access. The transaction has not been confirmed closed, the dispute resolved or California's conditions withdrawn.",
+    "מקורות": [
+      {
+        "label": "Intermex: הודעת החברה בהפצת GlobeNewswire דרך FinancialContent",
+        "label_en": "Intermex: company GlobeNewswire release via FinancialContent",
+        "url": "https://markets.financialcontent.com/stocks/article/gnwcq-2026-11-11-intermex-rejects-western-unions-purported-termination-of-merger-agreement"
+      },
+      {
+        "label": "Western Union: הודעת הביטול המקורית באתר החברה",
+        "label_en": "Western Union: original termination announcement on company site",
+        "url": "https://ir.westernunion.com/news/archived-press-releases/press-release-details/2026/Western-Union-Announces-Termination-of-Agreement-to-Acquire-Intermex/default.aspx"
+      },
+      {
+        "label": "DFPI: הודעת הרגולטור על האישור המותנה",
+        "label_en": "DFPI: regulator announcement of conditional approval",
+        "url": "https://dfpi.ca.gov/press_release/california-imposes-conditions-on-western-unions-proposed-acquisition-of-major-remittance-provider-intermex/"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3c01868ddfccf7a1766b662ec8ea635f3c236fa903b5c8ccd2e5ec8777d381d2"
+      }
+    }
   }
 ]
