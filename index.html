@@ -5042,10 +5042,11 @@ let posChart = null, posLive = null;
 let sheetSym = null, sheetPrice = null;   // symbol of the open position sheet (for live updates)
 // ---- v87: screen stack for the back button ----
 const NAV = []; let navRestoring = false, sheetOpener = null, srchRet = null;
+const backDrafts = new WeakMap();
 const backLayers = new Map();   // created before session restore: setTab -> navPush -> backLayerSync must not touch this while it is still in the temporal dead zone
 function navPush(e){ backLayerSync(); NAV.push(e); if(NAV.length > 60) NAV.splice(0, NAV.length - 60); if(window.__backInterrupt) window.__backInterrupt(); }   // v240: an intervening action breaks the exit double-press
 function navDrop(t){ const e = NAV[NAV.length-1]; if(e && e.t===t) NAV.pop(); }
-function navBack(){ backLayerSync();const layer=NAV[NAV.length-1];if(layer?.t==='layer'){NAV.pop();const active=backLayers.get(layer.key);backLayers.delete(layer.key);active?.close();backLayerSync();return true;} if(ChartTools.isOpen()){ChartTools.close();return true;} const e = NAV.pop(); if(!e) return false; navRestoring = true;
+function navBack(){ backLayerSync();const layer=NAV[NAV.length-1];if(layer?.t==='layer'){const candidate=backLayers.get(layer.key);if(candidate&&!backMayClose(candidate.el))return true;NAV.pop();const active=backLayers.get(layer.key);backLayers.delete(layer.key);active?.close();backLayerSync();return true;} if(ChartTools.isOpen()){ChartTools.close();return true;} const next=NAV[NAV.length-1];if(next?.t==='navOrder'&&!backMayClose($('settingsCard')))return true;if(next&&['sheet','sheetClose'].includes(next.t)&&!backMayClose($('sheetBody')))return true;const e = NAV.pop(); if(!e) return false; navRestoring = true;
   try{ if(e.t==='tab'){ if($('sheet').classList.contains('open')) closeSheet(); setTab(e.tab); }
     else if(e.t==='navOrder'){navOrderDraft=null;renderSettings();}
     else if(e.t==='srch') srchHide();
@@ -5066,7 +5067,7 @@ function navSheet(name, f, keyOf){ return (...a)=>{ const was = $('sheet').class
     else if(was && prev) navPush({t:'sheet', key:prev.key, reopen:prev.open});
     else if(!was){ navPush({t:'sheetClose', srchQ:srchRet}); } }
   srchRet = null; return r; }; }
-function openSheet(html){ obStop(); sheetSym = null; instSheet = null; posDet = null; if(posChart){ posChart.remove(); posChart=null; } $('sheetBody').innerHTML = html; $('sheetBg').classList.add('open'); $('sheet').classList.add('open'); $('sheet').scrollTop = 0; }
+function openSheet(html){ backDrafts.delete($('sheetBody'));obStop(); sheetSym = null; instSheet = null; posDet = null; if(posChart){ posChart.remove(); posChart=null; } $('sheetBody').innerHTML = html; const draftBody=$('sheetBody');queueMicrotask(()=>{if(draftBody.isConnected)backDrafts.set(draftBody,{value:backFormValue(draftBody),edited:false})}); $('sheetBg').classList.add('open'); $('sheet').classList.add('open'); $('sheet').scrollTop = 0; }
 function closeSheet(){ backLayerDiscard($('sheet')); obStop(); if(!navRestoring){ while(NAV.length && NAV[NAV.length-1].t==='sheet') NAV.pop(); navDrop('sheetClose'); } sheetOpener = null; sheetSym = null; instSheet = null; $('sheetBg').classList.remove('open'); $('sheet').classList.remove('open'); if(posChart){ posChart.remove(); posChart=null; } posLive = null; }
 $('sheetBg').onclick = closeSheet;
 $('sheetBody').addEventListener('click', e=>{ if(e.target.closest('[data-close]')) closeSheet(); });
@@ -7081,10 +7082,35 @@ window.__portfolio = {etfEstimate,etfLiveW,get etfTracking(){const d=etfData[etf
 // Transient controls are navigation layers, not screen changes. backLayers itself is created with NAV, before session restore.
 function backLayerDiscard(root){for(const [key,v]of backLayers)if(root?.contains(v.el)){backLayers.delete(key);for(let i=NAV.length-1;i>=0;i--)if(NAV[i].t==='layer'&&NAV[i].key===key)NAV.splice(i,1)}}
 function backLayerVisible(el){if(!el?.isConnected||el.closest('[hidden]'))return false;const sheet=el.closest('.sheet');if(sheet&&!sheet.classList.contains('open'))return false;const tab=el.closest('section.tab');return (!tab||tab.classList.contains('on'))&&getComputedStyle(el).display!=='none'&&el.getClientRects().length>0;}
+function backFormValue(root){return JSON.stringify([...root.querySelectorAll('input,textarea,select')].filter(el=>!['button','submit','search'].includes(el.type)).map(el=>[el.id||el.name,el.type==='checkbox'||el.type==='radio'?el.checked:el.value]).concat([...root.querySelectorAll('form button.on,#txType button.on')].map(el=>[el.dataset.type||el.id||el.textContent,true])));}
+function backMayClose(root){
+ if(!root)return true;
+ let dirty=false;
+ if(root.id==='settingsCard'&&navOrderDraft){const cfg=navOrderRead();dirty=JSON.stringify([navOrderDraft,navVisibleDraft])!==JSON.stringify([cfg.order,cfg.visible]);}
+ else if(root.id==='wlOrderDialog')dirty=JSON.stringify(wlOrderDraft)!==JSON.stringify(wlData.lists.map(l=>l.id));
+ else {const d=backDrafts.get(root);dirty=!!d?.edited&&d.value!==backFormValue(root);}
+ return !dirty||confirm(I18n.language==='en'?'Discard unsaved changes? Cancel keeps editing.':'לצאת בלי לשמור את השינויים? ביטול משאיר את העריכה פתוחה.');
+}
+// Track only real edits. Background quote refreshes and auto-saved preferences are not drafts.
+for(const event of ['focusin','input','change','click'])document.addEventListener(event,e=>{
+ const root=e.target.closest('dialog[open]')||(e.target.closest('#sheetBody')&&$('sheetBody'));
+ if(!root||!e.target.matches('input,textarea,select,form button,#txType button'))return;
+ let d=backDrafts.get(root);if(!d){d={value:backFormValue(root),edited:false};backDrafts.set(root,d)}
+ if(event!=='focusin')d.edited=true;
+},true);
 function backLayerSync(){const found=new Map(),add=(key,el,close)=>{if(backLayerVisible(el))found.set(key,{el,close})};
+ // Register parent edit surfaces before their nested menus/autocomplete.
+ if(idxEditing)add('index-edit',$('idxEditBar'),()=>{idxEditing=false;$('idxAc').classList.remove('open');$('idxSearch').blur();renderIdx()});
+ if(mktEditing)add('market-edit',$('mktEditBar'),()=>{mktEditing=false;drawMarket()});
+ if(comEditing)add('commodity-edit',$('comEditBox'),()=>{comEditing=false;drawCom()});
+ if(glbEditing)add('global-edit',$('glbEditBox'),()=>{glbEditing=false;drawGlb()});
+ if(fxEditing)add('currency-edit',$('fxEditBox'),()=>{fxEditing=false;drawFx()});
+ if(etfEditOpen)add('fund-map-edit',document.querySelector('#etfCard .ft-cfg'),()=>{etfEditOpen=false;etfAddOpen=false;drawEtfAdd();drawEtfSel()});
+ if(etfAddOpen&&!etfEditOpen)add('fund-add',$('etfAdd'),()=>{etfAddOpen=false;drawEtfAdd();drawEtfSel()});
+ if(wlEditing)add('watch-row-edit',document.querySelector('#wlLists .wl-rows.editing'),()=>{wlEditing=null;drawWatch()});
  add('watch-picker',$('wlToMenu'),()=>{$('wlToMenu').hidden=true;$('wlToBtn').setAttribute('aria-expanded','false')});
  add('watch-sort',$('wlSortPick'),()=>{wlSortMenu=null;drawWatchSort()});
- add('watch-edit',document.querySelector('#wlTabs .wl-menu'),()=>{wlMenu=null;drawWatch()});
+ add('watch-menu',document.querySelector('#wlTabs .wl-menu'),()=>{wlMenu=null;drawWatch()});
  add('position-sort',document.querySelector('#posSort .wl-pm'),()=>{posSortMenu=false;renderSortBar(computeAll().positions.length)});
  add('transaction-year',document.querySelector('#txHistBar .wl-pm'),()=>{ui.txYearMenu=false;renderTxList()});
  add('finance-sort',$('finSortMenu'),()=>{$('finSortMenu').hidden=true;$('finSortBtn').setAttribute('aria-expanded','false')});
@@ -7092,15 +7118,18 @@ function backLayerSync(){const found=new Map(),add=(key,el,close)=>{if(backLayer
  add('etf-menu',document.querySelector('#etfHd .wl-menu'),()=>{etfMenuOpen=false;drawEtf()});
  document.querySelectorAll('[data-pdf-year-menu],.report-qmenu').forEach(el=>{const p=el.closest('[data-pdf-symbol]'),year=el.hasAttribute('data-pdf-year-menu');add('report-'+(p?.dataset.pdfSymbol||'')+(year?'-year':'-quarter'),el,()=>{el.hidden=true;el.parentElement.querySelector(year?'[data-pdf-year-open]':'[data-pdf-q]')?.setAttribute('aria-expanded','false')})});
  document.querySelectorAll('.wl-add-box .wl-pick').forEach(el=>add('add-to-watch-'+el.parentElement.dataset.wlsym,el,()=>{el.hidden=true;el.parentElement.querySelector('[data-wladd]')?.setAttribute('aria-expanded','false')}));
+ document.querySelectorAll('details[open]').forEach((el,i)=>add('details-'+(el.id||i),el,()=>{el.open=false}));
  document.querySelectorAll('.ac-list.open').forEach((el,i)=>add('autocomplete-'+(el.id||el.dataset.ticklist||i),el,()=>{el.classList.remove('open');el.parentElement.querySelector('input')?.blur()}));
  add('chart-workspace',document.querySelector('.ct-work'),()=>ChartTools.close());
  add('info-popup',document.querySelector('.ib-bg.open'),()=>window.closeIb?.());
  document.querySelectorAll('.ct-settings:not([hidden])').forEach(el=>add('chart-tools',el,()=>el.closest('.ct-work')?.querySelector('[data-ct=tools]')?.click()));
  document.querySelectorAll('.ct-choice-panel').forEach(el=>add('chart-choice',el,()=>el.querySelector('[data-choice-close]')?.click()));
- document.querySelectorAll('dialog[open]').forEach((el,i)=>add('dialog-'+(el.id||i),el,()=>el.close()));
+ document.querySelectorAll('dialog[open]').forEach((el,i)=>add('dialog-'+(el.id||i),el,()=>{backDrafts.delete(el);el.close()}));
  for(const key of backLayers.keys())if(!found.has(key)){backLayers.delete(key);for(let i=NAV.length-1;i>=0;i--)if(NAV[i].t==='layer'&&NAV[i].key===key)NAV.splice(i,1)}
  for(const [key,value]of found){if(!backLayers.has(key)){NAV.push({t:'layer',key});window.__backInterrupt?.()}backLayers.set(key,value)}
 }
+document.addEventListener('close',e=>{if(e.target.matches('dialog'))backDrafts.delete(e.target)},true);
+document.addEventListener('cancel',e=>{if(e.target.matches('dialog')&&!backMayClose(e.target))e.preventDefault()},true);
 new MutationObserver(()=>backLayerSync()).observe(document.body,{subtree:true,childList:true,attributes:true,attributeFilter:['hidden','open','class','aria-expanded']});
 
 // v77: Android back button – never leave the app on one press. History: [base, top(+ overlay entries)]. Popping back to 'base' =
