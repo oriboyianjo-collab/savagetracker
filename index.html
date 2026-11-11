@@ -613,6 +613,8 @@ html.dark .rq{color:#a5b4fc}html.dark .rtag{color:#93c5fd}
 body.kb-on nav.bottom,body.kb-on .nav-srch{display:none!important}body.kb-on{--nav-h:0px}
 body.kb-on header.top .tot-pre,body.kb-on header.top .upd,body.kb-on header.top #hDayLbl,body.kb-on header.top .hmin,body.kb-on header.top .tot-row,body.kb-on header.top .tot-day,body.kb-on header.top .tot-wrap{display:none!important}
 body.kb-on main{padding-bottom:12px!important}
+/* Portfolio end gap: 23px (16px body + 8px card - 1px nav border) -> 4.6px. Keep fixed nav and keyboard spacing unchanged. */
+body:not(.kb-on):has(#tab-portfolio.on){padding-bottom:calc(var(--nav-h) + var(--safe-b) - 2.4px)}
 .pc-ch{background:var(--bg-fff);border:1px solid var(--border);border-radius:12px;padding:6px}.pc-ch-t{display:flex;gap:6px;align-items:center;justify-content:space-between;margin-bottom:6px;overflow-x:auto;scrollbar-width:none}
 .pc-ch-t .seg{flex:0 0 auto}.pc-ch-t .seg button{padding:4px 8px;font-size:.72rem;min-height:28px}.pc-ch .chart{margin:0}
 #ntRep{position:relative}
