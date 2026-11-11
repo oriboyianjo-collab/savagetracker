@@ -2390,17 +2390,21 @@
     "מדינה": "US",
     "אירוע": "נתוני ניירות ערך מסחריים (CP) - הפד",
     "חשיבות": 1,
-    "הערה": "המשך סדרות שכבר ביומן ל2–6.11; לוח הפד13:00/16:15ET. CP בדרך כלל13:00 אך השעה אינה מובטחת; אין צפי יחיד",
-    "מקור": "https://federalreserve.gov/newsevents/2026-november.htm",
+    "הערה": "פרסום CP הרשמי נבדק ב-11.11 בשעה 04:15 בישראל: נתונים ל-9 בנובמבר, פורסמו ב-10 בנובמבר. ריביות שנתיות באחוזים, לפי דירוג וסוג מנפיק ותקופה: AA לא-פיננסי ליום 3.92% ול-30 יום 4.01%; A2/P2 לא-פיננסי ליום 4.01% ול-30 יום 4.16%; AA פיננסי ליום 3.88% ול-90 יום 4.03%; AA מגובה נכסים ליום 3.93% ול-30 יום 4.08%. אלה סדרות נפרדות, ללא נתון בפועל יחיד או צפי יחיד, ולא החלטת ריבית של הפד. n.a. פירושו שאין די נתוני עסקאות לחישוב הריבית, לא אפס. יתר התקופות וטבלאות היתרות במקור; אין לייחס את תאריך נתוני הריביות לכל טבלאות היתרות.",
+    "מקור": "https://www.federalreserve.gov/releases/cp/",
     "מזהה": "c-0099",
     "אירוע_en": "Commercial paper (CP) data - Fed",
-    "הערה_en": "Continuation of series already in the calendar for Nov 2-6; Fed schedule 13:00/16:15 ET. CP usually at 13:00 but the time is not guaranteed; no single estimate",
+    "הערה_en": "Official CP release checked Nov 11 at 04:15 Israel: data as of Nov 9, posted Nov 10. Annual interest rates in percent, by issuer rating/type and maturity: AA nonfinancial 1-day 3.92% and 30-day 4.01%; A2/P2 nonfinancial 1-day 4.01% and 30-day 4.16%; AA financial 1-day 3.88% and 90-day 4.03%; AA asset-backed 1-day 3.93% and 30-day 4.08%. Separate series, no single actual or forecast, and not a Fed policy-rate decision. n.a. means insufficient trade data to calculate a rate, not zero. Other maturities and outstanding tables are in the source; the rate observation date does not apply to every outstanding table.",
     "_translation": {
       "en": {
-        "source_hash": "0750ab7f03c8586ca1435eadf67aab1bfa75d45a3efa8af655252b14c5b9460f",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "a95f4e78e557fae661e720e8dd86770d231dd6111ec01a075b3a00c54e6161e0"
       }
-    }
+    },
+    "בפועל": "פורסם · נתוני 9.11",
+    "בפועל_en": "Published · Nov 9 data",
+    "תקופה": "נתוני 9.11.2026; פורסם 10.11",
+    "תקופה_en": "Nov 9, 2026 data; posted Nov 10"
   },
   {
     "תאריך": "2026-11-10",
