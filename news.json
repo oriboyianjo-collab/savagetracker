@@ -32255,5 +32255,30 @@
         "source_hash": "30837e5575acfd873de2d90c78f62a4006ef79587b733d930a575ccabd7fba58"
       }
     }
+  },
+  {
+    "מזהה": "n-1311",
+    "category": "macro",
+    "חברה": "PBOC / China",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 13:28",
+    "קישור": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116292271519/index.html",
+    "כותרת": "סין: הבנק המרכזי מתכנן לגוון את עוגני תמחור ההלוואות מעבר ל-LPR, ומתחייב להגביר תמיכה בביקוש",
+    "כותרת_en": "China: PBOC plans more diverse loan-pricing benchmarks beyond LPR and pledges greater demand support",
+    "טקסט": "11.11.2026 | תקציר האינטרנט הרשמי של דוח יישום המדיניות המוניטרית לרבעון השלישי נקרא במלואו. קובץ הדוח המלא המצורף לא נקרא. העמוד מציג 18:00:16 ללא אזור זמן מפורש; לא אומתה כאן שעת הפרסום בשעון ישראל.\n\nהבנק המרכזי של סין מציג כיוון לשינוי עוגני תמחור ההלוואות: מעבר מהסתמכות יחסית מצומצמת על ריבית ה-LPR למגוון רחב יותר של עוגנים. זו הנחיה להמשך שינוי מנגנון התמחור, לא הודעה שכל ההלוואות כבר תומחרו מחדש, שה-LPR בוטלה או שנקבעה ריבית חדשה היום.\n\nהבנק מתחייב להגביר התאמות נגד המחזור הכלכלי, להרחיב ביקוש מקומי ולהמשיך במדיניות מוניטרית מקלה במידה. הוא מציין שמירה על נזילות מספקת, התאמה גמישה של כלי המדיניות, הורדת עלויות תיווך במימון ויציבות בסיסית של היואן ברמה סבירה ומאוזנת. אין כאן לוח זמנים או סכום חדש של תוכנית תמריצים.\n\nהתקציר כולל גם סקירה לאחור של תשעת החודשים הראשונים, ובה הפחתה של 0.25 נקודת אחוז בריבית מתקן PSL ותוספות מכסות מימון. אלה צעדים המתוארים כחלק מהתקופה שנסקרה, ולא החלטות חדשות שהתקבלו ב-11 בנובמבר.\n\nהפריט נפרד מ-n-0464 על הפחתת ריבית המימון לרכישות מניות ב-4 בנובמבר. כאן החידוש הוא כיוון מדיניות ותמחור הלוואות בדוח רבעוני, לא הפחתת ריבית נוספת שנכנסה לתוקף.",
+    "טקסט_en": "Nov 11, 2026 | The complete official web summary of the third-quarter monetary-policy implementation report was read. The attached full report was not read. The page displays 18:00:16 without an explicit timezone; its Israel-time publication clock was not verified.\n\nThe People's Bank of China sets a direction for loan-pricing benchmarks to move from relatively singular reliance on the Loan Prime Rate, or LPR, toward more diversified benchmarks. This is guidance for reform of pricing arrangements, not confirmation that all loans have already been repriced, the LPR abolished or a new rate set today.\n\nThe bank pledges stronger countercyclical adjustments, support for domestic demand and continued moderately loose monetary policy. It calls for ample liquidity, flexible adjustment of policy tools, lower financing-intermediation fees and a basically stable yuan at a reasonable, balanced level. It announces no new stimulus amount or timetable.\n\nThe summary also reviews measures over the first nine months, including a 0.25-percentage-point PSL facility rate cut and additional relending quotas. These are retrospective measures, not new decisions taken Nov 11.\n\nThis is separate from n-0464 on the Nov 4 stock-buyback financing rate cut. The development here is policy direction and loan-pricing reform in a quarterly report, not another rate cut taking effect.",
+    "מקורות": [
+      {
+        "label": "הבנק המרכזי של סין: תקציר האינטרנט הרשמי של דוח הרבעון השלישי",
+        "label_en": "PBOC: official web summary of the third-quarter report",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116292271519/index.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bac1bb87a6064e18643387d519538f03bbe8fccba2321f2a019e6b4b37c1758d"
+      }
+    }
   }
 ]
