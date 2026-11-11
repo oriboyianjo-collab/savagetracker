@@ -31985,5 +31985,35 @@
         "source_hash": "0eea1fbcb02da581c4c2252ff244984473ef8d3974100c6a1957f49a80ea4c6a"
       }
     }
+  },
+  {
+    "מזהה": "n-1301",
+    "category": "micro",
+    "חברה": "Ondas (ONDS)",
+    "כותרת": "Ondas קיבלה הזמנת רכש בתוכנית Digital Bat לרחפני תקיפה; היקף ההזמנה לא נמסר",
+    "כותרת_en": "Ondas receives a Digital Bat tactical attack-drone purchase order; order size is undisclosed",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 12:57",
+    "קישור": "https://ir.ondas.com/press-releases/detail/340/ondas-receives-purchase-order-for-next-generation-tactical",
+    "טקסט": "השלמת סיקור להודעת החברה מ-10.11.2026, שפורסמה בהפצה ב-08:30 EST, 15:30 שעון ישראל. ההודעה המקורית נקראה במלואה; זה אינו פרסום חדש מ-11 בנובמבר.\n\nOndas הודיעה שקיבלה הזמנת רכש במסגרת תוכנית Digital Bat שכבר הוענקה לה בעבר, לפיתוח ולייצור רחפני תקיפה טקטיים בעלות נמוכה. החידוש הוא הזמנה במסגרת התוכנית הקיימת, לא זכייה ראשונה בתוכנית ולא אישור שמערך ייצור רחב כבר פועל.\n\nהחברה לא מסרה את שווי ההזמנה, זהות הלקוח, מספר היחידות המחייב או לוח המסירות. התייחסותה לביקוש אפשרי של עשרות אלפי מערכות וליכולת לייצר אלפים היא תחזית והיערכות עסקית, לא כמות שהוזמנה או הכנסה שהוכרה.\n\nAirobotics אמורה להוביל את הפיתוח, האוטונומיה, התוכנה ושילוב המערכות. Ondas מתכננת להיעזר ביכולות ההנדסה והייצור של ARAN Defense לאחר השלמת רכישתה המתוכננת, שהחברה מצפה לה ברבעון הרביעי. הרכישה עדיין מוצגת כעסקה ממתינה, ולא כהשלמה שבוצעה.\n\nזהו אירוע תפעולי נפרד מאישור התחרות לעסקת ארן ב-n-0126, מרכישת Stemme המתוכננת ב-n-0192 ומהזמנות המערכות נגד רחפנים ב-n-0455. ההודעה אינה מכמתת שינוי בתחזית ההכנסות, ואין להסיק ממנה הזמנה בתוכנית Drone Dominance האמריקאית שמוזכרת כרקע בלבד.",
+    "טקסט_en": "Catch-up coverage of the Nov 10, 2026 company announcement, distributed at 08:30 EST, 15:30 Israel time. The original announcement was read in full. This is not a new Nov 11 release.\n\nOndas said it received a purchase order under its previously awarded Digital Bat program for development and production of low-cost tactical attack drones. The development is an order under the existing program, not the initial program award or confirmation that large-scale manufacturing is already operating.\n\nThe company did not disclose the order value, customer, committed unit count or delivery schedule. References to potential demand for tens of thousands of systems and capacity to manufacture thousands are forward-looking plans, not ordered quantities or recognized revenue.\n\nAirobotics is to lead development, autonomy, software and systems integration. Ondas plans to use ARAN Defense engineering and manufacturing capabilities after completing its proposed acquisition, which it expects in the fourth quarter. The acquisition is still described as pending, not completed.\n\nThis is separate from the ARAN competition approval in n-0126, the proposed Stemme acquisition in n-0192 and counter-drone orders in n-0455. The release does not quantify a revenue-outlook change. It does not announce an order under the US Drone Dominance Program, mentioned only as background.",
+    "מקורות": [
+      {
+        "label": "Ondas: הודעת החברה המקורית ב-IR",
+        "label_en": "Ondas: original company IR release",
+        "url": "https://ir.ondas.com/press-releases/detail/340/ondas-receives-purchase-order-for-next-generation-tactical"
+      },
+      {
+        "label": "Newswire: ההודעה בהפצה ושעת הפרסום EST",
+        "label_en": "Newswire: distributed release and explicit EST publication clock",
+        "url": "https://www.newswire.com/news/ondas-receives-purchase-order-for-next-generation-tactical-attack-drones-aims"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e031119b3a23927420f2737bedaa0c9abf7a3c95911ef93d02f39868b7793f68"
+      }
+    }
   }
 ]
