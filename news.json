@@ -32479,5 +32479,35 @@
         "source_hash": "5c0a86d9fc12bdcc6ddd9a377c34f143d33283286de0fa4521342c27830e8bc8"
       }
     }
+  },
+  {
+    "מזהה": "n-1319",
+    "category": "micro",
+    "חברה": "TLN",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 14:03",
+    "קישור": "https://www.morningstar.com/news/globe-newswire/9875176/talen-signs-750-mw-long-term-capacity-agreement",
+    "כותרת": "Talen Energy (TLN): הסכם קיבולת של 750 מגה-ואט לשבע שנים ב-PJM, עם הכנסות צפויות של כ-100 מיליון דולר לשנה",
+    "כותרת_en": "Talen Energy (TLN): seven-year 750 MW PJM capacity agreement, with expected revenue of about $100 million annually",
+    "טקסט": "11.11.2026 | הודעת Talen בהפצת GlobeNewswire דרך Morningstar ו-StockTitan נקראה במלואה. StockTitan מציין 06:30 EST, 13:30 שעון ישראל.\n\nTalen הודיעה על מכירת קיבולת זמינה בהיקף 750 מגה-ואט מתחנת Guernsey לצד נגדי בדירוג השקעה, ששמו לא פורסם. ההסכם מכסה שבע שנות אספקה של PJM, מ-2029/2030 עד 2035/2036, וצפוי לפי החברה להניב כ-100 מיליון דולר לשנה. מדובר בתשלומי קיבולת עתידיים, לא במכירת 750 מגה-ואט-שעה של אנרגיה כעת או בהכנסה שכבר הוכרה.\n\nהחברה אומרת שבשילוב מכרזי קיבולת שכבר נסלקו, אותם מגה-ואט מספקים נראות להכנסות קיבולת מצטברות של כמיליארד דולר על פני עשר שנים. הסכום כולל את המכרזים הקודמים, ולא מתייחס לחוזה החדש לבדו.\n\nבהסכמים נפרדים הותקשרו 588 מגה-ואט נוספים ב-Guernsey לשנת 2029/2030 ו-702 מגה-ואט מ-Waterford לשלוש השנים 2029/2030 עד 2031/2032. יחד מדובר ביותר מ-2 גיגה-ואט חוזיים ב-2029/2030 ובכ-1.45 גיגה-ואט בשתי השנים שאחריה; אין להציג את כל הקיבולת כאילו נמכרה לשבע שנים.\n\nלפי Talen, החוזה החדש יחד עם הסכם AWS הקיים מעלה את החלק החוזי של הרווח הגולמי שלה ל-40% עד 2036. אין כאן זיהוי AWS כרוכשת בהסכם החדש, חוזה חדש עמה או שיעור רווח גולמי של 40%. החברה מדגישה שקיבוע תשלומי הקיבולת משאיר לה חשיפה למחירי האנרגיה. הצפי להכנסות והתועלות תלויים בביצוע עתידי ובסיכונים שבהודעה.",
+    "טקסט_en": "Nov 11, 2026 | Talen's full GlobeNewswire release carried by Morningstar and StockTitan was read. StockTitan shows 06:30 EST, 13:30 Israel time.\n\nTalen announced a sale of 750 MW of accredited capacity from Guernsey Power Station to an unnamed investment-grade counterparty. The agreement covers seven PJM delivery years, 2029/2030 through 2035/2036, and is expected by the company to generate about $100 million annually. These are future capacity payments, not 750 MWh of energy sold now or revenue already recognized.\n\nCombined with previously cleared capacity auctions, the company says those megawatts provide about $1 billion of cumulative capacity-revenue visibility over ten years. That amount includes the prior auctions, not the new agreement alone.\n\nSeparate agreements cover another 588 MW at Guernsey for 2029/2030 and 702 MW from Waterford for three years, 2029/2030 through 2031/2032. Together these represent over 2 GW contracted for 2029/2030 and about 1.45 GW for the next two years; not all of that capacity was sold for seven years.\n\nTalen says the new agreement together with its existing AWS contract increases the contracted share of its gross margin to 40% through 2036. This does not identify AWS as the new buyer, announce a new AWS contract or mean a 40% gross-margin rate. The company says locking in capacity payments preserves energy-market upside. Expected revenue and benefits remain subject to future performance and the release's risk factors.",
+    "מקורות": [
+      {
+        "label": "Talen / GlobeNewswire: נוסח החברה המלא דרך Morningstar",
+        "label_en": "Talen / GlobeNewswire: full company release via Morningstar",
+        "url": "https://www.morningstar.com/news/globe-newswire/9875176/talen-signs-750-mw-long-term-capacity-agreement"
+      },
+      {
+        "label": "StockTitan: נוסח הודעת החברה עם שעון EST",
+        "label_en": "StockTitan: company release text with EST clock",
+        "url": "https://www.stocktitan.net/news/TLN/talen-signs-750-mw-long-term-capacity-mwka3lc8vilv.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8502161a91ce6b3431413a2ee6951c254015022630d1fb50636e3b161956d65d"
+      }
+    }
   }
 ]
