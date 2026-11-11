@@ -3967,5 +3967,131 @@
       }
     },
     "קודם_en": "2.6% (September)"
+  },
+  {
+    "מזהה": "c-0177",
+    "תאריך": "2026-11-12",
+    "שעה": "15:30",
+    "מדינה": "US",
+    "אירוע": "האמק: שיחה עם סטודנטים באוניברסיטת אוהיו סטייט",
+    "חשיבות": 2,
+    "מקור": "https://www.clevelandfed.org/president-and-ceo",
+    "הערה": "מועד מתוכנן לפי הבנק האזורי, נבדק 11.11.2026: 08:30 ET = 15:30 בישראל. זהו אירוע עתידי, לא תוכן נאום שכבר פורסם; אין צפי או נתון בפועל יחיד.",
+    "אירוע_en": "Hammack: conversation with Ohio State University students",
+    "הערה_en": "Scheduled by the regional Reserve Bank, checked Nov 11, 2026: 08:30 ET = 15:30 Israel. This is an upcoming event, not remarks already released; no single forecast or actual.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "96e3bead8cc9b83cee821588057e42e23e6d9647332c0b62a6233974a79722ad"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0178",
+    "תאריך": "2026-11-12",
+    "שעה": "18:15",
+    "מדינה": "US",
+    "אירוע": "גולסבי: שאלות ותשובות ב-Yahoo Finance Invest",
+    "חשיבות": 2,
+    "מקור": "https://www.chicagofed.org/publications/speeches/2026/nov-12-yahoo-finance-invest",
+    "הערה": "מועד מתוכנן לפי הבנק האזורי, נבדק 11.11.2026: 10:15 CT = 18:15 בישראל. זהו אירוע עתידי, לא תוכן נאום שכבר פורסם; אין צפי או נתון בפועל יחיד. מקור הבנק קובע 10:15 CT; שעה שונה בלוח משני לא שימשה.",
+    "אירוע_en": "Goolsbee: Q&A at Yahoo Finance Invest",
+    "הערה_en": "Scheduled by the regional Reserve Bank, checked Nov 11, 2026: 10:15 CT = 18:15 Israel. This is an upcoming event, not remarks already released; no single forecast or actual. The bank states 10:15 CT; a conflicting secondary-calendar time was not used.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "13bc840df144f11aa4a9763a32314d05d67eebb1f16157cc66634802d0a0b62d"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0179",
+    "תאריך": "2026-11-12",
+    "שעה": "20:30",
+    "מדינה": "US",
+    "אירוע": "שמיד: נאום בפורום מימון דיור בר-השגה",
+    "חשיבות": 2,
+    "מקור": "https://www.kansascityfed.org/events/balancing-the-stack-affordable-housing-finance-forum/",
+    "הערה": "מועד מתוכנן לפי הבנק האזורי, נבדק 11.11.2026: 12:30 US/Central = 20:30 בישראל. זהו אירוע עתידי, לא תוכן נאום שכבר פורסם; אין צפי או נתון בפועל יחיד.",
+    "אירוע_en": "Schmid: formal remarks at Affordable Housing Finance Forum",
+    "הערה_en": "Scheduled by the regional Reserve Bank, checked Nov 11, 2026: 12:30 US/Central = 20:30 Israel. This is an upcoming event, not remarks already released; no single forecast or actual.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "528054d8d3c0454a0d5afc4c283b74e4de2bc9db51b32ff77935cc273768ca08"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0180",
+    "תאריך": "2026-11-12",
+    "שעה": "20:10",
+    "מדינה": "US",
+    "אירוע": "דיילי: נאום מרכזי בפורום המדיניות של SIEPR",
+    "חשיבות": 2,
+    "מקור": "https://www.frbsf.org/news-and-media/events/2026/11/mary-c-daly-siepr-policy-forum-2026/",
+    "הערה": "מועד מתוכנן לפי הבנק האזורי, נבדק 11.11.2026: 10:10 PT = 20:10 בישראל. זהו אירוע עתידי, לא תוכן נאום שכבר פורסם; אין צפי או נתון בפועל יחיד.",
+    "אירוע_en": "Daly: keynote at SIEPR Policy Forum",
+    "הערה_en": "Scheduled by the regional Reserve Bank, checked Nov 11, 2026: 10:10 PT = 20:10 Israel. This is an upcoming event, not remarks already released; no single forecast or actual.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "14ca84c8f1660056ea16e4d871596c3c1ec04e06341cabe49316275d0feda8ff"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0181",
+    "תאריך": "2026-11-13",
+    "שעה": "19:00",
+    "מדינה": "US",
+    "אירוע": "דיילי: שיחה בתחזית הכלכלית של UNLV",
+    "חשיבות": 2,
+    "מקור": "https://www.frbsf.org/news-and-media/events/2026/11/conversation-mary-c-daly-unlv-2026-economic-forecast/",
+    "הערה": "מועד מתוכנן לפי הבנק האזורי, נבדק 11.11.2026: 09:00 PT = 19:00 בישראל. זהו אירוע עתידי, לא תוכן נאום שכבר פורסם; אין צפי או נתון בפועל יחיד.",
+    "אירוע_en": "Daly: conversation at UNLV Economic Forecast",
+    "הערה_en": "Scheduled by the regional Reserve Bank, checked Nov 11, 2026: 09:00 PT = 19:00 Israel. This is an upcoming event, not remarks already released; no single forecast or actual.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ccccf4731c5c790ee50fdeeea8e53405ab47b58045e748417be786c40abefaca"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0182",
+    "תאריך": "2026-11-17",
+    "שעה": "16:30",
+    "מדינה": "US",
+    "אירוע": "האמק: נאום ב-Brookings על חוסן ונזילות שוק האג״ח הממשלתי",
+    "חשיבות": 2,
+    "מקור": "https://www.clevelandfed.org/president-and-ceo",
+    "הערה": "מועד מתוכנן לפי הבנק האזורי, נבדק 11.11.2026: 09:30 ET = 16:30 בישראל. זהו אירוע עתידי, לא תוכן נאום שכבר פורסם; אין צפי או נתון בפועל יחיד.",
+    "אירוע_en": "Hammack: Brookings keynote on Treasury market resilience and liquidity",
+    "הערה_en": "Scheduled by the regional Reserve Bank, checked Nov 11, 2026: 09:30 ET = 16:30 Israel. This is an upcoming event, not remarks already released; no single forecast or actual.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6ca2330a5ee3a2f9488ebb90ac30e1205c1a241cdfd21b5a05d60bce714b3125"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0183",
+    "תאריך": "2026-11-19",
+    "שעה": "19:30",
+    "מדינה": "US",
+    "אירוע": "גולסבי: שאלות ותשובות במועדון הכלכלי של אינדיאנה",
+    "חשיבות": 2,
+    "מקור": "https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-speaking",
+    "הערה": "מועד מתוכנן לפי הבנק האזורי, נבדק 11.11.2026: 11:30 CT = 19:30 בישראל. זהו אירוע עתידי, לא תוכן נאום שכבר פורסם; אין צפי או נתון בפועל יחיד.",
+    "אירוע_en": "Goolsbee: Q&A at Economic Club of Indiana luncheon",
+    "הערה_en": "Scheduled by the regional Reserve Bank, checked Nov 11, 2026: 11:30 CT = 19:30 Israel. This is an upcoming event, not remarks already released; no single forecast or actual.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "de7fef71c63421f8472951bec1902f79ffaa03609688a7f988c57fa4198b4b5e"
+      }
+    }
   }
 ]
