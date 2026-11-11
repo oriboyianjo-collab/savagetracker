@@ -31182,5 +31182,30 @@
         "source_hash": "70422458a5f56d55a15eb528a23cf0bf8371ebc9d7ffa2985d0419a6942a4ade"
       }
     }
+  },
+  {
+    "מזהה": "n-1272",
+    "category": "micro",
+    "חברה": "ABT",
+    "כותרת": "Abbott (ABT): החברה מודיעה על אישור FDA וסימון CE לאלקטרודת UltiSynq, המשלבת קיצוב במערכת ההולכה ודפיברילציה",
+    "כותרת_en": "Abbott (ABT) announces FDA approval and CE Mark for UltiSynq lead combining conduction system pacing and defibrillation",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:08",
+    "קישור": "https://abbott.mediaroom.com/press-releases?item=124791",
+    "מקורות": [
+      {
+        "label": "Abbott: הודעה רשמית מלאה, 10 בנובמבר 2026",
+        "label_en": "Abbott: full official Nov 10, 2026 announcement",
+        "url": "https://abbott.mediaroom.com/press-releases?item=124791"
+      }
+    ],
+    "טקסט": "10.11.2026 | הודעת Abbott הרשמית נקראה במלואה; השלמת כיסוי ב-11 בנובמבר. שעת הפרסום המקורית לא צוינה. האישורים מיוחסים להודעת החברה, לא לבדיקת תיקי FDA או תעודת CE בנפרד.\n\nAbbott הודיעה שקיבלה אישור FDA אמריקאי וסימון CE אירופי לאלקטרודת הדפיברילציה UltiSynq. האלקטרודה מיועדת להשתלה באזור ענף ההולכה השמאלי של הלב ולחיבור ארוך-טווח למערכות ICD או CRT-D תואמות, בחולים הזקוקים גם לקיצוב במערכת ההולכה וגם להגנה באמצעות דפיברילציה.\n\nאין סתירה בין תיאורה כאלקטרודת ICD לבין קיצוב במערכת ההולכה (CSP): זהו מוליך שמיועד לשלב את שתי הפעולות, לא קוצב לב עצמאי או מערכת ICD שלמה חדשה. ההודעה מוסיפה אפשרות לחולים המתאימים ואינה קובעת שכל חולה זקוק למוצר.\n\nלפי החברה, האישורים נשענים על מחקר ASCEND CSP IDE. מתוך 205 ניסיונות השתלה הושגה הצלחה ב-98.5%; מבין המושתלים בהצלחה, 86% השיגו קיצוב בענף השמאלי או קיצוב סביר מסוג זה. שיעור ללא סיבוך משמעותי לאחר שלושה חודשים היה 97.5%. הצלחה של 100% בדפיברילציה מתייחסת רק ל-120 מטופלים שעברו בדיקה, לא לכל משתתפי המחקר ולא לתוצאה מובטחת בכל מטופל. אלו תוצאות שמדווחת Abbott, לא השוואת עליונות עצמאית.\n\nהאירוע החדש הוא אישורי השימוש בארה״ב ובאירופה מ-10 בנובמבר, לא פרסום ראשון של נתוני המחקר שהוצגו כבר באפריל. אין בהודעה מחיר, היקף מכירות או מועד אספקה גורף מאומת, ואין כאן תחזית הכנסות.",
+    "טקסט_en": "Nov 10, 2026 | Full official Abbott announcement read; coverage completed Nov 11. Original publication time was not stated. Approvals are attributed to the company announcement, not separate inspection of FDA files or a CE certificate.\n\nAbbott says it received U.S. FDA approval and European CE Mark for its UltiSynq defibrillation lead. The lead is intended for implantation in the left bundle branch area and long-term attachment to compatible ICD or CRT-D systems for patients needing both conduction system pacing and defibrillation protection.\n\nThere is no conflict between calling it an ICD lead and conduction system pacing (CSP): this is a lead designed to combine both functions, not a standalone pacemaker or an entirely new complete ICD system. The announcement adds an option for suitable patients, not a claim that every patient needs the product.\n\nThe company says approvals were supported by ASCEND CSP IDE. Implantation succeeded in 98.5% of 205 attempts; 86% of successfully implanted patients achieved left bundle branch pacing or likely pacing. The three-month major complication-free rate was 97.5%. The 100% defibrillation success figure applies only to 120 patients who completed testing, not every study participant or a guaranteed outcome in every patient. These are Abbott-reported results, not an independently established superiority comparison.\n\nThe new event is the Nov 10 U.S. and European regulatory approval announcement, not first publication of trial data already presented in April. The release does not establish price, sales volume or a universal delivery date, and no revenue forecast is provided here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d743070bedbce21e1fa495dcbaf514d0ac5a94145601f6724539cd6c21a92e37"
+      }
+    }
   }
 ]
