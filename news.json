@@ -31507,5 +31507,55 @@
         "source_hash": "eb632f44a9a774c486dd048ae0f5363df85610bacbaaac5973af75a522cdb45a"
       }
     }
+  },
+  {
+    "מזהה": "n-1284",
+    "category": "micro",
+    "חברה": "TSLA",
+    "כותרת": "Tesla (TSLA): פינלנד מתירה Assisted Driving בפיקוח נהג, בעקבות הכרה לאומית באישור ההולנדי",
+    "כותרת_en": "Tesla (TSLA): Finland permits supervised Assisted Driving through recognition of Dutch approval",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 09:27",
+    "טקסט": "11.11.2026 | הודעת Traficom המקורית בפינית נקראה במלואה. ההכרה הלאומית ניתנה ב-10 בנובמבר; ההודעה פורסמה ב-11 בנובמבר.\n\nרשות התחבורה הפינית הכירה באישור הסוג המותנה של הרשות ההולנדית, ומסרה ש-Tesla יכולה להציע ללקוחות בפינלנד את מערכת Assisted Driving מיד, לשימוש בכבישי המדינה כמערכת סיוע לנהג.\n\nזהו היתר לאומי, לא אישור לכל האיחוד האירופי ולא נהיגה אוטונומית או ללא השגחה. הרשות מדגישה שהאחריות נשארת במלואה אצל הנהג, שעליו לפקח לאורך הנסיעה ולהיות מוכן להתערב גם בלי בקשה מהמערכת.\n\nTraficom מציינת שהשם השתנה מ-FSD (Supervised) ל-Assisted Driving כדי להסיר רמיזות לנהיגה עצמית, ושונו גם הגדרות מהירות והמידע לנהג. שלג, רפש או לכלוך על המצלמות עלולים להגביל את התפקוד.\n\nהאישור האירופי הכולל עדיין דורש הצבעה בוועדה הטכנית של האיחוד; ההכרה הלאומית אינה מחייבת את אופן הצבעתה של פינלנד. החידוש ביחס ל-n-0538 על אישור שינויי המערכת בהולנד הוא הרשאה לשימוש בפינלנד, לא שם חדש נוסף או היתר אוטונומי.",
+    "טקסט_en": "Nov 11, 2026 | Traficom's original Finnish announcement read in full. National recognition was granted on Nov 10; the announcement was published on Nov 11.\n\nFinland's transport authority recognized the Dutch authority's conditional type approval and says Tesla can immediately offer Assisted Driving to Finnish customers for use on the country's roads as a driver-assistance system.\n\nThis is national permission, not EU-wide approval or autonomous, unsupervised driving. Traficom stresses that full responsibility stays with the driver, who must monitor throughout the trip and be ready to intervene without waiting for a system request.\n\nThe authority says the name changed from FSD (Supervised) to Assisted Driving to remove implications of self-driving, with changes to speed settings and driver information. Snow, slush or dirt covering cameras can limit performance.\n\nEU-wide approval still requires a technical-committee vote; national recognition does not bind Finland's vote. New versus n-0538 on Dutch approval of system changes is permission for use in Finland, not another rename or autonomous-driving clearance.",
+    "קישור": "https://traficom.fi/fi/uutiset/teslan-kuljettajaa-avustava-jarjestelma-nyt-sallittu-suomen-tieliikenteessa",
+    "מקורות": [
+      {
+        "label": "Traficom: הודעת ההכרה והמגבלות המקורית בפינית",
+        "label_en": "Traficom: original Finnish recognition announcement and limitations",
+        "url": "https://traficom.fi/fi/uutiset/teslan-kuljettajaa-avustava-jarjestelma-nyt-sallittu-suomen-tieliikenteessa"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "15c52e677aa97d3ace1aaf36fd8dadc4ba69a04eeb9ad1605cecd2e3f12ad507"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1285",
+    "category": "micro",
+    "חברה": "SPCX",
+    "כותרת": "SpaceX (SPCX): חוזה SDA של 9.92 מיליון דולר למחקר הפחתת סיכונים במסוף הלייזר Plaser",
+    "כותרת_en": "SpaceX (SPCX): $9.92 million SDA contract for Plaser laser-terminal risk-reduction study",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:27",
+    "טקסט": "10.11.2026 | הודעת החוזים הרשמית נקראה במלואה; הזכייה עצמה מ-9 בנובמבר. השלמת סיקור.\n\nSpace Development Agency העניקה ל-SpaceX חוזה מחקר בהיקף 9,921,992 דולר למסוף Plug and Play Laser, המכונה Plaser. החוזה כולל מחקר להפחתת סיכונים, אספקת חומרה מייצגת ותמיכה בשילוב מערכות התרעה ומעקב אחר טילים.\n\nהאופציות יכולות להעלות את השווי המרבי ל-12,666,379 דולר. מלוא סכום הבסיס הוקצה במועד הזכייה מתקציב מחקר, פיתוח, ניסוי והערכה של 2026. העבודה מתוכננת בהותורן, קליפורניה וברדמונד, וושינגטון, עד 7 באוקטובר 2027. מספר החוזה FA240127C0001.\n\nזהו מחקר עם חומרת הדגמה ותמיכת שילוב, לא חוזה ייצור סדרתי למסופי לייזר ולא אישור שפתרון התאימות בין רשתות לוויינים כבר הושלם. אין לבלבל את סכום הבסיס או תקרת האופציות עם תוכנית SDN Backbone הנפרדת שעליה דווח בעבר.",
+    "טקסט_en": "Nov 10, 2026 | Official contract announcement read in full; the award itself was made Nov 9. Catch-up coverage.\n\nThe Space Development Agency awarded SpaceX a $9,921,992 research contract for its Plug and Play Laser, known as Plaser. It covers a risk-reduction study, representative hardware and support for missile-warning and tracking-system integration.\n\nOptions can raise the maximum value to $12,666,379. The full base amount was obligated at award from fiscal 2026 research, development, test and evaluation funds. Work is planned in Hawthorne, California and Redmond, Washington, through Oct 7, 2027, under contract FA240127C0001.\n\nThis is a study with representative hardware and integration support, not a serial-production laser-terminal award or confirmation that satellite-network interoperability has been solved. Neither the base amount nor the option ceiling should be confused with the separate SDN Backbone program previously reported.",
+    "קישור": "https://www.war.gov/News/Contracts/Contract/Article/4645969/contracts-for-nov-10-2026/",
+    "מקורות": [
+      {
+        "label": "הודעת החוזים הרשמית,10 בנובמבר: סעיף חיל האוויר",
+        "label_en": "Official Nov10 contract announcement: Air Force section",
+        "url": "https://www.war.gov/News/Contracts/Contract/Article/4645969/contracts-for-nov-10-2026/"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "13f08aab9b9ef555b2e91f367c19de574c02edcb671376e7356927b0241b8696"
+      }
+    }
   }
 ]
