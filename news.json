@@ -31905,5 +31905,30 @@
         "source_hash": "5f952254c3abc2abfb0c209397d94c77306785e7d44471ff828d83de29a87fd4"
       }
     }
+  },
+  {
+    "מזהה": "n-1298",
+    "category": "macro",
+    "חברה": "UK / NIESR",
+    "כותרת": "NIESR מעלה את תחזית צמיחת בריטניה ל-2026 ל-1.6%, אך צופה אינפלציה של 4.4% בפברואר 2027",
+    "כותרת_en": "NIESR raises its 2026 UK growth forecast to 1.6%, but expects inflation to peak at 4.4% in February 2027",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 12:39",
+    "קישור": "https://niesr.ac.uk/reports/economic-outlook-autumn-2026",
+    "טקסט": "תחזית סתיו 2026 של NIESR, מכון מחקר כלכלי עצמאי. סקירת הפתיחה המקורית הפומבית נקראה במלואה ב-11 בנובמבר; הפרקים המפורטים מוגבלים למנויים ולא נבדקו. שעת הפרסום המקורית לא אומתה.\n\nהמכון העלה את תחזית צמיחת התמ״ג הבריטי ב-2026 ל-1.6%, לעומת 1.1% בתחזית יולי. הוא צופה האטה ל-1.1% ב-2027 ול-0.9% ב-2028, על רקע מחירי אנרגיה גבוהים ותוכנית לצמצום הגירעון. אלה תחזיות המכון, לא נתוני צמיחה שפורסמו בפועל.\n\nבמקביל, NIESR העלה את תחזית שיא האינפלציה ל-4.4% בפברואר 2027, לעומת 3.8% בתחזית יולי. בתרחיש הבסיס שלו האינפלציה תחזור ליעד רק בסוף 2030. המכון מדגיש סיכון לגלגול התייקרויות האנרגיה לשכר ולמחירים. המועד והשיעורים אינם הבטחה או תחזית רשמית של בנק אנגליה.\n\nבתחזית העולמית העלה המכון את הצמיחה ב-2026 ל-3.1%, לעומת 2.9% ביולי, וצופה 3.3% ב-2027. לדבריו, השקעות AI בארה״ב ובספקיות באסיה קיזזו חלק מהפגיעה מהמלחמה ומהאנרגיה, אך יוצרות גם סיכוני שווי ואשראי.\n\nזו תחזית מחקר חדשה ונפרדת מהחלטת הריבית של בנק אנגליה ב-n-0307. אין כאן החלטת ריבית נוספת או שינוי במדיניות הממשלה.",
+    "טקסט_en": "NIESR Autumn 2026 forecast, from an independent economic research institute. The original public overview was read in full on Nov 11; detailed chapters are members-only and were not reviewed. The original publication time was not verified.\n\nNIESR raised its 2026 UK GDP growth forecast to 1.6%, from 1.1% in July. It expects growth to slow to 1.1% in 2027 and 0.9% in 2028, reflecting high energy costs and assumed fiscal tightening. These are institute forecasts, not released GDP outcomes.\n\nNIESR also raised its projected inflation peak to 4.4% in February 2027, from 3.8% in July. Its baseline does not return inflation to target until late 2030. It stresses the risk of energy costs feeding into wages and prices. These figures and dates are not guarantees or official Bank of England forecasts.\n\nGlobally, the institute raised its 2026 growth forecast to 3.1%, from 2.9% in July, and projects 3.3% in 2027. It says AI investment in the US and Asian suppliers has offset some of the war and energy drag, while creating valuation and credit risks.\n\nThis is a separate research forecast, not another Bank of England rate decision or a government policy change. The earlier central-bank decision is covered in n-0307.",
+    "מקורות": [
+      {
+        "label": "NIESR: סקירת הפתיחה הפומבית של תחזית הסתיו",
+        "label_en": "NIESR: original public Autumn forecast overview",
+        "url": "https://niesr.ac.uk/reports/economic-outlook-autumn-2026"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4f7dc649973684b401a4154ab548272603ce2f22975e906e9639ceaf240591d6"
+      }
+    }
   }
 ]
