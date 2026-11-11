@@ -31207,5 +31207,135 @@
         "source_hash": "d743070bedbce21e1fa495dcbaf514d0ac5a94145601f6724539cd6c21a92e37"
       }
     }
+  },
+  {
+    "מזהה": "n-1273",
+    "category": "macro",
+    "חברה": "ASEAN+3",
+    "כותרת": "אסיה: תיקון הסכם CMIM נכנס לתוקף עם מסלול מימון מהיר למצבי חירום במאזן התשלומים",
+    "כותרת_en": "Asia: amended CMIM takes effect with rapid financing for urgent balance-of-payments needs",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 09:19",
+    "טקסט": "11.11.2026 | הודעת משרד האוצר של יפן, מקור ראשוני; שעת פרסום לא צוינה.\n\nהתיקון להסכם Chiang Mai Initiative Multilateralisation נכנס לתוקף היום. מדובר במסגרת המימון האזורית של מדינות ASEAN, סין, יפן וקוריאה והרשות המוניטרית של הונג קונג.\n\nהתיקון מוסיף מסלול Rapid Financing Facility: תמיכת נזילות באמצעות עסקאות החלף מטבע למשתתפת עם צורך ממשי ודחוף במאזן התשלומים בעקבות זעזוע חיצוני פתאומי, למשל אסון טבע או מגפה. נוסף לכך ניתן לחדש משיכות במסגרת קו המימון המניעתי CMIM-PL.\n\nזהו שינוי בזמינות ובתנאי רשת הביטחון הפיננסית האזורית, לא הודעה על משיכה שבוצעה, חבילת חילוץ למדינה מסוימת או כסף שכבר הועבר. ההודעה אינה מציינת משבר או בקשת סיוע חדשה.",
+    "טקסט_en": "Nov 11, 2026 | Japan Ministry of Finance primary announcement; no release time stated.\n\nThe amended Chiang Mai Initiative Multilateralisation agreement took effect today. It is the regional financing arrangement for ASEAN members, China, Japan and Korea, and the Hong Kong Monetary Authority.\n\nThe amendment introduces a Rapid Financing Facility providing liquidity through currency swaps to a participant with an actual, urgent balance-of-payments need caused by a sudden external shock, such as a natural disaster or pandemic. Drawings under the CMIM Precautionary Line can also be renewed.\n\nThis changes access to and terms of the regional financial safety net. It is not an announced drawing, a rescue for a particular country or money already disbursed. The announcement identifies no new crisis or assistance request.",
+    "קישור": "https://www.mof.go.jp/english/policy/international_policy/financial_cooperation_in_asia/cmi/20261110211148.html",
+    "מקורות": [
+      {
+        "label": "משרד האוצר של יפן: כניסת תיקון CMIM לתוקף",
+        "label_en": "Japan Ministry of Finance: amended CMIM takes effect",
+        "url": "https://www.mof.go.jp/english/policy/international_policy/financial_cooperation_in_asia/cmi/20261110211148.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8a3f6fa8bcf630e23fcdfa49ff2baf1cdd429ae812faca2d01d025e3183f4574"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1274",
+    "category": "micro",
+    "חברה": "AVEX",
+    "כותרת": "AEVEX (AVEX): חוזה מסגרת רב-שנתי לכלי טיס בלתי מאוישים בתקרה של כמעט 400 מיליון דולר",
+    "כותרת_en": "AEVEX (AVEX): multiyear unmanned-aircraft IDIQ contract with nearly $400 million ceiling",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:19",
+    "טקסט": "10.11.2026 | הודעת החברה המקורית; השלמת סיקור, לא זכייה שהוכרזה היום.\n\nAEVEX הודיעה על זכייה בחוזה IDIQ עבור לקוח אמריקאי, עם תקרה של כמעט 400 מיליון דולר. המסגרת מאפשרת ללקוח להזמין כלי טיס בלתי מאוישים ושירותי תמיכה לצרכים שונים לאורך מספר שנים. זהות הלקוח לא פורסמה.\n\nהתקרה אינה סכום הזמנות מובטח, הכנסות שהוכרו או תשלום שכבר התקבל. החברה עצמה מציינת אי-ודאות לגבי קבלת הזמנות משימה תחת המסגרת; לא פורסם היקף הזמנה ראשונה.\n\nזהו חוזה לכלי טיס. הוא נפרד מחוזי מערכות הלוחמה במוקשים הימיות בהיקף 41.6 מיליון דולר שעליהם פורסמו n-0748/n-0749 ב-30 באוקטובר, ומהוויכוח הקודם על סירות GARC.",
+    "טקסט_en": "Nov 10, 2026 | Original company announcement; catch-up coverage, not a contract announced today.\n\nAEVEX announced an Indefinite Delivery/Indefinite Quantity contract for a U.S. customer with a ceiling of nearly $400 million. The multiyear framework allows procurement of unmanned aircraft systems and related support services across different mission needs. The customer was not identified.\n\nThe ceiling is not guaranteed orders, recognized revenue or cash already received. The company specifically notes uncertainty about obtaining task orders under the framework; no initial order amount was disclosed.\n\nThis is an aircraft contract, separate from the $41.6 million maritime mine-countermeasures contracts covered in n-0748/n-0749 on Oct 30 and the earlier dispute over GARC boats.",
+    "קישור": "https://ir.aevex.com/news/news-details/2026/AEVEX-Secures-Nearly-400-Million-IDIQ-Award-for-Unmanned-Aircraft-Systems/default.aspx",
+    "מקורות": [
+      {
+        "label": "AEVEX: הודעת הזכייה המקורית",
+        "label_en": "AEVEX: original contract announcement",
+        "url": "https://ir.aevex.com/news/news-details/2026/AEVEX-Secures-Nearly-400-Million-IDIQ-Award-for-Unmanned-Aircraft-Systems/default.aspx"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9547c1716bec92a8d82a72182088709170eb9b62a9579ce8b0cd811c68787941"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1275",
+    "category": "micro",
+    "חברה": "SNDK",
+    "כותרת": "Sandisk (SNDK): השקת iNAND CL EM181 לאחסון משובץ במכשירי IoT, בנפחים של 64 עד 256GB",
+    "כותרת_en": "Sandisk (SNDK): iNAND CL EM181 launch for embedded IoT storage, in 64GB to 256GB capacities",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:19",
+    "טקסט": "10.11.2026 | הודעת Sandisk מתערוכת electronica במינכן; השלמת סיקור מהיום הקודם.\n\nהחברה הציגה את iNAND CL EM181, כונן פלאש משובץ בממשק e.MMC 5.1A עבור מכשירי IoT ויישומי physical AI. היישומים המוצגים כוללים טלוויזיות חכמות, שערי תקשורת ביתיים, מצלמות אבטחה, מכשירי חשמל ותיעוד נתונים במרכזי נתונים.\n\nלפי מפרט החברה, המוצר מוצע בנפחים 64GB, 128GB ו-256GB, עם קריאה רציפה עד 300MB/s וכתיבה עד 225MB/s. טווח הטמפרטורות הוא מינוס 25 עד 85 מעלות צלזיוס. מדובר בנתוני חברה ובדיקות פנימיות, לא מבחן ביצועים עצמאי.\n\nהפתרון שומר על ממשק e.MMC ומארז תואם JEDEC בגודל 11.5 על 13 מ״מ, כדי לאפשר מעבר בין דורות עם שינויים מצומצמים במארח. לא פורסמו מחיר, חוזה לקוח או היקף מכירות. זו הכרזת מוצר נפרדת מעדכוני פיצול המניה והסכמי האספקה הקודמים.",
+    "טקסט_en": "Nov 10, 2026 | Sandisk announcement at electronica in Munich; catch-up coverage from the previous day.\n\nThe company introduced the iNAND CL EM181 embedded flash drive using e.MMC 5.1A for IoT and physical-AI applications. Listed uses include smart TVs, home gateways, security cameras, appliances and data-center logging.\n\nCompany specifications list 64GB, 128GB and 256GB capacities, sequential reads up to 300MB/s and writes up to 225MB/s, and operation from -25°C to 85°C. These are company specifications and internal tests, not independent benchmarks.\n\nThe product retains e.MMC and a JEDEC-compatible 11.5mm by 13mm package to allow migration between generations with limited host changes. No price, customer contract or sales volume was announced. This product announcement is separate from earlier stock-split and supply-agreement updates.",
+    "קישור": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-11-10-sandisk-expands-iot-portfolio-with-new-sandisk-inand-cl-em181-embedded-flash-drive-at-electronica-2026",
+    "מקורות": [
+      {
+        "label": "Sandisk: הודעת המוצר והמפרט המקוריים",
+        "label_en": "Sandisk: original product announcement and specifications",
+        "url": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-11-10-sandisk-expands-iot-portfolio-with-new-sandisk-inand-cl-em181-embedded-flash-drive-at-electronica-2026"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fa36f116b6ff7e6e6c6e2ddb2ae9ca61dd1dcb5554e0bf009861f32b83da1cd5"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1276",
+    "category": "micro",
+    "חברה": "AMZN",
+    "כותרת": "Amazon (AMZN): Prime Air קיבלה אישור SAIL 4 בבריטניה והרחיבה משלוחי רחפנים באזור דרלינגטון",
+    "כותרת_en": "Amazon (AMZN): Prime Air wins UK SAIL 4 approval and expands Darlington drone deliveries",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:19",
+    "טקסט": "10.11.2026 | הודעת Amazon המקורית; שעת הפרסום לא צוינה. השלמת סיקור מהיום הקודם.\n\nלפי Amazon, Prime Air קיבלה מרשות התעופה האזרחית הבריטית אישור הפעלה SAIL 4 ואימות כשירות טיסה באותה רמה. החברה אומרת שהטיסות ברחפני MK30 כבר מתבצעות בדרלינגטון, וכי האישור מאפשר פעילות גם מעל אזורים צפופים יותר בקהילה המקומית.\n\nלפי החברה, מספר משקי הבית הזכאים באזור גדל מכ-600 לכ-8,000, עם משלוחים בתוך פחות משעתיים. מדובר בהרחבה מקומית, לא באישור לפריסה כלל-ארצית או הבטחה שכל לקוחות בריטניה כבר זכאים לשירות.\n\nהתנאים המוצגים כוללים גינה או שביל גישה בטווח של כ-12 ק״מ ממרכז דרלינגטון, ומשלוח עד 2.2 ק״ג שיכול להיכנס לקופסה בגודל קופסת נעליים גדולה. רמת SAIL 4 היא רמת הבטחת בטיחות במסגרת הערכת סיכוני ההפעלה, לא טווח הטיסה או דור הרחפן.\n\nהאירוע נפרד מהכרזת מוצרי האבטחה Ring Robotics ב-n-1243; אין כאן אישור FCC למצלמת הרחפן הביתית.",
+    "טקסט_en": "Nov 10, 2026 | Original Amazon announcement; no release time stated. Catch-up coverage from the previous day.\n\nAmazon says Prime Air obtained a SAIL 4 Operating Authorisation and Flightworthiness Validation from the UK Civil Aviation Authority. MK30 flights are already underway in Darlington, and the approval permits operations over more densely populated parts of the local area.\n\nThe company says eligibility grows from around 600 households to roughly 8,000, with deliveries in under two hours. This is a local expansion, not nationwide approval or a promise that all UK customers are already eligible.\n\nListed conditions include a garden or driveway within about 12km of the Darlington fulfilment centre and a parcel weighing up to 2.2kg that fits in a large shoebox. SAIL 4 is a safety-assurance level within the operational risk framework, not flight range or a drone generation.\n\nThis is separate from the Ring Robotics security products in n-1243; it does not grant FCC approval to the indoor drone camera.",
+    "קישור": "https://www.aboutamazon.co.uk/news/innovation/prime-air-secures-sail-4-approval-uk-civil-aviation-authority",
+    "מקורות": [
+      {
+        "label": "Amazon UK: האישור והרחבת השירות, לפי החברה",
+        "label_en": "Amazon UK: approval and service expansion, per the company",
+        "url": "https://www.aboutamazon.co.uk/news/innovation/prime-air-secures-sail-4-approval-uk-civil-aviation-authority"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2fcf107e827b3cfba1d5239ffeedb95fa474aa98e076d1abd0d5173e953ac092"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1277",
+    "category": "micro",
+    "חברה": "SGRY",
+    "כותרת": "Surgery Partners (SGRY): הסכם HealthSpan עודכן ל-25 דולר למניה; הצעה מתחרה של 28 דולר נדחתה בשל סיכוני סגירה",
+    "כותרת_en": "Surgery Partners (SGRY): HealthSpan deal raised to $25 a share; competing $28 proposal rejected over closing risks",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-11 09:19",
+    "טקסט": "9.11.2026 | הודעת החברה המקורית, נקראה במלואה. השלמת סיקור; לא תיקון עסקה שהוכרז היום.\n\nSurgery Partners ו-HealthSpan Partners, המסונפת ל-Bon Secours Mercy Health, תיקנו את הסכם המיזוג ל-25 דולר במזומן למניה. שווי הפעילות המרבי שמציגה ההודעה הוא כ-6 מיליארד דולר.\n\nהחברה מאשרת הצעה מתחרה לא מחייבת של 28 דולר במזומן למניה, מצד שלישי שאינו מזוהה בהודעה. הוועדה המיוחדת קבעה שזו אינה הצעה עדיפה לפי ההסכם, בהתחשב בזמן סגירה ארוך יותר, סיכון רגולטורי ומורכבות, ובהיעדר הגנות חוזיות שביקשה. Healthcare Finance News דיווחה ב-10 בנובמבר, בשם Bloomberg ומקור הבקיא בנושא, כי המציע הוא UnitedHealth (UNH). זהות זו לא אושרה בהודעת החברה; אין להציג אותה כעובדה רשמית.\n\nתנאי התשלום: 25 דולר למניה אם העסקה נסגרת לפני 1 במרץ 2027. אם התקבל אישור בעלי המניות והסגירה מתעכבת מעבר לתאריך זה, בעלי המניות הזכאים יקבלו תשלומי המתנה בקצב שנתי של 10% על 25 דולר, עד תוספת של 1.61 דולר למניה אם הסגירה תתרחש במועד האחרון, 23 באוקטובר 2027. בעלי המניות המסונפים ל-Bain מגלגלים את החזקתם ולא מקבלים את התמורה או תשלומי ההמתנה.\n\nהחברה עדיין מצפה לסגירה ברבעון הראשון של 2027, בכפוף לאישור בעלי המניות, אישורים רגולטוריים ותנאים נוספים. אין כאן מיזוג שכבר הושלם.",
+    "טקסט_en": "Nov 9, 2026 | Original company release read in full. Catch-up coverage, not an amendment announced today.\n\nSurgery Partners and HealthSpan Partners, affiliated with Bon Secours Mercy Health, amended their merger agreement to $25 in cash per share. The release gives a maximum enterprise value of approximately $6 billion.\n\nThe company confirms a competing nonbinding $28-per-share cash proposal from an unnamed third party. Its special committee found that it was not a Superior Proposal under the agreement, considering a longer closing timeline, regulatory risk and complexity, and the absence of requested contractual protections. Healthcare Finance News reported on Nov 10, citing Bloomberg and a person familiar with the matter, that the bidder was UnitedHealth (UNH). That identity is not confirmed in the company announcement and is not an official fact here.\n\nPayment terms: $25 per share if the deal closes before March 1, 2027. If shareholder approval has been obtained and closing is delayed beyond that date, eligible holders receive ticking fees at a 10% annual rate on $25, up to $1.61 extra per share if closing occurs on the Oct 23, 2027 outside date. Bain affiliates roll their holdings over and do not receive the cash consideration or ticking fees.\n\nClosing is still expected in Q1 2027, subject to shareholder and regulatory approval and other conditions. The merger has not closed.",
+    "קישור": "https://ir.surgerypartners.com/news-releases/news-release-details/surgery-partners-and-healthspan-partners-announce-amended-merger",
+    "מקורות": [
+      {
+        "label": "Surgery Partners: תיקון ההסכם ותנאי ההצעה המתחרה",
+        "label_en": "Surgery Partners: amended agreement and competing-proposal terms",
+        "url": "https://ir.surgerypartners.com/news-releases/news-release-details/surgery-partners-and-healthspan-partners-announce-amended-merger"
+      },
+      {
+        "label": "Healthcare Finance News בשם Bloomberg: זהות המציע לא אושרה; תנאי התשלום אומתו מול המקור הראשוני",
+        "label_en": "Healthcare Finance News citing Bloomberg: unconfirmed bidder identity; payment terms verified against the primary source",
+        "url": "https://www.healthcarefinancenews.com/news/surgery-partners-reportedly-rejected-unitedhealth-groups-bid"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ce69ab6b338999c65d3597b18e69969c8e5b5a3d99e8ff0ad75430391d1e625a"
+      }
+    }
   }
 ]
