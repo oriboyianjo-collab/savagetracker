@@ -29834,26 +29834,36 @@
     }
   },
   {
-    "כותרת": "עליבאבא (BABA), לפי IFR (לא מאומת מול מקור ראשוני): יחידת השבבים T-Head מתכננת הנפקה בהונג קונג ב-2027 לגיוס 2-3 מיליארד דולר",
+    "כותרת": "עליבאבא (BABA): הודעה רשמית על פיצול והנפקת T-Head בהונג קונג; בקשה חסויה הוגשה בספטמבר, ההשלמה עדיין מותנית",
     "category": "micro",
     "חברה": "BABA",
-    "קישור": "https://www.thestandard.com.hk/finance/article/347954/Alibabas-chip-unit-T-Head-eyes-US3-billion-Hong-Kong-IPO-in-2027-IFR",
+    "קישור": "https://data.alibabagroup.com/ir_filings/HKEX/09988/en/202611102026111001061/2026111001061.pdf",
     "מקורות": [
+      {
+        "label": "Alibaba: הודעת הבורסה הרשמית מ-10 בנובמבר 2026, הנוסח המלא באתר החברה; שעת הפרסום המקורית לא אומתה",
+        "label_en": "Alibaba: full official exchange announcement dated Nov 10, 2026 on company website; original publication clock not verified",
+        "url": "https://data.alibabagroup.com/ir_filings/HKEX/09988/en/202611102026111001061/2026111001061.pdf"
+      },
+      {
+        "label": "Alibaba: אינדקס דיווחי HKEX המאשר את תאריך ההודעה",
+        "label_en": "Alibaba: HKEX filings index confirming announcement date",
+        "url": "https://www.alibabagroup.com/en-US/ir-filings-hkex"
+      },
       {
         "label": "The Standard על בסיס IFR, 9 בנובמבר 2026 (לא מאומת מול מקור ראשוני)",
         "url": "https://www.thestandard.com.hk/finance/article/347954/Alibabas-chip-unit-T-Head-eyes-US3-billion-Hong-Kong-IPO-in-2027-IFR",
         "label_en": "The Standard citing IFR, Nov 9, 2026 (not verified against primary source)"
       }
     ],
-    "טקסט": "09.11.2026 | לא מאומת מול מקור ראשוני: מבוסס על דיווח IFR (International Financing Review) מקורות, בשידור The Standard; עליבאבא לא הודיעה רשמית.\n\nלפי IFR, T-Head - זרוע תכנון השבבים של עליבאבא שהוקמה ב-2018 - מתכננת הנפקה ראשונית בהונג קונג במהלך 2027, לגיוס של כ-2 עד 3 מיליארד דולר. רקע מהחברה עצמה: בספטמבר חשפה T-Head את שבב ה-AI מהדור הבא Zhenwu V900, שלטענת עליבאבא הוא שבב ה-AI החזק בסין מבחינת ביצועי מחשוב - פי שלושה מקודמו M890, עם אפשרות לקלסטרים של עד 500 אלף שבבים לאימון מודלים מתקדמים; אלו טענות החברה. עליבאבא צופה תחילת ייצור המוני ושיווק של ה-V900 ברבעון הראשון של 2027.",
-    "כותרת_en": "Alibaba (BABA), per IFR (not verified against primary source): chip unit T-Head plans a Hong Kong IPO in 2027 to raise $2-3 billion",
-    "טקסט_en": "Nov 9, 2026 | not verified against a primary source: based on an IFR (International Financing Review) sources report carried by The Standard; Alibaba has not officially announced.\n\nPer IFR, T-Head - Alibaba's chip-design arm founded in 2018 - is planning a Hong Kong IPO during 2027, aiming to raise about $2 billion to $3 billion. Background from the company itself: in September T-Head unveiled its next-generation AI chip, the Zhenwu V900, which Alibaba claims is China's most powerful AI chip in computing performance - three times its predecessor M890, scalable into clusters of up to 500,000 chips for frontier model training; these are the company's claims. Alibaba expects V900 mass production and market launch in Q1 2027.",
+    "טקסט": "עדכון מהותי 11.11.2026, 05:45 בישראל | הודעת Alibaba הרשמית מ-10 בנובמבר נקראה במלואה. היא מחליפה את סטטוס ״עליבאבא לא הודיעה רשמית״ בדיווח IFR הקודם; אין כאן אישור להיקף גיוס של 2–3 מיליארד דולר או למועד ב-2027.\n\nAlibaba הודיעה שבורסת הונג קונג אישרה לה להתקדם עם הפיצול המוצע של T-Head, וכי T-Head הגישה בקשת רישום חסויה ב-11 בספטמבר 2026. אישור להתקדם בפיצול אינו אישור סופי למסחר. החברה מציעה הנפקה גלובלית של מניות H הכוללת הצעה לציבור בהונג קונג והקצאה למשקיעים מוסדיים ומקצועיים.\n\nT-Head נמצאת כעת בבעלות מלאה של Alibaba וצפויה להישאר חברה-בת גם לאחר השלמת המהלך. גודל ומבנה ההנפקה ומידת הירידה בשיעור האחזקה של Alibaba טרם סוכמו. המהלך מותנה, בין היתר, באישור ועדת הרישום של HKEX, בהשלמת ההגשה ל-CSRC ובהחלטות סופיות של שתי החברות; אין ודאות שיתבצע או מתי.\n\nHKEX העניקה פטור מהדרישה להקצות לבעלי מניות Alibaba זכאות מובטחת למניות T-Head. לכן אין להסיק שבעלי BABA יקבלו מניות אוטומטית או זכאות מועדפת. לפי החברה, הפיצול אינו צפוי לשנות את הרישום הראשי הכפול שלה בהונג קונג וב-NYSE. החידוש הוא האישור להתקדם והחשיפה הרשמית של הבקשה החסויה, לא הנפקה שכבר הושלמה.\n\nהדיווח הקודם מ-9 בנובמבר התבסס על IFR דרך The Standard והעריך גיוס של 2–3 מיליארד דולר ב-2027. ההודעה הרשמית אינה מאשרת את הסכום או השנה האלה; הם נשארים פרטי דיווח קודמים, לא תנאי ההנפקה המאומתים.",
+    "כותרת_en": "Alibaba (BABA): official T-Head spin-off and Hong Kong listing proposal; confidential application filed in September, completion still conditional",
+    "טקסט_en": "Material update Nov 11, 2026, 05:45 Israel | Alibaba's full official Nov 10 announcement has been read. It supersedes the prior IFR report's status that Alibaba had not officially announced; it does not confirm a $2-3 billion raise or a 2027 timetable.\n\nAlibaba announced that HKEX confirmed it may proceed with the proposed T-Head spin-off, and that T-Head submitted a confidential listing application on September 11, 2026. Permission to proceed with a spin-off is not final approval to trade. The proposed global offering of H shares comprises a Hong Kong public offering and a placing to institutional and professional investors.\n\nT-Head is currently wholly owned by Alibaba and is expected to remain a subsidiary after completion. Offering size, structure and the reduction in Alibaba's ownership have not been finalized. The transaction remains subject, among other things, to HKEX Listing Committee approval, completion of the CSRC filing and final decisions by both companies; neither completion nor timing is assured.\n\nHKEX granted a waiver from providing Alibaba shareholders an assured entitlement to T-Head shares. BABA holders should therefore not infer automatic shares or preferential allocation. Alibaba says the spin-off is not expected to affect its dual primary listing in Hong Kong and on the NYSE. The new information is permission to proceed and official disclosure of the confidential application, not a completed IPO.\n\nThe earlier Nov 9 IFR report carried by The Standard estimated a $2-3 billion raise in 2027. The official announcement does not confirm that amount or year; they remain details of earlier reporting, not verified offering terms.",
     "תאריך": "2026-11-09",
-    "הועלה": "2026-11-10 14:44",
+    "הועלה": "2026-11-11 05:45",
     "מזהה": "n-1210",
     "_translation": {
       "en": {
-        "source_hash": "dc52cf9c12882a20ab3a7813c74ff7cd03f832495136fee471e263258981938f",
+        "source_hash": "f1c6ff0baad7cca20d56499aca9859972cf5aa863bcc2a7e6c9735d68e93f3f0",
         "schema_version": 1
       }
     }
