@@ -31587,5 +31587,30 @@
         "source_hash": "9680eb9957ebceeceb943e719fea0fe2e7aba24aeaf188c2da6d7fdf97d3c8cb"
       }
     }
+  },
+  {
+    "מזהה": "n-1287",
+    "category": "micro",
+    "חברה": "NOK",
+    "כותרת": "Nokia (NOK) ו-Optus: ניסוי ברשת חיה ב-900MHz הציג שיפור הורדה; עדיין לא פריסה ארצית",
+    "כותרת_en": "Nokia (NOK) and Optus: live 900MHz network trial improves downloads; not a nationwide rollout",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 09:56",
+    "טקסט": "11.11.2026 | הודעת Optus המקורית נקראה במלואה, כולל הערות הניסוי והזמינות. שעת הפרסום לא צוינה.\n\nOptus ו-Nokia דיווחו על הדגמה ברשת סלולר מסחרית חיה בשני אתרים ב-Banks שבטריטוריית הבירה האוסטרלית. התצורה הא-סימטרית משתמשת ב-25MHz להורדה וב-20MHz להעלאה בתחום 900MHz, עם טלפון OPPO מסחרי ובשיתוף MediaTek.\n\nלפי מדידות החברות בטלפון OPPO Find X10 Pro Max, מהירות ההורדה עלתה מ-86 ל-165Mbps בחוץ ומ-108 ל-163Mbps בתוך מבנה, שיפור של עד 91% ו-51% בהתאמה לעומת התצורה הקיימת. אלה תוצאות ניסוי נקודתי מטעם החברות, לא מדידה בלתי תלויה או שיפור מובטח לכל מנוי. טענת הראשון בעולם היא של החברות.\n\nמכשיר בדיקה נפרד של MediaTek M90 שימש לבחינת יכולות עתידיות והגיע לשיא הורדה של 264Mbps; אין לייחס את הנתון הזה לטלפון המסחרי או לכל הרשת.\n\nOptus מדגישה שהיכולות אינן זמינות כעת ברחבי הרשת, ושמועד פריסה, אזורי שירות ומכשירים תואמים תלויים בהמשך פיתוח. לא פורסמו כאן חוזה חדש, הכנסה לנוקיה או התחייבות לפריסה ארצית. החידוש הוא הדגמה טכנית לניצול הספקטרום הקיים, לא הקצאת תדרים חדשה.",
+    "טקסט_en": "Nov 11, 2026 | Original Optus release read in full, including trial and availability notes. No publication clock stated.\n\nOptus and Nokia reported a live commercial-network demonstration at two sites in Banks, Australian Capital Territory. The asymmetric configuration uses 25MHz downlink and 20MHz uplink in the 900MHz band, with a commercial OPPO smartphone and MediaTek participation.\n\nCompany measurements on the OPPO Find X10 Pro Max showed downloads rising from 86 to 165Mbps outdoors and from 108 to 163Mbps indoors, up to 91% and 51% faster than the existing configuration. These are company trial results at specific sites, not independent measurements or guaranteed gains for every subscriber. The world-first claim is the companies' own.\n\nA separate MediaTek M90 test device validated future capabilities and reached a 264Mbps peak download rate; that figure should not be attributed to the commercial handset or the entire network.\n\nOptus stresses that these capabilities are not currently available across its network. Deployment timing, footprint and compatible devices remain subject to further development. No new contract, Nokia revenue or nationwide rollout commitment was announced. The development is a technical demonstration using existing spectrum, not a new spectrum award.",
+    "קישור": "https://www.optus.com.au/about/media-centre/media-releases/2026/11/optus-nokia-achieve-world-first",
+    "מקורות": [
+      {
+        "label": "Optus: הודעה מקורית מ-11 בנובמבר, כולל הערות הניסוי",
+        "label_en": "Optus: original Nov 11 release, including trial notes",
+        "url": "https://www.optus.com.au/about/media-centre/media-releases/2026/11/optus-nokia-achieve-world-first"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c46ec9a46640ede8acb31f531bdf62674a204114e1cc83bb8e7771e65feb1423"
+      }
+    }
   }
 ]
