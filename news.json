@@ -31870,5 +31870,40 @@
         "source_hash": "e70b122708cabeb90a00b621f2d03270203567238ba50838214c9a94edf0123a"
       }
     }
+  },
+  {
+    "מזהה": "n-1297",
+    "category": "macro",
+    "חברה": "Formation Securities",
+    "כותרת": "Formation Securities מסרה ל-SEC הודעת כוונה לזירת מניות מטובנות על Solana; אין בכך אישור לזירה או תחילת מסחר",
+    "כותרת_en": "Formation Securities files intent notice for a Solana tokenized-stock venue; submission is not SEC approval or a trading launch",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-11 11:47",
+    "טקסט": "השלמת סיקור להודעת Formation מ-9.11.2026. ההודעה המקורית נקראה במלואה ואינדקס ה-SEC מאשר מסירת הודעת כוונה באותו תאריך. לא השקה חדשה מ-11 בנובמבר.\n\nFormation Securities, חברה בת של Valcrest, מתכננת זירה למסחר משני במניות אמריקאיות מטובנות על רשת Solana, באמצעות מאגרי נזילות אוטומטיים מורשים המבוססים על טכנולוגיית Orca. ברשימת המניות המיועדות להשקה מופיעות Forward Industries (FWDI), Galaxy Digital (GLXY) ו-Exodus Movement (EXOD). זו רשימה מתוכננת, לא אישור שהמסחר בהן כבר פעיל.\n\nלפי ההודעה, רק משתתפים וארנקים שעברו בדיקות זהות, סנקציות ואישור של הזירה ושל הגוף המבצע את הטוקניזציה יוכלו לפעול. הזירה תבדוק שהטוקנים מעניקים זכויות שקולות למניה הרגילה, כולל דיבידנדים והצבעה. בפעילות מעבר לשעות הבורסה ימשיכו לחול מגבלות מחזור ועצירות מסחר; אין כאן הבטחת נזילות או זמינות רצופה ללא תנאים.\n\nה-SEC מבהירה שהופעה ברשימת המגישים אינה מוכיחה עמידה בתנאי פטור החדשנות ואינה אישור למהות ההודעה או לדיוקה. Formation מציינת במפורש שהיא והזירה אינן רשומות ב-SEC לפעילות במסגרת הפטור, ואינן כפופות לאותן דרישות גישה הוגנת ו-Regulation NMS של זירות מסורתיות. ההפעלה המתוכננת כפופה לתנאי הפטור ולפיקוח.\n\nהחידוש הוא הודעה של מפעילה נוספת על זירה נפרדת, לא הרחבת Securitize שכוסתה ב-n-0580, לא פתיחת הזירה המתוכננת של NYSE ב-n-0545 ולא ביטול התנגדויות המנפיקות ל-OKXICE. לא אומת כאן מועד הפעלה מחייב או היקף מסחר.",
+    "טקסט_en": "Catch-up coverage of Formation's Nov 9, 2026 notice, read in full. The SEC's index confirms submission of an intent notice on that date. This is not a new Nov 11 launch.\n\nFormation Securities, a Valcrest subsidiary, plans a Solana-based secondary-trading venue for tokenized US equities using permissioned automated liquidity pools based on Orca technology. The intended launch securities are Forward Industries (FWDI), Galaxy Digital (GLXY) and Exodus Movement (EXOD). This is a planned list, not confirmation that trading is active.\n\nThe notice says only participants and wallets that pass identity, sanctions and venue and tokenizer approval checks may participate. The venue will review whether tokens provide rights equivalent to traditional shares, including dividends and voting. Trading beyond regular exchange hours remains subject to volume limits and trading halts. Liquidity and uninterrupted availability are not guaranteed.\n\nThe SEC expressly says inclusion on its submission list does not establish compliance with the Innovation Exemption or approval of a notice's merits or accuracy. Formation states that neither it nor the venue is SEC-registered for activities under the exemption and that the venue is not subject to the same fair-access requirements and Regulation NMS as traditional venues. Planned operation remains conditional on the exemption and subject to oversight.\n\nThe development is another operator's notice for a separate venue, not the Securitize expansion covered in n-0580, opening of the planned NYSE platform in n-0545, or withdrawal of issuer objections to OKXICE. No binding production-start date or trading volume was verified here.",
+    "קישור": "https://www.formationsecurities.com/notice.pdf",
+    "מקורות": [
+      {
+        "label": "Formation: הודעה פומבית מקורית מ-9 בנובמבר",
+        "label_en": "Formation: original Nov 9 public notice",
+        "url": "https://www.formationsecurities.com/notice.pdf"
+      },
+      {
+        "label": "SEC: אינדקס הודעות כוונה והסתייגות מאישור",
+        "label_en": "SEC: intent-notice index and non-approval disclaimer",
+        "url": "https://www.sec.gov/about/divisions-offices/division-trading-markets/innovation-exemption"
+      },
+      {
+        "label": "Formation: אתר החברה ותיאור הזירה המתוכננת",
+        "label_en": "Formation: company site and planned-venue description",
+        "url": "https://www.formationsecurities.com/"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5f952254c3abc2abfb0c209397d94c77306785e7d44471ff828d83de29a87fd4"
+      }
+    }
   }
 ]
