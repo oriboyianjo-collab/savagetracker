@@ -31732,5 +31732,57 @@
         "source_hash": "5819877e35facd30de5f2ab7fd1700330018c7a84ad06c9d0eb479453e20033b"
       }
     }
+  },
+  {
+    "מזהה": "n-1292",
+    "category": "micro",
+    "חברה": "Alphabet",
+    "סימול": "GOOGL",
+    "כותרת": "Alphabet (GOOGL): לפי Reuters, HSBC וג׳יי פי מורגן מונו לתאם הנפקת אג״ח אפשרית ראשונה ב-HKD וב-SGD",
+    "כותרת_en": "Alphabet (GOOGL): Reuters reports HSBC and J.P. Morgan mandated for potential first HKD and SGD bond offerings",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 10:46",
+    "טקסט": "לפי Reuters, על בסיס מסמך תנאים שלא נקרא כאן ישירות; לא אומת מול מסמך מנפיק פומבי.\n11.11.2026 | הדיווח נקרא במלואו בהפצת The Standard. שעת הפרסום המקורית לא אומתה.\n\nAlphabet מינתה את HSBC ואת J.P. Morgan כמתאמים גלובליים משותפים להנפקה אפשרית של אג״ח בכירות לא מובטחות בריבית קבועה, בדולר הונג-קונגי ובדולר סינגפורי, לפי מסמך תנאים שראתה Reuters. אם תצא לפועל, זו תהיה הנפקת האג״ח הראשונה של החברה בכל אחד משני המטבעות.\n\nלפי המסמך המתואר, החלק בהונג קונג עשוי לכלול סדרות לשנתיים, לחמש ולעשר שנים, בכפוף לתנאי השוק. הדירוגים הצפויים לסדרות, אם יונפקו, הם Aa2 של Moody's ו-AA+ של S&P. אלו פרטי הנפקה מתוכננת, לא אישור שהסדרות כבר הונפקו.\n\nהחידוש לעומת השיחות שדווחו ב-n-1086 הוא מינוי הבנקים ופרטי המבנה במסמך תנאים. בדיווח החדש לא נמסרו סכום סופי, קופון, תמחור או מועד סליקה. הסכומים מדיווח Bloomberg הקודם אינם מאומתים מחדש ב-Reuters, ואין כאן גיוס שהושלם או הוכחה שכל התמורה מיועדת ל-AI.",
+    "טקסט_en": "According to Reuters, citing a term sheet not read here directly; not verified against a public issuer document.\nNov 11, 2026 | Full Reuters report read via The Standard. Original publication clock not verified.\n\nAlphabet mandated HSBC and J.P. Morgan as joint global coordinators for a potential offering of fixed-rate senior unsecured notes in Hong Kong and Singapore dollars, according to a term sheet seen by Reuters. If issued, these would be its first bond offerings in each currency.\n\nThe described term sheet says the Hong Kong dollar portion could include two-, five- and ten-year notes, subject to market conditions. The proposed notes, if issued, are expected to carry Aa2 ratings from Moody's and AA+ from S&P. These are proposed offering details, not confirmation that the notes have been issued.\n\nThe development relative to the talks reported in n-1086 is the bank mandate and proposed structure in a term sheet. This report gives no final amount, coupon, pricing or settlement date. Amounts from the earlier Bloomberg report are not reconfirmed by Reuters. This is not a completed fundraising or evidence that all proceeds are earmarked for AI.",
+    "קישור": "https://www.thestandard.com.hk/finance/article/348137/Alphabet-taps-banks-for-inaugural-HKD-SGD-bond-sale-term-sheet-shows",
+    "מקורות": [
+      {
+        "label": "Reuters בהפצת The Standard: מסמך תנאים ומינוי הבנקים",
+        "label_en": "Reuters via The Standard: term sheet and bank mandate",
+        "url": "https://www.thestandard.com.hk/finance/article/348137/Alphabet-taps-banks-for-inaugural-HKD-SGD-bond-sale-term-sheet-shows"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1bac108874605d20fe0249cd49221db40d8fec73b29b7d4de8636eb801e4be02"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1293",
+    "category": "micro",
+    "חברה": "MDA Space",
+    "סימול": "MDA",
+    "כותרת": "MDA Space (MDA) ו-Globalstar (GSAT): שמונת לווייני 2-R הראשונים עברו בדיקות תפקוד ראשוניות במסלול; טרם אושרה כניסה לשירות מלא",
+    "כותרת_en": "MDA Space (MDA) and Globalstar (GSAT): first eight 2-R satellites pass initial on-orbit functional tests; full service not confirmed",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 10:46",
+    "טקסט": "השלמת סיקור להודעת החברה מ-10.11.2026, שנקראה במלואה באתר קשרי המשקיעים. שעת הפרסום המקורית לא אומתה; זו אינה הודעת שיגור חדשה מהיום.\n\nMDA Space, הקבלנית הראשית של משימת Globalstar 2-R, הודיעה שכל שמונת לווייני ההשלמה ששוגרו ב-15 באוגוסט השלימו בהצלחה בדיקות תפקוד ראשוניות במסלול. בדיקות תקינות המטען נמשכות, והעלאת המסלול באמצעות הנעה חשמלית החלה בשני הלוויינים הראשונים.\n\nMDA ו-Globalstar ממשיכות בבדיקות המטען וגוף הלוויין בששת האחרים עם התיישרות מישורי המסלול. Rocket Lab (RKLB), שתכננה, בנתה והכניסה לפעולה את פלטפורמות הלוויינים, תתמוך בהעלאת המסלול עד לגובה הבדיקות האחרון, לפני העברה למסלול הסופי.\n\nשלבי השילוב הסופיים של תשעת הלוויינים הנותרים בהזמנה הושלמו לאחרונה במונטריאול. שתי הקבוצות, 17 לוויינים בסך הכול, מיועדות לרענן את מערך HIBLEO הקיים של Globalstar, התומך בשירותים ישירות למכשירים ניידים נבחרים וביישומי IoT.\n\nזהו ציון דרך בביצוע הזמנה קיימת, לא חוזה חדש, השלמת כל הבדיקות, קבלה תפעולית מלאה או כניסה של כל הלוויינים לשירות. לא נמסר כאן מועד שיגור לתשעת הלוויינים הנותרים או מועד הפעלה מסחרית. אין בהודעה אישור לסגירת עסקת Amazon-Globalstar שכוסתה בנפרד ב-n-0813.",
+    "טקסט_en": "Catch-up coverage of the Nov 10, 2026 company release, read in full on its investor-relations site. Original publication clock not verified. This is not a new launch announced today.\n\nMDA Space, prime contractor for the Globalstar 2-R mission, said all eight replenishment satellites launched on Aug 15 have successfully completed initial on-orbit functional tests. Payload health checks remain underway, and electric orbit raising has begun for the first two satellites.\n\nMDA and Globalstar continue testing payload and bus functionality for the other six as their orbital planes align. Rocket Lab (RKLB), which designed, built and commissioned the satellite platforms, will support orbit raising to the last testing altitude before the satellites move to final orbit.\n\nFinal integration stages for the remaining nine satellites on order were recently completed in Montreal. The two sets, 17 satellites in total, will replenish Globalstar's existing HIBLEO constellation, which supports direct-to-device services on select mobile phones and IoT applications.\n\nThis is an execution milestone on an existing order, not a new contract, completion of all testing, full operational acceptance or entry into service for all satellites. The release gives no launch date for the remaining nine or commercial-service date. It does not confirm closing of the Amazon-Globalstar transaction covered separately in n-0813.",
+    "קישור": "https://mda-en.investorroom.com/2026-11-10-MDA-SPACE-AND-GLOBALSTAR-COMPLETE-INITIAL-ON-ORBIT-FUNCTIONAL-TESTS-FOR-GLOBALSTAR-2-R-MISSION",
+    "מקורות": [
+      {
+        "label": "MDA Space: הודעת החברה המקורית מ-10 בנובמבר",
+        "label_en": "MDA Space: original Nov 10 company release",
+        "url": "https://mda-en.investorroom.com/2026-11-10-MDA-SPACE-AND-GLOBALSTAR-COMPLETE-INITIAL-ON-ORBIT-FUNCTIONAL-TESTS-FOR-GLOBALSTAR-2-R-MISSION"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f1986f37e248e5feab7b6204414190f3d470f2fa4061b636e339de0eaac09ca5"
+      }
+    }
   }
 ]
