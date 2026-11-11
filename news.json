@@ -31672,5 +31672,35 @@
         "source_hash": "7be39856ed84024bc39aa11256745743f21c329ac0d2b76bfa35abf9a36bb86f"
       }
     }
+  },
+  {
+    "מזהה": "n-1290",
+    "category": "macro",
+    "חברה": "South Korea",
+    "כותרת": "דרום קוריאה: רשות התחרות החליטה על קנסות של כ-1.627 טריליון וון ל-15 דילרים בגין תיאום במכרזי אג\"ח ממשלתיות",
+    "כותרת_en": "South Korea: competition authority orders about 1.627 trillion won in fines against 15 government-bond dealers",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 10:27",
+    "טקסט": "11.11.2026 | הודעת רשות התחרות הקוריאנית המקורית נקראה במלואה. שעת הפרסום המקורית לא אומתה.\n\nה-FTC הקוריאנית החליטה להוציא צווי תיקון ולהטיל קנסות בסכום כולל של 1,626,575,000,000 וון על 15 דילרים ראשיים באג\"ח ממשלתיות, עשר חברות ברוקראז' וחמישה בנקים. הרשות החליטה גם להפנות שבע חברות לגוף החקירות לפשיעה חמורה. זו החלטת אכיפה של רשות התחרות, לא הרשעה פלילית או אישור שהקנסות כבר שולמו.\n\nלפי ממצאי הרשות, בין ינואר 2020 ליוני 2023 הוחלף מידע על תשואות וכמויות הצעות ב-150 מכרזים. ב-145 מהם הגיעו המשתתפים גם להסכמות על תשואות או כמויות מסוימות, מעבר להחלפת המידע. ההודעה מתארת שימוש בטלפונים ובהודעות סמוך לסיום המכרזים.\n\nהרשות קובעת שההתנהלות החלישה את התחרות והעלתה באופן מלאכותי את תשואות ההקצאה, ובכך פגעה במנגנון גיוס הכספים של הממשלה. אלה ממצאים המיוחסים להליך האכיפה, לא אומדן עצמאי של נזק כספי.\n\nהחידוש הוא הסנקציות שפורסמו היום על התנהלות היסטורית. אין כאן טענה שמתבצע תיאום כעת, ששוק האג\"ח הושבת או שמדובר בהחלטת ריבית. לא אומתה השפעה מיידית על תשואות השוק.",
+    "טקסט_en": "Nov 11, 2026 | Original Korean competition-authority release read in full. Original publication clock not verified.\n\nSouth Korea's FTC decided to issue corrective orders and impose a total of 1,626,575,000,000 won in fines on 15 government-bond primary dealers, comprising ten brokerages and five banks. It also decided to refer seven firms to the Serious Crime Investigation Agency. This is competition-authority enforcement, not a criminal conviction or confirmation that the fines have been paid.\n\nAccording to the authority's findings, the firms exchanged bidding-yield and volume information in 150 auctions between January 2020 and June 2023. In 145 auctions, they also agreed specific yields or volumes rather than merely sharing information. The release describes calls and messages shortly before auction deadlines.\n\nThe authority concludes that this weakened competition and artificially raised auction yields, impairing the government's funding mechanism. These are findings attributed to the enforcement action, not an independent estimate of financial damage.\n\nThe development is today's sanctions over historical conduct. This does not allege current coordination, a shutdown of the bond market or a policy-rate decision. No immediate effect on market yields was verified.",
+    "קישור": "https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&key=12&nttSn=48212&searchCtgry=01%2C02",
+    "מקורות": [
+      {
+        "label": "רשות התחרות הקוריאנית: הודעת אכיפה מקורית מ-11 בנובמבר",
+        "label_en": "Korean FTC: original Nov 11 enforcement release",
+        "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&key=12&nttSn=48212&searchCtgry=01%2C02"
+      },
+      {
+        "label": "Yonhap: דיווח מ-11 בנובמבר",
+        "label_en": "Yonhap: Nov 11 report",
+        "url": "https://en.yna.co.kr/view/AEN20261111005300320"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "48283dd97a6429d0bc2c1701cb0d9d64360c4e7eb4caf6b6ed4febaefedfb023"
+      }
+    }
   }
 ]
