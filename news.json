@@ -32045,5 +32045,30 @@
         "source_hash": "b740392fefd3faeb7453aadb84367f03c2f3d624ea0bafd3748b3a30ca86b6c6"
       }
     }
+  },
+  {
+    "מזהה": "n-1303",
+    "category": "micro",
+    "חברה": "Fair Isaac (FICO)",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 13:16",
+    "קישור": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3657649",
+    "כותרת": "Fair Isaac (FICO): S&P שינתה את התחזית לשלילית בשל סיכוני התחרות והמינוף; דירוג BB+ אושרר",
+    "כותרת_en": "Fair Isaac (FICO): S&P revises outlook to negative on competition and leverage risks; BB+ rating affirmed",
+    "טקסט": "השלמת סיקור לפעולת דירוג של S&P מ-10 בנובמבר 2026. הודעת חברת הדירוג נקראה במלואה; שעת הפרסום המקורית לא אומתה. זה אינו שינוי דירוג חדש מ-11 בנובמבר.\n\nS&P שינתה את תחזית הדירוג של Fair Isaac מיציבה לשלילית, בעוד דירוג BB+ עצמו אושרר ללא שינוי. הפעולה משקפת חשש ללחץ על כוח התמחור והיקפי הפעילות בשוק ציוני האשראי למשכנתאות, לצד מינוף גבוה.\n\nלפי S&P, השינויים בשוק מקלים על אימוץ VantageScore 4.0, המתחרה של FICO. חברת הדירוג מצביעה גם על מוצרים של לשכות האשראי שמאפשרים למלווים לבחון מידע לפני רכישת ציון או להפריד בין הציון לתיק האשראי. אלה סיכונים להיקפי השימוש העתידיים, לא קביעה שאובדן לקוחות מסוים כבר התרחש.\n\nS&P מעריכה את המינוף בכ-3.5 פעמים ל-30 בספטמבר, לאחר תוכנית הרכישה העצמית המואצת ביולי, לעומת סף הורדת דירוג של 3 פעמים. היא צופה חזרה מתחת ל-3 פעמים אם החברה תמשיך לפרוע חוב ותימנע מרכישות עצמיות נוספות; חידוש רכישות מוקדם עלול להשאיר את המינוף מעל הסף.\n\nהתחזית השלילית אינה הורדת דירוג ואינה תחזית כספית חדשה של FICO. לפי S&P, אפשרות להורדת דירוג תעלה אם לחץ תחרותי או החלטות פיננסיות ישאירו את המינוף מעל 3 פעמים. חזרה לתחזית יציבה תלויה במינוף נמוך יותר ובביטחון רב יותר ביציבות התמחור וההיקפים.",
+    "טקסט_en": "Catch-up coverage of the Nov 10, 2026 S&P rating action. The full rating-agency announcement was read; its original publication time was not verified. This is not a new Nov 11 rating change.\n\nS&P revised Fair Isaac's outlook from stable to negative while affirming its BB+ rating unchanged. The action reflects risks to pricing power and volumes in mortgage credit scoring alongside elevated leverage.\n\nS&P says market changes facilitate adoption of VantageScore 4.0, FICO's competitor. It also points to credit-bureau products that let lenders review information before purchasing a score or separate the score from the credit file. These are risks to future volumes, not confirmation that a specific customer loss has occurred.\n\nS&P estimates leverage at about 3.5x as of Sept 30 following July's accelerated share repurchase program, versus its 3x downgrade threshold. It expects leverage to return below 3x if FICO continues repaying debt and refrains from additional repurchases. Resuming buybacks prematurely could keep leverage above the threshold.\n\nA negative outlook is not a rating downgrade or new company financial guidance. S&P could lower the rating if competitive pressure or financial-policy decisions keep leverage above 3x. A stable outlook would require lower leverage and more confidence in stable pricing and volumes.",
+    "מקורות": [
+      {
+        "label": "S&P Global Ratings: הודעת פעולת הדירוג המקורית מ-10 בנובמבר",
+        "label_en": "S&P Global Ratings: original Nov 10 rating-action announcement",
+        "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3657649"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ca72ee362407d55f6204de156aac0da440cd497fc6b51ddf742974861e2fd75c"
+      }
+    }
   }
 ]
