@@ -31930,5 +31930,35 @@
         "source_hash": "4f7dc649973684b401a4154ab548272603ce2f22975e906e9639ceaf240591d6"
       }
     }
+  },
+  {
+    "מזהה": "n-1299",
+    "category": "micro",
+    "חברה": "Pegasystems (PEGA)",
+    "כותרת": "Pegasystems: חוזה מסגרת של צבא ארה״ב ל-10 שנים עם תקרה של 419 מיליון דולר; לא הוצאה מובטחת",
+    "כותרת_en": "Pegasystems: 10-year US Army framework contract has a $419 million ceiling, not guaranteed spending",
+    "תאריך": "2026-10-29",
+    "הועלה": "2026-11-11 12:41",
+    "קישור": "https://www.pega.com/about/news/press-releases/us-army-awards-pega-10-year-enterprise-contract-accelerate-business",
+    "טקסט": "השלמת סיקור: הודעת Pega המקורית מ-4 בנובמבר נקראה במלואה. הודעת החוזים הממשלתית מ-29 באוקטובר נקראה בעותק Forth, לא בדף הממשלה עצמו. אין כאן זכייה חדשה מ-11 בנובמבר.\n\nPega הודיעה שקיבלה מצבא ארה״ב חוזה מסגרת IDIQ ל-10 שנים, עם תקרה של כ-419 מיליון דולר, עבור תוכנה, שירותי ענן ממשלתיים, תמיכה ושירותים מקצועיים. החוזה מאפשר לגופים מורשים בצבא ובמשרד המלחמה לרכוש פתרונות למודרניזציה של תהליכים עסקיים ותפעוליים.\n\nהתקרה אינה הכנסה שכבר הוכרה, הזמנה ממומנת במלוא הסכום או התחייבות שהצבא יוציא את כל הכסף. לפי עותק ההודעה הממשלתית, המימון ומיקומי העבודה ייקבעו בכל הזמנה בנפרד, ומועד ההשלמה המשוער הוא 28 באוקטובר 2036.\n\nלפי החברה, המסגרת כוללת גישה לפתרונות Pega, אירוח Pega Cloud for Government, תמיכה ושירותים מקצועיים; היא גם מאפשרת איחוד והרחבת שימושים קיימים, מעבר לענן ופיתוח יישומים. הודעת החברה אינה מכמתת הזמנות ראשונות או תרומה שנתית להכנסות.",
+    "טקסט_en": "Catch-up coverage: Pega's original Nov 4 announcement was read in full. The government's Oct 29 contract announcement was read in a Forth copy, not on the government's own page. This is not a new Nov 11 award.\n\nPega announced a 10-year US Army indefinite-delivery/indefinite-quantity enterprise contract with a ceiling of approximately $419 million, covering software, government cloud hosting, support and professional services. The framework gives authorized Army and Department of War organizations access to solutions for mission and business-process modernization.\n\nThe ceiling is not recognized revenue, a fully funded order or a commitment to spend the entire amount. The government announcement copy says work locations and funding will be set with each order, with estimated completion on Oct 28, 2036.\n\nPega says the agreement provides access to its products, Pega Cloud for Government hosting, support and professional services. It also supports consolidating and expanding existing deployments, cloud migration and application development. The company announcement does not quantify initial orders or annual revenue contribution.",
+    "מקורות": [
+      {
+        "label": "Pega: הודעת החברה המקורית, 4 בנובמבר",
+        "label_en": "Pega: original Nov 4 company announcement",
+        "url": "https://www.pega.com/about/news/press-releases/us-army-awards-pega-10-year-enterprise-contract-accelerate-business"
+      },
+      {
+        "label": "Forth: עותק הודעת החוזים הממשלתית מ-29 באוקטובר",
+        "label_en": "Forth: copy of the Oct 29 government contract release",
+        "url": "https://www.forth.news/lists/dod/CgXEqKptnkdBmt1SG1DEJ"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3b3b855a399df55fa04ca5f794dfa08d9ce9bfea8c95241c100c9a5681ef5988"
+      }
+    }
   }
 ]
