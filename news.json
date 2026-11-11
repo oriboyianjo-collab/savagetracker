@@ -32765,5 +32765,29 @@
         "source_hash": "938b5b97f15212cf74db229a58f5ee52edf9ab7ecfc0d88071aaaec179ec6bf9"
       }
     }
+  },
+  {
+    "מזהה": "n-1330",
+    "category": "macro",
+    "תאריך": "2026-11-03",
+    "הועלה": "2026-11-11 15:50",
+    "קישור": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q3-2026",
+    "כותרת": "השלמת סיקור מ-3 בנובמבר: WGC מדווחת על רכישות זהב של 321 טונות בידי בנקים מרכזיים ברבעון השלישי, עלייה של 42% בשנה",
+    "כותרת_en": "Nov 3 catch-up: WGC reports 321 tonnes of Q3 central-bank gold buying, up 42% year over year",
+    "טקסט": "סיקור משלים | מקור מ-3.11.2026, לא פרסום חדש מ-11 בנובמבר. דוח מגמות הביקוש לרבעון השלישי של מועצת הזהב העולמית נקרא במלואו, כולל טבלת ההיצע והביקוש. שעת הפרסום המקורית לא מוצגת; הנתונים מתייחסים לרבעון שהסתיים בספטמבר, לא לזרימות בזמן אמת.\n\nלפי אומדני WGC, רכישות הזהב נטו בקטגוריית הבנקים המרכזיים ומוסדות רשמיים אחרים הסתכמו ברבעון השלישי ב-321.2 טונות, לעומת 296.3 טונות ברבעון השני ו-226.3 טונות ברבעון המקביל. המועצה מציגה עלייה של 8% ברבעון ושל 42% בשנה. מתחילת השנה הסתכמו הרכישות בכ-675 טונות, עלייה של 6% משנה קודם. אלה אומדני ביקוש מגזריים, לא הודעה שכל בנק מרכזי קנה ולא פירוט מאומת של עסקאות יומיות.\n\nקרנות סל ומוצרים דומים הוסיפו 211.2 טונות ברבעון השלישי, לאחר יציאה של 47.3 טונות ברבעון השני. עם זאת, תוספת הרבעון הייתה נמוכה ב-6% לעומת שנה קודם. הביקוש למטילים ולמטבעות ירד ב-19% בשנה ל-267.8 טונות, וצריכת תכשיטים ירדה ב-17% ל-312.9 טונות. לכן אין כאן התחזקות אחידה של כל מקורות הביקוש.\n\nהביקוש הכולל, לרבות מסחר מחוץ לבורסה ורכיבים אחרים, הסתכם ב-1,368.6 טונות, ירידה של 1% בשנה. נתון זה שונה מהשורה המכונה בטבלה Gold Demand, שאינה כוללת OTC ואחרים ועמדה על 1,225.1 טונות, ירידה של 4%. ממוצע מחיר הזהב ברבעון לפי מדד LBMA PM היה 4,262.2 דולר לאונקיה, גבוה ב-23% משנה קודם אך נמוך ב-5% מהרבעון השני; זה אינו מחיר זהב נוכחי.\n\nהדוח מצביע על תמיכה מצד רכישות מוסדיות וחזרת זרימות לקרנות מול חולשה בחלק מהביקוש הפיזי. הוא אינו מוכיח שבנקים מרכזיים קנו דווקא בעקבות ירידות מחיר, אינו מתאר רכישות חדשות בנובמבר ואינו מבטיח את כיוון המחיר בהמשך.",
+    "טקסט_en": "Catch-up coverage | Original source dated Nov 3, 2026, not a new Nov 11 release. The full World Gold Council Q3 demand report and its supply-and-demand table were read. No original publication time is displayed. These are figures for the quarter ended September, not live flows.\n\nWGC estimates net gold buying by the central-bank and other official-institution category at 321.2 tonnes in Q3, versus 296.3 tonnes in Q2 and 226.3 tonnes a year earlier. Its table reports increases of 8% quarter over quarter and 42% year over year. Year-to-date buying reached about 675 tonnes, up 6% annually. These are sector-demand estimates, not confirmation that every central bank bought gold or a verified account of daily trades.\n\nETFs and similar products added 211.2 tonnes in Q3 after Q2 outflows of 47.3 tonnes. The Q3 addition was nevertheless 6% below a year earlier. Bar-and-coin demand fell 19% annually to 267.8 tonnes, while jewellery consumption fell 17% to 312.9 tonnes. Demand did not strengthen uniformly across all categories.\n\nTotal demand including OTC and other components was 1,368.6 tonnes, down 1% annually. This differs from the table's Gold Demand line excluding OTC and other components, which was 1,225.1 tonnes, down 4%. The quarterly average LBMA PM gold price was US$4,262.2 an ounce, up 23% annually but down 5% from Q2. It is not a current gold quote.\n\nThe report shows support from official-sector buying and returning ETF flows alongside weakness in some physical-demand categories. It does not establish that central banks specifically bought price dips, describe new November purchases or guarantee the future direction of gold prices.",
+    "מקורות": [
+      {
+        "label": "מועצת הזהב העולמית: דוח ביקוש לרבעון השלישי של 2026 וטבלת ההיצע והביקוש, 3 בנובמבר",
+        "label_en": "World Gold Council: Q3 2026 demand report and supply-and-demand table, Nov 3",
+        "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q3-2026"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "df0ba3fea8f1401aace2e75b04debdf34cf9a5b30d06059b8833cc3a96b911c4"
+      }
+    }
   }
 ]
