@@ -5935,14 +5935,77 @@ function bankScan(syms, first){             // look for splits / reverse splits 
     }).catch(()=>{ if(IMP===me){ me.scan[sym].st = 'err'; bankRefresh(); } });
   });
 }
+
+// Import review is transient. No portfolio writes happen until bankApply's final confirmation.
+function bankReviewText(he,en){return I18n.language==='en'?en:he;}
+function bankReviewFields(t){return [t.type,t.symbol||'',t.toSymbol||'',t.currency||'',t.date,t.qty??null,t.price??null,t.fee??null,t.tax??null,t.cgtEst??null,t.amount??null,t.ratio??null,t.taxKind||'',t.acct||'',t.fx??null,t.from||'',t.to||'',t.fromAmount??null,t.toAmount??null,t.rate??null,t.dir||''];}
+function bankReviewFingerprint(t){return JSON.stringify(bankReviewFields(t));}
+function bankOverlapCandidate(a,b){
+  if(a.ikey && a.ikey===b.ikey)return true;
+  if(a.type!==b.type || (a.symbol||'')!==(b.symbol||'') || (a.currency||'')!==(b.currency||'') || (a.taxKind||'')!==(b.taxKind||'') || (a.acct||'')!==(b.acct||'') || (a.from||'')!==(b.from||'') || (a.dir||'')!==(b.dir||''))return false;
+  // Same-day execution differences never exclude review. A close-date, same-size
+  // execution is also surfaced, never silently combined (trade/settlement dates).
+  return a.date===b.date || (!!a.symbol && Math.abs(daysBetween(a.date,b.date))<=3 && num(a.qty)===num(b.qty));
+}
+function bankOverlapPlan(incoming,opening){
+  const add=[],removed=new Set(),items=[],reserved=new Set();let exact=0;
+  if(IMP.mode==='replace')return {add:incoming.slice(),removed,items,pending:0,exact,overwritten:0,kept:0,both:0};
+  const decisions=IMP.reviewDecisions||(IMP.reviewDecisions={});
+  const exactMatched=new Set(incoming.flatMap(t=>state.txs.filter(o=>t.ikey&&o.ikey===t.ikey&&bankReviewFingerprint(o)===bankReviewFingerprint(t))));
+  incoming.forEach(t=>{
+    const same=state.txs.find(o=>t.ikey && o.ikey===t.ikey && bankReviewFingerprint(o)===bankReviewFingerprint(t));
+    if(same){exact++;return;}
+    if(t===opening && state.txs.some(o=>o.src==='bank'))return;
+    const candidates=state.txs.filter(o=>!exactMatched.has(o)&&bankOverlapCandidate(t,o));
+    if(!candidates.length){add.push(t);return;}
+    const key=JSON.stringify([t.ikey,bankReviewFingerprint(t),candidates.map(o=>[o.id,bankReviewFingerprint(o)])]);
+    const d=decisions[key], target=d&&candidates.find(o=>o.id===d.target);
+    let resolved=!!(d && ['overwrite','skip','both'].includes(d.action) && (d.action==='both' || (target&&!reserved.has(target.id))));
+    const item={t,candidates,key,decision:d,resolved};items.push(item);
+    if(!resolved)return; // unresolved rows are withheld from the provisional summary
+    if(d.action==='both')add.push(t);
+    else {reserved.add(target.id);if(d.action==='overwrite'){removed.add(target);add.push(Object.assign({},t,{id:target.id,ts:target.ts}));}}
+  });
+  return {add,removed,items,pending:items.filter(i=>!i.resolved).length,exact,
+    overwritten:items.filter(i=>i.resolved&&i.decision.action==='overwrite').length,
+    kept:items.filter(i=>i.resolved&&i.decision.action==='skip').length,
+    both:items.filter(i=>i.resolved&&i.decision.action==='both').length};
+}
+function bankReviewCash(t){const L=newLedger();applyTx(L,t);return L;}
+function bankRenderOverlap(R){
+ const el=$('bankOverlapReview');if(!el)return;const Q=R.review,T=bankReviewText;
+ if(IMP.mode==='replace'){el.innerHTML='';return;}
+ const money=(v,c)=>fmtMoney(num(v)||0,c||'ILS');
+ const value=(t,k)=>{const c=t.currency||t.from||'ILS';if(k==='source')return t.src==='bank'?T('קובץ בנק','Bank file'):T('הזנה ידנית','Manual entry');if(k==='total'){const L=bankReviewCash(t);return money(Math.abs(L.cash[c]||0),c);}if(k==='tax'&&t[k]==null)return T('לא נרשם','Not recorded');if(t[k]==null)return '—';if(k==='date')return fmtDate(t[k]);if(['price','fee','tax','cgtEst','amount'].includes(k))return money(t[k],c);if(k==='qty')return fmtQty(t[k]);if(k==='type')return TX_LABELS[t.type]||t.type;return String(t[k]);};
+ const rows=[['source',T('מקור','Source')],['date',T('תאריך','Date')],['qty',T('כמות','Quantity')],['price',T('מחיר ביצוע','Execution price')],['fee',T('עמלה','Fee')],['tax',T('מס בעסקה','Transaction tax')],['cgtEst',T('אומדן מס בבנק','Bank tax estimate')],['amount',T('סכום','Amount')],['ratio',T('יחס פיצול','Split ratio')],['rate',T('שער ביצוע המרה','Conversion rate')],['fx',T('שער המרה','FX rate')],['total',T('עלות / תמורה כוללת','Total cost / proceeds')]];
+ el.innerHTML=`<h3 style="margin:0 0 12px">${T('בדיקת חפיפות בייבוא','Import overlap review')}</h3><div class="warn" style="margin-bottom:14px">${Q.items.length?T('נמצאה עסקה שעשויה להיות אותה עסקה. אין דריסה אוטומטית.','A transaction may already exist. No automatic overwrite.'):T('לא נמצאו חפיפות שדורשות החלטה.','No overlaps need a decision.')}</div>`+
+ Q.items.map((item,i)=>{const d=item.decision||{},picked=item.candidates.find(o=>o.id===d.target)||item.candidates[0],multi=item.candidates.length>1;
+ const before=bankReviewCash(picked),after=bankReviewCash(item.t),deltas=['ILS','USD'].map(c=>[c,(after.cash[c]||0)-(before.cash[c]||0)]).filter(([,v])=>Math.abs(v)>.000001);
+ let effect=T('דריסה תחליף רק את העסקה הזאת. ','Overwrite replaces only this transaction. ');
+ if(['buy','sell'].includes(item.t.type)&&item.t.type===picked.type&&item.t.symbol===picked.symbol)effect+=num(item.t.qty)===num(picked.qty)?T('כמות העסקה תישאר ','Transaction quantity stays ')+fmtQty(item.t.qty)+'. ':T('כמות העסקה תשתנה מ-','Transaction quantity changes from ')+fmtQty(picked.qty)+' '+T('ל-','to ')+fmtQty(item.t.qty)+'. ';
+ effect+=deltas.length?deltas.map(([c,v])=>T(v<0?'המזומן יקטן בעוד ':'המזומן יגדל בעוד ',v<0?'Cash decreases by an additional ':'Cash increases by an additional ')+money(Math.abs(v),c)).join(' · ')+T(' לעומת הרישום הקיים.',' versus the existing record.'):T('המזומן יישאר ללא שינוי לעומת הרישום הקיים.','Cash is unchanged versus the existing record.');
+ return `<section data-review-row="${i}" style="border-bottom:1px solid var(--border);padding:0 0 16px;margin-bottom:16px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px"><b>${T('חפיפה ','Overlap ')}${i+1} ${T('מתוך ','of ')}${Q.items.length}</b><span class="tag">${item.resolved?'✓ '+T('נבחר','Chosen'):T('ממתין להחלטה','Awaiting choice')}</span></div><h3 style="margin:6px 0"><b class="ltr">${esc(item.t.symbol||'')}</b> · ${esc(TX_LABELS[item.t.type]||item.t.type)} · ${esc(item.t.currency||item.t.from||'')}</h3>
+ ${multi?`<label class="f"><span>${T('איזו עסקה קיימת? חובה לבחור לפני דריסה או דילוג','Which existing transaction? Select before overwrite or skip')}</span><select data-review-target="${i}"><option value="">${T('בחרו עסקה קיימת','Select existing transaction')}</option>${item.candidates.map((o,j)=>`<option value="${esc(o.id)}" ${d.target===o.id?'selected':''}>${j+1}. ${esc(o.symbol||o.currency||'')} · ${esc(value(o,'date'))} · ${esc(value(o,'qty'))} × ${esc(value(o,'price'))} · ${T('עמלה','Fee')} ${esc(value(o,'fee'))}</option>`).join('')}</select></label>`:''}
+ <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);gap:0;font-size:.8rem;border:1px solid var(--border);border-radius:12px;overflow:hidden"><b style="padding:9px;background:var(--bg-f8fafc)">${T('פרט','Field')}</b><b style="padding:9px;background:var(--bg-f8fafc)">${T('קיים בתיק','Existing')}</b><b style="padding:9px;background:var(--bg-f8fafc)">${T('בקובץ הבנק','Bank file')}</b>${rows.filter(([k])=>['source','date','qty','price','fee','tax','total'].includes(k)||item.t[k]!=null||picked[k]!=null).map(([k,label])=>{const diff=!['source','total'].includes(k)&&value(picked,k)!==value(item.t,k),sty='padding:9px;overflow-wrap:anywhere;'+(diff?'background:rgba(245,158,11,.16);':'');return `<span style="${sty}">${label}</span><span style="${sty}"><span class="num">${esc(value(picked,k))}</span></span><span style="${sty}"><span class="num">${esc(value(item.t,k))}</span></span>`;}).join('')}</div>
+ ${multi&&!d.target?`<div class="note">${T('ההשוואה מציגה כרגע את המועמד הראשון בלבד. בחרו עסקה כדי לראות את ההשפעה שלה.','Comparison currently shows the first candidate only. Select an existing transaction to see its impact.')}</div>`:''}<div class="note" style="margin:12px 0">${esc(effect)}</div>
+ <button type="button" class="btn btn-primary btn-block" style="margin-top:10px" data-review-action="overwrite" data-review-index="${i}" ${multi&&!d.target?'disabled':''}>${item.resolved&&d.action==='overwrite'?'✓ ':''}${T('לדרוס את הקיים לפי שורת הבנק','Overwrite existing using the bank row')}</button>
+ <button type="button" class="btn btn-light btn-block" style="margin-top:8px" data-review-action="skip" data-review-index="${i}" ${multi&&!d.target?'disabled':''}>${item.resolved&&d.action==='skip'?'✓ ':''}${T('לא לדרוס · להשאיר קיים ולדלג על השורה','Do not overwrite · keep existing and skip row')}</button>
+ <button type="button" class="btn btn-light btn-block" style="margin-top:8px" data-review-action="both" data-review-index="${i}">${item.resolved&&d.action==='both'?'✓ ':''}${T('אלו עסקאות שונות · לשמור את שתיהן','Distinct transactions · keep both')}</button>
+ <div class="note" style="margin-top:12px">${T('הבחירות ייכנסו לתוקף רק באישור הייבוא הסופי. עד אז אין שינוי בתיק.','Choices take effect only after final import confirmation. Until then the portfolio is unchanged.')}</div></section>`;}).join('')+
+ `<div class="${Q.pending?'warn':'note'}">${Q.pending?T('נותרו להכרעה: ','Unresolved: ')+Q.pending:T('כל החפיפות הוכרעו.','All overlaps reviewed.')} ${T('דריסה: ','Overwrite: ')}${Q.overwritten} · ${T('דילוג: ','Skip: ')}${Q.kept} · ${T('שמירת שתיהן: ','Keep both: ')}${Q.both} · ${T('כבר יובאו ללא שינוי: ','Already imported unchanged: ')}${Q.exact}</div><div class="note">${T('סיכום התיק והמזומן למטה מחושב מחדש לפי הבחירות. שורות שטרם הוכרעו אינן נכללות. טרם נשמר דבר.','The portfolio and cash summary below is recalculated from your choices. Unresolved rows are excluded. Nothing has been saved yet.')}</div>`;
+}
+
+function bankOverlapBind(){
+  const el=$('bankOverlapReview');if(!el)return;
+  el.addEventListener('change',e=>{const s=e.target.closest('[data-review-target]');if(!s)return;const item=IMP.last.review.items[+s.dataset.reviewTarget];IMP.reviewDecisions[item.key]={target:s.value};bankRefresh();});
+  el.addEventListener('click',e=>{const b=e.target.closest('[data-review-action]');if(!b)return;const item=IMP.last.review.items[+b.dataset.reviewIndex],d=IMP.reviewDecisions[item.key]||{};IMP.reviewDecisions[item.key]={action:b.dataset.reviewAction,target:d.target||(item.candidates.length===1?item.candidates[0].id:'')};bankRefresh();});
+}
+
 function bankFinal(){
   const B = bankBuild(), existing = new Set(state.txs.filter(t=>t.ikey).map(t=>t.ikey));
-  const replace = IMP.mode==='replace';
+  const replace = IMP.mode==='replace', review = bankOverlapPlan(B.txs, B.opening);
   const P = IMP.P, exBank = replace ? [] : state.txs.filter(t=>t.src==='bank');
-  const add = replace ? B.txs : B.txs.filter(t=>!existing.has(t.ikey) && !(t===B.opening && exBank.length));
-  // rows imported earlier by an older version (or with another ticker) under a different type/security: the file is the source of truth → replace them
-  const exMap = new Map(state.txs.filter(t=>t.ikey && t.src==='bank').map(t=>[t.ikey, t])), reclOld = new Set(), recl = [];
-  if(!replace) B.txs.forEach(t=>{ const o = exMap.get(t.ikey); if(o && (o.type!==t.type || (o.symbol||'')!==(t.symbol||''))){ reclOld.add(o); recl.push({from:o, to:t}); add.push(t); } });
+  const add = review.add, reclOld = review.removed, recl = [];
   // adding a file to bank data already in the portfolio: move the ILS cash to the file's own opening balance (covers any gap between files)
   let gap = null, gapAdj = null;
   if(exBank.length){
@@ -5994,7 +6057,7 @@ function bankFinal(){
     if(!skip) applyTx(Ls, t);
     if(ev) splitSum.push({sym:t.symbol, date:t.date, type:t.type, ratio:num(t.ratio), q:num(t.qty), before:q0, after: skip ? q0 : (Ls.pos[t.symbol] ? Ls.pos[t.symbol].qty : 0), skip:skip||null, isNew:newSet.has(t),
       src: t.type==='sharebonus' ? (t.src==='bank' ? (num(t.qty)<0 ? I18n.p("ux-0647","שורת הפחתה בלי מזומן בקובץ הבנק (למשל \"הפחתת הון\" באיחוד)") : I18n.p("ux-0648","שורת \"הטבה\" בקובץ הבנק")) : I18n.p("ux-0649","מניות הטבה שהוזנו ידנית")) : (t.note==='נוסף בייבוא' || /^split\|/.test(t.ikey||'') ? I18n.p("ux-0651","זוהה אוטומטית בהיסטוריית המחירים") : I18n.p("ux-0652","פיצול שהוזן ידנית"))}); });
-  return {B, add:add.filter(t=>!dupIn.has(t)), recl, reclOld, splits, splitTx, held, ever, splitSum, final: base.concat(splitTx), dup: B.txs.length - add.length};
+  return {B, review, add:add.filter(t=>!dupIn.has(t)), recl, reclOld, splits, splitTx, held, ever, splitSum, final: base.concat(splitTx), dup: review.exact};
 }
 function bankSecs(){
   const secs = {}; IMP.P.rows.forEach(r=>{ const c = bankClassify(r); if(!c.sec) return; const k = bankSecKey(r);
@@ -6034,6 +6097,7 @@ function openBankPreview(){
   openSheet(`${I18n.p("ui-1126","<h3>📥 טעינת קובץ מהבנק<button class=\"x\" data-close aria-label=\"סגירה\">✕</button></h3>\n    <div class=\"note\" style=\"margin-top:-6px\">📄 <span class=\"ltr\">")}${esc(IMP.file)}</span> · ${P.rows.length}${I18n.p("ui-1127"," שורות · <span class=\"num\">")}${fmtDate(P.first)} – ${fmtDate(P.last)}${I18n.p("ui-1128","</span><br>🔒 הקובץ נקרא רק במכשיר הזה ולא נשלח לשום מקום.</div>\n    ")}${old ? `${I18n.p("ui-1116","<div class=\"warn info\">הקובץ מסתיים ב-<b class=\"num\">")}${fmtDate(P.last)}${I18n.p("ui-1117","</b>. תנועות מאוחרות יותר לא נמצאות בו – אפשר להוסיף אותן ידנית אחרי הייבוא, או לטעון בהמשך קובץ חדש יותר (רק השורות החדשות יתווספו).</div>")}` : ''}${I18n.p("ui-1129","\n    <div class=\"set-sec\"><h4>🧾 סוגי התנועות בקובץ</h4><div id=\"bankCounts\"></div></div>\n    <div class=\"set-sec\" id=\"bankSecs\"><h4>🔤 ניירות ערך וסימולים</h4><div class=\"note\" style=\"margin-top:0\">בדקו שהסימול נכון. אפשר לחפש ולשנות (סימול, שם או מספר נייר). ניירות ת״א מקבלים מחיר מ-CNBC (מעוכב).")}${IMP.dir ? '' : I18n.p("ui-1118"," <b>רשימת הניירות לא נטענה – יש לבחור סימולים ידנית.</b>")}</div>
       ${secs.map((sc,i)=>`<div class="isec" data-sec="${i}"><div class="nm">${esc(sc.name)}${I18n.p("ui-1121","</div><div class=\"sub\">מס׳ נייר <span class=\"num\">")}${esc(sc.num||'—')}</span> · ${sc.cur==='USD'?I18n.p("ui-1119","דולר"):I18n.p("ui-1120","שקל")} · ${sc.n}${I18n.p("ui-1122"," עסקאות</div>\n        <div class=\"ac\" style=\"margin-top:6px\"><input class=\"ltr-in\" data-tick=\"")}${i}" value="${esc(IMP.map[sc.key].sym||'')}${I18n.p("ui-1123","\" placeholder=\"הוספת נייר\" autocapitalize=\"characters\" spellcheck=\"false\" aria-label=\"סימול עבור ")}${esc(sc.name)}"><div class="ac-list" data-ticklist="${i}"></div></div>
         <div class="sub" data-tickst="${i}"></div></div>`).join('')}${I18n.p("ui-1130","</div>\n    <div class=\"set-sec\" id=\"bankSplitSum\"></div>\n    <div class=\"set-sec\" id=\"bankSplitSec\"></div>\n    <div class=\"set-sec\" id=\"bankOpenSec\"></div>\n    <div class=\"set-sec\" id=\"bankUsdSec\"></div>\n    <div class=\"set-sec\"><h4>✅ בדיקת התאמה מול הקובץ</h4><div id=\"bankRecon\"></div></div>\n    <div class=\"set-sec\"><h4>💼 התיק שיתקבל</h4><div id=\"bankHold\"></div></div>\n    <div class=\"set-sec\" id=\"bankUnk\"></div>\n    <div class=\"set-sec\"><h4>⚙️ איך לייבא?</h4>\n      ")}${has ? `${I18n.p("ui-1124","<div class=\"seg\" id=\"bankMode\"><button type=\"button\" data-m=\"merge\">➕ הוספה לתיק הנוכחי</button><button type=\"button\" data-m=\"replace\">♻️ החלפת התיק הנוכחי</button></div>")}` : I18n.p("ui-1125","<div class=\"note\" style=\"margin-top:0\">התיק ריק – הוא ייבנה מהקובץ.</div>")}${I18n.p("ui-1131","\n      <div id=\"bankModeNote\"></div></div>\n    <div class=\"btn-row\" style=\"margin-top:14px\"><button class=\"btn btn-primary\" id=\"bankGo\">✓ ייבוא</button><button class=\"btn btn-light\" id=\"bankCancel\">ביטול</button></div>")}`);
+  const reviewEl=document.createElement('div');reviewEl.className='set-sec';reviewEl.id='bankOverlapReview';$('bankSecs').after(reviewEl);bankOverlapBind();
   secs.forEach((sc,i)=>{
     const inp = document.querySelector(`[data-tick="${i}"]`), list = document.querySelector(`[data-ticklist="${i}"]`);
     let tm = null;
@@ -6064,6 +6128,7 @@ function bankRefresh(){
   if(!IMP || !$('bankHold')) return;
   const R = bankFinal(), B = R.B, rec = bankReconcile(B), secs = bankSecs();
   IMP.last = R;
+  bankRenderOverlap(R);
   // counts per broker action → how it is imported
   $('bankCounts').innerHTML = Object.entries(B.counts).sort((a,b)=>b[1].n-a[1].n).map(([a,c])=>`<div class="irow"><span>${esc(a)} <span class="muted">← ${esc([...c.as].join(' / '))}</span></span><b class="num r">${c.n}</b></div>`).join('');
   secs.forEach((sc,i)=>{ const m = IMP.map[sc.key], el = document.querySelector(`[data-tickst="${i}"]`), box = document.querySelector(`[data-sec="${i}"]`); if(!el) return;
@@ -6123,11 +6188,12 @@ function bankRefresh(){
   $('bankModeNote').innerHTML = IMP.mode==='merge'
     ? `<div class="note" id="bankNew"><b class="num">${R.add.length}${I18n.p("ui-1216","</b> תנועות חדשות ייתווספו")}${R.dup?` · <b class="num">${R.dup}${I18n.p("ui-1214","</b> כבר קיימות בתיק ולכן ידלגו עליהן")}`:''}${R.splitTx.length?` · ${R.splitTx.length}${I18n.p("ui-1215"," פיצולים")}`:''}.</div>`
     : (state.txs.length ? `${I18n.p("ui-1217","<div class=\"warn red\">כל ")}${state.txs.length}${I18n.p("ui-1218"," העסקאות הנוכחיות יימחקו ויוחלפו ב-")}${nAdd}${I18n.p("ui-1219"," התנועות מהקובץ. ההגדרות נשמרות.</div><button class=\"btn btn-light btn-block\" id=\"bankBackup\" style=\"margin-top:8px\">⬇️ הורדת גיבוי של התיק הנוכחי (מומלץ)</button>")}` : `<div class="note" id="bankNew"><b class="num">${nAdd}${I18n.p("ui-1220","</b> תנועות ייובאו.</div>")}`);
+  if(IMP.mode==='merge' && $('bankNew')) $('bankNew').textContent=bankReviewText('תנועות חדשות: ','New transactions: ')+(R.add.length-R.review.overwritten)+' · '+bankReviewText('עדכון עסקאות קיימות: ','Overwrite existing: ')+R.review.overwritten+' · '+bankReviewText('דילוג: ','Skipped: ')+(R.review.kept+R.review.exact);
   if($('bankBackup')) $('bankBackup').onclick = ()=>{ exportData(); IMP.backedUp = true; $('bankBackup').textContent = I18n.p("ui-1221","✓ הגיבוי ירד למכשיר"); };
-  const blocked = need > 0 || pending > 0 || openMissing.length > 0, go = $('bankGo');
+  const blocked = R.review.pending > 0 || need > 0 || pending > 0 || openMissing.length > 0, go = $('bankGo');
   IMP.blocked = blocked || running.length>0;
   go.disabled = IMP.blocked || !nAdd; go.style.opacity = go.disabled ? '.5' : '';
-  go.textContent = need ? I18n.p("ui-1222","⚠️ חסרים סימולים") : openMissing.length ? `${I18n.p("ui-1223","⚠️ חסרה עלות ל-")}${openMissing.length}${I18n.p("ui-1224"," החזקות פתיחה")}` : pending ? I18n.p("ui-1225","⚠️ אשרו את הסימולים המסומנים") : running.length ? I18n.p("ui-1226","⏳ בודק פיצולים…") : !nAdd ? I18n.p("ui-1227","אין תנועות חדשות") : `✓ ${IMP.mode==='replace' && state.txs.length ? I18n.p("ui-1228","החלפה וייבוא") : I18n.p("ui-1229","ייבוא")} ${nAdd}${I18n.p("ui-1230"," תנועות")}`;
+  go.textContent = R.review.pending ? bankReviewText('⚠️ יש להכריע בכל החפיפות','⚠️ Review all overlaps first') : need ? I18n.p("ui-1222","⚠️ חסרים סימולים") : openMissing.length ? `${I18n.p("ui-1223","⚠️ חסרה עלות ל-")}${openMissing.length}${I18n.p("ui-1224"," החזקות פתיחה")}` : pending ? I18n.p("ui-1225","⚠️ אשרו את הסימולים המסומנים") : running.length ? I18n.p("ui-1226","⏳ בודק פיצולים…") : !nAdd ? I18n.p("ui-1227","אין תנועות חדשות") : `✓ ${IMP.mode==='replace' && state.txs.length ? I18n.p("ui-1228","החלפה וייבוא") : I18n.p("ui-1229","ייבוא")} ${nAdd}${I18n.p("ui-1230"," תנועות")}`;
 }
 function bankApply(){
   if(!IMP) return; bankRefresh(); const R = IMP.last;
@@ -6135,6 +6201,11 @@ function bankApply(){
   const add = R.add.concat(R.splitTx); if(!add.length) return toast(I18n.p("ui-1232","אין תנועות חדשות"));
   const replace = IMP.mode==='replace' && state.txs.length>0;
   if(replace && !confirm(`${I18n.p("ui-1234","להחליף את כל ")}${state.txs.length}${I18n.p("ui-1235"," העסקאות הנוכחיות ב-")}${add.length}${I18n.p("ui-1236"," התנועות מהקובץ?")}${IMP.backedUp?'':I18n.p("ui-1233","\n\nלא הורדתם גיבוי – אי אפשר לבטל את זה.")}`)) return;
+  if(IMP.mode==='merge'){
+    const q=R.review,L=computeLedger(R.final),T=bankReviewText;
+    if(q.pending)return;
+    if(!confirm(T('לאשר שמירת הייבוא?','Confirm import save?')+'\n'+T('דריסת עסקאות קיימות: ','Overwrite existing: ')+q.overwritten+'\n'+T('דילוג על שורות בקובץ: ','Skip file rows: ')+q.kept+'\n'+T('שמירת שתי עסקאות: ','Keep both: ')+q.both+'\n'+T('תנועות לשמירה: ','Transactions to save: ')+add.length+'\n'+T('מזומן לאחר הייבוא: ','Cash after import: ')+fmtMoney(L.cash.ILS,'ILS')+' / '+fmtMoney(L.cash.USD,'USD')+'\n'+T('שאר העסקאות הקיימות יישארו ללא שינוי.','All other existing transactions remain unchanged.')))return;
+  }
   // asset metadata + remembered ticker choices (for the next import)
   bankSecs().forEach(sc=>{ const m = IMP.map[sc.key]; if(!m || !m.sym) return;
     state.importMap[sc.key] = {sym:m.sym, type:m.type||'stock'};
@@ -7585,7 +7656,7 @@ html.dark .al-tg{background:#334155}.al-tg::after{content:"";position:absolute;t
  const toggle=(name,on)=>{if(body.classList.contains(name)!==on)body.classList.toggle(name,on)};
  const prop=(name,value)=>{if(body.style.getPropertyValue(name)!==value)body.style.setProperty(name,value)};
  function layout(){pending=false;
-  const stock=sheet.classList.contains('open')&&!!sheetBody.querySelector('#isRange,#posRange');
+  const stock=sheet.classList.contains('open')&&!!sheetBody.querySelector('#isRange,#posRange,#bankOverlapReview');
   const active=!search.hidden||stock||!!document.querySelector('.ct-shell');
   if(active&&!was)saved={x:scrollX,y:scrollY,focus:lastFocus};
   toggle('overlay-stock-card',stock);toggle('overlay-logo-safe',active);
