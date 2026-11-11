@@ -28865,10 +28865,15 @@
     }
   },
   {
-    "כותרת": "GLP-1 וסיכון NAION: לפי Korea Times, קוריאה פרסמה אזהרת בטיחות ובוחנת שינויי הוראות; דיווח ה-FDA הקודם נשמר",
+    "כותרת": "GLP-1 ו-NAION: אומתה דרישת FDA מ-9.11 לאזהרה בכל תרופות הסוג; האזהרה הקוריאנית נשארת בייחוס עיתונאי",
     "category": "macro",
-    "קישור": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
+    "קישור": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential",
     "מקורות": [
+      {
+        "label": "FDA: הודעת בטיחות רשמית מלאה, 9 בנובמבר 2026",
+        "label_en": "FDA: full official Nov 9, 2026 safety communication",
+        "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential"
+      },
       {
         "label": "CNBC, 10 בנובמבר 2026, 02:52 EST",
         "url": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
@@ -28880,16 +28885,16 @@
         "url": "https://www.koreatimes.co.kr/southkorea/society/20261111/korea-warns-of-rare-vision-loss-risk-linked-to-glp-1-drugs"
       }
     ],
-    "טקסט": "עדכון 11.11.2026, 06:13 בישראל: לפי כתבת Korea Times מ-13:08 KST (06:08 בישראל), שנקראה במלואה, משרד בטיחות המזון והתרופות הקוריאני (MFDS) פרסם ביום רביעי אזהרת בטיחות על קשר אפשרי בין תרופות GLP-1 להשמנה, ובהן Wegovy ו-Mounjaro, לבין NAION, מצב נדיר העלול לגרום לאובדן ראייה פתאומי ולעיתים קבוע. המשרד ביקש מהחברות נתוני בטיחות ותוכניות לשינויי אישור אפשריים, ויבחן עדכון אמצעי זהירות. זהו דיווח עיתונאי שלא אומת כאן מול מכתב MFDS רשמי.\n\nהכתבה מתארת הנחיה לצוותים רפואיים לבחון מיד מטופלים ולהפסיק טיפול אם מתעורר חשד ל-NAION, ולמטופלים עם תסמינים לפנות לרופא. אין כאן המלצה אישית להפסיק טיפול ללא ייעוץ רפואי. האזהרה והבחינה אינן איסור מכירה או שינוי תווית קוריאני שכבר הושלם, ואין להחיל את אומדן EMA לסמגלוטייד על כל תרופות GLP-1.\n\nזהו עדכון רגולטורי קוריאני לאותו נושא בטיחות, לא דיווח נוסף על החלטת FDA חדשה. הטקסט הקודם להלן מבוסס על CNBC; גם לאחר קריאה חוזרת של הכתבה המלאה לא אומת כאן מסמך FDA ראשוני, ולכן היקף הפעולה האמריקאית נשמר כדיווח מיוחס ולא כאימות ממשלתי עצמאי.\n\n10.11.2026 | לפי CNBC, נקרא במלואו.\n\nה-FDA מחייב את יצרניות כל תרופות ה-GLP-1 להוסיף אזהרה על סיכון מוגבר אפשרי ל-NAION - מצב נדיר שעלול לגרום לירידה פתאומית בראייה, כולל אובדן ראייה קבוע; הקשר הסיבתי לא הוכח. מקרי NAION דווחו בכל מוצרי ה-GLP-1 שבשוק. ניתוח של 126 ניסויים עם מעל 134,000 מטופלים מצא 6.4 מקרים ל-100,000 שנות-מטופל אצל משתמשי GLP-1 לעומת 3.8 בקבוצות הביקורת. ההחלטה התקבלה ביום שני בעקבות סקירת ניסויים קליניים, נתוני שוק ומחקרים; השינוי רוחבי-סוג ונוגע לנובו נורדיסק (Wegovy/Ozempic) ולאלי לילי (Zepbound/Mounjaro/Foundayo).",
-    "כותרת_en": "GLP-1 and NAION risk: Korea Times reports Korean safety alert and review of precaution changes; earlier FDA report retained",
-    "טקסט_en": "Update Nov 11, 2026, 06:13 Israel: A full Korea Times article published at 13:08 KST (06:08 Israel) reports that Korea's Ministry of Food and Drug Safety issued a Wednesday safety alert about a possible link between GLP-1 obesity drugs, including Wegovy and Mounjaro, and NAION, a rare condition that can cause sudden, potentially permanent vision loss. It requested company safety data and plans for possible approval amendments, and will consider precaution revisions. This is a media report not verified here against an official MFDS letter.\n\nThe article describes advice to medical professionals to arrange immediate examination and stop treatment if NAION is suspected, and to patients with symptoms to contact a doctor. This is not personal advice to stop treatment without medical consultation. The alert and review are not a sales ban or a completed Korean label change, and the EMA semaglutide frequency estimate must not be generalized to every GLP-1 drug.\n\nThis is a Korean regulatory update on the same safety topic, not another new FDA decision. The earlier text below is based on CNBC. Even after re-reading the full article, a primary FDA document has not been verified here, so the American action's scope remains attributed reporting, not independent government-source verification.\n\nNov 10, 2026 | per CNBC, read in full.\n\nThe FDA is requiring the makers of all GLP-1 medications to add a warning about a potential increased risk of NAION - a rare condition that can cause sudden vision loss, including permanent loss; a causal relationship has not been established. NAION cases have been reported for all currently marketed GLP-1 products. An analysis of 126 trials with over 134,000 patients found 6.4 cases per 100,000 patient-years among GLP-1 users versus 3.8 in control groups. The decision, made Monday, followed a review of clinical trials, real-world data and published studies; it is class-wide, covering Novo Nordisk (Wegovy/Ozempic) and Eli Lilly (Zepbound/Mounjaro/Foundayo).",
+    "טקסט": "עדכון אימות 11.11.2026: הודעת FDA הרשמית מ-9 בנובמבר נקראה במלואה. היא מחייבת את בעלי האישורים לכל תרופות GLP-1 להוסיף לסעיף האזהרות ואמצעי הזהירות מידע על סיכון מוגבר אפשרי ל-NAION, מצב נדיר העלול לגרום לאובדן ראייה פתאומי וקבוע. זו דרישת שינוי תווית, לא איסור שיווק ולא הוכחה שכל התוויות כבר עודכנו. ההיקף האמריקאי אומת כעת מול מקור ממשלתי, ולא נשען עוד רק על CNBC.\n\nה-FDA מצא 6.4 אירועים ל-100,000 שנות-מטופל מול 3.8 בביקורת בניתוח 126 ניסויים. אין לערבב שיעור זה עם השיעורים הגבוהים יותר במחקר Sentinel באוכלוסיית סוכרת: שם לא נמצאה עלייה מובהקת בהשוואה ל-SGLT-2, אך נמצאה עלייה בהשוואה ל-DPP-4. הראיות אינן אחידות בכל השוואה ואין כאן הוכחת מנגנון סיבתי. רשימת ה-FDA כוללת בין היתר Wegovy, Ozempic, Mounjaro, Zepbound ו-Foundayo.\n\nהודעת ה-FDA מורה לדווח מיד לרופא על ירידה פתאומית וללא כאב בראייה. לאנשי מקצוע: חשד מחייב הפניה מהירה לרופא עיניים; יש לשקול הפסקה אם מתפתח NAION אלא אם התועלת גוברת בבירור על הסיכון. אין כאן הוראה אישית לכל מטופל להפסיק טיפול.\n\nבקוריאה, לפי כתבת Korea Times מ-11 בנובמבר שנקראה במלואה, MFDS פרסם אזהרת בטיחות וביקש מהחברות נתונים ותוכניות לשינוי אישורים; יבחן עדכון אמצעי זהירות. מסמך MFDS המלא לא נקרא כאן, ולכן ההנחיה הקוריאנית נשארת מיוחסת לעיתון, לא שינוי תווית שהושלם. אין להחיל את אומדן EMA לסמגלוטייד על כל הסוג.\n\nזהו אימות מקור ראשוני והבהרת הראיות של אותה החלטת FDA מ-9 בנובמבר ועדכון קוריאה שכבר דווחו, לא החלטה אמריקאית נוספת מ-11 בנובמבר.",
+    "כותרת_en": "GLP-1 and NAION: Nov 9 FDA class-wide warning requirement verified; Korean alert remains media-attributed",
+    "טקסט_en": "Verification update Nov 11, 2026: The full official FDA communication dated Nov 9 was read. It requires application holders for all GLP-1 drugs to add Warnings and Precautions information about a potential increased risk of rare NAION, which can cause sudden and permanent vision loss. This is a labeling-change requirement, not a marketing ban or confirmation that every label has already changed. The U.S. scope is now verified against a government original rather than CNBC alone.\n\nFDA found 6.4 events per 100,000 person-years versus 3.8 in comparators across 126 trials. This must not be confused with higher rates in the Sentinel diabetes cohort: that study found no statistically significant increase against SGLT-2 drugs but an increase against DPP-4 drugs. Evidence is not uniform across every comparison and no causal mechanism is established here. The FDA list includes Wegovy, Ozempic, Mounjaro, Zepbound and Foundayo, among others.\n\nFDA advises patients to promptly report sudden painless vision changes to their clinician. For professionals, suspected NAION warrants prompt ophthalmology evaluation; discontinuation should be considered if NAION develops unless benefits clearly outweigh risk. This is not personal advice for every patient to stop treatment.\n\nIn Korea, according to the full Nov 11 Korea Times report, MFDS issued a safety alert and sought company data and approval-change plans, with precautions to be considered. The full MFDS document was not read here, so Korean instructions remain attributed to the newspaper, not a completed label change. EMA’s semaglutide frequency estimate must not be applied to the entire class.\n\nThis is primary-source verification and evidence clarification for the same Nov 9 FDA decision and previously covered Korean update, not a further U.S. decision on Nov 11.",
     "תאריך": "2026-11-10 02:52",
-    "הועלה": "2026-11-11 06:13",
+    "הועלה": "2026-11-11 09:04",
     "מזהה": "n-1174",
     "_translation": {
       "en": {
-        "source_hash": "57b104b6e878e7fea13263c6c8678d967bc714b582e4098637f2be78b467e646",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "c4bec25f2b7c0bd1421c622b055dede37bb4c1a7d30ce00ffba79834bd059b2d"
       }
     }
   },
@@ -31031,6 +31036,95 @@
       "en": {
         "schema_version": 1,
         "source_hash": "acb42284b820610892c17389a527e7688b8b863534662155a540a627c973f7a3"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1267",
+    "category": "macro",
+    "כותרת": "API, נתוני 10.11: לפי Investing, מלאי הנפט ירד ב-9.8 מיליון חביות מול צפי לירידה של מיליון",
+    "כותרת_en": "API Nov 10 data: Investing reports a 9.8 million-barrel crude draw versus a 1 million draw forecast",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:04",
+    "טקסט": "10.11.2026 | השלמת אימות בדיעבד ב-11.11. שעת המקור בשעון ישראל לא אומתה; השעה באתר תלויה בהגדרות אזור הזמן.\n\nלוח Investing מציג כעת לנתוני API של 10 בנובמבר ירידה של 9.800 מיליון חביות במלאי הנפט הגולמי בארה״ב, מול צפי לירידה של 1.000 מיליון וירידה קודמת של 5.267 מיליון. אלו נתוני מכון הנפט האמריקאי כפי שמופיעים במקור משני, לא דוח המלאי הממשלתי של EIA ולא אימות מול הבולטין המלא של API.\n\nפוסט של Julianne Geiger המוטמע ב-Forex Factory מדווח בנוסף על עלייה של 2.7 מיליון חביות בבנזין, ירידה של 8 מיליון בתזקיקים ועלייה של 5.1 מיליון בקושינג. רכיבים אלה מיוחסים לפוסט בלבד ואינם מאומתים כאן מול הבולטין המקורי. קושינג הוא אזור אחסון, לא כלל מלאי הנפט בארה״ב, ואין לחבר את הרכיבים כאילו היו מדד אחד.\n\nאין בנתונים לבדם הוכחה לעלייה בביקוש או לסיבת שינוי במחיר הנפט. דוח הנפט השבועי הממשלתי מתוכנן למחר, 12.11 בשעה 19:00 בישראל לפי חריג החג של EIA, כפי שמפורט בסקירת הבוקר n-1266. לא מדובר בתוצאה שכבר פורסמה בידי EIA.",
+    "טקסט_en": "Nov 10, 2026 | Verification completed retrospectively on Nov 11. The source clock in Israel time was not verified; displayed site times depend on timezone settings.\n\nThe Investing calendar now shows a 9.800 million-barrel decline in U.S. crude inventories for the Nov 10 API release, against a forecast 1.000 million draw and a prior 5.267 million draw. These are American Petroleum Institute figures as reported by a secondary source, not the government EIA inventory report or direct verification of the full API bulletin.\n\nA Julianne Geiger post embedded by Forex Factory additionally reports gasoline up 2.7 million barrels, distillates down 8 million and Cushing up 5.1 million. Those components are attributed only to that post and were not independently verified against the original bulletin. Cushing is a storage location, not total U.S. crude stocks, and the components should not be added as one indicator.\n\nThe figures alone do not establish increased demand or the cause of an oil-price move. The government weekly petroleum report is scheduled for tomorrow, Nov 12 at 19:00 Israel time under EIA’s holiday exception, as covered in morning preview n-1266. This is not an already-published EIA result.",
+    "קישור": "https://www.investing.com/economic-calendar/api-weekly-crude-stock-656",
+    "מקורות": [
+      {
+        "label": "Investing: לוח API עם actual/forecast/previous",
+        "label_en": "Investing: API calendar with actual/forecast/previous",
+        "url": "https://www.investing.com/economic-calendar/api-weekly-crude-stock-656"
+      },
+      {
+        "label": "Forex Factory: פוסט Julianne Geiger, רכיבים בייחוס בלבד",
+        "label_en": "Forex Factory: Julianne Geiger post, components attributed only",
+        "url": "https://www.forexfactory.com/news/1435703-api-crude-98m-gasoline-27m-distillates-8m-cushing"
+      },
+      {
+        "label": "EIA: מועד חריג לדוח השבועי",
+        "label_en": "EIA: weekly report holiday schedule",
+        "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "69c9ca683c2ce2535610cf3c0092cd7af9984568b1f5f7e8ca16269a55c9ff3a"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1268",
+    "category": "micro",
+    "כותרת": "Anthropic: דיווחי FT ו-Bloomberg על בחינת שווי גבוה יותר ועל בלוק הקצאות בשווי עד 500 מיליון דולר, לא 500 מיליון מניות",
+    "כותרת_en": "Anthropic: FT and Bloomberg reports on a possible higher IPO price and up to $500 million in allocations, not 500 million shares",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:04",
+    "טקסט": "דיווח FT מ-10.11 ודיווח Bloomberg שהופץ ב-11.11 | נקראו במלואם דרך Moneycontrol; כתבת FT המלאה עצמה מוגבלת למנויים. שעת הפרסום המקורית בישראל לא אומתה.\n\nלפי FT, כפי שמפורט ב-Moneycontrol תוך ייחוס לחמישה מקורות, בנקאי ההנפקה של Anthropic בוחנים העלאת מחיר מעבר לטווח 70-78 דולר לאחר ביקוש חזק, באופן שעשוי להביא לשווי של 1.5 טריליון דולר או יותר. זו בחינה מדווחת, לא תיקון רשמי לתשקיף, מחיר סופי או שווי שוק שכבר נקבע במסחר. תנאי התשקיף הרשמי ב-n-1193 נשארים הבסיס המאומת.\n\nבנפרד, Bloomberg מדווחת ש-JonesTrading משווקת עבור משקיעים הצופים לקבל הקצאות בהנפקה בלוק בשווי של עד 500 מיליון דולר, עם עמלה של 3%-5% מעל למחיר ההנפקה הסופי. מדובר בשווי דולרי של בלוק הקצאות צפויות, לא בהצעת 500 מיליון מניות חדשות מטעם החברה ולא בעמלת חיתום שאושרה לכל ההנפקה. ראש תחום השוק הפרטי בברוקר סירב להגיב לעסקאות Anthropic מסוימות.\n\nלפי מקורות Bloomberg, הקונים זקוקים לאישור המוכרים ובנק המעורב בהנפקה. עוד תואר מוכר נפרד המציע חשיפה למניות קיימות בשווי של יותר ממיליארד דולר דרך SPV, לפי שווי חברה של 1.4-1.6 טריליון דולר ובתוספת עמלה. זו הצעת מוכר מדווחת, לא עסקה שהושלמה או מחיר רשמי חדש.\n\nהחידוש לעומת n-1193 הוא דיווח על דיוני תמחור והפצת הקצאות בין משקיעים. אין כאן שינוי מאומת במספר 825 מיליון מניות A, בטווח הרשמי או בהצמדה הפרטית המותנית של 26 מיליארד דולר.",
+    "טקסט_en": "FT report dated Nov 10 and Bloomberg report carried Nov 11 | Both read in full through Moneycontrol; the full FT original itself is subscriber-restricted. Original publication clocks in Israel time were not verified.\n\nAccording to FT as detailed by Moneycontrol, citing five people, Anthropic’s IPO bankers are considering a price above the $70-$78 range after strong demand, potentially implying a valuation of $1.5 trillion or more. This is a reported discussion, not an amended prospectus, final offer price or traded market capitalization. Official prospectus terms in n-1193 remain the verified baseline.\n\nSeparately, Bloomberg reports that JonesTrading is marketing a block worth up to $500 million for investors expecting IPO allocations, with a 3%-5% fee above the eventual IPO price. This is the dollar value of anticipated allocations, not an offering of 500 million new company shares or an underwriting fee approved for the entire IPO. The broker’s private-markets head declined to comment on specific Anthropic transactions.\n\nBloomberg’s sources say buyers need approval from the sellers and a bank working on the IPO. A separate seller was also described offering more than $1 billion of existing stock exposure through an SPV at a $1.4-$1.6 trillion company valuation plus a fee. This is a reported seller offer, not a completed transaction or new official price.\n\nNew versus n-1193 are reports about pricing discussions and allocation distribution between investors. No verified change is established to the 825 million Class A shares, official range or conditional $26 billion private placement.",
+    "קישור": "https://www.moneycontrol.com/news/business/ipo/anthropic-ipo-gets-bigger-bankers-eye-1-5-trillion-valuation-after-strong-investor-demand-14076731.html",
+    "מקורות": [
+      {
+        "label": "Moneycontrol: דיווח מפורט המייחס את בחינת התמחור ל-FT",
+        "label_en": "Moneycontrol: detailed report attributing pricing discussions to FT",
+        "url": "https://www.moneycontrol.com/news/business/ipo/anthropic-ipo-gets-bigger-bankers-eye-1-5-trillion-valuation-after-strong-investor-demand-14076731.html"
+      },
+      {
+        "label": "Bloomberg בהפצת Moneycontrol: כתבה מלאה על הקצאות ועמלות",
+        "label_en": "Bloomberg via Moneycontrol: full allocations and fees report",
+        "url": "https://www.moneycontrol.com/news/business/ipo/anthropic-investors-shop-ipo-shares-early-and-at-a-big-premium-14076525.html"
+      }
+    ],
+    "חברה": "ANT",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e17bbce6924195f8c4710d792c326727d966b5af856a447c2ea020ba23546e7c"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1269",
+    "category": "micro",
+    "כותרת": "NVIDIA (NVDA): Reuters מדווחת שאוניברסיטה סינית ברשימת ההגבלות רכשה שני H200 מספק מקומי באוקטובר",
+    "כותרת_en": "NVIDIA (NVDA): Reuters reports blacklisted Chinese university bought two H200 chips from a domestic supplier in October",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 09:04",
+    "טקסט": "11.11.2026 | תחקיר Reuters נקרא במלואו בהפצת Straits Times; רשומות הרכש עצמן לא אומתו כאן ישירות. תאריך רכישת השבבים המתוארת הוא אוקטובר, לא היום.\n\nלפי Reuters, אוניברסיטת Northwestern Polytechnical בשיאן, המקיימת קשרים עם צבא סין ונכללת ברשימת Entity List האמריקאית, רכשה שני שבבי NVIDIA H200 תמורת 874,700 יואן. הסוכנות מסתמכת על רשומת רכש מ-21 באוקטובר באתר האוניברסיטה: הקנייה לבית הספר לניהול הייתה מ-Shaanxi Bosuan Network Technology, לא ישירות מאנבידיה.\n\nReuters מתארת גם חמישה חוזים מ-2026 להשכרת כוח מחשוב מהספקים הסיניים, כולל שני חוזים מינואר לגישה לשרתים עם שמונה H200 בכל אחד. יש להבדיל בין רכישה פיזית של שני שבבים לבין שכירת גישה לשרתים; אין לספור את כל המעבדים בחוזי השירות כמכירות חדשות לאוניברסיטה.\n\nלפי הסוכנות, מדיניות אישורי H200 לפי מקרה מינואר לא ביטלה את המגבלות הנפרדות על גופים ברשימת Entity List. הרשומות מציעות מעט מידע על מקור המעבדים או מיקום השרתים. האוניברסיטה, אנבידיה ו-BIS לא השיבו לבקשות התגובה; Reuters לא הצליחה לקבוע פרטי קשר לספק. אין בתחקיר הוכחה שאנבידיה סיפקה ביודעין למשתמש אסור, קביעה משפטית עצמאית של הפרת יצוא או הודעה על אכיפה חדשה.\n\nהחידוש ביחס ל-n-0047 על בדיקת New Matrix ול-n-0196 על מלאי בהונג קונג הוא זיהוי רוכש אוניברסיטאי ורשומת רכש ספציפית, לצד חוזי שירות. אין כאן אישור לשחרור המלאי הגדול לסין או שינוי בהיתרי היצוא.",
+    "טקסט_en": "Nov 11, 2026 | Reuters investigation read in full through The Straits Times; the underlying procurement records were not independently inspected here. The reported chip purchase occurred in October, not today.\n\nReuters reports that Northwestern Polytechnical University in Xian, which has ties to China’s military and is on the U.S. Entity List, bought two NVIDIA H200 chips for 874,700 yuan. The agency cites an Oct 21 procurement record on the university website: the management-school purchase was from Shaanxi Bosuan Network Technology, not directly from Nvidia.\n\nReuters also describes five 2026 contracts for rented computing capacity from Chinese suppliers, including two January contracts for access to servers containing eight H200 chips each. The outright two-chip purchase is distinct from rented server access; the processors in service contracts should not all be counted as new chip sales to the university.\n\nThe agency says January’s case-by-case H200 licensing policy did not remove separate Entity List restrictions. The records provide scant information about processor origins or server locations. The university, Nvidia and BIS did not respond to comment requests; Reuters could not establish supplier contact details. The investigation does not prove Nvidia knowingly supplied a prohibited user, independently adjudicate an export violation or announce new enforcement.\n\nNew versus n-0047 on New Matrix vetting and n-0196 on Hong Kong inventory is an identified university purchaser and a specific procurement record alongside service contracts. No release of the large inventory into China or change in export permissions is confirmed.",
+    "קישור": "https://www.straitstimes.com/asia/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show",
+    "מקורות": [
+      {
+        "label": "Reuters בהפצת Straits Times: התחקיר המלא",
+        "label_en": "Reuters via The Straits Times: full investigation",
+        "url": "https://www.straitstimes.com/asia/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show"
+      }
+    ],
+    "חברה": "NVDA",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5285f1a265ba58e772efa7fbad04ee23f34a31d626e882646e00bfead3a8a974"
       }
     }
   }
