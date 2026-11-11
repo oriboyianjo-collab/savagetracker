@@ -31702,5 +31702,35 @@
         "source_hash": "48283dd97a6429d0bc2c1701cb0d9d64360c4e7eb4caf6b6ed4febaefedfb023"
       }
     }
+  },
+  {
+    "מזהה": "n-1291",
+    "category": "macro",
+    "חברה": "Germany",
+    "כותרת": "נגל: ההתאוששות בגרמניה חזקה מההערכה בקיץ והצמיחה צפויה להאיץ ברבעון הרביעי, אך עדיין אינה רחבה",
+    "כותרת_en": "Nagel: German recovery is stronger than expected in summer and growth likely accelerates in Q4, but is not yet broad-based",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 10:45",
+    "טקסט": "11.11.2026 | הנאום המקורי של נשיא הבונדסבנק יואכים נגל בכנס הבנק המרכזי של לטביה בריגה נקרא במלואו. שעת פרסום המקור לא אומתה.\n\nנגל אמר שהערכות הביניים של הבונדסבנק מצביעות על התאוששות חזקה מזו שצפה בקיץ, וכי הצמיחה בגרמניה צפויה להאיץ ברבעון הרביעי, בעיקר בתמיכת הוצאות גבוהות יותר על ביטחון ותשתיות. התחזית המלאה הבאה של הבנק תפורסם בדצמבר; זו הערכת ביניים, לא פרסום תחזית מלאה חדשה או נתון תוצר בפועל לרבעון הרביעי.\n\nהוא הדגיש שההתאוששות עדיין אינה רחבה: הצריכה הפרטית נותרת חלשה וההשקעה במכונות ובציוד ירדה ברבעון השני. לדבריו, תנופה מחזורית והוצאה ציבורית לא יפתרו את הבעיות המבניות. הוא העריך את קצב הצמיחה הפוטנציאלי ב-0.3% עד 0.4%, וקרא לרפורמות בהיצע העבודה, באנרגיה ובסביבה העסקית.\n\nהמספרים 1.3% לצמיחה ב-2026 ו-1.1% ב-2027 המופיעים בנאום מיוחסים לקרן המטבע, למכוני מחקר ולממשלת גרמניה, ולא לתחזית חדשה של הבונדסבנק. אין בנאום הזה החלטת ריבית או התחייבות להעלאה בדצמבר.\n\nהחידוש לעומת תחזית DIHK מ-5 בנובמבר (n-0343) הוא הערכת הביניים העדכנית של הבונדסבנק לגבי התאוששות חזקה יותר מהערכתו בקיץ והאצה צפויה בסוף השנה, לא אימוץ תחזית DIHK ולא תגובת שוק שאומתה.",
+    "טקסט_en": "Nov 11, 2026 | Bundesbank President Joachim Nagel's original speech at the Latvijas Banka conference in Riga was read in full. Original publication clock not verified.\n\nNagel said the Bundesbank's interim assessments point to a stronger recovery than it expected in summer. German growth is likely to accelerate in the fourth quarter, supported above all by higher defence and infrastructure spending. The bank will publish its next full forecast in December. This is an interim assessment, not a new full forecast or an actual Q4 GDP result.\n\nHe stressed that the recovery is not yet broad-based: private consumption remains subdued and machinery and equipment investment declined in Q2. Cyclical momentum and public spending will not solve structural problems. He put potential growth at about 0.3% to 0.4% and called for labour-supply, energy and business-environment reforms.\n\nThe speech attributes the 1.3% growth projection for 2026 and 1.1% for 2027 to the IMF, research institutes and Germany's government, not to a new Bundesbank forecast. This speech contains no rate decision or commitment to a December increase.\n\nThe development relative to DIHK's Nov 5 forecast (n-0343) is the Bundesbank's updated interim assessment of a recovery stronger than it expected in summer and likely acceleration at year-end, not adoption of DIHK's forecast or a verified market reaction.",
+    "קישור": "https://www.bundesbank.de/en/press/speeches/economic-challenges-in-germany-and-the-future-of-europe-964960",
+    "מקורות": [
+      {
+        "label": "הבונדסבנק: הנאום המקורי מ-11 בנובמבר בריגה",
+        "label_en": "Bundesbank: original Nov 11 Riga speech",
+        "url": "https://www.bundesbank.de/en/press/speeches/economic-challenges-in-germany-and-the-future-of-europe-964960"
+      },
+      {
+        "label": "FXStreet: סיקור מ-11 בנובמבר",
+        "label_en": "FXStreet: Nov 11 coverage",
+        "url": "https://www.fxstreet.com/news/ecbs-nagel-german-growth-likely-to-accelerate-in-q4-202611110826"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5819877e35facd30de5f2ab7fd1700330018c7a84ad06c9d0eb479453e20033b"
+      }
+    }
   }
 ]
