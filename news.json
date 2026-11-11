@@ -33210,7 +33210,7 @@
     ],
     "symbols": [],
     "sectors": [
-      "healthcare"
+      "health-care"
     ],
     "tags_version": 1,
     "_translation": {
@@ -33272,8 +33272,8 @@
       "EBAY"
     ],
     "sectors": [
-      "consumerdiscretionary",
-      "informationtechnology"
+      "consumer-discretionary",
+      "information-technology"
     ],
     "tags_version": 1,
     "_translation": {
