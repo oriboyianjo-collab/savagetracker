@@ -32683,5 +32683,34 @@
         "source_hash": "6d26f55b80baaca98a8538bd469f3181bf87d5d1373c97e1a4491db8dced4325"
       }
     }
+  },
+  {
+    "מזהה": "n-1327",
+    "category": "macro",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 15:06",
+    "קישור": "https://www.opec.org/monthly-oil-market-report.html",
+    "כותרת": "דוח אופ\"ק לנובמבר: תפוקת מדינות DoC באוקטובר עלתה ב-2.035 מיליון חביות ביום לפי מקורות משניים",
+    "כותרת_en": "OPEC November report: DoC October crude output rose 2.035 million barrels a day on secondary-source estimates",
+    "טקסט": "11.11.2026 | דוח אופ\"ק הרשמי לנובמבר, לפי הכריכה. נקראו טבלאות 5-7 ו-5-8 בעמוד מודפס 55 ותחזיות הביקוש בעמוד iii. שעת הפרסום המקורית אינה מופיעה במקטעים שנבדקו.\n\nלפי טבלת המקורות המשניים בדוח, תפוקת הנפט הגולמי של כלל משתתפות הצהרת שיתוף הפעולה (DoC, מדינות אופ\"ק ושותפות מחוץ לארגון) הסתכמה באוקטובר ב-41.230 מיליון חביות ביום, לעומת 39.195 מיליון בספטמבר: עלייה של 2.035 מיליון חביות ביום. אלה ממוצעי תפוקה בפועל המוערכים בדוח, לא החלטה חדשה על מכסות או תוספת ליעדי דצמבר.\n\nבאותה סדרה משנית, סעודיה עלתה ל-9.194 מיליון חביות ביום מ-8.012 מיליון, תוספת של 1.182 מיליון. סך מדינות אופ\"ק בלבד היה 27.164 מיליון לעומת 25.199 מיליון; אין להחליף אותו בסך DoC הכולל גם מפיקות שאינן חברות אופ\"ק.\n\nחשוב להפריד בין הסדרות: בטבלת הדיווח הישיר, השורה הסעודית של 9.203 מיליון חביות ביום מתייחסת לאספקה לשוק, לעומת 7.988 מיליון בספטמבר. בהערת השוליים מדווחת סעודיה בנפרד על תפוקה של 10.563 מיליון באוקטובר לעומת 8.372 מיליון בספטמבר. נתונים אלה אינם אותה סדרה של אומדני המקורות המשניים, ואין לערבב ביניהם לחישוב שינוי או להציג אספקה לשוק כתפוקה.\n\nתחזית אופ\"ק לצמיחת הביקוש העולמי נותרה ללא שינוי: כ-0.2 מיליון חביות ביום ב-2026 וכ-2.6 מיליון ב-2027. אלה תוספות ביקוש שנתיות צפויות, לא רמת הביקוש הכוללת או שינוי חודשי.\n\nהדוח נפרד מהחלטת מכסות דצמבר שסוקרה ב-n-0633. עלייה בתפוקה אינה מוכיחה שכל התוספת יוצאה, שהשיט בהורמוז חזר לשגרה או שמחירי הנפט השתנו בגללה.",
+    "טקסט_en": "Nov 11, 2026 | Date on the official OPEC November report cover. Tables 5-7 and 5-8 on printed page 55 and demand forecasts on page iii were read. No original publication time is shown in the sections checked.\n\nThe secondary-source table estimates October crude production by all Declaration of Cooperation (DoC) participants, OPEC members and non-OPEC partners, at 41.230 million barrels a day versus 39.195 million in September, up 2.035 million. These are estimated average actual production levels, not a new quota decision or an addition to December targets.\n\nOn the same secondary-source series, Saudi Arabia rose to 9.194 million barrels a day from 8.012 million, up 1.182 million. OPEC members alone totaled 27.164 million versus 25.199 million; that is not the wider DoC total including non-OPEC producers.\n\nThe series must remain separate: in the direct-communication table, the Saudi row of 9.203 million barrels a day is supply to the market, versus 7.988 million in September. A footnote separately reports Saudi production of 10.563 million in October versus 8.372 million in September. Those are not the same series as the secondary-source estimates and must not be mixed to calculate changes or relabel market supply as production.\n\nOPEC left forecast global demand growth unchanged at about 0.2 million barrels a day for 2026 and 2.6 million for 2027. These are expected annual demand increments, not total demand levels or monthly changes.\n\nThe report is separate from the December quota decision in n-0633. Higher production does not prove all additional barrels were exported, normal Hormuz shipping has resumed or oil prices moved because of this report.",
+    "מקורות": [
+      {
+        "label": "אופ\"ק: עמוד דוח שוק הנפט החודשי",
+        "label_en": "OPEC: Monthly Oil Market Report page",
+        "url": "https://www.opec.org/monthly-oil-market-report.html"
+      },
+      {
+        "label": "אופ\"ק: הורדת הדוח הרשמי, עותק נובמבר מ-11 בנובמבר נבדק",
+        "label_en": "OPEC: official report download, Nov 11 November edition checked",
+        "url": "https://momr.opec.org/pdf-download/res/pdf_delivery_momr.php?secToken2=1"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d0c64052e500b58a002467d46d502f18ad8499818f0bf65c535764d3c1525502"
+      }
+    }
   }
 ]
