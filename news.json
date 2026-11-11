@@ -30855,5 +30855,30 @@
         "source_hash": "4f3fd5664206f038b2d842b54f6198f25d5d6cc321d78303771c5c0da0c7059f"
       }
     }
+  },
+  {
+    "מזהה": "n-1262",
+    "category": "micro",
+    "חברה": "NVDA",
+    "כותרת": "NVIDIA (NVDA), לפי Politico: הסנאטור הרפובליקני קווין קריימר קורא לג׳נסן הואנג להתפטר",
+    "כותרת_en": "NVIDIA (NVDA), Politico reports: Republican Sen. Kevin Cramer calls for Jensen Huang to resign",
+    "תאריך": "2026-11-11 04:39",
+    "הועלה": "2026-11-11 04:59",
+    "קישור": "https://www.politico.com/news/2026/11/10/senate-banking-republican-nvidia-ceo-resign-01160543",
+    "מקורות": [
+      {
+        "label": "Politico: דיווח Gabby Miller המלא ושיחה ישירה עם קריימר, 10 בנובמבר 21:39 EST, 11 בנובמבר 04:39 בישראל; לא הודעת סנאט רשמית",
+        "label_en": "Politico: full Gabby Miller report and direct Cramer interview, Nov 10 at 21:39 EST, Nov 11 at 04:39 Israel; not an official Senate statement",
+        "url": "https://www.politico.com/news/2026/11/10/senate-banking-republican-nvidia-ceo-resign-01160543"
+      }
+    ],
+    "טקסט": "לפי דיווח Politico המקורי שנקרא במלואו; לא אומת מול הודעת סנאט או תמליל רשמי.\n\nהסנאטור הרפובליקני קווין קריימר מצפון דקוטה, חבר בכיר בוועדת הבנקאות של הסנאט, אמר ל-Politico שעל ג׳נסן הואנג לעזוב את תפקיד מנכ״ל NVIDIA. קריימר נימק זאת בסיכון לסחיטה ובסיכון ביטחוני שהוא מייחס לקשר שדווח עם אליס הואנג. הוא עצמו אמר שלא ידוע אם האישה היא מרגלת סינית. טענת הסיכון היא עמדתו של קריימר, לא ממצא מודיעיני שנקבע כאן.\n\nהחידוש הוא קריאה אישית ומפורשת של סנאטור רפובליקני להתפטרות, בנפרד מהחקירה העצמאית ושכירת היועצים שכוסו ב-n-1043 וב-n-1252, ומנכונות מאסט לזימון מותנה ב-n-1254. אין בכתבה הודעה על התפטרות הואנג, הדחתו, הצבעה של הדירקטוריון, דרישה רשמית של ועדת הבנקאות או הגבלת ייצוא חדשה. לא מובאים ציטוט מחיר חדש או ייחוס תנועת מניה לקריאה.",
+    "טקסט_en": "Based on the full original Politico report; not verified against an official Senate statement or transcript.\n\nRepublican Sen. Kevin Cramer of North Dakota, a senior Senate Banking Committee member, told Politico that Jensen Huang should step down as NVIDIA CEO. Cramer cited the potential for extortion and a security risk that he associates with the reported relationship with Alice Huang. He himself said it was not known whether the woman was a Chinese spy. The risk assessment is Cramer's view, not an intelligence finding established here.\n\nThe new development is a Republican senator's explicit personal call for resignation, separate from the independent investigation and retention of counsel covered in n-1043 and n-1252, and Mast's conditional subpoena readiness in n-1254. The article does not announce Huang's resignation, removal, a board vote, a formal Banking Committee demand or a new export restriction. No new stock quote or claim that the call caused a share-price move is made.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9f2c4bb06d6370be7e3c7c26efbba181e39f761b263454225cbeb3dcbbed515f"
+      }
+    }
   }
 ]
