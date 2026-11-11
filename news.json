@@ -31814,5 +31814,61 @@
         "source_hash": "3ada4b49afe87cbac550253bbe3421ba0a602f52b6904366f82e21808f8aae71"
       }
     }
+  },
+  {
+    "מזהה": "n-1295",
+    "category": "macro",
+    "חברה": "US-China trade",
+    "כותרת": "ארה״ב מאריכה 178 החרגות קיימות ממכסי סעיף 301 על מוצרים מסין עד 9 בינואר 2027",
+    "כותרת_en": "US extends 178 existing Section 301 exclusions for Chinese products through Jan 9, 2027",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 11:26",
+    "טקסט": "השלמת סיקור להודעת USTR ברשומות הפדרליות מ-10.11.2026, שנקראה במלואה עם שני הנספחים.\n\nנציבות הסחר האמריקאית האריכה את כל 178 ההחרגות הקיימות ממכסים נוספים במסגרת חקירת סעיף 301 על סין: 164 החרגות מוצרים ו-14 החרגות לציוד מסוים לייצור סולארי. ההארכה חלה על כניסה לצריכה או משיכה ממחסן לצריכה החל מ-10 בנובמבר ב-00:01 שעון החוף המזרחי, עד 9 בינואר 2027 ב-23:59 באותו שעון, לפי תנאי הנספחים.\n\nזו הארכה של החרגות קיימות, לא ביטול מכסים גורף על סין ולא 178 קטגוריות פטור חדשות. הזכאות נקבעת לפי תיאור המוצר וסיווג המכס המפורט ב-HTSUS; אין להסיק שכל מוצר בשם מסחרי דומה פטור. USTR קושרת את ההחלטה לדיונים המתמשכים עם סין ומציינת שמכס ארה״ב יפרסם הוראות יישום.\n\nהצעד נפרד מהשעיית אגרות הנמל והצעדים הימיים ב-n-1073 ו-n-1074, ומהארכת ההשעיה הסינית של תעריף ה-24% ב-n-1068. כאן מדובר בהחרגות אמריקאיות למוצרים מוגדרים. ההודעה אינה מכמתת את שווי היבוא הנהנה או את החיסכון הכולל, ואינה מאשרת הארכה נוספת מעבר למועד שנקבע.",
+    "טקסט_en": "Catch-up coverage of the Nov 10, 2026 USTR Federal Register notice, read in full with both annexes.\n\nThe US Trade Representative extended all 178 current exclusions from additional duties under the Section 301 China investigation: 164 product exclusions and 14 exclusions for certain solar-manufacturing equipment. The extension applies to goods entered for consumption or withdrawn from warehouse for consumption from 12:01 a.m. Eastern on Nov 10 through 11:59 p.m. Eastern on Jan 9, 2027, subject to the annexes.\n\nThis extends existing exclusions. It is not a general rollback of China tariffs or 178 new exemption categories. Eligibility is governed by the detailed product descriptions and HTSUS classifications, not merely similar commercial names. USTR cites ongoing discussions with China and says US Customs and Border Protection will issue implementation guidance.\n\nThis is separate from the maritime-fee measures covered in n-1073 and n-1074 and China's extension of its 24% tariff suspension in n-1068. These are US exclusions for specified products. The notice does not quantify the value of covered imports or total savings, and does not confirm a further extension beyond the stated deadline.",
+    "קישור": "https://www.federalregister.gov/documents/2026/11/10/2026-22925/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology",
+    "מקורות": [
+      {
+        "label": "USTR: הודעה מקורית ושני נספחים, 10 בנובמבר",
+        "label_en": "USTR: original Nov 10 notice and both annexes",
+        "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22925/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0e4b831e728cb46566c522f6799595bfc72ede1fbf5ab0d2aba8fde8769440ec"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1296",
+    "category": "micro",
+    "חברה": "AMD",
+    "סימול": "AMD",
+    "כותרת": "AMD (AMD), Dell (DELL) ו-Spectro Cloud: מערכת Instinct Coder 355 לקידוד AI מקומי זמינה להזמנה; החיסכון המוצהר הוא מודל ספק",
+    "כותרת_en": "AMD (AMD), Dell (DELL) and Spectro Cloud: local-first Instinct Coder 355 AI coding appliance available to order; savings are vendor-modelled",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 11:26",
+    "טקסט": "השלמת סיקור להודעת Spectro Cloud מ-10.11.2026 בכנס KubeCon, שנקראה במלואה לצד בלוג AMD המתוארך ל-9 בנובמבר. לא השקה חדשה מ-11 בנובמבר.\n\nSpectro Cloud ו-AMD הודיעו על Instinct Coder 355, מערכת מוכנה לקידוד בעזרת AI המבוססת על שרת Dell PowerEdge XE9785, מעבדי EPYC ושמונה מאיצי MI355X. תוכנת PaletteAI Inference Launchpad מנהלת הסקה מקומית, ניתוב מודלים, מדידה ומכסות; AMD מציינת שימוש מקומי ב-GLM-5.3 ותמיכה בעד 85 מפתחים לשרת, מהם כ-50 במקביל. אלה נתוני הספק, לא בדיקת ביצועים עצמאית.\n\nהמערכת זמינה להזמנה דרך Spectro Cloud ושותפיה. ניהול מרכזי של צי מערכות גדול יותר דורש מנוי PaletteAI נוסף. לא פורסמו בהודעה לקוחות חדשים, היקף הזמנות או הכנסה.\n\nהניתוב הוא מקומי כברירת מחדל, אך משימות יכולות לעבור למודלי ענן מאושרים לפי מדיניות הארגון. קוד והנחיות נשארים בסביבה הארגונית כאשר הביצוע מקומי; בבקשות שמנותבות החוצה נשלח גם התוכן הדרוש. אין כאן הבטחה שכל בקשה נשארת מקומית.\n\nטענת חיסכון של עד 75% מתבססת על מודל AMD בהנחות שימוש, עלות שרת, הפחתה לשלוש שנים והמשך צריכת ממשקי ענן. זה אינו חיסכון שנמדד אצל לקוח או תוצאה מובטחת. המהלך הוא הרחבת מוצר תפעולית לקידוד ארגוני, לא תחזית כספית או דיווח תוצאות.",
+    "טקסט_en": "Catch-up coverage of Spectro Cloud's Nov 10, 2026 KubeCon announcement, read in full alongside AMD's blog dated Nov 9. This is not a new Nov 11 launch.\n\nSpectro Cloud and AMD announced Instinct Coder 355, a turnkey AI coding appliance based on a Dell PowerEdge XE9785 server, EPYC processors and eight MI355X accelerators. PaletteAI Inference Launchpad manages local inference, model routing, metering and quotas. AMD lists GLM-5.3 for local inference and support for up to 85 developers per server, about 50 concurrently. These are vendor specifications, not independent benchmark results.\n\nThe appliance can be ordered through Spectro Cloud and its partners. Central management of a larger appliance fleet requires an additional PaletteAI subscription. The release names no new customers, order value or revenue.\n\nRouting is local by default, but requests can go to approved cloud models under enterprise policy. Code and prompts stay inside the organisation when processed locally; externally routed requests send the associated content needed by that service. This is not a promise that every request remains local.\n\nThe claim of up to 75% savings is based on an AMD model with assumptions about usage, server cost, three-year amortisation and continued cloud API use. It is not measured customer savings or a guaranteed result. This is an operational enterprise-coding product expansion, not financial guidance or earnings.",
+    "קישור": "https://www.spectrocloud.com/news/amd-instinct-coder-355",
+    "מקורות": [
+      {
+        "label": "Spectro Cloud: הודעת השקה וזמינות מ-10 בנובמבר",
+        "label_en": "Spectro Cloud: Nov 10 launch and availability release",
+        "url": "https://www.spectrocloud.com/news/amd-instinct-coder-355"
+      },
+      {
+        "label": "AMD: בלוג מוצר מ-9 בנובמבר, מפרט והנחות המודל",
+        "label_en": "AMD: Nov 9 product blog, specifications and model assumptions",
+        "url": "https://www.amd.com/en/blogs/2026/introducing-instinct-coder-355-a-turnkey-ai-assisted-coding-platform.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e70b122708cabeb90a00b621f2d03270203567238ba50838214c9a94edf0123a"
+      }
+    }
   }
 ]
