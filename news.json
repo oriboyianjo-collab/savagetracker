@@ -32404,5 +32404,55 @@
         "source_hash": "466242e56f386552703ec596d6f2efc2f592ed90f680b5597ed0a8708b579c04"
       }
     }
+  },
+  {
+    "מזהה": "n-1316",
+    "category": "micro",
+    "חברה": "APLD",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 13:58",
+    "קישור": "https://spcom-disclosure-next.use1.prod.ratings.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3657566",
+    "כותרת": "Applied Digital (APLD): S&P שינתה את תחזית הדירוג מחיובית ליציבה; דירוג B+ אושר",
+    "כותרת_en": "Applied Digital (APLD): S&P revises outlook from positive to stable; B+ rating affirmed",
+    "טקסט": "10.11.2026 | פעולת דירוג של S&P Global Ratings, שנקראה במלואה במקור. שעת הפרסום המקורית אינה מצוינת; זו אינה פעולת דירוג חדשה מהיום.\n\nS&P אישרה את דירוג המנפיק B+ של Applied Digital ושינתה את התחזית מחיובית ליציבה, בגלל מדדי אשראי לחוצים. זו הורדת תחזית הדירוג, לא הורדת דירוג האשראי עצמו. הסוכנות כבר אינה צופה שיחס הכספים מפעילות (FFO) לחוב יעלה מעל 7% בטווח הקרוב.\n\nלפי הערכת S&P, החברה תידרש לגייס עוד 10-11 מיליארד דולר של חוב למימון ההתרחבות שכבר חוזית. זו הערכת צורכי מימון, לא הודעה שחוב חדש בסכום זה כבר הונפק. הסוכנות מתייחסת למניות הבכורה של Macquarie כחוב וכוללת ריבית PIK בחישוב יחס כיסוי הריבית, שאותו היא מעריכה כחלש, 1.2-1.3.\n\nמנגד, S&P מציינת שכ-70% מההכנסות החוזיות מגיעות משוכרים בדירוג השקעה ושכושר ההספק החוזי הגיע ל-1.4 גיגה-ואט. רק כ-17% מהקיבולת החוזית פעילים, ולכן נותר סיכון ביצוע בפרויקטים שבבנייה. אלה נתוני ההקשר של הסוכנות, לא חוזה חדש או השלמה של כל הקמפוסים.\n\nהסיכון לאופק שלילי כולל יחס FFO לחוב שיישאר מתחת ל-5% או עיכובים המגדילים סיכון לביטול מצד שוכרים. שיפור לכיוון 7% או השלמות בזמן ובתקציב עשויים לתמוך בפעולה חיובית. אלו תנאים להערכת דירוג עתידית, לא פעולות שכבר התרחשו. העדכון נפרד מריאיון המנכ\"ל על פער המימון שסוקר ב-n-0573.",
+    "טקסט_en": "Nov 10, 2026 | S&P Global Ratings action, read in full at the original source. No original publication time is shown; this is not a new rating action today.\n\nS&P affirmed Applied Digital's B+ issuer rating and revised its outlook from positive to stable because of pressured credit metrics. This is a less favorable outlook, not a credit-rating downgrade. S&P no longer expects funds from operations (FFO) to debt to rise above 7% in the near term.\n\nS&P estimates the company will need an additional $10 billion-$11 billion of debt to fund already-contracted expansion. This is an estimate of financing needs, not a new debt issuance already completed. The agency treats Macquarie preferred equity as debt and includes PIK interest in interest coverage, which it assesses as weak at 1.2x-1.3x.\n\nOn the other side, S&P says around 70% of contracted revenue comes from investment-grade tenants and contracted capacity has reached 1.4 GW. Only about 17% of contracted capacity is operational, leaving construction execution risk. These are contextual figures in the agency analysis, not a new lease or completion of all campuses.\n\nPossible negative-action triggers include FFO/debt sustained below 5% or delays that increase tenant-termination risk. Improvement toward 7% or on-time, on-budget completion could support a positive action. These are conditions for future credit assessment, not actions already taken. This is distinct from the CEO financing-gap interview covered in n-0573.",
+    "מקורות": [
+      {
+        "label": "S&P Global Ratings: הודעת הדירוג המלאה מ-10 בנובמבר",
+        "label_en": "S&P Global Ratings: full Nov 10 rating action",
+        "url": "https://spcom-disclosure-next.use1.prod.ratings.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3657566"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f3367ce4cb13c03471150078e73533b3e4d9e4af0124e191ca7ef98fc95d3866"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1317",
+    "category": "micro",
+    "חברה": "SF",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 13:58",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/10/3400059/0/en/stifel-working-with-anthropic-to-reimagine-its-dashboard-platform-with-claude.html",
+    "כותרת": "השלמה מ-10.11 | Stifel (SF) ו-Anthropic יעבדו על חידוש פלטפורמת Dashboard ליועצים באמצעות Claude",
+    "כותרת_en": "Nov 10 catch-up | Stifel (SF) and Anthropic to modernize the adviser Dashboard platform with Claude",
+    "טקסט": "השלמת סיקור להודעת Stifel המקורית בהפצת GlobeNewswire מ-10 בנובמבר 2026, 12:15 ET, 19:15 שעון ישראל. ההודעה המלאה נקראה.\n\nStifel הודיעה בכנס Blueprint 2026 שהיא עובדת עם Anthropic על חידוש ושיפור Dashboard, הפלטפורמה שבה יועציה מנהלים את העבודה עם לקוחות. החברה מתכננת לשלב את יכולות Claude עם הידע שלה בתהליכי עבודת היועצים, תוך שמירה על פונקציות וממשק מוכרים.\n\nזהו שיתוף פעולה לפיתוח הפלטפורמה, לא הודעה שכל המערכת המחודשת הושקה או זמינה כבר לכל יועץ. לא נמסרו מועד השקה, שלבי פריסה, מחיר חוזה או חיסכון כספי מוכח. Stifel מציינת שכבר נעשה אצלה שימוש ב-Claude, Claude Code ו-Claude Design; השימוש הקיים נפרד מהפיתוח החדש של Dashboard.\n\nכ-577 מיליארד דולר בנכסי לקוחות ויותר מ-400 משרדים בארה\"ב הם נתוני הרקע של Stifel, לא שווי ההסכם עם Anthropic ולא כספים שהועברו לניהולה. זהו יישום אצל לקוח מסוים, נפרד מהשקת כלי העבודה הכלליים של Anthropic שסוקרה ב-n-1250.",
+    "טקסט_en": "Catch-up coverage of Stifel's original GlobeNewswire release dated Nov 10, 2026 at 12:15 ET, 19:15 Israel time. The full release was read.\n\nAt Blueprint 2026, Stifel said it is working with Anthropic to modernize and enhance Dashboard, the platform its financial advisers use to manage their practices and serve clients. It plans to combine Claude capabilities with its adviser-workflow knowledge while preserving familiar functions and interface features.\n\nThis is a platform-development collaboration, not an announcement that the rebuilt system has launched or is already available to all advisers. No launch date, rollout stages, contract price or proven financial savings were disclosed. Stifel says it already uses Claude, Claude Code and Claude Design; that existing use is separate from the new Dashboard work.\n\nAbout $577 billion in client assets and more than 400 U.S. offices are Stifel background figures, not the value of the Anthropic agreement or assets transferred to Anthropic. This is a named-customer implementation initiative, separate from Anthropic's general workplace-tool launch covered in n-1250.",
+    "מקורות": [
+      {
+        "label": "Stifel: הודעת החברה המקורית בהפצת GlobeNewswire",
+        "label_en": "Stifel: original company release distributed by GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3400059/0/en/stifel-working-with-anthropic-to-reimagine-its-dashboard-platform-with-claude.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1204e0d242385e529ddadd27281308c60deb9d6750c7f308dd18b0e3eeaff530"
+      }
+    }
   }
 ]
