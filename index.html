@@ -319,6 +319,7 @@ html.dark .hcard{box-shadow:0 14px 34px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,2
 .sheet-bg.open{opacity:1;pointer-events:auto}
 .sheet{position:fixed;left:0;right:0;bottom:0;z-index:41;background:var(--bg-fff);border-radius:22px 22px 0 0;max-height:92vh;max-height:92dvh;overflow:auto;transform:translateY(105%);transition:transform .25s ease;padding:8px 16px calc(16px + var(--safe-b));max-width:820px;margin:0 auto;overscroll-behavior:contain;visibility:hidden}
 .sheet.open{transform:translateY(0);visibility:visible}
+.stock-finance-row{margin-top:8px}#sheet .wl-add-box>.wl-pick[hidden]{display:none}#sheet .stock-finance{display:flex;align-items:center;justify-content:center;gap:10px;min-height:44px;border-radius:12px}
 /* Clip the stock-sheet scroll/animation surface to its existing rounded silhouette, including composited child layers. */
 #sheet:has(#isChart),#sheet:has(#posChartEl){clip-path:inset(0 round 22px 22px 0 0);isolation:isolate}
 .sheet .grab{width:44px;height:5px;border-radius:99px;background:var(--bg-cbd5e1);margin:4px auto 10px}
@@ -4754,6 +4755,7 @@ function companyCapText(it, q){
 }
 function companyCapHtml(it, q){ const t=companyCapText(it,q); return `<div id="companyCap" style="position:absolute;inset-inline-start:0;top:100%;font-size:.65rem;line-height:1;white-space:nowrap"${t?'':' hidden'}>${t ? (I18n.language==='en'?'Market cap':'שווי שוק')+': <span class="num" dir="ltr">'+esc(t)+'</span>' : ''}</div>`; }
 function updateCompanyCap(it,q){ const el=$('companyCap'); if(!el)return; const t=companyCapText(it,q); el.hidden=!t; el.innerHTML=t ? (I18n.language==='en'?'Market cap':'שווי שוק')+': <span class="num" dir="ltr">'+esc(t)+'</span>' : ''; }
+function stockFinanceButtonHtml(sym){return `<div class="btn-row stock-finance-row"><button type="button" class="btn btn-light stock-finance" data-stock-finance="${esc(sym)}"><svg viewBox="0 0 28 28" width="20" height="20" aria-hidden="true"><rect x="2" y="15" width="6" height="11" rx="1" fill="#60a5fa"/><rect x="11" y="8" width="6" height="18" rx="1" fill="#34d399"/><rect x="20" y="2" width="6" height="24" rx="1" fill="#60a5fa"/></svg><span>${I18n.language==='en'?'Stock financials':'פיננסים למניה'}</span></button></div>`;}
 function instSheetHtml(it){ const held = it.sec && computeAll().positions.some(p=>p.sym===it.sym);
   return `<h3><span>${it.sec ? logoHtml(it.sym, true) : it.fl ? `<span class="fxfl">${it.fl}</span>` : ''}<span>${esc(israelIndexMeta(it.sym)?it.n:it.sec ? it.sym : it.n)}${I18n.p("ui-0622","</span></span><button class=\"x\" data-close aria-label=\"סגירה\">✕</button></h3>\n    <div class=\"muted\" style=\"margin:-8px 0 8px;font-size:.85rem\">")}<div style="position:relative">${esc(it.sec ? it.n : it.fileSrc ? I18n.p("ui-0618","Yahoo Finance · ללא גרף") : it.s)}${it.sec&&!israelIndexMeta(it.sym) ? '' : '<span id="isAsof"></span>'}${companyCapHtml(it,iq(it))}</div></div>
     <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><div class="ishd"><b id="isV" class="num" style="font-size:1.5rem"></b><b id="isC" class="num"></b><span id="isXP" class="isx"></span><span id="isXC" class="isx"></span></div>${it.y ? '' : styleSegHtml('isStyle', 'candle')}</div>
@@ -4761,6 +4763,7 @@ function instSheetHtml(it){ const held = it.sec && computeAll().positions.some(p
     <div class="seg sm" id="isRange" style="margin-top:10px">${INST_RANGES.map(([v,l])=>`<button data-v="${v}">${l}</button>`).join('')}${I18n.p("ui-0623","</div>\n    <details style=\"margin-top:10px\" id=\"isCustom\"><summary style=\"cursor:pointer\">טווח תאריכים לבחירה</summary><div style=\"display:flex;gap:6px;flex-wrap:wrap;margin-top:8px\"><label style=\"flex:1;min-width:140px\">מתאריך<input id=\"isFrom\" type=\"date\" max=\"")}${today()}" value="${addDays(today(),-366)}${I18n.p("ui-0624","\" style=\"width:100%\"></label><label style=\"flex:1;min-width:140px\">עד תאריך<input id=\"isTo\" type=\"date\" max=\"")}${today()}" value="${today()}${I18n.p("ui-0625","\" style=\"width:100%\"></label><button class=\"btn btn-primary btn-sm\" id=\"isApplyDates\" style=\"width:100%;min-height:44px\">הצגת הטווח</button></div><div class=\"note\" id=\"isDateErr\" role=\"status\"></div></details>\n    <div class=\"seg sm ivseg\" id=\"isIv\" aria-label=\"אינטרוול\"></div><div class=\"chart\" id=\"isChart\" style=\"height:280px;margin-top:6px\"><div class=\"chart-msg\" id=\"isMsg\">טוען גרף…</div></div>\n    <div id=\"isCoverage\" class=\"note\" hidden></div><div class=\"inst-stats\" id=\"isStats\"></div>")}${it.sec && it.type!=='crypto'&&!israelIndexMeta(it.sym) ? obHtml(it.sym) : ''}
     ${it.sec && it.type!=='crypto'&&!israelIndexMeta(it.sym) ? detHtml() : ''}
     ${it.sec ? wlAddHtml(it.sym, it.n, it.type, it.cur) : it.fx ? wlAddHtml(it.sym, it.n, 'fx', '') : ''}
+    ${it.stock ? stockFinanceButtonHtml(it.sym) : ''}
     ${held ? `${I18n.p("ui-0620","<div class=\"btn-row\" style=\"margin-top:8px\"><button class=\"btn btn-light\" id=\"isPos\">💼 פתיחת הפוזיציה בתיק</button></div>")}` : ''}
     ${it.stock ? I18n.p("ui-0621","<div class=\"note\">מניות ותעודות סל בארה״ב: מסחר רגיל בלבד (09:30–16:00 ניו יורק).</div>") : ''}`; }
 
@@ -6460,6 +6463,7 @@ function drawFinList(){ const items=finSorted(); const el=$('finList'); if(!el) 
   $('finMore').hidden = finShown>=items.length; }
 async function renderFin(){ $('finDetail').hidden=true; $('finWrap').hidden=false;
   if(!finData){ $('finList').innerHTML=I18n.p("ui-1291","<div class=\"muted\">טוען…</div>"); await loadFin(); }
+  if(ui.tab==='fin'&&finSel){drawFinDetail();return;} // A direct stock jump survives the pending list load.
   if(finData&&finData.error){ $('finList').innerHTML=`${I18n.p("ui-1292","<div class=\"muted\">לא ניתן לטעון את רשימת המניות (")}${esc(finData.error)})</div>`; return; }
   const iv=num(state.settings.refreshSec)||0;   // tab entry re-quotes visible rows, throttled by the app's own refresh preference (0 = auto refresh off); never faster than 15s
   if(finQuotedAt && iv && Date.now()-finQuotedAt>=Math.max(15,iv)*1000) finQuotedSyms=new Set();
@@ -6470,6 +6474,7 @@ function finTplHtml(){ const L=t=>`<div><b>${t}</b>: <span style="color:var(--mu
     + VQQ(I18n.p("ui-1295","הכנסות"))+L(I18n.p("ui-1296","ביט/מיס מול צפי"))+MARG(I18n.p("ui-1297","רווח תפעולי"))+MARG(I18n.p("ui-1298","רווח נקי"))+MARG('EBITDA')+L('EPS')+VQQ('CAPEX')+VQQ(I18n.p("ui-1299","מיסים ששולמו"))+L(I18n.p("ui-1300","תזרים מפעילות שוטפת"))
     + I18n.p("ui-1301","<div style=\"margin-top:3px\"><b>עיקרי העסק</b>: <span style=\"color:var(--muted)\">—</span></div>")
     + I18n.p("ui-1302","<div style=\"margin-top:6px\"><b>תחזית החברה</b></div>")+L(I18n.p("ui-1303","הכנסות"))+L('EPS')+'</div>'; }
+document.addEventListener('click',e=>{const b=e.target.closest('[data-stock-finance]');if(!b)return;const sym=b.dataset.stockFinance;if(!sym)return;closeSheet();setTab('fin');finSel=sym;if(!navRestoring)navPush({t:'finD'});drawFinDetail();});
 async function drawFinDetail(){ const r=(finSorted().find(x=>x[0]===finSel))||[finSel,null,finSel];
   $('finWrap').hidden=true; $('finDetail').hidden=false;
   $('finDTitle').textContent=r[2]||r[0];
