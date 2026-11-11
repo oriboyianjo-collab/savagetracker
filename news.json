@@ -32609,5 +32609,29 @@
         "source_hash": "b3fd9860088179bfe7353085df2726b903be7f017a307ae4ad38f4636a3b94f5"
       }
     }
+  },
+  {
+    "מזהה": "n-1324",
+    "category": "macro",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 14:28",
+    "קישור": "https://www.ukmto.org/-/media/ukmto/products/20261110-ukmto_warning_201_26.pdf",
+    "כותרת": "UKMTO: מכלית דיווחה על פגיעת קליע לא מזוהה מצפון-מזרח ללימה בעומאן; הצוות בטוח",
+    "כותרת_en": "UKMTO: tanker reports unknown-projectile strike northeast of Lima, Oman; crew safe",
+    "טקסט": "השלמת סיקור לאזהרת UKMTO מספר 201-26, שנקראה במלואה. מועד האירוע: 10.11.2026 ב-13:38 UTC, 15:38 שעון ישראל. זהו זמן האירוע הרשום במסמך, לא שעת פרסום האזהרה; שעת הפרסום המקורית לא אומתה.\n\nגוף הביטחון הימי הבריטי UKMTO מסר שקיבל מרב-חובל של מכלית דיווח על פגיעת קליע לא מזוהה, במרחק 19 מייל ימי מצפון-מזרח ללימה שבעומאן. לפי הדיווח, אנשי הצוות בטוחים ולא דווח על פגיעה סביבתית. רב-החובל התכוון לבצע הערכת נזק עם אור ראשון; אין כאן ממצא מאומת על היקף הנזק או הודעה שהבדיקה כבר הסתיימה.\n\nהרשויות חוקרות, ו-UKMTO קורא לכלי שיט לעבור בזהירות ולדווח על פעילות חשודה. המסמך אינו מזהה את המכלית, הגורם היורה, סוג המטען או כלי הנשק מעבר לתיאור קליע לא מזוהה. אין בסיס לייחס את הפגיעה לאיראן, לקבוע שמדובר במוקש או לחבר אותה לטענות על שתי מכליות באירוע אחר.\n\nזו אזהרה נפרדת מ-195-26 על תקרית 3 בנובמבר מול לימה, שפורסמה ב-n-0509, ומהדיווחים מ-8 בנובמבר ב-n-1032. אין באזהרה אישור לחסימה חדשה של הורמוז, לעצירת אספקת נפט בהיקף ידוע או לתגובה מסוימת במחירי האנרגיה.",
+    "טקסט_en": "Catch-up coverage of UKMTO warning 201-26, read in full. Incident time: Nov 10, 2026 at 13:38 UTC, 15:38 Israel time. This is the incident time recorded in the document, not the warning publication time; the original publication clock was not verified.\n\nUK Maritime Trade Operations said it received a report from a tanker master of an unknown-projectile strike 19 nautical miles northeast of Lima, Oman. The crew are safe and no environmental impact was reported. The master planned a damage assessment at first light; the warning does not establish the extent of damage or confirm that assessment has since been completed.\n\nAuthorities are investigating and UKMTO advises vessels to transit cautiously and report suspicious activity. The document does not identify the tanker, attacker, cargo or weapon beyond an unknown projectile. It does not establish Iranian responsibility, a mine strike or a connection to claims about two tankers in another incident.\n\nThis is separate from warning 195-26 about the Nov 3 Lima incident in n-0509 and the Nov 8 reports in n-1032. The warning does not confirm a new closure of Hormuz, a quantified oil-supply interruption or any specific energy-price reaction.",
+    "מקורות": [
+      {
+        "label": "UKMTO: האזהרה הרשמית 201-26",
+        "label_en": "UKMTO: official warning 201-26",
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261110-ukmto_warning_201_26.pdf"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8510e7d802a04c8a0adde7479d68c1e8dd73788172e1c2ccb875509caffadd3d"
+      }
+    }
   }
 ]
