@@ -33056,5 +33056,37 @@
         "source_hash": "c0282a39c3d6a4a7e9e2bd9dc781fd6654ccd23eceee42a902d7f2cc46c182d1"
       }
     }
+  },
+  {
+    "מזהה": "n-1341",
+    "category": "company",
+    "חברה": "NVDA",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 23:07",
+    "קישור": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
+    "כותרת": "NVIDIA (NVDA), עדכון לדיווח Axios: משרד המסחר מכחיש את השיחה שיוחסה לבסנט וללוטניק על Megaspeed",
+    "כותרת_en": "NVIDIA (NVDA), Axios report update: Commerce denies the Bessent-Lutnick conversation about Megaspeed",
+    "טקסט": "עדכון נפרד לפריט n-1335 שפורסם היום על דיווח Axios בנוגע ל-Megaspeed. גוף הכתבה המקורית נקרא שוב במלואו ב-11.11.2026 בשעה 23:05 בישראל. שעת הוספת תגובת משרד המסחר למקור אינה ידועה; תווית עדכון יחסית אינה חותמת זמן מדויקת.\n\nבגרסה הנוכחית Axios מצטטת הכחשה מפורשת של משרד המסחר האמריקאי. הדוברת קריסטן אייכמר אמרה, לפי הכתבה: \"זה שקרי. לשר בסנט ולשר לוטניק לא הייתה שיחה כזו\". ההכחשה מתייחסת לעימות ולשיחה בחדר המצב שעליהם דיווחה הכתבה, ולא בהכרח לכל הטענות האחרות בנושא שבבים וסין.\n\nAxios ממשיכה לייחס למקורותיה את הטענה שבסנט שאל את לוטניק מדוע Megaspeed אינה ברשימת הישויות, ושהוא השיב שיבדוק. לפיכך מדובר בדיווח שנוי במחלוקת, לא בתמליל מאומת ולא בקביעה שהשיחה התקיימה. תגובת המשרד היא הכחשה, לא ממצא עצמאי המכריע בין הגרסאות.\n\nהפריט הקודם נשמר כרשומה היסטורית; מה שנוסף כאן הוא ההכחשה הישירה כפי שמופיעה כעת במקור. אין בעדכון הודעה על הוספה לרשימה, ביטול רישיון יצוא, הגבלות חדשות שנכנסו לתוקף או הוכחה להברחת שבבים. אין בו אימות לטענה נפרדת על אישור נשיאותי חדש לפעולה.",
+    "טקסט_en": "Separate update to n-1335, published today on the Axios report about Megaspeed. The original article was reread in full on Nov 11, 2026 at 23:05 Israel time. The time Commerce's response was added to the source is unknown; a relative update label is not an exact timestamp.\n\nThe current Axios version quotes an explicit US Commerce Department denial. Spokesperson Kristen Eichamer said, according to the article: \"This is false. Secretary Bessent and Secretary Lutnick had no such conversation.\" The denial addresses the reported Situation Room confrontation and conversation, not necessarily every other allegation concerning chips and China.\n\nAxios continues to attribute to its sources the claim that Bessent asked Lutnick why Megaspeed was not on the Entity List and that he replied he would look into it. This is therefore a disputed report, not a verified transcript or an established finding that the conversation occurred. Commerce's response is a denial, not an independent finding resolving the conflicting accounts.\n\nThe earlier item is preserved as a historical record; the addition here is the direct denial now appearing in the source. This update announces no Entity List addition, export-license revocation, new restrictions taking effect or proof of chip smuggling. It does not verify a separate claim of a new presidential authorization to act.",
+    "מקורות": [
+      {
+        "label": "Axios: הכתבה המלאה עם תגובת משרד המסחר, נבדקה מחדש ב-11 בנובמבר ב-23:05 בישראל",
+        "label_en": "Axios: full article with Commerce response, reread Nov 11 at 23:05 Israel time",
+        "url": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips"
+      }
+    ],
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "820287699fb9d4ea87e8e18c207256909888a62552c1402196d878fff9ac2298"
+      }
+    }
   }
 ]
