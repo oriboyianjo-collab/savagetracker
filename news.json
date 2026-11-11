@@ -33149,5 +33149,35 @@
         "source_hash": "1ba3df9873f055ad4e3c80b1454a634e6cc29ddb7720de50d055bf71df1d9912"
       }
     }
+  },
+  {
+    "מזהה": "n-1344",
+    "category": "company",
+    "חברה": "NVDA",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-12 00:04",
+    "קישור": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+    "כותרת": "NVIDIA (NVDA): לפי NYT, הואנג קיים קשר עם סמנכ״לית הכפופה לו; טענת מקורות, ללא ממצא חדש של הדירקטוריון",
+    "כותרת_en": "NVIDIA (NVDA): NYT reports Huang had a relationship with a vice president reporting to him; source allegations, no new board finding",
+    "טקסט": "לא מאומת מול ממצא חברה או חקירה עצמאית\nהמקור פורסם ב-11.11.2026 בשעה 16:55 ET, 23:55 בישראל. הכתבה המקורית של New York Times נקראה באתר לאחר טעינת גוף הכתבה. הפרסום באפליקציה הוא לאחר חצות, ב-12 בנובמבר.\n\nהעיתון מדווח, מפי חמישה אנשים שעבדו בחברה, כי מנכ״ל NVIDIA ג׳נסן הואנג קיים קשר אישי עם קימברלי פאוול, סמנכ״לית תחום הבריאות המדווחת לו. המקורות דיברו בעילום שם. זו טענה עיתונאית המיוחסת למקורות, לא קשר שאומת כאן באופן עצמאי או ממצא של הפרת כללי החברה.\n\nהמשמעות התאגידית היא יחסי הדיווח האפשריים וניגוד עניינים: הכתבה מצטטת את קוד ההתנהגות של NVIDIA, המנחה עובדים להימנע ממצבים היוצרים ניגוד עניינים, לרבות קשרים אישיים. הצגת המדיניות אינה מוכיחה שהייתה הפרה במקרה המסוים. העיתון מציין שלא ראה בעצמו סרטון שמקורותיו מתארים.\n\nזהו דיווח נפרד מהטענות הקודמות בנוגע לאליס הואנג ו-Megaspeed. חקירת הדירקטוריון וגיוס היועצים החיצוניים שפורסמו בפריטים n-1043 ו-n-1252 הם רקע קיים; הכתבה אינה מספקת ממצא חדש, הודעה על הרחבת היקף החקירה, החלטה על הדחה או שינוי בתפקיד המנכ״ל.\n\nבטקסט שנקרא לא נכללה תגובה של החברה, הואנג או פאוול לטענה החדשה. אין לפרש היעדר תגובה בטקסט כהודאה או כסירוב מוכח להגיב. אין כאן קביעה שהטענות בדבר ריגול הוכחו, שמידע סודי נמסר או שהדיווח גרם לתנועת מניה.",
+    "טקסט_en": "Not verified against a company finding or an independent investigation\nThe original was published Nov 11, 2026 at 16:55 ET, 23:55 Israel time. The New York Times article was read at its original site after the body loaded. App publication is after midnight on Nov 12.\n\nThe newspaper reports, citing five people who worked at the company, that NVIDIA CEO Jensen Huang had a personal relationship with Kimberly Powell, its vice president of health care, who reports to him. The sources spoke anonymously. This is reporting attributed to sources, not a relationship independently verified here or a finding that company rules were violated.\n\nThe corporate relevance is the possible reporting relationship and conflict of interest: the article quotes NVIDIA's code of conduct telling employees to avoid situations creating conflicts, including personal relationships. Stating the policy does not prove a violation in this case. The Times says it has not itself seen a video described by its sources.\n\nThis is separate from the earlier allegations concerning Alice Huang and Megaspeed. The board investigation and retention of outside counsel covered in n-1043 and n-1252 are existing background. The article provides no new finding, announcement expanding the investigation's scope, removal decision or change in the CEO's role.\n\nThe text read includes no company, Huang or Powell response to the new allegation. An absent response in the text is not an admission or an established refusal to comment. This item does not establish espionage, disclosure of confidential information or that the report caused a share-price move.",
+    "מקורות": [
+      {
+        "label": "New York Times: Ryan Mac, Tripp Mickle ו-Georgia Gee, כתבה מקורית מ-11 בנובמבר 16:55 ET",
+        "label_en": "New York Times: Ryan Mac, Tripp Mickle and Georgia Gee, original Nov 11 article at 16:55 ET",
+        "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html"
+      }
+    ],
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dba787c9f98f4e0e130c0cd436a1a92e42d830bb667f723790ee83c4dbba95a5"
+      }
+    }
   }
 ]
