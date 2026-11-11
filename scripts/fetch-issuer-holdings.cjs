@@ -71,18 +71,19 @@ const adapters = {
     // NCLD issuer weights combine direct stock with TRS on the same underlying CUSIP.
     // Match only an unambiguous direct equity line in this very fund/file; never infer a ticker from a swap name.
     if(t === 'NCLD'){
-      const iC = H.indexOf('CUSIP'); if(iC < 0) throw new Error('NCLD CUSIP header missing');
+      const iC = H.indexOf('CUSIP'), iP = H.indexOf('Price'); if(iC < 0 || iP < 0) throw new Error('NCLD CUSIP/Price header missing');
       const direct = mine.filter(r => !/\b(TRS|SWAP)\b/i.test((r[iT]||'')+' '+(r[iN]||'')) && !r[iM] && !/^(912797|FGXXX|Cash&Other)/.test(r[iT]) && !NOTSTOCK.test(r[iN]||'') && num(r[iW]) > 0);
       const byCusip = new Map(); direct.forEach(r => { const c = String(r[iC]||'').trim(); if(!c) return; const a = byCusip.get(c)||[]; a.push(r); byCusip.set(c,a); });
+      const basePrices = {}; direct.forEach(r => { const p=num(r[iP]), s=fixSym(r[iT]); if(!(p>0) || basePrices[s]!=null) throw new Error('NCLD issuer baseline price invalid or ambiguous'); basePrices[s]=p; });
       const merged = direct.map(r => [r[iT],r[iN],num(r[iW])]); let swapWeight = 0;
       for(const r of mine.filter(r => /\b(TRS|SWAP)\b/i.test((r[iT]||'')+' '+(r[iN]||'')))){
         const w = num(r[iW]), m = String(r[iC]||'').trim().match(/^([A-Z0-9]{9})\s+TRS\b/i), matches = m && byCusip.get(m[1]);
         if(!(w > 0) || !matches || matches.length !== 1) throw new Error('NCLD swap underlying cannot be mapped unambiguously');
-        const b = matches[0]; merged.push([b[iT],b[iN],w]); swapWeight += w;
+        const b = matches[0]; if(!(num(r[iP])>0) || Math.abs(num(r[iP])-num(b[iP]))>Math.max(1e-8,num(b[iP])*1e-8)) throw new Error('NCLD stock/swap baseline prices disagree'); merged.push([b[iT],b[iN],w]); swapWeight += w;
       }
       const out = done('roundhill','Roundhill',ctx.rh.url,asOf,merged); if(!out) return null;
       const fm = ctx.rh.url.match(/holdings_(\d{2})(\d{2})(\d{4})\.csv/i);
-      return Object.assign(out,{exposureVersion:1,weightBasis:'stock-plus-trs',directWeight:Math.round(direct.reduce((v,r)=>v+num(r[iW]),0)*1e4)/1e4,swapWeight:Math.round(swapWeight*1e4)/1e4,sourceFileAsOf:fm?iso(fm[1],fm[2],fm[3]):''});
+      return Object.assign(out,{exposureVersion:1,baselineVersion:1,basePrices,weightBasis:'stock-plus-trs',directWeight:Math.round(direct.reduce((v,r)=>v+num(r[iW]),0)*1e4)/1e4,swapWeight:Math.round(swapWeight*1e4)/1e4,sourceFileAsOf:fm?iso(fm[1],fm[2],fm[3]):''});
     }
     return done('roundhill', 'Roundhill', ctx.rh.url, asOf, mine.filter(r => !/ TRS /.test(r[iT]) && !r[iM] && !/^(912797|FGXXX|Cash&Other)/.test(r[iT]) && !/CASH[A-Z]{3}/.test(r[iT + 1] || '')).map(r => [r[iT], r[iN], num(r[iW])])); },
   async ark(t){ const F = {ARKK:'ARK_INNOVATION_ETF_ARKK',ARKW:'ARK_NEXT_GENERATION_INTERNET_ETF_ARKW',ARKG:'ARK_GENOMIC_REVOLUTION_ETF_ARKG',ARKQ:'ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ',ARKF:'ARK_FINTECH_INNOVATION_ETF_ARKF',ARKX:'ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX'}[t]; if(!F) return null;
