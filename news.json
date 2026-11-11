@@ -31612,5 +31612,30 @@
         "source_hash": "c46ec9a46640ede8acb31f531bdf62674a204114e1cc83bb8e7771e65feb1423"
       }
     }
+  },
+  {
+    "מזהה": "n-1288",
+    "category": "micro",
+    "חברה": "GXO",
+    "כותרת": "GXO (GXO) ו-ASOS חידשו את הסכם הלוגיסטיקה בבארנסלי עד 2034; השווי לא פורסם",
+    "כותרת_en": "GXO (GXO) and ASOS renew Barnsley logistics agreement through 2034; value undisclosed",
+    "תאריך": "2026-11-11 10:00",
+    "הועלה": "2026-11-11 10:07",
+    "טקסט": "11.11.2026 | 03:00 שעון ניו יורק, 10:00 שעון ישראל. הודעת GXO המקורית בהפצת GlobeNewswire נקראה במלואה.\n\nGXO ו-ASOS הודיעו על חידוש חוזה לתשע שנים, המאריך עד 2034 את השותפות שהחלה ב-2013. ההסכם מכסה שירותי מילוי הזמנות במחסן והובלה במרכז הלוגיסטי הקיים של ASOS בבארנסלי שבבריטניה.\n\nלא פורסמו שווי החוזה, הכנסה שנתית נוספת או תנאי תמחור. זו הארכה של פעילות קיימת, לא זכייה בלקוח חדש או פתיחת מתקן חדש. ההודעה אינה מבססת גידול כמותי בהכנסות GXO.\n\nהאתר מעסיק כיום כ-3,200 עובדים, והפעילות מתוארת כמשרתת יותר מ-16 מיליון לקוחות ASOS בשנה. אלה נתוני היקף קיימים, לא משרות שנוספו או לקוחות חדשים כתוצאה מהחידוש.\n\nהחברות מציינות המשך שיפור תפעולי וטכנולוגי. הארכת שעת קבלת ההזמנות ל-23:00 מתוארת כתוצאה של שינויים שבוצעו בחמש השנים האחרונות, לא שירות חדש שהושק היום.",
+    "טקסט_en": "Nov 11, 2026 | 03:00 New York time, 10:00 Israel time. Original GXO release distributed by GlobeNewswire read in full.\n\nGXO and ASOS announced a nine-year contract renewal, extending through 2034 the partnership that began in 2013. It covers warehouse fulfilment and transportation services at ASOS' existing logistics hub in Barnsley, UK.\n\nContract value, incremental annual revenue and pricing terms were not disclosed. This extends existing operations rather than winning a new customer or opening a new facility. The release does not establish a quantified increase in GXO revenue.\n\nThe operation currently employs approximately 3,200 people and is described as serving more than 16 million ASOS customers annually. These are existing scale figures, not jobs added or new customers resulting from the renewal.\n\nThe companies describe continued operational and technology improvements. Extending the customer order cut-off to 11pm is attributed to changes over the past five years, not a new service launched today.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/11/3400479/0/en/gxo-and-asos-extend-strategic-partnership-to-2034.html",
+    "מקורות": [
+      {
+        "label": "GXO: הודעה מקורית בהפצת GlobeNewswire, 11 בנובמבר 03:00 ET",
+        "label_en": "GXO: original release via GlobeNewswire, Nov 11 at 03:00 ET",
+        "url": "https://www.globenewswire.com/news-release/2026/11/11/3400479/0/en/gxo-and-asos-extend-strategic-partnership-to-2034.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "26dc717c46c77c24413e74f811b80c64bade69c9e73f8322cb77ee4fdc1978bb"
+      }
+    }
   }
 ]
