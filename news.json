@@ -31557,5 +31557,35 @@
         "source_hash": "13f08aab9b9ef555b2e91f367c19de574c02edcb671376e7356927b0241b8696"
       }
     }
+  },
+  {
+    "מזהה": "n-1286",
+    "category": "micro",
+    "חברה": "SPCX",
+    "כותרת": "SpaceX (SPCX): ערכאת הערעור דחתה כפיית בוררות על שמונה עובדים לשעבר; לא הכרעה בטענות ההטרדה",
+    "כותרת_en": "SpaceX (SPCX): appeals court rejects forced arbitration for eight former employees; no ruling on harassment liability",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 09:36",
+    "טקסט": "10.11.2026 | פסק הדין המקורי בתיק 25-4811 נקרא במלואו, לרבות דעת המיעוט. השלמת סיקור.\n\nבית המשפט הפדרלי לערעורים במחוז התשיעי אישר ברוב 2 מול 1 את דחיית בקשת SpaceX להעביר לבוררות את תביעתם של שמונה עובדים לשעבר. העובדים טוענים שפוטרו כתגובה למכתב פתוח להנהלה על התנהגות שלטענתם היוותה הטרדה מינית, לרבות פרסומים של אילון מאסק.\n\nהרוב קבע שהחוק הפדרלי EFAA מאפשר להותיר בבית המשפט את התיק הקשור למחלוקת על הטרדה מינית, ואינו מחייב שהטענות על ההטרדה יעברו תחילה את מבחן הסף הפדרלי לסילוק תביעה כדי למנוע כפיית בוררות. טענות ההתנכלות של כל שמונת העובדים מספיקות לקשר הנדרש בין התיק למחלוקת.\n\nזו הכרעה על מקום בירור ההליך, לא קביעה שהתרחשה הטרדה, שהפיטורים היו בלתי חוקיים או שהחברה או מאסק חבים בפיצויים. הרוב מציין שהחברה יכולה להגיש בקשה לסילוק טענות לגופן; דעת המיעוט ביקשה להחזיר את התיק לבדיקה לפי מבחן מחמיר יותר. לא נפסק כאן סכום כספי ולא דווחה הוראה לשינוי פעילות החברה.",
+    "טקסט_en": "Nov 10, 2026 | Original opinion in case 25-4811 read in full, including the dissent. Catch-up coverage.\n\nThe US Court of Appeals for the Ninth Circuit voted 2-1 to affirm denial of SpaceX's request to send eight former employees' case to arbitration. The workers allege they were fired in retaliation for an open letter to management about conduct they asserted was sexual harassment, including Elon Musk's posts.\n\nThe majority held that the federal EFAA allows the case related to a sexual-harassment dispute to remain in court. It does not require the harassment allegations first to meet the federal motion-to-dismiss pleading standard to avoid compelled arbitration. Each worker's retaliation claim supplies the required connection between the case and the dispute.\n\nThis concerns the forum for the case, not a finding that harassment occurred, the dismissals were unlawful, or SpaceX or Musk owe damages. The majority notes that the company can move to dismiss claims on their merits; the dissent would have remanded for a stricter threshold test. No financial award or order changing company operations is reported here.",
+    "קישור": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/10/25-4811.pdf",
+    "מקורות": [
+      {
+        "label": "בית המשפט לערעורים, פסק הדין המקורי מ-10 בנובמבר, תיק 25-4811",
+        "label_en": "Court of Appeals, original Nov 10 opinion, case 25-4811",
+        "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/10/25-4811.pdf"
+      },
+      {
+        "label": "Courthouse News, דיווח מ-10 בנובמבר",
+        "label_en": "Courthouse News, Nov 10 report",
+        "url": "https://courthousenews.com/ninth-circuit-rebuffs-spacex-bid-to-force-arbitration-of-harassment-claims/"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9680eb9957ebceeceb943e719fea0fe2e7aba24aeaf188c2da6d7fdf97d3c8cb"
+      }
+    }
   }
 ]
