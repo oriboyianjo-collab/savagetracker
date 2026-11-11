@@ -5005,7 +5005,16 @@ $('fxEditBox').addEventListener('click', e=>{ const r = e.target.closest('[data-
 $('fxSearchIn').addEventListener('input', ()=>drawFx());
 
 function fxInst(f){ return {k:'fx:'+f.code, fx:true, type:'fx', sym:f.code, n:f.n, s:f.code+I18n.p("ux-0602"," · מט״ח")+(f.der ? I18n.p("ux-0603"," · מחושב משערי הדולר") : ''), q: f.q || 'FX:'+f.code, der:f.der, dp:f.dp, g:'מט״ח', fl:f.fl}; }
-function srchInst(m){ return secInst({sym:m.sym, name:m.name||'', type:m.type||'stock', currency:m.currency}); }
+// Two existing continuous oil futures, local discovery only. Reuse commodity quote/chart identity.
+function oilSearch(q){
+ const k=String(q||'').trim().toLowerCase();if(k.length<2) return [];
+ return [{key:'brent',aliases:['brent','ברנט','@lco.1','lco','נפט ברנט']},{key:'wti',aliases:['wti','crude','קרוד','קרוד wti','@cl.1','cl','נפט wti']}]
+  .filter(x=>x.aliases.some(a=>a.includes(k)) || k==='נפט' || k==='oil')
+  .map(x=>({sym:COM_BY[x.key].s,name:I18n.t(COM_BY[x.key].n),type:'future',currency:'USD',ex:I18n.language==='en'?'Continuous futures':'חוזה עתידי רציף'}));
+}
+function oilSearchInst(m){const c=COM_CAT.find(x=>['brent','wti'].includes(x.k)&&x.s===String(m.sym).toUpperCase());return c?Object.assign(comInst(c.k),{sym:c.s,type:'future',cur:'USD'}):null;}
+function srchInst(m){ return oilSearchInst(m)||secInst({sym:m.sym, name:m.name||'', type:m.type||'stock', currency:m.currency}); }
+
 function srchRowHtml(m, i){ const it = srchInst(m), q = iq(it), pct = q && q.prev ? (q.price/q.prev-1)*100 : null;
   const im=israelIndexMeta(m.sym);if(im){const p=q?.indexPct??null,stamp=q?.ts?new Date(q.ts).toLocaleString(I18n.language==='en'?'en-GB':'he-IL',{timeZone:'Asia/Jerusalem',year:'numeric',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}):'',age=q?.ts?Date.now()-q.ts:Infinity,status=!q?(I18n.language==='en'?'Quote unavailable':'ציטוט לא זמין'):age>30*60e3?(I18n.language==='en'?'Last quote':'ציטוט אחרון'):q.realTime?(I18n.language==='en'?'As of':'נכון ל־'):(I18n.language==='en'?'Delayed':'בהשהיה');return `<div class="wr srow" role="button" tabindex="0" data-si="${i}">${logoHtml(m.sym,false,'IL','#1b2c44')}<div class="pc-n"><div class="psym" style="white-space:normal;overflow-wrap:anywhere">${esc(israelIndexName(im))}</div><div class="pname">${I18n.language==='en'?'TASE index':'מדד בתל אביב'} · ${im.id}</div><div class="pname">CNBC · ${esc(status)} ${esc(stamp)}</div></div><div class="pcol pc-d"><b class="num ${cls(p)}">${p!=null?fmtPct(p):'—'}</b><span class="wl-p v num">${q?fmtInst(it,q.price):'—'}</span></div></div>`;}
 
@@ -5052,7 +5061,7 @@ $('navSearch').addEventListener('click', ()=>$('srchOv').hidden ? srchOpen() : s
 $('srchClose').addEventListener('click', srchClose);
 $('srchQx').addEventListener('click', ()=>{ ++srchSeq; clearTimeout(srchTimer); srchTimer=null; $('srchQ').value = ''; srchItems = []; drawSrch(); $('srchQ').focus(); });
 $('srchQ').addEventListener('input', ()=>{ clearTimeout(srchTimer); const q = $('srchQ').value.trim(), seq = ++srchSeq; srchItems = []; if(!q){ srchTimer = null; drawSrch(); return; }
-  srchTimer = setTimeout(async()=>{ let r = []; try{ r = await searchSymbols(q,partial=>{if(seq!==srchSeq || $('srchOv').hidden || $('srchQ').value.trim()!==q) return; srchItems=partial; drawSrch();}); }catch(e){} if(seq!==srchSeq || $('srchOv').hidden || $('srchQ').value.trim()!==q) return; srchTimer = null; srchItems = r; drawSrch();
+  srchTimer = setTimeout(async()=>{ let r = []; const mergeOil=items=>{const oil=oilSearch(q),symbols=new Set(oil.map(x=>x.sym));return [...oil,...items.filter(x=>!symbols.has(x.sym))];}; srchItems=mergeOil([]); drawSrch(); try{ r = await searchSymbols(q,partial=>{if(seq!==srchSeq || $('srchOv').hidden || $('srchQ').value.trim()!==q) return; srchItems=mergeOil(partial); drawSrch();}); }catch(e){} r=mergeOil(r); if(seq!==srchSeq || $('srchOv').hidden || $('srchQ').value.trim()!==q) return; srchTimer = null; srchItems = r; drawSrch();
     if(r.length){ await instQuotes(r.map(srchInst)).catch(()=>{}); if(seq===srchSeq) drawSrch(); } }, 300); drawSrch(); });
 $('srchQ').addEventListener('keydown', e=>{ if(e.key==='Enter' && srchItems[0]){ e.preventDefault(); srchPick(srchItems[0]); } else if(e.key==='Escape') srchClose(); });
 function srchPick(m){ srchRet = $('srchQ').value; const R = srchRecent().filter(x=>x.sym!==m.sym); R.unshift({sym:m.sym, name:m.name||'', type:m.type||'stock', currency:m.currency||'USD', ex:m.ex||''}); try{ localStorage.setItem(RS_KEY, JSON.stringify(R.slice(0,8))); }catch(e){}
