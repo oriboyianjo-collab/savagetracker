@@ -30945,5 +30945,34 @@
         "source_hash": "8630207a4bd028e11b1fb62358f50c56731c0bb80c2c946df97e6d610321547f"
       }
     }
+  },
+  {
+    "מזהה": "n-1265",
+    "category": "macro",
+    "כותרת": "בסנט בנוסח רשמי מוכן לנאום: דיאלוג SI עם סין וערוץ התרעה בהקמה; הסכמה לזהות הקלות מכס על 30 מיליארד דולר בכל כיוון",
+    "כותרת_en": "Bessent prepared remarks: China SI dialogue and incident channel in development; consensus to identify favorable tariffs for $30 billion each way",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 07:26",
+    "קישור": "https://home.treasury.gov/news/press-releases/sb0688/",
+    "מקורות": [
+      {
+        "label": "משרד האוצר האמריקאי: נוסח מלא המוגדר As prepared for delivery, עמוד מתוארך 11 בנובמבר; אין חותמת מסירה מאומתת",
+        "label_en": "U.S. Treasury: full text marked As prepared for delivery, page dated Nov 11; delivery clock not verified",
+        "url": "https://home.treasury.gov/news/press-releases/sb0688/"
+      },
+      {
+        "label": "CNBC: כתבת Anniek Bao המלאה מ-11 בנובמבר, הממקמת את האירוע ביום שלישי; מקור משני להקשר האירוע",
+        "label_en": "CNBC: full Nov 11 Anniek Bao article placing the event on Tuesday; secondary event context",
+        "url": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html"
+      }
+    ],
+    "טקסט": "11.11.2026 | נוסח משרד האוצר הרשמי נקרא במלואו ומוגדר ״מוכן למסירה״, לא תמליל ביצוע. CNBC ממקמת את אירוע הוועד הלאומי ליחסי ארה״ב-סין בניו יורק ביום שלישי; תאריך העמוד הרשמי הוא 11 בנובמבר ושעת המסירה לא אומתה.\n\nשר האוצר סקוט בסנט אומר בנוסח שהוקם דיאלוג חדש עם סין על בינת-על (SI), לצמצום סיכונים משותפים ואי-הבנות. לדבריו, הצדדים מצפים להחליף שיטות עבודה להערכה ולבדיקה של מודלים מתקדמים לפני שחרורם ולשמירת שיקול הדעת האנושי בשליטה. בנוסף מוקם ערוץ ישיר להתרעה הדדית מהירה על תקריות חמורות במודלי SI. יש להפריד בין דיאלוג שכבר הוקם לבין ערוץ בהקמה וחילופי שיטות צפויים.\n\nאין בנוסח תקרה מחייבת לפיתוח AI, חובת בדיקה חדשה החלה על כל חברה או היתר חדש לייצוא שבבים לסין. CNBC מזכירה שההסכמה העקרונית לדיאלוג ולערוץ תקשורת ניתנה בביקור שי בספטמבר; אין להציג את עצם הרעיון כהסכם ראשון שנחתם הלילה.\n\nבסחר, בסנט אומר שבמסגרת Board of Trade הושגה הסכמה לזהות טיפול מכסי מיטיב יותר עבור סחורות לא-רגישות בשווי 30 מיליארד דולר בכל כיוון, ושנפתחה קבוצת עבודה לחסמים בחקלאות. זהו היקף סחורות בכל כיוון, לא סכום קיצוץ מכסים של 30 מיליארד דולר, לא שיעור מכס שכבר שונה ולא משלוחים שכבר בוצעו. התחייבויות קודמות של סין לייבא לפחות 25 מיליון טונות סויה ו-10 מיליון טונות פחם מארה״ב בשנתיים הבאות מתוארות כקודמות, לא כהזמנות חדשות בנאום.\n\nהחידוש ביחס לסיכומי שיחת יישום הסחר ב-n-0117 וב-n-0141 הוא הפירוט הרשמי של מנגנון סיכוני ה-SI ושל היקף הסחורות המועמד לטיפול מיטיב. הנוסח אינו מוכיח שהמכס הופחת או שערוץ ההתרעה כבר פועל.",
+    "טקסט_en": "Nov 11, 2026 | Full official Treasury text read and marked 'As prepared for delivery,' not a delivery transcript. CNBC places the National Committee on U.S.-China Relations event in New York on Tuesday; the official page is dated Nov 11 and a delivery clock was not verified.\n\nTreasury Secretary Scott Bessent says a new superintelligence (SI) dialogue with China has been established to guard against shared risks and misunderstandings. He expects exchanges of best practices for evaluating and testing advanced models before release and keeping human judgment in control. A direct channel is also being established for prompt mutual alerts about serious SI-model incidents. An established dialogue is distinct from a channel under development and expected best-practice exchanges.\n\nThe text contains no binding AI development cap, new testing duty for every company or new permission to export chips to China. CNBC notes that agreement in principle on the dialogue and communications channel came during Xi's September visit; the idea itself is not presented as a first agreement signed tonight.\n\nOn trade, Bessent says the Board of Trade reached consensus to identify more favorable tariff treatment for $30 billion of non-sensitive goods in each direction, and launched an agricultural trade-barrier working group. This is the value of goods each way, not $30 billion in tariff cuts, an enacted tariff-rate change or completed shipments. China's commitments to import at least 25 million metric tons of U.S. soybeans and 10 million metric tons of coal over the next two years are described as prior commitments, not new orders announced in the remarks.\n\nRelative to the trade-implementation call summaries in n-0117 and n-0141, the new information is official detail on the SI risk mechanism and the value of goods being considered for favorable treatment. The text does not establish that tariffs have been cut or the incident channel is already operating.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7996de7d012eb5fbf14e29af245b034a9798b829e53637c4a3cf978aa3882f07"
+      }
+    }
   }
 ]
