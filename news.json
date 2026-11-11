@@ -32509,5 +32509,105 @@
         "source_hash": "8502161a91ce6b3431413a2ee6951c254015022630d1fb50636e3b161956d65d"
       }
     }
+  },
+  {
+    "מזהה": "n-1320",
+    "category": "micro",
+    "חברה": "CNM",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-11 14:07",
+    "קישור": "https://coreandmain.com/news/core-and-main-announces-preliminary-fiscal-2026-third-quarter-results/",
+    "כותרת": "Core & Main (CNM): הושלמה בנובמבר רכישת KTI בקנדה, בתחום פתרונות מדידה לתשתיות מים",
+    "כותרת_en": "Core & Main (CNM): November acquisition of Canada's KTI completed, expanding utility metering solutions",
+    "טקסט": "10.11.2026 | הודעת החברה המקורית נקראה במלואה; שעת הפרסום אינה מצוינת. הפריט מתמקד ברכישה שהושלמה, לא בתוצאות המקדמיות או בתחזית שפורסמו באותה הודעה.\n\nCore & Main מסרה כי רכשה בנובמבר את KTI Limited ואת KTI Utility Services, שבסיסן בטורונטו. KTI מספקת פתרונות מדידה ותשתיות מדידה מתקדמות (AMI), כולל התקנה ושירותי שטח, משבעה מיקומים באונטריו ובאלברטה. ההודעה מתארת רכישה שהושלמה, לא רק הסכם לרכישה עתידית; יום הסגירה המדויק לא נמסר.\n\nהמהלך מרחיב את פעילות Core & Main בפתרונות לתשתיות ולשירותי מים בקנדה. ברקע, החברה דיווחה גם על רכישת Southwest Stormwater Solutions באריזונה בספטמבר ועל Gajeske, מפיצת צנרת ואביזרי HDPE בשמונה מיקומים בטקסס ובאוקלהומה, באוקטובר. אלה רכישות קודמות ונפרדות, לא שלוש עסקאות שנסגרו ביום ההודעה.\n\nהנתון של יותר מ-250 מיליון דולר בהכנסות שנתיות מתייחס לשלוש החברות הנרכשות יחד, ולא למחיר הרכישה, להכנסות KTI לבדה או להכנסה שכבר הוכרה ברבעון אצל Core & Main. לא פורסמו בהודעה מחיר העסקה עם KTI, תנאי מימון או יעד סינרגיות ייחודי לה.",
+    "טקסט_en": "Nov 10, 2026 | Full original company announcement read; no publication time is shown. This item concerns a completed acquisition, not the preliminary results or outlook in the same release.\n\nCore & Main said it acquired Toronto-based KTI Limited and KTI Utility Services in November. KTI provides metering and advanced metering infrastructure (AMI) solutions, including installation and field services, from seven locations across Ontario and Alberta. The announcement describes a completed acquisition, not only an agreement to acquire later; the exact closing day is not given.\n\nThe transaction expands Core & Main's Canadian utility infrastructure and service offering. As background, the company also reported acquiring Arizona's Southwest Stormwater Solutions in September and Gajeske, an HDPE pipe and fittings distributor with eight Texas and Oklahoma locations, in October. Those are earlier, separate acquisitions, not three deals closed on the announcement date.\n\nMore than $250 million in annual revenue refers to the three acquired businesses combined, not the purchase price, KTI revenue alone or revenue already recognized by Core & Main in the quarter. No KTI transaction price, financing terms or KTI-specific synergy target is disclosed.",
+    "מקורות": [
+      {
+        "label": "Core & Main: הודעת 10 בנובמבר, סעיף הרכישות שהושלמו",
+        "label_en": "Core & Main: Nov 10 announcement, completed-acquisitions section",
+        "url": "https://coreandmain.com/news/core-and-main-announces-preliminary-fiscal-2026-third-quarter-results/"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8a448edeb63744cdba2c1be66a9987f06bf8439201eb711777484208933b1ccb"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1321",
+    "category": "micro",
+    "חברה": "IBM",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 14:07",
+    "קישור": "https://www.prnewswire.com/news-releases/ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality-with-plans-to-scale-beyond-1-000-qubits-in-2027--302935826.html",
+    "כותרת": "IBM (IBM) מציגה את Nighthawk r3: תכנון ל-520 קיוביטים ניתנים לתכנות, וחיבור לשתי יחידות ב-2027",
+    "כותרת_en": "IBM (IBM) announces Nighthawk r3: designed for 520 programmable qubits, with two-processor scaling planned for 2027",
+    "טקסט": "11.11.2026 | הודעת IBM המקורית בהפצת PRNewswire נקראה במלואה, 07:00 ET, 14:00 שעון ישראל.\n\nIBM הכריזה על מעבד Nighthawk r3 המתוכנן לבצע 10,000 פעולות קוונטיות על 520 קיוביטים ניתנים לתכנות, מתוך 2,034 קיוביטים פיזיים בסך הכול. החברה מתכננת לחבר שני מעבדי r3 למערכת בת 1,040 קיוביטים ב-2027. אלה מפרטי תכנון ותוכנית עתידית, לא מערכת בת יותר מאלף קיוביטים שכבר זמינה היום, ולא 520 קיוביטים לוגיים חסיני שגיאות.\n\nהדור הנוכחי r2, שהוצג בספטמבר וזמין כעת לפי IBM, תומך ביותר מ-7,500 פעולות על 120 קיוביטים. החברה מדווחת ששותפים הריצו יותר מ-34 מיליארד מעגלים ועל האצות של עד פי 19 לעומת מעבדי IBM קודמים. זו השוואה לעבודה קודמת על חומרה קוונטית של IBM, לא יתרון כללי של פי 19 על כל מחשב קלאסי או אימות עצמאי לכל יישום.\n\nIBM מרחיבה גם את Quantum Platform לסביבת עבודה מנוהלת המשלבת משאבים קוונטיים, קלאסיים ומחשוב עתיר ביצועים. משתמשים יכולים לשלב תהליכים קוונטיים עם משאבים מהמחשב האישי ועד מחשב-על, ולחוקרים נוספות יכולות בקרה ברמת פולסים. נתוני ההאצה ותועלות המחקר הם דיווחי החברה ושותפיה.\n\nזהו עדכון טכנולוגיה ומוצר נפרד מהפעלת System Two בשיקגו ב-n-0122 ומפלטפורמת תיקון השגיאות עם AMD ו-Oak Ridge ב-n-0283. ההודעה אינה מאשרת מחשוב קוונטי כללי חסין שגיאות, ואינה מוסרת מחיר, הזמנת לקוח או הכנסה חדשה.",
+    "טקסט_en": "Nov 11, 2026 | Full original IBM PRNewswire release read, published at 07:00 ET, 14:00 Israel time.\n\nIBM announced Nighthawk r3, designed to execute 10,000 quantum operations on 520 programmable qubits, with 2,034 physical qubits in total. It plans to connect two r3 processors into a 1,040-qubit system in 2027. These are design specifications and a future plan, not a thousand-plus-qubit system already available today or 520 fault-tolerant logical qubits.\n\nThe current r2 generation, introduced in September and available now according to IBM, supports more than 7,500 operations on 120 qubits. IBM says partners have run more than 34 billion circuits and reported speedups of up to 19x over previous IBM quantum processors. That comparison is to earlier work on IBM quantum hardware, not a general 19x advantage over every classical computer or independent verification for every application.\n\nIBM is also expanding Quantum Platform into a managed environment combining quantum, classical and high-performance computing resources. Users can integrate quantum workflows with resources from laptops to supercomputers, with pulse-level controls for researchers. Performance and research-benefit figures are reports by IBM and its partners.\n\nThis technology and product update is distinct from the Chicago System Two deployment in n-0122 and the AMD/Oak Ridge error-correction platform in n-0283. It does not confirm general fault-tolerant quantum computing or disclose a price, customer order or new revenue.",
+    "מקורות": [
+      {
+        "label": "IBM: ההודעה המקורית בהפצת PRNewswire, 11 בנובמבר",
+        "label_en": "IBM: original Nov 11 PRNewswire release",
+        "url": "https://www.prnewswire.com/news-releases/ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality-with-plans-to-scale-beyond-1-000-qubits-in-2027--302935826.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6a0cd00cc22d594233078b98c0435c449500830a36b7d981094db1d0984c8a32"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1322",
+    "category": "micro",
+    "חברה": "TRI",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 14:07",
+    "קישור": "https://www.prnewswire.com/news-releases/thomson-reuters-announces-500-million-share-repurchase-program-and-new-normal-course-issuer-bid-302936436.html",
+    "כותרת": "Thomson Reuters (TRI): תוכנית רכישה עצמית חדשה של עד 500 מיליון דולר, בכפוף לתקרת 7 מיליון מניות",
+    "כותרת_en": "Thomson Reuters (TRI): new buyback plan of up to $500 million, within a 7 million-share limit",
+    "טקסט": "11.11.2026 | הודעת החברה המקורית בהפצת PRNewswire נקראה במלואה, 07:00 ET, 14:00 שעון ישראל.\n\nThomson Reuters הודיעה על כוונה לרכוש מניות של עצמה בסכום של עד 500 מיליון דולר באמצעות NCIB חדש שאושר בבורסת טורונטו. ההסדר מתיר רכישה של עד 7 מיליון מניות רגילות, כ-1.6% מהמניות הקיימות לפי נתוני 31 באוקטובר, בין 13 בנובמבר 2026 ל-12 בנובמבר 2027. זו הרשאה ותוכנית, לא רכישה שכבר בוצעה או התחייבות לנצל את מלוא הסכום.\n\nWoodbridge, בעלת השליטה המחזיקה בכ-70%, מתכוונת להשתתף במכירה באופן יחסי כדי לשמור על שיעור ההחזקה שלה. רכישות ממנה נכללות באותה מסגרת ומפחיתות את מספר המניות שניתן לרכוש בשוק; אין להוסיף אותן כתוכנית נוספת. המניות שיירכשו יבוטלו.\n\nה-NCIB הקודם, שתוקן לתקרה של 1.6 מיליארד דולר או 16 מיליון מניות, הסתיים ב-18 באוגוסט 2026. התוכנית החדשה אינה תוספת אוטומטית ליתרה ישנה שלא נוצלה. בנפרד, החברה דיווחה על רכישות בפועל של 600 מיליון דולר ב-12 החודשים האחרונים; אין לחבר נתון היסטורי זה לסכום החדש ולהציגו כהרשאה נוספת.\n\nקצב הרכישות תלוי במחיר, בתנאי השוק ובהזדמנויות השקעה אחרות. החברה רשאית להשהות או להפסיק את התוכנית; קיומה אינו הבטחה לתמיכה במחיר המניה.",
+    "טקסט_en": "Nov 11, 2026 | Full original company PRNewswire release read, published at 07:00 ET, 14:00 Israel time.\n\nThomson Reuters plans to repurchase up to $500 million of its shares under a new normal course issuer bid (NCIB) approved by the Toronto Stock Exchange. The bid permits up to 7 million common shares, about 1.6% of shares outstanding as of Oct 31, between Nov 13, 2026 and Nov 12, 2027. This is authorization and intent, not purchases already completed or a commitment to use the full amount.\n\nControlling shareholder Woodbridge, with about 70%, intends to sell proportionally to maintain its ownership percentage. Purchases from Woodbridge are inside the same program and reduce the shares that may be bought in the open market; they are not an additional buyback. Repurchased shares will be cancelled.\n\nThe previous NCIB, amended to permit up to $1.6 billion or 16 million shares, expired Aug 18, 2026. The new plan is not an automatic addition to an unused old balance. Separately, the company reported $600 million of actual repurchases in the preceding twelve months; this historical figure is not another new authorization.\n\nPurchases depend on share price, market conditions and other investment opportunities. The company may suspend or discontinue the plan; its existence does not guarantee support for the share price.",
+    "מקורות": [
+      {
+        "label": "Thomson Reuters: ההודעה המקורית בהפצת PRNewswire",
+        "label_en": "Thomson Reuters: original PRNewswire release",
+        "url": "https://www.prnewswire.com/news-releases/thomson-reuters-announces-500-million-share-repurchase-program-and-new-normal-course-issuer-bid-302936436.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "cc255d520eccb74414ce2bc2a3e92e0699f692b57dd9824262d65d4b6ab0c807"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1323",
+    "category": "micro",
+    "חברה": "LAMR",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 14:07",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/11/3400574/16126/en/lamar-advertising-acquires-assets-of-newman-outdoor-advertising.html",
+    "כותרת": "Lamar Advertising (LAMR) רכשה את נכסי Newman: יותר מ-2,250 פני שלטי חוצות בצפון ארה\"ב",
+    "כותרת_en": "Lamar Advertising (LAMR) acquires Newman assets: more than 2,250 billboard faces across four northern US states",
+    "טקסט": "11.11.2026 | הודעת החברה המקורית ב-GlobeNewswire נקראה במלואה, 07:00 ET, 14:00 שעון ישראל.\n\nLamar הודיעה כי השלימה השבוע את רכישת נכסי Newman Outdoor Advertising במזומן. העסקה מוסיפה יותר מ-2,250 פני שלטי חוצות, ובהם 73 תצוגות דיגיטליות, בצפון דקוטה, מינסוטה, מונטנה ודרום דקוטה. מדובר בפני שלטים, לא בהכרח במספר אתרים נפרדים. יום הסגירה המדויק ומחיר הרכישה לא פורסמו.\n\nלפי מנכ\"ל Lamar, העסקה הופכת אותה לשחקנית המובילה בצפון דקוטה ומחזקת את תיק הנכסים בצפון המערב התיכון. זו הערכת החברה למעמדה בשוק, לא נתון נתח שוק שנבדק עצמאית.\n\nהנכסים שנרכשו אינם כוללים את עסקי Newman שאינם שלטי חוצות או את השלטים בדרום-מערב ארה\"ב: אלה נמכרו קודם לכן. אין להציג את העסקה כרכישת כל פעילות Newman ההיסטורית.\n\nהפריט מתאר השלמת רכישת נכסים, בנפרד מתחזית AFFO של Lamar שפורסמה ב-n-0306. ההודעה אינה מוסרת הכנסה, רווח או תרומה כספית צפויה של הנכסים הנרכשים.",
+    "טקסט_en": "Nov 11, 2026 | Full original company GlobeNewswire release read, published at 07:00 ET, 14:00 Israel time.\n\nLamar announced it completed an all-cash acquisition of Newman Outdoor Advertising assets this week. The deal adds more than 2,250 billboard faces, including 73 digital displays, in North Dakota, Minnesota, Montana and South Dakota. The count is billboard faces, not necessarily separate sites. Neither the exact closing day nor the purchase price was disclosed.\n\nLamar's CEO says the transaction establishes it as the leading player in North Dakota and strengthens its upper Midwest portfolio. This is the company's assessment of its market position, not independently verified market-share data.\n\nThe acquired assets exclude Newman's non-billboard businesses and Southwest billboards, which were previously divested. This is not an acquisition of all Newman's historical businesses.\n\nThis item covers a completed asset acquisition, separate from Lamar's AFFO outlook in n-0306. The announcement does not disclose revenue, profit or expected financial contribution from the acquired assets.",
+    "מקורות": [
+      {
+        "label": "Lamar: הודעת החברה המקורית ב-GlobeNewswire",
+        "label_en": "Lamar: original company GlobeNewswire release",
+        "url": "https://www.globenewswire.com/news-release/2026/11/11/3400574/16126/en/lamar-advertising-acquires-assets-of-newman-outdoor-advertising.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b3fd9860088179bfe7353085df2726b903be7f017a307ae4ad38f4636a3b94f5"
+      }
+    }
   }
 ]
