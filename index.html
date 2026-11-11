@@ -3454,7 +3454,7 @@ attachAutocomplete($('idxSearch'), $('idxAc'), it=>{ $('idxSearch').value = ''; 
   const qs = cr ? sym+'.CM=' : sym, nk = 'sec:'+sym;
   cnbcQuotes([qs]).then(q=>{ const u = q && q[qs];
     if(u && u.price!=null && u.prev){ idxData.q[nk] = {last:u.price, prev:u.prev, sym:qs, etf:false, status:u.status||'', ts:u.ts||null, date:u.date||'', pre:null}; yMergeIdx(nk); idxSave(); idxSpark().catch(e=>console.warn('index sparkline', e.message)); }
-    renderIdx(); }).catch(e=>{ console.warn('index tile add', e.message); renderIdx(); }); });
+    renderIdx(); }).catch(e=>{ console.warn('index tile add', e.message); renderIdx(); }); }, null, true);
 function idxDisplayName(x){ return x.k==='ndx'&&(/^(?:נאסד["'״]?ק\s*100|Nasdaq 100)$/.test(x.n))?I18n.p('ux-0290','נאסד"ק 100'):x.n; }
 function renderIdx(){
   const wrap = $('idxWrap'), row = $('idxRow'); if(!wrap || !row) return; const have = IDX.filter(x=>idxData.q[x.k]);
@@ -3762,14 +3762,20 @@ document.addEventListener('click', e=>{
 
 // ====================== symbol search (CNBC symlookup + CoinGecko) ======================
 const searchCache = {};
-async function searchSymbols(q){
+async function searchSymbols(q, onUpdate){
   q = q.trim(); if(!q) return [];
   if(searchCache[q]) return searchCache[q];
-  const localIndices = israelIndexSearch(q), out = [];
-  const dirP = loadSecDir().catch(()=>null);      // lazy: loaded on first search
-  const [cn, cg] = await Promise.all([
-    fetchJSON('https://symlookup.cnbc.com/symservice/symlookup.do?prefix='+encodeURIComponent(q)+'&partnerid=20064&pgok=1&pgsize=30', 8000).catch(()=>null),
-    q.length>=2 ? fetchJSON('https://api.coingecko.com/api/v3/search?query='+encodeURIComponent(q), 8000).catch(()=>null) : null]);
+  const localIndices = israelIndexSearch(q), out = [], localOut = [], cryptoOut = [];
+  // Only the round search and tile picker opt into progressive identities. Never cache partial results.
+  const snapshot = ()=>{
+    const Q=q.toUpperCase(), seen=new Set();
+    return [...asiaSearch(q),...localOut,...out,...cryptoOut,...localIndices].sort((a,b)=>Number(!!b.searchUS)-Number(!!a.searchUS)||(b.sym===Q)-(a.sym===Q)||(b.sym.startsWith(Q))-(a.sym.startsWith(Q)))
+      .filter(o=>{const k=o.sym+'|'+(o.type==='crypto'?'c':'s');if(seen.has(k)) return false;seen.add(k);return true;}).slice(0,Math.max(12,localIndices.length));
+  };
+  const emit=()=>{if(onUpdate) onUpdate(snapshot());};
+  const dirP=loadSecDir().catch(()=>null).then(D=>{if(D) localOut.push(...localSearch(D,q));emit();});
+  const cnP=
+    fetchJSON('https://symlookup.cnbc.com/symservice/symlookup.do?prefix='+encodeURIComponent(q)+'&partnerid=20064&pgok=1&pgsize=30', 8000).catch(()=>null).then(cn=>{
   if(Array.isArray(cn)){
     cn.slice(1).forEach(x=>{
       if(!x.symbolName) return;
@@ -3782,16 +3788,17 @@ async function searchSymbols(q){
       out.push({sym, name:x.companyName||'', type, searchUS:cc==='US', currency: (il||isTaIndex(sym))?'ILS':'USD', ex: il?I18n.p("ux-0294","ת״א"):(x.exchangeName||'')+(eu?' · '+eu:''), lc: eu||undefined});   // a European security is booked in USD; lc = listing currency
     });
   }
-  const D = await dirP; if(D) out.unshift(...localSearch(D, q)); out.unshift(...asiaSearch(q));
-  if(cg && Array.isArray(cg.coins)) cg.coins.slice(0,4).forEach(c=>out.push({sym:String(c.symbol).toUpperCase(), name:c.name, type:'crypto', currency:'USD', ex:'CoinGecko', cgId:c.id}));
-  const Q = q.toUpperCase();
-  out.push(...localIndices);
-  out.sort((a,b)=>Number(!!b.searchUS)-Number(!!a.searchUS) || (b.sym===Q)-(a.sym===Q) || (b.sym.startsWith(Q))-(a.sym.startsWith(Q)));
-  const seen = new Set();
-  return (searchCache[q] = out.filter(o=>{ const k=o.sym+'|'+(o.type==='crypto'?'c':'s'); if(seen.has(k)) return false; seen.add(k); return true; }).slice(0,Math.max(12,localIndices.length)));
+  emit(); });
+  const cgP=(q.length>=2 ? fetchJSON('https://api.coingecko.com/api/v3/search?query='+encodeURIComponent(q),8000).catch(()=>null) : Promise.resolve(null)).then(cg=>{
+    if(cg && Array.isArray(cg.coins)) cg.coins.slice(0,4).forEach(c=>cryptoOut.push({sym:String(c.symbol).toUpperCase(),name:c.name,type:'crypto',currency:'USD',ex:'CoinGecko',cgId:c.id}));
+    emit();
+  });
+  emit();
+  await Promise.all([dirP,cnP,cgP]);
+  return (searchCache[q]=snapshot());
 }
-function attachAutocomplete(input, list, onPick, typeFilter){
-  let timer, items = [], hl = -1;
+function attachAutocomplete(input, list, onPick, typeFilter, progressive){
+  let timer, items = [], hl = -1, seq = 0;
   const close = ()=>{ list.classList.remove('open'); hl=-1; };
   const draw = ()=>{
     const free = input.value.trim().toUpperCase();
@@ -3799,12 +3806,12 @@ function attachAutocomplete(input, list, onPick, typeFilter){
       + (free && !items.some(i=>i.sym===free) ? `<div class="ac-item" data-free="1"><div><div class="s">${esc(free)}${I18n.p("ui-0372","</div><div class=\"n\">שימוש בסימול כפי שהוקלד</div></div></div>")}` : '');
     list.classList.toggle('open', !!(items.length || free));
   };
-  const pick = it=>{ close(); if(it) input.value = it.sym; onPick(it || {sym:input.value.trim().toUpperCase(), free:true}); };
+  const pick = it=>{ ++seq; clearTimeout(timer); close(); if(it) input.value = it.sym; onPick(it || {sym:input.value.trim().toUpperCase(), free:true}); };
   input.addEventListener('input', ()=>{
-    clearTimeout(timer); const q = input.value;
+    clearTimeout(timer); const q = input.value, request = ++seq;
     if(!q.trim()){ items=[]; close(); return; }
     items = items.filter(it=>it.sym.startsWith(q.trim().toUpperCase())); draw();
-    timer = setTimeout(async()=>{ let r = await searchSymbols(q); if(typeFilter) r = r.filter(typeFilter); if(input.value===q && document.activeElement===input){ items = r; draw(); } }, 280);
+    timer = setTimeout(async()=>{ const apply=r=>{if(request!==seq || input.value!==q || document.activeElement!==input) return; const selected=items[hl]; items=typeFilter?r.filter(typeFilter):r; hl=selected?items.findIndex(it=>it.sym===selected.sym && it.type===selected.type):-1; draw();}; const r=await searchSymbols(q,progressive?apply:null); apply(r); }, 280);
   });
   input.addEventListener('keydown', e=>{
     if(e.key==='Enter'){ e.preventDefault(); if(hl>=0 && items[hl]) pick(items[hl]); else if(input.value.trim()) pick(items.find(i=>i.sym===input.value.trim().toUpperCase())||null); return; }
@@ -5039,13 +5046,13 @@ $('srchRes').addEventListener('click',e=>{const b=e.target.closest('[data-ref]')
 let srchFx = [];
 function srchOpen(){ const o = $('srchOv'); if(!o.hidden) return; o.hidden = false; document.body.classList.add('srch-on'); $('navSearch').classList.add('on'); $('srchQ').value = ''; srchItems = []; drawSrch();
   navPush({t:'srch'}); setTimeout(()=>$('srchQ').focus(), 30); const R = srchRecent(); if(R.length) instQuotes(R.map(srchInst)).then(()=>{ if(!$('srchQ').value.trim() && !o.hidden) drawSrch(); }).catch(()=>{}); }
-function srchHide(){ const o = $('srchOv'); if(o.hidden) return; o.hidden = true; document.body.classList.remove('srch-on'); $('navSearch').classList.remove('on'); $('srchQ').blur(); }
+function srchHide(){ const o = $('srchOv'); if(o.hidden) return; ++srchSeq; clearTimeout(srchTimer); srchTimer=null; o.hidden = true; document.body.classList.remove('srch-on'); $('navSearch').classList.remove('on'); $('srchQ').blur(); }
 function srchClose(){ navDrop('srch'); srchHide(); }
 $('navSearch').addEventListener('click', ()=>$('srchOv').hidden ? srchOpen() : srchClose());
 $('srchClose').addEventListener('click', srchClose);
-$('srchQx').addEventListener('click', ()=>{ $('srchQ').value = ''; srchItems = []; drawSrch(); $('srchQ').focus(); });
+$('srchQx').addEventListener('click', ()=>{ ++srchSeq; clearTimeout(srchTimer); srchTimer=null; $('srchQ').value = ''; srchItems = []; drawSrch(); $('srchQ').focus(); });
 $('srchQ').addEventListener('input', ()=>{ clearTimeout(srchTimer); const q = $('srchQ').value.trim(), seq = ++srchSeq; srchItems = []; if(!q){ srchTimer = null; drawSrch(); return; }
-  srchTimer = setTimeout(async()=>{ let r = []; try{ r = await searchSymbols(q); }catch(e){} if(seq!==srchSeq) return; srchTimer = null; srchItems = r; drawSrch();
+  srchTimer = setTimeout(async()=>{ let r = []; try{ r = await searchSymbols(q,partial=>{if(seq!==srchSeq || $('srchOv').hidden || $('srchQ').value.trim()!==q) return; srchItems=partial; drawSrch();}); }catch(e){} if(seq!==srchSeq || $('srchOv').hidden || $('srchQ').value.trim()!==q) return; srchTimer = null; srchItems = r; drawSrch();
     if(r.length){ await instQuotes(r.map(srchInst)).catch(()=>{}); if(seq===srchSeq) drawSrch(); } }, 300); drawSrch(); });
 $('srchQ').addEventListener('keydown', e=>{ if(e.key==='Enter' && srchItems[0]){ e.preventDefault(); srchPick(srchItems[0]); } else if(e.key==='Escape') srchClose(); });
 function srchPick(m){ srchRet = $('srchQ').value; const R = srchRecent().filter(x=>x.sym!==m.sym); R.unshift({sym:m.sym, name:m.name||'', type:m.type||'stock', currency:m.currency||'USD', ex:m.ex||''}); try{ localStorage.setItem(RS_KEY, JSON.stringify(R.slice(0,8))); }catch(e){}
