@@ -31784,5 +31784,35 @@
         "source_hash": "f1986f37e248e5feab7b6204414190f3d470f2fa4061b636e339de0eaac09ca5"
       }
     }
+  },
+  {
+    "מזהה": "n-1294",
+    "category": "macro",
+    "חברה": "Kalshi",
+    "כותרת": "Kalshi: שינוי תקני הרישום עשוי לאפשר חוזי מניות ללא פקיעה כבר ביום העסקים השני אחרי IPO; רף שווי שוק נוכחי של 100 מיליארד דולר נשאר",
+    "כותרת_en": "Kalshi: amended standards could allow perpetual equity futures from the second business day after an IPO; $100 billion current market-cap floor remains",
+    "תאריך": "2026-11-06",
+    "הועלה": "2026-11-11 11:16",
+    "טקסט": "השלמת סיקור למסמך SEC מ-6.11.2026, שנקרא במלואו לצד אינדקס הכללים הרשמי. ההגשה נעשתה ב-4 בנובמבר. אין כאן הכרזה חדשה מ-11 בנובמבר.\n\nהודעת SEC מספר 34-106841, בתיק SR-KALSHIEX-2026-03, מתארת שינוי בתקני Kalshi לניירות הערך שעליהם ניתן לרשום חוזים עתידיים ללא מועד פקיעה (Perpetual SFPs). המטרה היא לקצר את תקופת ההמתנה לאחר הנפקה ראשונית של מניה. לפי המסמך, השינוי ייכנס לתוקף ב-19 בנובמבר 2026.\n\nלמניה עם היסטוריית מסחר קצרה מחודש תתאפשר עמידה במבחן המחזור באמצעות 2.4 מיליון מניות שנסחרו מאז יום ההנפקה, במקום דרישת היסטוריית המסחר הקודמת. בנוסף, בתנאים מסוימים ניתן יהיה לוותר זמנית על דרישת חמישה ימי מחיר סגירה, ולאפשר רישום החל מיום העסקים השני אחרי יום ה-IPO, שאינו נספר. הוויתור מותנה בין היתר בשווי של לפחות 3 מיליארד דולר לפי מחיר ההנפקה.\n\nחשוב: רף 3 מיליארד הדולר אינו רף השווי היחיד. המסמך משאיר במפורש את דרישת שווי השוק הנוכחי של לפחות 100 מיליארד דולר ואת יתר תנאי הזכאות, ובהם רישום בארה״ב, החזקות ציבור ודיווח תקופתי. אין להסיק שכל הנפקה של 3 מיליארד דולר זכאית או שכל מניה חדשה תוצע אוטומטית.\n\nזהו שינוי בתקני זכאות, לא הודעה על תחילת מסחר בחוזה מסוים, אישור מוצר ל-Anthropic או הכרעה בתביעה נגד ה-CFTC שכוסתה ב-n-0364. ה-SEC רשאית, בהתייעצות עם ה-CFTC, לבטל את השינוי בהליך המתואר בתוך 60 יום מכניסתו לתוקף. אין לערבב את המסמך עם דיווחים נפרדים על בעיות הגשה בחוזי אירועים.",
+    "טקסט_en": "Catch-up coverage of the Nov 6, 2026 SEC notice, read in full alongside the official rulemaking index. The filing was made on Nov 4. This is not a new Nov 11 announcement.\n\nSEC release 34-106841, file SR-KALSHIEX-2026-03, describes amendments to Kalshi listing standards for the securities underlying perpetual security futures products (Perpetual SFPs). The changes aim to shorten the wait after a stock IPO. The notice says they become effective on Nov 19, 2026.\n\nFor a stock with less than one month of trading history, the volume test could be met by 2.4 million shares traded since its IPO day, replacing the previous trading-history requirement. A temporary waiver of the five-day closing-price lookback could also permit listing from the second business day after the IPO day, excluding the IPO day itself, subject to conditions including at least $3 billion in market capitalisation at the offering price.\n\nThe $3 billion threshold is not the only market-cap standard. The notice expressly retains a current market-cap floor of $100 billion and all other eligibility criteria, including US listing, public float and periodic reporting. This does not mean every $3 billion IPO qualifies or that every new stock will automatically be offered.\n\nThis changes eligibility standards. It is not a launch announcement for a specific contract, permission for an Anthropic product, or a ruling in the CFTC litigation covered in n-0364. The SEC may, after consultation with the CFTC, abrogate the change through the described process within 60 days of effectiveness. The notice should not be merged with separate reports about filing problems involving event contracts.",
+    "קישור": "https://www.sec.gov/files/rules/sro/kalshiex/2026/34-106841.pdf",
+    "מקורות": [
+      {
+        "label": "SEC: הודעה מקורית 34-106841 מ-6 בנובמבר",
+        "label_en": "SEC: original Nov 6 notice 34-106841",
+        "url": "https://www.sec.gov/files/rules/sro/kalshiex/2026/34-106841.pdf"
+      },
+      {
+        "label": "SEC: אינדקס הכללים הרשמי של KalshiEX",
+        "label_en": "SEC: official KalshiEX rulemaking index",
+        "url": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/kalshiex"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3ada4b49afe87cbac550253bbe3421ba0a602f52b6904366f82e21808f8aae71"
+      }
+    }
   }
 ]
