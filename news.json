@@ -32633,5 +32633,55 @@
         "source_hash": "8510e7d802a04c8a0adde7479d68c1e8dd73788172e1c2ccb875509caffadd3d"
       }
     }
+  },
+  {
+    "מזהה": "n-1325",
+    "category": "micro",
+    "חברה": "AMGN",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 15:02",
+    "קישור": "https://www.prnewswire.com/news-releases/amgen-announces-positive-phase-3-results-for-dazodalibep-in-sjogrens-disease-302935991.html",
+    "כותרת": "Amgen (AMGN): תוצאות שלב 3 מפורטות ל-dazodalibep בשיוגרן, עם יתרון מול פלצבו במדד פעילות המחלה",
+    "כותרת_en": "Amgen (AMGN): detailed Phase 3 dazodalibep results in Sjögren's show disease-activity benefit versus placebo",
+    "טקסט": "11.11.2026 | הודעת Amgen המקורית בהפצת PRNewswire נקראה במלואה; 08:00 ET, 15:00 שעון ישראל.\n\nAmgen פרסמה תוצאות מפורטות מניסוי OASIZ-301 בשלב 3 ב-648 חולים עם שיוגרן ופעילות מערכתית בינונית עד קשה. זהו פירוט כמותי נוסף לאחר התוצאות הראשוניות החיוביות מספטמבר, לא הודעה ראשונה שהניסוי הצליח. התוצאות המלאות מיועדות להצגה בכנס ACR.\n\nבשבוע 48, משטר של 1,500 מ\"ג מדי ארבעה שבועות השיג ירידה מתוקנת ממוצעת של 5.6 נקודות במדד ESSDAI, לעומת 3.8 בפלצבו: יתרון של 1.8 נקודות, p מתוקן קטן מ-0.001. במשטר של 3,000 מ\"ג מדי 12 שבועות נרשמה ירידה של 5.2 נקודות, יתרון של 1.4 מול פלצבו, p מתוקן 0.010. בשתי זרועות הטיפול היו 217 חולים בכל אחת. אלה נקודות במדד פעילות מחלה, לא אחוזי ריפוי.\n\nמשטר ארבעת השבועות שיפר גם יובש מדווח בידי החולים: הפרשים מול פלצבו של 1.17 ו-0.93 נקודות בשני מדדי היובש, לטובת הטיפול. אין להסיק מאותו ממצא ששני משטרי המינון השיגו תוצאה זהה בכל יעד משני.\n\nלפי החברה, תופעות לוואי חמורות והפסקות טיפול עקב תופעות לוואי היו מאוזנות בין שלוש הקבוצות, ללא חוסר איזון באירועים תרומבואמבוליים או בזיהומים אופורטוניסטיים. בין התופעות השכיחות יותר בטיפול היו דלקת אף ולוע, זיהום בדרכי השתן, יתר לחץ דם ותגובות לעירוי. אלה נתוני ניסוי כפי שדווחו בידי החברה, לא קביעה שאין סיכונים.\n\nDazodalibep הוא טיפול ניסיוני המכוון ל-CD40L. אין כאן אישור FDA, אישור שיווק או הכנסה ממוצר מאושר; מחקרי OASIZ-303 ו-OASIZ-304 ממשיכים לבחון אוכלוסייה נוספת ובטיחות ארוכת טווח.",
+    "טקסט_en": "Nov 11, 2026 | Full original Amgen PRNewswire release read; 08:00 ET, 15:00 Israel time.\n\nAmgen released detailed Phase 3 OASIZ-301 results in 648 patients with Sjögren's disease and moderate-to-severe systemic activity. These are additional quantitative findings after positive September topline results, not the first announcement of success. Full results are scheduled for presentation at ACR.\n\nAt Week 48, 1,500 mg every four weeks produced a least-squares mean ESSDAI reduction of 5.6 points versus 3.8 for placebo: a 1.8-point benefit, adjusted p<0.001. The 3,000 mg every twelve weeks regimen reduced the score by 5.2 points, a 1.4-point placebo-adjusted benefit, adjusted p=0.010. Each treatment arm had 217 patients. These are disease-activity score points, not cure rates.\n\nThe four-week regimen also improved patient-reported dryness, with placebo-adjusted benefits of 1.17 and 0.93 points on two dryness measures. That does not establish identical results for both regimens across every secondary endpoint.\n\nAmgen reports balanced serious adverse events and adverse-event discontinuations across the three groups, with no imbalance in thromboembolic events or opportunistic infections. Events more common with treatment included nasopharyngitis, urinary tract infection, hypertension and infusion reactions. These are company-reported trial findings, not a finding of no risk.\n\nDazodalibep is an investigational CD40L-targeting treatment. This is not FDA or marketing approval or revenue from an approved product. OASIZ-303 and OASIZ-304 continue to assess another patient population and long-term safety.",
+    "מקורות": [
+      {
+        "label": "Amgen: הודעת תוצאות הניסוי המקורית",
+        "label_en": "Amgen: original trial-results release",
+        "url": "https://www.prnewswire.com/news-releases/amgen-announces-positive-phase-3-results-for-dazodalibep-in-sjogrens-disease-302935991.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2c7196b660aceae8566e7c4e05fea4642d5e17472060b4268af64ea0b24cd34d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1326",
+    "category": "micro",
+    "חברה": "XYZ",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 15:02",
+    "קישור": "https://www.prnewswire.com/news-releases/hach-rose-schirripa--rehns-llp-secures-150-million-settlement-for-block-inc-in-in-landmark-oversight-litigation-302935736.html",
+    "כותרת": "Block (XYZ): עורכי דין לתובעים הודיעו על הסדר נגזר מוצע של 150 מיליון דולר שישולם לחברה בידי מבטחים",
+    "כותרת_en": "Block (XYZ): plaintiffs' counsel announces proposed $150 million derivative settlement payable to the company by insurers",
+    "טקסט": "11.11.2026 | הודעת משרד Hach Rose Schirripa & Rehns, המייצג תובעים בהליך, בהפצת PRNewswire; נקראה במלואה, 08:00 ET, 15:00 שעון ישראל. ההסדר לא אומת כאן מול מסמך בית משפט או הודעת Block נפרדת.\n\nמשרד עורכי הדין הודיע שהושג הסדר מוצע בתביעה נגזרת של בעלי מניות בנוגע לטענות לכשלי פיקוח של נושאי משרה ודירקטורים ב-Block על ציות לחוקי מניעת הלבנת הון ובנקאות בפעילות Cash App. לפי המשרד, מבטחי הנתבעים אמורים לשלם 150 מיליון דולר במזומן ישירות ל-Block, בכפוף לאישור בית משפט.\n\nכיוון הכסף חשוב: מדובר בסכום המיועד להיכנס לחברה, לא בקנס חדש של 150 מיליון דולר ש-Block התחייבה לשלם לרגולטור, ולא בחלוקה ישירה לכל בעל מניה. ההסדר עדיין כפוף לאישור מקדמי וסופי; ההודעה אומרת שמידע נוסף יפורסם לאחר הגשת מסמכי ההסדר. אין כאן אישור שכסף כבר הועבר.\n\nההליך מתואר כ-In re Block Inc. Shareholder Derivative Litigation בבית המשפט הפדרלי בצפון קליפורניה, מספר 5:25-cv-01262. טענות בדבר כשלי פיקוח ושימוש לרעה בפלטפורמה הן טענות ההליך והודעת עורכי הדין, לא ממצאים חדשים שנקבעו כאן בפסק דין.\n\nההסדר הנגזר המוצע נפרד מהליך משרד המשפטים שסוקר ב-n-0418 ומכל תביעה ייצוגית בניירות ערך. אין להסיק ממנו שכל חשיפותיה המשפטיות של Block הסתיימו, ואי אפשר לקזז אוטומטית את הסכום מהתחייבויות בהליכים אחרים.",
+    "טקסט_en": "Nov 11, 2026 | Full PRNewswire release from plaintiffs' counsel Hach Rose Schirripa & Rehns read; 08:00 ET, 15:00 Israel time. The settlement was not independently checked against a court filing or a separate Block announcement.\n\nThe firm announced a proposed settlement in stockholder derivative litigation alleging officer and director oversight failures regarding anti-money-laundering and banking-law compliance at Cash App. According to counsel, defendants' insurers would pay $150 million in cash directly to Block, subject to court approval.\n\nThe payment direction matters: this is a proposed recovery for the company, not a new $150 million regulatory fine payable by Block or a direct distribution to each shareholder. Preliminary and final approval remain pending; the release says further information will follow the filing of settlement papers. It does not confirm that cash has already changed hands.\n\nThe case is identified as In re Block Inc. Shareholder Derivative Litigation, No. 5:25-cv-01262, in the Northern District of California. Oversight and platform-misuse allegations are claims in the litigation and counsel's release, not new court findings established here.\n\nThe proposed derivative settlement is separate from the Department of Justice matter in n-0418 and any securities class action. It does not resolve all Block legal exposures, and the amount cannot automatically be offset against obligations in other proceedings.",
+    "מקורות": [
+      {
+        "label": "הודעת משרד עורכי הדין לתובעים, לא אישור בית משפט",
+        "label_en": "Plaintiffs' law firm release, not court approval",
+        "url": "https://www.prnewswire.com/news-releases/hach-rose-schirripa--rehns-llp-secures-150-million-settlement-for-block-inc-in-in-landmark-oversight-litigation-302935736.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6d26f55b80baaca98a8538bd469f3181bf87d5d1373c97e1a4491db8dced4325"
+      }
+    }
   }
 ]
