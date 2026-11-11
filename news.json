@@ -31637,5 +31637,40 @@
         "source_hash": "26dc717c46c77c24413e74f811b80c64bade69c9e73f8322cb77ee4fdc1978bb"
       }
     }
+  },
+  {
+    "מזהה": "n-1289",
+    "category": "micro",
+    "חברה": "AXTA",
+    "כותרת": "Axalta (AXTA) ו-AkzoNobel: ה-CMA מצאה חשש תחרות בצבעי תיקון רכב בבריטניה; נדרשת הצעת התחייבויות עד 18 בנובמבר",
+    "כותרת_en": "Axalta (AXTA) and AkzoNobel: CMA finds UK vehicle-refinish competition concern; remedies due Nov 18",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-11 10:12",
+    "טקסט": "11.11.2026 | תקציר החלטת Phase 1 המקורי של ה-CMA והודעת החברות נקראו במלואם. הודעת החברות פורסמה ב-03:07 שעון ניו יורק, 10:07 שעון ישראל; שעת פרסום החלטת הרשות לא אומתה.\n\nרשות התחרות הבריטית קבעה שקיים סיכוי ממשי לפגיעה מהותית בתחרות באספקת צבעים לתיקון רכב בבריטניה בעקבות המיזוג המתוכנן. לפי הרשות, החברות מתחרות קרובות והגוף המשולב יהיה מוביל ברור עם נתח אספקה של 40%–50%; המתחרים שנותרו לא יספיקו לפצות על אובדן התחרות ביניהן, במיוחד בפלח הפרימיום.\n\nלחברות עד 18 בנובמבר להציע התחייבויות שיטפלו בחשש. אם לא תוצע חבילה מתאימה, או שהרשות תמצא אותה בלתי מספקת, המיזוג יופנה לחקירת Phase 2 מעמיקה. אין כאן אישור בריטי למיזוג, קבלת פתרון מוצע או החלטה שהעסקה הושלמה. הרשות לא מצאה חשש משמעותי בתחומי ציפויי האבקה שבדקה.\n\nהחברות אומרות שבכוונתן לתת מענה באמצעות אותה חבילת מכירת פעילות צבעי תיקון הרכב האירופית של AkzoNobel, כולל בריטניה, שעליה הסכימו עם הנציבות האירופית. זו עמדת החברות, לא אישור CMA לחבילה. הצפי שלהן להשלמה בתחילת 2027 נשאר צפי מותנה.\n\nהחידוש לעומת n-0151 על האישור האירופי המותנה מ-6 בנובמבר הוא החלטת השלב הראשון בבריטניה והמועד להצעת התחייבויות. כ-17 מיליארד דולר בהודעה הם הכנסות הגוף המשולב המתוכנן, לא מחיר העסקה או תמורת מכירת הפעילות.",
+    "טקסט_en": "Nov 11, 2026 | Original CMA Phase 1 decision summary and company release read in full. The company release was published at 03:07 New York time, 10:07 Israel time; the regulator's publication clock was not verified.\n\nThe UK Competition and Markets Authority found a realistic prospect of a substantial lessening of competition in UK vehicle-refinish coatings from the proposed merger. It says the parties compete closely and the merged business would be the clear leader with a 40–50% supply share. Remaining rivals would not sufficiently offset lost competition between them, especially at the premium end.\n\nThe parties have until Nov 18 to offer undertakings addressing the concern. If suitable undertakings are not offered or the CMA finds them insufficient, the merger will be referred for an in-depth Phase 2 investigation. This is not UK merger approval, acceptance of a proposed remedy or completion. The CMA did not find significant concerns in the powder-coatings areas it examined.\n\nThe companies say they aim to address the concern with the same divestiture of AkzoNobel's European vehicle-refinish business, including the UK, agreed with the European Commission. That is the companies' position, not CMA acceptance. Their early-2027 completion expectation remains conditional.\n\nNew versus n-0151 on Nov 6 conditional European clearance is the UK Phase 1 decision and remedies deadline. The roughly $17 billion cited by the companies is planned combined revenue, not the deal price or divestiture proceeds.",
+    "קישור": "https://assets.publishing.service.gov.uk/media/6af40960e84419943c0a21c8/Summary_of_phase_1_decision.pdf",
+    "מקורות": [
+      {
+        "label": "CMA: תקציר החלטת Phase 1 המקורי",
+        "label_en": "CMA: original Phase 1 decision summary",
+        "url": "https://assets.publishing.service.gov.uk/media/6af40960e84419943c0a21c8/Summary_of_phase_1_decision.pdf"
+      },
+      {
+        "label": "CMA: עמוד התיק, עודכן ב-11 בנובמבר",
+        "label_en": "CMA: case page, updated Nov 11",
+        "url": "https://www.gov.uk/cma-cases/akzonobel-slash-axalta-merger-inquiry"
+      },
+      {
+        "label": "Axalta ו-AkzoNobel: הודעה משותפת מ-11 בנובמבר",
+        "label_en": "Axalta and AkzoNobel: joint Nov 11 release",
+        "url": "https://www.globenewswire.com/news-release/2026/11/11/3400482/0/en/update-on-the-uk-competition-and-markets-authority-s-review-of-the-akzonobel-axalta-merger.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7be39856ed84024bc39aa11256745743f21c329ac0d2b76bfa35abf9a36bb86f"
+      }
+    }
   }
 ]
