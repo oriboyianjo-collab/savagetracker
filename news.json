@@ -37218,5 +37218,37 @@
         "source_hash": "2a7b6cfe3b50348c771775ad06a89c0fd706ccafe8995adc9b3cada163997a76"
       }
     }
+  },
+  {
+    "מזהה": "n-1467",
+    "category": "micro",
+    "חברה": "NOC",
+    "symbols": [
+      "NOC"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 17:00",
+    "כותרת": "נורת׳רופ גרומן ו-Hermeus חתמו על שיתוף פעולה למערכות משימה בכלי טיס בלתי מאוישים מהירים",
+    "כותרת_en": "Northrop Grumman and Hermeus sign teaming agreement for mission systems on high-Mach unmanned aircraft",
+    "טקסט": "12.11.2026 | הודעת Hermeus המקורית פורסמה ב-10:00 שעון החוף המזרחי בארה״ב, 17:00 שעון ישראל.\n\nHermeus ונורת׳רופ גרומן (NOC) הודיעו על הסכם שיתוף פעולה אסטרטגי לקידום כלי טיס בלתי מאוישים במהירויות מאך גבוהות לשימוש הצבא האמריקאי. במסגרת ההסכם, נורת׳רופ תספק תכנון, פיתוח, שילוב ותחזוקה של מערכות משימה לדור הבא של כלי הטיס של Hermeus.\n\nהתפקיד המתואר כולל טכנולוגיות חישה, תקשורת, ניווט ופיקוד ושליטה על פלטפורמות בלתי מאוישות רב-פעמיות. Hermeus מביאה את כלי הטיס ואת ליבת ניהול המשימה שלה, הבנויה בארכיטקטורה פתוחה ומודולרית ומפרידה בין תפקודי טיסה לתפקודי משימה.\n\nהחברות מתכוונות להתמודד יחד על הזדמנויות בתוכניות פיתוח מתקדמות. זו התקשרות בין החברות, לא הודעה על הזמנה או חוזה ממשלתי שהוענק להן. לא פורסמו שווי ההסכם, כמות כלי טיס, לוח אספקות או תחזית הכנסות.\n\nהטענה שהארכיטקטורה מאפשרת לשלב ולעדכן יכולות בתוך שבועות במקום שנים היא תיאור של החברה, לא תוצאה של ניסוי השוואתי עצמאי. ההודעה אינה מדווחת על טיסת ניסוי חדשה, מהירות שהושגה או כשירות מבצעית שכבר נמסרה. התמונה מציגה את Quarterhorse של Hermeus, ואינה הוכחה שמערכות המשימה המשותפות כבר הותקנו או נוסו בו.",
+    "טקסט_en": "November 12, 2026 | Hermeus published the original release at 10:00 US Eastern time, or 17:00 Israel time.\n\nHermeus and Northrop Grumman (NOC) announced a strategic teaming agreement to advance high-Mach unmanned aircraft capability for the US military. Northrop will provide integrated mission-systems design, development, integration and sustainment for Hermeus' next-generation aircraft.\n\nThe stated role spans sensing, communications, navigation, and command and control for reusable unmanned platforms. Hermeus contributes its aircraft and open, modular mission-management core, which separates flight-critical from mission-critical functions.\n\nThe companies plan to pursue opportunities in advanced development programs together. This is an agreement between the companies, not an announced government order or contract award. No agreement value, aircraft quantity, delivery schedule or revenue forecast was disclosed.\n\nThe claim that the architecture allows mission capabilities to be integrated and updated in weeks rather than years is the company's description, not an independently tested comparative result. The release does not report a new flight test, demonstrated speed or operational capability already delivered. Its Quarterhorse aircraft photo does not establish that the joint mission systems have already been installed or tested on that aircraft.",
+    "קישור": "https://www.prnewswire.com/news-releases/hermeus-and-northrop-grumman-team-up-to-bring-advanced-mission-systems-to-high-mach-aircraft-302937103.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/hermeus-and-northrop-grumman-team-up-to-bring-advanced-mission-systems-to-high-mach-aircraft-302937103.html",
+        "label": "Hermeus: הודעת ההסכם המלאה ב-PR Newswire",
+        "label_en": "Hermeus: full teaming-agreement release on PR Newswire"
+      }
+    ],
+    "הועלה": "2026-11-12 17:35",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "13ee9b737cdd2f141d39691cdcbadf25fe818e0759bcaf20dee45653a20d1e3c"
+      }
+    }
   }
 ]
