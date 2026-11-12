@@ -34625,5 +34625,78 @@
         "source_hash": "89efc124f723538b3c315b3d6a92a3589ca56022e95fd9e62e302c28664d6ab9"
       }
     }
+  },
+  {
+    "מזהה": "n-1389",
+    "category": "micro",
+    "חברה": "CRBG",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-12 11:20",
+    "כותרת": "השלמת סיקור: Corebridge (CRBG) הסכימה לרכוש מ-Argon מניות בכ-110 מיליון דולר; השלמת העסקה לא אומתה",
+    "כותרת_en": "Catch-up: Corebridge (CRBG) agreed to buy about $110 million of shares from Argon; closing not verified",
+    "summary": "הסכם מ-6 בנובמבר שדווח ל-SEC ב-9 בנובמבר, במחיר 34.09 דולר למניה. מועד הסגירה הצפוי, 10 בנובמבר, אינו הוכחה שהרכישה בוצעה.",
+    "summary_en": "November 6 agreement disclosed to the SEC November 9 at $34.09 per share. The expected November 10 closing is not proof the repurchase occurred.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1889539/000188953926000162/crbg-20261109.htm",
+    "מקורות": [
+      {
+        "label": "SEC: דיווח 8-K המלא מ-9 בנובמבר, סעיף 1.01",
+        "label_en": "SEC: full November 9 Form 8-K, Item 1.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1889539/000188953926000162/crbg-20261109.htm"
+      },
+      {
+        "label": "SEC: נספח 10.1, הסכם הרכישה העצמית המלא מ-6 בנובמבר",
+        "label_en": "SEC: Exhibit 10.1, full November 6 repurchase agreement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1889539/000188953926000162/exhibit-crbgxsharerepurcha.htm"
+      }
+    ],
+    "טקסט": "השלמת סיקור מאוחרת: ההסכם נחתם ב-6.11.2026 ודווח ב-8-K מ-9.11.2026. שעת הפרסום המקורית לא אומתה. גוף הדיווח והסכם הרכישה העצמית המצורף נקראו במלואם.\n\nCorebridge Financial הסכימה לרכוש מ-Argon Holdco מניות של Corebridge בכ-110 מיליון דולר, לפי מחיר של 34.09 דולר למניה, שהיה מחיר הסגירה ב-NYSE ב-6 בנובמבר לפי ה-8-K. ההסכם קובע כמות מניות המבוססת על חלוקת 110,032,293 דולר במחיר למניה ועיגול כלפי מעלה למניה שלמה. זו רכישה ישירה מבעלת מניות מסוימת, לא סכום חדש שנקבע לתוכנית רכישות כללית בשוק הפתוח.\n\nה-8-K ציין צפי להשלמה ב-10 בנובמבר, בכפוף לתנאי סגירה מקובלים. ההסכם מתנה את חובות הצדדים בנכונות המצגים וההתחייבויות המפורטים בו, ומאפשר הסכמה על מועד אחר. בבדיקה הנוכחית לא אומתה הודעת סגירה מאוחרת יותר, ולכן אין כאן קביעה שהמניות נרכשו או שהכסף כבר הועבר.\n\nההסכם כולל גם מנגנון מעקב לגבי רכישות עתידיות: החברה תעשה את מיטב מאמציה לנטר את שיעור ההחזקה הרשום של Argon ותמסור לה אישור בכתב שרכישה מוצעת לא תביא אותה מעל 14.9% מהמניות הקיימות. המסמך מבחין בין רף זה, הקשור לאפשרות לבצע רכישות בלי הסכמת Argon מראש, לבין זכות קיימת הקשורה לרף של 9.9%. אין לערבב בין שני הרפים או להציגם כאחוז ההחזקה הנוכחי, שלא נקבע כאן.\n\nהחידוש הוא הסכם קונקרטי לרכישה עצמית ובקרות האחזקה שבו. אין כאן אישור למיזוג, שינוי בתנאי מיזוג אחר או תחזית לכמה תגדל הרווחיות למניה. גם השפעה כמותית עתידית על מספר המניות והרווח למניה לא מוצגת כתוצאה שכבר התממשה.",
+    "טקסט_en": "Late catch-up coverage: the agreement was signed November 6, 2026 and disclosed in a November 9 Form 8-K. The original publication time was not verified. The full filing and attached share repurchase agreement were read.\n\nCorebridge Financial agreed to repurchase about $110 million of its shares from Argon Holdco at $34.09 per share, which the 8-K identifies as the November 6 NYSE closing price. The contract sets the share count by dividing $110,032,293 by the purchase price and rounding up to a whole share. This is a direct repurchase from a particular stockholder, not a new general open-market repurchase authorization.\n\nThe 8-K expected closing on November 10 subject to customary conditions. The agreement conditions the parties' obligations on the specified representations and warranties remaining true and allows them to agree another closing date. No later closing announcement was verified in this check, so the shares are not described as already repurchased or the money as already paid.\n\nThe agreement also sets ownership checks for future repurchases: the company must use best efforts to monitor Argon's record ownership and provide written confirmation that a proposed repurchase would not take it above 14.9% of outstanding shares. The document distinguishes that threshold, related to repurchases without Argon's advance consent, from an existing right associated with a 9.9% threshold. Neither is presented as Argon's current ownership percentage, which is not established here.\n\nThe development is a specific share repurchase agreement and its ownership safeguards. It is not merger approval, a change to another merger's terms or a forecast of earnings-per-share growth. Future share-count and EPS effects are not described as already realized.",
+    "symbols": [
+      "CRBG"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "31afe3cd974639ce4690c6ee77547554dd4ea4834af62223b90ece85cd2ae94b"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1390",
+    "category": "micro",
+    "חברה": "LHX",
+    "תאריך": "2026-11-02",
+    "הועלה": "2026-11-12 11:20",
+    "כותרת": "השלמת סיקור: L3Harris (LHX) קיבלה שני חוזי TKMS לציוד הרמת תרנים בצוללות; שווי מדויק לא נמסר",
+    "כותרת_en": "Catch-up: L3Harris (LHX) received two TKMS submarine mast-raising contracts; exact value undisclosed",
+    "summary": "הודעת החברה מ-2 בנובמבר מתארת שני חוזים בהיקף של מיליוני דולרים לציוד הרמה ויחידות בקרה. אין פירוט לוח מסירות, הכנסות מוכרות או מספר צוללות.",
+    "summary_en": "The November 2 company release describes two multi-million-dollar contracts for mast-raising equipment and control units. It gives no delivery schedule, recognized revenue or submarine count.",
+    "קישור": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-advance-allied-submarine-technology",
+    "מקורות": [
+      {
+        "label": "L3Harris: הודעת החוזים המקורית המלאה מ-2 בנובמבר",
+        "label_en": "L3Harris: full original November 2 contract announcement",
+        "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-advance-allied-submarine-technology"
+      }
+    ],
+    "טקסט": "השלמת סיקור מאוחרת: הודעת L3Harris המקורית פורסמה ב-2.11.2026 ונקראה במלואה. שעת הפרסום המקורית לא אומתה. זו אינה הודעת חוזה חדש שפורסמה היום.\n\nL3Harris הודיעה שקיבלה מ-TKMS שני חוזים המתוארים כ-multi-million-dollar, לאספקת ציוד להרמת תרנים ויחידות בקרה אלקטרוניות נלוות לצוללות. החברה אינה מפרטת בהודעה את שווי כל חוזה או סכום כולל מדויק, ולכן לא נקבע כאן מספר משוער.\n\nהציוד מאפשר לצוללות לפרוס ולהחזיר מטענים המשמשים לתקשורת, תצפית וניווט. לפי החברה, מערכות ההרמה נועדו להשתלב בפלטפורמות צוללות מודרניות, תוך עמידה בדרישות בטיחות, אמינות ותחזוקה. יתרונות זמינות ועלות מחזור חיים הם טענות החברה ולא חיסכון כספי שנמדד בהודעה.\n\nזהו חוזה ציוד בתחום הימי המרחיב פעילות מוגדרת מול TKMS, בנפרד מהזמנות LOCODA בסך 121 מיליון דולר לצבא ארה\"ב שכבר סוקרו ב-n-0188. ההודעה אינה מפרטת מספר צוללות, לוח מסירות או כמה מהסכום יוכר כהכנסה בכל רבעון. אין להציג את סכום החוזים כהכנסה שכבר התקבלה או כעדכון תחזית החברה.",
+    "טקסט_en": "Late catch-up coverage: L3Harris published the original announcement on November 2, 2026, and it was read in full. The original publication time was not verified. This is not a new contract announcement published today.\n\nL3Harris said it received two multi-million-dollar contracts from TKMS to provide submarine mast-raising equipment and associated electronic control units. The release does not disclose each contract's value or an exact combined amount, so none is estimated here.\n\nThe equipment lets submarines deploy and retract payloads used for communications, surveillance and navigation. The company says its systems are designed to integrate into modern submarine platforms while meeting safety, reliability and maintenance requirements. Vessel-availability and lifecycle-cost benefits are company claims, not financial savings measured in the release.\n\nThis is a defined maritime equipment contract with TKMS, distinct from the $121 million US Army LOCODA radio orders already covered in n-0188. The release gives no submarine count, delivery schedule or quarterly revenue-recognition breakdown. Contract value is not described as revenue already received or as an update to company guidance.",
+    "symbols": [
+      "LHX"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9ed7969e84b48c59aca7f863304364fbfb0a5cfba329dc18e44dc12426660666"
+      }
+    }
   }
 ]
