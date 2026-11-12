@@ -36983,5 +36983,34 @@
         "source_hash": "1fd4a7c3d8313ee58cd400c09a9f939a1d4fbfe4822e6ba886d5625f115fc356"
       }
     }
+  },
+  {
+    "מזהה": "n-1460",
+    "category": "macro",
+    "symbols": [],
+    "sectors": [
+      "economy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "ארה\"ב: מכירות בתים קיימים ירדו ל-3.75 מיליון בקצב שנתי באוקטובר; ירידה חודשית של 5.5%",
+    "כותרת_en": "US existing-home sales fall to 3.75 million annual rate in October, down 5.5% month over month",
+    "טקסט": "12.11.2026 | הודעת NAR המקורית נקראה במלואה, כולל ארבע הערות המתודולוגיה. הדף מציג תאריך ללא שעת פרסום מאומתת.\n\nמכירות בתים קיימים בארה\"ב ירדו באוקטובר ב-5.5% מול החודש הקודם וב-8.8% מול אוקטובר אשתקד, לקצב שנתי מנוכה עונתיות של 3.75 מיליון. זהו קצב שנתי המחושב מקצב המכירות החודשי, לא 3.75 מיליון עסקאות שבוצעו בחודש אחד. לפי הכלכלן הראשי של NAR, Lawrence Yun, זו הרמה הנמוכה ביותר מאז אוגוסט 2010.\n\nהנתון נמוך מצפי של 3.89 מיליון שנשמר ביומן מ-Forex Factory. זהו צפי ממקור משני, לא תחזית של NAR. הירידה החודשית של 5.5% היא נתון שפרסמה NAR.\n\nמלאי הבתים למכירה עלה ב-1.3% בחודש ל-1.59 מיליון, שווה ערך ל-5.1 חודשי היצע מול 4.7 בספטמבר. המחיר החציוני עלה ב-0.4% בשנה ל-416,700 דולר. אלה מדדי מלאי ומחיר שונים ממספר העסקאות; מחיר חציוני מושפע גם מהרכב הבתים שנמכרו.\n\nNAR מציינת שריבית המשכנתה הקבועה ל-30 שנה עמדה בממוצע באוקטובר על 7.33%, לפי Freddie Mac, לעומת 6.86% בספטמבר. Yun קושר את חולשת המכירות לקושי של קונים לעמוד בעלות המימון; זו הערכתו, לא הוכחה שכל הירידה נגרמה מגורם יחיד או תחזית לכיוון מחירי הבתים והריבית.\n\nהסדרה מבוססת על סגירת עסקאות בבתים קיימים, כולל בתים חד-משפחתיים, דירות וקואופרטיבים. אין לערבב אותה עם מכירות בתים חדשים של Census או עם מדד חוזים ממתינים. אין כאן אימות לתגובת מחיר מסוימת בשוק ההון.",
+    "טקסט_en": "November 12, 2026 | NAR's full original release and all four methodology notes were read. The page gives a date without a verified publication hour.\n\nUS existing-home sales fell 5.5% month over month and 8.8% year over year in October, to a seasonally adjusted annual rate of 3.75 million. This is an annualized pace based on monthly activity, not 3.75 million transactions completed in one month. NAR chief economist Lawrence Yun said sales reached their lowest level since August 2010.\n\nThe result is below the 3.89 million Forex Factory forecast retained in the calendar. That is a secondary-source forecast, not a NAR projection. The 5.5% monthly decline is NAR's published figure.\n\nHousing inventory rose 1.3% in the month to 1.59 million units, equivalent to 5.1 months of supply versus 4.7 in September. The median price rose 0.4% year over year to $416,700. Inventory and price are different measures from transaction volume; the median can also be affected by the mix of homes sold.\n\nNAR cites Freddie Mac's average 30-year fixed mortgage rate of 7.33% in October, up from 6.86% in September. Yun links weak sales to buyers' financing difficulties. This is his assessment, not proof that a single factor caused the entire decline or a forecast for house prices and interest rates.\n\nThe series measures transaction closings for existing properties, including single-family homes, condos and co-ops. It is distinct from Census new-home sales and the pending-sales contract index. No specific financial-market price reaction was verified here.",
+    "קישור": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report",
+    "מקורות": [
+      {
+        "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report",
+        "label": "NAR: דוח אוקטובר המקורי המלא והגדרות הסדרה",
+        "label_en": "NAR: full original October report and series definitions"
+      }
+    ],
+    "הועלה": "2026-11-12 17:07",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1c82b560f521230247be4c457728981f9430e0b802413c04ac40ef3749f95879"
+      }
+    }
   }
 ]

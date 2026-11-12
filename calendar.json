@@ -2604,7 +2604,7 @@
     "מדינה": "US",
     "אירוע": "מכירות בתים קיימים",
     "חשיבות": 1,
-    "הערה": "NARקובע12.11לנתוני אוקטובר; כל הפרסומים10:00ET. צפי וקודם לא אומתו.\nעדכון 06.11.2026: צפי לפי ForexFactory 3.88 מיליון. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.\nעדכון 07.11.2026: צפי לפי ForexFactory 3.86 מיליון. מקורו לא אומת מול מקור ראשוני. היסטוריית הצפי וההערות נשמרה; אין כאן נתון בפועל חדש.\nבדיקת 11.11.2026: צפי Forex Factory העדכני 3.89 מיליון. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.\nהקודם: 3.99 מיליון בקצב שנתי מנוכה עונתיות בספטמבר, לפי הודעת NAR מ-13.10.2026; לא 3.99 מיליון עסקאות בחודש אחד.",
+    "הערה": "אוקטובר 2026: 3.75 מיליון בקצב שנתי מנוכה עונתיות, ירידה של 5.5% בחודש ו-8.8% בשנה, לפי דוח NAR מ-12.11.2026. לא 3.75 מיליון עסקאות בחודש אחד. צפי Forex Factory הקיים 3.89 מיליון והיסטוריית הצפי נשמרו. הקודם 3.97 מיליון מופיע בבדיקת Forex Factory הנוכחית עם סימון תיקון; נתון ספטמבר המקורי 3.99 מיליון נשמר בהיסטוריה. זהו קודם ממקור משני; בסיס ספטמבר המעודכן לא אומת במישרין בדוח NAR או בטקסט הסיכום שנבדק, ולא חושב מהירידה. הדף של NAR מתוארך 12.11 ללא שעת פרסום מאומתת.",
     "מקור": "https://www.nar.realtor/press-releases/nar-releases-2026-statistical-news-release-schedule",
     "שעה": "17:00",
     "תקופה": "אוקטובר · קצב שנתי מנוכה עונתיות",
@@ -2637,17 +2637,30 @@
     "מזהה": "c-0108",
     "אירוע_en": "Existing home sales",
     "תקופה_en": "October · seasonally adjusted annual rate",
-    "הערה_en": "NAR sets Nov 12 for October data; all releases at 10:00 ET. Estimate and prior not verified.\nUpdate Nov 6, 2026: estimate per ForexFactory 3.88 million. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.\nUpdate Nov 7, 2026: estimate per ForexFactory 3.86 million. Its source was not verified against a primary source. Estimate history and notes were retained; there is no new actual figure here.\nNov 11, 2026 check: current Forex Factory forecast 3.89 million. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.\nPrior: 3.99 million seasonally adjusted annual rate in September, per the Oct 13, 2026 NAR release; not 3.99 million transactions in one month.",
+    "הערה_en": "October 2026: 3.75 million seasonally adjusted annual rate, down 5.5% month over month and 8.8% year over year, per NAR's November 12 release. Not 3.75 million transactions in one month. The existing Forex Factory forecast of 3.89 million and forecast history are preserved. Prior 3.97 million appears in the current Forex Factory check with a revision marker; September's original 3.99 million is preserved in history. This revised prior is secondary-sourced, not directly verified in NAR's release or inspected summary text and not calculated from the percentage decline. NAR's page is dated November 12 without a verified publication hour.",
     "צפי_en": "3.89 million",
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "2f188d440bcd76a7cd12192f83d142ae6347baad67340c6bf02580c1cb302a24"
+        "source_hash": "2cb3b039c9eeae3760c332e7bee99ed74d8bfb40c97ff0b07fd8f03c91505b91"
       }
     },
-    "קודם": "3.99 מיליון",
-    "קודם_en": "3.99 million",
-    "מקור_קודם": "https://www.nar.realtor/newsroom/existing-home-sales-increased-1-5-in-september-according-to-nar-report"
+    "קודם": "3.97 מיליון",
+    "קודם_en": "3.97 million",
+    "מקור_קודם": "https://www.forexfactory.com/calendar?day=nov12.2026",
+    "היסטוריית_נתונים": [
+      {
+        "תאריך_עדכון": "2026-11-12",
+        "קודם": "3.99 מיליון",
+        "בפועל": null,
+        "הערה": "NARקובע12.11לנתוני אוקטובר; כל הפרסומים10:00ET. צפי וקודם לא אומתו.\nעדכון 06.11.2026: צפי לפי ForexFactory 3.88 מיליון. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.\nעדכון 07.11.2026: צפי לפי ForexFactory 3.86 מיליון. מקורו לא אומת מול מקור ראשוני. היסטוריית הצפי וההערות נשמרה; אין כאן נתון בפועל חדש.\nבדיקת 11.11.2026: צפי Forex Factory העדכני 3.89 מיליון. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.\nהקודם: 3.99 מיליון בקצב שנתי מנוכה עונתיות בספטמבר, לפי הודעת NAR מ-13.10.2026; לא 3.99 מיליון עסקאות בחודש אחד.",
+        "הערה_en": "NAR sets Nov 12 for October data; all releases at 10:00 ET. Estimate and prior not verified.\nUpdate Nov 6, 2026: estimate per ForexFactory 3.88 million. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.\nUpdate Nov 7, 2026: estimate per ForexFactory 3.86 million. Its source was not verified against a primary source. Estimate history and notes were retained; there is no new actual figure here.\nNov 11, 2026 check: current Forex Factory forecast 3.89 million. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.\nPrior: 3.99 million seasonally adjusted annual rate in September, per the Oct 13, 2026 NAR release; not 3.99 million transactions in one month."
+      }
+    ],
+    "בפועל": "3.75 מיליון",
+    "בפועל_en": "3.75 million",
+    "מקור_בפועל": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report",
+    "תאריך_בדיקת_בפועל": "2026-11-12 17:07"
   },
   {
     "תאריך": "2026-11-12",
