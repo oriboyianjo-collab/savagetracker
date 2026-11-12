@@ -38106,7 +38106,7 @@
   },
   {
     "מזהה": "n-1495",
-    "category": "company",
+    "category": "micro",
     "חברה": "WMS",
     "תאריך": "2026-11-12",
     "כותרת": "Advanced Drainage Systems (WMS) השלימה את רכישת StormTrap מ-PSP Capital",
@@ -38125,7 +38125,7 @@
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "dabb339eac015c8c59bce9825f15606900fe6b8614b1d49ec1f83ece378e097a"
+        "source_hash": "770edf046cd82d41f20c750470ad425a911aaf7f555072bc07f3df1061a2469d"
       }
     }
   }
