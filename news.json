@@ -35356,5 +35356,29 @@
         "source_hash": "af5672382fee0c8298e509335d48bb6f8d079ae723e6d66f8bfb222e884e47c0"
       }
     }
+  },
+  {
+    "מזהה": "n-1409",
+    "category": "micro",
+    "תאריך": "2026-09-16",
+    "כותרת": "השלמת סיקור Generac ו-Amazon: מסירות גנרטורים צפויות ב-2.4 מיליארד דולר ואופציה עם רף תשלומים של 8 מיליארד דולר",
+    "כותרת_en": "Generac-Amazon catch-up: $2.4 billion expected generator deliveries and a warrant with an $8 billion payment threshold",
+    "טקסט": "השלמת סיקור להסכם מ-16 בספטמבר 2026. דוח 8-K המקורי של Generac נקרא במלואו; שעת ההגשה המקורית לא אומתה. הפרסום המשני בנובמבר אינו עסקה חדשה מהיום, והפריט אינו סיכום תוצאות רבעוניות.\n\nGenerac ו-Amazon חתמו באותו יום על הסכם עסקה ועל הסכם אספקה ארוך טווח לגנרטורי גיבוי למרכזי הנתונים של Amazon. לפי הדוח, המסירות הראשוניות צפויות להסתכם ב-2.4 מיליארד דולר בשנים 2027 ו-2028. זהו היקף מסירות צפוי, לא הכנסות שכבר הוכרו או אישור שהציוד כבר נמסר.\n\nבמסגרת הקשר, Generac הנפיקה לחברה-הבת Amazon.com NV Investment Holdings כתב אופציה לרכישת עד 1,693,745 מניות במחיר מימוש של 200.9266 דולר למניה. מתוך הכמות הזאת, 307,954 מניות אופציה הבשילו מיד; היתרה מבשילה במנות בכפוף לתשלומים מצטברים של Amazon וחברות קשורות עבור גנרטורים, לאחר קיזוזים מסוימים, עד לרף של 8 מיליארד דולר.\n\n8 מיליארד הדולר הם רף הקשור להבשלת יתרת האופציה, ולא התחייבות רכישה מינימלית או הכנסה מובטחת שאפשר להסיק מהדוח. גם אין לחבר אותם ל-2.4 מיליארד הדולר ולהציג הזמנה של 10.4 מיליארד דולר. מניות אופציה שהבשילו אינן בהכרח מניות שכבר נרכשו במימוש.\n\nבכפוף להבשלה ולתנאים, האופציה ניתנת למימוש במזומן או ללא מזומן עד 16 בספטמבר 2033. המחיר והכמות כפופים להתאמות למניעת דילול. זהו קשר אספקה ותגמול הוני נפרד מכתבי האופציה של 3M ל-Amazon שסוקרו ב-n-1370, ולא הרחבה של אותה עסקה. הדוח מפנה לנספחי האופציה והסכם העסקה, שחלקים מהם הושחרו; הסיכום כאן מבוסס על סעיף 1.01 הפומבי ואינו קובע תנאי ביטול או מינימום רכישות שלא פורטו בו.",
+    "טקסט_en": "Catch-up on a September 16, 2026 agreement. Generac's full original Form 8-K was read; its original filing hour was not verified. The November secondary coverage is not a new deal today, and this item is not a quarterly earnings recap.\n\nGenerac and Amazon signed a transaction agreement and a long-term supply agreement for backup generators for Amazon data centers on the same date. The filing says initial deliveries are expected to total $2.4 billion in 2027 and 2028. That is expected delivery value, not revenue already recognized or confirmation that the equipment has been delivered.\n\nGenerac issued Amazon.com NV Investment Holdings a warrant to acquire up to 1,693,745 shares at an exercise price of $200.9266 per share. Of those warrant shares, 307,954 vested immediately. The balance vests in tranches contingent on aggregate payments from Amazon and related entities for generators, net of certain offsets, up to an $8 billion threshold.\n\nThe $8 billion is tied to vesting of the remaining warrant, not a minimum purchase commitment or guaranteed revenue established by the filing. It must not be added to the $2.4 billion to present a $10.4 billion order. Vested warrant shares are not necessarily shares already acquired through exercise.\n\nSubject to vesting and conditions, the warrant can be exercised for cash or on a cashless basis on or before September 16, 2033. The price and share count are subject to anti-dilution adjustments. This is a separate supply and equity-incentive relationship from the 3M warrants issued to Amazon covered in n-1370, not an expansion of that deal. The filing refers to warrant and transaction-agreement exhibits with certain portions redacted. This summary relies on public Item 1.01 and does not establish cancellation terms or minimum purchases not set out there.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm",
+        "label": "Generac: דוח 8-K המקורי, סעיף 1.01, 16 בספטמבר 2026",
+        "label_en": "Generac: original Form 8-K, Item 1.01, September 16, 2026"
+      }
+    ],
+    "הועלה": "2026-11-12 13:05",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1272812367956327c1f922addda7edb1db6f796dc3edafea0adc26ab6971763b"
+      }
+    }
   }
 ]
