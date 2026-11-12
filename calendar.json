@@ -2901,18 +2901,22 @@
     "מדינה": "US",
     "אירוע": "ריביות נבחרות (H.15) - הפד",
     "חשיבות": 1,
-    "הערה": "לוח הפד מאשר פרסום ב-12.11, כולל הפרסומים שנדחו מחג Veterans Day ב-11.11. אין צפי או ערך קודם יחיד. אומת ב-02.11.2026 20:02 ישראל. H.15 ב-16:15ET / 23:15 ישראל.",
-    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "הערה": "פרסום H.15 הרשמי מ-12 בנובמבר נקרא ב-23:16 שעון ישראל. אין אלה תשואות ל-12 בנובמבר: עמודת 11.11 מסומנת \"שווקים סגורים\". ריבית פד אפקטיבית 3.88%, prime 7.00% ו-primary credit 4.00% מוצגים גם ל-11.11. תשואות האוצר האחרונות הן ל-10.11: שנתיים 4.73%, עשר שנים 4.98%, שלושים שנה 5.35%; עשר שנים צמודה לאינפלציה 2.78%. כל השיעורים שנתיים באחוזים. התאים הריקים של 11.11 אינם אפס, ו-n.a. מציין נתון שאינו זמין. זהו פרסום סדרות נפרדות, לא החלטת ריבית חדשה ולא נתון בפועל או קונצנזוס יחיד. התאריך הרשמי הוא 12.11, לאחר חג Veterans Day; שורת הדחייה ההיסטורית של 11.11 נשמרה ללא שינוי. יתר הסדרות במקור הרשמי. רישום הלוח לפני הפרסום: לוח הפד מאשר פרסום ב-12.11, כולל הפרסומים שנדחו מחג Veterans Day ב-11.11. אין צפי או ערך קודם יחיד. אומת ב-02.11.2026 20:02 ישראל. H.15 ב-16:15ET / 23:15 ישראל.",
+    "מקור": "https://www.federalreserve.gov/releases/h15/",
     "שעה": "23:15",
     "מזהה": "c-0116",
     "אירוע_en": "Selected interest rates (H.15) - Fed",
-    "הערה_en": "The Fed calendar confirms a Nov 12 release, including the releases postponed from the Nov 11 Veterans Day holiday. No single estimate or prior value. Verified Nov 2, 2026 20:02 Israel. H.15 at 16:15 ET / 23:15 Israel.",
+    "הערה_en": "The official H.15 release dated November 12 was read at 23:16 Israel time. These are not November 12 Treasury yields: the November 11 column is marked \"Markets closed\". Effective fed funds 3.88%, prime 7.00% and primary credit 4.00% are shown for November 11 as well. Latest Treasury yields are for November 10: 2-year 4.73%, 10-year 4.98%, 30-year 5.35%; 10-year inflation-indexed 2.78%. All are annual rates in percent. Empty November 11 cells are not zero, and n.a. means unavailable. This is a release of separate series, not a new policy-rate decision or a single actual or consensus. The official release date is November 12 after Veterans Day; the historical November 11 postponement row is preserved unchanged. Remaining series are in the official source. Previous calendar entry before the release: The Fed calendar confirms a Nov 12 release, including the releases postponed from the Nov 11 Veterans Day holiday. No single estimate or prior value. Verified Nov 2, 2026 20:02 Israel. H.15 at 16:15 ET / 23:15 Israel.",
     "_translation": {
       "en": {
-        "source_hash": "c9c9a22850d894b0002eb319fa708d818da104dd2e1c5456c654f903caf54467",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "31bd4e596fd830fbf9b112425517d7085e001fe2272e3a4ab6d292de47f03802"
       }
-    }
+    },
+    "בפועל": "פורסם · 10-11.11",
+    "בפועל_en": "Published · Nov 10-11",
+    "תקופה": "פרסום 12.11.2026; תצפיות לפי סדרה ל-10 או 11 בנובמבר",
+    "תקופה_en": "Nov 12, 2026 release; Nov 10 or 11 observations by series"
   },
   {
     "תאריך": "2026-11-12",
