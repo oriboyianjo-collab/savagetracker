@@ -37309,5 +37309,38 @@
         "source_hash": "8a9b5edde6ab13e4550c95ae0fdfa9fa49da873418bf756c4ff863e99df26081"
       }
     }
+  },
+  {
+    "מזהה": "n-1470",
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA",
+      "SMCI"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 18:23",
+    "כותרת": "Semafor: חקירת הגבלים מתמקדת ב-NVIDIA; חקירות נוספות במגאספיד וב-Supermicro, ללא אינדיקציה לאישום נגד הואנג כעת",
+    "כותרת_en": "Semafor: antitrust probe focuses on NVIDIA; separate Megaspeed and Supermicro inquiries, no indication of Huang charges now",
+    "טקסט": "12.11.2026 | דיווח Semafor המקורי של רוהאן גוסוואמי פורסם ב-11:23 EST, 18:23 שעון ישראל, ונקרא במלואו. הוא מבוסס על שני בכירים בממשל, לא על הודעת משרד המשפטים או מסמכי חקירה שנבדקו כאן.\n\nלפי שני המקורות, כמה חקירות של משרד המשפטים האמריקאי עשויות לערב את NVIDIA. אחת, בתחום ההגבלים העסקיים, מתמקדת בחברת השבבים עצמה. שתי חקירות אחרות מתמקדות בחברות Megaspeed ו-Supermicro; לפי הדיווח הן בחנו את מעורבותה של אליס הואנג, המתוארת בו כמרגלת סינית לכאורה. טענת הריגול היא טענה מדווחת, לא ממצא שאומת כאן.\n\nSemafor מדגישה שאין בשלב זה אינדיקציה שמשרד המשפטים יבקש להגיש אישומים פליליים נגד NVIDIA או ג׳נסן הואנג. אין לפרש את המשפט כסגירת תיק, זיכוי או התחייבות שלא יוגשו אישומים בעתיד. הדיווח גם אינו קובע שהוגשו כעת אישומים נגד Megaspeed או Supermicro.\n\nהכתבה אינה נותנת תאריכי פתיחה לחקירות, אינה מגדירה את ההתנהגות הנבדקת בחקירת ההגבלים ואינה מאשרת שהיא זהה לבדיקת עסקת Hugging Face שעליה דווח בעבר. אין להסיק שהחקירות נפתחו בעקבות ההתפטרות היום או שכל שלוש החקירות מתמקדות ישירות ב-NVIDIA.\n\nדוברי NVIDIA ומשרד המשפטים לא מסרו תגובה ל-Semafor; Megaspeed ו-Supermicro לא הגיבו מיד לבקשת תגובה. היעדר תגובה אינו הודאה. הדיווח אינו מציג ממצא של הפרת חוק, קנס, צו חדש, פגיעה מוכחת בסודות החברה או השפעה כספית כמותית.",
+    "טקסט_en": "November 12, 2026 | Rohan Goswami's original Semafor report was published at 11:23 EST, or 18:23 Israel time, and read in full. It cites two administration officials, not a Justice Department announcement or investigation documents reviewed here.\n\nThe officials say multiple US Justice Department probes could sweep up NVIDIA. One antitrust inquiry focuses specifically on the chipmaker. Two other inquiries focus on Megaspeed and Supermicro and, according to the report, have examined Alice Huang's involvement. The article describes her as an alleged Chinese spy; that allegation is not a finding independently established here.\n\nSemafor explicitly says there is no indication the DOJ would seek criminal charges against NVIDIA or Jensen Huang at this time. That is not case closure, an acquittal or a guarantee against future charges. The report also does not establish that charges have now been filed against Megaspeed or Supermicro.\n\nThe article gives no start dates for the inquiries, does not specify the conduct under antitrust scrutiny and does not confirm that it is the same review as the previously reported Hugging Face acquisition inquiry. It does not establish that the probes began because of today's resignation or that all three directly target NVIDIA.\n\nNVIDIA and DOJ spokespeople did not provide comment to Semafor; Megaspeed and Supermicro did not immediately respond to requests. No response is not an admission. The report establishes no legal violation, fine, new order, proven compromise of company secrets or quantified financial effect.",
+    "קישור": "https://www.semafor.com/article/11/12/2026/us-doj-probes-nvidia",
+    "מקורות": [
+      {
+        "url": "https://www.semafor.com/article/11/12/2026/us-doj-probes-nvidia",
+        "label": "Semafor: הדיווח המקורי המלא מפי שני בכירים בממשל",
+        "label_en": "Semafor: full original report citing two administration officials"
+      }
+    ],
+    "הועלה": "2026-11-12 18:45",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "50cc77185aaed5b64a99dcd87ba88ebde8fbcb0385819b369b566e5a952b512c"
+      }
+    }
   }
 ]
