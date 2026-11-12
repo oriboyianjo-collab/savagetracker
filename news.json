@@ -37374,5 +37374,34 @@
         "source_hash": "74aa93dea65e86eb0482a845125847e1f2c74e034fe58ba1aa79268ad004541f"
       }
     }
+  },
+  {
+    "מזהה": "n-1472",
+    "category": "macro",
+    "symbols": [],
+    "sectors": [
+      "economy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 19:00",
+    "כותרת": "Freddie Mac: ריבית משכנתה קבועה ל-30 שנה ירדה ל-7.11% בממוצע השבועי, שפל של שבעה שבועות",
+    "כותרת_en": "Freddie Mac: weekly 30-year fixed mortgage rate falls to 7.11%, a seven-week low",
+    "טקסט": "12.11.2026 | פרסום PMMS המקורי של Freddie Mac נקרא במלואו. לפי מתכונת הפרסום הרשמית, הנתונים מתפרסמים בימי חמישי ב-12:00 ET, 19:00 שעון ישראל.\n\nהריבית הממוצעת למשכנתה קבועה ל-30 שנה בארה\"ב ירדה ל-7.11% מ-7.18% בשבוע הקודם. לפי Freddie Mac, זו הירידה השבועית הרביעית ברציפות והרמה הנמוכה ביותר בשבעה שבועות. לפני שנה עמד הממוצע על 6.24%: הירידה האחרונה אינה מבטלת את העלייה מול אשתקד.\n\nבמשכנתה קבועה ל-15 שנה ירד הממוצע ל-6.45% מ-6.57% בשבוע הקודם; לפני שנה הוא עמד על 5.49%. אלה שיעורי ריבית שנתיים, לא שיעורי שינוי במספר הבקשות או במחירי הבתים.\n\nPMMS מבוסס על ריביות מאלפי בקשות משכנתה שמלווים מגישים למערכת Loan Product Advisor של Freddie Mac. הפרסום השבועי מייצג את יום חמישי הקודם עד יום רביעי. זהו ממוצע שבועי, לא ריבית נקודתית היום, הצעה מובטחת לכל לווה או החלטת ריבית של הפדרל ריזרב.\n\nאין לערבב את הסדרה עם הריבית היומית של Mortgage News Daily או עם סקר MBA המתייחסים למתודולוגיה ולתקופות אחרות. הנתון גם אינו ממוצע חודש אוקטובר המצוטט בדוח מכירות הבתים. לא אומתה כאן תגובת שוק מסוימת או תחזית להמשך ירידות.",
+    "טקסט_en": "November 12, 2026 | Freddie Mac's full original PMMS release was read. Its official publication schedule is Thursdays at 12:00 ET, or 19:00 Israel time.\n\nThe US average 30-year fixed mortgage rate fell to 7.11% from 7.18% the previous week. Freddie Mac calls this the fourth consecutive weekly decline and the lowest level in seven weeks. The year-earlier average was 6.24%, so the recent decline does not erase the increase from a year ago.\n\nThe average 15-year fixed rate fell to 6.45% from 6.57% the previous week; a year earlier it was 5.49%. These are annual interest rates, not changes in application numbers or home prices.\n\nPMMS draws on rates from thousands of mortgage applications lenders submit through Freddie Mac's Loan Product Advisor. The weekly release covers the prior Thursday through Wednesday. It is a weekly average, not today's spot rate, a guaranteed offer to every borrower or a Federal Reserve policy-rate decision.\n\nThe series is distinct from Mortgage News Daily's daily rate and the MBA survey, which use different methods and periods. It is also not the October monthly average cited in the home-sales report. No specific market reaction or forecast of further rate declines was verified here.",
+    "קישור": "https://www.freddiemac.com/pmms",
+    "מקורות": [
+      {
+        "url": "https://www.freddiemac.com/pmms",
+        "label": "Freddie Mac: פרסום PMMS המקורי ל-12 בנובמבר והגדרת הממוצע השבועי",
+        "label_en": "Freddie Mac: original November 12 PMMS release and weekly-average definition"
+      }
+    ],
+    "הועלה": "2026-11-12 19:08",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9712d2d67e0f7df7121913f5225e26913e8208fb39ffa7ff433a1145980a61d1"
+      }
+    }
   }
 ]
