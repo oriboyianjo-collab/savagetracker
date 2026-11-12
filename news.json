@@ -36416,5 +36416,75 @@
         "source_hash": "13a25b4877d8936798cc3e6b012ea2772fcc2dbbdecac58395827746d89629fc"
       }
     }
+  },
+  {
+    "מזהה": "n-1443",
+    "category": "micro",
+    "חברה": "VRT",
+    "symbols": [
+      "VRT"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-11",
+    "כותרת": "ורטיב (VRT) מציגה מערכת אל-פסק חיצונית במתח בינוני למרכזי נתונים; משלוחים צפויים באמצע 2027",
+    "כותרת_en": "Vertiv (VRT) introduces outdoor medium-voltage UPS for data centers; shipments expected in mid-2027",
+    "טקסט": "הודעת המקור נושאת שני תאריכים שונים: חותמת ההפצה של PR Newswire היא 12.11.2026 בשעה 08:31 ET, 15:31 בישראל, אך שורת המקום והתאריך בגוף ההודעה היא 11.11.2026. הסתירה לא הוכרעה; אין להציג את ההשקה בוודאות כאירוע שהתרחש היום או להניח שזו שעת הפרסום הראשונה. הודעת החברה ודף המוצר המקורי נקראו במלואם.\n\nורטיב הציגה את PowerNexus MV UPS, מערכת אל-פסק חיצונית במתח בינוני המשלבת הגנת חשמל, יכולת להישאר מחוברת בעת הפרעות ברשת והחלקת תנודות מהירות בעומסי AI. המערכת מיועדת לנקודת החיבור של מרכז הנתונים לרשת החשמל, כדי לפנות שטח פנימי למחשוב ולתמוך בדרישות החיבור לרשת. זו ארכיטקטורת חשמל חדשה למרכזים חדשים ולהרחבות, לא ערכת שדרוג פשוטה למערכות אל-פסק קיימות במתח נמוך.\n\nלפי הודעת החברה, המשלוחים צפויים להתחיל באמצע 2027. דף המוצר מתאר זמינות גאוגרפית עולמית, אך אין לפרש זאת כהוכחה שמשלוחים מסחריים כבר החלו. לא נמסרו מחיר, היקף הזמנות, הכנסות צפויות או לקוחות שהזמינו מערכות.\n\nהחברה מדווחת על הדגמות היתכנות בבולוניה בהשתתפות QTS, סופטבנק ורוזנדין. השתתפות בהדגמה אינה הזמנת רכש או פריסה מסחרית אצל שלוש החברות. תוצאות ההדגמה והנתון של עד 98.5% יעילות בשיא הם טענות החברה, לא בדיקת ביצועים עצמאית שנערכה כאן.\n\nגיבוי של עד ארבע שעות תלוי בשילוב מערכות אגירת אנרגיה מתאימות; דף המוצר מתאר סוללות במכולות נפרדות ואפשרויות של שעה עד ארבע שעות. אין כאן התחייבות לארבע שעות לכל עומס או סוללה פנימית שמגיעה בכל תצורה. גם צמצום השימוש בגנרטורי דיזל הוא יכולת מתוכננת התלויה בתצורת המערכת, לא ביטול מוכח של כל צורך בגנרטורים.\n\nהחברה מתכננת גם מעבדת מתח בינוני בבולוניה, שאמורה לפעול ב-2027. החידוש הוא המוצר החדש ויכולות המתח הבינוני, בנפרד מרכישת UtilityInnovation Group שכבר סוקרה ב-n-1181 וממערכות PowerNexus קודמות. אין בהודעה הבטחה לאישור חיבור מהיר יותר מצד כל חברת חשמל.",
+    "טקסט_en": "The source release carries conflicting dates: PR Newswire's distribution timestamp is November 12, 2026 at 08:31 ET, or 15:31 Israel, while the body dateline is November 11, 2026. The discrepancy is unresolved. The launch cannot be presented with certainty as an event that happened today, nor can this be assumed to be its first publication clock. The full issuer release and original product page were read.\n\nVertiv introduced PowerNexus MV UPS, an outdoor medium-voltage uninterruptible power system combining power protection, fault ride-through and smoothing of rapid AI load fluctuations. It is designed for the data center's grid connection point, preserving indoor space for compute and supporting grid-connection requirements. This is a power architecture for new data centers and expansions, not a simple retrofit kit for existing low-voltage UPS systems.\n\nThe issuer release says shipments are expected to begin in mid-2027. The product page describes global geographic availability, but that is not evidence commercial shipments have already begun. No price, order volume, expected revenue or customers that placed orders were disclosed.\n\nVertiv reports proof-of-concept demonstrations in Bologna with QTS, SoftBank and Rosendin. Participation in a demonstration is not a purchase order or a commercial deployment at those companies. Demonstration results and up to 98.5% peak efficiency are company claims, not an independent performance test conducted here.\n\nUp to four hours of backup depends on integration with suitable energy-storage systems. The product page describes batteries in separate containers and options supporting one to four hours. It is not a guarantee of four hours at every load or an internal battery supplied in every configuration. Reduced diesel-generator reliance is also a configuration-dependent capability, not proof all generators can be eliminated.\n\nVertiv also plans a medium-voltage laboratory in Bologna, expected to operate in 2027. The new development is the MV product and its capabilities, separate from the UtilityInnovation Group acquisition covered in n-1181 and earlier PowerNexus systems. The release does not promise faster connection approval from every utility.",
+    "קישור": "https://www.prnewswire.com/news-releases/vertiv-introduces-medium-voltage-power-system-to-help-ai-data-centers-connect-to-the-grid-faster-and-free-indoor-space-for-compute-302937910.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/vertiv-introduces-medium-voltage-power-system-to-help-ai-data-centers-connect-to-the-grid-faster-and-free-indoor-space-for-compute-302937910.html",
+        "label": "ורטיב: הודעת ההשקה המקורית; סתירת תאריכים מפורטת בגוף",
+        "label_en": "Vertiv: original launch release; date discrepancy explained in body"
+      },
+      {
+        "url": "https://www.vertiv.com/en-ca/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-powernexus-mv-ups-outdoor-medium-voltage-ups/",
+        "label": "ורטיב: דף המוצר המלא ושאלות ותשובות על סוללות ושימושים",
+        "label_en": "Vertiv: full product page and battery/use-case FAQ"
+      }
+    ],
+    "הועלה": "2026-11-12 15:44",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "25f068550d82271da3ba3da91950581174c40671a617d528518ed49ff76d411a"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1444",
+    "category": "micro",
+    "חברה": "PYPL",
+    "symbols": [
+      "PYPL",
+      "WDAY"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 15:30",
+    "כותרת": "פייפאל ו-Workday: הפקדת שכר ל-PayPal זמינה כעת אצל מעסיקים משתתפים בארה״ב; הקדמת השכר מותנית",
+    "כותרת_en": "PayPal and Workday: payroll direct deposit now live at participating US employers; early pay is conditional",
+    "טקסט": "12.11.2026 | הודעת PayPal המקורית והמלאה פורסמה ב-08:30 ET, 15:30 בישראל, ונקראה כולל תנאי הזכאות וההערות.\n\nפייפאל הודיעה שהפקדת שכר ישירה לחשבון PayPal זמינה כעת במסגרת תוכנית Enhanced Direct Deposit של Workday. השירות מיועד לעובדי מעסיקים משתתפים המשתמשים ב-Workday U.S. Payroll, לא לכל לקוחות Workday, לכל משתמשי PayPal או לעובדים בכל מדינה.\n\nעובדים זכאים יכולים לבחור ב-PayPal מתוך פורטל השכר הרגיל שלהם. החיבור ממלא את פרטי החשבון והניתוב דרך מערכת Workday, בלי הזנה ידנית. לפי הודעת החברות, הוספת האפשרות אינה דורשת מהמעסיק עלות נוספת או עבודת התקנה נוספת. זו טענתן לגבי השילוב, לא התחייבות שכל מוצרי PayPal או פעולות ההעברה חינמיים.\n\nהאפשרות לקבל שכר עד יומיים לפני המועד הרגיל תלויה בזמינות המשלם ובמועד שבו PayPal מקבלת את הוראות התשלום מ-Workday. אין התחייבות שכל עובד יקבל את המשכורת מוקדם או בדיוק יומיים מראש. נדרש חשבון PayPal Balance כדי להחזיק ולהשתמש ביתרה.\n\nPayPal אינה בנק ואינה מבוטחת בעצמה ב-FDIC. מוצר החיסכון הנפרד PayPal Savings מוצע באמצעות Synchrony Bank, חבר FDIC; אין להחיל את תיאור הביטוח של מוצר החיסכון על כל יתרת PayPal. הטבות כרטיס וחיסכון נוספות כפופות לתנאיהן ואינן העיקר בהודעת השקת חיבור השכר.\n\nהחידוש הוא הפעלה בפועל של אפשרות הפקדת השכר דרך Workday אצל המעסיקים המשתתפים, לא הודעה על משא ומתן בלבד. לא נמסרו מספר מעסיקים או עובדים שהצטרפו, היקפי הפקדות, תנאי תשלום בין החברות או תחזית הכנסות מההסכם. זהו נושא נפרד ממחבר Workday ל-Claude שכבר הוזכר ב-n-1250.",
+    "טקסט_en": "November 12, 2026 | PayPal's full original release was published at 08:30 ET, or 15:30 Israel, and was read including eligibility conditions and disclosures.\n\nPayPal announced that direct deposit into PayPal is now live through Workday's Enhanced Direct Deposit program. It is available to employees of participating employers using Workday U.S. Payroll, not all Workday customers, all PayPal users or employees in every country.\n\nEligible employees can choose PayPal through their usual payroll portal. The integration populates routing and account information through Workday without manual entry. The companies say offering the option adds no cost or setup work for the employer. That is their statement about the integration, not a promise that every PayPal product or transfer is free.\n\nAccess to pay up to two days early depends on payer availability and when PayPal receives payment instructions from Workday. It is not a guarantee that every employee receives pay early or exactly two days ahead. A PayPal Balance account is required to hold and use a balance.\n\nPayPal is not a bank and is not itself FDIC insured. The separate PayPal Savings product is provided by Synchrony Bank, Member FDIC. The savings product's insurance description should not be applied to every PayPal balance. Other debit-card and savings benefits have their own terms and are not the core of this payroll-integration announcement.\n\nThe new development is an operating direct-deposit option through Workday at participating employers, not merely talks. No number of participating employers or employees, deposit volume, commercial payment terms between the companies or revenue forecast for the arrangement was disclosed. This is separate from the Workday connector for Claude mentioned in n-1250.",
+    "קישור": "https://www.prnewswire.com/news-releases/paypal-partners-with-workday-to-enhance-employee-financial-well-being-with-paypal-direct-deposit-302937144.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/paypal-partners-with-workday-to-enhance-employee-financial-well-being-with-paypal-direct-deposit-302937144.html",
+        "label": "PayPal: הודעת ההפעלה המלאה ותנאי הקדמת השכר",
+        "label_en": "PayPal: full launch release and early-pay conditions"
+      }
+    ],
+    "הועלה": "2026-11-12 15:44",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "59f33a18246ce60c6929f8a65a896af047320eb2d2089dbb1c9d5d4fc6ace12a"
+      }
+    }
   }
 ]
