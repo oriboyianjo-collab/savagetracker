@@ -37250,5 +37250,64 @@
         "source_hash": "13ee9b737cdd2f141d39691cdcbadf25fe818e0759bcaf20dee45653a20d1e3c"
       }
     }
+  },
+  {
+    "מזהה": "n-1468",
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 18:25",
+    "כותרת": "לפי CNBC, מאסט: ג׳נסן הואנג הסכים להעיד בקונגרס לפני חג ההודיה; היום המדויק עדיין במשא ומתן",
+    "כותרת_en": "CNBC quotes Mast: Jensen Huang agreed to testify before Thanksgiving; exact day still being negotiated",
+    "טקסט": "12.11.2026 | עדכון CNBC המקורי של סמנתה סובין פורסם ב-11:25:04 EST, 18:25:04 שעון ישראל, ונקרא במלואו. זה דיווח עיתונאי מדברי מאסט לכתבים, לא הודעת ועדה או אישור עצמאי מצוות הואנג.\n\nיו״ר ועדת החוץ בבית הנבחרים, בריאן מאסט, אמר שג׳נסן הואנג, שפרש מתפקיד מנכ״ל NVIDIA, הסכים להגיע להעיד בקונגרס לפני חג ההודיה. לדבריו: ״הוא הסכים להגיע״ ו״אנחנו במשא ומתן לגבי איזה יום״. ההתקדמות היא הסכמה להגיע לפי מאסט, לא מועד שכבר נקבע.\n\nCNBC כותבת שההליך צפוי להיות בשבועה ובתמלול, עם כמה ועדות מעורבות. אלה פרטים צפויים, לא תנאים סופיים מאושרים. בדיווח הקודם באותו עמוד נאמר שעדיין לא ברור אם ההופעה תהיה פומבית או בדלתיים סגורות. לא פורסם כאן אישור לשימוע פומבי, לשעה, לחדר או לתאריך מדויק.\n\nמאסט אמר שאיים לזמן את הואנג בצו אם יהיה צורך. זה תיאור של אפשרות כפייה, לא הודעה שצו זימון הוצא. דבריו על אפשרות לשימועים פומביים בעתיד לאנשים או נושאים אחרים אינם אישור שהופעת הואנג תהיה פומבית.\n\nברקע קיימת בקשת שלוש ועדות לתדרוך משותף ב-18 בנובמבר. התאריך המבוקש ההוא אינו מוצג כתאריך שהוסכם כעת. אין בעדכון ממצא חדש של ריגול, הפרת בקרת יצוא או פגיעה בסודות החברה, והוא אינו משנה את הודעת ההתפטרות הרשמית או את מינוי קולט קרס למנכ״לית זמנית.",
+    "טקסט_en": "November 12, 2026 | Samantha Subin's original CNBC update was published at 11:25:04 EST, or 18:25:04 Israel time, and read in full. This is CNBC reporting Mast's remarks to reporters, not a committee announcement or independent confirmation from Huang's team.\n\nHouse Foreign Affairs Chair Brian Mast said former NVIDIA CEO Jensen Huang agreed to testify before Congress ahead of Thanksgiving. Mast said, \"He has agreed to come\" and \"We're in negotiations for which day.\" The new step is an agreement to appear according to Mast, not a scheduled date.\n\nCNBC says the proceeding will likely be under oath and transcribed, with multiple committees involved. These are expected features, not confirmed final terms. An earlier update on the same page said it remained unclear whether Huang would appear publicly or behind closed doors. No public hearing, time, room or exact date is confirmed here.\n\nMast said he told Huang he would subpoena him if necessary. That is a conditional threat, not confirmation a subpoena was issued. His remarks about possible future public hearings for other people or matters do not establish that Huang's appearance will be public.\n\nThree committees previously requested a joint November 18 briefing. That requested date is not presented as a date now agreed. This update establishes no new finding of espionage, an export-control violation or compromised company secrets, and does not change NVIDIA's official resignation announcement or Colette Kress's interim appointment.",
+    "קישור": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+        "label": "CNBC: העדכון המלא מדברי מאסט וההקשר באותו עמוד",
+        "label_en": "CNBC: full Mast update and preceding context on the same page"
+      }
+    ],
+    "הועלה": "2026-11-12 18:31",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c7a93246c7dd7fa60f18a78f6df223c7d3a743680920e8fa9d8e9b0e9f5bd093"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1469",
+    "category": "tech",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 17:18",
+    "כותרת": "מקורות CNBC: OpenAI גייסה 15 מיליארד דולר לפי שווי של 1.25 טריליון דולר",
+    "כותרת_en": "CNBC sources: OpenAI raised $15 billion at a $1.25 trillion valuation",
+    "טקסט": "12.11.2026 | העדכון המקורי של CNBC פורסם ב-10:18:18 EST, 17:18:18 שעון ישראל, ונקרא במלואו. הדיווח מיוחס למקורות של דיוויד פייבר, לא להודעת OpenAI או להסכם השקעה שנבדק כאן.\n\nלפי אותם מקורות, OpenAI גייסה 15 מיליארד דולר בסבב האחרון לפי שווי של 1.25 טריליון דולר. זה דיווח מעודכן על היקף הגיוס, ולא אישור לגיוס כל היעד המקורי. לא ברור מהדיווח אם החברה תנסה לגייס הון נוסף.\n\nCNBC מציינת שלפני צמצום התוכניות החברה ביקשה לגייס עד 30 מיליארד דולר לפי שווי של 1.4 טריליון דולר. היעד ההיסטורי אינו סכום שגויס. שווי של 1.25 טריליון דולר הוא שווי בסבב פרטי; בעדכון לא נקבע אם הוא לפני הכסף או אחרי הכסף, ואין כאן מחיר הנפקה או שווי שוק של מניה נסחרת.\n\nאין לחבר את 15 מיליארד הדולר אוטומטית לדיווח הקודם על סגירה ראשונית של 11 מיליארד דולר: העדכון אינו מפרט אם הסכומים חופפים, מהו סכום התוספת נטו או מתי הועבר כל הכסף. הוא גם אינו מפרט משקיעים חדשים, תנאי ניירות ערך או חלוקת הקצאות.\n\nבהקשר NVIDIA, CNBC מציינת השקעות של לפחות 30 מיליארד דולר ב-OpenAI. אין בכך הודעה ש-NVIDIA השקיעה כעת 15 מיליארד דולר נוספים, הזמנת שבבים חדשה או הכנסה שהוכרה אצל ספקיות הענן. הנפקה אפשרית ב-2027 היא ציפייה עתידית בדיווח, לא הנפקה שהושלמה.",
+    "טקסט_en": "November 12, 2026 | CNBC's original update was published at 10:18:18 EST, or 17:18:18 Israel time, and read in full. It cites sources speaking to David Faber, not an OpenAI announcement or investment agreement reviewed here.\n\nThose sources say OpenAI raised $15 billion in its latest funding round at a $1.25 trillion valuation. This is an updated reported fundraising amount, not confirmation the full original target was raised. CNBC says it is unclear whether the company will seek more capital.\n\nBefore scaling back, CNBC says, OpenAI planned to raise up to $30 billion at a $1.4 trillion valuation. That historical target is not money raised. The $1.25 trillion figure is a private-round valuation; this update does not identify it as pre-money or post-money, and it is not an IPO price or the market value of a publicly traded stock.\n\nThe $15 billion must not automatically be added to the earlier report of an initial $11 billion close. This update does not explain whether the sums overlap, the net incremental funding or when all cash was transferred. It also does not identify new investors, security terms or allocations.\n\nFor NVIDIA context, CNBC says the chipmaker has invested at least $30 billion in OpenAI. That is not an announcement NVIDIA has now invested another $15 billion, a new chip order or revenue recognized by cloud providers. An expected 2027 IPO is a future expectation in the report, not a completed offering.",
+    "קישור": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+        "label": "CNBC: עדכון הגיוס המלא מפי מקורות דיוויד פייבר",
+        "label_en": "CNBC: full fundraising update citing David Faber sources"
+      }
+    ],
+    "הועלה": "2026-11-12 18:31",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8a9b5edde6ab13e4550c95ae0fdfa9fa49da873418bf756c4ff863e99df26081"
+      }
+    }
   }
 ]
