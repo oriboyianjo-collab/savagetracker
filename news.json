@@ -37868,5 +37868,37 @@
         "source_hash": "5bb031fb0192eb3e780d40eb651e9c973c2d8cd8c313691c6b862f890f4c8987"
       }
     }
+  },
+  {
+    "מזהה": "n-1487",
+    "category": "micro",
+    "חברה": "Sempra",
+    "symbols": [
+      "SRE"
+    ],
+    "sectors": [
+      "utilities"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 23:20",
+    "כותרת": "Sempra השלימה מכירת 45% מ-Sempra Infrastructure Partners; נותרה עם החזקה של 25%",
+    "כותרת_en": "Sempra closes sale of 45% of Sempra Infrastructure Partners; retains 25% stake",
+    "טקסט": "12.11.2026 | הודעת החברה ב-PRNewswire פורסמה ב-16:20 שעון ניו יורק, 23:20 שעון ישראל, ונקראה במלואה.\n\nSempra הודיעה שהשלימה את המכירה שהוכרזה בעבר של החזקה בת 45% ב-Sempra Infrastructure Partners לחברות קשורות ל-KKR, עם Canada Pension Plan Investment Board כמשקיע שותף עקיף. החידוש הוא השלמת העסקה, לא חתימה על הסכם חדש.\n\nלאחר הסגירה מחזיק הקונסורציום בהובלת KKR ב-65% מהפעילות; Sempra נותרה עם 25%, ולחברה קשורה ל-Abu Dhabi Investment Authority החזקה קיימת של 10%. שיעור ה-45% שנמכר כעת אינו מלוא החזקת הקונסורציום לאחר הסגירה.\n\nההודעה אינה מציינת סכום תמורה, ולכן אין כאן סכום עסקה, שווי פעילות או רווח ממכירה שנגזרו מתנאים שפורסמו בעבר. החברה מציגה את המכירה, לצד מכירת Ecogas שהושלמה באוגוסט, כחלק ממיחזור הון, פישוט המבנה העסקי ותמיכה בצמיחת חברות השירותים שלה בטקסס ובקליפורניה. אין כאן התחייבות חדשה לפרויקט בנייה או עדכון כמותי לתחזית הרווח.\n\nזהו עדכון נפרד לסיקור 5 בנובמבר, שבו הסגירה עדיין הוצגה כצפויה בתוך שבועיים. הסיקור הקודם נשמר כפי שפורסם.",
+    "טקסט_en": "November 12, 2026 | The full company release on PRNewswire was published at 16:20 New York time, 23:20 Israel time, and was read in full.\n\nSempra said it completed its previously announced sale of a 45% equity interest in Sempra Infrastructure Partners to KKR affiliates, with Canada Pension Plan Investment Board as an indirect co-investor. The new development is closing, not signing a new agreement.\n\nAfter closing, the KKR-led consortium owns 65% of the business, Sempra retains 25%, and an Abu Dhabi Investment Authority affiliate retains its existing 10% stake. The 45% sold in this transaction is not the consortium's entire post-close ownership.\n\nThe release does not state consideration. No deal price, enterprise value or disposal gain is imported from earlier terms. Sempra describes this sale, alongside the Ecogas sale completed in August, as capital recycling to simplify its business and support utility growth in Texas and California. This is not a new construction-project commitment or a quantified earnings-guidance update.\n\nThis is a separate update to the November 5 coverage, when closing was still expected within two weeks. The earlier coverage remains unchanged.",
+    "קישור": "https://www.prnewswire.com/news-releases/sempra-completes-sale-of-45-equity-interest-in-sempra-infrastructure-partners-302938415.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/sempra-completes-sale-of-45-equity-interest-in-sempra-infrastructure-partners-302938415.html",
+        "label": "Sempra: הודעת השלמת המכירה, 12 בנובמבר 16:20 ET",
+        "label_en": "Sempra: full sale-closing release, November 12 at 16:20 ET"
+      }
+    ],
+    "הועלה": "2026-11-12 23:26",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ae77c035fadf7d82043370cd94cf542b6aed9d79954f08f00bb9fa76ba0ed98b"
+      }
+    }
   }
 ]
