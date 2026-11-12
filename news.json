@@ -34229,5 +34229,69 @@
         "source_hash": "2abf216ae6206907088e086b645b33fa52aa8e736e085b06fd43a214ea63db06"
       }
     }
+  },
+  {
+    "מזהה": "n-1377",
+    "category": "macro",
+    "תאריך": "2026-11-11 17:00",
+    "הועלה": "2026-11-12 09:33",
+    "כותרת": "השלמה מ-11.11 | לפי Reuters, שגרירי האיחוד הסכימו על 145 יעדי סנקציות רוסיים; אימוץ השרים צפוי ב-16 בנובמבר",
+    "כותרת_en": "Catch-up from Nov 11 | Reuters: EU envoys agree 145 Russia sanctions targets; ministerial adoption expected Nov 16",
+    "טקסט": "11.11.2026, 17:00 בישראל | כתבת Reuters המלאה נקראה בעותק Straits Times. מטא-נתוני העמוד קובעים 15:00 UTC, ועדכון ב-15:15:34 UTC. זו השלמת סיקור של דיווח מאתמול, לא הודעה שהסנקציות נכנסו לתוקף הבוקר.\n\nלפי דיפלומטים של האיחוד שצוטטו ב-Reuters, שגרירי המדינות הסכימו ב-11 בנובמבר על הוספת 145 ישויות ואנשים למסגרות סנקציות נגד רוסיה. הדיווח מתאר הסכמה בדרג השגרירים; הוא אינו מסמך אימוץ של מועצת השרים או פרסום ברשומות הרשמיות של האיחוד.\n\nלפי המקורות, 113 יעדים אמורים להתווסף למסגרת המגינה על שלמותה הטריטוריאלית של אוקראינה, ובהם 50 בנקים רוסיים, מסייעים לצי הצללים, חברות אנרגיה ואנשי עסקים. עוד 31 יעדים נוגעים למסגרת הפעילות ההיברידית ולהשפעה זרה, ויעד אחד למסגרת התקפות סייבר. אלה 145 היעדים יחד, לא 145 בנקים או 145 אוניות. שמות היעדים אינם מפורטים בכתבה, ואין כאן רשימה משפטית מאומתת של גופים מסוימים.\n\nReuters מציינת ששרי החוץ צפויים לאמץ את הרשימות בישיבתם ב-16 בנובמבר, לפני כניסתן לדין באמצעות הרשומות הרשמיות. לוח המועצה מאשר ישיבת שרי חוץ בבריסל בתאריך זה, אך אינו מאמת בעצמו את 145 היעדים. לכן אין להציג את ההסכמה המדווחת ככניסה שכבר הושלמה לתוקף, איסור חדש שכבר חל על כל בנק רוסי או חבילת סנקציות עם שווי כספי שפורסם.\n\nאחד המקורות קשר את הרכיב ההיברידי לניסיון תקיפת רחפנים בשדה התעופה לייפציג/האלה, שברלין ייחסה למוסקבה. רוסיה מכחישה מעורבות בפעולות חבלה ולוחמה היברידית. אלה ייחוסים והכחשות בדיווח, לא ממצא עצמאי כאן. אין בפריט זה הקלה חדשה בסנקציות האמריקאיות או שינוי בהסדר יבוא הדיזל שכבר סוקר ב-n-0891.",
+    "טקסט_en": "Nov 11, 2026, 17:00 Israel time | Full Reuters story read in the Straits Times copy. Page metadata gives 15:00 UTC publication and a 15:15:34 UTC update. This is catch-up coverage of yesterday’s report, not an announcement that sanctions took effect this morning.\n\nEU diplomats quoted by Reuters say member-state envoys agreed on Nov 11 to add 145 entities and individuals under Russia sanctions frameworks. The report describes ambassador-level agreement, not a Council ministerial adoption document or an EU Official Journal publication.\n\nSources say 113 targets would be added under the Ukraine territorial-integrity regime, including 50 Russian banks, shadow-fleet enablers, energy companies and business leaders. Another 31 fall under the hybrid-activities regime involving foreign manipulation, and one under the cyberattack regime. Together these are 145 targets, not 145 banks or 145 ships. The story does not name the targets and is not a verified legal list of specific entities.\n\nReuters says foreign ministers are expected to adopt the listings at their Nov 16 meeting before they become law through the Official Journal. The Council calendar confirms a Brussels Foreign Affairs Council on that date but does not itself verify the 145 targets. The reported agreement therefore must not be treated as completed entry into force, a new restriction already applying to every Russian bank, or a sanctions package with a disclosed monetary value.\n\nOne source linked the hybrid listings to an attempted drone attack at Leipzig/Halle airport that Berlin blamed on Moscow. Russia denies involvement in sabotage and hybrid operations. Those are reported attributions and denials, not an independent finding here. This item announces no new US sanctions waiver or change to the diesel-import arrangement already covered in n-0891.",
+    "קישור": "https://www.straitstimes.com/world/europe/eu-envoys-agree-new-russia-sanctions-listings-on-banks-shadow-fleet-and-misinformation",
+    "מקורות": [
+      {
+        "label": "Reuters: הכתבה המלאה בעותק Straits Times",
+        "label_en": "Reuters: full article via Straits Times",
+        "url": "https://www.straitstimes.com/world/europe/eu-envoys-agree-new-russia-sanctions-listings-on-banks-shadow-fleet-and-misinformation"
+      },
+      {
+        "label": "מועצת האיחוד: סדר היום לישיבת 16 בנובמבר, לא אישור רשימת הסנקציות",
+        "label_en": "EU Council: Nov 16 meeting agenda, not confirmation of sanctions list",
+        "url": "https://www.consilium.europa.eu/en/meetings/fac/2026/11/16/"
+      }
+    ],
+    "symbols": [],
+    "sectors": [
+      "financials",
+      "energy"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8fbd39d60ba797edfcdce50390f6d2afb9bc8a38c3096e6629b17298319581fa"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1378",
+    "category": "macro",
+    "תאריך": "2026-11-12 09:19",
+    "הועלה": "2026-11-12 09:33",
+    "כותרת": "לפי Euronews: טיוטת הצהרת האיחוד ובריטניה ריככה תנאי גירוש ותשלום עבור שוק החשמל; אין הסכם סופי",
+    "כותרת_en": "Euronews: EU-UK draft softens deportation and electricity-market payment wording; no final deal",
+    "טקסט": "12.11.2026, 09:19 בישראל | כתבת Euronews המקורית מאת Luca Bertuzzi נקראה במלואה; העמוד מציג 08:19 GMT+1. פרטי הטיוטה מבוססים על מסמך שלדברי הכתב ראה, לא על נוסח סופי שנחתם או פורסם כאן.\n\nEuronews מדווחת ששגרירי האיחוד דנו אתמול בנוסח חדש של הצהרת האיחוד ובריטניה לקראת הפסגה ב-20 בנובמבר. לפי הטיוטה שראתה, הוסרה ההתחייבות להשעות גירוש של אזרחים זרים שהורשעו בעבירות, ובמקומה נוספו תיאום הדוק, המשך שיחות דו-צדדיות על הודעה מראש של הרחקות והעברת אסירים. זו לשון מוצעת, לא הוראת גירוש חדשה שנכנסה לתוקף.\n\nהנוסח המפורש שלפיו בריטניה תשלם לתוכנית האיחוד לאזורים בעלי הכנסה נמוכה תמורת גישה לשוק החשמל האירופי הוסר גם הוא. עם זאת, לפי הכתבה, תרומה כספית עדיין עשויה להידון בנפרד. אין להסיק שהוסכם על גישה חינם, שנקבע תעריף אפס או שבריטניה כבר הצטרפה לשוק; לא נמסר סכום תשלום מוסכם.\n\nבתחום ניידות הצעירים, הטיוטה מציינת יעד להסכמה על שוויון בשכר לימוד בתוך שישה חודשים מהפסגה, ותאריך יעד זמני של ינואר 2030 לתוכנית Youth Experience Scheme. הנוסח על השתתפות בריטניה ב-Erasmus+ אחרי 2028 הוסר. הסכמי התקינה החקלאית ומערכת המסחר בפליטות עדיין בסוגריים בטיוטה: 1 במרץ 2028 מסומן כמועד אפשרי לתקינה החקלאית, ולמסחר בפליטות אין תאריך. אלה יעדי משא ומתן, לא זכויות או מועדי יישום מובטחים.\n\nההתפתחות היא שינוי בנוסח טיוטה לקראת הפסגה. אין כאן אישור ממשלתי סופי, שינוי מכסים או תוצאה שכבר הושגה בשיחות השלום על אוקראינה; סקירת הנסיעות וחילופי השבויים שבאותה כתבה אינה מוצגת כהסכם שהושלם.",
+    "טקסט_en": "Nov 12, 2026, 09:19 Israel time | Luca Bertuzzi’s full original Euronews article read; the page gives 08:19 GMT+1. Draft details rely on a document the reporter says he saw, not a final agreement signed or published here.\n\nEuronews says EU ambassadors discussed a revised EU-UK statement yesterday ahead of the Nov 20 summit. In the draft it saw, a pledge to suspend deportations of foreign national offenders was replaced with close coordination, continued bilateral talks on advance notification of removals and prisoner transfers. This is proposed wording, not a new deportation rule in force.\n\nExplicit wording that Britain would pay into the EU programme for lower-income regions in exchange for electricity-market access was also removed. The article says a financial contribution could still be negotiated separately. This does not establish free access, a zero tariff or completed UK entry into the market; no agreed payment amount is given.\n\nOn youth mobility, the draft targets agreement on equal tuition-fee treatment within six months of the summit and tentatively January 2030 for the Youth Experience Scheme. Language on UK Erasmus+ participation after 2028 was dropped. Agrifood standards and emissions-trading agreements remain in square brackets: March 1, 2028 is pencilled in for agrifood standards, with no date for emissions trading. These are negotiating targets, not guaranteed rights or implementation dates.\n\nThe development is changed draft wording ahead of the summit. This is not final government approval, a tariff change or a completed result in Ukraine peace talks; the article’s travel and prisoner-exchange coverage is not presented as a completed agreement here.",
+    "קישור": "https://www.euronews.com/2026/11/12/from-abu-dhabi-to-dublin-via-moscow-peace-talks-and-a-row-over-who-speaks-for-europe",
+    "מקורות": [
+      {
+        "label": "Euronews: הכתבה המקורית, פרטי טיוטה שראה הכתב",
+        "label_en": "Euronews: original article, details of draft seen by reporter",
+        "url": "https://www.euronews.com/2026/11/12/from-abu-dhabi-to-dublin-via-moscow-peace-talks-and-a-row-over-who-speaks-for-europe"
+      }
+    ],
+    "symbols": [],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bd54862236dfda8afaee578cc69e360f6adf00ec4b1daedc27d63be9b1b24772"
+      }
+    }
   }
 ]
