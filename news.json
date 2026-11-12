@@ -33486,5 +33486,57 @@
         "source_hash": "8d09c8201fce54b902d6264377d1965b5c1a303c54f9ebc9dc31d84cde90d96c"
       }
     }
+  },
+  {
+    "מזהה": "n-1354",
+    "category": "macro",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 08:08",
+    "כותרת": "פרוויו וול סטריט - יום חמישי, 12.11.2026: תביעות אבטלה, דיור ומלאי נפט בשעת חג נדחית",
+    "כותרת_en": "Wall Street preview - Thursday, Nov 12, 2026: claims, housing and holiday-shifted crude inventories",
+    "טקסט": "12.11.2026 | כל השעות לפי שעון ישראל. בדיקת מקורות: 08:07–08:08. זהו לוח לקראת הפרסומים, לא נתונים שכבר פורסמו. התחזיות הן מלוח Forex Factory המשני ועשויות להתעדכן.\n\n15:30 - תביעות ראשוניות לדמי אבטלה: צפי ל-194 אלף, לעומת 189 אלף בשבוע הקודם. הנתון הקודם אומת בהודעת משרד העבודה מ-5 בנובמבר, המתייחסת לשבוע שהסתיים ב-31 באוקטובר; הוא עדיין עשוי להתעדכן בפרסום היום. השעה והצפי להיום לפי הלוח המשני.\n\n17:00 - מכירות בתים קיימים באוקטובר: צפי לקצב שנתי מנוכה עונתיות של 3.89 מיליון, לעומת 3.99 מיליון בספטמבר. מועד הפרסום והנתון הקודם אומתו אצל איגוד המתווכים NAR; הצפי ממקור משני. אין מדובר במכירות בתים חדשים או בחוזים שנחתמו.\n\n19:00 - מלאי הנפט השבועי בארה״ב: צפי לירידה של 0.6 מיליון חביות, לעומת ירידה של 0.9 מיליון לפי הלוח המשני. רשות האנרגיה EIA מאשרת שהדוח לשבוע שהסתיים ב-6 בנובמבר יפורסם היום ב-12:00 בצהריים שעון מזרח ארה״ב, במקום ביום רביעי, בשל Veterans Day. השעה הרשמית היא 19:00 בישראל, לא שעת הפרסום הרגילה של יום רביעי. התחזית והנתון הקודם כאן לא אומתו מול דוח EIA.\n\nהפד: מייקל באר צפוי לנאום על בינה מלאכותית ואי-שוויון. לוח הפד מאשר את ההופעה היום ב-10:00, אך הטקסט שנבדק לא מציין אזור זמן; 17:00 בישראל נתמך בלוח המשני. נושא הנאום אינו הבטחה להתייחס לריבית. שעות נוספות של נשיאי בנקים אזוריים, מכרז אג״ח ל-30 שנה והמאזן התקציבי לא נכללו ברשימת השעות המאומתות, משום שלא הושלם אימות מספיק של שעת המקור.\n\nמה לעקוב: פרסומי התעסוקה והדיור עשויים להשפיע על הערכת הפעילות ועל תמחור הריבית; נתוני המלאי רלוונטיים לשוק הנפט. זו מסגרת למעקב, לא תחזית לכיוון תגובת המחירים. לא נכללו מחירי שוק או דוחות חברות.",
+    "טקסט_en": "Nov 12, 2026 | All times are Israel time. Sources checked at 08:07–08:08. This is a schedule ahead of releases, not data already published. Forecasts come from the secondary Forex Factory calendar and may change.\n\n15:30 - Initial unemployment claims: forecast 194,000 versus 189,000 in the prior week. The prior was verified in the Labor Department's Nov 5 release for the week ended Oct 31; it may still be revised in today's release. Today's time and forecast are from the secondary calendar.\n\n17:00 - October existing-home sales: forecast a seasonally adjusted annual rate of 3.89 million versus 3.99 million in September. NAR confirms the release time and prior figure; the forecast is secondary-sourced. This is not new-home sales or signed contracts.\n\n19:00 - Weekly US crude inventories: forecast a 0.6 million-barrel decline versus a 0.9 million-barrel decline in the secondary calendar. EIA confirms that the report for the week ended Nov 6 is scheduled today at noon US Eastern, instead of Wednesday, because of Veterans Day. The official time converts to 19:00 in Israel, not the normal Wednesday release time. The forecast and prior shown here were not verified against an EIA report.\n\nThe Fed: Michael Barr is scheduled to speak on Artificial Intelligence and Inequality. The Fed calendar confirms today's appearance at 10:00, but the text inspected does not specify a time zone; 17:00 in Israel is supported by the secondary calendar. The subject is not a commitment to discuss interest rates. Other regional-bank presidents' appearances, the 30-year Treasury auction and the federal budget balance are omitted from the verified-time list because source-time verification remains incomplete.\n\nWhat to watch: employment and housing data may affect assessments of activity and rate pricing; inventories are relevant to oil. This is a monitoring framework, not a forecast of price direction. No market quotes or company earnings are included.",
+    "קישור": "https://www.forexfactory.com/calendar?day=nov12.2026",
+    "מקורות": [
+      {
+        "label": "Forex Factory: צפי ולוח משני, 12 בנובמבר",
+        "label_en": "Forex Factory: forecasts and secondary calendar, Nov 12",
+        "url": "https://www.forexfactory.com/calendar?day=nov12.2026"
+      },
+      {
+        "label": "משרד העבודה: תביעות השבוע הקודם, 5 בנובמבר",
+        "label_en": "Labor Department: prior-week claims, Nov 5",
+        "url": "https://www.dol.gov/ui/data.pdf"
+      },
+      {
+        "label": "NAR: לוח פרסום מכירות בתים קיימים",
+        "label_en": "NAR: existing-home sales release schedule",
+        "url": "https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales"
+      },
+      {
+        "label": "NAR: נתון ספטמבר המקורי, 3.99 מיליון",
+        "label_en": "NAR: original September prior, 3.99 million",
+        "url": "https://www.nar.realtor/newsroom/existing-home-sales-increased-1-5-in-september-according-to-nar-report"
+      },
+      {
+        "label": "EIA: לוח דחיות חגים ושעה רשמית",
+        "label_en": "EIA: holiday exceptions and official release time",
+        "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+      },
+      {
+        "label": "הפד: לוח נובמבר, נאום באר; אזור הזמן אינו מפורש בטקסט שנבדק",
+        "label_en": "Federal Reserve: November calendar, Barr speech; time zone not explicit in inspected text",
+        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+      }
+    ],
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e46ca47695c05bf8a6bcb7ad5a7f08560659aed935c30ddfe70d114b299bb93c"
+      }
+    }
   }
 ]
