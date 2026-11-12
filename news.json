@@ -35298,5 +35298,34 @@
         "source_hash": "2859cca3682c629268baa05859165ccdaf6487e6a89a489f70604af845e03f99"
       }
     }
+  },
+  {
+    "מזהה": "n-1407",
+    "category": "macro",
+    "תאריך": "2026-11-12 00:04",
+    "כותרת": "השלמת סיקור MSCI: Moderna תצטרף ל-World; שינויי המדדים האמריקאיים ייכנסו לתוקף בסגירת 30 בנובמבר",
+    "כותרת_en": "MSCI catch-up: Moderna to join World; US index changes take effect at the November 30 close",
+    "טקסט": "השלמת סיקור: MSCI פרסמה את סקירת המדדים ב-11 בנובמבר 2026 בשעה 22:04 UTC, כלומר 12 בנובמבר ב-00:04 בישראל. הודעת המקור ורשימת השינויים האמריקאית נקראו במלואן. זה אינו שינוי שנכנס לתוקף עם פרסום כתבת ההמשך היום.\n\nבמדד MSCI World יתווספו Moderna מארה\"ב ו-Aritzia מקנדה. בסך הכול, במדד MSCI ACWI יתווספו 13 ניירות ויימחקו 100. אלה סיכומים של משפחת המדדים הגלובלית; אין להשליך מהם שכל חברה שנמחקת ממדד אמריקאי מסוים יוצאת גם מכל מדדי MSCI.\n\nברשימה האמריקאית הנפרדת, מדד MSCI US Prime Market 750 מציג 10 הוספות ו-8 מחיקות. בין המצטרפות: Venture Global, Sunbelt Rentals, Arxis, James Hardie, JBS, Madrigal Pharmaceuticals, AGNC, SouthState, Antero Midstream ו-Leonardo DRS. בין הנמחקות ממנו: American Airlines, Mohawk Industries, Joby Aviation, D-Wave Quantum, Rigetti Computing, Avis Budget, Fervo Energy ו-Strategy.\n\nחשוב להבחין בין מחיקה לבין מעבר בתוך המשפחה: American Airlines, Mohawk, Joby, D-Wave, Rigetti, Avis ו-Fervo מופיעות במקביל ברשימת ההוספות ל-MSCI US Small Cap 1750. מנגד, Madrigal, AGNC, SouthState, Antero Midstream ו-Leonardo DRS מופיעות כמחיקות ממדד ה-Small Cap וכהוספות ל-Prime Market 750. אין כאן מחיקה של כל החברות האלה מכל המדדים או הפסקת מסחר במניותיהן.\n\nכל השינויים מיועדים לסגירת המסחר ב-30 בנובמבר 2026. הרשימה האמריקאית מבוססת על נקודת חיתוך מחירים של 20 באוקטובר, ועשויה להתעדכן בגין אירועים תאגידיים או התאמות נוספות עד מועד התחולה. אין בה נתון על רכישות או מכירות שכבר בוצעו בידי קרנות, סכום זרימות מובטח או המלצת השקעה.\n\nהחידוש ביחס ל-n-1369 הוא פירוט סקירת נובמבר הרחבה והמעברים האמריקאיים, מעבר למחיקת Strategy שכבר סוקרה בנפרד. אותה מחיקה אינה נספרת כאן כאירוע חדש נוסף, והאומדן המותנה הישן ליציאות מ-Strategy אינו אומדן לכל הסקירה. ההרכב הגלובלי והמדדים האמריקאיים אינם רשימות זהות.",
+    "טקסט_en": "Catch-up: MSCI published its index review on November 11, 2026 at 22:04 UTC, November 12 at 00:04 Israel time. The original announcement and full US changes list were read. This is not a change that became effective when today's follow-up article appeared.\n\nModerna of the US and Aritzia of Canada will join the MSCI World Index. Across the MSCI ACWI Index there will be 13 additions and 100 deletions. These are global-index totals, not proof that a company leaving a particular US index leaves every MSCI index.\n\nThe separate US list shows 10 additions and eight deletions for the MSCI US Prime Market 750 Index. Additions are Venture Global, Sunbelt Rentals, Arxis, James Hardie, JBS, Madrigal Pharmaceuticals, AGNC, SouthState, Antero Midstream and Leonardo DRS. Deletions are American Airlines, Mohawk Industries, Joby Aviation, D-Wave Quantum, Rigetti Computing, Avis Budget, Fervo Energy and Strategy.\n\nDeletion from one index must be distinguished from a move within the family. American Airlines, Mohawk, Joby, D-Wave, Rigetti, Avis and Fervo also appear as additions to the MSCI US Small Cap 1750 Index. Madrigal, AGNC, SouthState, Antero Midstream and Leonardo DRS appear as Small Cap deletions and Prime Market 750 additions. This is not removal of all these companies from every index or a halt to trading in their shares.\n\nAll changes are scheduled for the close of November 30, 2026. The US list uses an October 20 price cutoff and may be updated for corporate events or other adjustments before implementation. It does not quantify fund purchases or sales already completed, guarantee flows or recommend an investment.\n\nThe increment over n-1369 is the broader November review and US index moves, beyond the Strategy deletion already covered separately. That deletion is not counted again as a separate new event, and the older conditional Strategy-outflow estimate is not an estimate for this entire review. The global and US index lists are not interchangeable.",
+    "קישור": "https://app2.msci.com/webapp/index_ann/DocGet?format=html&lang=en&pub_key=t6TJpGLKQvg%3D",
+    "מקורות": [
+      {
+        "url": "https://app2.msci.com/webapp/index_ann/DocGet?format=html&lang=en&pub_key=t6TJpGLKQvg%3D",
+        "label": "MSCI: הודעת סקירת נובמבר המקורית, עם חותמת פרסום",
+        "label_en": "MSCI: original November review announcement and publication timestamp"
+      },
+      {
+        "url": "https://app2.msci.com/eqb/us/MSCI_Nov26_USPublicList.pdf",
+        "label": "MSCI: רשימת השינויים האמריקאית המלאה ומועד התחולה",
+        "label_en": "MSCI: full US changes list and effective date"
+      }
+    ],
+    "הועלה": "2026-11-12 12:35",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1e99ff6c540b04d1b611c9878d22fe22370a9de5bcc50b7a10300f0947bb4016"
+      }
+    }
   }
 ]
