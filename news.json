@@ -33395,5 +33395,35 @@
         "source_hash": "32ad9811bc91683b529d67c67b2304894f9f5c4ecfd5fec086022c60c59234a0"
       }
     }
+  },
+  {
+    "מזהה": "n-1351",
+    "category": "micro",
+    "חברה": "NVDA",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 04:34",
+    "קישור": "https://www.koreatimes.co.kr/world/20261112/nvidia-board-meets-to-decide-ceo-huangs-future-as-leadership-crisis-deepens",
+    "כותרת": "NVIDIA (NVDA): לפי מקור רויטרס, הדירקטוריון מתכנס להכריע בעתיד הואנג; אין החלטה מדווחת על הדחה או מינוי",
+    "כותרת_en": "NVIDIA (NVDA): Reuters source says board is meeting on Huang's future; no reported removal decision or appointment",
+    "טקסט": "דיווח מקורי של Reuters, בעותק המלא שפורסם ב-Korea Times ונקרא ישירות; לא הודעה רשמית של NVIDIA. העמוד פורסם ב-12 בנובמבר ב-08:01 בקוריאה, 01:01 בישראל, ועודכן ב-11:30 בקוריאה, 04:30 בישראל. לא ידוע באיזה עדכון הופיע לראשונה המשפט על הישיבה, ולכן אין לייחס אותו אוטומטית לשעת הפרסום המוקדמת.\n\nאדם הבקיא בנושא אמר לרויטרס כי דירקטוריון NVIDIA מתכנס בשעות המאוחרות של יום רביעי כדי להכריע אם להדיח את המייסד והמנכ״ל ג׳נסן הואנג. זהו חידוש ביחס ל-n-1346, שבו WSJ דיווח שהדירקטוריון נערך להיפגש ולשקול הדחה: כאן רויטרס מדווחת, מפי מקור משלה, שהישיבה מתנהלת. הביטוי ״יום רביעי המאוחר״ הוא של הדיווח, ללא שעה או אזור זמן של הישיבה שאומתו בנפרד.\n\nNVIDIA לא הגיבה מיד לבקשת רויטרס לתגובה על הישיבה. זו אינה הודאה או הודעה רשמית שהדירקטוריון הצביע, שהואנג הודח או התפטר, או שמונה לו מחליף. בדיווח שנקרא אין תוצאה של הדיון, מועד סיום כהונה או אישור למנכ״ל זמני.\n\nבנפרד, הכתבה מייחסת ל-Bloomberg דיווח שהדירקטוריון עובד עם גוף חיצוני לזיהוי מחליפים אפשריים. פרטי הדיווח המקורי הזה לא נקראו במלואם, ולכן אין כאן אימות חדש שלו או שם של גוף שנשכר. האזכור של סמנכ״לית הכספים קולט קרס כמועמדת אפשרית לתפקיד זמני הוא דעת מנהלת השקעות המצוטטת בכתבה, לא בחירה או הצעת מינוי של הדירקטוריון.\n\nחקירת הדירקטוריון וגיוס יועצים חיצוניים שכוסו ב-n-1043 וב-n-1252 הם רקע קיים. הטענות על קשרים אישיים וריגול נותרות טענות מיוחסות, לא ממצאים חדשים כאן. הפריט אינו משנה את ההכחשה המאומתת של משרד המסחר בנוגע לדיווח Axios ב-n-1341, ואינו מציג מגבלת ייצוא חדשה, צו מחייב מהקונגרס או תגובת מחיר שנבדקה.",
+    "טקסט_en": "Original Reuters reporting, read directly in the full copy published by The Korea Times; not an official NVIDIA statement. The page was published Nov 12 at 08:01 Korea time, 01:01 in Israel, and updated at 11:30 Korea time, 04:30 in Israel. The update in which the meeting sentence first appeared is unknown, so the claim is not automatically assigned the earlier publication time.\n\nA person familiar with the matter told Reuters that NVIDIA's board is meeting late Wednesday to decide whether to oust founder and CEO Jensen Huang. This advances n-1346, in which WSJ reported preparations to meet and consider removal: Reuters now reports, citing its own source, that the meeting is taking place. The phrase late Wednesday belongs to the report; no meeting hour or time zone was independently verified.\n\nNVIDIA did not immediately respond to Reuters' request for comment on the meeting. That is not an admission or an official announcement that directors have voted, that Huang has been removed or resigned, or that a successor has been appointed. The article as read gives no outcome, departure date or confirmed interim CEO.\n\nSeparately, the article attributes to Bloomberg a report that the board is working with an outside firm to identify possible replacements. That original report was not read in full, so this does not newly verify it or name a retained firm. The mention of CFO Colette Kress as a possible interim leader is the opinion of a portfolio manager quoted in the article, not a board choice or appointment proposal.\n\nThe board investigation and hiring of outside counsel covered in n-1043 and n-1252 remain existing background. Allegations about personal relationships and espionage remain attributed allegations, not new findings here. This item does not change the verified Commerce Department denial concerning Axios in n-1341, and reports no new export restriction, issued congressional subpoena or independently checked price reaction.",
+    "מקורות": [
+      {
+        "label": "Reuters דרך Korea Times: הדיווח המלא, עודכן 12 בנובמבר",
+        "label_en": "Reuters via The Korea Times: full report, updated Nov 12",
+        "url": "https://www.koreatimes.co.kr/world/20261112/nvidia-board-meets-to-decide-ceo-huangs-future-as-leadership-crisis-deepens"
+      }
+    ],
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "19ed4d2d97aba82cf3b00638f6d1979d727d7896951fb2882bc5e515cbfca749"
+      }
+    }
   }
 ]
