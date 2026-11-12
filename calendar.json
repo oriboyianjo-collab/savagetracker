@@ -2702,16 +2702,18 @@
     "אירוע": "מדד כלכלי שבועי - WEI",
     "חשיבות": 1,
     "מקור": "https://www.dallasfed.org/research/wei",
-    "הערה": "מועד לפי לוח המקור; צפי וקודם לא אומתו. ללא נתון בפועל. מפרסם נוכחי: הפד של דאלאס. עדכון בחמישי בשעה18:30ישראל או סמוך לאחריה; אינדיקטור שבועי לפעילות, לא נתון תמ״ג רשמי.",
+    "הערה": "עדכון 12.11.2026: בקובץ הנתונים הרשמי של הפד של דאלאס, שנקרא ב-18:31 שעון ישראל, WEI לשבוע שהסתיים ב-7 בנובמבר הוא 3.29%. השבוע שהסתיים ב-31 באוקטובר עודכן ל-3.48% לעומת 3.47% בטקסט עדכון 5 בנובמבר; 24 באוקטובר נותר 2.95%. שתי לשוניות הנתונים בקובץ מציגות אותם ערכים. המדד מכויל לקצב צמיחת תמ״ג על פני ארבעה רבעונים, אך אינו נתון תמ״ג רשמי, אינו שינוי שבועי של 3.29% ואינו קצב רבעוני שנתי. בשעת הבדיקה טקסט עמוד המקור עדיין הציג את עדכון 5 בנובמבר; הנתון החדש נלקח מה-XLSX הרשמי המקושר בעמוד, ולא מהטקסט הישן. זמן פרסום הקובץ המדויק לא אומת. קובץ: https://www.dallasfed.org/-/media/documents/research/wei/weekly-economic-index.xlsx . רישום לוח קודם לפני פרסום הנתון: מועד לפי לוח המקור; צפי וקודם לא אומתו. ללא נתון בפועל. מפרסם נוכחי: הפד של דאלאס. עדכון בחמישי בשעה18:30ישראל או סמוך לאחריה; אינדיקטור שבועי לפעילות, לא נתון תמ״ג רשמי.",
     "מזהה": "c-0110",
     "אירוע_en": "Weekly Economic Index - WEI",
-    "הערה_en": "Timing per the source calendar; estimate and prior not verified. No actual figure. Current publisher: the Dallas Fed. Updated Thursday at 18:30 Israel or shortly after; a weekly activity indicator, not an official GDP figure.",
+    "הערה_en": "November 12, 2026 update: the Dallas Fed official data workbook, read at 18:31 Israel time, gives a 3.29% WEI for the week ended November 7. The October 31 week is revised to 3.48% versus 3.47% in the November 5 page text; October 24 remains 2.95%. Both workbook data sheets show the same values. The index is scaled to four-quarter GDP growth, but is not an official GDP release, a 3.29% weekly change or a quarterly annualized rate. At the check, the source page text still showed the November 5 update. The new actual comes from the official XLSX linked on that page, not the older prose. Exact workbook publication time was not verified. Workbook: https://www.dallasfed.org/-/media/documents/research/wei/weekly-economic-index.xlsx . Previous calendar record before the actual: Timing per the source calendar; estimate and prior not verified. No actual figure. Current publisher: the Dallas Fed. Updated Thursday at 18:30 Israel or shortly after; a weekly activity indicator, not an official GDP figure.",
     "_translation": {
       "en": {
-        "source_hash": "9531e75645ec62e73a1027b1b2a65ad680bdc89dd8ee9652f3bd3ec6de6b1636",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "fa81790246149952c5b7bc7b1fcfaf988b59541de0386997294782d54655c885"
       }
-    }
+    },
+    "בפועל": "3.29%",
+    "בפועל_en": "3.29%"
   },
   {
     "תאריך": "2026-11-12",
