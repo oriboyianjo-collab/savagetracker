@@ -33567,5 +33567,37 @@
         "source_hash": "7040933740d4d733987910ec4b64185f731cb7d8278e689e1d7674c12b18a15b"
       }
     }
+  },
+  {
+    "מזהה": "n-1356",
+    "category": "macro",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 09:09",
+    "כותרת": "בריטניה: התמ״ג צמח 0.7% ברבעון השלישי ו-0.2% בספטמבר; אוגוסט תוקן לאפס צמיחה",
+    "כותרת_en": "UK GDP grew 0.7% in Q3 and 0.2% in September; August revised to no growth",
+    "טקסט": "12.11.2026 | פרסומי ONS המקוריים לרבעון השלישי ולספטמבר נקראו ישירות. אלה אומדנים מוקדמים הכפופים לתיקון.\n\nהתמ״ג הריאלי בבריטניה גדל ב-0.7% ברבעון השלישי לעומת הרבעון השני, לאחר צמיחה של 0.5% ברבעון השני. לעומת הרבעון המקביל אשתקד הוא עלה ב-1.9%. התמ״ג הריאלי לנפש עלה ב-0.7% ברבעון וב-1.7% בשנה.\n\nבספטמבר לבדו נרשמה צמיחה חודשית של 0.2%, לאחר אפס צמיחה באוגוסט. נתון אוגוסט תוקן כלפי מטה מ-0.1% בפרסום הקודם; צמיחת יולי נותרה 0.4%. אין לערבב את השינוי החודשי עם השינוי הרבעוני או השנתי.\n\nברבעון השלישי השירותים גדלו ב-0.9%, הייצור ב-0.1% והבנייה ירדה ב-0.7%. בספטמבר, לעומת זאת, השירותים גדלו ב-0.2%, הייצור ב-0.3% והבנייה ב-0.8%. עיקר הצמיחה הרבעונית הגיע מהשירותים, במיוחד שירותים לעסקים.\n\nלא צורף כאן צפי שוק שלא אומת בנפרד, ולכן אין קביעה שהנתון הכולל הפתיע כלפי מעלה או מטה. צמיחה נומינלית של 1.4% ברבעון המופיעה באותו פרסום היא סדרה אחרת ואינה הנתון הריאלי שבכותרת.",
+    "טקסט_en": "Nov 12, 2026 | The original ONS Q3 and September releases were read directly. These are early estimates subject to revision.\n\nUK real GDP increased 0.7% in Q3 compared with Q2, following 0.5% growth in Q2. It was 1.9% higher than in the same quarter a year earlier. Real GDP per head rose 0.7% on the quarter and 1.7% on the year.\n\nSeptember alone recorded 0.2% monthly growth after no growth in August. August was revised down from 0.1% in the previous release; July growth was unchanged at 0.4%. Monthly, quarterly and annual changes must not be mixed.\n\nIn Q3, services grew 0.9%, production rose 0.1% and construction fell 0.7%. In September, services rose 0.2%, production 0.3% and construction 0.8%. Services, especially business-facing services, supplied most quarterly growth.\n\nNo separately unverified market forecast is included, so this item does not label the overall release a beat or miss. The 1.4% quarterly nominal growth shown in the same bulletin is a different series, not the real GDP measure in the headline.",
+    "קישור": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026",
+    "מקורות": [
+      {
+        "label": "ONS: אומדן תמ״ג ראשון לרבעון השלישי, 12 בנובמבר 2026",
+        "label_en": "ONS: first Q3 GDP estimate, Nov 12, 2026",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026"
+      },
+      {
+        "label": "ONS: אומדן חודשי לספטמבר ותיקוני אוגוסט",
+        "label_en": "ONS: September monthly estimate and August revisions",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/september2026"
+      }
+    ],
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dc6c1c64a2431e9d34e549ca1923179bf5bc0a5b6518c4a9c3c18d9fae6ad9d8"
+      }
+    }
   }
 ]
