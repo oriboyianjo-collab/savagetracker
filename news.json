@@ -38103,5 +38103,30 @@
         "source_hash": "003f1ad6a8b9687e6869509554444feb823141c356cf2f2439489bc37706314f"
       }
     }
+  },
+  {
+    "מזהה": "n-1495",
+    "category": "company",
+    "חברה": "WMS",
+    "תאריך": "2026-11-12",
+    "כותרת": "Advanced Drainage Systems (WMS) השלימה את רכישת StormTrap מ-PSP Capital",
+    "כותרת_en": "Advanced Drainage Systems (WMS) completes StormTrap acquisition from PSP Capital",
+    "טקסט": "12.11.2026 | הודעת החברה המקורית, נספח 99.1 בדיווח ל-SEC, נקראה במלואה. שעת הפרסום המקורית אינה מופיעה בהודעה ולא אומתה; שעת קבלת הדיווח ב-SEC אינה מוצגת כשעת ההכרזה.\n\nAdvanced Drainage Systems הודיעה שהשלימה את רכישת StormTrap Investments LLC מ-PSP Capital, עסקה שעליה דיווחה קודם. זהו מעבר מעסקה מתוכננת לעסקה שהושלמה: בפריט n-0298 הרכישה תוארה כמוצעת, ולא כהשלמה. הפריט הקודם נשמר ללא שינוי.\n\nStormTrap מספקת פתרונות הנדסיים לאגירת מי נגר בנפחים גדולים ובאתרים מוגבלי שטח. לדברי ADS, הרכישה מוסיפה היצע משלים בתחום אגירת מי הנגר, מרחיבה את השוק הפוטנציאלי ואת קשרי הלקוחות, ויוצרת הזדמנויות למכירה צולבת. אלה יתרונות והזדמנויות שהחברה מציגה, לא הכנסות שכבר הוכרו או חיסכון מובטח.\n\nהודעת הסגירה אינה מציינת מחיר רכישה, הכנסות StormTrap, סכום סינרגיות או תחזית רווח מעודכנת. אין להסיק ממנה נתונים כספיים כאלה. החברה מזהירה מסיכוני שילוב, עלויות ועיכובים ומכך שהתועלות הצפויות עשויות שלא להתממש.\n\nהמונח \"segment\" בהודעה משמש בהקשר מסחרי בלבד: החברה מבהירה שההצגה החשבונאית של StormTrap לפי ASC 280 טרם נקבעה. אין כאן הכרזה על מגזר דיווח חשבונאי חדש או שינוי מאומת בתחזית השנתית.",
+    "טקסט_en": "November 12, 2026 | The full original company release, Exhibit 99.1 in an SEC filing, was read. The original release time is not shown and was not verified; SEC filing acceptance is not presented as the announcement time.\n\nAdvanced Drainage Systems announced completion of its previously disclosed acquisition of StormTrap Investments LLC from PSP Capital. This is the move from a proposed transaction to a completed acquisition: n-0298 described the purchase as proposed, not completed. That earlier item remains unchanged.\n\nStormTrap provides highly engineered stormwater storage solutions for large volumes and space-constrained sites. ADS says the acquisition adds a complementary storage offering, expands its addressable market and customer relationships, and provides cross-selling opportunities. These are company-stated benefits and opportunities, not recognized revenue or guaranteed savings.\n\nThe closing release gives no acquisition price, StormTrap revenue, quantified synergies or updated earnings forecast. None is inferred. The company warns about integration risks, costs, delays and the possibility that anticipated benefits may not materialize.\n\nThe release uses \"segment\" in a commercial sense only: ADS says StormTrap's financial presentation under ASC 280 has not yet been determined. This is not an announcement of a new accounting reportable segment or a verified change to annual guidance.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1604028/000119312526458605/d144189dex991.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1604028/000119312526458605/d144189dex991.htm",
+        "label": "ADS: הודעת ההשלמה המקורית המלאה, נספח 99.1",
+        "label_en": "ADS: full original completion release, Exhibit 99.1"
+      }
+    ],
+    "הועלה": "2026-11-12 23:52",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dabb339eac015c8c59bce9825f15606900fe6b8614b1d49ec1f83ece378e097a"
+      }
+    }
   }
 ]
