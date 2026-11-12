@@ -37148,5 +37148,43 @@
         "source_hash": "5419c407299e0c0cc84421bb36cd8afef734b8b901562f4e68fb9efdaf2ecd37"
       }
     }
+  },
+  {
+    "מזהה": "n-1465",
+    "category": "micro",
+    "חברה": "VLO",
+    "symbols": [
+      "VLO",
+      "LYB"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-30",
+    "כותרת": "השלמת סיקור | Valero (VLO) חתמה לרכישת אתר בית הזיקוק לשעבר של LyondellBasell ביוסטון ב-320.5 מיליון דולר; חידוש זיקוק מתוכנן לסוף 2027",
+    "כותרת_en": "Catch-up | Valero (VLO) agreed to buy LyondellBasell's former Houston refinery site for $320.5 million; restart targeted for late 2027",
+    "טקסט": "השלמת סיקור: ההודעה המקורית פורסמה ב-30 באוקטובר 2026 וההסכם נחתם ב-29 באוקטובר, לפי הודעת Valero וה-8-K המקורי שנקראו במלואם. לא אומתה שעת הפרסום המקורית. סיקור משני בנובמבר אינו עסקה חדשה שהוכרזה היום.\n\nValero Refining-Texas, חברה בת בבעלות מלאה של Valero, חתמה על הסכם לרכישת מלוא הזכויות ההוניות ב-LYB Houston Hub Holdings מחברה בת של LyondellBasell תמורת 320.5 מיליון דולר, בכפוף להתאמות סגירה. החברה הנרכשת מחזיקה בעקיפין באתר של כ-700 אקרים בתעלת הספנות של יוסטון, סמוך לבית הזיקוק הקיים של Valero, אשר פעל בעבר כבית זיקוק.\n\nבהודעה המקורית צפתה Valero סגירה עד סוף 2026, בכפוף לתנאים מקובלים ובהם פקיעה או סיום של תקופת ההמתנה לפי HSR. לא אומת כאן פרסום מאוחר יותר על סגירת העסקה. חתימת הסכם אינה אישור שהבעלות כבר הועברה או שהזיקוק באתר התחדש.\n\nהחברה מצפה בשלב ראשון לחדש עד סוף 2027 קיבולת עיבוד של 165 אלף חביות נפט קל ודל גופרית ביום. מדובר ביעד עתידי לקיבולת, לא בתפוקה נוכחית ולא בכמות הדלק שכבר נמכרה. האפשרות להשקיע בהמשך בעיבוד נפט כבד ועתיר גופרית מוצגת כהזדמנות עתידית נפרדת, לא כחלק שכבר הופעל בתוכנית החידוש הראשונית.\n\nהמחיר אינו אומדן כולל של כל ההשקעות הדרושות להחזרת האתר לפעולה. ההודעה אינה מפרטת תקציב שיקום כולל, תשואה כמותית מובטחת או תרומת רווח שכבר הוכרה. אמירות החברה על מחיר נמוך מעלות הקמה מחדש ועל תשואה אטרקטיבית הן הערכתה העסקית, לא תוצאה שהושגה.",
+    "טקסט_en": "Catch-up: Valero's original announcement was published on October 30, 2026 and the agreement was signed October 29, according to the full company release and original Form 8-K. The original publication hour was not verified. November secondary coverage is not a new deal announced today.\n\nValero Refining-Texas, a wholly owned Valero subsidiary, agreed to acquire all equity interests in LYB Houston Hub Holdings from a LyondellBasell subsidiary for $320.5 million, subject to closing adjustments. The target indirectly owns an approximately 700-acre site on the Houston Ship Channel adjacent to Valero's existing Houston refinery that formerly operated as a petroleum refinery.\n\nIn its original announcement, Valero expected closing by year-end 2026, subject to customary conditions including expiration or termination of the HSR waiting period. No later completion announcement was verified here. A signed agreement is not confirmation that ownership has transferred or refining operations have resumed.\n\nValero initially expects to restart 165,000 barrels per day of light sweet crude processing capacity by year-end 2027. That is a future capacity target, not current output or fuel already sold. A possible later investment in high-complexity, heavy sour crude processing is a separate future opportunity, not an already operating part of the initial restart plan.\n\nThe purchase price is not an estimate of all investment needed to bring the site back into service. The release does not give a total restart capital budget, guaranteed numerical return or earnings already recognized. Valero's statements about a fraction of replacement value and attractive returns are its business assessment, not achieved results.",
+    "קישור": "https://investorvalero.com/news/news-details/2026/Valero-to-Acquire-Former-Houston-Refinery-from-LyondellBasell/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investorvalero.com/news/news-details/2026/Valero-to-Acquire-Former-Houston-Refinery-from-LyondellBasell/default.aspx",
+        "label": "Valero: הודעת הרכישה המקורית מ-30 באוקטובר",
+        "label_en": "Valero: original October 30 acquisition release"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026068387/vlo-20261029.htm",
+        "label": "SEC: ה-8-K המקורי, הסכם מ-29 באוקטובר והודעה ב-30 באוקטובר",
+        "label_en": "SEC: original 8-K, October 29 agreement and October 30 announcement"
+      }
+    ],
+    "הועלה": "2026-11-12 17:30",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d2b70ecd7eebe19b965b9861816e9a013b73b9c5c2d193dbf2690f36390131fd"
+      }
+    }
   }
 ]
