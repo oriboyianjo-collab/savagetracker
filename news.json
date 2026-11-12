@@ -34169,5 +34169,34 @@
         "source_hash": "1a845537e63610c1b9866566e503a15ed0f9112072fa7c9c473a42b3b6a999d5"
       }
     }
+  },
+  {
+    "מזהה": "n-1375",
+    "category": "micro",
+    "תאריך": "2026-11-12 05:43",
+    "הועלה": "2026-11-12 09:27",
+    "כותרת": "NVIDIA (NVDA): לפי Reuters, וורן וקונס מבקשים מהממשל לשמר מסמכים על יצוא השבבים לסין ולקיים תדריך לקונגרס",
+    "כותרת_en": "NVIDIA (NVDA): Reuters says Warren and Coons ask administration to preserve China chip-export records and brief Congress",
+    "טקסט": "12.11.2026, 05:43 בישראל | כתבת Reuters המלאה נקראה בעותק הסינדיקציה של StreetInsider, המציג 11 בנובמבר, 22:43 EST. זהו דיווח עיתונאי על מכתב, לא מכתב ממשלתי שנקרא כאן במקור.\n\nהסנאטורים הדמוקרטים אליזבת וורן וכריס קונס ביקשו מממשל טראמפ לשמר את כל המסמכים הקשורים ליצוא שבבי NVIDIA לסין, על רקע הבדיקה הציבורית והביטחונית של קשרי המנכ״ל ג׳נסן הואנג עם אליס הואנג. לפי Reuters, המכתב נשלח לשר המסחר הווארד לוטניק, לשר החוץ מרקו רוביו ולראש סגל הבית הלבן סטיבן מילר.\n\nהשניים ביקשו גם תדריך לקונגרס על סיכוני הביטחון הלאומי הנוגעים למאמץ המודיעין הזר הנטען. הם העלו שאלות על אכיפת מגבלות היצוא ועל השאלה אם ננקטו צעדי הגנת מודיעין מספקים או שהמלצות ביטחוניות נעקפו. אלה חששות ובקשות של הסנאטורים, לא ממצאים מאומתים על ריגול, על הברחת שבבים או על הפרת חוק בידי החברה או המנכ״ל.\n\nההתפתחות כאן היא בקשת שימור הרשומות מהממשל. היא נפרדת מבקשת שלוש ועדות בית הנבחרים לתדריך עם הואנג ב-18 בנובמבר, שכבר סוקרה ב-n-0003, ומהאיום המותנה בזימון מחייב ב-n-1254. הכתבה אינה מאשרת שהממשל כבר הורה לשמר מסמכים, שנמסר תדריך, שהוצא זימון מחייב או שאושרו מגבלות יצוא חדשות.\n\nהדיווח מזכיר ברקע את ישיבת דירקטוריון NVIDIA על עתיד הואנג, שכבר סוקרה ב-n-1351. אין כאן החלטה חדשה על הדחה או מינוי מחליף, ואין ממצא חדש של חקירת הדירקטוריון. Reuters מציינת כי Wall Street Journal דיווח ראשון על פרטי המכתב; המכתב עצמו והכתבה המקורית שם לא נקראו ישירות לצורך פריט זה.",
+    "טקסט_en": "Nov 12, 2026, 05:43 Israel time | Full Reuters story read in the StreetInsider syndicated copy, dated Nov 11 at 10:43 PM EST. This is journalistic reporting about a letter, not a government letter read directly here.\n\nDemocratic senators Elizabeth Warren and Chris Coons asked the Trump administration to preserve all documents tied to NVIDIA chip exports to China, amid scrutiny of CEO Jensen Huang’s relationship with Alice Huang. Reuters says the letter went to Commerce Secretary Howard Lutnick, Secretary of State Marco Rubio and White House chief of staff Stephen Miller.\n\nThey also requested a congressional briefing on national-security risks posed by the suspected foreign intelligence operation. They raised questions about export-control enforcement and whether prudent defensive counterintelligence action was taken or security recommendations were overruled. These are the senators’ concerns and requests, not verified findings of espionage, chip smuggling or a legal violation by NVIDIA or its CEO.\n\nThe new development is the records-preservation request to the administration. It is separate from the three House committees’ request for a Nov 18 briefing with Huang, already covered in n-0003, and the conditional subpoena warning in n-1254. The article does not confirm that the administration has issued preservation instructions, a briefing has occurred, a subpoena has been issued or new export restrictions have been approved.\n\nThe report includes the NVIDIA board meeting about Huang’s future as background, already covered in n-1351. It gives no new removal decision, successor appointment or board-investigation finding. Reuters says the Wall Street Journal first reported the letter’s details; the letter itself and that original article were not read directly for this item.",
+    "קישור": "https://www.streetinsider.com/Reuters/Senior+US+Democratic+senators+urge+administration+to+preserve+Nvidia+export+records+amid+China+security+concerns/27328346.html",
+    "מקורות": [
+      {
+        "label": "Reuters: הכתבה המלאה בעותק StreetInsider",
+        "label_en": "Reuters: full article via StreetInsider",
+        "url": "https://www.streetinsider.com/Reuters/Senior+US+Democratic+senators+urge+administration+to+preserve+Nvidia+export+records+amid+China+security+concerns/27328346.html"
+      }
+    ],
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2416b5c8dbdbd6456c342727a80e7bed02ac93fe8dbf3645530556a027704a9a"
+      }
+    }
   }
 ]
