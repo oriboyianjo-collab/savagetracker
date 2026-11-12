@@ -36643,5 +36643,101 @@
         "source_hash": "cc21185f039e532f66c3912fefbd42620328e3497eb7a04d4b5ea280c0b35808"
       }
     }
+  },
+  {
+    "מזהה": "n-1450",
+    "category": "micro",
+    "חברה": "SECZ",
+    "symbols": [
+      "SECZ"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 16:00",
+    "כותרת": "Securitize ו-Ethena הפעילו מסגרת נזילות ל-BUIDL: עד 100 מיליון דולר, מהם 50 מיליון בתחילת הדרך",
+    "כותרת_en": "Securitize and Ethena launch BUIDL liquidity facility: up to $100 million capacity, with $50 million initially funded",
+    "טקסט": "12.11.2026 | הודעת Securitize המקורית פורסמה ב-09:00 ET, 16:00 בישראל, ונקראה במלואה, כולל ההערות המגבילות את הזמינות.\n\nSecuritize ו-Ethena הודיעו שמסגרת הנזילות עבור קרן BUIDL של BlackRock פעילה כעת. היא נועדה לאפשר למשקיעים זכאים להחליף יחידות BUIDL למטבעות יציבים נתמכים, ובהם USDC, ובחזרה גם מחוץ לשעות השוק המסורתיות. זהו שלב הפעלה של מתווה שהוכרז ביוני, לא הכרזה ראשונה על עצם התכנון.\n\n100 מיליון דולר הם הקיבולת המרבית המתוארת, לא סכום הזמין כולו באופן מיידי ובכל עת. המסגרת מתחילה בנזילות של 50 מיליון דולר: 25 מיליון ב-USDC ו-25 מיליון ב-BUIDL. לפי ההערות, עד 50 מיליון נוספים עשויים להיות זמינים בתוך כשעה, בכפוף לתנאי המסגרת, לקיבולת ולזמינות; אין התחייבות בלתי מותנית להשלמה אוטומטית.\n\nEthena תומכת במסגרת והיא מופעלת דרך Securitize. זו אינה התחייבות ש-BlackRock עצמה העמידה מסגרת אשראי של 100 מיליון דולר ממאזנה, ואינה השקעה חדשה של 100 מיליון דולר שנכנסה לקרן. השירות מוגבל למשקיעים זכאים, לא לכל מחזיק מטבע יציב או לקוח קמעונאי.\n\nאף שהמסגרת מתוארת כפעילה מסביב לשעון, ההודעה מזהירה שייתכן שלא תהיה זמינה תמיד או בסכומים המתוארים; התנאים עשויים להשתנות והפעילות יכולה להיות מושעית או מופסקת. קיימים גם סיכוני צדדים שלישיים, מטבעות יציבים ורשתות בלוקצ׳יין. לא פורסמו היקף שימוש בפועל או הכנסות מהמסגרת.\n\nהמהלך נפרד מהרחבת מסחר המניות המטובנות של Securitize ב-n-0580 ומהזירה המתוכננת של NYSE. אין כאן פתיחה של מסחר 24/7 בכל מניות ארה״ב או אישור רגולטורי לזירה אחרת.",
+    "טקסט_en": "November 12, 2026 | Securitize's full original release was published at 09:00 ET, or 16:00 Israel time, and was read including availability limits in the footnotes.\n\nSecuritize and Ethena announced that the liquidity facility for BlackRock's BUIDL fund is now live. It is intended to let eligible investors exchange BUIDL for supported stablecoins, including USDC, and back outside traditional market hours. This implements the framework announced in June rather than first announcing the plan.\n\n$100 million describes maximum capacity, not an amount continuously and immediately available. The facility starts with $50 million: $25 million in USDC and $25 million in BUIDL. The footnotes say up to another $50 million may be available within approximately an hour, subject to terms, capacity and availability. Replenishment is not unconditionally guaranteed.\n\nEthena supports the facility, operated through Securitize. This does not establish that BlackRock provided a $100 million credit commitment from its own balance sheet or that $100 million of new investment entered the fund. It is limited to eligible investors, not every stablecoin holder or retail customer.\n\nAlthough described as around-the-clock infrastructure, the release warns it may not always be available or available in the stated amounts. Terms can change and the facility can be suspended or terminated. Third-party, stablecoin and blockchain-network risks also apply. No actual usage volume or facility revenue was disclosed.\n\nThis is separate from Securitize's tokenized-equity expansion in n-0580 and the planned NYSE venue. It does not launch 24/7 trading in all US stocks or approve another venue.",
+    "קישור": "https://www.prnewswire.com/news-releases/securitize-and-ethena-launch-100-million-liquidity-facility-for-blackrocks-buidl-302937776.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/securitize-and-ethena-launch-100-million-liquidity-facility-for-blackrocks-buidl-302937776.html",
+        "label": "Securitize: הודעת ההפעלה המלאה והערות הקיבולת והזמינות",
+        "label_en": "Securitize: full launch release and capacity/availability footnotes"
+      }
+    ],
+    "הועלה": "2026-11-12 16:09",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d01b17140443b5d6439792638338f443fcaa5978705543eb2c23058d81069bc2"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1451",
+    "category": "micro",
+    "חברה": "CART",
+    "symbols": [
+      "CART"
+    ],
+    "sectors": [
+      "consumer_staples"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 16:00",
+    "כותרת": "Instacart ו-Provi: הזמנת מצרכים לא-אלכוהוליים למסעדות ולברים זמינה כעת בתוך Provi ברחבי ארה״ב",
+    "כותרת_en": "Instacart and Provi: embedded same-day non-alcohol grocery orders now available to US bars and restaurants",
+    "טקסט": "12.11.2026 | הודעת Instacart ו-Provi המקורית פורסמה ב-09:00 ET, 16:00 בישראל, ונקראה במלואה.\n\nלקוחות Provi בארה״ב יכולים כעת להזמין מתוך האתר משלוח באותו יום של מוצרים לא-אלכוהוליים מקמעונאים משתתפים ברשת Instacart. השירות מיועד להשלמת מלאי בין משלוחים מתוכננים של ברים ומסעדות, למשל פירות לקישוט, מיצים, מערבלים, נייר וחומרי ניקוי.\n\nחוויית Instacart מוטמעת באתר Provi וכוללת עיון בקמעונאים משתתפים, הזמנה ומעקב משלוח. ההודעה מתארת זמינות ארצית ללקוחות Provi, אך לא מבטיחה שכל מוצר או כל קמעונאי זמינים בכל כתובת ובכל שעה. השילוב מוגבל לפריטים ללא אלכוהול, אף ש-Provi עצמה פועלת בענף המשקאות האלכוהוליים.\n\nProvi מציינת רשת קיימת של יותר מ-1,400 מפיצים, כמעט 50 אלף קמעונאים פעילים ויותר מ-1.4 מיליון מוצרים. אלה נתוני הפלטפורמה הכוללת, לא מספר עסקים חדשים שהצטרפו לשילוב עם Instacart, לא הזמנות שכבר בוצעו דרכו ולא מספר חנויות חדשות שנפתחו.\n\nלא פורסמו שווי ההסכם, תמחור מסחרי, דמי משלוח או הכנסות צפויות ל-Instacart. החידוש הוא ערוץ הזמנה עסקי שכבר זמין בתוך Provi, בנפרד מהסכם רכישת Instacart בידי DoorDash שכבר סוקר ב-n-0217. ההודעה אינה מאשרת את השלמת המיזוג או משנה את תנאיו.",
+    "טקסט_en": "November 12, 2026 | Instacart and Provi's full original release was published at 09:00 ET, or 16:00 Israel time.\n\nUS Provi customers can now order same-day delivery of non-alcoholic products from participating Instacart grocery retailers within Provi's website. It is designed to replenish bar and restaurant supplies between scheduled deliveries, such as garnishes, juices, mixers, paper goods and cleaning supplies.\n\nThe embedded Instacart experience includes browsing participating retailers, ordering and delivery tracking. The release describes nationwide availability to Provi customers but does not guarantee every product or retailer at every address and hour. The integration is limited to non-alcohol items even though Provi operates in the beverage-alcohol industry.\n\nProvi cites an existing network of more than 1,400 distributors, nearly 50,000 active retailers and over 1.4 million products. These describe the overall platform, not businesses newly joining the Instacart integration, orders already placed through it or newly opened stores.\n\nNo agreement value, commercial pricing, delivery fees or expected Instacart revenue was disclosed. The new development is a live embedded business-ordering channel, separate from the DoorDash acquisition agreement in n-0217. This release does not confirm that merger closed or change its terms.",
+    "קישור": "https://www.prnewswire.com/news-releases/provi-and-instacart-partnership-brings-same-day-grocery-delivery-to-bars-and-restaurants-nationwide-302936978.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/provi-and-instacart-partnership-brings-same-day-grocery-delivery-to-bars-and-restaurants-nationwide-302936978.html",
+        "label": "Instacart ו-Provi: הודעת השירות והזמינות המלאה",
+        "label_en": "Instacart and Provi: full service and availability announcement"
+      }
+    ],
+    "הועלה": "2026-11-12 16:09",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "113ce4dc50cad10d4566eb99b1d1553ea592ea4f441c21d01f4d358dcce5dd2d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1452",
+    "category": "micro",
+    "חברה": "SCHW",
+    "symbols": [
+      "SCHW"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Schwab (SCHW): פיילוט MCP מחבר לקוחות נבחרים ל-Claude; מסחר אופציות מורחב כבר זמין בניירות נבחרים",
+    "כותרת_en": "Schwab (SCHW): MCP pilot connects selected clients to Claude; extended options sessions live for selected underlyings",
+    "טקסט": "12.11.2026 | הודעת Schwab המקורית ב-Business Wire נקראה במלואה, כולל תנאי הזכאות ואזהרות הסיכון. שעת הפרסום הראשונה במקור לא אומתה.\n\nSchwab משיקה שרת Model Context Protocol משלה, שמאפשר ללקוחות שאישרו גישה לחבר את פלטפורמת ה-AI שלהם למידע בחשבון. השירות נמצא כעת בפיילוט לקבוצה נבחרת של לקוחות המשתמשים ב-Claude של Anthropic. הרחבת הגישה והוספת פלטפורמות AI נוספות מתוכננות לחודשים הבאים; זו אינה זמינות כללית לכל הלקוחות.\n\nלפי ההודעה, החיבור יכול לספק נתוני שוק ומחקר, ניתוח ביצועי פוזיציות וסיכום תיק, יצירת התראות וארגון מידע. רק כאשר החשבון מופעל ל-thinkorswim הוא מאפשר גם הכנה, ביצוע וניהול עסקאות, כשהלקוח נשאר מעורב בתהליך. אין כאן הרשאה למסחר אוטונומי בלתי מוגבל או חיבור שהופעל אוטומטית לכל החשבונות. Anthropic אינה חברה מסונפת ל-Schwab.\n\nבנפרד, לקוחות Schwab יכולים כעת לסחור באופציות על כ-30 מניות, קרנות סל ומדדים נבחרים ב-Cboe, כולל שבע מניות הטכנולוגיה הגדולות וחמש אופציות מדד. המקטעים החדשים בימים שני עד שישי הם 07:30–09:25 ו-16:00–16:15 בשעון ניו יורק. אלה שעות מקומיות של הבורסה, לא מסחר אופציות מסביב לשעון או בכל נכס.\n\nהחברה מזהירה שמסחר מחוץ לשעות הרגילות כרוך בין היתר בנזילות נמוכה יותר, תנודתיות ומרווחים גבוהים יותר וסיכוני ביצוע. באופציות נדרשת זכאות מתאימה, וקיים סיכון להפסד העולה על ההשקעה הראשונית בחלק מהאסטרטגיות. ההודעה אינה המלצה לבצע עסקה.\n\nכלי thinkorswim Assistant, לחיפוש ולהדרכה בשפה טבעית, צפוי להגיע בקרוב ולא מוצג כאן כמוצר שכבר הושק לכל המשתמשים. הרחבת Portfolio Insights כוללת רכיבים זמינים ורכיבים שעדיין מתוכננים. המהלך נפרד מהוספת מטבעות למסחר ב-Schwab Crypto ב-n-1166; לא פורסמו מספר משתתפים בפיילוט או הכנסה חדשה ממנו.",
+    "טקסט_en": "November 12, 2026 | Schwab's full original Business Wire release was read, including eligibility and risk disclosures. The original publication hour was not verified.\n\nSchwab is introducing its own Model Context Protocol server to connect an authorized client's AI platform with account information. It is currently in pilot for selected clients using Anthropic's Claude. Wider access and support for more AI platforms are planned over coming months, not generally available to every client now.\n\nThe release describes market data and research, position-performance analysis and portfolio summaries, alerts and information organization. Preparing, placing and managing trades requires a thinkorswim-enabled account and keeps the client in the loop. This is not permission for unrestricted autonomous trading or an automatically enabled connection on every account. Anthropic is not affiliated with Schwab.\n\nSeparately, Schwab clients can now trade options on approximately 30 selected stocks, ETFs and indexes on Cboe, including the Magnificent Seven and five index options. New Monday-Friday sessions are 07:30-09:25 and 16:00-16:15 New York time. These are exchange-local hours, not around-the-clock options trading or availability for every underlying.\n\nThe company warns extended-hours risks include lower liquidity, higher volatility, wider spreads and execution risks. Options require eligibility and some strategies can lose more than the initial investment. The announcement is not a recommendation to trade.\n\nThe natural-language thinkorswim Assistant for platform learning and guidance is expected soon, not presented as already launched to everyone. Portfolio Insights enhancements mix available and still-planned capabilities. This is separate from Schwab Crypto's added assets in n-1166. No pilot participant count or new revenue from the service was disclosed.",
+    "קישור": "https://www.businesswire.com/news/home/20261112652629/en/Schwab-Announces-Platform-Enhancements-Including-MCP-Server-to-Connect-Clients-AI-Platforms-With-Their-Schwab-Accounts",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261112652629/en/Schwab-Announces-Platform-Enhancements-Including-MCP-Server-to-Connect-Clients-AI-Platforms-With-Their-Schwab-Accounts",
+        "label": "Schwab: הודעת הפלטפורמה המקורית, הזכאות ושעות המסחר",
+        "label_en": "Schwab: original platform release, eligibility and trading hours"
+      }
+    ],
+    "הועלה": "2026-11-12 16:09",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ab9105376ec8a0bff5c729deec0a40087b240557cec30323d3d17213ff1612bc"
+      }
+    }
   }
 ]
