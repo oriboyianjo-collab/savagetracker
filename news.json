@@ -37435,5 +37435,68 @@
         "source_hash": "06bed73bf81207956a232d7edd2c40fc4a8967480d0a8ab16baee749aa3943fb"
       }
     }
+  },
+  {
+    "מזהה": "n-1474",
+    "כותרת": "גוגל (GOOGL) משיקה את Gemini 4 Hydrogen בחיפוש ובמוצרי AI, עם גישה גם למשתמשים חינמיים",
+    "כותרת_en": "Google (GOOGL) launches Gemini 4 Hydrogen across Search and AI products, including free-user access",
+    "תאריך": "2026-11-12 20:00",
+    "category": "micro",
+    "קישור": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "מקורות": [
+      {
+        "label": "Google, הודעת המודל",
+        "label_en": "Google, model announcement",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+      },
+      {
+        "label": "Google Search, פריסה עולמית",
+        "label_en": "Google Search, global rollout",
+        "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+      },
+      {
+        "label": "Google, זמינות למפתחים",
+        "label_en": "Google, developer availability",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
+      }
+    ],
+    "טקסט": "12.11.2026 | 20:00 שעון ישראל, לפי חותמת הפרסום בפיד הרשמי של Google.\n\nגוגל הכריזה על Gemini 4 Hydrogen, מודל שמיועד לביצוע מהיר של משימות קוד, עבודה עם כלים ועבודה רב-אופנית. החברה אומרת שהוא זמין מהיום בחיפוש לכל המשתמשים ברחבי העולם, לצד פריסה בממשק Gemini API, ב-AI Studio, באפליקציית Gemini ובמוצרים לעסקים. באפליקציית Gemini, משתמשים חינמיים יקבלו גישה דרך בחירה אוטומטית של המודל כשהוא מתאים לבקשה; אין להסיק שכל המסלולים מקבלים אותן מגבלות או בחירה ידנית זהה.\n\nבחיפוש, גוגל מציגה הבנה טובה יותר של שאלות מורכבות, הפעלת חיפושים מקבילים בנושאי המשנה, יותר קישורים ותשובות חזותיות הכוללות תמונות וטבלאות השוואה. החברה אומרת שהשיפור תומך בכל שפות AI Mode הנתמכות. אלו תכונות לפי הודעת החברה, לא בדיקת איכות עצמאית.\n\nמחיר ה-API המוצהר הוא 1.50 דולר למיליון טוקני קלט ו-7.50 דולר למיליון טוקני פלט, לאורך חלון הקשר של מיליון טוקנים. יש ארבע רמות חשיבה. ב-Google Antigravity הגישה מיועדת למנויי AI Pro ו-Ultra בתשלום; גוגל מציגה גם כלי Orchestrator שמעביר עבודה בין Hydrogen למודלים נוספים.\n\nההשקה מרחיבה את הגישה למוצרי Gemini 4 מעבר להכרזת Carbon בגישה מוגבלת באוקטובר. גוגל מציגה שיפורי מהירות וביצועים במבחנים, אך אלה טענות ומדידות שפרסמה החברה. אין בהודעות תחזית הכנסות או נתון שימוש חדש שמכמת את התרומה לאלפבית.",
+    "טקסט_en": "Nov 12, 2026 | 20:00 Israel time, from the publication timestamp in Google's official feed.\n\nGoogle announced Gemini 4 Hydrogen, a model designed for fast execution of coding, tool-use and multimodal tasks. Google says it is available starting today in Search for all users globally, alongside rollout across the Gemini API, AI Studio, the Gemini app and business products. In the Gemini app, free users get access through automatic model selection when it is appropriate for the prompt; this does not mean every tier has the same limits or manual model choice.\n\nIn Search, Google describes better handling of complex questions, simultaneous searches across subtopics, a wider range of links and visual answers including images and comparison tables. Google says the improvement covers all supported AI Mode languages. These are company-described features, not an independent quality test.\n\nAnnounced API pricing is $1.50 per million input tokens and $7.50 per million output tokens across a one-million-token context window. Four thinking levels are offered. Google Antigravity access is for paid AI Pro and Ultra subscribers; Google also introduces Orchestrator, which switches work between Hydrogen and other models.\n\nThe launch broadens access to Gemini 4 products beyond October's limited-access Carbon announcement. Google reports speed and benchmark improvements, but those are company claims and measurements. The announcements include no revenue forecast or new usage figure quantifying the contribution to Alphabet.",
+    "הועלה": "2026-11-12 20:17",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7a5e43c6a510f8e3d84678de8cd619fc99d26845189b0724b40be5561d62c674"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1475",
+    "כותרת": "לוח הפד ל-2027: ישיבת אוקטובר מסומנת לדיון אסטרטגי; שבע ישיבות להצבעות ריבית לפי CNBC",
+    "כותרת_en": "Fed 2027 calendar labels October as a strategy meeting; CNBC reports seven rate-voting meetings",
+    "תאריך": "2026-11-12 19:48",
+    "category": "macro",
+    "קישור": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "מקורות": [
+      {
+        "label": "הפדרל ריזרב, לוח הישיבות הרשמי",
+        "label_en": "Federal Reserve, official meeting calendar",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      {
+        "label": "CNBC, Jeff Cox, פירוט מתכונת ההצבעות",
+        "label_en": "CNBC, Jeff Cox, voting-session details",
+        "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html"
+      }
+    ],
+    "טקסט": "12.11.2026 | 19:48 שעון ישראל: פרסום כתבת CNBC. לוח הפד הרשמי מסומן כמעודכן ל-12 בנובמבר, ללא שעת עדכון.\n\nהפד עדכן את לוח 2027 וסימן את הישיבה ב-26–27 באוקטובר כ-Monetary Policy Strategy Meeting, ישיבה לאסטרטגיית המדיניות המוניטרית. לפי CNBC, הישיבה הזאת מיועדת לדיון רחב ללא הצבעה רשמית על הריבית וללא הודעת מדיניות לאחריה, ובשנה יתקיימו שבע ישיבות המיועדות להצבעות ריבית. הלוח הרשמי עצמו מאשר את תאריכי הישיבה ואת תווית האסטרטגיה; פירוט אי-ההצבעה מיוחס לדיווח CNBC.\n\nהלוח המעודכן מפרט ישיבות ב-26–27 בינואר, 16–17 במרץ, 27–28 באפריל, 8–9 ביוני, 27–28 ביולי, 14–15 בספטמבר, 26–27 באוקטובר ו-16–17 בנובמבר. נובמבר הוא המועד האחרון המופיע ל-2027, ואין בו כעת ישיבת דצמבר. הפד מדגיש שכל מועד זמני עד לאישור בישיבה שלפניו; הוא מציין גם ישיבה מתוכננת ל-25–26 בינואר 2028.\n\nיו\"ר הפד קווין וורש כבר הציג ב-28 באוקטובר את התוכנית לשלב ישיבה אסטרטגית ב-2027. החידוש כעת הוא השיבוץ המפורש של ישיבת אוקטובר והלוח המעודכן, לא עצם הרעיון. הישיבה באוקטובר אינה מבוטלת: היא נשארת מפגש לדיון אסטרטגי. אין כאן החלטת ריבית חדשה או הודעה על שינוי מועד הישיבה הקרובה ב-8–9 בדצמבר 2026.",
+    "טקסט_en": "Nov 12, 2026 | 19:48 Israel time: CNBC article publication. The official Fed calendar is marked updated November 12 without an update time.\n\nThe Fed updated its 2027 calendar and labeled October 26–27 a Monetary Policy Strategy Meeting. According to CNBC, that session is intended for broad discussion without a formal rate vote or post-meeting policy statement, leaving seven meetings intended for rate votes during the year. The official calendar itself confirms the dates and strategy label; the no-vote details are attributed to CNBC.\n\nThe updated calendar lists January 26–27, March 16–17, April 27–28, June 8–9, July 27–28, September 14–15, October 26–27 and November 16–17. November is the final listed 2027 meeting and the calendar currently contains no December meeting. The Fed says every date is tentative until confirmed at the preceding meeting; it also lists a planned January 25–26, 2028 meeting.\n\nFed Chair Kevin Warsh already outlined the plan for a 2027 strategy session on October 28. What is new now is the explicit designation of October and the updated calendar, rather than the idea itself. October is not canceled: it remains a strategy discussion meeting. This is not a new rate decision or an announcement changing the next meeting on December 8–9, 2026.",
+    "הועלה": "2026-11-12 20:17",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7167be816b579db4e74f3b6940d93cae3d1bc7d19e38202b193203607b5346c1"
+      }
+    }
   }
 ]
