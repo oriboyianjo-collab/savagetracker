@@ -36771,5 +36771,42 @@
         "source_hash": "2056fe86241c7e0c6f087323672488b32ca5891cf66bd828f8f55eee9c55df16"
       }
     }
+  },
+  {
+    "מזהה": "n-1454",
+    "category": "micro",
+    "חברה": "AGLT",
+    "symbols": [
+      "AGLT"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 16:34",
+    "כותרת": "Agility Robotics (AGLT): ירידה של כ-13.6% בתחילת המסחר; לא אומתה סיבה חדשה",
+    "כותרת_en": "Agility Robotics (AGLT): down about 13.6% in early trading; no new specific cause verified",
+    "טקסט": "12.11.2026 | ציטוט מסחר רגיל של CNBC בשעה 16:34:59 בישראל, 09:34:59 EST. זו תמונת מצב מתוארכת, לא מחיר חי מתעדכן ולא תשואת הסגירה.\n\nמניית Agility Robotics נסחרה ב-7.89 דולר, ירידה של 1.24 דולר, כ-13.58%, לעומת סגירת היום הקודם ב-9.13 דולר. הנתון הוא מהמסחר הרגיל, לא מהמסחר המוקדם; הירידה אינה מחושבת ממחיר הפתיחה.\n\nלא אומתה הודעה חדשה של החברה שמסבירה את התנועה. בפרט, אין לייחס את הירידה אוטומטית לרישום מניות למכירה חוזרת, לדילול חדש או לשחרור חסימת מכירה. הודעת החברה מ-10 בנובמבר תיארה רישומים מקובלים לאחר המיזוג, ללא תמורה לחברה ממכירות בעלי המניות, ובכפוף לחסימת 180 יום עם חריגים ותנאי שחרור מוקדם. ההודעה גם אמרה שהרישומים טרם נכנסו לתוקף במועד פרסומה; זה אינו אימות של מצבם המשפטי כעת.\n\nקשור ל-n-0397, השלמת המיזוג עם Churchill Capital XI. החידוש כאן הוא תנועת מחיר דו-ספרתית במניה תחת AGLT היום, לא אישור נוסף של העסקה או שינוי בהזמנות הרובוטים. נתוני מחירים עשויים להשתנות במהירות.",
+    "טקסט_en": "November 12, 2026 | CNBC regular-session quote at 16:34:59 Israel time, or 09:34:59 EST. This is a dated snapshot, not a continuously updating live price or the closing return.\n\nAgility Robotics traded at $7.89, down $1.24, or about 13.58%, versus the previous close of $9.13. This is regular trading, not pre-market, and the change is not measured from the opening price.\n\nNo new company announcement explaining the move was verified. In particular, the decline should not automatically be attributed to resale registration, new dilution or an unlocked sale restriction. The company's November 10 release described customary post-merger registrations, with no proceeds to the company from selling shareholders' resales, subject to a 180-day lockup with exceptions and early-release conditions. It also said the registrations were not effective when published; that is not verification of their legal status now.\n\nRelated to n-0397, completion of the Churchill Capital XI merger. The development here is today's double-digit share-price move under AGLT, not another confirmation of the transaction or a change in robot orders. Prices may change quickly.",
+    "קישור": "https://quote.cnbc.com/quote-html-webservice/quote.htm?symbols=AGLT&noform=1&partnerId=2&fund=1&exthrs=1&output=json",
+    "מקורות": [
+      {
+        "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm?symbols=AGLT&noform=1&partnerId=2&fund=1&exthrs=1&output=json",
+        "label": "CNBC: ציטוט מתוארך במסחר הרגיל",
+        "label_en": "CNBC: dated regular-session quote"
+      },
+      {
+        "url": "https://www.agilityrobotics.com/content/agility-robotics-files-customary-registration-statements-following-completion-of-business-combination",
+        "label": "Agility: הודעת הרישום מ-10 בנובמבר, לא סיבה מאומתת לירידה",
+        "label_en": "Agility: November 10 registration release, not a verified cause of the decline"
+      }
+    ],
+    "הועלה": "2026-11-12 16:35",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d09f7a6a39b71f425c0a24658d8ece12b92b7fa9c48ec61af7be0ac69b121b11"
+      }
+    }
   }
 ]
