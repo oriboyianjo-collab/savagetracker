@@ -37186,5 +37186,37 @@
         "source_hash": "d2b70ecd7eebe19b965b9861816e9a013b73b9c5c2d193dbf2690f36390131fd"
       }
     }
+  },
+  {
+    "מזהה": "n-1466",
+    "category": "micro",
+    "חברה": "AMD",
+    "symbols": [
+      "AMD"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 17:00",
+    "כותרת": "AMD: שבבי Versal TR להגנה מפני תקיפות פיזיות; דגימות צפויות במחצית השנייה של 2027, ייצור ב-2028",
+    "כותרת_en": "AMD: Versal TR devices target physical attacks; samples expected in late 2027, production in 2028",
+    "טקסט": "12.11.2026 | הודעת AMD המקורית פורסמה ב-09:00 CST, 17:00 שעון ישראל, ונקראה במלואה כולל שתי הערות ההגבלה.\n\nAMD הכריזה על משפחת Versal tamper-resistant, שבבים המשלבים מעבדי Arm, מנועי AI ולוגיקה ניתנת לתכנות, עם שכבת הגנה נוספת למידע רגיש מפני סוגים מוגדרים של תקיפה פיזית. בניגוד לאבטחת תוכנה בלבד, ההגנה מכוונת בין השאר לגישה פיזית לגב הסיליקון.\n\nלפי החברה, שבב הגנה מבוסס חיישנים מחובר לשבב החישוב בטכנולוגיית 3D active-on-active, מכסה את הגב שלו, מזהה תקיפות ומונע אתחול אם שכבת ההגנה הוסרה או נפגעה. נוספו גם האצות להצפנה פוסט-קוונטית ולחתימות ML-DSA ו-SLH-DSA, חיזוק הגנת מפתחות ויכולות זיהוי הפרעות מתח. אלה מפרטי ותיאורי הגנה של AMD, לא אימות בלתי תלוי שהמערכת חסינה לכל תקיפה.\n\nהערת החברה מפורשת: tamper-resistant אינו tamper-proof. ההגנה חלה על שיטות תקיפה פיזית מוגדרות ובהתאם למודל האיום ולמגבלות בתיעוד. גם טענת ״ראשונה בתעשייה״ מבוססת על ניתוח פנימי של AMD בנובמבר 2026 של שבבי FPGA ו-SoC מתחרים, לא על בדיקת השוואה עצמאית.\n\nהדגימות הראשונות של Versal TR צפויות במחצית השנייה של 2027, וייצור במחצית הראשונה של 2028. כיום ניתן לפתח על דגמים רגילים תואמי-ממדים ממשפחת Versal AI Edge Series Gen 2, ואחר כך לעבור לדגם המוגן המתאים. זמינות הדגמים הרגילים אינה זמינות Versal TR כבר היום.\n\nהמהלך מיועד לשימושים כגון ביטחון, תשתיות תעשייה, רשתות מרכזי נתונים ופינטק. ההודעה אינה מפרסמת מחיר, הזמנות, לקוחות חדשים או תחזית הכנסות. חיסכון אפשרי בשטח לוח, חומרה ופיתוח מוצג כיתרון שהחברה מתכננת, לא תוצאה כספית שנמדדה אצל לקוח.",
+    "טקסט_en": "November 12, 2026 | AMD's full original release was published at 09:00 CST, or 17:00 Israel time, and was read with both limitation footnotes.\n\nAMD announced Versal tamper-resistant devices, combining Arm CPUs, AI Engines and programmable logic with additional protection for sensitive information against specified physical attacks. Beyond software security, the design addresses physical access to the silicon backside.\n\nAMD says a sensor-based protection die is bonded to the compute die through 3D active-on-active technology, shields its backside, detects attacks and prevents boot if the protection die is removed or tampered with. Additional features include post-quantum cryptographic acceleration for ML-DSA and SLH-DSA signatures, stronger key safeguards and expanded voltage-glitch detection. These are AMD specifications and descriptions, not independent verification that the system resists every attack.\n\nThe footnote is explicit: tamper-resistant does not mean tamper-proof. Protection applies to specified physical attack methods under the documented threat model and limitations. The industry-first claim also comes from AMD's internal November 2026 analysis of competing FPGAs and adaptive SoCs, not independent comparative testing.\n\nFirst Versal TR samples are expected in the second half of 2027, followed by production in the first half of 2028. Customers can develop today on selected footprint-equivalent standard Versal AI Edge Series Gen 2 devices and later transition to the matching protected device. Availability of standard parts does not mean Versal TR is available today.\n\nTarget uses include defense, industrial infrastructure, data-center networking and fintech. No price, order, new customer or revenue forecast was disclosed. Potential board-area, hardware and development savings are intended company benefits, not measured customer financial results.",
+    "קישור": "https://newsroom.amd.com/news/amd-advances-built-in-protection-physical-attacks-security-critical-systems/",
+    "מקורות": [
+      {
+        "url": "https://newsroom.amd.com/news/amd-advances-built-in-protection-physical-attacks-security-critical-systems/",
+        "label": "AMD: הודעת Versal TR המקורית ושתי הערות ההגבלה",
+        "label_en": "AMD: original Versal TR release and both limitation footnotes"
+      }
+    ],
+    "הועלה": "2026-11-12 17:32",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2a7b6cfe3b50348c771775ad06a89c0fd706ccafe8995adc9b3cada163997a76"
+      }
+    }
   }
 ]
