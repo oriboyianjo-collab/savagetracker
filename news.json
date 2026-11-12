@@ -37540,5 +37540,38 @@
         "source_hash": "9f568f5a471be880233bfda2f2ab494bfc34743a240a7f4239e9ce576618780b"
       }
     }
+  },
+  {
+    "מזהה": "n-1477",
+    "category": "micro",
+    "חברה": "SMCI",
+    "symbols": [
+      "SMCI",
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 21:12",
+    "כותרת": "עדכון לדיווח Semafor: Supermicro מכחישה ש-Megaspeed הייתה לקוחה וטוענת לשיתוף פעולה עם הרשויות",
+    "כותרת_en": "Update to Semafor report: Supermicro denies Megaspeed was a customer and says it cooperated with authorities",
+    "טקסט": "12.11.2026 | עדכון נפרד לדיווח על חקירות משרד המשפטים שפורסם מוקדם יותר היום. הגרסה המלאה של Semafor, שעודכנה ב-14:12 EST, 21:12 שעון ישראל, נקראה מחדש. תוספת תגובת החברה משנה את הניסוח הקודם שלפיו Supermicro לא הגיבה מיד; הפריט הקודם נשמר כרישום היסטורי.\n\nדובר Supermicro מסר ל-Semafor כי Megaspeed אינה לקוחה של החברה ומעולם לא הייתה לקוחה שלה. עוד אמר כי החברה שיתפה פעולה באופן מלא עם גורמים בארה\"ב ובטייוואן, וכי סיפקה מידע מרצונה ונענתה לכל הבקשות של רשויות סינגפור עד כה. הדובר הוסיף שהחברה מקיימת תוכנית ציות ופועלת עם רשויות ושותפים נגד הסטת ציוד.\n\nאלה הכחשה וטענות לשיתוף פעולה מטעם החברה, כפי שצוטטו בכתבה, ולא ממצאי חקירה או אישור של הרשויות. בהודעת משרד הפנים הסינגפורי שנבדקה ופורסמה מוקדם יותר היום נמסרה גרסה שונה על היקף שיתוף הפעולה, שתואר כמוגבל. תגובת החברה אינה מכריעה בין הגרסאות, ואינה מוכיחה שכל המידע המבוקש נמסר או שכל הבדיקות נסגרו.\n\nהכחשת יחסי הלקוח מתייחסת לקשר עם Megaspeed, לא להכחשה מוכחת של כל החקירות המתוארות בכתבה. אין בתגובה הודאה בהפרה, זיכוי, ממצא שהועברו שבבים לסין, אישום חדש או השפעה כספית כמותית. הדיווח המעודכן עדיין מציין שאין כרגע אינדיקציה להגשת אישומים פליליים נגד NVIDIA או ג'נסן הואנג; דוברי NVIDIA ומשרד המשפטים לא מסרו תגובה ו-Megaspeed לא הגיבה מיד.",
+    "טקסט_en": "November 12, 2026 | Separate update to today's earlier report on Justice Department inquiries. The full Semafor article, updated at 14:12 EST, or 21:12 Israel time, was reread. The added company response changes the earlier wording that Supermicro did not immediately respond; the earlier item is preserved as a historical record.\n\nA Supermicro spokesperson told Semafor that Megaspeed is not, and has never been, a Supermicro customer. The spokesperson also said the company fully cooperated with US and Taiwanese officials and voluntarily provided information and engaged with all requests from Singapore authorities to date. The spokesperson added that the company maintains a compliance program and works with authorities and partners against diversion.\n\nThese are the company's denial and cooperation claims as quoted by the outlet, not investigation findings or confirmation by authorities. The Singapore Ministry of Home Affairs statement checked and reported earlier today gave a different account of the extent of cooperation, describing it as limited. The company's response does not resolve those differing accounts, prove all requested information was supplied or establish that all inquiries have closed.\n\nThe customer denial concerns the relationship with Megaspeed; it does not disprove every inquiry described in the article. The response establishes no admission of wrongdoing, exoneration, chip-diversion finding, new charge or quantified financial effect. The updated article still says there is no indication of criminal charges against NVIDIA or Jensen Huang at this time; NVIDIA and DOJ spokespeople did not provide comment and Megaspeed did not immediately respond.",
+    "קישור": "https://www.semafor.com/article/11/12/2026/us-doj-probes-nvidia",
+    "מקורות": [
+      {
+        "url": "https://www.semafor.com/article/11/12/2026/us-doj-probes-nvidia",
+        "label": "Semafor: הכתבה המלאה המעודכנת עם תגובת Supermicro",
+        "label_en": "Semafor: full updated article with Supermicro response"
+      }
+    ],
+    "הועלה": "2026-11-12 21:31",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6b20b2bdd432b62298945aad91cf7102a2a4148643d28657243a5fed762cb32c"
+      }
+    }
   }
 ]
