@@ -37900,5 +37900,133 @@
         "source_hash": "ae77c035fadf7d82043370cd94cf542b6aed9d79954f08f00bb9fa76ba0ed98b"
       }
     }
+  },
+  {
+    "מזהה": "n-1488",
+    "category": "micro",
+    "חברה": "Sempra",
+    "symbols": [
+      "SRE"
+    ],
+    "sectors": [
+      "utilities"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "פרטים כספיים נוספים מ-Sempra: 4.56 מיליארד דולר במזומן בסגירה ויתרת תמורה דחויה נושאת ריבית",
+    "כותרת_en": "Additional Sempra closing details: $4.56 billion cash at close plus interest-bearing deferred consideration",
+    "טקסט": "12.11.2026 | דיווח 8-K המקורי נקרא במלואו עד החתימות. שעת ההודעה הראשונה לא אומתה; תאריך האירוע והדיווח הוא 12 בנובמבר.\n\nזהו עדכון משלים על בסיס דיווח SEC, לא תיקון לידיעה הקודמת שהתבססה על הודעת הסגירה. ההודעה הקודמת לא מסרה תמורה; הדיווח מוסיף את הרכב התשלום, החשבונאות ומועד חילופי התפקידים. הידיעה הקודמת נשמרה ללא שינוי.\n\nבגין מכירת 45% מ-Sempra Infrastructure Partners התקבלו בסגירה 4.56 מיליארד דולר במזומן, בכפוף להתאמות לאחר הסגירה. יתרת התמורה כוללת שני רכיבי קרן דחויים: 4.14 מיליארד דולר בריבית שנתית של 7.5% בריבית דריבית רבעונית, לפירעון ב-31 בדצמבר 2027; ועוד 1.20 מיליארד דולר בריבית שנתית של 8.5% לפני 1 בינואר 2031 ו-10% לאחר מכן, גם בחישוב רבעוני, לפירעון ב-11 בפברואר 2034. הסכומים הדחויים אינם מזומן שכבר התקבל, והריבית העתידית אינה תמורה ששולמה היום.\n\nלרכיב הראשון יש תמיכה במכתבי התחייבות הון של משקיעים, בכפוף לתנאיהם. הרכיב השני ניתן לפירעון מוקדם, בכפוף להוראת פיצוי בגין ריבית עד סוף 2027. סכומי הקרן אינם כוללים את מלוא הריבית עד לפירעון, ואין לחבר סכומי פירעון עתידיים הכוללים ריבית כאילו היו מזומן בסגירה.\n\nSempra צופה רווח מכירה של 2.80-3.30 מיליארד דולר לפני מס, ולצדו עלויות עסקה נוספות של 450-550 מיליון דולר לפני מס. אלה אומדנים נפרדים ומקדמיים שעשויים להשתנות מהותית, לא רווח סופי או מזומן נוסף שהתקבל. החברה מפסיקה לאחד את הפעילות מ-12 בנובמבר ומטפלת בהחזקה שנותרה, 25%, בשיטת השווי המאזני בתוך מגזר Sempra Infrastructure.\n\nבעקבות הסגירה, מינוי ג'סטין בירד למנהל הכספים ייכנס לתוקף ב-13 בנובמבר. קארן סדגוויק תעבור באותו מועד לתפקיד מנכ\"לית SoCalGas. אלה מועדי כניסה לתוקף של חילופים שהוכרזו קודם, לא מינויים שהומצאו היום.",
+    "טקסט_en": "November 12, 2026 | The full original 8-K was read through the signatures. The first announcement time was not verified; the event and filing date is November 12.\n\nThis is a supplemental update based on the SEC filing, not a correction to the earlier closing-release item. The release gave no consideration amount; the filing adds payment structure, accounting and the effective dates of leadership changes. The earlier item remains unchanged.\n\nFor the sale of 45% of Sempra Infrastructure Partners, Sempra received $4.56 billion cash at close, subject to post-closing adjustments. Remaining consideration includes two deferred principal components: $4.14 billion bearing 7.5% annual interest compounded quarterly, due December 31, 2027; and $1.20 billion bearing 8.5% before January 1, 2031 and 10% thereafter, also compounded quarterly, due February 11, 2034. Deferred amounts are not cash already received, and future interest was not paid today.\n\nThe first component is supported by investor equity commitment letters, subject to their terms. The second permits prepayment subject to an interest make-whole through the end of 2027. Principal amounts exclude the full interest to maturity; future principal-and-interest maturity amounts must not be added as though they were closing cash.\n\nSempra expects a $2.80-$3.30 billion pretax sale gain and separately $450-$550 million pretax additional transaction costs. These are separate preliminary estimates that may change materially, not a final gain or extra cash received. Sempra deconsolidates the business effective November 12 and accounts for its retained 25% interest under the equity method within its existing Sempra Infrastructure segment.\n\nFollowing closing, Justin Bird's CFO appointment becomes effective November 13. Karen Sedgwick moves to SoCalGas CEO on the same date. These are effective dates for previously announced changes, not newly invented appointments.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1032208/000103220826000057/sempra-20261112.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1032208/000103220826000057/sempra-20261112.htm",
+        "label": "Sempra: דיווח 8-K מלא מ-12 בנובמבר 2026",
+        "label_en": "Sempra: full November 12, 2026 Form 8-K"
+      }
+    ],
+    "הועלה": "2026-11-12 23:33",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "743b0600f5f787b19d5bc24652435b604f7c3c71dc5e0ab6e522df7575cae707"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1489",
+    "category": "micro",
+    "חברה": "VICI Properties",
+    "symbols": [
+      "VICI"
+    ],
+    "sectors": [
+      "real estate"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "VICI נטלה הלוואה חדשה של 500 מיליון דולר עד 2032; פדיון אג\"ח מתוכנן ל-19 בנובמבר",
+    "כותרת_en": "VICI fully draws new $500 million term loan due 2032; note redemption planned for November 19",
+    "טקסט": "12.11.2026 | דיווח 8-K המקורי נקרא במלואו עד החתימות. שעת ההודעה הראשונה לא אומתה; תאריך האירוע והדיווח הוא 12 בנובמבר.\n\nVICI Properties L.P. התקשרה בתיקון להסכם האשראי והוסיפה הלוואת term loan A לא מובטחת בהיקף 500 מיליון דולר. ההלוואה הועמדה במלואה ב-12 בנובמבר ומועד פירעונה 31 בינואר 2032. זהו אשראי שנמשך בפועל, לא רק מסגרת שטרם נוצלה.\n\nהלווה מצפה להשתמש בהלוואה לפדיון 500 מיליון דולר מתוך 729.5 מיליון דולר קרן אג\"ח בריבית 5.750% לפירעון ב-2027, ב-19 בנובמבר 2026. זהו שימוש מתוכנן ומועד עתידי, לא אישור שהפדיון כבר בוצע או שכל הסדרה נפדתה.\n\nהריבית על ההלוואה משתנה: לפי בחירת הלווה SOFR בתוספת מרווח של 0.675%-1.55%, או ריבית בסיס בתוספת 0%-0.55%, בהתאם לדירוג החוב ולמינוף. אין כאן קופון קבוע או שיעור כולל יחיד שאומת להיום.\n\nבנפרד, התיקון מפחית את מרווחי הריבית במסגרת האשראי המתגלגלת הקיימת ב-0.05 נקודת אחוז, חמש נקודות בסיס, בכל מדרגת תמחור. המסגרת הקיימת היא 2.5 מיליארד דולר, לפירעון בפברואר 2029 עם שתי אפשרויות הארכה בנות חצי שנה; אין לספור אותה כהזרמת מזומן חדשה של 2.5 מיליארד דולר.",
+    "טקסט_en": "November 12, 2026 | The full original 8-K was read through the signatures. The first announcement time was not verified; the event and filing date is November 12.\n\nVICI Properties L.P. amended its credit agreement to add a $500 million senior unsecured term loan A. The loan was fully advanced on November 12 and matures January 31, 2032. This is an actual borrowing, not merely undrawn capacity.\n\nThe borrower expects to use the loan to redeem $500 million of its $729.5 million principal of 5.750% notes due 2027 on November 19, 2026. This is a planned use and future date, not confirmation redemption has occurred or that the entire series is being redeemed.\n\nThe term loan has floating interest: at the borrower's option, SOFR plus a 0.675%-1.55% margin or a base rate plus 0%-0.55%, depending on debt ratings and leverage. There is no single fixed coupon or verified all-in current rate here.\n\nSeparately, the amendment reduces margins on the existing revolving facility by 0.05 percentage point, or five basis points, at each pricing level. The existing $2.5 billion revolver matures in February 2029 with two six-month extension options; it is not a new $2.5 billion cash inflow.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1705696/000170569626000124/vici-20261112.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1705696/000170569626000124/vici-20261112.htm",
+        "label": "VICI Properties: דיווח 8-K מלא מ-12 בנובמבר 2026",
+        "label_en": "VICI Properties: full November 12, 2026 Form 8-K"
+      }
+    ],
+    "הועלה": "2026-11-12 23:33",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "123db3f929b2e2b20a3d04771afb6e2e8efcb377a463a2401faf6bb497fe4550"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1490",
+    "category": "micro",
+    "חברה": "onsemi",
+    "symbols": [
+      "ON"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "onsemi חידשה מסגרת אשראי מתגלגלת של 1.75 מיליארד דולר; לא נמשכו כספים בסגירה",
+    "כותרת_en": "onsemi renews $1.75 billion revolving facility; no borrowing at closing",
+    "טקסט": "12.11.2026 | דיווח 8-K המקורי נקרא במלואו עד החתימות. שעת ההודעה הראשונה לא אומתה; תאריך האירוע והדיווח הוא 12 בנובמבר.\n\nON Semiconductor התקשרה בהסכם אשראי מתוקן ומנוסח מחדש, המחליף את נוסח הסכם יוני 2023 ומספק מסגרת מתגלגלת בכירה של 1.75 מיליארד דולר. החברה לא לוותה סכום כלשהו במסגרת במועד הסגירה. אין מדובר בגיוס מזומן של 1.75 מיליארד דולר, ולא אומתה כאן הגדלה לעומת היקף המסגרת הקודמת.\n\nמועד הפירעון המתוכנן הוא 12 בנובמבר 2031, אך יש תנאי הקדמה ליום ה-91 לפני פירעון אג\"ח מסוימות להמרה. התנאי אינו חל אם החוב הרלוונטי הוסדר לפי תנאי שטר הנאמנות או אם הנזילות המוגדרת בהסכם מספיקה לכיסויו. לכן 2031 אינו מועד מובטח ללא תנאי.\n\nמשיכות עתידיות עשויות לשמש להון חוזר, מטרות כלליות ורכישות מותרות. זו גמישות מימון אפשרית, לא הודעה על רכישה חדשה או אישור שרכישת Ferric שכבר סוקרה הושלמה.\n\nהמסגרת כוללת ערבויות חברות בנות ובטוחות על רוב נכסי החברה והערבות, בכפוף לחריגים. הריבית משתנה לפי סוג ההלוואה והמטבע, ומרווחים עשויים להשתנות עם המינוף; אין כאן ריבית קבועה כוללת או חיסכון כספי מאומת לעומת ההסכם הקודם.",
+    "טקסט_en": "November 12, 2026 | The full original 8-K was read through the signatures. The first announcement time was not verified; the event and filing date is November 12.\n\nON Semiconductor entered an amended and restated credit agreement replacing the June 2023 agreement's terms and providing a $1.75 billion senior revolving facility. It borrowed nothing under the revolver at closing. This is not $1.75 billion cash raised, and an increase over the prior facility size was not verified here.\n\nScheduled maturity is November 12, 2031, subject to a springing maturity on the 91st day before certain convertible notes mature. The condition does not apply if the relevant notes have been defeased under their indenture or defined liquidity is sufficient to cover them. Therefore 2031 is not an unconditional maturity date.\n\nFuture borrowings may fund working capital, general corporate purposes and permitted acquisitions. That is potential funding flexibility, not a new acquisition announcement or confirmation the previously covered Ferric deal has closed.\n\nThe facility has subsidiary guarantees and security over substantially all assets of the company and guarantors, subject to exceptions. Interest varies by borrowing type and currency, and margins may change with leverage; no single fixed all-in rate or verified savings against the former agreement are claimed.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126043431/ef20085485_8k.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126043431/ef20085485_8k.htm",
+        "label": "onsemi: דיווח 8-K מלא מ-12 בנובמבר 2026",
+        "label_en": "onsemi: full November 12, 2026 Form 8-K"
+      }
+    ],
+    "הועלה": "2026-11-12 23:33",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7883e0337d6eca94b8dccb8fa1edc1901ee64c822ce2391444adffe0a25b3c31"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1491",
+    "category": "micro",
+    "חברה": "Mid-America Apartment Communities",
+    "symbols": [
+      "MAA"
+    ],
+    "sectors": [
+      "real estate"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "MAA השלימה הנפקת אג\"ח של 350 מיליון דולר בריבית 5.35% לפירעון בדצמבר 2031",
+    "כותרת_en": "MAA completes $350 million 5.35% note issuance due December 2031",
+    "טקסט": "12.11.2026 | דיווח 8-K המקורי נקרא במלואו עד החתימות. שעת ההודעה הראשונה לא אומתה; תאריך האירוע והדיווח הוא 12 בנובמבר.\n\nMid-America Apartments L.P., השותפות התפעולית של Mid-America Apartment Communities, הנפיקה ומכרה ב-12 בנובמבר אג\"ח בכירות בסכום קרן כולל של 350 מיליון דולר. זהו דיווח על השלמת ההנפקה, לא רק תמחור או כוונה להנפיק.\n\nהריבית השנתית היא 5.350%, לפירעון ב-15 בדצמבר 2031. תשלומי הריבית חצי-שנתיים ב-15 ביוני וב-15 בדצמבר, החל מ-15 ביוני 2027. סכום הקרן אינו תמורה נטו לאחר עמלות והוצאות.\n\nהשותפות רשאית לפדות מוקדם לפני 15 בנובמבר 2031 בתוספת make-whole וריבית שנצברה; מתאריך זה ניתן לפדות במחיר של 100% מהקרן בתוספת הריבית שנצברה. זו אפשרות חוזית של המנפיקה, לא פדיון שכבר בוצע.\n\nהדיווח הראשי אינו מפרט תמורה נטו או שימוש מוגדר בתמורה. לכן אין לייחס את ההנפקה לפירעון חוב מסוים, לרכישת נכס או להגדלת תחזית הרווח ללא מקור נוסף. שטר הנאמנות המשלים מוזכר בדיווח אך לא נקרא כאן במלואו; הנתונים לעיל הם מהדיווח הראשי.",
+    "טקסט_en": "November 12, 2026 | The full original 8-K was read through the signatures. The first announcement time was not verified; the event and filing date is November 12.\n\nMid-America Apartments L.P., the operating partnership of Mid-America Apartment Communities, issued and sold $350 million aggregate principal of senior notes on November 12. This reports completion, not merely pricing or an intention to issue.\n\nThe annual coupon is 5.350% and maturity is December 15, 2031. Interest is payable semiannually on June 15 and December 15, starting June 15, 2027. Principal is not net proceeds after fees and expenses.\n\nThe partnership may redeem early before November 15, 2031 with a make-whole premium and accrued interest; from that date it may redeem at 100% of principal plus accrued interest. This is an issuer contractual option, not a completed redemption.\n\nThe main filing does not specify net proceeds or a defined use of proceeds. No repayment of a particular debt, property purchase or earnings-guidance increase is inferred. The supplemental indenture is referenced in the filing but was not read here in full; the facts above come from the main filing.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/912595/000119312526458436/maa-20261112.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/912595/000119312526458436/maa-20261112.htm",
+        "label": "Mid-America Apartment Communities: דיווח 8-K מלא מ-12 בנובמבר 2026",
+        "label_en": "Mid-America Apartment Communities: full November 12, 2026 Form 8-K"
+      }
+    ],
+    "הועלה": "2026-11-12 23:33",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9c0e5cf09dc2495e783a577ad381e723770d89c25b3762d167e07e9a04e87925"
+      }
+    }
   }
 ]
