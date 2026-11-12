@@ -35467,5 +35467,39 @@
         "source_hash": "428247dfc66913da7096b1b25bcb568f494a652cf9481a7ec8d82f17a5428e15"
       }
     }
+  },
+  {
+    "מזהה": "n-1413",
+    "category": "micro",
+    "תאריך": "2026-11-09",
+    "כותרת": "Rocket Lab דוחה חשש לניגוד עניינים כספקית Globalstar במסגרת בדיקת רכישת Iridium; אין הכרעת FCC",
+    "כותרת_en": "Rocket Lab disputes Globalstar supplier-conflict concern in Iridium deal review; no FCC ruling",
+    "טקסט": "השלמת סיקור למסמכי הצדדים בהליך רכישת Iridium בידי Rocket Lab, בתיק FCC מספר GN 26-257. תגובות Rocket Lab ו-SpaceX מתוארכות ל-9 בנובמבר 2026, ומכתב Globalstar ל-30 באוקטובר; שלושת המסמכים נקראו במלואם. שעת הפרסום המקורית לא אומתה. הכתבה המשנית מ-11 בנובמבר אינה החלטה חדשה של הרשות.\n\nGlobalstar ביקשה מהרשות לבחון חשש לניגוד אינטרסים: Rocket Lab היא ספקית של פלטפורמות לוויינים ותוכנה עבור Globalstar, ועשויה להפוך לבעלים של המתחרה Iridium. לטענת Globalstar, הדבר עלול להעניק לספקית תמריץ ואמצעים להעדיף את Iridium. Globalstar מציינת במפורש שאינה מתנגדת לעצם השילוב בין Rocket Lab ל-Iridium; אין כאן התנגדות גורפת לעסקה או הוכחה שכבר נפגעה אספקה.\n\nבתשובתה מ-9 בנובמבר דוחה Rocket Lab את הטענה. לדבריה, היא קבלנית משנה של MDA, תכננה ובנתה 17 פלטפורמות לפי מפרטי הקבלנית הראשית, ואינה קובעת את מועדי הפריסה, שירותי Globalstar או האסטרטגיה שלה. החברה טוענת שבניית הפלטפורמות הסתיימה, ובהמשך תפקידה יוגבל לתחזוקה ולפתרון תקלות. אלה עמדות החברה בהליך, לא ממצאים שקבע ה-FCC.\n\nRocket Lab מוסיפה שחובות הסודיות והביצוע החוזיות ימשיכו לחול, ש-Globalstar אינה טוענת להפרתן, ושטענת הפגיעה מספק הועלתה באיחור ביחס לכללי ההליך. היא מבקשת אישור מהיר לבקשות העברת השליטה. אין במסמך הכרעה של הרשות שהטענה אכן מאוחרת או חסרת בסיס.\n\nבנפרד, SpaceX טענה במסמך מ-9 בנובמבר שעל הרשות לשקול את ההתנהלות הרגולטורית של Iridium ואת יכולתה ותמריציה של החברה המשולבת לפגוע בתחרות. מדובר בטענות של מתחרה ובבקשה לבדיקה, לא בקביעת התנהגות אנטי-תחרותית על ידי הרשות.\n\nהחידוש לסיקור הוא חילופי הטענות והתגובה המפורשת של Rocket Lab בבדיקת העברת השליטה. לא אומתו כאן אישור, דחייה, תנאי רגולטורי חדש או עיכוב שהורה עליו ה-FCC. זהו הליך נפרד מבדיקות הלוויינים של Globalstar שכוסו ב-n-1293 ומאישור עסקת Amazon-Globalstar שכוסה ב-n-0813; אין להסיק ממנו ששתי העסקאות הושלמו.",
+    "טקסט_en": "Catch-up on party submissions in the FCC review of Rocket Lab's proposed acquisition of Iridium, GN Docket 26-257. Rocket Lab's and SpaceX's replies are dated November 9, 2026, and Globalstar's letter October 30; all three documents were read in full. The original publication hour was not verified. November 11 secondary coverage is not a new commission decision.\n\nGlobalstar asked the commission to examine a possible supplier conflict: Rocket Lab supplies satellite platforms and software to Globalstar and could become the owner of competitor Iridium. Globalstar argues that this could give its supplier an incentive and means to favor Iridium. Globalstar explicitly says it does not oppose the ultimate combination of Rocket Lab and Iridium. This is not blanket opposition to the acquisition or proof that supply has already been harmed.\n\nRocket Lab rejects the allegation in its November 9 reply. It says it is MDA's subcontractor, designed and built 17 platforms to the prime contractor's specifications, and does not determine Globalstar's deployment timing, services or strategy. It says platform construction has concluded and its later role will be limited to maintenance and anomaly-resolution support. These are the company's positions in the proceeding, not FCC findings.\n\nRocket Lab also says its contractual confidentiality and performance obligations will continue, that Globalstar alleges no breach, and that the supplier-harm theory was raised late under the proceeding's rules. It asks for prompt approval of the transfer applications. The document does not establish that the commission has ruled the allegation untimely or baseless.\n\nSeparately, SpaceX argued in a November 9 submission that the commission should consider Iridium's regulatory conduct and the combined company's ability and incentives to harm competition. These are a competitor's allegations and request for scrutiny, not a commission finding of anticompetitive conduct.\n\nThe addition to our coverage is the exchange of arguments and Rocket Lab's specific response in the transfer-of-control review. No approval, denial, new regulatory condition or FCC-ordered delay was verified here. This is separate from Globalstar satellite testing covered in n-1293 and the Amazon-Globalstar approval covered in n-0813; it does not establish that either transaction has closed.",
+    "קישור": "https://www.fcc.gov/ecfs/document/26110084318/1?ref=broadbandbreakfast.com",
+    "מקורות": [
+      {
+        "url": "https://www.fcc.gov/ecfs/document/26110084318/1?ref=broadbandbreakfast.com",
+        "label": "FCC: תשובת Rocket Lab ל-Globalstar, 9 בנובמבר",
+        "label_en": "FCC: Rocket Lab reply to Globalstar, November 9"
+      },
+      {
+        "url": "https://www.fcc.gov/ecfs/document/26110083921/1?ref=broadbandbreakfast.com",
+        "label": "FCC: מכתב Globalstar, 30 באוקטובר",
+        "label_en": "FCC: Globalstar letter, October 30"
+      },
+      {
+        "url": "https://www.fcc.gov/ecfs/document/26110084323/1?ref=broadbandbreakfast.com",
+        "label": "FCC: תגובת SpaceX, 9 בנובמבר",
+        "label_en": "FCC: SpaceX reply, November 9"
+      }
+    ],
+    "הועלה": "2026-11-12 13:24",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4770a16d778810f60a601fdcdadfbf6d51f76d95b718770698e84670de76e10c"
+      }
+    }
   }
 ]
