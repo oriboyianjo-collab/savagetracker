@@ -33425,5 +33425,37 @@
         "source_hash": "19ed4d2d97aba82cf3b00638f6d1979d727d7896951fb2882bc5e515cbfca749"
       }
     }
+  },
+  {
+    "מזהה": "n-1352",
+    "category": "micro",
+    "חברה": "TM",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-12 04:58",
+    "קישור": "https://pressroom.toyota.com/toyota-says-okei-to-america-introducing-the-scion-by-toyota-brand-and-kei-01/",
+    "כותרת": "Toyota (TM): תוכנית להרכבת KEI-01 באינדיאנה ב-2027 בהשקעה של 34 מיליון דולר; רכב 25 מייל לשעה לפיילוט ציים, לא טנדר כביש רגיל",
+    "כותרת_en": "Toyota (TM): $34 million Indiana KEI-01 assembly plan for 2027; 25-mph vehicle for a fleet pilot, not a regular highway pickup",
+    "טקסט": "השלמת סיקור מהודעת Toyota הרשמית מ-10 בנובמבר 2026, שנקראה במלואה. ההודעה מתארת אירועי חשיפה שהתקיימו יום קודם, ב-9 בנובמבר. שעת הפרסום המקורית לא אומתה; אין כאן הכרזה חדשה מ-12 בנובמבר.\n\nToyota Motor North America הציגה את Scion by Toyota ואת רכב השירות הקומפקטי KEI-01. החברה מתכננת להרכיב אותו במפעל Toyota Indiana החל מהמחצית השנייה של 2027, בהשקעה של 34 מיליון דולר שלפי ההודעה תוסיף כ-50 משרות. הכסף מיועד לפעילות הרכבה חדשה ולשדרוג תשתיות ייצור ולוגיסטיקה; זו תוכנית השקעה וייצור, לא הודעה שהקווים כבר פועלים או שכל הסכום הוצא.\n\nהמגבלה המהותית: זהו רכב עם הגה ימני ומהירות מרבית של 25 מייל לשעה, שתוכנן לעמוד בדרישות FMVSS No.500 לרכב במהירות נמוכה, LSV. אין להציגו כטנדר רגיל שהותר לנסיעה בכל כביש או כהרחבה גורפת של אישור רכבי kei לכבישים מהירים בארה״ב. ההודעה מתארת תכנון לעמידה בדרישות, לא תעודת אישור רגולטורית שנבדקה כאן.\n\nההפצה הראשונית מתוכננת כפיילוט ציים מצומצם ובנפח נמוך, דרך סוכני Scion by Toyota שייבחרו מרשת Toyota הקיימת. מכירה קמעונאית מוגבלת בהמשך היא אפשרות שהחברה תשקול לפי ביקוש, תנאי שוק ושיקולים תפעוליים, לא זמינות לציבור שכבר אושרה. מחיר, מספר כלי רכב ותאריך מסירה ראשון מדויק לא נמסרו בהודעה.\n\nל-KEI-01 מנוע בנזין תלת-צילינדרי בנפח 660 סמ״ק, תיבה רציפה והנעה לארבעת הגלגלים; זה אינו רכב חשמלי. Toyota ציינה ארגז עם דפנות מתקפלות וכושר העמסה של עד 600 ליברות. שני רכבים נוספים שהוצגו, SxS ו-BKE, הם רכבי קונספט; אין להסיק שתוכניות הייצור של KEI-01 חלות גם עליהם. זהו אירוע תפעולי נפרד מרכבי הקונספט Snowhunter שכוסו ב-n-0649.",
+    "טקסט_en": "Catch-up coverage of Toyota's official Nov 10, 2026 announcement, read in full. The release describes unveiling events held the previous day, Nov 9. The original publication time was not verified; this is not a new Nov 12 announcement.\n\nToyota Motor North America introduced Scion by Toyota and the compact KEI-01 utility vehicle. It plans assembly at Toyota Indiana starting in the second half of 2027, backed by a $34 million investment that the release says will add about 50 jobs. The money supports new assembly operations and upgrades to production and logistics infrastructure. This is an investment and production plan, not a statement that lines are already operating or the full amount has been spent.\n\nThe key limit: this is a right-hand-drive vehicle with a maximum speed of 25 miles per hour, designed to comply with FMVSS No.500 requirements for low-speed vehicles, or LSVs. It is not a regular pickup approved for every road or a blanket expansion of highway approval for kei vehicles in the US. The release describes design for compliance, not a regulatory certificate independently checked here.\n\nInitial distribution is planned as a low-volume, niche fleet pilot through Scion by Toyota dealers selected from the existing Toyota network. Limited retail sales later are an option the company may consider depending on demand, market conditions and operations, not already approved public availability. The release gives no price, vehicle volume or exact first-delivery date.\n\nThe KEI-01 has a 660cc three-cylinder gasoline engine, continuously variable transmission and four-wheel drive; it is not an electric vehicle. Toyota describes a fold-down cargo bed and up to 600 pounds of payload. Two other vehicles shown, SxS and BKE, are concepts; the KEI-01 production plan does not establish production plans for them. This is a separate operational event from the Snowhunter concepts covered in n-0649.",
+    "מקורות": [
+      {
+        "label": "Toyota USA: ההודעה המלאה מ-10 בנובמבר",
+        "label_en": "Toyota USA: full Nov 10 announcement",
+        "url": "https://pressroom.toyota.com/toyota-says-okei-to-america-introducing-the-scion-by-toyota-brand-and-kei-01/"
+      }
+    ],
+    "symbols": [
+      "TM"
+    ],
+    "sectors": [
+      "consumer-discretionary"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5c845ebe4d95ae9bdf8523de58b8257d0bd64bc9374abbe826bdec48d3cb2902"
+      }
+    }
   }
 ]
