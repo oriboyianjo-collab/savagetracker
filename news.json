@@ -34293,5 +34293,39 @@
         "source_hash": "bd54862236dfda8afaee578cc69e360f6adf00ec4b1daedc27d63be9b1b24772"
       }
     }
+  },
+  {
+    "מזהה": "n-1379",
+    "category": "macro",
+    "תאריך": "2026-11-11 22:00",
+    "הועלה": "2026-11-12 09:36",
+    "כותרת": "יפן: לפי Yomiuri, מתוכננת הקצאת כ-650 מיליארד ין מרזרבה לסבסוד אנרגיה בחורף; החלטת הקבינט טרם דווחה",
+    "כותרת_en": "Japan: Yomiuri reports planned roughly ¥650 billion reserve allocation for winter energy support; no cabinet approval reported",
+    "טקסט": "11.11.2026, 22:00 בישראל | כתבת Yomiuri המקורית נקראה במלואה בעותק Yahoo Japan. מטא-נתוני העמוד קובעים 12 בנובמבר, 05:00:57 ביפן, ועדכון ב-07:59:04. זהו דיווח עיתונאי על תוכנית תקציבית, לא החלטת קבינט רשמית שנקראה כאן.\n\nלפי Yomiuri, ממשלת יפן מתכננת להקצות כ-650 מיליארד ין מרזרבת תקציב שנת הכספים 2026 למימון סבסוד חשמל וגז עבור השימוש בדצמבר 2026 עד פברואר 2027. לפי הכתבה, החלטת קבינט עשויה להתקבל כבר ב-13 בנובמבר. אין כאן אישור שההחלטה כבר התקבלה או שהכסף הועבר.\n\nהרכיב החדש הוא מתווה המימון: כ-520 מיליארד ין לסבסוד חשמל וגז עירוני וכ-130 מיליארד ין למענקים לרשויות מקומיות, בין היתר לסיוע בגז פחמימני מעובה (LPG). המקור הוא רזרבה בסך 2.5 טריליון ין להתמודדות עם המצב במזרח התיכון שנכללה בתקציב המשלים. מדובר בשימוש מתוכנן במסגרת רזרבה קיימת, לא בהכרח תוספת חדשה של 650 מיליארד ין לתקרת התקציב.\n\nעצם מדיניות הסיוע בחורף אינה הכרזה חדשה מ-12 בנובמבר: כתבת Kyodo מ-29 באוקטובר, שנקראה, כבר דיווחה על סבסוד חשמל וגז ועל חיסכון צפוי של כ-7,000 ין למשק בית טיפוסי בשלושה חודשים. אין לספור את החיסכון הזה כתשלום נוסף שהוכרז היום או כהעברה שכבר בוצעה.\n\nהכתבה המלאה שנקראה תומכת בסכומים מקורבים. המספר המדויק 651.9 מיליארד ין שהופיע בתצוגה חלקית של Nikkei אינו מוצג כאן כסכום שאומת ממסמך ממשלתי. אין בהחלטה המתוכננת נתון אינפלציה חדש, שינוי בריבית הבנק המרכזי או התחייבות להמשך סבסוד מעבר לפברואר.",
+    "טקסט_en": "Nov 11, 2026, 22:00 Israel time | Full original Yomiuri article read in the Yahoo Japan copy. Page metadata gives Nov 12 at 05:00:57 in Japan, updated 07:59:04. This is journalistic reporting of a budget plan, not an official cabinet decision read here.\n\nYomiuri says Japan’s government plans to allocate roughly ¥650 billion from fiscal-2026 budget reserves for electricity and gas subsidies covering December 2026 through February 2027 usage. The article says a cabinet decision could come as early as Nov 13. It does not confirm approval has occurred or money has been paid.\n\nThe new detail is the funding outline: about ¥520 billion for electricity and city gas and ¥130 billion in local-government grants, including possible LPG support. Funding would come from an existing ¥2.5 trillion Middle East response reserve included in the supplementary budget. This is planned use of an existing reserve, not necessarily an additional ¥650 billion increase in the budget ceiling.\n\nThe winter support policy itself is not a new Nov 12 announcement. A Kyodo article of Oct 29, also read, already reported electricity and gas subsidies and expected savings of about ¥7,000 for a typical household over three months. That saving must not be counted as an additional payment announced today or money already transferred.\n\nThe full article read supports approximate amounts. The precise ¥651.9 billion figure shown in a partial Nikkei preview is not presented here as verified from a government document. The planned decision gives no new inflation reading, Bank of Japan rate change or commitment to extend support beyond February.",
+    "קישור": "https://news.yahoo.co.jp/articles/29be2ac7687ae67d90d0ba0a08e79e519acc530a",
+    "מקורות": [
+      {
+        "label": "Yomiuri: הכתבה המקורית המלאה בעותק Yahoo Japan",
+        "label_en": "Yomiuri: full original article via Yahoo Japan",
+        "url": "https://news.yahoo.co.jp/articles/29be2ac7687ae67d90d0ba0a08e79e519acc530a"
+      },
+      {
+        "label": "Kyodo מ-29 באוקטובר: ההכרזה הקודמת על סיוע החורף",
+        "label_en": "Kyodo Oct 29: earlier winter-support announcement",
+        "url": "https://english.kyodonews.net/articles/-/89840"
+      }
+    ],
+    "symbols": [],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f016df3055ea981663d40e3d476f55abeeb4929e8b2605901adb63fb96708bde"
+      }
+    }
   }
 ]
