@@ -2720,22 +2720,22 @@
     "מדינה": "US",
     "אירוע": "מלאי נפט גולמי שבועי (EIA)",
     "חשיבות": 1,
-    "הערה": "חריג Veterans Day רשמי: חמישי12.11 בשעה12:00EST=19:00 בישראל, במקום רביעי. צפי לפרסום הבא טרם אומת.\nקודם לפרסום12.11: ירידה של כ-0.9מיליון חביות במלאי המסחרי ללאSPR בשבוע שהסתיים30.10, בפרסום4.11. זהו עיגול הסיכום הרשמי; השינוי המדויק היה ירידה0.865מיליון. אין זה שינוי ברזרבה האסטרטגית או ב-Cushing.\nבדיקת 11.11.2026: צפי Forex Factory העדכני -0.6 מיליון חביות. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.",
+    "הערה": "פרסום EIA ב-12.11.2026 בשעה 19:00 בישראל, לשבוע שהסתיים ב-6 בנובמבר: מלאי נפט גולמי מסחרי ללא הרזרבה האסטרטגית עלה בכ-4.7 מיליון חביות ל-414.4 מיליון. הנתון המדויק בקובץ EIA: 414.417 מיליון לעומת 409.760 מיליון ב-30 באוקטובר, עלייה של 4.657 מיליון חביות. שדה בפועל מציג את עיגול הסיכום הרשמי. לעומת הצפי השמור לירידה של 0.6 מיליון: כיוון השינוי הפוך. הצפי -0.6 והקודם -0.9 מיליון נשמרו; אין דירוג טוב/רע. מלאי בנזין עלה ב-1.8 מיליון חביות, תזקיקים ב-4.1 מיליון; מלאי הנפט המסחרי נמוך ב-4% מממוצע חמש השנים. אלה מלאים מסחריים ללא SPR, לא מלאי Cushing ולא נתון תפוקה. רישום קודם לפני הפרסום: חריג Veterans Day רשמי: חמישי12.11 בשעה12:00EST=19:00 בישראל, במקום רביעי. צפי לפרסום הבא טרם אומת.\nקודם לפרסום12.11: ירידה של כ-0.9מיליון חביות במלאי המסחרי ללאSPR בשבוע שהסתיים30.10, בפרסום4.11. זהו עיגול הסיכום הרשמי; השינוי המדויק היה ירידה0.865מיליון. אין זה שינוי ברזרבה האסטרטגית או ב-Cushing.\nבדיקת 11.11.2026: צפי Forex Factory העדכני -0.6 מיליון חביות. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.",
     "מקור": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
     "שעה": "19:00",
-    "תקופה": "שבועי",
+    "תקופה": "שבוע שהסתיים ב-06.11.2026",
     "קודם": "-0.9 מיליון חביות",
     "הערות_מקור_ארכיון": "\nחריג חגVeteransDayרשמי: חמישי12.11ב12:00EST=19:00ישראל, במקום רביעי. צפי וקודם ייוודעו אחרי פרסום4.11; לא להעתיק קודם ישן.",
     "מקור_קודם": "https://ir.eia.gov/wpsr/summary.txt",
     "מזהה": "c-0111",
     "אירוע_en": "Weekly crude oil inventories (EIA)",
-    "תקופה_en": "Weekly",
-    "הערה_en": "Official Veterans Day exception: Thursday Nov 12 at 12:00 EST = 19:00 Israel, instead of Wednesday. Estimate for the next release not yet verified.\nPrior for the Nov 12 release: a draw of about 0.9 million barrels in commercial inventories ex-SPR in the week ended Oct 30, in the Nov 4 release. This is the official summary rounding; the exact change was a 0.865 million draw. This is not a change in the Strategic Reserve or at Cushing.\nNov 11, 2026 check: current Forex Factory forecast -0.6 million barrels. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.",
+    "תקופה_en": "Week ended Nov 6, 2026",
+    "הערה_en": "EIA release November 12, 2026 at 19:00 Israel time, for the week ended November 6: commercial crude oil inventories excluding the Strategic Petroleum Reserve rose by about 4.7 million barrels to 414.4 million. Exact EIA data: 414.417 million versus 409.760 million on October 30, an increase of 4.657 million barrels. The actual field uses the official summary rounding. The change is in the opposite direction to the retained estimate of a 0.6 million draw. Estimate -0.6 million and prior -0.9 million were preserved; no good/bad rating. Gasoline stocks rose 1.8 million barrels and distillates 4.1 million; commercial crude stocks are 4% below the five-year average. These are commercial inventories excluding SPR, not Cushing inventories or an output figure. Previous record before release: Official Veterans Day exception: Thursday Nov 12 at 12:00 EST = 19:00 Israel, instead of Wednesday. Estimate for the next release not yet verified.\nPrior for the Nov 12 release: a draw of about 0.9 million barrels in commercial inventories ex-SPR in the week ended Oct 30, in the Nov 4 release. This is the official summary rounding; the exact change was a 0.865 million draw. This is not a change in the Strategic Reserve or at Cushing.\nNov 11, 2026 check: current Forex Factory forecast -0.6 million barrels. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.",
     "קודם_en": "-0.9 million barrels",
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "b1a34e049267149217a53f419fe228dff84d2e3903d9e142db05140e93f15ed3"
+        "source_hash": "51f50b5757aded3490809aaefa3f5262759f6e5a0f1e2e078620fae0d016b718"
       }
     },
     "היסטוריית_צפי": [
@@ -2752,9 +2752,13 @@
     "צפי": "-0.6 מיליון חביות",
     "צפי_en": "-0.6 million barrels",
     "מקורות_בדיקה_עדכנית": [
-      "https://www.forexfactory.com/calendar?week=nov8.2026"
+      "https://ir.eia.gov/wpsr/summary.txt",
+      "https://ir.eia.gov/wpsr/psw00.json"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-11"
+    "תאריך_בדיקה_עדכנית": "2026-11-12",
+    "בפועל": "+4.7 מיליון חביות",
+    "בפועל_en": "+4.7 million barrels",
+    "מקור_בפועל": "https://ir.eia.gov/wpsr/summary.txt"
   },
   {
     "תאריך": "2026-11-12",
