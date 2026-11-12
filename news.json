@@ -36579,5 +36579,69 @@
         "source_hash": "aae62d85ff09938443b4f00adf120581da18f19dd66c74748b9df54424f13eb3"
       }
     }
+  },
+  {
+    "מזהה": "n-1448",
+    "category": "micro",
+    "חברה": "ALSN",
+    "symbols": [
+      "ALSN"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 16:00",
+    "כותרת": "Allison (ALSN) זכתה בחוזה של 67 מיליון דולר לתמסורות ולתמיכה בתוכנית טנקי אברמס",
+    "כותרת_en": "Allison (ALSN) wins $67 million contract for Abrams transmissions and support",
+    "טקסט": "12.11.2026 | הודעת Allison המקורית פורסמה ב-09:00 ET, 16:00 בישראל, ונקראה במלואה.\n\nAllison Transmission הודיעה שזכתה בחוזה של 67 מיליון דולר להמשך תמיכתה בתוכנית טנקי אברמס של צבא ארה״ב. כותרת הודעת החברה קושרת את מערכות ההנעה להזמנות הטנקים של 2027. מדובר בחוזה אספקה ותמיכה, לא בהודעה שכל התמסורות כבר נמסרו או ש-67 מיליון דולר כבר הוכרו כהכנסה.\n\nהחוזה כולל תמסורות X1100 חדשות ומשודרגות, ניהול תוכנית, שירות שטח, שירות טכני ותמיכה לוגיסטית. החברה לא מפרטת בהודעה מספר יחידות, לוח מסירות מלא, רווחיות או פילוח ההכנסה לפי שנה. X1100 היא מערכת ותיקה המשמשת את תוכנית אברמס מאז 1979, לא דגם הנעה חדש שהושק היום.\n\nהחברה מציינת ברקע הזמנות ביטחוניות אחרות השנה: תוכנית המשאיות הצרפתית PL6T, תמסורות לכלי EAGLE V של גרמניה וחוזה של 250 מיליון דולר עם BAE Systems Hägglunds ל-CV90 MkIV. אלה תוכניות אחרות המוזכרות כרקע, לא תוספת לסכום חוזה אברמס החדש. כ-3,000 כלי EAGLE V הם היקף הזמנת כלי הרכב שעליה מדברת החברה, לא מספר טנקי אברמס בחוזה הזה.\n\nהמקור הוא הודעת הספק עצמו. לא נקרא כאן מסמך רכש צבאי עצמאי, ואין להסיק מהסכום לבדו שינוי בתחזית החברה או בתזרים המזומנים שכבר התקבל.",
+    "טקסט_en": "November 12, 2026 | Allison's full original release was published at 09:00 ET, or 16:00 Israel time.\n\nAllison Transmission says it was awarded a $67 million contract to continue supporting the US Army's Abrams tank program. The release headline ties the propulsion systems to 2027 tank orders. This is a supply and support contract, not confirmation that all transmissions were delivered or that $67 million was already recognized as revenue.\n\nThe contract covers new and upgraded X1100 transmissions, program management, contract field service, technical service and logistics support. The release provides no unit count, full delivery schedule, margin or annual revenue split. X1100 is an established system supporting Abrams since 1979, not a new propulsion model launched today.\n\nThe company cites other defense orders this year as background: France's PL6T truck program, transmissions for Germany's EAGLE V vehicles and a $250 million BAE Systems Hägglunds agreement for CV90 MkIV. These are separate programs, not additions to the new Abrams contract amount. Approximately 3,000 EAGLE V vehicles describes that vehicle order, not an Abrams tank count under this contract.\n\nThe source is the supplier's announcement. An independent military procurement document was not read here. The contract amount alone does not establish new company guidance or cash already received.",
+    "קישור": "https://www.prnewswire.com/news-releases/allison-transmission-secures-67-million-contract-to-deliver-propulsion-systems-for-2027-us-army-abrams-tank-orders-302937054.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/allison-transmission-secures-67-million-contract-to-deliver-propulsion-systems-for-2027-us-army-abrams-tank-orders-302937054.html",
+        "label": "Allison: הודעת החוזה המקורית והמלאה",
+        "label_en": "Allison: full original contract announcement"
+      }
+    ],
+    "הועלה": "2026-11-12 16:07",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a3f688e6ee5fb0441bad24ed777220dbaa56a0d5cb87ebcb77326414e5e29bf1"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1449",
+    "category": "micro",
+    "חברה": "WDAY",
+    "symbols": [
+      "WDAY"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 16:00",
+    "כותרת": "Workday ו-Zuora: חבילת חיוב והכרה בהכנסה זמינה כעת ללקוחות Financial Management, גם לתמחור לפי שימוש",
+    "כותרת_en": "Workday and Zuora: billing and revenue suite now available to Financial Management customers, including usage-based pricing",
+    "טקסט": "12.11.2026 | הודעת Workday ו-Zuora המקורית פורסמה ב-09:00 ET, 16:00 בישראל, ונקראה במלואה.\n\nהחברות הרחיבו את השותפות ומציעות כעת ללקוחות Workday Financial Management את Zuora Monetization Suite for Workday. הלקוחות יכולים לבחור ב-Zuora Billing, ב-Zuora Revenue או בשניהם. זו זמינות של מוצרי חיוב והכרה בהכנסה, לא הכרזה ש-Workday שינתה את מחיר המנויים שלה עצמה.\n\nהחיבור משלב את Billing ו-Revenue עם Workday Financial Management ו-Workday Accounting Center. הוא נועד לחבר נתוני חיוב, שימוש והכנסות לרישומים הפיננסיים, ולתמוך במודלים של מנוי, חיוב לפי שימוש, תמחור מבוסס AI ומודלים משולבים. טענות החברות לפחות עבודה ידנית ולרישומים מדויקים יותר אינן מדידת ביצועים עצמאית שנערכה כאן.\n\nהשותפות קודמת להודעה: החברות כבר הזינו נתוני Zuora לספר החשבונות הראשי של Workday. התוספת היא החבילה הזמינה והחיבור המורחב, לא קשר עסקי ראשון ביניהן. Workday משתמשת ב-Zuora להכרה בהכנסה, ולדברי Zuora היא בחרה ב-Workday לפעילות הכספים שלה; אין כאן מספר חדש של לקוחות חיצוניים שאימצו את החבילה.\n\nלא פורסמו מחיר החבילה, שווי הסכם, מספר משתמשים, קצב אימוץ או תחזית הכנסות מההרחבה. השילוב נפרד מהפקדת שכר דרך PayPal שכבר סוקרה ב-n-1444 וממחבר Workday ל-Claude ב-n-1250. אין להסיק שכל לקוח HCM זכאי אוטומטית או שכל השימושים כלולים ללא עלות.",
+    "טקסט_en": "November 12, 2026 | Workday and Zuora's full original release was published at 09:00 ET, or 16:00 Israel time.\n\nThe companies expanded their partnership and now offer the Zuora Monetization Suite for Workday to Workday Financial Management customers. Customers can choose Zuora Billing, Zuora Revenue or both. This is availability of billing and revenue-recognition products, not an announcement that Workday repriced its own subscriptions.\n\nThe integration connects Billing and Revenue with Workday Financial Management and Workday Accounting Center. It is intended to link charges, usage and revenue with financial records and support subscription, usage-based, AI-driven and hybrid pricing models. The companies' claims of less manual work and more accurate records are not an independent performance measurement conducted here.\n\nThe partnership predates this release: Zuora data already fed Workday's general ledger. The new development is the available suite and expanded connection, not the companies' first business relationship. Workday uses Zuora for revenue recognition, while Zuora says it selected Workday for financial operations. This is not a new count of external customers adopting the suite.\n\nNo suite price, agreement value, user count, adoption rate or revenue forecast was disclosed. This integration is separate from the PayPal payroll option in n-1444 and the Workday connector for Claude in n-1250. It does not establish that every HCM customer is automatically eligible or that all uses are free.",
+    "קישור": "https://www.prnewswire.com/news-releases/workday-and-zuora-expand-partnership-to-help-companies-launch-ai-and-usage-based-pricing-without-sacrificing-accuracy-or-financial-control-302937907.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/workday-and-zuora-expand-partnership-to-help-companies-launch-ai-and-usage-based-pricing-without-sacrificing-accuracy-or-financial-control-302937907.html",
+        "label": "Workday ו-Zuora: הודעת ההרחבה והזמינות המקורית",
+        "label_en": "Workday and Zuora: original expansion and availability release"
+      }
+    ],
+    "הועלה": "2026-11-12 16:07",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "cc21185f039e532f66c3912fefbd42620328e3497eb7a04d4b5ea280c0b35808"
+      }
+    }
   }
 ]
