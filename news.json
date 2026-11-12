@@ -37403,5 +37403,37 @@
         "source_hash": "9712d2d67e0f7df7121913f5225e26913e8208fb39ffa7ff433a1145980a61d1"
       }
     }
+  },
+  {
+    "מזהה": "n-1473",
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 19:18",
+    "כותרת": "CNBC: ויידן וניל פותחים בדיקה של אישורי יצוא שבבי NVIDIA לסין ושל הסדר המכסים",
+    "כותרת_en": "CNBC: Wyden and Neal launch probe of NVIDIA China chip-export approvals and tariff arrangement",
+    "טקסט": "לא אומת מול המכתב המקורי: מבוסס על הדיווח המלא של CNBC מאת Kevin Breuninger, שפורסם ב-12.11.2026 ב-19:18 שעון ישראל. המכתב עצמו לא אותר באינדקסים הרשמיים שנבדקו.\n\nלפי CNBC, הסנאטור רון ויידן וחבר בית הנבחרים ריצ'רד ניל, הבכירים הדמוקרטים בוועדת הכספים של הסנאט ובוועדת Ways and Means בבית הנבחרים, שלחו לשר המסחר הווארד לוטניק מכתב המכריז על בדיקה של אישורי ממשל טראמפ ליצוא שבבי AI מתקדמים של NVIDIA לחברות הקשורות לממשלת סין.\n\nהדיווח מצטט את טענתם שהממשל אישר בדצמבר 2025 מכירת H200 לסין למרות מידע מודיעיני שדווח על קשריו של ג'נסן הואנג. אלה טענות מחברי המכתב, לא ממצאים שאומתו כאן לגבי ריגול, ידיעת הנשיא או הפרת חוק מצד NVIDIA.\n\nויידן וניל מתמקדים גם בהסדר המתואר במכתב: שבבי H200 שיוצרו בטייוואן עוברים בדיקת אבטחה בארה\"ב ומקבלים רישיון יצוא, תוך חיוב במכס אמריקאי של 25%. הם טוענים שמדובר בניסיון להסוות מס יצוא בלתי חוקתי כפעולת מכס לביטחון לאומי. זו עמדתם המשפטית והביקורת שלהם, לא פסיקת בית משפט או הודעה על מכס חדש שנכנס לתוקף היום.\n\nהחידוש הוא בדיקה של צמד המחוקקים בתחום המסים והמכסים. היא נפרדת מבקשת וורן וקונס לשמור מסמכי יצוא ולתדרך את הקונגרס, ומהזמנת הואנג להעיד. הדיווח אינו מודיע על ביטול רישיונות, איסור יצוא חדש, זימון מחייב שהוצא, אישום או קנס. קריאה לשימוע מצד מחוקקים אחרים אינה החלטה שכבר התקבלה לקיים שימוע במועד מסוים.",
+    "טקסט_en": "Not verified against the original letter: based on Kevin Breuninger's full CNBC report, published November 12, 2026 at 19:18 Israel time. The letter itself was not located in the official indexes checked.\n\nAccording to CNBC, Senator Ron Wyden and Representative Richard Neal, the ranking Democrats on the Senate Finance Committee and House Ways and Means Committee, sent Commerce Secretary Howard Lutnick a letter announcing a probe of the Trump administration's approval of advanced NVIDIA AI-chip exports to Chinese government-linked companies.\n\nCNBC quotes their allegation that the administration permitted H200 sales to China in December 2025 despite reported intelligence about Jensen Huang's relationship. These are the letter writers' allegations, not independently verified findings here about espionage, the president's knowledge or an NVIDIA legal violation.\n\nWyden and Neal also focus on the arrangement described in their letter: Taiwanese-made H200 chips receive a US security review and export licence while being subjected to a 25% US tariff. They call this an attempt to disguise an unconstitutional export tax as a national-security tariff action. That is their legal position and criticism, not a court ruling or announcement of a new tariff taking effect today.\n\nThe new development is this pair of lawmakers' tax-and-tariff-focused inquiry. It is separate from Warren and Coons' request to preserve export records and brief Congress, and from Huang's invitation to testify. The report announces no revoked licences, new export ban, issued subpoena, charge or fine. Other lawmakers' calls for hearings are not a decision that a hearing has been scheduled.",
+    "קישור": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html#108550239-post",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html#108550239-post",
+        "label": "CNBC: הדיווח המקורי המלא על מכתב ויידן וניל; המכתב עצמו לא נקרא",
+        "label_en": "CNBC: full original report on the Wyden-Neal letter; letter itself not read"
+      }
+    ],
+    "הועלה": "2026-11-12 19:31",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "451b55fe1e65e5557fdc1be35ac206ae0a32d8e3accdd8a579d6646fadaac1f2"
+      }
+    }
   }
 ]
