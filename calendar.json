@@ -2765,18 +2765,29 @@
     "מדינה": "US",
     "אירוע": "מכרז אג\"ח ממשלת ארה\"ב ל-30 שנים",
     "חשיבות": 1,
-    "מקור": "https://home.treasury.gov/news/press-releases/sb0678",
-    "הערה": "הודעת ההחזר הרבעוני מ-4.11: מכרז בשעה13:00ניו יורק=20:00ישראל; היקף הצעה 25 מיליארד דולר. זהו היקף הנפקה מתוכנן, לא תשואת תוצאת המכרז או צפי לתשואה. סליקה ב-16.11.",
+    "מקור": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261112_4.pdf",
+    "הערה": "אג\"ח ל-30 שנה, CUSIP 912810UY2: תשואת מכרז 5.441%, יחס ביקוש/היצע 2.36. היקף הצעה 25 מיליארד דולר; קופון 5.375%, לא תשואה. סליקה 16.11.",
     "שעה": "20:00",
     "מזהה": "c-0112",
     "אירוע_en": "US Treasury 30-year bond auction",
-    "הערה_en": "Quarterly refunding announcement of Nov 4: auction at 13:00 New York = 20:00 Israel; offering size 25 billion USD. This is a planned issuance size, not an auction result yield or a yield estimate. Settlement Nov 16.",
+    "הערה_en": "30-year bond, CUSIP 912810UY2: auction high yield 5.441%, bid-to-cover 2.36. Offering $25 billion; coupon 5.375%, not yield. Settlement Nov 16.",
     "_translation": {
       "en": {
-        "source_hash": "67238f1040200f867f7f8fc11a9b4a360d3a51766c887f6105381be626db4194",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "d9b1383e0d22aa5e211e9f5a1eedc463b10d10a3618737d47e9c87a51c105e03"
       }
-    }
+    },
+    "היסטוריית_עדכונים": [
+      {
+        "הערה": "הודעת ההחזר הרבעוני מ-4.11: מכרז בשעה13:00ניו יורק=20:00ישראל; היקף הצעה 25 מיליארד דולר. זהו היקף הנפקה מתוכנן, לא תשואת תוצאת המכרז או צפי לתשואה. סליקה ב-16.11.",
+        "הערה_en": "Quarterly refunding announcement of Nov 4: auction at 13:00 New York = 20:00 Israel; offering size 25 billion USD. This is a planned issuance size, not an auction result yield or a yield estimate. Settlement Nov 16.",
+        "מקור": "https://home.treasury.gov/news/press-releases/sb0678"
+      }
+    ],
+    "בפועל": "5.441%",
+    "בפועל_en": "5.441%",
+    "תקופה": "מכרז 12.11.2026",
+    "תקופה_en": "Nov 12, 2026 auction"
   },
   {
     "תאריך": "2026-11-12",
