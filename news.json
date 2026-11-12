@@ -36922,5 +36922,37 @@
         "source_hash": "1e0690162270e43e86359968a4da23f46058429b38697ac6dbc36c350ab74015"
       }
     }
+  },
+  {
+    "מזהה": "n-1458",
+    "category": "micro",
+    "חברה": "CIEN",
+    "symbols": [
+      "CIEN"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Ciena (CIEN): Blue Planet ו-KDDI מרחיבות אוטומציה של רשתות עם Accenture; סלולר מתוכנן ל-2028",
+    "כותרת_en": "Ciena (CIEN): Blue Planet and KDDI advance network automation with Accenture; mobile expansion planned for 2028",
+    "טקסט": "12.11.2026 | הודעת Blue Planet, חטיבה של Ciena, נקראה במלואה במקור. היא מציגה תאריך בלבד, ללא שעת פרסום מאומתת.\n\nBlue Planet משתפת פעולה עם KDDI לקידום תפעול רשתות מבוסס AI ואוטומציה, בתמיכת Accenture בהטמעה. התוכנית הרב-שנתית מתחילה בתפעול הרשת הקווית של KDDI, והרחבה לרשת הסלולרית מתוכננת ל-2028. אין כאן הודעה שכל רשת הסלולר כבר מופעלת באופן אוטונומי.\n\nשיתוף הפעולה בא לאחר ניסוי של שישה חודשים במעבדות KDDI ו-Accenture. החברות בחנו חיפוש תקלות בשפה טבעית, תיקון תקלות באמצעות סוכני AI המפעילים תהליכי תזמור ובקרת שירות, תעדוף התרעות וניהול מחזור חיי שירות. ניסוי מעבדתי והדגמה ב-TM Forum אינם כשלעצמם פריסה מסחרית מלאה בכל הרשת.\n\nהפתרון משלב ניהול מלאי משאבי רשת, תזמור, הבטחת שירות, אופטימיזציה וסוכני AI סביב בסיס נתונים תפעולי משותף. KDDI ו-Accenture יעבדו עם Blue Planet על התאמת אינטגרציות, תהליכים וסוכנים לסביבת הרשת היפנית ולציוד של ספקים שונים.\n\nהחברות מתארות פוטנציאל לשיפור תפעולי, אך ההודעה אינה מוסרת שיעור חיסכון מאומת, מבחן ביצועים עצמאי, מחיר, סכום חוזה או הכנסה מהתוכנית. אין להציג את שיתוף הפעולה כהזמנת ציוד בהיקף כספי שלא פורסם. לוח הזמנים וההרחבה העתידית כפופים לסיכוני ביצוע.",
+    "טקסט_en": "November 12, 2026 | Blue Planet's full original announcement was read. The Ciena division's page gives a date but no verified publication hour.\n\nBlue Planet is collaborating with KDDI on AI-driven network operations and automation, with Accenture supporting deployment. The multi-year program begins with KDDI's fixed network operations; expansion into the mobile network is planned for 2028. This does not announce that KDDI's entire mobile network is already operating autonomously.\n\nThe collaboration follows a six-month trial in KDDI and Accenture laboratories. The teams tested natural-language alarm search, closed-loop fault remediation using AI agents to trigger orchestration and assurance workflows, alarm prioritization and automated service lifecycle management. A laboratory trial and a TM Forum demonstration do not establish full commercial deployment across the network.\n\nThe approach combines network inventory, orchestration, assurance, optimization and agentic AI around a common operational data foundation. KDDI and Accenture will work with Blue Planet to adapt integrations, workflows and agents to Japan's network requirements and a multi-vendor environment.\n\nThe companies describe potential operational improvements, but disclose no verified savings rate, independent benchmark, price, contract value or program revenue. The collaboration must not be turned into an equipment order with an undisclosed assumed value. The timetable and future expansion remain subject to execution risks.",
+    "קישור": "https://www.blueplanet.com/about/press-releases/2026/blue-planet-collaborates-with-kddi-to-advance-kddis-autonomous-network-journey",
+    "מקורות": [
+      {
+        "url": "https://www.blueplanet.com/about/press-releases/2026/blue-planet-collaborates-with-kddi-to-advance-kddis-autonomous-network-journey",
+        "label": "Blue Planet / Ciena: ההודעה המקורית המלאה על KDDI ו-Accenture",
+        "label_en": "Blue Planet / Ciena: full original KDDI and Accenture announcement"
+      }
+    ],
+    "הועלה": "2026-11-12 16:57",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b801ab869545699064c49773108644727999f07535470a1ea8666e93aed18057"
+      }
+    }
   }
 ]
