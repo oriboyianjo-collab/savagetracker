@@ -38213,5 +38213,40 @@
         "source_hash": "b2782493ae5985f7f172d23bd8da7eea4bf1d07b0fde064dd71693cad0084ed8"
       }
     }
+  },
+  {
+    "מזהה": "n-1499",
+    "category": "micro",
+    "חברה": "Nscale / AI Infrastructure",
+    "תאריך": "2026-11-13 00:17",
+    "כותרת": "Nscale חושפת חוזי ענן של מיליארדים במחצית השנייה; אומדן בניית האתרים אינו כולל GPU",
+    "כותרת_en": "Nscale discloses multibillion-dollar H2 cloud contracts; site-build estimate excludes GPUs",
+    "טקסט": "מקור ראשוני נבדק: תיקון S-1/A של Nscale, הנושא תאריך הגשה 12.11.2026. רישום הקבלה של SEC הוא 22:17:22 UTC, כלומר 13 בנובמבר ב-00:17:22 בישראל. סעיפי המודל העסקי, החוזים, האתרים וסיכוני המימון נקראו ישירות והושוו לתשקיף הציבורי הקודם מספטמבר. אין כאן סיכום תוצאות רבעוניות.\n\nNscale אומרת שבמחצית השנייה של 2026 הרחיבה את Nscale Cloud באמצעות כמה חוזים בהיקף של מיליארדי דולרים עם חברות AI ומעבדות מודלים מתקדמים. הפסקה אינה נוקבת בשמות הלקוחות, במספר החוזים המדויק, בסכום כולל או בתאריך חתימה לכל חוזה. זהו גילוי על התקשרויות לאורך תקופה, לא הודעה שכל העסקאות נחתמו היום, ולא אישור לשייך אותן ל-Microsoft או ל-Anthropic.\n\nהחברה אומרת שמחירי חוזי התשתית שנחתמו במחצית השנייה היו גבוהים משמעותית מחוזי המחצית הראשונה לאותם דגמי GPU. זו השוואת תמחור של החברה, לא הוכחה לגידול זהה בהכנסות שכבר נרשמו. לפי המודל המתואר, תקופת חוזי המחשוב מתחילה לאחר מסירה מוצלחת של אשכולות GPU; ערך חוזי אינו מזומן שכבר התקבל או קיבולת שכבר הופעלה.\n\nנכון ל-30 בספטמבר, החברה מעריכה שהשלמת אתרי מרכזי הנתונים שכבר קשורים בחוזים תדרוש הוצאות הון כוללות של כ-19–21 מיליארד דולר. האומדן כולל בנייה ותשתיות חשמל נלוות, אך מוציא במפורש GPU וציוד מחשוב אחר. כ-3 מיליארד דולר כבר הוצאו עד אותו מועד, והיתרה הצפויה היא כ-16–18 מיליארד דולר לאורך ההשלמה המדורגת. אין להציג את הטווח כולו כהוצאה שבוצעה, כתקציב שנתי או כעלות מלאה הכוללת שבבים.\n\nMonarch Compute Campus ו-Kvandal בנורווגיה מהווים יחד כ-58% מאומדן הבנייה והחשמל. בדוח מופיעים בנפרד אומדני ציוד מחשוב לשני האתרים, ולכן אין לספור אותם כאילו כבר נכללו בטווח 19–21 מיליארד דולר. האומדנים כפופים למימון, זמינות חשמל וציוד, היתרים וביצוע; החברה מזהירה שהעלויות בפועל עשויות להיות שונות מהותית. התיקון אינו אישור SEC לניירות הערך או הוכחה שההנפקה כבר הושלמה.",
+    "טקסט_en": "Primary source checked: Nscale's S-1/A amendment bearing a November 12, 2026 filing date. The SEC acceptance record is 22:17:22 UTC, November 13 at 00:17:22 Israel time. Business-model, contract, site and financing-risk sections were read directly and compared with the previous public September prospectus. This is not a quarterly-results recap.\n\nNscale says it expanded Nscale Cloud in the second half of 2026 through several multibillion-dollar contracts with AI-native and frontier-model-lab customers. The passage does not identify the customers, exact contract count, aggregate amount or individual signing dates. This is a disclosure about agreements over a period, not a claim that all deals were signed today or confirmation that they belong to Microsoft or Anthropic.\n\nThe company says infrastructure contracts signed in H2 priced significantly above H1 contracts for the same GPU types. This is the company's pricing comparison, not proof of equivalent growth in revenue already recognized. Under the described model, compute contract terms commence after successful delivery of GPU clusters; contract value is neither cash already collected nor capacity already operational.\n\nAs of September 30, Nscale estimates total capital expenditures of about $19–21 billion to complete its contracted data-center sites. This covers construction and associated power infrastructure but explicitly excludes GPUs and other compute equipment. About $3 billion had been incurred by that date, with roughly $16–18 billion expected to remain through phased completion. The whole range is not spending already made, an annual budget or an all-in cost including chips.\n\nMonarch Compute Campus and Kvandal in Norway together account for about 58% of the construction-and-power estimate. The filing separately presents compute-equipment estimates for those sites, so they must not be treated as already included in the $19–21 billion range. Estimates depend on financing, power and equipment availability, permits and execution; the company warns actual costs could differ materially. The amendment is not SEC approval of the securities or proof that the IPO has completed.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+        "label": "SEC: תיקון התשקיף, סעיפי חוזים ואתרים",
+        "label_en": "SEC: amended prospectus, contracts and sites"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm",
+        "label": "SEC: תשקיף ספטמבר להשוואת הגילוי",
+        "label_en": "SEC: September prospectus for disclosure comparison"
+      },
+      {
+        "url": "https://data.sec.gov/submissions/CIK0002110365.json",
+        "label": "SEC: מועדי קבלת ההגשות של Nscale",
+        "label_en": "SEC: Nscale filing acceptance records"
+      }
+    ],
+    "הועלה": "2026-11-13 00:38",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "58d0ae3ca1fc0fa0335349c7028bb1b2503d2502da5aef9b537c9500fe055b19"
+      }
+    }
   }
 ]
