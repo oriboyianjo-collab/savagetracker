@@ -33599,5 +33599,274 @@
         "source_hash": "dc6c1c64a2431e9d34e549ca1923179bf5bc0a5b6518c4a9c3c18d9fae6ad9d8"
       }
     }
+  },
+  {
+    "מזהה": "n-1357",
+    "category": "micro",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-12 09:15",
+    "כותרת": "השלמה מ-11.11 | Oklo: כור הניסוי Groves-1 עבר את נקודת האישור האחרונה של DOE ועובר למחקר והדרכה",
+    "כותרת_en": "Catch-up from Nov 11 | Oklo: Groves-1 clears final DOE operations hold point and moves to research and training",
+    "טקסט": "11.11.2026, 14:30 בישראל | הודעת Oklo המקורית נקראה במלואה; השעה מבוססת על חותמת הפרסום 12:30 UTC. השלמת סיקור.\n\nOklo הודיעה שמשרד האנרגיה האמריקאי הסיר את נקודת העצירה האחרונה לפני הפעלה בלתי מוגבלת של כור הניסוי Groves-1 בלוקהארט, טקסס. המתקן עובר משלב הדגמת הקמה לשלב מחקר, בדיקות והכשרת מפעילים תחת תוכנית Reactor Pilot Program של DOE. ההגעה הראשונה לקריטיות בהספק נמוך התרחשה כבר באוגוסט 2026, ולא כעת.\n\nהחברה מתכננת להשתמש בכור לבדיקות ציוד, אימות מודלים של קריטיות וריאקטיביות והכשרת כוח אדם לפרויקטים עתידיים. הניסיון אמור לתמוך גם ב-Groves-2 Forge, מתקן פיילוט מתוכנן לייצור ועיבוד איזוטופים, שבתחילה יתמקד בלוטציום-177. אלה שימושים ותוכניות לפי החברה, לא אישור שהמתקן העתידי כבר פועל.\n\nהאישור נוגע לכור הניסוי המסוים ולתחום הרשאת DOE. אין כאן רישיון מסחרי של NRC לתחנת Aurora, הכרזה על מכירת חשמל מסחרית או אישור לכל פרויקטי החברה. זהו אירוע נפרד מהסכם קיבולת ייצור רכיבי Aurora ב-n-0127.",
+    "טקסט_en": "Nov 11, 2026, 14:30 Israel time | The full original Oklo release was read; timing comes from its 12:30 UTC publication stamp. Catch-up coverage.\n\nOklo said the US Department of Energy cleared the final operations hold point for its Groves-1 test reactor in Lockhart, Texas, allowing unrestricted operations. The facility moves from deployment demonstration to research, testing and operator training under DOE’s Reactor Pilot Program. Initial low-power criticality occurred in August 2026, not in this announcement.\n\nOklo plans equipment tests, criticality and reactivity benchmarking, and workforce training for future projects. Experience is also intended to support Groves-2 Forge, a planned isotope-production and processing pilot initially focused on lutetium-177. These are company-described uses and plans, not confirmation the future facility is operating.\n\nThe clearance applies to this test reactor within DOE authorization. It is not an NRC commercial license for Aurora, a commercial electricity-sales launch, or blanket approval for all Oklo projects. It is separate from the Aurora component-manufacturing capacity agreement in n-0127.",
+    "קישור": "https://oklo.com/newsroom/oklos-groves-1-to-begin-research-and-demonstration-phase-after-being-cleared-by-u-s-department-o",
+    "מקורות": [
+      {
+        "label": "Oklo: הודעת המקור, 11 בנובמבר",
+        "label_en": "Oklo: original Nov 11 release",
+        "url": "https://oklo.com/newsroom/oklos-groves-1-to-begin-research-and-demonstration-phase-after-being-cleared-by-u-s-department-o"
+      }
+    ],
+    "symbols": [
+      "OKLO"
+    ],
+    "sectors": [
+      "utilities"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0be221af056c39710c78dcf0fefb32e0798b02c47492f9a327a0d01b1a3dd402"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1358",
+    "category": "micro",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-12 09:15",
+    "כותרת": "השלמה מ-11.11 | Amazon: אזור הענן הראשון בצ׳ילה נפתח ללקוחות נבחרים; זמינות כללית עדיין בהמשך",
+    "כותרת_en": "Catch-up from Nov 11 | Amazon: first Chile cloud Region opens to select customers; general availability still ahead",
+    "טקסט": "11.11.2026, 17:37 בישראל | הודעת Amazon המקורית; חותמת הפרסום 15:37:45 UTC. השלמת סיקור.\n\nAWS הודיעה שאזור South America (Chile), הראשון שלה בצ׳ילה והשלישי באמריקה הלטינית, כבר פועל בגישה מוקדמת ללקוחות נבחרים. זמינות כללית צפויה בשבועות הקרובים ועד סוף 2026. אין כאן פתיחה לכלל הלקוחות או אישור שכל השירותים כבר זמינים.\n\nלפי החברה, האזור יושק עם שירותי מחשוב, אחסון, רשת ומסדי נתונים; Bedrock ו-SageMaker AI מיועדים להוספה במהלך השנה הראשונה. בין הלקוחות המוקדמים מוזכרים BancoEstado, BTG, Cencosud, Consorcio, Itaú ו-Ripley.\n\nהחברה חוזרת על תוכנית השקעה של יותר מ-4 מיליארד דולר לתמיכה באזור, לצד אומדני תרומה כלכלית ותעסוקה. הסכום אינו מוצג כאן כהתחייבות נוספת מעבר לתוכנית הקיימת או כהוצאה שכבר בוצעה. החידוש הוא המעבר לגישה מוקדמת פעילה. אחסון ועיבוד מקומיים נועדו להפחית השהיה ולתמוך בדרישות נתונים מקומיות; זו אינה הבטחה שכל לקוח עומד אוטומטית בכל דרישה רגולטורית.",
+    "טקסט_en": "Nov 11, 2026, 17:37 Israel time | Original Amazon release, publication stamp 15:37:45 UTC. Catch-up coverage.\n\nAWS said its South America (Chile) Region, its first in Chile and third in Latin America, is operational in early access for select customers. General availability is expected in the coming weeks and by the end of 2026. This is not an opening to all customers or confirmation every service is available.\n\nCore compute, storage, networking and database services are planned at launch; Bedrock and SageMaker AI are scheduled within the first year. Early customers named include BancoEstado, BTG, Cencosud, Consorcio, Itaú and Ripley.\n\nAmazon reiterates a plan to invest more than $4 billion in support of the Region, together with economic and employment estimates. This is not presented as an additional commitment beyond the existing plan or spending already completed. The new stage is operational early access. Local processing and storage are intended to reduce latency and support local data requirements, not automatically establish every customer’s regulatory compliance.",
+    "קישור": "https://www.aboutamazon.com/news/aws/aws-south-america-chile-region-launch",
+    "מקורות": [
+      {
+        "label": "Amazon: הודעת השקת הגישה המוקדמת בצ׳ילה",
+        "label_en": "Amazon: Chile Region early-access release",
+        "url": "https://www.aboutamazon.com/news/aws/aws-south-america-chile-region-launch"
+      }
+    ],
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c7f3c91c6ef7455ba4a8e3aea37a311e72eef7f09835217f735f8b72f8efb8a9"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1359",
+    "category": "micro",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-12 09:15",
+    "כותרת": "השלמה מ-10.11 | SpaceX: Singulus הודיעה על הזמנת קו לייצור תאים סולאריים בהיקף של יותר מ-60 מיליון יורו",
+    "כותרת_en": "Catch-up from Nov 10 | SpaceX: Singulus announces solar-cell production-line order exceeding EUR60 million",
+    "טקסט": "10.11.2026 | הודעת Singulus המקורית נקראה ישירות; שעת הפרסום לא אומתה. השלמת סיקור, לא חוזה חדש מ-12 בנובמבר.\n\nSingulus הודיעה שחתמה על חוזה עם SpaceX לאספקת קו ייצור מלא לתאים סולאריים בטכנולוגיית heterojunction. היקף ההזמנה לקו הראשון הוא יותר מ-60 מיליון יורו, והאספקה מתוכננת למחצית הראשונה של 2027. זו הזמנה חתומה לפי הספק, לא קו שכבר נמסר או הכנסה שכבר הוכרה במלואה.\n\nהחוזה הוא חלק משותפות אסטרטגית שבמסגרתה מתוכננים קווים נוספים. Singulus מתארת כוונה להגדיל ייצור ציוד להיקף של יותר מ-100 ג׳יגה-ואט עם האצת ייצור הלוויינים בבסטרופ, טקסס. אין לראות בכך קיבולת חשמל שכבר הוקמה, 100 ג׳יגה-ואט של תאים שנמסרו, או הוכחה שכל הקווים הנוספים הוזמנו באופן מחייב.\n\nהשותפות החלה במרץ 2026, ו-SpaceX סיפקה מימון במרץ ובאוקטובר כחלק מהלוואה נחותה מובטחת. אלה פרטי רקע, לא שני סבבי מימון חדשים בהודעה הזאת. כותרות משניות בדולרים אינן מחליפות כאן את סכום ההזמנה המקורי ביורו.",
+    "טקסט_en": "Nov 10, 2026 | Original Singulus release read directly; publication clock not verified. Catch-up coverage, not a new Nov 12 contract.\n\nSingulus said it signed a contract with SpaceX to supply a turnkey heterojunction solar-cell production line. The first line has an order volume exceeding EUR60 million, with delivery planned for the first half of 2027. This is a signed order according to the supplier, not equipment already delivered or revenue fully recognized.\n\nThe contract forms part of a strategic partnership envisaging additional lines. Singulus describes scaling production to support more than 100 GW of production equipment as satellite manufacturing accelerates in Bastrop, Texas. That is not electrical generating capacity already built, 100 GW of cells delivered, or proof all additional lines are binding orders.\n\nThe partnership began in March 2026, with SpaceX funding in March and October as part of a subordinated secured loan. These are background facts, not two new financing rounds in this announcement. Secondary dollar headlines do not replace the original euro order amount.",
+    "קישור": "https://www.singulus.com/2026/11/10/singulus-spacex-supply-contract/",
+    "מקורות": [
+      {
+        "label": "Singulus: הודעת חוזה מקורית, 10 בנובמבר",
+        "label_en": "Singulus: original Nov 10 contract release",
+        "url": "https://www.singulus.com/2026/11/10/singulus-spacex-supply-contract/"
+      }
+    ],
+    "symbols": [],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c4a9c40e1094a0ee19d64936913352512c9103c42c689d63cc415220e29d1844"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1360",
+    "category": "micro",
+    "תאריך": "2026-11-04",
+    "הועלה": "2026-11-12 09:15",
+    "כותרת": "השלמה מ-4.11 | AMD חושפת שווי עסקת Taalas של כ-2.9 מיליארד דולר, כולל עד כ-1.4 מיליארד מותנים; הסגירה עדיין ממתינה",
+    "כותרת_en": "Catch-up from Nov 4 | AMD discloses about $2.9 billion Taalas deal value, including up to $1.4 billion contingent; closing pending",
+    "טקסט": "4.11.2026 | דוח 10-Q המקורי באתר AMD לתקופה שהסתיימה ב-26 בספטמבר נקרא, לרבות סעיף Pending Acquisitions. שעת ההגשה לא אומתה כאן. השלמת סיקור, לא הכרזה חדשה מ-11 בנובמבר.\n\nAMD מדווחת שבאוגוסט חתמה על הסכם לרכישת Taalas, מפתחת שבבי הסקה ייעודיים, בעסקת מזומן ומניות בשווי של כ-2.9 מיליארד דולר. השווי כולל תמורה מותנית של עד כ-1.4 מיליארד דולר; אין להציג את כל הסכום כתשלום מזומן מיידי או את הרכיב המותנה כמובטח.\n\nאותו סעיף מדווח גם על הסכם מספטמבר לרכישת World Labs Technologies, מעבדת מודלים לבינה מרחבית, בעסקת מניות של כ-8.2 מיליארד דולר. שתי הרכישות צפויות להיסגר עד סוף 2026, בכפוף לאישורים רגולטוריים ולתנאי הסגירה המקובלים. אין כאן אישור שהרכישות הושלמו.\n\nהגילוי על Taalas הוא מהלך נפרד מהערבויות ב-n-0359. זהו גילוי של תנאי עסקאות נפרדות, ללא פרסום מחדש של תוצאות הרבעון או תחזית החברה. הדוח אינו מפרט כאן את חלוקת המזומן והמניות בתוך עסקת Taalas או את התנאים לתשלום התמורה המותנית.",
+    "טקסט_en": "Nov 4, 2026 | AMD’s original 10-Q for the period ended Sept 26 was read on its investor site, including Pending Acquisitions. Filing clock not independently verified here. Catch-up coverage, not a new Nov 11 announcement.\n\nAMD reports an August agreement to acquire specialized inference-chip developer Taalas in a cash-and-stock transaction valued at about $2.9 billion. This includes up to about $1.4 billion of contingent consideration. The full amount is not immediate cash spending and the contingent portion is not guaranteed.\n\nThe same section reports a September agreement to acquire spatial-intelligence model research lab World Labs Technologies in an all-stock transaction valued at about $8.2 billion. Both acquisitions are expected to close by the end of 2026, subject to regulatory approvals and customary conditions. This is not confirmation either has closed.\n\nThe Taalas disclosure is separate from the guarantees in n-0359. This concerns disclosed transaction terms, without republishing quarterly results or guidance. The section does not specify Taalas’s cash-versus-stock split or the triggers for contingent payments.",
+    "קישור": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm",
+    "מקורות": [
+      {
+        "label": "AMD: דוח 10-Q מקורי מ-4 בנובמבר, סעיף רכישות ממתינות",
+        "label_en": "AMD: original Nov 4 10-Q, Pending Acquisitions",
+        "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm"
+      }
+    ],
+    "symbols": [
+      "AMD"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fe557e66ca40c7b473db2fef52afbe7207fd03db6e2617cb77f61ea16db9dcf0"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1361",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 09:15",
+    "כותרת": "Naver: לפי Korea Times, חוזה שירותי מחשוב של 2 טריליון וון ללקוח הסקה אמריקאי שלא זוהה; אספקה ראשונית ב-2027",
+    "כותרת_en": "Naver: Korea Times reports KRW2 trillion computing contract with unnamed US inference customer; initial supply in 2027",
+    "טקסט": "12.11.2026, 09:07 בישראל (16:07 בקוריאה) | כתבת המקור של Lee Gyu-lee ב-Korea Times נקראה במלואה. החוזה עצמו והקלטת שיחת החברה לא נבדקו בנפרד.\n\nלפי העיתון, Naver חתמה על חוזה של 2 טריליון וון, כ-1.5 מיליארד דולר לפי הכתבה, לאספקת שירותי מחשוב לחברת הסקת AI אמריקאית שלא נקבה בשמה. הכתבה מתארת חוזה ראשון של 20 מגה-ואט; אספקה ראשונית מתוכננת ל-2027 והפעלה מסחרית של עסק ה-AI factory למחצית הראשונה של אותה שנה. אין כאן הכנסות שכבר התקבלו או אישור שהלקוח הוא חברה ציבורית מסוימת.\n\nלפי הכתבה, עסק התשתיות מפותח עם Brookfield ו-NVIDIA. אין בכך הוכחה להזמנת שבבים נוספת מ-NVIDIA, לזהות דור השבבים המדויק או לסכום שחלקה של NVIDIA בחוזה.\n\nהתוכנית ל-55 מגה-ואט ב-2027 ול-200 מגה-ואט עד 2028 נפרדת מהחוזה הראשון. האמירה שהקיבולת החוזית כבר עולה על יעד 200 המגה-ואט אינה אומרת שהקיבולת כבר פעילה. שיחות עם יותר מעשר חברות אינן חוזים שנחתמו. נתוני התוצאות ותחזיות ההשקעה האחרות שבכתבה אינם מתפרסמים כאן.",
+    "טקסט_en": "Nov 12, 2026, 09:07 Israel time (16:07 Korea) | The full original Lee Gyu-lee report in The Korea Times was read. The contract and company-call recording were not separately inspected.\n\nThe newspaper reports that Naver signed a KRW2 trillion computing-services contract, about $1.5 billion in the article, with an unnamed US AI inference company. It describes a first 20 MW contract, with initial supply scheduled for 2027 and the AI factory business’s commercial launch planned for the first half of that year. This is not revenue already received or identification of a particular listed customer.\n\nThe infrastructure business is being developed with Brookfield and NVIDIA. This does not establish an additional NVIDIA chip order, the exact chip generation, or NVIDIA’s share of the contract value.\n\nPlans for 55 MW in 2027 and 200 MW by 2028 are distinct from the first contract. The statement that contracted capacity exceeds the 200 MW target does not mean that capacity is operating. Talks with more than ten companies are not signed contracts. Earnings figures and other spending forecasts in the article are not republished here.",
+    "קישור": "https://www.koreatimes.co.kr/business/tech-science/20261112/naver-clinches-15-bill-ai-computing-deal-with-us-firm",
+    "מקורות": [
+      {
+        "label": "Korea Times: כתבת מקור על חוזה Naver, 12 בנובמבר",
+        "label_en": "The Korea Times: original Naver contract report, Nov 12",
+        "url": "https://www.koreatimes.co.kr/business/tech-science/20261112/naver-clinches-15-bill-ai-computing-deal-with-us-firm"
+      }
+    ],
+    "symbols": [],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b20247453929a11c1a0a757749cbab27219fa2d6dcbcdd039f17b594b122a011"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1362",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 09:15",
+    "כותרת": "Alphabet: Reuters מדווחת על ביקושים מוקדמים של כ-5 מיליארד דולר לאג״ח ב-HKD וב-SGD; לא סכום שכבר גויס",
+    "כותרת_en": "Alphabet: Reuters reports about $5 billion in early HKD and SGD bond orders, not proceeds already raised",
+    "טקסט": "12.11.2026 | דיווח Reuters נקרא במלואו בהפצת Investing.com. מסמכי התנאים ונתוני הביקוש שראתה הסוכנות לא נבדקו כאן ישירות; אזור הזמן של חותמות האתר לא אומת.\n\nלפי Reuters, ההנפקות הראשונות של Alphabet בדולר הונג-קונגי ובדולר סינגפורי משכו ביקושים מוקדמים של כ-5 מיליארד דולר שווה ערך, כולל הזמנות של הבנקים המארגנים. ביקושים לחלק בהונג קונג עלו על 24 מיליארד HKD, מהם 12.78 מיליארד של המארגנים; בסינגפור עלו על 2.5 מיליארד SGD, מהם 790 מיליון של המארגנים. אלה ספרי ביקוש, לא גיוס שהושלם, והשתתפות המארגנים כלולה בסכומים.\n\nטווחי התשואה הראשוניים לפי הסדרות: בהונג קונג 4.60% ל-2028, 5.00% ל-2031 ו-5.50% ל-2036; בסינגפור 2.75%, 3.25%, 3.65% ו-4.00% לשנים 2028, 2031, 2036 ו-2056. אלה אינדיקציות ראשוניות, לא קופונים או תשואות תמחור סופיות.\n\nלפי הדיווח, היקף סופי ותמחור סופי לא היו זמינים; הסליקה מיועדת ל-19 בנובמבר. הדירוגים הצפויים הם Aa2 ו-AA+. החידוש לעומת מינוי הבנקים ב-n-1292 והשיחות ב-n-1086 הוא פתיחת ספרי ביקוש והנחיות תשואה. אין להוסיף את כל הביקושים לחוב שהחברה כבר גייסה או לייחס את כל התמורה ל-AI.",
+    "טקסט_en": "Nov 12, 2026 | The full Reuters report was read via Investing.com. The underlying term sheet and order statistics were not separately inspected; the website timestamp’s timezone was not verified.\n\nReuters says Alphabet’s debut Hong Kong and Singapore dollar bond offerings drew about $5 billion equivalent in early orders, including arranging banks’ orders. Hong Kong orders exceeded HK$24 billion, including HK$12.78 billion from joint lead managers; Singapore orders exceeded S$2.5 billion, including S$790 million from managers. These are order books, not completed fundraising, and managers’ participation is included.\n\nInitial yield guidance was 4.60%, 5.00% and 5.50% for the Hong Kong 2028, 2031 and 2036 tranches; Singapore guidance was 2.75%, 3.25%, 3.65% and 4.00% for 2028, 2031, 2036 and 2056. These are initial indications, not final coupons or pricing yields.\n\nFinal sizes and pricing were unavailable in the report; settlement is planned for Nov 19 and expected ratings are Aa2 and AA+. Relative to the bank mandate in n-1292 and talks in n-1086, the new stage is order books and yield guidance. Orders must not be added to debt already raised or all proceeds attributed to AI.",
+    "קישור": "https://www.investing.com/news/stock-market-news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-5020243",
+    "מקורות": [
+      {
+        "label": "Reuters בהפצת Investing.com: ספרי ביקוש והנחיות תשואה ראשוניות",
+        "label_en": "Reuters via Investing.com: early order books and yield guidance",
+        "url": "https://www.investing.com/news/stock-market-news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-5020243"
+      }
+    ],
+    "symbols": [
+      "GOOGL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "761d543887bf90a5f04d0d89d38088990fcb03ae4713e61c77b8c7d2a9ccbe03"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1363",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 09:15",
+    "כותרת": "NVIDIA: לפי Reuters, חברות AI סיניות מנסות לשמור קיבולת מחשוב בחו״ל מחשש להגבלות; אין כלל אמריקאי חדש שאושר",
+    "כותרת_en": "NVIDIA: Reuters reports Chinese AI firms seeking overseas compute capacity amid curb fears; no newly enacted US rule",
+    "טקסט": "12.11.2026 | דיווח Reuters המקורי נקרא במלואו בהפצת U.S. News. הדיווח נשען על שלושה מקורות אנונימיים, לא על הודעת עסקה או החלטת רגולטור.\n\nלפי הסוכנות, חברות AI בסין מנסות לשכור קיבולת מחשוב מבוססת NVIDIA במרכזי נתונים מחוץ לסין, מחשש שפרשת מנכ״ל החברה תיתן דחיפה פוליטית להגבלת גישה מרחוק. ספק ענן סיני גדול דן בנושא פנימית וחברות אחרות פנו למפעילים, כולל בדרום-מזרח אסיה. לא פורסמו שמות הלקוחות, היקפי קיבולת מחייבים או חוזים שהושלמו.\n\nהכתבה מתייחסת ל-RASA, הצעת חוק שתאפשר למשרד המסחר לפקח על גישה מרחוק לטכנולוגיה מוגבלת. לפי Reuters היא עברה בבית הנבחרים בינואר, אך עדיין ממתינה בסנאט. אין כאן אישור שההצעה הפכה לחוק או שארה״ב אסרה כעת כל שימוש סיני בענן בחו״ל.\n\nהמקורות מתארים גם אגירת שבבים בשוק האפור מחשש לאכיפה מחמירה. Reuters מציינת שלא אימתה עצמאית את טענת הביון שברקע הפרשה, וש-NVIDIA, Megaspeed ומשרד המסחר לא הגיבו מייד. אין כאן החלטת דירקטוריון על עתיד הואנג.\n\nהחידוש לעומת מגעי Moonshot באירופה ב-n-0275 הוא דיווח חדש על תגובת חברות לחששות שהתעוררו בעקבות הפרשה: ניסיונות שמירת הקיבולת לפי המקורות, ולא כלל 51% ללקוחות ענן שעליו דווח ב-n-0558 או עסקת Oracle/Tencent ב-n-0479. אין לחבר את האירועים לכדי איסור חדש שאינו מופיע במקור.",
+    "טקסט_en": "Nov 12, 2026 | The full original Reuters report was read via U.S. News. It relies on three anonymous sources, not an announced transaction or regulator decision.\n\nReuters says Chinese AI companies are trying to rent NVIDIA-powered capacity at data centers outside China, fearing the CEO controversy could add political momentum to remote-access restrictions. A major Chinese cloud provider discussed locking in capacity internally, while others approached operators, including in Southeast Asia. Customers, binding capacity volumes and completed contracts were not identified.\n\nThe article refers to RASA, a bill giving the Commerce Department authority over remote access to restricted technology. Reuters says it passed the House in January but awaits Senate action. This is not confirmation the bill became law or that the US has now prohibited all Chinese use of overseas cloud services.\n\nSources also describe grey-market chip stockpiling amid enforcement concerns. Reuters says it could not independently verify the espionage allegation underlying the controversy, and NVIDIA, Megaspeed and Commerce did not immediately respond. There is no board decision on Huang’s future here.\n\nRelative to Moonshot’s Europe talks in n-0275, this newly reports companies’ response to fears following the controversy: attempts to reserve capacity, not the cloud-customer 51% condition reported in n-0558 or the Oracle/Tencent deal in n-0479. The events must not be combined into an unannounced new ban.",
+    "קישור": "https://money.usnews.com/investing/news/articles/2026-11-12/exclusive-chinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs",
+    "מקורות": [
+      {
+        "label": "Reuters בהפצת U.S. News: דיווח מלא על גישה מרחוק, 12 בנובמבר",
+        "label_en": "Reuters via U.S. News: full Nov 12 remote-access report",
+        "url": "https://money.usnews.com/investing/news/articles/2026-11-12/exclusive-chinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs"
+      }
+    ],
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d5cb88eb81394b3f3ea1d4f7f7aab38c70a9eb22370b73487769cc2b82eb809e"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1364",
+    "category": "micro",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-12 09:15",
+    "כותרת": "השלמה מ-11.11 | Nokia: One New Zealand בחרה במערכות אוטומציה ובקרת רשת; אין אישור שכבר הושגה אוטונומיה מלאה",
+    "כותרת_en": "Catch-up from Nov 11 | Nokia: One New Zealand selects network automation and assurance systems; no completed autonomy claim",
+    "טקסט": "11.11.2026 | הודעת Nokia המקורית נקראה במלואה; שעת פרסום מדויקת לא אומתה. השלמת סיקור.\n\nOne New Zealand בחרה ב-Nokia Assurance Center וב-Autonomous Networks Data Suite להרחבת פעילות הרשת האוטומטית שלה. Nokia תספק גם שירותי פיתוח משותף וייעוץ. זהו הסכם לפריסה, לא הודעה שכל המערכות כבר הוטמעו או שהרשת פועלת ללא התערבות אנושית.\n\nהמהלך נבנה על השקעות ב-Unified Inventory וב-Orchestration Center מ-2025. המטרה היא לאחד נתוני רשת וכלי בקרה כדי לצפות בעיות ולשפר החלטות תפעוליות, בדרך לרמות 3 ו-4 של רשתות אוטונומיות לפי TM Forum. אלה יעדי התקדמות ולא רמות שההודעה מאשרת שכבר הושגו.\n\nהפתרון כולל ממשקים פתוחים ואפשרויות פריסה מקומית כדי להשאיר שליטה בנתונים, במודלים ובסביבת ההפעלה. לא פורסמו שווי החוזה, כמות אתרים או מועד השלמת הפריסה. זהו הסכם לקוח נפרד מניסוי Optus ב-n-1287.",
+    "טקסט_en": "Nov 11, 2026 | The full original Nokia release was read; exact publication clock not verified. Catch-up coverage.\n\nOne New Zealand selected Nokia Assurance Center and Autonomous Networks Data Suite to expand network automation. Nokia will also supply R&D co-creation and consulting services. This is an agreement for deployment, not confirmation all systems are installed or the network operates without human intervention.\n\nIt builds on 2025 Unified Inventory and Orchestration Center investments. The aim is to unify network data and assurance tools, anticipate problems and improve operational decisions, progressing toward TM Forum Level 3 and Level 4 autonomous-network capabilities. These are progression goals, not levels already achieved according to the announcement.\n\nOpen interfaces and on-premises deployment options are intended to preserve control over data, models and operations. Contract value, site count and completion date were not disclosed. This customer agreement is separate from the Optus trial in n-1287.",
+    "קישור": "https://www.nokia.com/newsroom/one-new-zealand-expands-nokia-partnership-to-accelerate-its-autonomous-networks-transformation/",
+    "מקורות": [
+      {
+        "label": "Nokia: הודעת הסכם עם One New Zealand",
+        "label_en": "Nokia: One New Zealand agreement release",
+        "url": "https://www.nokia.com/newsroom/one-new-zealand-expands-nokia-partnership-to-accelerate-its-autonomous-networks-transformation/"
+      }
+    ],
+    "symbols": [
+      "NOK"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c8d395ae8946164043e55d6fda903bceb88f237a1469d5f9c3d58cfa35dd6349"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1365",
+    "category": "macro",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-12 09:15",
+    "כותרת": "השלמה מ-9.11 | סין מאריכה בחודשיים את השהיית צעדי הנגד נגד חמש חברות-בת אמריקאיות הקשורות ל-Hanwha Ocean",
+    "כותרת_en": "Catch-up from Nov 9 | China extends suspension of countermeasures against five Hanwha Ocean-related US subsidiaries by two months",
+    "טקסט": "9.11.2026 | צו MOFCOM המקורי 2026/4 נקרא ישירות. העמוד מציג 16:00 ללא אזור זמן מפורש; תאריך התחילה בצו מוגדר במפורש לפי שעון בייג׳ינג. השלמת סיקור, לא הודעה חדשה מ-11 בנובמבר.\n\nמשרד המסחר הסיני קובע שהחל מ-10 בנובמבר 2026 לפי שעון בייג׳ינג תימשך למשך חודשיים השהיית הצעדים מכוח צו 6/2025 נגד חמש חברות-בת אמריקאיות הקשורות ל-Hanwha Ocean. המשרד מייחס את ההחלטה ליישום ההסכמות הכלכליות והמסחריות בין סין לארה״ב.\n\nזהו המשך השהיה זמנית של צעדים קיימים, לא הטלת סנקציות חדשות, ביטול קבוע של הצו או הכרזה שכל מגבלות הסחר עם החברות הוסרו. הנוסח אומר חודשיים מ-10 בנובמבר; אין בו תאריך סיום נפרד.\n\nזהו רכיב אחר מהשהיית אמצעי בקרת היצוא נגד 16 הישויות האמריקאיות שכבר אומתה ב-n-1090. אין להחליף בין שתי הרשימות או להסיק מהצו הזה שינוי כללי בבקרות היצוא הסיניות.",
+    "טקסט_en": "Nov 9, 2026 | Original MOFCOM Order 2026/4 read directly. The page shows 16:00 without an explicit timezone; the effective date explicitly uses Beijing time. Catch-up coverage, not a new Nov 11 announcement.\n\nChina’s Ministry of Commerce says suspension of the measures under Order 6/2025 against five Hanwha Ocean-related US subsidiaries continues for two months from Nov 10, 2026, Beijing time. The ministry attributes the decision to implementation of China-US economic and trade understandings.\n\nThis extends a temporary suspension of existing countermeasures. It is not new sanctions, permanent repeal, or confirmation all trade restrictions on the companies are removed. The text states two months from Nov 10 and no separate end date.\n\nThis differs from the export-control suspension against 16 US entities already verified in n-1090. The lists must not be conflated or this order treated as a general change to Chinese export controls.",
+    "קישור": "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_538d455ad2a743af94b07bc04744fb03.html",
+    "מקורות": [
+      {
+        "label": "MOFCOM: צו 2026/4 המקורי מ-9 בנובמבר",
+        "label_en": "MOFCOM: original Nov 9 Order 2026/4",
+        "url": "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_538d455ad2a743af94b07bc04744fb03.html"
+      }
+    ],
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3461ff37cbf30aac6fe98bc418f496440afe0559b8e95739fe552f83511ecf58"
+      }
+    }
   }
 ]
