@@ -35828,5 +35828,50 @@
         "source_hash": "5d25454c7460f90a31d94e89611c81711ae6aec4656d48b50b48febadd81a370"
       }
     }
+  },
+  {
+    "מזהה": "n-1427",
+    "category": "micro",
+    "חברה": "OKLO, LEU",
+    "תאריך": "2026-11-05",
+    "כותרת": "השלמת סיקור: Oklo ו-Centrus חתמו על הסכם דלק בספטמבר; מקדמה של Meta הועברה בנובמבר, אספקה מתוכננת מ-2029",
+    "כותרת_en": "Catch-up: Oklo and Centrus signed fuel agreement in September; Meta funding moved in November, deliveries planned from 2029",
+    "טקסט": "השלמת סיקור: דיווחי SEC מ-5 ו-6 בנובמבר כבר תיארו את הסכם הדלק. הסכם אספקה נחתם ב-30.09.2026, ותשלום ראשוני הועבר ב-02.11.2026. הודעת החברות מ-12 בנובמבר מפרטת חוזים סופיים רב-שנתיים; אין כאן טענה שכל החוזים נחתמו היום או שכל תנאיהם זהים להסכם מספטמבר.\n\nבדיווח Oklo לרבעון שהסתיים בספטמבר נאמר שב-30 בספטמבר נחתם הסכם אספקת HALEU עם Centrus עבור תחנות הכוח המתוכננות עבור Meta, בכפוף לתנאים מסוימים. ב-2 בנובמבר שוחרר סכום ראשוני של Meta מנאמנות ושולם ישירות ל-Centrus כזיכוי להזמנות דלק. הסכום לא פורסם.\n\nדיווח Centrus כבר מתאר את מכתב הכוונות מיוני ככזה שהפך להסכם סופי. הודעת 12 בנובמבר מפרטת חוזים סופיים רב-שנתיים ל-HALEU, אורניום מועשר ברמה נמוכה בעל שיעור העשרה גבוה יחסית, בהיקף המספיק לעד חמש תחנות Aurora למספר שנים. אספקות ממפעל American Centrifuge במחוז Pike באוהיו מתוכננות להתחיל ב-2029, לא כעת.\n\nלפי ההודעה, המקדמות נועדו לתמוך בבניית קיבולת העשרת אורניום חדשה של Centrus. רכישת הדלק נתמכת בהסדר המקדמה הקיים עם Meta עבור חשמל עתידי, ותומכת בשלב הראשון של קמפוס Oklo המתוכנן באוהיו, בפריסות עתידיות ובתדלוק חוזר מאוחר יותר של Aurora-INL. אין אישור שהדלק נמסר או שכל התנאים החוזיים מולאו.\n\n1.2 גיגה-ואט הוא היקף הקמפוס המתוכנן, לא קיבולת שכבר מחוברת לרשת. ההסכמים אינם רישיון כור או אישור שהתחנות נבנו, החלו לפעול או מוכרות חשמל. לא פורסמו מחיר הדלק, כמות מדויקת, שווי ההסכמים או סכום המקדמות. 5.4 מיליארד הדולר שמוזכרים בהודעה הם סך חוזים והתחייבויות לקוחות של Centrus ל-LEU ול-HALEU מהקיבולת החדשה, ולא מחיר העסקה עם Oklo.\n\nזהו הסכם דלק, נפרד מהסכם רכיבי Aurora, מאישור DOE לכור הניסוי Groves-1 ומאישור מימון הקרקע באינדיאנה שכבר סוקרו. מועד הפרסום הציבורי הראשון המדויק לא אומת; ההסכם כבר תועד בדיווחים מוקדמים מהודעת 12 בנובמבר.",
+    "טקסט_en": "Catch-up: November 5 and 6 SEC filings already described the fuel agreement. A supply agreement was signed on September 30, 2026 and an initial payment moved on November 2. The companies' November 12 release describes definitive multiyear contracts; this does not establish that all contracts were signed today or that all their terms match the September agreement.\n\nOklo's September-quarter filing says it entered a HALEU supply agreement with Centrus on September 30 to support powerhouses for Meta, subject to certain conditions. On November 2, an initial amount of Meta funding left escrow and was paid directly to Centrus as credit toward fuel orders. The amount was not disclosed.\n\nCentrus's filing already describes the June letter of intent as definitized. The November 12 release describes definitive multiyear contracts for high-assay low-enriched uranium, sufficient to support up to five Aurora powerhouses for multiple years. Deliveries from the American Centrifuge Plant in Pike County, Ohio are scheduled to begin in 2029, not now.\n\nThe release says prepayments support construction of new Centrus enrichment capacity. The fuel purchase is supported by Meta's existing prepayment arrangement for future power and supports the first phase of Oklo's planned Ohio campus, future deployments and later Aurora-INL refueling. This does not confirm fuel delivery or satisfaction of all contractual conditions.\n\nThe 1.2 GW is planned campus capacity, not power already connected to the grid. The contracts do not constitute a reactor licence or confirm built, operating powerhouses or electricity sales. Fuel price, exact volume, agreement value and prepayment amounts were not disclosed. The $5.4 billion in the release is Centrus's aggregate customer contracts and commitments for LEU and HALEU from new capacity, not the Oklo deal price.\n\nThis fuel agreement is separate from the previously covered Aurora component agreement, Groves-1 test-reactor DOE milestone and Indiana land-funding approval. The exact first public-disclosure clock was not verified; earlier filings already described the agreement before the November 12 release.",
+    "קישור": "https://www.businesswire.com/news/home/20261112814189/en/Oklo-Centrus-Secure-Fuel-Supply-for-Aurora-Powerhouse-Deployment-in-Ohio",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261112814189/en/Oklo-Centrus-Secure-Fuel-Supply-for-Aurora-Powerhouse-Deployment-in-Ohio",
+        "label": "Oklo/Centrus: הודעת 12 בנובמבר שנקראה במלואה",
+        "label_en": "Oklo/Centrus: November 12 release, read in full"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026071319/oklo-20260930.htm",
+        "label": "Oklo: סעיפי דלק ומקדמת Meta בדיווח המקורי ל-SEC; לא סקירת כל הדוח",
+        "label_en": "Oklo: original SEC fuel and Meta prepayment sections; not a review of the whole filing"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026070557/leu-20260930.htm",
+        "label": "Centrus: סעיף הסכם Oklo הסופי בדיווח המקורי ל-SEC",
+        "label_en": "Centrus: definitized Oklo agreement section in original SEC filing"
+      }
+    ],
+    "symbols": [
+      "OKLO",
+      "LEU",
+      "META"
+    ],
+    "sectors": [
+      "utilities",
+      "energy"
+    ],
+    "tags_version": 1,
+    "הועלה": "2026-11-12 14:50",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6e945263509b6004a4e41be700f55250899bf37e7785c3c07e208aae33bdb9fe"
+      }
+    }
   }
 ]
