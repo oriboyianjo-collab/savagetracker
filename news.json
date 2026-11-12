@@ -34990,5 +34990,38 @@
         "source_hash": "a6acf851c70e78638d3da5a740bd0ce235c6618955943e29d2ccf5e31fd48bbb"
       }
     }
+  },
+  {
+    "מזהה": "n-1399",
+    "category": "micro",
+    "חברה": "AAPL / GOOGL",
+    "symbols": [
+      "AAPL",
+      "GOOGL"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-06",
+    "כותרת": "השלמת סיקור: בית משפט בקנדה אישר ייצוגית נגד אפל על הסכם החיפוש עם Google; אין הכרעה באחריות או פיצוי",
+    "כותרת_en": "Catch-up: Canadian court certifies search-deal class action against Apple; no liability finding or damages award",
+    "טקסט": "השלמת סיקור: בית המשפט העליון של קולומביה הבריטית אישר ב-6 בנובמבר 2026 לנהל את ההליך Spark Event Rentals כתובענה ייצוגית נגד Apple Inc. ו-Apple Canada Inc. פסק הדין המקורי 2026 BCSC 1971, תיק S218036, נקרא במלואו. שעת הפרסום המקורית לא אומתה; כתבת Mac4Ever מ-12 בנובמבר אינה אירוע משפטי חדש.\n\nהתובעת טוענת שההסכמים שבמסגרתם Google משלמת לאפל עבור מעמד ברירת המחדל של מנוע החיפוש במכשיריה הפחיתו את התחרות וייקרו את פרסום החיפוש. מדובר בטענות שיש לברר, לא בקביעה שאפל הפרה את הדין. אישור תובענה ייצוגית בודק אם קיימות עילות ושאלות משותפות המתאימות לבירור קבוצתי; הוא אינו הכרעה באחריות או בגובה הנזק.\n\nהקבוצה כוללת תושבי קנדה שרכשו מ-Google מודעות חיפוש משנת 2005 ועד ההווה. ההגדרה מוציאה מודעות המוצגות במנועי חיפוש ייעודיים, כגון הזמנות נסיעות, וכן את הנתבעות והחברות הקשורות אליהן. Google אינה נתבעת בהליך הממשיך: לאחר שבית המשפט עיכב קודם את התביעה נגדה כדי לאפשר בירור בוררות, התובעת הפסיקה את ההליך נגדה ולא פתחה בוררות.\n\nהשופט תומאס קבע שהתובעת עמדה בדרישות לאישור, לרבות עילת תביעה נטענת, קבוצה מזוהה, שאלות משותפות, הליך ייצוגי עדיף ותוכנית ניהול ישימה. המתודולוגיה הכלכלית שהוצעה לחישוב תשלום יתר עברה את הרף המקדמי הנמוך. אין בכך אישור סופי למודל, אומדן נזק שנפסק או הוכחה שכל רוכש מודעות ספג הפסד.\n\nאפל טענה בין השאר שמדובר בהסכם הפצה לגיטימי, שהיא אינה צד לאחזקת מונופול פסולה ושהמודל הכלכלי אינו נותן מענה מספיק לתרחישי שוק חלופיים ולשונות בין מפרסמים. בית המשפט התיר בירור שאלות משותפות, כולל פיצויים עונשיים כשאלה אפשרית, אך לא העניק פיצויים. הוא ציין שנתוני Google הדרושים למודל עשויים לחייב הליכי גילוי בארה\"ב, ואם נתונים או מתודולוגיה לא יתאימו בהמשך ניתן לבטל את האישור.\n\nהמשמעות המיידית היא שההליך נגד שתי חברות אפל יכול להתקדם כייצוגי בקנדה. פסק הדין אינו מבטל את הסכם החיפוש, אינו מורה על שינוי ברירת המחדל, אינו קובע מועד משפט ואינו מכמת הפרשה או פגיעה בהכנסות. אין לערבב אותו עם הפסיקה האמריקאית נגד Google או להציג את סכומי התשלומים השנתיים בדיווחים משניים כסכום פיצויים שנפסק בקנדה.",
+    "טקסט_en": "Catch-up: on November 6, 2026, the Supreme Court of British Columbia certified the Spark Event Rentals proceeding as a class action against Apple Inc. and Apple Canada Inc. The full original judgment, 2026 BCSC 1971 in file S218036, was read. Its original publication time was not verified; the November 12 Mac4Ever article is not a new court event.\n\nThe plaintiff alleges that agreements under which Google pays Apple for default search distribution on Apple devices reduced competition and raised search-advertising prices. These remain allegations to be tried, not a finding that Apple broke the law. Certification tests whether causes of action and common questions are suitable for group litigation. It does not decide liability or damages.\n\nThe class covers Canadian residents who bought Search Ads from Google from 2005 to the present. It excludes advertisements on specialized search engines, such as travel-booking engines, and the defendants and their related companies. Google is not a defendant in the continuing proceeding: after an earlier stay to allow an arbitration issue to be determined, the plaintiff discontinued its case against Google and did not start arbitration.\n\nJustice Thomas found the certification requirements met, including a pleaded cause of action, an identifiable class, common issues, a preferable class procedure and a workable litigation plan. The proposed economic methodology for estimating overcharges met the low preliminary threshold. This is not final approval of the model, an awarded damages estimate or proof that every advertiser suffered loss.\n\nApple argued, among other things, that the arrangement is legitimate distribution, that it is an innocent bystander rather than a participant in unlawful monopolization, and that the economic model inadequately addresses alternative markets and differences between advertisers. The court allowed common questions to proceed, including the possibility of punitive damages as a question, but awarded no damages. It noted that required Google data may need US discovery and certification can later be withdrawn if the data or methodology prove unsuitable.\n\nThe immediate effect is that litigation against both Apple companies can proceed as a Canadian class action. The judgment does not cancel the search agreement, order a default-search change, set a trial date or quantify a provision or revenue effect. It must not be confused with the US judgment against Google, or annual distribution payments mentioned in secondary reports treated as damages awarded in Canada.",
+    "קישור": "https://www.bccourts.ca/jdb-txt/sc/26/19/2026BCSC1971.htm",
+    "מקורות": [
+      {
+        "url": "https://www.bccourts.ca/jdb-txt/sc/26/19/2026BCSC1971.htm",
+        "label": "בית המשפט בקולומביה הבריטית: פסק הדין המקורי המלא 2026 BCSC 1971",
+        "label_en": "British Columbia court: full original judgment 2026 BCSC 1971"
+      }
+    ],
+    "הועלה": "2026-11-12 11:53",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a46c3995b818b4508e6bb99bbc768d29ac3d99795e868935c372b9c557fb0939"
+      }
+    }
   }
 ]
