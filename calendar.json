@@ -2783,18 +2783,29 @@
     "מדינה": "US",
     "אירוע": "נתוני ניירות ערך מסחריים (CP) - הפד",
     "חשיבות": 1,
-    "הערה": "לוח הפד מאשר פרסום ב-12.11, כולל הפרסומים שנדחו מחג Veterans Day ב-11.11. אין צפי או ערך קודם יחיד. אומת ב-02.11.2026 20:02 ישראל. CP ב-13:00ET / 20:00 ישראל בדרך כלל, אך שעת הפרסום אינה מובטחת.",
-    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "הערה": "נתוני 10.11, פורסמו 12.11 לאחר החג: ריבית שנתית ל-30 יום, AA לא-פיננסי 3.97%, A2/P2 לא-פיננסי 4.13%, AA מגובה נכסים 4.02%. אין נתון או צפי יחיד; n.a. אינו אפס.",
+    "מקור": "https://www.federalreserve.gov/releases/cp/",
     "שעה": "20:00",
     "מזהה": "c-0113",
     "אירוע_en": "Commercial paper (CP) data - Fed",
-    "הערה_en": "The Fed calendar confirms a Nov 12 release, including the releases postponed from the Nov 11 Veterans Day holiday. No single estimate or prior value. Verified Nov 2, 2026 20:02 Israel. CP at 13:00 ET / 20:00 Israel usually, but the release time is not guaranteed.",
+    "הערה_en": "Nov 10 data, posted Nov 12 after the holiday: 30-day annual rates, AA nonfinancial 3.97%, A2/P2 nonfinancial 4.13%, AA asset-backed 4.02%. No single actual or forecast; n.a. is not zero.",
     "_translation": {
       "en": {
-        "source_hash": "f7d99a1d7bb6ea4329822745ff70310226014053a8798c1aafef3ebe2d7df429",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "6ace42abe5d0586b9a806bc5ac11e9aa0d95aede116e55c6c0dc16980e9496b4"
       }
-    }
+    },
+    "היסטוריית_עדכונים": [
+      {
+        "הערה": "לוח הפד מאשר פרסום ב-12.11, כולל הפרסומים שנדחו מחג Veterans Day ב-11.11. אין צפי או ערך קודם יחיד. אומת ב-02.11.2026 20:02 ישראל. CP ב-13:00ET / 20:00 ישראל בדרך כלל, אך שעת הפרסום אינה מובטחת.",
+        "הערה_en": "The Fed calendar confirms a Nov 12 release, including the releases postponed from the Nov 11 Veterans Day holiday. No single estimate or prior value. Verified Nov 2, 2026 20:02 Israel. CP at 13:00 ET / 20:00 Israel usually, but the release time is not guaranteed.",
+        "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+      }
+    ],
+    "בפועל": "פורסם · נתוני 10.11",
+    "בפועל_en": "Published · Nov 10 data",
+    "תקופה": "נתוני 10.11.2026; פורסם 12.11",
+    "תקופה_en": "Nov 10, 2026 data; posted Nov 12"
   },
   {
     "תאריך": "2026-11-12",
