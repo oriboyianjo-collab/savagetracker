@@ -37573,5 +37573,37 @@
         "source_hash": "6b20b2bdd432b62298945aad91cf7102a2a4148643d28657243a5fed762cb32c"
       }
     }
+  },
+  {
+    "מזהה": "n-1478",
+    "category": "micro",
+    "חברה": "ATI",
+    "symbols": [
+      "ATI"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 21:41",
+    "כותרת": "ATI מתכננת הרחבת אבקת ניקל בצפון קרוליינה וספוג זירקוניום באורגון; הרצה מלאה צפויה ב-2028",
+    "כותרת_en": "ATI plans North Carolina nickel-powder and Oregon zirconium-sponge expansions, with full ramp expected in 2028",
+    "טקסט": "12.11.2026 | הודעת ATI המלאה מיום המשקיעים נקראה. הפצת PR Newswire מתוארכת ל-14:41 ET, 21:41 שעון ישראל. החברה הודיעה על שני פרויקטים להרחבת כושר ייצור, הכלולים בתחזית הוצאות ההון הקיימת שלה; לא פורסם סכום ההשקעה הנפרד בכל פרויקט.\n\nבמתקן אבקת הניקל בבייקרס, צפון קרוליינה, ATI מתכננת להוסיף מתקן אטומיזציה ועיבוד מוצרים כדי לייצר סגסוגות-על של ניקל למנועי סילון מהדור הבא ולשימושים בטמפרטורות גבוהות. הרצה מלאה צפויה בסוף 2028. החברה צופה לפרויקט הכנסה נוספת של 200 מיליון דולר; זהו צפי להכנסות, לא עלות ההקמה, הזמנה חתומה או מכירות שכבר נרשמו.\n\nבמילרסבורג, אורגון, החברה מתכננת הרחבה באתר קיים לייצור ספוג זירקוניום בטוהר גבוה ולהמרת מוצרים כימיים לחומרים בדרגה גרעינית, עבור יישומי אנרגיה גרעינית מסחריים וימיים. הרצה מלאה צפויה בתחילת 2028. צפי ההכנסה הנוספת הוא 100 מיליון דולר, וגם כאן לא מדובר בסכום השקעה או בהכנסה בפועל.\n\nATI מסרה שהפרויקטים החדשים, יחד עם הרחבות ניקל בהתכה מחדש ובהתכת ואקום וטיטניום שעליהן הודיעה בעבר, צפויים לתמוך בכמעט מיליארד דולר בהכנסה נוספת כשהמערך כולו יפעל במלואו ב-2029. אין לייחס את הסכום לשני הפרויקטים החדשים לבדם. אלה תוכניות ותחזיות של החברה, התלויות בביצוע ובביקוש; ההודעה אינה מאשרת שכושר הייצור החדש כבר פועל או מפרטת הזמנות מלקוחות חדשים.",
+    "טקסט_en": "November 12, 2026 | ATI's full Investor Day release was read. PR Newswire dates distribution at 14:41 ET, or 21:41 Israel time. ATI announced two production-capacity projects included in its existing capital-expenditure guidance; it did not disclose each project's investment cost.\n\nAt its Bakers, North Carolina nickel-powder facility, ATI plans an atomizer and product-processing capacity for nickel superalloys used in next-generation jet engines and other high-temperature applications. Full ramp is expected in late 2028. The company expects $200 million in incremental revenue from the project. That is projected revenue, not construction cost, a signed order or sales already recorded.\n\nAt Millersburg, Oregon, ATI plans a brownfield expansion of high-purity zirconium sponge production and its capability to convert chemical products into nuclear-grade materials for commercial and naval nuclear-energy uses. Full ramp is expected in early 2028. Expected incremental revenue is $100 million, again not investment spending or realized revenue.\n\nATI says the new projects, together with previously announced nickel-remelt, vacuum-induction-melt and titanium projects, should support nearly $1 billion in incremental revenue when fully online in 2029. That total must not be attributed to the two new projects alone. These are company plans and forecasts dependent on execution and demand, not confirmation that the new capacity is operating or disclosure of orders from new customers.",
+    "קישור": "https://www.prnewswire.com/news-releases/ati-unveils-acceleration-strategy-targets-double-digit-growth-and-expanded-margins-302938336.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/ati-unveils-acceleration-strategy-targets-double-digit-growth-and-expanded-margins-302938336.html",
+        "label": "ATI: ההודעה המקורית המלאה ב-PR Newswire",
+        "label_en": "ATI: full original release via PR Newswire"
+      }
+    ],
+    "הועלה": "2026-11-12 21:46",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "54cda0f71d30278a72b64dc53b1c67a90200286fcd203cdc8c3671ec0222a587"
+      }
+    }
   }
 ]
