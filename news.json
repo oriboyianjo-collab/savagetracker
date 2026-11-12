@@ -35554,5 +35554,29 @@
         "source_hash": "814d90ec413226c3d4376372ca3dffcea219c8a99f8fa4e98206f1e087a89c95"
       }
     }
+  },
+  {
+    "מזהה": "n-1416",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "כותרת": "Parsons (PSN): תיקון לחוזה קיים לשיקום אתרים בחוף המערבי, בתקרה של 100 מיליון דולר",
+    "כותרת_en": "Parsons (PSN): amendment to existing West Coast remediation contract, with a $100 million ceiling",
+    "טקסט": "12.11.2026, 13:30 בישראל (06:30 בחוף המזרחי של ארה\"ב) | הודעת Parsons הרשמית באמצעות GlobeNewswire, נקראה במלואה.\n\nParsons נבחרה להמשיך לספק שירותי הנדסה סביבתית לשיקום אתרים בחוף המערבי של ארה\"ב. מדובר בתיקון חדש לחוזה קיים וחסוי, בתקרה של 100 מיליון דולר, ולא בחוזה עצמאי חדש של 100 מיליון דולר.\n\nהעבודה כוללת דיגום, אפיון פסולת, טיפול בזיהום ושיקום. החברה מציגה את העבודה כהמשך פעילותה לטיפול באתגרים מורכבים של זיהום סביבתי. ההודעה אינה מזהה את הלקוח או את האתרים, ואינה מוסרת את תקופת ההתקשרות, הסכום שמומן בפועל או לוח זמנים להכרה בהכנסות.\n\n100 מיליון דולר הם תקרת התיקון, לא הכנסה מובטחת, תשלום שהתקבל או סכום שכבר נוסף להכנסות. אין בהודעה בסיס לקבוע שכל הסכום יבוצע. זו פעילות סביבתית נפרדת מהזמנת התוכנה המודיעינית של Altamira עבור NASIC, שסוקרה ב-n-1198; אין לחבר ביניהן כחוזה אחד.",
+    "טקסט_en": "November 12, 2026, 13:30 in Israel (06:30 U.S. Eastern) | Official Parsons release via GlobeNewswire, read in full.\n\nParsons was selected to continue providing environmental engineering services for site remediation on the U.S. West Coast. This is a new amendment to an existing confidential contract, with a $100 million ceiling, not a new standalone $100 million contract.\n\nThe work includes sampling, waste characterization, remediation and restoration. Parsons describes it as a continuation of its work addressing complex environmental contamination. The release does not identify the client or sites, or disclose the contract term, actual funded amount or revenue-recognition schedule.\n\nThe $100 million is the amendment's ceiling, not guaranteed revenue, a payment received or revenue already booked. The release does not establish that the full amount will be used. This environmental work is separate from Altamira's NASIC intelligence-software task order covered in n-1198; they should not be combined as one contract.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/12/3401355/0/en/parsons-awarded-contract-amendment-valued-up-to-100m-for-environmental-engineering-services.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/12/3401355/0/en/parsons-awarded-contract-amendment-valued-up-to-100m-for-environmental-engineering-services.html",
+        "label": "Parsons: תיקון לחוזה שירותי הנדסה סביבתית, 12 בנובמבר",
+        "label_en": "Parsons: environmental engineering contract amendment, November 12"
+      }
+    ],
+    "הועלה": "2026-11-12 13:37",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c5f4cec57dc323d59323246bda8d4c2c8115dffe411393d4c5a8c3d995ce62bf"
+      }
+    }
   }
 ]
