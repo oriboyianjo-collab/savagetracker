@@ -34107,5 +34107,67 @@
         "source_hash": "e23ea04fd85ca41aef4045a8edeb9342741e2f18de71a61ce69e63195228e80b"
       }
     }
+  },
+  {
+    "מזהה": "n-1373",
+    "category": "micro",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-12 09:23",
+    "כותרת": "השלמה מ-10.11 | FactSet (FDS): שותפות עם Carbon Arc לשילוב יותר מ-500 נכסי מידע חלופי ב-Workstation ובסביבת ה-AI שלה",
+    "כותרת_en": "Catch-up from Nov 10 | FactSet (FDS): Carbon Arc partnership to integrate over 500 alternative-data assets into Workstation and its AI ecosystem",
+    "טקסט": "10.11.2026, 19:01 בישראל | הודעת FactSet המקורית פורסמה ב-12:01 ET ב-GlobeNewswire ונקראה במלואה. השלמת סיקור, לא הכרזה חדשה מ-12 בנובמבר.\n\nFactSet הודיעה על שותפות עם Carbon Arc לשילוב גישה מנוהלת ליותר מ-60 ספקי מידע חלופי ויותר מ-500 נכסי מידע בתוך Workstation ובסביבת Model Context Protocol שלה. התוכן כולל עסקאות בכרטיסי אשראי, תנועת לקוחות בחנויות, פרסום דיגיטלי, מסחר מקוון, תעבורת אתרים ואפליקציות והיתרי בנייה.\n\nהגישה מתוארת כתוספת אופציונלית דרך כניסה אחת (SSO), בתוך כלי העבודה הקיימים וגם דרך שילובי MCP עם ספקיות ענן ומעבדות AI. אין כאן הודעה שהתוספת כלולה בחינם בכל מנוי או שכל מאגר כבר זמין לכל לקוח; לא פורסמו מחיר, מועד פריסה מלא או תנאי רישוי לכל נכס מידע.\n\nהמטרה היא לאפשר שימוש במידע החלופי במחקר ובניתוח השקעות, אך שיפור במהירות ובתוצאות הוא יעד שהחברות מציגות, לא תוצאת ביצועים עצמאית. לא נמסרו שווי חוזה, לקוחות חתומים חדשים, סכום הכנסות או שינוי בתחזית הפיננסית. זו הרחבת מוצר ושותפות נתונים, לא רכישת Carbon Arc.",
+    "טקסט_en": "Nov 10, 2026, 19:01 Israel time | FactSet’s original release was published at 12:01 ET on GlobeNewswire and read in full. Catch-up coverage, not a new Nov 12 announcement.\n\nFactSet announced a Carbon Arc partnership to integrate governed access to more than 60 alternative-data providers and over 500 data assets into Workstation and its Model Context Protocol ecosystem. Content includes card transactions, retail foot traffic, digital advertising, ecommerce, web and app traffic, and housing permits.\n\nAccess is described as an optional add-on using single sign-on within existing workflows and through MCP integrations with cloud providers and AI labs. This does not say it is free in every subscription or every dataset is already available to every client. Price, a complete rollout date and asset-specific licensing terms were not disclosed.\n\nThe aim is alternative-data use in investment research and analysis; faster or better outcomes are company-described goals, not independent performance results. Contract value, new signed customers, revenue and financial-guidance changes were not disclosed. This is a product and data partnership expansion, not an acquisition of Carbon Arc.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/10/3400040/0/en/FactSet-Integrates-Alternative-Data-and-Expands-AI.html",
+    "מקורות": [
+      {
+        "label": "FactSet: הודעת השותפות המלאה ב-GlobeNewswire",
+        "label_en": "FactSet: full partnership release via GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3400040/0/en/FactSet-Integrates-Alternative-Data-and-Expands-AI.html"
+      }
+    ],
+    "symbols": [
+      "FDS"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bbca0ab746a808df080c1ef85cb571ddb68c2d4ecad3727edadeebe487b7a76b"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1374",
+    "category": "micro",
+    "תאריך": "2026-11-02",
+    "הועלה": "2026-11-12 09:23",
+    "כותרת": "השלמה מ-2.11 | Blackstone (BX): קבוצה בהובלתה הסכימה להשקיע 3.1 מיליארד דולר בהחזקת Mitsubishi ב-LNG Canada",
+    "כותרת_en": "Catch-up from Nov 2 | Blackstone (BX): investor group agrees $3.1 billion investment in Mitsubishi’s LNG Canada interest",
+    "טקסט": "2.11.2026 | הודעת Blackstone המקורית נקראה במלואה; שעת הפרסום לא אומתה. השלמת סיקור מהודעה בת עשרה ימים, לא עסקה חדשה מ-12 בנובמבר.\n\nקרנות Blackstone Credit & Insurance, יחד עם CPP Investments, OMERS, IMCO ו-PSP Investments, הסכימו להשקיע 3.1 מיליארד דולר לרכישת החזקה לא שולטת של 49.9% בחברה-בת של Mitsubishi Corporation המחזיקה בזכויותיה בעסק ההנזלה LNG Canada. זהו 49.9% בחברה-הבת המסוימת, לא 49.9% מכל פרויקט LNG Canada. הסכום מיוחס לקבוצת המשקיעים כולה, לא ל-Blackstone לבדה.\n\nMitsubishi תישאר בעלת השליטה ותשמור את מלוא חלקה בזכויות לקבלת LNG מהמתקן (offtake). אין כאן העברת מלוא פעילותה או התחייבות חדשה של Blackstone לרכוש את כל תפוקת הגז. ההודעה מתארת הסכם השקעה ואינה מוסרת מועד סגירה או מאשרת שהכסף כבר הועבר.\n\nההודעה מתארת הרחבת Phase 2 שאמורה להכפיל את קיבולת הייצור ל-28 מיליון טונות בשנה לאחר השלמתה. זהו יעד עתידי, לא קיבולת שכבר פועלת. עסקאות Rogers, Aeroplan, Kuwait Oil ופרויקטי LNG אחרים שהוזכרו בהודעה הן רקע להשקעות קודמות, ואינן מתווספות לשווי העסקה הזאת. לא פורסמו חלוקת ההון בין המשקיעים או תשואה מובטחת.",
+    "טקסט_en": "Nov 2, 2026 | Full original Blackstone release read; exact publication clock not verified. Catch-up coverage of a ten-day-old announcement, not a new Nov 12 deal.\n\nBlackstone Credit & Insurance funds, together with CPP Investments, OMERS, IMCO and PSP Investments, agreed to invest $3.1 billion for a 49.9% non-controlling interest in a Mitsubishi Corporation subsidiary holding its interest in LNG Canada’s liquefaction business. This is 49.9% of that subsidiary, not 49.9% of the entire LNG Canada project. The amount is for the investor group, not Blackstone alone.\n\nMitsubishi remains controlling partner and retains its full LNG offtake share. This is not a transfer of its entire business or a new Blackstone commitment to buy all gas output. The release describes an investment agreement without a closing date or confirmation funds were transferred.\n\nPhase 2 is described as doubling capacity to 28 million tonnes annually once complete. That is future capacity, not already operating output. Rogers, Aeroplan, Kuwait Oil and other LNG transactions mentioned are background on previous investments and must not be added to this deal’s value. Investor-by-investor allocations and guaranteed returns were not disclosed.",
+    "קישור": "https://www.blackstone.com/news/press/blackstone-and-leading-canadian-institutional-investors-announce-3-1b-investment-in-mitsubishi-corporations-interest-in-lng-canada/",
+    "מקורות": [
+      {
+        "label": "Blackstone: הודעת ההשקעה המקורית מ-2 בנובמבר",
+        "label_en": "Blackstone: original Nov 2 investment announcement",
+        "url": "https://www.blackstone.com/news/press/blackstone-and-leading-canadian-institutional-investors-announce-3-1b-investment-in-mitsubishi-corporations-interest-in-lng-canada/"
+      }
+    ],
+    "symbols": [
+      "BX"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1a845537e63610c1b9866566e503a15ed0f9112072fa7c9c473a42b3b6a999d5"
+      }
+    }
   }
 ]
