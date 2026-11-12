@@ -37119,5 +37119,34 @@
         "source_hash": "c948752aae831413772d913fe5eeec27846de31eb0a0232e8e03cfa448b3ffcf"
       }
     }
+  },
+  {
+    "מזהה": "n-1464",
+    "category": "macro",
+    "symbols": [],
+    "sectors": [
+      "economy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Census: בקשות לפתיחת עסקים בארה\"ב ירדו ב-6% באוקטובר; תחזית החברות המעסיקות ירדה ב-1.8%",
+    "כותרת_en": "Census: US business applications fell 6% in October; projected employer formations declined 1.8%",
+    "טקסט": "12.11.2026 | הודעת Census המקורית CB26-184 נקראה במלואה. העמוד מתוארך 12 בנובמבר ללא שעת פרסום מאומתת.\n\nמספר הבקשות לפתיחת עסקים בארה\"ב באוקטובר 2026, בניכוי עונתיות, עמד על 501,609, ירידה של 6.0% לעומת ספטמבר. זו סדרת Business Applications, לא מספר עסקים שכבר נפתחו, מספר משרות חדשות או מדד סנטימנט של עסקים קטנים.\n\nבנפרד, Census צופה ש-27,867 עסקים חדשים עם חבות מס שכר ייווצרו בתוך ארבעה רבעונים ממועד הבקשה מתוך קבוצת הבקשות שהוגשו באוקטובר. התחזית מנוכת העונתיות נמוכה ב-1.8% מהתחזית המקבילה לקבוצת בקשות ספטמבר.\n\nחשוב להפריד בין סדרות המדידה: 501,609 הוא מספר הבקשות; 27,867 הוא אומדן עתידי להקמות עסקים מעסיקים מתוך אותה קבוצה. אין לפרש את הנתון השני כאילו 27,867 עסקים כבר הוקמו באוקטובר, ואין לחבר בין שני הנתונים למדד כולל.\n\nזהו עדכון נתונים של Census, לא תחזית ריבית או הוכחה שגורם יחיד גרם לירידה. לא אומת קונצנזוס ציפיות להשוואה, ולא נטענת תגובת שוק מסוימת. שיעורי השינוי הם נתוני ההודעה, ללא חישוב לאחור של בסיס ספטמבר.",
+    "טקסט_en": "November 12, 2026 | Census's full original CB26-184 release was read. The page is dated November 12 without a verified publication hour.\n\nSeasonally adjusted US Business Applications totaled 501,609 in October 2026, down 6.0% from September. This is an applications series, not the number of businesses already opened, new jobs or a small-business sentiment index.\n\nSeparately, Census projects that 27,867 new businesses with payroll tax liabilities will form within four quarters of application from the cohort filed in October. That seasonally adjusted projection is 1.8% lower than the analogous projection for September's application cohort.\n\nThe two series measure different things: 501,609 counts applications, while 27,867 estimates future employer business formations from that cohort. The second figure does not mean that 27,867 businesses were already established in October. The figures must not be added into an aggregate index.\n\nThis is a Census data release, not a rate forecast or proof that a single factor caused the decline. No consensus forecast comparison or specific market reaction was verified. Changes are Census's published figures, without reverse-calculating a September base.",
+    "קישור": "https://www.census.gov/econ/bfs/current/index.html",
+    "מקורות": [
+      {
+        "url": "https://www.census.gov/econ/bfs/current/index.html",
+        "label": "Census: דוח אוקטובר המקורי והגדרות הסדרות",
+        "label_en": "Census: original October release and series definitions"
+      }
+    ],
+    "הועלה": "2026-11-12 17:27",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5419c407299e0c0cc84421bb36cd8afef734b8b901562f4e68fb9efdaf2ecd37"
+      }
+    }
   }
 ]

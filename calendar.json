@@ -2667,20 +2667,33 @@
     "מדינה": "US",
     "אירוע": "נתוני פתיחת עסקים - Census",
     "חשיבות": 1,
-    "הערה": "מועד רשמי10:00EST=17:00ישראל; צפי וקודם לא אותרו. לא לייחס מדד מספרי כולל ללא הגדרת סדרה.",
+    "הערה": "אוקטובר 2026, מנוכה עונתיות. בקשות לפתיחת עסקים 501,609, ירידה של 6.0% מספטמבר. בנפרד, 27,867 עסקים עם חבות מס שכר צפויים להיווצר מתוך בקשות אוקטובר בתוך ארבעה רבעונים, ירידה של 1.8% מהתחזית המקבילה לספטמבר. התחזית אינה מספר עסקים שכבר הוקמו באוקטובר. אין מדד כולל יחיד ואין לחבר בין הסדרות. צפי וקודם מספרי לא אומתו; שיעורי השינוי לפי Census, ללא חישוב בסיס קודם לאחור. תאריך המקור 12.11 ללא שעה מאומתת.",
     "מקור": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
     "שעה": "17:00",
     "תקופה": "אוקטובר · חודשי",
     "מזהה": "c-0109",
     "אירוע_en": "Business formation statistics - Census",
     "תקופה_en": "October · monthly",
-    "הערה_en": "Official timing 10:00 EST = 17:00 Israel; estimate and prior not located. Do not attribute an aggregate numeric index without a series definition.",
+    "הערה_en": "October 2026, seasonally adjusted. Business applications 501,609, down 6.0% from September. Separately, 27,867 businesses with payroll tax liabilities are projected to form within four quarters from October's application cohort, down 1.8% from the analogous September projection. The projection is not businesses already formed in October. There is no single aggregate index and the series must not be added together. No forecast or numerical prior was verified; changes are Census figures, without reverse-calculating a prior base. Source date November 12, no verified hour.",
     "_translation": {
       "en": {
-        "source_hash": "072cfa6a82b7671530f01789a0ba8ec2f55b46c676c66977c80f654e2a57e4a7",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "76582427c75da8d231f336ae792adc6193ca96cb11b0fa666ec55b8657636676"
       }
-    }
+    },
+    "היסטוריית_נתונים": [
+      {
+        "תאריך_עדכון": "2026-11-12",
+        "בפועל": null,
+        "קודם": null,
+        "הערה": "מועד רשמי10:00EST=17:00ישראל; צפי וקודם לא אותרו. לא לייחס מדד מספרי כולל ללא הגדרת סדרה.",
+        "הערה_en": "Official timing 10:00 EST = 17:00 Israel; estimate and prior not located. Do not attribute an aggregate numeric index without a series definition."
+      }
+    ],
+    "בפועל": "בקשות: 501,609 (-6.0%); הקמות מעסיקות חזויות: 27,867 (-1.8%)",
+    "בפועל_en": "Applications: 501,609 (-6.0%); projected employer formations: 27,867 (-1.8%)",
+    "מקור_בפועל": "https://www.census.gov/econ/bfs/current/index.html",
+    "תאריך_בדיקת_בפועל": "2026-11-12 17:25"
   },
   {
     "תאריך": "2026-11-12",
