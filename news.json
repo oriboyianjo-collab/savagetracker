@@ -35947,5 +35947,69 @@
         "source_hash": "a3326f90b42924cfd6d3705a46fa73fc41ae58b78ae35111524c2a22d338f6b6"
       }
     }
+  },
+  {
+    "מזהה": "n-1430",
+    "category": "micro",
+    "חברה": "TEL",
+    "symbols": [
+      "TEL"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 15:10",
+    "כותרת": "TE Connectivity (TEL): השקעה של יותר מ-60 מיליון דולר במתקן לפיתוח ולייצור חיבורי סיבים למרכזי נתונים; פתיחה צפויה באביב 2027",
+    "כותרת_en": "TE Connectivity (TEL): more than $60 million for fiber-connectivity R&D and manufacturing; opening expected in spring 2027",
+    "טקסט": "12.11.2026 | הודעת TE Connectivity המקורית פורסמה ב-08:10 ET, 15:10 שעון ישראל, ונקראה במלואה.\n\nTE Connectivity הודיעה שהיא משקיעה יותר מ-60 מיליון דולר במתקן מחקר, פיתוח וייצור בהנרייטה שבמדינת ניו יורק, בשטח 135 אלף רגל רבועה. המתקן מיועד ליחידות מערך סיבים אופטיים בצפיפות גבוהה (FAUs), טכנולוגיה שרכשה מ-RAM Photonics, עבור מפעילי מרכזי נתונים ל-AI וספקיות ענן.\n\nהחברה מצפה לפתיחת המתקן באביב 2027 ולהרחבת הייצור בהדרגה עד 2031. היא מתכננת להעסיק יותר מ-800 עובדים בהנדסה, ייצור וניהול באזור רוצ'סטר. אלה תוכניות השקעה, הפעלה ותעסוקה, לא מפעל שכבר פועל או אישור שכבר נקלטו כל העובדים.\n\nהטכנולוגיה נועדה לסייע בחיבור סיבים למערכות אופטיקה באריזה משותפת (co-packaged optics), בהן צפיפות, צריכת חשמל וקצב העברת נתונים הם מגבלות תכנון. ההשקעה מרחיבה את יכולות האופטיקה של TE לצד מוצרי הנחושת שלה; אין בהודעה נתוני תפוקת מפעל, הכנסות צפויות או הזמנות מלקוחות מזוהים.\n\nהמנכ\"ל מציין עניין מצד לקוחות מרכזי נתונים ותמיכה בזכיות תכנון ובצמיחה צפויה. אין לתרגם את הדברים להזמנה מחייבת חדשה בהיקף 60 מיליון דולר או לתחזית הכנסות שאושרה.",
+    "טקסט_en": "November 12, 2026 | TE Connectivity's full original release was published at 08:10 ET, or 15:10 Israel time.\n\nTE Connectivity says it is investing more than $60 million in a 135,000-square-foot R&D and manufacturing facility in Henrietta, New York. The facility will develop and produce high-density fiber array units, or FAUs, using technology acquired from RAM Photonics for hyperscale AI data-center operators and cloud providers.\n\nThe facility is expected to open in spring 2027 and ramp manufacturing through 2031. TE plans to employ more than 800 people in engineering, manufacturing and management in the greater Rochester region. These are investment, opening and employment plans, not an already operating factory or confirmation all those workers have been hired.\n\nThe technology addresses fiber attachment for co-packaged optics, where density, power use and data throughput constrain designs. The investment adds optics capabilities alongside TE's copper portfolio. The release does not quantify factory output, expected revenue or orders from named customers.\n\nThe CEO cites data-center customer interest and capacity to support design awards and expected growth. That is not a new binding customer order worth $60 million or verified revenue guidance.",
+    "קישור": "https://www.prnewswire.com/news-releases/te-connectivity-invests-in-new-york-state-rd-and-manufacturing-facility-to-develop-next-generation-optical-connectivity-products-302937739.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/te-connectivity-invests-in-new-york-state-rd-and-manufacturing-facility-to-develop-next-generation-optical-connectivity-products-302937739.html",
+        "label": "TE Connectivity: הודעת ההשקעה המקורית והמלאה",
+        "label_en": "TE Connectivity: full original facility investment release"
+      }
+    ],
+    "הועלה": "2026-11-12 15:13",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ba01f62abef0081b3ef732291f2b9b0bd4e14ae34a75f5a2f7333fa910ec1ff5"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1431",
+    "category": "micro",
+    "חברה": "UAL",
+    "symbols": [
+      "UAL"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 15:00",
+    "כותרת": "United Airlines (UAL): Starlink זמין ביותר ממחצית הטיסות היומיות; יעד של כמעט 64% בסוף 2026",
+    "כותרת_en": "United Airlines (UAL): Starlink now available on more than half of daily flights; nearly 64% targeted by year-end 2026",
+    "טקסט": "12.11.2026 | הודעת United Airlines המקורית פורסמה ב-08:00 ET, 15:00 שעון ישראל, ונקראה במלואה.\n\nיונייטד הודיעה ששירות האינטרנט Starlink זמין כעת ביותר ממחצית הטיסות היומיות שלה. המדד הוא מספר הטיסות היומיות, לא שיעור המטוסים בצי: אין להסיק שכבר הותקן Starlink ביותר ממחצית המטוסים.\n\nהחברה מצפה שהשירות יופעל בכמעט 64% מהטיסות היומיות עד סוף 2026, ולהשלמת ההתקנות עד סוף 2027. אלה יעדי פריסה עתידיים, לא אישור שכבר הושגו. החידוש הוא אבן דרך בפועל בפריסת שירות במסגרת שיתוף פעולה קיים, לא חוזה חדש עם SpaceX.\n\nלפי החברה, השירות חינם לחברי MileagePlus בטיסות המצוידות בו, וניתן לבדוק את זמינותו לטיסה באתר המעקב שלה עד שלושה ימים לפני ההמראה. אין כאן התחייבות שהשירות יהיה בכל טיסה או שהחיבור יפעל ללא הפרעות.\n\nההודעה אינה מפרטת עלות התקנה, תשלום ל-SpaceX או השפעה כמותית על הכנסות ורווחיות יונייטד. טענות שיווקיות על מהירות ואמינות אינן בדיקת ביצועים עצמאית. שינויי תפריט, תכונות אפליקציה ותחזיות תנועת חג אינם מוצגים כעסקאות טכנולוגיה חדשות.",
+    "טקסט_en": "November 12, 2026 | United Airlines' full original release was published at 08:00 ET, or 15:00 Israel time.\n\nUnited says Starlink internet is now available on more than half of its daily flights. The denominator is daily flights, not aircraft in the fleet. It does not establish that more than half of United's aircraft have received Starlink installations.\n\nThe airline expects service on nearly 64% of daily flights by the end of 2026 and installations to be complete by the end of 2027. Those are future rollout targets, not milestones already reached. The new information is actual deployment progress within an existing collaboration, not a new SpaceX contract.\n\nUnited says the service is free for MileagePlus members on equipped flights and that its tracker can show flight availability up to three days before departure. This is not a guarantee of availability on every flight or interruption-free connectivity.\n\nThe release does not disclose installation costs, payments to SpaceX or a quantified effect on United's revenue or profit. Promotional speed and reliability claims are not independent performance tests. Menu changes, app features and holiday traffic forecasts are not presented here as new technology deals.",
+    "קישור": "https://www.prnewswire.com/news-releases/more-than-half-of-uniteds-daily-flights-now-have-starlink-in-time-for-thanksgiving-travel-302937787.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/more-than-half-of-uniteds-daily-flights-now-have-starlink-in-time-for-thanksgiving-travel-302937787.html",
+        "label": "United Airlines: הודעת הפריסה המקורית והמלאה",
+        "label_en": "United Airlines: full original rollout update"
+      }
+    ],
+    "הועלה": "2026-11-12 15:13",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "cd76ab7522f50ec80546fbea9cf60f5a234bd1f0fef5e8a94272b2d9f92b088f"
+      }
+    }
   }
 ]
