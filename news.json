@@ -35626,5 +35626,34 @@
         "source_hash": "acb18e736911caa03709dc5fe61803032b2d36e19cfbe52a996b0f693b5e102a"
       }
     }
+  },
+  {
+    "מזהה": "n-1419",
+    "category": "micro",
+    "תאריך": "2026-11-10",
+    "כותרת": "Agile Robots סגרה גיוס של 500 מיליון דולר לפי שווי 8.5 מיליארד, בהובלת SoftBank ובהשתתפות NVIDIA; תאריך המקור אינו עקבי",
+    "כותרת_en": "Agile Robots closes $500 million round at $8.5 billion valuation, led by SoftBank with NVIDIA participating; source dates conflict",
+    "טקסט": "הודעת Agile Robots הרשמית באנגלית ובגרמנית נקראה במלואה, לצד דיווח Reuters ב-CNA. תאריכי המקור אינם עקביים: כותרת התאריך בשני עמודי החברה היא 10 בנובמבר 2026, אך גוף ההודעה מתוארך מינכן, 12 בנובמבר; Reuters מדווחת על ההודעה ב-12 בנובמבר. הפריט נשמר לפי תאריך העמוד המוקדם, כהשלמת סיקור, בלי לקבוע שזהו מועד סגירת הסבב או שהפרסום הראשון היה היום. שעת הפרסום המקורית לא אומתה.\n\nהחברה הודיעה שסגרה סבב Series F של 500 מיליון דולר לפי שווי של 8.5 מיליארד דולר. SoftBank Group הובילה את הסבב, ובהשתתפות NVIDIA, קבוצת Hitachi באמצעות Hitachi ו-Hitachi Ventures, ו-T.Capital, לצד משקיעים נוספים. לא נמסרו סכומי ההשקעה של כל משתתף או תנאי ההחזקה. השווי הוא שווי בסבב פרטי, לא שווי שוק של מניה נסחרת או מחיר הנפקה.\n\nלפי החברה, הסבב מעלה את סך ההון שגייסה ל-2 מיליארד דולר, כולל הסבב הנוכחי ולא בנוסף אליו. הכסף מיועד להרחבת הפעילות בארה\"ב ובשווקים נוספים, פיתוח יישומי רובוטיקה והגדלת קיבולת הייצור, בין השאר בגרמניה. יעדי השימוש בכסף אינם אישור שכל ההרחבות כבר הושלמו או שנחתמו הזמנות חדשות מלקוחות.\n\nהמפעל בפירסטנפלדברוק ליד מינכן נפתח כבר בתחילת 2026. החברה מציינת יכולת ייצור של עד 10,000 רובוטים דמויי אדם, על רגליים או גלגלים, בשנה. זו קיבולת, לא מספר יחידות שיוצרו או נמכרו השנה, ולא פתיחת מפעל חדש בנובמבר.\n\nיותר מ-20,000 פתרונות רובוטיקה תעשייתיים שהחברה מציינת שהתקינה הם נתון מצטבר, לא 20,000 רובוטים דמויי אדם שנמכרו בסבב הזה. השתתפות NVIDIA היא השקעה בחברה, לא חוזה רכישת שבבים בסכום הגיוס, הכנסה שכבר הוכרה או החלטת דירקטוריון נפרדת שאומתה כאן.",
+    "טקסט_en": "The full official English and German Agile Robots releases were read, alongside Reuters' report via CNA. Source dates conflict: both company pages display November 10, 2026, but the release body is datelined Munich, November 12; Reuters reports the announcement on November 12. This catch-up item uses the earlier page date without treating it as the financing's closing date or claiming first publication today. The original publication hour was not verified.\n\nAgile Robots announced that it closed a $500 million Series F round at an $8.5 billion valuation. SoftBank Group led the round, with NVIDIA, Hitachi Group through Hitachi and Hitachi Ventures, T.Capital and other investors participating. Individual investment amounts and ownership terms were not disclosed. The valuation is from a private funding round, not a listed stock's market capitalization or an IPO price.\n\nThe company says the round brings total capital raised to $2 billion, including this round rather than in addition to it. Proceeds are intended for expansion in the United States and other markets, robotics applications and more production capacity, including in Germany. Planned uses do not establish that all expansions are complete or new customer orders have been signed.\n\nThe Fürstenfeldbruck factory near Munich opened early in 2026. The company cites capacity of up to 10,000 legged or wheeled humanoid robots annually. That is capacity, not units produced or sold this year, and not a new factory opening in November.\n\nThe more than 20,000 industrial robotic solutions the company says it has installed are cumulative, not 20,000 humanoids sold in this financing round. NVIDIA's participation is an investment, not a chip purchase contract equal to the funding amount, revenue already recognized or a separate board decision verified here.",
+    "קישור": "https://www.agile-robots.com/en/news/detail/physical-ai-leader-agile-robots-raises-500-million-series-f-funding/",
+    "מקורות": [
+      {
+        "url": "https://www.agile-robots.com/en/news/detail/physical-ai-leader-agile-robots-raises-500-million-series-f-funding/",
+        "label": "Agile Robots: ההודעה המלאה; תאריך עמוד 10 בנובמבר, תאריך גוף 12 בנובמבר",
+        "label_en": "Agile Robots: full release; page dated November 10, body November 12"
+      },
+      {
+        "url": "https://www.channelnewsasia.com/business/softbank-nvidia-back-germanys-agile-robots-85-billion-valuation-6545666",
+        "label": "Reuters דרך CNA: דיווח על הגיוס מ-12 בנובמבר",
+        "label_en": "Reuters via CNA: November 12 funding report"
+      }
+    ],
+    "הועלה": "2026-11-12 14:16",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "aa0d54f3d970336d188f4ed7290875031b1916867fa3077f9bccc0bf7127b09a"
+      }
+    }
   }
 ]
