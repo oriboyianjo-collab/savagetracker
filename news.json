@@ -33868,5 +33868,244 @@
         "source_hash": "3461ff37cbf30aac6fe98bc418f496440afe0559b8e95739fe552f83511ecf58"
       }
     }
+  },
+  {
+    "מזהה": "n-1366",
+    "category": "micro",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-12 09:21",
+    "כותרת": "Pfizer (PFE) ו-Blackstone (BX): הסכם למימון עד 1.5 מיליארד דולר מפיתוח תרופת ההשמנה berobenatide עד 2028",
+    "כותרת_en": "Pfizer (PFE) and Blackstone (BX): agreement to fund up to $1.5 billion of berobenatide obesity development through 2028",
+    "טקסט": "11.11.2026, 23:30 בישראל | הודעת Pfizer המקורית נקראה במלואה; מטא-נתוני המקור מציינים 16:30 באזור זמן UTC-5.\n\nקרנות בניהול Blackstone ישלמו עד 1.5 מיליארד דולר מעלויות הפיתוח עד 2028 של berobenatide, פפטיד GLP-1 ניסיוני הנחקר כטיפול חודשי לניהול משקל כרוני ולמצבים הקשורים להשמנה. הסכום הוא תקרת מימון במסגרת הסכם, לא העברה מלאה שכבר בוצעה, מכירות תרופה או תמורת רכישה של Pfizer.\n\nבתמורה עשויה Blackstone לקבל תשלומים מבוססי אבני דרך, בכפוף לאישור אמריקאי למינון חודשי של התרופה הניתנת בהזרקה כמונותרפיה לניהול משקל ולהשגת אבני דרך מסחריות. תשלומים שיורווחו ייפרסו על פני כמה שנים; ההודעה אינה מפרטת את סכומם הכולל. אין כאן ריבית קבועה או תשואה מובטחת.\n\nBlackstone אינה מקבלת זכויות או בעלות ב-berobenatide, ו-Pfizer שומרת שליטה תפעולית וקבלת החלטות מלאה בתוכנית. גם קרנות BXPE ישתתפו לצד Blackstone Life Sciences. התרופה עדיין ניסיונית; ההסכם אינו תוצאת ניסוי חדשה, אישור שיווק או התחייבות שתוכנית הפיתוח תצליח. זהו הסכם נפרד ממימון משאבת הלב של Boston Scientific ב-n-0446.",
+    "טקסט_en": "Nov 11, 2026, 23:30 Israel time | The full original Pfizer release was read; source metadata gives 16:30 at UTC-5.\n\nBlackstone-managed funds will pay up to $1.5 billion of development costs through 2028 for berobenatide, an investigational GLP-1 peptide being studied for monthly dosing in chronic weight management and obesity-related conditions. The amount is a funding ceiling under an agreement, not a completed full transfer, drug sales, or acquisition proceeds for Pfizer.\n\nIn return, Blackstone may receive milestone-based payments subject to US approval of monthly injectable monotherapy dosing for chronic weight management and achievement of commercial sales milestones. Earned payments would be paid over multiple years; their total is not disclosed. This is not fixed interest or a guaranteed return.\n\nBlackstone acquires no rights or ownership in berobenatide, and Pfizer retains full operational control and decision-making. BXPE funds will invest alongside Blackstone Life Sciences. The drug remains investigational; the agreement is not new trial data, marketing approval, or a guarantee of development success. It is separate from the Boston Scientific heart-pump funding in n-0446.",
+    "קישור": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-blackstone-life-sciences-announce-strategic",
+    "מקורות": [
+      {
+        "label": "Pfizer: הסכם המימון המקורי עם Blackstone",
+        "label_en": "Pfizer: original Blackstone funding agreement",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-blackstone-life-sciences-announce-strategic"
+      }
+    ],
+    "symbols": [
+      "PFE",
+      "BX"
+    ],
+    "sectors": [
+      "health-care"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8b3c8c1ccb6805f7c919cc6e75ec83f79d7481f46b39e722b89b07d0b0ef7901"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1367",
+    "category": "micro",
+    "תאריך": "2026-11-11",
+    "הועלה": "2026-11-12 09:21",
+    "כותרת": "השלמה מ-11.11 | AeroVironment (AVAV): הזמנת יצוא של 405 מיליון דולר למערכות לייזר LOCUST X3 במזרח התיכון",
+    "כותרת_en": "Catch-up from Nov 11 | AeroVironment (AVAV): $405 million international LOCUST X3 laser-system order for the Middle East",
+    "טקסט": "11.11.2026, 16:15 בישראל | הודעת AeroVironment המקורית נקראה במלואה; חותמת המקור 14:15:02 UTC. השלמת סיקור.\n\nהחברה הודיעה על הזמנה בינלאומית במכירה מסחרית ישירה בהיקף 405 מיליון דולר למערכות נשק הלייזר עתיר האנרגיה LOCUST X3, להרחבת יכולות נגד רחפנים במזרח התיכון. המדינה והלקוח לא זוהו, ולא פורסמו מספר מערכות או לוח מסירות. אין לייחס את ההזמנה למדינה מסוימת או להציג את הסכום כהכנסות שכבר הוכרו.\n\nלפי החברה, המערכת מיועדת להתמודד עם איומים בקבוצות UAS 1 עד 3 ולהשתלב עם מכ״ם, מערכות שליטה ובקרה ויירוט קינטי. היתרונות המוצגים בעלות ירי ובלוגיסטיקה הם טענות הספק, לא בדיקת ביצועים עצמאית. זמינות חשמל וניהול חום עדיין מגבילים את רצף ההפעלה; אין מדובר בתחמושת בלתי מוגבלת ללא תנאים.\n\nהחברה מתכוונת להקים מרכז תחזוקה ותמיכה מקומי שיכלול תיקון, הדרכה ושירותי מחזור חיים. זהו תכנון, לא אישור שהמרכז כבר נפתח. ההודעה מציינת סיכוני ביצוע, שרשרת אספקה ואישורי יצוא; אין כאן אימות עצמאי שכל האישורים הושלמו.\n\nההזמנה נפרדת מהמסגרת האמריקאית ב-n-1162, שלה תקרה של 940 מיליון דולר והענק ראשון של כ-315 מיליון. אין לחבר את התקרה ההיא להזמנה הזאת כאילו כולה מחויבת.",
+    "טקסט_en": "Nov 11, 2026, 16:15 Israel time | Full original AeroVironment release read; source publication stamp 14:15:02 UTC. Catch-up coverage.\n\nThe company announced a $405 million international direct commercial sales order for LOCUST X3 high-energy laser weapon systems to expand counter-drone capabilities in the Middle East. The country and customer are unnamed; system count and delivery schedule were not disclosed. The order must not be assigned to a specific country or treated as revenue already recognized.\n\nAccording to the supplier, LOCUST X3 targets Group 1–3 UAS and integrates with radar, command-and-control and kinetic defenses. Per-shot cost and logistics advantages are supplier claims, not independently tested results. Available power and thermal management still limit sustained use; this is not unconditional unlimited ammunition.\n\nAV intends to establish an in-country maintenance and sustainment depot for repairs, training and lifecycle support. This is a plan, not an operating depot. The release cites execution, supply-chain and export-approval risks; all approvals have not been independently verified.\n\nThis differs from the US IDIQ framework in n-1162 with a $940 million ceiling and about $315 million initial award. That ceiling must not be combined with this order as fully committed spending.",
+    "קישור": "https://www.avinc.com/2026/11/11/av-awarded-landmark-405-million-international-order-for-locust-x3-laser-defense-systems/",
+    "מקורות": [
+      {
+        "label": "AeroVironment: הודעת ההזמנה המקורית",
+        "label_en": "AeroVironment: original order announcement",
+        "url": "https://www.avinc.com/2026/11/11/av-awarded-landmark-405-million-international-order-for-locust-x3-laser-defense-systems/"
+      }
+    ],
+    "symbols": [
+      "AVAV"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f8c015a7d95a8f10077529c6f2dd560800d96ea6083c721e3383986064b68dc7"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1368",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 09:21",
+    "כותרת": "EPR Properties (EPR): תומחרה הנפקת אג״ח להמרה של 500 מיליון דולר ב-4.5%; הסגירה מיועדת ל-16 בנובמבר",
+    "כותרת_en": "EPR Properties (EPR): $500 million convertible priced at 4.5%; settlement planned for Nov 16",
+    "טקסט": "12.11.2026, 05:58 בישראל | הודעת EPR המקורית פורסמה ב-11 בנובמבר, 22:58 EST, ונקראה במלואה. זהו תמחור, לא הודעה שהסליקה כבר הושלמה.\n\nEPR תימחרה הנפקה פרטית לפי Rule 144A של אג״ח בכירות לא מובטחות להמרה בהיקף קרן של 500 מיליון דולר, בריבית שנתית 4.5% ולפירעון ב-15 בפברואר 2032. לרוכשים הראשונים ניתנה אופציה לעד 75 מיליון דולר נוספים; אין להציג את האופציה כממומשת. הסגירה המתוכננת ב-16 בנובמבר כפופה לתנאים מקובלים.\n\nמחיר ההמרה הראשוני הוא כ-68.29 דולר למניה, פרמיה של כ-15% למחיר הסגירה 59.38 דולר ב-11 בנובמבר, ושיעור ההמרה 14.6441 מניות לכל 1,000 דולר קרן. לפני 15 באוקטובר 2031 ההמרה מותנית באירועים מסוימים. הקרן תסולק במזומן, והעודף האפשרי במזומן, מניות או שילוב לפי בחירת החברה.\n\nהתמורה נטו המשוערת היא 485.7 מיליון דולר, או 558.6 מיליון אם האופציה תמומש במלואה. כ-18.5 מיליון מיועדים לעסקאות capped call, וכ-50 מיליון לרכישה חוזרת של 842,034 מניות במקביל לתמחור. היתרה, יחד עם מזומן קיים, מיועדת לפירעון 450 מיליון דולר באג״ח 4.750% ב-15 בדצמבר 2026.\n\nתקרת ה-capped call הראשונית היא כ-80.16 דולר, כ-35% מעל מחיר הסגירה. ההגנה נועדה לצמצם דילול או תשלומים עודפים עד תקרה; היא אינה מבטלת את כל סיכון הדילול. זו התקדמות מתכנון הנפקה לתמחור תנאים, לא השלמת גיוס שכבר התקבל.",
+    "טקסט_en": "Nov 12, 2026, 05:58 Israel time | EPR’s original release was published Nov 11 at 22:58 EST and read in full. This is pricing, not completed settlement.\n\nEPR priced a Rule 144A private offering of $500 million principal in senior unsecured convertible notes at 4.5% annual interest, maturing Feb 15, 2032. Initial purchasers have an option for up to $75 million more, not yet confirmed exercised. Planned Nov 16 settlement remains subject to customary conditions.\n\nThe initial conversion price is about $68.29 per share, a 15% premium to the Nov 11 closing price of $59.38, at 14.6441 shares per $1,000 principal. Conversion before Oct 15, 2031 is conditional on specified events. Principal will be settled in cash; any excess may be paid in cash, shares or a combination at EPR’s election.\n\nEstimated net proceeds are $485.7 million, or $558.6 million with full option exercise. About $18.5 million is intended for capped calls and $50 million to repurchase 842,034 shares concurrently with pricing. The remainder plus existing cash is intended to repay $450 million of 4.750% notes maturing Dec 15, 2026.\n\nThe initial capped-call cap is about $80.16, a 35% premium to the closing price. It is intended to reduce dilution or excess cash payments up to a cap, not eliminate all dilution risk. The new stage is priced terms, not completed receipt of proceeds.",
+    "קישור": "https://investors.eprkc.com/news/detail/617/epr-properties-prices-500-0-million-convertible-senior-notes-offering",
+    "מקורות": [
+      {
+        "label": "EPR: תנאי ההנפקה המקוריים, 11 בנובמבר 22:58 EST",
+        "label_en": "EPR: original pricing terms, Nov 11 at 22:58 EST",
+        "url": "https://investors.eprkc.com/news/detail/617/epr-properties-prices-500-0-million-convertible-senior-notes-offering"
+      }
+    ],
+    "symbols": [
+      "EPR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c30cb987698eec687dee3f5c1fde78e03e5d8de37e90be2071a03c500c6cc4c1"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1369",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 09:21",
+    "כותרת": "MSCI: Strategy (MSTR) ברשימת המחיקות הסופית לפי מתודולוגיית החברות הלא-תפעוליות; תחולה מסוף נובמבר",
+    "כותרת_en": "MSCI: Strategy (MSTR) on final non-operating-company deletion list, effective at end-November",
+    "טקסט": "12.11.2026, 00:23 בישראל | הודעת MSCI מ-11 בנובמבר 22:23 GMT והרשימה הסופית המקורית באתרה נקראו ישירות. גם הודעת המתודולוגיה מ-15 באוקטובר נקראה; זו אינה עוד הצעה להתייעצות.\n\nבקובץ הסופי STRATEGY A מופיעה כ-Large Cap בארה״ב עם פעולה Deleted בסקירת נובמבר. גם Metaplanet ו-Yellow Cake מופיעות למחיקה, אך הן חברות Small Cap ביפן ובבריטניה, לא מניות במדד MSCI USA. SharpLink מופיעה ברשימת מעקב, ולא במחיקה בסקירה הזאת. אין להסיק שכל החברות המחזיקות קריפטו נמחקות מכל מדד.\n\nלפי החלטת המתודולוגיה, השינוי מיושם בסקירת נובמבר ונכנס לתוקף בסיום המסחר ב-30 בנובמבר 2026, כלומר בהרכב שמתחיל ב-1 בדצמבר. הסינון בוחן תחילה נכסים תפעוליים, ולחברות שאינן עוברות אותו מפעיל חמישה מבחנים פיננסיים. למחיקת חברה קיימת נדרשת אי-עמידה בתנאים בשתי תקופות דיווח שנתיות אחרונות; זה אינו כלל פשוט של 50% ביטקוין לבדו.\n\nReuters מזכירה אומדן קודם של J.P. Morgan ליציאה אפשרית של עד 8.8 מיליארד דולר ממניית Strategy אם גם עורכי מדדים אחרים יפעלו כך. זהו תרחיש מותנה ישן, לא סכום משיכות שכבר התרחש או תחזית חדשה של MSCI. המחיקה נוגעת למדדים של MSCI, לא למחיקת המניה מהמסחר בבורסה. אין כאן החלטה של Nasdaq על Nasdaq-100.",
+    "טקסט_en": "Nov 12, 2026, 00:23 Israel time | MSCI’s Nov 11 22:23 GMT announcement and original final issuer list were read directly, as was the Oct 15 methodology decision. This is no longer a consultation proposal.\n\nThe final workbook lists STRATEGY A as a US Large Cap with the November review action Deleted. Metaplanet and Yellow Cake are also listed for deletion but as Japan and UK Small Caps, not MSCI USA stocks. SharpLink is on the watchlist, not a deletion in this review. This does not mean every crypto-holding company is removed from every index.\n\nThe methodology decision says implementation occurs at the close of Nov 30, 2026, hence in the composition beginning Dec 1. A core operating-assets screen is followed, where necessary, by five financial tests. Existing constituents must fail the relevant conditions in both latest annual filing periods for deletion. This is not simply a 50%-bitcoin rule.\n\nReuters cites a prior J.P. Morgan estimate of up to $8.8 billion in potential Strategy outflows if other index providers follow. That is an earlier conditional scenario, not completed withdrawals or a new MSCI forecast. MSCI index removal is not exchange delisting, and this is no Nasdaq decision about the Nasdaq-100.",
+    "קישור": "https://app2.msci.com/webapp/index_ann/DocGet?format=html&lang=en&pub_key=mRYGl6UqEfM%3D",
+    "מקורות": [
+      {
+        "label": "MSCI: הודעת הרשימה הסופית מ-11 בנובמבר",
+        "label_en": "MSCI: Nov 11 final impact-list announcement",
+        "url": "https://app2.msci.com/webapp/index_ann/DocGet?format=html&lang=en&pub_key=mRYGl6UqEfM%3D"
+      },
+      {
+        "label": "MSCI: קובץ הרשימה הסופית המקורי, גליון List of Companies",
+        "label_en": "MSCI: original final workbook, List of Companies sheet",
+        "url": "https://www.msci.com/downloads/documents/indexes/consultations/equity/Final%20List%20of%20MSCI%20GIMI%20Securities%20Impacted%20by%20the%20Non-Operating%20Screening%20Methodology.xlsx"
+      },
+      {
+        "label": "MSCI: החלטת המתודולוגיה מ-15 באוקטובר ותחולת סוף נובמבר",
+        "label_en": "MSCI: Oct 15 methodology decision and end-November effective date",
+        "url": "https://app2.msci.com/webapp/index_ann/DocGet?lang=en&pub_key=aq0wbkjxPgo%3D"
+      },
+      {
+        "label": "Reuters בהפצת Investing.com: דיווח ותרחיש יציאות מותנה",
+        "label_en": "Reuters via Investing.com: report and conditional outflow scenario",
+        "url": "https://www.investing.com/news/stock-market-news/msci-to-drop-strategy-from-global-indexes-putting-billions-in-passive-fund-inflows-at-risk-5020015"
+      }
+    ],
+    "symbols": [
+      "MSTR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "edf7bcd88fefd1b4cef65fb9114bf21cb023170e1317eacb1adf5089ef9b7181"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1370",
+    "category": "micro",
+    "תאריך": "2026-10-19",
+    "הועלה": "2026-11-12 09:21",
+    "כותרת": "השלמה מ-19.10 | 3M (MMM) העניקה ל-Amazon כתבי אופציה תלויי רכישות מוצרי מרכזי נתונים; 6 מיליארד דולר הם סף הבשלה, לא הזמנה מחייבת",
+    "כותרת_en": "Catch-up from Oct 19 | 3M (MMM) granted Amazon purchase-linked data-center warrants; $6 billion is a vesting threshold, not a binding order",
+    "טקסט": "19.10.2026 | דוח 8-K המקורי באתר קשרי המשקיעים של 3M נקרא במלואו. שעת ההגשה לא אומתה כאן. ההפצה המשנית מ-12 בנובמבר חוזרת על אירוע אוקטובר; זהו סיקור משלים.\n\n3M נכנסה לקשר מסחרי אסטרטגי מורחב עם חברה-בת בבעלות מלאה של Amazon. חברה-בת נפרדת של Amazon קיבלה כתב אופציה לרכישת עד 3,162,015 מניות 3M במשך שבע שנים, במחיר מימוש של 164.89 דולר למניה. אין כאן אישור שכל המניות הוקצו או שכתבי האופציה מומשו.\n\n85% ממניות האופציה יבשילו בכפוף לתשלומים של Amazon על מוצרי קישוריות אופטית ומוצרי מרכזי נתונים אחרים; הבשלה מלאה של רכיב זה תושג כאשר התשלומים המצטברים יגיעו ל-6 מיליארד דולר. יתרת 15% תלויה באבני דרך מבוססות אירועים שלא פורטו במסמך.\n\n6 מיליארד הדולר הם תנאי להבשלה, לא התחייבות רכישה מינימלית שהדוח מאשר, ולא הכנסה שכבר נרשמה. התממשות האופציות יכולה ליצור דילול, אך תלויה בהבשלה ובמימוש. הדוח אינו מוסר כאן מחירון מוצרים, תחזית הכנסות חדשה או נתוני ביצוע של מחברים אופטיים. דיווח מחיר המניה בהפצה המאוחרת אינו מוצג כתגובה מאומתת לעסקה חדשה.",
+    "טקסט_en": "Oct 19, 2026 | Original 3M investor-site 8-K read in full. Filing clock not verified here. The Nov 12 secondary flash repeats an October event; this is catch-up coverage.\n\n3M expanded its strategic commercial relationship with a wholly owned Amazon subsidiary. A separate Amazon subsidiary received a warrant to purchase up to 3,162,015 3M shares over seven years at $164.89 per share. This does not confirm all shares were issued or warrants exercised.\n\n85% of warrant shares vest subject to Amazon payments for optical-connectivity and other data-center products, with full vesting of that portion once cumulative payments reach $6 billion. The other 15% vest against event-based milestones not specified in the filing.\n\nThe $6 billion is a vesting threshold, not a confirmed minimum purchase obligation or revenue already recognized. Exercises could dilute shares but depend on vesting and exercise. The filing gives no product price list, new revenue guidance or optical-connector performance data. A stock move in the later secondary flash is not presented as a verified reaction to a new deal.",
+    "קישור": "https://investors.3m.com/financials/sec-filings/content/0000066740-26-000303/mmm-20261019.htm",
+    "מקורות": [
+      {
+        "label": "3M: דוח 8-K המקורי מ-19 באוקטובר, סעיף 7.01",
+        "label_en": "3M: original Oct 19 8-K, Item 7.01",
+        "url": "https://investors.3m.com/financials/sec-filings/content/0000066740-26-000303/mmm-20261019.htm"
+      }
+    ],
+    "symbols": [
+      "MMM",
+      "AMZN"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "004b4641ac2aaf1611b2449c3751daa0bace345b72389109f90b1d872e997a11"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1371",
+    "category": "micro",
+    "תאריך": "2026-11-06",
+    "הועלה": "2026-11-12 09:21",
+    "כותרת": "השלמה מ-6.11 | Pinnacle West (PNW): APS ביקשה אישור להסכם חשמל ל-25 שנה עם TSMC באריזונה; ההליך עדיין ממתין לאישור",
+    "כותרת_en": "Catch-up from Nov 6 | Pinnacle West (PNW): APS seeks approval for 25-year TSMC Arizona power contract; regulatory review pending",
+    "טקסט": "6.11.2026 | הודעת APS המקורית ורשומת ההגשה של רשות התאגידים באריזונה נקראו ישירות. שעת הפרסום המקורית לא נקבעה כאן; השלמת סיקור.\n\nAPS, החברה-הבת המרכזית של Pinnacle West, הגישה ב-6 בנובמבר בקשה לאישור Direct Pricing Contract ל-25 שנה עם TSMC Arizona, לתמיכה בהתרחבות מפעלי השבבים בצפון פיניקס. רישום E-01345A-26-0454 מאשר את הבקשה להסכם ולצווים חשבונאיים וממצאים רגולטוריים נלווים; ברשומה שנבדקה לא מופיעה החלטה. אין כאן אישור שהרגולטור כבר אישר את התנאים.\n\nלפי APS, TSMC תיטול התחייבויות כספיות ארוכות טווח עבור ייצור חשמל ותשתיות שירות חדשות וכן שימוש במערכת המשותפת, במטרה שלא להעביר את עלויות הצמיחה ללקוחות אחרים. חלק מהתשתיות ייכלל ברשת APS. אלו ההגנות שהחברה טוענת שההסכם יספק, לא קביעה עצמאית שכל הסיכון ללקוחות האחרים הוסר.\n\nהודעת APS אינה מפרטת תעריף, שווי כולל, כמות מגה-ואט או עלות תחנת כוח, ולכן נתוני ביקוש של כ-1.9 ג׳יגה-ואט בדיווחים משניים אינם מוצגים כאן כקיבולת מאושרת או פעילה. השלב החדש הוא בקשה רגולטורית להסכם מסוים, לא מפעל שכבר צורך את מלוא הביקוש המתוכנן.",
+    "טקסט_en": "Nov 6, 2026 | Original APS release and Arizona Corporation Commission filing record read directly. Exact original publication clock not established here. Catch-up coverage.\n\nAPS, Pinnacle West’s main subsidiary, filed on Nov 6 for approval of a 25-year Direct Pricing Contract with TSMC Arizona to serve expansion of its north Phoenix semiconductor fabs. Docket E-01345A-26-0454 confirms an application covering the contract and associated accounting orders and regulatory findings; the inspected record shows no decision. The contract is not reported as approved.\n\nAPS says TSMC will make long-term financial commitments for new generation and service infrastructure and shared-system usage, aiming to prevent other customers from bearing growth costs. Some infrastructure will join the APS grid. These are protections claimed by the utility, not independent confirmation all customer risk is eliminated.\n\nThe APS release gives no rate, total value, MW volume or power-plant cost. Secondary reports of about 1.9 GW of future demand are therefore not presented here as approved or operating capacity. The stage is a regulatory application for a specific agreement, not fabs already drawing all projected power.",
+    "קישור": "https://newsroom.aps.com/aps-submits-long-term-energy-agreement-with-tsmc-to-the-arizona-corporation-commission/",
+    "מקורות": [
+      {
+        "label": "APS: הודעת הבקשה המקורית",
+        "label_en": "APS: original contract-application release",
+        "url": "https://newsroom.aps.com/aps-submits-long-term-energy-agreement-with-tsmc-to-the-arizona-corporation-commission/"
+      },
+      {
+        "label": "רשות התאגידים באריזונה: רשומת הבקשה מ-6 בנובמבר, תיק E-01345A-26-0454",
+        "label_en": "Arizona Corporation Commission: Nov 6 application record, E-01345A-26-0454",
+        "url": "https://edocket.azcc.gov/search/document-search/item-detail/472123"
+      }
+    ],
+    "symbols": [
+      "PNW",
+      "TSM"
+    ],
+    "sectors": [
+      "utilities"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f006fbe9001eb7bf3a37140491b2c8368b4120aca7a41beca0daf79f150a0dea"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1372",
+    "category": "micro",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-12 09:21",
+    "כותרת": "השלמה מ-9–10.11 | Ecolab (ECL): שלושה עובדי קבלן מתו במתקן שפכים שמפעילה Nalco Water באתר Tata Electronics; החקירה נמשכת",
+    "כותרת_en": "Catch-up from Nov 9–10 | Ecolab (ECL): three contract workers died at Nalco Water-operated Tata Electronics utility facility; investigation ongoing",
+    "טקסט": "אירוע מ-9.11.2026; דיווח Reuters מ-10 בנובמבר נקרא במלואו בהפצת Khaleej Times, לצד דיווח NDTV Profit המצטט תגובת Nalco Water מ-10 בנובמבר. מסמך החקירה והתגובה המקורית באתר החברה לא נקראו ישירות. השלמת סיקור, לא אירוע חדש מ-12 בנובמבר.\n\nלפי Reuters וגורם המחוז שצוטט, שלושה עובדי קבלן מתו בזמן עבודות תחזוקה במתקן טיפול בשפכים באתר Tata Electronics בהוסור, טמיל נאדו, המייצר חלקים לאייפון. המתקן הופעל בידי Nalco Water, חלק מ-Ecolab. לפי הדיווח הם שאפו גז בעת בדיקת מכל סינון; הסיבה המדויקת ואחריות משפטית לא הוכרעו כאן.\n\nבדיווח מאוחר יותר ב-NDTV Profit, Nalco Water אמרה שהעובדים הועסקו בידי קבלן משנה, שהאירוע היה במתקן שירות שהיא מפעילה, ושהיא משתפת פעולה עם הרשויות ומסייעת למשפחות. זו תגובת החברה כפי שצוטטה בעיתון, לא זיכוי או ממצא חקירה.\n\nReuters מדווחת ש-Apple, Tata והרשויות צפויות לבדוק את האירוע; היא ציינה שלא התקבלו תגובות בעת פרסום הדיווח המוקדם. NDTV מביאה בהמשך את תגובת Nalco. אין לראות בשתי הגרסאות סתירה אוטומטית או להתעלם מהתגובה המאוחרת.\n\nלא אומתו כאן היקף השבתת ייצור של מפעל האייפון, פגיעה בהכנסות, קנס או חבות של Ecolab. אין בסיס להציג זאת כהפסקת כלל פעילות Tata או כהרשעה. החידוש התפעולי הוא אירוע הבטיחות החמור והחקירה במתקן שמפעילה חברת-הבת.",
+    "טקסט_en": "Incident Nov 9, 2026; the full Nov 10 Reuters story was read via Khaleej Times, alongside NDTV Profit’s Nov 10 report quoting Nalco Water’s response. Investigation documents and the original company-site statement were not directly inspected. Catch-up coverage, not a new Nov 12 incident.\n\nReuters, citing a district official, reports that three contract workers died during maintenance of an effluent-treatment facility at Tata Electronics’ Hosur, Tamil Nadu site, which makes iPhone parts. Nalco Water, part of Ecolab, operated the utility facility. The report says workers inhaled gas while inspecting a filtration tank; precise cause and legal responsibility are not determined here.\n\nIn a later NDTV Profit report, Nalco Water said the workers were engaged by a subcontractor, confirmed the incident occurred at a utility facility it operated, and said it was cooperating with authorities and supporting families. This is a newspaper-quoted company response, not exoneration or an investigative finding.\n\nReuters says Apple, Tata and state authorities are expected to examine the incident and noted no replies at its initial publication. NDTV later carries Nalco’s response. The editions should not be treated as automatically contradictory or the later response ignored.\n\nNo iPhone-factory production shutdown volume, revenue loss, fine or Ecolab liability was verified here. This is not confirmation of a halt across Tata’s operations or a conviction. The operational issue is a serious safety incident and investigation at a subsidiary-operated facility.",
+    "קישור": "https://www.khaleejtimes.com/world/asia/three-workers-die-asphyxiation-indian-iphone-factory-source",
+    "מקורות": [
+      {
+        "label": "Reuters בהפצת Khaleej Times: הדיווח המלא מ-10 בנובמבר",
+        "label_en": "Reuters via Khaleej Times: full Nov 10 report",
+        "url": "https://www.khaleejtimes.com/world/asia/three-workers-die-asphyxiation-indian-iphone-factory-source"
+      },
+      {
+        "label": "NDTV Profit: תגובת Nalco Water המצוטטת, 10 בנובמבר",
+        "label_en": "NDTV Profit: quoted Nalco Water response, Nov 10",
+        "url": "https://www.ndtvprofit.com/markets/nalco-says-three-workers-killed-at-tata-electronics-site-were-hired-by-sub-contractor-12307306"
+      }
+    ],
+    "symbols": [
+      "ECL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e23ea04fd85ca41aef4045a8edeb9342741e2f18de71a61ce69e63195228e80b"
+      }
+    }
   }
 ]
