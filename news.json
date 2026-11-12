@@ -34472,5 +34472,41 @@
         "source_hash": "f2b0429bb903c63443d2cff75c51bc227655b18465fd983d74a8a20cb835afe8"
       }
     }
+  },
+  {
+    "מזהה": "n-1385",
+    "category": "macro",
+    "תאריך": "2026-11-09",
+    "הועלה": "2026-11-12 10:59",
+    "כותרת": "לפי The Block: ה-SEC הצטרפה להליך על חוזי מניות ללא פקיעה לצד ה-CFTC; אין הכרעה בסיווג המוצרים",
+    "כותרת_en": "The Block: SEC weighs in alongside CFTC in stock-perpetuals case; product classification remains unresolved",
+    "קישור": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427",
+    "מקורות": [
+      {
+        "label": "The Block: הכתבה המקורית המלאה, 11 בנובמבר 17:06 EST",
+        "label_en": "The Block: full original article, November 11 at 17:06 EST",
+        "url": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427"
+      },
+      {
+        "label": "CourtListener: יומן התיק, בקשת SEC מ-9 בנובמבר והחלטת קבלה מ-10 בנובמבר",
+        "label_en": "CourtListener: docket, SEC November 9 request and November 10 acceptance order",
+        "url": "https://www.courtlistener.com/docket/75062269/capital-markets-alliance-association-v-commodity-futures-trading/"
+      },
+      {
+        "label": "Finance Magnates: דיווח המשך מלא מ-12 בנובמבר",
+        "label_en": "Finance Magnates: full November 12 follow-up report",
+        "url": "https://www.financemagnates.com/forex/regulation/sec-backs-cftc-in-court-fight-over-perpetual-futures-on-us-stocks/"
+      }
+    ],
+    "summary": "שלב חדש בהליך שכבר סוקר: עמדת ה-SEC לפי דיווח מקורי, לא פסק דין ולא אישור סופי למוצרים. גוף חוות הדעת לא נקרא ישירות.",
+    "summary_en": "A new stage in the previously covered case: the SEC position as reported by original journalism, not a judgment or final product approval. The brief itself was not read directly.",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\nהכתבה המקורית של The Block נקראה במלואה; גוף חוות הדעת של ה-SEC לא היה זמין לקריאה ישירה. יומן בית המשפט נקרא ומאמת את עצם ההגשה והקבלה, לא את מלוא הטיעונים. השלמת סיקור: בקשת ההגשה היא מ-9.11.2026 והקבלה מ-10.11; שעות האירועים המקוריות אינן ידועות. הכתבה המקורית פורסמה ב-11 בנובמבר ב-17:06 EST, כלומר 12.11 ב-00:06 בישראל. כתבת Finance Magnates מ-12.11 ב-10:03 אינה מועד ההליך המקורי.\n\nלפי The Block, רשות ניירות הערך האמריקאית הגישה חוות דעת כידידת בית המשפט במסגרת התביעה של ברית שוקי ההון נגד רשות המסחר בחוזים עתידיים. ה-SEC דחתה את תיאור התובעים שלפיו ה-CFTC פעלה בלי פיקוח מצד רשות ניירות הערך, וציינה שכללי הזירות כפופים גם לבחינתה ושיתוף הפעולה בין הרשויות חשוב לפיקוח על חוזי מניות ללא מועד פקיעה.\n\nיומן התיק במחוז הדרומי של ניו יורק מציג בקשת SEC מ-9 בנובמבר להגשת חוות הדעת, וב-10 בנובמבר החלטה המקבלת את הבקשה ורואה במסמך 51-1 מסמך שהוגש. זו החלטה המאפשרת לרשות להשמיע עמדה בתיק, לא החלטה המאשרת את המוצרים לגופם או דוחה את התביעה.\n\nהמחלוקת היא אם החוזים הם חוזים עתידיים על ניירות ערך בפיקוח משותף, או עסקאות החלף המבוססות על ניירות ערך. לפי דיווח ההמשך של Finance Magnates, ה-SEC התנגדה לעצירה המבוקשת אך לא הכריעה בחוות הדעת בסוגיית הסיווג. מאחר שהמסמך עצמו לא נקרא כאן, עמדת הרשות מיוחסת לדיווחים ואין להציג אותה כהחלטת סיווג רגולטורית עצמאית.\n\nבברית התובעת חברות בין היתר סיבו וסיטאדל סקיוריטיז. לפי The Block, גם קוינבייס, קלשי, חברת האם של קראקן וגופי מסחר נוספים הגישו עמדה התומכת ב-CFTC, בעוד גורמים אחרים, ובהם ארגון Better Markets ובכירים לשעבר ב-SEC, תומכים בהכפפת המוצרים למסגרת של עסקאות החלף. אלה טיעוני צדדים ומגישי חוות דעת, לא ממצאים סופיים של בית המשפט. לא אומתו כאן נתוני מחזור, מינוף או רשימת מוצרים לכל זירה, והם אינם נכללים בפריט.\n\nקשור לפריט n-0364 על דחיית צו החירום ול-n-0515 על פתיחת התביעה. החדש הוא התערבות ה-SEC בהליך, לא דחיית צו חדשה. שינוי תקני הזכאות של קלשי ב-n-1294 הוא נושא נפרד. אין כאן פסק דין סופי, הודעה חדשה על הפסקת מסחר או הסרת הסיכון לצו בהמשך. מועדי תשובה ובחינה רגולטורית שצוינו בדיווחי ההמשך לא אומתו עצמאית ואינם מוצגים כלוח מחייב.",
+    "טקסט_en": "**Not verified against the primary source**\nThe full original The Block article was read; the SEC brief itself was not available for direct reading. The court docket was read and confirms filing and acceptance, not the complete arguments. Catch-up coverage: the filing request dates to November 9, 2026 and acceptance to November 10; original event times are unknown. The original article was published November 11 at 17:06 EST, equivalent to November 12 at 00:06 in Israel. Finance Magnates' November 12 10:03 follow-up is not the original procedural date.\n\nThe Block reports that the US Securities and Exchange Commission submitted an amicus brief in the Capital Markets Alliance lawsuit against the Commodity Futures Trading Commission. The SEC challenged the plaintiffs' depiction of the CFTC acting without SEC oversight, saying the venues' rules remain subject to its review and cooperation between the agencies matters for oversight of perpetual derivatives on stocks.\n\nThe Southern District of New York docket records the SEC's November 9 request for leave to file and a November 10 order granting it and deeming document 51-1 filed. This allows the agency to present its position in the case; it does not approve the products on the merits or dismiss the lawsuit.\n\nThe dispute concerns whether the contracts are security futures under joint oversight or security-based swaps. Finance Magnates' follow-up reports that the SEC opposed the requested halt but did not decide the classification question in its brief. Because the brief itself was not read here, the agency's position is attributed to reporting and is not presented as a separate regulatory classification decision.\n\nThe plaintiff alliance includes Cboe and Citadel Securities. The Block reports that Coinbase, Kalshi, Kraken's parent and other trading firms also filed in support of the CFTC, while other participants, including Better Markets and former SEC officials, argue for treating the products as swaps. These are parties' and amici's arguments, not final court findings. Trading volumes, leverage and venue-specific product lists were not independently verified here and are omitted.\n\nRelated to n-0364 on denial of emergency relief and n-0515 on the lawsuit's launch. The new stage is SEC intervention, not another emergency-order denial. Kalshi's listing-eligibility changes in n-1294 are separate. This is not a final judgment, a new trading halt or removal of the risk of a later injunction. Answer and regulatory-review deadlines mentioned in follow-up reports were not independently verified and are not presented as a binding schedule.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f8beeebf746d9dfc9e57327d1bb57dd72b22a4b8b359097f2e49312ccf47b093"
+      }
+    }
   }
 ]
