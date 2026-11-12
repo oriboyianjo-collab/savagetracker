@@ -37506,5 +37506,39 @@
         "source_hash": "7167be816b579db4e74f3b6940d93cae3d1bc7d19e38202b193203607b5346c1"
       }
     }
+  },
+  {
+    "מזהה": "n-1476",
+    "category": "macro",
+    "תאריך": "2026-11-12 20:10",
+    "כותרת": "מצגת דיילי: ציוד טכנולוגי תרם כ-0.2 נקודת אחוז לאינפלציית PCE בספטמבר; השפעת AI על הפריון עדיין מעורבת",
+    "כותרת_en": "Daly presentation: tech equipment contributed about 0.2 percentage point to September PCE inflation; AI productivity impact remains mixed",
+    "קישור": "https://www.frbsf.org/news-and-media/events/2026/11/mary-c-daly-siepr-policy-forum-2026/",
+    "מקורות": [
+      {
+        "label": "הפד של סן פרנסיסקו, האירוע והמצגת הרשמית המלאה",
+        "label_en": "San Francisco Fed, event and full official presentation",
+        "url": "https://www.frbsf.org/news-and-media/events/2026/11/mary-c-daly-siepr-policy-forum-2026/"
+      },
+      {
+        "label": "המצגת הרשמית, שקף 6: ציוד טכנולוגי ואינפלציה",
+        "label_en": "Official presentation, slide 6: tech equipment and inflation",
+        "url": "https://www.frbsf.org/wp-content/uploads/SIEPR-1112_Slide6.jpeg?quality=100&w=1210"
+      },
+      {
+        "label": "המצגת הרשמית, שקף 5: השפעה על הפריון",
+        "label_en": "Official presentation, slide 5: productivity impact",
+        "url": "https://www.frbsf.org/wp-content/uploads/SIEPR-1112_Slide5.jpeg?quality=100&w=1210"
+      }
+    ],
+    "טקסט": "12.11.2026 | תחילת האירוע הרשמית: 20:10 שעון ישראל, 10:10 בחוף המערבי. הנתונים להלן מתוך 13 שקפי המצגת שפרסם הפד של סן פרנסיסקו לאירוע של מרי דיילי ב-Stanford SIEPR; אינם ציטוטים מתמליל דבריה.\n\nבשקף שכותרתו \"לחצי מחירים שמוזנים מ-AI\", מוצגת עלייה שנתית של 15.7% במחירי ציוד טכנולוגי במדד PCE בספטמבר 2026. לצד זאת, הפירוק במצגת מציג תרומה של כ-0.2 נקודת אחוז מציוד טכנולוגי לאינפלציית PCE הכללית של 3.6%, לעומת כ-3.4 נקודות משאר הרכיבים. כלומר, התרומה הישירה המוצגת מוגבלת יחסית: אין לייחס ל-AI את כל האינפלציה, ואין כאן מדידת השפעה סיבתית כוללת של AI.\n\nההגדרה בשקף היא ציוד לעיבוד מידע. 15.7% הוא קצב העלייה השנתי של מחירי הקטגוריה, בעוד 0.2 היא תרומתה בנקודות אחוז למדד הכללי. אלה נתוני ספטמבר שכבר פורסמו, לא נתון PCE חדש לאוקטובר או עלייה חודשית של 15.7%.\n\nתמונת הפריון מעורבת: בשקף סקר עסקים, 83% מדווחים של-AI לא הייתה השפעה על הפריון בשלוש השנים האחרונות, 16% על השפעה חיובית ו-1% על שלילית. בנפרד, הציפיות לשלוש השנים הבאות אופטימיות יותר: 59% צופים השפעה חיובית, 36% ללא השפעה ו-5% שלילית. אלה תשובות וציפיות של עסקים בסקר, לא שיעורי שינוי בפריון ולא הבטחה שהשיפור יתממש.\n\nהמצגת מוסיפה מסגרת כמותית עדכנית לדיון על השקעות AI, מחירים ופריון. השקפים אינם החלטת מדיניות של הפד, ואינם מבססים התחייבות של דיילי להעלאה, להפחתה או להצבעה מסוימת בישיבת הריבית הבאה. דברי השיחה שלא נבדקו בהקלטה או בתמליל אינם נכללים כאן.",
+    "טקסט_en": "Nov 12, 2026 | Official event start: 20:10 Israel time, 10:10 Pacific time. The figures below come from the 13 slides published by the San Francisco Fed for Mary Daly's Stanford SIEPR event, not from a transcript of her spoken remarks.\n\nA slide titled \"AI-Fueled Price Pressures\" shows 15.7% year-over-year PCE price inflation for tech equipment in September 2026. The accompanying decomposition shows tech equipment contributing about 0.2 percentage point to headline PCE inflation of 3.6%, with about 3.4 points from other components. The direct contribution shown is relatively limited: this does not attribute all inflation to AI or measure AI's total causal impact.\n\nThe slide defines tech equipment as information-processing equipment. The 15.7% figure is the category's annual price increase, while 0.2 is its percentage-point contribution to headline inflation. These are previously released September data, not a new October PCE reading or a 15.7% monthly increase.\n\nThe productivity picture is mixed. A business-survey slide shows 83% reporting no AI impact on productivity over the past three years, 16% a positive impact and 1% a negative impact. Separately, expectations for the next three years are more optimistic: 59% expect a positive impact, 36% no impact and 5% a negative impact. These are survey responses and expectations, not rates of productivity growth or a guarantee that gains will materialize.\n\nThe presentation adds a current quantitative framework to the discussion of AI investment, prices and productivity. The slides are not a Fed policy decision and do not establish a Daly commitment to a hike, cut or particular vote at the next rate meeting. Conversation remarks not checked against the recording or a transcript are not included here.",
+    "הועלה": "2026-11-12 20:21",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9f568f5a471be880233bfda2f2ab494bfc34743a240a7f4239e9ce576618780b"
+      }
+    }
   }
 ]
