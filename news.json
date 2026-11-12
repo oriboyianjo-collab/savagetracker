@@ -34389,5 +34389,30 @@
         "source_hash": "f1c81deb8113ea3c0c9ad98078aba653aa39fa086db83a11fe3faef383ecf904"
       }
     }
+  },
+  {
+    "מזהה": "n-1382",
+    "category": "micro",
+    "חברה": "TRI",
+    "תאריך": "2026-11-12 10:02",
+    "הועלה": "2026-11-12 10:07",
+    "כותרת": "Thomson Reuters (TRI): מודיעין רגולטורי של CUBE משולב כעת ב-CoCounsel Legal",
+    "כותרת_en": "Thomson Reuters (TRI): CUBE regulatory intelligence is now integrated into CoCounsel Legal",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/12/3401266/0/en/cube-powers-thomson-reuters-cocounsel-legal-with-global-regulatory-intelligence.html",
+    "טקסט": "12.11.2026, 10:02 שעון ישראל | הודעת CUBE המקורית בהפצת GlobeNewswire נקראה במלואה; פורסמה ב-03:02 ET.\n\nCUBE הודיעה שמודיעין רגולטורי שלה משולב כעת ב-CoCounsel Legal של Thomson Reuters. השילוב מחבר בין סוכני הבינה המלאכותית של שתי החברות כדי להוסיף חוקים, כללים, הנחיות ואירועים רגולטוריים למענה על שאלות משפטיות, לצד התכנים של Westlaw, Practical Law ו-Reuters.\n\nההודעה כוללת אישור של Rawia Ashraf, מנהלת-שותפה של תחום המוצר המשפטי ב-Thomson Reuters, שהשילוב מרחיב את הכיסוי הגלובלי הזמין ללקוחות. זהו עדכון יכולת במוצר קיים, לא רכישת CUBE ולא השקת מוצר משפטי נפרד.\n\nלפי CUBE, מאגר המודיעין שלה מכסה יותר מ-12 אלף גופים מפרסמים ב-750 תחומי שיפוט ונעזר ב-250 מומחים. אלה נתוני הספקית על הכיסוי שלה, לא מספר רגולטורים שאימצו את CoCounsel ולא אימות עצמאי לשלמות המידע או לדיוק כל תשובה.\n\nCUBE אומרת שהשילוב מנגיש את המידע לעד מיליון אנשי מקצוע משפטיים. זהו היקף חשיפה אפשרי, לא מספר משתמשים משלמים חדשים, לקוחות שהפעילו את השילוב בפועל או הכנסות שהושגו. לא נמסרו שווי חוזה, מחיר או תחזית הכנסות. אין כאן הבטחה לייעוץ משפטי נכון בכל מקרה.\n\nהעדכון נפרד מתוכנית הרכישה העצמית של Thomson Reuters שסוקרה ב-n-1322; הוא עוסק בתוכן וביכולת של המוצר, לא בהגדלת אותה תוכנית.",
+    "טקסט_en": "Nov 12, 2026, 10:02 Israel time | Full original CUBE-issued GlobeNewswire release read, published at 03:02 ET.\n\nCUBE says its regulatory intelligence is now integrated into Thomson Reuters CoCounsel Legal. The integration connects the companies' AI agents to add laws, rules, guidance and regulatory events to legal-query responses alongside Westlaw, Practical Law and Reuters content.\n\nThe release includes confirmation from Rawia Ashraf, Co-Head of Product, Thomson Reuters Legal, that the integration extends the global content available to customers. This is a capability update to an existing product, not an acquisition of CUBE or a separate legal-product launch.\n\nCUBE says its intelligence spans more than 12,000 issuing bodies across 750 jurisdictions and is supported by 250 experts. These are the supplier's coverage figures, not regulators adopting CoCounsel or independent proof that the information is complete or every answer accurate.\n\nCUBE says the integration makes the intelligence available to up to one million legal professionals. That is potential reach, not new paying users, customers who have actually activated the integration or realized revenue. No contract value, pricing or revenue forecast was disclosed. This is not a guarantee of correct legal advice in every case.\n\nThe update is separate from the Thomson Reuters buyback plan covered in n-1322. It concerns product content and capability, not an increase in that plan.",
+    "מקורות": [
+      {
+        "label": "CUBE: ההודעה המקורית המלאה בהפצת GlobeNewswire",
+        "label_en": "CUBE: full original GlobeNewswire release",
+        "url": "https://www.globenewswire.com/news-release/2026/11/12/3401266/0/en/cube-powers-thomson-reuters-cocounsel-legal-with-global-regulatory-intelligence.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d1ac0268e4f77ffef0e9cdaf12c3c85d3911dd0ea30c09a0d1ff1b94161810ea"
+      }
+    }
   }
 ]
