@@ -33538,5 +33538,34 @@
         "source_hash": "e46ca47695c05bf8a6bcb7ad5a7f08560659aed935c30ddfe70d114b299bb93c"
       }
     }
+  },
+  {
+    "מזהה": "n-1355",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 08:12",
+    "כותרת": "Jin Air: לפי Korea Times, אושר המיזוג המקומי עם Air Busan ו-Air Seoul; בדיקות בטיחות ואישורי חו״ל עדיין נדרשים",
+    "כותרת_en": "Jin Air: Korea Times reports domestic merger approvals for Air Busan and Air Seoul; safety checks and overseas approvals remain",
+    "טקסט": "12.11.2026, 08:01 בישראל (15:01 בקוריאה) | כתבת המקור המלאה של Lee Min-hyung ב-Korea Times נקראה ישירות. הודעות ועדת הסחר ההוגן ומשרד התחבורה הקוריאניים לא נבדקו בנפרד; האישור להלן מיוחס לדיווח העיתונאי, לא לאימות ישיר של מסמך רגולטורי.\n\nלפי העיתון, ועדת הסחר ההוגן ומשרד הקרקעות, התשתיות והתחבורה בדרום קוריאה אישרו את קליטת Air Busan ו-Air Seoul לתוך Jin Air, בהמשך לרכישת Asiana בידי Korean Air. Jin Air אמורה לקבל את הנכסים, ההתחייבויות, העובדים והמעמד המשפטי של שתי החברות. זהו שלב אישור בתהליך האיחוד, לא אישור שההעברה או ההשקה התפעולית כבר הושלמו.\n\nלמרות ניסוח הכתבה על הסרת מכשול רגולטורי אחרון, גופה מבהיר שלפני ההשקה עדיין נדרשות בדיקות בטיחות ואישורים מרשויות תעופה בחו״ל. לכן אין כאן הכרזה שכל האישורים בעולם הושלמו או שהמותג המאוחד כבר פועל. מועדי ההשקה שבכתבה נמסרים ללא שנת יעד מפורשת ולכן אינם מוצגים כאן כתאריך מאומת.\n\nהצי המשולב, כ-58 מטוסים, מבוסס על מצבת שלוש החברות בסוף 2025. אין זו הזמנה, מסירה או תוספת של 58 מטוסים. לפי הדיווח, Jin Air תידרש לדווח מדי חודש למשרד התחבורה על יישום התוכניות שהגישה, לרבות הגנת צרכנים.\n\nתוכנית האיחוד כוללת הרחבת הקווים הבינלאומיים מגימהה מ-28 ל-33 והטיסות השבועיות מ-281 ל-339, הרחבת גיוס מקומי, שימור תשתיות Air Busan ופיתוח בסיס תחזוקה עצמאי. אלה יעדים עתידיים לפי התוכנית, לא קיבולת שכבר נוספה. התוכנית מחזקת את בוסאן כמרכז שני; הדרישה להעביר אליה את המטה אינה הסכמה שהושגה.",
+    "טקסט_en": "Nov 12, 2026 at 08:01 Israel time (15:01 in Korea) | The full original Lee Min-hyung article in The Korea Times was read directly. Korean FTC and transport-ministry releases were not separately inspected; the approvals below are attributed to the newspaper, not direct verification of regulatory documents.\n\nThe newspaper reports that South Korea's Fair Trade Commission and Ministry of Land, Infrastructure and Transport approved Jin Air's absorption of Air Busan and Air Seoul, following Korean Air's acquisition of Asiana. Jin Air is to assume the two carriers' assets, liabilities, employees and legal status. This is an approval stage in the integration, not confirmation that the transfer or operational launch has been completed.\n\nDespite the article's description of a final regulatory hurdle being cleared, its body says safety inspections and approvals from overseas aviation authorities are still required before launch. This is therefore not a claim that all worldwide approvals are complete or that the combined brand is already operating. Launch dates in the article lack an explicit year and are not presented here as verified dates.\n\nThe combined fleet of about 58 aircraft is based on the three carriers' fleets at the end of 2025. It is not an order, delivery or addition of 58 aircraft. The report says Jin Air must report monthly to the transport ministry on implementation of submitted plans, including consumer protection.\n\nThe integration plan calls for international Gimhae routes to rise from 28 to 33 and weekly flights from 281 to 339, more local hiring, retention of Air Busan infrastructure and an independent maintenance base. These are future plans, not capacity already added. The plan strengthens Busan as a second hub; demands to relocate headquarters there do not mean such a move has been agreed.",
+    "קישור": "https://www.koreatimes.co.kr/business/companies/20261112/ftc-approves-combination-of-jin-air-air-seoul-air-busan",
+    "מקורות": [
+      {
+        "label": "Korea Times: כתבת מקור מלאה, 12 בנובמבר; הודעות הרשויות לא נבדקו בנפרד",
+        "label_en": "The Korea Times: full original report, Nov 12; authority releases not separately inspected",
+        "url": "https://www.koreatimes.co.kr/business/companies/20261112/ftc-approves-combination-of-jin-air-air-seoul-air-busan"
+      }
+    ],
+    "symbols": [],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7040933740d4d733987910ec4b64185f731cb7d8278e689e1d7674c12b18a15b"
+      }
+    }
   }
 ]
