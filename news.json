@@ -36808,5 +36808,42 @@
         "source_hash": "d09f7a6a39b71f425c0a24658d8ece12b92b7fa9c48ec61af7be0ac69b121b11"
       }
     }
+  },
+  {
+    "מזהה": "n-1455",
+    "category": "micro",
+    "חברה": "ADNOCLS",
+    "symbols": [
+      "ADNOCLS"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-10",
+    "כותרת": "השלמת סיקור מ-10 בנובמבר: ADNOC Logistics & Services אישרה נזק לכלי שיט בתקיפה במימי האמירויות",
+    "כותרת_en": "Catch-up from November 10: ADNOC Logistics & Services confirms vessel damage in an attack in UAE waters",
+    "טקסט": "השלמת סיקור מאוחרת | הודעת ADNOC Logistics & Services המקורית מ-10.11.2026 והדיווח המלא של WAM מאותו יום נקראו. WAM פרסמה ב-16:42:05 בישראל; שעת הפרסום הראשונה של הודעת החברה לא אומתה. אין זו תקיפה חדשה מ-12 בנובמבר.\n\nהחברה אישרה שכלי שיט שלה ניזוק בעקבות תקיפה במים הטריטוריאליים של איחוד האמירויות במפרץ הערבי, בשעות אחר הצהריים של 10 בנובמבר. במועד ההודעה צוותי התגובה המשיכו לפעול, והחברה אמרה שתמסור מידע נוסף כשיהיה זמין.\n\nההודעה אינה מזהה את כלי השיט, סוגו או מטענו, את התוקף או אמצעי התקיפה, את היקף הנזק או כמות אנרגיה שהושבתה. לא נמסרו בה נתוני נפגעים או זיהום, ולכן אין להשלים אותם מדיווחים על כלי שיט אחרים. אין כאן אישור לטביעה, להשבתת צי החברה או לסגירה חדשה של מצר הורמוז.\n\nיש להפריד בין מועד האירוע הזה לבין n-1439, הדיווח המיוחס ל-Ambrey על אירוע מ-11 בנובמבר ליד ראס אל-ח׳ימה, ובין n-1324 על אזהרת UKMTO לגבי פגיעה ב-10 בנובמבר ליד לימה בעומאן. לא אומתה זהות כלי השיט בין הדיווחים; אין למזג את הפרטים או לספור מהם מספר תקיפות נוסף בלי התאמה מבוססת.\n\nהחידוש בסיקור הוא אישור בעלת כלי השיט לגבי נזק בתקרית מתוארכת, לא אומדן חדש לאובדן אספקת נפט או השפעה מוכחת על מחירי האנרגיה. ADNOC Logistics & Services נסחרת באבו דאבי תחת ADNOCLS; אין לייחס את ההודעה למניית נפט אמריקאית או להציג את ADNOC האם כחברה אמריקאית נסחרת.",
+    "טקסט_en": "Late catch-up coverage | ADNOC Logistics & Services' original November 10, 2026 statement and WAM's full same-day report were read. WAM published at 16:42:05 Israel time; the first publication time of the company statement was not verified. This is not a new November 12 attack.\n\nThe company confirmed that one of its vessels sustained damage following an attack in UAE territorial waters in the Arabian Gulf on the afternoon of November 10. At the time of the statement, response teams were still working and the company said it would provide updates as information became available.\n\nThe statement does not identify the vessel, its type or cargo, attacker or weapon, extent of damage or energy volume taken out of service. It does not give casualty or pollution figures, so details from other vessels cannot fill those gaps. It does not confirm a sinking, shutdown of the company's fleet or a new closure of Hormuz.\n\nKeep this event date separate from n-1439, the Ambrey-attributed report of a November 11 incident near Ras Al Khaimah, and n-1324 on UKMTO's warning about a November 10 strike near Lima, Oman. No vessel identity linking these reports was verified. Details must not be merged or an additional attack count inferred without a supported match.\n\nThe coverage adds the vessel owner's confirmation of damage in a dated incident, not a new oil-supply loss estimate or proof of an energy-price effect. ADNOC Logistics & Services is listed in Abu Dhabi as ADNOCLS; this is not a US-listed oil stock or a claim that parent ADNOC is a US-listed company.",
+    "קישור": "https://adnocls.ae/en/news-and-media/press-releases/2026/november-10-statement",
+    "מקורות": [
+      {
+        "url": "https://adnocls.ae/en/news-and-media/press-releases/2026/november-10-statement",
+        "label": "ADNOC Logistics & Services: ההודעה המקורית מ-10 בנובמבר",
+        "label_en": "ADNOC Logistics & Services: original November 10 statement"
+      },
+      {
+        "url": "https://www.wam.ae/en/article/c36ot7v-adnoc-logistics-services-vessel-sustained-damage",
+        "label": "WAM: דיווח מלא וחותמת זמן מ-10 בנובמבר",
+        "label_en": "WAM: full report and November 10 timestamp"
+      }
+    ],
+    "הועלה": "2026-11-12 16:36",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bd7e61106c2dee67e7cc883c64e4d52da2d2691ad99e7915f8fd21dd65761e73"
+      }
+    }
   }
 ]
