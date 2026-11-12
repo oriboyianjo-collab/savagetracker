@@ -35578,5 +35578,29 @@
         "source_hash": "c5f4cec57dc323d59323246bda8d4c2c8115dffe411393d4c5a8c3d995ce62bf"
       }
     }
+  },
+  {
+    "מזהה": "n-1417",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "כותרת": "Southern Company (SO): מתכננת הנפקת יחידות הוניות ב-1.75 מיליארד דולר, עם חוזה לרכישת מניות בעתיד; טרם תומחרה",
+    "כותרת_en": "Southern Company (SO): plans $1.75 billion equity units offering with future stock purchase contracts; not yet priced",
+    "טקסט": "12.11.2026, 13:39 בישראל (06:39 בחוף המזרחי של ארה\"ב) | הודעת Southern Company הרשמית באמצעות PRNewswire, נקראה במלואה.\n\nהחברה מתכננת למכור לציבור 35 מיליון יחידות הוניות בסכום נקוב של 50 דולר ליחידה, ובסך הכול 1.75 מיליארד דולר. היא מצפה להעניק לחתמים אופציה לעוד 5 מיליון יחידות, בסכום נקוב של 250 מיליון דולר, לכיסוי הקצאות יתר בלבד. האופציה אינה הוכחה שהיקף ההנפקה כבר הוגדל או שכל הכסף גויס.\n\nכל יחידה תשלב חוזה לרכישת מניות Southern בעתיד ושתי זכויות השתתפות, כל אחת בשיעור 1/40, באיגרות חוב בכירות הניתנות לשיווק מחדש, בעלות קרן של 1,000 דולר כל אחת. זהו מכשיר המשלב חוב והתחייבות עתידית לרכישת מניות, לא הנפקת איגרות חוב רגילה ולא מכירה מיידית של 35 מיליון מניות. תנאי הרכישה הסופיים, התשואה ומספר המניות לכל חוזה לא פורסמו בהודעה; אי אפשר לכמת ממנה את הדילול הסופי.\n\nחלק מהתמורה נטו מיועד לרכישה חוזרת של חלק מהאג\"ח להמרה מסדרה 2024A, בריבית 4.50%, שמועד פירעונן 15 ביוני 2027, בעסקאות פרטניות עם מספר מצומצם של מחזיקים. 4.50% היא ריבית האג\"ח הקיימות, לא התשואה של היחידות החדשות. החברה אינה מבטיחה אם וכמה מהאג\"ח הקיימות יירכשו או באילו תנאים.\n\nיתרת התמורה מיועדת לפירעון חלק מהחוב הקצר או כולו ולצרכים כלליים, לרבות השקעות בחברות הבנות. BofA Securities ו-Barclays מנהלות במשותף את ההנפקה. ההודעה היא שלב השקה ותכנון, לא הודעת תמחור, השלמת גיוס או פירעון חוב שכבר בוצע.",
+    "טקסט_en": "November 12, 2026, 13:39 in Israel (06:39 U.S. Eastern) | Official Southern Company release via PRNewswire, read in full.\n\nSouthern plans to sell 35 million equity units to the public at a stated amount of $50 per unit, totaling $1.75 billion. It expects to grant underwriters an option for another 5 million units, or $250 million in stated amount, solely to cover over-allotments. The option does not mean the offering has already been enlarged or all proceeds raised.\n\nEach unit will combine a contract to purchase Southern common stock in the future with two 1/40 undivided beneficial ownership interests in remarketable senior notes, each with $1,000 principal. This combines debt with a future stock purchase obligation; it is not a plain bond offering or an immediate sale of 35 million shares. Final purchase terms, yield and shares per contract are not disclosed in the announcement, so final dilution cannot be quantified from it.\n\nPart of the net proceeds is intended to repurchase some Series 2024A 4.50% Convertible Senior Notes due June 15, 2027 in individually negotiated transactions with a limited number of holders. The 4.50% is the existing notes' rate, not the new units' yield. Southern gives no assurance whether any existing notes will be repurchased, in what amount or on what terms.\n\nRemaining proceeds are intended to repay some or all short-term indebtedness and for general corporate purposes, including subsidiary investments. BofA Securities and Barclays are joint book-running managers. This is an offering launch and plan, not a pricing announcement, completed financing or debt repayment already carried out.",
+    "קישור": "https://www.prnewswire.com/news-releases/southern-company-announces-equity-units-offering-302937760.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/southern-company-announces-equity-units-offering-302937760.html",
+        "label": "Southern Company: הודעת השקת הנפקת יחידות הוניות, 12 בנובמבר",
+        "label_en": "Southern Company: equity units offering launch, November 12"
+      }
+    ],
+    "הועלה": "2026-11-12 13:47",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e84049b6f0c04cbf382862f86e117be08ea7dbdfc355778abb9cf30edcc1c99e"
+      }
+    }
   }
 ]
