@@ -35602,5 +35602,29 @@
         "source_hash": "e84049b6f0c04cbf382862f86e117be08ea7dbdfc355778abb9cf30edcc1c99e"
       }
     }
+  },
+  {
+    "מזהה": "n-1418",
+    "category": "micro",
+    "תאריך": "2026-10-28",
+    "כותרת": "השלמת סיקור: Baker Hughes זכתה בחוזה מערכות ושירותים תת-ימיים לפיתוח הגז Cronos של Eni מול קפריסין",
+    "כותרת_en": "Catch-up: Baker Hughes won subsea systems and services contract for Eni's Cronos gas development offshore Cyprus",
+    "טקסט": "השלמת סיקור להודעת Baker Hughes המקורית מ-28 באוקטובר 2026, שנקראה במלואה. שעת הפרסום המקורית לא אומתה. זהו חוזה שפורסם אז, לא זכייה חדשה מ-12 בנובמבר.\n\nBaker Hughes הודיעה כי קיבלה מ-Eni חוזה שהיא מגדירה משמעותי לאספקת מערכות ושירותי הפקה תת-ימיים לפיתוח הגז Cronos במים עמוקים מול קפריסין. החברה מציינת שההזמנה נרשמה ברבעון השלישי של 2026. רישום ההזמנה אינו זהה להכנסה שכבר הוכרה או למזומן שהתקבל.\n\nההיקף כולל עצי הפקה תת-ימיים למים עמוקים, ראשי בארות, מחברים, סעפות, מערכות בקרה במתקן העילי ושירותים נלווים. החברה מתכננת להשתמש במערכות סטנדרטיות הניתנות להתאמה כדי לצמצם מורכבות וסיכוני אספקה ולתמוך בלוח הזמנים של Eni. אלה יעדי ביצוע של הספק, לא הבטחה שהפרויקט יגיע להפקה במועד מסוים.\n\nלפי ההודעה מ-28 באוקטובר, העבודה כבר הייתה בעיצומה ומסירות הציוד הראשונות צפויות במחצית הראשונה של 2027. אין מדובר בהודעה שהציוד כבר נמסר או שהפקת הגז החלה. ההודעה אינה מוסרת את שווי החוזה או את השפעתו על הכנסות החברה.\n\nאין לייחס לחוזה של Baker Hughes את השווי הכולל של חבילת חוזי Cronos או סכומים שפורסמו לגבי ספקים אחרים. הפריט מתייחס לזכיית הספק המקורית, לא להחלטת השקעה חדשה של Eni או לעדכון תוצאות רבעוניות.",
+    "טקסט_en": "Catch-up on Baker Hughes' original October 28, 2026 announcement, read in full. The original publication hour was not verified. This contract was announced then, not newly awarded on November 12.\n\nBaker Hughes announced a contract it describes as significant from Eni for subsea production systems and services for the deepwater Cronos gas development offshore Cyprus. The company says the award was booked in the third quarter of 2026. An order booking is not the same as revenue already recognized or cash received.\n\nThe scope includes deepwater subsea trees, wellheads, connectors, manifolds, topside controls and associated services. Baker Hughes plans to use standardized, configurable systems to reduce complexity and delivery risk and support Eni's project schedule. These are the supplier's execution aims, not a guarantee that the project will start production by a particular date.\n\nAccording to the October 28 announcement, work was already underway and initial equipment deliveries were expected in the first half of 2027. This does not mean the equipment has already been delivered or gas production has started. The release does not disclose the contract value or its revenue impact.\n\nThe total value of the Cronos contract package or amounts reported for other suppliers must not be assigned to Baker Hughes' award. This item covers the original supplier award, not a new Eni investment decision or quarterly results update.",
+    "קישור": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Wins-Significant-Subsea-Production-Systems-and-Services-Award-for-Enis-Cronos-Gas-Development/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Wins-Significant-Subsea-Production-Systems-and-Services-Award-for-Enis-Cronos-Gas-Development/default.aspx",
+        "label": "Baker Hughes: הודעת החוזה המקורית ל-Cronos, 28 באוקטובר",
+        "label_en": "Baker Hughes: original Cronos contract announcement, October 28"
+      }
+    ],
+    "הועלה": "2026-11-12 14:13",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "acb18e736911caa03709dc5fe61803032b2d36e19cfbe52a996b0f693b5e102a"
+      }
+    }
   }
 ]
