@@ -2824,20 +2824,20 @@
     "מדינה": "US",
     "אירוע": "מאזן תקציב ממשלתי חודשי (Monthly Treasury Statement)",
     "חשיבות": 1,
-    "הערה": "Treasury מאשר תאריך הנתונים הבא 12.11.2026. השעה 14:00 ET נשארת מאומתת מול לוח שוק בלבד, לא מקור ראשוני. אין שינוי צפי/קודם.\nבדיקת 11.11.2026: צפי Forex Factory העדכני -298.6 מיליארד דולר. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.",
-    "מקור": "https://www.mtsinsights.com/events/4194/",
-    "תקופה": "אוקטובר · חודשי",
+    "הערה": "אוצר ארה\"ב, MTS טבלה 1: גירעון חודשי באוקטובר 2026 של 404.064 מיליארד דולר; תקבולים 368.940 מיליארד והוצאות 773.004 מיליארד. הסימן השלילי בתא מציין גירעון; בטבלת המקור גירעון מסומן כחיובי. נבחרה שורת October תחת FY 2027, לא October תחת FY 2026. זהו גם החודש הראשון של שנת התקציב ולכן המצטבר מתחילת השנה זהה. צפי Forex Factory שנשמר: גירעון 298.6 מיליארד דולר, ממקור משני ולא תחזית של האוצר. שעת 14:00 ET אומתה בלוח שוק בלבד; נתוני התוצאה עצמם אומתו כעת במקור הראשוני.",
+    "מקור": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_1?filter=record_date:eq:2026-10-31&page[size]=100",
+    "תקופה": "אוקטובר 2026 · חודשי",
     "הערת_מקור_קודמת": "מועד12.11ב14:00ET מאומת כרגע בלוח שוקMTSInsightsובForexFactoryבלבד; דףTreasuryלא סיפק לוח קריא וFREDלנובמברריק. אין אימות ראשוני לשעה; אין צפי/קודם מאומתים.",
     "מקור_אימות_תאריך": "https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/",
     "מזהה": "c-0114",
     "אירוע_en": "Monthly federal budget statement (Monthly Treasury Statement)",
-    "תקופה_en": "October · monthly",
-    "הערה_en": "Treasury confirms the next data date is Nov 12, 2026. The 14:00 ET time remains verified only against a market calendar, not a primary source. No change to estimate/prior.\nNov 11, 2026 check: current Forex Factory forecast -$298.6 billion. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.",
+    "תקופה_en": "October 2026 · monthly",
+    "הערה_en": "US Treasury MTS Table 1: October 2026 monthly deficit $404.064 billion; receipts $368.940 billion and outlays $773.004 billion. A negative sign in the actual cell denotes a deficit; the source table records deficits as positive amounts. The October row under FY2027 was selected, not October under FY2026. This is also the first fiscal month, so fiscal year-to-date is identical. Preserved Forex Factory forecast: a $298.6 billion deficit, from a secondary source, not Treasury. The 14:00 ET release time was verified only in a market calendar; the actual result is now verified in the primary source.",
     "הערת_מקור_קודמת_en": "The Nov 12 14:00 ET timing is currently verified only in the MTS Insights market calendar and ForexFactory; the Treasury page provided no readable schedule and FRED for November is empty. No primary verification of the time; no verified estimate/prior.",
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "71db823cda05ea69c774e905963280caff0953711e3febf8c3e1546c64c11859"
+        "source_hash": "cf426bcbcdd7142cf14f752703932bcb0b84f4095c4bcfd83069ac582af1777e"
       }
     },
     "היסטוריית_צפי": [
@@ -2856,7 +2856,16 @@
     "מקורות_בדיקה_עדכנית": [
       "https://www.forexfactory.com/calendar?week=nov8.2026"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-11"
+    "תאריך_בדיקה_עדכנית": "2026-11-11",
+    "היסטוריית_עדכונים": [
+      {
+        "הערה": "Treasury מאשר תאריך הנתונים הבא 12.11.2026. השעה 14:00 ET נשארת מאומתת מול לוח שוק בלבד, לא מקור ראשוני. אין שינוי צפי/קודם.\nבדיקת 11.11.2026: צפי Forex Factory העדכני -298.6 מיליארד דולר. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.",
+        "הערה_en": "Treasury confirms the next data date is Nov 12, 2026. The 14:00 ET time remains verified only against a market calendar, not a primary source. No change to estimate/prior.\nNov 11, 2026 check: current Forex Factory forecast -$298.6 billion. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.",
+        "מקור": "https://www.mtsinsights.com/events/4194/"
+      }
+    ],
+    "בפועל": "-404.064 מיליארד דולר",
+    "בפועל_en": "-$404.064 billion"
   },
   {
     "תאריך": "2026-11-12",
