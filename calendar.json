@@ -2923,18 +2923,22 @@
     "מדינה": "US",
     "אירוע": "מאזן הפד וגורמי יתרות (H.4.1)",
     "חשיבות": 1,
-    "הערה": "לוח הפד:12.11 בשעה16:30ET; אין צפי/קודם יחיד.",
-    "מקור": "https://federalreserve.gov/newsevents/2026-november.htm",
+    "הערה": "פרסום H.4.1 הרשמי מ-12.11.2026 נקרא ב-23:31 שעון ישראל. כל הסכומים להלן במיליוני דולרים, לא במיליארדים. טבלה 5, רמות ליום רביעי 11.11 ושינוי לעומת 4.11: סך נכסים 6,758,867 (+10,722); ניירות ערך המוחזקים ישירות 6,472,476 (+7,830), מהם אג״ח אוצר 4,586,607 (+7,830) ו-MBS בסך 1,883,522 (ללא שינוי). יתרות פיקדונות מוסדות פיקדון 2,969,977 (+7,173); חשבון האוצר TGA בסך 912,134 (-24,114); עסקאות reverse repo בסך 336,253 (+1,750).\n\nבנפרד, טבלה 1 מציגה ממוצעים יומיים לשבוע שהסתיים ב-11.11: אשראי בנקי הפדרל ריזרב 6,707,462 (+5,947); יתרות רזרבה 2,960,603 (+30,515), והשינויים מול ממוצעי השבוע הקודם. ממוצע שבועי אינו יתרת יום רביעי, ואשראי בנקי הפד אינו סך הנכסים. אלה נתוני מאזן נפרדים, לא החלטת ריבית או צפי/נתון בפועל יחיד. יתר הטבלאות והערות השוליים במקור הרשמי. רישום הלוח הקודם: לוח הפד:12.11 בשעה16:30ET; אין צפי/קודם יחיד.",
+    "מקור": "https://www.federalreserve.gov/releases/h41/current/",
     "שעה": "23:30",
     "מזהה": "c-0117",
     "אירוע_en": "Fed balance sheet and reserve factors (H.4.1)",
-    "הערה_en": "Fed schedule: Nov 12 at 16:30 ET; no single estimate/prior.",
+    "הערה_en": "The official H.4.1 release dated November 12, 2026 was read at 23:31 Israel time. All amounts below are in millions of dollars, not billions. Table 5, Wednesday November 11 levels and changes from November 4: total assets 6,758,867 (+10,722); securities held outright 6,472,476 (+7,830), including Treasury securities 4,586,607 (+7,830) and MBS 1,883,522 (unchanged). Depository-institution deposits 2,969,977 (+7,173); Treasury General Account 912,134 (-24,114); reverse repos 336,253 (+1,750).\n\nSeparately, Table 1 daily averages for the week ended November 11: Reserve Bank credit 6,707,462 (+5,947); reserve balances 2,960,603 (+30,515), with changes from the prior weekly averages. A weekly average is not a Wednesday level, and Reserve Bank credit is not total assets. These are separate balance-sheet series, not a policy-rate decision or a single forecast/actual. Remaining tables and footnotes are in the official source. Previous calendar entry: Fed schedule: Nov 12 at 16:30 ET; no single estimate/prior.",
     "_translation": {
       "en": {
-        "source_hash": "66e03f9f7fcabf8451e7379479641e57c94ff2abca61241c3ec139ee1e694995",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "2814690a82a5a971eabb37365d5b94833a51a43172952fdd372b48293a365143"
       }
-    }
+    },
+    "בפועל": "פורסם · 11.11",
+    "בפועל_en": "Published · Nov 11",
+    "תקופה": "פרסום 12.11; רמות יום רביעי וממוצעי שבוע עד 11.11.2026",
+    "תקופה_en": "Nov 12 release; Wednesday levels and week-ended Nov 11, 2026 averages"
   },
   {
     "תאריך": "2026-11-13",
