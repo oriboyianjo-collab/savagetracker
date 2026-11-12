@@ -38028,5 +38028,80 @@
         "source_hash": "9c0e5cf09dc2495e783a577ad381e723770d89c25b3762d167e07e9a04e87925"
       }
     }
+  },
+  {
+    "מזהה": "n-1492",
+    "category": "macro",
+    "חברה": "Binance",
+    "תאריך": "2026-11-12 23:20",
+    "כותרת": "משרד המשפטים: הוקפאו יותר מ-2.7 מיליארד דולר מהגניבה ב-Binance; אושר לתפוס או להגביל יותר מ-1.2 מיליארד מתוכם",
+    "כותרת_en": "DOJ: over $2.7 billion of stolen Binance assets frozen; over $1.2 billion authorized for seizure or restraint",
+    "טקסט": "12.11.2026 | הודעת משרד המשפטים האמריקאי נקראה במלואה. מטא-נתוני המקור מציגים פרסום ב-16:20:09 בניו יורק, 23:20:09 בישראל, ועדכון ב-23:38 בישראל.\n\nמשרד המשפטים הודיע על פעולות מתואמות נגד גניבת קריפטו המיוחסת לצפון קוריאה. לגבי גניבת הנכסים מ-Binance בסוף אוקטובר, המשרד אומר ששיתוף הפעולה הציבורי-פרטי הביא עד כה להקפאת יותר מ-2.7 מיליארד דולר, ושכבר התקבל אישור בית משפט לתפוס או להגביל נכסים בשווי יותר מ-1.2 מיליארד דולר מתוך סכום זה. אין לחבר את הסכומים: ה-1.2 מיליארד הם חלק מהנכסים שהוקפאו.\n\nזהו עדכון אכיפה נפרד מהייחוס הקודם של ה-FBI ומהצהרות Binance על רכישת נכסים חלופיים ללקוחות. אישור תפיסה או הגבלה אינו חילוט סופי, פיצוי שהועבר לנפגעים או השבה מלאה של הכסף. המשרד אומר שמאמצי האיתור, ההקפאה, התפיסה והחילוט נמשכים, בזמן שהתוקפים ממשיכים להלבין נכסים דרך גשרים, מערבלים ובורסות.\n\nבנפרד מפרשת Binance, ה-FBI תפס תשתית ענן המשמשת לפי הרשויות את מסע ההנדסה החברתית FaceStealer. המשרד מייחס למסע זה גניבת יותר מ-400 מיליון דולר ב-18 חודשים, ומדווח על תפיסת יותר מ-900 סרטוני מצלמה של קורבנות מכוח צו. זה אינו סכום גניבה נוסף מ-Binance ואינו סכום שהוחזר.\n\nלפי הרשויות, התוקפים מתחזים לאנשי קשר בפגישות וידאו ומציעים תיקון מזויף לתקלה כדי להתקין נוזקה; חלק מהיעדים הם מפתחי תוכנת קוד פתוח. אלה ממצאים וייחוסים שמציג משרד המשפטים, לא הודעה על סיום החקירה או הרשעת כל המעורבים. אין כאן אישור לפריצה חדשה היום או לשינוי נוכחי בזמינות המשיכות בבורסה.",
+    "טקסט_en": "November 12, 2026 | The full DOJ release was read. Source metadata shows publication at 16:20:09 New York time, 23:20:09 Israel time, and an update at 23:38 Israel time.\n\nDOJ announced coordinated actions against cryptocurrency theft attributed to North Korea. For the late-October Binance theft, DOJ says public-private efforts have so far frozen over $2.7 billion and that it has obtained court authorization to seize or restrain over $1.2 billion of that amount. The figures must not be added: the $1.2 billion is part of the frozen assets.\n\nThis is a separate enforcement update from the earlier FBI attribution and Binance's statements about buying replacement assets for customers. Seizure or restraint authorization is not final forfeiture, compensation transferred to victims or full recovery. DOJ says tracing, freezing, seizure and forfeiture efforts continue as the actors launder assets through bridges, mixers and exchanges.\n\nSeparately from Binance, the FBI seized cloud infrastructure allegedly used in the FaceStealer social-engineering campaign. DOJ attributes over $400 million stolen over 18 months to that campaign and reports seizing over 900 victim webcam videos under a warrant. That is not an additional Binance theft or recovered money.\n\nAuthorities say the actors impersonate contacts in video meetings and offer a fake technical fix to install malware; some targets develop open-source software. These are DOJ's stated findings and attributions, not a claim the investigation is over or every participant has been convicted. No new theft today or current change in exchange withdrawal availability is established.",
+    "קישור": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+    "מקורות": [
+      {
+        "url": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+        "label": "משרד המשפטים: ההודעה המקורית המלאה מ-12 בנובמבר",
+        "label_en": "DOJ: full original November 12 release"
+      }
+    ],
+    "הועלה": "2026-11-12 23:43",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "956aa15f3ed8ac073b95f82068dd13d8a479a8fb9c7449d4e20e9bdf6b09a85d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1493",
+    "category": "macro",
+    "חברה": "New Zealand",
+    "תאריך": "2026-11-12 23:30",
+    "כותרת": "ניו זילנד: מדד התעשייה באוקטובר ירד ל-54.9 מ-56.3, אך נותר בהתרחבות",
+    "כותרת_en": "New Zealand October manufacturing PMI falls to 54.9 from 56.3, still expanding",
+    "טקסט": "12.11.2026 | פרסום BNZ-BusinessNZ המקורי נקרא במלואו, כולל הטבלה. מטא-נתוני המקור: 13 בנובמבר ב-10:30 בניו זילנד (UTC+13), שהם 12 בנובמבר ב-23:30 בישראל. תקופת הנתון היא אוקטובר 2026, לא נובמבר.\n\nמדד מנהלי הרכש בתעשייה, מנוכה עונתיות, ירד ל-54.9 נקודות לעומת 56.3 בספטמבר, ירידה של 1.4 נקודות. המדד נשאר מעל סף 50 המבדיל בין התרחבות להתכווצות, ובמקור מצוין חודש 16 ברציפות של התרחבות. זו האטה בקצב ההתרחבות, לא התכווצות של התעשייה.\n\nההזמנות החדשות ירדו ל-54.3 מ-56.8 והתפוקה ל-53.9 מ-56.6. התעסוקה עלתה מעט ל-51.9 מ-51.8; מלאי המוצרים המוגמרים ירד ל-58.0 מ-59.0, והמשלוחים עלו ל-61.4 מ-59.1. אלה רכיבי סקר בנקודות, לא אחוזי צמיחה בתפוקה, במשרות או בתמ״ג.\n\nשיעור ההערות השליליות של המשיבים עלה ל-56.4% מ-53%, עם אזכורים למחירי דלק, יוקר מחיה ואי-ודאות סביב הבחירות. לצד זאת תוארו הזמנות עונת החגים ותשתיות כתמיכה בפעילות. הנתון הקודם במקור הרשמי הוא 56.3; מספר אחר שהופיע בדיווחי שוק אינו מחליף את טבלת המקור. לא אומתה תחזית קונצנזוס, ואין כאן החלטת ריבית או מדד השירותים.",
+    "טקסט_en": "November 12, 2026 | The full original BNZ-BusinessNZ release, including its table, was read. Source metadata: November 13 at 10:30 in New Zealand (UTC+13), equivalent to November 12 at 23:30 Israel time. The observation period is October 2026, not November.\n\nThe seasonally adjusted manufacturing PMI fell to 54.9 from September's 56.3, a 1.4-point decline. It remained above the 50 expansion/contraction threshold, with the source reporting a 16th consecutive month of expansion. This is slower expansion, not manufacturing contraction.\n\nNew orders fell to 54.3 from 56.8 and production to 53.9 from 56.6. Employment edged up to 51.9 from 51.8; finished stocks fell to 58.0 from 59.0 and deliveries rose to 61.4 from 59.1. These are survey components in points, not percentage growth in output, jobs or GDP.\n\nNegative respondent comments rose to 56.4% from 53%, citing fuel prices, living costs and election uncertainty. Holiday-season orders and infrastructure work were also described as supporting activity. The official prior is 56.3; a different market-report figure does not replace the source table. No consensus forecast was verified. This is neither a policy-rate decision nor the services index.",
+    "קישור": "https://businessnz.org.nz/pmi/over-the-top-for-now",
+    "מקורות": [
+      {
+        "url": "https://businessnz.org.nz/pmi/over-the-top-for-now",
+        "label": "BNZ-BusinessNZ: פרסום אוקטובר המלא וטבלת הרכיבים",
+        "label_en": "BNZ-BusinessNZ: full October release and component table"
+      }
+    ],
+    "הועלה": "2026-11-12 23:43",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4bbe6fa8dcb97bca6ecebe4e67a661d60c047fc7bb175792bcc557b500a73e81"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1494",
+    "category": "macro",
+    "חברה": "US / Iran",
+    "תאריך": "2026-11-12 23:30",
+    "כותרת": "לפי Reuters: טראמפ אומר שאין צורך בהסכם עם איראן ומפנה את ואנס לעיסוק בשחיתות פנימית",
+    "כותרת_en": "Reuters: Trump says Iran deal not needed and redirects Vance to domestic corruption work",
+    "טקסט": "לא מאומת מול מקור ראשוני\n12.11.2026 | כתבת Reuters המלאה דרך Korea Times פורסמה ב-13 בנובמבר ב-06:30 בקוריאה, שהם 12 בנובמבר ב-23:30 בישראל. זהו מועד הכתבה שנבדקה, לא שעה מאומתת של הפוסט הראשון של טראמפ.\n\nלפי Reuters, טראמפ כתב ברשת החברתית שלארה״ב אין עוד צורך בהסכם עם איראן, והנחה את סגן הנשיא ג'יי די ואנס להפנות את מלוא תשומת לבו לפעילות נגד פשיעה ושחיתות נטענות בערים ובמדינות בהנהגה דמוקרטית. אלה דברי הנשיא והאשמותיו כפי שצוטטו, לא ממצא עצמאי של שחיתות ולא הוכחה שהתקציב יתאזן.\n\nהחידוש ביחס לדיווח הקודם על מעורבות ואנס בתיווך העקיף הוא ההנחיה המדווחת לשינוי מוקד עבודתו והמסר הפומבי בנוגע להסכם. אין בכך אישור שכל ערוצי המשא ומתן נותקו או שהתקבלה החלטה מבצעית חדשה. לשכת ואנס לא השיבה מיד לבקשת תגובה, לפי הכתבה.\n\nהכתבה מזכירה דיווח של Wall Street Journal על פגישה אפשרית בין ואנס לבכיר ביטחוני איראני, אך Reuters מבהירה שלא אימתה את האפשרות. אין להציג את הפגישה כמתוכננת או כמבוטלת בוודאות. הפוסט המקורי, תמליל רשמי והודעה של לשכת ואנס לא נבדקו ישירות.\n\nהסגר הימי והסנקציות מתוארים כרקע קיים. אין כאן אישור לפתיחת הורמוז, לשינוי מאומת בזרימת הנפט, להסכם שהושג או לפקודה לפתוח במתקפה. טענות נפרדות על פגיעות במכליות שמוזכרות בכתבה לא אומתו כאן ואינן מוצגות כהוכחה לתקרית חדשה.",
+    "טקסט_en": "Not verified against a primary source\nNovember 12, 2026 | The full Reuters report carried by Korea Times was published November 13 at 06:30 Korea time, equivalent to November 12 at 23:30 Israel time. This is the checked report's timestamp, not a verified time of Trump's first post.\n\nReuters reports Trump wrote on social media that the US no longer needs an Iran deal and directed Vice President JD Vance to give his complete attention to alleged crime and corruption in Democratic-led cities and states. These are the president's statements and allegations as quoted, not independent findings of corruption or proof the budget will balance.\n\nThe new development relative to earlier reporting on Vance's indirect mediation is the reported directive to shift his focus and the public message about a deal. It does not establish that every negotiating channel has ended or a new operational decision has been made. Vance's office did not immediately respond, according to the report.\n\nThe article mentions a Wall Street Journal report of a possible meeting between Vance and an Iranian security official, but Reuters explicitly says it has not confirmed the potential talks. The meeting must not be presented as definitely scheduled or canceled. The original post, official transcript and a Vance-office statement were not directly checked.\n\nThe blockade and sanctions are existing context. There is no verified reopening of Hormuz, change in oil flows, completed agreement or order for a new attack here. Separate tanker-strike claims mentioned in the report were not verified here and are not presented as proof of a new incident.",
+    "קישור": "https://www.koreatimes.co.kr/world/20261113/trump-says-us-does-not-need-iran-deal-directs-vance-to-focus-on-domestic-corruption",
+    "מקורות": [
+      {
+        "url": "https://www.koreatimes.co.kr/world/20261113/trump-says-us-does-not-need-iran-deal-directs-vance-to-focus-on-domestic-corruption",
+        "label": "Reuters דרך Korea Times: הכתבה המלאה; הפוסט המקורי לא נבדק",
+        "label_en": "Reuters via Korea Times: full report; original social post not checked"
+      }
+    ],
+    "הועלה": "2026-11-12 23:43",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "003f1ad6a8b9687e6869509554444feb823141c356cf2f2439489bc37706314f"
+      }
+    }
   }
 ]
