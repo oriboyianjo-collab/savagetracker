@@ -33315,5 +33315,43 @@
         "source_hash": "b5efa9f039505df9776e20c9b676a1d0b7545c08c0e7245dc510eebc2a316e04"
       }
     }
+  },
+  {
+    "מזהה": "n-1349",
+    "category": "macro",
+    "חברה": "",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 03:44",
+    "קישור": "https://www.boj.or.jp/about/press/koen_2026/data/ko261112a1.pdf",
+    "כותרת": "BoJ: אסאדה קורא לזהירות בקצב העלאות עתידיות בשל צריכה לא חזקה והשפעת ההידוק המצטבר; עמדה אישית, לא החלטה",
+    "כותרת_en": "BoJ: Asada urges care with future hike pace given lackluster consumption and cumulative tightening; personal view, not a decision",
+    "טקסט": "מקור ראשוני: הנאום היפני המלא של חבר מועצת המדיניות טואיצ׳ירו אסאדה במפגש עם מנהיגים מקומיים בנגסאקי, מ-12 בנובמבר 2026, נקרא, כולל ההבחנה בין תחזית הבנק לעמדתו האישית. לוח הפרסומים הרשמי ציין 10:30 ביפן, 03:30 בישראל; זהו מועד הפרסום המתוכנן, לא מדידת שעת אמירת כל משפט.\n\nאסאדה אמר כי אם הריבית תועלה בהמשך, יש לשים לב היטב לקצב: הצריכה הפרטית אינה חזקה דיה כדי להוביל את המשק, והאינפלציה הנוכחית אינה בהכרח מונעת מביקוש. לדבריו, יש לבחון אם עליות שכר וביקוש מחזקות בפועל את מנגנון העלייה ההדדית בשכר ובמחירים. הוא לא הודיע על התנגדות לכל העלאה עתידית או קבע מועד לשינוי.\n\nלדבריו, תנאי המימון עדיין מקלים אך מידת ההקלה הצטמצמה. הריבית של 1.25%, שאותה הוא מתאר בנאום, כבר נמצאת בטווח הרחב של אומדני הריבית הניטרלית: מעט מעל 1% ועד אמצע טווח ה-2%. זהו טווח לא ודאי, לא יעד ריבית מחייב. לכן העלאות נוספות עלולות להשפיע על הפעילות יותר מאשר בתחילת תהליך ההידוק. השפעת העלאות על המשק עשויה להגיע בפיגור של שנה או יותר, ויש לבחון גם את השפעתן המצטברת.\n\nההקשר חשוב: אסאדה מציג גם את תחזית הבנק שלפיה האינפלציה הבסיסית תואמת בקירוב את יעד ה-2%, קיימים סיכוני אינפלציה כלפי מעלה, ומתאים להמשיך להתאים את מידת ההקלה באמצעות העלאות בהתאם לכלכלה, למחירים ולתנאים הפיננסיים. לצד זאת הוא מדגיש את הסיכון שהידוק יכביד על הפעילות ויוריד את האינפלציה. עמדתו הזהירה אינה החלפה של תחזית הבנק בהחלטת מדיניות חדשה.\n\nאסאדה מזכיר שהתנגד להעלאות ביוני ובספטמבר ותמך בהשארת הריבית ביולי ובאוקטובר. אלה הצבעות עבר, לא הצבעה חדשה היום. הנאום אינו הודעה על הפחתה, עצירת העלאות מחייבת, שינוי ריבית או פעולה חדשה בשוק המט״ח. נתון מחירי היצרן לאוקטובר פורסם בנפרד בפריט n-1348; אין כאן פרסום חוזר שלו או טענה לתגובת שוק שנבדקה.",
+    "טקסט_en": "Primary source: the full Japanese speech by Policy Board member Toichiro Asada at a meeting with local leaders in Nagasaki on Nov 12, 2026 was read, including the distinction between the bank's outlook and his personal views. The official release schedule listed 10:30 Japan time, 03:30 in Israel. This is the scheduled release time, not a measurement of when each sentence was spoken.\n\nAsada said that if rates are raised in future, careful attention should be paid to the pace. Private consumption is not strong enough to drive the economy, and current inflation is not necessarily demand-led. He said it is important to examine whether wage growth and demand are strengthening the mutually reinforcing wage-price mechanism. He did not reject every future hike or set a date for action.\n\nIn his account, financial conditions remain accommodative but accommodation has diminished. The 1.25% policy rate described in his speech already lies within a broad estimated neutral-rate range of just over 1% to the mid-2% area. That is an uncertain estimate, not a binding rate target. Further increases may therefore affect activity more than at the start of tightening. Rate hikes may affect the real economy with a lag of a year or longer, and their cumulative effects must be watched.\n\nContext matters: Asada also sets out the bank's outlook that underlying inflation is broadly consistent with the 2% target, upside inflation risks exist, and further adjustments to accommodation through hikes remain appropriate depending on the economy, prices and financial conditions. Alongside that, he stresses the risk of tightening weighing on activity and lowering inflation. His caution is not a replacement of the bank's outlook with a new policy decision.\n\nHe recalls opposing the June and September hikes and supporting holds in July and October. These are past votes, not a new vote today. The speech announces no cut, binding halt to hikes, rate change or new foreign-exchange intervention. October producer prices were separately covered in n-1348; this does not republish that release or claim a verified market reaction.",
+    "מקורות": [
+      {
+        "label": "Bank of Japan: הנאום היפני המלא של אסאדה, 12 בנובמבר",
+        "label_en": "Bank of Japan: full Japanese Asada speech, Nov 12",
+        "url": "https://www.boj.or.jp/about/press/koen_2026/data/ko261112a1.pdf"
+      },
+      {
+        "label": "Bank of Japan: עמוד הנאום הרשמי",
+        "label_en": "Bank of Japan: official speech page",
+        "url": "https://www.boj.or.jp/about/press/koen_2026/ko261112a.htm"
+      },
+      {
+        "label": "Bank of Japan: לוח הפרסומים הרשמי",
+        "label_en": "Bank of Japan: official release schedule",
+        "url": "https://www.boj.or.jp/en/about/calendar/index.htm"
+      }
+    ],
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c7122037b48322c83c65c82f64a4b82d062f1d5a281b3cfa05ed6219d4f68ab0"
+      }
+    }
   }
 ]
