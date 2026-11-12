@@ -33353,5 +33353,47 @@
         "source_hash": "c7122037b48322c83c65c82f64a4b82d062f1d5a281b3cfa05ed6219d4f68ab0"
       }
     }
+  },
+  {
+    "מזהה": "n-1350",
+    "category": "micro",
+    "חברה": "STX",
+    "תאריך": "2026-11-10",
+    "הועלה": "2026-11-12 04:23",
+    "קישור": "https://www.seagate.com/stories/articles/firecuda-forge-rethinks-the-choice-between-speed-and-capacity/",
+    "כותרת": "Seagate (STX) מציגה FireCuda Forge: כונן HDD עד 20TB עם מטמון NVMe שהמשתמש מתקין; השלמת סיקור מ-10 בנובמבר",
+    "כותרת_en": "Seagate (STX) introduces FireCuda Forge: up to 20TB HDD with user-installed NVMe cache; Nov 10 catch-up",
+    "טקסט": "מקור ראשוני: שני מאמרי Seagate מ-10 בנובמבר 2026 ועמוד המוצר נקראו. במאמרים מופיע תאריך בלבד, ללא שעת פרסום מאומתת. זו השלמת סיקור של מוצר שהוצג קודם, לא הודעת השקה מהיום.\n\nFireCuda Forge הוא התקן אחסון חיצוני שולחני לגיימרים וליוצרים, שמחבר כונן קשיח בנפח של עד 20TB עם SSD מסוג NVMe שהמשתמש בוחר, רוכש בנפרד ומתקין. לפי עמוד המוצר, ה-SSD נדרש להפעלה: M.2 2280, ‏PCIe Gen3 ומעלה, עד 1TB, ומהירויות קריאה/כתיבה של לפחות 2,400/2,000MB לשנייה; מטמון DRAM מומלץ. החיבור הוא USB4 דרך USB-C במערכות תואמות.\n\nההבחנה הטכנית: ה-SSD משמש מטמון, וקיבולתו אינה מצטרפת לנפח האחסון שהמחשב רואה. נפח ה-HDD קובע את נפח הכונן האחוד. טכנולוגיית Alkemi עוקבת אחר דפוסי שימוש ומתעדפת מידע פעיל במטמון ה-SSD, בעוד הספרייה הרחבה נשארת בכונן הקשיח. הניהול מתבצע בהתקן עצמו באמצעות FPGA ו-Linux משובץ, לא באמצעות ניהול ידני של שני כוננים נפרדים במחשב.\n\nSeagate מדווחת על שיעור פגיעות מטמון של 90% בניסויים שכללו 4.3 מיליון בקשות קלט/פלט במשחקים. זו תוצאת בדיקה של החברה בתרחישים מסוימים, לא הבטחה שכל קובץ או שימוש יקבלו מהירות SSD. החברה עצמה מציינת שמידע חדש עשוי שלא להציג מיד דפוס שימוש חוזר שעל פיו ניתן לתעדף אותו.\n\nבבדיקה הנוכחית עמוד המוצר הציג הודעת חוסר מלאי. מחיר ומועד מכירה ראשון לא אומתו, ולכן אין כאן טענה לזמינות לרכישה כעת. גם לא הוכחו טענות שלפיהן מחירי אחסון שנגרמו מביקוש ל-AI הובילו למוצר, או מסקנות על אובדן נתונים במקרה תקלה. זהו מוצר אחסון לצרכנים וליוצרים, לא הודעה על הרחבת קיבולת מרכזי נתונים.",
+    "טקסט_en": "Primary sources: two Seagate articles dated Nov 10, 2026 and the product page were read. The articles show a date only, without a verified publication time. This is catch-up coverage of an earlier product introduction, not a launch announcement today.\n\nFireCuda Forge is an external desktop storage device for gamers and creators that pairs an HDD of up to 20TB with an NVMe SSD chosen, bought separately and installed by the user. The product page says the SSD is required for operation: M.2 2280, PCIe Gen3 or higher, up to 1TB, with at least 2,400/2,000MB/s read/write speeds; DRAM cache is recommended. It connects through USB4 over USB-C on compatible systems.\n\nThe technical distinction: the SSD is a cache, and its capacity is not added to the storage volume seen by the computer. The HDD determines the unified volume capacity. Alkemi monitors workload patterns and prioritizes active data in the SSD cache while the broader library remains on the HDD. Management runs inside the device using an FPGA and embedded Linux, rather than requiring manual management of two separate drives on the host computer.\n\nSeagate reports a 90% cache hit rate in tests involving 4.3 million gaming I/O requests. This is a company test result under particular workloads, not a promise that every file or workload achieves SSD speed. The company itself notes that new data may not immediately exhibit recurring usage patterns that can be prioritized.\n\nAt this check the product page displayed an out-of-stock message. Pricing and first-sale timing were not verified, so this does not claim current purchase availability. Claims that AI-driven storage prices caused the product, or conclusions about data loss after a failure, were not established. This is a consumer and creator storage product, not an announcement of data-center capacity expansion.",
+    "מקורות": [
+      {
+        "label": "Seagate: הצגת המוצר, 10 בנובמבר",
+        "label_en": "Seagate: product introduction, Nov 10",
+        "url": "https://www.seagate.com/stories/articles/firecuda-forge-rethinks-the-choice-between-speed-and-capacity/"
+      },
+      {
+        "label": "Seagate: הסבר הנדסי מלא על המטמון",
+        "label_en": "Seagate: full cache engineering explanation",
+        "url": "https://www.seagate.com/blog/how-firecuda-forge-adapts-cache-changing-workloads/"
+      },
+      {
+        "label": "Seagate: עמוד המוצר ודרישות SSD",
+        "label_en": "Seagate: product page and SSD requirements",
+        "url": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-forge/"
+      }
+    ],
+    "symbols": [
+      "STX"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "32ad9811bc91683b529d67c67b2304894f9f5c4ecfd5fec086022c60c59234a0"
+      }
+    }
   }
 ]
