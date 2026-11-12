@@ -36739,5 +36739,37 @@
         "source_hash": "ab9105376ec8a0bff5c729deec0a40087b240557cec30323d3d17213ff1612bc"
       }
     }
+  },
+  {
+    "מזהה": "n-1453",
+    "category": "micro",
+    "חברה": "AMD",
+    "symbols": [
+      "AMD"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "AMD מציגה MI450X עם 288GB זיכרון HBM4 ל-Helios; נתוני MI455X החדשים הם בדיקת חברה",
+    "כותרת_en": "AMD introduces MI450X with 288GB HBM4 for Helios; new MI455X results are company-tested",
+    "טקסט": "12.11.2026 | הודעת AMD המקורית נקראה במלואה, כולל שלוש הערות הבדיקה. שעת הפרסום המקורית לא אומתה.\n\nAMD הציגה את Instinct MI450X כאפשרות נוספת למערכות Helios. המאיץ כולל 288GB זיכרון HBM4, ולפי החברה מספק את אותן יכולות ליבה של חישוב, רוחב פס זיכרון וקישוריות scale-up ו-scale-out של MI455X. לשני הדגמים בסיס תוכנה ROCm וארכיטקטורת rack-scale משותפים; MI455X מציע מרווח זיכרון נוסף למודלים גדולים, הקשרים ארוכים או יותר משתמשים במקביל.\n\nבנפרד, AMD פרסמה תוצאה של 21,333 טוקנים לשנייה לכל GPU עבור DeepSeek-R1 ב-MI455X, בתצורת MLPerf Inference Offline שנבדקה במעבדות AMD. החברה משווה זאת לתוצאה שפורסמה עבור NVIDIA Vera Rubin NVL72 וטוענת לעד 30% יותר תפוקה. זו השוואה של AMD בתצורה מוגדרת, לא מדידה עצמאית של יתרון כללי בכל עומס עבודה, ולא הבטחה לאותה תוצאה בזמן תגובה אינטראקטיבי.\n\nלפי הערת המקור, בדיקת AMD נערכה באוקטובר והתוצאה המתחרה נלקחה מתוצאות MLPerf v6.1 Closed Division ב-11 בנובמבר. התוצאות עשויות להשתנות לפי מודל, תצורה, גרסת תוכנה ויצרן מערכת. אין להציג את המספר כזכייה עצמאית שאומתה כאן בתחרות זהה של שני המוצרים. גם טענות רוחב הפס במקור מבוססות על חישובי AMD לפי מפרטים, ולא על בדיקת לקוח עצמאית.\n\nההודעה אינה מוסרת מחיר, מועד זמינות מסחרית, תאריך משלוח או הזמנת לקוח חדשה. הצגת MI450X אינה אישור שכל מערכות Helios כבר נשלחות. החידוש הוא אפשרות מוצר חדשה ותוצאות בדיקה שפרסמה החברה, בנפרד מזמינות מעבדי EPYC ב-n-1246, שרתי Supermicro ב-n-1331 ושיתוף הפעולה הקוונטי עם PsiQuantum ב-n-1437.",
+    "טקסט_en": "November 12, 2026 | AMD's full original announcement was read, including all three testing footnotes. The original publication hour was not verified.\n\nAMD introduced Instinct MI450X as another option for Helios systems. The GPU has 288GB of HBM4 memory and, according to AMD, the same core compute, memory bandwidth and scale-up and scale-out connectivity capabilities as MI455X. Both share ROCm software and an open rack-scale architecture. MI455X offers additional memory headroom for larger models, longer contexts or higher concurrency.\n\nSeparately, AMD reported 21,333 tokens per second per GPU for DeepSeek-R1 on MI455X in an AMD-tested MLPerf Inference Offline configuration. AMD compares this with a published result for NVIDIA Vera Rubin NVL72 and claims up to 30% higher throughput. This is AMD's comparison for a defined configuration, not independent measurement of a general advantage across workloads or a guarantee of the same result at interactive response times.\n\nThe footnote says AMD testing took place in October and the competing MLPerf v6.1 Closed Division result was retrieved on November 11. Results may vary with model, configuration, software version and system manufacturer. This should not be presented as an independently verified win in an identical head-to-head test. The release's bandwidth comparisons also use AMD calculations from specifications, not independent customer testing.\n\nNo price, commercial availability date, shipment date or new customer order is disclosed. Introducing MI450X does not establish that all Helios systems are shipping. The development is a new product option and company-reported testing, separate from EPYC availability in n-1246, Supermicro servers in n-1331 and the PsiQuantum quantum partnership in n-1437.",
+    "קישור": "https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/",
+    "מקורות": [
+      {
+        "url": "https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/",
+        "label": "AMD: הודעת MI450X ו-MI455X המלאה, כולל הערות הבדיקה",
+        "label_en": "AMD: full MI450X and MI455X announcement with testing footnotes"
+      }
+    ],
+    "הועלה": "2026-11-12 16:24",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2056fe86241c7e0c6f087323672488b32ca5891cf66bd828f8f55eee9c55df16"
+      }
+    }
   }
 ]
