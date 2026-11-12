@@ -33457,5 +33457,34 @@
         "source_hash": "5c845ebe4d95ae9bdf8523de58b8257d0bd64bc9374abbe826bdec48d3cb2902"
       }
     }
+  },
+  {
+    "מזהה": "n-1353",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "הועלה": "2026-11-12 07:53",
+    "קישור": "https://www.koreatimes.co.kr/business/companies/20261112/samsung-electronics-breaks-ground-on-new-hbm-packaging-facility-in-asan",
+    "כותרת": "Samsung Electronics: לפי Korea Times, החלה בניית קו אריזת HBM באוניאנג; יעד ההפעלה הוקדם ליוני 2028",
+    "כותרת_en": "Samsung Electronics: Korea Times reports groundbreaking for Onyang HBM packaging line; operating target brought forward to June 2028",
+    "טקסט": "לא מאומת מול הודעת חברה או מקור ממשלתי ראשוני. כתבת המקור המלאה של Lee Gyu-lee ב-Korea Times נקראה ישירות; פורסמה ב-12 בנובמבר 2026 ב-14:33 בקוריאה, 07:33 בישראל. זהו דיווח עיתונאי מקורי על שלב תפעולי, לא הודעת תוצאות או תחזית רווח.\n\nלפי העיתון, Samsung Electronics קיימה היום טקס תחילת בנייה בקמפוס אוניאנג באסאן, דרום קוריאה, לקו חמישי המיועד לאריזה מתקדמת של זיכרון ברוחב פס גבוה, HBM. יעד תחילת הפעילות הוא יוני 2028, שנה מוקדם מהתכנון המקורי לפי הכתבה. אין כאן הודעה שהמפעל כבר פועל או שקיבולת חדשה כבר זמינה.\n\nהכתבה מציינת השקעה כוללת של 46 טריליון וון באוניאנג: 6 טריליון לבנייה ו-40 טריליון לציוד שיותקן בשלבים. אין להסיק שכל הסכום יוקצה לקו החמישי לבדו או כבר הוצא. זהו חלק מהתחייבות Samsung Electronics להשקיע 60 טריליון וון באזור, שבתורה נכללת בתוכנית אזורית של 144 טריליון וון של Samsung ושותפותיה שהוכרזה ביולי. הסכומים אינם השקעה חדשה נוספת שהוכרזה היום, ואין לחבר אותם זה לזה.\n\nהקו מתוכנן לכלול כ-31 אלף מ״ר של חדרים נקיים בשלוש קומות. העיתון מתאר מעבר של האתר מהרכבה ובדיקה של שבבים רגילים לתפקיד משמעותי גם באריזת HBM ליישומי AI. לא נמסרו בכתבה תפוקה במארזים לחודש, דור HBM מחייב או חוזה לקוח חדש; תחילת בנייה ויעד הפעלה אינם התחייבות להיקף אספקה מסוים.\n\nזהו אתר של Samsung Electronics באוניאנג, לא מפעל היציקה בטיילור, טקסס, שכוסה ב-n-0548, ולא הרחבת מצעי FC-BGA של Samsung Electro-Mechanics בסג׳ונג שכוסתה ב-n-0918. ההבדל החדש כאן הוא שלב תחילת הבנייה ויעד ההפעלה המואץ של קו אריזת HBM. תוכניות של חברות האחיות ותחזיות הביקוש משיחת התוצאות אינן מוצגות כקיבולת שהופעלה היום.",
+    "טקסט_en": "Not verified against an official company release or a primary government source. The full original Lee Gyu-lee article in The Korea Times was read directly; published Nov 12, 2026 at 14:33 Korea time, 07:33 in Israel. This is original journalism on an operational stage, not earnings results or profit guidance.\n\nThe newspaper reports that Samsung Electronics held a groundbreaking ceremony today at its Onyang campus in Asan, South Korea, for a fifth line intended for advanced high-bandwidth memory, or HBM, packaging. Operations are targeted for June 2028, a year earlier than originally planned according to the article. This does not mean the plant is already operating or that new capacity is available now.\n\nThe article gives total Onyang investment of 46 trillion won: 6 trillion for construction and 40 trillion for equipment to be installed in stages. It does not establish that the entire sum is for the fifth line alone or has already been spent. This is part of Samsung Electronics' 60 trillion-won regional commitment, itself within the 144 trillion-won regional plan announced by Samsung and affiliates in July. These are not additional new spending announcements today and must not be added together.\n\nThe line is planned to include about 31,000 square meters of cleanrooms across three floors. The newspaper describes an expansion of the site's role from conventional chip assembly and testing to advanced HBM packaging for AI. The article gives no monthly package output, binding HBM generation or new customer contract; groundbreaking and an operating target do not establish a specific supply commitment.\n\nThis is Samsung Electronics' Onyang site, not the Taylor, Texas foundry covered in n-0548 or Samsung Electro-Mechanics' Sejong FC-BGA substrate expansion covered in n-0918. The new development here is the construction-start stage and accelerated operating target for an HBM packaging line. Affiliate plans and demand outlook from the earnings call are not presented as capacity entering service today.",
+    "מקורות": [
+      {
+        "label": "Korea Times: כתבת Lee Gyu-lee המלאה, 12 בנובמבר 14:33 KST; לא הודעת חברה",
+        "label_en": "The Korea Times: full Lee Gyu-lee report, Nov 12 at 14:33 KST; not a company release",
+        "url": "https://www.koreatimes.co.kr/business/companies/20261112/samsung-electronics-breaks-ground-on-new-hbm-packaging-facility-in-asan"
+      }
+    ],
+    "symbols": [],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8d09c8201fce54b902d6264377d1965b5c1a303c54f9ebc9dc31d84cde90d96c"
+      }
+    }
   }
 ]
