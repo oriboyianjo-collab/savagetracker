@@ -37045,5 +37045,37 @@
         "source_hash": "0e35b80c2ec44f9159ba52805f771264a8b6739c1b6aa6007f56eb7d4d70094a"
       }
     }
+  },
+  {
+    "מזהה": "n-1462",
+    "category": "micro",
+    "חברה": "ROK",
+    "symbols": [
+      "ROK"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 17:16",
+    "כותרת": "Rockwell Automation (ROK): פלטפורמת LogixEdge משלבת בקרה תעשייתית ויישומי תוכנה על מחשב תעשייתי",
+    "כותרת_en": "Rockwell Automation (ROK): LogixEdge combines industrial control and software applications on an industrial PC",
+    "טקסט": "12.11.2026 | הודעת Rockwell Automation המקורית פורסמה ב-10:16 ET, 17:16 שעון ישראל, ונקראה במלואה.\n\nRockwell Automation הודיעה על השקת LogixEdge, פלטפורמת בקרה המבוססת על מחשב תעשייתי. היא משלבת בקרת Logix דטרמיניסטית עם מחשוב קצה ותמיכה ביישומים ארוזים בקונטיינרים, כך שבקרה ויישומי תוכנה יוכלו לפעול על אותה פלטפורמה קרוב לתהליכי הייצור.\n\nהמוצר נועד לחבר בין טכנולוגיה תפעולית במפעל לבין מערכות מחשוב, ולהפחית את הצורך בחומרה נפרדת לבקרה, תצוגה ויישומים דיגיטליים. לפי החברה, שימוש בקונטיינרים יכול לאפשר פריסה, עדכון וניהול עקביים יותר של תוכנה באתרים מבוזרים. אלה יכולות ויתרונות שהחברה מתארת, לא מדידה עצמאית של זמן פריסה, חיסכון בעלויות או שיפור בתפוקת מפעל.\n\nLogixEdge מרחיב את משפחת Logix ומשלים פתרונות קיימים; אין בהודעה אישור שהוא מחליף את כל מוצרי הבקרה של החברה או שכל יישום קיים ניתן להעברה ללא שינוי. החברה מפנה להדגמות ב-Automation Fair 2026 וליצירת קשר עם מפיצים.\n\nההודעה אינה קובעת מועד משלוחים או זמינות כללית מפורש, ואינה מפרסמת מחיר, הזמנות, לקוחות שהטמיעו את המוצר או השפעה כמותית על הכנסות ורווח. ההכרזה על השקה אינה כשלעצמה הוכחה שכבר החלו משלוחים או פריסה מסחרית רחבה.",
+    "טקסט_en": "November 12, 2026 | Rockwell Automation's full original announcement was published at 10:16 ET, or 17:16 Israel time.\n\nRockwell Automation announced the launch of LogixEdge, an industrial PC-based control platform. It combines deterministic Logix control with edge computing and support for containerized applications, allowing control and software workloads to run on a common platform close to production operations.\n\nThe product is intended to connect factory operational technology with information technology and reduce the need for separate hardware for control, visualization and digital applications. Rockwell says containers can support more consistent software deployment, updates and management across distributed sites. These are company-described capabilities and intended benefits, not independent measurements of deployment time, cost savings or factory productivity.\n\nLogixEdge extends the Logix portfolio and complements existing solutions. The announcement does not establish that it replaces every Rockwell controller or that all existing applications can migrate unchanged. The company points to demonstrations at Automation Fair 2026 and distributor contacts.\n\nNo explicit shipment or general-availability date, price, orders, adopting customers or quantified revenue or profit effect was disclosed. Announcing a launch does not by itself prove that shipments or broad commercial deployment have already begun.",
+    "קישור": "https://www.prnewswire.com/news-releases/rockwell-automation-introduces-logixedge-controllers-for-software-defined-automation-302938034.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/rockwell-automation-introduces-logixedge-controllers-for-software-defined-automation-302938034.html",
+        "label": "Rockwell Automation: הודעת LogixEdge המקורית והמלאה",
+        "label_en": "Rockwell Automation: full original LogixEdge announcement"
+      }
+    ],
+    "הועלה": "2026-11-12 17:22",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c655f69d5c4bc37b9320013a8a1660652dd4d616d699553d9d018a234d48b025"
+      }
+    }
   }
 ]
