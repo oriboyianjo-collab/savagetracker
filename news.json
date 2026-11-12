@@ -38248,5 +38248,35 @@
         "source_hash": "58d0ae3ca1fc0fa0335349c7028bb1b2503d2502da5aef9b537c9500fe055b19"
       }
     }
+  },
+  {
+    "מזהה": "n-1500",
+    "category": "micro",
+    "חברה": "Microsoft (MSFT)",
+    "תאריך": "2026-11-13 00:11",
+    "כותרת": "Microsoft 365: תקלה בגישה למספר שירותים נמשכת; ניסיונות ההתאוששות טרם סיפקו את ההקלה הצפויה",
+    "כותרת_en": "Microsoft 365 access incident continues; recovery actions have not delivered expected relief",
+    "טקסט": "מקור ראשוני נבדק: עמוד בריאות השירות הציבורי של Microsoft, כולל פירוט האירוע, נפתח ונקרא ב-13 בנובמבר סביב 00:42 בישראל. העדכון המוצג בו הוא מ-12 בנובמבר 22:11:39 UTC, כלומר 13 בנובמבר 00:11:39 בישראל. זהו מועד עדכון מצב, לא שעת תחילת התקלה. העמוד עדיין מסמן Service degradation, ולא הודעה על חזרה מלאה לשגרה.\n\nMicrosoft מזהירה שמשתמשים עלולים שלא להצליח להתחבר למספר שירותי Microsoft 365 לעסקים ולארגונים. ברשימת השירותים שעלולים להיפגע מופיעים בין היתר Exchange Online, Teams, SharePoint Online, Copilot 365, Planner, To Do, Intune ושירותי Defender ו-Purview. ב-Power BI תוארה פגיעה לסירוגין בייצוא דוחות עם תוויות רגישות MIP ל-PDF. אין בכך אישור שכל משתמש, אזור או פונקציה בכל שירות מושבתים.\n\nבעדכון האחרון החברה אומרת שהפעולות שננקטו עד כה לא סיפקו את ההקלה הצפויה. בחקירה נמצא שתהליך ליבה בשרתים שנפגעו נעשה עמוס מדי, גורם לשרתים להפסיק להגיב ותורם לאובדן קיבולת. החברה בודקת בידוד של חלק מהתשתית, הפעלה מחדש והחזרה מדורגת של תעבורה כדי לבחון יציבות לפני הרחבה; במקביל נבחנת אפשרות לבידוד תעבורה לפי אזור. אלה צעדי בדיקה והתאוששות, לא תיקון שהושלם.\n\nהעמוד הציבורי נושא את הפירוט משום שגם מנהלי Microsoft 365 עלולים להתקשות להיכנס למרכז הניהול. מועד העדכון הבא שנמסר הוא 23:30 UTC, כלומר 01:30 בישראל, ולא מועד מובטח לפתרון.\n\nכתבת CNBC המלאה מתארת דיווחי משתמשים על Outlook ו-Teams ומצטטת אישור של Microsoft לחקירה, בעיקר סביב Exchange Online. מספרי DownDetector הם דיווחים באתר ניטור, לא ספירה מאומתת של כלל הנפגעים. באותה כתבה AWS אומרת ששירותיה פועלים כרגיל. בחלק Azure בעמוד Microsoft שנבדק לא זוהתה באותו זמן תקלה. אין כאן אימות להשבתה כוללת בעולם, לתקלה מקבילה ב-AWS או ב-Google, למתקפת סייבר, לאובדן נתונים או לקשר לתקלת דוא״ל נפרדת של Nasdaq.",
+    "טקסט_en": "Primary source checked: Microsoft's public service-health page, including expanded incident details, was opened and read around 00:42 Israel time on November 13. Its displayed update is November 12 at 22:11:39 UTC, November 13 at 00:11:39 Israel time. This is a status-update time, not the incident start. The page still shows Service degradation, not full recovery.\n\nMicrosoft warns users may be unable to connect to multiple Microsoft 365 business and enterprise services. Potentially affected services include Exchange Online, Teams, SharePoint Online, Copilot 365, Planner, To Do, Intune, and Defender and Purview services. For Power BI, the notice describes intermittent inability to export reports with MIP sensitivity labels to PDF. This does not establish that every user, region or function in each service is unavailable.\n\nThe latest update says actions taken so far have not provided the anticipated relief. Investigation found a core process on affected servers becoming overwhelmed, making servers unresponsive and contributing to lost capacity. Microsoft is testing isolation of part of the infrastructure, restarts and gradual traffic reintroduction to validate stability before broader application, while evaluating regional traffic isolation. These are recovery tests, not a completed fix.\n\nThe public page carries details because Microsoft 365 administrators may also be unable to access the admin center. The next promised update is 23:30 UTC, 01:30 Israel time, not a guaranteed resolution deadline.\n\nThe full CNBC report describes user reports affecting Outlook and Teams and quotes Microsoft confirming an investigation, primarily involving Exchange Online. DownDetector counts are reports to a monitoring site, not a verified count of everyone affected. AWS says in that article its services are operating normally. Microsoft's public Azure section showed no detected issues at the time checked. No total worldwide outage, concurrent AWS or Google outage, cyberattack, data loss or connection to a separate Nasdaq email issue is established.",
+    "קישור": "https://status.cloud.microsoft/",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/",
+        "label": "Microsoft: מצב השירות ופירוט האירוע העדכני שנבדק",
+        "label_en": "Microsoft: service status and checked incident details"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+        "label": "CNBC: הדיווח המלא ותגובות Microsoft ו-AWS",
+        "label_en": "CNBC: full report and Microsoft/AWS responses"
+      }
+    ],
+    "הועלה": "2026-11-13 00:42",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2e4220fec401e30c9f76e2f369a3d8019b56a5b01bbbfc9206e5cc5ba8697194"
+      }
+    }
   }
 ]
