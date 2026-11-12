@@ -36954,5 +36954,34 @@
         "source_hash": "b801ab869545699064c49773108644727999f07535470a1ea8666e93aed18057"
       }
     }
+  },
+  {
+    "מזהה": "n-1459",
+    "category": "macro",
+    "symbols": [],
+    "sectors": [
+      "economy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "באר מהפד: אימוץ AI מהיר עלול להחריף שיבושי תעסוקה ואי-שוויון; עד כה דחיקת העובדים מוגבלת",
+    "כותרת_en": "Fed Governor Barr: rapid AI adoption could worsen labor disruption and inequality; displacement limited so far",
+    "טקסט": "12.11.2026 | הנאום המקורי המלא של חבר הנהלת הפד מייקל באר, כולל 30 הערות המקור, נקרא באתר הפד. הנאום ניתן באוניברסיטת Yale בניו הייבן. הדף מציג תאריך בלבד; השעה המתוכננת ביומן אינה שעת פרסום מאומתת של הטקסט.\n\nבאר הזהיר שאם שינויים בשוק העבודה עקב AI יתרחשו במהירות, לעובדים יהיה קשה להסתגל והשיבושים עלולים להיות גדולים. זו אזהרה מותנית, לא קביעה שפיטורים המוניים כבר מתרחשים או תחזית למספר משרות מסוים.\n\nלדבריו, עד כה הייתה דחיקה מוגבלת יחסית של עובדים בשל AI, לצד ראיות לשיפור פריון, ביקוש לעבודה בחלק מהענפים ויצירת עיסוקים חדשים. עם זאת, הוא מציין סימנים ש-AI עשוי להחליף עבודה בחלק מהתחומים, במיוחד אצל עובדים צעירים ופחות מנוסים. משימות שדורשות שיקול דעת, קשרים, יצירתיות וניהול עשויות ליהנות יותר מהשלמה של עבודת האדם.\n\nבאר אמר שחלק העבודה בהכנסה הלאומית ירד ל-52.8% ברבעון השני של 2026. הוא הדגיש שבעיות מדידה והקצאת הכנסה בין עבודה להון מסבירות חלק מהירידה, אך גם לאחר התאמות קיימת מגמת ירידה. זהו שיעור מתוך ההכנסה הלאומית, לא שיעור השתתפות בכוח העבודה או אבטלה, ולא הוכחה שכל הירידה נגרמה מ-AI.\n\nהוא תיאר שני מסלולים אפשריים: תחרות וגישה רחבה לכלי AI עשויות להפיץ את התועלת לעסקים ולעובדים רבים; ריכוז של נתונים, כוח מחשוב ותשואות במספר חברות קטן עלול להגדיל ריכוזיות ואי-שוויון. הוא קרא להיערכות באמצעות הכשרת עובדים, יצירת משרות וחיבור עובדים להזדמנויות חדשות.\n\nהנאום עוסק ב-AI ובחלוקת הכנסה ועושר. הוא אינו החלטת ריבית או התחייבות למהלך מסוים בדצמבר, והדעות הן של באר ואינן בהכרח עמדת הפד או ועדת השוק הפתוח כולה.",
+    "טקסט_en": "November 12, 2026 | Governor Michael Barr's full original speech and all 30 footnotes were read on the Federal Reserve website. The speech was delivered at Yale University in New Haven. The page gives a date only; the scheduled event time is not a verified publication time for the text.\n\nBarr warned that if AI-driven labor-market changes happen quickly, workers could struggle to adjust and dislocations might be large. This is a conditional warning, not a finding that mass layoffs are already occurring or a forecast for a specific number of jobs.\n\nHe said worker displacement by AI has been relatively limited so far, alongside evidence of productivity gains, stronger labor demand in some sectors and new occupations. However, he noted signs that AI may substitute for labor in some areas, especially for younger, less-experienced workers. Tasks requiring judgment, relationships, creativity and management may see more augmentation of human work.\n\nBarr said labor's share of national income reached 52.8% in the second quarter of 2026. He stressed that measurement issues and the allocation of income between labor and capital explain part of the decline, although a downward trend remains after adjustments. This is a share of national income, not the labor-force participation or unemployment rate, and not proof that AI caused the entire decline.\n\nHe outlined alternative paths: competition and broad access to AI could spread gains across businesses and workers; concentration of data, computing resources and investment returns among a few firms could increase market concentration and inequality. He urged preparation through worker training, new job creation and connecting workers to new opportunities.\n\nThe speech concerns AI and the distribution of income and wealth. It is not an interest-rate decision or a commitment to a specific December move. Barr's views do not necessarily represent the Federal Reserve Board or the full FOMC.",
+    "קישור": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+    "מקורות": [
+      {
+        "url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+        "label": "הפד: נאום באר המלא באוניברסיטת Yale והערות המקור",
+        "label_en": "Federal Reserve: full Barr speech at Yale and source footnotes"
+      }
+    ],
+    "הועלה": "2026-11-12 17:03",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1fd4a7c3d8313ee58cd400c09a9f939a1d4fbfe4822e6ba886d5625f115fc356"
+      }
+    }
   }
 ]
