@@ -34698,5 +34698,117 @@
         "source_hash": "9ed7969e84b48c59aca7f863304364fbfb0a5cfba329dc18e44dc12426660666"
       }
     }
+  },
+  {
+    "מזהה": "n-1391",
+    "category": "micro",
+    "חברה": "MDT",
+    "symbols": [
+      "MDT"
+    ],
+    "sectors": [
+      "healthcare"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-06",
+    "כותרת": "השלמת סיקור: Medtronic (MDT), תיקון SmartSync עקב ניתוקי Bluetooth והחזרת מוליכי OmniaSecure שלא הושתלו",
+    "כותרת_en": "Catch-up: Medtronic (MDT), SmartSync Bluetooth correction and return of unused OmniaSecure leads",
+    "summary": "שני רישומי FDA נפרדים: SmartSync פורסם ב-6 בנובמבר וכולל 38,175 מערכות בעולם; OmniaSecure פורסם ב-23 באוקטובר וכולל 717 מוליכים. אין זו הכרזת ריקול חדשה מהיום.",
+    "summary_en": "Two separate FDA records: SmartSync was posted November 6 and lists 38,175 systems worldwide; OmniaSecure was posted October 23 and lists 717 leads. These are not new recall announcements today.",
+    "טקסט": "השלמת סיקור מאוחרת של שני רישומי FDA מקוריים שנקראו במלואם. SmartSync: תחילת פעולת החברה 24.9.2026, פרסום FDA ב-6.11.2026; OmniaSecure: תחילת הפעולה 17.9.2026, פרסום ב-23.10.2026. שעות הפרסום המקוריות לא אומתו. שני הרישומים מסווגים Class II ומוצגים כפתוחים, לא כאירועים שהחלו היום.\n\nCareLink SmartSync, דגם M01A02, משמש לתכנות ולניהול התקנים לבביים. לפי FDA, ניתוקי Bluetooth בין תוכנת מנהל ההתקן לאביזרים במהלך פגישת מטופל עלולים לגרום נזק עקב תכנות פרמטרים לא רצוי או לא שלם. סיבת התקלה שנקבעה ברישום היא תכנון תוכנה. הכמות הרשומה היא 38,175 מערכות בתפוצה עולמית, לרבות ברחבי ארה\"ב, ולא מספר מטופלים שנפגעו.\n\nזהו תיקון מכשיר רפואי מרצון, לא הוראה גורפת להוציא את כל המערכות משימוש או להסיר שתלים. מכתב דחוף מספטמבר מתייחס לתאימות iPadOS: גרסאות 26.6 או 26.6.1 אינן דורשות פעולה נוספת לפי המכתב; בגרסאות ישנות יותר יש לעדכן אליהן רק אם הן זמינות. המכתב מזהיר שלא לעדכן ל-iPadOS 27 ומעלה לפני ש-Medtronic קובעת תאימות, מפני שעדכון מוקדם יהפוך את SmartSync ללא שמיש עד לאישור התאימות. אלה הוראות המקור לארגונים הרלוונטיים, לא הנחיה אישית לשינוי טיפול.\n\nבנפרד, OmniaSecure Model 3930M הוא מוליך לבבי לקיצוב, חישה וטיפול בהפרעות קצב. רישום Z-0285-2027 כולל 717 יחידות ומציין תלונות על קושי להשיג קיבוע בזמן ההשתלה, עם סיכון לטראומה לרקמה. FDA מציין תכנון תהליך כסיבה. הנמענים התבקשו לבודד ולהחזיר מוצרים מושפעים שטרם נעשה בהם שימוש ולהחזיר טופס אישור. אין ברישום הוראה להוציא את כל המוליכים שכבר הושתלו.\n\nאין לחבר את כמויות שני המוצרים למדד של מטופלים או נזק. ברישומים שנקראו אין ספירת פציעות או מקרי מוות ואין עלות תיקון, החזרה או השפעה כספית כוללת מאומתת לחברה. החידוש לסיקור כאן הוא סיכון מוצר ופעולות בטיחות מוגדרות, לא תחזית רווח ולא עדכון דוחות.",
+    "טקסט_en": "Late catch-up coverage of two original FDA records read in full. SmartSync: firm action began September 24, 2026, FDA posting November 6; OmniaSecure: action began September 17, posting October 23. Original posting times were not verified. Both records are Class II and open, not events that began today.\n\nCareLink SmartSync Model M01A02 is used to program and manage cardiac devices. The FDA record says Bluetooth disconnections between device-manager software and accessories during a patient session may cause harm through undesirable or incomplete parameter programming. The listed cause is software design. The quantity is 38,175 systems distributed worldwide, including nationwide in the US, not a count of injured patients.\n\nThis is a voluntary medical-device correction, not a blanket order to withdraw every system or remove implants. A September urgent letter addresses iPadOS compatibility: tablets on 26.6 or 26.6.1 require no further action under the letter; older versions should update to those versions only if available. The letter warns against updating to iPadOS 27 or higher before Medtronic establishes compatibility because an early update will leave SmartSync unusable until compatibility is confirmed. These are the source's instructions for relevant organizations, not personal advice to change treatment.\n\nSeparately, OmniaSecure Model 3930M is a cardiac lead for pacing, sensing and arrhythmia therapies. Record Z-0285-2027 lists 717 units and complaints about difficulty achieving fixation during implantation, with potential tissue trauma. The FDA lists process design as the cause. Recipients were asked to quarantine and return affected unused product and send a confirmation form. The record does not order removal of all previously implanted leads.\n\nThe quantities for these different products are not added into a patient or harm count. The records read give no injury or death count and no verified total correction cost, return cost or company-wide financial effect. This coverage adds defined product risks and safety actions, not an earnings forecast or financial-results update.",
+    "קישור": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=223116",
+    "מקורות": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=223116",
+        "label": "FDA: רישום SmartSync המלא, 6 בנובמבר",
+        "label_en": "FDA: full SmartSync record, November 6"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=223019",
+        "label": "FDA: רישום OmniaSecure המלא, 23 באוקטובר",
+        "label_en": "FDA: full OmniaSecure record, October 23"
+      }
+    ],
+    "הועלה": "2026-11-12 11:31",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "03b64e7cf7ccc00a3fcba8311d0d34f15cd38911d4f605edfa8a374f34dca4ef"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1392",
+    "category": "micro",
+    "חברה": "BSX",
+    "symbols": [
+      "BSX"
+    ],
+    "sectors": [
+      "healthcare"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-29",
+    "כותרת": "השלמת סיקור: Boston Scientific (BSX), רישומי FDA על פגמי Direxion וכשל קושחה בדיסקי Nalu",
+    "כותרת_en": "Catch-up: Boston Scientific (BSX), FDA records on Direxion defects and Nalu disc firmware failure",
+    "summary": "אירועי Class II נפרדים שהחלו בספטמבר: 7,945 יחידות של מק\"ט Direxion מסוים, לא כל האירוע, ו-134 דיסקי Nalu וערכות. אין תחזית כספית מאומתת.",
+    "summary_en": "Separate Class II actions initiated in September: 7,945 units of one Direxion SKU, not the whole event, and 134 Nalu discs and kits. No verified financial forecast.",
+    "טקסט": "השלמת סיקור מאוחרת על סמך רישומי FDA מקוריים שנקראו במלואם. רישום Direxion פורסם ב-22.10.2026 והפעולה החלה ב-16 בספטמבר. ב-Nalu תאריך סיווג Class II הוא 29.10.2026, תחילת הפעולה 30 בספטמבר ותאריך דוח openFDA הוא 4 בנובמבר. אין זו הודעת ריקול חדשה מהיום; שעות הפרסום המקוריות לא אומתו.\n\nDirexion Torqueable Microcatheter: רישום Z-0260-2027 מתייחס למק\"ט M001195840 ומונה 7,945 יחידות בתפוצה עולמית. זו כמות של הרשומה המסוימת, לא סך כל המק\"טים באירוע 99906. הסיבות המתוארות הן הקשיית UV לא מספקת של הציפוי ההידרופילי בחלק המרוחק של המיקרוקטטר ובליטות בשרוולי ניטינול עקב חוסר יישור בחיתוך לייזר. FDA מציין בקרת תהליך כסיבה.\n\nמכתבי הסרה דחופים נשלחו ב-16 בספטמבר: עצירה מיידית של שימוש או הפצה במוצרים המושפעים, הפרדתם והחזרתם לפי ההוראות, העברת ההודעה לגורמים ולמתקנים הרלוונטיים והשלמת טופס אישור. לגבי מטופלים שכבר טופלו, ההוראה היא להמשיך במעקב בהתאם לנוהג הרפואי המקובל. אין כאן ספירת נפגעים או הוראה להוצאת שתל מכל מטופל.\n\nבנפרד, רישום openFDA Z-0311-2027 של Boston Scientific Neuromodulation כולל 134 דיסקי Nalu TD2 וערכות מטופל, עם גרסאות קושחה 2.0.71 ו-2.0.77. כשל קושחה עלול לגרום לדיסק שמפעיל את מחולל הדחפים המושתל לנסות לבצע אתחול ואז להפסיק לפעול. אם דיסק גיבוי אינו זמין, גם המחולל עלול להיות לא פעיל ולא לחסום אותות כאב. אין פירוש הדבר שכל מחולל מושתל נכשל.\n\nרשומת ה-API הרשמית מתארת מצב Ongoing, אך אינה כוללת הוראות פעולה לנמענים; לכן אין להסיק ממנה הוראת החזרה, הוצאה או עדכון עצמי למטופלים. שתי הכמויות אינן נסכמות למספר מטופלים. המקורות שנקראו אינם קובעים מספר פציעות או מקרי מוות, עלות כוללת לחברה או השפעה כמותית על תחזית הרווח. אלה אירועי בטיחות מוצר נפרדים מהליך רכישת Penumbra וממימון משאבת הלב שכבר סוקרו.",
+    "טקסט_en": "Late catch-up coverage based on original FDA records read in full. Direxion was posted October 22, 2026 and the action began September 16. For Nalu, the Class II classification date is October 29, action began September 30 and the openFDA report date is November 4. These are not new recall announcements today; original posting times were not verified.\n\nDirexion Torqueable Microcatheter: record Z-0260-2027 covers material number M001195840 and lists 7,945 units distributed worldwide. This is the quantity for that individual record, not the total across all SKUs in event 99906. The defects are insufficient UV curing of the hydrophilic coating on the distal microcatheter segment and raised nitinol-sleeve ridges caused by laser-cutting misalignment. The FDA lists process control as the cause.\n\nUrgent removal letters were sent September 16: immediately stop use or distribution of affected products, segregate and return them under the instructions, forward the notice to relevant personnel and facilities, and complete a confirmation form. For patients already treated, the instruction is to continue monitoring under standard practice. The record is not an injury count or an order to remove an implant from every patient.\n\nSeparately, Boston Scientific Neuromodulation openFDA record Z-0311-2027 covers 134 Nalu TD2 discs and patient kits with firmware 2.0.71 and 2.0.77. A firmware issue can make the disc powering an implanted pulse generator attempt a restart and then become nonfunctional. If a backup disc is unavailable, the generator may also become nonfunctional and unable to inhibit pain signals. This does not mean every implanted generator has failed.\n\nThe official API record lists an Ongoing status but does not include consignee action instructions, so no return, removal or self-update instruction for patients is inferred from it. The quantities are not added into a patient count. The sources read do not establish injury or death counts, total company cost or a quantified earnings-outlook effect. These are product-safety events distinct from the previously covered Penumbra acquisition review and heart-pump financing.",
+    "קישור": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=222937",
+    "מקורות": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=222937",
+        "label": "FDA: רשומת Direxion המלאה, פורסמה ב-22 באוקטובר",
+        "label_en": "FDA: full Direxion record, posted October 22"
+      },
+      {
+        "url": "https://api.fda.gov/device/enforcement.json?search=recall_number:%22Z-0311-2027%22",
+        "label": "openFDA: רשומת Nalu המקורית, סיווג 29 באוקטובר ודוח 4 בנובמבר",
+        "label_en": "openFDA: original Nalu record, October 29 classification and November 4 report"
+      }
+    ],
+    "הועלה": "2026-11-12 11:31",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "89be86d9cb0fbfdbd6317d3b1d75bc401ba01fccb8cf7a01fcc4d7ce742376af"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1393",
+    "category": "micro",
+    "חברה": "MDLZ",
+    "symbols": [
+      "MDLZ"
+    ],
+    "sectors": [
+      "consumer-staples"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-30",
+    "כותרת": "השלמת סיקור: Mondelez (MDLZ) השקיעה ברוב הבעלות ב-Undercover Snacks; התנאים הכספיים לא נמסרו",
+    "כותרת_en": "Catch-up: Mondelez (MDLZ) made a majority investment in Undercover Snacks; financial terms undisclosed",
+    "summary": "Undercover תמשיך כעסק עצמאי ביחידת North America Ventures, בניהול המייסדים שיישארו בעלי מניות מיעוט משמעותיים. הודעת המקור היא מ-30 באוקטובר, לא מהיום.",
+    "summary_en": "Undercover will remain a standalone business in North America Ventures, led by its founders, who retain a significant minority stake. The original announcement is October 30, not today.",
+    "טקסט": "השלמת סיקור מאוחרת: הודעת Undercover Snacks המקורית מ-30.10.2026 נקראה במלואה. שעת הפרסום המקורית לא אומתה. אזכור העסקה בכתבת דוחות מ-12 בנובמבר אינו מועד ההודעה המקורית ואינו הופך אותה לעסקה חדשה מהיום.\n\nUndercover Snacks הודיעה על השקעת רוב של Mondelez International. החברה מייצרת חטיפי קינואה מצופים שוקולד וציפויים נוספים. ההודעה אינה מפרטת מחיר, שווי חברה, אחוז החזקה מדויק, תנאי תשלום או השפעה כספית כמותית על Mondelez, ולכן לא מוצגים כאן מספרים כאלה.\n\nUndercover תמשיך לפעול כעסק עצמאי בתוך יחידת North America Ventures של Mondelez. Diana Levy תמשיך כמנכ\"לית; Michael Levy ימשיך להתמקד בצמיחה, אסטרטגיה ותפעול כנשיא וכמנהל תפעול. שני המייסדים ישמרו החזקת מיעוט משמעותית וישבו בדירקטוריון. אין לתאר את המהלך כרכישה של 100% מהבעלות.\n\nלפי Undercover, מוצריה נמכרים ביותר מ-25 אלף נקודות קמעונאיות, ו-United Airlines חילקה יותר מ-175 מיליון יחידות מאז 2023. אלה נתוני פעילות של החברה הנרכשת ותפוצה מצטברת, לא הכנסה נוספת שהוכרה ב-Mondelez ולא תחזית מכירות מהעסקה.\n\nהצדדים מציגים את החיבור כדרך להרחיב הפצה, חדשנות וצמיחה תוך שמירת אופי עצמאי. אלה מטרות ותוכניות, לא סינרגיות שהוכחו. החידוש הוא השקעת רוב בעסק חטיפים מוגדר; אין כאן חזרה על דוחות רבעוניים, שינוי תחזית או קביעה של כדאיות ההשקעה למניית MDLZ.",
+    "טקסט_en": "Late catch-up coverage: the full original Undercover Snacks announcement dated October 30, 2026 was read. The original publication time was not verified. A reference in a November 12 earnings article is not the original announcement date and does not make this a new deal announced today.\n\nUndercover Snacks announced a majority investment by Mondelez International. The company makes chocolate-covered and other coated quinoa snacks. The release does not disclose price, company valuation, exact ownership percentage, payment terms or a quantified financial effect on Mondelez; no such figures are supplied here.\n\nUndercover will remain a standalone business within Mondelez's North America Ventures unit. Diana Levy will remain CEO; Michael Levy will focus on growth, strategy and operations as President and COO. Both founders will retain a significant minority stake and board seats. This is not described as acquisition of 100% ownership.\n\nUndercover says its products are sold in more than 25,000 retail locations and United Airlines has handed out more than 175 million units since 2023. These are target-company operations and cumulative distribution figures, not incremental revenue recognized by Mondelez or a transaction sales forecast.\n\nThe parties present the partnership as a way to expand distribution, innovation and growth while retaining an independent culture. Those are goals and plans, not proven synergies. The development is a majority investment in a defined snack business, not a repeat of quarterly results, a guidance change or a judgment on MDLZ stock's investment merits.",
+    "קישור": "https://www.undercoversnacks.com/wp-content/uploads/Undercover-Press-Release-Investment-10-30-2026.pdf",
+    "מקורות": [
+      {
+        "url": "https://www.undercoversnacks.com/wp-content/uploads/Undercover-Press-Release-Investment-10-30-2026.pdf",
+        "label": "Undercover Snacks: הודעת ההשקעה המקורית המלאה, 30 באוקטובר",
+        "label_en": "Undercover Snacks: full original investment announcement, October 30"
+      }
+    ],
+    "הועלה": "2026-11-12 11:31",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "73394e4feeb1c27fbfb4f4d53bd9c7161f1a9b625dcb3c1326104628d00ca818"
+      }
+    }
   }
 ]
