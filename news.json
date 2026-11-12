@@ -36845,5 +36845,45 @@
         "source_hash": "bd7e61106c2dee67e7cc883c64e4d52da2d2691ad99e7915f8fd21dd65761e73"
       }
     }
+  },
+  {
+    "מזהה": "n-1456",
+    "category": "macro",
+    "חברה": "",
+    "symbols": [],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "טענה איראנית: שתי מכליות-ענק הושבתו בפיצוצים בהורמוז בליל 11 בנובמבר; מנגנון הפגיעה לא אומת",
+    "כותרת_en": "Iranian claim: two supertankers disabled by explosions in Hormuz on November 11 night; mechanism unverified",
+    "טקסט": "לא מאומת מול ההודעה האיראנית המקורית או אישור ימי עצמאי\n12.11.2026 | דיווח Reuters דרך Aaj, כתבת Times of Israel והדיווח ב-Iran International נקראו. Iran International מציג פרסום ב-08:58 בישראל ועדכון ב-12:02; זו חותמת מקור משני, לא שעת ההודעה האיראנית הראשונה. Aaj מציג 14:03 ללא אזור זמן מאומת. האירוע הנטען הוא בליל רביעי, 11 בנובמבר, לא תקיפה שהתרחשה כעת.\n\nלפי Reuters, זרוע הים של משמרות המהפכה טענה ביום חמישי ששתי מכליות-ענק הושבתו בעקבות פיצוצים לאחר שהתעלמו מאזהרות ועברו בנתיב דרומי שאיראן מגדירה בלתי מורשה במצר הורמוז. בהצהרה שצוטטה ב-Times of Israel נטען שהמכליות נשאו יחד יותר מארבעה מיליון חביות ונשרפו. מדובר בכמות מטען נטענת משותפת, לא ארבעה מיליון לכל מכלית ולא אובדן אספקה שהוכח.\n\nReuters מדווחת שבשלב מאוחר יותר התקשורת הממלכתית האיראנית ייחסה את הפיצוצים לפגיעה במוקשים ימיים והציגה סרטון שלטענתה מתעד את האירועים. זהו ייחוס איראני נוסף לגבי מנגנון הפגיעה, לא אימות עצמאי שהיו מוקשים, שהסרטון צולם באירועים האלה או שכל המטען אבד.\n\nלא פורסמו במקורות שנקראו שמות כלי השיט, מפעילים, דגלים או מצב הצוותים שמאפשרים התאמה עצמאית. אין לזהות אוטומטית את המכליות עם כלי השיט של ADNOC מתקרית 10 בנובמבר ב-n-1455, עם דיווח Ambrey על 11 בנובמבר ב-n-1439 או עם אזהרת UKMTO ליד לימה ב-n-1324. אין לצרף את המספר שתיים למניין תקיפות כאילו הוכחה הפרדה בין כל הדיווחים.\n\nהחידוש מול הטענות האיראניות הישנות ב-n-0019 וב-n-1033 הוא שהדיווחים הנוכחיים מייחסים את הטענה לליל 11 בנובמבר. כתבות על אירוע מ-10 בנובמבר אינן הוכחה לאירוע הזה. אין כאן אישור לסגירה חדשה של המצר, לשינוי כמותי מוכח ביצוא נפט או לתגובה מסוימת במחירי האנרגיה.",
+    "טקסט_en": "Not verified against the original Iranian announcement or independent maritime confirmation\nNovember 12, 2026 | Reuters via Aaj, the Times of Israel report and Iran International were read. Iran International shows publication at 08:58 Israel time and an update at 12:02. This is a secondary-source timestamp, not the first Iranian announcement time. Aaj shows 14:03 without a verified timezone. The alleged event was Wednesday night, November 11, not an attack occurring now.\n\nReuters reports that the IRGC Navy claimed Thursday that two supertankers were disabled by explosions after ignoring warnings and using a southern route Iran calls unauthorized in the Strait of Hormuz. The statement quoted by the Times of Israel claims they carried more than four million barrels combined and caught fire. This is an alleged combined cargo volume, not four million per tanker or proven supply lost.\n\nReuters says Iranian state media later attributed the explosions to naval mines and showed video it claimed depicted the incidents. This is an additional Iranian account of the mechanism, not independent verification of mines, the video's connection to these incidents or loss of all the cargo.\n\nThe reviewed reports do not give vessel names, operators, flags or crew status allowing independent matching. Do not automatically identify the tankers with ADNOC's November 10 incident in n-1455, the Ambrey November 11 report in n-1439 or UKMTO's Lima warning in n-1324. The number two must not be added to an attack total as if separation of all these reports were proven.\n\nThe development versus the older Iranian claims in n-0019 and n-1033 is that current reports attribute this claim to November 11 night. Articles about a November 10 event do not establish this event. This does not confirm a new closure of the strait, a quantified oil-export reduction or a particular energy-price reaction.",
+    "קישור": "https://english.aaj.tv/news/amp/330480399",
+    "מקורות": [
+      {
+        "url": "https://english.aaj.tv/news/amp/330480399",
+        "label": "Reuters דרך Aaj: הדיווח המלא, כולל ייחוס המוקשים לתקשורת האיראנית",
+        "label_en": "Reuters via Aaj: full report, with mines attributed to Iranian media"
+      },
+      {
+        "url": "https://www.timesofisrael.com/iran-says-2-oil-tankers-carrying-4-million-barrels-caught-fire-in-strait-of-hormuz/",
+        "label": "Times of Israel: ציטוט הטענה ומועד האירוע הנטען",
+        "label_en": "Times of Israel: quoted claim and alleged event date"
+      },
+      {
+        "url": "https://www.iranintl.com/en/202611128180",
+        "label": "Iran International: הטענה וחותמת הפרסום מ-12 בנובמבר",
+        "label_en": "Iran International: claim and November 12 publication timestamp"
+      }
+    ],
+    "הועלה": "2026-11-12 16:46",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3ba5913b4209ecdc34feefc0313245c0113c8f5ec6acac7f2decbe698d857741"
+      }
+    }
   }
 ]
