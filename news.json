@@ -35380,5 +35380,63 @@
         "source_hash": "1272812367956327c1f922addda7edb1db6f796dc3edafea0adc26ab6971763b"
       }
     }
+  },
+  {
+    "מזהה": "n-1410",
+    "category": "micro",
+    "תאריך": "2026-11-09",
+    "כותרת": "השלמת פרטי עסקת NRG ו-LS Power: 4 מיליארד דולר במזומן וסגירה מתוכננת ברבעון השני של 2027",
+    "כותרת_en": "NRG-LS Power deal detail catch-up: $4 billion cash price and targeted Q2 2027 closing",
+    "טקסט": "עדכון והשלמת סיקור לפריט n-1103 על מכירת ששת מתקני הגז ל-LS Power. הודעת NRG מ-9 בנובמבר ודוח 8-K מ-10 בנובמבר נקראו במלואם. שעת הפרסום המקורית של הודעת NRG לא אומתה. המחיר כבר הופיע בהודעת החברה מ-9 בנובמבר, ולא נחשף לראשונה היום; בפריט הקודם, שהתבסס על הודעת הקונה, הוא הוצג כלא נחשף.\n\nהתמורה בהסכם היא 4 מיליארד דולר במזומן, בכפוף להתאמות הון חוזר והתאמות סגירה אחרות. ההסכם נחתם ב-9 בנובמבר עם Orbit Acquisition Holdco, חברה קשורה ל-LS Power. אלה אותם שישה מתקנים בהספק כולל של 4.9 גיגה-וואט, לא עסקת מכירה נוספת.\n\nהודעת NRG מכוונת לסגירה ברבעון השני של 2027. נדרשים אישורי הגבלים עסקיים לפי HSR, רשות האנרגיה הפדרלית FERC, רשות השירותים הציבוריים של ניו יורק ותנאים מקובלים נוספים. דוח 8-K קובע שאין תנאי מימון לעסקה, אך אין בכך ביטול של יתר תנאי הסגירה או הבטחה שהעסקה תושלם.\n\nהדוח מפרט מועד סיום הסכמי של 9 במאי 2027, שניתן להאריך אוטומטית בשתי תקופות של 90 יום בנסיבות מסוימות. דמי ביטול בסך 200 מיליון דולר ישולמו על ידי הקונה ל-NRG רק בתרחישים המוגדרים בהסכם, ובהם הפרות מסוימות או אי-השלמה כאשר נדרשת; הם אינם קנס שכבר הוטל או תשלום שיחול בכל ביטול.\n\nהחידוש לסיקור הוא סכום התמורה ותנאים מהותיים של העסקה שכבר סוקרה. אין כאן אישור רגולטורי חדש, סגירה, כסף שכבר התקבל או עדכון תוצאות רבעוניות. סיכום תנאי החוזה מבוסס על סעיף 1.01 הפומבי של 8-K; ההסכם כולל סייגים ונספחים שאינם מובאים כאן במלואם.",
+    "טקסט_en": "Update and catch-up to n-1103 on the six-plant sale to LS Power. NRG's November 9 announcement and November 10 Form 8-K were read in full. The original publication hour of NRG's announcement was not verified. The price was already in the company's November 9 release, not first disclosed today. The previous item, based on the buyer's release, described it as undisclosed.\n\nThe agreement provides for $4 billion in cash, subject to working-capital and other closing adjustments. It was signed on November 9 with Orbit Acquisition Holdco, an LS Power affiliate. These are the same six assets totaling 4.9 GW, not an additional sale.\n\nNRG targets closing in the second quarter of 2027. Required conditions include HSR antitrust clearance, Federal Energy Regulatory Commission and New York State Public Service Commission approvals, and other customary conditions. The 8-K says there is no financing condition, which does not remove the other closing conditions or guarantee completion.\n\nThe filing sets a contractual end date of May 9, 2027, which can automatically extend for two successive 90-day periods in certain circumstances. A $200 million termination fee is payable by the buyer to NRG only in defined situations, including certain breaches or failure to close when required. It is not a penalty already imposed or a payment due on every termination.\n\nThe increment to our coverage is the consideration and material terms of the already reported transaction. This is not a new regulatory approval, closing, cash already received or quarterly earnings update. The contract summary relies on public Item 1.01 of the 8-K; the agreement includes qualifications and schedules not reproduced here in full.",
+    "קישור": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-announces-4-billion-asset-sale",
+    "מקורות": [
+      {
+        "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-announces-4-billion-asset-sale",
+        "label": "NRG: הודעת המכירה המקורית מ-9 בנובמבר",
+        "label_en": "NRG: original November 9 sale announcement"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926125375/tm2629511d1_8k.htm",
+        "label": "NRG: דוח 8-K מ-10 בנובמבר, סעיף 1.01 ותנאי ההסכם",
+        "label_en": "NRG: November 10 Form 8-K, Item 1.01 and agreement terms"
+      }
+    ],
+    "הועלה": "2026-11-12 13:14",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "070bc4a54e2decc054e8b21555b6b895a3ebed68f2fda7716164a40f51e42318"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1411",
+    "category": "micro",
+    "תאריך": "2026-11-11",
+    "כותרת": "RLI הכריזה על דיבידנד מיוחד של 3 דולר למניה, כ-275 מיליון דולר; התשלום מתוכנן ל-7 בדצמבר",
+    "כותרת_en": "RLI declares $3 special dividend, about $275 million, payable December 7",
+    "טקסט": "השלמת סיקור להודעת RLI מ-11 בנובמבר 2026, שנקראה במלואה באתר החברה ובדיווח המקורי ל-SEC. שעת הפרסום המקורית לא אומתה. אין זו הכרזה חדשה מהיום.\n\nדירקטוריון RLI הכריז על דיבידנד מיוחד במזומן של 3 דולר למניה רגילה, בהיקף כולל מוערך של כ-275 מיליון דולר. בנוסף הוכרז דיבידנד רבעוני רגיל של 0.18 דולר למניה. החידוש המהותי בפריט הוא החלוקה המיוחדת, לא רק הדיבידנד השגרתי.\n\nשני הדיבידנדים מיועדים לתשלום ב-7 בדצמבר 2026 לבעלי מניות הרשומים ב-30 בנובמבר. אלה מועדי התשלום והרישום לפי החברה, לא קביעה של תאריך האקס. אין להסיק שרכישה ביום הרישום עצמו תזכה בתשלום.\n\nהסכום של כ-275 מיליון דולר מתייחס לדיבידנד המיוחד בלבד והוא אומדן החברה. אין כאן תשלום שכבר הועבר, התחייבות לדיבידנד מיוחד חוזר בכל רבעון או תשואת דיבידנד שחושבה לפי מחיר מניה עדכני. החברה מייחסת את החלוקה למצבה הפיננסי ולגישתה להקצאת הון; הפריט אינו סיכום דוחות או תחזית לרווח עתידי.",
+    "טקסט_en": "Catch-up on RLI's November 11, 2026 announcement, read in full on the company's site and in its original SEC exhibit. The original publication hour was not verified. This is not a new declaration today.\n\nRLI's board declared a special cash dividend of $3 per common share, expected to total approximately $275 million. It also declared a regular quarterly cash dividend of $0.18 per share. The material event here is the special distribution, not just the routine quarterly dividend.\n\nBoth dividends are payable on December 7, 2026 to shareholders of record on November 30. These are the company's payment and record dates, not a determination of the ex-dividend date. Buying on the record date itself must not be assumed to qualify for payment.\n\nThe approximately $275 million refers only to the special dividend and is the company's estimate. This is not cash already paid, a commitment to repeat a special dividend every quarter or a yield calculated using a current share price. The company attributes the distribution to its financial position and capital-allocation approach. This item is not an earnings recap or forecast of future profits.",
+    "קישור": "https://investors.rlicorp.com/news/news-details/2026/RLI-Declares-Regular--Special-Dividends/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.rlicorp.com/news/news-details/2026/RLI-Declares-Regular--Special-Dividends/default.aspx",
+        "label": "RLI: ההכרזה המקורית על הדיבידנד המיוחד והרגיל",
+        "label_en": "RLI: original special and regular dividend announcement"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926125506/rli-ex99d1.htm",
+        "label": "RLI: נוסח הודעת 11 בנובמבר בדיווח ל-SEC",
+        "label_en": "RLI: November 11 announcement in the SEC filing"
+      }
+    ],
+    "הועלה": "2026-11-12 13:14",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bcdb459462a45759be80a54af2cf0ace898240c7cd542d0df91daace5b9fc898"
+      }
+    }
   }
 ]
