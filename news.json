@@ -38128,5 +38128,35 @@
         "source_hash": "770edf046cd82d41f20c750470ad425a911aaf7f555072bc07f3df1061a2469d"
       }
     }
+  },
+  {
+    "מזהה": "n-1496",
+    "category": "micro",
+    "חברה": "CBRS / MSFT",
+    "תאריך": "2026-11-12 23:07",
+    "כותרת": "Cerebras: לפי המנכל בריאיון ל-CNBC, נחתם הסכם עם Microsoft באוקטובר; הכנסות צפויות מתחילת 2027",
+    "כותרת_en": "Cerebras CEO tells CNBC Microsoft deal was signed in October; revenue expected from early 2027",
+    "טקסט": "לא מאומת מול מקור ראשוני: זיהוי Microsoft ותזמון ההכנסות מובאים מריאיון המנכל ל-CNBC; הודעת החברה אינה נוקבת בשם הלקוח.\n12.11.2026 | כתבת CNBC המלאה פורסמה ב-16:07 בניו יורק, 23:07 בישראל. גם הודעת החברה מ-12 בנובמבר נבדקה ישירות. שעת הריאיון המקורית לא אומתה.\n\nמנכל Cerebras, אנדרו פלדמן, אמר ל-CNBC כי Microsoft חתמה באוקטובר על הסכם עם החברה. לדבריו, הכנסות מההסכם צפויות להתחיל להופיע ברבעון הראשון של 2027. זהו הסכם שלפי הריאיון כבר נחתם, בנפרד מתחזית לעיתוי ההכנסות; אין כאן אישור שההכנסות כבר הוכרו או שהשירות כבר זמין לכל לקוחות Azure.\n\nהודעת Cerebras עצמה אומרת שהחברה הכריזה על הסכם ענן חשוב עם אחת משלוש ספקיות הענן הגדולות, ושתפרסם מידע נוסף בשנה הבאה. היא אינה מזהה את Microsoft בסעיף הזה. לכן הזיהוי ותאריך החתימה מיוחסים לריאיון ש-CNBC מדווחת, לא להודעה משותפת של שתי החברות. הקלטת הריאיון והודעה נפרדת של Microsoft לא נבדקו כאן.\n\nלא נמסרו בפרטים שנבדקו שווי ההסכם, משך ההתחייבות, נפח מחשוב, תנאי ביטול או היקף הכנסות מובטח. אין בסיס להציג את ההסכם כהחלפה של כלל ספקיות הענן של Microsoft או כוויתור על שבבי NVIDIA. החידוש הוא לקוח ענן גדול נוסף וזהותו המדווחת; זהו פריט על ההסכם המסחרי בלבד, לא סיכום התוצאות הרבעוניות או הסבר בלעדי לתנועת המניה.",
+    "טקסט_en": "Not verified against a primary source: Microsoft's identity and expected revenue timing come from the CEO's CNBC interview; the issuer release does not name the customer.\nNovember 12, 2026 | The full CNBC report was published at 16:07 New York time, 23:07 Israel time. The November 12 issuer release was also checked directly. The original interview time was not verified.\n\nCerebras CEO Andrew Feldman told CNBC that Microsoft signed an agreement with the company in October. He expects revenue from the deal to start appearing in the first quarter of 2027. The reported signed agreement is distinct from the forecast revenue timing: no revenue recognition or general availability to all Azure customers is established here.\n\nCerebras' own release says it announced an important cloud deal with a top-three hyperscaler and will share more next year. It does not name Microsoft in that section. The identity and signing date therefore remain attributed to the interview reported by CNBC, not a joint company announcement. The interview recording and a separate Microsoft statement were not checked here.\n\nNo contract value, commitment duration, computing volume, cancellation terms or guaranteed revenue amount was disclosed in the checked details. There is no basis to present this as replacement of all Microsoft's cloud suppliers or abandonment of NVIDIA chips. The new development is another major cloud customer and its reported identity. This item covers the commercial agreement only, not quarterly results or an exclusive explanation for the stock move.",
+    "קישור": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+        "label": "CNBC: הכתבה המלאה וריאיון המנכל המדווח",
+        "label_en": "CNBC: full report and reported CEO interview"
+      },
+      {
+        "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-delivers-record-revenue-third-quarter-2026",
+        "label": "Cerebras: הודעת החברה; סעיף הלקוחות אינו נוקב בשם Microsoft",
+        "label_en": "Cerebras: issuer release; customer section does not name Microsoft"
+      }
+    ],
+    "הועלה": "2026-11-13 00:03",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "181ba01f400e884613d361221fdfed5e608bdead27a923dee7ab640931b724ce"
+      }
+    }
   }
 ]
