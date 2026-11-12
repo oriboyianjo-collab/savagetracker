@@ -34414,5 +34414,39 @@
         "source_hash": "d1ac0268e4f77ffef0e9cdaf12c3c85d3911dd0ea30c09a0d1ff1b94161810ea"
       }
     }
+  },
+  {
+    "מזהה": "n-1383",
+    "category": "micro",
+    "חברה": "NOK",
+    "symbols": [
+      "NOK",
+      "VZ"
+    ],
+    "תאריך": "2026-11-10 16:00",
+    "הועלה": "2026-11-12 10:23",
+    "כותרת": "השלמה מ-10.11 | Nokia ו-Verizon: הושלמה פריסת 5G פרטית בחמישה אתרי Thames Freeport",
+    "כותרת_en": "Catch-up from Nov 10 | Nokia and Verizon: private 5G deployment completed across five Thames Freeport sites",
+    "קישור": "https://www.verizon.com/about/news/verizon-thames-freeport-private-5g",
+    "מקורות": [
+      {
+        "label": "Verizon: ההודעה המקורית המלאה על השלמת הפריסה",
+        "label_en": "Verizon: full original deployment completion release",
+        "url": "https://www.verizon.com/about/news/verizon-thames-freeport-private-5g"
+      },
+      {
+        "label": "Verizon דרך GlobeNewswire: עותק ההודעה עם שעת הפרסום",
+        "label_en": "Verizon via GlobeNewswire: release copy with publication time",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3399626/0/en/verizon-business-thames-freeport-complete-one-of-europe-s-largest-private-5g-implementations.html"
+      }
+    ],
+    "טקסט": "10.11.2026, 16:00 שעון ישראל | הודעת Verizon המקורית נקראה במלואה באתר החברה ובעותק GlobeNewswire, המציג 09:00 ET. השלמת סיקור: כתבת Light Reading מ-12 בנובמבר אינה מועד ההודעה המקורית.\n\nVerizon Business ו-Thames Freeport הודיעו שהשלימו פלטפורמת 5G פרטית רב-אתרית באזור הנמלים, הלוגיסטיקה והייצור שלאורך התמזה בבריטניה. הרשת פעילה בחמישה אתרים: DP World London Gateway, DP World Logistics Park, Ford Dagenham ושני אתרים בנמל Tilbury.\n\nכל רשת של שוכר פועלת עם ליבת רשת עצמאית, כדי להפריד שליטה בנתונים בין האתרים. Nokia Enterprise Campus Edge היא ספקית החומרה והתוכנה הבלעדית לרשתות, עם פלטפורמות Digital Automation Cloud ו-MX Industrial Edge. ההודעה מתארת השלמת פריסה, לא רק בחירת ספק או מזכר כוונות.\n\nיש להפריד בין התשתית הפעילה לבין היישומים: ניסויים ראשונים בזיהוי נזק לכלי רכב, טיפול דיגיטלי במשאיות ותקשורת לצוותי שטח הושלמו או נמצאים בתהליך. המפה הדיגיטלית של חצר המכולות עדיין בתהליך. תאומים דיגיטליים, ניתוח וידאו, תחזוקה חזויה ויישומים נוספים הם תחומים להמשך בדיקה, לא הוכחה שכל התהליכים כבר אוטונומיים או שהושג חיסכון כמותי.\n\nלא פורסם שווי החוזה או הכנסה ל-Nokia או ל-Verizon מהפרויקט. הסכומים במיליארדים המתוארים בפיתוח האזור הם השקעות ויעדי התחדשות אזוריים, לא מחיר עסקת ה-5G. ההודעה אינה מאשרת השלמת מכירת פעילות ECE ל-AURELIUS, שעדיין מתוארת כמכירה מתוכננת.\n\nזהו פרויקט בריטי נפרד מבחירת Nokia בידי One New Zealand ב-n-1364 ומניסוי Optus ב-n-1287. אין בעדכון תוצאת דוח כספי או תחזית הכנסות חדשה.",
+    "טקסט_en": "Nov 10, 2026, 16:00 Israel time | Full original Verizon release read on its own site and in its GlobeNewswire copy, dated 09:00 ET. Catch-up coverage: the November 12 Light Reading article is not the original announcement date.\n\nVerizon Business and Thames Freeport announced completion of a multisite private 5G platform across the UK Thames port, logistics and manufacturing corridor. The network is live at five locations: DP World London Gateway, DP World Logistics Park, Ford Dagenham and two Port of Tilbury locations.\n\nEach tenant network runs on its own independent core to keep data control separate across sites. Nokia Enterprise Campus Edge is the exclusive network hardware and software provider, using its Digital Automation Cloud and MX Industrial Edge platforms. This is deployment completion, not merely supplier selection or a memorandum of understanding.\n\nLive infrastructure must be separated from applications: first trials for vehicle-damage detection, digital truck processing and field communications have completed or are in progress. The digital container-yard map remains in progress. Digital twins, video analysis, predictive maintenance and further applications are areas for additional testing, not proof all processes are autonomous or that quantified savings have been achieved.\n\nNo contract value or project revenue for Nokia or Verizon was disclosed. The billions discussed in regional development are regional investment and regeneration targets, not the price of the 5G contract. The announcement does not confirm completion of the ECE sale to AURELIUS, which is still described as planned.\n\nThis UK project is separate from Nokia's selection by One New Zealand in n-1364 and the Optus trial in n-1287. The update contains no financial-results release or new revenue forecast.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "40fe15938cf4caf68ae077c73f5ac627b1e643ccf6506986330548f58e56a61b"
+      }
+    }
   }
 ]
