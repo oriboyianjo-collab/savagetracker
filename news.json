@@ -36378,5 +36378,43 @@
         "source_hash": "e159a7d2ba818b4a30b841f313f37e5a2def4c219dea35ff1a6d7b3cd8777e9b"
       }
     }
+  },
+  {
+    "מזהה": "n-1442",
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA",
+      "SMCI"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "סינגפור: אזהרה ואיסור כניסה לאליס הואנג ניתנו בפברואר; חקירת Megaspeed ושישה אנשים נמשכת",
+    "כותרת_en": "Singapore: Alice Huang warning and re-entry bar date to February; Megaspeed and six individuals remain under investigation",
+    "טקסט": "12.11.2026 | הודעת משרד הפנים של סינגפור מהיום נקראה במלואה. המקור מציין תאריך ללא שעת פרסום מאומתת. גם כתבת CNA מ-21:00 בסינגפור, 15:00 בישראל, נקראה; זו שעת הכתבה, לא שעת ההודעה הממשלתית.\n\nמשרד הפנים פרסם הבהרה על חקירת אליס הואנג, הידועה גם בשם Huang Le, ובכירה לשעבר ב-Megaspeed. לפי המשרד, בפברואר 2026 המשטרה, בהתייעצות עם התביעה, קבעה שאין די ראיות להוכיח שהיא ביצעה עבירות הנוגעות להצהרות האפשריות הלא-מדויקות שבגינן נחקרה Megaspeed. זו אינה הודעה על זיכוי בבית משפט או על סיום כל החקירה.\n\nבנפרד, המשטרה העריכה שהיא מסרה ביודעין מידע לא מדויק כדי להמעיט בתפקידה בחברה. ניתנו לה אזהרה חמורה ואיסור כניסה מחדש לסינגפור. הדרכון שלה הוחזר ב-26 בפברואר 2026 והיא עזבה באותו יום. אלו פרטים על צעדים קודמים שנחשפים בהודעת היום, לא מעצר חדש או איסור שהוטל היום.\n\nהמשרד מבהיר שהיא לא נחקרה בסינגפור בחשד לריגול. אין להסיק מכך הכרעה לגבי טענות מודיעין שפורסמו בארצות הברית או לגבי חקירת דירקטוריון NVIDIA. חקירת Megaspeed ושישה אנשים נוספים נמשכת; מדובר בשישה אנשים, לא בשש חברות. לפי המשרד, איש מהשישה לא נמצא בסינגפור מאז תחילת החקירות בפברואר 2025.\n\nהחקירה המקומית עוסקת בחשד להצהרות לא נכונות ברכישת שרתים ובעבירות קשורות. לפי המשרד, השרתים יוצאו דרך סינגפור למלזיה, ונבדק אם הועברו ממלזיה ליעד אחר בניגוד להצהרות. אין בהודעה קביעה שכבר הוכחה העברה אסורה לסין.\n\nהמשרד אומר שביקש מידע הנוגע לספקית השרתים האמריקאית Supermicro, ושהחברה סיפקה שיתוף פעולה מוגבל. לדבריו, המשטרה והתביעה פנו לרשויות ארצות הברית ביולי 2025 וחזרו על הבקשות ל-DOJ ול-FBI מאז ספטמבר 2025; עד היום התקבל מידע או סיוע מוגבל בנושא החברה. זהו תיאור ממשלתי של שיתוף הפעולה, לא הרשעה של Supermicro או הוכחה שהפרה את החוק.\n\nמה חדש מול n-1395 ו-n-1398: זו הודעה ממשלתית על מצב החקירה והצעדים הקודמים כלפי אליס הואנג, בנפרד מהבדיקה שמממנת Megaspeed ומהמדיניות הנשקלת במלזיה. אין כאן תוצאת מפקד GPU, החלטה על עתיד מנכ״ל NVIDIA, סגירת חקירה אמריקאית או הגבלת יצוא חדשה. ההודעה מזכירה ארבעה אנשים וארבע חברות שהואשמו בפברואר 2025 עד יולי 2026, אך אינה מזהה אותם כאן כ-Megaspeed או Supermicro.",
+    "טקסט_en": "November 12, 2026 | The current Singapore Ministry of Home Affairs statement was read in full. It gives a date without a verified publication hour. CNA's full article at 21:00 Singapore time, or 15:00 Israel, was also read. That is the article's clock, not the government's publication clock.\n\nThe ministry clarified the investigation of Alice Huang, also known as Huang Le, a former Megaspeed executive. It says police, in consultation with the Attorney-General's Chambers, concluded in February 2026 that there was insufficient evidence to establish she had committed offences relating to the possible inaccurate declarations under investigation at Megaspeed. This is not an announcement of a court acquittal or closure of the entire investigation.\n\nSeparately, police assessed that she knowingly provided inaccurate information to downplay her role in the company. She was issued a stern warning and barred from re-entering Singapore. Her passport was returned on February 26, 2026 and she left that day. These are earlier measures disclosed in today's statement, not a new arrest or a ban imposed today.\n\nThe ministry says she was not investigated for espionage in Singapore. That does not decide the intelligence allegations reported in the United States or NVIDIA's board investigation. The investigation of Megaspeed and six other individuals continues. These are six people, not six companies. The ministry says none of the six has been in Singapore since investigations began in February 2025.\n\nThe domestic investigation concerns suspected false declarations in server purchases and related offences. The ministry says servers were exported through Singapore to Malaysia, and investigators were examining whether they were subsequently routed elsewhere contrary to declarations. The statement does not establish that an illegal transfer to China has been proved.\n\nThe ministry says it requested information relating to US server supplier Supermicro and the company provided limited cooperation. It says police and prosecutors raised the issue with US authorities in July 2025 and repeated requests to DOJ and the FBI from September 2025, with limited information or assistance received to date concerning the company. This is the ministry's account of cooperation, not a Supermicro conviction or proof of a legal violation.\n\nWhat is new versus n-1395 and n-1398 is the government's account of the investigation's status and the earlier measures against Alice Huang, separate from Megaspeed's commissioned review and Malaysia's proposed policy. It is not a GPU census result, a decision about NVIDIA's CEO, closure of a US investigation or a new export restriction. The statement mentions four individuals and four companies charged between February 2025 and July 2026, but does not identify them here as Megaspeed or Supermicro.",
+    "קישור": "https://www.mha.gov.sg/media-room/newsroom/singapore-investigations-into-alice-huang-huang-le-and-megaspeed-international-pte-ltd/",
+    "מקורות": [
+      {
+        "url": "https://www.mha.gov.sg/media-room/newsroom/singapore-investigations-into-alice-huang-huang-le-and-megaspeed-international-pte-ltd/",
+        "label": "משרד הפנים של סינגפור: הודעת 12 בנובמבר המקורית והמלאה",
+        "label_en": "Singapore MHA: full original November 12 statement"
+      },
+      {
+        "url": "https://www.channelnewsasia.com/singapore/alice-huang-megaspeed-mha-offences-probe-6544206",
+        "label": "CNA: הכתבה המלאה, 21:00 בסינגפור",
+        "label_en": "CNA: full article at 21:00 Singapore time"
+      }
+    ],
+    "הועלה": "2026-11-12 15:34",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "13a25b4877d8936798cc3e6b012ea2772fcc2dbbdecac58395827746d89629fc"
+      }
+    }
   }
 ]
