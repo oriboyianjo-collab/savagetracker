@@ -34198,5 +34198,36 @@
         "source_hash": "2416b5c8dbdbd6456c342727a80e7bed02ac93fe8dbf3645530556a027704a9a"
       }
     }
+  },
+  {
+    "מזהה": "n-1376",
+    "category": "micro",
+    "תאריך": "2026-11-12 09:08",
+    "הועלה": "2026-11-12 09:30",
+    "כותרת": "Micron (MU): לפי AFP, ועד העובדים בטאויואן פורש משיחות חלוקת הרווחים המתוכננות ל-17 בנובמבר",
+    "כותרת_en": "Micron (MU): AFP says Taoyuan workers’ union withdraws from profit-sharing talks scheduled for Nov 17",
+    "טקסט": "12.11.2026, 09:08 בישראל | כתבת AFP המקורית נקראה במלואה בעותק Yahoo Finance. הודעת ועד העובדים עצמה לא נקראה ישירות; זהו דיווח עיתונאי, לא אישור עצמאי של כל טענות הוועד.\n\nלפי AFP, ועד המייצג מאות עובדים במפעל Micron בטאויואן שבטייוואן הודיע שלא ישתתף במשא ומתן המתוכנן ל-17 בנובמבר, לאחר שהכיר בכך שהמאבק להסדר חדש לחלוקת רווחים לא הצליח. הוועד אמר שחבריו רשאים לחתום על ההסכם שהחברה מציעה. אין בכך אישור שכל העובדים חתמו או שהמחלוקת הוסדרה.\n\nזו התפתחות חדשה ביחסי העבודה, נפרדת מהדיווח על השהיית תוכנית מפעל הזיכרונות החדש שכבר סוקר ב-n-0114. הכתבה אינה מודיעה על שביתה המונית חדשה, על הפסקת ייצור במפעלים הפעילים או על ביטול או חידוש תוכנית ההרחבה. AFP מציינת כרקע שיותר מ-2,000 עובדים איימו בשביתה, אך בפועל רק קומץ הפסיק לעבוד ליום אחד; אין להציג את האיום ההיסטורי כ-2,000 שובתים כעת.\n\nהמחלוקת נוגעת לתגמול העובדים על רקע ביקוש גבוה לשבבי זיכרון. לפי AFP, Micron מייצרת בטייוואן כ-50%–60% משבבי הזיכרון שלה; זהו תיאור החשיפה התפעולית במדינה כולה, לא אומדן לייצור שנפגע בטאויואן. לא נמסרו אובדן תפוקה, הכנסות שנפגעו או שינוי בתחזית.\n\nבנפרד, AFP מזכירה שהוועד במפעל הגדול יותר בטאיצ׳ונג חתם בחודש שעבר על הסכם הכולל בונוס חלוקת רווחים רבעוני, בנוסף לבונוס השנתי, והגדלת הפרשת החברה לפנסיה. זהו אתר וועד אחרים והסכם קודם, לא הסכם חדש בטאויואן. Micron לא השיבה מיד לפניית AFP; העדר תגובה אינו אישור לטענות הוועד.",
+    "טקסט_en": "Nov 12, 2026, 09:08 Israel time | Full original AFP article read in the Yahoo Finance syndicated copy. The union statement itself was not read directly; this is journalism, not independent confirmation of every union claim.\n\nAFP reports that a union representing hundreds of workers at Micron’s Taoyuan plant in Taiwan said it will not participate in negotiations scheduled for Nov 17, acknowledging that its campaign for a new profit-sharing arrangement had not succeeded. The union said members may sign the company’s proposed agreement. This does not confirm all employees have signed or that the dispute is settled.\n\nThis is a new labor-relations development, separate from the reported pause of a new memory-fab plan already covered in n-0114. The article announces no new mass strike, production stoppage at operating plants, or cancellation or resumption of the expansion plan. AFP gives historical background that over 2,000 employees threatened to strike but only a handful stopped for one day. That past threat must not be presented as 2,000 employees striking now.\n\nThe dispute concerns remuneration amid strong memory-chip demand. AFP says Micron makes about 50%–60% of its memory chips in Taiwan. That describes country-wide operating exposure, not production lost at Taoyuan. Lost output, revenue impact and a guidance change were not disclosed.\n\nSeparately, AFP recalls that the union at the larger Taichung plant signed an agreement last month including quarterly profit-sharing bonuses in addition to the annual bonus and increased company pension contributions. That is a different site and union and an earlier deal, not a new Taoyuan settlement. Micron did not immediately respond to AFP; an absent response does not confirm union allegations.",
+    "קישור": "https://uk.finance.yahoo.com/news/taiwan-union-ends-bonus-talks-070844866.html",
+    "מקורות": [
+      {
+        "label": "AFP: הכתבה המלאה בעותק Yahoo Finance",
+        "label_en": "AFP: full article via Yahoo Finance",
+        "url": "https://uk.finance.yahoo.com/news/taiwan-union-ends-bonus-talks-070844866.html"
+      }
+    ],
+    "symbols": [
+      "MU"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2abf216ae6206907088e086b645b33fa52aa8e736e085b06fd43a214ea63db06"
+      }
+    }
   }
 ]
