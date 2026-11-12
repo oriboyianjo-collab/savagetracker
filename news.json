@@ -37675,5 +37675,38 @@
         "source_hash": "5dc889380cc1c85d600710ac22a69c7e557f16d03bf8b979551a348c17cda44b"
       }
     }
+  },
+  {
+    "מזהה": "n-1481",
+    "category": "micro",
+    "חברה": "NVIDIA, Apple",
+    "symbols": [
+      "NVDA",
+      "AAPL"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 17:39",
+    "כותרת": "לפי CNBC, טראמפ הציע שטים קוק יחליף את ג׳נסן הואנג ב-NVIDIA; לא הודעת מינוי",
+    "כותרת_en": "CNBC reports Trump suggested Tim Cook replace Jensen Huang at Nvidia; this is not an appointment",
+    "טקסט": "לא מאומת מול מקור ראשוני\n12.11.2026 | עדכון Kevin Breuninger בסיקור החי של CNBC מתוארך ל-15:39:44 UTC, 17:39:44 שעון ישראל, ונקרא במלואו. זהו זמן עדכון CNBC, לא זמן פרסום הפוסט המקורי של טראמפ, שלא אומת ישירות.\n\nלפי CNBC, נשיא ארה\"ב דונלד טראמפ כתב ב-Truth Social כי לאחר התפטרות ג׳נסן הואנג יש אדם אחד שצריך להחליפו: טים קוק מאפל. CNBC מצטטת גם את הניסוח \"A Legend replaces a Legend\". הפוסט המקורי לא נקרא כאן ישירות ולא צורף אליו קישור בעדכון שנבדק, ולכן הדברים מיוחסים לדיווח CNBC.\n\nזו הצעה פומבית המיוחסת לנשיא, לא החלטה של דירקטוריון NVIDIA ולא מינוי של קוק. העדכון אינו מאשר שקוק הביע עניין, קיבל הצעה, הסכים לעבור או מנהל משא ומתן. אין להסיק ממנו שינוי בתפקידו באפל או סבירות מספרית למעבר.\n\nכפי שכבר דווח באפליקציה, NVIDIA מינתה את סמנכ\"לית הכספים קולט קרס למנכ\"לית זמנית ופתחה חיפוש אחר מנכ\"ל קבוע, עם בחינת מועמדים פנימיים וחיצוניים. ההמלצה המדווחת אינה מבטלת את המינוי הזמני או מוכיחה שדירקטוריון החברה בחר מועמד. החידוש כאן הוא דבריו המדווחים של טראמפ, לא שינוי נוסף בהנהלת החברה.",
+    "טקסט_en": "Not verified against a primary source\nNovember 12, 2026 | Kevin Breuninger's CNBC liveblog update is timestamped 15:39:44 UTC, 17:39:44 Israel time, and was read in full. That is CNBC's update time, not the original Trump post time, which was not independently verified.\n\nAccording to CNBC, President Donald Trump wrote on Truth Social that following Jensen Huang's resignation, the person who should replace him is Tim Cook of Apple. CNBC also quotes the line \"A Legend replaces a Legend\". The original post was not read directly here, and the inspected block did not link to it, so the remarks are attributed to CNBC.\n\nThis is a public suggestion attributed to the president, not an Nvidia board decision or Cook appointment. The update does not confirm Cook's interest, an offer, acceptance or negotiations. It establishes neither a change in his Apple role nor numerical odds of a move.\n\nAs already covered in the app, Nvidia named CFO Colette Kress interim CEO and opened a permanent-CEO search considering internal and external candidates. The reported recommendation does not replace the interim appointment or show that the board has selected a candidate. The new detail here is Trump's reported suggestion, not another change in company leadership.",
+    "קישור": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+        "label": "CNBC: עדכון Kevin Breuninger על הצעת טראמפ, 12 בנובמבר 15:39:44 UTC",
+        "label_en": "CNBC: Kevin Breuninger update on Trump suggestion, November 12 at 15:39:44 UTC"
+      }
+    ],
+    "הועלה": "2026-11-12 22:25",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e6254b8285e6d63cc61442f7d8463fe76648592bbc3c0a47a4d4042a46e270ad"
+      }
+    }
   }
 ]
