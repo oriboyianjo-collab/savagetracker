@@ -36172,5 +36172,129 @@
         "source_hash": "bd7fc689d8700d6ef96e6ab38fe89d216106eb42256f5e0c6ae505cbb7e1fb05"
       }
     }
+  },
+  {
+    "מזהה": "n-1437",
+    "category": "micro",
+    "חברה": "AMD",
+    "symbols": [
+      "AMD"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 15:01",
+    "כותרת": "לפי Reuters: AMD מתכננת השקעת מניות ב-PsiQuantum והרחבת שיתוף פעולה לתשתית מחשוב קוונטי; הסכום לא נמסר",
+    "כותרת_en": "Reuters: AMD plans equity investment in PsiQuantum and broader quantum infrastructure partnership; amount undisclosed",
+    "טקסט": "לא מאומת מול הודעת החברות המקורית\n12.11.2026 | דיווח Reuters המלא, דרך StreetInsider, פורסם ב-08:01 EST, 15:01 שעון ישראל, ונקרא במלואו. זהו זמן הדיווח שנבדק, לא זמן מאומת של הודעת החברות הראשונה.\n\nלפי Reuters, AMD מתכננת לבצע השקעה במניות PsiQuantum כחלק מהרחבת השותפות לפיתוח התשתית הנחוצה למחשבים קוונטיים שימושיים בקנה מידה גדול. הסכום והיקף ההחזקה לא נמסרו. אין בדיווח אישור שההשקעה הושלמה או שהכסף כבר הועבר.\n\nהחברות מתכוונות לתכנן יחד תשתית מחשוב ולפתח יישומים המשלבים מחשוב קוונטי, מחשוב עתיר ביצועים ובינה מלאכותית. AMD תספק מעבדים מרכזיים, מאיצים גרפיים, טכנולוגיות מחשוב מסתגל ותוכנה; PsiQuantum תתרום את פלטפורמת הפוטוניקה הסיליקונית שלה. אין כאן הזמנת שבבים בשווי ידוע או מחשב קוונטי חדש שכבר נבנה והחל לפעול.\n\nלפי החברות כפי שצוטטו, טכנולוגיית מחקר התרופות של PsiQuantum כבר פועלת על חומרת AMD והניבה תוצאות ראשוניות בסימולציה של מעכבים קוולנטיים, מולקולות רלוונטיות לחקר תרופות לסרטן. אלה טענות מחקר של החברות, לא אימות עצמאי ליתרון קוונטי או הוכחה ליעילות של תרופה בבני אדם.\n\nהמהלך נפרד משיתוף הפעולה של AMD עם IBM ו-Oak Ridge לתיקון שגיאות קוונטיות שכבר פורסם באפליקציה. אין לחבר את ההשקעה המתוכננת לסבב הון קודם שבו השתתפה NVIDIA או לסכומי מענקים ממשלתיים, שאינם סכום ההשקעה החדשה של AMD.",
+    "טקסט_en": "Not verified against the companies' original announcement\nNovember 12, 2026 | The full Reuters report carried by StreetInsider was published at 08:01 EST, or 15:01 Israel time, and was read in full. This is the checked report's timestamp, not a verified first issuer-announcement time.\n\nReuters reports that AMD plans an equity investment in PsiQuantum as part of an expanded partnership to develop infrastructure for utility-scale quantum computers. The amount and ownership stake were not disclosed. The report does not confirm that the investment has closed or money has been transferred.\n\nThe companies intend to co-design computing infrastructure and develop applications combining quantum computing, high-performance computing and AI. AMD will provide CPUs, GPUs, adaptive computing technology and software, while PsiQuantum will contribute its silicon photonics platform. This is not a disclosed-value chip order or a new quantum computer already built and operating.\n\nThe companies say PsiQuantum's drug-research technology is already running on AMD hardware and has produced initial simulation results involving covalent inhibitors, molecules relevant to oncology drug discovery. These are company research claims, not independent verification of quantum advantage or proof of a drug's effectiveness in humans.\n\nThe partnership is separate from AMD's IBM and Oak Ridge quantum-error-correction collaboration already covered in the app. AMD's planned investment must not be combined with a previous NVIDIA-backed funding round or government awards, which do not establish the amount of this investment.",
+    "קישור": "https://www.streetinsider.com/Reuters/AMD+to+invest+in+PsiQuantum+to+advance+quantum+computing+infrastructure/27331086.html",
+    "מקורות": [
+      {
+        "url": "https://www.streetinsider.com/Reuters/AMD+to+invest+in+PsiQuantum+to+advance+quantum+computing+infrastructure/27331086.html",
+        "label": "Reuters דרך StreetInsider: הדיווח המלא; הודעת החברות טרם אומתה",
+        "label_en": "Reuters via StreetInsider: full report; issuer release not verified"
+      }
+    ],
+    "הועלה": "2026-11-12 15:21",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "71a4ffed5f9165448bf89afdcd81afa2347b94d0bc16c32d9f29d469fa73adcc"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1438",
+    "category": "micro",
+    "חברה": "Accelink",
+    "symbols": [
+      "002281.SZ"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-02",
+    "כותרת": "השלמת סיקור: Accelink החלה בהקמת פרויקט פוטוניקה בסין בהשקעה מתוכננת של 10.2 מיליארד יואן; לא קיבולת שכבר פועלת",
+    "כותרת_en": "Catch-up: Accelink breaks ground on China photonics project with planned CNY 10.2 billion investment; not operating capacity",
+    "טקסט": "השלמת סיקור מאוחרת: תחילת הבנייה הייתה ב-1.11.2026. פרסומי ממשלת חוביי ועיריית ווהאן מ-2 בנובמבר נקראו במלואם, לצד הודעת החברה מ-4 בנובמבר. השעה המדויקת של הפרסום הראשון לא אומתה. זהו מידע ישן מעשרה ימים לפחות, לא הכרזה חדשה מ-12 בנובמבר.\n\nלפי רשות הכלכלה והטכנולוגיה של חוביי, החלה בניית השלב הראשון בפרויקט Accelink למכשירים אופטואלקטרוניים ולרכיבי פוטוניקה סיליקונית, עם השקעה כוללת מתוכננת של 10.2 מיליארד יואן. החברה היא 光迅科技, הרשומה בשנזן בקוד 002281, כפי שאומת בפרטי החברה בדוח השנתי הרשמי שלה.\n\nהפרויקט נמצא באזור הסחר החופשי המקיף של מזרח אגם ווהאן. מתוכנן בו שטח בנוי של כ-166,300 מ\"ר ומשך בנייה של כ-14 חודשים. עיריית ווהאן מציינת יעד להשלמת בדיקות המסירה בסוף 2027. תחילת בנייה, מסירה והגעה לייצור מלא הם שלבים נפרדים; אין כאן אישור שהמתקן החדש כבר עובד.\n\nהכיוונים כוללים מודולים אופטיים נשלפים, מנועים אופטיים לאופטיקה באריזה משותפת או סמוכה (CPO/NPO) ומיתוג אופטי. לפי הפרסומים, עם הגעה לתפוקה מלאה צפוי כושר ייצור שנתי של יותר מעשרה מיליון מודולים אופטיים מהירים. זהו כושר ייצור עתידי, לא משלוחים שכבר בוצעו, ולא הכנסה שהוכרה.\n\nהודעת החברה מ-4 בנובמבר מאשרת את תחילת הפרויקט, את השטח ואת תוכנית שני מבני הייצור הנקיים והלוגיסטיקה. סכום 10.2 מיליארד היואן ויעד התפוקה מיוחסים לפרסום הממשלתי, ואינם מוצגים כמזומן שכבר הוצא או כמימון שהושלם. אין לקוח חדש מזוהה או שווי הזמנות שפורסם.\n\nאין לערבב את ההקמה החדשה עם בסיסי ייצור קודמים שכבר נפתחו. תוצאות הרבעון המוזכרות כרקע במקורות אינן מתפרסמות כאן מחדש. סיבת האיחור באיתור עדיין בבדיקה; החלפת תאריך הפרסום להיום לא תהפוך את הפרויקט לחדש.",
+    "טקסט_en": "Late catch-up: construction started on November 1, 2026. The full November 2 Hubei-government and Wuhan-city reports were read alongside the company's November 4 announcement. The precise first-publication time was not verified. This information is at least ten days old, not a new November 12 announcement.\n\nHubei's economy and information-technology department reports that construction began on Phase I of Accelink's high-end optoelectronic and silicon-photonics chip-and-device project, with planned total investment of CNY 10.2 billion. Accelink is 光迅科技, listed in Shenzhen under code 002281, verified in its official annual report's company-information section.\n\nLocated in Wuhan's East Lake Comprehensive Bonded Zone, the project has planned gross floor area of approximately 166,300 square meters and a construction period of about 14 months. Wuhan's report targets completion acceptance by the end of 2027. Groundbreaking, acceptance and full production are separate stages; the new facility is not confirmed to be operating.\n\nPlanned areas include pluggable optical modules, CPO/NPO optical engines and all-optical switching. Once fully ramped, planned annual capacity exceeds ten million high-speed optical modules. That is future capacity, not completed shipments or recognized revenue.\n\nThe company's November 4 announcement confirms the groundbreaking, floor area and plans for two cleanroom manufacturing buildings and logistics facilities. The CNY 10.2 billion amount and capacity target are attributed to the government reports, not presented as cash already spent or financing closed. No named new customer or order value was disclosed.\n\nThe new construction must not be confused with previously opened production campuses. Quarterly results used as source background are not republished here. The historical discovery-delay cause remains under review; changing the original date to today would not make the project new.",
+    "קישור": "https://jxt.hubei.gov.cn/bmdt/rdjj/202611/t20261102_6046371.shtml",
+    "מקורות": [
+      {
+        "url": "https://jxt.hubei.gov.cn/bmdt/rdjj/202611/t20261102_6046371.shtml",
+        "label": "ממשלת חוביי: הפרויקט והיקפו, 2 בנובמבר",
+        "label_en": "Hubei government: project and scale, November 2"
+      },
+      {
+        "url": "https://www.wuhan.gov.cn/sy/whyw/202611/t20261102_2871881.shtml",
+        "label": "עיריית ווהאן: יעד מסירה ותפוקה עתידית",
+        "label_en": "Wuhan city: completion target and future capacity"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/accelink_accelink-opticaltransceivers-aiinfrastructure-activity-7523554997914230784-WCD_",
+        "label": "Accelink: הודעת תחילת הבנייה מ-4 בנובמבר",
+        "label_en": "Accelink: November 4 groundbreaking announcement"
+      },
+      {
+        "url": "https://www.accelink.com/upload/1/cms/20260427/1777270551534.pdf",
+        "label": "הדוח השנתי הרשמי: פרטי זהות ורישום החברה",
+        "label_en": "Official annual report: company identity and listing details"
+      }
+    ],
+    "הועלה": "2026-11-12 15:21",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f9adc0f1e48f43d00c10b66fbc3af6e7e2cd19c9bb5d70dfb1f647d2503791e0"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1439",
+    "category": "macro",
+    "חברה": "",
+    "symbols": [],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "לפי Reuters ו-Ambrey: אוניית סוחר נפגעה מקליע לא מזוהה מול ראס אל-חיימה ביום רביעי; אין זיהוי לתוקף",
+    "כותרת_en": "Reuters, citing Ambrey: merchant vessel hit by unknown projectile off Ras Al Khaimah on Wednesday; attacker unidentified",
+    "טקסט": "הודעת Ambrey הפומבית נקראה אך תיאור האירוע בה מקוצר; פרטי המיקום והאש להלן נסמכים על דיווח Reuters המלא. אין כאן אימות מלא מול אזהרת UKMTO תואמת.\n12.11.2026 | Reuters דרך Devdiscourse ו-Yahoo נקראה במלואה. הדיווח מתייחס ליום רביעי, 11 בנובמבר, ולא לפגיעה חדשה שהתרחשה ביום חמישי. שעת הפרסום הראשונה של Ambrey לא אומתה.\n\nלפי Reuters, חברת הביטחון הימי Ambrey מסרה שאוניית סוחר נפגעה מקליע לא מזוהה כ-14 מייל ימי מצפון-מערב לראס אל-חיימה באיחוד האמירויות, בזמן שיצאה ממצר הורמוז. הפגיעה בירכתיים גרמה לשריפה בחדר המכונות; לפי Ambrey, לא דווח באותו שלב על נפגעים או על זיהום.\n\nעמוד האירוע הפומבי של Ambrey מציג אירוע במים הטריטוריאליים של האמירויות ב-11 בנובמבר ותיאור מקוצר של אוניית סוחר טעונה שנפגעה מקליע לא מזוהה ביציאה מהמצר. מאחר שהתיאור נקטע, הוא אינו אימות עצמאי לכל פרטי Reuters. שעה המופיעה בעמוד ללא אזור זמן אינה מוצגת כאן כשעת אירוע ישראלית.\n\nהמקורות שנקראו אינם מזהים את כלי השיט, סוג המטען, כלי הנשק מעבר לתיאור קליע, או את הגורם האחראי. אין בסיס לייחס את הפגיעה לאיראן, לקבוע שנפגעה מכלית נפט או שמדובר במוקש, או לטעון שכמות מסוימת של אספקת אנרגיה נעצרה.\n\nאזהרת UKMTO מספר 202-26 נבדקה בנפרד: היא מתארת אירוע במכלית במצר, בלי תאריך ושעת אירוע מאומתים ובלי פרטי מיקום ונזק תואמים. אין די מידע לזהות אותה עם האירוע הזה, ואין לחבר את המקרים לספירת תקיפות אחת. אין גם קשר מאומת לדליפת הנפט הישנה ולפתיחת החופים מחדש באמירויות.",
+    "טקסט_en": "Ambrey's public event page was read, but its narrative is truncated. Location and fire details below rely on the full Reuters report. A matching UKMTO warning has not been fully verified.\nNovember 12, 2026 | The full Reuters reports carried by Devdiscourse and Yahoo were read. They describe Wednesday, November 11, not a new strike on Thursday. Ambrey's first-publication time was not verified.\n\nReuters reports that maritime-security firm Ambrey said a merchant vessel was hit by an unknown projectile about 14 nautical miles northwest of Ras Al Khaimah, UAE, while outbound from the Strait of Hormuz. The stern strike caused an engine-room fire; Ambrey said no injuries or pollution had been reported at that stage.\n\nAmbrey's public event page lists a November 11 incident in UAE territorial waters and a shortened account of a laden merchant vessel hit by an unknown projectile while outbound from the strait. Because the narrative cuts off, it does not independently verify every Reuters detail. A time displayed without a timezone is not presented here as an Israel-time event timestamp.\n\nThe reviewed sources do not identify the vessel, cargo, weapon beyond an unknown projectile, or responsible party. There is no basis to attribute the strike to Iran, call the vessel an oil tanker, describe a mine strike or quantify energy supply lost.\n\nUKMTO Warning 202-26 was checked separately. It describes a tanker incident in the strait with unconfirmed event date and time and no matching location or damage detail. There is insufficient evidence to identify it as this event or combine the cases into one attack count. No link to the older UAE oil spill and beach reopening has been verified either.",
+    "קישור": "https://www.devdiscourse.com/article/international/4005732-merchant-vessel-struck-by-unknown-projectile-off-uaes-ras-al-khaimah-ambrey-says",
+    "מקורות": [
+      {
+        "url": "https://www.devdiscourse.com/article/international/4005732-merchant-vessel-struck-by-unknown-projectile-off-uaes-ras-al-khaimah-ambrey-says",
+        "label": "Reuters דרך Devdiscourse: הדיווח המלא על דברי Ambrey",
+        "label_en": "Reuters via Devdiscourse: full report of Ambrey account"
+      },
+      {
+        "url": "https://ambrey.com/operations/event/war-risk-physical-damage-12/",
+        "label": "Ambrey: עמוד אירוע מקורי, תיאור פומבי מקוצר",
+        "label_en": "Ambrey: original event page, truncated public narrative"
+      },
+      {
+        "url": "https://www.yahoo.com/news/world/articles/uaes-ras-al-khaimah-sharjah-105736404.html",
+        "label": "Reuters דרך Yahoo: אותו אירוע בנפרד מדליפת הנפט הישנה",
+        "label_en": "Reuters via Yahoo: same incident separate from older oil spill"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261111-ukmto_warning_202_26.pdf",
+        "label": "UKMTO 202-26: נבדק בנפרד, לא זוהה כאותו אירוע",
+        "label_en": "UKMTO 202-26: checked separately, not established as same incident"
+      }
+    ],
+    "הועלה": "2026-11-12 15:21",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3696ef3154de16189483b9342b2d987fb7c1c43f684365430759e079daf3aa71"
+      }
+    }
   }
 ]
