@@ -35232,5 +35232,42 @@
         "source_hash": "c6348628a4765222eb9844c4903bcd219a68f45bdd5d55260204c8cb3c8041fc"
       }
     }
+  },
+  {
+    "מזהה": "n-1405",
+    "category": "micro",
+    "חברה": "GOOGL",
+    "symbols": [
+      "GOOGL"
+    ],
+    "sectors": [
+      "communication-services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 11:30",
+    "כותרת": "עדכון Alphabet: לפי Reuters, ביקושי אג\"ח HKD ו-SGD עלו ליותר מ-7 מיליארד דולר והנחיות התמחור הודקו; לא גיוס שהושלם",
+    "כותרת_en": "Alphabet update: Reuters reports over $7 billion of HKD and SGD bond orders and tighter final guidance; not completed funding",
+    "טקסט": "**לא אומת מול מקור ראשוני: לפי Reuters, על בסיס נתוני עסקה ומסמכי תנאים שלא נקראו כאן ישירות.**\n12.11.2026 | דיווח Reuters המעודכן נקרא במלואו ב-Investing.com וב-Straits Times. חותמת העדכון הטכנית ב-Straits Times היא 09:30:33 UTC, כלומר 11:30:33 בישראל; אזור הזמן של חותמות Investing.com לא אומת.\n\nעדכון ל-n-1362 על ביקושים מוקדמים של כ-5 מיליארד דולר והנחיות תשואה ראשוניות: לפי Reuters, ספרי הביקוש המשולבים להנפקות Alphabet בדולר הונג-קונגי ובדולר סינגפורי גדלו ליותר מ-7 מיליארד דולר שווה ערך, ונקבעו הנחיות תמחור סופיות. אלה הזמנות והנחיות, לא סכום שהחברה כבר גייסה, קופונים שהונפקו או סליקה שהושלמה.\n\nבהונג קונג הביקושים לשלוש הסדרות עברו 32.5 מיליארד HKD, לעומת יותר מ-24 מיליארד מוקדם יותר. מתוכם 13.23 מיליארד HKD הם הזמנות של מנהלי ההנפקה. בסינגפור הביקושים לארבע הסדרות עברו 4 מיליארד SGD, לעומת יותר מ-2.5 מיליארד קודם לכן, וכוללים 965 מיליון SGD מהמארגנים. סכומי המארגנים כלולים בספרים ואינם ביקוש חיצוני נוסף שאפשר להוסיף להם.\n\nהנחיות התמחור הסופיות המדווחות בהונג קונג: 4.35% לפירעון ב-2028, 4.70% ל-2031 ו-5.20% ל-2036, לעומת הנחיות ראשוניות של 4.60%, 5.00% ו-5.50%. בסינגפור: 2.50% ל-2028, 3.00% ל-2031, 3.40% ל-2036 ו-3.80% ל-2056, לעומת 2.75%, 3.25%, 3.65% ו-4.00% בתחילה. אלה הנחיות לתשואת ההנפקה, לא ריביות קופון שאומתו במסמך מנפיק.\n\nלפי הדיווח, החברה כיוונה לגיוס משולב של כ-3 מיליארד דולר ושקלה גדלים מינימליים של 8 מיליארד HKD ו-1.5 מיליארד SGD. הכתבה אינה מוסרת הקצאה או גודל הנפקה סופי. הסליקה עדיין מתוארת כמתוכננת ל-19 בנובמבר, והדירוגים הצפויים הם Aa2 ו-AA+.\n\nהחידוש הוא גידול בספרי הביקוש והידוק ההנחיות לשבע הסדרות, מעבר לשלב שפורסם קודם. אין כאן אימות שהחברה קיבלה יותר מ-7 מיליארד דולר, שהושלמה ההנפקה או שכל התמורה תוקצה לבינה מלאכותית. זו הנפקה אסייתית נפרדת מהנפקת האירו שכבר סוקרה.",
+    "טקסט_en": "**Not verified against a primary source: Reuters reports based on deal statistics and term sheets not read directly here.**\nNovember 12, 2026 | The full updated Reuters report was read through Investing.com and The Straits Times. The Straits Times technical modification stamp is 09:30:33 UTC, 11:30:33 Israel time; Investing.com's displayed timestamps were not assigned an unverified timezone.\n\nUpdate to n-1362, which covered about $5 billion of early orders and initial yield guidance: according to Reuters, combined order books for Alphabet's Hong Kong and Singapore dollar bond offerings grew to more than $7 billion equivalent, and final price guidance was set. These are orders and guidance, not proceeds already raised, issued coupons or completed settlement.\n\nOrders for the three Hong Kong dollar tranches exceeded HK$32.5 billion, versus more than HK$24 billion earlier, including HK$13.23 billion from joint lead managers. Orders for the four Singapore dollar tranches exceeded S$4 billion, versus more than S$2.5 billion earlier, including S$965 million from arrangers. Arranger orders are included in the books and must not be added again as extra external demand.\n\nReported final Hong Kong dollar price guidance: 4.35% for 2028, 4.70% for 2031 and 5.20% for 2036, versus initial levels of 4.60%, 5.00% and 5.50%. Singapore dollar guidance: 2.50% for 2028, 3.00% for 2031, 3.40% for 2036 and 3.80% for 2056, versus 2.75%, 3.25%, 3.65% and 4.00% initially. These are offering-yield guidance levels, not coupon rates verified in an issuer document.\n\nAccording to the report, Alphabet targeted about $3 billion of combined funding and considered minimum sizes of HK$8 billion and S$1.5 billion. The article does not provide a final allocation or final deal size. Settlement remains scheduled for November 19, with expected Aa2 and AA+ ratings.\n\nThe new information is larger order books and tighter guidance for seven tranches, beyond the stage already covered. This does not verify that Alphabet received more than $7 billion, completed the offerings or allocated all proceeds to AI. The Asian offerings are separate from the euro bond deal previously covered.",
+    "קישור": "https://www.investing.com/news/stock-market-news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-5020243",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/stock-market-news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-5020243",
+        "label": "Reuters בהפצת Investing.com: הדיווח המלא המעודכן",
+        "label_en": "Reuters via Investing.com: full updated report"
+      },
+      {
+        "url": "https://www.straitstimes.com/business/companies-markets/alphabets-debut-hong-kong-singapore-bond-sales-draw-about-us5b-in-early-orders",
+        "label": "Reuters בהפצת Straits Times: הדיווח המלא וחותמת העדכון",
+        "label_en": "Reuters via The Straits Times: full report and modification timestamp"
+      }
+    ],
+    "הועלה": "2026-11-12 12:22",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2cb5ca57d5eb3c76dabdc5d1ae14293df515ec92f88d834708c497bf1a3df0c1"
+      }
+    }
   }
 ]
