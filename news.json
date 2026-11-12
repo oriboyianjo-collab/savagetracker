@@ -37342,5 +37342,37 @@
         "source_hash": "50cc77185aaed5b64a99dcd87ba88ebde8fbcb0385819b369b566e5a952b512c"
       }
     }
+  },
+  {
+    "מזהה": "n-1471",
+    "category": "micro",
+    "חברה": "ALK",
+    "symbols": [
+      "ALK"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 19:00",
+    "כותרת": "Alaska Airlines (ALK): חמישה קווים ישירים חדשים מסיאטל ב-2027, ארבעה מהם לערים חדשות ברשת",
+    "כותרת_en": "Alaska Airlines (ALK): five new Seattle nonstop routes in 2027, including four new cities in its network",
+    "טקסט": "12.11.2026 | הודעת Alaska Airlines המקורית פורסמה ב-12:00 ET, 19:00 שעון ישראל, ונקראה במלואה.\n\nAlaska Airlines הודיעה על חמישה קווים ישירים חדשים מסיאטל לשנת 2027. ארבעת היעדים בארה\"ב - שארלוט, נורפוק, ג'קסונוויל ודה מוין - הם ערים חדשות ברשת החברה. לפי ההודעה, הקווים לנורפוק, ג'קסונוויל ודה מוין יהיו גם החיבורים הישירים הראשונים של ערים אלה לסיאטל.\n\nשארלוט ונורפוק: שירות יומי לאורך כל השנה החל ב-10 ביוני 2027. ג'קסונוויל ודה מוין: שירות יומי לאורך כל השנה החל ב-24 ביוני 2027. החברה הודיעה שהכרטיסים לכל חמשת הקווים מוצעים למכירה כעת. זו הכרזה ומכירת כרטיסים, לא תחילת הפעלת הטיסות.\n\nהקו החמישי, מסיאטל לגואדלחרה במקסיקו, מתוכנן לפעול עונתית שלוש פעמים בשבוע במטוסי בואינג 737, מ-18 במרץ עד 9 באוגוסט 2027. בטבלת הטיסות, טיסת הבכורה בכיוון ההפוך מגואדלחרה לסיאטל רשומה ל-19 במרץ. אין להסיק שכל חמשת הקווים מתחילים באותו תאריך או פועלים כל השנה.\n\nלפי החברה, התוספות יביאו את רשת הטיסות הישירות שלה מסיאטל ל-119 יעדים בסך הכול, לא 119 יעדים חדשים. ההודעה מתארת הרחבת רשת תפעולית עתידית של חברת בת בקבוצת Alaska Air, ולא רכישת חברת תעופה, הזמנת מטוסים חדשה או תחזית כספית. לא פורסמה בה הערכת הכנסות, עלות ההרחבה או השפעה על הרווח.",
+    "טקסט_en": "November 12, 2026 | Alaska Airlines published the full original release at 12:00 ET, or 19:00 Israel time.\n\nAlaska Airlines announced five new Seattle nonstop routes for 2027. The four US destinations - Charlotte, Norfolk, Jacksonville and Des Moines - are new cities in Alaska's network. The airline says Norfolk, Jacksonville and Des Moines will also gain their first-ever nonstop connections to Seattle.\n\nCharlotte and Norfolk: daily, year-round service from June 10, 2027. Jacksonville and Des Moines: daily, year-round service from June 24, 2027. Alaska says tickets for all five routes are on sale now. This is a route announcement and ticket sale, not the start of flight operations.\n\nThe fifth route, Seattle to Guadalajara, Mexico, is scheduled for seasonal service three times weekly aboard Boeing 737 aircraft from March 18 through August 9, 2027. The timetable lists the first return-direction Guadalajara-Seattle flight on March 19. The five routes do not all start together or all operate year-round.\n\nAlaska says the additions will bring its Seattle nonstop network to 119 destinations in total, not 119 new destinations. This is a future operating-network expansion by an Alaska Air Group subsidiary, not an airline acquisition, new aircraft order or financial forecast. The release gives no expected revenue, expansion cost or profit impact.",
+    "קישור": "https://www.prnewswire.com/news-releases/alaska-airlines-adds-four-new-cities-to-its-seattle-network-plus-a-new-seasonal-nonstop-route-to-guadalajara-mexico-302938101.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/alaska-airlines-adds-four-new-cities-to-its-seattle-network-plus-a-new-seasonal-nonstop-route-to-guadalajara-mexico-302938101.html",
+        "label": "Alaska Airlines: ההודעה המקורית והמלאה על חמשת הקווים",
+        "label_en": "Alaska Airlines: full original five-route announcement"
+      }
+    ],
+    "הועלה": "2026-11-12 19:03",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "74aa93dea65e86eb0482a845125847e1f2c74e034fe58ba1aa79268ad004541f"
+      }
+    }
   }
 ]
