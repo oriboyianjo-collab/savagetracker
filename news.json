@@ -36140,5 +36140,37 @@
         "source_hash": "f556fcb0d14089f757c8e53c800eec213eec8d60d03e06d599b2257acae7d106"
       }
     }
+  },
+  {
+    "מזהה": "n-1436",
+    "category": "micro",
+    "חברה": "KTOS",
+    "symbols": [
+      "KTOS"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 15:00",
+    "כותרת": "Kratos (KTOS) השיקה את KnownSpace Recon+, מסוף נייד לניטור אותות לוויין; החברה מדווחת על רכישות בידי כמה סוכנויות ממשל אמריקאיות",
+    "כותרת_en": "Kratos (KTOS) launches portable KnownSpace Recon+ satellite-signal terminal; says multiple US agencies have purchased units",
+    "טקסט": "12.11.2026 | הודעת Kratos המקורית והמלאה ב-GlobeNewswire פורסמה ב-08:00 ET, 15:00 שעון ישראל, ונקראה במלואה.\n\nKratos הודיעה על השקת KnownSpace Recon+, מסוף נייד המשלב יכולות מודעות למרחב החלל באמצעות תדרי רדיו (RF SDA). לפי החברה, המוצר זמין מסחרית וכמה סוכנויות ממשל בארה\"ב כבר רכשו יחידות. לא נמסרו שמות הסוכנויות, מספר היחידות, מחירי המכירה או שווי ההזמנות, ולכן אין להציג חוזה ממשלתי חדש בסכום מסוים.\n\nהמערכת מיועדת לזיהוי ולסיווג אותות לוויין, לאפיון פעילות ולניטור הפרעות ושיבוש בשטח. החברה מציגה מעבר מיכולות שהיו מוגבלות למתקנים קבועים אל יחידה ניידת שניתן לפרוס בשטח, בעמדת פיקוד או ברכב. אלה תיאורי יכולות של הספק, לא תוצאות של מבחן ביצועים עצמאי או אישור לזיהוי כל לוויין בכל מקום.\n\nהמסוף מבוסס על ארכיטקטורת OpenSpace של Kratos ותומך, לפי החברה, בחיבור כמה יחידות, הפעלה מרחוק, קישוריות לענן ושילוב תוכנה של צדדים שלישיים. הנתונים על רשת KnownSpace הרחבה, מעל 190 חיישנים ב-20 אתרים, מתייחסים לרשת השירות הקיימת, ולא למספר יחידות Recon+ שנמכרו כעת.\n\nהחידוש הוא מוצר נייד שזמין לרכישה ושכבר נרכש לפי דיווח החברה, לא הזמנה לצי לוויינים או תחזית הכנסות חדשה. לא נמסרה השפעה כספית כמותית על Kratos.",
+    "טקסט_en": "November 12, 2026 | Kratos' full original GlobeNewswire release was published at 08:00 ET, or 15:00 Israel time.\n\nKratos launched KnownSpace Recon+, a portable terminal combining radio-frequency space-domain-awareness capabilities. The company says it is commercially available and that multiple US government agencies have already purchased units. Agency names, unit counts, selling prices and order values were not disclosed, so this is not presented as a newly awarded government contract for a specified amount.\n\nThe system is designed to detect and classify satellite signals, characterize activity and monitor local interference and jamming. Kratos describes capabilities previously restricted to fixed installations moving into a portable unit deployable in the field, at a command post or on a vehicle. These are supplier capability descriptions, not independent performance tests or confirmation it can identify every satellite everywhere.\n\nBuilt on Kratos' OpenSpace architecture, the terminal supports networking multiple units, remote operations, cloud connectivity and third-party software integration, according to the company. The broader KnownSpace network's more than 190 sensors across 20 locations describes an existing service network, not the number of Recon+ units just sold.\n\nThe new information is a commercially available portable product with agency purchases reported by the company, not a satellite-fleet order or new revenue forecast. No quantified financial impact on Kratos was disclosed.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/12/3401510/224/en/kratos-introduces-knownspace-recon-portable-terminal-for-space-domain-awareness-anywhere.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/12/3401510/224/en/kratos-introduces-knownspace-recon-portable-terminal-for-space-domain-awareness-anywhere.html",
+        "label": "Kratos: הודעת ההשקה המקורית והמלאה",
+        "label_en": "Kratos: full original KnownSpace Recon+ launch release"
+      }
+    ],
+    "הועלה": "2026-11-12 15:18",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bd7fc689d8700d6ef96e6ab38fe89d216106eb42256f5e0c6ae505cbb7e1fb05"
+      }
+    }
   }
 ]
