@@ -35131,5 +35131,106 @@
         "source_hash": "087b888dbb3da55311721eb923e2dc95d5d901d0ff4911dc8049695080218f1d"
       }
     }
+  },
+  {
+    "מזהה": "n-1403",
+    "category": "micro",
+    "חברה": "AMAT",
+    "symbols": [
+      "AMAT"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-26 22:30",
+    "כותרת": "השלמת סיקור: Applied Materials הגדילה את השקעתה ב-Besi לכ-20%; מרשם AFM מציג אחזקה ממשית של 19.8%",
+    "כותרת_en": "Catch-up: Applied Materials increases Besi investment to about 20%; AFM register shows 19.8% actual holding",
+    "טקסט": "השלמת סיקור להודעה המקורית מ-26 באוקטובר 2026, 16:30 EDT, שהם 22:30 בישראל. Applied Materials הודיעה על הסכם רכישה מואצת של מניות BE Semiconductor Industries, המכונה Besi, שיביא את השקעתה לכ-20% ממניות החברה. זו אינה הודעת עסקה חדשה מנובמבר.\n\nבדיקה עדכנית במרשם האחזקות המהותיות של הרגולטור ההולנדי AFM מציגה רישום של 19.80% בהון ובזכויות ההצבעה, עם תאריך עסקה 26 באוקטובר. האחזקה מסווגת כאחזקה ממשית עקיפה דרך Applied Materials Europe B.V., ולא כאחזקה פוטנציאלית. לכן אין להציג את כל ההגדלה כיום כתוכנית בלבד שטרם נרשמה. הנתון הראשוני במרשם הוא 19.8%, ולא 19.9% שצוטט בחלק מהדיווחים המשניים.\n\nבהודעה המקורית וב-8-K נאמר שמסירת המניות לפי ההסכם כפופה לפקיעה או לסיום של תקופת ההמתנה לפי חוק ההגבלים HSR בארה\"ב. זהו התנאי כפי שפורסם באוקטובר; רישום AFM לבדו אינו מפרט מתי בדיוק הסתיימה תקופת ההמתנה או מאשר תאריך סגירה של כל רכיב בהסכם. בהודעות שנבדקו לא נמסר מחיר הרכישה.\n\nApplied מגדירה את ההשקעה כארוכת טווח, אמרה שאין לה כוונה נוכחית להגדיל את חלקה מעבר לכ-20%, ואינה מתכוונת לבקש ייצוג בדירקטוריון. Besi אישרה ב-27 באוקטובר את הודעת ההשקעה והרחבת הקשר האסטרטגי. אין כאן השתלטות מלאה על Besi או מינוי דירקטור חדש.\n\nהחברות משתפות פעולה מאז 2020 במערכות hybrid bonding לאריזת שבבים. שיתוף הפעולה התרחב במסגרת הצטרפות Besi למרכז EPIC של Applied, לרבות שילוב לוגיקה וזיכרון, קישוריות תלת-ממדית, thermo-compression bonding ופלטפורמות die-on-wafer, die-on-die ו-die-on-panel. אלה תחומי פיתוח ושיתוף פעולה, לא הזמנות מכירה חדשות או תחזית הכנסות מאומתת. ההשקעה מחזקת קשר תעשייתי בתחום אריזת השבבים ל-AI, בלי שסופק אומדן כספי חדש לתרומתה לרווחים.",
+    "טקסט_en": "Catch-up coverage of the original October 26, 2026 release at 16:30 EDT, 22:30 Israel time. Applied Materials announced an accelerated share purchase agreement intended to bring its investment in BE Semiconductor Industries, known as Besi, to approximately 20% of the company's outstanding shares. This is not a new November transaction announcement.\n\nA current check of the Dutch AFM substantial-holdings register shows a notified 19.80% capital interest and voting-rights holding, with an October 26 transaction date. It is classified as an indirectly held actual interest through Applied Materials Europe B.V., not a potential interest. The entire increase should therefore not be described today as an unrecorded plan only. The primary register shows 19.8%, rather than the 19.9% cited in some secondary reports.\n\nThe original release and Form 8-K said delivery under the agreement was subject to expiration or termination of the applicable US HSR antitrust waiting period. That is the condition as disclosed in October; the AFM entry alone does not establish the precise waiting-period end date or a closing date for every element of the agreement. The releases reviewed do not disclose the purchase price.\n\nApplied describes its investment as long term, said it has no current intention to exceed approximately 20%, and does not intend to seek board representation. Besi acknowledged the investment announcement and expanded strategic relationship on October 27. This is not a full takeover of Besi or the appointment of a new director.\n\nThe companies have collaborated since 2020 on hybrid-bonding systems for chip packaging. Their collaboration expanded through Besi joining Applied's EPIC Center, including logic and memory integration, next-generation 3D interconnects, thermo-compression bonding, and die-on-wafer, die-on-die and die-on-panel platforms. These are development and collaboration areas, not new sales orders or a verified revenue forecast. The investment strengthens an industrial relationship in AI chip packaging, without a new quantified earnings contribution.",
+    "קישור": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-increase-its-strategic-investment-be/",
+    "מקורות": [
+      {
+        "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-increase-its-strategic-investment-be/",
+        "label": "Applied Materials: הודעת המקור מ-26 באוקטובר",
+        "label_en": "Applied Materials: original October 26 release"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026067303/amat-20261026.htm",
+        "label": "SEC: דיווח 8-K על הסכם הרכישה ותנאי HSR",
+        "label_en": "SEC: Form 8-K on the share purchase agreement and HSR condition"
+      },
+      {
+        "url": "https://www.afm.nl/en/sector/registers/meldingenregisters/substantiele-deelnemingen/details?id=202113&KeyWords=Applied+Materials",
+        "label": "AFM: רישום אחזקה ממשית עקיפה של 19.80%, תאריך עסקה 26 באוקטובר",
+        "label_en": "AFM: 19.80% indirect actual holding, October 26 transaction date"
+      },
+      {
+        "url": "https://www.besi.com/investor-relations/press-releases/details/applied-materials-to-increase-its-strategic-investment-in-be-semiconductor-industries/",
+        "label": "Besi: תגובת החברה המקורית מ-27 באוקטובר",
+        "label_en": "Besi: original October 27 company response"
+      }
+    ],
+    "הועלה": "2026-11-12 12:18",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b574cb5e827e81af0ec93964ed2403caf342cb2c1e16ea71a2cbaefd028b7fd7"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1404",
+    "category": "macro",
+    "תאריך": "2026-10-09",
+    "כותרת": "השלמת סיקור: ה-FCC החריג דגמי רחפנים, נתבים, רובוטים וממירי הספק מסוימים; האישור מותנה ואינו ביטול גורף של ההגבלות",
+    "כותרת_en": "Catch-up: FCC excludes specified drone, router, robot and inverter models; approvals are conditional, not a blanket repeal",
+    "טקסט": "השלמת סיקור: בשש הודעות מקור מ-9, 16, 21, 23 ו-30 באוקטובר ומ-6 בנובמבר 2026, ה-FCC החריג מרשימת הציוד המכוסה דגמים ומשפחות מוצרים מוגדרים של רחפנים, נתבים, רובוטים מתקדמים וממירי הספק המיוצרים מחוץ לארה\"ב. אלה החלטות נקודתיות שכבר פורסמו, לא ביטול גורף חדש של ההגבלות בנובמבר. שעות הפרסום המקוריות אינן מאומתות.\n\nהחרגות לפי הודעות ה-FCC:\n- 9 באוקטובר: גרסאות FLEXINVERTER של GE Grid Solutions, לרבות 1.5kV Solar, 1.5kV BESS, 2kV Solar ו-SiC Variant.\n- 16 באוקטובר: כלי AGV/AMR של Volley Automation; ממירי CPS-2500, CPS-1250 ו-MPS-125 של Dynapower; ופלטפורמת GEN3 של Power Electronics España, כולל HEM ו-PCSM/Multi PCSM. קביעות הביטחון התקבלו ב-15 באוקטובר; הודעת ה-FCC ותאריכי המרשם הם מ-16 באוקטובר, ולכן אלה שלבים שונים.\n- 21 באוקטובר: נתבי Radix GRBE94 ו-GRBE36 של Micro-Star International ופלטפורמת הרובוט Sourccey של Vulcan Robotics. לפי המרשם העדכני, תוקף החרגת הנתבים עד 17 באפריל 2028.\n- 23 באוקטובר: רחפני 383.2 של Manna; נתב XGSPON ONT 1000 של Alpha Networks, עד 24 באפריל 2028; ממירי INV-750, AC7, RI7 ו-Central של Bloom Energy; ממירי WD3 ו-WD4 של Hitachi Energy; רובוט Violet AI של Haystack; ומשפחת כלי AGV של T-Robotics.\n- 30 באוקטובר: רחפן T של Voliro; דגמי Maia2000 ו-Atlas AC2000 המפורטים בהודעה של ARAPL; דגמי Sherpa ו-FlexFork המפורטים של ATI Motors; רובוטי Lumi של Lightberry; דגמי SunScout ומערכת Solar Shelter; רובוט V7 של Swap Robotics; רובוטי LD-150 ו-LD-300 של OMRON; וממירי INGECON 3POWER C, C Plus, C HV ו-M של Ingeteam.\n- 6 בנובמבר: מערכת Air Max של Percepto, כולל רחפן Optical Gas Imaging ותחנת הבסיס; רובוטי ABB מדגמי AMMR G0540, AMMR G1240 ו-P204V; חומרת Pandroid של Pantograph; משפחות APCS-UL ו-APV-UL של Nextpower; ונתב XF10 של SERCOMM. חריגת SERCOMM מסתיימת ב-8 במאי 2028.\n\nהמנגנון הוא קביעות ביטחון לאומי ואישור מותנה של Department of War, שבעקבותיהם ה-FCC מוציא את המכשירים המוגדרים מן ה-Covered List. התנאים כוללים המשך עמידה בתוכנית העברת פעילות ייצור לארה\"ב כפי שהוגשה ובדיקות מעודכנות של המוצרים, בהתאם לקביעה הספציפית. אי-עמידה בתנאים או מצג כוזב בבקשה עלולים להביא לביטול האישור ולהחזרת הציוד לרשימה. אישורים שאין בהם מועד סיום אינם פטור בלתי מותנה לצמיתות.\n\nההחרגה מתייחסת למוצרים הנקובים בלבד, לא לכל מוצרי היצרנים או לכל ציוד ממדינה מסוימת. היא אינה כשלעצמה אישור הפעלה תעופתי, הסרת כל דרישת אישור ציוד, זכייה במכרז ממשלתי או הוכחה למכירות שכבר בוצעו. ההשלכה הכלכלית היא הסרת חסם רגולטורי מסוים למוצרים מוגדרים בשוק האמריקאי; בהודעות אין תחזית הכנסות חדשה ליצרנים.",
+    "טקסט_en": "Catch-up coverage: in six original notices dated October 9, 16, 21, 23 and 30 and November 6, 2026, the FCC excluded specified foreign-produced drone, router, advanced-robotics and power-inverter models or product families from its Covered List. These are previously published product-specific decisions, not a new blanket repeal of restrictions in November. Original publication times were not verified.\n\nExclusions by FCC notice:\n- October 9: GE Grid Solutions FLEXINVERTER versions including 1.5kV Solar, 1.5kV BESS, 2kV Solar and SiC Variant.\n- October 16: Volley Automation AGV/AMR devices; Dynapower CPS-2500, CPS-1250 and MPS-125 inverter series; and Power Electronics España's GEN3 platform, including HEM and PCSM/Multi PCSM. Security determinations were received on October 15; the FCC notice and current register dates are October 16, so these are different stages.\n- October 21: Micro-Star International Radix GRBE94 and GRBE36 routers and Vulcan Robotics' Sourccey platform. The current register lists the routers' approval through April 17, 2028.\n- October 23: Manna 383.2 UAS; Alpha Networks XGSPON ONT 1000 router through April 24, 2028; Bloom Energy INV-750, AC7, RI7 and Central inverter platforms; Hitachi Energy WD3 and WD4 inverters; Haystack Violet AI robot; and T-Robotics' AGV product class.\n- October 30: Voliro T UAS; ARAPL Maia2000 and Atlas AC2000 variants specified in the notice; specified ATI Motors Sherpa and FlexFork models; Lightberry Lumi robots; SunScout models and Solar Shelter systems; Swap Robotics V7; OMRON LD-150 and LD-300 robots; and Ingeteam INGECON 3POWER C, C Plus, C HV and M inverters.\n- November 6: Percepto Air Max ecosystem, including the Optical Gas Imaging drone and base station; ABB AMMR G0540, AMMR G1240 and P204V robots; Pantograph Pandroid hardware; Nextpower APCS-UL and APV-UL product families; and SERCOMM XF10 router. SERCOMM's approval ends May 8, 2028.\n\nThe mechanism is Department of War national-security determinations and Conditional Approvals, following which the FCC excludes the identified devices from its Covered List. Conditions include continued compliance with the submitted onshoring plan and updated product vetting, as specified in the individual determination. Non-compliance or misrepresentation in an application can lead to termination and return to the list. Approvals without an end date are not unconditional permanent waivers.\n\nExclusions cover the identified products only, not every product of a manufacturer or all equipment from a particular country. They do not by themselves establish an aviation operating approval, removal of all equipment-authorization requirements, a government procurement award or completed sales. The economic effect is removing a particular regulatory barrier for specified products in the US market; the notices provide no new manufacturer revenue forecast.",
+    "קישור": "https://docs.fcc.gov/public/attachments/DA-26-1203A1.pdf",
+    "מקורות": [
+      {
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-1089A1.pdf",
+        "label": "FCC: הודעת המקור DA 26-1089, 9 באוקטובר",
+        "label_en": "FCC: original DA 26-1089 notice, October 9"
+      },
+      {
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-1114A1.pdf",
+        "label": "FCC: הודעת המקור DA 26-1114, 16 באוקטובר",
+        "label_en": "FCC: original DA 26-1114 notice, October 16"
+      },
+      {
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-1130A1.pdf",
+        "label": "FCC: הודעת המקור DA 26-1130, 21 באוקטובר",
+        "label_en": "FCC: original DA 26-1130 notice, October 21"
+      },
+      {
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-1154A1.pdf",
+        "label": "FCC: הודעת המקור DA 26-1154, 23 באוקטובר",
+        "label_en": "FCC: original DA 26-1154 notice, October 23"
+      },
+      {
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-1181A1.pdf",
+        "label": "FCC: הודעת המקור DA 26-1181, 30 באוקטובר",
+        "label_en": "FCC: original DA 26-1181 notice, October 30"
+      },
+      {
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-1203A1.pdf",
+        "label": "FCC: הודעת המקור DA 26-1203, 6 בנובמבר",
+        "label_en": "FCC: original DA 26-1203 notice, November 6"
+      },
+      {
+        "url": "https://www.fcc.gov/supplychain/coveredlist",
+        "label": "FCC: המרשם העדכני ותאריכי האישור",
+        "label_en": "FCC: current Covered List and approval dates"
+      }
+    ],
+    "הועלה": "2026-11-12 12:18",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c6348628a4765222eb9844c4903bcd219a68f45bdd5d55260204c8cb3c8041fc"
+      }
+    }
   }
 ]
