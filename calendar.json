@@ -2504,22 +2504,34 @@
     "מדינה": "US",
     "אירוע": "תביעות אבטלה מתמשכות",
     "חשיבות": 1,
-    "הערה": "פרסום DOL ביום חמישי12.11 בשעה08:30EST=15:30 בישראל. צפי לפרסום הבא טרם אומת.\nקודם לפרסום12.11:1.718מיליון תביעות מתמשכות מנוכות עונתיות לשבוע שהסתיים24.10, שפורסמו5.11. זו תקופה שונה מהתביעות הראשוניות; הנתון עשוי להתעדכן בפרסום הבא.",
+    "הערה": "פורסם 12.11.2026 בשעה 15:30 בישראל: נתון ראשוני מנוכה עונתיות של 1.697 מיליון תביעות מתמשכות לשבוע שהסתיים ב-31.10, ירידה של 20 אלף מול הנתון הקודם המעודכן. קודם לשבוע שהסתיים ב-24.10 עודכן מ-1.718 ל-1.717 מיליון. שיעור האבטלה המבוטחת נותר 1.1%. התקופה שונה מתקופת התביעות הראשוניות; אין כאן סך כל מקבלי דמי האבטלה בכל התוכניות.",
     "מקור": "https://oui.doleta.gov/unemploy/claims_arch.asp",
     "תקופה": "שבועי",
-    "קודם": "1.718M",
+    "קודם": "1.717M",
     "הערות_מקור_ארכיון": "\nDOLקובע כל חמישי08:30EST, ללא חריג12.11ברשימת החריגים. צפי/קודם לא להעתיק מפרסום5.11 שטרם התרחש.",
     "מקור_קודם": "https://www.dol.gov/ui/data.pdf",
     "מזהה": "c-0105",
     "אירוע_en": "Continuing jobless claims",
     "תקופה_en": "Weekly",
-    "הערה_en": "DOL release Thursday Nov 12 at 08:30 EST = 15:30 Israel. Estimate for the next release not yet verified.\nPrior for the Nov 12 release: 1.718 million seasonally adjusted continuing claims for the week ended Oct 24, published Nov 5. This is a different period from initial claims; the figure may be updated in the next release.",
+    "הערה_en": "Published November 12, 2026 at 15:30 Israel: advance seasonally adjusted continuing claims of 1.697 million for the week ended October 31, down 20 thousand from the revised prior. The prior for the week ended October 24 was revised from 1.718 million to 1.717 million. The insured unemployment rate remained 1.1%. Its reference period differs from initial claims; this is not the total across all benefit programs.",
     "_translation": {
       "en": {
-        "source_hash": "9867e93b5f8c4c12f85c8ba4141bd2ae234e32d694fac4734a3ba6949c7dbb34",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "5045c9a3dead3db047329d3319fcb4c3da239ce6fac9bb446d5ffd4b5a217c94"
       }
-    }
+    },
+    "היסטוריית_נתונים": [
+      {
+        "תאריך_עדכון": "2026-11-12",
+        "קודם": "1.718M",
+        "בפועל": null,
+        "הערה": "פרסום DOL ביום חמישי12.11 בשעה08:30EST=15:30 בישראל. צפי לפרסום הבא טרם אומת.\nקודם לפרסום12.11:1.718מיליון תביעות מתמשכות מנוכות עונתיות לשבוע שהסתיים24.10, שפורסמו5.11. זו תקופה שונה מהתביעות הראשוניות; הנתון עשוי להתעדכן בפרסום הבא.",
+        "הערה_en": "DOL release Thursday Nov 12 at 08:30 EST = 15:30 Israel. Estimate for the next release not yet verified.\nPrior for the Nov 12 release: 1.718 million seasonally adjusted continuing claims for the week ended Oct 24, published Nov 5. This is a different period from initial claims; the figure may be updated in the next release."
+      }
+    ],
+    "בפועל": "1.697M",
+    "מקור_בפועל": "https://www.dol.gov/ui/data.pdf",
+    "תאריך_בדיקת_בפועל": "2026-11-12 15:31"
   },
   {
     "תאריך": "2026-11-12",
@@ -2527,10 +2539,10 @@
     "מדינה": "US",
     "אירוע": "תביעות אבטלה שבועיות",
     "חשיבות": 1,
-    "הערה": "פרסום DOL ביום חמישי12.11 בשעה08:30EST=15:30 בישראל. צפי לפרסום הבא טרם אומת.\nקודם לפרסום12.11:189אלף תביעות ראשוניות מנוכות עונתיות לשבוע שהסתיים31.10, שפורסמו5.11. הנתון עשוי להתעדכן בפרסום הבא.\nעדכון 07.11.2026: צפי לפי ForexFactory 194K. מקורו לא אומת מול מקור ראשוני. היסטוריית הצפי וההערות נשמרה; אין כאן נתון בפועל חדש.",
+    "הערה": "פורסם 12.11.2026 בשעה 15:30 בישראל: נתון ראשוני מנוכה עונתיות של 200 אלף תביעות ראשוניות לשבוע שהסתיים ב-7.11, עלייה של 9 אלפים מול הקודם המעודכן. קודם לשבוע שהסתיים ב-31.10 עודכן מ-189 ל-191 אלף. ממוצע ארבעת השבועות 195.25 אלף. הצפי הקיים 194K של ForexFactory נשמר כצפי ממקור משני, לא נתון של DOL; היסטוריית הצפי נשמרה.",
     "מקור": "https://oui.doleta.gov/unemploy/claims_arch.asp",
     "תקופה": "שבועי",
-    "קודם": "189K",
+    "קודם": "191K",
     "הערות_מקור_ארכיון": "\nDOLקובע כל חמישי08:30EST, ללא חריג12.11ברשימת החריגים. צפי/קודם לא להעתיק מפרסום5.11 שטרם התרחש.",
     "מקור_קודם": "https://www.dol.gov/ui/data.pdf",
     "היסטוריית_צפי": [
@@ -2549,13 +2561,25 @@
     "מזהה": "c-0106",
     "אירוע_en": "Weekly jobless claims",
     "תקופה_en": "Weekly",
-    "הערה_en": "DOL release Thursday Nov 12 at 08:30 EST = 15:30 Israel. Estimate for the next release not yet verified.\nPrior for the Nov 12 release: 189 thousand seasonally adjusted initial claims for the week ended Oct 31, published Nov 5. The figure may be updated in the next release.\nUpdate Nov 7, 2026: estimate per ForexFactory 194K. Its source was not verified against a primary source. Estimate history and notes were retained; there is no new actual figure here.",
+    "הערה_en": "Published November 12, 2026 at 15:30 Israel: advance seasonally adjusted initial claims of 200 thousand for the week ended November 7, up 9 thousand from the revised prior. The prior for the week ended October 31 was revised from 189 thousand to 191 thousand. The four-week average was 195.25 thousand. The existing ForexFactory forecast of 194K is retained as a secondary-source estimate, not a DOL figure; estimate history is preserved.",
     "_translation": {
       "en": {
-        "source_hash": "004f718f606063a48e07298ed3a6f8e220bb78f5a6576041cc54343644c3aa69",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "8ec6079db8ee36342479c548bf1a2e030774ad8cfa71ac87c81198a5b2900743"
       }
-    }
+    },
+    "היסטוריית_נתונים": [
+      {
+        "תאריך_עדכון": "2026-11-12",
+        "קודם": "189K",
+        "בפועל": null,
+        "הערה": "פרסום DOL ביום חמישי12.11 בשעה08:30EST=15:30 בישראל. צפי לפרסום הבא טרם אומת.\nקודם לפרסום12.11:189אלף תביעות ראשוניות מנוכות עונתיות לשבוע שהסתיים31.10, שפורסמו5.11. הנתון עשוי להתעדכן בפרסום הבא.\nעדכון 07.11.2026: צפי לפי ForexFactory 194K. מקורו לא אומת מול מקור ראשוני. היסטוריית הצפי וההערות נשמרה; אין כאן נתון בפועל חדש.",
+        "הערה_en": "DOL release Thursday Nov 12 at 08:30 EST = 15:30 Israel. Estimate for the next release not yet verified.\nPrior for the Nov 12 release: 189 thousand seasonally adjusted initial claims for the week ended Oct 31, published Nov 5. The figure may be updated in the next release.\nUpdate Nov 7, 2026: estimate per ForexFactory 194K. Its source was not verified against a primary source. Estimate history and notes were retained; there is no new actual figure here."
+      }
+    ],
+    "בפועל": "200K",
+    "מקור_בפועל": "https://www.dol.gov/ui/data.pdf",
+    "תאריך_בדיקת_בפועל": "2026-11-12 15:31"
   },
   {
     "תאריך": "2026-11-12",
