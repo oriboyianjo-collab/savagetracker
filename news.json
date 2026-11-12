@@ -37466,9 +37466,17 @@
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "7a5e43c6a510f8e3d84678de8cd619fc99d26845189b0724b40be5561d62c674"
+        "source_hash": "d05409346ec0f11d5e12c91e48dd1d5708e2f59a5c2db3d4a295942fb0c94adb"
       }
-    }
+    },
+    "חברה": "GOOGL",
+    "symbols": [
+      "GOOGL"
+    ],
+    "sectors": [
+      "communication_services"
+    ],
+    "tags_version": 1
   },
   {
     "מזהה": "n-1475",
