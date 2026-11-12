@@ -36296,5 +36296,40 @@
         "source_hash": "3696ef3154de16189483b9342b2d987fb7c1c43f684365430759e079daf3aa71"
       }
     }
+  },
+  {
+    "מזהה": "n-1440",
+    "category": "micro",
+    "חברה": "SpaceX",
+    "symbols": [],
+    "sectors": [
+      "communication_services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 12:15",
+    "כותרת": "זלנסקי: הגבלות מהירות Starshield חזרו באוקראינה ומקשות על יירוט רחפנים; לא ידוע מי החליט על ההגבלה החדשה",
+    "כותרת_en": "Zelenskyy: Starshield speed restrictions return in Ukraine, hampering drone interception; decision-maker not established",
+    "טקסט": "לא מאומת מול אישור טכני בלתי תלוי או תגובת SpaceX\n12.11.2026 | כתבת CNBC פורסמה ב-05:15 EST, 12:15 שעון ישראל, ונקראה במלואה לצד דיווח Reuters דרך CNBC TV18. זהו זמן הכתבה, לא זמן מאומת של הפרסום הראשון. הפרטים מיוחסים להצהרות האוקראיניות כפי שדווחו, ולא לאימות עצמאי של הסיבה הטכנית או זהות מקבל ההחלטה.\n\nזלנסקי מסר שהיחידות האוקראיניות חוות כבר כמה ימים שיבושים משמעותיים בפעילות Starshield לאורך כל קו החזית ובשטחים הכבושים. לדבריו, הצבא בדק ומצא הגבלת מהירות תנועה שיטתית ברמה של 161 קמ\"ש, ולא תקלות מקריות. זהו סף מהירות של המסוף הנע, לא קצב הורדה של 161 מגה-ביט לשנייה.\n\nלדבריו, ההגבלה מקשה על יירוט רחפנים רוסיים מונעי סילון, וחלק מהתקיפות כבר עברו משום שמערכות היירוט לא הצליחו להגיע למהירות הדרושה. אלה טענות הנשיא על השפעה מבצעית, לא בדיקה עצמאית של כל יירוט. הוא אמר שאוקראינה מנסה לברר את הנסיבות עם הצד האמריקאי.\n\nלפי CNBC, גם יועץ הטכנולוגיה הביטחונית סרהי בסקרסטנוב כתב היום שמהירות פעולת Starlink בתנועה הוגבלה שוב, והצביע על קשיי תקשורת במסוקים וברחפני יירוט. Starshield הוא שירות ממשלתי וביטחוני המבוסס על טכנולוגיית Starlink; אין כאן דיווח על השבתה של כל שירות Starlink בעולם או על שינוי בחיבורי יונייטד.\n\nמה חדש מול הפריטים הקודמים באפליקציה: זו טענה להגבלות שחזרו בנובמבר, לאחר השחזור שדווח בסוף אוקטובר. אין להעביר לדיווח החדש את ייחוס ההוראה למאסק או לטראמפ מתוך כתבות על ההגבלה הישנה. לפי Reuters, עדיין לא ברור מי קיבל את ההחלטה; CNBC פנתה ל-SpaceX ולבית הלבן לתגובה.\n\nאין במקורות שנקראו אישור לנסיגה אמריקאית מתמיכה באוקראינה, להסכם עם רוסיה או לתנאי חדש להפסקת אש. המידע החדש הוא דיווח על הצהרה אוקראינית בדבר חזרה של מגבלה תפעולית, כשהגורם והנסיבות עדיין בבירור.",
+    "טקסט_en": "Not verified against independent technical confirmation or a SpaceX response\nNovember 12, 2026 | CNBC's article was published at 05:15 EST, or 12:15 Israel time, and was read in full alongside Reuters via CNBC TV18. This is the article timestamp, not a verified first-publication time. Details are attributed to the Ukrainian statements as reported, not independent verification of the technical cause or decision-maker.\n\nZelenskyy says Ukrainian units have recorded significant Starshield disruptions for several days along the entire front line and in occupied territories. He says military checks found systematic restrictions at a movement speed of 161 kilometers per hour, rather than random errors. This is a moving terminal's speed threshold, not a 161-megabits-per-second download limit.\n\nHe says the restriction makes it harder to intercept Russian jet-powered drones and that some attacks have already got through because interceptor systems cannot reach the necessary speeds. These are his statements about operational effects, not independent verification of every interception. He says Ukraine is trying to establish the circumstances with the American side.\n\nCNBC also reports that defense-technology adviser Serhii Beskrestnov says today Starlink's operating speed during movement was restricted again, affecting helicopter communications and interceptor drones. Starshield is a government and national-security service built on Starlink technology. This is not a reported shutdown of all Starlink service worldwide or a change to United Airlines connectivity.\n\nWhat is new versus earlier app coverage is the reported return of restrictions in November after the restoration reported in late October. Attribution to Musk or Trump in reports about the older restriction cannot be carried over to this new episode. Reuters says the decision-maker remains unclear; CNBC sought comment from SpaceX and the White House.\n\nThe reviewed sources do not establish a US withdrawal of support for Ukraine, an agreement with Russia or a new ceasefire condition. The new information is a report of a Ukrainian statement about a renewed operating restriction, with cause and circumstances still under review.",
+    "קישור": "https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html",
+        "label": "CNBC: כתבה מלאה והפרדה מהמגבלות באוקטובר",
+        "label_en": "CNBC: full article separating the October restrictions"
+      },
+      {
+        "url": "https://www.cnbctv18.com/world/volodymyr-zelenskyy-says-starshield-speed-limited-again-hampering-ukraine-defences-20032591.htm",
+        "label": "Reuters דרך CNBC TV18: זהות מקבל ההחלטה אינה ידועה",
+        "label_en": "Reuters via CNBC TV18: decision-maker remains unclear"
+      }
+    ],
+    "הועלה": "2026-11-12 15:25",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8ba514b82db8b4931d434e51f091701a3fdf424a6892ce0835d053593c7b92a9"
+      }
+    }
   }
 ]
