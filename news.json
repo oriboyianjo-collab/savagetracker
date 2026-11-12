@@ -35655,5 +35655,29 @@
         "source_hash": "aa0d54f3d970336d188f4ed7290875031b1916867fa3077f9bccc0bf7127b09a"
       }
     }
+  },
+  {
+    "מזהה": "n-1420",
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "כותרת": "Chevron (CVX): תחדש בהדרגה את מפעל הביודיזל ברלסטון, איווה, בתמיכת הסכם אספקה עם Landus; הייצור טרם אושר כחוזר לפעולה",
+    "כותרת_en": "Chevron (CVX): plans staged restart of Ralston, Iowa biodiesel plant with Landus supply agreement; production not confirmed resumed",
+    "טקסט": "12.11.2026 | הודעת Chevron הרשמית באמצעות Business Wire נקראה במלואה. שעת הפרסום המקורית לא אומתה.\n\nChevron U.S.A. הודיעה על החלטה לחדש את פעילות מפעל הביודיזל שלה ברלסטון, איווה, שהושבת ב-2024 בעקבות ירידה בתנאי השוק. החזרה לפעילות נתמכת בהסכם מסחרי ותפעולי עם קואופרטיב החקלאים Landus, שמפעל עיבוד הסויה הסמוך שלו מספק שרשרת אספקה לחומרי הגלם.\n\nהחברה מייחסת את ההחלטה לשיפור בתנאי שוק הביודיזל. לפי ההודעה, Landus שדרגה לאחרונה את מתקן העיבוד שלה ברלסטון, המעבד יותר מ-28 מיליון בושל סויה בשנה. זהו נתון של מתקן עיבוד הסויה, לא תפוקת הביודיזל של Chevron.\n\nהחידוש ייעשה בשלבים הכוללים איוש, תחזוקה, בטיחות והכנה תפעולית לפני חזרת הייצור. לא נמסר מועד מדויק להפעלה מחדש, והיקף ותזמון תוספת העובדים עדיין נבחנים. אין כאן אישור שהמפעל כבר חזר לייצר או שכל שלבי ההכנה הושלמו.\n\nבהפעלה מלאה, למפעל קיבולת של כמעט 42 מיליון גלון ביודיזל בשנה. זו קיבולת של מתקן קיים, לא תפוקה נוכחית, מכירות מובטחות או תוספת שכבר נכנסה לשוק. ההודעה אינה מפרסמת את שווי ההסכם, הוצאות ההפעלה מחדש או תרומה כספית צפויה.\n\nהאירוע הוא החלטת חידוש של מתקן מזוהה עם הסכם אספקת חומרי גלם, ונפרד מעסקת נמיביה ב-n-1232 ומהמגעים בעיראק ב-n-1308. אין להסיק ממנו שסוכמו או נחתמו הסכמים אחרים של Chevron בוונצואלה.",
+    "טקסט_en": "November 12, 2026 | Official Chevron release via Business Wire, read in full. The original publication hour was not verified.\n\nChevron U.S.A. announced a decision to resume operations at its Ralston, Iowa biodiesel facility, idled in 2024 after a market downturn. The restart is supported by a commercial and operational agreement with farmer-owned Landus Cooperative, whose neighboring soybean processing plant provides a feedstock supply chain.\n\nChevron attributes the decision to improved biodiesel market conditions. The release says Landus recently upgraded its Ralston processing facility, which processes more than 28 million bushels of soybeans a year. That is a soybean processing metric, not Chevron's biodiesel output.\n\nThe restart will be staged, including staffing, maintenance, safety and operational-readiness work before production resumes. No precise restart date is provided, and the timing and scope of workforce additions remain under assessment. This does not confirm that production has already restarted or all preparations are complete.\n\nAt full production, Ralston has capacity of nearly 42 million gallons of biodiesel annually. This is existing facility capacity, not current output, guaranteed sales or supply already added to the market. The release does not disclose the agreement value, restart spending or expected financial contribution.\n\nThis is a restart decision for an identified facility supported by a feedstock agreement, separate from the Namibia transaction in n-1232 and Iraq discussions in n-1308. It does not establish that other Chevron agreements in Venezuela have been agreed or signed.",
+    "קישור": "https://www.businesswire.com/news/home/20261112427787/en/Chevron-to-Restart-Ralston-Biodiesel-Facility-in-Iowa-Supported-by-Landus-Cooperative-Feedstock-Supply-Agreement",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261112427787/en/Chevron-to-Restart-Ralston-Biodiesel-Facility-in-Iowa-Supported-by-Landus-Cooperative-Feedstock-Supply-Agreement",
+        "label": "Chevron: הודעת חידוש מפעל רלסטון והסכם Landus, 12 בנובמבר",
+        "label_en": "Chevron: Ralston restart and Landus agreement announcement, November 12"
+      }
+    ],
+    "הועלה": "2026-11-12 14:24",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3f7f425b4f78a88a27e10821387eeccf9345575211219d5380a9007cb6d48ae6"
+      }
+    }
   }
 ]
