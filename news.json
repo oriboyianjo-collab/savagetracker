@@ -37836,5 +37836,37 @@
         "source_hash": "6af4c6584a8823c01cb5af87a8b4b099f720ea674b3ba9670217f5aa8e0808d4"
       }
     }
+  },
+  {
+    "מזהה": "n-1486",
+    "category": "micro",
+    "חברה": "Realty Income",
+    "symbols": [
+      "O"
+    ],
+    "sectors": [
+      "real estate"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 23:15",
+    "כותרת": "Realty Income: ניל אברהם, מנהל האסטרטגיה ונשיא הפעילות הבינלאומית, יעזוב; יישאר בתפקיד עד סוף דצמבר",
+    "כותרת_en": "Realty Income strategy chief and international president Neil Abraham to leave; remains in role through December",
+    "טקסט": "12.11.2026 | הודעת החברה ב-PRNewswire מתוארכת ל-16:15 שעון ניו יורק, 23:15 שעון ישראל, ונקראה במלואה.\n\nRealty Income הודיעה כי ניל אברהם, סגן נשיא בכיר ומנהל האסטרטגיה הראשי וכן נשיא Realty Income International, יעזוב את החברה. הוא ימשיך בתפקידו הנוכחי עד 31 בדצמבר 2026 כדי לתמוך במעבר; אין זו עזיבה מיידית.\n\nהחברה מתכוונת להתקשר עמו בהסכם ייעוץ עד 31 במרץ 2027. זהו הסכם מתוכנן, לא אישור שכבר נחתם. לא הוכרז בהודעה על מחליף או על שינוי בתפקיד המנכ\"ל סומיט רוי.\n\nאברהם אמר כי בכוונתו לבחון הזדמנויות חדשות, והחברה הודתה לו על 11 שנות תרומה. ההודעה אינה קובעת סיבה נוספת לעזיבה ואינה כוללת שינוי בתחזית הכספית. מדובר בשינוי עתידי בהנהלה האחראית על האסטרטגיה והפעילות הבינלאומית, לא במינוי דירקטור או בהודעה על השלמת עסקה.",
+    "טקסט_en": "November 12, 2026 | The company release on PRNewswire is timestamped 16:15 New York time, 23:15 Israel time, and was read in full.\n\nRealty Income said Neil Abraham, executive vice president and chief strategy officer and president of Realty Income International, will leave the company. He will remain in his current role through December 31, 2026 to support the transition. This is not an immediate departure.\n\nThe company intends to enter into a consulting agreement with him through March 31, 2027. That is a planned agreement, not confirmation it has been signed. The release names no successor and announces no change to CEO Sumit Roy's role.\n\nAbraham said he plans to explore fresh opportunities, while the company thanked him for 11 years of contributions. The release establishes no other reason for his departure and contains no financial-guidance change. This is a future change in strategy and international operating leadership, not a board appointment or completed transaction.",
+    "קישור": "https://www.prnewswire.com/news-releases/realty-income-announces-chief-strategy-officer-transition-302938377.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/realty-income-announces-chief-strategy-officer-transition-302938377.html",
+        "label": "Realty Income: הודעת מעבר מנהל האסטרטגיה, 12 בנובמבר 16:15 ET",
+        "label_en": "Realty Income: chief strategy officer transition release, November 12 at 16:15 ET"
+      }
+    ],
+    "הועלה": "2026-11-12 23:22",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5bb031fb0192eb3e780d40eb651e9c973c2d8cd8c313691c6b862f890f4c8987"
+      }
+    }
   }
 ]
