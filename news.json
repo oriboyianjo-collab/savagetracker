@@ -35530,5 +35530,29 @@
         "source_hash": "4b5ccb738ae26908f3753626ef99606eb6d0d83a7b10e747272b9de6c892bbe4"
       }
     }
+  },
+  {
+    "מזהה": "n-1415",
+    "category": "micro",
+    "תאריך": "2026-11-09",
+    "כותרת": "Rocket Lab: התחייבות ממשלתית מותנית להלוואה של 150 מיליון דולר להגדלת קצב טיסות Neutron; אין אישור לסגירה פיננסית",
+    "כותרת_en": "Rocket Lab: $150 million conditional government loan commitment for Neutron flight rate; no financial close confirmed",
+    "טקסט": "השלמת סיקור להודעת משרד ההון האסטרטגי האמריקאי, OSC, מ-9 בנובמבר 2026, שנקראה במלואה במקור הממשלתי. שעת הפרסום המקורית לא אומתה. האזכור בכתבת Axios מ-12 בנובמבר אינו התחייבות חדשה מהיום.\n\nOSC הודיע על חתימת התחייבות מותנית להלוואה של 150 מיליון דולר ל-Rocket Lab USA, החברה התפעולית העיקרית של Rocket Lab Corporation. ההלוואה המוצעת נועדה לסייע להגדיל את קצב הטיסות של המשגר הרב-פעמי Neutron אחרי טיסתו הראשונה, כדי לענות על ביקוש מסחרי וביטחוני לשירותי שיגור.\n\nהשימושים המיועדים כוללים האצת מסירה וטיפול במשגרים, הרחבת צי כלי השיט וציוד החילוץ וההובלה של Neutron, ושדרוגי ייצור למבנים מחומרים מרוכבים ולמנועים. מתוכננת גם תשתית לקיצור הזמן בין טיסות לאחר תחילת הפעילות של המשגר. אלה מטרות המימון המוצע, לא אישור שכל הקיבולת או כלי השיט כבר נרכשו והופעלו.\n\nלפני סגירה פיננסית Rocket Lab נדרשת להשלים דרישות פיננסיות, משפטיות, טכניות, השקעה ובדיקות נאותות, לצד דרישות נוספות. ההודעה אינה מאשרת שההלוואה נסגרה או שהכסף הועבר. אין זו הזמנת שיגורים של 150 מיליון דולר, מענק או הכנסה שכבר נרשמה.\n\nהמימון נפרד מחוזי Neutron לשמונה משימות שסוקרו ב-n-1140, ממשימת ESCAPADE ומבדיקת רכישת Iridium. אין לחבר את סכום ההלוואה לשווי חוזי השיגור או להסיק שהממשלה רכשה שיגורים נוספים. ההודעה אינה מוכיחה מוכנות לטיסת הבכורה, קובעת מועד שיגור חדש או מאשרת ביטול של חוזי SpaceX בעקבות דיון פוליטי בקונגרס.",
+    "טקסט_en": "Catch-up on the U.S. Office of Strategic Capital's (OSC) November 9, 2026 announcement, read in full on the government site. The original publication hour was not verified. A mention in Axios's November 12 article is not a new commitment today.\n\nOSC announced a signed $150 million conditional loan commitment with Rocket Lab USA, Rocket Lab Corporation's principal operating subsidiary. The proposed loan would help increase the flight rate of the reusable Neutron rocket beyond its first launch to meet commercial and national-security launch demand.\n\nIntended uses include faster vehicle delivery and processing, more maritime vessels and equipment for Neutron recovery and transport, and manufacturing upgrades for composite structures and engines. It would also support infrastructure to shorten turnaround time after the rocket enters operation. These are proposed financing uses, not confirmation that all capacity or vessels have already been acquired and put into service.\n\nBefore financial close, Rocket Lab must satisfy financial, legal, technical, investment, due-diligence and other requirements. The announcement does not confirm that the loan has closed or funds have been transferred. This is not a $150 million launch order, a grant or revenue already recognized.\n\nThe financing is separate from Neutron's eight-mission contracts covered in n-1140, the ESCAPADE mission and the Iridium acquisition review. The loan must not be added to the launch-contract value or treated as extra government launch purchases. The announcement does not establish readiness for a first flight, set a new launch date or confirm cancellation of SpaceX contracts following congressional political discussion.",
+    "קישור": "https://www.war.gov/News/Releases/Release/Article/4644766/the-department-of-wars-office-of-strategic-capital-signs-150-million-conditiona/",
+    "מקורות": [
+      {
+        "url": "https://www.war.gov/News/Releases/Release/Article/4644766/the-department-of-wars-office-of-strategic-capital-signs-150-million-conditiona/",
+        "label": "OSC: הודעת ההתחייבות המותנית המקורית מ-9 בנובמבר",
+        "label_en": "OSC: original November 9 conditional commitment announcement"
+      }
+    ],
+    "הועלה": "2026-11-12 13:34",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "814d90ec413226c3d4376372ca3dffcea219c8a99f8fa4e98206f1e087a89c95"
+      }
+    }
   }
 ]
