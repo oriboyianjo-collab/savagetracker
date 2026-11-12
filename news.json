@@ -36885,5 +36885,42 @@
         "source_hash": "f30f3ab9576ec8333addc397554ccf2758bd50a04e95d57bbde2ca14507c1ca4"
       }
     }
+  },
+  {
+    "מזהה": "n-1457",
+    "category": "micro",
+    "חברה": "NOW",
+    "symbols": [
+      "NOW"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "ServiceNow (NOW): מנוע חדש להעברת CRM בזמינות מבוקרת; פריסה בשבועות היא טענת החברה",
+    "כותרת_en": "ServiceNow (NOW): new CRM migration engine in controlled availability; weeks-to-deploy claim is company-reported",
+    "טקסט": "12.11.2026 | הודעת ServiceNow המקורית ב-Business Wire ודיווח SiliconANGLE נקראו במלואם. שעת הפרסום הראשונה של ההודעה לא אומתה.\n\nServiceNow הכריזה על Autonomous CRM Engine, כלי AI לניתוח מערכת CRM קיימת, לתכנון תהליכים מחדש ולפריסת השינויים המאושרים ב-ServiceNow CRM. המוצר נמצא כעת ב-Controlled Availability, כלומר זמינות מבוקרת, ולא בהשקה כללית לכל הלקוחות. יכולות מורחבות מתוכננות ל-2027.\n\nלפי החברה, הכלי ממפה תהליכים, אובייקטים מותאמים, הגדרות ואינטגרציות במערכת הקיימת, מציע תכנון חדש ומאפשר לפרוס שינויים לאחר אישור. לאחר ההפעלה הוא נועד לנטר שינויי תצורה ותקלות הגדרה. לפי ראיון SiliconANGLE עם מנהל בחברה, ההשקה הראשונית מכוונת למערכות Salesforce בלבד; תמיכה במערכות נוספות מתוכננת בהמשך.\n\nServiceNow טוענת שאפשר לקצר הטמעות מחודשים או שנים לשבועות. זו טענת הספק, לא תוצאה של מחקר השוואתי עצמאי. המנהל אמר ל-SiliconANGLE שהחברה לא ערכה מחקרי תפוקה השוואתיים מול פלטפורמות CRM מתחרות, ושחיבורים למערכות אחרות עדיין יכולים להאריך פרויקטים.\n\nבהודעה מצוטטת Datacom כמי שבחרה ב-ServiceNow CRM ובמנוע החדש. Xactly מתארת החלטה אסטרטגית לעבור לפלטפורמה אחת ואת יתרונות המוצר בעיניה. אלה הצהרות לקוחות שפרסמה ServiceNow, לא נתונים עצמאיים על קיצור זמן ההטמעה או אישור שכל המעברים כבר הושלמו.\n\nלא נמסרו מחיר, ערך הזמנות, הכנסה מהמוצר או מועד לזמינות כללית. נתוני עבר על פרויקטי CRM אחרים אינם תוצאות מוכחות של המנוע החדש. היכולת העתידית להפעלה ושיפור אוטונומיים רחבים יותר היא תוכנית, לא יכולת מלאה שכבר הושקה.",
+    "טקסט_en": "November 12, 2026 | ServiceNow's original Business Wire release and the full SiliconANGLE report were read. The release's first publication hour was not verified.\n\nServiceNow announced Autonomous CRM Engine, an AI tool for analyzing an existing CRM environment, redesigning business processes and deploying approved changes into ServiceNow CRM. The product is in Controlled Availability today, not general availability for all customers. Expanded capabilities are planned for 2027.\n\nServiceNow says the tool maps processes, custom objects, configurations and integrations in an existing environment, recommends a redesigned setup and deploys changes after approval. After go-live it is designed to monitor configuration drift and misconfigurations. According to SiliconANGLE's interview with a company executive, the initial rollout targets Salesforce installations only, with other systems planned later.\n\nThe company claims implementations can take weeks instead of months or years. This is a vendor claim, not an independent comparative study. The executive told SiliconANGLE that ServiceNow has not conducted comparative productivity studies against competing CRM platforms and that integrations with other systems can still extend projects.\n\nThe release quotes Datacom as having chosen ServiceNow CRM and Autonomous CRM Engine. Xactly describes a strategic decision to move to one platform and the benefits it sees in the product. These are customer statements published by ServiceNow, not independent deployment-time measurements or confirmation that every migration has been completed.\n\nNo price, order value, product revenue or general-availability date was disclosed. Historical metrics from other CRM projects are not demonstrated results of this new engine. Broader autonomous operation and improvement remain planned capabilities, not a fully launched feature set.",
+    "קישור": "https://www.businesswire.com/news/home/20261112687168/en/ServiceNow-Autonomous-CRM-Engine-enables-fast-CRM-deployments-that-free-enterprises-from-legacy-platforms",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261112687168/en/ServiceNow-Autonomous-CRM-Engine-enables-fast-CRM-deployments-that-free-enterprises-from-legacy-platforms",
+        "label": "ServiceNow: ההודעה המקורית, לקוחות וזמינות מבוקרת",
+        "label_en": "ServiceNow: original release, customer statements and controlled availability"
+      },
+      {
+        "url": "https://siliconangle.com/2026/11/12/servicenow-launches-ai-powered-engine-to-accelerate-migrations-from-crm-rivals/",
+        "label": "SiliconANGLE: ראיון על Salesforce, מגבלות האינטגרציה והיעדר בדיקה השוואתית",
+        "label_en": "SiliconANGLE: interview on Salesforce scope, integration limits and lack of comparative studies"
+      }
+    ],
+    "הועלה": "2026-11-12 16:52",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1e0690162270e43e86359968a4da23f46058429b38697ac6dbc36c350ab74015"
+      }
+    }
   }
 ]
