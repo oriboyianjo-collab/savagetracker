@@ -36518,5 +36518,66 @@
         "source_hash": "8244d0b209ae964c77438d2b8de2509511d57542a80a77bd8f2dd5fa167268af"
       }
     }
+  },
+  {
+    "מזהה": "n-1446",
+    "category": "macro",
+    "תאריך": "2026-11-10",
+    "כותרת": "NFIB: נטו 37% מהעסקים הקטנים מתכננים להעלות מחירים, שיא מאז יולי 2022; נתוני סקר אוקטובר שפורסם ב-10 בנובמבר",
+    "כותרת_en": "NFIB: a net 37% of small businesses plan price increases, highest since July 2022; October survey released November 10",
+    "טקסט": "השלמת סיקור לסקר אוקטובר 2026 של NFIB שפורסם ב-10.11.2026, לא סקר חדש מ-12 בנובמבר. הודעת הארגון והסעיפים הרלוונטיים בדוח המקורי נקראו במלואם; שעת הפרסום הראשונה לא אומתה.\n\nנטו 37% מבעלי העסקים הקטנים בסקר מתכננים להעלות מחירים בשלושת החודשים הבאים, בניכוי עונתיות: עלייה של 6 נקודות אחוז מספטמבר והרמה הגבוהה ביותר מאז יולי 2022. זהו שיעור נטו של משיבים המתכננים שינוי, לא תחזית לעליית מחירים של 37% ולא מדד CPI.\n\nנטו 33% דיווחו שכבר העלו את מחירי המכירה הממוצעים, בניכוי עונתיות, עלייה של 2 נקודות אחוז. במקביל, שיעור בעלי העסקים שציינו אינפלציה כבעיה החשובה ביותר דווקא ירד ב-3 נקודות ל-17%. שני הממצאים מתייחסים לשאלות שונות ואינם סותרים זה את זה.\n\nמדד האופטימיות עמד על 97.8, ירידה של 0.1 נקודה מול 97.9 בספטמבר, ומעט מתחת לממוצע ההיסטורי 98. מדד אי-הוודאות ירד ב-6 נקודות ל-84, הנמוך ביותר מאז דצמבר 2025. נתון האופטימיות 97.8 כבר עודכן ביומן הכלכלי ב-10 בנובמבר; התוספת כאן היא פירוט המחירים והמשמעות, ולא הצגה חוזרת שלו כפרסום חדש היום.\n\nאיכות וזמינות עובדים נותרו הבעיה החשובה ביותר אצל 25% מהמשיבים, ירידה של נקודה. מסים עלו ב-10 נקודות ל-21% והיו במקום השני. 36% מהעסקים דיווחו על משרות שלא הצליחו לאייש, בניכוי עונתיות, עלייה של 4 נקודות; נטו 18% מתכננים ליצור משרות, עלייה של נקודה.\n\nהסקר נערך באוקטובר בקרב בעלי עסקים קטנים החברים ב-NFIB. הוא מודד דיווחים ותוכניות של המשיבים, לא הבטחה שכל העלאות המחירים או הגיוסים יתממשו ולא מדגם של כלל מחירי הצרכן. אין כאן שינוי בהחלטת ריבית של הפד או תחזית ריבית רשמית.",
+    "טקסט_en": "Catch-up coverage of NFIB's October 2026 survey released November 10, not a new November 12 survey. The full issuer announcement and relevant sections of the original report were read; the first publication hour was not verified.\n\nA seasonally adjusted net 37% of small-business owners plan price increases over the next three months, up 6 percentage points from September and the highest reading since July 2022. This is a net share of respondents planning a change, not a forecast that prices rise 37% or a CPI reading.\n\nA seasonally adjusted net 33% reported raising average selling prices, up 2 percentage points. At the same time, the share naming inflation as their single most important problem fell 3 points to 17%. These answer different questions and are not contradictory findings.\n\nThe Optimism Index was 97.8, down 0.1 point from September's 97.9 and slightly below its historical average of 98. The Uncertainty Index fell 6 points to 84, its lowest since December 2025. The 97.8 optimism actual was already entered in the economic calendar on November 10. This article adds the price detail and context rather than presenting that headline reading as a new release today.\n\nLabor quality or availability remained the top problem at 25%, down 1 point. Taxes rose 10 points to 21%, the second top issue. A seasonally adjusted 36% reported job openings they could not fill, up 4 points; a net 18% plan to create jobs, up 1 point.\n\nThe survey was conducted in October among small-business owners drawn from NFIB membership. It measures respondents' reports and plans, not a promise that all price increases or hiring will happen and not a sample of all consumer prices. It announces no Fed rate decision or official rate forecast.",
+    "קישור": "https://www.nfib.com/news/press-release/new-nfib-survey-main-street-optimism-remains-steady-uncertainty-declines-in-october/",
+    "מקורות": [
+      {
+        "url": "https://www.nfib.com/news/press-release/new-nfib-survey-main-street-optimism-remains-steady-uncertainty-declines-in-october/",
+        "label": "NFIB: ההודעה הארצית המקורית מ-10 בנובמבר",
+        "label_en": "NFIB: original national release of November 10"
+      },
+      {
+        "url": "https://www.nfib.com/wp-content/uploads/2026/11/SBET-Report-October-2026.pdf",
+        "label": "NFIB: דוח אוקטובר המקורי, סעיפי מחירים ואינפלציה",
+        "label_en": "NFIB: original October report, prices and inflation sections"
+      }
+    ],
+    "הועלה": "2026-11-12 15:58",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "627f086662895af3467180ceadc3f83ce458ec5acc0d44bca1d5f94e45969a31"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1447",
+    "category": "micro",
+    "חברה": "ACGL",
+    "symbols": [
+      "ACGL"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Arch Capital (ACGL): דניאל יוסטון מחליף את ג׳ון פסקזי כיו״ר; פסקזי נשאר דירקטור",
+    "כותרת_en": "Arch Capital (ACGL): Daniel Houston succeeds John Pasquesi as chair; Pasquesi remains a director",
+    "טקסט": "12.11.2026 | הודעת Arch Capital המקורית ב-Business Wire נקראה במלואה; שעת הפרסום הראשונה לא אומתה.\n\nArch Capital הודיעה שדניאל ג׳יי. יוסטון מחליף את ג׳ון אם. פסקזי כיו״ר הדירקטוריון. לפי החברה, המהלך נובע מתהליך ירושה מתוכנן ומבחינת תפקידי ההנהגה והוועדות, לאחר שפסקזי החליט לסיים את תפקידו כיו״ר. זו החלפת יו״ר, לא החלפת מנכ״ל: ניקולס פפדופולו נשאר מנכ״ל החברה לפי ההודעה.\n\nפסקזי, שכיהן כיו״ר מאז ספטמבר 2019 וכדירקטור מאז 2001, נשאר חבר דירקטוריון וחבר הוועדה המבצעת. הוא מתכוון לעמוד לבחירה מחדש באספה השנתית ב-2027 אם יומלץ כמועמד. אין כאן הודעה שעזב את הדירקטוריון או שכבר נבחר מחדש.\n\nיוסטון הצטרף לדירקטוריון באוגוסט 2024 ומתמנה גם ליו״ר הוועדה המבצעת. הוא כיהן בעבר כמנכ״ל וכיו״ר Principal Financial Group ופרש מהחברה ב-2025. בריאן פוזנר מצטרף לוועדה המבצעת, ופרנסיס אבונג מתמנה ליו״ר ועדת התגמול וההון האנושי, לצד תפקידיהם האחרים.\n\nהחידוש הוא שינוי הנהגת הדירקטוריון והוועדות, בנפרד מהרחבת הרשאת הרכישה העצמית שכבר סוקרה ב-n-0228. ההודעה אינה מוסרת שינוי בתחזית העסקית או סכום רכישה עצמית חדש, ואין להסיק ממנה לבדה על שינוי בתוצאות הכספיות.",
+    "טקסט_en": "November 12, 2026 | Arch Capital's full original Business Wire release was read; the first publication hour was not verified.\n\nArch Capital announced that Daniel J. Houston succeeds John M. Pasquesi as board chair. The company describes a planned succession process and review of leadership and committee roles after Pasquesi decided to step down as chair. This is a board-chair change, not a CEO change: Nicolas Papadopoulo remains CEO in the release.\n\nPasquesi, chair since September 2019 and a director since 2001, remains a director and Executive Committee member. He intends to stand for reelection at the 2027 annual meeting if nominated. This does not announce that he left the board or has already been reelected.\n\nHouston joined the board in August 2024 and also becomes Executive Committee chair. He previously served as CEO and chair of Principal Financial Group and retired from Principal in 2025. Brian Posner joins the Executive Committee, and Francis Ebong becomes Compensation and Human Capital Committee chair alongside their other roles.\n\nThe new development is the board and committee leadership change, separate from the expanded repurchase authorization covered in n-0228. The release announces no business-guidance change or new repurchase amount, and alone establishes no change in financial results.",
+    "קישור": "https://www.businesswire.com/news/home/20261112066956/en/Daniel-J.-Houston-Succeeds-John-M.-Pasquesi-as-Chair-of-Arch-Capital-Group-Board-of-Directors",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261112066956/en/Daniel-J.-Houston-Succeeds-John-M.-Pasquesi-as-Chair-of-Arch-Capital-Group-Board-of-Directors",
+        "label": "Arch Capital: הודעת חילופי יו״ר והוועדות המלאה",
+        "label_en": "Arch Capital: full board-chair and committee transition release"
+      }
+    ],
+    "הועלה": "2026-11-12 15:58",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "aae62d85ff09938443b4f00adf120581da18f19dd66c74748b9df54424f13eb3"
+      }
+    }
   }
 ]
