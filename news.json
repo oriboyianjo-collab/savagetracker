@@ -36011,5 +36011,134 @@
         "source_hash": "cd76ab7522f50ec80546fbea9cf60f5a234bd1f0fef5e8a94272b2d9f92b088f"
       }
     }
+  },
+  {
+    "מזהה": "n-1432",
+    "category": "micro",
+    "חברה": "HUBS",
+    "symbols": [
+      "HUBS"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "HubSpot (HUBS): בריאן הליגן חוזר לתפקיד המנכ\"ל היום; ימיני רנגן פורשת, והחלפת סמנכ\"לית הכספים נקבעה לפברואר",
+    "כותרת_en": "HubSpot (HUBS): Brian Halligan returns as CEO today as Yamini Rangan steps down; CFO change set for February",
+    "טקסט": "12.11.2026 | דיווח 8-K המקורי ל-SEC נקרא במלואו. שעת ההודעה המקורית לציבור לא אומתה; שעת קבלת הדיווח ב-SEC אינה מוצגת כשעת ההודעה.\n\nHubSpot הודיעה שימיני רנגן סיימה היום את תפקידה כנשיאה וכמנכ\"לית והתפטרה מהדירקטוריון. המייסד-שותף בריאן הליגן מונה היום לנשיא ולמנכ\"ל ונשאר דירקטור. רנגן תישאר עובדת עד 1 בדצמבר לצורך המעבר. הדירקטוריון צומצם מ-11 ל-10 חברים. לא נמסרה בדיווח סיבה לפרישתה, ולכן אין לייחס אותה לכשל עסקי או למחלוקת שלא דווחו.\n\nהליגן כיהן כמנכ\"ל מ-2005 עד ספטמבר 2021. חזרתו לתפקיד כבר בתוקף, ולא מינוי עתידי התלוי בהשלמת עסקה. תנאי התגמול שלו עדיין לא סוכמו, והחברה מסרה שתפרסם אותם בתיקון לדיווח.\n\nבנפרד, סמנכ\"לית הכספים קייט ביוקר הודיעה שתפרוש מהתפקיד ב-11 בפברואר 2027. קארן ברג'ס, מנהלת כספים בכירה מ-Adobe, תצטרף ב-30 בנובמבר כמנהלת כספים מיועדת ותיכנס לתפקיד בפברואר. ביוקר נשארת סמנכ\"לית הכספים עד אז, ובהמשך תישאר עובדת בתפקיד ייעוץ עד סוף 2027. לפי הדיווח, פרישת ביוקר אינה נובעת ממחלוקת בענייני דוחות, בקרה, תפעול או מדיניות.\n\nהחברה אישררה את התחזית לרבעון הרביעי ולשנת 2026 שנמסרה ב-4 בנובמבר. זהו אישרור, לא העלאה או תחזית חדשה, ולא חידוש של לוח הדוחות. החידוש הוא שינוי ההנהלה בפועל ולוח הזמנים הנפרד להחלפת מנהלת הכספים.",
+    "טקסט_en": "November 12, 2026 | The full original SEC Form 8-K was read. The original public announcement time was not verified; SEC acceptance is not presented as the release time.\n\nHubSpot says Yamini Rangan stepped down as President and CEO and resigned from the board effective today. Co-founder Brian Halligan became President and CEO today and remains a director. Rangan will remain an employee through December 1 for the transition. The board was reduced from eleven to ten members. The filing gives no reason for her departure, so no unreported business failure or disagreement is inferred.\n\nHalligan was CEO from 2005 to September 2021. His return is already effective, not a future appointment dependent on a transaction closing. His compensation arrangements have not been finalized and will be disclosed in an amendment.\n\nSeparately, CFO Kate Bueker will retire from that role on February 11, 2027. Karen Burgess, a senior finance executive from Adobe, will join on November 30 as CFO Designate and take over in February. Bueker remains CFO until then and will subsequently remain an employee in an advisory role through the end of 2027. The filing says her retirement is not due to a disagreement over financial statements, controls, operations, policies or practices.\n\nHubSpot reaffirmed the fourth-quarter and full-year 2026 guidance issued on November 4. That is a reaffirmation, not a raised or new forecast, and does not restart the earnings board. The new information is the effective leadership change and the separate CFO transition schedule.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526457055/d77303d8k.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526457055/d77303d8k.htm",
+        "label": "HubSpot: דיווח 8-K מקורי, שינויי הנהלה",
+        "label_en": "HubSpot: original leadership-transition Form 8-K"
+      }
+    ],
+    "הועלה": "2026-11-12 15:16",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "59ee6f4642dfa89d0e9695745356d4c819ac44d5d9c2756f2cfa35b547a8a3a2"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1433",
+    "category": "micro",
+    "חברה": "PVH",
+    "symbols": [
+      "PVH"
+    ],
+    "sectors": [
+      "consumer_discretionary"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "PVH: תוכנית קיצוץ של כ-4% מכוח האדם העולמי; חיסכון שנתי נטו מתוכנן של לפחות 150 מיליון דולר משנת הכספים 2028",
+    "כותרת_en": "PVH: plans to cut about 4% of global workforce; at least $150 million in full annual net savings targeted from fiscal 2028",
+    "טקסט": "12.11.2026 | דיווח 8-K המקורי של PVH נקרא במלואו. שעת הפרסום המקורית לא אומתה; זמן הקבלה ב-SEC אינו בהכרח זמן ההודעה הראשונה לציבור.\n\nPVH, בעלת Calvin Klein ו-Tommy Hilfiger, השיקה תוכנית ארגון מחדש כלל-עולמית. החברה מצפה לצמצם כ-4% מכוח האדם העולמי, בעיקר בתפקידים שאינם מול צרכנים. שיעור זה שקול לכ-12% מהעובדים המשרדיים, ולא לקיצוץ של 4% בלבד בעובדי המשרד. מספר המשרות המדויק לא נמסר.\n\nחלק מהצעדים מתחילים מיידית, והיתר צפויים ברבעון הראשון של 2027. התוכנית כוללת צמצום שכבות ניהול ועבודה כפולה לצד השקעות במוצרים, מידע על צרכנים, מסחר דיגיטלי, שרשרת אספקה וטכנולוגיה. התוכנית הכוללת, לרבות צעדים שאינם קשורים לעובדים, צפויה להסתיים עד סוף שנת הכספים 2027.\n\nבשנת הכספים 2027 מתוכנן חיסכון לפני מס של לפחות 100 מיליון דולר, נטו מהשקעות בצמיחה. הסכום כולל 45 מיליון דולר של חיסכון שנתי צפוי שעליו דובר כבר בשיחת הרבעון השני; אין לחבר את המספרים ל-145 מיליון דולר. משנת הכספים 2028 מתוכנן מלוא קצב החיסכון השנתי נטו לפני מס, לפחות 150 מיליון דולר. אלה יעדים, לא חיסכון שכבר הושג, וההשפעה על שנת הכספים 2026 צפויה להיות זניחה.\n\nהחברה עדיין אינה יכולה לאמוד בתום לב את עלויות הארגון מחדש ואת הוצאות המזומן, בין היתר בגלל התייעצויות, דרישות משפטיות וניתוח עלויות שטרם הושלם. אין כאן תוכנית נטולת עלויות או שיפור רווח מובטח. החברה צופה להוציא הוצאות פיצויים ועלויות קשורות מהתוצאות המתואמות ולתקן את הדיווח לאחר קביעת אומדן.",
+    "טקסט_en": "November 12, 2026 | PVH's full original SEC Form 8-K was read. The original publication time was not verified; SEC acceptance is not necessarily the first public announcement.\n\nPVH, owner of Calvin Klein and Tommy Hilfiger, launched an enterprise-wide restructuring initiative. It expects to reduce its global workforce by approximately 4%, primarily in non-consumer-facing positions. That equals around 12% of office-based associates, not a 4% cut confined to office staff. No precise job count was disclosed.\n\nSome workforce actions begin immediately, with remaining actions expected in the first quarter of 2027. The plan reduces organizational layers and duplicate work while investing in products, consumer insights, digital commerce, supply chain and technology. The overall initiative, including non-people actions, is expected to finish by the end of fiscal 2027.\n\nPVH targets at least $100 million of fiscal 2027 pre-tax cost reductions, net of growth investments. This includes the previously discussed $45 million of anticipated annual run-rate savings; the figures must not be added to $145 million. Beginning in fiscal 2028, full annual net pre-tax savings are projected at at least $150 million. These are targets, not savings already achieved. The fiscal 2026 impact is expected to be negligible.\n\nThe company cannot yet make a good-faith estimate of restructuring costs or related cash spending because consultation, legal requirements and cost analysis remain unfinished. This is not a cost-free plan or guaranteed profit increase. PVH expects severance and related costs to be excluded from non-GAAP results and will amend the filing once an estimate is determined.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/78239/000121390026118427/ea0311951-8k_pvhcorp.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/78239/000121390026118427/ea0311951-8k_pvhcorp.htm",
+        "label": "PVH: דיווח 8-K מקורי על ארגון מחדש",
+        "label_en": "PVH: original restructuring Form 8-K"
+      }
+    ],
+    "הועלה": "2026-11-12 15:16",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e1511a4793bba34f631df9aca705e239bf2b53e867b4306c9e4b6952900b3999"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1434",
+    "category": "micro",
+    "חברה": "HWC",
+    "symbols": [
+      "HWC",
+      "TRMK"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Hancock Whitney (HWC) תרכוש את Trustmark בעסקת מניות של כ-3.2 מיליארד דולר; השלמה צפויה בסוף הרבעון הראשון של 2027, בכפוף לאישורים",
+    "כותרת_en": "Hancock Whitney (HWC) to acquire Trustmark in about $3.2 billion all-stock deal; late-Q1 2027 closing subject to approvals",
+    "טקסט": "12.11.2026 | ההודעה המקורית המלאה שצורפה ל-SEC נקראה, לרבות הסיכונים ותנאי הסגירה. שעת ההודעה המקורית לא אומתה. ההודעה מתוארכת ל-12 בנובמבר; העסקה טרם הושלמה.\n\nHancock Whitney ו-Trustmark הודיעו על הסכם מיזוג סופי שבו Trustmark תתמזג לתוך Hancock Whitney בעסקת מניות בלבד בשווי מוערך של כ-3.2 מיליארד דולר. השווי מבוסס על מחיר הסגירה של מניית HWC ב-11 בנובמבר, ואינו מחיר מזומן קבוע.\n\nבעלי Trustmark יקבלו 0.7463 מניית HWC לכל מניית TRMK. לפי ההודעה, בעלי מניות HWC צפויים להחזיק כ-65% מהחברה המשולבת ובעלי Trustmark כ-35%. הבנק המשולב צפוי לכלול נכסים של כ-58 מיליארד דולר; זהו היקף נכסים, לא מחיר הרכישה או הכנסות.\n\nהסגירה צפויה בסוף הרבעון הראשון של 2027, בכפוף לאישורי רגולטורים, בעלי המניות של שתי החברות ותנאים מקובלים נוספים. חמישה דירקטורים של Trustmark, ובהם המנכ\"ל דוויין דיואי, יצטרפו לדירקטוריון HWC אחרי הסגירה. המעבר של סניפים ועובדים למותג Hancock Whitney צפוי בסוף 2027, שלב נפרד מסגירת העסקה.\n\nהחברות מעריכות תוספת של כ-7% לרווח המשוער למניה של HWC ב-2028, דילול של כ-7% בערך הספרים המוחשי למניה ותקופת החזר של כ-2.8 שנים כולל הוצאות מיזוג. אלה אומדני חברות התלויים בביצוע ובתנאים עתידיים, לא תוצאות שהושגו. מצגת המשקיעים לא נבדקה בנפרד; אין להוסיף ממנה סינרגיות או עלויות שלא אומתו.",
+    "טקסט_en": "November 12, 2026 | The full original release filed with the SEC was read, including risks and closing conditions. The original release time was not verified. The release is dated November 12; the transaction is not complete.\n\nHancock Whitney and Trustmark announced a definitive agreement for Trustmark to merge into Hancock Whitney in an all-stock transaction valued at approximately $3.2 billion. The valuation uses HWC's November 11 closing share price and is not a fixed cash purchase price.\n\nTrustmark shareholders will receive 0.7463 HWC shares for each TRMK share. HWC shareholders are expected to own about 65% of the combined company and Trustmark shareholders about 35%. The combined bank is expected to have approximately $58 billion in assets, not acquisition consideration or revenue.\n\nClosing is expected late in the first quarter of 2027, subject to regulatory approvals, approval by both companies' shareholders and other customary conditions. Five Trustmark directors, including CEO Duane Dewey, will join HWC's board following closing. Branch and associate conversion to the Hancock Whitney brand is expected in late 2027, a separate stage from closing.\n\nThe companies estimate approximately 7% accretion to HWC's estimated 2028 earnings per share, approximately 7% dilution to tangible book value per share and about 2.8 years of earn-back including merger expenses. These are issuer projections dependent on execution and future conditions, not achieved results. The investor presentation was not separately reviewed; no unverified slide-based synergies or costs are added.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/750577/000119312526457037/hwc-ex99_1.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/750577/000119312526457037/hwc-ex99_1.htm",
+        "label": "Hancock Whitney ו-Trustmark: הודעת המיזוג המקורית והמלאה",
+        "label_en": "Hancock Whitney and Trustmark: full original merger release"
+      }
+    ],
+    "הועלה": "2026-11-12 15:16",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "46c760e792fca5b489920b4a3f506a8d276bafcae1b678e7f8cf9e3749d28fc7"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1435",
+    "category": "micro",
+    "חברה": "SLB",
+    "symbols": [
+      "SLB"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "SLB נבחרה לשירותי קידוח משולבים בשתי אסדות של Vår Energi בנורווגיה; ארבע שנים ועוד ארבע אופציות שנתיות, ללא שווי מפורסם",
+    "כותרת_en": "SLB selected for integrated drilling services on two Vår Energi rigs in Norway; four years plus four annual options, value undisclosed",
+    "טקסט": "12.11.2026 | הודעת SLB המקורית ב-Business Wire נקראה במלואה, לרבות ההסתייגויות. שעת הפרסום המקורית לא אומתה. תאריך במסלול כתובת האינטרנט אינו משמש כהוכחה לשעת הפרסום.\n\nSLB הודיעה שנבחרה לספקית הראשית של שירותי קידוח משולבים עבור Vår Energi באסדות Transocean Barents ו-Deepsea Bergen, במדף היבשתי הנורווגי. ההיקף הראשוני הוא לארבע שנים, עם ארבע אופציות הארכה של שנה כל אחת, שעשויות להאריך את העבודה עד 2034.\n\nאין מדובר בשמונה שנים מובטחות: האופציות טרם הוכרזו כממומשות. שווי ההסכם, מועד תחילת עבודה מדויק והכנסות צפויות לא פורסמו. לפי החברה, שתי האסדות החצי-צוללות לסביבה קשה מיועדות לקידוח בארות חיפוש ופיתוח לאורך התקופה; אין בכך אישור לתפוקה נוספת שכבר הופקה.\n\nמודל השירות משלב תכנון, מומחיות טכנית, כלים דיגיטליים וביצוע תפעולי בתהליך מסירת הבאר. הבחירה מרחיבה קשר קיים עם Vår Energi, שכלל תכנון דיגיטלי של בארות ושדות ומערכות הפקה תת-ימיות באמצעות מיזם OneSubsea.\n\nזהו לקוח והיקף עבודה נפרדים מהחוזה של OneSubsea עם Aker BP בשדה Lyra ומהסכם SNOC בשארג'ה שכבר פורסמו באפליקציה. יעדי ביצוע מהיר ועקבי יותר הם ציפיות הצדדים, לא חיסכון או גידול רווח שנמדדו ואושרו.",
+    "טקסט_en": "November 12, 2026 | SLB's full original Business Wire release was read, including forward-looking limits. The original publication time was not verified. A date embedded in the URL is not proof of publication time.\n\nSLB says Vår Energi selected it as the main integrated drilling-services supplier for the Transocean Barents and Deepsea Bergen rigs on the Norwegian Continental Shelf. The initial scope is four years, with four additional one-year extension options that could extend the work through 2034.\n\nThis is not eight guaranteed years: the options have not been announced as exercised. Contract value, a precise work start date and expected revenue were not disclosed. The two harsh-environment semisubmersibles are intended to drill exploration and development wells during the period; this does not establish additional production already delivered.\n\nThe delivery model combines planning, technical expertise, digital workflows and operational execution across well delivery. It expands an existing Vår Energi relationship covering digital well and field-development planning and subsea production systems through the OneSubsea joint venture.\n\nThis customer and scope are separate from OneSubsea's Aker BP Lyra award and the SNOC agreement in Sharjah already covered in the app. Faster and more consistent performance is a stated aim, not measured and verified cost savings or profit growth.",
+    "קישור": "https://www.businesswire.com/news/home/20261111105994/en/SLB-Selected-by-Vr-Energi-for-Integrated-Drilling-Services-Offshore-Norway",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261111105994/en/SLB-Selected-by-Vr-Energi-for-Integrated-Drilling-Services-Offshore-Norway",
+        "label": "SLB: הודעת הבחירה המקורית והמלאה",
+        "label_en": "SLB: full original Vår Energi selection release"
+      }
+    ],
+    "הועלה": "2026-11-12 15:16",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f556fcb0d14089f757c8e53c800eec213eec8d60d03e06d599b2257acae7d106"
+      }
+    }
   }
 ]
