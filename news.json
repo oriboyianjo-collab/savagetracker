@@ -35779,5 +35779,29 @@
         "source_hash": "a5ca4e3b1d4c64ad5d3cde84109e2ae6dda6fa19351d7ab2ec0b31129b9eda59"
       }
     }
+  },
+  {
+    "מזהה": "n-1425",
+    "category": "macro",
+    "תאריך": "2026-11-11",
+    "כותרת": "השלמה מ-11 בנובמבר: Naftogaz דיווחה על שריפה גדולה ונזק לציוד במתקן במחוז דניפרופטרובסק לאחר תקיפת רחפנים",
+    "כותרת_en": "November 11 catch-up: Naftogaz reported major fire and equipment damage at Dnipropetrovsk facility after drone attack",
+    "טקסט": "11.11.2026 | הודעת Naftogaz המקורית נקראה במלואה. העמוד מציג 12:13 ללא אזור זמן, ולכן השעה לא הומרה לשעון ישראל. זו השלמת סיקור של תקיפה שדווחה אתמול, לא אירוע חדש בליל 12 בנובמבר.\n\nNaftogaz מסרה שכוחות רוסיים תקפו במהלך הלילה מתקן של הקבוצה במחוז דניפרופטרובסק באמצעות רחפנים בעלי מנוע סילון. לפי החברה, התקיפה גרמה לשריפה גדולה ולנזק לציוד במתקן.\n\nהעובדים שהו במרחבים מוגנים ולא נפגעו, לפי הודעת החברה. צוותי שירות החירום הגיעו למקום; מומחי Naftogaz מעריכים את הנזק ומתאמים את הצעדים הבאים עם הרשויות המקומיות.\n\nההודעה אינה מזהה את המתקן או את סוג פעילותו, ואינה מכמתת אובדן תפוקה או פגיעה באספקת גז. אין בה אישור להשבתה, למועד חידוש פעילות או לכך שהערכת הנזק הסתיימה. הנזק הפיזי מיוחס להודעת מפעילת המתקן; אין כאן אומדן מחיר אנרגיה או הוכחה לשיבוש כלל-ארצי.\n\nזהו אירוע נפרד מבית הזיקוק קירישי ברוסיה שסוקר ב-n-1083/n-1113, ומהפסקת אספקת החשמל לתחנת זפוריז'יה ב-n-0022.",
+    "טקסט_en": "November 11, 2026 | Full original Naftogaz statement read. Its page displays 12:13 without a timezone, so that clock was not converted to Israel time. This is catch-up coverage of an attack reported yesterday, not a new November 12 overnight event.\n\nNaftogaz said Russian forces struck a group facility in Dnipropetrovsk Region overnight with jet-powered drones. According to the company, the attack caused a major fire and damaged equipment at the facility.\n\nEmployees were sheltering and none were injured, the company said. Emergency crews arrived at the scene; Naftogaz specialists are assessing the damage and coordinating next steps with local authorities.\n\nThe statement does not identify the facility or its operating type and does not quantify lost output or gas-supply disruption. It does not confirm a shutdown, a restart date or completed damage assessment. Physical damage is attributed to the operator's statement; no energy-price estimate or nationwide disruption is established here.\n\nThis is separate from Russia's Kirishi refinery covered in n-1083/n-1113 and the Zaporizhzhia nuclear plant's external-power loss in n-0022.",
+    "קישור": "https://www.naftogaz.com/en/news/russia-attacked-a-naftogaz-facility-in-dnipropetrovsk-oblast",
+    "מקורות": [
+      {
+        "url": "https://www.naftogaz.com/en/news/russia-attacked-a-naftogaz-facility-in-dnipropetrovsk-oblast",
+        "label": "Naftogaz: ההודעה המקורית מ-11 בנובמבר; אזור הזמן לא צוין",
+        "label_en": "Naftogaz: original November 11 statement; timezone not stated"
+      }
+    ],
+    "הועלה": "2026-11-12 14:34",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ba0f5fe0c663dcdc90daf644f6772e8cd22b1ec06cb783bc0f49cfaed9d92652"
+      }
+    }
   }
 ]
