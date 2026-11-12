@@ -37012,5 +37012,38 @@
         "source_hash": "1c82b560f521230247be4c457728981f9430e0b802413c04ac40ef3749f95879"
       }
     }
+  },
+  {
+    "מזהה": "n-1461",
+    "category": "micro",
+    "חברה": "NTRS",
+    "symbols": [
+      "NTRS",
+      "MSFT"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-09",
+    "כותרת": "השלמת סיקור מ-9 בנובמבר | Northern Trust (NTRS) ו-Microsoft (MSFT): סוכן AI להכנת נתוני לקוחות; תוצאות החברה בתנאים מוגדרים",
+    "כותרת_en": "Nov 9 catch-up | Northern Trust (NTRS) and Microsoft (MSFT): AI client-data preparation agent; company results under defined conditions",
+    "טקסט": "השלמת סיקור: הודעת Northern Trust ו-Microsoft מ-9 בנובמבר 2026, שנקראה במלואה במקור, כולל שתי הערות המדידה. לא אומתה שעת הפרסום המקורית. זו אינה השקה חדשה ב-12 בנובמבר.\n\nהחברות הודיעו על הרחבת שיתוף הפעולה ועל פריסת סוכן AI להכנת נתוני לקוחות ב-Front Office Solutions של Northern Trust Asset Servicing. הסוכן ממיר היסטוריית עסקאות ונתוני השקעות לפורמט אחיד לקראת כניסת לקוח לפלטפורמת הדיווח. הוא מיועד בין השאר לנתונים מורכבים של השקעות אלטרנטיביות; אין כאן החלפה של כל מערך קליטת הלקוחות בבנק.\n\nNorthern Trust מדדה ירידה של 83% בזמן הכנת הנתונים, מכשבועיים וחצי לשלושה ימים, בהשוואת תהליכי ייצור שנמדדו לאחר הפריסה מול קו הבסיס הקודם. לפי הערת המדידה, התהליך כולל המרת נתונים, בדיקת אנליסטים, טיפול בחריגים ואימות סופי. זהו נתון של החברה במקרים שנמדדו, לא מבחן עצמאי ולא התחייבות שכל לקוח ייקלט בתוך שלושה ימים.\n\nבנפרד, ציון F1 של 96.5% במעבר הראשון התקבל בבדיקה מבוקרת של שבעה מקרי מבחן מייצגים עם חוברות עסקאות היסטוריות אמיתיות שעברו אנונימיזציה. הפלט הושווה לתשובות ייחוס של אנליסטים לפני תיקונים ומשוב. F1 משלב precision ו-recall; אין לפרש אותו כ-96.5% דיוק מובטח בכל נתון ובכל לקוח.\n\nהסוכן בנוי על Azure ו-Microsoft Foundry ומשולב עם Excel ו-SharePoint. אנליסטים נשארים בתהליך לבדיקה, אישור ותיקון חריגים. לפי החברות, צוות Microsoft עבד בשיפור המודל עם נתונים אנונימיים, בעוד נתוני הלקוח נשארו בשליטת Northern Trust. זו הצהרת החברות על התכנון והבקרה, לא בדיקת אבטחה עצמאית.\n\nההודעה אינה מוסרת מחיר, סכום חוזה, מספר לקוחות המשתמשים בסוכן, חיסכון כספי כולל או הכנסה שנוצרה ממנו. החידוש הוא יישום תפעולי משותף והמדידות שהחברות מפרטות, לא גיוס הון או תחזית רווח חדשה.",
+    "טקסט_en": "Catch-up: Northern Trust and Microsoft's November 9, 2026 announcement was read in full at its original source, including both measurement footnotes. The original publication hour was not verified. This is not a new November 12 launch.\n\nThe companies announced an expanded collaboration and deployment of an AI client onboarding agent for Northern Trust Asset Servicing's Front Office Solutions platform. The agent converts historical transaction and investment data into a standard format before clients enter the reporting environment. It addresses complex data, including alternative assets, rather than replacing every part of the bank's client onboarding process.\n\nNorthern Trust measured an 83% reduction in data preparation time, from roughly two and a half weeks to three days, comparing measured production cases after deployment with the prior workflow baseline. The footnote says this includes data transformation, analyst review, exception handling and final validation. This is a company measurement in the cases studied, not an independent benchmark or a promise that every client will be fully onboarded within three days.\n\nSeparately, the 96.5% first-pass F1 score came from controlled testing across seven representative cases using real, anonymized historical transaction workbooks. Output was compared with analyst-prepared references before feedback or corrections. F1 combines precision and recall; it is not guaranteed 96.5% accuracy for every data point and client.\n\nThe agent uses Azure and Microsoft Foundry and integrates with Excel and SharePoint. Analysts remain responsible for review, approval and exceptions. The companies say Microsoft's team tuned the system using anonymized data while client data stayed under Northern Trust's control. This describes the companies' design and governance claims, not an independent security audit.\n\nNo price, contract value, number of clients using the agent, total financial savings or resulting revenue was disclosed. The development is a joint operational deployment and the companies' specified measurements, not a capital raise or new profit guidance.",
+    "קישור": "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+    "מקורות": [
+      {
+        "url": "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+        "label": "Microsoft ו-Northern Trust: ההודעה המקורית ושתי הערות המדידה",
+        "label_en": "Microsoft and Northern Trust: original release and both measurement footnotes"
+      }
+    ],
+    "הועלה": "2026-11-12 17:15",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0e35b80c2ec44f9159ba52805f771264a8b6739c1b6aa6007f56eb7d4d70094a"
+      }
+    }
   }
 ]
