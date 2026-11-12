@@ -34874,5 +34874,121 @@
         "source_hash": "b1fc1dbebe6484bd64a77b2ddfc2b466265c467d42210968d842cd99ec505095"
       }
     }
+  },
+  {
+    "מזהה": "n-1396",
+    "category": "micro",
+    "חברה": "SpaceX / Starlink",
+    "symbols": [],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-10",
+    "כותרת": "השלמת סיקור: ה-FCC קיבל לבדיקה את בקשות SpaceX להעברת שליטה ב-546 רישיונות 800 מגה-הרץ; העסקה טרם אושרה",
+    "כותרת_en": "Catch-up: FCC accepts SpaceX applications for control of 546 800 MHz licences for review; transfer not approved",
+    "טקסט": "השלמת סיקור: הודעת ה-FCC המקורית DA 26-1218 פורסמה ב-10.11.2026 ונקראה במלואה. שעת הפרסום המקורית לא אומתה. קבלת בקשה להגשה לאחר בדיקה ראשונית אינה אישור להעברת הרישיונות או להפעלת שירות.\n\nלשכת התקשורת האלחוטית של ה-FCC קיבלה להגשה את בקשות Starlink Spectrum Holdings, חברה בת בבעלות מלאה של SpaceX, ושל Grain Management להעברת השליטה ב-546 רישיונות מזווגים בתחום 800 מגה-הרץ. הבקשות הוגשו ב-9 באוקטובר. לפי המבנה המתואר בהודעה, Starlink אמורה לקבל את השליטה בחברות בעלות הרישיונות Prism License Co. 1 ו-Prism License Co. 2 מ-NewLevel, הקשורה ל-Grain.\n\nהרישיונות כוללים עד 14 מגה-הרץ של ספקטרום מזווג ב-173 אזורים כלכליים, המקיפים 3,224 מחוזות במדינות ובטריטוריות אמריקאיות וכמעט את כל אוכלוסיית ארה\"ב. זהו היקף הכיסוי של הרישיונות, לא הוכחה שרשת חדשה כבר מכסה את כל התושבים. מחיר העסקה אינו נמסר בהודעה.\n\nהמועד להגשת הערות ועתירות בתיק WT 26-313 נקבע ל-1 בדצמבר 2026, והתגובות להתנגדויות ל-8 בדצמבר. הרשות שומרת לעצמה את האפשרות להחזיר בקשות אם בדיקה נוספת תמצא ליקויים. לכן לא מדובר בהשלמת רכישה או באישור רגולטורי סופי.\n\nבהערת שוליים מובחנת, ה-FCC אומר שבקשת SpaceX מ-27 באוקטובר להוסיף סמכות מקומית לכיסוי משלים מהחלל בתחום זה ובקשות הפטור הנלוות עדיין תלויות ועומדות. אין לערבב את קבלת בקשות העברת השליטה עם אישור שירות לווייני ישיר למכשירים.\n\nהרשות מוסיפה שאם העסקה תאושר, התנאים שהוטלו כאשר Grain קיבלה את הספקטרום, לשימוש מהיר ומשמעותי בתקשורת קרקעית וישירה למכשירים, יחולו גם על SpaceX. ההודעה אינה מציגה תאריך השקה או הכנסה צפויה. אין בה מקור מאומת לסימול מסחר של SpaceX, ולכן לא מצורף כאן סימול SPCX.",
+    "טקסט_en": "Catch-up: the full original FCC notice DA 26-1218 was released on November 10, 2026. Its original publication time was not verified. Initial acceptance for filing is not consent to transfer the licences or authorization to launch a service.\n\nThe FCC's Wireless Telecommunications Bureau accepted applications by Starlink Spectrum Holdings, a wholly owned SpaceX subsidiary, and Grain Management to transfer control of 546 paired 800 MHz licences. The applications were filed on October 9. Under the structure described in the notice, Starlink would take control of licence holders Prism License Co. 1 and Prism License Co. 2 from Grain affiliate NewLevel.\n\nThe licences include up to 14 MHz of paired spectrum in 173 economic areas spanning 3,224 counties across US states and territories and approximately 100% of the US population. This describes the licence footprint, not proof that a new network already serves all those people. The notice does not disclose a transaction price.\n\nComments and petitions in WT Docket 26-313 are due December 1, 2026, with oppositions due December 8. The FCC reserves the right to return applications if further examination finds defects. This is neither a completed acquisition nor final regulatory approval.\n\nA separate footnote says SpaceX's October 27 application to add domestic supplemental coverage from space in these bands, and associated waiver requests, remain pending. Acceptance of the control-transfer applications must not be confused with approval of direct-to-device satellite service.\n\nThe FCC also says conditions imposed when Grain acquired the spectrum, requiring rapid and meaningful terrestrial and direct-to-device use, would apply to SpaceX if the transaction is approved. The notice supplies no launch date or expected revenue. It does not establish a verified SpaceX trading symbol, so no SPCX symbol is assigned here.",
+    "קישור": "https://docs.fcc.gov/public/attachments/DA-26-1218A1.pdf",
+    "מקורות": [
+      {
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-1218A1.pdf",
+        "label": "FCC: הודעה מקורית מלאה DA 26-1218",
+        "label_en": "FCC: full original notice DA 26-1218"
+      }
+    ],
+    "הועלה": "2026-11-12 11:45",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bc4d478aac447ce059ba830abb4f6d8070f08430eb0e49f80de5e94ddf49956b"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1397",
+    "category": "micro",
+    "חברה": "META / ETR",
+    "symbols": [
+      "META",
+      "ETR"
+    ],
+    "sectors": [
+      "technology",
+      "utilities"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-09",
+    "כותרת": "השלמת סיקור: קבוצות בלואיזיאנה מבקשות לעצור את מסלול האישור המהיר לתשתיות חשמל; השלכה אפשרית על Meta ו-Entergy",
+    "כותרת_en": "Catch-up: Louisiana groups seek to block utility fast-track procedure, with possible implications for Meta and Entergy",
+    "טקסט": "השלמת סיקור: דיווחי המקור של WWNO ושל Louisiana Illuminator מ-9 בנובמבר נקראו במלואם, וכן כל שמונת עמודי העתירה שצורפה לדיווח WWNO. תאריך עטיפת הווידאו המאוחרת ב-WBRZ אינו תאריך הגשת התביעה או פרסום המקור.\n\nלפי שני הדיווחים, Louisiana Landowners Coalition, Louisiana Citizen Advocacy Group ו-Save My Louisiana הגישו ב-9 בנובמבר עתירה בבית המשפט המחוזי ה-19 באיסט באטון רוז' נגד נציבות השירות הציבורי של לואיזיאנה. העותק הפומבי מציג מספר תיק ריק ואינו כולל חותמת הגשה נראית, ולכן יום ההגשה מיוחס לדיווחי המקור ולא לאימות עצמאי של יומן בית המשפט. Meta ו-Entergy אינן הנתבעות הרשומות בעתירה.\n\nהקבוצות טוענות שהנציבות הפרה את דרישות ההודעה וההזדמנות לציבור להגיב כשאימצה בדצמבר 2025 את Lightning Directive, מסלול מהיר לבדיקת תשתיות חשמל הקשורות לפיתוח כלכלי גדול. לטענתן, סעיף סדר היום לא הסביר איזה כלל ישתנה, וההוראה לא פורסמה לאחר מכן בין הכללים והצווים הניתנים לחיפוש. אלה טענות התובעות, לא קביעות שיפוטיות.\n\nהעתירה מבקשת להכריז שההוראה חסרת תוקף, לאסור על הנציבות לאכוף אותה ולחייב אותה לקבוע הליכי שינוי כללים התואמים את חוקת המדינה. אין במקורות שנקראו צו שהעניק את הסעדים הללו. הנציבות דוחה את הטענה לפגם בהליך: לפי תגובת היועצת המשפטית שצוטטה ב-Illuminator, ההצבעה פורסמה כדין, הותרו הערות ציבור, וחברת החשמל עדיין צריכה להוכיח שהייצור משרת את הציבור ובעלות הסבירה הנמוכה ביותר.\n\nהקשר לחברות הוא בקשות Entergy Louisiana לתחנות כוח ולתשתיות המספקות חשמל למתחם Hyperion של Meta בריצ'לנד פאריש. ההליך תוקף את דרך אימוץ המסלול הרגולטורי, ולא מודיע שהפרויקט בוטל, שהעבודות הושבתו או שנפסק כי בוצעה הפקעת קרקע שלא כדין. דיווחי המקור אינם אחידים לגבי מועד הדיון העתידי וחבילת העלויות, ולכן לא מוצג כאן תאריך דיון או סכום מצרפי כאילו אומתו מול הנציבות.\n\nMeta ו-Entergy אמרו שלקוחות החשמל לא יישאו בעלויות אספקת החשמל למרכז הנתונים; ה-Illuminator מבדיל בין ההתחייבויות הציבוריות האלה לבין הגנה משפטית מחייבת. התביעה מבקשת שינוי בסיכון ההליך הרגולטורי, בלי לכמת השפעה על ההכנסות, העלויות או לוח הזמנים של החברות.",
+    "טקסט_en": "Catch-up: the full November 9 original reports from WWNO and Louisiana Illuminator were read, along with all eight pages of the petition linked by WWNO. A later WBRZ video wrapper is not the lawsuit's filing date or the original publication date.\n\nThe two reports say Louisiana Landowners Coalition, Louisiana Citizen Advocacy Group and Save My Louisiana filed a petition on November 9 in the 19th Judicial District Court in East Baton Rouge Parish against the Louisiana Public Service Commission. The public copy has a blank case number and no visible filing stamp, so the filing date is attributed to the original reporting rather than an independently checked court register. Meta and Entergy are not named defendants in the petition.\n\nThe groups allege the commission violated public-notice and participation requirements when it adopted the Lightning Directive in December 2025, a faster route for reviewing utility infrastructure tied to major economic development. They say the agenda item did not explain which rule would change and the directive was not subsequently published among searchable rules and orders. These are plaintiffs' allegations, not court findings.\n\nThe petition seeks a declaration that the directive is invalid, an injunction against its enforcement and an order requiring constitutional rulemaking procedures. The sources read contain no order granting that relief. The commission disputes the procedural allegation: its executive counsel told the Illuminator that the vote was properly noticed, public comment was allowed and the utility still must show generation is in the public interest at the lowest reasonable cost.\n\nThe company connection is Entergy Louisiana's applications for power plants and infrastructure serving Meta's Hyperion campus in Richland Parish. This case challenges how the regulatory pathway was adopted. It does not announce project cancellation, a construction shutdown or a finding of unlawful land expropriation. The original reports differ on the future hearing date and cost package, so no hearing date or aggregate cost is presented here as verified against the commission.\n\nMeta and Entergy have said utility customers will not bear the data centre's power costs; the Illuminator distinguishes those public pledges from legally binding protection. The suit concerns regulatory procedure risk without quantifying an effect on the companies' revenue, costs or timing.",
+    "קישור": "https://www.documentcloud.org/documents/28876068-2026-11-9-petition-llc/",
+    "מקורות": [
+      {
+        "url": "https://www.documentcloud.org/documents/28876068-2026-11-9-petition-llc/",
+        "label": "העתירה המלאה: עותק שפורסם בידי Gulf States Newsroom",
+        "label_en": "Full petition: copy published by Gulf States Newsroom"
+      },
+      {
+        "url": "https://lailluminator.com/2026/11/09/lawsuit-landry-backed-lightning-speed-projects-psc/",
+        "label": "Louisiana Illuminator: דיווח המקור ותגובת הנציבות",
+        "label_en": "Louisiana Illuminator: original reporting and commission response"
+      },
+      {
+        "url": "https://www.wwno.org/economy/2026-11-09/entergy-wants-their-land-for-metas-power-lines-theyre-suing-the-regulators-approving-them",
+        "label": "WWNO: דיווח המקור וקישור לעתירה",
+        "label_en": "WWNO: original reporting and petition link"
+      }
+    ],
+    "הועלה": "2026-11-12 11:45",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "05094bab6be2a3997a1df6346ae3d9b2cc2a4f8f134e580a446e86c8f834ee30"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1398",
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "מלזיה שוקלת חובת דיווח בחוק על מפעילי מרכזי נתונים, צריכת חשמל וכמויות GPU; לא חוק שנכנס לתוקף",
+    "כותרת_en": "Malaysia considers statutory reporting of data-centre operators, power use and GPU quantities; no enacted law established",
+    "טקסט": "12.11.2026 | דיווח Reuters המקורי המופץ ב-WKZO ודיווח Bernama המופץ ב-Malay Mail נקראו במלואם, לצד דיווח The Edge על אותה מסיבת עיתונאים. זהו צעד מדיניות מתוכנן במלזיה, לא הודעה של NVIDIA או אישור שהחוק כבר נחקק.\n\nשר ההשקעות, המסחר והתעשייה ג'והארי עבדול גאני אמר שמלזיה שוקלת לעגן בחוק דרישה לקבל מידע על מפעילי מרכזי נתונים, החברות המשתמשות בהם, מיקומם וכמות המעבדים הגרפיים המיובאים. לפי Bernama, הדרישה תכלול גם שימוש בחשמל והמעקב יימשך לאחר אישור הפרויקטים. השר אמר ש-55 מתוך 117 פרויקטים מאושרים כבר החלו לפעול. אלה נתוני השר, לא מדידה עצמאית של קיבולת פעילה.\n\nלדברי השר, מפעילים צריכים להעריך נכון את קיבולת החשמל שהם מזמינים, מפני שספקים מקצים את הקיבולת החוזית ויכולים לחייב גם על חלק שלא נוצל. הוא נתן דוגמה של הזמנת 100 מגה-ואט ושימוש ב-50 בלבד. זו המחשה למדיניות הזמנת קיבולת, לא נתון על מרכז מסוים או שינוי בתעריף שכבר נכנס לתוקף.\n\nבמסיבת העיתונאים אמר השר שיש להבטיח ששבבים הכפופים להגבלות אמריקאיות יגיעו לשימוש מקומי ולא ליצוא מחדש מפר. Bernama מדווחת שנבחנת התאמת חוקים קיימים לטיפול ביצוא מחדש כזה. במקורות שנקראו אין נוסח חוק חדש, מועד תחילה, קנס מוגדר או צו השעיית יבוא.\n\nהדיווחים אינם אחידים לגבי Speedmatrix, יחידה מלזית של Megaspeed: Reuters מנסחת שאין תוכנית לפתוח חקירה, לצד הסתייגות השר לגבי שימוש עצמי מקומי; The Edge מדגישה בדיקה אפשרית אם בוצע יצוא מחדש בניגוד להגבלות. שתי הגרסאות מצטטות הבחנה בין שימוש מקומי לבין יצוא מחדש. אין בסיס להכריז כאן שהחברה זוכתה, שנפתחה חקירה רשמית חדשה או שהוכחה הפרה.\n\nהחידוש הוא תוכנית ממשלתית לאיסוף מידע ולפיקוח על מרכזי נתונים, בנפרד מהודעת Megaspeed על שכירת משרד אמריקאי למפקד GPU ובדיקת נוהלי ציות שכבר סוקרה ב-n-1395. אין בדיווחים כימות של פגיעה במכירות NVIDIA, מגבלת שבבים חדשה שנכנסה לתוקף או החלטה של דירקטוריון החברה.",
+    "טקסט_en": "November 12, 2026 | The full original Reuters report carried by WKZO and Bernama report carried by Malay Mail were read, alongside The Edge's report on the same press conference. This is a planned Malaysian policy step, not a NVIDIA announcement or proof that a law has been enacted.\n\nInvestment, Trade and Industry Minister Johari Abdul Ghani said Malaysia is considering a statutory requirement to collect information about data-centre operators, their users, locations and quantities of imported graphics processing units. Bernama says the requirement would also cover electricity use and monitoring would continue after project approval. The minister said 55 of 117 approved projects had started operating. These are the minister's figures, not an independent measure of active capacity.\n\nThe minister said operators need to estimate contracted electricity capacity correctly because suppliers allocate that capacity and can bill for unused portions. He gave an example of reserving 100 MW while using only 50 MW. This illustrates capacity-reservation policy, not data for a particular facility or an already effective tariff change.\n\nAt the press conference he said chips subject to US restrictions should arrive for domestic use rather than prohibited re-export. Bernama reports that existing laws are being reviewed for their applicability to such re-exports. The sources read provide no new bill text, effective date, defined penalty or import-suspension order.\n\nThe reports frame Speedmatrix, a Malaysian Megaspeed unit, differently: Reuters says there are no plans to open an investigation, alongside the minister's qualification about domestic use; The Edge emphasizes possible scrutiny if re-exports breached restrictions. Both quote a distinction between domestic use and re-export. Neither supports declaring the company cleared, a new formal investigation opened or a violation proven.\n\nThe increment is a government plan to collect information and monitor data centres, separate from Megaspeed's retention of US counsel for a GPU census and compliance-practices review already covered in n-1395. The reports do not quantify an effect on NVIDIA sales, establish a newly effective chip restriction or announce a company board decision.",
+    "קישור": "https://wkzo.com/2026/11/12/malaysia-weighs-law-to-monitor-data-centre-operations-chips-use-trade-minister-says/",
+    "מקורות": [
+      {
+        "url": "https://wkzo.com/2026/11/12/malaysia-weighs-law-to-monitor-data-centre-operations-chips-use-trade-minister-says/",
+        "label": "Reuters: הדיווח המקורי המלא דרך WKZO",
+        "label_en": "Reuters: full original report via WKZO"
+      },
+      {
+        "url": "https://www.malaymail.com/news/malaysia/2026/11/12/malaysia-to-make-data-centre-operators-disclose-power-use-gpu-imports-under-new-law-says-johari-ghani/242961",
+        "label": "Bernama: דיווח מלא דרך Malay Mail",
+        "label_en": "Bernama: full report via Malay Mail"
+      },
+      {
+        "url": "https://theedgemalaysia.com/node/825505",
+        "label": "The Edge: ההסתייגות לגבי יצוא מחדש",
+        "label_en": "The Edge: conditional re-export scrutiny framing"
+      }
+    ],
+    "הועלה": "2026-11-12 11:45",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a6acf851c70e78638d3da5a740bd0ce235c6618955943e29d2ccf5e31fd48bbb"
+      }
+    }
   }
 ]
