@@ -2864,17 +2864,28 @@
     "מדינה": "US",
     "אירוע": "עדכון מחירי נפט לחימום ופרופאן (EIA)",
     "חשיבות": 1,
-    "הערה": "חריגVeteransDayאומת בלוח המוצר:12.11ב14:00EST=21:00ישראל. מחליף שורת המתנה11.11; לא להוסיף ברביעי. אין צפי יחיד.",
-    "מקור": "https://www.eia.gov/petroleum/heatingoilpropane/schedule.php",
+    "הערה": "מחירים שבועיים ל-09.11 בדולר לגלון, ללא מסים: פרופאן למגורים 2.826, שינוי שבועי +0.009; פרופאן סיטונאי 1.261, שינוי -0.179; נפט לחימום למגורים 5.915, שינוי -0.221; נפט לחימום סיטונאי 4.721, שינוי -0.379. אלה השינויים שמפרסם EIA, עם אפשרות לתיקוני השבוע הקודם. אספקה נפרדת ל-06.11: מלאי פרופאן/פרופילן 104.199 מיליון חביות (+0.091), מלאי דיסטילטים 103.3 מיליון (+4.1). אין צפי יחיד או סיווג טוב/רע.",
+    "מקור": "https://www.eia.gov/petroleum/heatingoilpropane/",
     "מזהה": "c-0115",
     "אירוע_en": "Heating oil and propane price update (EIA)",
-    "הערה_en": "Veterans Day exception verified in the product schedule: Nov 12 at 14:00 EST = 21:00 Israel. Replaces the Nov 11 waiting row; do not add one on Wednesday. No single estimate.",
+    "הערה_en": "Weekly Nov 9 prices in USD per gallon, excluding taxes: residential propane 2.826, weekly change +0.009; wholesale propane 1.261, change -0.179; residential heating oil 5.915, change -0.221; wholesale heating oil 4.721, change -0.379. These are EIA-published changes; prior-week data may be revised. Separate Nov 6 supply data: propane/propylene stocks 104.199 million barrels (+0.091), distillate stocks 103.3 million (+4.1). No single consensus or good/bad classification.",
     "_translation": {
       "en": {
-        "source_hash": "e67eadf9e8f636983556d9d474731796b556a4ea63f497036e5a68ce94275cda",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "e748750a49c7e62c96a2f3b84f1e79407b8a52b43f14040540b5b73317122e5b"
       }
-    }
+    },
+    "היסטוריית_עדכונים": [
+      {
+        "הערה": "חריגVeteransDayאומת בלוח המוצר:12.11ב14:00EST=21:00ישראל. מחליף שורת המתנה11.11; לא להוסיף ברביעי. אין צפי יחיד.",
+        "הערה_en": "Veterans Day exception verified in the product schedule: Nov 12 at 14:00 EST = 21:00 Israel. Replaces the Nov 11 waiting row; do not add one on Wednesday. No single estimate.",
+        "מקור": "https://www.eia.gov/petroleum/heatingoilpropane/schedule.php"
+      }
+    ],
+    "בפועל": "פורסם · מחירי 09.11",
+    "בפועל_en": "Published · Nov 9 prices",
+    "תקופה": "מחירי 09.11.2026; אספקה 06.11.2026",
+    "תקופה_en": "Nov 9, 2026 prices; Nov 6, 2026 supply"
   },
   {
     "תאריך": "2026-11-12",
