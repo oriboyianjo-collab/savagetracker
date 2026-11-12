@@ -38158,5 +38158,60 @@
         "source_hash": "181ba01f400e884613d361221fdfed5e608bdead27a923dee7ab640931b724ce"
       }
     }
+  },
+  {
+    "מזהה": "n-1497",
+    "category": "macro",
+    "חברה": "South Korea / Shipping",
+    "תאריך": "2026-11-12 10:47",
+    "כותרת": "השלמת סיקור | דרום קוריאה: הוגשה הצעה להרחבת תחום פעילות כוח Cheonghae, לא החלטה על כניסה להורמוז",
+    "כותרת_en": "Catch-up | South Korea proposes broader Cheonghae mission area, not a decision to enter Hormuz",
+    "טקסט": "לא מאומת מול מקור ראשוני\nהשלמת סיקור באיחור: כתבת Yonhap מ-12.11.2026 פורסמה ב-17:47:14 בקוריאה, 10:47:14 בישראל, לפי מטא-נתוני המקור. היא אותרה רק בלילה שלאחר מכן, יותר מ-13 שעות אחרי הפרסום. זה אינו אירוע חדש מהדקות האחרונות.\n\nלפי Yonhap, משרד ההגנה הדרום-קוריאני הגיש השבוע לאספה הלאומית הצעה מתוקנת להרחבת תחום פעילות יחידת Cheonghae נגד פיראטיות, ממימי חופי סומליה אל האזור מדרום לעומאן בים הערבי, כ-650 קילומטרים ממצר הורמוז. מדובר בהצעה שהוגשה, לא באישור פרלמנטרי שנבדק או בפריסה מבצעית שכבר בוצעה.\n\nבהצעה נאמר שבמהלך משימות ביטחון ימי רב-לאומיות בהובלת הכוח הימי המשולב או האיחוד האירופי, היחידה תהיה תחת שליטה טקטית של מפקד בזירה. דוברת המשרד צ'ונג בינה אמרה שזו סמכות מוגבלת מאוד, זמנית ובאזורים מסוימים, ושסמכות הפיקוד על היחידה נשארת בידי יו״ר המטות המשולבים של דרום קוריאה.\n\nסעיף השליטה הטקטית הופיע גם בהצעות קודמות מאז תחילת המשימה ב-2009. התוספת שעליה מדווחת הכתבה היא סעיף בדבר הצטרפות למאמצים בין-לאומיים להבטחת נתיבי השיט ולהשבת חופש המעבר, לצד הרחבת האזור המוצעת. אין להציג את מנגנון השליטה כולו כחדש.\n\nהמשרד הדגיש, לפי הכתבה, שהמטרה היא הגנת אזרחים ואוניות דרום-קוריאניים מפיראטיות, ללא השתתפות במלחמה או בקרבות, ודחה את הטענה שמדובר בתרומה צבאית בפועל למלחמת ארה״ב באיראן. אין כאן אישור לכניסה להורמוז, להעברת הפיקוד הלאומי או להשתתפות בתקיפה. נוסח ההצעה ותמליל התדרוך הממשלתיים לא נבדקו ישירות; הדברים מיוחסים לדיווח המלא של Yonhap.",
+    "טקסט_en": "Not verified against a primary source\nLate catch-up: Yonhap's November 12, 2026 article was published at 17:47:14 Korea time, 10:47:14 Israel time, according to source metadata. It was found only the following night, over 13 hours later. This is not a new event from the last few minutes.\n\nYonhap reports South Korea's defense ministry submitted a revised motion to the National Assembly this week to broaden the Cheonghae anti-piracy unit's operating area from waters off Somalia to south of Oman in the Arabian Sea, around 650 kilometers from the Strait of Hormuz. This is a submitted proposal, not a verified parliamentary approval or completed operational deployment.\n\nThe motion says the unit would come under an on-scene commander's tactical control during multinational maritime security missions led by the Combined Maritime Forces or the EU. Ministry spokesperson Chung Binna described that authority as very restricted, temporary and limited to specific areas, with command authority remaining with South Korea's Joint Chiefs of Staff chairman.\n\nTactical-control wording has appeared in earlier motions since the mission began in 2009. The reported addition is a clause on joining international efforts to secure maritime routes and restore freedom of passage, alongside the proposed geographic expansion. The whole control arrangement must not be described as new.\n\nThe ministry stressed the purpose is protecting Korean citizens and vessels from piracy without participation in war or battles, and rejected claims of a de facto military contribution to the US war with Iran, according to Yonhap. No entry into Hormuz, transfer of national command or participation in an attack is established. The government motion and briefing transcript were not directly checked; these details remain attributed to the full Yonhap report.",
+    "קישור": "https://en.yna.co.kr/view/AEN20261112009500315?section=national/defense",
+    "מקורות": [
+      {
+        "url": "https://en.yna.co.kr/view/AEN20261112009500315?section=national/defense",
+        "label": "Yonhap: הדיווח המלא על ההצעה והתדרוך",
+        "label_en": "Yonhap: full report on the motion and briefing"
+      }
+    ],
+    "הועלה": "2026-11-13 00:16",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "04e1fd22e8ff319becc5a9025b6bbfccb6e3c60d9d4c5c7c0e1f74b9f0038c8d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1498",
+    "category": "macro",
+    "חברה": "South Korea",
+    "תאריך": "2026-11-12 23:00",
+    "כותרת": "הבנק של קוריאה: מחירי היבוא באוקטובר ירדו 1.8% בחודש; מחירי היצוא עלו 0.7%",
+    "כותרת_en": "Bank of Korea: October import prices fall 1.8% monthly; export prices rise 0.7%",
+    "טקסט": "נתוני אוקטובר 2026, ראשוניים ובסיסם וון קוריאני. הודעת הבנק של קוריאה והמסמך המצורף בן 18 העמודים נבדקו ישירות. לוח הפרסום במסמך קובע 13 בנובמבר בקוריאה ושעת אמברגו 06:00 לכלי תקשורת, 12 בנובמבר ב-23:00 בישראל. כתבת Yonhap פורסמה ב-23:00:08 בישראל לפי מטא-נתוניה; אין זו טענה ששעת ההעלאה הראשונה באתר הבנק אומתה בנפרד.\n\nמדד מחירי היבוא ירד באוקטובר ב-1.8% לעומת ספטמבר, אחרי עלייה של 1.9% בחודש הקודם. לעומת אוקטובר 2025 הוא עלה ב-13.5%, לעומת עלייה שנתית של 17.8% בספטמבר. ירידה חודשית ועלייה שנתית יכולות להתקיים יחד ואינן נתונים סותרים.\n\nמדד מחירי היצוא עלה ב-0.7% בחודש, לאחר ירידה של 0.5% בספטמבר. העלייה השנתית התמתנה ל-36.7%, לעומת 41.3% בספטמבר. חומרי גלם מיובאים ירדו ב-3% בחודש ומוצרי ביניים מיובאים ירדו ב-1%.\n\nאלה מדדי מחירים במונחי המטבע המקומי, לא צמיחת נפח הסחר או הכנסות יצוא בדולרים. הטבלה מציגה בנפרד בסיס מטבע החוזה: מחירי היצוא עלו בו ב-2.4% בחודש ומחירי היבוא ירדו ב-0.2%; אין לערבב בינם לבין נתוני הכותרת בוון.\n\nנתוני אוקטובר מסומנים כראשוניים ועשויים להתעדכן בחודש הבא. אימות המקור הנוכחי מאשר גם את תקופת הנתון וגם את שיעורי השינוי השנתיים; הוא אינו הוכחה שדיווחי שוק מוקדמים נבדקו במקור בזמן אמת. לא אומתה תחזית קונצנזוס, ואין כאן החלטת ריבית, מדד מחירים לצרכן או מסקנה שהלחץ האינפלציוני נעלם.",
+    "טקסט_en": "October 2026 preliminary data on a Korean-won basis. The Bank of Korea release and full 18-page attachment were checked directly. The document's schedule specifies November 13 in Korea and a 06:00 media embargo, equivalent to November 12 at 23:00 Israel time. Yonhap published at 23:00:08 Israel time according to its metadata; this does not claim the bank website's first upload time was separately verified.\n\nImport prices fell 1.8% in October from September after a 1.9% monthly rise. They rose 13.5% from October 2025, compared with September's 17.8% annual rise. A monthly fall and an annual increase can coexist and are not contradictory.\n\nExport prices rose 0.7% monthly after falling 0.5% in September. Annual growth eased to 36.7% from 41.3% in September. Imported raw-material prices fell 3% monthly and intermediate-goods prices fell 1%.\n\nThese are local-currency price indexes, not trade-volume growth or dollar export revenue. The table separately shows contract-currency changes: export prices rose 2.4% monthly and import prices fell 0.2% on that basis. They must not be mixed with the won-based headline figures.\n\nOctober readings are preliminary and subject to revision next month. The current primary-source check confirms both the observation period and annual changes; it does not establish that earlier market relays were primary-verified in real time. No consensus forecast was verified. This is neither a rate decision nor a consumer-price index, and it does not establish that inflation pressure has disappeared.",
+    "קישור": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066543&searchCnd=1&searchKwd=&depth2=400417&depth3=400423&depth=400423&pageUnit=10&pageIndex=1&programType=newsDataEng&menuNo=400423&oldMenuNo=400423",
+    "מקורות": [
+      {
+        "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066543&searchCnd=1&searchKwd=&depth2=400417&depth3=400423&depth=400423&pageUnit=10&pageIndex=1&programType=newsDataEng&menuNo=400423&oldMenuNo=400423",
+        "label": "הבנק של קוריאה: הודעת אוקטובר 2026 המקורית",
+        "label_en": "Bank of Korea: original October 2026 release"
+      },
+      {
+        "url": "https://www.bok.or.kr/fileSrc/eng/4c55df871627483c88919c1ffd53c25d/3/3a062fad05544bf3ac1ccd456e4aaacd.pdf",
+        "label": "המסמך המקורי: טבלת מחירים עמ׳ 1 ולוח פרסום עמ׳ 9",
+        "label_en": "Original document: price table page 1 and release schedule page 9"
+      }
+    ],
+    "הועלה": "2026-11-13 00:16",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b2782493ae5985f7f172d23bd8da7eea4bf1d07b0fde064dd71693cad0084ed8"
+      }
+    }
   }
 ]
