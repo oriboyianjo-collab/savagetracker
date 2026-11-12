@@ -35269,5 +35269,34 @@
         "source_hash": "2cb5ca57d5eb3c76dabdc5d1ae14293df515ec92f88d834708c497bf1a3df0c1"
       }
     }
+  },
+  {
+    "מזהה": "n-1406",
+    "category": "macro",
+    "תאריך": "2026-11-12 12:00",
+    "כותרת": "לפי CNBC: קוטון ביקש מלוטניק להוסיף את CXMT לרשימת הישויות; זו בקשת סנאטור, לא החלטת BIS",
+    "כותרת_en": "CNBC: Cotton asks Lutnick to add CXMT to the Entity List; a senatorial request, not a BIS decision",
+    "טקסט": "**המכתב החדש לא אומת מול מקור ראשוני: הדיווח מיוחס ל-CNBC, שקראה את המכתב.**\n12.11.2026 | דיווח CNBC פורסם ב-05:00 EST, שהם 12:00 בישראל. ההודעה הישנה של משרד ההגנה נקראה בנפרד במקור הרשמי.\n\nלפי CNBC, הסנאטור טום קוטון פנה במכתב לשר המסחר הווארד לוטניק וביקש להוסיף את יצרנית זיכרונות ה-DRAM הסינית ChangXin Memory Technologies, המוכרת כ-CXMT, לרשימת הישויות של לשכת BIS. הכתבה מתארת לחץ פוליטי להחמרת הגבלות טכנולוגיות, לא החלטת ממשל שהתקבלה או כניסה חדשה לרשימה.\n\nקוטון טוען, לפי הציטוטים בכתבה, שהרחבת CXMT בתחום הזיכרונות ובפרט בזיכרון רחב-פס HBM מחזקת את יכולות סין בתחומי הבינה המלאכותית והביטחון. אלה טענותיו ונימוקיו לבקשה, לא ממצא משפטי חדש שאומת כאן. העותק המלא של המכתב לא אותר במקור פומבי לצורך קריאה עצמאית.\n\nיש להבחין בין שתי רשימות: בהודעת משרד ההגנה מ-10 ביוני 2026, שפורסמה ב-Federal Register ונקראה במלואה, CXMT כבר נכללת ברשימת החברות הצבאיות הסיניות לפי סעיף 1260H. זו אינה רשימת הישויות של משרד המסחר, ואין להציג את הרישום הישן כהיענות למכתב החדש.\n\nהחידוש ביחס ל-n-0929, שבו סוקר ג'נסן הואנג כאומר ש-NVIDIA פתוחה לעבוד עם חברות סיניות ובהן CXMT, הוא בקשתו החדשה של קוטון להחמיר את מגבלות היצוא. אין בדיווח הודעה של BIS על הוספת החברה לרשימה, שלילת רישיון, איסור גורף חדש על כל רכישה או מסחר, או ביטול עסקה מסוימת. מאגר BIS העדכני לא נקרא כאן במלואו, ולכן אין זו קביעה עצמאית על כל רישום או מגבלה הקיימים כעת.\n\nהאירוע עשוי להיות רלוונטי לתחרות ולאספקה בשוק הזיכרונות, אך המכתב אינו מעניק הזמנה או הכנסה ל-Micron, Samsung או SK hynix. אין אומדן מאומת להשפעה כספית, ואין לייחס לו תנועת מניה שלא נבדקה. נתוני שוק ותשואות ייצור שהובאו כרקע בכתבה לא אומתו עצמאית ואינם מוצגים כאן כנתונים חדשים.",
+    "טקסט_en": "**The new letter was not verified against a primary source: this report is attributed to CNBC, which obtained it.**\nNovember 12, 2026 | CNBC published at 5:00 a.m. EST, 12:00 Israel time. The older Defense Department notice was read separately at the official source.\n\nAccording to CNBC, Senator Tom Cotton wrote to Commerce Secretary Howard Lutnick asking for Chinese DRAM maker ChangXin Memory Technologies, known as CXMT, to be added to the BIS Entity List. The article describes political pressure for tighter technology restrictions, not an administration decision or a new listing already made.\n\nCNBC quotes Cotton arguing that CXMT's expansion in memory, particularly high-bandwidth memory used for AI, strengthens China's AI and security capabilities. These are his arguments for the request, not a new legal finding independently established here. A complete publicly available original letter was not located for direct inspection.\n\nTwo lists must be distinguished. A Defense Department notice dated June 10, 2026, published in the Federal Register and read in full, already includes CXMT in the Section 1260H list of Chinese military companies. That is not the Commerce Department Entity List, and the older designation must not be presented as a response to the new letter.\n\nThe increment over n-0929, which covered Jensen Huang saying NVIDIA was open to working with Chinese companies including CXMT, is Cotton's new request for tighter export restrictions. The article announces no BIS listing, licence revocation, new blanket ban on every purchase or transaction, or cancellation of a specific deal. The full current BIS database was not inspected here, so this is not an independent determination of every current listing or restriction.\n\nThe development may matter to competition and supply in memory markets, but the letter awards no orders or revenue to Micron, Samsung or SK hynix. No verified financial impact is quantified, and no unchecked share move is attributed to it. Market-share and production-yield background in the article was not independently verified and is not presented here as new data.",
+    "קישור": "https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html",
+        "label": "CNBC: דיווח המקור המלא על המכתב החדש",
+        "label_en": "CNBC: full original report on the new letter"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+        "label": "Federal Register: הודעת משרד ההגנה מ-10 ביוני, רשימה נפרדת",
+        "label_en": "Federal Register: June 10 Defense Department notice, a separate list"
+      }
+    ],
+    "הועלה": "2026-11-12 12:27",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2859cca3682c629268baa05859165ccdaf6487e6a89a489f70604af845e03f99"
+      }
+    }
   }
 ]
