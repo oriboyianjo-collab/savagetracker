@@ -35803,5 +35803,30 @@
         "source_hash": "ba0f5fe0c663dcdc90daf644f6772e8cd22b1ec06cb783bc0f49cfaed9d92652"
       }
     }
+  },
+  {
+    "מזהה": "n-1426",
+    "category": "micro",
+    "חברה": "KDP",
+    "תאריך": "2026-11-12 14:41",
+    "כותרת": "Keurig Dr Pepper (KDP): פתחה בהנפקת מניות של 2 מיליארד דולר להפחתת חוב לקראת הפיצול המתוכנן; טרם תומחרה",
+    "כותרת_en": "Keurig Dr Pepper (KDP): launches $2 billion stock offering to reduce debt ahead of planned separation; not yet priced",
+    "טקסט": "12.11.2026, 14:41 בישראל | הודעת החברה המקורית ב-PR Newswire פורסמה ב-07:41 ET ונקראה במלואה.\n\nKeurig Dr Pepper פתחה בהנפקה ציבורית בחיתום של מניות רגילות בהיקף 2 מיליארד דולר. החברה מתכוונת להעניק לחתמים אופציה ל-30 יום לרכוש מניות נוספות בהיקף של עד 300 מיליון דולר, באותו מחיר למניה שייקבע בהנפקה.\n\nזהו שלב השקת ההנפקה, הכפופה לתנאי שוק ולתנאים מקובלים אחרים. מחיר המניה ומספר המניות לא נמסרו, האופציה טרם הוכרזה כממומשת ואין אישור שהגיוס נסגר. הערך הנקוב של 0.01 דולר למניה אינו מחיר ההנפקה. לא ניתן לחשב מההודעה את שיעור הדילול הסופי.\n\nהחברה מתכננת להשתמש בתמורה נטו כדי להאיץ הפחתת מינוף, באמצעות פרעון או רכישה חוזרת של חוב קיים בערך קרן מצטבר של כ-2 מיליארד דולר. החוב עשוי לכלול הלוואת משיכה נדחית, ניירות מסחר ואיגרות חוב בכירות לא מובטחות. סכום הקרן המתוכנן לפרעון אינו אישור לתמורה נטו זהה, לתנאי רכישה מסוימים או לחוב שכבר נפרע.\n\nהמהלך נועד להכנת המאזן לקראת הפיצול שכבר הוכרז ל-Beverage Co. ול-Global Coffee Co., שהיעד הקיים שלו הוא תחילת 2027. אין כאן החלטת פיצול חדשה, אישור להשלמתו או מועד סגירה מובטח. חיזוק פרופיל דירוגי ההשקעה והגמישות הפיננסית הוא תוצאה שהחברה מצפה לה, לא שינוי דירוג שכבר הוכרז.\n\nGoldman Sachs ומורגן סטנלי מנהלות יחד את ספר ההזמנות. ההודעה מפנה לתשקיף ולתוספת מקדמית שתוגש ל-SEC; מסמכי התשקיף עצמם לא נקראו לצורך פריט זה.",
+    "טקסט_en": "November 12, 2026, 14:41 Israel time | Full original company release on PR Newswire read; published at 07:41 ET.\n\nKeurig Dr Pepper commenced an underwritten public offering of $2 billion of common stock. It intends to grant underwriters a 30-day option to purchase up to $300 million of additional shares at the same per-share price set in the offering.\n\nThis is the offering launch, subject to market and other customary conditions. No offering price or share count was disclosed, the option has not been announced as exercised and the financing is not confirmed closed. The $0.01 par value is not the offering price. Final dilution cannot be calculated from the release.\n\nKDP intends to use net proceeds to accelerate deleveraging by repaying or repurchasing approximately $2 billion aggregate principal amount of outstanding debt. This may include its delayed-draw term loan, commercial paper and senior unsecured notes. The targeted debt principal is not confirmation of identical net proceeds, particular repurchase terms or debt already repaid.\n\nThe plan prepares the balance sheet for the previously announced separation into Beverage Co. and Global Coffee Co., still targeted for early 2027. This is not a new separation decision, confirmation of completion or a guaranteed closing date. A stronger investment-grade ratings profile and financial capacity are expected benefits described by KDP, not an announced ratings action.\n\nGoldman Sachs and Morgan Stanley are joint book-running managers. The release refers to a prospectus and a preliminary supplement to be filed with the SEC; those prospectus documents were not read for this item.",
+    "קישור": "https://www.prnewswire.com/news-releases/keurig-dr-pepper-announces-proposed-public-offering-of-common-stock-302937832.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/keurig-dr-pepper-announces-proposed-public-offering-of-common-stock-302937832.html",
+        "label": "Keurig Dr Pepper: הודעת פתיחת ההנפקה, 12 בנובמבר 07:41 ET",
+        "label_en": "Keurig Dr Pepper: offering launch announcement, November 12, 07:41 ET"
+      }
+    ],
+    "הועלה": "2026-11-12 14:47",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5d25454c7460f90a31d94e89611c81711ae6aec4656d48b50b48febadd81a370"
+      }
+    }
   }
 ]
