@@ -35327,5 +35327,34 @@
         "source_hash": "1e99ff6c540b04d1b611c9878d22fe22370a9de5bcc50b7a10300f0947bb4016"
       }
     }
+  },
+  {
+    "מזהה": "n-1408",
+    "category": "micro",
+    "תאריך": "2026-11-06",
+    "כותרת": "השלמת סיקור Sony: השקת רמקולי Pulse Elevate נדחתה בשל בעיית ייצור; לא נקבע תאריך חלופי",
+    "כותרת_en": "Sony catch-up: Pulse Elevate speaker launch delayed over production issue; no replacement date",
+    "טקסט": "השלמת סיקור להודעת Sony Interactive Entertainment מ-6 בנובמבר 2026. עדכון החברה המקורי נקרא במלואו; שעת הפרסום של העדכון לא מוצגת. כתובת העמוד כוללת את שנת 2025 משום שזהו עמוד ההכרזה המקורי, אך עדכון הדחייה מציין במפורש 6.11.2026. זו אינה הודעת דחייה חדשה מ-12 בנובמבר.\n\nSony הודיעה שבמהלך בדיקות האיכות השוטפות של רמקולי Pulse Elevate זוהתה בעיית ייצור, ולכן החליטה לדחות את ההשקה. החברה אמרה שהזמן הנוסף נועד להבטיח שהמוצר יספק את החוויה המתוכננת לשחקנים, והתנצלה על העיכוב.\n\nמועד ההשקה הקודם היה 12 בנובמבר 2026, לפי עדכון רשמי מ-18 באוגוסט באותו עמוד. בהודעת הדחייה לא נמסר תאריך חלופי או לוח זמנים חדש. האמירה שהחברה מצפה להביא את המוצר לשחקנים בקרוב אינה התחייבות למועד מסוים.\n\nההודעה אינה מפרטת את הרכיב שנפגע, היקף היחידות או את עלות הטיפול. אין להסיק ממנה ריקול של מוצרים שכבר נמכרו, פגם בכל מוצרי PlayStation או שינוי בתחזית הכספית של Sony. הסיקור המאוחר משלים את האירוע המקורי, ולא מציג את תאריך ההשקה שתוכנן להיום כאירוע חדש.",
+    "טקסט_en": "Catch-up on Sony Interactive Entertainment's November 6, 2026 announcement. The full original company update was read; no publication hour is shown for the update. The page URL contains 2025 because it is the original announcement page, but the delay update explicitly says November 6, 2026. This is not a new delay announcement from November 12.\n\nSony said its ongoing quality testing of Pulse Elevate speakers identified a production issue, leading it to delay the launch. The company said the additional time would help ensure that the product delivers the intended player experience, and apologized for the delay.\n\nThe previous launch date was November 12, 2026, according to the official August 18 update on the same page. The delay notice gives no replacement date or new timetable. Saying that the company looks forward to bringing the product to players soon is not a commitment to a specific date.\n\nThe announcement does not identify the affected component, number of units or cost of addressing the issue. It does not establish a recall of products already sold, a defect across all PlayStation products or a change to Sony's financial outlook. This late coverage records the original event rather than treating the previously planned launch date today as a new event.",
+    "קישור": "https://blog.playstation.com/2025/09/24/introducing-pulse-elevate-sony-interactive-entertainments-first-wireless-speakers-for-desktop-gaming/",
+    "מקורות": [
+      {
+        "url": "https://blog.playstation.com/2025/09/24/introducing-pulse-elevate-sony-interactive-entertainments-first-wireless-speakers-for-desktop-gaming/",
+        "label": "PlayStation: עדכון הדחייה הרשמי מ-6 בנובמבר 2026",
+        "label_en": "PlayStation: official November 6, 2026 delay update"
+      },
+      {
+        "url": "https://www.theverge.com/games/1029589/sony-playstations-pulse-elevate-speakers-delayed-just-a-week-before-launch",
+        "label": "The Verge: סיקור הדחייה מ-8 בנובמבר, 22:44 UTC",
+        "label_en": "The Verge: delay coverage, November 8 at 22:44 UTC"
+      }
+    ],
+    "הועלה": "2026-11-12 12:44",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "af5672382fee0c8298e509335d48bb6f8d079ae723e6d66f8bfb222e884e47c0"
+      }
+    }
   }
 ]
