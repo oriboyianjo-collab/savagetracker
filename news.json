@@ -37637,5 +37637,43 @@
         "source_hash": "7fe38fb8e964de13f432e5b6beefed51b6425647e286888ec9ad423ecc37684f"
       }
     }
+  },
+  {
+    "מזהה": "n-1480",
+    "category": "micro",
+    "חברה": "Google",
+    "symbols": [
+      "GOOGL",
+      "GOOG"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-03",
+    "כותרת": "הבהרה לעדכוני Google בבתי ספר: לפי NBC, ניתן להפעיל Search בנפרד ממוצרי Gemini; תכונות AI בחיפוש יישארו",
+    "כותרת_en": "Clarification on Google in schools: NBC says Search can be enabled separately from Gemini products, with AI still built into Search",
+    "טקסט": "לא מאומת מול מקור ראשוני\nהשלמת מידע מאוחרת מ-3 בנובמבר 2026, לא מדיניות חדשה מ-12 בנובמבר. כתבת NBC המלאה נקראה מחדש כעת. היא מייחסת ל-Google הבהרה שנמסרה מאוחר יותר ב-3 בנובמבר: בתי ספר יכולים להפעיל את Google Search בנפרד, בלי להפעיל את מוצרי Gemini הנוספים. שעת ההבהרה המדויקת וההודעה המקורית ברשת החברתית לא אומתו ישירות.\n\nהבהרה זו משלימה את n-0522 על שינוי ברירות המחדל ומתקנת את אי-הוודאות שנשארה ב-n-0224 בשאלה אם חיפוש מחייב הפעלת Gemini. לפי NBC, הפעלת Search אינה מחייבת להפעיל את מוצרי Gemini הנפרדים. עם זאת, תכונות AI שכבר משולבות בחיפוש, כמו AI Mode ו-AI Overviews, אינן מוסרות באמצעות הבחירה הזאת. לכן אין להציג את המהלך כאפשרות לחיפוש נטול AI.\n\nהודעת Google המקורית מ-3 בנובמבר, שנקראה שוב ישירות, אומרת שהגישה ל-Search, ל-Gemini, ל-Gemini Notebook ול-Gemini in Classroom תהיה כבויה בחשבונות תלמידי K-12 עד שמנהלי בתי הספר יפעילו אותה במפורש. היא מבטיחה פרטים נוספים לפני היישום, אך אינה מפרטת בעצמה את ההבהרה על הפעלה נפרדת. התיאור כאן של ההבהרה נשען על NBC, ולא מוצג כאימות ישיר של ההודעה החברתית.\n\nאין בכך אימות לטענה נפרדת שבתי הספר הציבוריים בשיקגו החליטו לעזוב את Google Search או הודיעו על איום כזה. לא אותרה כאן הודעה מקורית של המחוז על כך. אין גם הודעת חסימה לכלל משתמשי בית הספר, לציבור הרחב או החלטת אכיפה חדשה. העדכונים הקודמים נשמרו ללא שינוי; זו הבהרה נפרדת, לא אירוע מדיניות נוסף.",
+    "טקסט_en": "Not verified against a primary source\nLate follow-up to November 3, 2026, not a new November 12 policy. NBC's full article was reread now. It attributes a later November 3 clarification to Google: schools can enable Google Search individually without enabling additional Gemini products. The exact clarification time and original social-media statement were not independently verified.\n\nThis supplements n-0522 on default access controls and corrects the uncertainty left in n-0224 about whether Search requires activating Gemini. According to NBC, enabling Search does not require activating the separate Gemini products. However, AI features already integrated into Search, such as AI Mode and AI Overviews, remain. This is not an option for AI-free Google Search.\n\nGoogle's original November 3 announcement, read directly again, says Search, Gemini, Gemini Notebook and Gemini in Classroom will be off for K-12 student accounts until school administrators explicitly turn them on. It promises more details before implementation but does not itself set out the separate-enablement clarification. That clarification is attributed here to NBC, not presented as direct verification of the social-media statement.\n\nThis does not verify a separate claim that Chicago Public Schools decided or threatened to leave Google Search. No original district announcement was located here. Nor does it establish a block for all school users or the public, or a new enforcement decision. Earlier items remain unchanged; this is a separate clarification, not another policy event.",
+    "קישור": "https://www.nbcnews.com/tech/tech-news/google-shut-search-schools-opt-ai-rcna607280",
+    "מקורות": [
+      {
+        "url": "https://www.nbcnews.com/tech/tech-news/google-shut-search-schools-opt-ai-rcna607280",
+        "label": "NBC News: הכתבה המלאה, כולל ההבהרה המיוחסת ל-Google לאחר הפרסום",
+        "label_en": "NBC News: full article, including the later clarification attributed to Google"
+      },
+      {
+        "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+        "label": "Google: הודעת המדיניות המקורית מ-3 בנובמבר, ללא פירוט ההפעלה הנפרדת",
+        "label_en": "Google: original November 3 policy, without the separate-enablement detail"
+      }
+    ],
+    "הועלה": "2026-11-12 22:15",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5dc889380cc1c85d600710ac22a69c7e557f16d03bf8b979551a348c17cda44b"
+      }
+    }
   }
 ]
