@@ -36486,5 +36486,37 @@
         "source_hash": "59f33a18246ce60c6929f8a65a896af047320eb2d2089dbb1c9d5d4fc6ace12a"
       }
     }
+  },
+  {
+    "מזהה": "n-1445",
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "NVIDIA (NVDA): ג׳נסן הואנג התפטר לאלתר מתפקידי הנשיא, המנכ״ל והדירקטור; קולט קרס מונתה למנכ״לית זמנית",
+    "כותרת_en": "NVIDIA (NVDA): Jensen Huang resigns immediately as president, CEO and director; Colette Kress appointed interim CEO",
+    "טקסט": "12.11.2026 | הודעת NVIDIA הרשמית נקראה במלואה. בעמוד מצוין תאריך ללא שעת פרסום מאומתת.\n\nדירקטוריון NVIDIA הודיע שג׳נסן הואנג התפטר מתפקידי נשיא החברה, המנכ״ל וחבר הדירקטוריון, בתוקף מיידי. זו הודעה רשמית על עזיבה שכבר נכנסה לתוקף, מעבר לדיווחים הקודמים על היערכות לדיון ולהכרעה בעתידו ב-n-1346 וב-n-1351. החברה מתארת התפטרות; אין לנסח זאת כהצבעת הדחה שאומתה כאן.\n\nקולט קרס, סמנכ״לית הכספים וסגנית נשיא בכירה, הסכימה לכהן כמנכ״לית זמנית. היא ממשיכה גם בתפקידי סמנכ״לית הכספים וסגנית הנשיא הבכירה עד למינוי מנכ״ל קבוע. הדירקטוריון פותח בחיפוש מחליף קבוע ויבחן מועמדים מתוך החברה ומחוצה לה. זהו מינוי זמני, לא בחירה בה כמנכ״לית קבועה או הודעה על מחליף לסמנכ״לית הכספים.\n\nהדירקטוריון מינה את הארווי סי. ג׳ונס ליו״ר הראשון של דירקטוריון החברה. לפי הודעת החברה, ניסיונו כולל כהונה כמנכ״ל וכיו״ר בכיר של Synopsys. תפקידו החדש הוא יו״ר הדירקטוריון, לא מנכ״ל NVIDIA.\n\nג׳ונס אמר שהדירקטוריון נותן אמון בקרס ובהנהלה ומצפה שהפעילות, ההתחייבויות ללקוחות ומפת הדרכים למוצרים יימשכו ללא הפרעה. זו ציפייה שהחברה מביעה, לא אישור עצמאי שכל סיכון עסקי הוסר או תחזית כספית חדשה.\n\nההודעה אינה מוסרת סיבה להתפטרות, ממצאים של החקירה העצמאית שכבר סוקרה ב-n-1043 וב-n-1252, או קביעה על ריגול, הפרת מדיניות או חשיפת מידע סודי. אין להסיק שהטענות שפורסמו קודם הוכחו או שההתפטרות כשלעצמה היא הודאה בהן. לא נכלל כאן ציטוט מניה או ייחוס של תנועת מחיר להודעה.",
+    "טקסט_en": "November 12, 2026 | NVIDIA's full official announcement was read. The page gives a date without a verified publication hour.\n\nNVIDIA's board announced that Jensen Huang resigned as president, chief executive officer and a board member, effective immediately. This is an official departure already effective, beyond the earlier reports of preparations and a board meeting to decide his future in n-1346 and n-1351. The company describes a resignation, not a removal vote independently verified here.\n\nColette Kress, executive vice president and chief financial officer, agreed to serve as interim CEO. She retains her EVP and CFO roles while serving as interim CEO until a permanent successor is named. The board is starting a search for a permanent CEO and will consider internal and external candidates. This is an interim appointment, not selection as permanent CEO or announcement of a replacement CFO.\n\nThe board appointed Harvey C. Jones as its first-ever chair. The release says his experience includes serving as CEO and executive chairman of Synopsys. His new role is NVIDIA board chair, not NVIDIA CEO.\n\nJones said the board has confidence in Kress and the leadership team and expects operations, customer commitments and the product roadmap to continue without interruption. This is the company's expectation, not independent verification that every business risk is removed or new financial guidance.\n\nThe release gives no reason for the resignation, findings from the independent investigation covered in n-1043 and n-1252, or determination of espionage, a policy violation or disclosure of confidential information. Earlier allegations must not be treated as proved, nor the resignation itself as an admission. No share-price quote or claim that this announcement caused a market move is included.",
+    "קישור": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "מקורות": [
+      {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+        "label": "NVIDIA: הודעת המעבר הרשמית והמלאה בהנהלה",
+        "label_en": "NVIDIA: full official leadership-transition announcement"
+      }
+    ],
+    "הועלה": "2026-11-12 15:55",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8244d0b209ae964c77438d2b8de2509511d57542a80a77bd8f2dd5fa167268af"
+      }
+    }
   }
 ]
