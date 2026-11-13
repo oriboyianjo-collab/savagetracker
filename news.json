@@ -41115,5 +41115,41 @@
     },
     "מזהה": "n-1583",
     "הועלה": "2026-11-13 12:56"
+  },
+  {
+    "category": "stocks",
+    "חברה": "Weatherford",
+    "חברה_en": "Weatherford",
+    "symbols": [
+      "WFRD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "Weatherford השלימה מעבר התאגדות מאירלנד לדלאוור: חברת אם אמריקאית והחלפת מניות 1:1, ללא שינוי בפעילות",
+    "כותרת_en": "Weatherford completes Ireland-to-Delaware redomestication: US parent and 1:1 share exchange, operations unchanged",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1603923/000160392326000135/pressrelease.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1603923/000160392326000135/pressrelease.htm",
+        "label": "Weatherford: הודעת השלמת המעבר, נספח SEC",
+        "label_en": "Weatherford: completion release filed with the SEC"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1603923/000160392326000135/wft-20261113.htm",
+        "label": "דוח 8-K המקורי: מבנה החברה, ערבויות ותוכנית ההון",
+        "label_en": "Original 8-K: corporate structure, guarantees and capital program"
+      }
+    ],
+    "טקסט": "13.11.2026 | הודעת Weatherford ודוח 8-K המקורי נקראו במלואם. שעת פרסום ההודעה המקורית אינה מופיעה במקורות האלה; מועד קבלת הדוח במערכת אינו שעת ההודעה.\n\nWeatherford השלימה היום את מעבר מקום ההתאגדות שלה מאירלנד לדלאוור. Weatherford International Corp האמריקאית הפכה לחברת האם הציבורית של הקבוצה, והחברה האירית הפכה לחברה בת. כל מניה רגילה קודמת הוחלפה במניה של החברה האמריקאית ביחס של אחת לאחת, והסימול בנאסד״ק נשאר WFRD.\n\nזהו שלב השלמה משפטי של מהלך שכבר הוכרז ואושר בידי בעלי המניות ב-3 בספטמבר, לא רכישה חדשה של עסק אחר. לפי החברה, הפעילות, ההנהלה, האסטרטגיה והמטה ביוסטון אינם משתנים בעקבותיו. סעיף ההשלמה בדוח אינו ראיה להוספת הכנסות או נכסים מעסקה תפעולית חדשה.\n\nהחברה מצפה לחיסכון במזומן של כ-20 עד 30 מיליון דולר בשנה החל מ-2027. זו תחזית שנתית עתידית, לא חיסכון שכבר הושג ב-2026 ולא סכום חד-פעמי מובטח. היא נפרדת מהחיסכון השנתי בריבית של כ-20 מיליון דולר שתואר בעדכון הקודם על פדיון אג״ח מ-30 באוקטובר.\n\nהדירקטוריון של חברת האם החדשה אימץ את תוכנית החזרת ההון הקיימת, כולל יתרת הרשאת רכישה חוזרת של כ-230 מיליון דולר עד יוני 2027 וכוונה להמשיך בדיבידנדים רבעוניים. אין כאן אישור חדש לעוד 230 מיליון דולר, רכישה שבוצעה או דיבידנד חדש שהוכרז. ביצוע הרכישות ותשלומים עתידיים כפופים לשיקול דעת הדירקטוריון ולתנאים החלים.\n\nהחברה האמריקאית נטלה גם את תפקיד חברת האם הערבה בהסכמי האשראי ובאג״ח הקיימים. נטילת הערבויות במסגרת שינוי המבנה אינה דיווח על הלוואה חדשה או על תמורת גיוס חדשה; הדוח מציין שתנאי אג״ח 2033 לא שונו בדרך אחרת. החידוש הוא השלמת שינוי ההתאגדות, לא העברת המטה, מינוי הנהלה או הרחבת תוכנית הרכישות.",
+    "טקסט_en": "November 13, 2026 | Weatherford's release and original 8-K were read in full. These sources do not show the release's original publication time; the filing acceptance time is not the release time.\n\nWeatherford completed its Ireland-to-Delaware redomestication today. US-incorporated Weatherford International Corp became the group's publicly traded parent, and the Irish company became a subsidiary. Each former ordinary share was exchanged for one share of the US company's common stock. The Nasdaq ticker remains WFRD.\n\nThis is legal completion of a previously announced transaction approved by shareholders on September 3, not a new acquisition of another business. The company says operations, management, strategy and its Houston headquarters do not change. The filing's completion item does not establish added revenue or assets from a new operating acquisition.\n\nWeatherford expects approximately $20 million to $30 million of annual cash savings beginning in 2027. This is a forward annual estimate, not savings already realized in 2026 or a guaranteed one-off amount. It is separate from the approximately $20 million annual interest savings described in the earlier October 30 debt-redemption update.\n\nThe new parent's board adopted the existing capital return program, including approximately $230 million of remaining share-repurchase authorization through June 2027 and an intention to continue quarterly dividends. This is not a new additional $230 million authorization, completed repurchases or a newly declared dividend. Execution and future payments remain subject to board discretion and applicable conditions.\n\nThe US company also assumed the parent-guarantor role under existing credit and note arrangements. Assuming guarantees in this restructuring is not a report of a new loan or new financing proceeds. The filing says the 2033 notes' terms were not otherwise changed. The added event is completed redomestication, not a headquarters move, management appointment or expanded buyback program.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a83da39e2c14ef185f9373551882bad7b04731470948d8d0911934d4381609f6"
+      }
+    },
+    "מזהה": "n-1584",
+    "הועלה": "2026-11-13 13:23"
   }
 ]
