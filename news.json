@@ -40349,5 +40349,46 @@
     },
     "מזהה": "n-1562",
     "הועלה": "2026-11-13 11:07"
+  },
+  {
+    "category": "macro",
+    "חברה": "IEA / שוק הנפט",
+    "חברה_en": "IEA / oil market",
+    "symbols": [],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "IEA: אספקת הנפט עלתה מעל הביקוש לראשונה מאז פרוץ המלחמה; צופה עודף ברבעון הרביעי, אך המחסור בסולר נמשך",
+    "כותרת_en": "IEA: oil supply exceeds demand for first time since war began; Q4 surplus forecast, but diesel stays tight",
+    "טקסט": "13.11.2026 | עיקרי דוח הנפט החודשי והפרשנות הציבורית המלאה של IEA נקראו במקור. מועד ההפצה המתוכנן הוא 10:00 בפריז, 11:00 בישראל לפי חישוב אזורי הזמן; זו שעה מתוכננת, לא חותמת פרסום שנמדדה. הדוח המלא למנויים לא נקרא ולא נרכש.\n\nסוכנות האנרגיה הבינלאומית אומרת שאספקת הנפט העולמית עלתה מעל הביקוש לראשונה מאז פרוץ המלחמה באיראן. לפי אומדניה, האספקה עלתה באוקטובר ב-2.3 מיליון חביות ביום ל-105.4 מיליון. נתוני ההיצע והביקוש של נובמבר מצביעים כעת על חזרה לעודף ברבעון הרביעי ועל צבירה משמעותית יותר ב-2027, בניגוד לדוח אוקטובר שצפה גירעון עד סוף השנה. זו תחזית מאזנית לרבעון, לא אישור שכל ימי הרבעון כבר נמדדו או שהמלחמה הסתיימה.\n\nהמלאי העולמי הנצפה עלה באוקטובר ב-52 מיליון חביות, קצב ממוצע של 1.7 מיליון ביום. זהו נתון מלאי של אוקטובר, לא מספר שמוצג כאן כתחזית העודף ברבעון הרביעי. העלייה נשענה על תוספת של 86 מיליון חביות בנפט שבים; המלאי ביבשה המשיך לרדת ונותר בשפל מאז 2016 לפחות. מלאי OECD הכולל ירד ב-47 מיליון, ומאז פרוץ המלחמה המלאי העולמי הנצפה עדיין נמוך במצטבר ב-462 מיליון חביות. אין לפרש את עליית הסך העולמי כמילוי מחדש של כל המאגרים ביבשה.\n\nIEA צופה ירידה של 2.7 מיליון חביות ביום בביקוש הממוצע ב-2026 לרמה של 102.3 מיליון, והתאוששות של 2 מיליון ביום ב-2027. ההיצע צפוי לרדת השנה ב-4.8 מיליון ביום ולהתאושש בשנה הבאה ב-6.6 מיליון לרמה של 108.1 מיליון. אלה תחזיות שנתיות, לא קצב השינוי החודשי באוקטובר. התאוששות היצוא מהמפרץ אינה חזרה מלאה לשגרה: יצוא האזור ללא עומאן הגיע לפי הסוכנות ל-18.4 מיליון חביות ביום, עדיין 26% מתחת לרמה שקדמה למלחמה.\n\nהסוכנות ממשיכה להזהיר ממחסור במוצרי דלק, ובמיוחד סולר, בגלל שיבושים במזרח התיכון וברוסיה. היא צופה ששחרור מואץ של מלאי חירום של סולר בחודשים הבאים יסייע לגשר עד להתאוששות התפוקה בבתי הזיקוק. בעמוד הציבורי שנבדק אין סכום חדש של חביות לשחרור או הוכחה שהשחרור העתידי כבר בוצע. עודף נפט כולל אינו שקול לעודף סולר בכל אזור.\n\nהחידוש הוא שינוי מאזן IEA והצטברות המלאי העולמי באוקטובר. זהו דוח נפרד מאומדני אופ״ק ב-n-1327: הגדרות ההיצע והיקף המדינות שונים, ואין לחבר את הסדרות או להציג את התחזית כפעולה חדשה של OPEC+. כל אומדני השיקום תלויים בביטחון השיט ובהמשך זרימת היצוא; אין כאן הכרזה על פתיחה בטוחה ומלאה של הורמוז או תחזית מחיר ודאית.",
+    "טקסט_en": "November 13, 2026 | The IEA's complete public monthly oil-report highlights and commentary were read at the source. Scheduled release is 10:00 Paris, calculated as 11:00 Israel time. That is a scheduled time, not a measured publication timestamp. The paid full report was neither read nor purchased.\n\nThe International Energy Agency says global oil supply has surpassed demand for the first time since the war in Iran began. It estimates October supply rose by 2.3 million barrels per day to 105.4 million. Its November balances now point to a Q4 surplus and a larger build in 2027, versus October's forecast of a deficit through year-end. This is a quarterly balance forecast, not confirmation every day of the quarter has been observed or that the war has ended.\n\nObserved global inventories rose by 52 million barrels in October, an average rate of 1.7 million per day. That is October's inventory build, not a numeric Q4 surplus forecast here. The gain was driven by 86 million additional barrels of oil on water; on-land stocks kept falling and remain at their lowest since at least 2016. Total OECD stocks fell by 47 million barrels. Cumulative observed global stocks are still down 462 million barrels since the war began. A higher global total does not mean all on-land reserves have been replenished.\n\nIEA forecasts 2026 average demand falling by 2.7 million barrels per day to 102.3 million, followed by a 2 million rebound in 2027. Supply is forecast to decline by 4.8 million this year and recover by 6.6 million next year to 108.1 million. These are annual forecasts, not October monthly changes. Gulf exports excluding Oman reached an estimated 18.4 million barrels per day, still 26% below pre-war levels, so recovery is not normalization.\n\nThe agency still warns of tight product supply, especially diesel, because of Middle Eastern and Russian disruptions. It expects accelerated emergency diesel-stock releases in coming months to bridge the gap until refinery output recovers. The inspected public page specifies no new barrel total or proof those future releases have already occurred. An aggregate oil surplus is not a diesel surplus in every region.\n\nThe increment is IEA's changed balance outlook and October's observed global inventory build. This is separate from OPEC estimates in n-1327: supply definitions and country coverage differ, so the series must not be added or treated as a new OPEC+ action. Recovery remains exposed to maritime-security and export-flow risks. This is not confirmation Hormuz is fully safe/open or a certain price forecast.",
+    "קישור": "https://www.iea.org/reports/oil-market-report-november-2026",
+    "מקורות": [
+      {
+        "url": "https://www.iea.org/reports/oil-market-report-november-2026",
+        "label": "IEA: עיקרי נובמבר והפרשנות הציבורית המלאה",
+        "label_en": "IEA: November highlights and complete public commentary"
+      },
+      {
+        "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+        "label": "IEA: דוח אוקטובר, תחזית הגירעון הקודמת",
+        "label_en": "IEA: October report, previous deficit outlook"
+      },
+      {
+        "url": "https://www.iea.org/data-and-statistics/data-product/oil-market-report-omr",
+        "label": "IEA: לוח מועדי הפצה, 10:00 בפריז",
+        "label_en": "IEA: release schedule, 10:00 Paris time"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "927c82a97b57588065fe4409163cde1d2febe1e3309cc313ba8412cb2baa606a"
+      }
+    },
+    "מזהה": "n-1563",
+    "הועלה": "2026-11-13 11:09"
   }
 ]
