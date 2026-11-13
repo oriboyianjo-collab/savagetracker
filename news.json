@@ -39126,5 +39126,42 @@
     },
     "מזהה": "n-1528",
     "הועלה": "2026-11-13 09:27"
+  },
+  {
+    "category": "micro",
+    "חברה": "Anthropic / MSFT",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-10",
+    "כותרת": "השלמה מתשקיף Anthropic מ-10 בנובמבר: התחייבות Microsoft של 47.2–49.2 מיליארד דולר; חוזה Lambda ניתן לביטול אך לא בוטל",
+    "כותרת_en": "November 10 Anthropic filing catch-up: Microsoft commitment of $47.2–49.2 billion; Lambda contract terminable but not terminated",
+    "טקסט": "השלמת סיקור לתשקיף מתוקן שהוגש ב-10.11.2026, לא הסכמים חדשים שנחתמו ב-13 בנובמבר. המקור הראשוני ב-SEC נקרא ישירות, לרבות סעיפי ההתחייבויות וההתקשרויות בעמודים 179–181. שעת ההגשה המקורית לא אומתה ולכן נשמר תאריך בלבד. כתבת ההמשך ב-DCD נושאת תאריך גלוי 11 בנובמבר.\n\nלפי תיקון מס׳ 2 לתשקיף, ההסכם של Anthropic עם Microsoft, שנחתם בנובמבר 2025 ותוקן בין פברואר לנובמבר 2026, כולל התחייבות הוצאה מצטברת של לפחות 47.2 ועד 49.2 מיליארד דולר בין נובמבר 2026 ליוני 2033, בלי תלות בשימוש בפועל. ההתחייבות אינה ניתנת לביטול, למעט הפרה מהותית של Microsoft שלא תוקנה או חריגים לגבי מנות קיבולת מסוימות שטרם נמסרו.\n\nDCD משווה את הטווח הזה ל-44.9 מיליארד דולר בתשקיף מתחילת נובמבר ומתארת תוספת אפשרית של עד 4.3 מיליארד. זו השוואת כתבת ההמשך, לא הסכם נוסף של 4.3 מיליארד מעבר לטווח 47.2–49.2, ולא הכנסות שכבר הוכרו ב-Microsoft. סעיף ההסכם הנוכחי אומת מול התשקיף; המשפט המדויק של בסיס 44.9 לא נבדק מחדש בסעיף המקביל של התשקיף הקודם.\n\nבנפרד, הסכמי Anthropic עם Lambda ממאי, יוני ואוגוסט 2026 כוללים כ-41.3 מיליארד דולר עד 2034; חיוב מתחיל רק עם מסירת קיבולת וקבלתה. הסכם אוגוסט, המייצג כ-34.9 מיליארד מתוך הסכום הכולל ולא בנוסף לו, ניתן כעת לביטול בידי כל צד מפני ש-Lambda לא הבטיחה את חוזה השכירות למתקן עד המועד החוזי. נכון לתאריך התשקיף, אף צד לא מסר הודעת ביטול ו-Anthropic אמרה שאין לה כוונה נוכחית לבטל. אין כאן ביטול שבוצע, אובדן הכנסה מוכח של Lambda או עדכון על מצבו המשפטי של החוזה לאחר 10 בנובמבר.\n\nהמסגרת הכוללת בתיקון החדש היא כ-900.9 מיליארד דולר של התחייבויות רכש ושכירות, כולל קצרות-טווח ושכירויות שטרם החלו, נכון ל-30 בספטמבר ומאותו מועד ואילך; כמעט כולן למחשוב ותשתית. כ-451.6 מיליארד צפויים עד סוף 2030 וכ-70.7 מיליארד ב-12 החודשים שלאחר 30 בספטמבר. אלו התחייבויות לתקופות שונות, לא הוצאה רבעונית או מזומן ששולם כעת.\n\nזהו עדכון למסגרת 895.4 מיליארד מהתיקון של 2 בנובמבר שכבר סוקרה. אין להוסיף אל הסך הכולל שוב את מלוא הסכמי Microsoft או Lambda, ואין לקרוא לטבלת התחייבויות קבועות נכון ל-30 בספטמבר כאילו היא לבדה המסגרת הרחבה הכוללת גם התקשרויות מאוחרות ושכירויות שטרם החלו. החידוש נפרד מטווח ההנפקה ומבנה המניות שכבר פורסמו; אין כאן תמחור הנפקה סופי, אישור SEC לניירות הערך או עדכון תוצאות רבעוניות.",
+    "טקסט_en": "Catch-up coverage of an amended prospectus filed November 10, 2026, not new agreements signed on November 13. The SEC primary source was read directly, including commitments and infrastructure arrangements on pages 179–181. The original filing clock was not verified, so only the date is assigned. DCD's follow-up has a visible November 11 date.\n\nAmendment No. 2 says Anthropic's November 2025 Microsoft agreement, amended between February and November 2026, commits it to aggregate spending of at least $47.2 billion and up to $49.2 billion between November 2026 and June 2033, regardless of actual usage. It is non-cancelable except for Microsoft's uncured material breach or certain undelivered capacity tranches.\n\nDCD compares this range with $44.9 billion in the early-November filing and describes a potential increase of up to $4.3 billion. That is the follow-up article's comparison, not another $4.3 billion on top of the $47.2–49.2 billion range or revenue already recognized by Microsoft. The current contract section was verified in the prospectus; the precise $44.9 billion baseline sentence was not re-read in the earlier filing's corresponding section.\n\nSeparately, Anthropic's May, June and August 2026 Lambda agreements total approximately $41.3 billion through 2034, with fees accruing only as capacity is delivered and accepted. The August agreement represents about $34.9 billion within that total, not in addition. Either party can now terminate it because Lambda did not secure the facility lease by the contractual deadline. As of the prospectus date, neither party had delivered a termination notice and Anthropic said it had no current intent to terminate. This is not an executed cancellation, proven lost Lambda revenue or an update on the contract's legal status after November 10.\n\nThe new amendment's broader aggregate is approximately $900.9 billion of purchase commitments and leases, including short-term commitments and leases not yet commenced, as of and subsequent to September 30. Substantially all relates to compute and infrastructure. About $451.6 billion is expected before the end of 2030 and $70.7 billion in the 12 months after September 30. These span different periods and are not quarterly expense or cash paid today.\n\nThis updates the previously covered $895.4 billion framework in the November 2 amendment. Microsoft and Lambda agreements must not be added again to the aggregate. Nor is the table of fixed obligations at September 30 identical to the broader framework including later arrangements and uncommenced leases. The delta is separate from previously published IPO pricing-range and share-structure coverage. This is not final IPO pricing, SEC approval of the securities or a quarterly-results update.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+        "label": "Anthropic: תיקון מס׳ 2 ל-S-1, הוגש ל-SEC ב-10 בנובמבר; סעיפי חוזים נקראו ישירות",
+        "label_en": "Anthropic: S-1 Amendment No. 2 filed November 10; contract sections read directly"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-another-43bn-in-compute-agreements-with-microsoft/",
+        "label": "DCD: כתבת המשך מ-11 בנובמבר, השוואת הסכם Microsoft לתשקיף הקודם",
+        "label_en": "DCD: November 11 follow-up comparing the Microsoft commitment with the prior filing"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4e3aa63907381927ffe68f1881e5b6ee7366c04e7a0e1fe432fc9f34e526951e"
+      }
+    },
+    "מזהה": "n-1529",
+    "הועלה": "2026-11-13 09:36"
   }
 ]
