@@ -41038,5 +41038,41 @@
     },
     "מזהה": "n-1581",
     "הועלה": "2026-11-13 12:37"
+  },
+  {
+    "category": "stocks",
+    "חברה": "SpaceX",
+    "חברה_en": "SpaceX",
+    "symbols": [
+      "SPCX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "SpaceX מכוונת לטיסת Starship 15 בלילה שבין שישי לשבת: 26 לווייני Starlink וניסיון לכידת הספינה, בכפוף לאישור",
+    "כותרת_en": "SpaceX targets Starship Flight 15 overnight Friday into Saturday in Israel: 26 Starlinks and a ship-catch attempt, pending approval",
+    "קישור": "https://www.spacex.com/launches/starship-flight-15",
+    "מקורות": [
+      {
+        "url": "https://www.spacex.com/launches/starship-flight-15",
+        "label": "SpaceX: עמוד המשימה ולוח הזמנים המלא",
+        "label_en": "SpaceX: full mission page and timeline"
+      },
+      {
+        "url": "https://www.france24.com/en/live-news/20261113-spacex-starship-test-to-attempt-first-ever-spaceship-catch",
+        "label": "AFP: דיווח 13 בנובמבר דרך France24",
+        "label_en": "AFP: November 13 report via France24"
+      }
+    ],
+    "טקסט": "תמונת מצב לקראת המשימה, 13.11.2026 | עמוד המשימה הרשמי של SpaceX נקרא במלואו, כולל הסברים ולוח זמנים. מועד העלאת העמוד או עדכונו המקורי לא מוצג; אין כאן טענה שהתוכנית הוכרזה לראשונה היום.\n\nSpaceX מכוונת לשיגור Starship Flight 15 ביום שישי, 13 בנובמבר, בחלון של 75 דקות הנפתח ב-16:45 במרכז ארה״ב. בישראל זהו יום שבת, 14 בנובמבר, בין 00:45 ל-02:00. זהו חלון מתוכנן ולא שיגור שבוצע. בעמוד הרשמי עדיין כתוב שהטיסה כפופה לאישור רגולטורי; לא אומת כאן אישור FAA סופי.\n\nהמטרה היא להחזיר גם את Super Heavy וגם את השלב העליון Starship ללכידה במגדל השיגור ב-Starbase. לכידת בוסטרים מדור קודם כבר בוצעה; הניסיון החדש הוא גם לכידת הספינה לאחר מסע במסלול וגם לכידת בוסטר Super Heavy V3. אין להציג לכידת בוסטר קודמת כהצלחה שכבר הושגה בלכידת הספינה.\n\nהשלב העליון מתוכנן לפרוס 26 לווייני Starlink V3, לשהות בגובה של כ-275 ק״מ ולהשלים כ-14 הקפות במהלך טיסה של יותר מ-22 שעות. בלוח התוכנית הלכידה מופיעה כ-22 שעות ו-32 דקות לאחר ההמראה, לא דקות אחדות לאחריה. אם השיגור יתרחש בתחילת החלון, מדובר בסביבות 23:18 במוצאי שבת בישראל; דחיית השיגור תדחה גם את שעת החזרה.\n\nהחזרה לאתר ולכידת הספינה מותנות בתקינות מערכות הכניסה לאטמוספרה, בעירת הנחיתה והגישה למגדל. החברה מציגה נקודות החלטה וחלופות לירידה בטוחה מעל האוקיינוס; מטרת הניסוי אינה הבטחה שהלכידה אכן תבוצע. גם פריסת לוויינים אינה כניסה מיידית לשירות מסחרי: לאחר הפריסה מתוכננות העלאת מסלול ובדיקות.\n\nבעדכון על שיחת המשקיעים מ-20 באוקטובר כבר הוזכרה כוונה כללית לנסות לכידה של שני השלבים בטיסה 15. החידוש כאן הוא לוח המשימה המפורט, חלון השיגור בישראל, מטען הלוויינים וההפרדה בין החזרת הבוסטר לאחר דקות לבין החזרת הספינה ביום שלאחר מכן. אין בדף אישור לשיגור, לכידה מוצלחת או שיעור חיסכון כספי שהוכח.",
+    "טקסט_en": "Mission preview as of November 13, 2026 | SpaceX's full official mission page, explanations and timeline were read. Its original posting or update time is not shown. This does not claim the plan was first announced today.\n\nSpaceX targets Friday, November 13 for Starship Flight 15 in a 75-minute window opening at 4:45 p.m. US Central Time. In Israel, that is Saturday, November 14, from 00:45 to 02:00. This is a planned launch window, not a completed launch. The official page still says regulatory approval is pending; final FAA clearance was not verified here.\n\nThe plan is to return both Super Heavy and the Starship upper stage for catches at Starbase's launch tower. Earlier-generation boosters have already been caught. The new attempts include catching the ship after its orbital flight and catching a Super Heavy V3 booster. A previous booster catch is not a successful upper-stage catch.\n\nThe upper stage is scheduled to deploy 26 Starlink V3 satellites, fly at about 275 km and complete approximately 14 orbits over more than 22 hours. The timeline puts ship catch about 22 hours and 32 minutes after liftoff, not a few minutes later. If liftoff occurs at the window's opening, that corresponds to about 23:18 Saturday in Israel; a launch delay shifts the return time too.\n\nReturn to the launch site and ship catch depend on the health of systems critical to reentry, the landing burn and tower approach. SpaceX describes decision points and safe ocean-return alternatives. A test objective is not assurance the catch will be attempted. Satellite deployment also is not immediate commercial service: orbit raising and checkouts follow.\n\nThe October 20 investor-call update already mentioned a general intention to attempt catches of both stages on Flight 15. The added information is the detailed mission plan, Israel launch window, satellite payload and distinction between the booster's return after minutes and the ship's return the following day. The page does not establish launch clearance, a successful catch or a demonstrated cost-saving percentage.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4e1bd6c4c87d23c54c1e847bf8ac4e92d9a517d170a5ed892e083cd5b72e28d3"
+      }
+    },
+    "מזהה": "n-1582",
+    "הועלה": "2026-11-13 12:44"
   }
 ]
