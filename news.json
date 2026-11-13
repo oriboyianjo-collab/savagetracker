@@ -38533,5 +38533,35 @@
     },
     "מזהה": "n-1510",
     "הועלה": "2026-11-13 07:28"
+  },
+  {
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "תאריך": "2026-11-13 04:45",
+    "כותרת": "NVIDIA (NVDA): לפי NBC, לוטניק הסכים להעיד מרצונו בוועדת הבנקאות; מועד הופעתו לא אושר בציטוט הדוברת",
+    "כותרת_en": "NVIDIA (NVDA): NBC reports Lutnick agreed to testify voluntarily before Senate Banking; spokesperson's quote does not confirm a date",
+    "טקסט": "לא מאומת מול מקור ראשוני\n13.11.2026, 04:45 בישראל | כתבת NBC News המקורית מאת Kyla Guilfoil, שפורסמה ב-12 בנובמבר ב-21:45 EST, נקראה במלואה. הדיווח כולל תגובה שנמסרה ישירות לעיתון, אך הודעת ממשל, תמליל או אישור ועדה תואם לא נקראו כאן.\n\nלפי NBC, שר המסחר האמריקאי הווארד לוטניק הסכים להופיע מרצונו לפני ועדת הבנקאות של הסנאט כדי להשיב לשאלותיה על NVIDIA ועל תפקיד משרד המסחר. העיתון מצטט את דוברת השר, קריסטן אייכמר, כאומרת שהוא הסכים לכך באופן יזום. זו הסכמה מדווחת להופעה, לא עדות שכבר נמסרה.\n\nזהו עדכון נפרד לפריט מ-13 בנובמבר ב-02:00, שבו סוקרה בקשת יו\"ר הוועדה טים סקוט להופעות נפרדות של ג'נסן הואנג ושל לוטניק. לפי NBC, סקוט ביקש מהואנג להעיד ב-3 בדצמבר ומלוטניק ב-10 בדצמבר. ציטוט הדוברת מאשר הסכמה כללית להופעה מרצון, אך אינו מאשר במפורש את 10 בדצמבר, שעה או חדר. לכן אין כאן אירוע חדש שנוסף ליומן כמועד סגור.\n\nלפי הכתבה, נציגי הואנג לא השיבו מיד לבקשת תגובה. אין להשליך מהסכמת לוטניק על הסכמה של הואנג להעיד בוועדת הבנקאות. הפניות הנפרדות של ועדות בית הנבחרים והבקשות הקודמות לשימור מסמכי יצוא נותרות הליכים אחרים.\n\nמטרת הפיקוח המתוארת היא לברר את תפקיד משרד המסחר בהנפקה ובאכיפה של בקרות יצוא על שבבים, על רקע חששות לביטחון הלאומי. עצם ההסכמה להעיד אינה ממצא של ריגול, הברחת שבבים או הפרת חוק מצד NVIDIA, הואנג או השר; אין בה הודעה על ביטול רישיונות, שינוי מגבלות יצוא או זימון מחייב שכבר הוצא. לא מיוחסת לידיעה תנודת מניה שלא נבדקה.",
+    "טקסט_en": "Not verified against a primary government source\nNovember 13, 2026, 04:45 Israel time | NBC News' original report by Kyla Guilfoil, published November 12 at 21:45 EST, was read in full. It includes a comment given directly to the outlet, but a matching government release, transcript or committee confirmation was not read here.\n\nAccording to NBC, U.S. Commerce Secretary Howard Lutnick agreed to appear voluntarily before the Senate Banking Committee to answer its questions about NVIDIA and the Commerce Department's role. NBC quotes the secretary's spokesperson, Kristen Eichamer, saying he proactively agreed to appear. This is a reported agreement to appear, not testimony already delivered.\n\nThis separately updates the November 13 item at 02:00 covering Chairman Tim Scott's request for separate appearances by Jensen Huang and Lutnick. NBC says Scott asked Huang to testify on December 3 and Lutnick on December 10. The spokesperson's quote confirms a general agreement to appear voluntarily, but does not explicitly confirm December 10, a time or a room. No new calendar event is therefore presented as a settled appointment.\n\nThe report says Huang's representatives did not immediately respond to a request for comment. Lutnick's agreement does not establish that Huang has agreed to testify before Senate Banking. Separate House committee requests and earlier requests to preserve export records remain different proceedings.\n\nThe stated oversight concerns the Commerce Department's role in issuing and enforcing chip-export controls amid national security concerns. Agreement to testify is not a finding of espionage, chip smuggling or legal violations by NVIDIA, Huang or the secretary. It announces no license revocation, export-control change or subpoena already issued. No unverified stock-price move is attributed to this news.",
+    "קישור": "https://www.nbcnews.com/politics/congress/commerce-secretary-howard-lutnick-testify-pressure-nvidia-scandal-rcna609093",
+    "מקורות": [
+      {
+        "url": "https://www.nbcnews.com/politics/congress/commerce-secretary-howard-lutnick-testify-pressure-nvidia-scandal-rcna609093",
+        "label": "NBC News: כתבת המקור עם תגובת דוברת לוטניק, 12 בנובמבר 21:45 EST",
+        "label_en": "NBC News: original report with Lutnick spokesperson's comment, November 12 at 21:45 EST"
+      },
+      {
+        "url": "https://www.koreatimes.co.kr/world/20261113/us-commerce-secretary-lutnick-to-testify-before-congress-on-nvidia-us-media",
+        "label": "AFP דרך Korea Times: סיקור נוסף, לא אימות ממשלתי נפרד",
+        "label_en": "AFP via Korea Times: additional coverage, not separate government verification"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "caa89d9e1e96cb638c21d41f7968b4934f4c3295a32e401693a3515bd0662b53"
+      }
+    },
+    "מזהה": "n-1511",
+    "הועלה": "2026-11-13 07:48"
   }
 ]
