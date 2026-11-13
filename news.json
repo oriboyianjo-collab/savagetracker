@@ -42773,5 +42773,40 @@
     },
     "מזהה": "n-1634",
     "הועלה": "2026-11-13 17:39"
+  },
+  {
+    "category": "micro",
+    "חברה": "AMD (AMD), Coherent (COHR)",
+    "חברה_en": "AMD (AMD), Coherent (COHR)",
+    "symbols": [
+      "AMD",
+      "COHR"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "17:38",
+    "כותרת": "AMD ו-Coherent מצטרפות לירידות של יותר מ-10% במסחר הרגיל",
+    "כותרת_en": "AMD and Coherent join double-digit declines in regular trading",
+    "קישור": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+    "מקורות": [
+      {
+        "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+        "label": "CNBC: ציטוטי AMD ו-COHR, 13 בנובמבר 10:38:50 EST",
+        "label_en": "CNBC: AMD and COHR quotes, November 13 at 10:38:50 EST"
+      }
+    ],
+    "טקסט": "13.11.2026, 17:38:50 בישראל (10:38:50 EST) | תמונת ציטוטים של CNBC במסחר הרגיל הפתוח, לא מחירים חיים מתעדכנים ולא תשואות סגירה.\n\nAMD נסחרה ב-526.2986 דולר, ירידה של 59.0014 דולר, כ-10.08%, מול סגירה קודמת של 585.30 דולר.\n\nCoherent (COHR) נסחרה ב-208.70 דולר, ירידה של 23.38 דולר, כ-10.07%, מול סגירה קודמת של 232.08 דולר. שתי חותמות הציטוט הן 17:38:50 בישראל.\n\nהחידוש הוא חציית ירידה דו-ספרתית היום בשתי מניות נוספות ברשימת המעקב. אין כאן התראה חוזרת על המניות שכבר סוקרו היום, או עדכון נוסף על מדד S&P 500. השינויים הם מול הסגירה הקודמת ולא מול מחיר הפתיחה; נעשה שימוש במחיר ובחותמת הזמן של המסחר הרגיל, לא בשדה סגירה תוך-יומי אחר.\n\nלא אומתה סיבה תאגידית חדשה שמסבירה את מלוא התנועה באף אחת מהחברות. ירידה מקבילה אינה מוכיחה גורם משותף; פריטי רקע קודמים על שבבים, אופטיקה, לקוחות או מימון אינם הודעות חדשות או הסבר סיבתי מאומת. אין כאן תוצאות כספיות, שינוי תחזית, ביטול חוזה או קביעה שנפגעה פעילות החברה. המחירים יכולים להשתנות במהירות לאחר חותמת הזמן.",
+    "טקסט_en": "November 13, 2026, 17:38:50 Israel (10:38:50 EST) | CNBC quote snapshot during open regular trading, not live updating prices or closing returns.\n\nAMD traded at $526.2986, down $59.0014, about 10.08%, from the previous close of $585.30.\n\nCoherent (COHR) traded at $208.70, down $23.38, about 10.07%, from the previous close of $232.08. Both quote timestamps are 17:38:50 Israel.\n\nThe development is two additional tracked stocks crossing double-digit declines today. This is not a repeat alert for names already covered today or another S&P 500 update. Changes are from the previous close, not the opening price. Regular-session last prices and timestamps are used, not a separate intraday closing field.\n\nNo new company-specific cause explaining the full move in either name was verified. Simultaneous declines do not establish a shared driver. Earlier semiconductor, optical, customer or financing background is not new news or a verified causal explanation. No earnings results, forecast change, contract cancellation or operational damage finding is included. Prices can change quickly after the timestamp.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a20aacf7983f6b608561635323a09a2c2dcf074b6a5badbdb7e669a7883d9693"
+      }
+    },
+    "מזהה": "n-1635",
+    "הועלה": "2026-11-13 17:41"
   }
 ]
