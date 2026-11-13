@@ -42519,5 +42519,47 @@
     },
     "מזהה": "n-1627",
     "הועלה": "2026-11-13 17:06"
+  },
+  {
+    "category": "micro",
+    "חברה": "OpenAI, American Express (AXP), Mastercard (MA), Visa (V)",
+    "חברה_en": "OpenAI, American Express (AXP), Mastercard (MA), Visa (V)",
+    "symbols": [
+      "AXP",
+      "MA",
+      "V"
+    ],
+    "sectors": [
+      "information_technology",
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "17:00",
+    "כותרת": "OpenAI משיקה בהדרגה את ChatGPT Wallet עם Amex, Mastercard ו-Visa: תחילה לבוגרים מנויי Pro בארה\"ב",
+    "כותרת_en": "OpenAI begins rolling out ChatGPT Wallet with Amex, Mastercard and Visa, initially for adult Pro subscribers in the US",
+    "קישור": "https://openai.com/index/introducing-chatgpt-wallet/",
+    "מקורות": [
+      {
+        "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+        "label": "OpenAI: הודעת ChatGPT Wallet, 13 בנובמבר",
+        "label_en": "OpenAI: ChatGPT Wallet announcement, November 13"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+        "label": "CNBC: השקת הארנק, 13 בנובמבר 10:00 EST",
+        "label_en": "CNBC: wallet launch, November 13 at 10:00 EST"
+      }
+    ],
+    "טקסט": "13.11.2026 | הודעת OpenAI נקראה במלואה, ללא שעת פרסום מדויקת. כתבת CNBC המלאה פורסמה ב-10:00 EST, 17:00 בישראל; זו שעת הכתבה, לא שעת הפעלת השירות לכל משתמש.\n\nOpenAI הודיעה על תחילת השקה של ChatGPT Wallet בתוך סוכני dots, בשיתוף American Express, Mastercard ו-Visa. הזמינות הראשונית מוגבלת למנויי ChatGPT Pro בני 18 ומעלה בארה\"ב, עם כרטיסים זכאים שהונפקו בארה\"ב. אין כאן השקה לכל מנויי ChatGPT, לכל המדינות או לכל הכרטיסים.\n\nלפי החברה, המשתמש מוסיף כרטיס פעם אחת. לפני כל רכישה הוא בודק את הפריטים, הסכום הכולל והכרטיס שנבחר, ומאשר בבדיקת אבטחה כגון Face ID או טביעת אצבע. לאחר האישור רשת התשלום מספקת טוקן תשלום כתחליף לפרטי הכרטיס האמיתיים, שאינם נחשפים לסוכן או לבית העסק. החברה אומרת שתגמולי הכרטיס וההגנות במחלוקות זכאיות נשמרים; אין זו הבטחה שכל מחלוקת מזכה בהחזר.\n\nהרכישה היא ישירות מבית העסק, שממשיך לשלוט במחיר, אספקה, החזרות ושירות. OpenAI מזהירה שחלק מהאתרים או ממערכות הסיכון עדיין עלולים לחסום רכישות סוכן, לדחותן או לבטלן. לכן אין להסיק תאימות לכל אתר. היא פרסמה גם מדריך לעסקים לתמיכה במסחר כזה.\n\nאפשרות להאציל בעתיד רכישות מראש לפי מגבלות הוצאה או קטגוריות היא כיוון שהחברה מציגה, לא הרשאה אוטונומית מלאה שזמינה כעת. לפי CNBC, החברה אינה גובה בשלב הראשון נתח מהעסקאות; לא נמסרו כאן הכנסות או נפח תשלומים צפוי לשותפות הציבוריות.\n\nהחידוש הוא מוצר התשלום המסוים של OpenAI ותחילת ההשקה המוגבלת שלו. זה אינו עדכון על מזכר Tencent-Mastercard ב-n-0425, על מרכז Visa בסינגפור ב-n-0054, או על יתרת זיכויים נפרדת לתשלום עבור שירותי ChatGPT.",
+    "טקסט_en": "November 13, 2026 | OpenAI's full announcement was read; it gives no exact publication time. CNBC's full article was published at 10:00 EST, 17:00 Israel. That is the article timestamp, not activation time for every user.\n\nOpenAI announced the start of ChatGPT Wallet's rollout in its dots agents, with American Express, Mastercard and Visa. Initial availability is limited to ChatGPT Pro subscribers aged 18 or older in the US with eligible US-issued cards. This is not a launch for all ChatGPT subscribers, countries or cards.\n\nAccording to the company, users add a card once. Before each purchase they review the items, total and selected card, then approve it with a security check such as Face ID or a fingerprint. After approval, the payment network supplies a payment token in place of actual card details, which are not shared with the agent or business. OpenAI says existing card rewards and protections for eligible disputes are preserved; that is not a promise of a refund for every dispute.\n\nUsers buy directly from the business, which retains control of pricing, fulfillment, returns and service. OpenAI warns that some websites or risk systems may still block, decline or cancel agent purchases. Compatibility with every site is not established. The company also published guidance for businesses supporting this kind of commerce.\n\nFuture pre-approved delegation by spending limits or categories is a direction the company describes, not fully autonomous purchase authority available now. CNBC reports that OpenAI is not taking a transaction cut initially. No revenue or payment-volume forecast for the listed partners was provided here.\n\nThe development is OpenAI's specific payment product and its limited rollout. It is separate from the Tencent-Mastercard memorandum in n-0425, Visa's Singapore center in n-0054 and the separate credit balance used to pay for ChatGPT services.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1cccab28666f0aaa288b22176dc7ea27805a0c9270626a1b89bfa2709002e224"
+      }
+    },
+    "מזהה": "n-1628",
+    "הועלה": "2026-11-13 17:09"
   }
 ]
