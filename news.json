@@ -42258,5 +42258,48 @@
     },
     "מזהה": "n-1619",
     "הועלה": "2026-11-13 16:40"
+  },
+  {
+    "category": "micro",
+    "חברה": "Amazon (AMZN)",
+    "חברה_en": "Amazon (AMZN)",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [
+      "consumer_discretionary"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-10",
+    "כותרת": "השלמה מ-10 בנובמבר | Amazon (AMZN): פורסמו הנימוקים לדחיית פיצול קבוצת הסוחרים בתביעה בבריטניה; אין הכרעת אחריות",
+    "כותרת_en": "November 10 catch-up | Amazon (AMZN): reasons published for rejecting UK merchant-class split; no liability ruling",
+    "קישור": "https://www.catribunal.org.uk/judgments/16447724-professor-andreas-stephan-v-amazoncom-inc-others-judgment-cpo-variation-10-nov",
+    "מקורות": [
+      {
+        "url": "https://www.catribunal.org.uk/sites/cat/files/2026-11/16447724%20Professor%20Andreas%20Stephan%20v%20Amazon.com%20Inc.%20%26%20Others%20-%20Judgment%20%28CPO%20Variation%29%20%2010%20Nov%202026.pdf",
+        "label": "CAT: פסק הדין המקורי [2026] CAT 84, מבוא ופרקי הדיון והסיכום נקראו",
+        "label_en": "CAT: original [2026] CAT 84 judgment; introduction, discussion and conclusion read"
+      },
+      {
+        "url": "https://www.catribunal.org.uk/judgments/16447724-professor-andreas-stephan-v-amazoncom-inc-others-judgment-cpo-variation-10-nov",
+        "label": "CAT: סיכום המזכירות להליך שינוי צו הקבוצה",
+        "label_en": "CAT: Registry summary of the class-order variation proceeding"
+      },
+      {
+        "url": "https://www.catribunal.org.uk/cases/16447724-professor-andreas-stephan",
+        "label": "CAT: עמוד התיק הרשמי ולוח ההליך",
+        "label_en": "CAT: official case page and procedural timetable"
+      }
+    ],
+    "טקסט": "השלמת סיקור לפרסום הנימוקים הכתובים מ-10.11.2026 בתיק 1644/7/7/24, לא דחייה חדשה מ-13 בנובמבר. בית הדין הבריטי לערעורי תחרות (CAT) הודיע כבר בתום הדיון ב-7-8 בספטמבר שהבקשה תידחה; כעת פורסם ההסבר הכתוב פה אחד. עמודי התיק וסיכום המזכירות נקראו במלואם, ובפסק הדין המקורי נקראו המבוא ופרקי הדיון והסיכום; לא נטען לקריאת כל פרקי הרקע והפסיקה. שעת הפרסום הראשונה לא אומתה.\n\nAmazon ביקשה לשנות את צו התובענה של פרופסור Andreas Stephan כך שסוחרים שמכירותיהם ברוטו בזירת Amazon בבריטניה עלו על 10 מיליון ליש״ט בתקופה הרלוונטית יידרשו להצטרף באופן פעיל, opt-in, בעוד האחרים יישארו בקבוצה האוטומטית בכפוף לאפשרות יציאה, opt-out. בית הדין הותיר את הקבוצה כולה במתכונת opt-out. הסף הוא מכירות סוחר לאורך התקופה, לא סכום פיצוי או קנס.\n\nלפי הנימוקים, היקף מכירות כזה לבדו אינו מראה שסוחר יכול מעשית לקבל החלטה מושכלת על הצטרפות לתיק המורכב. בית הדין הגדיר את סף 10 מיליון הליש״ט שרירותי ושקל גם שיבוש ועיכוב משמעותי של ההליך ושל תביעת הצרכנים המקבילה, לצד תלות אפשרית של סוחרים ב-Amazon. הוא דחה את הטענה שהבקשה המבוססת על פסיקת Evans היא כשלעצמה שימוש לרעה בהליך, אך דחה את השינוי המבוקש לגופו.\n\nבית הדין העריך באופן זמני מאוד שארבע מחמש עילות הטענה ניתנות לטיעון חזק ובעלות סיכוי סביר להצלחה. הוא מדגיש שזו אינה הכרעה בתביעה: בשלב זה לא נקבע היקף נזק, ובעילה החמישית בדבר הגבלת הנחות לא גובשה אפילו הערכת חוזק זמנית. טענות להפרת דיני התחרות נשארות טענות, לא אחריות שכבר הוכחה.\n\nלפי עמוד התיק, השלב הראשון של המשפט מתוכנן ל-25 באפריל 2028 ועוסק בין היתר בהגדרת השוק, דומיננטיות וניצול לרעה; פיצויים וקשר סיבתי מיועדים לשלב נפרד. זהו הליך בריטי של סוחרים, בנפרד מהתיק האמריקאי Frame-Wilson ב-n-0435. לא נפסקו כאן פיצויים, לא הוטל קנס ולא הוכרז הסדר. החידוש הוא הנמקת שמירת היקף ההליך, לא החלטה חדשה על אחריות Amazon.",
+    "טקסט_en": "Catch-up coverage of written reasons issued November 10, 2026 in case 1644/7/7/24, not a fresh refusal on November 13. The UK Competition Appeal Tribunal (CAT) already announced at the end of the September 7-8 hearing that the application would be refused; it has now published unanimous written reasons. The case page and Registry summary were read in full, along with the original judgment's introduction, discussion and conclusion; not every background and case-law section was read. The first publication clock is unverified.\n\nAmazon sought to vary Professor Andreas Stephan's collective proceedings order so merchants with more than £10 million in gross sales on its UK marketplace over the relevant period would have to actively opt in, while the others remained opt-out. The tribunal kept the entire class opt-out. The threshold concerns merchant sales over the period, not damages or a fine.\n\nThe reasons say that level of sales alone does not establish that a merchant can practicably make an informed decision to join complex litigation. The tribunal called the £10 million cut-off arbitrary and considered disruption and significant delay to this case and the related consumer action, alongside merchants' possible dependence on Amazon. It rejected the objection that the Evans-based application was itself an abuse of process, but refused the requested variation on its substance.\n\nOn a very provisional basis, the tribunal assessed four of the five alleged heads of abuse as strongly arguable with a reasonably good prospect of success. It stresses that this is not a judgment on the claims: no damages amount can yet be assessed, and it reached no provisional view even on the strength of the fifth, anti-discounting head. Competition-law allegations remain allegations, not established liability.\n\nThe case page lists the first trial for April 25, 2028, covering issues including market definition, dominance and abuse; causation and damages are for a separate stage. This is a UK merchant case, separate from the US Frame-Wilson case in n-0435. No damages, fine or settlement were ordered here. The development is the reasoning for preserving the proceeding's scope, not a new finding of Amazon liability.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "431f52d1019efda6c0dbe6cc35fdbd49a2ed6d067ffc5ee3fa599cc1eab332b4"
+      }
+    },
+    "מזהה": "n-1620",
+    "הועלה": "2026-11-13 16:43"
   }
 ]
