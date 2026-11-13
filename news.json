@@ -39272,5 +39272,89 @@
     },
     "מזהה": "n-1532",
     "הועלה": "2026-11-13 10:01"
+  },
+  {
+    "category": "micro",
+    "חברה": "Tesla / SpaceX",
+    "חברה_en": "Tesla / SpaceX",
+    "symbols": [
+      "TSLA",
+      "SPCX"
+    ],
+    "sectors": [
+      "consumer-discretionary",
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 22:22",
+    "כותרת": "לפי Bloomberg: שיחות המיזוג של Tesla ו-SpaceX מתקדמות; הכרזה אפשרית בדצמבר, ללא עסקה מוסכמת",
+    "כותרת_en": "Bloomberg: Tesla-SpaceX merger talks progress; possible December announcement, no agreed deal",
+    "טקסט": "לא מאומת מול מקור ראשוני\nהשלמת סיקור לדיווח Bloomberg מ-12.11.2026. חותמת הפרסום הגלויה באתר Bloomberg Law היא 20:22 UTC, שהם 22:22 בישראל. הטקסט המלא של Bloomberg נקרא דרך NWA, וכן דיווח Reuters המלא. לא נבדקה הודעת חברה המאשרת את השיחות או תנאי עסקה.\n\nלפי אנשים הבקיאים בעניין שצוטטו ב-Bloomberg, המשא ומתן בין Tesla ל-SpaceX מתקדם, והחברות עשויות להכריז על עסקה כבר בדצמבר. הן דנו גם באפשרות שההכרזה תידחה לתחילת 2027. אלה תרחישים מדווחים ממקורות אנונימיים, לא מועד מחייב או הודעה שהמיזוג סוכם.\n\nלפי הדיווח, הדירקטוריונים והיועצים ממשיכים לעבוד על התנאים ועל מבנה הממשל של החברה המשולבת. הפרדת פעילות Tesla בסין מהרגישויות הנוגעות לחוזים הממשלתיים והביטחוניים של SpaceX היא אחת הסוגיות שעליהן יצטרכו להתגבר. נציגי החברות לא השיבו מיד לבקשות תגובה, לפי הדיווחים שנקראו.\n\nהחידוש ביחס ל-n-0986, שבו תוארו הקמת הוועדות המיוחדות והיעדר הסכמה על תנאים, ול-n-0900 על מבני העסקה והאישורים, הוא דיווח על התקדמות בשיחות וחלון הכרזה אפשרי מעודכן. אין כאן הסכם חתום, יחס החלפה מוסכם, אישור בעלי מניות או רגולטורים, או מועד סגירה. אין להציג שווי שוק משולב כמחיר רכישה או את דצמבר כתאריך השלמת המיזוג.",
+    "טקסט_en": "Not verified against a primary source\nCatch-up coverage of Bloomberg's November 12, 2026 report. The visible Bloomberg Law timestamp is 20:22 UTC, equivalent to 22:22 in Israel. Bloomberg's full syndicated text was read through NWA, alongside the full Reuters relay. No company announcement confirming the talks or transaction terms was checked.\n\nPeople familiar with the matter told Bloomberg that Tesla and SpaceX are progressing in merger negotiations and could announce a deal as soon as December. They also discussed a scenario in which an announcement slips into early 2027. These are reported scenarios from anonymous sources, not a binding timetable or an announcement that a merger has been agreed.\n\nThe report says boards and advisers are still working on terms and the combined company's governance structure. Ring-fencing Tesla's China operations from sensitivities surrounding SpaceX's US government and defense contracts is among the issues to resolve. Company representatives did not immediately respond to requests for comment, according to the reports read.\n\nRelative to n-0986 on the special committees and lack of agreed terms, and n-0900 on possible structures and required approvals, the increment is reported progress and an updated possible announcement window. There is no signed agreement, agreed exchange ratio, shareholder or regulatory approval, or closing date here. Combined market value is not a purchase price, and December is not a merger-completion date.",
+    "קישור": "https://www.nwaonline.com/news/2026/nov/13/spacex-tesla-talks-on-merger-continue/",
+    "מקורות": [
+      {
+        "url": "https://www.nwaonline.com/news/2026/nov/13/spacex-tesla-talks-on-merger-continue/",
+        "label": "Bloomberg דרך NWA: טקסט הדיווח המלא",
+        "label_en": "Bloomberg via NWA: full syndicated report"
+      },
+      {
+        "url": "https://news.bloomberglaw.com/daily-labor-report/spacex-and-tesla-talks-on-record-merger-are-said-to-progress",
+        "label": "Bloomberg Law: חותמת זמן וקטע פתוח בלבד",
+        "label_en": "Bloomberg Law: visible timestamp and open excerpt only"
+      },
+      {
+        "url": "https://ca.investing.com/news/stock-market-news/spacex-tesla-merger-talks-progress-bloomberg-news-reports-4954156",
+        "label": "Reuters דרך Investing.com: דיווח המשך מלא",
+        "label_en": "Reuters via Investing.com: full follow-up report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "336cfd82d8321315085b0d94e1ddb770473d8fe0807e9efdeb55b987d0663b0f"
+      }
+    },
+    "מזהה": "n-1533",
+    "הועלה": "2026-11-13 10:15"
+  },
+  {
+    "category": "micro",
+    "חברה": "Samsung / Modine",
+    "חברה_en": "Samsung / Modine",
+    "symbols": [
+      "MOD"
+    ],
+    "sectors": [
+      "industrials",
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "לפי Bloomberg: Samsung מנהלת שיחות לרכישת Modine בתחום קירור מרכזי נתונים; אין החלטה סופית",
+    "כותרת_en": "Bloomberg: Samsung in talks to acquire data-center cooling company Modine; no final decision",
+    "טקסט": "לא מאומת מול מקור ראשוני\nהשלמת סיקור לדיווח Bloomberg מיום חמישי, 12.11.2026, לפי Reuters. הטקסט המלא המיוחס ל-Bloomberg נקרא ב-The Edge וכן דיווח Reuters המלא ב-CNA. שעת הפרסום המקורית של Bloomberg לא אומתה, ולכן נשמר תאריך בלבד. לא נבדקה הודעת חברה או הסכם חתום המאשרים את העסקה.\n\nלפי אנשים הבקיאים בעניין שצוטטו ב-Bloomberg, Samsung Electronics מנהלת שיחות לרכישת Modine Manufacturing, יצרנית מערכות קירור ובהן פתרונות למרכזי נתונים. לפי המקורות, עסקה אפשרית עשויה להתגבש בתוך שבועות, אך אין החלטה סופית, השיחות עלולות להיכשל וקונה נוסף עשוי להופיע.\n\nהסכום של כ-5.6 מיליארד דולר המוזכר בדיווחים הוא שווי השוק של Modine לפי מחיר המניה ביום חמישי, לא מחיר רכישה מוסכם, הצעה מחייבת או סכום ש-Samsung התחייבה לשלם. לא דווח כאן יחס החלפה, אופן מימון או תנאים מוסכמים.\n\nReuters מציינת שלא הצליחה לאמת מיד את דיווח Bloomberg ושלא התקבלה תגובה מיידית מהחברות. בדיווח Bloomberg שנקרא דרך The Edge נכתב שנציגי החברות סירבו להגיב. אלה תיאורי תגובה נפרדים של כלי התקשורת, ולא אישור מצד החברות.\n\nהעניין למשקיעים הוא אפשרות לשינוי בעלות בספקית קירור למרכזי נתונים, ולא הזמנת ציוד קטנה או תחזית הכנסות חדשה. אין כאן אישור לרכישה, להשלמתה, לאישור רגולטורי או לתוצאה פיננסית מובטחת.",
+    "טקסט_en": "Not verified against a primary source\nCatch-up coverage of a Bloomberg report from Thursday, November 12, 2026, as identified by Reuters. The full Bloomberg-attributed text was read at The Edge, alongside the full Reuters report at CNA. Bloomberg's original publication clock was not verified, so only the date is assigned. No company announcement or signed agreement confirming a transaction was checked.\n\nPeople familiar with the matter told Bloomberg that Samsung Electronics is in talks to acquire Modine Manufacturing, a cooling-systems maker whose products include data-center equipment. Sources said a possible transaction could come together in the coming weeks, but no final decision has been made, talks could fail and another buyer could emerge.\n\nThe approximately $5.6 billion figure in the reports is Modine's market capitalization based on Thursday's stock price. It is not an agreed purchase price, a binding offer or an amount Samsung has committed to pay. No agreed exchange ratio, financing structure or transaction terms are reported here.\n\nReuters says it could not immediately verify Bloomberg's report and could not immediately reach the companies for comment. The Bloomberg report read through The Edge says company representatives declined to comment. These are the outlets' separate descriptions of responses, not company confirmation.\n\nThe investor relevance is a possible ownership change at a data-center cooling supplier, not a small equipment order or new revenue guidance. There is no confirmed acquisition, closing, regulatory approval or guaranteed financial outcome.",
+    "קישור": "https://theedgemalaysia.com/node/825597",
+    "מקורות": [
+      {
+        "url": "https://theedgemalaysia.com/node/825597",
+        "label": "Bloomberg דרך The Edge: הדיווח המלא על השיחות",
+        "label_en": "Bloomberg via The Edge: full report on the talks"
+      },
+      {
+        "url": "https://www.channelnewsasia.com/business/samsung-in-talks-buy-data-center-cooling-firm-modine-bloomberg-news-reports-6547876",
+        "label": "Reuters דרך CNA: דיווח מלא והסתייגות מאימות",
+        "label_en": "Reuters via CNA: full report and verification caveat"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1136b27c119ac9f67548659b81a8e25ce38fa307137ef3d7fb6376253a9ffdf4"
+      }
+    },
+    "מזהה": "n-1534",
+    "הועלה": "2026-11-13 10:15"
   }
 ]
