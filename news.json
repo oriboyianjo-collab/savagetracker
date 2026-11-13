@@ -41612,5 +41612,58 @@
     },
     "מזהה": "n-1598",
     "הועלה": "2026-11-13 14:47"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "לפי Reuters: דוח סבא\"א מתריע על חוסר גישה למתקן ההעשרה IFEP באיספהאן; המיקום ומצב החומר אינם ידועים",
+    "כותרת_en": "Reuters: IAEA report warns over lack of access to Isfahan enrichment plant IFEP; location and material status unknown",
+    "קישור": "https://www.channelnewsasia.com/world/iaea-un-report-concern-iran-nuclear-plant-6549176",
+    "מקורות": [
+      {
+        "url": "https://www.channelnewsasia.com/world/iaea-un-report-concern-iran-nuclear-plant-6549176",
+        "label": "Reuters דרך CNA: הדיווח המלא מ-13 בנובמבר",
+        "label_en": "Reuters via CNA: full November 13 report"
+      }
+    ],
+    "טקסט": "לא מאומת מול הדוח הראשוני של סבא\"א. דיווח Reuters מ-13.11.2026, בהפצת CNA, נקרא במלואו. הסוכנות אומרת שעיינה בדוח חסוי שנמסר למדינות החברות ביום שישי. הדוח עצמו לא נקרא כאן; דף הדוחות הציבורי של סבא\"א שנבדק אינו מציג את הדוח הנוכחי.\n\nלפי Reuters, סבא\"א מביעה דאגה גוברת מכך שאיראן לא אפשרה לה לבקר במתקן ההעשרה IFEP באיספהאן או לקבל את תוכניות התכנון שלו. הסוכנות מצטטת את הדוח: מיקומו המדויק של המתקן, מעמדו לצורכי פיקוח והאם הוא מכיל חומר גרעיני אינם ידועים לסבא\"א.\n\nאיראן דיווחה על המתקן ב-12 ביוני 2025. ביקור שנועד למחרת לא התקיים בשל תחילת התקיפות. לפי Reuters, איראן עדיין לא אפשרה לפקחים לשוב לאתרים הגרעיניים שהופצצו ביוני 2025. הערכת דיפלומטים שהמתקן נמצא ברשת מנהרות באיספהאן אינה מיקום שאומת בביקור, ואמירת גרוסי ממרץ על חומר מועשר במנהרות אינה מדידה חדשה מהיום.\n\nהדוח המדווח דורש מידע על מצב מתקני ההעשרה ומלאי האורניום המועשר וגישה כדי לבדוק ולספור את החומר. חוסר המידע והגישה מתואר כחשש רציני להפצה גרעינית שיש לתקן בדחיפות. זהו עדכון לדאגת הפיקוח, לא הודעה שפקחים התקבלו, שהתגלה נשק גרעיני, שהוכחה הסטת חומר או שאושר הסכם חדש.\n\nאין לאחד את הדוח עם ההצעה לביקור סודי שיוחסה בעבר למתווכים ב-n-0994: אותה הצעה לא אימתה ביצוע ביקור. לא נכללות כאן טענות התקפה על בחריין או ספינה, ולא מיוחסת לדוח תנועת מחיר בנפט.",
+    "טקסט_en": "Not verified against the primary IAEA report. Reuters' November 13, 2026 report, carried by CNA, was read in full. Reuters says it saw a confidential report circulated to member states on Friday. The report itself was not read here; the checked public IAEA reports index does not display this current document.\n\nReuters says the IAEA is increasingly concerned that Iran has not allowed inspection of the Isfahan Fuel Enrichment Plant, IFEP, or access to its design plans. It quotes the report as saying the agency does not know the plant's exact location, safeguards status or whether it contains nuclear material.\n\nIran declared the plant on June 12, 2025. An inspection planned for the following day did not take place because the attacks began. Reuters says Iran still has not let inspectors return to nuclear sites bombed in June 2025. Diplomats' belief that IFEP is in an Isfahan tunnel network is not a location verified through an inspection; Grossi's March assessment of enriched material in the tunnels is not a new measurement today.\n\nThe reported document calls for information on enrichment plants and enriched-uranium stocks, and access to verify and account for the material. It describes the lack of information and access as a serious proliferation concern requiring urgent action. This updates the safeguards concern. It does not announce admitted inspectors, a discovered nuclear weapon, proven diversion of material or a newly approved agreement.\n\nIt must not be merged with the proposed secret visit attributed to mediators in n-0994: that proposal did not establish a completed visit. No Bahrain-attack or vessel claims are included here, and no oil-price move is attributed to the report.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d3d000f30e69c6729a7acc917c7b03334c196b5ba4298701f7101aa2c6169ac1"
+      }
+    },
+    "מזהה": "n-1599",
+    "הועלה": "2026-11-13 15:19"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-12",
+    "כותרת": "בלגיה: מחלוקת בין שרים על ייחוס מתקפת הקירור לאיראן; החקירה נמשכת ואין ייחוס רשמי מוסכם",
+    "כותרת_en": "Belgium: ministers disagree over attributing refrigeration cyberattacks to Iran; investigation continues without agreed official attribution",
+    "קישור": "https://www.al-monitor.com/originals/2026/11/belgian-ministers-odds-over-irans-alleged-role-refrigerator-cyberattacks",
+    "מקורות": [
+      {
+        "url": "https://www.al-monitor.com/originals/2026/11/belgian-ministers-odds-over-irans-alleged-role-refrigerator-cyberattacks",
+        "label": "Reuters דרך Al-Monitor: הדיווח המלא מ-13 בנובמבר על דברי יום חמישי",
+        "label_en": "Reuters via Al-Monitor: full November 13 report on Thursday remarks"
+      },
+      {
+        "url": "https://www.rtbf.be/article/cyberattaque-de-plusieurs-frigos-dans-des-supermarches-le-ministre-quintin-rappele-a-l-ordre-apres-avoir-evoque-une-origine-iranienne-11814638",
+        "label": "RTBF ו-Belga: ריאיון עם שר החוץ והדיווח על הדיון בפרלמנט",
+        "label_en": "RTBF and Belga: foreign minister interview and parliamentary coverage"
+      }
+    ],
+    "טקסט": "לא מאומת מול הודעת ממשלה או ממצאי חקירה ראשוניים. עדכון נפרד לאירועי הקירור ב-n-0508 ולייחוס הצרפתי ב-n-1119, לפי דיווח Reuters מלא מ-13 בנובמבר ודיווח RTBF/Belga על דברי השרים ב-12 בנובמבר. תאריך הדברים נשמר; שעתם המקורית אינה ידועה.\n\nשר הפנים הבלגי ברנאר קווינטין אמר ל-VRT ביום חמישי בערב כי איראן עומדת בסבירות גבוהה מאחורי מתקפות הסייבר על מערכות קירור בחנויות, לפי Reuters. הוא ייחס את הערכתו למידע משירותי הביטחון. זו עמדת השר, לא מסקנה עצמאית שהוכחה כאן.\n\nשר החוץ מקסים פרבו אמר מנגד שהמידע הקיים אינו מספיק כדי להטיל על איראן אחריות רשמית. לפי Reuters ולפי הדברים שמסר ל-RTBF, התביעה הפדרלית עדיין חוקרת, וייחוס רשמי של מתקפת סייבר לגורם זר הוא באחריות משרד החוץ. אין להציג את שני השרים כמי שאישרו עמדה ממשלתית אחידה.\n\nהאירוע בבלגיה התרחש בתחילת נובמבר ושינה טמפרטורות במקררים ובמקפיאים בעשרות חנויות, עם השלכת מזון מקולקל. הדיווחים אינם מודיעים על גל תקיפה חדש שהחל היום. RTBF מביאה גם הכחשת מעורבות מצד שגריר איראן בבריסל.\n\nהחידוש הוא המחלוקת הפומבית בבלגיה והמגבלה על ייחוס האחריות, לא אישור מחדש של הטענה הצרפתית כאילו היא מכריעה גם בבלגיה. אין כאן סנקציות חדשות שאומצו, אישום, זהות תוקף מוכחת או סכום נזק ממשלתי מאומת.",
+    "טקסט_en": "Not verified against an original government statement or investigation findings. Separate update to the refrigeration incidents in n-0508 and France's attribution in n-1119, based on the full November 13 Reuters report and RTBF/Belga coverage of ministers' November 12 remarks. The original remarks date is retained; their exact original time is unknown.\n\nBelgian Interior Minister Bernard Quintin told VRT on Thursday evening that Iran was very likely behind cyberattacks on shops' refrigeration systems, Reuters reports. He attributed his assessment to security-service information. This is the minister's position, not an independently established conclusion here.\n\nForeign Minister Maxime Prevot said the available information was insufficient to hold Iran officially responsible. Reuters and his comments to RTBF say the federal prosecutor is still investigating, and official attribution to a foreign actor falls to the Foreign Ministry. The two ministers must not be presented as confirming one agreed government position.\n\nThe Belgian incident occurred in early November and changed refrigerator and freezer temperatures at dozens of stores, causing spoiled food to be discarded. These reports do not announce a fresh attack wave starting today. RTBF also carries a denial of involvement by Iran's ambassador in Brussels.\n\nThe development is Belgium's public disagreement and the limits on attribution, not a repetition of France's allegation as if it also settled the Belgian case. This announces no newly adopted sanctions, charges, proven attacker identity or verified government damage total.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7ea216c020b0564041d94963369cf907ff9f4a727cffe40a8677142f76b11f83"
+      }
+    },
+    "מזהה": "n-1600",
+    "הועלה": "2026-11-13 15:19"
   }
 ]
