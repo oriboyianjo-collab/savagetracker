@@ -39163,5 +39163,39 @@
     },
     "מזהה": "n-1529",
     "הועלה": "2026-11-13 09:36"
+  },
+  {
+    "category": "macro",
+    "חברה": "שווייץ",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "09:30",
+    "כותרת": "שווייץ: מחירי היצרן והיבוא עלו ב-0.9% באוקטובר, מעל תחזית של 0.2%",
+    "כותרת_en": "Switzerland: producer and import prices rose 0.9% in October, above a 0.2% forecast",
+    "טקסט": "13.11.2026 | 09:30 שעון ישראל (08:30 בשווייץ) - פרסום הלשכה הפדרלית לסטטיסטיקה.\n\nמדד מחירי היצרן והיבוא המשולב של שווייץ עלה באוקטובר 2026 ב-0.9% לעומת ספטמבר והגיע ל-101.6 נקודות (דצמבר 2025=100). גם בהשוואה לאוקטובר אשתקד נרשמה עלייה של 0.9%. מדובר במחירי יצרן ויבוא, לא במדד המחירים לצרכן.\n\nתחזית השוק בלוח ForexFactory הייתה לעלייה חודשית של 0.2%, מול עלייה קודמת של 0.3%; הפער מהתחזית הוא 0.7 נקודת אחוז. התחזית והקריאה הקודמת מיוחסות ללוח המשני, ואילו נתוני אוקטובר נקראו בהודעה ובטבלאות המקוריות של הלשכה. אין לייחס את התחזית ללשכה עצמה.\n\nבתוך המדד המשולב, מחירי היצרן המקומיים עלו ב-0.5% בחודש אך ירדו ב-0.5% בשנה. מחירי היבוא עלו ב-1.7% בחודש וב-4.3% בשנה. הלשכה ציינה בעיקר התייקרות של מוצרי נפט, נפט וגז, ציוד חשמלי, מוצרי מחשוב ואלקטרוניקה ומכונות. עליית המחירים חזקה יותר בצד היבוא, אך הפרסום אינו החלטת ריבית של הבנק המרכזי ואינו מוכיח שינוי עתידי בריבית או תנועת שוק מסוימת.",
+    "טקסט_en": "November 13, 2026 | 09:30 Israel time (08:30 Switzerland) - Federal Statistical Office release.\n\nSwitzerland's combined Producer and Import Price Index rose 0.9% in October 2026 from September to 101.6 points (December 2025=100). Prices were also up 0.9% from October a year earlier. This measures producer and import prices, not consumer prices.\n\nThe ForexFactory calendar showed a 0.2% monthly forecast and a 0.3% previous increase, making the forecast gap 0.7 percentage point. The forecast and previous reading are attributed to that secondary calendar; October's actual figures were read in the FSO's original release and tables. The forecast is not an FSO forecast.\n\nWithin the combined index, domestic producer prices rose 0.5% on the month but fell 0.5% on the year. Import prices increased 1.7% on the month and 4.3% on the year. The FSO mainly cited higher petroleum-product, oil and gas, electrical-equipment, computer and electronics, and machinery prices. The increase was stronger on the import side, but this release is not a central-bank rate decision and does not establish a future rate change or a particular market move.",
+    "קישור": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/37019798/master",
+    "מקורות": [
+      {
+        "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/37019798/master",
+        "label": "הלשכה הפדרלית לסטטיסטיקה: הודעת אוקטובר והטבלאות המקוריות, 13 בנובמבר 08:30 שווייץ",
+        "label_en": "Federal Statistical Office: original October release and tables, November 13 at 08:30 Switzerland"
+      },
+      {
+        "url": "https://www.forexfactory.com/calendar?day=nov13.2026",
+        "label": "ForexFactory: תחזית 0.2%, קריאה קודמת 0.3% ונתון בפועל 0.9%",
+        "label_en": "ForexFactory: 0.2% forecast, 0.3% previous and 0.9% actual"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4b3ac32cbdc527abc9444508bb493333e5643f7ff9c15ec8a1567b4b607cb474"
+      }
+    },
+    "מזהה": "n-1530",
+    "הועלה": "2026-11-13 09:39"
   }
 ]
