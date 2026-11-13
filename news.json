@@ -41151,5 +41151,38 @@
     },
     "מזהה": "n-1584",
     "הועלה": "2026-11-13 13:23"
+  },
+  {
+    "category": "micro",
+    "חברה": "Amazon",
+    "חברה_en": "Amazon",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [
+      "consumer_discretionary"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "לפי Reuters: טיוטה פנימית של Amazon מתארת מאגר מידע עולמי למוצרים; החברה אומרת שהמסמך מיושן, לא הכרזת השקה",
+    "כותרת_en": "Reuters: Amazon internal draft describes global product-data project; company calls document outdated, not a launch announcement",
+    "קישור": "https://www.channelnewsasia.com/business/exclusive-amazons-plan-own-worlds-product-data-and-fight-ai-shopping-agents-6549286",
+    "מקורות": [
+      {
+        "url": "https://www.channelnewsasia.com/business/exclusive-amazons-plan-own-worlds-product-data-and-fight-ai-shopping-agents-6549286",
+        "label": "Reuters דרך CNA: תחקיר מלא ותגובת Amazon",
+        "label_en": "Reuters via CNA: full investigation and Amazon response"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני\n13.11.2026 | דיווח Reuters דרך CNA נקרא במלואו. האתר מציג 19:02 ועדכון ב-19:13, ללא אזור זמן מפורש בגוף שנבדק; השעות אינן מוצגות כאן כשעות ישראל. הטיוטה הפנימית עצמה לא נקראה ישירות.\n\nלפי Reuters, מסמך פנימי ואנשים המכירים את הנושא מתארים יוזמה בשם World Product Graph, שנועדה לאסוף מידע מפורט על מוצרים גם אם אינם נמכרים ב-Amazon. המטרה המתוארת היא לאפשר חיפוש והבנת הקשרים בין מוצרים בתוך האתר, לצמצם את הצורך לצאת למנועי חיפוש ולאתרי מותגים, ולהתמודד עם סוכני קניות מבוססי AI שמפנים לקוחות לאתרים אחרים.\n\nמעמד המסמך חשוב: זו טיוטת PR/FAQ, מסמך רעיוני פנימי שנכתב בצורת הודעה לעיתונות ושאלות ותשובות. Reuters לא הצליחה לקבוע אם או מתי התוכנית תיושם. התאריך 1 באוקטובר 2027 שמופיע בטיוטה הוא יעד שאפתני בתוך המסמך, לא מועד השקה ש-Amazon הודיעה עליו לציבור. לפי הדיווח, הפרויקט עדיין יכול להשתנות או להתבטל.\n\nתגובת Amazon ל-Reuters: מסמכים ישנים וטיוטות יכולים להציג תמונה חלקית, וקיומו של מסמך סיעור מוחות כזה אינו משקף בהכרח את תוכניותיה הנוכחיות. החברה מסרה שהיא ממשיכה לעבוד על שיפור מקיף, מדויק ושימושי של קטלוג המוצרים. זו תגובה שמסייגת את מעמד התוכנית, לא אישור לכך שהמאגר המתואר כבר זמין.\n\nלפי הטיוטה המצוטטת, מקורות המידע האפשריים כוללים תרומת נתונים מצד מותגים וסריקה של אתרי קמעונאים. Reuters לא קבעה כיצד תתבצע הסריקה או מתי תידרש הסכמה. גם שמות מותגים שמופיעים במסמך אינם אישור עצמאי לשותפויות מסחריות שהחברות הכריזו עליהן.\n\nהמשמעות האסטרטגית האפשרית היא חיזוק שכבת המידע של Amazon במאבק על חיפוש מוצרים ותנועת קונים בעידן סוכני ה-AI. זו פרשנות מותנית למהלך מדווח, לא תחזית להכנסות או הוכחה לפגיעה במתחרות. החידוש נפרד מתחילת הפריסה של קניות ב-SMS באמצעות Alexa for Shopping שכבר סוקרה ב-n-0155: כאן נחשפת טיוטת תשתית מידע רחבה, לא הרחבת זמינות מאומתת של אותו שירות. לא נמסרו בתחקיר תקציב מאושר, חוזה חדש, הכנסות מהיוזמה או תאריך השקה מחייב.",
+    "טקסט_en": "Not verified against a primary source\nNovember 13, 2026 | The full Reuters report carried by CNA was read. The page shows 19:02 and an update at 19:13 without an explicit time zone in the inspected body; these are not presented as Israel times. The internal draft itself was not directly inspected.\n\nReuters reports that an internal document and people familiar with the matter describe an initiative called World Product Graph, intended to collect detailed information about products even when Amazon does not sell them. The stated aim is to keep product research and understanding of product relationships inside Amazon, reduce the need to leave for search engines and brand sites, and counter AI shopping agents that send customers elsewhere.\n\nThe document's status matters. It is a PR/FAQ draft, an internal concept document written as a press release and frequently asked questions. Reuters could not establish if or when the plan would be implemented. October 1, 2027 is an aspirational date inside the draft, not a publicly announced Amazon launch date. The report says the project could still change or be abandoned.\n\nAmazon told Reuters that outdated documents and drafts can paint an incomplete picture and that a brainstorming document does not necessarily reflect its current plans. It said it continues working to make its product catalog more complete, accurate and helpful. That response qualifies the plan's status; it does not confirm the described database is already available.\n\nThe quoted draft describes potential data sources including brand contributions and crawling retailers' sites. Reuters did not establish how crawling would work or when permission would be needed. Brands named in the document are not independent confirmation of publicly announced commercial partnerships.\n\nThe possible strategic significance is a stronger Amazon product-data layer in competition for product search and shopping traffic in the AI-agent era. This is a conditional reading of a reported initiative, not a revenue forecast or proof that competitors have lost business. It is distinct from the limited Alexa for Shopping text-message rollout already covered in n-0155: this report exposes a broader data-infrastructure draft, not verified wider availability of that service. The investigation provides no confirmed project budget, new contract, project revenue or binding launch date.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a1776c5439348fed830dfb16afaf6c86e812331a190df3bd3e915ed42fdb99bd"
+      }
+    },
+    "מזהה": "n-1585",
+    "הועלה": "2026-11-13 13:25"
   }
 ]
