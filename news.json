@@ -42014,5 +42014,63 @@
     },
     "מזהה": "n-1611",
     "הועלה": "2026-11-13 16:03"
+  },
+  {
+    "category": "micro",
+    "חברה": "CoreWeave (CRWV)",
+    "חברה_en": "CoreWeave (CRWV)",
+    "symbols": [
+      "CRWV",
+      "META"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 15:54",
+    "כותרת": "לפי Semafor: CoreWeave (CRWV) מבקשת הלוואה של 4 מיליארד דולר בגיבוי חוזי Meta; לא גיוס שהושלם",
+    "כותרת_en": "Semafor: CoreWeave (CRWV) seeks a $4 billion loan backed by Meta contracts; financing not completed",
+    "קישור": "https://www.semafor.com/article/11/13/2026/coreweave-tunes-out-nvidia-noise-looks-to-raise-4b",
+    "מקורות": [
+      {
+        "url": "https://www.semafor.com/article/11/13/2026/coreweave-tunes-out-nvidia-noise-looks-to-raise-4b",
+        "label": "Semafor, אלן דימאורו: הדיווח המקורי המלא, 13 בנובמבר 08:54 EST",
+        "label_en": "Semafor, Ellen DiMauro: full original report, November 13 at 08:54 EST"
+      }
+    ],
+    "טקסט": "לא מאומת מול הודעת חברה או מסמכי הלוואה ראשוניים\n13.11.2026 | 15:54 שעון ישראל, 08:54 EST, לפי חותמת Semafor. הדיווח המקורי נקרא במלואו; אין כאן הודעת סגירה רשמית של החברה או אימות עצמאי של הסכמי המימון.\n\nלפי Semafor, CoreWeave פונה לשוק בבקשה להלוואה של 4 מיליארד דולר שתהיה מגובה בחוזים עם Meta. מורגן סטנלי ו-Mitsubishi UFJ אמורים לארגן את הסינדיקציה. זהו מהלך מימון מדווח בשלב שיווק, לא אישור ש-4 מיליארד דולר כבר גויסו או הועברו לחברה.\n\nהכתבה מדווחת על יעד לריבית כוללת של כ-7.5%. מקור אחד המעורה בפרטים אומר שההלוואה זכתה לתגובה חיובית בשיווק המוקדם. היעד אינו ריבית סופית שנקבעה, והתגובה אינה התחייבות מלווים או הוכחה שהעסקה תיסגר בכל היקפה.\n\nSemafor משווה זאת לתשואות שהתקרבו ל-16% באג״ח הלא-מובטחות של CoreWeave. זוהי השוואה של המקור למימון אחר, לא ציטוט שוק חי ולא מדידה של חיסכון שכבר מומש. סוג הביטחונות ומבנה ההלוואה שונים מן האג״ח הלא-מובטחות.\n\nהחידוש מעבר לפריטי לחץ האשראי n-0007 ו-n-0953 הוא בקשת המימון המסוימת, היקפה וגיבוי חוזי Meta. אין בדיווח הזמנה חדשה של Meta, שינוי בסכום חוזי הלקוח, תשלום חדש מ-Meta או ערבות תאגידית ישירה שלה. לא נמסרו כאן מועד סגירה, תקופת ההלוואה או תנאים סופיים.",
+    "טקסט_en": "Not verified against a primary company announcement or loan documents\nNovember 13, 2026 | 15:54 Israel time, 08:54 EST, according to Semafor's timestamp. The full original report was read; no official company closing announcement or independent verification of financing agreements is supplied here.\n\nSemafor reports that CoreWeave is seeking a $4 billion loan backed by contracts with Meta. Morgan Stanley and Mitsubishi UFJ would syndicate the loan. This is a reported financing proposal at the marketing stage, not confirmation that $4 billion has been raised or received.\n\nThe article describes a target all-in interest rate of around 7.5%. One person familiar with the matter says the loan has received a warm reception in early marketing. The target is not a final agreed rate, and the reception is not a lender commitment or proof the full transaction will close.\n\nSemafor compares the proposal with yields CoreWeave's unsecured bonds have reached near 16%. That is the source's comparison with other financing, not a live market quote or savings already achieved. Collateral and loan structure differ from unsecured bonds.\n\nBeyond credit-pressure items n-0007 and n-0953, the development is the specific proposed financing, amount and backing by Meta contracts. The report establishes no new Meta order, change in customer contract value, new payment from Meta or direct corporate guarantee by Meta. A closing date, loan term and final conditions are not provided here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a5c72fbfd617fd8130a7b66ad77ed079066a5fa7585a8990559ed43c6294c48a"
+      }
+    },
+    "מזהה": "n-1612",
+    "הועלה": "2026-11-13 16:12"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "לפי Investing.com: BofA הוסיפה העלאת ריבית בינואר 2027 לתחזית; תחזית בנק, לא החלטת הפד",
+    "כותרת_en": "Investing.com: BofA adds a January 2027 rate hike to its forecast; a bank forecast, not a Fed decision",
+    "קישור": "https://www.investing.com/news/economy-news/bofa-now-sees-fed-hiking-in-january-lifts-terminal-rate-forecast-5024869",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/economy-news/bofa-now-sees-fed-hiking-in-january-lifts-terminal-rate-forecast-5024869",
+        "label": "Investing.com, סם בוגדה: הדיווח המלא מ-13 בנובמבר על תחזית BofA",
+        "label_en": "Investing.com, Sam Boughedda: full November 13 report on BofA forecast"
+      }
+    ],
+    "טקסט": "לא מאומת מול מסמך המחקר הראשוני של BofA\n13.11.2026 | כתבת Investing.com נקראה במלואה. העמוד מציג 06:31 AM ללא אזור זמן מפורש שאומת כאן, ולכן לא מוצגת שעה ישראלית מדויקת. זו תחזית של בנק מסחרי, לא הודעת מדיניות, התחייבות או החלטת ריבית של הפדרל ריזרב.\n\nלפי הדיווח, BofA Global Research הוסיפה העלאה של 25 נקודות בסיס בינואר 2027 לתחזיתה. הבנק צופה כעת העלאות בדצמבר 2026, בינואר ובמרץ 2027, וטווח ריבית שיא של 4.50%-4.75%. קודם לכן צפה עוד שתי העלאות בקצב רבעוני ושיא של 4.25%-4.50%.\n\nהכתבה מייחסת לכלכלן אדיטיה בהאבה את ההערכה שלאחר מדד אוקטובר הפד מפגר יותר אחר האינפלציה ואינו יכול להסתפק עוד בקצב רבעוני. אלה נימוקי תחזית הבנק, לא אבחנה שהפד עצמו אימץ ולא ציטוט מהחלטת ועדת הריבית.\n\nהסיכונים נותרו דו-כיווניים לפי אותו דיווח: נתונים חלשים יותר או הידוק משמעותי בתנאים הפיננסיים עשויים לדחות או לבטל את ההעלאה האחרונה; האצה בשכר או עליות מחירים גדולות בתחילת השנה עלולות, להערכת הבנק, לדרוש ריבית מעל 5%. אין כאן מסלול ריבית מובטח.\n\nהחידוש הוא הוספת ינואר לתחזית והעלאת טווח השיא, לא פרסום חוזר של נתוני CPI או PPI. אומדני אינפלציה וציפיות לנתונים עתידיים שבכתבה אינם תוצאות רשמיות חדשות; תחזית הבנק אינה נרשמת ביומן כתוצאת החלטת פד.",
+    "טקסט_en": "Not verified against BofA's primary research note\nNovember 13, 2026 | The full Investing.com article was read. It displays 06:31 AM without an explicit timezone verified here, so no exact Israeli publication time is stated. This is a commercial bank forecast, not a Federal Reserve policy announcement, commitment or rate decision.\n\nThe report says BofA Global Research added a 25-basis-point January 2027 hike to its forecast. The bank now expects hikes in December 2026, January and March 2027, with a peak target range of 4.50%-4.75%. Its previous forecast called for two more hikes at a quarterly pace and a peak of 4.25%-4.50%.\n\nThe article attributes to economist Aditya Bhave the view that after October CPI the Fed is further behind the inflation curve and can no longer move only quarterly. These are the bank's reasons for its forecast, not an assessment adopted by the Fed or a quote from a rate decision.\n\nRisks remain two-sided in the report: softer data or significantly tighter financial conditions could delay or remove the last hike, while faster wage inflation or large early-year price increases could, in the bank's view, require rates above 5%. No guaranteed rate path is established.\n\nThe development is January's addition and the higher projected peak range, not a republication of CPI or PPI results. Inflation estimates and expectations for future releases in the article are not new official outcomes; the bank forecast is not entered in the calendar as a Fed decision result.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8d021c1e00e5785e0899e3de5ac3b9eac1ca27237c86d8ebf16e10ab2b60a09b"
+      }
+    },
+    "מזהה": "n-1613",
+    "הועלה": "2026-11-13 16:12"
   }
 ]
