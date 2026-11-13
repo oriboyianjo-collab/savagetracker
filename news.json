@@ -39235,5 +39235,42 @@
     },
     "מזהה": "n-1531",
     "הועלה": "2026-11-13 09:45"
+  },
+  {
+    "category": "micro",
+    "חברה": "Commercial Metals / CMC",
+    "symbols": [
+      "CMC"
+    ],
+    "sectors": [
+      "materials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-10",
+    "כותרת": "השלמה מ-10 בנובמבר: CMC מתכננת חילופי סמנכל כספים בינואר; Kenji Hashimoto יצטרף תחילה כסגן",
+    "כותרת_en": "November 10 catch-up: CMC plans a January CFO handoff; Kenji Hashimoto joins first as Deputy CFO",
+    "טקסט": "השלמת סיקור להודעת Commercial Metals מ-10.11.2026, לא הודעת מינוי חדשה מ-13 בנובמבר. הודעת החברה ודוח 8-K המלא נקראו במקור. לא אומתה שעת הפרסום המקורית, ולכן נשמר תאריך בלבד.\n\nPaul Lawrence הודיע לחברה ב-6 בנובמבר על החלטתו לפרוש מתפקיד סמנכל הכספים, בתוקף מ-15 בינואר 2027. לפי הדוח, ההחלטה אינה נובעת ממחלוקת עם החברה על פעילותה, מדיניותה או נהליה. אין כאן דיווח על פיטורים מיידיים או טענה לאי-סדרים.\n\nהדירקטוריון אישר ב-9 בנובמבר את גיוס Kenji Hashimoto, שיצטרף כסמנכל בכיר וסגן סמנכל כספים ב-16 בנובמבר 2026. בדוח מוגדר תפקיד הסגן כ-non-executive officer position. עם פרישת Lawrence מתפקיד סמנכל הכספים ב-15 בינואר 2027, Hashimoto אמור לקבל את התפקיד. אלה שני שלבים עתידיים נפרדים, לא כניסה מיידית לתפקיד סמנכל הכספים.\n\nLawrence ימשיך להיות מועסק בחברה כיועץ מיוחד למנכל עד 30 ביוני 2027 כדי לתמוך בהעברה. לכן 15 בינואר הוא מועד סיום תפקידו כסמנכל כספים, לא מועד סיום העסקתו בחברה.\n\nHashimoto כיהן בתפקידי ניהול ב-Global Infrastructure Partners, ב-Amazon וב-American Airlines, לרבות כסמנכל בכיר לפיננסים ופיתוח עסקי בחברת התעופה. החידוש הוא תוכנית ירושה בהנהגה הפיננסית של יצרנית הפלדה ופתרונות הבנייה. אזכור יעדי 2029 בהודעת החברה הוא רקע אסטרטגי, לא תחזית חדשה, ואין בהודעה בסיס להבטחת תוצאה פיננסית או תנועת מניה בעקבות המינוי.",
+    "טקסט_en": "Catch-up coverage of Commercial Metals' November 10, 2026 announcement, not a new appointment announcement on November 13. The company release and full original Form 8-K were read directly. The original publication clock was not verified, so only the date is assigned.\n\nPaul Lawrence notified the company on November 6 that he would retire as CFO effective January 15, 2027. The filing says this was not due to any disagreement concerning the company's operations, policies or practices. This is not an immediate dismissal or an allegation of misconduct.\n\nThe board approved hiring Kenji Hashimoto on November 9. He will join as Senior Vice President and Deputy CFO on November 16, 2026; the filing describes the deputy role as a non-executive officer position. He is to become CFO when Lawrence leaves that role on January 15, 2027. These are two distinct future stages, not an immediate CFO handoff.\n\nLawrence will remain employed as Special Advisor to the CEO through June 30, 2027 to support the transition. January 15 therefore marks the end of his CFO role, not the end of his employment.\n\nHashimoto held leadership roles at Global Infrastructure Partners, Amazon and American Airlines, including Senior Vice President, Finance & Corporate Development at the airline. The news is a planned handoff in the steel and construction-solutions company's financial leadership. The release's reference to 2029 targets is strategic background, not new guidance, and does not establish a financial outcome or stock-price move from the appointment.",
+    "קישור": "https://www.cmc.com/newsroom/kenji-hashimoto-appointment",
+    "מקורות": [
+      {
+        "url": "https://www.cmc.com/newsroom/kenji-hashimoto-appointment",
+        "label": "CMC: הודעת חילופי סמנכל הכספים, 10 בנובמבר 2026",
+        "label_en": "CMC: CFO retirement and succession announcement, November 10, 2026"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/22444/000119312526454440/d175568d8k.htm",
+        "label": "SEC: דוח 8-K של Commercial Metals מ-10 בנובמבר, סעיף 5.02",
+        "label_en": "SEC: Commercial Metals Form 8-K dated November 10, Item 5.02"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "137055628d8370bb9b2491b7574952b3268d7624517493c87260b31e2e70c0d2"
+      }
+    },
+    "מזהה": "n-1532",
+    "הועלה": "2026-11-13 10:01"
   }
 ]
