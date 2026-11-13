@@ -42101,5 +42101,34 @@
     },
     "מזהה": "n-1614",
     "הועלה": "2026-11-13 16:21"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "גולסבי בריאיון היום ל-CNBC: האינפלציה מתרחבת מעבר לנפט ולמכסים וההתקדמות נעצרה; אין התחייבות לגודל העלאה",
+    "כותרת_en": "Goolsbee in today's CNBC interview: inflation broadens beyond oil and tariffs as progress stalls; no hike-size commitment",
+    "קישור": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+        "label": "CNBC, ג׳ף קוקס: כתבת PPI המלאה עם ציטוטים מהריאיון ביום שישי",
+        "label_en": "CNBC, Jeff Cox: full PPI article with quotations from Friday's interview"
+      },
+      {
+        "url": "https://www.bloomberght.com/goolsbee-fed-enflasyonda-guvenilirligini-yeniden-kazanmali-3794625",
+        "label": "BloombergHT: דיווח קצר המייחס לריאיון אמירה על אמינות הפד; לא תמליל מלא",
+        "label_en": "BloombergHT: short report attributing a Fed-credibility remark to the interview, not a full transcript"
+      }
+    ],
+    "טקסט": "13.11.2026 | כתבת CNBC הנוכחית נקראה במלואה ומביאה ישירות ציטוטים מריאיון עם נשיא הפד של שיקגו אוסטן גולסבי ביום שישי. הריאיון המלא לא נצפה ולא נקרא תמליל מלא; הסיכום מוגבל לדברים שבכתבה. שעת 08:31 EST בעמוד היא שעת פרסום כתבת ה-PPI המקורית, לא שעת הוספת הציטוטים או שעת אמירתם, ולכן נשמר תאריך בלבד.\n\nגולסבי אמר כי זה כמה חודשים נראים סימני בעיה, וכי בקבוצות מחירים שאינן מונעות בידי נפט או מכסים ההתקדמות נעצרה ובחלקן הכיוון אף שלילי. לדבריו, הבעיה אינה רק שהאינפלציה מעל היעד: לאחר תקופות של התקדמות, לאחרונה אין התקדמות והיא מתבררת כמתמשכת יותר מכפי שציפו בתחילת זעזועי ההיצע.\n\nבדיווח קצר נפרד, BloombergHT מייחס לאותו ריאיון ב-CNBC אמירה שלפיה לפד עוד יש עבודה לעשות כדי לשמור או לשקם את אמינותו בנושא האינפלציה. זו אמירה שמובאת לפי המקור המשני, ולא ציטוט שאומת כאן מתוך הריאיון המלא.\n\nהחידוש הוא תגובתו המדווחת היום לרוחב ולהתמשכות לחצי המחירים. זו אינה חזרה על ריאיון Yahoo מ-12 בנובמבר ב-n-1524, על דברי 9 בנובמבר ב-n-1114, או על אמירתו הישנה ל-PBS שהמדד מדאיג. נתוני ה-PPI והליבה עצמם כבר פורסמו באפליקציה ואינם מוצגים כאן כפרסום נתונים נוסף.\n\nהדברים המצוטטים אינם התחייבות של גולסבי להעלאה של 50 נקודות בסיס, להעלאה בינואר או למסלול ריבית מסוים. תמחור חוזים והערכות כלכלנים שמופיעים בכתבות הם שכבה נפרדת, לא עמדתו. פרטי המבזקים על שכר, זיקוק, דיזל ודלק סילוני שלא נבדקו בגוף המקור אינם נכללים כאן. זהו מסר של בכיר יחיד, לא החלטת FOMC.",
+    "טקסט_en": "November 13, 2026 | CNBC's current article was read in full and directly quotes Chicago Fed President Austan Goolsbee's Friday interview. The full interview was not watched and no full transcript was read; this account is limited to the article. The page's 08:31 EST publication clock belongs to the original PPI article, not the addition or delivery of these remarks, so only the date is retained.\n\nGoolsbee said signs of trouble have appeared for several months, with stalled progress and in some cases deterioration in price categories not driven by oil or tariffs. His concern is not only that inflation is above target: after earlier improvement, progress has recently stopped, and inflation has proved more persistent than expected at the start of the supply shocks.\n\nIn a separate short report, BloombergHT attributes to the same CNBC interview a remark that the Fed still has work to do to maintain or restore its inflation credibility. That remark is carried as secondary-source reporting, not a quotation independently verified here in the full interview.\n\nThe development is today's reported response to the breadth and persistence of price pressures. It is distinct from the November 12 Yahoo interview in n-1524, the November 9 remarks in n-1114 and the earlier PBS description of CPI as disturbing. PPI and core results have already been published in the app and are not presented as another data release here.\n\nThese quotations do not commit Goolsbee to a 50-basis-point hike, a January hike or a particular rate path. Futures pricing and economists' expectations in the articles are separate, not his position. Relay details about wages, refining, diesel and jet fuel not checked in the owning article are not included. This is one official's message, not an FOMC decision.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "49da59b32abc95ede51028d27d511141df3ebdd5dabe8afe42d554ee98e921ce"
+      }
+    },
+    "מזהה": "n-1615",
+    "הועלה": "2026-11-13 16:31"
   }
 ]
