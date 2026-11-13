@@ -41947,5 +41947,29 @@
     },
     "מזהה": "n-1609",
     "הועלה": "2026-11-13 15:45"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "לפי Axios: ראש המוסד בוושינגטון לשיחות על איראן; פגישה עם ויטקוף במיאמי צפויה, לא הושלמה",
+    "כותרת_en": "Axios: Mossad chief in Washington for Iran talks; Miami meeting with Witkoff expected, not completed",
+    "קישור": "https://www.axios.com/2026/11/13/mossad-israel-iran-war-netanyahu-pressures-trump",
+    "מקורות": [
+      {
+        "url": "https://www.axios.com/2026/11/13/mossad-israel-iran-war-netanyahu-pressures-trump",
+        "label": "Axios, ברק רביד: הדיווח המקורי מ-13 בנובמבר, מבוסס מקורות",
+        "label_en": "Axios, Barak Ravid: November 13 original source-based report"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ממשלתי ראשוני\n13.11.2026 | הדיווח המקורי המלא של ברק רביד ב-Axios נקרא. העמוד מציג זמן יחסי בלבד, ללא שעת פרסום מוחלטת ואזור זמן מאומתים; לכן נשמר תאריך בלבד. אין זה אישור רשמי של המוסד, ה-CIA או הבית הלבן.\n\nלפי שלושה מקורות המעורים בפרטים, ראש המוסד רומן גופמן נמצא ביום שישי בוושינגטון לשיחות עם בכירים בממשל טראמפ על המלחמה באיראן, ובהן שיחות עם ראש ה-CIA ג׳ון רטקליף. מקור אחד אומר שהוא צפוי להמשיך למיאמי לפגישה עם שליח הבית הלבן סטיב ויטקוף. הפגישה במיאמי היא ציפייה מדווחת, לא פגישה שכבר התקיימה או מועד רשמי שאושר. המוסד, ה-CIA והבית הלבן סירבו להגיב.\n\nAxios מדווח כי הביקור מתקיים בעוד בנימין נתניהו לוחץ על טראמפ לחדש את הלחימה באיראן, וכי טראמפ דחה עד כה את הלחץ. לפי גורם אמריקאי המצוטט בכתבה, השניים דנו באיראן בשיחה ב-5 בנובמבר. העיתון מתאר העדפה אמריקאית להמשך המצור הימי והלחץ הכלכלי, תוך בחינה אם הסכם אפשרי. ״עד כה״ אינו התחייבות להימנע מתקיפה בעתיד ואינו הסכם עם איראן.\n\nהחידוש ביחס ל-n-0623 על לחץ נתניהו ול-n-1494 על שינוי המיקוד של ואנס הוא הביקור המדווח כעת של גופמן וערוץ השיחות עם בכירי הממשל. אין בכך הוכחה שכל ערוצי המגע נסגרו, שהושג סיכום מדיני או שניתנה הוראה לחדש תקיפות.\n\nבנפרד, מקורות בכתבה מייחסים למנהיגי האופוזיציה בישראל חשש שנתניהו ינסה לפעול באיראן או לעורר תגובה כדי לפגוע בניסיון גדי איזנקוט להרכיב ממשלה. זהו חשש פוליטי מדווח, לא אימות לתוכנית מבצעית או למניע שהוכח. מקורב לאיזנקוט אומר שאינו חושב שהמצב דורש פעולה צבאית מיידית. הדיווח אינו מאמת תקיפה חדשה, פגיעה בשיט, שינוי בזרימת נפט או תגובת מחיר מסוימת.",
+    "טקסט_en": "Not verified against a primary government source\nNovember 13, 2026 | Barak Ravid's full original Axios report was read. The page displays only a relative age, without a verified absolute publication clock and timezone, so only the date is retained. This is not an official Mossad, CIA or White House confirmation.\n\nThree sources with knowledge told Axios that Mossad director Roman Gofman is in Washington Friday for talks with senior Trump administration officials about the Iran war, including talks with CIA Director John Ratcliffe. One source says he is expected to travel on to Miami to meet White House envoy Steve Witkoff. The Miami meeting is reported as expected, not already completed or officially scheduled. Mossad, the CIA and the White House declined to comment.\n\nAxios reports that the visit comes as Benjamin Netanyahu presses Trump to resume combat in Iran, and says Trump has rejected that pressure so far. A US official quoted in the report says they discussed Iran during a November 5 call. The article describes the US preference for continuing the naval blockade and economic pressure while testing whether a deal is possible. So far is not a pledge against future strikes or an agreement with Iran.\n\nBeyond n-0623 on Netanyahu's pressure and n-1494 on Vance's shifted focus, the development is Gofman's newly reported visit and talks with senior administration officials. It does not establish that every contact channel has closed, a political agreement has been reached or renewed strikes have been ordered.\n\nSeparately, the report's sources attribute to Israeli opposition leaders a concern that Netanyahu might act against Iran or provoke a response to undermine Gadi Eisenkot's government-formation effort. That is a reported political concern, not verification of an operational plan or proven motive. A source close to Eisenkot says he does not think the situation requires immediate military action. The report verifies no new attack, shipping damage, change in oil flows or particular price reaction.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "63ef4cfa23fdc77cc706dd98310ed05a2e1baf9fa669de37cf41c89e10bd04bb"
+      }
+    },
+    "מזהה": "n-1610",
+    "הועלה": "2026-11-13 16:00"
   }
 ]
