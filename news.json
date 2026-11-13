@@ -40800,5 +40800,63 @@
     },
     "מזהה": "n-1574",
     "הועלה": "2026-11-13 12:07"
+  },
+  {
+    "category": "macro",
+    "חברה": "גוש האירו",
+    "חברה_en": "Euro area",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "קישור": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-13112026-ap",
+    "מקורות": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-13112026-ap",
+        "label": "Eurostat: הפרסום הרשמי המלא והטבלאות",
+        "label_en": "Eurostat: full official release and tables"
+      }
+    ],
+    "כותרת": "גוש האירו: התמ״ג צמח 0.4% ברבעון השלישי, ללא שינוי מהאומדן הקודם; מספר המועסקים נותר ללא שינוי",
+    "כותרת_en": "Euro area GDP grew 0.4% in Q3, unchanged from the earlier estimate; employment was flat",
+    "טקסט": "13.11.2026 | פרסום הבזק הרשמי של Eurostat נקרא במלואו, כולל טבלאות והערות המתודולוגיה. שעת הפרסום המקורית ואזור הזמן שלה לא אומתו, ולכן מוצג תאריך בלבד.\n\nתמ״ג גוש האירו צמח ברבעון השלישי ב-0.4% לעומת הרבעון הקודם, בנתונים מנוכי עונתיות, וב-1.3% לעומת הרבעון המקביל אשתקד. באיחוד האירופי כולו נרשמו צמיחה רבעונית של 0.5% וצמיחה שנתית של 1.5%. אלה שיעורי צמיחה רבעוניים ושנתיים, לא קצב רבעוני המחושב במונחים שנתיים כמו בכותרות התמ״ג האמריקאי.\n\nאומדן התמ״ג לרבעון השלישי לא השתנה לעומת האומדן הראשוני שפורסם ב-30 באוקטובר. ברבעון השני צמח התוצר ב-0.6% בגוש האירו וב-0.7% באיחוד. לכן 0.4% הוא גם נתון הרבעון השלישי שאושר כעת, ולא נתון הרבעון השני.\n\nהנתון החדש על שוק העבודה מראה שמספר המועסקים נותר ללא שינוי ברבעון השלישי, הן בגוש האירו והן באיחוד, אחרי עלייה רבעונית של 0.1% בשניהם ברבעון השני. לעומת אשתקד גדל מספר המועסקים ב-0.4% בשני האזורים. המדד כולל שכירים ועצמאים; הוא אינו שיעור האבטלה ואינו מודד רק את מספר המשרות החדשות.\n\nאומדן הבזק מתבסס על כיסוי של 97% מהתמ״ג בשני האזורים, ועל 95% מהמועסקים בגוש האירו ו-92% באיחוד. הנתונים עדיין עשויים להשתנות באומדנים הרגילים הבאים. השילוב הוא צמיחת תפוקה לצד עצירה בגידול מספר המועסקים ברבעון, אך אינו כשלעצמו הוכחה לעלייה בשעות העבודה, לפריון מסוים או להחלטת ריבית עתידית של ה-ECB. לא נכללת השוואה לקונצנזוס שלא אומת בנפרד.",
+    "טקסט_en": "November 13, 2026 | Eurostat's full official flash release, tables and methodological notes were read. The original publication clock and its timezone were not verified, so only the date is shown.\n\nEuro area GDP grew 0.4% quarter on quarter on a seasonally adjusted basis in the third quarter, and 1.3% year on year. The EU grew 0.5% quarter on quarter and 1.5% year on year. These are quarterly and annual changes, not quarter-on-quarter annualized growth rates used in US GDP headlines.\n\nThe third-quarter GDP estimate is unchanged from the preliminary flash estimate published October 30. Second-quarter growth was 0.6% in the euro area and 0.7% in the EU. The 0.4% figure is therefore the reaffirmed third-quarter rate, not the second-quarter rate.\n\nThe new employment flash estimate shows the number of employed people was unchanged quarter on quarter in both areas, following 0.1% growth in each in Q2. Employment rose 0.4% year on year in both areas. This measure includes employees and self-employed people; it is not the unemployment rate or a count restricted to newly created jobs.\n\nThe flash estimates cover 97% of GDP in both areas, 95% of euro area employment and 92% of EU employment. They remain subject to revision in subsequent regular estimates. Output growth alongside flat employment does not by itself establish hours worked, a particular productivity rate or a future ECB rate decision. No comparison with an independently unverified analyst consensus is included.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d9b81f4873868752dad45c0f7c1c16a15f69f891a9ca3382f00a04f271383364"
+      }
+    },
+    "מזהה": "n-1575",
+    "הועלה": "2026-11-13 12:11"
+  },
+  {
+    "category": "macro",
+    "חברה": "גוש האירו",
+    "חברה_en": "Euro area",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "קישור": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/6-13112026-bp",
+    "מקורות": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/6-13112026-bp",
+        "label": "Eurostat: הפרסום הרשמי המלא והטבלאות",
+        "label_en": "Eurostat: full official release and tables"
+      }
+    ],
+    "כותרת": "גוש האירו: גירעון הסחר בסחורות בספטמבר היה 10.3 מיליארד אירו; לאחר התאמה לעונתיות הגירעון דווקא התרחב",
+    "כותרת_en": "Euro area September goods trade deficit was EUR10.3 billion; the seasonally adjusted deficit widened",
+    "טקסט": "13.11.2026 | אומדן הסחר הראשון לספטמבר של Eurostat נקרא במלואו, כולל נספח ההתאמה לעונתיות והערות השיטה. שעת הפרסום המקורית לא אומתה.\n\nגוש האירו רשם גירעון של 10.3 מיליארד אירו בסחר בסחורות עם שאר העולם, ללא התאמה לעונתיות, לעומת גירעון של 16.6 מיליארד באוגוסט ויתרה חיובית של 13.5 מיליארד בספטמבר 2025. נתון אוגוסט העדכני במקור הרשמי הוא 16.6 מיליארד, לא 16.1 מיליארד המופיעים בחלק מהדיווחים.\n\nהיצוא בספטמבר הסתכם ב-272.7 מיליארד אירו, עלייה של 6.0% בשנה, והיבוא הגיע ל-283.0 מיליארד, עלייה של 16.1%. הגירעון באנרגיה התרחב ל-33.0 מיליארד לעומת 20.7 מיליארד שנה קודם, ועודף המכונות וכלי הרכב הצטמצם מ-10.0 ל-3.0 מיליארד. אלה נתוני ערך כספי, לא שיעורי שינוי בכמויות בלבד.\n\nהתמונה החודשית שונה בנתונים מנוכי העונתיות: הגירעון התרחב מ-7.8 מיליארד באוגוסט ל-8.7 מיליארד בספטמבר. היצוא המנוכה עלה ב-2.0% בחודש והיבוא ב-2.3%. אין להציג את צמצום הגירעון בנתונים הגולמיים כהוכחה לשיפור חודשי גם אחרי ניכוי עונתיות, ואין לערבב בין 10.3 מיליארד הגולמי לבין 8.7 מיליארד המנוכה.\n\nבינואר-ספטמבר הצטבר בגוש האירו גירעון סחורות של 36.5 מיליארד אירו, לעומת עודף של 102.2 מיליארד בתקופה המקבילה ב-2025. באיחוד האירופי כולו, שהוא אזור שונה, גירעון ספטמבר הגולמי היה 16.8 מיליארד אירו.\n\nזהו מאזן סחר בסחורות, לא החשבון השוטף ולא מאזן הכולל שירותים. הנתונים זמניים ומבוססים על מידע שהעבירו המדינות עד 10 בנובמבר. ההרעה לעומת אשתקד קשורה בעיקר לרכיב האנרגיה לפי Eurostat, אך הפרסום אינו מבודד השפעת מחיר לעומת כמות ואינו מכמת לבדו השפעה על הצמיחה או על הריבית.",
+    "טקסט_en": "November 13, 2026 | Eurostat's full first September trade estimate, seasonal-adjustment annex and methodological notes were read. The original publication time was not verified.\n\nThe euro area recorded a non-seasonally adjusted goods trade deficit of EUR10.3 billion with the rest of the world, compared with a EUR16.6 billion deficit in August and a EUR13.5 billion surplus in September 2025. The current official August figure is a EUR16.6 billion deficit, not EUR16.1 billion quoted in some reports.\n\nSeptember exports were EUR272.7 billion, up 6.0% year on year, and imports EUR283.0 billion, up 16.1%. The energy deficit widened to EUR33.0 billion from EUR20.7 billion a year earlier, while the machinery and vehicles surplus narrowed from EUR10.0 billion to EUR3.0 billion. These are monetary values, not volume-only changes.\n\nThe seasonally adjusted monthly picture is different: the deficit widened from EUR7.8 billion in August to EUR8.7 billion in September. Adjusted exports rose 2.0% month on month and imports 2.3%. The narrowing in raw figures must not be presented as an improvement after seasonal adjustment, or the EUR10.3 billion raw deficit confused with the EUR8.7 billion adjusted deficit.\n\nThe January-September euro area goods deficit was EUR36.5 billion, compared with a EUR102.2 billion surplus a year earlier. The EU, a different geographical aggregate, had a EUR16.8 billion unadjusted September deficit.\n\nThis is goods trade, not the current account or a balance including services. The figures are provisional and use national submissions received by November 10. Eurostat attributes the year-on-year deterioration mainly to energy, but the release does not isolate price effects from volume effects or establish a standalone growth or interest-rate impact.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e418b07779779522c43f888b41452696a7c2f819ef2ec51708eb37ec1c6a397c"
+      }
+    },
+    "מזהה": "n-1576",
+    "הועלה": "2026-11-13 12:11"
   }
 ]
