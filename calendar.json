@@ -3091,22 +3091,22 @@
     "שעה": "17:30",
     "מדינה": "US",
     "אירוע": "מלאי גז טבעי שבועי (EIA)",
-    "תקופה": "שבועי",
+    "תקופה": "השבוע שהסתיים ב-6 בנובמבר 2026",
     "חשיבות": 1,
     "מקור": "https://ir.eia.gov/ngs/schedule.html",
-    "הערה": "חריג Veterans Day רשמי: יום שישי13.11 בשעה10:30ET,17:30בישראל. קודם:+77מיליארד רגל מעוקבת מפרסום5.11 לשבוע שהסתיים30.10. צפי טרם אומת.\nבדיקת 11.11.2026: צפי Forex Factory העדכני +65 מיליארד רגל מעוקבת. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.",
+    "הערה": "פורסם ב-13.11.2026 בשעה 10:30 Eastern, 17:30 בישראל, לשבוע שהסתיים ב-6 בנובמבר: תוספת של 61 מיליארד רגל מעוקבת (Bcf) למלאי הגז הטבעי התת-קרקעי לשימוש ב-48 המדינות הרציפות, בנתונים לא מנוכי עונתיות. המלאי הסתכם ב-3,862 Bcf, לעומת 3,801 בשבוע שהסתיים ב-30 באוקטובר. הצפי הקיים +65 Bcf והקודם +77 נשמרו; הקודם לא נבדק כאן מול ארכיון 5 בנובמבר. קובצי EIA הנוכחיים מסמנים ללא תיקון לנתון השבועי ולמלאי וללא סיווג מחדש. המלאי נמוך ב-92 Bcf (2.3%) משנה קודמת וגבוה ב-75 Bcf (2.0%) מממוצע חמש השנים, בתוך הטווח ההיסטורי לחמש שנים. אין מכאן סיווג פשוט כחיובי או שלילי למחירי גז.",
     "הערות_מקור_ארכיון": "חריג Veterans Day רשמי: יום שישי 13.11 בשעה 10:30 ET, 17:30 בישראל, במקום חמישי. צפי וקודם ייבדקו לאחר פרסום 5.11; לא הועתק קודם ישן.",
     "קודם": "+77 מיליארד רגל מעוקבת",
     "מקור_קודם": "https://ir.eia.gov/ngs/ngs.html",
     "מזהה": "c-0122",
     "אירוע_en": "Weekly natural gas inventories (EIA)",
-    "תקופה_en": "Weekly",
-    "הערה_en": "Official Veterans Day exception: Friday Nov 13 at 10:30 ET, 17:30 Israel. Prior: +77 Bcf from the Nov 5 release for the week ended Oct 30. Estimate not yet verified.\nNov 11, 2026 check: current Forex Factory forecast +65 Bcf. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history.",
+    "תקופה_en": "Week ended November 6, 2026",
+    "הערה_en": "Released November 13, 2026 at 10:30 Eastern, 17:30 Israel, for the week ended November 6: a 61 Bcf increase in working natural gas in underground storage in the contiguous Lower 48 states, not seasonally adjusted. Stocks totaled 3,862 Bcf, versus 3,801 for the week ended October 30. The existing +65 Bcf forecast and +77 prior are retained; the prior was not checked here against the November 5 archive. Current EIA files flag no revision to net change or stocks and no reclassification. Stocks were 92 Bcf (2.3%) below a year ago and 75 Bcf (2.0%) above the five-year average, within the five-year historical range. This does not imply a simple positive or negative verdict for gas prices.",
     "קודם_en": "+77 Bcf",
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "a6f79f6623c1b8fad0c5b3ea81c82ed1402ae6bb4342b6c5fa5bbe92d09d6680"
+        "source_hash": "ecf8080c3176ce108cb6fdbd3009eea1dc81feb9538e3a1a85aeee2e30727f53"
       }
     },
     "היסטוריית_צפי": [
@@ -3123,9 +3123,24 @@
     "צפי": "+65 מיליארד רגל מעוקבת",
     "צפי_en": "+65 Bcf",
     "מקורות_בדיקה_עדכנית": [
-      "https://www.forexfactory.com/calendar?week=nov8.2026"
+      "https://ir.eia.gov/ngs/ngs.html",
+      "https://ir.eia.gov/ngs/wngsr.csv",
+      "https://ir.eia.gov/ngs/wngsr.json"
     ],
-    "תאריך_בדיקה_עדכנית": "2026-11-11"
+    "תאריך_בדיקה_עדכנית": "2026-11-13",
+    "היסטוריית_נתונים": [
+      {
+        "תאריך_עדכון": "2026-11-13 17:34",
+        "קודם": "+77 מיליארד רגל מעוקבת",
+        "בפועל": null,
+        "הערה": "חריג Veterans Day רשמי: יום שישי13.11 בשעה10:30ET,17:30בישראל. קודם:+77מיליארד רגל מעוקבת מפרסום5.11 לשבוע שהסתיים30.10. צפי טרם אומת.\nבדיקת 11.11.2026: צפי Forex Factory העדכני +65 מיליארד רגל מעוקבת. זהו צפי ממקור משני, לא נתון בפועל ולא תחזית של המפרסם. הערכים וההערות הקודמים נשמרו בהיסטוריה.",
+        "הערה_en": "Official Veterans Day exception: Friday Nov 13 at 10:30 ET, 17:30 Israel. Prior: +77 Bcf from the Nov 5 release for the week ended Oct 30. Estimate not yet verified.\nNov 11, 2026 check: current Forex Factory forecast +65 Bcf. This is a secondary-source forecast, not an actual result or a forecast issued by the data publisher. Previous values and notes were retained in history."
+      }
+    ],
+    "בפועל": "+61 מיליארד רגל מעוקבת",
+    "בפועל_en": "+61 Bcf",
+    "מקור_בפועל": "https://ir.eia.gov/ngs/ngs.html",
+    "תאריך_בדיקת_בפועל": "2026-11-13 17:34"
   },
   {
     "תאריך": "2026-11-13",
