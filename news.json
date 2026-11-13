@@ -41971,5 +41971,48 @@
     },
     "מזהה": "n-1610",
     "הועלה": "2026-11-13 16:00"
+  },
+  {
+    "category": "micro",
+    "חברה": "Apple (AAPL)",
+    "חברה_en": "Apple (AAPL)",
+    "symbols": [
+      "AAPL"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "Apple (AAPL): HomeView הגיע לשלב הזמינות המסחרית בשוקי ההשקה; מחיר הבסיס בארהב 299 דולר, לא כולל כל התקנה",
+    "כותרת_en": "Apple (AAPL): HomeView reaches commercial availability in launch markets; US base price $299, not an all-in installation cost",
+    "קישור": "https://www.apple.com/shop/buy-home/apple-homeview",
+    "מקורות": [
+      {
+        "url": "https://www.apple.com/shop/buy-home/apple-homeview",
+        "label": "Apple Store בארהב: עמוד Buy HomeView הנוכחי, מחיר ותנאי התקנה",
+        "label_en": "US Apple Store: current Buy HomeView page, price and installation requirements"
+      },
+      {
+        "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+        "label": "Apple: הודעת 13 באוקטובר, תאריך ההשקה, מדינות והערות Siri AI",
+        "label_en": "Apple: October 13 announcement, launch date, countries and Siri AI footnotes"
+      },
+      {
+        "url": "https://www.macrumors.com/2026/11/13/apple-launches-two-products-today/",
+        "label": "MacRumors: דיווח 13 בנובמבר על תחילת הזמינות, לא מדידת מלאי",
+        "label_en": "MacRumors: November 13 availability report, not an inventory measurement"
+      }
+    ],
+    "טקסט": "13.11.2026 | עמוד החנות האמריקאי הנוכחי של Apple, עמוד המוצר והודעת ההכרזה המלאה מ-13 באוקטובר נקראו. החנות מציגה כעת Buy Apple HomeView ומחיר בסיס של 299 דולר; דיווח MacRumors מהיום מאשר את מעבר המוצר שהוכרז באוקטובר לשלב תחילת הזמינות. זהו מועד זמינות, לא הכרזת מוצר ראשונה היום. אין כאן אימות מלאי בכל חנות, מיקוד משלוח או הזמנה שהושלמה.\n\nHomeView הוא מסך בית חכם בגודל 7 אינץ׳, עם Siri AI, שיחות FaceTime, בידור ושליטה באביזרי Apple Home ו-Matter תואמים. Apple מתארת זיהוי של עד שישה בני בית ותצוגה אישית לכל משתמש. יכולות המוצר והפרטיות הן תיאור החברה, לא תוצאות בדיקה עצמאית שנערכה כאן.\n\nלפי הודעת Apple, הזמינות מ-13 בנובמבר כוללת את ארה״ב, בריטניה, אוסטרליה, קנדה, הודו, ניו זילנד וסינגפור; בדרום אפריקה המכירה דרך משווקים מורשים. אין מכירה באיחוד האירופי בשלב זה, ולפי Apple הסיבה היא אי-זמינות Siri AI ב-iOS שם. אין כאן אישור לזמינות או למחיר בישראל. גרסת הבסיס השולחנית וגרסת הקיר מוצגות ב-299 דולר בארה״ב כל אחת, לפני תוספות ומסים התלויים ברכישה.\n\nמחיר גרסת הקיר אינו עלות התקנה מלאה: נדרשים מתקן תלייה ופתרון חשמל. עמוד החנות מציין שאפשר להזדקק לספק כוח של 20 ואט לפחות, הנמכר בנפרד; התקנה מקצועית זמינה ברוב האזורים במסגרת השירות המתואר, לא בכל כתובת. אין להסיק ממחיר המכשיר שסופקו כל אביזרי החשמל או שירותי ההתקנה.\n\nהגדרה ושימוש דורשים iPhone עם iOS 27.2 ומעלה או iPad עם iPadOS 27.2 ומעלה. Apple מציינת כי Siri AI ב-HomeView היא בטא בגרסה 27.2, זמינה תחילה באנגלית; הקשר אישי דורש מכשיר Apple Intelligence תואם ומצומד, וחלק מיכולות השרת כפופות למגבלות שימוש יומיות. הרחבת הגישה בתשלום מתוכננת בעתיד, ללא מחיר שנקבע בהודעה. השקת החומרה אינה הופכת את כל תכונות ה-AI לזמינות בכל שפה או מדינה.\n\nזהו שלב מסחרי חדש בקטגוריית מכשירי הבית של Apple, אך לא פורסמו כאן מכירות, מספר יחידות שסופקו, הכנסות או תחזית ביקוש. אין לבלבל אותו עם ניסויי Apple Intelligence למפתחים בסין או עם פתיחת אינטגרציות Siri למפתחים שכבר כוסו באפליקציה.",
+    "טקסט_en": "November 13, 2026 | Apple's current US store, product page and full October 13 announcement were read. The store now shows Buy Apple HomeView and a $299 base price; today's MacRumors report confirms the October-announced product has reached its availability date. This is an availability milestone, not a first product announcement today. Inventory at every store, a delivery ZIP code and a completed order were not verified.\n\nHomeView is a 7-inch smart-home display with Siri AI, FaceTime, entertainment and controls for compatible Apple Home and Matter accessories. Apple describes recognition of up to six household members with personalized screens. Product and privacy capabilities are company descriptions, not independent test results obtained here.\n\nApple's announcement lists November 13 availability in the US, UK, Australia, Canada, India, New Zealand and Singapore, with South African sales through authorized resellers. It is not on sale in the EU at this stage, which Apple attributes to Siri AI being unavailable in iOS there. This verifies no Israeli availability or price. Both the tabletop and wall-mounted models have a $299 US base price, before purchase-dependent accessories and taxes.\n\nThe wall-mounted price is not an all-in installation cost: a mount and power solution are required. The store notes that a minimum-20W power adapter may be needed and is sold separately. The described professional-installation service is available in most areas, not at every address. The device price must not be treated as including every power accessory or installation service.\n\nSetup and use require an iPhone with iOS 27.2 or later or iPad with iPadOS 27.2 or later. Apple says Siri AI on HomeView is beta in version 27.2 and initially available in English. Personal context requires a paired Apple Intelligence-compatible device; some server-based capabilities have daily usage limits. Expanded paid access is planned later, without a price set in the announcement. Hardware availability does not make every AI feature available in every language or country.\n\nThis is a commercial milestone in Apple's home-device category, but no sales, delivered-unit count, revenue or demand forecast is supplied here. It is distinct from the China Apple Intelligence developer trials and Siri developer integrations already covered in the app.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dfd786240d921f352f00f0fc1235da6df0fd2f27feab3b00b58271592d7f57b0"
+      }
+    },
+    "מזהה": "n-1611",
+    "הועלה": "2026-11-13 16:03"
   }
 ]
