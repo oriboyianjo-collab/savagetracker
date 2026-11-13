@@ -42741,5 +42741,37 @@
     },
     "מזהה": "n-1633",
     "הועלה": "2026-11-13 17:33"
+  },
+  {
+    "category": "micro",
+    "חברה": "Anthropic / Claude",
+    "חברה_en": "Anthropic / Claude",
+    "symbols": [],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "17:33",
+    "כותרת": "Claude עבר לניטור: השגיאות בשירותים המרכזיים חזרו לרגיל, אך משימות עלולות להתאחר ביותר משעתיים וחלקן דולגו",
+    "כותרת_en": "Claude moves to monitoring: core error rates return to normal, but tasks can run over two hours late and some were skipped",
+    "קישור": "https://status.claude.com/",
+    "מקורות": [
+      {
+        "url": "https://status.claude.com/",
+        "label": "Claude Status: עדכון Monitoring מ-13 בנובמבר 15:33 UTC",
+        "label_en": "Claude Status: Monitoring update, November 13 at 15:33 UTC"
+      }
+    ],
+    "טקסט": "13.11.2026, 17:33 בישראל (15:33 UTC) | עמוד המצב הרשמי של Claude נקרא בבדיקה השעתית ב-17:39 בישראל. האירוע הרחב שסוקר ב-n-1605 וב-n-1619 עבר ל-Monitoring, ניטור; הוא אינו מסומן כפתור.\n\nAnthropic אומרת ששיעורי השגיאות ב-claude.ai, כולל האפליקציות לנייד, ב-Claude API וב-Claude Code חזרו לרמות רגילות. מחברים קיימים, ובהם Docs ו-Sheets, פועלים שוב. Claude Managed Agents ו-Claude Meetings עדיין מתאוששים, והוספת מחבר חדש ב-claude.ai אינה זמינה זמנית.\n\nהחברה מזהירה שמשימות מתוזמנות ו-routines עלולות לרוץ באיחור של יותר משעתיים, ושחלק מהריצות דולגו. סריקות, ביקורות והקמת פרויקטים ב-Claude Security עדיין מתעכבות. אין בהודעה התחייבות שכל ריצה שדולגה תבוצע מחדש, שכל התורים התרוקנו או שכל מוצר חזר לתפקוד מלא.\n\nהחידוש הוא מעבר מחקירת הפגיעה לניטור התאוששות, עם הבחנה בין שירותי הליבה שחזרו לרמות שגיאות רגילות לבין יכולות שעדיין מוגבלות. רכיבי claude.ai, ה-API, Code ו-Cowork עדיין מוצגים בעמוד כביצועים מופחתים, ולא כפעילים ללא הפרעה. לא פורסם מועד סיום מובטח או דוח סיבת שורש.\n\nאירוע מחבר Microsoft 365 נשאר פתוח ונפרד: דואר, יומן וחיפוש עדיין נכשלים ברוב הבקשות ו-Claude for Outlook מושפע לפי ההודעה הנפרדת. התאוששות האירוע הרחב אינה אישור לפתרון תקרית Microsoft או לקשר סיבתי משותף. אירוע ההתחברות הקודם כבר נסגר ב-13:58 בישראל, כפי שדווח קודם.",
+    "טקסט_en": "November 13, 2026, 17:33 Israel (15:33 UTC) | Claude's official status page was read during the hourly check at 17:39 Israel. The broad incident covered in n-1605 and n-1619 has moved to Monitoring. It is not marked resolved.\n\nAnthropic says error rates on claude.ai, including mobile apps, the Claude API and Claude Code have returned to normal levels. Existing connectors, including Docs and Sheets, are working again. Claude Managed Agents and Claude Meetings are still recovering, and adding a new connector on claude.ai is temporarily unavailable.\n\nThe company warns that scheduled tasks and routines can run more than two hours late and some runs have been skipped. Claude Security scans, reviews and project setup remain delayed. The update does not promise that every skipped run will be replayed, all queues are empty or every product has fully recovered.\n\nThe development is a move from investigation to monitoring recovery, distinguishing normal core error rates from features that remain limited. The page still labels claude.ai, the API, Code and Cowork as degraded performance rather than fully operational. No guaranteed completion time or root-cause report was provided.\n\nThe Microsoft 365 connector incident remains open and separate: mail, calendar and search still fail for most requests and Claude for Outlook is affected, according to its separate notice. Recovery in the broad incident does not confirm resolution of Microsoft's incident or a common cause. The earlier authentication incident had already been resolved at 13:58 Israel, as previously reported.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c9d69e852d7fba6223b3f0fe196cfe0176250b5c7ec4e36916a43dee2f37579d"
+      }
+    },
+    "מזהה": "n-1634",
+    "הועלה": "2026-11-13 17:39"
   }
 ]
