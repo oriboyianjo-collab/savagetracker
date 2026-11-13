@@ -40997,5 +40997,46 @@
     },
     "מזהה": "n-1580",
     "הועלה": "2026-11-13 12:34"
+  },
+  {
+    "category": "micro",
+    "חברה": "מיקרוסופט / שווקים",
+    "חברה_en": "Microsoft / markets",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "Reuters: חברה פיננסית בטייוואן ביטלה עסקת ריפו בזמן תקלת Microsoft; Euronext הפנתה דיווחים דחופים לטלפון",
+    "כותרת_en": "Reuters: Taiwan financial firm cancelled a repo trade during Microsoft outage; Euronext directed urgent notices to phones",
+    "קישור": "https://www.theglobeandmail.com/world/article-microsoft-blames-server-problems-as-worldwide-outage-persists/",
+    "מקורות": [
+      {
+        "url": "https://www.theglobeandmail.com/world/article-microsoft-blames-server-problems-as-worldwide-outage-persists/",
+        "label": "Reuters: הדיווח המלא דרך Globe and Mail",
+        "label_en": "Reuters: full report via Globe and Mail"
+      },
+      {
+        "url": "https://www.rte.ie/news/business/2026/1113/1599093-euronext-asks-listed-firms-to-phone-after-outlook-outage/",
+        "label": "RTE: דיווח מלא על הנחיות Euronext",
+        "label_en": "RTE: full report on Euronext instructions"
+      },
+      {
+        "url": "https://status.cloud.microsoft/",
+        "label": "Microsoft: מצב השירות הרשמי",
+        "label_en": "Microsoft: official service status"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני: ביטול העסקה מתבסס על מקור אנונימי של Reuters, והנחיות Euronext על דיווח RTE המצטט הודעת חברה. החברה הטייוואנית לא זוהתה והודעת Euronext המקורית לא נקראה כאן.\n\n13.11.2026 | דיווח Reuters המלא דרך Globe and Mail ודיווח RTE נקראו. שעת הפרסום הראשונה של Reuters ואזור הזמן בשעת העדכון של RTE לא אומתו, ולכן מוצג תאריך בלבד. אלה השלכות תפעוליות מדווחות בזמן האירוע, לא מצב מערכת חי של כל מוסד.\n\nלפי מקור המכיר את העניין שצוטט ב-Reuters, חברה פיננסית בטייוואן ביטלה עסקת רכישה חוזרת של אג״ח, ריפו, על רקע השיבוש בתקשורת. מקור שני אמר שחברה פיננסית אחרת השתמשה בפקס לאישור עסקאות. לא נמסרו שמות החברות, סכום העסקה שבוטלה, מועד הפירעון, הפסד כספי או אישור עצמאי של הצדדים. אין להציג את המקרה ככשל סליקה מערכתי או כקריסה של שוק הריפו.\n\nבנפרד, RTE דיווחה שצוותי הרישום והפעולות התאגידיות של Euronext אינם מצליחים לקבל דואר, והפנו חברות וסוכניהן לטלפון בעניינים דחופים הקשורים בין השאר להשעיות, פעולות תאגידיות ודיווחי אחזקות באוסלו. זו הנחיית תקשורת חלופית לצוותים מסוימים, לא הודעה שהמסחר בבורסות Euronext הופסק. אזכור פניות בענייני השעיה אינו כשלעצמו הכרזה על השעיית נייר כלשהו.\n\nReuters מדווחת גם על עיכובי תקשורת בדואר ב-Maersk ועל תוכניות גיבוי לשיחות ב-Aviva. אלה השפעות תקשורת מדווחות, לא אישור לנפילה של כלל מערכות השילוח, הביטוח או המסחר.\n\nהחידוש לעומת n-1570, שעסק בעיקר במעבר לטלפון ובצבר אישורי עסקאות, הוא דיווח על ביטול עסקה מסוימת ועל הנחיות פנייה לצוותי Euronext. ההבדל בין ביצוע עסקה, אישורה וסליקתה נשמר. אין בדיווחים אומדן כולל לנזק, ואי אפשר לייחס להם לבדם תנודת מחיר או לקבוע שהתקלה נפתרה.\n\nבנפרד, בעדכון Microsoft הרשמי מ-10:01:07 UTC, 12:01:07 בישראל, נמסר שיפור מצטבר בחלק מהשירותים אך בריאות השירות משתנה והקיבולת עדיין לא חזרה לרגיל. חלון פקיעת הדואר של 48 שעות נועד לשימור הודעות מעוכבות, לא לתחזית משך התקלה. העדכון נבדק ב-12:37 בישראל ואינו הודעת התאוששות מלאה.",
+    "טקסט_en": "Not verified against primary institutional sources: the cancelled transaction rests on an anonymous Reuters source, and Euronext's instructions on RTE's report quoting a company notice. The Taiwan firm was not named, and the original Euronext notice was not read here.\n\nNovember 13, 2026 | The full Reuters report via Globe and Mail and RTE's report were read. Reuters' original publication clock and the timezone of RTE's update clock were not verified, so only the date is shown. These are reported operational effects during the incident, not live system status for every institution.\n\nA source familiar with the matter told Reuters that a Taiwan financial company cancelled a bond repurchase, or repo, transaction amid the communications disruption. A second source said another financial company used fax to confirm trades. The firms, cancelled trade amount, maturity, financial loss and independent counterparty confirmation were not supplied. This does not establish a systemic settlement failure or a collapse of the repo market.\n\nSeparately, RTE reported that Euronext's Corporate Actions and Listing teams could not receive email and directed issuers and agents to telephone urgent matters, including suspensions, corporate actions and Oslo major-shareholding notices. These are alternative communications for particular teams, not notice that trading on Euronext exchanges stopped. Mention of enquiries about suspensions does not itself announce a security's suspension.\n\nReuters also reports delayed email communications at Maersk and backup plans for calls at Aviva. These are reported communication effects, not confirmation that all shipping, insurance or trading systems failed.\n\nCompared with n-1570, which chiefly covered phone workarounds and backlogs of trade confirmations, the additional information is a reported individual trade cancellation and Euronext team contact instructions. Trade execution, confirmation and settlement remain distinct. The reports do not quantify total losses, establish a standalone cause of price moves or show that Microsoft's incident has been resolved.\n\nSeparately, Microsoft's official 10:01:07 UTC update, 12:01:07 in Israel, reports incremental improvement in several workloads but variable service health and capacity still below baseline. The 48-hour email timeout preserves delayed messages; it is not an outage-duration forecast. The update was checked at 12:37 in Israel and is not an all-clear.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6527dc1d3b53e233f107dd7ce5e3697a09ba300f5d1840e75ec1b72816aaf908"
+      }
+    },
+    "מזהה": "n-1581",
+    "הועלה": "2026-11-13 12:37"
   }
 ]
