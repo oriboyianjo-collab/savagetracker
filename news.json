@@ -41540,5 +41540,38 @@
     },
     "מזהה": "n-1596",
     "הועלה": "2026-11-13 14:40"
+  },
+  {
+    "category": "micro",
+    "חברה": "Airbnb",
+    "חברה_en": "Airbnb",
+    "symbols": [
+      "ABNB"
+    ],
+    "sectors": [
+      "consumer_discretionary"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-05",
+    "כותרת": "השלמת סיקור מ-5 בנובמבר: Airbnb (ABNB) הכריזה על הרשאה נוספת לרכישה עצמית של עד 12 מיליארד דולר",
+    "כותרת_en": "November 5 catch-up: Airbnb (ABNB) announces additional share-buyback authorization of up to $12 billion",
+    "קישור": "https://news.airbnb.com/airbnb-q3-2026-financial-results",
+    "מקורות": [
+      {
+        "url": "https://news.airbnb.com/airbnb-q3-2026-financial-results",
+        "label": "Airbnb: ההודעה המקורית מ-5 בנובמבר, כולל הרשאת הרכישה העצמית",
+        "label_en": "Airbnb: original November 5 release, including buyback authorization"
+      }
+    ],
+    "טקסט": "השלמת סיקור להודעת Airbnb המקורית מ-5.11.2026, שנקראה במלואה. שעת הפרסום המקורית אינה ידועה. זו החלטת הקצאת הון שפורסמה באותו מועד, לא הכרזה חדשה מ-13 בנובמבר.\n\nAirbnb הודיעה על הרשאה חדשה לרכישה עצמית של מניות רגילות מסוג Class A בסכום של עד 12 מיליארד דולר נוספים. המילים \"עד\" ו\"נוספים\" חשובות: זהו היקף הרשאה חדש, לא אישור שהחברה כבר רכשה מניות בשווי 12 מיליארד דולר או התחייבות לנצל את מלוא הסכום.\n\nהחברה מציגה את ההרשאה כביטוי לאמון בעסקיה. זו עמדת ההנהלה, לא תחזית עצמאית למחיר המניה או לתשואה. ההודעה אינה מפרטת בפסקת ההרשאה מחיר רכישה, מספר מניות מחייב או מועד להשלמת הניצול. אין להסיק ממנה הצעת רכש לכל בעלי המניות, תשלום דיבידנד או החזר מזומן שכבר הושלם.\n\nההתפתחות היא הרחבת הסמכות להחזרת הון באמצעות רכישה עצמית. אין לחשב ממנה הפחתה מובטחת במספר המניות או עלייה מובטחת ברווח למניה. תוצאות הרבעון, תחזיות ההכנסות ותוכניות מוצרי ה-AI שבאותה הודעה הן נושאים נפרדים ואינן ביצוע של תוכנית הרכישה.",
+    "טקסט_en": "Catch-up coverage of Airbnb's original November 5, 2026 release, read in full. Its original publication time is unknown. This is a capital-allocation announcement from that date, not a new November 13 decision.\n\nAirbnb announced a new authorization to repurchase up to an additional $12 billion of Class A common stock. Both \"up to\" and \"additional\" matter: this is new authorization capacity, not confirmation that $12 billion of shares has already been purchased or a commitment to use the entire amount.\n\nThe company presents the authorization as reflecting confidence in its business. That is management's view, not an independent stock-price or return forecast. The authorization paragraph supplies no purchase price, binding share count or deadline to finish using it. It does not establish a tender offer to all shareholders, a dividend or a completed cash distribution.\n\nThe development is expanded authorization for capital returns through repurchases. It does not imply a guaranteed reduction in share count or increase in earnings per share. Quarterly results, revenue guidance and AI product plans in the same release are separate subjects, not execution of the buyback program.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e43fd04062e13ce5fc35eb4af43e17c9cea72ef9ccfdf77e06a63bb144b1848e"
+      }
+    },
+    "מזהה": "n-1597",
+    "הועלה": "2026-11-13 14:43"
   }
 ]
