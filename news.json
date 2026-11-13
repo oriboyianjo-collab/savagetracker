@@ -42364,5 +42364,34 @@
     },
     "מזהה": "n-1622",
     "הועלה": "2026-11-13 16:51"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "לפי CNN: יועצים דנים באפשרות להדיח את לוטניק; הבית הלבן הביע אמון קודם לכן, ואין החלטת טראמפ מאומתת",
+    "כותרת_en": "CNN: advisers discuss possible Lutnick ouster; White House previously backed him, with no verified Trump decision",
+    "קישור": "https://www.kten.com/news/politics/bessent-points-finger-at-lutnick-over-nvidia-chip-exports-as-trump-advisers-discuss-possible-commerce/article_3ab8f9f9-e666-5612-b926-c01f854d5712.html",
+    "מקורות": [
+      {
+        "url": "https://www.kten.com/news/politics/bessent-points-finger-at-lutnick-over-nvidia-chip-exports-as-trump-advisers-discuss-possible-commerce/article_3ab8f9f9-e666-5612-b926-c01f854d5712.html",
+        "label": "CNN דרך KTEN: הדיווח המלא של Kevin Liptak ו-Kristen Holmes",
+        "label_en": "CNN via KTEN: full report by Kevin Liptak and Kristen Holmes"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/business/article-scott-bessent-howard-lutnick-chip-export-controls-nvidia-scandal/",
+        "label": "Reuters דרך Globe and Mail: דברי בסנט על בקרות הלקוחות והאכיפה",
+        "label_en": "Reuters via Globe and Mail: Bessent on customer controls and enforcement"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני: הדיונים הפנימיים מיוחסים למקורות אנונימיים של CNN, והבעת האמון של הבית הלבן מובאת בציטוט בדיווח. לא נקראו החלטת כוח אדם נשיאותית או תמליל ממשלתי. כתבות CNN ו-Reuters נקראו במלואן. 13.11.2026, תאריך בלבד: תוויות העדכון היחסיות אינן קובעות כאן שעת פרסום ראשונה בישראל.\n\nלפי CNN, כמה מיועצי הנשיא דונלד טראמפ החלו לדון בשאלה אם יש לפטר את שר המסחר הווארד לוטניק, על רקע פרשת NVIDIA ו-Megaspeed. שני מקורות נוספים אמרו שטראמפ קיבל שיחות מבכירי ממשל ומיועצים חיצוניים שהביעו דאגה. אלה דיונים וחששות מדווחים, לא החלטה על הדחה, התפטרות או מינוי מחליף.\n\nהסייג הנגדי חשוב: CNN מצטטת הודעת בית לבן מיום חמישי, לפני דברי בסנט ביום שישי, שלפיה לנשיא אמון מלא בשר. לפי מקורות הכתבה, לא ברור מה יעשה טראמפ. אין להציג את ההודעה הישנה כתגובה חדשה להאשמות של היום, אך גם אין למחוק אותה מהתמונה.\n\nבנפרד, Reuters מביאה את שאלות שר האוצר סקוט בסנט בריאיון CNBC: האם NVIDIA הכירה את לקוחותיה, והאם היו בקרות מספקות למניעת דליפת שבבים דרך חברות מעבר. בסנט קרא לאחריות בחברה ואמר שלממשל כבר יש הסמכויות הדרושות ושיש ליישמן. אלה ביקורת ושאלות של השר, לא ממצא ש-NVIDIA ידעה על הפרת יצוא או שהוכחה עבירה. הריאיון המלא לא נצפה כאן.\n\nעמדת בסנט שמשרדי ממשל תמכו זה חודשים בהגבלות על Megaspeed ושהסמכות נמצאת במשרד המסחר כבר סוקרה ב-n-1603 ואינה מוצגת כאן כאימוץ הגבלה חדשה. ההתפתחות הנוספת היא דיווח CNN על שיחות סביב עתיד השר והביקורת המפורטת על בקרות לקוחות ואכיפה.\n\nאזכור CNN לפגישה בחדר המצב בשבוע שעבר הוא רקע, לא פגישה חדשה או אימות ישיר לעימות שנוי במחלוקת. ההכחשה שצוטטה ממשרד המסחר ב-n-1341 נשמרת ולא בוטלה כאן. אין הודעה מאומתת על הכנסת Megaspeed לרשימת הישויות, ביטול רישיונות, ממצא ריגול, או החלטה על שינוי הנהגת משרד המסחר.",
+    "טקסט_en": "Not verified against a primary source: internal discussions are attributed to CNN's anonymous sources, and White House support is quoted in the report. No presidential personnel decision or government transcript was read. The full CNN and Reuters articles were read. November 13, 2026, date only: relative update labels do not establish a first Israeli publication clock here.\n\nCNN reports that some of President Donald Trump's advisers have begun discussing whether Commerce Secretary Howard Lutnick should be dismissed amid the NVIDIA and Megaspeed controversy. Two additional sources said Trump received calls from administration officials and outside advisers raising concerns. These are reported discussions and concerns, not an ouster decision, resignation or replacement appointment.\n\nThe contrary caveat matters: CNN quotes a Thursday White House statement, before Bessent's Friday comments, saying the president maintains complete confidence in the secretary. The article's sources say it is unclear what Trump will do. That earlier statement is not a fresh response to today's remarks, but remains part of the picture.\n\nSeparately, Reuters reports Treasury Secretary Scott Bessent's CNBC questions about whether NVIDIA knew its clients and had robust controls against chip leakage through intermediary companies. Bessent called for accountability at the company and said the administration already has the necessary authorities and needs to implement them. These are the secretary's criticism and questions, not a finding that NVIDIA knew of an export violation or that an offense is proven. The full interview was not watched here.\n\nBessent's position that agencies favored MegaSpeed curbs for months and that Commerce has authority was already covered in n-1603; it is not presented as adoption of new restrictions. The additional development is CNN's reporting of discussions about the secretary's future and the more detailed criticism of client controls and enforcement.\n\nCNN's mention of last week's Situation Room meeting is background, not a new meeting or direct verification of the disputed confrontation. Commerce's denial quoted in n-1341 is preserved and not withdrawn here. No addition of MegaSpeed to the Entity List, revoked licenses, espionage finding or Commerce leadership change is verified.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "33c5d19f561754de8721e7680c090e4b72881dd438c59fdc58e72f62f9f74cb6"
+      }
+    },
+    "מזהה": "n-1623",
+    "הועלה": "2026-11-13 16:54"
   }
 ]
