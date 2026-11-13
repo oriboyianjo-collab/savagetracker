@@ -39563,5 +39563,78 @@
     },
     "מזהה": "n-1540",
     "הועלה": "2026-11-13 10:22"
+  },
+  {
+    "category": "micro",
+    "חברה": "Freeport-McMoRan / FCX",
+    "חברה_en": "Freeport-McMoRan / FCX",
+    "symbols": [
+      "FCX"
+    ],
+    "sectors": [
+      "materials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Freeport חתמה על רכישת 51% ממיזם Aurora West תמורת 110 מיליון דולר קנדי בסגירה; העסקה טרם הושלמה",
+    "כותרת_en": "Freeport signs for 51% of Aurora West ventures for C$110 million at closing; not yet completed",
+    "טקסט": "12.11.2026 | הודעת TDG Gold, הצד המוכר בעסקה, נקראה במלואה, כולל תנאי הסגירה והסיכונים. זו השלמת סיקור להסכם מחייב, לא הודעת סגירה. שעת הפרסום המקורית ואזור הזמן לא אומתו; לא נקראה הודעת הנהלת Freeport נפרדת.\n\nלפי TDG, החברה הבת הקנדית של Freeport-McMoRan חתמה על הסכם לרכישת 51% מכל אחת משתי חברות מיזם שיחזיקו בנכסי Aurora West במחוז Toodoggone שבקולומביה הבריטית. התמורה הראשונית היא 110 מיליון דולר קנדי במזומן, שישולמו בסגירה. נכסי Shasta ו-Baker של TDG אינם כלולים.\n\nלאחר הסגירה תהיה ל-Freeport אפשרות להגדיל את חלקה בחברת המיזם העיקרית מ-51% ל-75%, ובחברה המחזיקה בשני רישיונות מסוימים, ClaimsCo, מ-51% ל-100%. מימוש האפשרות דורש מימון בלעדי של הוצאות חיפוש נוספות בסך 80 מיליון דולר קנדי, ועוד תשלום של 40 מיליון דולר קנדי ל-TDG בגין יתרת מניות ClaimsCo. אין זו רכישה של 75% מכל הנכסים תמורת 230 מיליון דולר קנדי שכבר שולמו.\n\nההתחייבות למימון חיפוש היא 30 מיליון דולר קנדי בתוך שלוש שנים מהסגירה, מהם לפחות 15 מיליון בשנתיים הראשונות. יתרת ההוצאות הנדרשת להגדלת האחזקה מותנית בהמשך המסלול. אם האפשרות תמומש, TDG תישאר עם 25% בחברה העיקרית ותמלוג NSR של 2% על שני הרישיונות שב-ClaimsCo. ההסכם כולל גם מנגנוני מימון יחסי ודילול אם מסלול המימון הבלעדי לא יושלם.\n\nהארגון מחדש של הנכסים צפוי בדצמבר 2026. הסגירה צפויה חמישה ימי עסקים לאחר קיום התנאים או ויתור עליהם, לרבות אישור TSX Venture Exchange; מסמך הסיכונים מזכיר גם אישור לפי Investment Canada Act ככל שיידרש. אין מועד סגירה ודאי בדצמבר או הבטחה שהעסקה תושלם.\n\nהחידוש הוא הסכם רכישה ומימון חיפוש בפרויקט קנדי, לא תוספת תפוקה שכבר הושגה או שינוי בתחזית Freeport. אין בהודעה אומדן השפעה מהותית על רווחי הקבוצה או הצדקה להציג את הסכום כהשקעת ענק ביחס לפעילותה.",
+    "טקסט_en": "November 12, 2026 | TDG Gold's release as the selling counterparty was read in full, including closing conditions and risks. Catch-up coverage of a binding agreement, not a completed acquisition. The original publication clock and timezone were not verified; no separate Freeport management release was read.\n\nTDG says Freeport-McMoRan's Canadian subsidiary signed to buy 51% of each of two joint-venture companies that will hold Aurora West assets in British Columbia's Toodoggone district. Initial consideration is C$110 million cash payable at closing. TDG's Shasta and Baker properties are excluded.\n\nAfter closing, Freeport will have an option to increase its interest in the main venture from 51% to 75%, and in ClaimsCo, which holds two specified mineral claims, from 51% to 100%. Exercising it requires sole funding of C$80 million in additional exploration expenditures plus C$40 million cash to TDG for its remaining ClaimsCo shares. This is not 75% of every property acquired for C$230 million already paid.\n\nThe exploration funding commitment is C$30 million within three years of closing, including at least C$15 million in the first two years. The remaining spending needed to increase ownership is conditional on continuing the earn-in. If exercised, TDG retains 25% of the main venture and a 2% NSR royalty over ClaimsCo's two claims. The agreement also provides for pro-rata funding and dilution if the sole-funding path is not completed.\n\nAsset reorganization is expected in December 2026. Closing is expected five business days after conditions are satisfied or waived, including TSX Venture Exchange approval; the risk section also mentions any required Investment Canada Act clearance. This is not a firm December closing date or assurance of completion.\n\nThe increment is a Canadian asset-acquisition and exploration-funding agreement, not production already added or new Freeport guidance. The release does not estimate a material effect on group earnings or justify describing this as a giant investment relative to Freeport's operations.",
+    "קישור": "https://tdggold.com/news-2/2026-03/20261112-02/",
+    "מקורות": [
+      {
+        "url": "https://tdggold.com/news-2/2026-03/20261112-02/",
+        "label": "TDG Gold: הודעת הצד המוכר המלאה, 12 בנובמבר, כולל הסיכונים",
+        "label_en": "TDG Gold: full November 12 counterparty release, including risks"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c0f4c9ae469b228693a568316050e5eb0f610c6ea5fbfeddc7eee190f3d0867b"
+      }
+    },
+    "מזהה": "n-1541",
+    "הועלה": "2026-11-13 10:26"
+  },
+  {
+    "category": "micro",
+    "חברה": "Accenture / Qantas",
+    "חברה_en": "Accenture / Qantas",
+    "symbols": [
+      "ACN",
+      "QAN.AX"
+    ],
+    "sectors": [
+      "technology",
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-10",
+    "כותרת": "השלמה מ-10 בנובמבר: Qantas חתמה עם Accenture על שינוי מערכות ותהליכים; כ-850 תפקידים צפויים להיות מושפעים לאורך שנים",
+    "כותרת_en": "November 10 catch-up: Qantas signs Accenture modernization deal; around 850 roles expected to be affected over coming years",
+    "טקסט": "השלמת סיקור להודעת Qantas המקורית מ-10.11.2026. הודעת החברה נקראה במלואה, לצד כתבת ABC המלאה מאותו יום. נשמר תאריך בלבד: מטא-דאטה של המקור מציגה שעה ללא אזור זמן מאומת. זה אינו הסכם חדש מ-13 בנובמבר.\n\nQantas הודיעה שחתמה על שותפות רב-שנתית עם Accenture למודרניזציה של מערכות המחשוב האחוריות, התהליכים והנתונים שלה. חלק מהשירותים של תפקידי המטה יעברו ל-Accenture ויבוצעו ברובם בידי צוותים בהודו וחלקם באוסטרליה, עם שינוי נוסף באמצעות אוטומציה ו-AI בהמשך.\n\nלפי הודעת Qantas, כ-850 תפקידים צפויים להיות מושפעים בשנים הקרובות, והגל הראשון של השינויים צפוי להיות מיושם עד אמצע 2027. החברה תתייעץ עם עובדים ואיגודים לפני החלטות פרטניות ותנסה לשבץ עובדים מחדש במקומות אחרים בקבוצה. אין זו הודעה שכבר פוטרו 850 עובדים, שכל התפקידים עוברים להודו או שכל עובד ייקלט מחדש.\n\nAccenture תשקיע מראש כדי להאיץ את שינוי פלטפורמות הנתונים, אך סכום ההשקעה, שווי החוזה ותרומתו להכנסות או לרווח לא פורסמו. יותר ממיליארד דולר אוסטרלי ש-Qantas מציינת כהשקעת טכנולוגיה שנתית הם תקציב רחב של חברת התעופה, לא מחיר העסקה עם Accenture. גם יותר מ-1,000 היישומים הוותיקים מתארים את בסיס המערכות, לא מספר מערכות שכבר הוחלפו.\n\nהמשמעות העסקית היא התקשרות רב-שנתית ושינוי תפעולי בעל השפעה נרחבת על כוח האדם, לא הוכחה שחיסכון או תוצאות AI כבר הושגו. מקומות עבודה חדשים בפעילות אחרת של Qantas אינם מבטלים את ההשפעה על תפקידי המטה המסוימים.",
+    "טקסט_en": "Catch-up coverage of Qantas's November 10, 2026 original announcement. The company release and ABC's same-day article were read in full. Only a date is assigned: source metadata contains a clock without a verified timezone. This is not a new November 13 agreement.\n\nQantas announced a signed multi-year partnership with Accenture to modernize back-end systems, processes and data. Some corporate services will move to Accenture and be delivered mostly by teams in India and partly in Australia, with further automation and AI changes over time.\n\nQantas expects around 850 roles to be affected over the coming years, with the first wave of changes expected to be in place by mid-2027. It will consult employees and unions before individual outcomes are determined and seek redeployment elsewhere in the group where possible. This is not 850 layoffs already completed, every affected role moving to India or a guarantee that everyone will be redeployed.\n\nAccenture will invest upfront to accelerate data-platform modernization, but the investment amount, contract value and revenue or profit contribution were not disclosed. Qantas's stated annual technology investment of more than A$1 billion is its wider budget, not the Accenture deal price. More than 1,000 legacy applications describes the existing systems base, not applications already replaced.\n\nThe business increment is a signed multi-year engagement and a workforce-intensive operating change, not proof that savings or AI results have already been achieved. New jobs elsewhere in Qantas do not cancel the impact on these specific corporate roles.",
+    "קישור": "https://news.qantas.com/media-releases/2026/qantas-group-fast-tracks-technology-and-ai-investment-with-new-accenture-partnership",
+    "מקורות": [
+      {
+        "url": "https://news.qantas.com/media-releases/2026/qantas-group-fast-tracks-technology-and-ai-investment-with-new-accenture-partnership",
+        "label": "Qantas: הודעת השותפות המלאה, 10 בנובמבר",
+        "label_en": "Qantas: full November 10 partnership release"
+      },
+      {
+        "url": "https://www.abc.net.au/news/2026-11-10/850-jobs-to-go-from-qantas-as-airline-moves-roles-overseas/107368120",
+        "label": "ABC: כתבה מלאה מ-10 בנובמבר על ההודעה לעובדים",
+        "label_en": "ABC: full November 10 report on the staff announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "31f63d6f59e93ecdeb6767779ad01ea209c0ad61de52eb91585b791ee2a9cdef"
+      }
+    },
+    "מזהה": "n-1542",
+    "הועלה": "2026-11-13 10:26"
   }
 ]
