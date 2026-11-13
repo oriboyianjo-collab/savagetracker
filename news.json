@@ -41303,5 +41303,36 @@
     },
     "מזהה": "n-1588",
     "הועלה": "2026-11-13 13:38"
+  },
+  {
+    "category": "micro",
+    "חברה": "Anthropic",
+    "חברה_en": "Anthropic",
+    "symbols": [],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 13:05",
+    "כותרת": "Anthropic: תיקון נפרס לתקלת ההתחברות ב-Claude, אך האירוע עדיין בניטור; ה-API מסומן כפעיל",
+    "כותרת_en": "Anthropic: fix deployed for Claude sign-in incident, but recovery still under monitoring; API marked operational",
+    "קישור": "https://status.claude.com/",
+    "מקורות": [
+      {
+        "url": "https://status.claude.com/",
+        "label": "Claude Status: האירוע, ציר הזמן ומצב רכיבי השירות",
+        "label_en": "Claude Status: incident timeline and service-component status"
+      }
+    ],
+    "טקסט": "13.11.2026 | עמוד המצב הרשמי של Claude נקרא במלואו סביב 13:58 בישראל. ב-09:58 UTC, 11:58 בישראל, Anthropic הודיעה שהיא בודקת בעיית אימות משתמשים ב-Claude.ai וב-Claude Code. ב-11:05 UTC, 13:05 בישראל, הודיעה שתיקון נפרס ושהיא מנטרת את ההתאוששות.\n\nמצב האירוע הוא Monitoring, לא Resolved. הכותרת כוללת שגיאות מוגברות ב-claude.ai, ב-Claude Code ובקונסולת המפתחים platform.claude.com. פריסת תיקון אינה הוכחה שכל המשתמשים יכולים להתחבר או שהאירוע הסתיים.\n\nיש להבחין בין ציר הזמן של האירוע לבין מצב הרכיבים בעת הבדיקה: claude.ai עדיין מסומן Major Outage, בעוד Claude Code וקונסולת המפתחים מסומנים Operational. גם Claude API ורכיבי הענן של Claude מסומנים כפעילים; Claude Cowork מסומן בביצועים מופחתים. אין להציג זאת כהשבתה מלאה של כל מוצרי Claude או של ה-API.\n\nהחברה לא מסרה בעדכוני ההתחברות שנקראו סיבת שורש, מספר משתמשים שנפגעו או מועד סיום מובטח. אין להסיק מהם מתקפת סייבר, אובדן נתונים או נזק כספי מדוד.\n\nבנפרד, העמוד עדיין מציג את האירוע הקודם במחבר Microsoft 365, שבו פעולות דואר, יומן וחיפוש נכשלות ברוב הבקשות וגם Claude for Outlook מושפע. לאותו אירוע ייחסה החברה במפורש סיבה של תקרית שירות Microsoft 365. זהו רישום אירוע נפרד; אין בעדכוני ההתחברות קביעה שגם בעיית ההתחברות החדשה נגרמה מאותה תקלה.",
+    "טקסט_en": "November 13, 2026 | Claude's full official status page was read around 13:58 Israel time. At 09:58 UTC, 11:58 Israel time, Anthropic said it was investigating users' authentication problems on Claude.ai and Claude Code. At 11:05 UTC, 13:05 Israel time, it said a fix had been deployed and recovery was being monitored.\n\nThe incident remains Monitoring, not Resolved. Its title lists elevated errors on claude.ai, Claude Code and the developer console at platform.claude.com. Deploying a fix does not establish that every user can sign in or that the incident is over.\n\nThe incident timeline and component status at inspection must be distinguished. The page still marks claude.ai as Major Outage, while Claude Code and the developer console are Operational. Claude API and Claude's cloud-platform components are also marked operational; Claude Cowork shows degraded performance. This is not a complete outage of every Claude product or of the API.\n\nThe inspected authentication updates give no root cause, affected-user count or guaranteed resolution time. They do not establish a cyberattack, data loss or measured financial damage.\n\nSeparately, the page continues to show the earlier Microsoft 365 connector incident, with mail, calendar and search tools failing for most requests and Claude for Outlook affected. Anthropic explicitly attributes that connector incident to a Microsoft 365 service incident. It is a separate incident record. The authentication updates do not establish that the new sign-in problem has the same cause.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "de387fd94c5620310ba3306adb7623ee32e0193e13ceef5e52491229c61e68d5"
+      }
+    },
+    "מזהה": "n-1589",
+    "הועלה": "2026-11-13 13:58"
   }
 ]
