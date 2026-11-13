@@ -41573,5 +41573,44 @@
     },
     "מזהה": "n-1597",
     "הועלה": "2026-11-13 14:43"
+  },
+  {
+    "category": "micro",
+    "חברה": "Alphabet / Google",
+    "חברה_en": "Alphabet / Google",
+    "symbols": [
+      "GOOGL",
+      "GOOG"
+    ],
+    "sectors": [
+      "communication_services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-10",
+    "כותרת": "השלמה מ-10 בנובמבר: איגודים הסירו התנגדויות לעסקת נתוני Spirit עם Google לאחר השגת הגנות פרטיות",
+    "כותרת_en": "November 10 catch-up: unions withdraw objections to Google-Spirit data deal after securing privacy safeguards",
+    "קישור": "https://afacwa.org/afa-wins-data-privacy-protections/",
+    "מקורות": [
+      {
+        "url": "https://afacwa.org/afa-wins-data-privacy-protections/",
+        "label": "AFA-CWA: הודעת האיגוד המקורית מ-10 בנובמבר",
+        "label_en": "AFA-CWA: original November 10 union announcement"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/google-agrees-to-addition-privacy-protections-in-spirit-airlines-data-sale-5016321",
+        "label": "Reuters דרך Investing.com: הדיווח המלא מ-10 בנובמבר",
+        "label_en": "Reuters via Investing.com: full November 10 report"
+      }
+    ],
+    "טקסט": "השלמת סיקור להודעת AFA-CWA המקורית מ-10.11.2026, שנקראה במלואה לצד דיווח Reuters מאותו יום. שעת פרסום הודעת האיגוד אינה ידועה. הודעת האיגוד מתארת הסרת התנגדויות בבית המשפט בלילה הקודם, לא עסקה חדשה שנחתמה ב-13 בנובמבר.\n\nאיגוד הדיילים AFA-CWA וקואליציית איגודים וארגוני ציבור הודיעו על הסרת התנגדויות למכירת נתוני Spirit Airlines ל-Google בעקבות הגנות נוספות על נתוני עובדים. לפי Reuters, מדובר בעסקת נתונים לאימון מודלי AI בסך 10 מיליון דולר, שבה Google זכתה במכרז באוגוסט. סכום העסקה ההיסטורי אינו השקעת AI חדשה שהוכרזה בנובמבר.\n\nלפי הודעת האיגוד, הוחרגו סוגי נתוני עובדים ובהם מידע רפואי, בדיקות סמים ואלכוהול, רישומי משמעת, נתונים מתוכניות בטיחות ומסמכי זיהוי. יתרת הנתונים כפופה להסרת זיהוי לפי תקן ISO 27559 ולבדיקה של גורם עצמאי שנבחר בהתייעצות עם האיגודים. Google מנועה מלנסות לזהות מחדש את הנתונים ונדרשת לעבדם בסביבה מאובטחת ובסודיות. אלה ההגנות שהאיגוד הודיע שהושגו, לא הסמכה עצמאית שבדיקות כל מאגר כבר הושלמו.\n\nההתפתחות היא הסרת חסם התנגדות והוספת תנאים לשימוש בנתוני עובדים לאימון AI. אין לאחד אותה עם הזכייה המקורית במכרז, עם החרגת נתוני לקוחות שכבר דווחה קודם, או עם אישור שיפוטי סופי.\n\nבדיווח Reuters מ-10 בנובמבר אישור בית המשפט מתואר כשלב צפוי בשבוע שלאחר מכן. הודעת בית משפט או צו אישור סופי לא נקראו כאן. הסרת ההתנגדויות אינה הוכחה שהמכירה נסגרה, שהנתונים כבר הועברו ל-Google או שהמודלים כבר אומנו באמצעותם. לא נמסרו במקורות שנקראו השפעה כמותית על הכנסות Google או תוצאת ביצועים מדודה של מודל.",
+    "טקסט_en": "Catch-up coverage of AFA-CWA's original November 10, 2026 announcement, read in full alongside Reuters' report from the same day. The union release's publication time is unknown. It describes objections withdrawn in court the previous night, not a new deal signed on November 13.\n\nThe Association of Flight Attendants-CWA and a coalition of unions and public-interest groups announced withdrawal of objections to the sale of Spirit Airlines data to Google after securing additional employee-data protections. Reuters describes a $10 million transaction for AI-training data that Google won at auction in August. That historical consideration is not a new AI investment announced in November.\n\nThe union says excluded employee records include medical information, drug and alcohol testing, disciplinary records, safety-program records and identification documents. Remaining data are subject to de-identification under ISO 27559 and review by an independent verification agent chosen in consultation with unions. Google is prohibited from attempting to re-identify the data and must process it securely and confidentially. These are safeguards the union says it obtained, not independent certification that every dataset has completed those checks.\n\nThe development is withdrawal of an objection and additional conditions on employee data used for AI training. It must not be merged with the original auction win, previously reported customer-data exclusions or final court approval.\n\nReuters' November 10 report describes court approval as a prospective step the following week. No court notice or final approval order was read here. Withdrawal of objections does not establish a closed sale, data already delivered to Google or models already trained on it. The inspected sources give no quantified Google revenue effect or measured model-performance outcome.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ee215b089fa2b03dc77d7313573a614b432e2a31a7d6255dc014bf3d5ecd428a"
+      }
+    },
+    "מזהה": "n-1598",
+    "הועלה": "2026-11-13 14:47"
   }
 ]
