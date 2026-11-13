@@ -40600,5 +40600,39 @@
     },
     "מזהה": "n-1569",
     "הועלה": "2026-11-13 11:40"
+  },
+  {
+    "category": "micro",
+    "חברה": "Microsoft / שווקים פיננסיים",
+    "חברה_en": "Microsoft / financial markets",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology",
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "לפי Bloomberg: תקלת Microsoft מכבידה על התקשורת בחדרי מסחר; ASX מדווחת ששירותיה זמינים כרגיל",
+    "כותרת_en": "Bloomberg: Microsoft outage hampers trading-desk communications; ASX says its services remain normally available",
+    "טקסט": "לא מאומת מול מקור ראשוני: ההשפעות במוסדות הפיננסיים והמסר של ASX מבוססים על דיווח Bloomberg המלא בהפצת Mint, כולל עובדים ומוסדות מזוהים שצוטטו. הודעות מקוריות של UBS, CMC, BNP Paribas ו-ASX לא נקראו כאן.\n\n13.11.2026 | עמוד Mint מציג עדכון ב-14:42 בשעון הודו, כלומר 11:12 בישראל. זו שעת עדכון ההפצה, לא שעת הפרסום הראשונה של Bloomberg ולא תחילת התקלה. זהו דיווח על השפעות תפעוליות בשווקים, בנפרד מעדכון בריאות השירות של Microsoft.\n\nלפי Bloomberg, Rita Elkazzi, מנהלת execution sales באוסטרליה ובניו זילנד ב-UBS, אמרה שנאלצה לעבור לטלפונים ולערוצי תקשורת חלופיים, ושנדרשת הקפדה נוספת על דיוק סיכומי עסקאות. Eugene Koh, סוחר ב-CMC Markets בסינגפור, תיאר חזרה לשיחות טלפון ושימוש מוגבר בקבוצות WhatsApp: תקשורת שנמשכת בדרך כלל שנייה בדואר עשויה לדרוש כעת כמה דקות. אלה עדויות ממוקדות, לא מדידה של כל פעילות הבנקים.\n\nRyutaro Kimura מ-BNP Paribas Asset Management בטוקיו אמר שהמסחר עצמו ברובו אינו מושפע, אך אישורי עסקאות הצטברו ויצרו קשיי עבודה במערכי הסליקה האחוריים. לפי הכתבה, דסקים המשיכו לבצע עסקאות בטלפון ובפקס. אין בכך אישור לכשל סליקה כללי או לכך שהעסקאות לא סולקו.\n\nחשובה גם ההבחנה של מפעילת הבורסה האוסטרלית ASX: לפי Bloomberg, היא הודיעה ללקוחות שהיא מודעת לתקלה בחלק משירותי Microsoft 365, כולל דואר, אך שירותי הבורסה נותרו זמינים לפעילות רגילה. אין כאן הודעה על עצירת הבורסה. Bloomberg מדווחת גם על קושי בקבלת דואר במשרד האוצר היפני ועל התראות של ברוקרים בהודו לעיכוב בתשובות לפניות דואר; אין בכך הוכחה שכל מערכות הממשלה או הברוקרים הושבתו.\n\nהחידוש הוא עדויות מיוחסות על מעבר לערוצים ידניים ועל עיכובי אישורים ותקשורת. לא פורסם אומדן כספי מאומת לנזק, נפח עסקאות שאבד או קשר סיבתי שנמדד לתנודות מניות ואג״ח. תיאורי השיפור הטכני בכתבה אינם אישור להתאוששות מלאה של Microsoft.",
+    "טקסט_en": "Not verified against a primary source: the institutional impacts and ASX message come from the complete Bloomberg report carried by Mint, including named employees and institutions quoted there. Original UBS, CMC, BNP Paribas and ASX notices were not read here.\n\nNovember 13, 2026 | Mint displays an update at 14:42 India time, equivalent to 11:12 Israel time. That is the carrier's update time, not Bloomberg's first publication or the outage's start. This concerns financial-market operational effects, separately from Microsoft's service-health update.\n\nBloomberg says Rita Elkazzi, UBS's Australia and New Zealand execution-sales head, had to use phones and alternative communication channels, requiring extra care with trade-recap accuracy. CMC Markets Singapore trader Eugene Koh described a return to phone calls and busier WhatsApp groups: communication normally taking a second by email could now require several minutes. These are specific accounts, not a measurement of all bank activity.\n\nBNP Paribas Asset Management's Ryutaro Kimura in Tokyo said trading itself was largely unaffected, but trade confirmations backed up, creating settlement headaches for back offices. Desks continued executing trades by phone and fax, according to the article. This does not establish a general settlement failure or that trades failed to settle.\n\nASX's distinction also matters: Bloomberg says the Australian exchange operator told customers it was aware of problems with some Microsoft 365 services, including email, while its own services remained available for normal operation. This is not an exchange-halt announcement. Bloomberg also reports email-receipt difficulties at Japan's finance ministry and Indian broker alerts about delayed email-query responses. That does not establish an outage of every government or brokerage system.\n\nThe development is attributed evidence of manual communications and delayed confirmations and messaging. No verified monetary loss, lost trading volume or measured causal link to stock and bond moves is provided. Technical-improvement descriptions in the article are not confirmation of Microsoft's full recovery.",
+    "קישור": "https://www.livemint.com/market/stock-market-news/microsoft-outage-gums-up-markets-forces-traders-to-use-phones-11794560680458.html",
+    "מקורות": [
+      {
+        "url": "https://www.livemint.com/market/stock-market-news/microsoft-outage-gums-up-markets-forces-traders-to-use-phones-11794560680458.html",
+        "label": "Bloomberg בהפצת Mint: דיווח מלא על השפעות תפעוליות",
+        "label_en": "Bloomberg via Mint: complete operational-impact report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3d10871416b934bc8ec97c30613649d5d745898188901600993255a814c6f915"
+      }
+    },
+    "מזהה": "n-1570",
+    "הועלה": "2026-11-13 11:42"
   }
 ]
