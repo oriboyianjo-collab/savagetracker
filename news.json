@@ -41074,5 +41074,46 @@
     },
     "מזהה": "n-1582",
     "הועלה": "2026-11-13 12:44"
+  },
+  {
+    "category": "stocks",
+    "חברה": "אקסון מוביל",
+    "חברה_en": "ExxonMobil",
+    "symbols": [
+      "XOM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-11",
+    "כותרת": "השלמת סיקור: לפי Reuters ו-Euronews, ExxonMobil פתחה בבוררות נגד האיחוד האירופי על חובת פיתוח אחסון פחמן",
+    "כותרת_en": "Coverage catch-up: Reuters and Euronews report ExxonMobil arbitration against EU carbon-storage build-out rules",
+    "קישור": "https://live.euronext.com/en/financial-news/exxon-files-legal-challenge-eu-carbon-capture-law-ft-reports",
+    "מקורות": [
+      {
+        "url": "https://live.euronext.com/en/financial-news/exxon-files-legal-challenge-eu-carbon-capture-law-ft-reports",
+        "label": "Reuters דרך Euronext, דיווח 11 בנובמבר המצטט FT",
+        "label_en": "Reuters via Euronext, November 11 report citing FT"
+      },
+      {
+        "url": "https://www.euronews.com/2026/11/13/exxonmobil-sues-eu-over-rules-forcing-oil-giants-to-invest-in-carbon-storage",
+        "label": "Euronews, 13 בנובמבר, מצטטת מסמך נציבות",
+        "label_en": "Euronews, November 13, citing a Commission document"
+      },
+      {
+        "url": "https://insideclimatenews.org/news/28072026/exxonmobil-isds-challenge-eu-carbon-capture/",
+        "label": "Inside Climate News, 28 ביולי: הודעת סכסוך מוקדמת",
+        "label_en": "Inside Climate News, July 28: earlier notice of dispute"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני: הודעת הבוררות ומזכר הנציבות לא נקראו ישירות; הפרטים להלן מיוחסים לדיווחים עיתונאיים שנקראו במלואם.\n11.11.2026, דיווח Reuters | שעת הפרסום המקורית בשעון ישראל אינה מאומתת; Euronext מציגה 23:58 ללא אזור זמן. כתבת ההמשך של Euronews פורסמה ב-13 בנובמבר ב-12:42 בישראל. זהו דיווח שאותר באיחור, לא טענה שההליך הוגש היום.\n\nלפי Reuters, המצטטת את Financial Times ומזכר של הנציבות האירופית, ExxonMobil פתחה בהליך בוררות נגד האיחוד האירופי על הוראות בחוק תעשיית האפס נטו (NZIA) המחייבות יצרניות נפט וגז לתרום לפיתוח קיבולת הזרקה ואחסון של פחמן דו-חמצני. לפי הדיווח, הנציבות יידעה את ועדת מדיניות הסחר של מועצת האיחוד על הודעת הבוררות באוקטובר והכינה תגובה.\n\nלפי Euronews, שלוש חברות בקבוצת אקסון הגישו הודעת בוררות מכוח אמנת האנרגיה (ECT), לפי כללי UNCITRAL. הן טוענות להפרת חובות יחס הוגן, אי-אפליה והגנה מפני הפקעה. אלה טענות של החברות, לא קביעה שהאיחוד הפר את הדין. החברות הודיעו על כוונה לבקש סעד זמני להשעיית תחולת החובה על חברותיהן המושפעות; לא דווח כאן על צו שניתן או על השעיית הכללים.\n\nיעד החוק המוזכר הוא לפחות 50 מיליון טונות של קיבולת הזרקת פחמן דו-חמצני בשנה בכלל האיחוד עד 2030. זהו יעד קיבולת אירופי כולל, לא חובה כמותית כזו לאקסון לבדה, לא כמות שכבר אוחסנה ולא סכום השקעה כספי. אין במקורות שנקראו סכום פיצוי נתבע או אומדן מאומת של החשיפה הכספית בתיק.\n\nאקסון אמרה ל-Reuters שהחובות כופות פיתוח קיבולת כשעדיין אין שוק בר-קיימא ללכידה ולהובלה, בלוחות זמנים שלדבריה אינם מציאותיים. זו עמדת החברה. Euronews מסרה שהנציבות נמנעה מתגובה על הליך מתנהל, ושאקסון לא השיבה לפנייתה לכתבת ההמשך.\n\nהודעת סכסוך מוקדמת כבר דווחה ב-28 ביולי ב-Inside Climate News. אין לזהות אוטומטית את אותה הודעה, שקדמה לבוררות, עם מועד הגשת הבוררות הנוכחית; תאריך ההגשה המדויק לא אומת. המקורות גם אינם אחידים לגבי מדינות ההתאגדות של כל שלוש החברות, ולכן שמותיהן לא מפורטים כאן.\n\nהסיכון העסקי הוא מחלוקת על חובת פיתוח תשתית והשקעות עתידיות באירופה. אין כאן ביטול חובת האחסון, הכרעת אחריות, פיצויים שנפסקו או שינוי מוכח בתפוקה הנוכחית של אקסון.",
+    "טקסט_en": "Not verified against a primary source: the arbitration notice and Commission memorandum were not read directly. Details below are attributed to press reports read in full.\nNovember 11, 2026, Reuters report | Its original Israel publication time is unverified; Euronext shows 23:58 without a timezone. Euronews' follow-up was published November 13 at 12:42 Israel time. This is delayed coverage, not a claim the case was filed today.\n\nReuters, citing the Financial Times and a European Commission memorandum, reports that ExxonMobil initiated arbitration against the EU over Net-Zero Industry Act (NZIA) provisions requiring oil and gas producers to contribute to developing carbon-dioxide injection and storage capacity. The report says the Commission informed the Council's trade policy committee of the arbitration notice in October and was preparing a response.\n\nAccording to Euronews, three Exxon group companies filed an arbitration notice under the Energy Charter Treaty (ECT), using UNCITRAL rules. They allege breaches of fair treatment, non-discrimination and protection against expropriation. These are company allegations, not a finding that the EU broke the law. The companies announced an intention to seek interim relief suspending the obligation for affected subsidiaries. No granted order or suspension of the rules is established here.\n\nThe cited legal target is at least 50 million tonnes of annual carbon-dioxide injection capacity across the EU by 2030. That is a bloc-wide capacity target, not an obligation of that size for Exxon alone, not carbon already stored and not a monetary investment amount. The sources read do not provide damages sought or verified financial exposure for this case.\n\nExxon told Reuters the requirements compel capacity development without a viable capture and transport market and impose what it considers unrealistic timelines. That is the company's position. Euronews said the Commission declined to comment on ongoing proceedings and Exxon did not respond to its request for the follow-up article.\n\nInside Climate News had already reported an earlier notice of dispute on July 28. That pre-arbitration notice should not automatically be treated as the filing date of the current arbitration; the precise filing date was not verified. Sources also disagree about all three subsidiaries' jurisdictions, so their names are not listed here.\n\nThe business risk concerns infrastructure build-out obligations and future investment in Europe. This does not establish cancellation of the storage requirement, a liability ruling, awarded damages or a demonstrated change in Exxon's current production.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ed95a2e54386e94b74de0970bb10f051da5bc68ec910e7dd65debae39086082f"
+      }
+    },
+    "מזהה": "n-1583",
+    "הועלה": "2026-11-13 12:56"
   }
 ]
