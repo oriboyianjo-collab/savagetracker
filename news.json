@@ -41334,5 +41334,39 @@
     },
     "מזהה": "n-1589",
     "הועלה": "2026-11-13 13:58"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-12",
+    "כותרת": "השלמת סיקור האוצר האמריקאי: גירעון אוקטובר של כ-404 מיליארד דולר; הקדמת תשלומים מנובמבר מנפחת את הנתון החודשי",
+    "כותרת_en": "US Treasury catch-up: October deficit about $404 billion; payments shifted from November inflate monthly figure",
+    "קישור": "https://fiscaldata.treasury.gov/static-data/published-reports/mts/MonthlyTreasuryStatement_202610.pdf",
+    "מקורות": [
+      {
+        "url": "https://fiscaldata.treasury.gov/static-data/published-reports/mts/MonthlyTreasuryStatement_202610.pdf",
+        "label": "האוצר האמריקאי: דוח אוקטובר המקורי, טבלאות 1-2 והערת תזמון",
+        "label_en": "US Treasury: original October statement, Tables 1-2 and timing note"
+      },
+      {
+        "url": "https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/",
+        "label": "Fiscal Data: תאריך עדכון 12 בנובמבר והגדרות הדוח",
+        "label_en": "Fiscal Data: November 12 update date and report definitions"
+      },
+      {
+        "url": "https://money.usnews.com/investing/news/articles/2026-11-12/us-starts-2027-fiscal-year-with-record-october-budget-deficit-of-404-billion",
+        "label": "Reuters דרך US News: הסבר התאמות הלוח וההשוואה השנתית",
+        "label_en": "Reuters via US News: calendar adjustment and annual comparison"
+      }
+    ],
+    "טקסט": "השלמת סיקור לדוח התקציב החודשי של האוצר האמריקאי, שפורסם ב-12.11.2026 ומתייחס לאוקטובר 2026, החודש הראשון בשנת הכספים 2027. טבלאות הסיכום והערת התזמון בדוח המקורי, עמוד הנתונים וכתבת Reuters המלאה נקראו. שעת הפרסום המקורית לא אומתה; זו אינה הודעת נתון חדשה מ-13 בנובמבר.\n\nלפי טבלה 1, הכנסות הממשלה הפדרלית באוקטובר היו 368.940 מיליארד דולר, ההוצאות 773.004 מיליארד והגירעון 404.064 מיליארד דולר. באוקטובר המקביל בשנת הכספים הקודמת היה הגירעון 284.333 מיליארד. ההתרחבות המחושבת היא כ-119.7 מיליארד דולר, כ-42%, ולא גירעון שנתי של 404 מיליארד.\n\nלהשוואה החודשית יש עיוות תזמון חשוב: הדוח מציין שתשלומי שכר ופרישה צבאיים, הטבות לוותיקי הצבא, SSI ותשלומי Medicare מסוימים הוקדמו לאוקטובר משום ש-1 בנובמבר חל ביום שאינו יום עסקים. לכן סכום ההוצאות המדווח אינו משקף רק שינוי בקצב ההוצאה הבסיסי או החלטות תקציב חדשות.\n\nReuters מדווחת בשם האוצר כי לאחר התאמות הקשורות ללוח התשלומים בשתי שנות ההשוואה, גירעון אוקטובר היה 285 מיליארד דולר, עלייה של 94 מיליארד, 49%, לעומת המקביל. זהו נתון מותאם נפרד מהגירעון המדווח של 404 מיליארד; אין לערבב בין שני בסיסי המדידה. ההתאמה מצמצמת את סכום הגירעון החודשי אך אינה מבטלת את ההתרחבות השנתית.\n\nבדיווח Reuters, הירידה בהכנסות קשורה בין השאר לתקבולי מכס נטו נמוכים יותר ולהשוואה מול מועדי מס שנדחו עבור נפגעי שריפות בקליפורניה בשנה הקודמת. הדוח המקורי מציג כ-129 מיליארד דולר של הוצאות בתפקוד הביטחון הלאומי; זה אינו סכום נוסף שיש להוסיף ל-773 מיליארד שכבר כוללים אותו.\n\nזהו מדד לתקבולים ולהוצאות ממשלתיים בתקופה מסוימת, לא יתרת החוב הלאומי, נתון תוצר או תחזית לריבית. אין בדוח לבדו הוכחה לחדלות פירעון קרובה או לתנועת שוק מסוימת. טענת שיא לכל חודשי אוקטובר לא אומתה כאן מול כל הסדרה ההיסטורית ולכן אינה מוצגת כממצא עצמאי.",
+    "טקסט_en": "Catch-up to the US Treasury's monthly budget statement released November 12, 2026, covering October 2026, the first month of fiscal 2027. The original summary tables and payment-timing note, the dataset page and full Reuters report were read. The original publication clock was not verified. This is not a new November 13 release.\n\nTable 1 reports October federal receipts of $368.940 billion, outlays of $773.004 billion and a deficit of $404.064 billion. The comparable October deficit in the previous fiscal year was $284.333 billion. The calculated widening is approximately $119.7 billion, or 42%. This is not an annual deficit of $404 billion.\n\nPayment timing materially affects the monthly comparison. Treasury says military active-duty and retirement payments, veterans' benefits, SSI and certain Medicare payments were accelerated into October because November 1 fell on a non-business day. Reported outlays therefore do not reflect only changes in underlying spending or new budget decisions.\n\nReuters reports Treasury's calendar-adjusted October deficit at $285 billion, up $94 billion, or 49%, after timing adjustments in both comparison years. This is a separate adjusted measure, not the reported $404 billion deficit. The two measurement bases must not be mixed. Adjustment reduces the monthly deficit amount but does not remove the year-over-year widening.\n\nReuters attributes weaker receipts partly to lower net customs collections and comparison with tax deadlines delayed for Californians affected by the previous year's wildfires. The original statement shows roughly $129 billion of outlays under the national-defense function. That is included within the $773 billion total, not an additional amount to add to it.\n\nThe report measures government receipts and outlays for a period, not the national-debt balance, GDP or an interest-rate forecast. It does not by itself establish imminent default or a particular market move. An all-time October record was not independently checked against the full historical series and is not presented here as an independently established finding.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "23f6016c1274cd6d883383ff51ec1739155ade600a15df5e44079fd65bc2bff3"
+      }
+    },
+    "מזהה": "n-1590",
+    "הועלה": "2026-11-13 14:00"
   }
 ]
