@@ -39356,5 +39356,74 @@
     },
     "מזהה": "n-1534",
     "הועלה": "2026-11-13 10:15"
+  },
+  {
+    "category": "micro",
+    "חברה": "Cadence / CDNS",
+    "חברה_en": "Cadence / CDNS",
+    "symbols": [
+      "CDNS"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-26",
+    "כותרת": "השלמה מ-26 באוקטובר: Cadence הציגה את מודלי Maestro לתכנון שבבים ומערכות; גישה מוקדמת מתוכננת לרבעון הרביעי",
+    "כותרת_en": "October 26 catch-up: Cadence introduces Maestro models for chip and system design; Q4 early access planned",
+    "טקסט": "השלמת סיקור להכרזה אמריקאית מ-26.10.2026, כפי שמבהירה הודעת Cadence הרשמית ביפנית מ-28 באוקטובר, שנקראה במלואה. שעת הפרסום האמריקאית לא אומתה. כתבת All About Circuits מ-13 בנובמבר אינה הכרזה חדשה על המוצר.\n\nCadence הציגה את Maestro, תיק מודלי AI ייעודיים לתכנון שבבים ומערכות, ולא מודל יחיד. הוא משלב מודלי שפה שעברו אימון משלים לתחום, מודלים לקבלת החלטות וכישורי סוכנים, יחד עם כלי EDA ו-SDA ולולאות למידת חיזוק. התיק אמור לתמוך בארבעת ה-AI Super Agents של החברה: AuraStack, ChipStack, InnoStack ו-ViraStack.\n\nלפי החברה, תוצאות ראשוניות בתהליכי תכנון הראו שיפור של עד 30% באיכות התוצאה ועד פי חמישה ביעילות השימוש בטוקנים לעומת מודלי בסיס כלליים. אלה טענות החברה על בדיקות ראשוניות, לא תוצאות בלתי תלויות, הבטחה לכל לקוח או הוכחה לשיפור זהה בהכנסות וברווחיות.\n\nהמערכת יכולה לשלב מודלים ייעודיים, מודלי חזית ומודלים בעלי משקלים פתוחים, ולהשתמש בנתוני הלקוח לאימון משלים. לפי ההודעה, ניתן להריץ את הסביבה בענן המאובטח של Cadence, בענן ציבורי מאובטח או בסביבה מקומית בשליטת הלקוח.\n\nהמודלים הראשונים מתוכננים להינתן ללקוחות מוקדמים נבחרים ברבעון הרביעי של 2026. אין כאן הכרזה על זמינות כללית או הוכחה שכל המודלים כבר סופקו. Socionext מתארת שימוש ב-InnoStack בסביבת תכנון בפועל וציפייה לפריון גבוה יותר; Silicon Labs מתארת תועלת קודמת מ-Verisium Debug בתוך ChipStack. אין להציג את הדוגמאות האלה כהוכחה לפריסת Maestro או לתוצאותיו אצל לקוחות.\n\nהחידוש הוא הרחבת שכבת המודלים שמאחורי כלי התכנון והסוכנים של Cadence, לא דוח כספי, חוזה לקוח חדש בסכום שפורסם או השקה חדשה מ-13 בנובמבר.",
+    "טקסט_en": "Catch-up coverage of the October 26, 2026 US announcement, as explicitly identified in Cadence's October 28 Japanese release, which was read in full. The original US publication clock was not verified. The November 13 All About Circuits article is not a new product announcement.\n\nCadence introduced Maestro, a portfolio of domain-specialized AI models for chip and system design, not a single model. It combines domain-post-trained language models, decision models and agent skills with EDA and SDA tools and reinforcement-learning loops. It is intended to support the company's four AI Super Agents: AuraStack, ChipStack, InnoStack and ViraStack.\n\nCadence says initial design-workflow results showed up to 30% better outcome quality and up to five times greater token efficiency than general-purpose foundation models. These are company claims from initial tests, not independent results, a promise to every customer, or proof of an equivalent improvement in revenue or profit.\n\nThe environment can combine specialized, frontier and open-weight models, with further post-training using a customer's data. Cadence says it can run in its secure cloud, secure public clouds or customer-controlled on-premises environments.\n\nThe first Maestro models are planned for select early-access customers in the fourth quarter of 2026. This is not general availability or confirmation all models have shipped. Socionext describes using InnoStack in a production design environment and expecting higher productivity; Silicon Labs describes earlier benefits from Verisium Debug within ChipStack. Those examples do not establish Maestro deployments or customer results.\n\nThe news is an expanded model layer behind Cadence's design tools and agents, not an earnings report, a newly priced customer contract or a fresh November 13 launch.",
+    "קישור": "https://www.cadence.com/ja_JP/home/company/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html",
+    "מקורות": [
+      {
+        "url": "https://www.cadence.com/ja_JP/home/company/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html",
+        "label": "Cadence: הודעה רשמית מלאה ביפנית; מציינת מקור אמריקאי מ-26 באוקטובר",
+        "label_en": "Cadence: full official Japanese release; identifies October 26 US announcement"
+      },
+      {
+        "url": "https://www.allaboutcircuits.com/news/cadence-launches-maestro-ai-models-to-power-chip-design-super-agents/",
+        "label": "All About Circuits: כתבת הסבר מ-13 בנובמבר, לא מועד ההכרזה",
+        "label_en": "All About Circuits: November 13 explainer, not the announcement date"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "413946b1d3ad42c4258d8d163c90540bc3808b0dc3cc4a27c08bbce1aff5153e"
+      }
+    },
+    "מזהה": "n-1535",
+    "הועלה": "2026-11-13 10:18"
+  },
+  {
+    "category": "macro",
+    "חברה": "US / Iran",
+    "חברה_en": "US / Iran",
+    "תאריך": "2026-11-12",
+    "כותרת": "השלמה מ-12 בנובמבר: טראמפ אומר שלא יהסס לפעול צבאית מול איראן אם יהיה צורך; לא פקודת תקיפה",
+    "כותרת_en": "November 12 catch-up: Trump says he would not hesitate to use force against Iran if needed; no strike order",
+    "טקסט": "לא מאומת מול מקור ראשוני\nהשלמת סיקור לראיון של טראמפ עם Hugh Hewitt ב-Salem News Channel מ-12.11.2026. דיווח Anadolu מ-13 בנובמבר וקטעי השאלות והתשובות המלאים הרלוונטיים בתמליל Roll Call / Factba.se נקראו. ההקלטה המקורית ותמליל רשמי של הבית הלבן לא נבדקו; שעת הראיון המקורית לא אומתה, ולכן נשמר תאריך בלבד.\n\nכשנשאל אם יהסס להשתמש בכוח כדי למנוע מאיראן לאיים על בעלות ברית ועל אוניות, טראמפ השיב שלא יהסס. בהמשך התנה את האפשרות בכך שיראה שהדברים הולכים בכיוון אחר, והוסיף שייתכן שהיה עושה זאת גם כעת. אלה דברי הנשיא על נכונות מותנית לפעולה, לא הודעה שהורה על תקיפה, קבע מועד או פתח במבצע חדש.\n\nבתשובה לשאלה נפרדת אם הישארות ההנהגה האיראנית בשלטון בתום כהונתו תהיה כישלון מבחינתו, הוא השיב בחיוב. זו הערכתו הפוליטית כפי שדווחה ותומללה, לא אישור לתוכנית מבצעית להפלת המשטר או ליכולת להשלימה.\n\nהחידוש לעומת n-1494, שעסק בפוסט על הסכם עם איראן ובהפניית ואנס לענייני פנים, הוא הדברים בראיון על האפשרות להשתמש בכוח ועל אמת המידה הפוליטית לסיום כהונתו. הדברים גם נפרדים מהערכת רוביו מ-10 בנובמבר ב-n-1245 שאין באותו שלב צורך במבצע גדול; אין להסיק מהבדל הניסוח שהתקבלה החלטה מבצעית חדשה.\n\nטענות נוספות בראיון על שליטה מלאה בהורמוז, זרימת נפט, אבדות ומצב הצבא והכלכלה האיראניים לא אומתו כאן ואינן מוצגות כממצאים. אין כאן אישור לשינוי בתנועת מכליות, לפתיחת המצר, להפסקת אש או לתקרית ימית חדשה.",
+    "טקסט_en": "Not verified against a primary source\nCatch-up coverage of Trump's November 12, 2026 interview with Hugh Hewitt on Salem News Channel. The November 13 Anadolu report and the full relevant question-and-answer passages in Roll Call / Factba.se's transcript were read. The original recording and an official White House transcript were not checked. The original interview clock was not verified, so only the date is assigned.\n\nAsked whether he would hesitate to use force to stop Iran threatening allies and ships, Trump said he would not hesitate. He later made the possibility conditional on seeing things go in the other direction, adding that it was possible he would act even now. These are the president's statements of conditional willingness, not an announcement of a strike order, a timetable or a new operation.\n\nIn a separate exchange, he agreed that Iran's current leadership remaining in power at the end of his term would be a defeat for him. This is his political assessment as reported and transcribed, not confirmation of an operational regime-change plan or the ability to carry one out.\n\nRelative to n-1494 on his social-media post about an Iran deal and redirecting Vance to domestic work, the increment is the interview's discussion of force and his political test for the end of his term. It is also separate from Rubio's November 10 assessment in n-1245 that a major operation was not needed at that stage. Different wording does not establish a new operational decision.\n\nOther interview claims about full control of Hormuz, oil flows, casualties and Iran's military and economy were not verified here and are not presented as findings. There is no confirmed change in tanker traffic, reopening of the strait, ceasefire or new maritime incident in this item.",
+    "קישור": "https://www.aa.com.tr/en/us-israel-iran-war/trump-says-he-may-use-force-against-iran-right-now-if-us-allies-and-ships-are-threatened/4123516",
+    "מקורות": [
+      {
+        "url": "https://www.aa.com.tr/en/us-israel-iran-war/trump-says-he-may-use-force-against-iran-right-now-if-us-allies-and-ships-are-threatened/4123516",
+        "label": "Anadolu: דיווח מלא מ-13 בנובמבר על הראיון מיום חמישי",
+        "label_en": "Anadolu: full November 13 report on the Thursday interview"
+      },
+      {
+        "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-interview-hugh-hewitt-radio-november-12-2026/",
+        "label": "Roll Call / Factba.se: תמליל צד שלישי, חילופי הדברים סביב 12:34-14:24 ו-39:59-40:22",
+        "label_en": "Roll Call / Factba.se: third-party transcript, exchanges around 12:34-14:24 and 39:59-40:22"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "410b97e239672fb341f7f735b064a9cc048b0fa5f54121df73f11d37d9e106b1"
+      }
+    },
+    "מזהה": "n-1536",
+    "הועלה": "2026-11-13 10:18"
   }
 ]
