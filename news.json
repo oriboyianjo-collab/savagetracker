@@ -39675,5 +39675,71 @@
     },
     "מזהה": "n-1543",
     "הועלה": "2026-11-13 10:29"
+  },
+  {
+    "category": "micro",
+    "חברה": "Marvell / MRVL",
+    "חברה_en": "Marvell / MRVL",
+    "symbols": [
+      "MRVL"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Marvell הרחיבה את הדירקטוריון משבעה לעשרה עם מינויים של Morris, Bettinger ו-Goodarzi",
+    "כותרת_en": "Marvell expands board from seven to ten with Morris, Bettinger and Goodarzi appointments",
+    "טקסט": "12.11.2026 | הודעת Marvell המקורית נקראה במלואה, כולל האזהרות ואנשי הקשר. שעת הפרסום המקורית לא אומתה; זהו עדכון השלמה, לא אירוע חדש מ-13 בנובמבר.\n\nMarvell מינתה שלושה דירקטורים בלתי תלויים, בתוקף מ-12 בנובמבר: Donna C. Morris, Douglas R. Bettinger ו-Sasan K. Goodarzi. הדירקטוריון גדל משבעה לעשרה חברים. Bettinger צורף לוועדת הביקורת, ואילו Morris ו-Goodarzi לוועדת התגמול למנהלים.\n\nMorris היא מנהלת משאבי האנוש הראשית של Walmart וכיהנה בעבר בדירקטוריון Marvell בשנים 2018-2020. Bettinger הוא סמנכל הכספים של Lam Research. Goodarzi הוא יור ומנכל Intuit. אלו מינויים לדירקטוריון Marvell, לא הודעה שהשלושה עוזבים את תפקידיהם בחברות האחרות.\n\nזהו שינוי במבנה הפיקוח והוועדות של החברה, לא החלפת מנכל או הודעה חדשה על רכישת Lumentum. ההסכם עם Lumentum כבר סוקר ב-n-0599; אין בהודעת המינויים אישור לסגירתו, שינוי בתמורה או השלמת אישורים רגולטוריים. אין לייחס למינויים לבדם תנועת מניה או תחזית רווח חדשה.",
+    "טקסט_en": "November 12, 2026 | Marvell's original release was read in full, including cautions and contact details. The original publication clock was not verified. Catch-up coverage, not a new November 13 event.\n\nMarvell appointed three independent directors effective November 12: Donna C. Morris, Douglas R. Bettinger and Sasan K. Goodarzi. Its board grows from seven to ten members. Bettinger joined the Audit Committee; Morris and Goodarzi joined the Executive Compensation Committee.\n\nMorris is Walmart's chief people officer and previously served on Marvell's board in 2018-2020. Bettinger is Lam Research's CFO. Goodarzi is Intuit's chairman and CEO. These are Marvell board appointments, not an announcement that the three are leaving their roles at other companies.\n\nThe increment is a change in company oversight and committee structure, not a CEO replacement or a new Lumentum acquisition announcement. The Lumentum agreement was already covered in n-0599; this appointments release does not confirm its closing, changed consideration or completion of regulatory approvals. The appointments alone do not establish a cause for a share-price move or new earnings guidance.",
+    "קישור": "https://investor.marvell.com/news-events/press-releases/detail/1042/marvell-appoints-three-new-independent-directors-to-its-board",
+    "מקורות": [
+      {
+        "url": "https://investor.marvell.com/news-events/press-releases/detail/1042/marvell-appoints-three-new-independent-directors-to-its-board",
+        "label": "Marvell: הודעת המינויים המלאה, 12 בנובמבר",
+        "label_en": "Marvell: full November 12 appointments release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "994c1e91efdf52cacacd647ab4dc855ef7d6b1d46247edb7c9327b16a6f8c5c9"
+      }
+    },
+    "מזהה": "n-1544",
+    "הועלה": "2026-11-13 10:31"
+  },
+  {
+    "category": "micro",
+    "חברה": "Semtech / SMTC",
+    "חברה_en": "Semtech / SMTC",
+    "symbols": [
+      "SMTC"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-09",
+    "כותרת": "השלמה מ-9 בנובמבר: Semtech השיקה זמינות כללית לגרסת SGP.32 של eSIM רב-פרופילי ל-IoT",
+    "כותרת_en": "November 9 catch-up: Semtech launches general availability of SGP.32 multi-profile IoT eSIM",
+    "טקסט": "השלמת סיקור להודעת Semtech המקורית מ-9.11.2026, שנקראה במלואה. שעת הפרסום המקורית לא אומתה. כתבה מ-12 בנובמבר אינה מועד השקת המוצר.\n\nSemtech השיקה את גרסת SGP.32 של Smart Connectivity Premium, פתרון eSIM המשלב פרופיל קישוריות גלובלי של החברה ופרופילים מקומיים של מפעילות סלולר במקט אחד. החברה מציינת זמינות כללית החל מ-9 בנובמבר, לא רק הדגמה או ניסוי עתידי.\n\nניהול הפרופילים, ההקצאה והמחזור התפעולי נעשה באמצעות AirVantage, דרך ממשק משתמש או APIs. לפי החברה, רכיב התוכנה ב-eSIM ובמכשיר יכול להוריד, להפעיל ולהחליף פרופילים לפי הצורך. המטרה היא להקל על מגבלות נדידה, תלות במפעיל והחלפת רשתות, לא הבטחה לחיבור ללא תקלות או כיסוי בכל מדינה ומכשיר.\n\nמוצעות שתי תצורות: PowerSave eSIM טעון מראש למכשירים מוגבלי סוללה, וגרסת Premium המלאה המאפשרת הוספת פרופילי מפעילות. זה אינו מעבר ראשון אי פעם לריבוי פרופילים: החברה מציינת שהמוצר הקודם כבר תמך בכך לפי SGP.02, והחידוש הוא גמישות הפריסה בתקן SGP.32.\n\nהפתרון מבוסס על טכנולוגיית eSIM ו-eIM של Kigen בעלת הסמכות GSMA, ותומך ב-SGP.32 גרסה 1.3 לפי ההודעה. הרחבה למפעילות ושווקים נוספים היא תוכנית לחודשים הבאים; תמיכה אפשרית ברשתות לא-קרקעיות אינה הכרזה על שירות לווייני שכבר פועל. לא פורסמו שווי חוזה, לקוח עוגן, חיסכון כספי מדוד או תחזית הכנסות. זהו מוצר לקישוריות IoT, נפרד מהסכם קיבולת SiGe עם Tower ב-n-1521.",
+    "טקסט_en": "Catch-up coverage of Semtech's November 9, 2026 original release, read in full. The original publication clock was not verified. A November 12 article is not the product's launch date.\n\nSemtech launched the SGP.32 version of Smart Connectivity Premium, an eSIM solution pairing its global connectivity profile with local mobile-operator profiles in one SKU. The company states general availability from November 9, rather than only a demonstration or future trial.\n\nProfile management, provisioning and lifecycle operations use AirVantage through its user interface or APIs. Semtech says software in the eSIM and device can download, enable and switch profiles when needed. The aim is to ease roaming restrictions, operator dependency and network changes, not guarantee outage-free service or coverage in every country and device.\n\nTwo configurations are offered: a preloaded PowerSave eSIM for battery-constrained devices and the full Premium version allowing additional operator profiles. Multi-profile support itself is not new: Semtech says its earlier product already offered it under SGP.02. The increment is deployment flexibility under SGP.32.\n\nThe release says the solution uses Kigen's GSMA-certified eSIM and eIM technology and supports SGP.32 version 1.3. More operators and markets are planned for coming months; potential non-terrestrial-network support is not an operating satellite-service announcement. No contract value, anchor customer, measured financial savings or revenue forecast was disclosed. This IoT connectivity product is separate from the Tower SiGe capacity agreement in n-1521.",
+    "קישור": "https://www.semtech.com/company/press/semtech-launches-sgp-32-multi-profile-esim-for-global-iot-deployments",
+    "מקורות": [
+      {
+        "url": "https://www.semtech.com/company/press/semtech-launches-sgp-32-multi-profile-esim-for-global-iot-deployments",
+        "label": "Semtech: הודעת ההשקה והזמינות המקורית, 9 בנובמבר",
+        "label_en": "Semtech: original November 9 launch and availability release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6a8ab3268cb4d581d8d0d6373c55155c2789f1e7ef9633b1cbbe2c9845a2831a"
+      }
+    },
+    "מזהה": "n-1545",
+    "הועלה": "2026-11-13 10:31"
   }
 ]
