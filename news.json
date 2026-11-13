@@ -38563,5 +38563,30 @@
     },
     "מזהה": "n-1511",
     "הועלה": "2026-11-13 07:48"
+  },
+  {
+    "category": "micro",
+    "חברה": "Microsoft (MSFT)",
+    "תאריך": "2026-11-13 07:46",
+    "כותרת": "Microsoft (MSFT): אינה מודעת כעת לפעילות זדונית שגורמת לתקלת Microsoft 365; השירותים עדיין במצב פגיעה",
+    "כותרת_en": "Microsoft (MSFT): not currently aware of malicious activity causing Microsoft 365 incident; service degradation continues",
+    "טקסט": "13.11.2026, 07:46:34 בישראל (05:46:34 UTC) | עדכון מצב רשמי של Microsoft, שנקרא במלואו סביב 07:58 בישראל. זהו מועד עדכון האירוע, לא שעת תחילת התקלה.\n\nMicrosoft אומרת כי נכון לעכשיו אינה מודעת לפעילות זדונית שגורמת לאירוע. זו הערכת החברה בשלב הנוכחי, לא הוכחה עצמאית שהגורם לתקלה אינו זדוני ולא ממצא סופי על הסיבה. החברה עדיין מסמנת Service degradation וממשיכה לחקור את מקור הגידול החריג בתעבורה ואת התאוששות השרתים האחוריים.\n\nזהו עדכון נפרד לפריט הלילי מ-13 בנובמבר ב-00:11, שבו תוארו ניסיונות התאוששות שלא סיפקו את ההקלה המצופה. החדש כעת הוא ההתייחסות הרשמית והמוגבלת לשאלת הפעילות הזדונית. לא מדובר בהכרזה שהתקלה נפתרה, שהשרתים חזרו כולם לפעולה תקינה או שכל לקוח נפגע באותה מידה.\n\nלפי העדכון, צוותי החברה מזהים ומתקנים תשתיות שנפגעו בגישה מדורגת, ובודקים אם השינויים הוחלו ואם השרתים מציגים את ההתאוששות והביצועים המצופים. Microsoft התחייבה לפרסם פירוט של סיבת השורש וצעדי תיקון והגנה בדוח לאחר האירוע, לאחר מיתונו. הדוח הזה טרם מוצג בעדכון שנקרא.\n\nהפגיעה נוגעת בין היתר ל-Exchange Online ולתכונות בשירותים אחרים שתלויות בדואר וביומן. החברה מציינת שרוב יכולות הליבה של Teams, ובהן שיחות, פגישות והודעות קבוצתיות ובערוצים, אינן נפגעות, וכי גישה לקבצים המאוחסנים ישירות ב-SharePoint נשארת פעילה. אין כאן טענה שכל פונקציה בכל שירות מושבתת או ש-Azure כולו אינו זמין.\n\nמועד העדכון הבא שנמסר הוא 09:00 בישראל (07:00 UTC), לא מועד מובטח לפתרון. אין בעדכון אימות לאובדן נתונים, לזהות תוקף, למתקפה שהוכחה או לתקלה מקבילה אצל ספקי ענן אחרים.",
+    "טקסט_en": "November 13, 2026, 07:46:34 Israel time (05:46:34 UTC) | Microsoft's official incident update, read in full around 07:58 Israel time. This is the incident-update timestamp, not the outage's start time.\n\nMicrosoft says that, as of now, it is not aware of malicious activity causing the incident. This is the company's current assessment, not independent proof that the cause is non-malicious or a final root-cause finding. The page still shows Service degradation while Microsoft investigates the abnormal traffic influx and backend-server recoverability.\n\nThis separately updates the overnight item from November 13 at 00:11, which described recovery attempts that had not provided the expected relief. The new development is the company's explicit, limited statement on malicious activity. It is not an all-clear, confirmation that every server is healthy or a claim that every customer is affected equally.\n\nMicrosoft says it is taking a measured approach to identify and repair affected infrastructure, checking that changes were applied and that servers show the intended recovery and performance. It promises details of the root cause and repair and defense-in-depth actions in a post-incident report after mitigation. That report is not presented in the update read here.\n\nImpact includes Exchange Online and features of other services that depend on email and calendars. Microsoft says most core Teams functionality, including calls, meetings, group chats and channel messages, is not impacted, while access to files stored directly in SharePoint remains functional. This does not mean every function of every service is down or all of Azure is unavailable.\n\nThe next promised update is 09:00 Israel time (07:00 UTC), not a guaranteed resolution time. The update does not verify data loss, an attacker's identity, a proven attack or a parallel incident at other cloud providers.",
+    "קישור": "https://status.cloud.microsoft/",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/",
+        "label": "Microsoft: מצב השירות הרשמי, עדכון 13 בנובמבר 05:46:34 UTC",
+        "label_en": "Microsoft: official service status, November 13 update at 05:46:34 UTC"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1a2002d2a1cc90f19b503fbb4d51f51d8e157caa740db7e8a96670d7f97f20f4"
+      }
+    },
+    "מזהה": "n-1512",
+    "הועלה": "2026-11-13 07:59"
   }
 ]
