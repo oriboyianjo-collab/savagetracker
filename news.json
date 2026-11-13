@@ -39741,5 +39741,43 @@
     },
     "מזהה": "n-1545",
     "הועלה": "2026-11-13 10:31"
+  },
+  {
+    "category": "micro",
+    "חברה": "Microsoft / MSFT",
+    "חברה_en": "Microsoft / MSFT",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 09:29",
+    "כותרת": "Microsoft 365: החברה מדווחת על תוצאות חיוביות ביציבות חלק מהשרתים לאחר טלאי אימות וניתוב; התקלה עדיין נמשכת",
+    "כותרת_en": "Microsoft 365 reports positive stability results on some servers after authentication/routing patch; degradation continues",
+    "טקסט": "13.11.2026, 09:29:09 בישראל (07:29:09 UTC) | עדכון האירוע הרשמי ב-RSS הציבורי של Microsoft נקרא במלואו בבדיקה השעתית סביב 10:36 בישראל. זו שעת עדכון האירוע, לא מועד תחילת התקלה ולא שעת פרסום הפריט באפליקציה.\n\nMicrosoft מדווחת על תוצאות חיוביות ביציבות השרתים לאחר החלת טלאי לרכיב תצורה מוקדם בשרשרת האימות והניתוב על חלק מהתשתית. החברה ממשיכה לנטר את ההתקדמות ופועלת להרחיב את הטלאי לשרתים התומכים באזורים פעילים שנכנסים לפעולה.\n\nהחידוש ביחס ל-n-1523, שבו תוארה הצלחה שולית בלבד, הוא דיווח החברה על שיפור ביציבות בעקבות טלאי מסוים. מדובר בחלק מהתשתית בלבד: אין הודעה שכל השרתים תוקנו, שכל האזורים או המשתמשים התאוששו, או שהשירות חזר לשגרה. עמוד המצב עדיין מסמן Service degradation.\n\nהחברה ממשיכה לומר שאינה מודעת כעת לפעילות זדונית הגורמת לאירוע. זו הערכה מוגבלת שחזרה בעדכונים קודמים, לא שלילה עצמאית של מתקפה או דוח סיבת שורש סופי. פירוט סיבת השורש וצעדי התיקון אמור להתפרסם לאחר מיתון האירוע; עצם קיומו של טלאי אינו תחליף לדוח הזה.\n\nהפגיעה נותרת בגישה ל-Exchange Online ובתכונות בשירותים נוספים התלויות בדואר וביומן. רוב יכולות הליבה של Teams, לרבות שיחות, פגישות והודעות קבוצתיות ובערוצים, מתוארות כפעילות; גישה ישירה לקבצים ב-SharePoint נשארת פעילה. אין כאן טענה להשבתה כוללת של Azure, לאובדן נתונים או לשיעור התאוששות שנמדד בכלל הלקוחות.\n\nהעדכון ציין שפרסום נוסף צפוי עד 10:30 בישראל, מועד שכבר חלף בעת הבדיקה. זה אינו מועד פתרון מובטח. לא נקבע כאן שההבטחה קוימה בעדכון חדש יותר, ואין בעדכון המלצה להסיר תוויות רגישות או הגנות מידע ארגוניות.",
+    "טקסט_en": "November 13, 2026, 09:29:09 Israel time (07:29:09 UTC) | The full official incident update in Microsoft's public RSS feed was read during the hourly check around 10:36 Israel time. This is the incident update time, not the outage's start or this app item's publication time.\n\nMicrosoft reports positive server-stability results after applying a patch to an upstream authentication/routing configuration component on a portion of its infrastructure. It continues monitoring progress and is working to expand the patch to servers supporting active regions coming online.\n\nThe increment over n-1523, which described only marginal success, is the company's report of improved stability after a specific patch. It covers only part of the infrastructure: this is not every server fixed, all regions or users recovered, or normal service restored. The status page still reports Service degradation.\n\nMicrosoft continues to say it is not currently aware of malicious activity causing the incident. This repeats an earlier limited assessment, not independent exclusion of an attack or a final root-cause report. Root-cause and repair details are planned after mitigation; the existence of a patch does not replace that report.\n\nImpact still concerns Exchange Online access and email- and calendar-dependent features of other services. Most core Teams functions, including calls, meetings, group chats and channel messages, are described as working; direct access to SharePoint files remains functional. This does not establish an outage of all Azure services, data loss or a measured recovery rate across all customers.\n\nThe update promised another statement by 10:30 Israel time, already past when checked. That is not a guaranteed resolution time. This item does not establish that a newer update fulfilled that promise, and it does not recommend removing sensitivity labels or organizational data protections.",
+    "קישור": "https://status.cloud.microsoft/",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/api/feed/mac",
+        "label": "Microsoft: RSS רשמי, עדכון האירוע ב-07:29:09 UTC",
+        "label_en": "Microsoft: official RSS incident update at 07:29:09 UTC"
+      },
+      {
+        "url": "https://status.cloud.microsoft/",
+        "label": "Microsoft: עמוד בריאות השירות הציבורי",
+        "label_en": "Microsoft: public service-health page"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8128d235635010469d4a2a6998ecde50824f8794dea80bde91591327101d1e43"
+      }
+    },
+    "מזהה": "n-1546",
+    "הועלה": "2026-11-13 10:37"
   }
 ]
