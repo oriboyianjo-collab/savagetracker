@@ -40682,5 +40682,41 @@
     },
     "מזהה": "n-1571",
     "הועלה": "2026-11-13 11:53"
+  },
+  {
+    "category": "macro",
+    "חברה": "ארה״ב / Kalshi",
+    "חברה_en": "United States / Kalshi",
+    "symbols": [],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "הממשל האמריקאי וה-CFTC תובעים את ארקנסו כדי לעצור אכיפה נגד Kalshi; צו המניעה מבוקש, לא ניתן",
+    "כותרת_en": "US government and CFTC sue Arkansas to halt Kalshi enforcement; injunction requested, not granted",
+    "טקסט": "12.11.2026 | כתב התביעה המקורי, בתיק 4:26-cv-01255-BSM בבית המשפט הפדרלי במחוז המזרחי של ארקנסו, נושא חותמת הגשה מ-12 בנובמבר. המסמך חתום בתאריך 10 בנובמבר; תאריך החתימה אינו תאריך ההגשה. שעת ההגשה לא אומתה. המבוא והצדדים בעמודים 1-6, וכן עילת התביעה, הסעדים והחתימות בעמודים 31-34, נקראו ישירות בעותק CourtListener; לא כל הדיון המשפטי שבאמצע המסמך.\n\nארצות הברית וה-CFTC הגישו תביעה נגד מדינת ארקנסו והתובע הכללי Tim Griffin בתפקידו הרשמי. הן מבקשות למנוע אכיפת דיני המדינה נגד חוזי אירועים הנסחרים בזירות נגזרים בפיקוח ה-CFTC, על רקע תביעת האכיפה שארקנסו הגישה נגד Kalshi ב-4 בנובמבר.\n\nעמדת התובעים הפדרליים היא שחוזי האירועים הרלוונטיים הם swaps לפי Commodity Exchange Act, שהפיקוח עליהם נמסר בלעדית ל-CFTC, ושדיני ארקנסו נסוגים מפני המסגרת הפדרלית. זו טענה משפטית בכתב תביעה, לא הכרעה של בית המשפט שכל חוזה כזה חוקי או שכל דיני ההימורים המדינתיים בטלים.\n\nבסעדי התביעה מבוקשים פסק דין הצהרתי וצו מניעה מקדמי וקבוע נגד חקירה ואכיפה מדינתית בהקשר לעסקאות הרשומות, מוצעות או מבוצעות בזירות DCM בפיקוח ה-CFTC. היקף הבקשה כולל גם גורמים קשורים ושותפים של הגופים המפוקחים. עצם הבקשה בכתב התביעה אינו צו שניתן, ולא אומת כאן שהוגשה גם בקשת ביניים נפרדת או שנקבע מועד לדיון.\n\nהחידוש הוא התערבות של הממשל הפדרלי כתובע בהליך ארקנסו. זהו תיק נפרד מהליכי ניו יורק וקונטיקט על חוזי ספורט, מבדיקת הגשת חוזי מזג האוויר ב-Kalshi ומהסכסוך על חוזי מניות ללא פקיעה. כתב התביעה אינו מסיים הליכים אלה ואינו קובע זכאות אוטומטית של כל לקוח או מוצר למסחר.\n\nאין כאן הודעה על הסרת מגבלות מסחר שכבר בוצעה, הרחבת גישה ארצית מיידית, פסק דין סופי בשאלת הסמכות או קנס שנפסק נגד ארקנסו. דיווח The Block מ-13 בנובמבר שימש לאיתור ההתפתחות; תאריך ההליך נשמר כ-12 בנובמבר.",
+    "טקסט_en": "November 12, 2026 | The original complaint in case 4:26-cv-01255-BSM in the Eastern District of Arkansas bears a November 12 filing stamp. The signature date is November 10, which is not the filing date. The filing time was not verified. The introduction and parties on pages 1-6 and the claim, requested relief and signatures on pages 31-34 were read directly in the CourtListener copy, not all intervening legal analysis.\n\nThe United States and the CFTC sued the State of Arkansas and Attorney General Tim Griffin in his official capacity. They seek to prevent state-law enforcement against event contracts traded on CFTC-regulated derivatives markets, following Arkansas's November 4 enforcement suit against Kalshi.\n\nThe federal plaintiffs argue that the relevant event contracts are swaps under the Commodity Exchange Act, that the CFTC has exclusive regulatory jurisdiction and that federal law preempts Arkansas law as applied to those transactions. These are legal allegations in a complaint, not a court determination that every such contract is lawful or that all state gambling laws are invalid.\n\nThe complaint requests declaratory relief and preliminary and permanent injunctions against state investigation and enforcement concerning transactions listed, offered or executed on CFTC-regulated designated contract markets, or DCMs. The requested scope also includes regulated entities' affiliates and partners. A request in a complaint is not a granted injunction. No separate interim-relief motion or hearing date was verified here.\n\nThe development is the federal government's intervention as a plaintiff in the Arkansas dispute. This is separate from the New York and Connecticut sports-contract cases, Kalshi's weather-contract filing investigation and the perpetual stock-futures dispute. The complaint does not resolve those proceedings or establish automatic trading eligibility for every customer or product.\n\nThis is not confirmation that trading restrictions have already been lifted, immediate nationwide access, a final jurisdiction ruling or a penalty awarded against Arkansas. The Block's November 13 report led to the development; the proceeding retains its November 12 date.",
+    "קישור": "https://storage.courtlistener.com/recap/gov.uscourts.ared.155177/gov.uscourts.ared.155177.1.0.pdf",
+    "מקורות": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ared.155177/gov.uscourts.ared.155177.1.0.pdf",
+        "label": "כתב התביעה המקורי: חותמת, צדדים וסעדים, CourtListener",
+        "label_en": "Original complaint: filing stamp, parties and relief, CourtListener"
+      },
+      {
+        "url": "https://www.theblock.co/news/regulation/2026-11-13-doj-cftc-sue-arkansas-to-block-state-enforcement-action-against-kalshi-439669",
+        "label": "The Block: דיווח ההמשך מ-13 בנובמבר",
+        "label_en": "The Block: November 13 follow-up report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "58b4319f6709b63fa0ae8b7a16ae659e34f71241cc4a46e9a1ee3c84ad814ca1"
+      }
+    },
+    "מזהה": "n-1572",
+    "הועלה": "2026-11-13 12:03"
   }
 ]
