@@ -40168,5 +40168,38 @@
     },
     "מזהה": "n-1557",
     "הועלה": "2026-11-13 10:49"
+  },
+  {
+    "category": "micro",
+    "חברה": "NVIDIA / NVDA",
+    "חברה_en": "NVIDIA / NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "לפי Financial News, שר המדע הקוריאני אומר ששיתוף הפעולה ואספקת 260 אלף GPU מ-NVIDIA נשארים בתכנון לאחר עזיבת הואנג",
+    "כותרת_en": "Financial News: Korean minister says NVIDIA cooperation and existing 260,000-GPU supply plan continue after Huang exit",
+    "טקסט": "לא מאומת מול מקור ראשוני\n13.11.2026 | כתבת Financial News מאת Yoon Hong-jip נקראה במלואה. היא מצטטת פוסט פייסבוק של סגן ראש הממשלה ושר המדע וה-ICT באה קיונג-הון; הפוסט המקורי לא נקרא ישירות ולא אותרה הודעת MSIT תואמת. חותמת האתר היא 17:27:43 ללא אזור זמן מסומן, ולכן אינה מומרת כאן לשעת פרסום בישראל.\n\nלפי הכתבה, השר אמר שלאחר ישיבת בדיקה עם NVIDIA באותו בוקר, בראשות סגן השר השני, אושר מחדש שהחברה מתכוונת להמשיך בתוכנית הקיימת לאספקת 260 אלף GPU מתקדמים ובשיתוף הפעולה עם חברות קוריאניות. החידוש הוא ההצהרה לאחר עזיבת ג'נסן הואנג, לא הזמנת 260 אלף יחידות נוספת או אישור שכולן כבר נמסרו.\n\nהשר מצוטט גם לגבי תוכנית הממשלה להשגת כושר מחשוב שווה ערך ל-50 אלף GPU: כ-35 אלף בהשגה ישירה, מהם כ-21 אלף כבר הובטחו וכ-14 אלף צפויים עד תחילת 2027, ועוד כ-15 אלף דרך המרכז הלאומי למחשוב AI. נתוני התוכנית הממשלתית מחושבים לפי כושר מחשוב של NVIDIA B200, ולא בהכרח כמספר שבבים פיזיים. המונח הובטחו אינו קובע שכל הקיבולת כבר מופעלת, ואין לחבר את תוכנית הממשלה לסך 260 האלף כאילו זו הזמנה נוספת נפרדת.\n\nלדבריו כפי שצוטטו, הצדדים ימשיכו בקישור שבבי AI קוריאניים לפלטפורמת NVIDIA באמצעות NVLink, בתשתיות מחשוב, במחקר משותף בתחום AI פיזי ובהכשרת עובדים. הדיונים על אירוח כנס GTC בקוריאה נמשכים; אין זו הכרזה על תאריך כנס מחייב או על פריסה טכנולוגית שכבר הושלמה.\n\nב-n-1076 נמסרה הבטחת אספקה מוקדמת יותר, לפני הודעת העזיבה, וב-n-1078 תואר מזכר NVLink Fusion עם SK Telecom ו-Rebellions. העדכון כאן הוא בדיקה מחודשת והצהרת המשכיות מדווחת לאחר חילופי ההנהלה, לצד תמונת מצב ממשלתית בכושר מחשוב. זו אינה תחזית הכנסה חדשה ל-NVIDIA, שינוי בתנאי חוזה או ערובה שלא יהיו עיכובים בעתיד.",
+    "טקסט_en": "Not verified against a primary source\nNovember 13, 2026 | Yoon Hong-jip's complete Financial News article was read. It quotes Deputy Prime Minister and Science/ICT Minister Bae Kyung-hoon's Facebook post; the original post was not directly read and a matching MSIT release was not found. The site shows 17:27:43 without a labeled timezone, so no Israeli publication clock is assigned here.\n\nThe article quotes Bae as saying a review with NVIDIA that morning, chaired by the second vice minister, reconfirmed the company's intention to continue its existing plan to supply 260,000 advanced GPUs and cooperate with Korean companies. The increment is the post-Huang-exit statement, not another 260,000-unit order or confirmation all units have arrived.\n\nBae is also quoted on the government's plan for computing capacity equivalent to 50,000 GPUs: roughly 35,000 procured directly, of which about 21,000 are secured and 14,000 expected by early 2027, plus about 15,000 through the National AI Computing Center. These government-program figures are measured in NVIDIA B200 computing equivalents, not necessarily physical chip counts. Secured does not establish that all capacity is operational, and the government program must not be added to the 260,000 total as a separate incremental order.\n\nThe quoted plans include linking domestic AI chips with NVIDIA's platform through NVLink, computing infrastructure, joint physical-AI research and talent development. Discussions about hosting GTC in Korea continue; this is not a firm event date or completed technology deployment.\n\nn-1076 covered earlier supply assurances before the departure announcement, while n-1078 covered the SK Telecom/Rebellions NVLink Fusion memorandum. This update is a reported post-leadership-change review and continuity statement, with a government computing-capacity status update. It is not a new NVIDIA revenue forecast, contract amendment or guarantee against future delays.",
+    "קישור": "https://en.fnnews.com/news/202611131725446384",
+    "מקורות": [
+      {
+        "url": "https://en.fnnews.com/news/202611131725446384",
+        "label": "Financial News: כתבה מלאה, הצהרת השר ותוכנית קיבולת B200",
+        "label_en": "Financial News: complete article, minister statement and B200-capacity program"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d2fd148bd53167b87681ad89ea3b77c13dc7eb8638a555b4416047d6a1dde7e5"
+      }
+    },
+    "מזהה": "n-1558",
+    "הועלה": "2026-11-13 10:51"
   }
 ]
