@@ -42977,5 +42977,38 @@
     },
     "מזהה": "n-1641",
     "הועלה": "2026-11-13 20:17"
+  },
+  {
+    "category": "micro",
+    "חברה": "Oracle (ORCL)",
+    "חברה_en": "Oracle (ORCL)",
+    "symbols": [
+      "ORCL"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 20:17",
+    "כותרת": "Oracle: משרדי הווטרנים והמלחמה בארה״ב החלו להשתתף ברשת חילופי המידע הרפואי שלה ב-5 בנובמבר",
+    "כותרת_en": "Oracle: US Veterans Affairs and War departments began participating in its health-information network on November 5",
+    "קישור": "https://www.prnewswire.com/news-releases/department-of-veterans-affairs-and-department-of-war-go-live-on-oracle-health-information-network-to-expand-nationwide-health-information-exchange-302939220.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/department-of-veterans-affairs-and-department-of-war-go-live-on-oracle-health-information-network-to-expand-nationwide-health-information-exchange-302939220.html",
+        "label": "Oracle: ההודעה המלאה דרך PR Newswire, 13 בנובמבר 13:17 ET",
+        "label_en": "Oracle: full PR Newswire release, November 13 at 13:17 ET"
+      }
+    ],
+    "טקסט": "13.11.2026, 20:17 בישראל (13:17 ET) | הודעת Oracle המלאה נקראה. החברה מודיעה היום שמשרד הווטרנים האמריקאי (VA) ומשרד המלחמה (DoW) החלו להשתתף ברשת Oracle Health Information Network כבר ב-5 בנובמבר. זהו דיווח חדש על תחילת השתתפות קודמת, לא עלייה לאוויר שמתרחשת היום. הממצא מיוחס לחברה ולא אומת בהודעה ממשלתית עצמאית.\n\nהרשת מוגדרת QHIN במסגרת TEFCA לחילופי מידע רפואי. לפי Oracle, ההשתתפות בונה על מערכת JHIE הקיימת ומרחיבה את הגישה למידע מארגוני בריאות משתתפים ברחבי ארה״ב. קלינאים יכולים לעיין במידע ובמקרים המתאימים לשלבו בתיק המטופל באמצעות Seamless Exchange, כדי לצמצם כפילויות. זה אינו אישור שכל מוסד או כל מערכת בשני המשרדים הושלמו בפריסה אחת.\n\nהחברה אומרת שעם הזמן הגישה עשויה לכלול מידע נוסף כגון הדמיות, תרופות ונתונים שאינם זמינים באותה מידה כיום. אין להפוך את האפשרות העתידית להכרזה שכל סוגי המידע האלה כבר זמינים. שיפור תיאום הטיפול וצמצום בדיקות כפולות מוצגים כתועלות צפויות, לא כתוצאות קליניות מדודות שכבר הוכחו.\n\nבהודעה לא נמסרו שווי חוזה, תוספת הכנסות, תשלום חדש או מספר משתמשים חדשים ששילמו. העובדה ששני המשרדים משרתים מיליוני זכאים אינה מספר חשבונות חדשים ברשת. החידוש הוא תחילת השתתפות ברשת חילופי מידע, לא זכייה חדשה במכרז או השקעת ענן בסכום שלא פורסם.",
+    "טקסט_en": "November 13, 2026, 20:17 Israel (13:17 ET) | The full Oracle announcement was read. Oracle says the US Department of Veterans Affairs (VA) and Department of War (DoW) began participating in Oracle Health Information Network on November 5. This is a new announcement about an earlier start, not a go-live taking place today. The finding is attributed to Oracle and was not independently verified in a government announcement.\n\nThe network is a designated QHIN under the TEFCA health-information exchange framework. Oracle says participation builds on the existing Joint Health Information Exchange and expands access to information from participating healthcare organizations across the US. Clinicians can review information and, when appropriate, reconcile it into patient charts using Seamless Exchange to limit duplication. This does not establish that every facility or system in both departments has completed one universal rollout.\n\nOracle says access may eventually include additional medical images, medications and other information not as readily available today. That future possibility must not be presented as confirmation that every data type is already available. Better care coordination and fewer duplicate tests are proposed benefits, not measured clinical outcomes already demonstrated.\n\nThe release gives no contract value, incremental revenue, new payment or count of newly paying users. The departments serving millions of beneficiaries does not equal millions of new network accounts. The development is participation in an information-exchange network, not a new paid contract award or an undisclosed cloud investment.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "639cc96ad149d8f179eea58b3221b11483532e179264597aa6bca7fe43eeee9c"
+      }
+    },
+    "מזהה": "n-1642",
+    "הועלה": "2026-11-13 20:27"
   }
 ]
