@@ -42915,5 +42915,34 @@
     },
     "מזהה": "n-1639",
     "הועלה": "2026-11-13 18:40"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13 20:00",
+    "כותרת": "Baker Hughes: מספר אסדות הקידוח בארה״ב ירד ב-3 ל-601; אסדות הנפט ללא שינוי על 463",
+    "כותרת_en": "Baker Hughes: US rig count falls by 3 to 601; oil rigs unchanged at 463",
+    "קישור": "https://rigcount.bakerhughes.com/na-rig-count",
+    "מקורות": [
+      {
+        "url": "https://rigcount.bakerhughes.com/",
+        "label": "Baker Hughes: טבלת הסיכום הרשמית ל-13 בנובמבר",
+        "label_en": "Baker Hughes: official November 13 summary table"
+      },
+      {
+        "url": "https://rigcount.bakerhughes.com/static-files/6632a48d-1e29-4927-8277-4ae395855a87",
+        "label": "Baker Hughes: חוברת North America Rig Count, גיליונות NAM Summary ו-NAM Breakdown",
+        "label_en": "Baker Hughes: North America Rig Count workbook, NAM Summary and NAM Breakdown sheets"
+      }
+    ],
+    "טקסט": "13.11.2026 | טבלת Baker Hughes וחוברת הנתונים הרשמית נקראו. הספירה השבועית מתייחסת ל-13 בנובמבר, בהשוואה ל-6 בנובמבר. שעת 20:00 בישראל היא מועד הפרסום השבועי הרגיל (12:00 בצהריים במרכז ארה״ב), לא חותמת זמן מדויקת שאומתה לקובץ.\n\nמספר אסדות הקידוח הפעילות בארה״ב ירד ב-3 ל-601, לעומת 604 בשבוע הקודם. אסדות הנפט נותרו על 463, אסדות הגז ירדו ב-4 ל-127, וקטגוריית אחרות עלתה באחת ל-11. לכן הירידה בסך הכול אינה ירידה של שלוש אסדות נפט.\n\nבחלוקה לפי מיקום, בארה״ב נספרו 587 אסדות יבשתיות, אחת במים פנימיים ו-13 בים. בקנדה עלה הסך ב-10 ל-233, אך זהו נתון נפרד ואין לצרפו לסך האמריקאי. הספירה האמריקאית גבוהה ב-52 לעומת 549 ב-14 בנובמבר 2025.\n\nזו ספירת פעילות קידוח, לא נתון תפוקת נפט או גז, לא כמות בארות חדשות ולא תחזית הכנסות של Baker Hughes. לא נמצא צפי מאומת ולכן אין להציג הפתעה מול קונצנזוס. ניתוח השינוי השבועי מבוסס על שורות הסיכום לפי סוג ומיקום; אין להסיק ממנו לבדו שינוי מיידי בהיצע האנרגיה.",
+    "טקסט_en": "November 13, 2026 | The Baker Hughes table and official workbook were read. The weekly count is dated November 13 and compares with November 6. 20:00 Israel is the usual weekly release time (noon US Central), not an exact verified file timestamp.\n\nActive US drilling rigs fell by 3 to 601 from 604. Oil rigs were unchanged at 463, gas rigs fell by 4 to 127, and miscellaneous rigs rose by one to 11. The total decline is therefore not a three-rig decline in oil drilling.\n\nBy location, the US count comprises 587 land rigs, one inland-water rig and 13 offshore rigs. Canada rose by 10 to 233, a separate country count that must not be added to the US total. The US count is 52 above the 549 recorded on November 14, 2025.\n\nThis measures drilling activity, not oil or gas production, new wells or Baker Hughes revenue guidance. No verified consensus was found, so no consensus surprise is claimed. The weekly comparison uses the summary rows by drilling target and location; it does not establish an immediate change in energy supply.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "24a0c8c23f5f1f1b7eeae87b451fa4e82a416c2ab03a7901cdb8addc7d3923bb"
+      }
+    },
+    "מזהה": "n-1640",
+    "הועלה": "2026-11-13 20:03"
   }
 ]
