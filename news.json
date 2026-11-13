@@ -39852,5 +39852,77 @@
     },
     "מזהה": "n-1548",
     "הועלה": "2026-11-13 10:39"
+  },
+  {
+    "category": "micro",
+    "חברה": "NVIDIA / NVDA",
+    "חברה_en": "NVIDIA / NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 10:31",
+    "כותרת": "NVIDIA: תחקיר Reuters מזהה פרויקטי מחשוב סיניים בכ-3.2 מיליארד דולר הנשענים על שבבים מוגבלים; לא היקף מכירות החברה",
+    "כותרת_en": "NVIDIA: Reuters identifies about $3.2bn of Chinese computing projects reliant on restricted chips, not company sales",
+    "טקסט": "לא מאומת מול מקור ראשוני\n13.11.2026, 10:31 בישראל (03:31 EST) | תחקיר Reuters מאת Eduardo Baptista נקרא במלואו בהפצת StreetInsider עד קרדיט העריכה. יותר מ-150 רשומות רכש, תוכניות השקעה, חוזי בנייה ודיווחי חברות שנבדקו בידי הסוכנות לא נקראו כאן בנפרד.\n\nReuters זיהתה פרויקטים והסכמי ציוד בסין בשווי מדווח משולב של יותר מ-23 מיליארד יואן, כ-3.2 מיליארד דולר, הנשענים על מעבדי NVIDIA הכפופים להגבלות אמריקאיות. התחקיר מתאר שימוש מתוכנן או קיים ב-H100, H200 ו-H800 במיזמים מקומיים, באוניברסיטאות ובמרכזי מחשוב אזוריים, מעבר לענקיות הטכנולוגיה הסיניות.\n\nאין לקרוא את המספר כמכירות שבבים של NVIDIA: הסכום כולל השקעות מתוכננות, חוזים חתומים והתקנות שהושלמו, וגם מבנים, מערכות חשמל ותשתיות אחרות. הוא אינו סכום חדש שהחברה גייסה או הכנסה שהכירה בה, ואין בתחקיר הוכחה שכל הפרויקטים יושלמו. בדוגמה ממחוז גאנסו תוכננה התקנת אלפי שבבים עד סוף השנה, אך לא ברור אם הגיעו.\n\nהמשמעות העסקית המדווחת היא ביקוש מתמשך לצד סיכון לעיכובים, שיבושי אספקה או תכנון מחדש עם שבבים מקומיים. אלה סיכונים אפשריים, לא ביטולים או הפסדים של 3.2 מיליארד דולר שכבר התרחשו. הסוכנות אומרת שהרשומות אינן קובעות כיצד הגיעו המעבדים המוגבלים למשתמשים בסין. אין כאן ממצא ש-NVIDIA ביצעה ביודעין יצוא אסור, או החלטת אכיפה חדשה.\n\nהחידוש מול n-1269 על רכישה אוניברסיטאית ספציפית ומול n-0196 על מלאי H200 בהונג קונג הוא רוחב המיפוי הכספי והגאוגרפי. מדדי נתח שוק או משלוחים ממקור אחר אינם זהים ליכולת החברה למכור ישירות לסין ואינם מוכיחים מסלול אספקה. Reuters מבהירה שהפרויקטים שזיהתה לא נקשרו ל-Megaspeed או לטענות הנוגעות להואנג. NVIDIA ומשרד המסחר הסיני לא השיבו מיד לבקשות תגובה בכתבה; אין לייחס להם אישור למסקנות.",
+    "טקסט_en": "Not verified against a primary source\nNovember 13, 2026, 10:31 Israel time (03:31 EST) | Eduardo Baptista's full Reuters investigation was read via StreetInsider through the editing credit. The more than 150 procurement notices, investment plans, construction contracts and corporate disclosures reviewed by Reuters were not separately read here.\n\nReuters identified Chinese projects and equipment agreements with a combined reported value above 23 billion yuan, about $3.2 billion, reliant on NVIDIA processors subject to US restrictions. It describes planned or existing H100, H200 and H800 use in local ventures, universities and regional computing centres, beyond China's biggest technology groups.\n\nThe figure is not NVIDIA chip sales. It combines planned investments, signed contracts and completed installations, including buildings, power systems and other infrastructure. It is not new company fundraising or recognized revenue, nor proof every project will be completed. In one Gansu example, thousands of chips were expected before year-end but their arrival remains unclear.\n\nThe reported business issue is persistent demand alongside possible delays, supply disruptions or redesigns around domestic chips. These are potential risks, not $3.2 billion of cancellations or losses already incurred. Reuters says the records do not establish how restricted processors reached Chinese users. This is not a finding that NVIDIA knowingly made illegal exports or a new enforcement decision.\n\nThe increment over n-1269's specific university purchase and n-0196's Hong Kong H200 inventory is the broader financial and geographic mapping. Market-share or shipment measures from other sources differ from the company's direct selling ability and do not prove a supply route. Reuters explicitly says its identified projects have not been linked to Megaspeed or the allegations involving Huang. NVIDIA and China's commerce ministry did not immediately respond to Reuters; their silence is not agreement with the findings.",
+    "קישור": "https://www.streetinsider.com/Reuters/Exclusive-Huang+exit+and+US+scrutiny+imperil+%243+billion+in+Chinese+AI+projects+reliant+on+Nvidia/27338508.html",
+    "מקורות": [
+      {
+        "url": "https://www.streetinsider.com/Reuters/Exclusive-Huang+exit+and+US+scrutiny+imperil+%243+billion+in+Chinese+AI+projects+reliant+on+Nvidia/27338508.html",
+        "label": "Reuters דרך StreetInsider: התחקיר המלא, 13 בנובמבר 03:31 EST",
+        "label_en": "Reuters via StreetInsider: full investigation, November 13 at 03:31 EST"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e4856487d55db7a70279e2a53542514844386d4205a19e6c1d018d0f9ada1f0e"
+      }
+    },
+    "מזהה": "n-1549",
+    "הועלה": "2026-11-13 10:42"
+  },
+  {
+    "category": "micro",
+    "חברה": "Alphabet / GOOGL",
+    "חברה_en": "Alphabet / GOOGL",
+    "symbols": [
+      "GOOG",
+      "GOOGL"
+    ],
+    "sectors": [
+      "communication_services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "עדכון Alphabet: לפי Reuters, הנפקות HKD ו-SGD תומחרו בכ-3.8 מיליארד דולר; הסליקה עדיין מתוכננת ל-19 בנובמבר",
+    "כותרת_en": "Alphabet update: Reuters reports about $3.8bn of HKD/SGD bonds priced; settlement remains scheduled for November 19",
+    "טקסט": "לא מאומת מול מקור ראשוני\n12.11.2026 | דיווח Reuters נקרא במלואו ב-The Standard וב-The Edge. מסמכי התנאים שעליהם הסתמכה הסוכנות לא נקראו ישירות; שעת הפרסום המקורית לא אומתה. זו השלמת סיקור של התמחור, לא חדשות חדשות מ-13 בנובמבר.\n\nלפי Reuters, Alphabet מתמחרת את הנפקותיה הראשונות בדולר הונג-קונגי ובדולר סינגפורי בהיקף משולב של כ-3.8 מיליארד דולר שווה ערך, מעל יעד ראשוני של כ-3 מיליארד. החלק בהונג קונג הוא 16 מיליארד HKD והחלק בסינגפור 2.28 מיליארד SGD, בשבע סדרות. ביקושים של יותר מ-7 מיליארד דולר הם הזמנות בספרים, לא התמורה שתקבל החברה.\n\nבהונג קונג דווח על תמחור 7.5 מיליארד HKD לשנתיים בתשואת הנפקה של 4.35%, שבעה מיליארד לחמש שנים ב-4.70%, ו-1.5 מיליארד לעשר שנים ב-5.20%. בסינגפור: 370 מיליון SGD לשנתיים ב-2.50%, 900 מיליון לחמש שנים ב-3.00%, 330 מיליון לעשר שנים ב-3.40%, ו-680 מיליון ל-30 שנה ב-3.80%.\n\nאלה תשואות תמחור מדווחות, לא אישור עצמאי של קופונים במסמכי המנפיק. הסליקה מיועדת ל-19 בנובמבר; אין לקבוע שהכסף כבר התקבל. הדירוגים Aa2 של Moody's ו-AA+ של S&P מתוארים כצפויים, לא כדירוג סופי שאומת כאן.\n\nהחידוש מול n-1405 הוא גודל ההנפקה והתמחור המדווחים לכל סדרה, מעבר להנחיות התשואה ולספרי הביקוש. הרשומות הקודמות נשמרות ללא שינוי. לפי מסמכי התנאים כפי שמביאה Reuters, התמורה מיועדת למטרות כלליות של החברה, שעשויות לכלול פירעון חוב. הקשר להשקעות AI אינו הקצאה מחייבת של כל התמורה לתשתיות AI, וזו עסקה נפרדת מהנפקת האירו שכבר סוקרה.",
+    "טקסט_en": "Not verified against a primary source\nNovember 12, 2026 | The full Reuters report was read in The Standard and The Edge. Its underlying term sheets were not directly read, and the original publication clock was not verified. Catch-up coverage of pricing, not a new November 13 transaction.\n\nReuters reports Alphabet is pricing its first Hong Kong and Singapore dollar bonds at a combined equivalent of about $3.8 billion, above its initial roughly $3 billion target. The seven-tranche deal comprises HK$16 billion and S$2.28 billion. Orders above $7 billion are book demand, not company proceeds.\n\nReported Hong Kong pricing: HK$7.5 billion for two years at a 4.35% reoffer yield, HK$7 billion for five years at 4.70%, and HK$1.5 billion for ten years at 5.20%. Singapore pricing: S$370 million for two years at 2.50%, S$900 million for five years at 3.00%, S$330 million for ten years at 3.40%, and S$680 million for 30 years at 3.80%.\n\nThese are reported pricing yields, not independently verified issuer-document coupons. Settlement is scheduled for November 19, so receipt of the money is not established. Moody's Aa2 and S&P's AA+ are described as expected ratings, not final ratings verified here.\n\nThe increment over n-1405 is the reported issue size and tranche pricing, beyond yield guidance and order books. Earlier records remain unchanged. According to Reuters' description of the term sheets, proceeds are for general corporate purposes, potentially including debt repayment. The AI-investment context does not earmark all proceeds for AI infrastructure, and this is separate from the previously covered euro sale.",
+    "קישור": "https://www.thestandard.com.hk/finance/article/348350/Alphabet-raises-US38-billion-in-first-Hong-Kong-Singapore-dollar-bonds",
+    "מקורות": [
+      {
+        "url": "https://www.thestandard.com.hk/finance/article/348350/Alphabet-raises-US38-billion-in-first-Hong-Kong-Singapore-dollar-bonds",
+        "label": "Reuters דרך The Standard: תמחור, גודל וסליקה עתידית",
+        "label_en": "Reuters via The Standard: pricing, size and future settlement"
+      },
+      {
+        "url": "https://theedgemalaysia.com/node/825441",
+        "label": "Reuters דרך The Edge: הטקסט המלא בהפצה נוספת",
+        "label_en": "Reuters via The Edge: full text in another syndication"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1943ee984ceffda832146b31dcf46d4c516a3dddf8f962e187ace91804e6fb9e"
+      }
+    },
+    "מזהה": "n-1550",
+    "הועלה": "2026-11-13 10:42"
   }
 ]
