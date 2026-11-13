@@ -43254,5 +43254,34 @@
     },
     "מזהה": "n-1651",
     "הועלה": "2026-11-13 21:41"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13 21:43",
+    "כותרת": "עדכון: קווין הסט מכחיש ל-CNBC את הדיווח על עזיבתו הצפויה את הבית הלבן: \"לא נכון\"",
+    "כותרת_en": "Update: Kevin Hassett tells CNBC report of expected White House departure is \"not true\"",
+    "קישור": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
+        "label": "CNBC: הדיווח המקורי המלא על הודעת הטקסט של הסט ל-Eamon Javers, 13 בנובמבר 14:43 EST",
+        "label_en": "CNBC: full original report on Hassett text to Eamon Javers, November 13 at 14:43 EST"
+      },
+      {
+        "url": "https://www.semafor.com/article/11/13/2026/hassett-expected-to-depart-white-house",
+        "label": "Semafor: הדיווח הקודם על תוכניות עזיבה, נקרא שוב לצורך השוואה; לא פורסמה בו חזרה מהדיווח בנוסח שנבדק",
+        "label_en": "Semafor: earlier departure-plans report reread for comparison; checked version carries no retraction"
+      }
+    ],
+    "טקסט": "לא אומת מול מקור ראשוני פומבי של הסט: מבוסס על הודעת טקסט ש-CNBC אומרת שקיבלה ממנו. הכתבה המקורית המלאה נקראה. 13 בנובמבר 2026, 21:43 בישראל (14:43 EST).\n\nקווין הסט, מנהל המועצה הכלכלית הלאומית בבית הלבן, אמר ל-Eamon Javers מ-CNBC בהודעת טקסט שהדיווח על עזיבתו הצפויה בשבועות הקרובים הוא \"לא נכון\". זהו עדכון מהותי ונפרד ל-n-1644, שדיווח קודם על הציפייה לעזיבה לפי שלושה מקורות של Semafor.\n\nיש כעת דיווח על תוכניות מפי מקורות מול הכחשה מפורשת המיוחסת להסט עצמו. אין להציג את העזיבה כעובדה שהוכרזה, את ההכחשה כהוכחה עצמאית לכל תוכנית עתידית, או את הפרסום הקודם כהודעה רשמית על התפטרות. פריט n-1644 נשמר כתיעוד הדיווח וההסתייגויות שפורסמו אז, ולא שוכתב בדיעבד.\n\nכתבת Semafor נקראה שוב. בנוסח שנבדק היא עדיין מייחסת את הציפייה לעזיבה לשלושה אנשים ומבהירה שהתוכניות לא הוכרזו ועלולות להשתנות; לא הופיעה בו חזרה רשמית מהדיווח. הכחשת הסט אינה מעידה ש-Semafor חזרה בה. אין כאן מינוי מחליף, מועד עזיבה מאושר או שינוי מדיניות כלכלית.",
+    "טקסט_en": "Not verified against a public primary statement from Hassett: based on a text message CNBC says it received from him. The full original article was read. November 13, 2026, 21:43 Israel (14:43 EST).\n\nNational Economic Council Director Kevin Hassett told CNBC's Eamon Javers in a text message that the report he is expected to leave the White House in the coming weeks is \"not true.\" This is a material separate update to n-1644, which covered Semafor's earlier report attributed to three people familiar with his plans.\n\nThere is now source-based reporting about plans alongside an explicit denial attributed to Hassett himself. Departure must not be presented as an announced fact, the denial as independent proof of every future plan, or the earlier item as an official resignation announcement. Item n-1644 remains a historical record of the report and caveats published then; it has not been rewritten retrospectively.\n\nSemafor's article was reread. The checked version still attributes expected departure to three people and says the plans have not been announced and could change; it contains no formal retraction. Hassett's denial does not mean Semafor has withdrawn its reporting. No replacement appointment, confirmed departure date or economic policy change is announced here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "817829a4dbe5e7bad883a2d5bb7ae84fb4f152a8581c534a3d06e64ef7697114"
+      }
+    },
+    "מזהה": "n-1652",
+    "הועלה": "2026-11-13 21:52"
   }
 ]
