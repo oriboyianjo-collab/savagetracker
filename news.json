@@ -42561,5 +42561,44 @@
     },
     "מזהה": "n-1628",
     "הועלה": "2026-11-13 17:09"
+  },
+  {
+    "category": "micro",
+    "חברה": "Uber (UBER)",
+    "חברה_en": "Uber (UBER)",
+    "symbols": [
+      "UBER"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "16:57",
+    "כותרת": "Uber (UBER): הודעות על חשיפת מידע אישי ורישיונות נהיגה בפריצה לספק; לפי TechCrunch, הספק הוא Fireworks AI",
+    "כותרת_en": "Uber (UBER): notices disclose personal and driver license data exposure at a vendor; TechCrunch identifies Fireworks AI",
+    "קישור": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+    "מקורות": [
+      {
+        "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+        "label": "TechCrunch: הכתבה המלאה, 13 בנובמבר 06:57 PST",
+        "label_en": "TechCrunch: full article, November 13 at 06:57 PST"
+      },
+      {
+        "url": "https://oag.ca.gov/system/files/Multistate%20Template%20-%20Final.pdf",
+        "label": "התובע הכללי בקליפורניה: הודעת Uber המקורית מ-10 בנובמבר",
+        "label_en": "California Attorney General: original Uber notice dated November 10"
+      }
+    ],
+    "טקסט": "13.11.2026 | כתבת TechCrunch המלאה פורסמה ב-06:57 PST, 16:57 בישראל. נקראה גם הודעת Uber המקורית מ-10 בנובמבר, שהוגשה לאתר התובע הכללי בקליפורניה. הפריצה אירעה באוקטובר; אין כאן טענה לפריצה חדשה היום.\n\nUber מודיעה לנפגעים על גישה לא מורשית למידע אישי אצל ספק שירות. לפי ההודעה המקורית, ב-9 באוקטובר הספק דיווח שגורם לא מורשה השתלט על הרשאות פנימיות שלו והשתמש בהן לגישה לחשבון Uber אצל הספק. Uber אומרת שניתקה מיד את חיבורי הנתונים ופתחה בחקירה, שב-13 באוקטובר אישרה גישה למידע שלה אצל הספק.\n\nTechCrunch מדווח שפרטי רישיונות נהיגה של אלפי נהגים נגנבו. הכתבה מצטטת דובר Uber שמזהה את הספק כ-Fireworks AI. זיהוי הספק ופרטי הרישיונות נשענים כאן על הדיווח ועל הציטוט שבו, לא על אימות עצמאי של מערכות החברות; מכתב Uber המקורי אינו נוקב בשם הספק ומשאיר את שדות המידע הספציפיים כמשתנה בתבנית.\n\nלפי ההגשות שקרא TechCrunch, במסצ'וסטס נמנו 2,567 נפגעים, בדרום קרוליינה 3,430 וברוד איילנד 1,873. מספר רוד איילנד מופיע גם בנספח ההודעה המקורית שנקרא כאן. המספר באילינוי עדיין ממתין, ולקליפורניה לא נמסר מספר בכתבה. לא פורסם סך נפגעים ארצי; אין לחבר את המספרים לסך אנשים ייחודיים או לטעון שכל נהגי Uber נפגעו.\n\nUber מציעה לפי המכתב ניטור אשראי וסיוע נגד הונאה ללא תשלום, בהרשמה בתוך 90 יום מתאריך המכתב. היא אומרת שלא זיהתה שימוש לרעה במידע עד מועד ההודעה; זו אינה הוכחה שלא תתרחש פגיעה בהמשך. משך הניטור בתבנית נותר ריק ולכן אינו מוצג כמספר חודשים מאומת.\n\nהחידוש הוא גילוי היקף הפגיעה בנתוני נהגים והזיהוי המדווח של ספק ה-AI. אין במקורות שנקראו הוכחה להשבתת שירות הנסיעות, לגישה לכל מאגרי Uber, לקנס או להשפעה כספית כמותית. זהו אירוע נפרד ממוצר Uber Parking שכוסה ב-n-1538.",
+    "טקסט_en": "November 13, 2026 | TechCrunch's full article was published at 06:57 PST, 16:57 Israel. Uber's original notice dated November 10, filed on the California Attorney General's website, was also read. The breach occurred in October; this is not a claim of a new intrusion today.\n\nUber is notifying affected people of unauthorized access to personal information at a service provider. Its original notice says that on October 9 the provider reported compromised internal credentials used to access Uber's account with that provider. Uber says it immediately severed data connections and launched an investigation, which confirmed access to its data at the provider on October 13.\n\nTechCrunch reports that thousands of drivers' license details were stolen. The article quotes an Uber spokesperson identifying the vendor as Fireworks AI. The vendor identity and license details here rely on that report and its quoted spokesperson, not independent inspection of company systems. Uber's original letter does not name the vendor and leaves the specific data elements as a template field.\n\nAccording to filings read by TechCrunch, 2,567 people were affected in Massachusetts, 3,430 in South Carolina and 1,873 in Rhode Island. The Rhode Island number also appears in the original notice's addendum read here. The Illinois count was pending, and the article gives no California count. No national total was disclosed. These figures should not be summed into a count of unique people or treated as evidence that every Uber driver was affected.\n\nThe letter offers free credit monitoring and fraud assistance, with enrollment required within 90 days of its date. Uber says it had identified no misuse of the data as of the notice. This does not establish that harm cannot occur later. The monitoring duration is left blank in the template, so no verified number of months is stated here.\n\nThe development is disclosure of driver data exposure and the reported identification of the AI vendor. The sources read do not establish a ride-service outage, access to all Uber databases, a fine or a quantified financial impact. This is separate from the Uber Parking product covered in n-1538.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bd8f4151e714c4df3632ef418a8ce3700035388e8e686012717cf7cf01eab554"
+      }
+    },
+    "מזהה": "n-1629",
+    "הועלה": "2026-11-13 17:11"
   }
 ]
