@@ -39198,5 +39198,42 @@
     "מזהה": "n-1530",
     "הועלה": "2026-11-13 09:39",
     "חברה_en": "Switzerland"
+  },
+  {
+    "category": "micro",
+    "חברה": "MSFT / Australia",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 05:08",
+    "כותרת": "לפי Reuters: אוסטרליה הפעילה הסדר עם Microsoft לתעדוף התאוששות מהתקלה",
+    "כותרת_en": "Reuters: Australia activated a Microsoft arrangement to prioritise outage recovery",
+    "טקסט": "לא מאומת מול מקור ראשוני: הפעלת ההסדר היום ופגיעת התקלה ב-ASIO ובמשטרה הפדרלית מבוססות על דיווח Reuters ממסיבת עיתונאים, לא על תמליל ממשלתי שנקרא. מסמך ההבנות הקיים עצמו נקרא ישירות באתר משרד הפנים האוסטרלי.\n\nהשלמת סיקור מ-13.11.2026: דיווח Reuters באתר CNA פורסם ב-05:08 שעון ישראל (11:08 בסינגפור) ועודכן ב-06:01. זו שעת פרסום הכתבה, לא שעת תחילת התקלה או השעה המדויקת של הפעלת ההסדר.\n\nלפי Reuters, שר הפנים האוסטרלי Tony Burke אמר שהממשלה הפעילה הסדר קיים עם Microsoft כדי לתעדף את התאוששות השירותים עבור אינטרסים אוסטרליים. ראש ASIO, Mike Burgess, ונציבת המשטרה הפדרלית Krissy Barrett אמרו באותה מסיבת עיתונאים שגם ארגוניהם הושפעו. הדיווח אינו מכמת את מספר המערכות או המשתמשים אצלם שנפגעו, ואינו אומר שכל הפעילות המבצעית הושבתה.\n\nבמסמך ההבנות הציבורי, סעיף 2.5 אומר שהצדדים יעבדו יחד לתעדוף התאוששות הכלכלה הדיגיטלית האוסטרלית בהקדם האפשרי משיבושים משמעותיים במערכת Microsoft. עם זאת, סעיף 1.2 מגדיר את המסגרת כלא מחייבת, וסעיף 4.1 אינו מקנה בלעדיות או העדפה ואינו מגביל קשרים עם ספקיות אחרות. לכן אין להפוך את דברי השר להבטחה משפטית שאוסטרליה תשוקם לפני כל מדינה אחרת או למועד פתרון מובטח.\n\nההתפתחות הנוספת מעבר לעדכוני התקלה שכבר פורסמו היא הפעלת מסגרת התיאום הממשלתית והאישור המדווח של פגיעה בשני גופי הביטחון. לא הוצגו מדדי הצלחה של ההפעלה, הוכחה ששירותים אוסטרליים כבר חזרו מהר יותר, סכום פיצוי או חוזה רכש חדש.\n\nBurke אמר גם ש-Microsoft מסרה לו שאינה סבורה שמדובר במתקפת סייבר. זו הערכה מיוחסת, ולא הוכחה עצמאית או דוח סיבת שורש. אין כאן הודעה חדשה על פתרון התקלה או אימות לאובדן נתונים; שאלת מצבו העולמי העדכני של השירות נפרדת מהדיווח הזה.",
+    "טקסט_en": "Not verified against a primary source: today's activation and the impact on ASIO and the federal police are based on Reuters' reporting from a news conference, not a government transcript read directly. The existing memorandum itself was read on the Australian Home Affairs website.\n\nCatch-up coverage from November 13, 2026: Reuters' CNA article was published at 05:08 Israel time (11:08 Singapore) and updated at 06:01. These are article times, not the outage start or the precise time the arrangement was activated.\n\nReuters reports that Home Affairs Minister Tony Burke said the government activated an existing arrangement with Microsoft to prioritise service recovery for Australian interests. ASIO Director-General Mike Burgess and Australian Federal Police Commissioner Krissy Barrett said their organisations were also affected. The report does not quantify their affected systems or users, or say all operational activity stopped.\n\nSection 2.5 of the public memorandum says the parties will work together to prioritise recovery of Australia's digital economy as soon as possible after significant disruptions within Microsoft's ecosystem. However, section 1.2 calls this a non-binding framework, and section 4.1 confers no exclusivity or preference and does not limit engagement with other providers. The minister's statement must not be turned into a legal guarantee that Australia will recover before every other country or by a promised deadline.\n\nThe additional development beyond previously published outage updates is activation of the government coordination framework and the reported confirmation of impact at the two security bodies. No performance measures for the activation, evidence of faster Australian restoration, compensation amount or new procurement contract were presented.\n\nBurke also said Microsoft told him it did not believe this was a cyber attack. That is an attributed assessment, not independent proof or a root-cause report. This is not a new announcement that the outage is resolved or verified data loss; the latest global service status is separate from this report.",
+    "קישור": "https://www.channelnewsasia.com/world/australia-spy-agency-federal-police-microsoft-outage-6548446",
+    "מקורות": [
+      {
+        "url": "https://www.channelnewsasia.com/world/australia-spy-agency-federal-police-microsoft-outage-6548446",
+        "label": "Reuters דרך CNA: הפעלת ההסדר והפגיעה ב-ASIO ובמשטרה, 13 בנובמבר",
+        "label_en": "Reuters via CNA: arrangement activation and ASIO/federal-police impact, November 13"
+      },
+      {
+        "url": "https://www.homeaffairs.gov.au/cyber-security-subsite/files/memorandum-of-understanding-on-digital-resilience-to-support-the-security-of-australia.pdf",
+        "label": "משרד הפנים האוסטרלי: מסמך ההבנות הציבורי, לרבות סעיפים 1.2, 2.5 ו-4.1",
+        "label_en": "Australian Home Affairs: public memorandum, including sections 1.2, 2.5 and 4.1"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "516cd4c494209b485d67261c87b689d5af60b1cd7fde056371f504604e596612"
+      }
+    },
+    "מזהה": "n-1531",
+    "הועלה": "2026-11-13 09:45"
   }
 ]
