@@ -42600,5 +42600,39 @@
     },
     "מזהה": "n-1629",
     "הועלה": "2026-11-13 17:11"
+  },
+  {
+    "category": "micro",
+    "חברה": "Applied Digital (APLD)",
+    "חברה_en": "Applied Digital (APLD)",
+    "symbols": [
+      "APLD"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "17:11",
+    "כותרת": "Applied Digital (APLD): ירידה של כ-10.2% במסחר הרגיל; תמונת מחיר ללא סיבה חדשה מאומתת",
+    "כותרת_en": "Applied Digital (APLD): down about 10.2% in regular trading; price snapshot without a verified new cause",
+    "קישור": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+    "מקורות": [
+      {
+        "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+        "label": "CNBC: ציטוט APLD במסחר הרגיל, 13 בנובמבר 10:11:46 EST",
+        "label_en": "CNBC: APLD regular-session quote, November 13 at 10:11:46 EST"
+      }
+    ],
+    "טקסט": "13.11.2026, 17:11:46 בישראל (10:11:46 EST) | ציטוט המסחר הרגיל של CNBC מציג את מניית Applied Digital במחיר 15.2195 דולר, ירידה של 1.7305 דולר, כ-10.21%, מול סגירת היום הקודם ב-16.95 דולר. זו תמונת מצב נקודתית במסחר פתוח, לא מחיר חי מתעדכן ולא תשואת הסגירה.\n\nהשינוי מחושב מול הסגירה הקודמת, לא מול מחיר הפתיחה. נעשה שימוש במחיר האחרון ובחותמת הזמן של המסחר הרגיל, ולא בציטוט מסחר מורחב או בשדה סגירה תוך-יומי שעשוי להתעדכן בנפרד.\n\nלא אומתה סיבה תאגידית חדשה לתנועה הזו. אין בנתון המחיר לבדו אישור לביטול חוזה, אובדן לקוח, דילול, משבר נזילות או עיכוב חדש בפרויקט. אין כאן פרסום תוצאות כספיות או שינויי תחזית.\n\nטיוטת המימון והתמריצים של Delta Forge, שכוללת אפשרות לאגח עד 4.6 מיליארד דולר ואפשרות להצבעת אישור ב-19 בנובמבר, כבר סוקרה ב-n-1554. אין כאן אישור חדש להסכם, הנפקת אגח או קביעה שהטיוטה מסבירה את הירידה. גם הערכת צורכי המימון ופעולת הדירוג שכוסו קודם אינן אירוע חדש כעת.\n\nהחידוש הוא חציית ירידה דו-ספרתית היום במניה נוספת ברשימת המעקב, בנפרד מעדכוני Agility, Nebius ו-CoreWeave ומפריטי APLD הישנים. אין בכך הוכחה לסיבה משותפת לכל המניות או לתנועת מדד באותו שיעור. המחיר יכול להשתנות במהירות לאחר מועד הציטוט.",
+    "טקסט_en": "November 13, 2026, 17:11:46 Israel (10:11:46 EST) | CNBC's regular-session quote shows Applied Digital at $15.2195, down $1.7305, about 10.21%, from the previous close of $16.95. This is a timestamped open-market snapshot, not a live updating price or the closing return.\n\nThe change is from the previous close, not the opening price. It uses the regular-session last price and timestamp, not an extended-session quote or an intraday closing field that may update separately.\n\nNo new company-specific cause for this move was verified. The price alone does not establish a canceled contract, lost customer, dilution, liquidity crisis or new project delay. No earnings summary or forecast revisions are included here.\n\nThe Delta Forge financing and incentive draft, including possible issuance of up to $4.6 billion in bonds and a potential approval vote on November 19, was already covered in n-1554. This is not a new agreement approval, bond issuance or finding that the draft caused the decline. Previously covered funding-needs assessments and rating action are not new developments now either.\n\nThe development is another tracked stock crossing a double-digit decline today, separate from the Agility, Nebius and CoreWeave updates and older APLD items. A common cause across these stocks or a similar index move is not established. The price can change quickly after the quote timestamp.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3283e50187c53acf61332aca3ed392d47eda183e9b3d419f4f82918700961e34"
+      }
+    },
+    "מזהה": "n-1630",
+    "הועלה": "2026-11-13 17:13"
   }
 ]
