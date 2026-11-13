@@ -40466,5 +40466,38 @@
     },
     "מזהה": "n-1565",
     "הועלה": "2026-11-13 11:15"
+  },
+  {
+    "category": "micro",
+    "חברה": "Micron / MU",
+    "חברה_en": "Micron / MU",
+    "symbols": [
+      "MU"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "תגובת Micron דרך AFP: מכחישה שחייבה עובדים לחתום על הסכמים אישיים או לוותר על זכויות; פרישת הוועד כבר סוקרה",
+    "כותרת_en": "Micron response via AFP: denies requiring individual agreements or rights waivers; union withdrawal already covered",
+    "טקסט": "לא מאומת מול מקור ראשוני\n12.11.2026 | כתבת AFP באתר הסוכנות נקראה במלואה. האתר מציג פרסום ב-09:48 ללא אזור זמן; השעה אינה מומרת לישראל. מועד הוספת תגובת החברה לכתבה לא אומת, ואין לייחס אותה כאירוע חדש ל-13 בנובמבר. הודעת Micron עצמאית לא נבדקה כאן.\n\nAFP מביאה כעת תגובת Micron למחלוקת עם ועד העובדים בטאויואן: החברה מכחישה שדרשה מעובדים לחתום על הסכמים אישיים או לוותר על זכויות כלשהן. לדבריה, היא מכבדת את זכויות העובדים החוקיות להתאגד ולנהל משא ומתן קיבוצי, ותמשיך לנסות לקיים דיאלוג בונה עם הוועד. זוהי עמדת החברה דרך AFP, לא ממצא משפטי עצמאי.\n\nמנגד, AFP מצטטת את הוועד כאומר שחבריו רשאים לחתום על הסכם שהחברה דורשת, הכולל לטענתו ויתור על הזכות למחלוקות עתידיות, כדי לקבל בונוסים והטבות חדשות. טענת הוועד והכחשת החברה מוצגות בנפרד; אין כאן קביעה שאחד הצדדים הוכיח את גרסתו או ויתור בפועל של כלל העובדים.\n\nהוועד אמר שלא ישתתף בשיחות שתוכננו ל-17 בנובמבר לאחר שהכיר בכישלון המאבק להסדר חדש לחלוקת רווחים. התפתחות זו כבר סוקרה ב-n-1376, וכך גם העובדה שרק קומץ עובדים הפסיק לעבוד ליום אחד למרות איום קודם של יותר מ-2,000. אין כאן שביתה נרחבת חדשה, עצירת ייצור או הודעה שהשיחות חודשו.\n\nהחידוש הוא תגובת החברה שלא הייתה בעותק הקודם שסוקר ב-n-1376, שבו נכתב שלא השיבה מיד. תגובה זו אינה מאשרת שהמחלוקת נפתרה, שהושג הסכם חדש בטאויואן או שתוכנית המפעל החדש שב-n-0114 בוטלה או חודשה. לא פורסם כאן שינוי בתפוקה, בהכנסות או בתחזית.",
+    "טקסט_en": "Not verified against a primary source\nNovember 12, 2026 | AFP's complete article on its own site was read. Its displayed 09:48 publication clock has no stated timezone and is not converted to Israel time. When the company response was added was not verified; it is not dated here as a new November 13 event. A separate Micron statement was not inspected.\n\nAFP now carries Micron's response to its Taoyuan union dispute: the company denies requiring employees to sign individual agreements or waive any rights. It says it respects lawful rights to organize and bargain collectively and will continue seeking constructive dialogue with the union. This is the company's position via AFP, not an independent legal finding.\n\nAFP separately quotes the union saying members may sign what it describes as a company-required agreement waiving future-dispute rights to receive bonuses and new benefits. The union allegation and company denial are kept separate. Neither account is treated as proven, nor is there confirmation all employees waived rights.\n\nThe union said it would not attend talks scheduled for November 17 after acknowledging its profit-sharing campaign had failed. That development was already covered in n-1376, including the handful who stopped work for one day despite an earlier threat involving more than 2,000. This is not a new widespread strike, production halt or announcement talks resumed.\n\nThe increment is the company response absent from the earlier article version covered in n-1376, which said Micron did not immediately respond. The response does not establish resolution, a new Taoyuan agreement or cancellation/resumption of the new-plant plan in n-0114. No production, revenue or guidance change is reported here.",
+    "קישור": "https://www.afp.com/en/taiwan-union-ends-bonus-talks-micron-after-defeat",
+    "מקורות": [
+      {
+        "url": "https://www.afp.com/en/taiwan-union-ends-bonus-talks-micron-after-defeat",
+        "label": "AFP: כתבה מלאה באתר הסוכנות, כולל הכחשת Micron",
+        "label_en": "AFP: complete agency-site article including Micron denial"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c8660b49f578502efa86d2ea1896805ea2e17c02d838677127c42f4336c88f4b"
+      }
+    },
+    "מזהה": "n-1566",
+    "הועלה": "2026-11-13 11:21"
   }
 ]
