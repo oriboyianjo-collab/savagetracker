@@ -42702,5 +42702,44 @@
     },
     "מזהה": "n-1632",
     "הועלה": "2026-11-13 17:22"
+  },
+  {
+    "category": "micro",
+    "חברה": "Amazon (AMZN)",
+    "חברה_en": "Amazon (AMZN)",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [
+      "consumer_discretionary",
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "Amazon (AMZN): לפי העיתון המקומי, אושרה תוכנית האתר למרכז נתונים של AWS בווילמינגטון, אוהיו, עם התחייבויות כתובות",
+    "כותרת_en": "Amazon (AMZN): local paper reports AWS site-plan approval in Wilmington, Ohio, with written commitments",
+    "קישור": "https://www.wnewsj.com/2026/11/13/wilmington-planning-commission-approves-aws-data-center-site-plan/",
+    "מקורות": [
+      {
+        "url": "https://www.wnewsj.com/2026/11/13/wilmington-planning-commission-approves-aws-data-center-site-plan/",
+        "label": "Wilmington News Journal: דיווח מלא על ההצבעה, 13 בנובמבר",
+        "label_en": "Wilmington News Journal: full vote report, November 13"
+      },
+      {
+        "url": "https://wilmingtonohio.gov/planning-commission-meetings/",
+        "label": "עיריית וילמינגטון: אינדקס הישיבות, ישיבה מיוחדת ב-10 בנובמבר",
+        "label_en": "City of Wilmington: meeting index, special meeting on November 10"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני: החלטת ההצבעה ותנאי התוכנית נשענים על דיווח העיתון המקומי שנקרא במלואו. אינדקס העירייה מאשר ישיבה מיוחדת ב-10 בנובמבר, אך אינו מציג כעת פרוטוקול כתוב שלה; סרטון הישיבה לא נצפה.\n\n13.11.2026 | Wilmington News Journal אינו מציג שעת פרסום. הכתבה מדווחת על הצבעה ביום שלישי, 10 בנובמבר, לא על החלטה חדשה שהתקבלה היום.\n\nלפי העיתון, ועדת התכנון בווילמינגטון, אוהיו, אישרה ברוב של 4 מול 1 את תוכנית האתר למרכז נתונים מוצע של Amazon Web Services, לאחר ישיבה של יותר מחמש שעות. זהו אישור תוכנית אתר, לא אישור שכל היתרי הבנייה והמדינה הושלמו, שהמתקן נבנה או שהוא כבר פועל.\n\nלפני ההצבעה הסופית הוועדה אישרה פה אחד לצרף לתוכנית מסמך התחייבויות של AWS בנושאי רעש, גנרטורי גיבוי, תאורה, שימוש במים, הגנה סביבתית ותנועת כלי רכב בזמן הבנייה. בין הדוגמאות בכתבה: גנרטורים בתקן Tier 4 ותאורה של אפס foot-candles בגבולות נכסים למגורים. אלה התחייבויות תכנון מדווחות, לא מדידות ביצוע שכבר נבדקו.\n\nלפי הדיווח, הדיון התקיים על רקע תביעה של בעלי בתים. צו פדרלי חייב השתתפות ציבורית מורחבת והצגת טיעונים ושאלות לפני ההצבעה. אין באישור התוכנית כשלעצמו הוכחה שהתביעה נדחתה, שהסתיימה או שכל ההתנגדויות נפתרו.\n\nזהו פרויקט בעיר אחרת מההגבלות בסאנברי ובטרנטון שכוסו ב-n-0477 וב-n-0498. אין להסיק ממנו ביטול של מגבלות באותן ערים או שינוי מדיניות בכל אוהיו. הכתבה אינה מוסרת סכום השקעה, קיבולת חשמל או מועד הפעלה מאומתים לפרויקט הזה, ולכן לא הוצמדו אליו מספרי קמפוסים אחרים.",
+    "טקסט_en": "Not verified against a primary decision record: the vote and plan conditions rely on the local newspaper's full report. The city's index confirms a special meeting on November 10 but currently shows no written minutes for it. The meeting video was not watched.\n\nNovember 13, 2026 | Wilmington News Journal gives no publication time. The article reports a vote on Tuesday, November 10, not a new decision made today.\n\nAccording to the paper, Wilmington, Ohio's Planning Commission voted 4-1 to approve the site plan for a proposed Amazon Web Services data center after a meeting lasting more than five hours. This is site-plan approval, not confirmation that all building and state permits are complete, that the facility has been built or that it is operating.\n\nBefore the final vote, the commission unanimously approved adding an AWS commitments document covering noise, backup generators, lighting, water use, environmental protections and construction traffic. Examples in the report include Tier 4 backup generators and zero foot-candles at residential property lines. These are reported planning commitments, not independently checked performance measurements.\n\nThe report places the hearing in the context of a homeowners' lawsuit. A federal order required expanded public participation, arguments and questioning before the vote. Approval does not by itself establish that the lawsuit was dismissed or concluded, or that all opposition was resolved.\n\nThis project is in a different city from the Sunbury and Trenton restrictions covered in n-0477 and n-0498. It does not establish a reversal of those cities' restrictions or an Ohio-wide policy change. The article gives no verified investment amount, power capacity or operating date for this project, so figures from other campuses have not been attached to it.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c77e1c40cdc697c2f7ffef827a8423aa772e0fcf16bc247b1fbe6a8db7c857a7"
+      }
+    },
+    "מזהה": "n-1633",
+    "הועלה": "2026-11-13 17:33"
   }
 ]
