@@ -40571,5 +40571,34 @@
     },
     "מזהה": "n-1568",
     "הועלה": "2026-11-13 11:37"
+  },
+  {
+    "category": "macro",
+    "חברה": "סין / PBOC",
+    "חברה_en": "China / PBOC",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "סין: מלאי המימון למשק הגיע ל-469.16 טריליון יואן בסוף אוקטובר; גידול של 7.2% בשנה",
+    "כותרת_en": "China: outstanding financing reached CNY469.16tn at end-October, up 7.2% year on year",
+    "טקסט": "13.11.2026 | דוח הנתונים הפיננסיים לאוקטובר של הבנק המרכזי של סין. העמוד הרשמי מציג 17:00 ללא אזור זמן מפורש; שעת הפרסום המדויקת בישראל אינה מאומתת כאן. הנתונים מוגדרים ראשוניים.\n\nלפי PBOC, יתרת המימון הכולל לכלכלה הריאלית, TSF, עמדה בסוף אוקטובר על 469.16 טריליון יואן, עלייה של 7.2% לעומת שנה קודם. זהו מלאי מצטבר בנקודת זמן, לא סכום אשראי חדש שניתן באוקטובר ולא תוכנית תמריצים חדשה.\n\nבנפרד, תוספת המימון בינואר-אוקטובר הסתכמה ב-28.61 טריליון יואן, 2.29 טריליון פחות מאשר בעשרת החודשים המקבילים אשתקד. כלומר 28.61 טריליון הם זרם מימון מתחילת השנה, לא יתרת המימון בסוף אוקטובר ולא התוספת של אוקטובר לבדו.\n\nבתוך מלאי ה-TSF, יתרת ההלוואות ביואן לכלכלה הריאלית עמדה על 279.31 טריליון יואן, עלייה של 4.6% בשנה. יתרת האג״ח הממשלתיות עמדה על 106.41 טריליון יואן, עלייה של 14.4%, וחלקה במלאי הכולל עלה ל-22.7%, 1.4 נקודות אחוז מעל שנה קודם. מדובר ביתרות, לא בהנפקות ממשלתיות חדשות של אותו חודש.\n\nהיצע הכסף הרחב M2 עמד על 359.06 טריליון יואן וצמח ב-7.1% בשנה; M1 צמח ב-4.4%. M2 הוא מדד כסף נפרד ואינו אותו נתון כמו TSF. הבנק מציין ששיטת M1 הורחבה החל מינואר 2025 ומציג נתוני עבר בני השוואה.\n\nהפרסום מספק תמונת מימון וכסף מעודכנת לאוקטובר, בנפרד מדוח כוונות המדיניות שסוקר ב-11 בנובמבר. לא מוצגים כאן קונצנזוס, הפתעה ביחס לתחזית, תוספת אשראי חודשית שחושבה מהפרשים או תגובת שוק מאומתת. אין בו הכרזה על הורדת ריבית חדשה.",
+    "טקסט_en": "November 13, 2026 | The People's Bank of China's October financial statistics report. The official page displays 17:00 without an explicit timezone; the exact Israel publication time is not verified here. Figures are preliminary.\n\nThe PBOC says outstanding aggregate financing to the real economy, or TSF, reached CNY469.16 trillion at end-October, up 7.2% year on year. This is a stock at a point in time, not new lending during October or a new stimulus program.\n\nSeparately, additional financing during January-October totaled CNY28.61 trillion, CNY2.29 trillion less than in the same ten months a year earlier. CNY28.61 trillion is the year-to-date flow, not the end-October stock or October's monthly addition.\n\nWithin outstanding TSF, renminbi loans to the real economy stood at CNY279.31 trillion, up 4.6% year on year. Outstanding government bonds totaled CNY106.41 trillion, up 14.4%; their share of total outstanding financing rose to 22.7%, 1.4 percentage points above a year earlier. These are outstanding balances, not government issuance in that month.\n\nBroad money M2 totaled CNY359.06 trillion and grew 7.1% year on year; M1 grew 4.4%. M2 is a separate money measure, not the same series as TSF. The central bank notes that M1's definition expanded from January 2025 and supplies comparable historical figures.\n\nThe release updates October's financing and money picture, separately from the policy-direction report covered November 11. No consensus, forecast surprise, monthly credit addition calculated from differences or verified market reaction is presented here. It does not announce a new interest-rate cut.",
+    "קישור": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026111317040354319/index.html",
+    "מקורות": [
+      {
+        "url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026111317040354319/index.html",
+        "label": "PBOC: דוח הנתונים הפיננסיים לאוקטובר 2026",
+        "label_en": "PBOC: October 2026 financial statistics report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c061a4b99e0e4aff84463d6a6ef89472cac1c76ea0cfda0e74e685477f4d8601"
+      }
+    },
+    "מזהה": "n-1569",
+    "הועלה": "2026-11-13 11:40"
   }
 ]
