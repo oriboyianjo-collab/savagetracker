@@ -42393,5 +42393,39 @@
     },
     "מזהה": "n-1623",
     "הועלה": "2026-11-13 16:54"
+  },
+  {
+    "category": "micro",
+    "חברה": "Agility Robotics (AGLT)",
+    "חברה_en": "Agility Robotics (AGLT)",
+    "symbols": [
+      "AGLT"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "16:53",
+    "כותרת": "Agility Robotics (AGLT): ירידה של כ-11.2% במסחר הרגיל; לא אומתה סיבה תאגידית חדשה",
+    "כותרת_en": "Agility Robotics (AGLT): down about 11.2% in regular trading; no new company-specific cause verified",
+    "קישור": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+    "מקורות": [
+      {
+        "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+        "label": "CNBC: ציטוט AGLT במסחר הרגיל, 13 בנובמבר 09:53:18 EST",
+        "label_en": "CNBC: AGLT regular-session quote, November 13 at 09:53:18 EST"
+      }
+    ],
+    "טקסט": "13.11.2026, 16:53:18 בישראל (09:53:18 EST) | ציטוט המסחר הרגיל של CNBC מציג את מניית Agility Robotics במחיר 6.73 דולר, ירידה של 0.85 דולר, כ-11.21%, לעומת סגירת היום הקודם ב-7.58 דולר. זו תמונת מצב מתוארכת, לא מחיר חי מתעדכן ולא תשואת הסגירה.\n\nהנתון נלקח משדות המסחר הרגיל כשהשוק מסומן פתוח, ולא מציטוט המסחר המוקדם הישן. השינוי הוא מול הסגירה הקודמת, לא מול מחיר הפתיחה. מחיר המניה עשוי להשתנות במהירות אחרי מועד הציטוט.\n\nבבדיקה ממוקדת לא אומתה הודעה תאגידית חדשה שמסבירה את הירידה. אין לייחס את התנועה אוטומטית לרישום מניות למכירה חוזרת, לדילול חדש, לשחרור חסימה, לאובדן הזמנה או להסכם של מתחרה. עצם הופעת פרסום על דירוג אנליסטים ישן אינה הוכחת סיבה לירידה היום.\n\nזהו עדכון על תנועה דו-ספרתית ביום מסחר חדש, לא חזרה על הירידה מ-12 בנובמבר ב-n-1454 ולא שינוי במעמד השלמת המיזוג שסוקר ב-n-0397. לא נכללו נתוני שווי שוק, מספר מניות או שיאים היסטוריים שלא אומתו כמתאימים לחברה לאחר המיזוג, ולא מוצג כאן פרסום תוצאות חדש.",
+    "טקסט_en": "November 13, 2026, 16:53:18 Israel (09:53:18 EST) | CNBC's regular-session quote shows Agility Robotics at $6.73, down $0.85, about 11.21%, from the previous close of $7.58. This is a timestamped snapshot, not a live updating price or the closing return.\n\nThe figure uses regular-session fields with the market marked open, not the stale premarket quote. The change is from the previous close, not the opening price. The share price can change quickly after the quote timestamp.\n\nA targeted check did not verify a new company announcement explaining the decline. The move should not automatically be attributed to a resale registration, new dilution, a lock-up release, a lost order or a competitor's deal. A newly appearing article about an older analyst rating is not proof of today's price driver.\n\nThis is a double-digit move on a new trading day, not a repeat of November 12's decline in n-1454 or a change to the completed merger covered in n-0397. Market capitalization, share count and historical highs not verified as appropriate after the merger are excluded. No new earnings release is being presented.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "add42080795e7b5eecddf6885f7b2b9953e24b3f1b758496ad6dbd4158fab801"
+      }
+    },
+    "מזהה": "n-1624",
+    "הועלה": "2026-11-13 16:56"
   }
 ]
