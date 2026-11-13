@@ -42325,5 +42325,44 @@
     },
     "מזהה": "n-1621",
     "הועלה": "2026-11-13 16:48"
+  },
+  {
+    "category": "micro",
+    "חברה": "Alphabet / Google (GOOGL), Meta (META)",
+    "חברה_en": "Alphabet / Google (GOOGL), Meta (META)",
+    "symbols": [
+      "GOOGL",
+      "META"
+    ],
+    "sectors": [
+      "communication_services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-11",
+    "כותרת": "השלמה מ-11 בנובמבר | Google (GOOGL) ו-Meta (META) מתנגדות לתשלום על קישורי חדשות בהצעת חוק באינדונזיה",
+    "כותרת_en": "November 11 catch-up | Google (GOOGL) and Meta (META) oppose news-link payments in proposed Indonesian law",
+    "קישור": "https://www.investing.com/news/stock-market-news/meta-tiktok-join-google-to-push-back-on-indonesias-planned-ai-copyright-law-revisions-5018609",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/stock-market-news/meta-tiktok-join-google-to-push-back-on-indonesias-planned-ai-copyright-law-revisions-5018609",
+        "label": "Reuters דרך Investing: הדיווח המקורי המלא מ-11 בנובמבר",
+        "label_en": "Reuters via Investing: full original November 11 report"
+      },
+      {
+        "url": "https://emedia.dpr.go.id/news/2026/11/12/baleg-dorong-perlindungan-karya-kreator-dari-pemanfaatan-tanpa-izin",
+        "label": "הפרלמנט האינדונזי: דיווח מלא על הדיון ב-11 בנובמבר ודרישת הגנת היוצרים",
+        "label_en": "Indonesian parliament: full account of November 11 hearing and creator-protection demands"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני: ההתנגדויות הספציפיות של החברות מבוססות על דיווח Reuters המלא, לא על תמליל הדיון או הודעות חברה שנקראו. דיווח הפרלמנט המקורי נקרא בנפרד ומאשר את מועד הדיון, המשתתפים ודרישות המחוקקים להגנת יוצרים, אך אינו מאמת בעצמו את כל הציטוטים של נציגי החברות.\n\nהשלמת סיקור לדיון ב-11.11.2026, לא הצעת חוק חדשה שנולדה ב-13 בנובמבר. שעת הפרסום הראשונה בישראל לא אומתה. לפי Reuters, Google ו-Meta התנגדו בדיון פרלמנטרי לתיקוני חוק זכויות יוצרים שיחייבו פלטפורמות לשלם למו״לים על הצגת תוכני חדשות וקישורים.\n\nAgung Pamungkas מטעם Google הזהיר שתשלום על הצגת קישורים עלול להגביל גישה לחדשות. Berni Moestafa מטעם Meta אמר שמו״לים עלולים לאבד תנועת קוראים והכנסות אפשריות מפרסום ומנויים, והבחין בין הפניית קורא לכתבה לבין העתקה או פרסום מחדש שלה. אלה טיעוני החברות בדיון על חקיקה, לא תחזית נזק שהוכחה או הודעה שחדשות כבר נחסמו.\n\nבנפרד, נציג TikTok ביקש להבדיל בין יצירה שנוצרה כולה ב-AI לבין שימוש מסייע בטכנולוגיה, ולשמר הגנות safe-harbour לפלטפורמות מפני אחריות לתוכן משתמשים. אין בכך אישור שהבקשות התקבלו או שהשימוש המסייע כבר הוחרג בחוק סופי.\n\nבדיווח הפרלמנט, המחוקק Abdul Hakim Bafagih ביקש מ-Meta ו-TikTok להסביר כיצד מוגנות תמונות, מוזיקה וסרטונים של יוצרים כאשר חשבונות אחרים משתמשים בהם לקידום מסחרי, ולספק דוגמאות להסדרה במדינות אחרות. זו דרישה לדיון ולגיבוש כללים, לא קנס או קביעה שהחברות הפרו חוק.\n\nהחידוש הוא התנגדות פומבית של שתי חברות המעקב במסגרת הליך החקיקה, עם חשיפה אפשרית למודל הפניית חדשות, רישוי ואחריות לתוכן AI. ההצעה נשארת בדיון: לא אומתו כאן חוק שעבר, שיעור תמלוגים מחייב, מועד תחולה או עלות כספית לחברות. אין להחיל את ההצעה אוטומטית על כל אסיה-פסיפיק.",
+    "טקסט_en": "Not verified against a primary source: the companies' specific objections come from the full Reuters report, not a hearing transcript or company statements read here. A separate original parliament report confirms the hearing date, participants and lawmakers' creator-protection demands, but does not itself verify every company representative's quotation.\n\nCatch-up coverage of the November 11, 2026 hearing, not a new bill originating November 13. The first Israeli publication time is unverified. Reuters reports that Google and Meta objected at a parliamentary hearing to copyright-law revisions that would require platforms to compensate publishers for displaying news content and links.\n\nGoogle's Agung Pamungkas warned that payment for displaying links could limit access to news. Meta's Berni Moestafa said publishers could lose readership and potential advertising and subscription revenue, distinguishing referral to an article from copying or republishing it. These are company arguments in a legislative debate, not proven damage forecasts or confirmation that news has already been blocked.\n\nSeparately, TikTok's representative asked lawmakers to distinguish fully AI-generated content from assistive AI use and to preserve platform safe-harbour protections for user content. This does not establish that those requests were accepted or assistive use exempted in final legislation.\n\nParliament's report says legislator Abdul Hakim Bafagih asked Meta and TikTok to explain protections for creators' photographs, music and videos used by other accounts for commercial promotion, and to provide examples of foreign regulation. These are requests informing deliberations, not a fine or finding that the companies broke the law.\n\nThe development is public opposition by two tracked companies in a legislative process, with potential exposure for news referrals, licensing and AI-content liability. The proposal remains under discussion: no passed law, binding royalty rate, effective date or financial cost to the companies is verified here. It would not automatically apply across the entire Asia-Pacific region.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "34786bb4595d65bc8bf4185ddfbfe8310d3a916ffa8be2c16ab3700da798d199"
+      }
+    },
+    "מזהה": "n-1622",
+    "הועלה": "2026-11-13 16:51"
   }
 ]
