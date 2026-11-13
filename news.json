@@ -38950,5 +38950,99 @@
     },
     "מזהה": "n-1522",
     "הועלה": "2026-11-13 09:21"
+  },
+  {
+    "category": "micro",
+    "חברה": "MSFT",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 08:57",
+    "כותרת": "Microsoft 365: הצלחה שולית בלבד בצעדי ההתאוששות; החברה מרחיבה קיבולת באמצעות מכונות וירטואליות",
+    "כותרת_en": "Microsoft 365: recovery steps show only marginal success; company expanding capacity with virtual machines",
+    "טקסט": "13.11.2026, 08:57:32 בישראל (06:57:32 UTC) | עדכון האירוע הרשמי ב-RSS הציבורי של Microsoft נקרא במלואו. זו שעת עדכון, לא מועד תחילת התקלה; שעת בניית ערוץ ה-RSS אינה שעת התקדמות נפרדת.\n\nMicrosoft עדיין מסמנת ServiceDegradation. החברה אומרת שהיא עוקבת אחר פעילות השרתים באזורים שונים, בודקת ביצועים ומוודאת שטלאים הוחלו ופועלים כמתוכנן לאחר אתחולי תשתית. עד כה נצפתה, לדבריה, הצלחה שולית בלבד. במקביל היא פועלת להרחבת קיבולת באמצעות מכונות וירטואליות.\n\nזהו החידוש ביחס לעדכון הקודם על בדיקות התאוששות מדורגות: הערכה מפורשת שהשיפור עד כה מוגבל וצעד נוסף להגדלת הקיבולת. אין כאן הודעה על חזרה מלאה לשגרה, שיעור משתמשים שחזרו לפעול או מועד פתרון מובטח.\n\nהחברה חוזרת על כך שאינה מודעת כעת לפעילות זדונית הגורמת לאירוע. זו אותה הערכה מוגבלת שפורסמה קודם, לא אימות עצמאי או מסקנה סופית על סיבת התקלה. דוח סיבת השורש וצעדי ההגנה אמור להתפרסם לאחר מיתון האירוע; הוא אינו כלול בעדכון הזה.\n\nהפגיעה נוגעת לחיבור ל-Exchange Online ולתכונות תלויות דואר ויומן בשירותי Microsoft 365 נוספים. החברה ממשיכה להבחין בין תכונות שנפגעו לבין יכולות פעילות: רוב יכולות הליבה של Teams, לרבות שיחות, פגישות והודעות קבוצתיות ובערוצים, אינן נפגעות; גישה לקבצים המאוחסנים ישירות ב-SharePoint נותרת פעילה. אין להסיק שכל שירותי Azure מושבתים או שכל לקוח נפגע באופן זהה.\n\nהעדכון הבא הובטח עד 09:30 בישראל (07:30 UTC), לא כתחזית לסיום התקלה. אין בעדכון הוכחה לאובדן נתונים או מתקפה, ולא נכללות כאן המלצות להסיר הגנות מידע ארגוניות.",
+    "טקסט_en": "November 13, 2026, 08:57:32 Israel time (06:57:32 UTC) | The full official incident update was read in Microsoft's public RSS feed. This is an update time, not the incident's start. The RSS channel build time is not a separate operational milestone.\n\nMicrosoft still reports ServiceDegradation. It says teams are monitoring regional server activity, reviewing performance and checking that patches have been applied and work as intended after infrastructure reboots. So far it has observed only marginal success. In parallel, it is expanding capacity through virtual machines.\n\nThe delta from the earlier staged-recovery update is an explicit assessment that improvement remains limited and an additional capacity-expansion step. This is not a full-restoration announcement, a measured share of recovered users or a guaranteed resolution time.\n\nThe company repeats that it is not currently aware of malicious activity causing the incident. That is the same limited assessment reported earlier, not independent verification or a final root-cause finding. A root-cause and repair report is planned after mitigation and is not included in this update.\n\nImpact concerns Exchange Online access and email- and calendar-dependent features of other Microsoft 365 services. Microsoft continues to distinguish affected features from working capabilities: most core Teams functions, including calls, meetings, group chats and channel messages, are not impacted, while direct access to files stored in SharePoint remains functional. This does not establish an outage of all Azure services or identical impact for every customer.\n\nThe next update is promised by 09:30 Israel time (07:30 UTC), not as a forecast for resolution. This update proves neither data loss nor an attack. No recommendation to remove organizational data protections is included here.",
+    "קישור": "https://status.cloud.microsoft/",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/api/feed/mac",
+        "label": "Microsoft: RSS רשמי, עדכון האירוע ב-06:57:32 UTC",
+        "label_en": "Microsoft: official RSS incident update at 06:57:32 UTC"
+      },
+      {
+        "url": "https://status.cloud.microsoft/",
+        "label": "Microsoft: עמוד בריאות השירות הציבורי",
+        "label_en": "Microsoft: public service-health page"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5df36e64362e5fe3e608ebbaa289a114208485dcd38098763eaeff4280b645ea"
+      }
+    },
+    "מזהה": "n-1523",
+    "הועלה": "2026-11-13 09:24"
+  },
+  {
+    "category": "macro",
+    "חברה": "US / Federal Reserve",
+    "תאריך": "2026-11-12 20:37",
+    "כותרת": "גולסבי בריאיון ל-Yahoo: האינפלציה ב״רגע מסוכן״; השפעת בניית ה-AI עדיין בעיקר בענף ובסביבתו",
+    "כותרת_en": "Goolsbee tells Yahoo inflation is at a precarious moment; AI build-out effects still largely contained to its sector",
+    "טקסט": "12.11.2026 | כתבת הריאיון הישיר של Yahoo Finance פורסמה ב-13:37 EST, 20:37 בישראל, ונקראה במלואה. זו שעת הכתבה; שעת אמירת כל משפט בריאיון לא אומתה, ואין להפוך זמן מבזק מוקדם יותר לשעת הריאיון המקורית.\n\nנשיא הפד של שיקגו אוסטן גולסבי אמר שאינפלציה שאינה מתמתנת כמצופה מציבה את המדיניות ב״רגע מסוכן״. לדבריו, הוא קיווה שהשפעת המכסים תחלוף ושהנפט יתמתן, אך ההתפתחות לא תאמה את התקווה. הוא הצביע על לחצי מחירים בשירותים ובבריאות שאינם מוסברים רק במכסים או בנפט.\n\nביחס לתשתיות הבינה המלאכותית, גולסבי אמר שרוב בניית מרכזי הנתונים נותרה בנתיב ה-AI והטכנולוגיה ובענפים הסמוכים. לדבריו, אם ההשפעה תזלוג לכלכלה כולה ותגרום להתחממות ביקוש רחבה, זו תהיה בעיה. התנאי חשוב: הוא לא קבע שכבר הוכחה התחממות של כל המשק בגלל AI.\n\nזהו ריאיון חדש ב-12 בנובמבר, אחרי ההתבטאויות מ-9 בנובמבר שכבר סוקרו על אינפלציית השירותים וחשש מהתחממות ביקוש. הדברים החדשים מדגישים את ההבחנה בין לחץ בענפים מסוימים לבין זליגה אפשרית לרוחב הכלכלה; אין לשכתב את ההתבטאות הקודמת כאילו בוטלה בהחלטת ריבית.\n\nבריאיון המצוטט אין התחייבות להצבעה מסוימת, מועד או גודל של העלאת ריבית. הסתברויות שוק לפעולה בדצמבר שמופיעות בסיום כתבת Yahoo הן תמחור שוק שמציגה הכתבה, לא תחזית או הבטחה של גולסבי, ולכן לא מוצגות כאן כעמדתו. זו התבטאות של בכיר יחיד ולא החלטת FOMC.",
+    "טקסט_en": "November 12, 2026 | Yahoo Finance's direct-interview article was published at 13:37 EST, 20:37 Israel time, and read in full. This is the article time. The exact time of each interview statement was not verified, and an earlier relay time is not assigned as the original interview clock.\n\nChicago Fed President Austan Goolsbee said inflation failing to cool as hoped puts policy at a precarious moment. He had expected tariff effects to roll through and oil prices to ease, but developments had not matched that hope. He pointed to persistent services and healthcare price pressures not explained solely by tariffs or oil.\n\nOn AI infrastructure, Goolsbee said most data-centre construction has remained in the AI and technology lane and adjacent industries. If it spreads across the economy and causes broad demand overheating, he said, that would be a problem. The condition matters: he did not say AI-driven overheating of the entire economy had already been established.\n\nThis is a new November 12 interview following the previously covered November 9 remarks on services inflation and demand-overheating concerns. The new comments distinguish sector-specific pressure from possible broader spillovers. They do not retrospectively turn the earlier remarks into a rate decision or withdraw them through one.\n\nThe quoted interview gives no commitment to a particular vote, rate-increase date or size. December market-implied probabilities at the end of Yahoo's article are the article's market-pricing context, not Goolsbee's forecast or promise, and are not presented as his view here. This is one policymaker's assessment, not an FOMC decision.",
+    "קישור": "https://finance.yahoo.com/economy/policy/article/chicago-feds-austan-goolsbee-were-at-a-precarious-moment-with-inflation-183700943.html",
+    "מקורות": [
+      {
+        "url": "https://finance.yahoo.com/economy/policy/article/chicago-feds-austan-goolsbee-were-at-a-precarious-moment-with-inflation-183700943.html",
+        "label": "Yahoo Finance: הריאיון הישיר של Jennifer Schonberger, 12 בנובמבר",
+        "label_en": "Yahoo Finance: Jennifer Schonberger direct interview, November 12"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8b18b5bd6d038c11551a5d84692c39e971f5e2172e0a058e49ba9534fe8a1443"
+      }
+    },
+    "מזהה": "n-1524",
+    "הועלה": "2026-11-13 09:24"
+  },
+  {
+    "category": "micro",
+    "חברה": "LLY",
+    "symbols": [
+      "LLY"
+    ],
+    "sectors": [
+      "health_care"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12 22:30",
+    "כותרת": "Lilly החלה בהקמת מפעל של 3.5 מיליארד דולר בפנסילבניה; יעד הפעלה ב-2031 ו-retatrutide עדיין ניסיונית",
+    "כותרת_en": "Lilly breaks ground on $3.5 billion Pennsylvania plant; 2031 operating target and retatrutide remains investigational",
+    "טקסט": "12.11.2026, 22:30 בישראל | הודעת Eli Lilly המקורית והמלאה בהפצת PR Newswire פורסמה ב-15:30 ET ונקראה כולל סיכונים. השלמת סיקור ב-13 בנובמבר, לא הודעה על מפעל שכבר פועל.\n\nLilly ערכה טקס תחילת הקמה למתקן ייצור בהשקעה של 3.5 מיליארד דולר באזור Lehigh Valley בפנסילבניה, באתר Fogelsville. הוא מיועד לתרופות בהזרקה מהדור הבא, כולל retatrutide, במסגרת תוכנית רחבה יותר של החברה להרחבת הייצור בארה״ב.\n\nיעד ההפעלה הוא 2031. החברה צופה 850 משרות קבועות בשכר גבוה וכ-2,000 משרות בנייה. אלו יעדים והשפעות צפויות, לא מספר עובדים שכבר נקלטו או קיבולת שכבר זמינה לשוק.\n\nהסכום 3.5 מיליארד דולר הוא השקעה באתר, כחלק מתוכנית הייצור האמריקאית של כ-50 מיליארד דולר שמזכירה החברה. אין לחבר אותם ל-53.5 מיליארד או להציג את מלוא הסכום כהוצאה שבוצעה היום. מבין עשרת האתרים החדשים בארה״ב שהוכרזו מאז 2020, החברה מונה את האתר כאחד מארבעה המיועדים לתרופות בהזרקה ומכשור.\n\nretatrutide היא תרופה ניסיונית, אגוניסטית משולשת לקולטני GIP, GLP-1 וגלוקגון. אין כאן אישור רגולטורי חדש או התחלת מכירתה: החברה מציינת שאינה ניתנת למכירה או לשיווק חוקי לשימוש בבני אדם. תחילת בניית מפעל אינה מבטיחה אישור תרופה, השלמת מחקרים או עמידה במועד ההפעלה.\n\nהחידוש הוא התקדמות פיזית להקמת האתר ותכליתו הייצורית, בנפרד מתוצאות המחקרים, הסכם Hims & Hers, האישור המדווח בסין והרישוי עם Richter שכבר סוקרו. לא פורסמו תפוקת מנות שנתית, התחייבות הכנסות או כושר אספקה שזמין כעת.",
+    "טקסט_en": "November 12, 2026, 22:30 Israel time | Eli Lilly's full original PR Newswire release was published at 15:30 ET and read including risks. November 13 app publication is catch-up coverage, not an announcement of an operating plant.\n\nLilly broke ground on a $3.5 billion manufacturing facility in Pennsylvania's Lehigh Valley, at Fogelsville. It is intended for next-generation injectable medicines, including retatrutide, within the company's broader U.S. manufacturing expansion.\n\nThe operating target is 2031. Lilly expects 850 high-wage permanent jobs and approximately 2,000 construction jobs. Those are targets and expected impacts, not workers already hired or capacity available to the market.\n\nThe $3.5 billion site investment is part of the roughly $50 billion U.S. manufacturing expansion cited in the release. They must not be added into $53.5 billion or treated as money all spent today. Of ten new U.S. sites announced since 2020, Lilly lists this as one of four intended for injectable medicines and devices.\n\nRetatrutide is investigational, a triple GIP, GLP-1 and glucagon receptor agonist. This is not a new regulatory approval or start of sales. Lilly says it cannot legally be sold or marketed for human use. Starting plant construction guarantees neither drug approval, completion of trials nor the operating timetable.\n\nThe new milestone is physical site development and its manufacturing purpose, separate from previously covered trial results, the Hims & Hers agreement, reported Chinese approval and Richter licensing deal. No annual dose output, revenue commitment or currently available capacity was disclosed.",
+    "קישור": "https://www.prnewswire.com/news-releases/lilly-breaks-ground-in-pennsylvanias-lehigh-valley-on-a-3-5-billion-site-to-make-next-generation-obesity-medicines-the-latest-of-10-new-us-sites-since-2020--302938234.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/lilly-breaks-ground-in-pennsylvanias-lehigh-valley-on-a-3-5-billion-site-to-make-next-generation-obesity-medicines-the-latest-of-10-new-us-sites-since-2020--302938234.html",
+        "label": "Eli Lilly: הודעת תחילת ההקמה, 12 בנובמבר 15:30 ET, כולל יעד 2031 וסיכוני התרופה הניסיונית",
+        "label_en": "Eli Lilly: November 12 groundbreaking release at 15:30 ET, including 2031 target and investigational-drug risks"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d164321722ae542cdf910da38861821530d5c095ed3bafaaa9fa1754e3a85aa6"
+      }
+    },
+    "מזהה": "n-1525",
+    "הועלה": "2026-11-13 09:24"
   }
 ]
