@@ -40499,5 +40499,39 @@
     },
     "מזהה": "n-1566",
     "הועלה": "2026-11-13 11:21"
+  },
+  {
+    "category": "macro",
+    "חברה": "אוצר ארה״ב / New York Fed",
+    "חברה_en": "US Treasury / New York Fed",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "דוח ניו יורק פד: האוצר האמריקאי רכש 79.4 מיליארד ין ב-31 ביולי באמצעות מכירת אירו; לא התערבות חדשה בנובמבר",
+    "כותרת_en": "New York Fed report: US Treasury bought JPY79.4bn on July 31 by selling euros; not new November intervention",
+    "טקסט": "12.11.2026 | תאריך פרסום הדוח הרבעוני של ניו יורק פד. ההודעה המלאה וסעיפי ההתערבות והחזקות המטבע בעמודים 5, 11 ו-12 בדוח המקורי נקראו; לא מדובר בבדיקה של כל נתוני השווקים והתרשימים בדוח. שעת הפרסום המקורית לא אומתה. זהו גילוי רבעוני בדיעבד על פעולה ביולי, לא עסקה חדשה היום.\n\nלפי הדוח, ב-31 ביולי ניו יורק פד, שפעל כסוכן פיסקלי של משרד האוצר האמריקאי, רכש בשוק המט״ח המיידי 79.4 מיליארד ין כנגד מכירת אירו מקרן ייצוב המטבע ESF. מטרת הפעולה לפי האוצר הייתה להתמודד עם תנועות שלדעתו היו בלתי מסודרות בין הין למטבעות אחרים. אין כאן מכירה של דולרים במימון חדש או הודעה על פעולה מחשבון המדיניות של הפדרל ריזרב עצמו.\n\nניו יורק פד מבחין במפורש: משרד האוצר התערב בשוק במהלך יולי-ספטמבר, ואילו הפדרל ריזרב לא התערב עבור חשבונו באותה תקופה. עצם ביצוע הפעולה בידי ניו יורק פד כסוכן אינו הופך אותה להחלטת התערבות עצמאית של FOMC.\n\nהדוח אומר שב-30 ביולי התפרסמו דיווחים על פניות לקבלת ציטוטי שער, rate checks, שנעשו רק עבור האוצר. למחרת בוצעה רכישת הין. בתיאום עם הפעולות האמריקאיות, משרד האוצר היפני ביצע ברבעון השלישי התערבויות בהיקף 15.4 טריליון ין. זהו סכום יפני רבעוני נפרד, לא סכום אמריקאי ולא פעולה בודדת של 31 ביולי שיש לחבר לרכישה האמריקאית.\n\nלפי הדוח, בין 30 ביולי ל-3 באוגוסט ירד שער הדולר מכ-164 לכ-155 ין. זהו תיאור תנועת עבר בחלון מוגדר, לא שער נוכחי או הוכחה שכל השינוי נגרם רק מההתערבות. הדוח מזכיר גם ציפיות למדיניות הבנק של יפן ולהקצאת נכסים כגורמי רקע.\n\nהגילוי מאשר את פעולת הקיץ ומבהיר מי פעל, באיזה חשבון ובאיזה מטבע נמכר המימון. הוא אינו התחייבות להתערבות נוספת, יעד שער חדש, שינוי ריבית או אישור שהרשויות פועלות שוב ב-13 בנובמבר. הסכומים נשמרים במטבע המקורי, ללא המרת דולר חיצונית.",
+    "טקסט_en": "November 12, 2026 | Publication date of the New York Fed quarterly report. The complete release and intervention/reserve-holdings sections on original report pages 5, 11 and 12 were read, not every market table or chart. The original publication clock was not verified. This is retrospective quarterly disclosure of a July action, not a new transaction today.\n\nThe report says that on July 31 the New York Fed, acting as fiscal agent for the US Treasury, purchased JPY79.4 billion in the spot FX market against the sale of euros from the Exchange Stabilization Fund. The Treasury's stated purpose was to counter moves it viewed as disorderly in the yen. This is not a new dollar-funded sale or an intervention from the Federal Reserve's own policy account.\n\nThe New York Fed explicitly distinguishes the Treasury's intervention during July-September from the Federal Reserve, which did not intervene for its own account during that period. Execution by the New York Fed as fiscal agent is not an independent FOMC intervention decision.\n\nThe report says July 30 press coverage focused on indicative exchange-rate requests, or rate checks, made solely for the Treasury. Yen purchases followed the next day. In coordination, Japan's Ministry of Finance carried out JPY15.4 trillion of interventions during Q3. That is a separate Japanese quarterly total, not a US amount or a single July 31 transaction to add to the American purchase.\n\nThe report says the dollar fell from around JPY164 to JPY155 between July 30 and August 3. That is a historical move over a defined window, not a current quote or proof intervention alone caused it. The report also cites expectations for Bank of Japan policy and asset allocation as context.\n\nThe disclosure confirms the summer action and clarifies the principal, account and currency sold. It is not a promise of further intervention, a new exchange-rate target, a rate change or confirmation authorities intervened again November 13. Amounts stay in original currencies without an external dollar conversion.",
+    "קישור": "https://www.newyorkfed.org/newsevents/news/markets/2026/20261112",
+    "מקורות": [
+      {
+        "url": "https://www.newyorkfed.org/newsevents/news/markets/2026/20261112",
+        "label": "ניו יורק פד: הודעה רשמית מלאה, 12 בנובמבר",
+        "label_en": "New York Fed: complete official November 12 release"
+      },
+      {
+        "url": "https://www.newyorkfed.org/medialibrary/media/newsevents/news/markets/2026/q3-2026-fx-quarterly-report.pdf",
+        "label": "ניו יורק פד: דוח רבעון 3, סעיפי עמודים 5, 11 ו-12",
+        "label_en": "New York Fed: Q3 report, sections on pages 5, 11 and 12"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fd7057741fdef921855ae48d80afac42f197b1d5ab95ae16eda5edb1b0bd4d8f"
+      }
+    },
+    "מזהה": "n-1567",
+    "הועלה": "2026-11-13 11:32"
   }
 ]
