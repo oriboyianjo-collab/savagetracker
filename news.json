@@ -40762,5 +40762,43 @@
     },
     "מזהה": "n-1573",
     "הועלה": "2026-11-13 12:06"
+  },
+  {
+    "category": "stocks",
+    "חברה": "Microsoft",
+    "חברה_en": "Microsoft",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-16",
+    "כותרת": "השלמת סיקור מ-16 באוקטובר: מו״לים טוענים שמיקרוסופט הפעילה עבור OpenAI את Project Mango והורתה לשמור אותו בסוד",
+    "כותרת_en": "October 16 catch-up: publishers allege Microsoft ran Project Mango for OpenAI and told staff to keep it secret",
+    "טקסט": "השלמת סיקור למסמך פומבי שהוגש ב-16.10.2026, לא התפתחות חדשה מ-13 בנובמבר. כותרת המסמך, תוכן העניינים והקטע הרלוונטי בעמודים 39-41 מתוך 92 נקראו ישירות בעותק הנושא חותמת בית משפט: מסמך 2108 בתיק 1:25-md-03143-SHS-OTW במחוז הדרומי של ניו יורק. הנספחים והראיות שעליהם מסתמכים המו״לים לא נבדקו בנפרד.\n\nבטיעון משולב לבקשת פסק דין ללא משפט, המו״לים התובעים את Microsoft ואת OpenAI טוענים שמיקרוסופט פיתחה והפעילה עבור OpenAI סורק אתרי אינטרנט בשם Mango crawler, במסגרת Project Mango. לפי טענתם, התוכן שהועתק נמסר ל-OpenAI ושימש לאימון מודלים, ובהם GPT-4o, בתמורה לתשלום מ-OpenAI למיקרוסופט.\n\nהקטע שפורסם טוען שמיקרוסופט לא ביקשה את רשות המו״לים והנחתה עובדים לשמור את הפרויקט בסוד. סכום התשלום ומספר דפי האינטרנט שהועתקו מושחרים בעותק הפומבי. אין בסיס במסמך זה לכמת הכנסה חדשה למיקרוסופט, סכום פיצוי או חשיפה כספית סופית.\n\nבנפרד, המסמך מתאר את Project Taxi כעסקת העברת עותק מאינדקס Bing בשנים 2019-2022, לצד חילופי נתוני אימון. אין לערבב בין אינדקס חיפוש שהועבר לבין הסורק הייעודי, ואין לפרש את תאריך הגשת המסמך כמועד שבו הפרויקטים החלו או כמוצר חדש שהושק לציבור.\n\nאלה טענות המו״לים והציטוטים שהם מציגים במסגרת מחלוקת זכויות יוצרים, לא קביעות שיפוטיות שהייתה הפרה או שהגנת שימוש הוגן נדחתה. המסמך מבקש הכרעה; הוא אינו הכרעה, צו הפסקת שירות או הסכם פשרה. לא אומתה כאן התפתחות מאוחרת יותר בתיק.\n\nכתבת Bloomberg Law מ-16 באוקטובר נקראה במלואה ומתארת חשיפה חלקית של טיעון המו״לים, אחרי שגרסה קודמת כבר נחשפה בספטמבר. לכן עצם השמות Project Mango ו-Project Taxi אינו מוצג כגילוי ראשון. ההשלמה מתמקדת בפרטים הגלויים בגרסת אוקטובר, ובפרט בטענת הסודיות והתשלום המושחר, בלי להפוך אותם לממצא מוכח.",
+    "טקסט_en": "Catch-up coverage of a public document filed October 16, 2026, not a new November 13 development. The caption, contents and relevant passage on pages 39-41 of the 92-page court-stamped copy were read directly: Document 2108 in Southern District of New York case 1:25-md-03143-SHS-OTW. The underlying exhibits and evidence cited by the publishers were not reviewed separately.\n\nIn their combined summary-judgment brief, news publishers suing Microsoft and OpenAI allege that Microsoft developed and operated a website crawler for OpenAI, called the Mango crawler, under Project Mango. They say the copied content was delivered to OpenAI and used to train models including GPT-4o, in exchange for payment from OpenAI to Microsoft.\n\nThe public passage alleges that Microsoft did not seek the publishers' permission and told employees to keep the project secret. The payment amount and number of webpages copied are redacted. This document does not support quantifying new Microsoft revenue, a damages award or final financial exposure.\n\nSeparately, the brief describes Project Taxi as a transfer of a copy of the Bing index during 2019-2022, alongside exchanges of training data. The transferred search index and dedicated crawler are different arrangements. The filing date is not their start date or the launch of a new public product.\n\nThese are the publishers' allegations and quotations in copyright litigation, not court findings of infringement or rejection of a fair-use defense. The brief requests judgment; it is not a judgment, service-shutdown order or settlement. No subsequent case development was verified here.\n\nThe full October 16 Bloomberg Law report describes a partial unsealing of the publishers' brief after an earlier version was disclosed in September. The names Project Mango and Project Taxi are therefore not presented as first-time revelations. This catch-up focuses on the visible October details, including the secrecy allegation and redacted payment, without treating them as proven findings.",
+    "קישור": "https://payauthors.com/court/69879510/gov.uscourts.nysd.640396.2108.0_1.pdf",
+    "מקורות": [
+      {
+        "url": "https://payauthors.com/court/69879510/gov.uscourts.nysd.640396.2108.0_1.pdf",
+        "label": "מסמך 2108: טיעון המו״לים, עמודים 39-41 מתוך 92",
+        "label_en": "Document 2108: publishers brief, pages 39-41 of 92"
+      },
+      {
+        "url": "https://news.bloomberglaw.com/ip-law/microsoft-told-staff-to-keep-openai-scraping-project-secret",
+        "label": "Bloomberg Law: הדיווח המקורי מ-16 באוקטובר",
+        "label_en": "Bloomberg Law: original October 16 report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4dbc2f9c6d69827024c35e731a83005a9ec436d6912ff50124fc13f842b07e21"
+      }
+    },
+    "מזהה": "n-1574",
+    "הועלה": "2026-11-13 12:07"
   }
 ]
