@@ -38503,5 +38503,35 @@
     },
     "מזהה": "n-1509",
     "הועלה": "2026-11-13 07:25"
+  },
+  {
+    "category": "micro",
+    "חברה": "Alphabet (GOOGL)",
+    "תאריך": "2026-11-13 05:01",
+    "כותרת": "Google (GOOGL): ממשלת קוריאה אישרה עמידה בתנאי אבטחת מידע למפות; החלפת תצלומים ממשלתיים עדיין מותנית בקבלתם",
+    "כותרת_en": "Google (GOOGL): Korea confirms map-security compliance; replacement with government-processed imagery still depends on delivery",
+    "טקסט": "13.11.2026, 05:01 בישראל (12:01 בקוריאה) | הודעת משרד הקרקעות, התשתיות והתחבורה הקוריאני ונספח ארבעת העמודים המקורי. ועדת הבדיקה התכנסה באותו יום ב-10:00 בקוריאה.\n\nהוועדה הבין-משרדית בדקה את יישום התנאים שנקבעו ב-27 בפברואר ליצוא נתוני מפות בקנה מידה 1:5,000 ל-Google. החברה הגישה את דוח היישום הסופי ב-4 בנובמבר. החדש הוא בדיקת העמידה בתנאים, לא היתר יצוא ראשון, איסור חדש או ביטול ההיתר הקיים.\n\nלפי המשרד, הסרת תצוגת קווי הרוחב והאורך והגבלת חשיפתם בשטח קוריאה הושלמו בשירותים הגלובליים של Google Maps ו-Google Earth, באינטרנט וב-Android ו-iOS. החברה פיתחה שכבת בקרה ייעודית לקוריאה ומנגנון המונע הפצת עדכוני אפליקציה אם הם חושפים קואורדינטות מוגבלות. זהו מנגנון אבטחה, לא הודעה על חסימת האפליקציות במדינה.\n\nבתצלומי לוויין נותר שלב עתידי: Google משתמשת כעת בתצלומים מסחריים מחו\"ל עם הסתרה זמנית של מתקנים שזיהתה בעצמה, גם בתצלומים היסטוריים. לפי הסכם מ-31 באוגוסט, שותף מקומי יספק תצלומים שכבר עברו טיפול ביטחוני של מכון המידע הגאוגרפי הלאומי. עם קבלתם על החברה להחליף את התצלומים ללא שינוי. ההחלפה עתידה להסתיר גם חלק מהמתקנים שטרם הוסתרו; אין בהודעה אישור שכל התצלומים כבר הוחלפו או שכל החשיפות הוסרו. הוסרו גם תצלומי Street View בתוך מתקנים שהחברה הסתירה ועד 50 מטר מגבולם; ההרחבה לכל המתקנים קשורה לקבלת התצלומים המקומיים.\n\nהסכם עיבוד ואספקת הנתונים נחתם גם הוא ב-31 באוגוסט. העיבוד ייעשה בשרתים מקומיים, והאספקה מוגבלת למפת בסיס ולנתוני רשת תחבורה שהותרו בפברואר, כגון כבישים, שמות, מספר נתיבים ומהירות מותרת. אין כאן היתר בלתי מוגבל לכל מידע גאוגרפי או אישור שכל שירות ניווט חדש כבר הושק.\n\nהמסגרת כוללת אחראי מקומי ומענה מסביב לשעון, טיפול בבקשות ביטחון דרך צוות החברה בתוך יום עסקים ממועד קבלתן, ואפשרות לתאם השבתת תכונות במצב חירום. הממשלה תמשיך לפקח, ויכולה להשעות או לבטל את ההיתר במקרה של אי-עמידה חמורה בעתיד. זו סמכות מותנית, לא ביטול שהתרחש כעת. לא פורסמו סכום השקעה מחייב, תחזית הכנסות או תוצאה כספית מהמהלך.",
+    "טקסט_en": "November 13, 2026, 05:01 Israel time (12:01 Korea time) | Korea's Ministry of Land, Infrastructure and Transport announcement and original four-page attachment. The review body met at 10:00 Korea time that day.\n\nThe interagency body reviewed implementation of conditions imposed on February 27 for Google's export of 1:5,000-scale map data. Google submitted its final compliance report on November 4. The new stage is a compliance review, not first-time export permission, a new ban or revocation of the existing permission.\n\nThe ministry confirmed that removal of latitude/longitude displays and restrictions on their exposure for Korean territory were implemented across global Google Maps and Google Earth services on the web, Android and iOS. Google developed a Korea-specific control layer and safeguards that block app-update distribution if restricted coordinates would be exposed. This is a security control, not an announcement that the apps are blocked in Korea.\n\nSatellite imagery still has a future replacement stage. Google currently uses foreign commercial imagery with temporary security processing for facilities it identified itself, including historical imagery. Under an August 31 contract, a local partner will supply imagery already security-processed by the National Geographic Information Institute. Google must replace the imagery without alteration when it receives that material. Replacement will also obscure some facilities not yet obscured; the announcement does not establish that all imagery has already been replaced or all exposure eliminated. Google also removed Street View within facilities it had obscured and on roads within 50 meters of their boundaries; extension to all facilities is linked to delivery of the locally processed imagery.\n\nA data-processing and supply contract was also signed on August 31. Processing will take place on domestic servers, and supply is limited to the base map and transportation-network data permitted in February, such as roads, names, lane counts and speed limits. This is not unlimited permission for every type of geographic data or confirmation that all new navigation services have launched.\n\nThe framework includes a local officer and round-the-clock response arrangements, handling security requests through the company's escalation team within one business day of receipt, and provision for coordinated feature restrictions in an emergency. Government monitoring continues, with possible suspension or revocation for serious future noncompliance. That is a conditional power, not revocation that has occurred now. No binding investment amount, revenue forecast or financial result was announced.",
+    "קישור": "https://www.molit.go.kr/USR/NEWS/m_72/dtl.jsp?id=95092596",
+    "מקורות": [
+      {
+        "url": "https://www.molit.go.kr/USR/NEWS/m_72/dtl.jsp?id=95092596",
+        "label": "MOLIT: הודעת 13 בנובמבר ונספח מקורי, ארבעה עמודים",
+        "label_en": "MOLIT: November 13 announcement and original four-page attachment"
+      },
+      {
+        "url": "https://www.koreatimes.co.kr/business/tech-science/20261113/google-complies-with-koreas-security-requirements-for-high-precision-map-data-govt",
+        "label": "Yonhap דרך Korea Times: דיווח על בדיקת העמידה בתנאים",
+        "label_en": "Yonhap via Korea Times: report on the compliance review"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c56cdbc8438b7e055edae485cd2f0d24c7823786a4b309ce75164a0244b36ff1"
+      }
+    },
+    "מזהה": "n-1510",
+    "הועלה": "2026-11-13 07:28"
   }
 ]
