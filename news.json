@@ -40315,5 +40315,39 @@
     },
     "מזהה": "n-1561",
     "הועלה": "2026-11-13 11:02"
+  },
+  {
+    "category": "macro",
+    "חברה": "גרמניה / Destatis",
+    "חברה_en": "Germany / Destatis",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "גרמניה: 2,067 הליכי חדלות פירעון עסקיים באוגוסט, עלייה של 4.4%; תחזית DIHK ל-26 אלף השנה אינה נתון בפועל",
+    "כותרת_en": "Germany: 2,067 business insolvency cases in August, up 4.4%; DIHK sees 26,000 this year, not an actual total",
+    "טקסט": "13.11.2026 | הודעה 398 של לשכת הסטטיסטיקה הפדרלית Destatis ודברי DIHK מאותו יום נקראו במלואם בגרמנית. שעת הפרסום המקורית של ההודעות לא אומתה. בגוף דברי DIHK מופיעה שנת 206 בשגיאת דפוס; שורת הפרסום מציינת במפורש 13.11.2026.\n\nבתי המשפט בגרמניה רשמו באוגוסט 2,067 בקשות לפתיחת הליכי חדלות פירעון של חברות, עלייה של 4.4% לעומת אוגוסט 2025. בינואר עד אוגוסט נרשמו 17,252 מקרים, עלייה של 6.6% לעומת התקופה המקבילה. אלו נתוני רישום של הליכים, לא מספר כלל העסקים שנסגרו במשק.\n\nהלשכה מדגישה שהבקשה נכללת בסטטיסטיקה רק לאחר ההחלטה הראשונה של בית המשפט, ובמקרים רבים הגשתה בפועל קדמה לכך בכשלושה חודשים. לכן נתון אוגוסט אינו מדידה בזמן אמת של תנאי האשראי בנובמבר ואינו נתון תוצר או קביעה חדשה של מיתון.\n\nתביעות הנושים בהליכים שנרשמו בינואר עד אוגוסט הוערכו בכ-25.9 מיליארד אירו, לעומת כ-37.2 מיליארד בתקופה המקבילה. לפי Destatis, הירידה למרות העלייה במספר המקרים נובעת מכך שב-2025 היו בין המבקשות יותר חברות בעלות משקל כלכלי גדול. מדובר בתביעות מוערכות בהליכים, לא הפסדי בנקים שהתממשו או אומדן לכל חובות המגזר העסקי.\n\nבמקביל, מומחה העסקים הקטנים של DIHK, Marc Evers, תיאר את נתון אוגוסט כגבוה ביותר לחודש זה ב-13 שנים. הארגון צופה כ-26 אלף מקרי חדלות פירעון עסקיים בכל 2026, שיהיו אם יתממשו הרמה השנתית הגבוהה מאז 2012. זו תחזית DIHK, לא סכום שנרשם כבר בשמונת החודשים ולא תחזית חדשה של לשכת הסטטיסטיקה.\n\nדברי DIHK חוזרים על הסקר שכבר סוקר ב-n-0343: 28% מהחברות מצפות להרעה ו-15% לשיפור, ו-67% רואות במחירי אנרגיה וחומרי גלם סיכון. נתוני הסקר אינם תוספת מדידה חדשה היום. החידוש הוא פרסום חדלות הפירעון של אוגוסט והתחזית השנתית הנפרדת; אין כאן החלטת ריבית, שינוי בתחזית התוצר של הבונדסבנק או תגובת שוק מאומתת.",
+    "טקסט_en": "November 13, 2026 | Destatis release 398 and DIHK's same-day remarks were read in full in German. The original publication clock was not verified. DIHK's body has an apparent year-206 typo; its publication line explicitly says November 13, 2026.\n\nGerman courts registered 2,067 applications for business insolvency proceedings in August, up 4.4% from August 2025. January-August cases reached 17,252, up 6.6% year on year. These are registered proceedings, not all businesses that closed across the economy.\n\nDestatis says cases enter the statistics only after the insolvency court's first decision; the actual application often preceded that by roughly three months. August's figure is therefore not a real-time measure of November credit conditions, a GDP reading or a new recession determination.\n\nEstimated creditor claims in cases registered January-August were about EUR25.9 billion, versus EUR37.2 billion a year earlier. Destatis attributes the decline despite more cases to a larger presence of economically significant applicants in 2025. These are estimated claims in proceedings, not realized bank losses or all business-sector debt.\n\nDIHK SME expert Marc Evers separately described the August total as the highest for that month in 13 years. DIHK forecasts roughly 26,000 business insolvencies for full-year 2026, which would be the highest annual level since 2012 if realized. This is DIHK's forecast, not the actual eight-month count or a new Destatis forecast.\n\nDIHK repeats the survey already covered in n-0343: 28% expect worse business, 15% improvement and 67% see energy/raw-material prices as a risk. Those survey figures are not a new measurement today. The increment is August's insolvency release and the separate annual forecast, not a rate decision, a changed Bundesbank GDP forecast or a verified market reaction.",
+    "קישור": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_398_52411.html",
+    "מקורות": [
+      {
+        "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_398_52411.html",
+        "label": "Destatis: הודעה 398 המלאה על הליכי אוגוסט",
+        "label_en": "Destatis: full release 398 on August proceedings"
+      },
+      {
+        "url": "https://www.dihk.de/de/newsroom/weiterer-insolvenzrekord-zeigt-fragile-wirtschaftliche-erholung-193230",
+        "label": "DIHK: דברי Marc Evers והתחזית השנתית",
+        "label_en": "DIHK: Marc Evers remarks and annual forecast"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fd5fee76596ac37d48d3146ad3fa704e81c845e997b0523201bfa0df67fa3001"
+      }
+    },
+    "מזהה": "n-1562",
+    "הועלה": "2026-11-13 11:07"
   }
 ]
