@@ -39939,8 +39939,8 @@
     "תאריך": "2026-11-13 10:44",
     "כותרת": "תיקון ל-n-0939: רווחי Nokia ברבעון השלישי נמדדו במיליוני אירו, לא במיליארדים",
     "כותרת_en": "Correction to n-0939: Nokia Q3 profits were in millions of euros, not billions",
-    "טקסט": "13.11.2026 | תיקון יחידות לפריט ההיסטורי n-0939, לפי טבלת התוצאות בהודעת Nokia הרשמית מ-22.10.2026 בשעה 08:00 EEST. אין זה דוח כספי חדש או שינוי בתחזית.\n\nבגוף הפריט הקודם נכתב בטעות שהרווח לתקופה היה 156 מיליארד אירו, שהרווח התפעולי המדווח היה 196 מיליארד אירו ושהרווח התפעולי המתואם היה 605 מיליארד אירו. שלוש היחידות הללו שגויות: הטבלה הרשמית מסומנת EUR million.\n\nהנתונים הנכונים לרבעון השלישי של 2026 הם:\n• רווח לתקופה: 156 מיליון אירו, לעומת 80 מיליון אשתקד, עלייה של 95%.\n• רווח תפעולי מדווח: 196 מיליון אירו, לעומת 252 מיליון, ירידה של 22%.\n• רווח תפעולי מתואם: 605 מיליון אירו, לעומת 448 מיליון, עלייה של 35%.\n\nהמכירות נטו של 5.154 מיליארד אירו בפריט הקודם אינן חלק מתיקון היחידות הזה. רווח מדווח ורווח מתואם נשארים מדדים שונים ואין לחבר ביניהם. הטעות ניפחה את שלושת סכומי הרווח פי אלף; היא הייתה בתיאור באפליקציה, לא הודעת תיקון של Nokia לתוצאותיה.\n\nn-0939 נשמר ללא שינוי כרישום היסטורי, והתיקון מופיע בנפרד כדי שיהיה ברור מה היה שגוי ומהו המקור הנכון. לא שונו לוח הדוחות, נתוני דוחות או אומדנים. בדיקות הדוחות נשארות מושהות.",
-    "טקסט_en": "November 13, 2026 | Unit correction to historical item n-0939, based on the financial-results table in Nokia's official October 22, 2026 release at 08:00 EEST. This is not a new earnings release or a forecast change.\n\nThe earlier body incorrectly stated profit for the period of EUR156 billion, reported operating profit of EUR196 billion and comparable operating profit of EUR605 billion. All three unit labels were wrong: the official table is labeled EUR million.\n\nCorrect Q3 2026 figures:\n• Profit for the period: EUR156 million versus EUR80 million, up 95%.\n• Reported operating profit: EUR196 million versus EUR252 million, down 22%.\n• Comparable operating profit: EUR605 million versus EUR448 million, up 35%.\n\nPreviously stated net sales of EUR5.154 billion are not part of this unit correction. Reported and comparable profit remain separate measures and must not be added. The error overstated the three profit amounts by 1,000 times. It was in the app's description, not a Nokia restatement.\n\nn-0939 is preserved unchanged as a historical record. This separate correction identifies the error and correct source. No earnings-board, report-data or estimate changes were made, and earnings checks remain paused.",
+    "טקסט": "13.11.2026 | תיקון יחידות לפריט ההיסטורי n-0939, לפי טבלת התוצאות בהודעת Nokia הרשמית מ-22.10.2026 בשעה 08:00 EEST. אין זה דוח כספי חדש או שינוי בתחזית.\n\nבגוף הפריט הקודם נכתב בטעות שהרווח לתקופה היה 156 מיליארד אירו, שהרווח התפעולי המדווח היה 196 מיליארד אירו ושהרווח התפעולי המתואם היה 605 מיליארד אירו. שלוש היחידות הללו שגויות: הטבלה הרשמית מסומנת EUR million.\n\nהנתונים הנכונים לרבעון השלישי של 2026 הם:\n• רווח לתקופה: 156 מיליון אירו, לעומת 80 מיליון אשתקד, עלייה של 95%.\n• רווח תפעולי מדווח: 196 מיליון אירו, לעומת 252 מיליון, ירידה של 22%.\n• רווח תפעולי מתואם: 605 מיליון אירו, לעומת 448 מיליון, עלייה של 35%.\n\nהמכירות נטו של 5.154 מיליארד אירו בפריט הקודם אינן חלק מתיקון היחידות הזה. רווח מדווח ורווח מתואם נשארים מדדים שונים ואין לחבר ביניהם. הטעות ניפחה את שלושת סכומי הרווח פי אלף; היא הייתה בתיאור באפליקציה, לא הודעת תיקון של Nokia לתוצאותיה.\n\nn-0939 נשמר ללא שינוי כרישום היסטורי, והתיקון מופיע בנפרד כדי שיהיה ברור מה היה שגוי ומהו המקור הנכון.",
+    "טקסט_en": "November 13, 2026 | Unit correction to historical item n-0939, based on the financial-results table in Nokia's official October 22, 2026 release at 08:00 EEST. This is not a new earnings release or a forecast change.\n\nThe earlier body incorrectly stated profit for the period of EUR156 billion, reported operating profit of EUR196 billion and comparable operating profit of EUR605 billion. All three unit labels were wrong: the official table is labeled EUR million.\n\nCorrect Q3 2026 figures:\n• Profit for the period: EUR156 million versus EUR80 million, up 95%.\n• Reported operating profit: EUR196 million versus EUR252 million, down 22%.\n• Comparable operating profit: EUR605 million versus EUR448 million, up 35%.\n\nPreviously stated net sales of EUR5.154 billion are not part of this unit correction. Reported and comparable profit remain separate measures and must not be added. The error overstated the three profit amounts by 1,000 times. It was in the app's description, not a Nokia restatement.\n\nn-0939 is preserved unchanged as a historical record. This separate correction identifies the error and correct source.",
     "קישור": "https://www.nokia.com/newsroom/nokia-corporation-interim-report-for-q3-2026/",
     "מקורות": [
       {
@@ -39952,7 +39952,7 @@
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "2887c496f663776e145e951fd976616a77f6d3e9ffe88c3c8a8c590c72e9a816"
+        "source_hash": "116519a299f06624c059ea20770c91550425b470b1da697cab15fde8fb18fd6b"
       }
     },
     "מזהה": "n-1551",
@@ -40023,5 +40023,43 @@
     },
     "מזהה": "n-1553",
     "הועלה": "2026-11-13 10:45"
+  },
+  {
+    "category": "micro",
+    "חברה": "Applied Digital / APLD",
+    "חברה_en": "Applied Digital / APLD",
+    "symbols": [
+      "APLD"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 01:58",
+    "כותרת": "Applied Digital: טיוטת Delta Forge כוללת אפשרות לאגח עד 4.6 מיליארד דולר; לפי KALB אישור סופי עשוי להידון ב-19 בנובמבר",
+    "כותרת_en": "Applied Digital: Delta Forge draft allows up to $4.6bn in bonds; KALB reports possible final vote November 19",
+    "טקסט": "לא מאומת מול מקור ראשוני: תוצאת ישיבת 9 בנובמבר והמועד האפשרי לאישור סופי נשענים על KALB, לא על פרוטוקול הצבעה שנבדק. הטיוטה וסדר היום עצמם נבדקו במקור הרשות.\n\n13.11.2026, 01:58 בישראל | כתבת KALB מאת Jonathan Kinder פורסמה ב-12 בנובמבר ב-17:58 CST ונקראה במלואה. היא מתארת ישיבה מ-9 בנובמבר, לא אישור שניתן היום. השלמת סיקור.\n\nרשות England בלואיזיאנה פרסמה לישיבת 9 בנובמבר סדר יום לדיון והצגת מסגרת PILOT עבור APLD AEX-01 LLC וקמפוס Delta Forge 1. בחבילת הישיבה, הכוללת 131 עמודים, נקראו סדר היום, המבוא, סעיף האגח 3.03, תנאי התעסוקה 4.04(d), התשלומים הקהילתיים 7.11 ולוח התשלומים. לא נטען שכל סעיפי החבילה נבדקו משפטית.\n\nהטיוטה מאפשרת הנפקת אגח הכנסה עד 4.6 מיליארד דולר למימון חלק מתשתית הפרויקט, עד עומס IT קריטי של 300 מגה-ואט. זו תקרת קרן מוצעת, לא אגח שכבר נמכרו, גיוס שהושלם או תקרת ההשקעה הכוללת. נדרשים בין היתר בקשה בכתב של החברה, מסמכי עסקה, אישורים ממשלתיים לרבות ועדת האגח של מדינת לואיזיאנה, והליך משפטי וחוות דעת מתאימים.\n\nלפי סעיף 3.03, האגח אמורות להיפרע רק מתשלומים מטעם השוכרת ובהתחייבות מוגבלת של הרשות, לא מכל כספי הרשות. הטיוטה אף מבהירה שאי-הנפקת אגח אינה כשלעצמה מבטלת את הטבות המס שבהסכם. אין כאן דירוג אגח, תשואה, מועד פירעון או הוכחה למימון זול שכבר הובטח.\n\nלוח הטיוטה מציג כ-575.5 מיליון דולר של תשלומי פיתוח ו-PILOT לגופי המס עד 2052, לצד 50 מיליון לקרן קהילתית וארבעה מיליון ל-Boyce בלוחות נפרדים. אלה תשלומים מוצעים של הפרויקט, לא מענק שהחברה קיבלה או הכנסה שלה. יעדי התעסוקה עולים מ-75 ב-2028 ל-100 ב-2029-2030 ול-200 בהמשך, עם מנגנון להגדלת תשלומי PILOT אם היעדים לא יושגו; אין זה אישור שהמשרות כבר אוישו.\n\nKALB מדווחת שההצגה לדיון אושרה פה אחד, ושהצבעת האישור הסופי יכולה להתקיים ביום חמישי, 19 בנובמבר, לאחר תיקוני נוסח בנושא מים וחשמל. הטיוטה אינה הסכם חתום, והאפשרות להצבעה אינה אישור מובטח. 7.2 מיליארד דולר המוזכרים בכתבה הם ההשקעה המשולבת הצפויה של APLD ושוכר שלא זוהה שם, לא 7.2 מיליארד של APLD לבדה. אין במקורות שנבדקו בסיס לזהות את השוכר כ-Meta.\n\nהחידוש מול n-0573 ו-n-1316 הוא מסלול מימון ותמריצים מקומי מוצע, לא שינוי חדש בדירוג או הודעה שכל צורכי המימון של החברה נפתרו.",
+    "טקסט_en": "Not verified against a primary source: the November 9 meeting outcome and possible final-approval date rely on KALB, not reviewed voting minutes. The draft and agenda were checked at the authority's own source.\n\nNovember 13, 2026, 01:58 Israel time | Jonathan Kinder's complete KALB article was published November 12 at 17:58 CST. It describes a November 9 meeting, not approval granted today. Catch-up coverage.\n\nLouisiana's England Authority published a November 9 agenda for introduction and discussion of a PILOT framework for APLD AEX-01 LLC and Delta Forge 1. In the 131-page meeting packet, the agenda, recitals, bond section3.03, employment section4.04(d), community payments7.11 and payment schedule were read. This is not a claim to have legally reviewed every provision.\n\nThe draft allows up to $4.6 billion of revenue bonds to finance part of project infrastructure supporting up to 300MW of critical IT load. That is a proposed principal ceiling, not bonds already sold, completed funding or a total-capex limit. Conditions include a written company request, transaction documents, governmental approvals including Louisiana's State Bond Commission, and appropriate legal procedures/opinion.\n\nSection3.03 makes the bonds payable only from payments by or on behalf of the lessee, as limited authority obligations rather than payable from all authority funds. It also says failure to issue bonds does not itself remove the agreement's tax incentives. No bond rating, yield, maturity or cheaper funding already secured is established here.\n\nThe draft schedule lists roughly $575.5 million of pre-development/PILOT payments to taxing bodies through2052, alongside separate $50 million community-trust and $4 million Boyce payment schedules. These are proposed project payments, not a grant received by APLD or its revenue. Employment targets rise from75 in2028 to100 in2029-2030 and200 thereafter, with PILOT-payment increases for shortfalls; those jobs are not confirmed filled.\n\nKALB reports unanimous introduction and a possible final-approval vote Thursday, November19, following water/electricity wording changes. The draft is not a signed agreement and a possible vote is not guaranteed approval. KALB's $7.2 billion investment estimate combines APLD and an unnamed tenant, not APLD alone. The reviewed sources do not identify that tenant as Meta.\n\nThe increment over n-0573 and n-1316 is a proposed local financing/incentive pathway, not a new rating change or confirmation every company funding need has been met.",
+    "קישור": "https://englandairpark.org/wp-content/uploads/2026/11/1.1a-Notice-and-Agenda-11.9.2026.pdf",
+    "מקורות": [
+      {
+        "url": "https://englandairpark.org/wp-content/uploads/2026/11/1.1a-Notice-and-Agenda-11.9.2026.pdf",
+        "label": "England Authority: חבילת ישיבת 9 בנובמבר, סדר יום וטיוטת PILOT",
+        "label_en": "England Authority: November9 meeting packet, agenda and PILOT draft"
+      },
+      {
+        "url": "https://www.kalb.com/2026/11/12/england-authority-sets-stage-final-vote-applied-digital-data-center-pilot-agreement/",
+        "label": "KALB: כתבה מלאה על תוצאת ההצגה והאפשרות להצבעה ב-19 בנובמבר",
+        "label_en": "KALB: complete report on introduction and possible November19 vote"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9d601f76e6975d305941370b8140f2567c216690964a082c86db20e6e30adf44"
+      }
+    },
+    "מזהה": "n-1554",
+    "הועלה": "2026-11-13 10:47"
   }
 ]
