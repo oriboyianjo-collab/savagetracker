@@ -43283,5 +43283,34 @@
     },
     "מזהה": "n-1652",
     "הועלה": "2026-11-13 21:52"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "ניו יורק פד: כ-14 מיליארד דולר ברכישות השקעה מחדש עד 11 בדצמבר, ללא רכישות לניהול רזרבות",
+    "כותרת_en": "New York Fed: about $14 billion in reinvestment purchases through December 11, with no reserve management purchases",
+    "קישור": "https://www.newyorkfed.org/markets/domestic-market-operations/monetary-policy-implementation/treasury-securities/treasury-securities-operational-details",
+    "מקורות": [
+      {
+        "url": "https://www.newyorkfed.org/markets/domestic-market-operations/monetary-policy-implementation/treasury-securities/treasury-securities-operational-details",
+        "label": "ניו יורק פד: טבלת הסכומים לתקופה 16 בנובמבר-11 בדצמבר 2026 ולוח הפעולות הנוכחי, נקראו במלואם",
+        "label_en": "New York Fed: full November 16-December 11, 2026 period amounts and current operation schedule"
+      },
+      {
+        "url": "https://www.newyorkfed.org/markets/reserve-management-reinvestment-purchases-faq",
+        "label": "ניו יורק פד: הגדרות רכישות השקעה מחדש ורכישות לניהול רזרבות",
+        "label_en": "New York Fed: definitions of reinvestment purchases and reserve management purchases"
+      }
+    ],
+    "טקסט": "13.11.2026 | לוח הפעולות המקורי של ניו יורק פד נבדק, כולל טבלת הסכומים ולוח הרכישות. שעת העדכון המקורית אינה מוצגת במקור שנבדק. זו תוכנית לפעולות עתידיות, לא סכום שכבר נרכש.\n\nדסק השוק של ניו יורק פד מתכנן רכישות השקעה מחדש בהיקף של כ-14.0 מיליארד דולר לתקופה שבין 16 בנובמבר ל-11 בדצמבר 2026. באותה תקופה לא מתוכננות רכישות לניהול רזרבות, RMP. אלה שני רכיבים נפרדים: אין לחבר את ה-14 מיליארד לרכישות RMP חדשות או לתארם כחידוש התוכנית הזאת.\n\nלפי ההסבר הרשמי, תשלומי קרן שמתקבלים מהחזקות ניירות ערך של סוכנויות מושקעים מחדש במק\"מ אמריקאי, Treasury bills. רכישות RMP, לעומת זאת, נועדו להגדיל את החזקות SOMA כאשר נדרש לשמור על רזרבות בשפע. הסכומים שלהן אינם במסלול קבוע ויכולים להשתנות מדי חודש. הלוח הנוכחי כולל חמש פעולות רכישת bills, ב-18 וב-24 בנובמבר וב-1, 3 ו-7 בדצמבר; הלוח זמני והסכומים לכל פעולה הם תקרות, לא תוצאות ביצוע.\n\nגם בתקופה הקודמת, 15 באוקטובר-13 בנובמבר, לא תוכננו רכישות RMP, לצד כ-14.6 מיליארד דולר של השקעה מחדש. לכן מדובר בהמשך היעדר רכישות RMP בתקופה החודשית הבאה, לא בעצירה ראשונה היום. התאריך המדויק בטבלת התוכנית החדשה הוא 11 בדצמבר, לא הבטחה לגבי מדיניות לכל החודש.\n\nזהו לוח יישום של המאזן, לא הודעה על הורדת ריבית או על תוכנית QE חדשה. אין כאן החלטה על חידוש RMP בתום התקופה או תוצאת רכישות בפועל.",
+    "טקסט_en": "November 13, 2026 | The original New York Fed operational page was checked, including the full period-amount table and current purchase schedule. The checked source does not show an original update time. These are planned future operations, not purchases already completed.\n\nThe New York Fed trading desk plans approximately $14.0 billion of reinvestment purchases for November 16-December 11, 2026. It plans no reserve management purchases, or RMPs, during that period. These are separate components: the $14 billion must not be described as new RMPs or a restart of that program.\n\nThe official explanation says principal payments received from agency securities holdings are reinvested in Treasury bills. RMPs, by contrast, increase SOMA securities holdings when needed to maintain ample reserves. Their amounts are not on a preset course and can vary each month. The current tentative schedule lists five bill-purchase operations on November 18 and 24 and December 1, 3 and 7. Each operation amount is a maximum, not an executed purchase result.\n\nThe previous October 15-November 13 period also had no planned RMPs, alongside about $14.6 billion of reinvestment purchases. This continues the absence of RMPs into the next monthly period, rather than starting a new pause today. The new table ends on December 11 specifically; it does not commit policy for the entire month.\n\nThis is a balance-sheet implementation schedule, not a rate cut or the announcement of a new QE program. It does not announce an RMP restart after the period or report executed purchase totals.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1f06bddfa3fa93468175afd4355872cc5b61362de9f97b304d6f089f5e76757b"
+      }
+    },
+    "מזהה": "n-1653",
+    "הועלה": "2026-11-13 22:14"
   }
 ]
