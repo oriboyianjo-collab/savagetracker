@@ -1,6 +1,6 @@
 // Total net assets (AUM) per ETF from the issuers' own public fund data. Used by fetch-issuer-holdings.cjs -> holdings/issuer.json "netAssets".
 // Only values an issuer publishes together with an as-of date. Any failure of one issuer leaves the previous values in place.
-// Sources: iShares product screener (all US iShares ETFs), SSGA/SPDR fund finder, Global X and First Trust fund pages (one page per ticker).
+// Sources: iShares product screener (all US iShares ETFs), SSGA/SPDR fund finder, Global X and First Trust fund pages, and NEOS official dated fund overview.
 const fs = require('fs'), path = require('path');
 const UA = {'User-Agent': 'Mozilla/5.0 (compatible; savage-tracker-netassets)', 'Accept': '*/*'};
 const iso8 = n => { const s = String(n); return /^\d{8}$/.test(s) ? `${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}` : null; };
@@ -18,11 +18,32 @@ async function ssga(){ const out = {}, j = JSON.parse(await get('https://www.ssg
 async function globalx(t){ const url = `https://www.globalxetfs.com/funds/${t.toLowerCase()}/`, p = plain(await get(url)), m = p.match(/Net Assets\s+(\$[\d.,]+\s*[BMK]?)\s+As of\s+([A-Za-z]{3}[a-z]*\.? \d{1,2}, \d{4})/); if(!m) return null; const v = money(m[1]), d = parseDate(m[2]); return v && d ? {v, asOf: d, issuer: 'Global X', src: url} : null; }
 async function firsttrust(t){ const url = `https://www.ftportfolios.com/retail/etf/etfsummary.aspx?Ticker=${t}`, p = plain(await get(url, 40000)), m = p.match(/Total Net Assets\s+\$([\d,]+)\s+Outstanding Shares/), d = p.match(/Total Net Assets[\s\S]{0,400}?As of\s+(\d{1,2}\/\d{1,2}\/\d{4})/i) || p.match(/as of\s+(\d{1,2}\/\d{1,2}\/\d{4})/i);
   if(!m) return null; const v = parseInt(m[1].replace(/,/g,''), 10), dm = d && d[1].match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/); return v > 0 && dm ? {v, asOf: `${dm[3]}-${dm[1].padStart(2,'0')}-${dm[2].padStart(2,'0')}`, issuer: 'First Trust', src: url} : null; }
+function parseNeos(h,universe){
+ const out={},section=h.match(/<div\b[^>]*\bid=["']fund-overview["'][^>]*>([\s\S]*?)<\/table>/i);if(!section)return out;
+ const dm=plain(section[1]).trim().match(/^As of\s+(\d{1,2})\/(\d{1,2})\/(\d{4})\b/);if(!dm)return out;
+ const asOf=`${dm[3]}-${dm[1].padStart(2,'0')}-${dm[2].padStart(2,'0')}`;const d=new Date(asOf+'T00:00:00Z');if(!Number.isFinite(+d)||d.toISOString().slice(0,10)!==asOf)return out;
+ const table=section[1].match(/<table\b[^>]*>([\s\S]*)/i);if(!table)return out;
+ const head=table[1].match(/<thead\b[^>]*>([\s\S]*?)<\/thead>/i);if(!head)return out;
+ const headers=[...head[1].matchAll(/<th\b[^>]*>([\s\S]*?)<\/th>/gi)].map(m=>plain(m[1]).trim().toLowerCase());
+ if(headers.length!==8||headers[0]!=='ticker'||headers[6]!=='net assets'||headers[7]!=='inception date')return out;
+ const permitted=new Set(universe.filter(x=>x&&x[2]===1&&/^NEOS\b/i.test(x[1])).map(x=>x[0]));const duplicates=new Set();
+ for(const row of table[1].matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)){
+  // HTML permits an omitted </td>; split on starts, not closing tags.
+  const cells=row[1].split(/<td\b[^>]*>/i).slice(1).map(x=>plain(x).trim());if(cells.length!==8)continue;
+  const t=cells[0],am=cells[6].match(/^\$([\d,]+(?:\.\d+)?)$/),v=am&&Number(am[1].replace(/,/g,''));
+  if(!permitted.has(t)||!v||!Number.isFinite(v)||v<0||!/^\d{2}\/\d{2}\/\d{4}$/.test(cells[7]))continue;
+  if(out[t]||duplicates.has(t)){delete out[t];duplicates.add(t);continue;}
+  out[t]={v:Math.round(v),asOf,issuer:'NEOS',src:'https://neosfunds.com/',currency:'USD'};
+ }
+ return out;
+}
+
 async function pool(items, n, fn){ const res = []; let i = 0; await Promise.all(Array.from({length: n}, async () => { while(i < items.length){ const k = items[i++]; try{ const r = await fn(k); if(r) res.push([k, r]); }catch(e){} } })); return res; }
 module.exports = async function fetchNetAssets(root, log = console.log){ const out = {};
   for(const [name, fn] of [['iShares', ishares], ['SSGA', ssga]]){ try{ const r = await fn(); Object.assign(out, r); log('NA   ' + name, Object.keys(r).length); }catch(e){ log('NA   ' + name + ' error', e.message); } }
   let names = []; try{ names = JSON.parse(fs.readFileSync(path.join(root, 'securities-us.json'), 'utf8')).d || []; }catch(e){}
   const etfs = names.filter(x => x && x[2] === 1);
+  try{ const r = parseNeos(await get('https://neosfunds.com/', 40000), etfs); Object.assign(out, r); log('NA   NEOS', Object.keys(r).length); }catch(e){ log('NA   NEOS error', e.message); }
   for(const [name, rx, fn] of [['Global X', /^Global X\b/i, globalx], ['First Trust', /^(First Trust|FT )/i, firsttrust]]){ const ts = etfs.filter(x => rx.test(x[1])).map(x => x[0]).filter(t => !out[t]);
     try{ const r = await pool(ts, 6, fn); r.forEach(([t, e]) => { out[t] = e; }); log('NA   ' + name, r.length + '/' + ts.length); }catch(e){ log('NA   ' + name + ' error', e.message); } }
   return out; };
