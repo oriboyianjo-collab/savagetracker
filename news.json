@@ -42485,5 +42485,39 @@
     },
     "מזהה": "n-1626",
     "הועלה": "2026-11-13 17:01"
+  },
+  {
+    "category": "micro",
+    "חברה": "CoreWeave (CRWV)",
+    "חברה_en": "CoreWeave (CRWV)",
+    "symbols": [
+      "CRWV"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "17:04",
+    "כותרת": "CoreWeave (CRWV): ירידה של כ-10.4% במסחר הרגיל; תמונת מחיר ללא סיבה חדשה מאומתת",
+    "כותרת_en": "CoreWeave (CRWV): down about 10.4% in regular trading; price snapshot without a verified new cause",
+    "קישור": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+    "מקורות": [
+      {
+        "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+        "label": "CNBC: ציטוט CRWV במסחר הרגיל, 13 בנובמבר 10:04:43 EST",
+        "label_en": "CNBC: CRWV regular-session quote, November 13 at 10:04:43 EST"
+      }
+    ],
+    "טקסט": "13.11.2026, 17:04:43 בישראל (10:04:43 EST) | ציטוט המסחר הרגיל של CNBC מציג את מניית CoreWeave במחיר 50.74 דולר, ירידה של 5.86 דולר, כ-10.35%, מול סגירת היום הקודם ב-56.60 דולר. זו תמונת מצב נקודתית במסחר פתוח, לא מחיר חי מתעדכן ולא תשואת הסגירה.\n\nהשינוי מחושב מול הסגירה הקודמת, לא מול מחיר הפתיחה. נעשה שימוש במחיר האחרון ובחותמת הזמן של המסחר הרגיל, ולא בציטוט מסחר מורחב או בשדה סגירה תוך-יומי שעשוי להתעדכן בנפרד.\n\nלא אומתה סיבה תאגידית חדשה לתנועה הזו. אין בנתון המחיר לבדו אישור לביטול חוזה, אובדן לקוח, דילול, משבר נזילות או עיכוב חדש בפרויקט. פריטי רקע קודמים על ספקיות תשתית AI אינם הוכחה לסיבה לתנועה הנוכחית. לא נכללים כאן סיכום תוצאות או שינויי תחזית.\n\nהחידוש הוא חציית ירידה דו-ספרתית היום במניה נוספת ברשימת המעקב, בנפרד מעדכוני Agility ו-Nebius ומהפריטים הישנים על CoreWeave. בקשת ההלוואה של 4 מיליארד דולר ב-n-1612 כבר סוקרה; אין כאן אישור שהיא מסבירה את הירידה או שינוי חדש במעמדה. אין הוכחה לסיבה משותפת לשתי המניות או לתנועת מדד באותו שיעור. המחירים יכולים להשתנות במהירות לאחר מועד הציטוט.",
+    "טקסט_en": "November 13, 2026, 17:04:43 Israel (10:04:43 EST) | CNBC's regular-session quote shows CoreWeave at $50.74, down $5.86, about 10.35%, from the previous close of $56.60. This is a timestamped open-market snapshot, not a live updating price or the closing return.\n\nThe change is from the previous close, not the opening price. It uses the regular-session last price and timestamp, not an extended-session quote or an intraday closing field that may update separately.\n\nNo new company-specific cause for this move was verified. The price alone does not establish a canceled contract, lost customer, dilution, liquidity crisis or new project delay. Earlier AI-infrastructure-provider background is not proof of the current driver. No earnings summary or forecast revisions are included here.\n\nThe development is another tracked stock crossing a double-digit decline today, separate from the Agility and Nebius updates and older CoreWeave price items. The proposed $4 billion loan was already covered in n-1612; no causation or new financing stage is established here. A shared cause for both stocks or a similar index move is not established. Prices can change quickly after the quote timestamp.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8c063001a4711c69d79b2724f5499723719e8a9b86c1950343f61774282211a6"
+      }
+    },
+    "מזהה": "n-1627",
+    "הועלה": "2026-11-13 17:06"
   }
 ]
