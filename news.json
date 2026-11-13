@@ -42808,5 +42808,40 @@
     },
     "מזהה": "n-1635",
     "הועלה": "2026-11-13 17:41"
+  },
+  {
+    "category": "macro",
+    "חברה": "יפן / ארה\"ב",
+    "חברה_en": "Japan / United States",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "שעה": "12:10",
+    "כותרת": "השלמה מ-12.11: ארה\"ב דורשת מיפן לשלש את מימון אירוח הכוחות; טוקיו שוקלת פחות, המו\"מ נמשך",
+    "כותרת_en": "Catch-up from November 12: US seeks triple Japan troop-hosting funding; Tokyo considers less, talks continue",
+    "קישור": "https://www.asahi.com/ajw/articles/17045304",
+    "מקורות": [
+      {
+        "url": "https://www.asahi.com/ajw/articles/17045304",
+        "label": "Asahi: הדיווח המלא, 12 בנובמבר 19:10 JST",
+        "label_en": "Asahi: full report, November 12 at 19:10 JST"
+      },
+      {
+        "url": "https://www.nippon.com/en/articles/-/57406",
+        "label": "Jiji Press דרך Nippon: דיווח מלא מ-13 בנובמבר",
+        "label_en": "Jiji Press via Nippon: full November 13 report"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני ממשלתי: הפרטים מיוחסים למקורות בדיווחים המלאים של Asahi ושל Jiji Press. לא נקרא הסכם חתום או אישור ממשלתי פומבי לדרישות.\n\nהשלמת סיקור לדיווח Asahi מ-12.11.2026, 19:10 ביפן, 12:10 בישראל. הפרסום עולה ב-13 בנובמבר ואינו הודעה חדשה שהוכרזה כעת. דיווח Jiji מ-13 בנובמבר נקרא במלואו כהצלבה; שעתו המדויקת אינה ידועה.\n\nלפי Asahi, וושינגטון מבקשת מיפן לשלש בקירוב את תרומתה השנתית הנוכחית, כ-211 מיליארד ין, למימון הכוחות האמריקאיים המוצבים ביפן. לפי Jiji, הדרישה היא לכ-3 טריליון ין במצטבר בחמש השנים שמתחילות בשנת הכספים 2027, לעומת 1.0551 טריליון בחמש שנות ההסכם הנוכחי. אלה עלויות אירוח לאורך תקופה, לא תקציב שנתי של 3 טריליון ין.\n\nלפי הדיווחים, יפן שוקלת תרומה של כ-300 מיליארד ין לשנה, כ-1.5 טריליון בחמש שנים, בהתחשב גם בפיחות הין ובעליית המחירים. זו עמדה נבחנת, נמוכה מדרישת ארה\"ב, לא הסכמה לשילוש. ההסכם הנוכחי מסתיים במרץ 2027; השיחות על מחליפו נמשכות מאז יולי, במטרה מדווחת להגיע להסכמה עד סוף השנה. לא אומת הסכם חדש שהושלם.\n\nמימון האירוח מכסה בין היתר שכר עובדים יפנים בבסיסים, שירותים ותשתיות. Asahi מציינת שטוקיו שוקלת גם הרחבת מימון מגורים ומתקנים מחוזקים או תת-קרקעיים. אלו כיווני הוצאה במשא ומתן, לא אישור להזמנת נשק, לשילוש מספר החיילים, לתשלום שכבר בוצע או לשינוי פריסה צבאית.\n\nהידיעה מוסיפה תמונה כמותית של הפער בעמדות בעלות הברית לקראת חידוש ההסכם. היא אינה ראיה לתגובת שוק מסוימת, להחלטת תקציב סופית או לפירוק הברית.",
+    "טקסט_en": "Not verified against a primary government source: details are attributed to sources in full Asahi and Jiji Press reports. No signed agreement or public government confirmation of the demands was read.\n\nCatch-up coverage of Asahi's November 12, 2026 report at 19:10 Japan, 12:10 Israel. Uploaded on November 13, this is not a newly announced development at upload time. Jiji's full November 13 report was read as a cross-check; its exact publication time is unknown.\n\nAccording to Asahi, Washington is seeking roughly triple Japan's current annual contribution of about 211 billion yen toward hosting US forces in Japan. Jiji puts the request at about 3 trillion yen over the five years starting in fiscal 2027, compared with 1.0551 trillion yen for the current five-year agreement. This is hosting support over a period, not a 3-trillion-yen annual budget.\n\nJapan is reportedly considering about 300 billion yen annually, or 1.5 trillion over five years, taking yen depreciation and rising prices into account. This is a position under consideration, below the US demand, not agreement to a tripling. The current agreement expires in March 2027. Replacement talks have continued since July, with a reported goal of agreement by year-end. No completed new agreement was verified.\n\nHosting support covers items including Japanese base workers' wages, utilities and facilities. Asahi says Tokyo is also considering more spending on housing and reinforced or underground facilities. These are possible spending priorities in negotiations, not a confirmed weapons order, triple troop numbers, payment already made or a change in military deployments.\n\nThe report quantifies the gap between the allies' negotiating positions ahead of renewal. It does not establish a particular market reaction, final budget decision or the end of the alliance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9ada75de78639da6869ecf2206997312e1cdb46674ff07878453e1432c7691d8"
+      }
+    },
+    "מזהה": "n-1636",
+    "הועלה": "2026-11-13 17:52"
   }
 ]
