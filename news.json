@@ -41429,5 +41429,32 @@
     },
     "מזהה": "n-1592",
     "הועלה": "2026-11-13 14:16"
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-11-04",
+    "כותרת": "השלמת סיקור: Blackstone (BX) סגרה את BXDE IV; כ-13 מיליארד אירו להשקעה בקרן ובכלים נוספים, כולל מינוף צפוי",
+    "כותרת_en": "Catch-up: Blackstone (BX) closes BXDE IV; about €13 billion of investable capital across the fund and other vehicles, including anticipated leverage",
+    "קישור": "https://www.blackstone.com/news/press/blackstone-closes-fourth-institutional-european-direct-lending-fund-with-e13-billion-in-investable-capital/",
+    "מקורות": [
+      {
+        "url": "https://www.blackstone.com/news/press/blackstone-closes-fourth-institutional-european-direct-lending-fund-with-e13-billion-in-investable-capital/",
+        "label": "Blackstone: הודעת הסגירה המקורית מ-4 בנובמבר, הנוסח המלא",
+        "label_en": "Blackstone: original November 4 closing announcement, full release"
+      }
+    ],
+    "חברה": "בלקסטון",
+    "חברה_en": "Blackstone",
+    "סימול": "BX",
+    "טקסט": "השלמת סיקור להודעת Blackstone מ-4.11.2026 בלונדון. שעת הפרסום המקורית אינה ידועה; ההודעה נקראה במלואה. אין כאן סגירה חדשה מ-13 בנובמבר.\n\nBlackstone הודיעה על סגירה סופית של קרן ההלוואות הישירות המוסדית האירופית הרביעית שלה, Blackstone European Senior Direct Lending Fund IV, או BXDE IV. הקרן מיועדת למימון לווים אירופיים, עם דגש על חברות בגודל בינוני ובינוני-גדול.\n\nהחברה מציינת כ-13 מיליארד אירו של הון זמין להשקעה שנצבר מאז השקת BXDE IV, במצטבר בקרן ובכלי הלוואות ישירות אירופיים נוספים, כולל מינוף צפוי. אין מדובר בסכום התחייבויות משקיעים נפרד של BXDE IV לבדה, וגם לא ב-13 מיליארד אירו במזומן שכבר גויסו ללא חוב. ההודעה אינה מפרטת בנפרד את התחייבויות המשקיעים בקרן או את רכיב המינוף.\n\nהסגירה מוסיפה בסיס השקעה לפעילות האשראי הפרטי האירופית של Blackstone. הסכום אינו הכנסה או רווח של החברה, אינו אישור שכל ההון כבר הושקע ואינו תשואה מובטחת למשקיעים. השקעות ומימונים קודמים שהוזכרו בהודעה הם רקע לפעילות, לא עסקאות חדשות נוספות או סכומים שיש לחבר ל-13 מיליארד האירו.",
+    "טקסט_en": "Catch-up coverage of Blackstone's November 4, 2026 announcement in London. The original publication time is unknown; the full release was read. This is not a new November 13 closing.\n\nBlackstone announced the final close of its fourth institutional European direct lending fund, Blackstone European Senior Direct Lending Fund IV, or BXDE IV. The fund targets European borrowers, with a focus on the middle and upper middle market.\n\nThe company cites approximately €13 billion of investable capital closed since BXDE IV's launch across the fund and other European direct lending vehicles, including anticipated leverage. This is not a separate investor-commitment total for BXDE IV alone, nor €13 billion of unlevered cash already raised. The release does not separately disclose the fund's investor commitments or the leverage component.\n\nThe closing adds an investment base for Blackstone's European private credit business. The amount is not company revenue or profit, confirmation that all the capital has been deployed, or a guaranteed investor return. Earlier investments and financings mentioned in the release are background, not additional newly announced transactions or amounts to add to the €13 billion.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "77dc3a0e753082489a4793542537c2d343ec5e85aae8c633ec61aae172bb7a34"
+      }
+    },
+    "מזהה": "n-1593",
+    "הועלה": "2026-11-13 14:19"
   }
 ]
