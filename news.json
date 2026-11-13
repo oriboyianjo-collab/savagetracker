@@ -42667,5 +42667,40 @@
     },
     "מזהה": "n-1631",
     "הועלה": "2026-11-13 17:15"
+  },
+  {
+    "category": "macro",
+    "חברה": "IREN (IREN), Cipher Digital (CIFR), S&P 500",
+    "חברה_en": "IREN (IREN), Cipher Digital (CIFR), S&P 500",
+    "symbols": [
+      "IREN",
+      "CIFR"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "17:21",
+    "כותרת": "IREN וסייפר יורדות ביותר מ-10%; S&P 500 יורד כ-1.17% במסחר הרגיל",
+    "כותרת_en": "IREN and Cipher drop more than 10%; S&P 500 down about 1.17% in regular trading",
+    "קישור": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+    "מקורות": [
+      {
+        "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+        "label": "CNBC: ציטוטי IREN, CIFR ו-S&P 500, 13 בנובמבר 10:21:40-41 EST",
+        "label_en": "CNBC: IREN, CIFR and S&P 500 quotes, November 13 at 10:21:40-41 EST"
+      }
+    ],
+    "טקסט": "13.11.2026, 17:21:40-41 בישראל (10:21:40-41 EST) | תמונת ציטוטים של CNBC במסחר הרגיל הפתוח, לא מחירים חיים מתעדכנים ולא תשואות סגירה.\n\nIREN נסחרה ב-17.475 דולר, ירידה של 2.005 דולר, כ-10.29%, מול סגירה קודמת של 19.48 דולר. שעת הציטוט: 17:21:40 בישראל.\n\nCipher Digital (CIFR) נסחרה ב-6.3698 דולר, ירידה של 0.7802 דולר, כ-10.91%, מול סגירה קודמת של 7.15 דולר. שעת הציטוט: 17:21:40 בישראל.\n\nמדד S&P 500 עצמו עמד על 7,503.26 נקודות, ירידה של 89.14 נקודות, כ-1.17%, מול סגירה קודמת של 7,592.40. שעת הציטוט: 17:21:41 בישראל. זהו המדד במסחר הרגיל, לא החוזים העתידיים ולא קרן סל.\n\nהחידוש הוא חציית ירידה דו-ספרתית היום בשתי מניות נוספות ברשימת המעקב וירידה של יותר מאחוז במדד. אין כאן התראה חוזרת על Agility, Nebius, CoreWeave או Applied Digital שכבר סוקרו היום. ירידה נוספת באותן מניות אינה כשלעצמה אירוע תאגידי חדש.\n\nלא אומתה סיבה חדשה שמסבירה את מלוא התנועה בשתי החברות או במדד. עצם הירידה המקבילה אינה מוכיחה גורם משותף. פריטי הרקע על חוזים, מימון, בנייה או לקוחות אינם מוצגים כחדשות שהתפרסמו כעת או כהסבר סיבתי מאומת. אין כאן תוצאות כספיות או שינוי תחזית. כל השינויים מחושבים מול הסגירה הקודמת, והמחירים יכולים להשתנות במהירות אחרי חותמת הזמן.",
+    "טקסט_en": "November 13, 2026, 17:21:40-41 Israel (10:21:40-41 EST) | CNBC quote snapshot during open regular trading, not live updating prices or closing returns.\n\nIREN traded at $17.475, down $2.005, about 10.29%, from the previous close of $19.48. Quote time: 17:21:40 Israel.\n\nCipher Digital (CIFR) traded at $6.3698, down $0.7802, about 10.91%, from the previous close of $7.15. Quote time: 17:21:40 Israel.\n\nThe S&P 500 index itself stood at 7,503.26, down 89.14 points, about 1.17%, from its previous close of 7,592.40. Quote time: 17:21:41 Israel. This is the regular-session index, not futures or an ETF.\n\nThe development is two additional tracked stocks crossing double-digit declines today and the index dropping more than 1%. This is not a repeat alert for Agility, Nebius, CoreWeave or Applied Digital, already covered today. Further declines in those names are not by themselves new corporate events.\n\nNo new cause explaining the full move in either company or the index was verified. Simultaneous declines do not establish a shared driver. Earlier contract, financing, construction or customer background is not presented as newly released news or a verified causal explanation. No earnings results or forecast changes are included. All changes are measured from the previous close, and prices may change quickly after the timestamp.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e79638e986e38353d779cf802a8e0170c3995e19f33f81f09efa31e07477b48f"
+      }
+    },
+    "מזהה": "n-1632",
+    "הועלה": "2026-11-13 17:22"
   }
 ]
