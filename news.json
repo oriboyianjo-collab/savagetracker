@@ -39779,5 +39779,78 @@
     },
     "מזהה": "n-1546",
     "הועלה": "2026-11-13 10:37"
+  },
+  {
+    "category": "micro",
+    "חברה": "שרתי AI / סינגפור",
+    "חברה_en": "AI servers / Singapore",
+    "symbols": [
+      "NVDA",
+      "SMCI",
+      "DELL"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 04:43",
+    "כותרת": "סינגפור: אדם חמישי ושתי חברות נוספות הואשמו בפרשת רכישת שרתים; אין הרשעה או אישום חדש נגד NVIDIA",
+    "כותרת_en": "Singapore charges fifth individual and two more companies in server-purchase case; no conviction or new NVIDIA charge",
+    "טקסט": "13.11.2026, 04:43 בישראל (10:43 בסינגפור) | הודעת משטרת סינגפור המלאה נקראה עד חתימת מחלקת הדוברות, לצד כתבת CNA המלאה. זו השלמת סיקור להודעה מהבוקר, לא תחילת חקירה חדשה.\n\nהמשטרה הודיעה ש-Shi Bingzhe, אדם חמישי בפרשה, ושתי חברות שבהן היה נושא משרה מרכזי הואשמו בעבירות הלבנת הון בקשר לחקירת הצגת מצגי שווא ברכישת שרתים. Shi היה דירקטור ב-Superphi וסמנכל תפעול ב-NJ Global Financial.\n\nלפי החשד המתואר בהודעה, בהסכמתו רכשו שתי החברות יחד 917 שרתים מ-Aperia International ב-41 עסקאות בין מאי 2024 לפברואר 2025, כאשר היו להן יסודות סבירים להאמין שהשרתים מייצגים טובת הנאה מעבירה. מדובר בטענות האישום, לא בממצאי הרשעה.\n\nShi עומד בפני 41 אישומים בגין הסכמה לביצוע העבירות כנושא משרה. Superphi עומדת בפני שישה אישומים ו-NJ Global בפני 35; אין מדובר ב-41 אישומים לכל חברה או ב-917 עסקאות. עם האישומים החדשים, סך הנאשמים בפרשה הוא חמישה אנשים ושש חברות.\n\nאם יורשע, העונש המרבי ל-Shi הוא עד עשר שנות מאסר, קנס של עד 500 אלף דולר סינגפורי, או שניהם, לכל אישום. לחברות נקבע בחוק קנס מרבי לכל אישום של מיליון דולר סינגפורי או פי שניים משווי טובת ההנאה, הגבוה מביניהם. אלה תקרות מותנות בהרשעה, לא עונש או קנס שכבר הוטלו.\n\nגבול הייחוס חשוב: ההודעה הרשמית אינה מזהה כאן דגם שבב או מוכיחה יצוא אסור לסין. CNA קושרת את התיק לתנועה הנטענת של שבבי NVIDIA ומציינת שרתי Dell, ASUS ו-Supermicro על בסיס כתבי האישום; כתבי האישום עצמם לא נקראו בנפרד. אין כאן אישום חדש נגד יצרניות השרתים או NVIDIA, או ממצא ש-DeepSeek קיבלה את הציוד.\n\nזהו שלב אכיפה נוסף בפרשת רכישת שרתים, לא הודעה שאחד מששת האנשים בחקירת Megaspeed המתוארת ב-n-1442 הוא הנאשם החדש. אין להסיק זהות בין הקבוצות או הכרעה בטענות הריגול הנוגעות לאליס הואנג.",
+    "טקסט_en": "November 13, 2026, 04:43 Israel time (10:43 Singapore) | The full Singapore Police Force release was read through the Public Affairs Department sign-off, alongside CNA's complete article. Catch-up coverage of this morning's release, not the start of a new investigation.\n\nPolice announced charges against Shi Bingzhe, a fifth individual in the case, and two companies where he was a key officer, for money-laundering offences related to an investigation into fraud by false representation in server purchases. Shi was Superphi's director and NJ Global Financial's chief operating officer.\n\nPolice allege that, with his consent, the companies together acquired 917 servers from Aperia International in 41 transactions between May 2024 and February 2025, with reasonable grounds to believe the servers represented benefits from criminal conduct. These are allegations, not findings of guilt.\n\nShi faces 41 charges for consenting to the offences as a key officer. Superphi faces six and NJ Global 35, not 41 charges for each company or 917 transactions. The additions bring the case total to five individuals and six companies charged.\n\nIf convicted, Shi faces up to ten years in prison, a fine of up to S$500,000, or both, for each charge. Companies face a maximum fine per charge of S$1 million or twice the criminal-benefit value, whichever is higher. These are conviction-dependent statutory maxima, not sentences or fines already imposed.\n\nAttribution matters: the official release does not identify a chip model or establish illegal exports to China. CNA links the case to alleged Nvidia-chip movements and names Dell, ASUS and Supermicro servers based on charge sheets; those sheets were not independently read here. This is not a new charge against those manufacturers or NVIDIA, or a finding that DeepSeek received the equipment.\n\nThe increment is another enforcement stage in the server-purchase case. It does not identify the new defendant as one of the six people in the Megaspeed investigation covered in n-1442. These groups must not be equated, nor does this settle intelligence allegations involving Alice Huang.",
+    "קישור": "https://www.police.gov.sg/Media-Hub/News/2026/11/20261113_fifth_individual_and_two_additional_companies_charged_in_relation_to_the_case",
+    "מקורות": [
+      {
+        "url": "https://www.police.gov.sg/Media-Hub/News/2026/11/20261113_fifth_individual_and_two_additional_companies_charged_in_relation_to_the_case",
+        "label": "משטרת סינגפור: הודעת האישומים המלאה, 13 בנובמבר 10:43 מקומי",
+        "label_en": "Singapore Police Force: full charges release, November 13 at 10:43 local"
+      },
+      {
+        "url": "https://www.channelnewsasia.com/singapore/man-charged-fraud-nvidia-chips-6548606",
+        "label": "CNA: כתבה מלאה; הקשר לשבבי NVIDIA מיוחס לדיווח",
+        "label_en": "CNA: full report; Nvidia-chip link attributed to its reporting"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8184aa9161c3092018dd60164a5ba075921b686ac618bbd68136bf7132625011"
+      }
+    },
+    "מזהה": "n-1547",
+    "הועלה": "2026-11-13 10:39"
+  },
+  {
+    "category": "micro",
+    "חברה": "Nasdaq / NDAQ",
+    "חברה_en": "Nasdaq / NDAQ",
+    "symbols": [
+      "NDAQ"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Nasdaq משנה את בדיקות נתוני Plus לקראת 23/5 ומפרטת חריגות בקובצי UAT; לא תקלה שהוכחה במסחר חי",
+    "כותרת_en": "Nasdaq changes Plus data testing for 23/5 and flags UAT sample deviations; not a proven live-trading fault",
+    "טקסט": "12.11.2026 | העדכון המלא בהודעת Nasdaq DN2026-3 נקרא ישירות עד סוף סעיפי הבדיקות. שעת פרסום העדכון המקורית לא אומתה. זהו עדכון השלמה לשיטת בדיקות נתוני שוק, לא השקה חדשה של מסחר לילי.\n\nNasdaq אומרת שמוצרי הנתונים Plus כבר נמצאים בייצור ולקוחות עוברים אליהם. משום שהפצת נתוני בדיקה מוקדמים ברשתות ייצור יוצרת סיכון לאיכות הנתונים, היא משנה את תוכנית בדיקות ה-Pre-Production וממקדת את בדיקות המוכנות למסחר 23/5 בקובצי דוגמה של מבחני קבלה, UAT. אין בכך הודעה שנתוני בדיקה כבר גרמו לעסקאות שגויות במסחר החי.\n\nבקובצי מבחן 6 בנובמבר זוהו שתי חריגות מהמפרט: קוד סיבת עצירה M1 פורסם במצב Q של תקופת ציטוט בלבד, בעוד שבמבחן 20 בנובמבר הוא אמור להופיע רק במצב H של עצירה. בנוסף, חותמת זמן לשחרור ציטוט בהנפקה ב-TotalView Plus פורסמה בשמונה בתים במקום ארבעה. המפרט הנכון הוא ארבעה בתים בשניות, לא ננו-שניות; זה הפורמט שמתוכנן למבחן הבא.\n\nהקבצים זמינים דרך שירות EMI FTP למוצרי TotalView Plus, Basic Plus ו-Last Sale Plus 5.0, ואמורים להתעדכן אחרי מבחן 20 בנובמבר. אלו תיקונים מתוכננים לסביבת בדיקה, לא הודעה שהמבחן העתידי כבר הושלם או שכל מערכות הלקוחות עברו הסמכה.\n\nהחידוש ביחס ל-n-0049 הוא שינוי שיטת בדיקות נתוני Plus ופרטי החריגות, לא הכרזה חוזרת על עצם קיום בדיקות מאז 1 בנובמבר. יש להבחין גם בין זמינות מוצרי נתונים בייצור לבין הפעלת מסחר 23 שעות בכל ניירות הערך. יעד ההרחבה ל-6 בדצמבר עדיין מתואר בעמוד כמותנה באישורים ובמוכנות DTCC ו-SIP; אין כאן אישור חדש או התחייבות שכל ברוקר יציע את מלוא השעות.",
+    "טקסט_en": "November 12, 2026 | The complete update in Nasdaq notice DN2026-3 was read directly through the ending testing sections. The original update clock was not verified. Catch-up coverage of a market-data testing change, not a new overnight-trading launch.\n\nNasdaq says its Plus data products are already in production and customers are migrating. Because distributing pre-production test data on production networks poses a data-quality risk, it is modifying the Pre-Production plan and refocusing 23/5 readiness work on user-acceptance-testing sample files. This is not an announcement that test data has already caused incorrect live trades.\n\nTwo specification deviations occurred in the November 6 UAT files: the M1 corporate-action halt reason appeared in Q, the quotation-only state; the November 20 UAT is to publish it only in H, the halted state. Also, TotalView Plus's IPO quotation-release timestamp used eight bytes rather than four. The correct field is four bytes in seconds, not nanoseconds, and that is the planned format for the next UAT.\n\nFiles are available through EMI FTP for TotalView Plus, Basic Plus and Last Sale Plus 5.0, with another update planned after the November 20 UAT. These are planned test-environment corrections, not confirmation the future test is complete or every customer system is certified.\n\nThe increment over n-0049 is the Plus data-testing method and sample deviations, not another announcement that testing began November 1. Production availability of data products is also distinct from 23-hour live trading in all securities. The page still describes the December 6 expansion target as dependent on approvals and DTCC/SIP readiness; this is not a new approval or a guarantee every broker will offer every hour.",
+    "קישור": "https://www.nasdaqtrader.com/TraderNews.aspx?id=DN2026-3",
+    "מקורות": [
+      {
+        "url": "https://www.nasdaqtrader.com/TraderNews.aspx?id=DN2026-3",
+        "label": "Nasdaq: עדכון 12 בנובמבר ב-DN2026-3, תוכנית הבדיקות וחריגות UAT",
+        "label_en": "Nasdaq: November 12 DN2026-3 update, testing plan and UAT deviations"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "53e187f770c58a7e85370eb922cc524d8ebfeb8adac1c93506b0806c8ef445f1"
+      }
+    },
+    "מזהה": "n-1548",
+    "הועלה": "2026-11-13 10:39"
   }
 ]
