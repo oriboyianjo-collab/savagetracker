@@ -42130,5 +42130,72 @@
     },
     "מזהה": "n-1615",
     "הועלה": "2026-11-13 16:31"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "סקר Reuters: 64 מ-65 כלכלנים צופים שבנק אנגליה ימתין בדצמבר; שוק החוזים נוטה להעלאה",
+    "כותרת_en": "Reuters poll: 64 of 65 economists expect Bank of England to hold in December; futures lean toward a hike",
+    "קישור": "https://financialnewsletter.com/bank-of-england-to-41/",
+    "מקורות": [
+      {
+        "url": "https://financialnewsletter.com/bank-of-england-to-41/",
+        "label": "Reuters דרך Financial Newsletter: כתבת הסקר המלאה, 13 בנובמבר",
+        "label_en": "Reuters via Financial Newsletter: full November 13 survey article"
+      },
+      {
+        "url": "https://sa.marketscreener.com/news/bank-of-england-to-wait-until-february-to-next-raise-rates-say-economists-ce785ed9de8cf722",
+        "label": "Reuters דרך MarketScreener: עותק מלא נוסף של אותו סקר, לא סקר עצמאי",
+        "label_en": "Reuters via MarketScreener: another full copy of the same poll, not an independent survey"
+      }
+    ],
+    "טקסט": "13.11.2026 | דיווח הסקר המקורי של Reuters נקרא במלואו בשני עותקי הפצה. זו תחזית כלכלנים שנאספה ב-11-13 בנובמבר, לא החלטת ריבית של בנק אנגליה. לא נקבעה כאן שעת פרסום מקורית מדויקת בישראל.\n\n64 מתוך 65 הכלכלנים בסקר צופים שהבנק ישאיר בדצמבר את Bank Rate על 4.00%; כלכלן אחד צופה העלאה. לפי Reuters, ההעלאה הבאה צפויה כנראה בפברואר, ורוב גדול בסקר צופה שיא ריבית של 4.25%. מספר קטן צופה 4.50%, ושבעה אינם צופים העלאה נוספת מ-4.00%. אין להפוך את עמדת הרוב לתוצאה מובטחת.\n\nהסקר מנוגד לתמונת חוזי הריבית המתוארת בכתבה, שלפיה השוק כמעט מתמחר במלואה העלאה בדצמבר. זהו תיאור מתוארך של Reuters, לא ציטוט חי או מדידה עצמאית של הסתברות שוק. כלכלנים וחוזים הם שני סוגי ציפיות שונים, לא שתי החלטות סותרות של הבנק.\n\nכמה משיבים מדגישים שהנתונים הקרובים עשויים לשנות את התחזית. אלי הנדרסון מ-Investec, שצופה העלאה בפברואר, אומרת שהעלאה בדצמבר בהחלט אפשרית ושהתחזית תעודכן אחרי הנתונים. אין כאן הסכמה שהבנק יבחר בהעלאה גדולה במיוחד.\n\nהחידוש הוא סקר נובמבר החדש והפער בינו לבין השוק, בנפרד מהחלטת 5 בנובמבר שכבר סוקרה ב-n-0307 ומהתחזית שקדמה לה ב-n-0353. האינפלציה והצמיחה החזויות בכתבה אינן תוצאות חדשות, והסקר אינו משנה את נתוני ההחלטות בפועל ביומן.",
+    "טקסט_en": "November 13, 2026 | Reuters' original poll report was read in full in two distribution copies. These are economists' forecasts gathered November 11-13, not a Bank of England rate decision. No precise original Israeli publication time is established here.\n\n64 of 65 economists expect December's Bank Rate to remain 4.00%; one expects an increase. Reuters says the next hike is likely in February, and a large majority in the survey see a 4.25% peak. A small number expect 4.50%, while seven expect no further hike from 4.00%. The majority forecast is not a guaranteed outcome.\n\nThe survey contrasts with the futures picture described in the article, with a December hike almost fully priced. That is Reuters' dated description, not a live quote or independently measured market probability. Economists and futures represent different types of expectations, not conflicting decisions by the central bank.\n\nSeveral respondents stress that upcoming data could change their forecasts. Investec's Ellie Henderson, who expects a February hike, says December is certainly possible and the view will be updated after incoming data. No consensus for an outsized hike is established.\n\nThe development is the new November survey and its contrast with markets, separate from the November 5 decision covered in n-0307 and its earlier forecast in n-0353. Inflation and growth projections in the article are not new official outcomes; the poll does not change actual rate-decision values in the calendar.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e03832562ab211086d481ace6e0f05e8cce5ca5d3dbd4d41880bff9a105bb642"
+      }
+    },
+    "מזהה": "n-1616",
+    "הועלה": "2026-11-13 16:33"
+  },
+  {
+    "category": "micro",
+    "חברה": "Meta (META)",
+    "חברה_en": "Meta (META)",
+    "symbols": [
+      "META"
+    ],
+    "sectors": [
+      "communication_services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-10",
+    "כותרת": "השלמה מ-10 בנובמבר | Meta (META): בית הדין לבחירות בברזיל הטיל קנס של 7.5 מיליון ריאל על אי-ציות לצווים",
+    "כותרת_en": "November 10 catch-up | Meta (META): Brazil electoral court imposes 7.5 million-real fine for noncompliance with orders",
+    "קישור": "https://www.tse.jus.br/comunicacao/noticias/2026/Novembro/tse-multa-facebook-em-r-7-5-milhoes-por-descumprir-determinacoes-judiciais",
+    "מקורות": [
+      {
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Novembro/tse-multa-facebook-em-r-7-5-milhoes-por-descumprir-determinacoes-judiciais",
+        "label": "TSE: הדיווח הרשמי המלא על החלטת המליאה מ-10 בנובמבר",
+        "label_en": "TSE: full official report on the November 10 plenary decision"
+      },
+      {
+        "url": "https://www.jurist.org/news/2026/11/brazil-electoral-court-fines-meta-for-failing-to-comply-with-election-orders/",
+        "label": "JURIST, דיווח 13 בנובמבר: תגובת Meta מאוקטובר והקשר ההליך",
+        "label_en": "JURIST, November 13 report: Meta's October response and case context"
+      }
+    ],
+    "טקסט": "השלמת סיקור להחלטת 10.11.2026, לא קנס חדש שהוטל ב-13 בנובמבר. דיווח TSE הרשמי נקרא במלואו לצד JURIST. עמוד בית הדין מציג 10 בנובמבר 23:55, ללא אזור זמן מפורש שאומת כאן; התאריך בכרטיס הוא תאריך ההחלטה, לא המרת שעת הפרסום.\n\nבית הדין העליון לבחירות בברזיל (TSE) קבע פה אחד קנס של 7.5 מיליון ריאל נגד Facebook Serviços Online do Brasil, החברה המקומית של Meta, בשל אי-ציות לצווים הקשורים לטענות על הבדלים בחשיפת תכני הקמפיינים לנשיאות בסיבוב השני של בחירות 2026. ההחלטה היא אכיפה על אי-ציות, לא קביעה שהוכחה הטיה מכוונת לטובת מועמד.\n\nלפי השופט המדווח מרקו אורליו בליזי, החברה איחרה, מסרה מידע חלקי וקשה לאימות, וחלק מההוראות בוצעו באופן לא מלא או מאוחר. בית הדין מפרט שלושה ימים של 500 אלף ריאל ליום, 17-19 באוקטובר, ועוד שישה ימים של מיליון ריאל ליום, 20-25 באוקטובר. אין זו הודעה שהקנס כבר שולם.\n\nבית הדין מדגיש שהחומר שנבחן בשלב זה אינו מאפשר לקבוע שהחברה פעלה במכוון כדי לפגוע באיזון הבחירות; מסקנה כזו דורשת ראיות מתאימות בהליך המתאים. חומר טכני המתאר מסנני Meta AI וזיהוי תוכן סינתטי נשאר חסוי כסוד מסחרי, לצד גישה מוגדרת לחומרי ציות אחרים.\n\nJURIST מביא את תגובת Meta מאוקטובר, שלפיה לא התערבה בבחירות, החילה אותם כללים על הקמפיינים וטיפלה בתקלה טכנית ביום שזוהתה. זו תגובה היסטורית, לא תגובה חדשה להטלת הקנס שנקראה בהודעת חברה נפרדת.\n\nהחידוש הוא קנס אכיפה ממשי בהליך הבחירות ובפיקוח על הפלטפורמה ומערכת ה-AI. הוא נפרד מהצו הזמני על תוכן גופי תקשורת לאימון AI ב-n-0500. לא נמסרו השפעה מהותית כמותית על רווחי Meta, חסימת שירות ארצית או קביעה שהחברה שינתה את תוצאת הבחירות.",
+    "טקסט_en": "Catch-up coverage of the November 10, 2026 decision, not a new fine imposed November 13. The full official TSE report was read alongside JURIST. The court page displays November 10 at 23:55 without an explicit timezone verified here; the card uses the decision date, not a converted publication clock.\n\nBrazil's Superior Electoral Court (TSE) unanimously imposed a 7.5 million-real fine on Facebook Serviços Online do Brasil, Meta's local company, for failing to comply with orders connected to alleged differences in reach of presidential campaign content during the second round of the 2026 election. This is enforcement for noncompliance, not a finding of proven deliberate candidate favoritism.\n\nReporting Justice Marco Aurélio Bellizze cited delays, partial information that was difficult to verify and orders followed incompletely or late. The court describes three days at 500,000 reais per day, October 17-19, and six days at 1 million reais per day, October 20-25. No payment of the fine is confirmed.\n\nThe court stresses that the record at this stage does not establish deliberate action to unbalance the election; that would require suitable proof in the appropriate proceedings. Technical material describing Meta AI filters and synthetic-content detection remains confidential as a trade secret, with defined access to other compliance submissions.\n\nJURIST carries Meta's October response denying election interference, saying it applied the same rules to both campaigns and fixed a technical issue on the day it was identified. This is a historical response, not a new response to the fine verified in a separate company announcement.\n\nThe development is an actual enforcement fine in an election case involving platform and AI oversight. It is separate from n-0500's temporary order on news organizations' content for AI training. No quantified material effect on Meta earnings, nationwide service ban or finding that the company changed the election outcome is established.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "13daf2e77c7241c4e6cc07f95e433fe32f3d6585930afcf177465ec57fff26f8"
+      }
+    },
+    "מזהה": "n-1617",
+    "הועלה": "2026-11-13 16:33"
   }
 ]
