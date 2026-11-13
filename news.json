@@ -38772,5 +38772,74 @@
     },
     "מזהה": "n-1517",
     "הועלה": "2026-11-13 09:14"
+  },
+  {
+    "category": "micro",
+    "חברה": "NVDA / Megaspeed",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "מלזיה: משרד המסחר מעולם לא נתן אישור ניקיון ל-Megaspeed; נבדק אם שבבים יוצאו מחדש ואם הדבר היה חוקי",
+    "כותרת_en": "Malaysia says Megaspeed was never cleared; checking whether chips were re-exported and lawfully",
+    "טקסט": "13.11.2026 | הודעת משרד ההשקעות, המסחר והתעשייה של מלזיה, MITI, נקראה במלואה במקור הממשלתי. ההודעה נושאת תאריך ללא שעת פרסום. דיווח Reuters דרך MarketScreener פורסם ב-05:19 בישראל ועודכן ב-06:20; אלה שעוני הכתבה, לא שעת ההודעה הרשמית.\n\nMITI מסר שמעולם לא נתן אישור ניקיון ל-Megaspeed International מסינגפור או לחברה המלזית המסונפת Speedmatrix. ביקורי האימות במתקני מרכזי הנתונים היו חלק ממעקב שגרתי אחר הענף, ולא אישור שהחברה נוקתה מחשדות. ההבהרה אינה קביעה שהחברה הפרה חוק, אך גם אינה הודעה על זיכוי או סגירת בדיקה.\n\nהמשרד עובד עם רשות המכס המלזית כדי לברר אם שבבים שהובאו למלזיה יוצאו לאחר מכן למדינות אחרות, ואם יצוא כזה נעשה בהתאם לחוק. ההודעה אינה מציגה תוצאת בדיקה, כמות שבבים, יעד משלוח מוכח, תפיסה או כתב אישום. אין לקבוע מכוחה שהייתה הברחה לסין.\n\nלפי המשרד, Speedmatrix היא שוכרת במרכזי נתונים ומביאה שרתים ושבבי AI לצורך פעילותה. יבוא שבבי AI למלזיה אינו דורש כיום היתר או רישיון. לעומת זאת, מאז יולי 2025 יצוא, יצוא מחדש, העברה דרך המדינה או מעבר של שבבי AI אמריקאיים עתירי ביצועים דורשים היתר של MITI לפי חוק הסחר האסטרטגי. זו הבהרה לגבי המסגרת הקיימת, לא איסור יבוא גורף חדש או הכרזה שכל השבבים האמריקאיים נאסרו.\n\nMITI אומר שהוא משתף פעולה עם הרשויות בסינגפור ובארה״ב ושוקל חיזוק בקרות במידת הצורך. צעדים נוספים שנשקלים אינם כללים שכבר נכנסו לתוקף. המשרד מציין שהבדיקות ייעשו באופן עצמאי לפי החוק המלזי ועל סמך הראיות; הוא אינו אוכף אוטומטית כל בקרת יצוא חד-צדדית של מדינה אחרת.\n\nההתפתחות החדשה היא ההבהרה הממשלתית והעבודה המפורשת עם המכס, בנפרד מהתוכנית שפורסמה קודם לאיסוף מידע על מרכזי נתונים ומהבדיקה שמממנת Megaspeed. הדיווחים הקודמים באפליקציה לא קבעו שהחברה זוכתה. ההודעה אינה מספקת ממצא חדש בטענות הריגול, בחקירת דירקטוריון NVIDIA או לגבי היקף מכירות החברה.",
+    "טקסט_en": "November 13, 2026 | Malaysia's Ministry of Investment, Trade and Industry (MITI) statement was read in full on its official site. It carries a date without a publication hour. Reuters via MarketScreener was published at 05:19 Israel time and updated at 06:20. Those are article timestamps, not the time of the official statement.\n\nMITI says it has never cleared Singapore's Megaspeed International or Malaysian affiliate Speedmatrix. Verification visits to data-centre facilities were routine sector monitoring, not a clearance of the company. This clarification is not a finding that the company broke the law, but neither is it an exoneration or closure of checks.\n\nThe ministry is working with Malaysian Customs to determine whether any chips brought into Malaysia were subsequently re-exported to other countries and whether any such re-exports complied with the law. The statement gives no completed findings, chip count, proven shipment destination, seizure or charge. It does not establish smuggling to China.\n\nMITI says Speedmatrix is a data-centre tenant that brings servers and AI chips into Malaysia for its operations. Importing AI chips currently requires no permit or licence. Since July 2025, however, export, re-export, transshipment or transit of high-performance U.S. AI chips from or through Malaysia requires a MITI permit under the Strategic Trade Act. This explains an existing framework, not a new blanket import ban or a ban on every U.S. chip.\n\nMITI says it is working with Singaporean and U.S. authorities and considering stronger controls where necessary. Additional measures under consideration are not rules already in force. The ministry says it will carry out independent checks under Malaysian law and based on evidence; it does not automatically enforce every other country's unilateral export control.\n\nThe new development is the official clarification and explicit work with Customs, separate from the previously reported data-centre reporting proposal and Megaspeed-funded compliance review. Earlier app coverage did not declare the company cleared. This statement provides no new finding on espionage allegations, NVIDIA's board inquiry or the company's sales exposure.",
+    "קישור": "https://www.miti.gov.my/miti/resources/Speech/MEDIA_STATEMENT_13112026.pdf",
+    "מקורות": [
+      {
+        "url": "https://www.miti.gov.my/miti/resources/Speech/MEDIA_STATEMENT_13112026.pdf",
+        "label": "MITI: ההודעה הממשלתית המקורית והמלאה, 13 בנובמבר",
+        "label_en": "MITI: full original government statement, November 13"
+      },
+      {
+        "url": "https://ca.marketscreener.com/news/malaysia-says-it-is-investigating-if-any-chips-linked-to-speedmatrix-were-re-exported-ce785ed9db8af627",
+        "label": "Reuters דרך MarketScreener: שעון הפרסום והקשר הדיווח; מקור משני",
+        "label_en": "Reuters via MarketScreener: article clock and reporting context; secondary source"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "28924e01e69cd7575ad6231aea7a69e55ad33d7f5000a6b524bcd5c498345163"
+      }
+    },
+    "מזהה": "n-1518",
+    "הועלה": "2026-11-13 09:16"
+  },
+  {
+    "category": "micro",
+    "חברה": "GPN",
+    "symbols": [
+      "GPN"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "השלמה מ-12 בנובמבר: Reuters מדווחת ש-CD&R ו-GTCR השעו את ניסיון רכישת Global Payments; לא ביטול עסקה חתומה",
+    "כותרת_en": "November 12 catch-up: Reuters says CD&R and GTCR put Global Payments pursuit on hold; no signed deal cancelled",
+    "טקסט": "לא מאומת מול מקור ראשוני\nהשלמת דיווח Reuters מ-12.11.2026, המועלית ב-13 בנובמבר. גוף הכתבה המלא בהפצת Investing.com נקרא. העמוד מציג פרסום ב-12:12 ועדכון ב-13:43 ללא אזור זמן מאומת; לכן לא הומרו שעות אלה לשעון ישראל ולא יוחסה לידיעה שעת פרסום מדויקת.\n\nלפי שני אנשים הבקיאים בנושא ששוחחו עם Reuters, קרנות ההשקעה CD&R ו-GTCR הפסיקו לפי שעה לקדם את ניסיון רכישת Global Payments, לאחר מספר שבועות של בחינת עסקה. השיחות היו בשלב מוקדם ולא התקדמו בשל המורכבות של מבנה רכישה והפיכת חברה בהיקף כזה לפרטית.\n\nזו התפתחות לעומת דיווח ניסיון הרכישה מסוף אוקטובר שכבר סוקר באפליקציה. לא פורסם כאן הסכם מחייב שנחתם ואז בוטל, מחיר הצעה מאושר או דמי ביטול. המקורות אומרים שהשיחות עשויות להתחדש בהמשך או שרוכש אחר עשוי להופיע; אין ודאות שזה יקרה.\n\nCD&R סירבה להגיב ל-Reuters. Global Payments ו-GTCR לא השיבו מיד לבקשות תגובה לפי הכתבה. אין אישור חברה או הודעת עסקה מקורית שנבדקו כאן, והיעדר תגובה אינו אישור לדיווח.\n\nReuters מציינת שווי שוק של כ-26.4 מיליארד דולר בזמן הדיווח. זהו נתון רקע של הכתבה, לא מחיר העסקה, לא שווי פעילות ולא ציטוט שוק חי. הכתבה אינה מספקת שיעור ירידה סופי ומאומת ליום המסחר; לא הועתקה לכאן ירידה של 12% ממקורות אחרים כאילו הייתה מחיר סגירה. עסקת Worldpay הקודמת היא רקע נפרד ואינה העסקה שהושעתה בדיווח הזה.",
+    "טקסט_en": "Not verified against a primary source\nCatch-up for Reuters' November 12, 2026 report, published in the app on November 13. The full article carried by Investing.com was read. The page shows publication at 12:12 and update at 13:43 without a verified timezone. Those hours were not converted to Israel time or treated as a verified exact publication clock.\n\nTwo people familiar with the matter told Reuters that private equity firms CD&R and GTCR had put their pursuit of Global Payments on hold after exploring a transaction for several weeks. The early-stage talks failed to advance because of the complexities of structuring a take-private deal of this scale.\n\nThis updates the late-October takeover-pursuit report already covered in the app. It is not cancellation of a signed binding agreement, an approved offer price or an announced termination fee. The sources say talks could resume later or another buyer could emerge. Neither is certain.\n\nCD&R declined to comment to Reuters. Global Payments and GTCR did not immediately respond, according to the article. No original company confirmation or transaction announcement was verified here. Silence is not confirmation.\n\nReuters cites a market capitalization of about $26.4 billion at the time of its report. That is article background, not a deal price, enterprise value or live quote. The article does not establish a verified final daily share-price decline. A 12% fall from other sources was not imported here as though it were a closing return. The earlier Worldpay transaction is separate background, not the transaction put on hold in this report.",
+    "קישור": "https://www.investing.com/news/stock-market-news/exclusivecdr-gtcr-drop-pursuit-of-global-payments-sources-say-5022862",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/stock-market-news/exclusivecdr-gtcr-drop-pursuit-of-global-payments-sources-say-5022862",
+        "label": "Reuters דרך Investing.com: הדיווח המלא, שני מקורות אנונימיים והתגובות",
+        "label_en": "Reuters via Investing.com: full report, two anonymous sources and responses"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a03905a734bd1fdbe4c5d1d8e64738952299f8d3140c48211b29bd0b52289873"
+      }
+    },
+    "מזהה": "n-1519",
+    "הועלה": "2026-11-13 09:16"
   }
 ]
