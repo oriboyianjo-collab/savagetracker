@@ -42461,5 +42461,29 @@
     },
     "מזהה": "n-1625",
     "הועלה": "2026-11-13 16:59"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "בסנט קורא לפד לשמור על ראש פתוח ולא להעלות יותר מדי מול זעזוע אנרגיה; זו עמדת האוצר, לא החלטת ריבית",
+    "כותרת_en": "Bessent urges Fed to keep an open mind and avoid excessive hikes into an energy shock; Treasury view, not a rate decision",
+    "קישור": "https://finance.yahoo.com/economy/policy/articles/us-treasury-chief-says-fed-140232568.html",
+    "מקורות": [
+      {
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-treasury-chief-says-fed-140232568.html",
+        "label": "Reuters דרך Yahoo: הדיווח המלא מ-13 בנובמבר על דברי בסנט בריאיון CNBC",
+        "label_en": "Reuters via Yahoo: full November 13 report on Bessent's CNBC remarks"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני: הציטוטים מבוססים על דיווח Reuters המלא על ריאיון CNBC, לא על צפייה בריאיון המלא או תמליל ממשלתי שנקרא. הכתבה פורסמה ב-13.11.2026 בשעה 09:02 EST, 16:02 בישראל. זו שעת פרסום הדיווח, לא השעה המדויקת של אמירת הדברים.\n\nשר האוצר האמריקאי סקוט בסנט קרא לפדרל ריזרב לשמור על ראש פתוח כלפי הנתונים, שלדבריו מושפעים מזעזוע היצע אנרגיה הקשור למלחמה באיראן. הוא תיאר את כלכלת ארה״ב כחזקה מאוד והזהיר מפני העלאה רבה מדי של הריבית לתוך זעזוע אנרגיה שלדבריו כבר מתמתן. התיאור שהזעזוע מתמתן הוא הערכתו, לא נתון אינפלציה חדש שאומת כאן.\n\nבסנט אמר שהפד אמור להביט קדימה ולא במראה האחורית. הוא הזכיר שלוש הפחתות ריבית בתקופה המקבילה אשתקד ואמר שהיפוך דרמטי של הכיוון רק בשל זעזוע אנרגיה אינו הצעד שהיה בוחר אילו היה בפד. מיד סייג: הוא אינו חבר בפד ואינו עומד לומר לו מה לעשות, אלא מבקש שישמור על ראש פתוח.\n\nאין להפוך את דבריו להתחייבות של הפד להימנע מכל העלאה, לבטל החלטה קודמת או לבחור גודל מסוים בישיבה הבאה. הניסוח המצוטט עוסק בסיכון להידוק רב מדי ובהיפוך דרמטי, לא בקביעת מסלול ריבית מחייב. לא אומתו כאן תחזית מספרית חדשה, שינוי בתחזית FOMC או פעולה מוניטרית.\n\nהחידוש הוא עמדתו הפומבית של שר האוצר לגבי תגובת המדיניות לזעזוע היצע, בנפרד מדבריו על Megaspeed ובקרות יצוא ב-n-1603 וב-n-1623. מדובר בהעדפת מדיניות של בכיר ממשל חיצוני לוועדה, לא מסר מטעם הפד, ונתוני התעסוקה והאינפלציה הנזכרים כרקע אינם פרסום חדש.",
+    "טקסט_en": "Not verified against a primary source: quotations come from the full Reuters account of a CNBC interview, not a full interview viewed or government transcript read here. The article was published November 13, 2026 at 09:02 EST, 16:02 Israel. That is the report's publication time, not the exact time the remarks were delivered.\n\nUS Treasury Secretary Scott Bessent urged the Federal Reserve to keep an open mind about data he says are affected by an energy supply shock tied to the Iran war. He described the US economy as very strong and warned against hiking rates too much into an energy shock he says is coming down. The description of an easing shock is his assessment, not a new inflation result independently verified here.\n\nBessent said the Fed should look forward rather than in the rearview mirror. He referred to three rate cuts during the same period last year and said a dramatic reversal based only on an energy shock was not what he would do if he were on the Fed. He immediately qualified that he is not on the Fed and would not tell it what to do, but wanted it to keep an open mind.\n\nHis remarks are not a Fed commitment to avoid every hike, reverse an earlier decision or choose a particular size at the next meeting. The quoted language concerns excessive tightening and a dramatic reversal, not a binding rate path. No new numeric forecast, FOMC projection change or monetary action is established here.\n\nThe development is the Treasury secretary's public view on responding to a supply shock, separate from his MegaSpeed and export-control comments in n-1603 and n-1623. It is a policy preference from an administration official outside the committee, not a message from the Fed; the jobs and inflation data used as background are not fresh releases.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fb22b3f259200eb6855bcbb1fe4ad6c8b103df9b5326db06ed3c3406f482437f"
+      }
+    },
+    "מזהה": "n-1626",
+    "הועלה": "2026-11-13 17:01"
   }
 ]
