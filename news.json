@@ -42072,5 +42072,34 @@
     },
     "מזהה": "n-1613",
     "הועלה": "2026-11-13 16:12"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-12",
+    "כותרת": "השלמה מ-12 בנובמבר | לפי Reuters: דיילי נוטה להידוק נוסף, אך עליית התשואות נותנת זמן לכייל את הצעדים",
+    "כותרת_en": "November 12 catch-up | Reuters: Daly leans toward further tightening, but higher yields allow time to calibrate policy",
+    "קישור": "https://www.kitco.com/news/off-the-wire/2026-11-12/fed-has-time-calibrate-rate-hikes-daly-says",
+    "מקורות": [
+      {
+        "url": "https://www.kitco.com/news/off-the-wire/2026-11-12/fed-has-time-calibrate-rate-hikes-daly-says",
+        "label": "Reuters דרך Kitco: הדיווח המלא על השיחה ב-Stanford ב-12 בנובמבר",
+        "label_en": "Reuters via Kitco: full report on the November 12 Stanford conversation"
+      },
+      {
+        "url": "https://www.frbsf.org/news-and-media/events/2026/11/mary-c-daly-siepr-policy-forum-2026/",
+        "label": "הפד של סן פרנסיסקו: עמוד האירוע הרשמי והמצגת; לא תמליל השיחה",
+        "label_en": "San Francisco Fed: official event page and slides, not a conversation transcript"
+      }
+    ],
+    "טקסט": "דברי השיחה לא אומתו בהקלטה או בתמליל ראשוני\nהשלמת סיקור לאירוע Stanford SIEPR מ-12.11.2026. דיווח Reuters המלא נקרא דרך Kitco; עמוד הפד של סן פרנסיסקו מאשר שהאירוע והמצגת התקיימו ביום חמישי ב-10:10 שעון החוף המערבי, 20:10 בישראל. זו שעת תחילת האירוע, לא חותמת זמן מדויקת של הציטוטים. אין זה דיווח על הופעת דיילי היום ב-19:00 בישראל.\n\nלפי Reuters, נשיאת הפד של סן פרנסיסקו מרי דיילי אמרה שהנטייה שלה היא שיידרש הידוק נוסף כדי להתמודד עם אינפלציה גבוהה, תוך ציון התרחבות לחצי המחירים מעבר לאנרגיה ולמוצרים אל השירותים. לצד זאת, היא אמרה שעליית תשואות האג״ח והידוק התנאים הפיננסיים מסייעים לפעול נגד האינפלציה ונותנים זמן לקבל החלטות מכוילות יותר.\n\nReuters מדגיש שדיילי לא הצטרפה באותו אירוע לבכירים שקראו להעלאות גדולות או מהירות יותר. לדבריה, בדיוק כמה ומתי מחייבים עוד נתונים ומידע. אין כאן התחייבות להעלאת 50 נקודות בסיס בדצמבר, מועד העלאה מוסכם או החלטה חדשה של ועדת הריבית.\n\nבדיון על AI, דיילי תיארה לפי הדיווח השפעה נוכחית שאינה גדולה במיוחד על האינפלציה או שוק העבודה, לצד אפשרות להשפעה משמעותית יותר בשנים הבאות אם הפריון יגבר. היא אמרה שאין להתעלם מאפשרות של שיפור פריון והשפעה ממתנת על המחירים. זהו תרחיש אפשרי, לא תחזית רשמית חדשה או הבטחה שהצמיחה חסינה מסיכון.\n\nהחידוש ביחס ל-n-1476, שהביא רק את שקפי המצגת, הוא תוכן השיחה המדווח על ריבית, תשואות וזמן לכיול המדיניות לאחר נתוני האינפלציה. n-0139 תיאר ראיון אחר ל-CNBC ב-6 בנובמבר. אין לפרסם מחדש את נתוני ה-PCE ההיסטוריים במצגת או להפוך את עמדתה האישית למסלול ריבית של הפד.",
+    "טקסט_en": "Conversation remarks were not verified in a primary recording or transcript\nCatch-up coverage of the November 12, 2026 Stanford SIEPR event. The full Reuters report was read via Kitco; the San Francisco Fed page confirms Thursday's event and presentation at 10:10 Pacific time, 20:10 in Israel. That is the event's start, not an exact timestamp for the quotations. This is not a report on Daly's appearance today at 19:00 Israel time.\n\nReuters reports that San Francisco Fed President Mary Daly said her bias is that further tightening will be needed against high inflation, noting price pressures spreading beyond energy and goods into services. At the same time, she said rising bond yields and tighter financial conditions are helping to restrain inflation and allowing more time for calibrated decisions.\n\nReuters explicitly says Daly did not join officials calling for bigger or faster hikes at this event. Exactly how much and when still require more data and information. This is no commitment to a 50-basis-point December hike, agreed hike date or new Federal Open Market Committee decision.\n\nOn AI, the report describes Daly's view that its current effects on inflation and the labor market are not outsized, while they could become more important in coming years if productivity improves. She said the possibility of productivity gains and disinflation should not be ignored. This is a possible scenario, not a new official forecast or a pledge that growth is immune to risk.\n\nBeyond n-1476, which covered only the presentation slides, this adds the reported conversation on rates, bond yields and time to calibrate policy after inflation data. n-0139 covered a separate November 6 CNBC interview. Historical PCE figures from the slides are not republished as new data, and her individual view is not a Fed rate path.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "160e00fb1c20efb55b5377ad585e273c345eaee1e20d696fd8c61ca3291bee42"
+      }
+    },
+    "מזהה": "n-1614",
+    "הועלה": "2026-11-13 16:21"
   }
 ]
