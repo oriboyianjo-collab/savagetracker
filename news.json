@@ -42427,5 +42427,39 @@
     },
     "מזהה": "n-1624",
     "הועלה": "2026-11-13 16:56"
+  },
+  {
+    "category": "micro",
+    "חברה": "Nebius (NBIS)",
+    "חברה_en": "Nebius (NBIS)",
+    "symbols": [
+      "NBIS"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "16:58",
+    "כותרת": "Nebius (NBIS): ירידה של כ-10.8% במסחר הרגיל; תמונת מחיר ללא סיבה חדשה מאומתת",
+    "כותרת_en": "Nebius (NBIS): down about 10.8% in regular trading; price snapshot without a verified new cause",
+    "קישור": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+    "מקורות": [
+      {
+        "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm",
+        "label": "CNBC: ציטוט NBIS במסחר הרגיל, 13 בנובמבר 09:58:58 EST",
+        "label_en": "CNBC: NBIS regular-session quote, November 13 at 09:58:58 EST"
+      }
+    ],
+    "טקסט": "13.11.2026, 16:58:58 בישראל (09:58:58 EST) | ציטוט המסחר הרגיל של CNBC מציג את מניית Nebius במחיר 114.72 דולר, ירידה של 13.92 דולר, כ-10.82%, מול סגירת היום הקודם ב-128.64 דולר. זו תמונת מצב נקודתית במסחר פתוח, לא מחיר חי מתעדכן ולא תשואת הסגירה.\n\nהשינוי מחושב מול הסגירה הקודמת, לא מול מחיר הפתיחה. נעשה שימוש במחיר האחרון ובחותמת הזמן של המסחר הרגיל, ולא בציטוט מסחר מורחב או בשדה סגירה תוך-יומי שעשוי להתעדכן בנפרד.\n\nלא אומתה סיבה תאגידית חדשה לתנועה הזו. אין בנתון המחיר לבדו אישור לביטול חוזה, אובדן לקוח, דילול, משבר נזילות או עיכוב חדש בפרויקט. פריטי רקע קודמים על ספקיות תשתית AI אינם הוכחה לסיבה לתנועה הנוכחית. לא נכללים כאן סיכום תוצאות או שינויי תחזית.\n\nהחידוש הוא חציית ירידה דו-ספרתית היום במניה נוספת ברשימת המעקב, בנפרד מעדכון Agility ב-n-1624 ומפריטי המחיר הישנים על Nebius. אין הוכחה לסיבה משותפת לשתי המניות או לתנועת מדד באותו שיעור. המחירים יכולים להשתנות במהירות לאחר מועד הציטוט.",
+    "טקסט_en": "November 13, 2026, 16:58:58 Israel (09:58:58 EST) | CNBC's regular-session quote shows Nebius at $114.72, down $13.92, about 10.82%, from the previous close of $128.64. This is a timestamped open-market snapshot, not a live updating price or the closing return.\n\nThe change is from the previous close, not the opening price. It uses the regular-session last price and timestamp, not an extended-session quote or an intraday closing field that may update separately.\n\nNo new company-specific cause for this move was verified. The price alone does not establish a canceled contract, lost customer, dilution, liquidity crisis or new project delay. Earlier AI-infrastructure-provider background is not proof of the current driver. No earnings summary or forecast revisions are included here.\n\nThe development is another tracked stock crossing a double-digit decline today, separate from Agility's n-1624 update and older Nebius price items. A shared cause for both stocks or a similar index move is not established. Prices can change quickly after the quote timestamp.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "82ed5aba64ee09d4000d741ebfa3679611dbdb2b0a0bdb27eccdf140db7e256f"
+      }
+    },
+    "מזהה": "n-1625",
+    "הועלה": "2026-11-13 16:59"
   }
 ]
