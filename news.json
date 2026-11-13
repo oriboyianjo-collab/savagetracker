@@ -42197,5 +42197,66 @@
     },
     "מזהה": "n-1617",
     "הועלה": "2026-11-13 16:33"
+  },
+  {
+    "category": "micro",
+    "חברה": "Microsoft (MSFT)",
+    "חברה_en": "Microsoft (MSFT)",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "שעה": "16:00",
+    "כותרת": "Microsoft (MSFT): תורי הדואר הצטמצמו משמעותית ומתקרבים לרגיל; תקלות גישה ועיכובים עדיין נמשכים",
+    "כותרת_en": "Microsoft (MSFT): email queues significantly reduced and approaching normal; access issues and delays persist",
+    "קישור": "https://status.cloud.microsoft/",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/api/feed/mac",
+        "label": "Microsoft: הזנת המצב הרשמית, עדכון 14:00:09 UTC",
+        "label_en": "Microsoft: official status feed, 14:00:09 UTC update"
+      }
+    ],
+    "טקסט": "13.11.2026, 16:00:09 בישראל (14:00:09 UTC) | עדכון האירוע הרשמי של Microsoft נקרא במלואו בבדיקה השעתית ב-16:39 בישראל. זו שעת עדכון האירוע, לא תחילת התקלה; שעת בניית ערוץ ה-RSS אינה עדכון נפרד.\n\nהחברה אומרת שתורי הדואר הצטמצמו משמעותית ומתקרבים לרמות רגילות. זהו שיפור חדש מעבר להתאוששות האזורית שתוארה ב-n-1606, אך אין הודעה שכל ההודעות כבר נמסרו: משתמשים מסוימים עדיין עשויים לחוות בעיות גישה לסירוגין ועיכובים במסירת דואר. המצב עדיין מסומן ServiceDegradation.\n\nMicrosoft מדווחת שהחילה צעדי הקלה נוספים, משקמת את התשתית שעדיין נפגעה וחוקרת בעיות שירות שנותרו. היא ממשיכה לנטר בריאות שירות ולאמת התאוששות בשיטות החיבור שנפגעו, כדי לוודא יציבות מתמשכת. לא פורסמו שיעור התאוששות כולל, גודל מספרי של התור או מועד מובטח לחזרה מלאה.\n\nהפגיעה כוללת Exchange Online ותכונות בשירותים נוספים שתלויות בדואר וביומן. רוב יכולות הליבה של Teams, ובהן שיחות, פגישות והודעות, מתוארות כלא מושפעות; גישה ישירה לקבצים ב-SharePoint נשארת פעילה. אין בסיס להציג את כל Microsoft או Azure כמושבתים.\n\nהחברה חוזרת על כך שאין לה כעת ראיות לפעילות זדונית הקשורה לאירוע. זו הערכתה המוגבלת, לא מסקנת חקירה עצמאית. דוח סיבת שורש וצעדי הגנה מתוכנן לאחר השלמת הטיפול; העדכון הנוכחי אינו מכריע בין תיאורי סיבה לא מאומתים ואינו מאשר אובדן נתונים. מועד העדכון הבא שנמסר הוא 17:00 בישראל (15:00 UTC), לא מועד פתרון מובטח.",
+    "טקסט_en": "November 13, 2026, 16:00:09 Israel (14:00:09 UTC) | Microsoft's full official incident update was read during the hourly check at 16:39 Israel. This is the incident-update time, not the outage start; the RSS channel build time is not a separate development.\n\nMicrosoft says email queues have been significantly reduced and are approaching normal levels. This advances beyond the regional recovery described in n-1606, but does not confirm every message has been delivered: some users may still experience intermittent access issues or delayed email delivery. The incident remains ServiceDegradation.\n\nMicrosoft says it implemented additional mitigation measures, is restoring remaining affected infrastructure and is investigating residual service issues. It continues monitoring service health and validating recovery across affected connection methods for sustained stability. No overall recovery percentage, numeric queue size or guaranteed full-restoration time is given.\n\nThe impact covers Exchange Online and email/calendar-dependent features in other services. Most core Teams functions, including calls, meetings and messages, are described as unaffected; direct access to SharePoint files remains functional. This is not evidence that all of Microsoft or Azure is down.\n\nMicrosoft repeats that it currently has no evidence of malicious activity associated with the incident. That is its limited assessment, not an independent investigation finding. A root-cause and defense-in-depth report is planned after mitigation; this update does not resolve unverified competing cause descriptions or establish data loss. The next update was promised by 17:00 Israel (15:00 UTC), not as a guaranteed resolution time.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c4c7f14d70547aa4085fefaace6de6e396ee85344788828dd4b27610fb2e14b3"
+      }
+    },
+    "מזהה": "n-1618",
+    "הועלה": "2026-11-13 16:40"
+  },
+  {
+    "category": "micro",
+    "חברה": "Anthropic / Claude",
+    "חברה_en": "Anthropic / Claude",
+    "תאריך": "2026-11-13",
+    "שעה": "16:03",
+    "כותרת": "Claude: האירוע החדש התרחב למחברים, Claude Security ו-Managed Agents; החקירה נמשכת",
+    "כותרת_en": "Claude: new incident expands to connectors, Claude Security and Managed Agents; investigation continues",
+    "קישור": "https://status.claude.com/",
+    "מקורות": [
+      {
+        "url": "https://status.claude.com/",
+        "label": "Claude: עמוד המצב הרשמי, עדכוני 13:52 ו-14:03 UTC",
+        "label_en": "Claude: official status page, 13:52 and 14:03 UTC updates"
+      }
+    ],
+    "טקסט": "עמוד המצב הרשמי של Claude נקרא במלואו ב-13.11.2026 סביב 16:39 בישראל. ב-13:52 UTC, 15:52 בישראל, הורחב תיאור האירוע החדש למחברים, ובהם Claude Docs ו-Claude Sheets. ב-14:03 UTC, 16:03 בישראל, נוספו גם Claude Security ו-Claude Managed Agents לרשימת המוצרים שבהם נחקרים דיווחים על ביצועים מופחתים.\n\nהאירוע ממשיך לכלול claude.ai, Claude API ו-Claude Code, שהופיעו בעדכון הפתיחה מ-15:09 בישראל וכבר סוקרו ב-n-1605. החידוש הוא הרחבת תחומי ההשפעה המדווחים, לא אירוע שלישי, השקת מוצר או הודעה שהתקלה נפתרה.\n\nבעת הבדיקה claude.ai סומן Major Outage, ה-API ו-Claude Code סומנו Partial Outage ו-Claude Cowork בביצועים מופחתים. קונסולת המפתחים ורכיבי הענן של Claude סומנו פעילים. אין להסיק שכל מוצר מושבת לחלוטין או שכל משתמש חווה אותה פגיעה.\n\nאירוע ההתחברות הקודם עדיין מופיע כפתור ב-13:58 בישראל. אירוע מחבר Microsoft 365 נשאר פתוח ונפרד, ומיוחס בעמוד לתקרית שירות של Microsoft: דואר, יומן וחיפוש עדיין נכשלים ברוב הבקשות וגם Claude for Outlook מושפע. אין בעדכונים החדשים קביעה שגם האירוע הרחב הנוכחי נגרם מתקלה זו.\n\nלא נמסרו בעדכונים שנקראו סיבת שורש, מספר משתמשים, הוכחה לאובדן נתונים או מועד סיום מובטח. אין כאן הודעת התאוששות מלאה או ייחוס מוכח למתקפה.",
+    "טקסט_en": "Claude's full official status page was read on November 13, 2026 around 16:39 Israel. At 13:52 UTC, 15:52 Israel, the new incident description expanded to connectors, including Claude Docs and Claude Sheets. At 14:03 UTC, 16:03 Israel, Claude Security and Claude Managed Agents were added to the surfaces with reported degraded performance under investigation.\n\nThe incident continues to include claude.ai, the Claude API and Claude Code, named in the initial 15:09 Israel update already covered in n-1605. The development is a broader reported scope, not a third incident, product launch or resolution notice.\n\nAt the check, claude.ai showed Major Outage, the API and Claude Code Partial Outage, and Claude Cowork degraded performance. The developer console and Claude cloud-platform components were marked operational. This does not mean every product is completely down or every user faces the same impact.\n\nThe earlier authentication incident still shows resolved at 13:58 Israel. The Microsoft 365 connector incident remains open and separate, explicitly attributed on the page to a Microsoft service incident: mail, calendar and search tools still fail for most requests, and Claude for Outlook is affected. The new updates do not establish that the broader current Claude incident shares that cause.\n\nThe updates read provide no root cause, affected-user count, proof of data loss or guaranteed end time. There is no full-recovery notice or proven attack attribution.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "392448e4b7607ffff3cf5137ecf960ddca534d40e057d0aba0ede31cec306fdf"
+      }
+    },
+    "מזהה": "n-1619",
+    "הועלה": "2026-11-13 16:40"
   }
 ]
