@@ -39425,5 +39425,143 @@
     },
     "מזהה": "n-1536",
     "הועלה": "2026-11-13 10:18"
+  },
+  {
+    "category": "micro",
+    "חברה": "Gilead / GILD",
+    "חברה_en": "Gilead / GILD",
+    "symbols": [
+      "GILD"
+    ],
+    "sectors": [
+      "healthcare"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-06",
+    "כותרת": "השלמה מ-6 בנובמבר: Gilead מדווחת על התמדה גבוהה יותר במניעת HIV ב-PURPOSE 5; לא יעילות כפולה",
+    "כותרת_en": "November 6 catch-up: Gilead reports higher HIV-prevention persistence in PURPOSE 5; not twice the efficacy",
+    "טקסט": "השלמת סיקור להודעת Gilead מ-6.11.2026, שנקראה במלואה. זהו פרסום נתוני מחקר, לא אישור רגולטורי חדש או תוצאה שהוכרזה לראשונה ב-13 בנובמבר. שעת ההודעה המקורית לא אומתה.\n\nבמחקר PURPOSE 5, מחקר שלב 2 אקראי ופתוח בבריטניה ובצרפת, Gilead דיווחה על התמדה במניעת HIV עד שבוע 52 אצל 85.6% ממקבלי lenacapavir בהזרקה פעמיים בשנה, לעומת 46.3% ממקבלי F/TDF פומי יומי. זהו פער של 39.3 נקודות אחוז, עם p<0.0001 לפי החברה. אין לפרש את הנתון כיעילות כפולה במניעת הידבקות.\n\n267 משתתפים נרשמו למחקר; בשיעורי ההתמדה המדווחים מופיעים 154 מתוך 180 בקבוצת lenacapavir ו-37 מתוך 80 בקבוצת F/TDF. אלה מכנים לניתוח המסוים, ולא חלוקה של כל הנרשמים. ההתמדה הוגדרה לפי פרוטוקול: זריקות וביקור מעקב במועד בקבוצת lenacapavir, ורמות תרופה בדגימות דם המתאימות לארבע מנות לפחות בשבוע במועדי הבדיקה בקבוצת F/TDF.\n\nלפי ההודעה, לא נצפתה הידבקות ב-HIV בקבוצת lenacapavir במשך 52 השבועות, לעומת מקרה אחד בקבוצת F/TDF, שבו רמות התרופה התאימו לנטילה נמוכה משתי מנות בשבוע. המחקר נועד להשוות התמדה, ולא מוכיח הגנה מוחלטת או עליונות של פי שניים ביעילות. החוקרים קבעו שאירועים חמורים שנצפו לא היו קשורים לטיפול; תגובות קלות או בינוניות באזור ההזרקה היו שכיחות, ובהן קשריות וכאב.\n\nהחידוש למשקיעים הוא נתוני התמדה מבוקרים לתרופה ארוכת טווח בתחום מניעת HIV, לא תחזית מכירות או הרחבת התוויה חדשה. זהו סיקור עסקי של דיווח החברה, לא המלצה רפואית. ההודעה מדגישה בדיקות HIV לפני התחלת Yeztugo ולפני כל הזרקה בשל סיכון לעמידות במקרה של זיהום שלא אובחן.",
+    "טקסט_en": "Catch-up coverage of Gilead's November 6, 2026 release, read in full. This is a study-data announcement, not a new regulatory approval or a result first announced on November 13. The original publication clock was not verified.\n\nIn PURPOSE 5, a randomized, open-label Phase 2 study in the UK and France, Gilead reported HIV-prevention persistence through Week 52 of 85.6% for twice-yearly injected lenacapavir versus 46.3% for daily oral F/TDF. The difference was 39.3 percentage points, with p<0.0001 according to the company. This must not be read as twice the efficacy in preventing infection.\n\nThe study enrolled 267 participants; the reported persistence analysis used 154 of 180 lenacapavir participants and 37 of 80 F/TDF participants. Those are analysis-specific denominators, not a split of everyone enrolled. Protocol persistence required on-time injections and follow-up for lenacapavir, versus blood drug levels consistent with at least four doses per week at the assessment points for F/TDF.\n\nThe release reports no HIV acquisitions in the lenacapavir group over 52 weeks and one in the F/TDF group, where drug levels were consistent with fewer than two doses weekly. The study was designed to compare persistence, not establish absolute protection or twice the efficacy. Investigators judged observed serious adverse events unrelated to treatment; mild or moderate injection-site reactions, including nodules and pain, were common.\n\nThe investor relevance is controlled persistence data for a long-acting HIV-prevention option, not sales guidance or a new indication. This is business coverage of the company's report, not medical advice. The release stresses HIV testing before starting Yeztugo and before each injection because undiagnosed infection creates a drug-resistance risk.",
+    "קישור": "https://investors.gilead.com/news/news-details/2026/New-Data-Show-Twice-Yearly-Lenacapavir-Achieved-Nearly-Twice-the-One-Year-Persistence-of-Daily-Oral-FTDF-in-HIV-Prevention/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.gilead.com/news/news-details/2026/New-Data-Show-Twice-Yearly-Lenacapavir-Achieved-Nearly-Twice-the-One-Year-Persistence-of-Daily-Oral-FTDF-in-HIV-Prevention/default.aspx",
+        "label": "Gilead: הודעה מלאה מ-6 בנובמבר, כולל תכנון המחקר והבטיחות",
+        "label_en": "Gilead: full November 6 release, including study design and safety"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0ddc36b2e3c464b18fe7763359fc226abb7f1ab8ac9a90d7b76892a31dc5aca8"
+      }
+    },
+    "מזהה": "n-1537",
+    "הועלה": "2026-11-13 10:22"
+  },
+  {
+    "category": "micro",
+    "חברה": "Uber / UBER",
+    "חברה_en": "Uber / UBER",
+    "symbols": [
+      "UBER"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-09",
+    "כותרת": "השלמה מ-9 בנובמבר: Uber השיקה הזמנת חניה באפליקציה על בסיס SpotHero בארהב ובקנדה",
+    "כותרת_en": "November 9 catch-up: Uber launches in-app parking reservations through SpotHero in the US and Canada",
+    "טקסט": "השלמת סיקור להודעת Uber המקורית מ-9.11.2026, שנקראה במלואה. שעת הפרסום המקורית לא אומתה; אין זו השקה חדשה מ-13 בנובמבר.\n\nUber השיקה את Uber Parking, אפשרות לחפש, להשוות ולהזמין חניה בתוך האפליקציה. השירות נשען על רכישת SpotHero הקודמת וכולל לפי החברה רשת של יותר מ-13,000 חניונים, מגרשי חניה ושירותי חניה עם נהג בכ-400 ערים בארהב ובקנדה. זו הרחבת קטגוריית שירות, לא הודעה על רכישת SpotHero כעת או על זמינות בישראל.\n\nלפי הודעת החברה, המשתמש בוחר יעד, תאריך ושעה, רואה אפשרויות ומחירים במפה ויכול לסנן סוגי חניה ושירותים. השלמת הזמנה דורשת פרטי רכב, ולאחר התשלום מתקבל אישור כניסה באפליקציה, באמצעות QR או זיהוי לוחית בהתאם למקום.\n\nחברי Uber One יכולים לקבל 10% בחזרה בקרדיטים של Uber One על הזמנות חניה זכאיות שהושלמו. זו הטבה מותנית בקרדיטים, לא החזר מזומן גורף, חניה בחינם או הבטחה שכל חניון משתתף.\n\nההודעה אינה מפרסמת תחזית הכנסות, נפח הזמנות, רווחיות או הוכחה להשפעה על פעילות הרובוטקסי. החידוש הוא שילוב הזמנת חניה במוצר של Uber בשני השווקים, מעבר לפעילות הנסיעות והמשלוחים.",
+    "טקסט_en": "Catch-up coverage of Uber's November 9, 2026 original release, read in full. The original publication clock was not verified; this is not a new November 13 launch.\n\nUber launched Uber Parking, letting users search, compare and reserve parking within its app. Built on its earlier SpotHero acquisition, the service draws on a network of more than 13,000 garages, lots and valets across about 400 cities in the US and Canada, according to Uber. This is a new service category, not a fresh announcement of the SpotHero acquisition or availability in Israel.\n\nUber says users select a destination, date and time, review mapped options and upfront prices, and filter parking types and amenities. Completing a reservation requires vehicle details. After payment, an in-app pass provides entry using a QR code or license-plate recognition, depending on the location.\n\nUber One members can earn 10% back in Uber One credits on eligible completed parking reservations. That is a conditional credit benefit, not blanket cash back, free parking or a guarantee every garage participates.\n\nThe release provides no revenue, booking-volume or profit forecast and does not establish an effect on robotaxi operations. The news is the integration of parking reservations into Uber's product in these two markets, beyond rides and delivery.",
+    "קישור": "https://www.uber.com/us/en/newsroom/uber-parking-has-arrived/",
+    "מקורות": [
+      {
+        "url": "https://www.uber.com/us/en/newsroom/uber-parking-has-arrived/",
+        "label": "Uber: הודעת המוצר המקורית, 9 בנובמבר",
+        "label_en": "Uber: original November 9 product announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d2bc0b56647abf664b1d52848f36a5fd0cebd2b2e4bea15a5f4bda9c3c1f6cd4"
+      }
+    },
+    "מזהה": "n-1538",
+    "הועלה": "2026-11-13 10:22"
+  },
+  {
+    "category": "micro",
+    "חברה": "Visa / Western Union",
+    "חברה_en": "Visa / Western Union",
+    "symbols": [
+      "V",
+      "WU"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Visa מוסיפה אפשרות לסילוק התחייבויות ב-USDPT של Western Union בשיתוף Anchorage",
+    "כותרת_en": "Visa adds USDPT settlement option with Western Union and Anchorage",
+    "טקסט": "12.11.2026 | הודעת Anchorage Digital המקורית נקראה במלואה, לצד דיווח Decrypt. שעת הפרסום המקורית לא אומתה, ולכן נשמר תאריך בלבד. זהו עדכון השלמה.\n\nAnchorage Digital הודיעה על שיתוף פעולה עם Visa לתמיכה במטבעות יציבים נבחרים שהיא מנפיקה כנכסי סילוק מקוריים ברשת Visa, החל ב-USDPT של Western Union. לפי ההודעה, Visa ושותפים זכאים יכולים להשתמש ב-USDPT לסילוק ההתחייבויות שלהם ב-VisaNet.\n\nUSDPT מונפק בידי Anchorage Digital Bank, ולא בידי Visa. זהו המטבע הראשון שהבנק מנפיק שמצטרף למסגרת הזאת; שיתוף הפעולה מאפשר לבחון הוספת מטבעות נוספים בהמשך. אין כאן הודעה שכל המטבעות שהבנק מנפיק כבר נתמכים או שהמטבע עצמו הושק לראשונה כעת.\n\nהחידוש הוא מסלול סילוק מוסדי, לא הבטחה שכל צרכן יכול לשלם ב-USDPT בכל בית עסק שמקבל Visa. בהודעה לא פורסמו נפחי עסקאות, הכנסות, חיסכון בעמלות או תחזית רווח לחברות. קיומו של בנק מפוקח אינו מבטל את סיכוני המטבע והמערכת ואינו מוצג כביטוח פיקדונות ממשלתי למחזיקי הטוקן.",
+    "טקסט_en": "November 12, 2026 | Anchorage Digital's original release was read in full, alongside Decrypt's report. The original publication clock was not verified, so only the date is assigned. Catch-up coverage.\n\nAnchorage Digital announced a collaboration with Visa to support select Anchorage-issued stablecoins as native settlement assets on the Visa network, starting with Western Union's USDPT. Visa and eligible partners can use USDPT to settle VisaNet obligations, according to the announcement.\n\nUSDPT is issued by Anchorage Digital Bank, not Visa. It is the bank's first issued token supported under this arrangement, which creates a framework to explore additional tokens later. This does not mean every Anchorage-issued stablecoin is already supported or that USDPT itself was first launched now.\n\nThe increment is an institutional settlement route, not a promise that any consumer can spend USDPT at every Visa-accepting merchant. No transaction volumes, revenue, fee savings or profit forecast were disclosed. A regulated bank's involvement does not remove token or system risk and is not presented as government deposit insurance for token holders.",
+    "קישור": "https://www.anchorage.com/press-room/anchorage-digital-to-support-visa-stablecoin-settlement-starting-with-usdpt",
+    "מקורות": [
+      {
+        "url": "https://www.anchorage.com/press-room/anchorage-digital-to-support-visa-stablecoin-settlement-starting-with-usdpt",
+        "label": "Anchorage Digital: הודעת שיתוף הפעולה המקורית, 12 בנובמבר",
+        "label_en": "Anchorage Digital: original November 12 collaboration announcement"
+      },
+      {
+        "url": "https://decrypt.co/383098/anchorage-digital-stablecoins-settle-payments-visa-network",
+        "label": "Decrypt: הדיווח המלא על אפשרות הסילוק",
+        "label_en": "Decrypt: full report on the settlement option"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "802b00c50a40e6f8f940fe16f4c9abb93d2befcebcfa90c35f7f7765bababc64"
+      }
+    },
+    "מזהה": "n-1539",
+    "הועלה": "2026-11-13 10:22"
+  },
+  {
+    "category": "micro",
+    "חברה": "Apollo / APO",
+    "חברה_en": "Apollo / APO",
+    "symbols": [
+      "APO"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-02 09:00",
+    "כותרת": "השלמה מ-2 בנובמבר: Apollo השיקה את ECC לאשראי באירופה עם קיבולת העמדת אשראי של מעל 10 מיליארד אירו",
+    "כותרת_en": "November 2 catch-up: Apollo launches ECC European credit platform with over EUR10 billion in lending capacity",
+    "טקסט": "השלמת סיקור להודעת Apollo המקורית מ-2.11.2026 בשעה 02:00 EST, שהם 09:00 בישראל. ההודעה נקראה במלואה. כתבה מ-12 בנובמבר אינה מועד ההשקה המקורי.\n\nApollo הודיעה על השקת European Credit Company, או ECC, פלטפורמה המתמקדת באשראי תקין באירופה, לרבות אשראי לחברות ואשראי מגובה נכסים. לפי ההודעה, הפלטפורמה יצאה לדרך עם קיבולת העמדת אשראי של יותר מ-10 מיליארד אירו.\n\nקיבולת האשראי אינה סכום שכבר הועמד כולו בהלוואות, הכנסות שהוכרו או השקעה של Apollo לבדה. המשקיעים כוללים קרנות וחברות קשורות של Apollo וכן את ADIC, Athora, Norinchukin, Standard Chartered ו-Aranda Principal Strategies.\n\nECC מיועדת לפעול מול חברות גדולות ובינוניות, קרנות ובעלי נכסים, לרבות תשתיות ונדלן. לפי החברה, היא תשלב יצירת עסקאות עצמאית, שיתופי פעולה עם מוסדות פיננסיים באירופה וגישה לפלטפורמת האשראי האירופית של Apollo. בעת ההשקה הייתה לה נוכחות בפרנקפורט, ג'רזי, לונדון, לוקסמבורג ומילאנו.\n\nבראש הפלטפורמה עומד המנכל Giacomo Petrobelli והיור הוא Christian Meissner. החידוש הוא מסגרת אשראי ייעודית בהיקף משמעותי, לא רכישה חדשה או התחייבות לתשואה. לא פורסמה כאן תחזית רווח ל-Apollo או הוכחה שכל קיבולת האשראי כבר נוצלה.",
+    "טקסט_en": "Catch-up coverage of Apollo's original November 2, 2026 release at 02:00 EST, equivalent to 09:00 in Israel. The release was read in full. A November 12 article is not the original launch date.\n\nApollo announced European Credit Company, or ECC, focused exclusively on European performing credit, including corporate and asset-backed lending. The company launched with more than EUR10 billion of lending capacity, according to the release.\n\nLending capacity is not an amount already fully lent, recognized revenue or investment by Apollo alone. Backers include Apollo funds and affiliates, ADIC, Athora, Norinchukin, Standard Chartered and Aranda Principal Strategies.\n\nECC is intended to serve large and mid-market companies, sponsors and asset owners, including infrastructure and real estate. Apollo says it combines proprietary origination, partnerships with European financial institutions and access to Apollo's European credit platform. At launch, it had a presence in Frankfurt, Jersey, London, Luxembourg City and Milan.\n\nGiacomo Petrobelli is CEO and Christian Meissner is chairman. The increment is a dedicated credit platform at significant scale, not a new acquisition or a guaranteed return. No Apollo profit forecast or evidence that the full lending capacity has been deployed is provided.",
+    "קישור": "https://ir.apollo.com/news-events/press-releases/detail/657/apollo-announces-the-launch-of-european-credit-company",
+    "מקורות": [
+      {
+        "url": "https://ir.apollo.com/news-events/press-releases/detail/657/apollo-announces-the-launch-of-european-credit-company",
+        "label": "Apollo: הודעת ההשקה המקורית, 2 בנובמבר בשעה 02:00 EST",
+        "label_en": "Apollo: original launch announcement, November 2 at 02:00 EST"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d0d39b027be0bfbd479048956251b4aff85ee14836552fcdd2ab7f0830cfc9cb"
+      }
+    },
+    "מזהה": "n-1540",
+    "הועלה": "2026-11-13 10:22"
   }
 ]
