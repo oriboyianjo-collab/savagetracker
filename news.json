@@ -41456,5 +41456,56 @@
     },
     "מזהה": "n-1593",
     "הועלה": "2026-11-13 14:19"
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-10-14",
+    "כותרת": "השלמה מ-14 באוקטובר: Sandisk (SNDK) נבחרה לספקית האחסון החיצוני הרשמית והבלעדית של Meta VR Glasses",
+    "כותרת_en": "October 14 catch-up: Sandisk (SNDK) named exclusive official external-storage partner for Meta VR Glasses",
+    "קישור": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-10-14-sandisk-named-exclusive-storage-partner-for-meta-vr-glasses",
+    "מקורות": [
+      {
+        "url": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-10-14-sandisk-named-exclusive-storage-partner-for-meta-vr-glasses",
+        "label": "Sandisk: הודעת השותפות המקורית מ-14 באוקטובר",
+        "label_en": "Sandisk: original October 14 partnership announcement"
+      }
+    ],
+    "חברה": "סנדיסק",
+    "חברה_en": "Sandisk",
+    "סימול": "SNDK",
+    "טקסט": "השלמת סיקור להודעת Sandisk המקורית מ-14.10.2026. ההודעה נקראה במלואה; שעת הפרסום המקורית אינה ידועה. כתבה מ-13 בנובמבר חוזרת על השותפות ואינה הכרזה חדשה על עסקה או תחילת אספקה.\n\nSandisk הודיעה על בחירתה כספקית הבלעדית של פתרונות הרחבת אחסון פלאש רשמיים עבור Meta VR Glasses, שהשקתן מתוכננת לאביב 2027. המוצרים כוללים כרטיסי microSD Express וכונני USB-C שפותחו בשיתוף Meta כחלק מתוכנית האביזרים Made for Meta.\n\nהחברה אומרת שהמוצרים נבדקו והוסמכו לשימוש במשקפיים, ויוצעו בשווקים שבהם המשקפיים יהיו זמינים. ההודעה אינה כוללת מחירי אביזרים, נפחים סופיים, כמויות הזמנה, שווי חוזה או תחזית הכנסות. יעד אביב 2027 אינו אישור שהמשקפיים או האביזרים כבר נמכרים.\n\nהבלעדיות מתייחסת לפתרונות האחסון המתוארים ולמשקפי VR אלה. אין להרחיבה לכל רכיבי הזיכרון של Meta, לכל מוצרי Quest או לכל ציוד מרכזי הנתונים שלה. טענות התאימות והביצועים הן של החברות, לא מבחן עצמאי. זו שותפות אביזרי צריכה נפרדת ממוצר האחסון המשובץ iNAND CL EM181 שב-n-1275 ומהסכם הלקוח שלא זוהה ב-n-0629.",
+    "טקסט_en": "Catch-up coverage of Sandisk's original October 14, 2026 announcement. The full release was read; its original publication time is unknown. A November 13 article repeats the partnership, rather than announcing a new deal or shipment milestone.\n\nSandisk announced its selection as the exclusive provider of official flash-storage expansion solutions for Meta VR Glasses, targeted to launch in spring 2027. Products include microSD Express cards and USB-C flash drives developed with Meta as part of its Made for Meta accessories ecosystem.\n\nThe company says the products are tested and certified for the glasses and will be sold in markets where the glasses are available. The release gives no accessory prices, final capacities, order volumes, contract value or revenue forecast. The spring 2027 target does not mean the glasses or accessories are already on sale.\n\nExclusivity covers the described storage solutions for these VR glasses. It must not be extended to all Meta memory components, every Quest product or its data-center equipment. Compatibility and performance statements are company claims, not independent tests. This consumer-accessory partnership is separate from the iNAND CL EM181 embedded-storage product in n-1275 and the unidentified-customer agreement in n-0629.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f29e1cfc343f4a132e865b4dc1a081e73f8cc490cf2e5a518a07d24694adbe01"
+      }
+    },
+    "מזהה": "n-1594",
+    "הועלה": "2026-11-13 14:38"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-12",
+    "כותרת": "לפי Reuters: ויליאמס מהפד אומר שהעלאות ריבית נוספות כנראה יידרשו; לא נקב בעיתוי או בגודל העלאה",
+    "כותרת_en": "Reuters: Fed's Williams says further rate hikes are likely; gives no timing or size commitment",
+    "קישור": "https://www.streetinsider.com/Reuters/Feds+Williams+says+central+bank+has+work+to+do+to+get+inflation+back+on+target/27338212.html",
+    "מקורות": [
+      {
+        "url": "https://www.streetinsider.com/Reuters/Feds+Williams+says+central+bank+has+work+to+do+to+get+inflation+back+on+target/27338212.html",
+        "label": "Reuters דרך StreetInsider: הדיווח המלא על דברי ויליאמס",
+        "label_en": "Reuters via StreetInsider: full report on Williams' remarks"
+      }
+    ],
+    "טקסט": "לא מאומת מול מקור ראשוני: תמליל או הקלטה רשמיים של דברי ויליאמס לא נקראו. כתבת Reuters המלאה מאת Michael S. Derby נקראה דרך StreetInsider.\n\nהדברים נאמרו ב-12.11.2026 באירוע בוגרי UC Berkeley בניו יורק. הכתבה פורסמה ב-20:35 EST, שהם 13 בנובמבר ב-03:35 בישראל; זו שעת הדיווח, לא שעה מאומתת של תחילת דבריו. השלמת סיקור, לא נאום חדש מ-13 בנובמבר.\n\nלפי Reuters, נשיא שלוחת הפד בניו יורק ג'ון ויליאמס אמר שהעלאות ריבית נוספות כנראה יידרשו כדי להוריד אינפלציה גבוהה בכלכלה שנותרה חזקה. הוא תיאר כלכלה חזקה, שוק עבודה שממשיך להתחזק ואינפלציה עיקשת, ואמר שעדיין נדרשת עבודה כדי להביא את המדיניות למקום המתאים ולהחזיר את האינפלציה ליעד של 2% בזמן סביר ובאופן מתמשך.\n\nויליאמס לא אמר מתי הוא צופה העלאה נוספת או לאיזו רמת ריבית יש להגיע. אין בדיווח התחייבות שלו להעלאה של 50 נקודות בסיס בדצמבר. ההתייחסות לכך בכתבה היא רקע נפרד לדברי כריסטופר וולר, והציפיות להעלאות בדצמבר ובינואר הן תיאור שוק של Reuters, לא הבטחה של ויליאמס או החלטת FOMC.\n\nבנוגע ליוקר המחיה, ויליאמס הסביר שהמדיניות נועדה להאט את קצב עליית המחירים, ולא להחזיר את רמת המחירים לשנים קודמות. הוא הזהיר שניסיון להפוך את עליות המחירים שכבר התרחשו עלול לגרום עיוותים ונזק כלכלי. זהו עדכון מדיניות נפרד מדבריו בפרנקפורט ב-6 בנובמבר שב-n-0193, לא פרסום נתון אינפלציה חדש או שינוי ריבית שכבר בוצע.",
+    "טקסט_en": "Not verified against a primary source: no official transcript or recording of Williams' remarks was read. Michael S. Derby's complete Reuters report was read via StreetInsider.\n\nThe remarks were made November 12, 2026 at a UC Berkeley alumni event in New York. The article was published at 20:35 EST, calculated as November 13 at 03:35 Israel time. That is the report's time, not a verified start time for his remarks. This is catch-up coverage, not a new November 13 speech.\n\nAccording to Reuters, New York Fed President John Williams said further rate increases are likely to be needed to lower high inflation in an otherwise strong economy. He described a strong economy, a strengthening labor market and persistent inflation, and said there was still work to do to get policy to the right place and return inflation to the 2% goal in a timely and sustained way.\n\nWilliams did not say when he expects another increase or how high rates should go. The report contains no commitment by him to a 50-basis-point December hike. That discussion in the article is separate background about Christopher Waller, and expectations for December and January increases are Reuters' account of markets, not a Williams promise or FOMC decision.\n\nOn living costs, Williams explained that policy aims to slow the rate of price increases, rather than return the price level to earlier years. He warned that trying to reverse past price increases could create economic distortions and damage. These are separate remarks from his November 6 Frankfurt comments in n-0193, not new inflation data or an already-enacted rate change.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b2311eba63afbe8281d119c848aa0a4faec8a244c6c0522e211067242873eb2b"
+      }
+    },
+    "מזהה": "n-1595",
+    "הועלה": "2026-11-13 14:38"
   }
 ]
