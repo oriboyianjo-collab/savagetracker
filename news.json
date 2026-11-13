@@ -40533,5 +40533,43 @@
     },
     "מזהה": "n-1567",
     "הועלה": "2026-11-13 11:32"
+  },
+  {
+    "category": "micro",
+    "חברה": "MSFT",
+    "חברה_en": "MSFT",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 11:14",
+    "כותרת": "Microsoft 365: חלון פקיעת הדואר מוארך ל-48 שעות; הקיבולת עדיין מתחת לרגיל למרות סימני התייצבות",
+    "כותרת_en": "Microsoft 365: email timeout window extended to 48 hours; capacity still below normal despite stabilization signs",
+    "טקסט": "13.11.2026, 11:14:20 בישראל (09:14:20 UTC) | עדכון האירוע הרשמי של Microsoft. זהו מועד עדכון המצב, לא תחילת התקלה. החברה ממשיכה לסמן פגיעה בשירות, Service degradation.\n\nMicrosoft אומרת שהיא מאריכה את חלון פקיעת הזמן של הודעות דואר ל-48 שעות כדי לסייע לשמר הודעות שמעוכבות בזמן ההתאוששות. זהו שינוי בטיפול בדואר שבתור, לא תחזית שהתקלה תימשך 48 שעות, הבטחת פתרון בתוך פרק זמן זה או אישור שכל הודעה כבר נמסרה.\n\nלפי החברה, נראים סימנים מוקדמים להתייצבות, אך קיבולת השירות טרם חזרה לרמה רגילה ובריאות השירות נותרת משתנה עם החזרה זהירה של תעבורה. הצוותים ממשיכים בריקון תעבורה מתשתית שנפגעה, הפעלה מחדש, תיקון והחזרה מדורגת לשירות; אפשרויות נוספות לשיפור מהירות ועקביות ההתאוששות עדיין נבחנות. השיפור אינו הודעה על התאוששות מלאה.\n\nמעבר לדיווח הקודם על תוצאות חיוביות של טלאי בחלק מהשרתים, ההתפתחות החדשה היא הארכת חלון הדואר וההבהרה העדכנית שהקיבולת עדיין חסרה. לא נמסרו שיעור התאוששות כולל, מספר הודעות שהושלמו או אומדן כמותי של התור.\n\nהפגיעה ממשיכה לכלול גישה ל-Exchange Online ותכונות בשירותים אחרים התלויות בדואר וביומן. Microsoft מציינת שרוב יכולות הליבה של Teams, ובהן שיחות, פגישות והודעות קבוצתיות ובערוצים, אינן נפגעות; גישה ישירה לקבצים המאוחסנים ב-SharePoint נותרת פעילה. אין כאן טענה שכל שירותי Microsoft או Azure מושבתים.\n\nהחברה חוזרת ואומרת שאינה מודעת כעת לפעילות זדונית שגורמת לאירוע. זו הערכה מוגבלת של Microsoft, לא מסקנת חקירה עצמאית. דוח סיבת השורש וההגנות מתוכנן לאחר השלמת ההתאוששות. העדכון הבא הובטח עד 12:00 בישראל (10:00 UTC), לא כמועד פתרון מובטח.",
+    "טקסט_en": "November 13, 2026, 11:14:20 Israel time (09:14:20 UTC) | Microsoft's official incident update. This is a status-update time, not the start of the outage. The company still reports Service degradation.\n\nMicrosoft says it is extending the email timeout window to 48 hours to help preserve messages delayed during recovery. This changes how queued email is handled. It is not a forecast of a 48-hour outage, a promise of resolution within that period or confirmation that every message has been delivered.\n\nThe company sees early signs of stabilization, but service capacity has not returned to normal and service health remains variable as traffic is carefully reintroduced. Teams continue traffic drain, restart, remediation and staged return-to-service of affected infrastructure. Additional options to improve recovery speed and consistency are still being assessed. Improvement is not full recovery.\n\nBeyond the earlier positive results from a patch on part of the infrastructure, the new development is the longer email window and the current clarification that capacity remains below normal. No overall recovery percentage, completed-message count or quantified backlog was provided.\n\nImpact still includes Exchange Online access and email- and calendar-dependent features of other services. Microsoft says most core Teams functions, including calls, meetings, group chats and channel messages, are not impacted. Direct access to files stored in SharePoint remains functional. This does not establish an outage of every Microsoft or Azure service.\n\nThe company repeats that it is not currently aware of malicious activity causing the incident. That is Microsoft's limited assessment, not an independent investigation's conclusion. A root-cause and defense-in-depth report is planned after recovery is complete. The next update is promised by 12:00 Israel time (10:00 UTC), not as a guaranteed resolution deadline.",
+    "קישור": "https://status.cloud.microsoft/",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/api/feed/mac",
+        "label": "Microsoft: RSS רשמי, עדכון 09:14:20 UTC",
+        "label_en": "Microsoft: official RSS update at 09:14:20 UTC"
+      },
+      {
+        "url": "https://status.cloud.microsoft/",
+        "label": "Microsoft: עמוד בריאות השירות הציבורי",
+        "label_en": "Microsoft: public service-health page"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6c45cd7737bd4c9c7c8c81279e483c2c80e93b3e3fa28a0762bc03a1fdf624e6"
+      }
+    },
+    "מזהה": "n-1568",
+    "הועלה": "2026-11-13 11:37"
   }
 ]
