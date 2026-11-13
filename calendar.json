@@ -2948,9 +2948,9 @@
     "תקופה": "אוקטובר · חודשי",
     "חשיבות": 2,
     "מקור": "https://www.bls.gov/schedule/news_release/ppi.htm",
-    "הערה": "מועד רשמי BLS: יום שישי 13.11 בשעה 08:30 ET, 15:30 בישראל. צפי לא אומת; קודם מטבלת BLS לספטמבר 2026; אין נתון בפועל לפני הפרסום.\nעדכון 06.11.2026: צפי לפי ForexFactory 0.4%. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.",
-    "קודם": "1.3%",
-    "מקור_קודם": "https://www.bls.gov/news.release/ppi.t01.htm",
+    "הערה": "נתון רשמי של BLS לאוקטובר 2026: מדד מחירי היצרן לביקוש סופי עלה 0.3% בחישוב חודשי מנוכה עונתיות. ספטמבר עודכן מ-1.3% ל-1.4%; ההיסטוריה נשמרה. הצפי הקיים 0.4% ממקור משני נשמר. נתון הליבה ללא מזון ואנרגיה נבדק בנפרד ואינו נלמד ממדד ללא מזון, אנרגיה ושירותי מסחר.",
+    "קודם": "1.4%",
+    "מקור_קודם": "https://www.bls.gov/news.release/ppi.nr0.htm",
     "צפי": "0.4%",
     "מקורות_בדיקה_עדכנית": [
       "https://www.forexfactory.com/calendar?week=nov8.2026"
@@ -2959,13 +2959,25 @@
     "מזהה": "c-0118",
     "אירוע_en": "Producer price index - monthly",
     "תקופה_en": "October · monthly",
-    "הערה_en": "Official BLS timing: Friday Nov 13 at 08:30 ET, 15:30 Israel. Estimate not verified; prior from the BLS table for September 2026; no actual figure before the release.\nUpdate Nov 6, 2026: estimate per ForexFactory 0.4%. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure.",
+    "הערה_en": "Official BLS October 2026 final-demand PPI rose 0.3% month on month, seasonally adjusted. September was revised from 1.3% to 1.4%; history is preserved. The existing secondary-source forecast of 0.4% is retained. Core excluding food and energy is checked separately and must not be inferred from the index excluding food, energy and trade services.",
     "_translation": {
       "en": {
-        "source_hash": "8d5017fa74d1628b4314aee9f0d4294cd7acbc69291e59618cad89bd94212b6c",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "e834ce6cda0402549698fb648333b2475265042fad4fe55af4f95f4649d4abb8"
       }
-    }
+    },
+    "היסטוריית_נתונים": [
+      {
+        "תאריך_עדכון": "2026-11-13 15:36",
+        "קודם": "1.3%",
+        "בפועל": null,
+        "הערה": "מועד רשמי BLS: יום שישי 13.11 בשעה 08:30 ET, 15:30 בישראל. צפי לא אומת; קודם מטבלת BLS לספטמבר 2026; אין נתון בפועל לפני הפרסום.\nעדכון 06.11.2026: צפי לפי ForexFactory 0.4%. מקורו לא אומת מול מקור ראשוני. הערת המקור הקודמת נשמרה לתיעוד; אין נתון בפועל חדש.",
+        "הערה_en": "Official BLS timing: Friday Nov 13 at 08:30 ET, 15:30 Israel. Estimate not verified; prior from the BLS table for September 2026; no actual figure before the release.\nUpdate Nov 6, 2026: estimate per ForexFactory 0.4%. Its source was not verified against a primary source. The previous source note was kept for the record; no new actual figure."
+      }
+    ],
+    "בפועל": "0.3%",
+    "מקור_בפועל": "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "תאריך_בדיקת_בפועל": "2026-11-13 15:36"
   },
   {
     "תאריך": "2026-11-13",
@@ -2975,19 +2987,31 @@
     "תקופה": "אוקטובר · שנתי",
     "חשיבות": 2,
     "מקור": "https://www.bls.gov/schedule/news_release/ppi.htm",
-    "הערה": "מועד רשמי BLS: יום שישי 13.11 בשעה 08:30 ET, 15:30 בישראל. צפי לא אומת; קודם מטבלת BLS לספטמבר 2026; אין נתון בפועל לפני הפרסום.",
+    "הערה": "נתון רשמי של BLS לאוקטובר 2026: מדד מחירי היצרן לביקוש סופי עלה 6.5% ב-12 חודשים, ללא ניכוי עונתיות. קודם לספטמבר 6.3% נשמר. לא נוסף צפי שנתי שלא אומת במקור המקורי. זהו מדד כללי, לא ליבה.",
     "קודם": "6.3%",
-    "מקור_קודם": "https://www.bls.gov/news.release/ppi.t01.htm",
+    "מקור_קודם": "https://www.bls.gov/news.release/ppi.nr0.htm",
     "מזהה": "c-0119",
     "אירוע_en": "Producer price index - annual",
     "תקופה_en": "October · annual",
-    "הערה_en": "Official BLS timing: Friday Nov 13 at 08:30 ET, 15:30 Israel. Estimate not verified; prior from the BLS table for September 2026; no actual figure before the release.",
+    "הערה_en": "Official BLS October 2026 final-demand PPI rose 6.5% over 12 months, not seasonally adjusted. September prior of 6.3% is retained. No annual forecast lacking verification from its original source was added. This is headline, not core.",
     "_translation": {
       "en": {
-        "source_hash": "49575216a12035c6e25c8cd4dec2d8dad9f6d41a879dfa0210e4e13cb838a579",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "ff416f869177b6796c2c8af9797ad9fe25662509c6ce04de53bc57421c03951c"
       }
-    }
+    },
+    "היסטוריית_נתונים": [
+      {
+        "תאריך_עדכון": "2026-11-13 15:36",
+        "קודם": "6.3%",
+        "בפועל": null,
+        "הערה": "מועד רשמי BLS: יום שישי 13.11 בשעה 08:30 ET, 15:30 בישראל. צפי לא אומת; קודם מטבלת BLS לספטמבר 2026; אין נתון בפועל לפני הפרסום.",
+        "הערה_en": "Official BLS timing: Friday Nov 13 at 08:30 ET, 15:30 Israel. Estimate not verified; prior from the BLS table for September 2026; no actual figure before the release."
+      }
+    ],
+    "בפועל": "6.5%",
+    "מקור_בפועל": "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "תאריך_בדיקת_בפועל": "2026-11-13 15:36"
   },
   {
     "תאריך": "2026-11-13",

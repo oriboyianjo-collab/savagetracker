@@ -41703,5 +41703,62 @@
     },
     "מזהה": "n-1601",
     "הועלה": "2026-11-13 15:32"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13 15:30",
+    "כותרת": "BLS: מחירי היצרן באוקטובר עלו 0.3% בחודש ו-6.5% בשנה; ספטמבר החודשי עודכן ל-1.4%",
+    "כותרת_en": "BLS: October producer prices rise 0.3% monthly and 6.5% annually; September monthly gain revised to 1.4%",
+    "קישור": "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "מקורות": [
+      {
+        "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+        "label": "BLS: הודעת מדד המחירים ליצרן לאוקטובר 2026",
+        "label_en": "BLS: October 2026 Producer Price Index release"
+      }
+    ],
+    "טקסט": "לפי הודעת BLS הרשמית לאוקטובר 2026, שנבדקה לאחר הפרסום המתוכנן ב-13.11 בשעה 15:30 בישראל, מדד המחירים ליצרן לביקוש סופי עלה 0.3% בחודש, מנוכה עונתיות, ו-6.5% ב-12 חודשים, ללא ניכוי עונתיות.\n\nהנתון החודשי לספטמבר תוקן מ-1.3% ל-1.4%. הנתון השנתי הקודם 6.3% נשמר. גם אוגוסט החודשי עודכן מ-0.5% ל-0.4%. אין להשתמש ב-1.3% הישן כאילו היה הנתון הקודם המעודכן. צפי חודשי 0.4% שנשמר ביומן הוא צפי ForexFactory ממקור משני, לא תחזית של BLS.\n\nאלה הנתונים הכלליים. המדד הנפרד ללא מזון, אנרגיה ושירותי מסחר עלה לפי הודעת BLS ב-0.5% בחודש וב-4.9% בשנה. הוא אינו מדד הליבה ללא מזון ואנרגיה שמופיע בשתי שורות אחרות ביומן. טבלת הליבה העדכנית עדיין לא אומתה במקור הראשוני בבדיקה הזאת, ולכן נתוני הליבה המדווחים במקורות משניים אינם מוצגים כאן כנתוני BLS מאומתים.\n\nהנתונים הם שינויי מחירים ליצרן, לא מדד המחירים לצרכן ולא החלטת ריבית. לא מיוחסת להם תגובת שוק שלא נבדקה.",
+    "טקסט_en": "The official BLS October 2026 release, checked after the scheduled November 13 publication at 15:30 Israel time, reports final-demand PPI rising 0.3% month on month, seasonally adjusted, and 6.5% over 12 months, not seasonally adjusted.\n\nSeptember's monthly increase was revised from 1.3% to 1.4%. Its annual prior remains 6.3%. August's monthly gain was also revised from 0.5% to 0.4%. The old 1.3% must not be treated as the revised previous figure. The calendar's retained 0.4% monthly forecast is a secondary-source ForexFactory consensus, not a BLS forecast.\n\nThese are headline figures. The separate index excluding food, energy and trade services rose 0.5% monthly and 4.9% annually in the BLS release. It is not core excluding food and energy, which occupies two other calendar rows. The current core table was not verified at the primary source in this check, so secondary-reported core figures are not presented here as verified BLS data.\n\nThese measure producer prices, not consumer prices or a rate decision. No unchecked market reaction is attributed to the release.",
+    "מזהה": "n-1602",
+    "הועלה": "2026-11-13 15:36",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b31ec5cbd2c20ad7b8df7d9ef9c52efafe870a9bd06fb4a338a2a3ef56c5a588"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "בסנט ל-CNBC: האוצר תומך זה חודשים בהגבלות על Megaspeed; משרד המסחר אחראי לתהליך",
+    "כותרת_en": "Bessent tells CNBC Treasury has long backed Megaspeed restrictions; Commerce controls the process",
+    "קישור": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+        "label": "CNBC: הדיווח המקורי על דברי בסנט בריאיון Squawk Box",
+        "label_en": "CNBC: original report on Bessent remarks to Squawk Box"
+      }
+    ],
+    "טקסט": "לפי הדיווח המקורי של CNBC מ-13.11.2026, שנקרא במלואו בגרסתו הנוכחית, שר האוצר סקוט בסנט אמר בריאיון ל-Squawk Box כי משרדו ומשרדים אחרים בממשל תומכים זה זמן בהטלת הגבלות על Megaspeed. הוא הוסיף שמשרד המסחר אחראי, ושיש לשאול אותו על התהליכים הפנימיים שלו.\n\nזהו דיווח ישיר של כלי התקשורת שערך את הריאיון, אך הריאיון המלא ותמליל ממשלתי לא נבדקו כאן. דף CNBC נמצא בעדכון מתגלגל; שעת פרסום הדף אינה משמשת כשעת האמירות החדשות.\n\nזו תגובה פומבית נפרדת בנוגע לעמדת משרד האוצר, מעבר לדיווח המקורות על העימות בחדר המצב ב-n-1335 ולהכחשת משרד המסחר ב-n-1341. האמירה הנוכחית אינה מאשרת שהשיחה המסוימת ההיא התקיימה ואינה מבטלת את ההכחשה הקודמת. שני הפריטים נשמרים ללא שינוי.\n\nהדיווח הנוכחי אינו מודיע על הוספת Megaspeed לרשימת הישויות, ביטול רישיון או כלל יצוא חדש שנכנס לתוקף. תמיכה בהגבלות ושאלות על התהליך אינן ממצא שהוכחה הסטת שבבים או ש-NVIDIA ידעה על הפרה. לא נכללים כאן ציטוטי סף H100, נתוני מעבר נפט או צעדי סנקציות אחרים שלא הופיעו בגוף הכתבה שנקרא.",
+    "טקסט_en": "In CNBC's original November 13, 2026 report, read in full in its current version, Treasury Secretary Scott Bessent told Squawk Box that his department and others in the administration have long supported restrictions on Megaspeed. He said Commerce is in charge and should be asked about its internal processes.\n\nThis is a direct report by the outlet conducting the interview, but the full interview and a government transcript were not inspected here. CNBC's page is being updated; its initial publication timestamp is not treated as the time of these new remarks.\n\nThis is a separate public response about Treasury's position, beyond the sourced report of a Situation Room confrontation in n-1335 and Commerce's denial in n-1341. It does not confirm that specific conversation took place or negate the earlier denial. Both previous items remain unchanged.\n\nThe current report announces no Megaspeed Entity List addition, licence revocation or new export rule taking effect. Support for restrictions and questions about process do not establish proven chip diversion or that NVIDIA knew of a violation. H100 thresholds, oil-transit figures and other sanctions remarks absent from the inspected article body are not included here.",
+    "מזהה": "n-1603",
+    "הועלה": "2026-11-13 15:36",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "80166a316a73fc7e638b2381bc2af6cf38483da5f457c2e4289776a6813c44b3"
+      }
+    }
   }
 ]
