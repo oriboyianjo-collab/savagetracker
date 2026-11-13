@@ -1,6 +1,6 @@
 // Total net assets (AUM) per ETF from the issuers' own public fund data. Used by fetch-issuer-holdings.cjs -> holdings/issuer.json "netAssets".
 // Only values an issuer publishes together with an as-of date. Any failure of one issuer leaves the previous values in place.
-// Sources: iShares product screener (all US iShares ETFs), SSGA/SPDR fund finder, Global X and First Trust fund pages, NEOS official dated fund overview, and YieldMax official fund details (source precision retained).
+// Sources: iShares product screener (all US iShares ETFs), SSGA/SPDR fund finder, Global X and First Trust fund pages, NEOS official dated fund overview, YieldMax official fund details, and Defiance official dated fund directory (source precision retained).
 const fs = require('fs'), path = require('path');
 const UA = {'User-Agent': 'Mozilla/5.0 (compatible; savage-tracker-netassets)', 'Accept': '*/*'};
 const iso8 = n => { const s = String(n); return /^\d{8}$/.test(s) ? `${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}` : null; };
@@ -63,6 +63,9 @@ async function yieldmax(names,log){
  log('NA   YieldMax',Object.keys(out).length+'/'+links.length,blocked?'stopped on source access response':'');return out;
 }
 
+function parseDefiance(j,names){const out={},duplicates=new Set();if(!Array.isArray(j))return out;const wanted=new Set(names.filter(x=>x&&x[2]===1&&/^Defiance\b/i.test(x[1])).map(x=>x[0]));for(const f of j){if(!f||typeof f!=='object')continue;const t=f.ticker,d=f.rate_date,v=f.net_assets;if(!wanted.has(t)||!/^Defiance\b/i.test(f.name||'')||typeof v!=='number'||!Number.isFinite(v)||v<=0||!/^\d{4}-\d{2}-\d{2}$/.test(d||''))continue;const date=new Date(d+'T00:00:00Z');if(!Number.isFinite(+date)||date.toISOString().slice(0,10)!==d)continue;let u;try{u=new URL(f.url)}catch(e){continue}if(u.origin!=='https://www.defianceetfs.com'||u.pathname!=='/'+t.toLowerCase()+'/'||u.search||u.hash)continue;if(out[t]||duplicates.has(t)){delete out[t];duplicates.add(t);continue;}out[t]={v:Math.round(v),asOf:d,issuer:'Defiance',src:u.href,currency:'USD',sourceValue:v,sourcePrecisionUSD:0.01};}return out;}
+
+
 async function pool(items, n, fn){ const res = []; let i = 0; await Promise.all(Array.from({length: n}, async () => { while(i < items.length){ const k = items[i++]; try{ const r = await fn(k); if(r) res.push([k, r]); }catch(e){} } })); return res; }
 module.exports = async function fetchNetAssets(root, log = console.log){ const out = {};
   for(const [name, fn] of [['iShares', ishares], ['SSGA', ssga]]){ try{ const r = await fn(); Object.assign(out, r); log('NA   ' + name, Object.keys(r).length); }catch(e){ log('NA   ' + name + ' error', e.message); } }
@@ -70,6 +73,7 @@ module.exports = async function fetchNetAssets(root, log = console.log){ const o
   const etfs = names.filter(x => x && x[2] === 1);
   try{ const r = parseNeos(await get('https://neosfunds.com/', 40000), etfs); Object.assign(out, r); log('NA   NEOS', Object.keys(r).length); }catch(e){ log('NA   NEOS error', e.message); }
   try{ Object.assign(out,await yieldmax(etfs,log)); }catch(e){log('NA   YieldMax error',e.message);}
+  try{const r=parseDefiance(JSON.parse(await get('https://www.defianceetfs.com/wp-json/defiance/v1/etfs-explore',40000)),etfs);Object.assign(out,r);log('NA   Defiance',Object.keys(r).length);}catch(e){log('NA   Defiance error',e.message);}
   for(const [name, rx, fn] of [['Global X', /^Global X\b/i, globalx], ['First Trust', /^(First Trust|FT )/i, firsttrust]]){ const ts = etfs.filter(x => rx.test(x[1])).map(x => x[0]).filter(t => !out[t]);
     try{ const r = await pool(ts, 6, fn); r.forEach(([t, e]) => { out[t] = e; }); log('NA   ' + name, r.length + '/' + ts.length); }catch(e){ log('NA   ' + name + ' error', e.message); } }
   return out; };
