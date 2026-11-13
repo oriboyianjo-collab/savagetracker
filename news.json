@@ -39924,5 +39924,104 @@
     },
     "מזהה": "n-1550",
     "הועלה": "2026-11-13 10:42"
+  },
+  {
+    "category": "micro",
+    "חברה": "Nokia / NOK",
+    "חברה_en": "Nokia / NOK",
+    "symbols": [
+      "NOK"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 10:44",
+    "כותרת": "תיקון ל-n-0939: רווחי Nokia ברבעון השלישי נמדדו במיליוני אירו, לא במיליארדים",
+    "כותרת_en": "Correction to n-0939: Nokia Q3 profits were in millions of euros, not billions",
+    "טקסט": "13.11.2026 | תיקון יחידות לפריט ההיסטורי n-0939, לפי טבלת התוצאות בהודעת Nokia הרשמית מ-22.10.2026 בשעה 08:00 EEST. אין זה דוח כספי חדש או שינוי בתחזית.\n\nבגוף הפריט הקודם נכתב בטעות שהרווח לתקופה היה 156 מיליארד אירו, שהרווח התפעולי המדווח היה 196 מיליארד אירו ושהרווח התפעולי המתואם היה 605 מיליארד אירו. שלוש היחידות הללו שגויות: הטבלה הרשמית מסומנת EUR million.\n\nהנתונים הנכונים לרבעון השלישי של 2026 הם:\n• רווח לתקופה: 156 מיליון אירו, לעומת 80 מיליון אשתקד, עלייה של 95%.\n• רווח תפעולי מדווח: 196 מיליון אירו, לעומת 252 מיליון, ירידה של 22%.\n• רווח תפעולי מתואם: 605 מיליון אירו, לעומת 448 מיליון, עלייה של 35%.\n\nהמכירות נטו של 5.154 מיליארד אירו בפריט הקודם אינן חלק מתיקון היחידות הזה. רווח מדווח ורווח מתואם נשארים מדדים שונים ואין לחבר ביניהם. הטעות ניפחה את שלושת סכומי הרווח פי אלף; היא הייתה בתיאור באפליקציה, לא הודעת תיקון של Nokia לתוצאותיה.\n\nn-0939 נשמר ללא שינוי כרישום היסטורי, והתיקון מופיע בנפרד כדי שיהיה ברור מה היה שגוי ומהו המקור הנכון. לא שונו לוח הדוחות, נתוני דוחות או אומדנים. בדיקות הדוחות נשארות מושהות.",
+    "טקסט_en": "November 13, 2026 | Unit correction to historical item n-0939, based on the financial-results table in Nokia's official October 22, 2026 release at 08:00 EEST. This is not a new earnings release or a forecast change.\n\nThe earlier body incorrectly stated profit for the period of EUR156 billion, reported operating profit of EUR196 billion and comparable operating profit of EUR605 billion. All three unit labels were wrong: the official table is labeled EUR million.\n\nCorrect Q3 2026 figures:\n• Profit for the period: EUR156 million versus EUR80 million, up 95%.\n• Reported operating profit: EUR196 million versus EUR252 million, down 22%.\n• Comparable operating profit: EUR605 million versus EUR448 million, up 35%.\n\nPreviously stated net sales of EUR5.154 billion are not part of this unit correction. Reported and comparable profit remain separate measures and must not be added. The error overstated the three profit amounts by 1,000 times. It was in the app's description, not a Nokia restatement.\n\nn-0939 is preserved unchanged as a historical record. This separate correction identifies the error and correct source. No earnings-board, report-data or estimate changes were made, and earnings checks remain paused.",
+    "קישור": "https://www.nokia.com/newsroom/nokia-corporation-interim-report-for-q3-2026/",
+    "מקורות": [
+      {
+        "url": "https://www.nokia.com/newsroom/nokia-corporation-interim-report-for-q3-2026/",
+        "label": "Nokia: טבלת Q3 הרשמית, במיליוני אירו, 22 באוקטובר",
+        "label_en": "Nokia: official Q3 table in EUR million, October 22"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2887c496f663776e145e951fd976616a77f6d3e9ffe88c3c8a8c590c72e9a816"
+      }
+    },
+    "מזהה": "n-1551",
+    "הועלה": "2026-11-13 10:45"
+  },
+  {
+    "category": "micro",
+    "חברה": "Nokia / NOK",
+    "חברה_en": "Nokia / NOK",
+    "symbols": [
+      "NOK"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-13",
+    "כותרת": "השלמה מ-13 באוקטובר: Nokia חתמה למכירת ECE ל-AURELIUS; סגירה מתוכננת למחצית הראשונה של 2027",
+    "כותרת_en": "October 13 catch-up: Nokia signs ECE sale to AURELIUS; closing planned for first half of 2027",
+    "טקסט": "13.10.2026 | הודעת Nokia המקורית נקראה במלואה, כולל תנאי הסגירה והעברת העובדים. שעת הפרסום המקורית לא אומתה ישירות בהודעה. כתבת AK&M מ-13 בנובמבר אינה מועד חתימה חדש ואינה אישור שהשליטה כבר הועברה.\n\nNokia הודיעה שחתמה על הסכם מחייב למכירה המוצעת של פעילות Enterprise Campus Edge, ECE, ל-AURELIUS. הסגירה צפויה במחצית הראשונה של 2027, בכפוף לתנאים מקובלים ובהם אישורים רגולטוריים ותהליכי מידע והתייעצות נדרשים עם נציגי העובדים. לא פורסם מחיר העסקה בהודעה שנבדקה.\n\nהפעילות מספקת רשתות אלחוטיות פרטיות לכמעט 900 לקוחות בענפי הייצור, הכרייה, הלוגיסטיקה, הנמלים, התעופה והאנרגיה. הפורטפוליו כולל מכשירים תעשייתיים, מחשוב קצה מקומי לטכנולוגיה תפעולית ויישומי תוכנה תעשייתיים. זהו נתון לקוחות לפעילות הנמכרת, לא 900 הזמנות חדשות.\n\nלפי Nokia, המכירה נועדה למקד הון ומשאבים בתחומים שבהם היא רואה פוטנציאל ערך ארוך טווח. העובדים צפויים לעבור עם הפעילות בסגירה לפי הדין והתהליכים המקומיים; אין בהודעה הודעה על פיטורים גורפים. יתרונות העצמאות, החדשנות והצמיחה הם יעדים של החברות, לא תוצאות שכבר נמדדו.\n\nב-n-1383 על פריסת Verizon ו-Thames Freeport כבר הוזכרה מכירה מתוכננת של ECE. כאן מובאים בנפרד ההסכם המקורי, היקף הפעילות ותנאי הסגירה. אין בכך ביטול של פרויקט הלקוח או הודעה שהפעילות כבר עברה לבעלים החדשים.",
+    "טקסט_en": "October 13, 2026 | Nokia's complete original release was read, including closing and employee-transfer conditions. Its original publication clock was not directly verified in the release. AK&M's November 13 article is not a new signing date or confirmation of transferred control.\n\nNokia announced a definitive agreement for the proposed sale of its Enterprise Campus Edge business to AURELIUS. Closing is expected in the first half of 2027, subject to customary conditions, including regulatory approvals and required employee information/consultation processes. The release does not disclose a transaction price.\n\nECE provides private wireless solutions to nearly 900 customers across manufacturing, mining, logistics, ports, airports and power generation. Its portfolio includes industrial devices, on-premises operational-technology edge computing and industrial software. The customer count describes the business, not 900 new orders.\n\nNokia says the sale focuses capital and resources on areas with long-term value potential. Employees are expected to transfer with the business at closing under local laws and processes; this is not a blanket-layoff announcement. Independence, innovation and growth benefits are company goals, not measured outcomes already achieved.\n\nn-1383's Verizon/Thames Freeport deployment item already mentioned the planned ECE sale. This separate catch-up records the original agreement, scope and closing conditions. It neither cancels that customer project nor confirms the business has already changed ownership.",
+    "קישור": "https://www.nokia.com/newsroom/nokia-to-sell-enterprise-campus-edge-business-to-aurelius/",
+    "מקורות": [
+      {
+        "url": "https://www.nokia.com/newsroom/nokia-to-sell-enterprise-campus-edge-business-to-aurelius/",
+        "label": "Nokia: הסכם ECE המקורי, 13 באוקטובר",
+        "label_en": "Nokia: original ECE agreement release, October 13"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9dcc2c488bee66de2aeb7da0a1741f443b8ebfece777c81c280428af63b05021"
+      }
+    },
+    "מזהה": "n-1552",
+    "הועלה": "2026-11-13 10:45"
+  },
+  {
+    "category": "micro",
+    "חברה": "Houlihan Lokey / HLI",
+    "חברה_en": "Houlihan Lokey / HLI",
+    "symbols": [
+      "HLI"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-11",
+    "כותרת": "Houlihan Lokey חתמה לרכישת Vicente & Partners; תשעה אנשי פיננסים אמורים להצטרף למשרד לונדון",
+    "כותרת_en": "Houlihan Lokey agrees to buy Vicente & Partners; nine financial professionals to join London office",
+    "טקסט": "11.11.2026 | הודעת Houlihan Lokey המקורית נקראה במלואה עד פרטי הקשר. הסכם העסקה נחתם ב-30 באוקטובר; תאריך הפרסום הוא 11 בנובמבר, ללא שעת פרסום מאומתת. השלמת סיקור, לא הסכם חדש שנחתם היום.\n\nHoulihan Lokey הודיעה שהסכימה לרכוש את Vicente & Partners, חברת ייעוץ עצמאית מלונדון המתמחה ביופי, טיפוח אישי ובריאות חיות מחמד באירופה ובארה״ב. תשעה אנשי פיננסים אמורים להצטרף למשרד לונדון, ובהם המייסד Alejandro Vicente והשותפות Lidiia Gaiduk ו-Michelle Garcia.\n\nהמטרה המוצהרת היא להרחיב את הידע הענפי וכיסוי הלקוחות של קבוצת הצריכה הקיימת. ההודעה אינה מוסרת מחיר רכישה, הכנסות של החברה הנרכשת, תרומה צפויה לרווח או מועד סגירה. ניסוח ההודעה הוא הסכם לרכישה, לא אישור שהעסקה כבר הושלמה.\n\nעסקאות קודמות של צוות Vicente, ובהן מכירת פעילות השיער של Coty ב-4.3 מיליארד דולר, מובאות כרקע לניסיון הצוות. 4.3 מיליארד אינם מחיר הרכישה הנוכחית או הכנסה ל-Houlihan Lokey. זהו צעד הרחבה עסקי מוגדר, ללא בסיס לכמת את השפעתו הכספית מעבר לפרטים שפורסמו.",
+    "טקסט_en": "November 11, 2026 | Houlihan Lokey's complete original release was read through the contact details. The transaction was signed October 30 and announced November 11; no publication clock was verified. Catch-up coverage, not a new agreement signed today.\n\nHoulihan Lokey agreed to acquire London-based independent adviser Vicente & Partners, which specializes in beauty, personal care and pet health across Europe and the US. Nine financial professionals are to join its London office, including founder Alejandro Vicente and partners Lidiia Gaiduk and Michelle Garcia.\n\nThe stated purpose is deeper sector expertise and customer coverage in the existing Consumer Group. The release provides no acquisition price, acquired-company revenue, expected earnings contribution or closing date. It announces an agreement to acquire, not confirmation of a completed transaction.\n\nThe Vicente team's previous deals, including Coty's $4.3 billion hair-business disposal, are experience background. That $4.3 billion is not this acquisition's price or Houlihan Lokey revenue. This is a defined business-expansion step with no basis to quantify financial impact beyond the disclosed details.",
+    "קישור": "https://investors.hl.com/news/press-and-earnings-releases/news-details/2026/Houlihan-Lokey-to-Acquire-Vicente--Partners/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.hl.com/news/press-and-earnings-releases/news-details/2026/Houlihan-Lokey-to-Acquire-Vicente--Partners/default.aspx",
+        "label": "Houlihan Lokey: הודעת הרכישה המלאה, 11 בנובמבר",
+        "label_en": "Houlihan Lokey: full acquisition release, November 11"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b9bf9df7432467192ed23d4f92362f93e1d527119e229cd2d49abed5e0ed1267"
+      }
+    },
+    "מזהה": "n-1553",
+    "הועלה": "2026-11-13 10:45"
   }
 ]
