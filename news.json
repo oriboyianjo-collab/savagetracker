@@ -40239,5 +40239,81 @@
     },
     "מזהה": "n-1559",
     "הועלה": "2026-11-13 10:54"
+  },
+  {
+    "category": "micro",
+    "חברה": "NVIDIA / NVDA",
+    "חברה_en": "NVIDIA / NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "עיריית טאיפיי: חברת NVIDIA המקומית עומדת בהתחייבויות המטה; הבנייה עדיין כפופה לבחינה ולהיתר",
+    "כותרת_en": "Taipei City says NVIDIA subsidiary meets HQ obligations; construction still subject to review and permit",
+    "טקסט": "13.11.2026 | הודעת מחלקת הקרקעות בעיריית טאיפיי נקראה במלואה בסינית, לצד כתבת CNA המלאה. תאריך 115 בלוח המקומי הוא 2026. חותמת 10:23 בדף היא שעת עדכון נתונים, לא שעת פרסום מקורית שאומתה; אין מוצגת כאן שעה בישראל.\n\nהעירייה מסרה שהצד להסכם זכויות הקרקע של המטה המתוכנן בפארק Beitou-Shilin הוא חברת הבת המקומית Nvidia Iconic Taiwan. לדבריה, החברה שילמה לפי ההסכם את ערבות הביצוע, דמי הזכות ודמי השכירות, והעמידה בהתחייבויות תקינה. ההודעה פורסמה בעקבות חילופי הנהלת NVIDIA; זו הצהרת מצב חוזית, לא עסקת קרקע חדשה או הבטחה שהפרויקט לא יתעכב לעולם.\n\nלפי העירייה, בקשת היתר הבנייה הוגשה ב-15 ביולי, ועבודות הקיר התת-קרקעי הרציף עברו בחינה בוועדה המקצועית ב-5 בנובמבר. ועדת התכנון העירוני צפויה לדון בנושא עד סוף נובמבר. תחילת העבודות מותנית באישור ובהנפקת ההיתר הנדרש לעבודות הנלוות. אין להסיק שעצם מעבר השלב המקצועי הוא היתר סופי או שהבנייה כבר החלה.\n\nהעירייה אומרת שההשקעה והקמת החברה הבת קדמו לשינוי המנכ״ל, ולכן אינה צופה ששינוי זה יפגע בהתחייבויות החברה הבת. זו הערכת העירייה, לא אישור עצמאי של מועד השלמה או פתיחה. לא נמסרו בהודעה התחייבות הון חדשה, תקציב מעודכן או מועד מחייב להפעלת המטה.\n\nהחידוש הוא אישור מצב התשלומים ופירוט שלב הרישוי לאחר עזיבת הואנג, לא הכרזה חוזרת על בחירת טאיפיי למטה. הודעת המשכיות לגבי פרויקט מסוים אינה ממצא בנושאי החקירות, בקרות היצוא או יתר עסקי NVIDIA.",
+    "טקסט_en": "November 13, 2026 | Taipei City's Land Department release was read in full in Chinese, alongside CNA's complete article. Local calendar year 115 corresponds to 2026. The page's 10:23 timestamp is a data-update time, not a verified original publication clock, so no Israeli clock is assigned.\n\nThe city says the land-rights contract for the planned Beitou-Shilin headquarters is with local subsidiary Nvidia Iconic Taiwan. It says the subsidiary has paid the performance bond, land premium and rent as required and is meeting its obligations. Issued after NVIDIA's leadership change, this is a contractual-status statement, not a new land transaction or a guarantee against future delays.\n\nThe city says the building-permit application was filed July 15 and underground diaphragm-wall works passed a technical review November 5. An urban-design committee review is expected by the end of November. Work can begin only after approval and issuance of the required miscellaneous-work permit. Passing the technical stage is not final permission or confirmation construction has started.\n\nThe city says the investment decision and local subsidiary predate the CEO change, so it does not expect that change to affect subsidiary obligations. That is the city's assessment, not independently verified completion/opening timing. The release gives no new capital commitment, revised budget or binding operational date.\n\nThe increment is payment-status confirmation and licensing-stage detail after Huang's departure, not a repeat announcement selecting Taipei for the HQ. Continuity of this project does not settle investigations, export controls or NVIDIA's other businesses.",
+    "קישור": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&sms=72544237BBE4C5F6&s=399C8CF37DD8B114",
+    "מקורות": [
+      {
+        "url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&sms=72544237BBE4C5F6&s=399C8CF37DD8B114",
+        "label": "עיריית טאיפיי: הודעת מחלקת הקרקעות המלאה, 13 בנובמבר",
+        "label_en": "Taipei City: complete Land Department release, November13"
+      },
+      {
+        "url": "https://focustaiwan.tw/business/202611130013",
+        "label": "CNA / Focus Taiwan: דיווח מלא על מצב המטה",
+        "label_en": "CNA / Focus Taiwan: full HQ-status report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a24090f204d81a858e53632093df65711345ffbb658dd05247f2c6db3312bb20"
+      }
+    },
+    "מזהה": "n-1560",
+    "הועלה": "2026-11-13 11:02"
+  },
+  {
+    "category": "micro",
+    "חברה": "Trump Media / DJT",
+    "חברה_en": "Trump Media / DJT",
+    "symbols": [
+      "DJT"
+    ],
+    "sectors": [
+      "communication_services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-09",
+    "כותרת": "Trump Media: מחזיקי אגח של מיליארד דולר רשאים לבקש רכישה חוזרת במזומן ב-30 בנובמבר; היקף המימוש לא ידוע",
+    "כותרת_en": "Trump Media: $1 bn noteholders have November 30 cash repurchase option; exercise amount unknown",
+    "טקסט": "9.11.2026 | מועד דברי ההנהלה בשאלות ותשובות, שהוגשו ל-SEC ב-10 בנובמבר בטופס 425. סעיף השאלה והתשובה על האגח נקרא במלואו, לצד פסקת זכות הרכישה החוזרת בביאור 10 בדוח 10-Q שהוגש ב-9 בנובמבר. יתר הדוח לא נדרש לאימות תנאי זה ושעת הפרסום המקורית לא אומתה. השלמת סיקור של תנאי מימון קיימים.\n\nלמחזיקי סדרת אגח בכירות מובטחות להמרה של Trump Media, בקרן כוללת של מיליארד דולר ובריבית 0%, קיימת זכות לפי בחירתם לדרוש מהחברה לרכוש את האגח במזומן ב-30 בנובמבר 2026. המחיר הוא 100% מהקרן הנרכשת, בתוספת ריבית שנצברה ולא שולמה ככל שישנה ובהתאם לתנאי השטר. מועד הפירעון החוזי של הסדרה הוא 29 במאי 2028, אלא אם תרכש או תומר קודם.\n\nאין זו הודעה שכל המיליארד ייפרע אוטומטית ב-30 בנובמבר. היועץ המשפטי Scott Glabe אמר ב-9 בנובמבר שהודעות נשלחו למחזיקים, שחלון התשובות נמשך לקראת סוף החודש ושבאותה עת החברה אינה יכולה לנקוב בסכום שיידרש לרכישה חוזרת. אין בדברים נתון על מימוש בפועל שנודע היום.\n\nהמנכ״ל הזמני Kevin McGurn אמר שהכוונה באותו מועד היא להשתמש בשילוב מזומן ואשראי, שאין נטייה כעת להנפיק הון נוסף ושברצון החברה לשמר ככל האפשר את הביטקוין שלה. אלו כוונות הנהלה, לא מסגרת אשראי חתומה, התחייבות שלא תונפקנה מניות או הוכחה שהמימון כבר הובטח.\n\nהסוגיה היא הבחירה של המחזיקים וגודל צורכי המימון שיתבררו בעקבותיה. אין כאן הכרזה על חדלות פירעון, דרישת מזומן חדשה שנוצרה ב-13 בנובמבר או פירעון שכבר בוצע. הפריט נפרד מהתקדמות מסמכי המיזוג עם TAE ב-n-0198, ואינו משנה את מועד ההצבעה שסוקר שם.",
+    "טקסט_en": "November 9, 2026 | Date of management's Q&A, filed with the SEC November 10 on Form 425. The complete note-repurchase question and answer were read, alongside the repurchase-right paragraph in Note 10 of the November 9 Form 10-Q. Other report sections are not needed to verify this term; no original publication clock was verified. Catch-up coverage of existing financing terms.\n\nHolders of Trump Media's $1 billion principal amount of 0% convertible senior secured notes may elect to require cash repurchase on November 30, 2026. The price is 100% of the principal repurchased, plus accrued unpaid interest if any, subject to the indenture. Contractual maturity is May 29, 2028, unless repurchased or converted earlier.\n\nThis does not mean the entire $1 billion automatically falls due November 30. General Counsel Scott Glabe said November 9 that notices had been sent, holders' response period extended toward month-end and the company could not then specify the amount to be repurchased. Those remarks provide no newly reported exercise total today.\n\nInterim CEO Kevin McGurn said the thinking then was a mix of cash and credit, no current inclination to issue additional equity, and preserving as much bitcoin as possible. These are management intentions, not a signed credit facility, a promise never to issue shares or evidence funding is secured.\n\nThe issue is holders' choice and the resulting financing need. This is not a default announcement, a new cash demand created November 13 or completed repayment. It is separate from the TAE merger-document progress in n-0198 and does not change the previously covered voting date.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036171/djt20261109c_425.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036171/djt20261109c_425.htm",
+        "label": "Trump Media: שאלת האגח ותשובת ההנהלה מ-9 בנובמבר, 425 ב-SEC",
+        "label_en": "Trump Media: November9 note Q&A, SEC Form425"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926035884/djt20260930_10q.htm",
+        "label": "Trump Media: פסקת זכות הרכישה החוזרת בביאור 10, 10-Q ב-SEC",
+        "label_en": "Trump Media: Note10 repurchase-right paragraph, SEC Form10-Q"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fbf9dd2040160d43b88034f031cc07fa52f3a9f37c15eb3b674a960c4ca43af5"
+      }
+    },
+    "מזהה": "n-1561",
+    "הועלה": "2026-11-13 11:02"
   }
 ]
