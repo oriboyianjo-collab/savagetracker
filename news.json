@@ -42944,5 +42944,38 @@
     },
     "מזהה": "n-1640",
     "הועלה": "2026-11-13 20:03"
+  },
+  {
+    "category": "micro",
+    "חברה": "Weatherford (WFRD)",
+    "חברה_en": "Weatherford (WFRD)",
+    "symbols": [
+      "WFRD"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 20:12",
+    "כותרת": "Weatherford ו-Eclipse מדווחות על פיילוט מימן בפרמיאן: הפקה ב-30 ימים רצופים ומעבר בין בארות",
+    "כותרת_en": "Weatherford and Eclipse report Permian hydrogen pilot: 30 consecutive days of production and migration between wells",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/13/3402908/0/en/eclipse-energy-and-weatherford-demonstrate-subsurface-hydrogen-migration-between-wells-in-the-permian.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/13/3402908/0/en/eclipse-energy-and-weatherford-demonstrate-subsurface-hydrogen-migration-between-wells-in-the-permian.html",
+        "label": "Eclipse Energy: ההודעה המלאה דרך GlobeNewswire, 13 בנובמבר 13:12 ET",
+        "label_en": "Eclipse Energy: full GlobeNewswire release, November 13 at 13:12 ET"
+      }
+    ],
+    "טקסט": "13.11.2026, 20:12 בישראל (13:12 ET) | הודעת Eclipse Energy המלאה נקראה. החברה מדווחת על השלמת פיילוט בשיתוף Weatherford ומפעיל גדול במערב טקסס ששמו לא נמסר.\n\nלפי ההודעה, גירוי ביוטכנולוגי במאגר בוגר באגן פרמיאן יצר מימן שהופק במשך 30 ימים רצופים ממספר בארות. מימן שנוצר בבאר אחת נדד בתת-הקרקע והופק גם בבאר סמוכה. הגז שנוצר נאסף בתשתית גז טבעי קיימת, עובד במתקן מרכזי ונמכר לצד גז טבעי. אלה תוצאות שמדווחות החברות, לא אימות עצמאי של ביצועי הטכנולוגיה.\n\nEclipse מציגה זאת כהדגמה ראשונה של נדידת מימן שנוצר בגירוי ביוטכנולוגי בין בארות ושל שילובו בזרם מכירות דרך תשתית מסחרית קיימת. זהו הפיילוט השני שלה, לאחר ניסוי בקליפורניה ביוני 2025. בניסוי החדש, במאגר קרבונטי סדוק ושונה מהמאגר החולי הקודם, החברה מדווחת על קצב מימן בזרם המופק הגדול מפי ארבעה מזה של הניסוי הראשון. לא נמסרו נפח הפקה מוחלט, תפוקה ליחידת השקעה או עלות לקילוגרם, ולכן אין להסיק שהוכחה כדאיות כלכלית או יכולת ייצור מסחרית רחבת היקף.\n\nWeatherford סיפקה ביצוע בשטח ומומחיות תפעולית. השותפות וההשקעה ההונית שלה ב-Eclipse הוכרזו כבר בדצמבר 2025; זו אינה הודעה על השקעה חדשה. אין בהודעה סכום הכנסות, שווי חוזה, הזמנת המשך או התחייבות לפריסה מסחרית. החידוש הוא תוצאת פיילוט ושילוב בתשתית קיימת, ולא הכרזה על שותפות חדשה או עדכון תחזית כספית.",
+    "טקסט_en": "November 13, 2026, 20:12 Israel (13:12 ET) | The full Eclipse Energy release was read. The company reports completion of a Permian Basin pilot with Weatherford and an unnamed major West Texas operator.\n\nAccording to the release, biotechnology stimulation in a mature reservoir generated hydrogen produced for 30 consecutive days from multiple wells. Hydrogen generated at one well migrated underground and was recovered at a neighboring offset well. The produced gas was gathered through existing natural gas infrastructure, processed at a central facility and sold alongside natural gas. These are company-reported results, not independent verification of the technology.\n\nEclipse describes this as the first demonstration of stimulated subsurface hydrogen migration between wells and delivery into a sales stream through existing commercial infrastructure. This is its second pilot, following a June 2025 California trial. In the new, naturally fractured carbonate reservoir, unlike the earlier sandstone reservoir, the company reports hydrogen in the produced stream at more than four times the initial trial rate. No absolute production volume, investment yield or cost per kilogram was disclosed, so this does not establish economic viability or commercial-scale production capability.\n\nWeatherford provided field execution and operational expertise. Its partnership and capital investment in Eclipse were announced in December 2025; this is not a new investment announcement. The release gives no revenue amount, contract value, follow-on order or commercial deployment commitment. The development is a pilot result and integration with existing infrastructure, not a new partnership or financial guidance update.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4bd78ea19e8a609c9f666b18fb8616a7df1654334cfcd3f2aadd080e3d11c30c"
+      }
+    },
+    "מזהה": "n-1641",
+    "הועלה": "2026-11-13 20:17"
   }
 ]
