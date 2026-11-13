@@ -43043,5 +43043,29 @@
     },
     "מזהה": "n-1643",
     "הועלה": "2026-11-13 20:40"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13 21:06",
+    "כותרת": "לפי Semafor: קווין הסט צפוי לעזוב את תפקיד מנהל המועצה הכלכלית הלאומית בשבועות הקרובים; אין הודעה רשמית",
+    "כותרת_en": "Semafor: Kevin Hassett expected to leave as National Economic Council director in coming weeks; no official announcement",
+    "קישור": "https://www.semafor.com/article/11/13/2026/hassett-expected-to-depart-white-house",
+    "מקורות": [
+      {
+        "url": "https://www.semafor.com/article/11/13/2026/hassett-expected-to-depart-white-house",
+        "label": "Semafor: הדיווח המקורי המלא, Eleanor Mueller ו-Shelby Talcott, 13 בנובמבר 14:06 EST",
+        "label_en": "Semafor: full original report by Eleanor Mueller and Shelby Talcott, November 13 at 14:06 EST"
+      }
+    ],
+    "טקסט": "13.11.2026, 21:06 בישראל (14:06 EST) | הדיווח המקורי של Semafor נקרא במלואו. לפי שלושה אנשים שמכירים את תוכניותיו, מנהל המועצה הכלכלית הלאומית בבית הלבן, קווין הסט (Kevin Hassett), צפוי לעזוב את תפקידו בשבועות הקרובים. מדובר בדיווח על תוכנית צפויה, לא בהתפטרות שהוכרזה או בעזיבה שכבר הושלמה.\n\nלפי חלק מהמקורות, הסט בחן תפקידים מחוץ לממשל עוד לפני בחירות אמצע הקדנציה החודש. Semafor מדגישה שהתוכניות לא פורסמו רשמית ועשויות להשתנות. הבית הלבן ומשרד האוצר לא מסרו תגובה לכתבה; אין מועד עזיבה סופי מאושר.\n\nשר האוצר סקוט בסנט, שעשוי להחזיק בשני התפקידים, ויועצו דייוויד זרבוס מוזכרים בדיווח בין האנשים שנבחנים להחליפו. זו אינה הודעת מינוי של מי מהם, ואין כאן אישור לאיחוד התפקידים או לשינוי מדיניות כלכלית.\n\nהכתבה מתארת את הסט כיועץ הכלכלי הבכיר של טראמפ מאז תחילת כהונתו השנייה, ואומרת שהעזיבה הצפויה אינה קשורה לתוצאות הבינוניות של הרפובליקנים בבחירות. זהו הקשר שמובא בדיווח, לא הסבר רשמי של הסט או הבית הלבן.",
+    "טקסט_en": "November 13, 2026, 21:06 Israel (14:06 EST) | The full original Semafor report was read. Three people familiar with his plans told Semafor that National Economic Council Director Kevin Hassett is expected to leave his White House role in the coming weeks. This is a report about expected plans, not an announced resignation or a departure already completed.\n\nSome of the sources said Hassett had been looking into roles outside the administration since before this month's midterm elections. Semafor stresses that his plans have not been officially announced and could change. Neither the White House nor the Treasury Department commented for the story; there is no confirmed final departure date.\n\nTreasury Secretary Scott Bessent, who could hold both jobs, and his counselor David Zervos are among the people being eyed to replace Hassett, according to the report. Neither has been appointed in this story, and it does not confirm a combination of the roles or a change in economic policy.\n\nSemafor describes Hassett as Trump's top economic adviser since the start of his second term and says the expected departure is not tied to Republicans' lackluster midterm results. That is the report's context, not an official explanation from Hassett or the White House.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "609dfbe9628836436b95a01b3e016db9ae9611b0a231eed1072b5833565520ba"
+      }
+    },
+    "מזהה": "n-1644",
+    "הועלה": "2026-11-13 21:14"
   }
 ]
