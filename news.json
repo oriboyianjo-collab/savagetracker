@@ -41507,5 +41507,38 @@
     },
     "מזהה": "n-1595",
     "הועלה": "2026-11-13 14:38"
+  },
+  {
+    "category": "micro",
+    "חברה": "Microsoft",
+    "חברה_en": "Microsoft",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 14:00",
+    "כותרת": "Microsoft: התאוששות מתרחבת באירופה ושיפור בצפון אמריקה; תקלת Microsoft 365 עדיין נמשכת",
+    "כותרת_en": "Microsoft: recovery broadens in Europe and North America improves; Microsoft 365 incident continues",
+    "קישור": "https://status.cloud.microsoft/api/feed/mac",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/api/feed/mac",
+        "label": "Microsoft: עדכון האירוע הרשמי ב-RSS, 12:00:37 UTC",
+        "label_en": "Microsoft: official incident RSS update, 12:00:37 UTC"
+      }
+    ],
+    "טקסט": "13.11.2026, 14:00:37 בישראל (12:00:37 UTC) | עדכון האירוע הרשמי של Microsoft, שנקרא במלואו ב-14:38 בישראל. זו שעת עדכון האירוע, לא תחילת התקלה. המצב עדיין מסומן ServiceDegradation, פגיעה בשירות.\n\nMicrosoft מדווחת על התקדמות מעודדת בהתאוששות באירופה: זמינות השירות וביצועי מסירת הדואר משתפרים בחלק הולך וגדל מהתשתית שנפגעה. יפן נותרת יציבה יותר באופן יחסי, ובצפון אמריקה נרשם גם כן שיפור. החברה מזהירה שמשתמשים מסוימים עדיין עשויים לחוות תקלות לסירוגין בזמן שפעולות ההתאוששות נמשכות.\n\nזהו עדכון אזורי חדש ביחס ל-n-1588, שהתייחס להשלמת פעולות התאוששות בחלק מתשתית אסיה-פסיפיק. שיפור באירופה ובצפון אמריקה אינו אישור שכל אזור התאושש, שכל הלקוחות חזרו לשירות תקין או שהתקלה הסתיימה. לא פורסמו שיעור התאוששות, מועד סיום מחייב או כמות הודעות שנמסרו.\n\nצמצום תורי הדואר והצבר נותר בעדיפות. חלון פקיעת הזמן המורחב של 48 שעות נשאר בתוקף כדי לסייע לשמר הודעות מעוכבות בזמן שהמסירה מדביקה את הפער. זה אינו אומדן של משך התקלה, הבטחה למסירת כל הודעה או שינוי נוסף בחלון שכבר פורסם.\n\nרשימת ההשפעות ממשיכה לכלול גישה ל-Exchange Online ותכונות תלויות דואר ויומן בשירותים נוספים. רוב יכולות הליבה של Teams וגישה ישירה לקבצים ב-SharePoint מתוארות כפעילות. אין כאן הודעה על השבתה כוללת של Azure או של כל פונקציה בכל מוצר.\n\nMicrosoft חוזרת ואומרת שאין לה כעת ראיות לפעילות זדונית הקשורה לאירוע. זו הערכת החברה, לא ממצא חקירה עצמאי או דוח סיבת שורש סופי. דוח מפורט מתוכנן לאחר השלמת הטיפול. העדכון הבא הובטח עד 15:00 בישראל (13:00 UTC), לא כמועד פתרון מובטח.",
+    "טקסט_en": "November 13, 2026, 14:00:37 Israel time (12:00:37 UTC) | Microsoft's full official incident update, read at 14:38 Israel time. This is the incident-update timestamp, not the outage's start. Status remains ServiceDegradation.\n\nMicrosoft reports encouraging recovery progress in Europe, with service availability and email delivery performance improving across a growing portion of affected infrastructure. Japan remains comparatively more stable, while North America is also improving. Some users may still experience intermittent issues as recovery actions continue.\n\nThis is a new regional update compared with n-1588, which described completed recovery actions on portions of Asia-Pacific infrastructure. Improvement in Europe and North America does not establish that every region has recovered, every customer has normal service or the incident is over. No recovery percentage, binding completion time or delivered-message count is supplied.\n\nReducing email queues and backlogs remains a priority. The extended 48-hour email timeout remains in place to help protect delayed messages as delivery catches up. It is not an outage-duration estimate, a guarantee for every message or another change to the previously announced window.\n\nThe impact list still includes Exchange Online access and email- and calendar-dependent features of other services. Most Teams core functions and direct access to SharePoint files are described as working. This is not an outage of all Azure or every function in every product.\n\nMicrosoft repeats that it currently has no evidence of malicious activity associated with the incident. That is the company's assessment, not an independent investigation finding or final root-cause report. A detailed report is planned after mitigation. The next update is promised by 15:00 Israel time (13:00 UTC), not as a guaranteed resolution deadline.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fd2a604d0084de306443097ddd12af86866734920bbf59e6265d7a571d54464b"
+      }
+    },
+    "מזהה": "n-1596",
+    "הועלה": "2026-11-13 14:40"
   }
 ]
