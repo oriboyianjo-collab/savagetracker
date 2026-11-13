@@ -41184,5 +41184,86 @@
     },
     "מזהה": "n-1585",
     "הועלה": "2026-11-13 13:25"
+  },
+  {
+    "category": "micro",
+    "חברה": "CRH",
+    "חברה_en": "CRH",
+    "symbols": [
+      "CRH"
+    ],
+    "sectors": [
+      "materials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-29",
+    "כותרת": "השלמה מ-29 באוקטובר: CRH אישרה תוכנית רכישה חוזרת חדשה של עד 6 מיליארד דולר, עד סוף 2030",
+    "כותרת_en": "October 29 catch-up: CRH authorized a new share-buyback program of up to $6 billion through end-2030",
+    "קישור": "https://www.crh.com/media/press-releases/2026/crh-reports-third-quarter-2026-results/",
+    "מקורות": [
+      {
+        "url": "https://www.crh.com/media/press-releases/2026/crh-reports-third-quarter-2026-results/",
+        "label": "CRH: ההודעה המקורית מ-29 באוקטובר",
+        "label_en": "CRH: original October 29 announcement"
+      },
+      {
+        "url": "http://www.crh.com/wp-content/uploads/2026/10/Q3-Results-Announcement-2026.pdf",
+        "label": "המסמך המקורי: סעיפי רכישות חוזרות, Velocity ואזהרות",
+        "label_en": "Original release: buyback, Velocity and cautionary sections"
+      }
+    ],
+    "טקסט": "השלמת סיקור להודעת CRH מ-29.10.2026, בעקבות כתבת המשך מ-13 בנובמבר. עמוד החברה וסעיפי החזרת ההון, Velocity והאזהרות במסמך המקורי נקראו; שעת ההודעה המקורית לא אומתה. זו אינה תוכנית חדשה שהוכרזה בנובמבר.\n\nדירקטוריון CRH אישר תוכנית חדשה לרכישה חוזרת של מניות בסכום של עד 6 מיליארד דולר, שתוקפה עד סוף 2030. הסכום הוא תקרת הרשאה לכל תקופת התוכנית, לא התחייבות לרכוש את כולו, לא 6 מיליארד דולר לשנה ולא רכישות שכבר בוצעו.\n\nלפי תנאי ההודעה, ההנהלה תקבע בשיקול דעתה את מועדי הרכישות, אופן הביצוע, המחיר, הסכום והמשך התוכנית, בהתאם למחיר המניה, תנאי השוק והעסק, סדרי העדיפויות להקצאת הון והדין. ניתן להשתמש בין היתר ברכישות בשוק, בעסקאות פרטיות, בתוכניות רכישה מואצת ובדרכים נוספות המותרות בחוק. אין מכאן הבטחה ללוח ביצוע או לתשואה למחזיקי המניה.\n\nבאותה הודעה פירטה החברה גם את יוזמת Velocity לשינוי המודל התפעולי, עם יעד לתועלת שנתית בקצב מלא של כ-400 מיליון דולר עד סוף 2028. מול היעד עומדות עלויות יישום לא שגרתיות צפויות של כ-400 מיליון דולר בסך הכול, לרבות שינוי תהליכים, טכנולוגיה ומבנה ארגוני. התועלת השנתית ועלות היישום הכוללת אינן אותו בסיס מדידה; אין להציג אותן כחיסכון נטו שכבר התממש או כהבטחה ללא עלות.\n\nהחידוש לסיקור הוא הרשאת החזרת ההון והמסגרת התפעולית, בנפרד מהנפקת האג״ח בסך 4.2 מיליארד דולר שכבר סוקרה ב-n-0145 וב-n-1131. רכישת Arcosa הושלמה ב-23 באוקטובר וכבר הוזכרה בסיקור החוב; היא אינה עסקת רכישה חדשה מנובמבר. אין לחבר את הרשאת הרכישות לסכום האג״ח ולהציגם כגיוס אחד או כתזרים שבוצע.",
+    "טקסט_en": "Catch-up to CRH's October 29, 2026 announcement, prompted by a November 13 follow-up article. The issuer page and original document's capital-return, Velocity and cautionary sections were read. The original release time was not verified. This is not a new November authorization.\n\nCRH's board authorized a new share-buyback program of up to $6 billion, expiring at the end of 2030. That is an authorization ceiling for the program's full term, not a commitment to spend it all, not $6 billion each year and not repurchases already completed.\n\nUnder the announcement's terms, management will determine timing, manner, price, amount and continuation at its discretion, considering the share price, market and business conditions, capital-allocation priorities and applicable law. Available methods include open-market purchases, privately negotiated transactions, accelerated repurchases and other legally permitted means. This does not promise an execution schedule or shareholder return.\n\nThe same announcement detailed the Velocity operating-model initiative, targeting approximately $400 million in annual run-rate benefits by the end of 2028. Expected total non-routine implementation costs are also approximately $400 million, including process redesign, technology and organizational changes. Annual benefits and total implementation costs use different measurement bases. They are not net savings already realized or a cost-free guarantee.\n\nThe added coverage is the capital-return authorization and operating framework, separate from the $4.2 billion bond issue already covered in n-0145 and n-1131. The Arcosa acquisition closed October 23 and was already mentioned in that debt coverage; it is not a new November acquisition. The buyback authorization and bond principal must not be combined as one financing or completed cash flow.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "90109127fc2ec78fc5a5ac5120a1642fe4c22f96e4c25b00a2dcee5044faf132"
+      }
+    },
+    "מזהה": "n-1586",
+    "הועלה": "2026-11-13 13:29"
+  },
+  {
+    "category": "micro",
+    "חברה": "Citigroup",
+    "חברה_en": "Citigroup",
+    "symbols": [
+      "C"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-23",
+    "כותרת": "השלמה מ-23 באוקטובר: Citi קיבלה אישור להקמת חברת ניירות ערך בבעלות מלאה בסין; תחילת פעילות לא אומתה",
+    "כותרת_en": "October 23 catch-up: Citi received approval to establish wholly owned China securities unit; operations commencement not verified",
+    "קישור": "https://www.citigroup.com/global/news/press-release/2026/citi-receives-approval-establish-wholly-owned-securities-venture-china",
+    "מקורות": [
+      {
+        "url": "https://www.citigroup.com/global/news/press-release/2026/citi-receives-approval-establish-wholly-owned-securities-venture-china",
+        "label": "Citi: הודעת אישור ההקמה המקורית, 23 באוקטובר",
+        "label_en": "Citi: original establishment-approval release, October 23"
+      },
+      {
+        "url": "https://www.businesstimes.com.sg/international/citigroup-wins-licence-set-fully-owned-china-securities-unit-after-nearly-5-year-wait",
+        "label": "Bloomberg דרך Business Times: סיקור אישור ההקמה",
+        "label_en": "Bloomberg via Business Times: establishment-approval coverage"
+      },
+      {
+        "url": "https://news.cgtn.com/news/2026-11-13/VHJhbnNjcmlwdDkzMjc5/index.html",
+        "label": "CGTN: כותרת המשך בלבד, גוף התמליל לא זמין לאימות",
+        "label_en": "CGTN: follow-up headline only, transcript body unavailable for verification"
+      }
+    ],
+    "טקסט": "השלמת סיקור להודעת Citi המקורית מ-23.10.2026, שנקראה במלואה. שעת הפרסום המקורית לא אומתה. זו הודעת אישור ההקמה מאוקטובר, לא אישור רגולטורי חדש מ-13 בנובמבר.\n\nCiti הודיעה כי רשות ניירות הערך הסינית, CSRC, אישרה לה להקים חברת ניירות ערך בבעלות מלאה בשם Citigroup Securities (China) Company Limited, או CSCCL. מטה החברה מיועד לשנגחאי.\n\nלפי ההודעה, הרישיון נועד לאפשר שירותי תיווך במניות, חיתום ניירות ערך, מחקר ומסחר עצמי עבור לקוחות מקומיים וזרים. הוא אמור להרחיב את שירותי שוק ההון המקומיים של Citi ולהשלים את יכולותיה הבינלאומיות. אין מדובר בהודעה על רכישת בנק אחר או פתיחת עסק בנקאות צרכנית חדש.\n\nהאישור אינו זהה לתחילת פעילות: החברה כתבה שתשלים את ההליכים הסטטוטוריים והרגולטוריים הנדרשים להקמת היחידה ותיערך לתחילת הפעילות. ההודעה אינה מוסרת מועד פתיחה מאומת, עסקה שכבר נחתמה ביחידה החדשה או הכנסות שכבר נרשמו ממנה.\n\nכותרת המשך ב-CGTN מ-13 בנובמבר משתמשת במונח השקה, אך גוף התמליל לא היה זמין לקריאה במקור שנבדק. לכן אין בה לבדה אימות שהיחידה החלה לפעול או שכל תנאי ההקמה הושלמו. האירוע המאומת כאן נותר אישור ההקמה מ-23 באוקטובר; לא מוצג שדרוג לא מאומת משלב האישור לשלב פעילות מסחרית.",
+    "טקסט_en": "Catch-up to Citi's original October 23, 2026 release, which was read in full. The original publication time was not verified. This is the October establishment approval, not a new November 13 regulatory decision.\n\nCiti said the China Securities Regulatory Commission, or CSRC, approved establishment of a wholly owned securities company named Citigroup Securities (China) Company Limited, or CSCCL, to be headquartered in Shanghai.\n\nThe release says the license will allow equities brokerage, securities underwriting, research and principal trading for domestic and foreign clients. It is intended to expand Citi's onshore capital-markets services alongside its international capabilities. This is not an acquisition of another bank or the opening of a new consumer-banking business.\n\nApproval is not the same as operations commencing. Citi said it would complete all required statutory and regulatory establishment procedures and prepare for commencement of operations. The announcement gives no verified opening date, completed transaction by the new unit or revenue already earned by it.\n\nA November 13 CGTN follow-up headline uses launch wording, but the transcript body was not available to read in the inspected source. That headline alone does not verify that the unit started operating or that every establishment condition was completed. The verified event here remains the October 23 establishment approval, without an unverified upgrade to commercial operations.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d4f0f2482b8499d512c0b720bf6bf67d7662df4d2bd261533e4b67d42870b9d4"
+      }
+    },
+    "מזהה": "n-1587",
+    "הועלה": "2026-11-13 13:29"
   }
 ]
