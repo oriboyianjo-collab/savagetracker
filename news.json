@@ -42301,5 +42301,29 @@
     },
     "מזהה": "n-1620",
     "הועלה": "2026-11-13 16:43"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "לוגן מציעה חלון ניכיון בסופי שבוע וסליקה מרכזית לריפו; מוכנות לנזילות, לא תוכנית תמרוץ שהושקה",
+    "כותרת_en": "Logan proposes weekend discount-window access and central repo clearing; liquidity readiness, not a stimulus launch",
+    "קישור": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261113",
+    "מקורות": [
+      {
+        "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261113",
+        "label": "הפד של דאלאס: הנאום המקורי המלא מ-13 בנובמבר",
+        "label_en": "Dallas Fed: full original November 13 speech"
+      }
+    ],
+    "טקסט": "13.11.2026 | נאומה המלא של נשיאת הפד של דאלאס לורי לוגן בכנס מימון בנקאי נקרא במקור. שעת פרסום הנאום ושעת אמירת הדברים לא אומתו, ולכן נשמר תאריך בלבד. אלה הצעות ועמדות אישיות, לא החלטת FOMC או כללי חלון ניכיון חדשים שכבר נכנסו לתוקף.\n\nלוגן קוראת להרחיב את פעילות חלון הניכיון לסופי שבוע ולחגים, משום שתשלומים מיידיים יכולים ליצור צורכי נזילות גם כשהחלון סגור. היא מדגישה שהמדיניות נקבעת בידי מועצת הנגידים ושבנק אזורי יחיד אינו יכול לבצע את השינוי לבדו; היא מצפה לדיון עם עמיתיה, לא מודיעה על אישור או מועד הפעלה.\n\nהצעה שנייה היא לפתח יכולת תפעולית לסליקה מרכזית של פעולות הריפו של הפד ולהשתמש בה. קיזוז הלוואה מהפד מול אשראי המשך עשוי להפחית עלויות מאזן של מתווכים ולעזור לנזילות להגיע לשוק. הפד פטור מחובת הסליקה של SEC, ולכן זהו כיוון וולונטרי מוצע ולא חובה שכבר הוחלה עליו. לוגן גם מבקשת לשפר מוכנות להלוואות לתשתיות שוק פיננסי שהוגדרו מערכתיות, בתנאים החריגים שמאפשר החוק, לא מדווחת על הלוואת חירום שבוצעה.\n\nלדבריה, שוק האג״ח של ממשלת ארה״ב מתפקד כעת היטב מאוד גם בתנודתיות ריבית גבוהה. תשואות גבוהות או עלייה מהירה בהן אינן כשלעצמן כשל תפקודי שמצדיק התערבות; המקרה שהיא מתארת הוא כשל חמור בתיווך ובמציאת מחיר, לא תנודת מחיר רגילה.\n\nלוגן מעדיפה כלי הלוואה כשאפשר כדי להפריד בין תמיכה בנזילות לבין תמרוץ המשק. בתרחיש שבו יידרשו רכישות לתפקוד השוק, היא מציעה כאפשרות להחזיק ניירות בחשבון נפרד ולהתחייב למכור אותם בהקדם, כדי לצמצם תמרוץ לא רצוי. אין כאן הכרזה על QE, רכישת אג״ח בפועל, גודל תוכנית, תקציב או מועד השקה.\n\nהטקסט המלא גם חוזר על עמדתה שהאינפלציה גבוהה מדי ונדרשת מדיניות מרסנת יותר, תוך הפניה לנאום 10 בנובמבר שכבר סוקר ב-n-1247. זו חזרה על העמדה, לא התחייבות חדשה להעלאה של 50 נקודות בסיס או לתאריך. החידוש כאן הוא ההצעות התפעוליות לכלי נזילות ותפקוד שוק, ולא מסלול ריבית חדש או אירוע משבר נוכחי.",
+    "טקסט_en": "November 13, 2026 | Dallas Fed President Lorie Logan's full original bank-funding conference speech was read. The speech's publication and delivery clocks are unverified, so the item uses the date only. These are personal proposals and views, not an FOMC decision or new discount-window rules already in effect.\n\nLogan calls for extending discount-window operations to weekends and holidays because instant payments can create liquidity needs while the window is closed. She stresses that the Board of Governors sets policy and no single Reserve Bank can make this change alone. She looks forward to discussions with colleagues, rather than announcing approval or a start date.\n\nA second proposal is to develop and use the operational ability to centrally clear Fed repo operations. Netting borrowing from the Fed against onward lending could reduce intermediaries' balance-sheet costs and help liquidity reach the market. The Fed is exempt from the SEC clearing mandate, making this a proposed voluntary step, not a requirement already imposed on it. Logan also seeks stronger readiness to lend to systemically designated financial market utilities under the exceptional conditions allowed by law, not a completed emergency loan.\n\nShe says the US Treasury market is currently functioning very well despite substantial rate volatility. High or rapidly rising yields are not, by themselves, dysfunction warranting intervention. She describes severe failures of intermediation and price discovery, not ordinary price moves.\n\nLogan favors lending tools where possible to separate liquidity support from economic stimulus. If market-functioning purchases were needed, she offers a separate account with a commitment to sell the securities as soon as possible as one way to limit unwanted stimulus. This is not a QE announcement, an actual bond purchase, a program size, a budget or a launch date.\n\nThe full text also repeats her view that inflation is too high and policy must become more restrictive, citing the November 10 speech already covered in n-1247. That repeats her stance rather than adding a new 50-basis-point or date commitment. The development here is operational proposals for liquidity and market-functioning tools, not a new rate path or a current market crisis.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fcc4705a944477b0ae4105bb84d49b5ea3cd0262b8e5868e5d3ee15191f22b3f"
+      }
+    },
+    "מזהה": "n-1621",
+    "הועלה": "2026-11-13 16:48"
   }
 ]
