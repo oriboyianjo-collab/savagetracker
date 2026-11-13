@@ -3166,17 +3166,26 @@
     "מדינה": "US",
     "אירוע": "אומדן צמיחה - New York Fed Staff Nowcast",
     "חשיבות": 1,
-    "מקור": "https://www.newyorkfed.org/research/calendars/nationalecon_cal",
-    "הערה": "מועד לפי לוח המקור; צפי וקודם לא אומתו. ללא נתון בפועל. אומדן מודל המתעדכן לאורך הרבעון, לא נתון תמ״ג רשמי ולא קונצנזוס אנליסטים.",
+    "מקור": "https://www.newyorkfed.org/research/policy/nowcast",
+    "הערה": "עדכון 13.11.2026: אומדן המודל לצמיחת התמ״ג הריאלי ברבעון 4 הוא 2.9% בקצב רבעוני שנתי (2.933% בקובץ הנתונים), לא שינוי שנתי מול אותו רבעון. בעדכון 6.11: 2.935%, גם הוא 2.9% בעיגול; לפי המקור הנתונים השבוע הותירו את האומדן כמעט ללא שינוי. טווח הסתברות 50%: 1.5%–4.2%; טווח 80%: 0.2%–5.5%. זה אומדן מודל, לא נתון תמ״ג רשמי של BEA, לא קונצנזוס אנליסטים ולא תחזית רשמית של הפד או ועדת הריבית. לא הוזן צפי שלא אומת. שעת 19:45 היא מועד הפרסום המתוכנן, לא חותמת זמן מדויקת של העדכון; קובץ המקור נקרא אחרי הפרסום.",
     "מזהה": "c-0124",
     "אירוע_en": "Growth estimate - New York Fed Staff Nowcast",
-    "הערה_en": "Timing per the source calendar; estimate and prior not verified. No actual figure. A model estimate updated through the quarter, not an official GDP figure and not an analyst consensus.",
+    "הערה_en": "November 13, 2026 update: the model estimates Q4 real GDP growth at a 2.9% annualized quarterly rate (2.933% in the data file), not year-over-year growth. The November 6 update was 2.935%, also 2.9% rounded; the source says this week's data left the estimate largely unchanged. The 50% probability interval is 1.5%–4.2%; the 80% interval is 0.2%–5.5%. This is a model estimate, not an official BEA GDP release, analyst consensus or official Fed/FOMC forecast. No unverified consensus was entered. 19:45 is the scheduled release time, not an exact update timestamp; the source file was read after publication.",
     "_translation": {
       "en": {
-        "source_hash": "5f87211baeec873465d627ed7bb1ad6365e83288a338d1583801fa9118859bc3",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "46f0c945076c8b0aa0aeeef3af7d7c39ac626ef45c909595f35e2f3f026a97ac"
       }
-    }
+    },
+    "בפועל": "2.9%",
+    "בפועל_en": "2.9%",
+    "תקופה": "רבעון 4 2026 · קצב רבעוני שנתי",
+    "תקופה_en": "Q4 2026 · annualized quarterly rate",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.newyorkfed.org/medialibrary/Research/Interactives/Data/NowCast/data/2026Q4.csv",
+      "https://www.newyorkfed.org/medialibrary/Research/Interactives/Data/NowCast/data/nowcast-content.json"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-13"
   },
   {
     "תאריך": "2026-11-13",
