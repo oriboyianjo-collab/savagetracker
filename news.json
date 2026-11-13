@@ -42634,5 +42634,38 @@
     },
     "מזהה": "n-1630",
     "הועלה": "2026-11-13 17:13"
+  },
+  {
+    "category": "micro",
+    "חברה": "Caterpillar (CAT)",
+    "חברה_en": "Caterpillar (CAT)",
+    "symbols": [
+      "CAT"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-02",
+    "כותרת": "השלמה מ-2 בנובמבר | Caterpillar (CAT) השלימה רכישת סוכנות Fabick, המפעילה 37 אתרים בארה\"ב",
+    "כותרת_en": "Catch-up from November 2 | Caterpillar (CAT) completed its acquisition of Fabick, a US dealer with 37 locations",
+    "קישור": "https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-inc-acquires-fabick-cat-dealership.html",
+    "מקורות": [
+      {
+        "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-inc-acquires-fabick-cat-dealership.html",
+        "label": "Caterpillar: הודעת השלמת רכישת Fabick מ-2 בנובמבר",
+        "label_en": "Caterpillar: Fabick acquisition completion announcement, November 2"
+      }
+    ],
+    "טקסט": "השלמת סיקור להודעת Caterpillar המקורית מ-2.11.2026, שנקראה במלואה. שעת הפרסום המקורית לא צוינה; זו אינה הודעה על סגירה חדשה ב-13 בנובמבר.\n\nCaterpillar הודיעה שהשלימה את רכישת John Fabick Tractor Company, סוכנות Cat ותיקה המפעילה 37 אתרים. אזור הפעילות כולל חלקים ממיזורי ומאילינוי, את כל ויסקונסין ואת חצי האי העליון של מישיגן. זה אינו תיאור של רכישת כל סוכנויות Cat בארה\"ב או של 37 מפעלי ייצור חדשים.\n\nהחברה מציינת שהסכם הרכישה נחתם בספטמבר. החידוש בהודעת נובמבר הוא השלמת העסקה, ולא חתימה ראשונה על כוונה לרכוש. עם הסגירה מונה Steve Ferguson, שהיה סגן נשיא בכיר של חטיבת Industrial Power Systems ב-Caterpillar, למנכ\"ל Fabick ול-Dealer Principal שלה. זה אינו מינוי למנכ\"ל Caterpillar כולה.\n\nלפי Caterpillar, מטרת הרכישה היא לתמוך במעבר בעלות ובשמירת השירות והתמיכה המקומית ללקוחות. זו מטרת החברה המוצהרת, לא תוצאה כספית שכבר נמדדה. ההודעה אינה מפרטת מחיר רכישה, הכנסות Fabick, חיסכון צפוי או השפעה על הרווח למניה.\n\nהאירוע נפרד מתוכנית הרחבת ייצור הציוד הקומפקטי בצפון קרוליינה שכוסתה ב-n-0112. אין בסיס לחבר את הרכישה לנתון ההשקעה של כמיליארד דולר באותו דיווח, או להסיק שכל מודל הסוכנים העצמאיים של Caterpillar הוחלף.",
+    "טקסט_en": "Catch-up on Caterpillar's original November 2, 2026 announcement, read in full. No exact original publication time was given. This is not a new closing announced on November 13.\n\nCaterpillar said it completed the acquisition of John Fabick Tractor Company, a long-standing Cat dealer operating 37 locations. Its territory covers portions of Missouri and Illinois, all of Wisconsin and Michigan's Upper Peninsula. This is not an acquisition of every US Cat dealer or 37 new manufacturing plants.\n\nThe company says it entered into the acquisition agreement in September. The November announcement's development is completion, not the first agreement to acquire the business. At closing, Steve Ferguson, previously senior vice president of Caterpillar's Industrial Power Systems Division, became Fabick's CEO and Dealer Principal. He was not appointed CEO of Caterpillar as a whole.\n\nCaterpillar says the purchase supports an ownership transition while maintaining local customer service and support. This is its stated aim, not an already measured financial outcome. The announcement does not disclose the purchase price, Fabick revenue, expected savings or earnings-per-share impact.\n\nThis is separate from the North Carolina compact-equipment manufacturing expansion covered in n-0112. There is no basis to assign that report's roughly $1 billion investment figure to this acquisition or conclude that Caterpillar has replaced its entire independent-dealer model.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "83488e4f52cba9f4ea547077130d8b06ee60fc844ef8754d555ffd5cadff3be5"
+      }
+    },
+    "מזהה": "n-1631",
+    "הועלה": "2026-11-13 17:15"
   }
 ]
