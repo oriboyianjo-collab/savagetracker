@@ -39044,5 +39044,87 @@
     },
     "מזהה": "n-1525",
     "הועלה": "2026-11-13 09:24"
+  },
+  {
+    "category": "macro",
+    "חברה": "Russia / Ukraine / Europe",
+    "תאריך": "2026-11-12",
+    "כותרת": "לפי Reuters, וויטקוף: פוטין הסכים לנציגים אירופיים בסבב הבא של שיחות אוקראינה; הפערים נמשכים",
+    "כותרת_en": "Reuters: Witkoff says Putin agreed to European representatives at next Ukraine talks; major differences remain",
+    "טקסט": "לא מאומת מול תמליל רשמי של הפגישה.\n12.11.2026 | דיווח Reuters המלא מאת Andrew Osborn ו-Maxim Rodionov נקרא בעותק Investing.com. העמוד מציג פרסום 11:30 ועדכון 11:36 ללא אזור זמן מאומת, ולכן נשמר כאן תאריך בלבד. השלמת סיקור ב-13 בנובמבר, לא פגישה חדשה מהבוקר.\n\nסטיב וויטקוף אמר אחרי הפגישה בקרמלין שפוטין הסכים שנציגים אירופיים יצטרפו לסבב הבא של שיחות אוקראינה. לפי Reuters, הוא אמר בטלוויזיה הממלכתית הרוסית שהשתתפותם חשובה לארה״ב. זהו ייחוס לדברי השליח לאחר פגישה שהתקיימה, לא רק תוכנית הנסיעה למוסקבה שדווחה קודם.\n\nהחידוש אינו טענה שאירופה מעולם לא הייתה מעורבת: הסיקור הקודם של אבו דאבי כבר כלל נוכחות אירופית ותוכניות להרחבת המסגרת. כאן מדובר באמירת וויטקוף על הסכמת פוטין להשתתפות בסבב הבא. בידיעה אין תאריך ומקום סופיים לסבב הבא, רשימת משלחות מאושרת או ראיה שהסבב כבר נפתח.\n\nהמחלוקות המרכזיות נותרו, ובכללן שטח וערבויות ביטחון. פוטין הזהיר שכוחות מערביים באוקראינה לאחר הסכם ייחשבו מבחינתו איום שעלול לחדש את המלחמה. זו עמדת רוסיה המצוטטת בכתבה, לא תנאי שאוקראינה או אירופה קיבלו.\n\nReuters מתארת הסכמה על חילופי שבויים גדולים בשבועות הבאים כתוצאה העיקרית של שיחות אבו דאבי. זו הסכמה מדווחת לביצוע עתידי, לא אימות שהחילופים הושלמו. ההצעה הרוסית למשימה הומניטרית בקוסטיאנטיניבקה וטענת השליטה בעיר אינן מוצגות כהסכמה אוקראינית או כהכרעה על השליטה בשטח.\n\nחלק נפרד בידיעה חוזר על טענות זלנסקי להגבלות מהירות Starshield, שכבר סוקרו באפליקציה; אין לספור אותן כאן כתקלה חדשה או לייחס החלטת חסימה ל-SpaceX, מאסק או טראמפ ללא ראיה חדשה. אין בידיעה הסכם שלום, הפסקת אש, פתרון למחלוקת הטריטוריאלית או השפעה מאומתת על מחירי נפט וזרימת אספקה.",
+    "טקסט_en": "Not verified against an official meeting transcript.\nNovember 12, 2026 | The full Reuters report by Andrew Osborn and Maxim Rodionov was read at Investing.com. The carrier shows 11:30 publication and 11:36 update without a verified timezone, so only the original date is assigned. November 13 publication is catch-up, not a new meeting this morning.\n\nSteve Witkoff said after the Kremlin meeting that Putin had agreed European representatives would join the next round of Ukraine talks. Reuters quotes him telling Russian state television their participation mattered to the United States. This is an attributed post-meeting statement, beyond the earlier planned Moscow trip.\n\nThe delta is not a claim that Europe had never been involved. Earlier Abu Dhabi coverage already included European presence and plans to broaden the format. The new statement concerns Putin's reported agreement for the next round. The article provides no final date or venue, approved delegation list or evidence that this next round has begun.\n\nMajor differences remain, including territory and security guarantees. Putin warned that Western troops in Ukraine after a deal would be seen by Russia as a threat that could restart the war. That is Russia's quoted position, not a condition accepted by Ukraine or Europe.\n\nReuters describes agreement on a large prisoner exchange in the coming weeks as the main outcome of Abu Dhabi. This is a reported agreement for future action, not confirmation the exchange has happened. Russia's proposed humanitarian mission to Kostiantynivka and its territorial-control claim are not presented as Ukrainian agreement or an independently resolved control finding.\n\nA separate part of the article repeats Zelenskiy's allegations of Starshield speed restrictions, already covered in the app. They are not counted as a new outage or used to attribute a blocking decision to SpaceX, Musk or Trump without new evidence. The report establishes no peace deal, ceasefire, territorial settlement or verified effect on oil prices and supply flows.",
+    "קישור": "https://www.investing.com/news/world-news/putin-lets-europe-join-ukraine-peace-talks-as-kyiv-says-starshield-disrupted-again-5022741",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/world-news/putin-lets-europe-join-ukraine-peace-talks-as-kyiv-says-starshield-disrupted-again-5022741",
+        "label": "Reuters דרך Investing.com: דברי וויטקוף לאחר הפגישה, 12 בנובמבר",
+        "label_en": "Reuters via Investing.com: Witkoff post-meeting remarks, November 12"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a265266266cd197a0d56efac1185088471fb8d7954ba9bed9c188f7c88c72d99"
+      }
+    },
+    "מזהה": "n-1526",
+    "הועלה": "2026-11-13 09:27"
+  },
+  {
+    "category": "macro",
+    "חברה": "Finland / Russia",
+    "תאריך": "2026-11-12",
+    "כותרת": "לפי Reuters, פינלנד זיהתה פגיעה בספינת מלחמה רוסית ב-11 בנובמבר; הסיבה לא ידועה והמצב באזור יציב",
+    "כותרת_en": "Reuters: Finland detected November 11 strike on Russian warship; cause unknown and regional situation stable",
+    "טקסט": "לא מאומת מול הודעה צבאית שנקראה במקור.\n12.11.2026 | דיווח Reuters המלא בהפצת Defense News נקרא. המקור נושא תאריך ללא שעת פרסום מאומתת. צבא פינלנד התייחס ביום חמישי לאירוע ביום רביעי, 11 בנובמבר; זו אינה פגיעה חדשה ב-13 בנובמבר.\n\nדובר צבא פינלנד אמר בדואר אלקטרוני ל-Reuters שהצבא זיהה פגיעה בספינת מלחמה רוסית באזור מפרץ פינלנד ועקב אחר התפתחות המצב. לדבריו, המצב הביטחוני באזור נשאר יציב ואין איום צבאי מיידי על פינלנד.\n\nהסיבה לפגיעה ומצב הנפגעים לא היו ברורים בזמן הדיווח. הצבא סירב להוסיף פרטים על המיקום המדויק, השעה ואופן הזיהוי. אין בידיעה זיהוי מאומת של תוקף, נשק, שם הספינה או היקף הנזק, ולכן אין לייחס את הפגיעה לאוקראינה או לנאט״ו, לקבוע שהספינה טבעה או להציג זאת כתקיפה על פינלנד.\n\nכלי תקשורת באסטוניה דיווחו שמדובר בספינה קטנה שחזרה בהמשך לסנט פטרבורג. זהו ייחוס נפרד לכלי תקשורת, לא אישור של צבא פינלנד לפרטים האלה ולא הוכחה שהספינה לא ניזוקה.\n\nהכתבה מזכירה ברקע מתקפות רחפנים על אזור לנינגרד ואזהרות אוויריות במדינות הבלטיות. הרקע אינו מוכיח שהפגיעה בספינה נגרמה מאותה פעילות או שהתרחשה מתקפת נאט״ו. לא נמסרו עדות לסגירת נתיב שיט או נמל, אובדן יצוא נפט או תבואה, או השפעת מחיר שנמדדה. החידוש הוא דיווח מיוחס על זיהוי האירוע והערכת היציבות, לא הכרזה על הרחבת המלחמה.",
+    "טקסט_en": "Not verified against a military statement read at its original source.\nNovember 12, 2026 | The full Reuters report carried by Defense News was read. It has a date but no verified publication clock. Finland's military spoke on Thursday about an event on Wednesday, November 11. This is not a new November 13 strike.\n\nA Finnish military spokesperson told Reuters by email that the armed forces had detected a strike on a Russian warship in the Gulf of Finland and monitored developments. The spokesperson said the regional security situation remained stable and Finland faced no immediate military threat.\n\nThe cause and casualty situation were unclear when reported. The military declined details on exact location, timing and detection method. The article provides no verified attacker, weapon, ship name or damage assessment. It therefore does not support attribution to Ukraine or NATO, a sinking claim or a description of an attack on Finland.\n\nEstonian media said it was a small vessel that later returned to St Petersburg. That is a separate media attribution, not Finnish military confirmation of those details or proof the ship was undamaged.\n\nThe article discusses drone attacks on the Leningrad region and Baltic air warnings as background. That does not prove the ship incident had the same cause or involved a NATO attack. No evidence of a closed shipping lane or port, lost oil or grain exports, or measured price impact is provided. The delta is an attributed detection report and stability assessment, not confirmation the war has expanded.",
+    "קישור": "https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/",
+    "מקורות": [
+      {
+        "url": "https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/",
+        "label": "Reuters דרך Defense News: הודעת דובר הצבא המצוטטת, 12 בנובמבר",
+        "label_en": "Reuters via Defense News: quoted military spokesperson, November 12"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3efe3aa7a8c8df4827137375905eb5fefdaeefca51612e12216cf3b2c57edc5e"
+      }
+    },
+    "מזהה": "n-1527",
+    "הועלה": "2026-11-13 09:27"
+  },
+  {
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 03:17",
+    "כותרת": "WIRED: פוסט פנימי ב-NVIDIA צבר מעל 1,600 תגובות, חלקן קוראות להחזרת הואנג; לא הצבעת עובדים או החלטת דירקטוריון",
+    "כותרת_en": "WIRED: Nvidia internal post draws over 1,600 comments, including calls to bring Huang back; no employee vote or board decision",
+    "טקסט": "לא מאומת מול התכתובות הפנימיות או אישור החברה.\n13.11.2026, 03:17 בישראל | כתבת WIRED המקורית נקראה במלואה. נתוני העמוד מציינים פרסום ב-12 בנובמבר ב-20:17:49 EST, 03:17:49 בישראל ב-13 בנובמבר. שעת הפניה מאוחרת בערוץ משני אינה שעת פרסום המקור.\n\nWIRED מדווחת שקראה התכתבות פנימית ב-NVIDIA ובה פוסט של מהנדס ותיק, שהוגש לתיבת הצעות לפני התפטרות ג׳נסן הואנג, וביקש מהדירקטוריון לשתף את ממצאי הבדיקה ולשקול את עמדות העובדים לפני החלטה. מאז, לפי האתר, הפוסט צבר מעל 1,600 תגובות, ובהן קריאות להחזיר את הואנג לתפקיד.\n\nהאתר מתאר את רוב התגובות כתומכות בהחזרתו. זהו תיאור של WIRED לתגובות שראה, לא מדגם מייצג או רוב מאומת של כוח העבודה. 1,600 הוא מספר תגובות, לא בהכרח אנשים שונים, חתימות עצומה מאומתות או קולות בהצבעה מסודרת. התכתובות והספירה לא נבדקו כאן באופן עצמאי.\n\nבנוסף מתואר מייל כלל-חברתי של עובד הדורש שקיפות ותומך בהואנג, וכשני תריסרי פוסטים תומכים ב-LinkedIn. עובד אנונימי שאינו מורשה לדבר בפומבי אמר לאתר שלדעתו התמיכה בהחזרה רחבה. זו התרשמות אישית, ולא נתון סטטיסטי על כלל החברה. NVIDIA ויו״ר הדירקטוריון לא השיבו מיד לבקשת WIRED לתגובה; אין לפרש היעדר תגובה כהסכמה להחזרתו.\n\nהחידוש הוא דיווח על תגובת עובדים ושאלת התקשורת הפנימית לאחר חילופי ההנהלה. הוא אינו משנה את הודעת החברה שכבר סוקרה: הואנג התפטר לאלתר מתפקידי הנשיא, המנכ״ל והדירקטור, וקולט קרס מונתה למנכ״לית זמנית. קריאות להחזרה אינן מינוי, ביטול התפטרות או החלטת הדירקטוריון.\n\nאין כאן ממצא חדש על הטענות האישיות או על ריגול, תוצאת החקירה העצמאית, שינוי מגבלות יצוא או התחייבות עסקית חדשה. לא מיוחסת לדיווח תנועת מניה ולא מוצג ממנו אומדן שווי או השפעה כספית.",
+    "טקסט_en": "Not verified against the internal correspondence or company confirmation.\nNovember 13, 2026, 03:17 Israel time | The original WIRED article was read in full. Page metadata gives November 12 at 20:17:49 EST, equivalent to November 13 at 03:17:49 in Israel. A later relay time is not treated as the source's publication clock.\n\nWIRED says it reviewed internal Nvidia correspondence, including a longtime engineer's suggestion-box post submitted before Jensen Huang resigned. It asked the board to share investigation findings and consider employee sentiment before acting. According to the outlet, the post has since attracted more than 1,600 comments, including calls to bring Huang back.\n\nWIRED describes most comments as supporting reinstatement. That is its characterization of the comments, not a representative sample or verified majority of the workforce. The 1,600 figure counts comments, not necessarily unique people, verified petition signatures or votes in a formal ballot. The correspondence and count were not independently checked here.\n\nThe article also describes a companywide employee email seeking transparency and supporting Huang, and roughly two dozen supportive LinkedIn posts. An anonymous employee not authorized to speak publicly perceived support for reinstatement as widespread. That is one person's impression, not a companywide statistic. Nvidia and its board chair did not immediately answer WIRED's requests for comment. Silence is not agreement to reinstate him.\n\nThe delta is reporting on employee reaction and internal communication after the leadership change. It does not alter the previously covered company announcement: Huang resigned immediately as president, CEO and director, and Colette Kress became interim CEO. Calls for his return are not an appointment, reversal of the resignation or a board decision.\n\nThis provides no new finding on personal allegations or espionage, result of the independent investigation, export-control change or business commitment. No share-price move, valuation estimate or quantified financial impact is attributed to the report.",
+    "קישור": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+    "מקורות": [
+      {
+        "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+        "label": "WIRED: הכתבה המקורית על התכתובות ותגובת העובדים, 12 בנובמבר 20:17 EST",
+        "label_en": "WIRED: original reporting on correspondence and employee reaction, November 12 at 20:17 EST"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c692fd435aa3a3b5413fbf51000ca400ee2fcb3131115dc2e807d49ad6a3accb"
+      }
+    },
+    "מזהה": "n-1528",
+    "הועלה": "2026-11-13 09:27"
   }
 ]
