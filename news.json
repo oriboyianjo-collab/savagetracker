@@ -42843,5 +42843,29 @@
     },
     "מזהה": "n-1636",
     "הועלה": "2026-11-13 17:52"
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-11-13 17:50",
+    "כותרת": "NVIDIA (NVDA): לפי CNBC, HSBC הוריד המלצה להחזק מקנייה ואת מחיר היעד ל-170 דולר מ-365",
+    "כותרת_en": "NVIDIA (NVDA): CNBC reports HSBC cuts rating to hold from buy and price target to $170 from $365",
+    "קישור": "https://www.cnbc.com/2026/11/13/hsbc-downgrades-nvidia-says-stock-to-struggle-until-new-ceo-named.html",
+    "מקורות": [
+      {
+        "label": "CNBC, הדיווח המקורי המלא של Tobias Burns",
+        "label_en": "CNBC, Tobias Burns full original report",
+        "url": "https://www.cnbc.com/2026/11/13/hsbc-downgrades-nvidia-says-stock-to-struggle-until-new-ceo-named.html"
+      }
+    ],
+    "טקסט": "לא מאומת מול דוח האנליסט המקורי\n13 בנובמבר 2026, 17:50 שעון ישראל (10:50 EST) | הכתבה המקורית של CNBC נקראה במלואה. הסקירה ללקוחות HSBC לא נקראה ישירות.\n\nלפי CNBC, האנליסט Frank Lee מ-HSBC הוריד את ההמלצה על NVIDIA מקנייה להחזק ואת מחיר היעד מ-365 דולר ל-170 דולר. מחיר יעד הוא הערכת אנליסט, לא מחיר מסחר נוכחי או התחייבות לתשואה.\n\nלי כתב כי אי-הוודאות צפויה להימשך עד להצגת תוכנית ירושה קבועה ועד שהמנכ״ל החדש יוכיח יכולת ביצוע. זו הערכתו לגבי סיכון ההנהלה לאחר התפטרות ג׳נסן הואנג ומינויה של קולט קרס למנכ״לית זמנית, שכבר דווחו בפריט n-1445. הורדת ההמלצה ומחיר היעד היא ההתפתחות החדשה; אין כאן הודעה על מינוי מנכ״ל קבוע.\n\nהאנליסט גם הציג אפשרות להחמרת הגבלות יצוא ותרחיש רגישות לרווח בשנת הכספים 2028. אלה סיכונים ותרחישים שלו, לא תקנות חדשות שנכנסו לתוקף, ביטול רישיונות או תחזית פיננסית חדשה של NVIDIA. לא מוצג מחיר מניה חי ולא מיוחסת תנועת מסחר להורדת ההמלצה.",
+    "טקסט_en": "Not verified against the original analyst note\nNovember 13, 2026, 17:50 Israel time (10:50 EST) | CNBC's full original report was read. The HSBC client note was not read directly.\n\nAccording to CNBC, HSBC analyst Frank Lee downgraded NVIDIA to hold from buy and cut his price target to $170 from $365. A price target is an analyst estimate, not a current trading price or a promised return.\n\nLee wrote that uncertainty is likely to persist until a permanent succession plan is laid out and the new CEO demonstrates execution capabilities. This is his assessment of leadership risk after Jensen Huang's resignation and Colette Kress's interim appointment, already covered in n-1445. The rating and target cuts are the new development; this is not an announcement of a permanent CEO appointment.\n\nThe analyst also described the possibility of tighter export restrictions and a fiscal 2028 earnings sensitivity scenario. These are his risks and scenarios, not new rules taking effect, licence revocations or new NVIDIA financial guidance. No live share price is supplied and no trading move is attributed to the downgrade.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0c6c96018f99bfec52f305c8b903bb0c53ade1c130647f97ffc6420c8c050327"
+      }
+    },
+    "מזהה": "n-1637",
+    "הועלה": "2026-11-13 18:18"
   }
 ]
