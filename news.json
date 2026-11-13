@@ -38667,5 +38667,30 @@
     },
     "מזהה": "n-1514",
     "הועלה": "2026-11-13 08:17"
+  },
+  {
+    "category": "macro",
+    "חברה": "South Korea / KOSPI",
+    "תאריך": "2026-11-13 08:50",
+    "כותרת": "דרום קוריאה: KOSPI סגר בירידה של 0.98% לאחר פתיחה חיובית; לפי Yonhap, חששות סביב NVIDIA ברקע",
+    "כותרת_en": "South Korea: KOSPI closes down 0.98% after positive opening; Yonhap cites NVIDIA concerns",
+    "טקסט": "לא מאומת מול מקור ראשוני\n13.11.2026 | עדכון הסגירה המלא של Yonhap דרך Korea Times עודכן ב-15:50 בקוריאה, 08:50 בישראל. העמוד נפתח ב-09:17 בקוריאה, אך שעת הפתיחה אינה שעת פרסום תוצאת הסגירה. לא נבדקו כאן נתוני הבורסה ישירות.\n\nלפי גוף הכתבה המעודכן, מדד KOSPI סגר ב-5,290.53 נקודות, ירידה של 52.20 נקודות או 0.98%. המדד פתח בעלייה של 2.05%, הגיע במהלך היום ל-5,504.44 נקודות ועבר לירידות בסביבות 12:35 בקוריאה. אלה נתוני יום המסחר שהסתיים, לא ציטוטים חיים.\n\nYonhap מייחסת את הזהירות לחששות משקיעים מהשלכות עזיבת ג'נסן הואנג על סביבת הבינה המלאכותית, לצד ההמתנה לנתוני מחירי היצרן בארה״ב. זהו הסבר שמביאה הסוכנות, לא הוכחה שגורם יחיד גרם לתנועה במדד, לא ממצא חדש בחקירות NVIDIA ולא הודעה על מגבלות יצוא חדשות.\n\nהסיכום האוטומטי בראש עמוד המקור עדיין מתאר עלייה של 1.48% ב-11:20 בקוריאה. הוא אינו עדכון הסגירה; המספרים כאן נשענים על גוף הכתבה המאוחר. אין להסיק מנתוני המניות או המטבע שבסיכום הישן שאלה היו מחירי הסגירה.",
+    "טקסט_en": "Not verified against a primary source\nNovember 13, 2026 | Yonhap's full closing update carried by Korea Times was updated at 15:50 Korea time, 08:50 Israel time. The page originally opened at 09:17 Korea time, but that is not the publication time of the closing result. Exchange data were not directly checked here.\n\nThe updated article body says KOSPI closed at 5,290.53, down 52.20 points or 0.98%. The index opened 2.05% higher, reached an intraday high of 5,504.44 and turned negative around 12:35 Korea time. These are figures for the completed trading session, not live quotes.\n\nYonhap attributes investor caution to concerns about the impact of Jensen Huang's departure on the AI ecosystem, alongside anticipation of U.S. producer-price data. That is the agency's reported explanation, not proof that one factor caused the index move, a new NVIDIA investigative finding or a new export restriction.\n\nThe automatic summary at the top of the source page still describes a 1.48% gain at 11:20 Korea time. It is not the closing update; the figures here come from the later article body. Stock and currency figures in that older summary must not be treated as closing prices.",
+    "קישור": "https://www.koreatimes.co.kr/economy/20261113/seoul-shares-drop-nearly-1-erasing-earlier-gains-following-nvidia-jitters",
+    "מקורות": [
+      {
+        "url": "https://www.koreatimes.co.kr/economy/20261113/seoul-shares-drop-nearly-1-erasing-earlier-gains-following-nvidia-jitters",
+        "label": "Yonhap דרך Korea Times: גוף עדכון הסגירה, 13 בנובמבר 15:50 בקוריאה",
+        "label_en": "Yonhap via Korea Times: closing-update body, November 13 at 15:50 Korea time"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "66980bd3dbf69591e4a3f61d4bbf19b5e37c8439563bd5c1f455b0fde4f7706a"
+      }
+    },
+    "מזהה": "n-1515",
+    "הועלה": "2026-11-13 09:04"
   }
 ]
