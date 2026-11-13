@@ -38841,5 +38841,77 @@
     },
     "מזהה": "n-1519",
     "הועלה": "2026-11-13 09:16"
+  },
+  {
+    "category": "micro",
+    "חברה": "Frontier AI / GOOGL / META",
+    "symbols": [
+      "GOOGL",
+      "META"
+    ],
+    "sectors": [
+      "information_technology",
+      "communication_services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "עמותות הודיעו על תביעה בקליפורניה המבקשת להקפיא פיתוח AI מתקדם בחמש חברות; לא צו שניתן",
+    "כותרת_en": "Nonprofits announce California suit seeking to freeze advanced AI development at five companies; no order granted",
+    "טקסט": "12.11.2026 | הודעת Public Citizen המקורית, מטעם אחד התובעים, ודיווח Associated Press המלא נקראו. הודעת העמותה מתוארכת ללא שעה; דיווח AP ב-Philadelphia Inquirer פורסם ב-14:53 ET, 21:53 בישראל. הפרסום באפליקציה הוא השלמת סיקור ב-13 בנובמבר, לא תביעה שהוגשה היום.\n\nIrreplaceable Education Fund, Public Citizen, Heat Initiative ו-Alliance for Secure AI הודיעו שהגישו לבית המשפט המדינתי בסן פרנסיסקו תביעה נגד Anthropic, Google, Meta, OpenAI ו-SpaceXSI. הן מבקשות צו שימנע המשך פיתוח או פריסה של מערכות AI מתקדמות שלטענתן עלולות לצאת משליטה ולגרום נזק חמור.\n\nהמסלול המשפטי המוצהר הוא חוק התחרות הבלתי הוגנת של קליפורניה. התובעים טוענים לסיכון לבריאות ולבטיחות הציבור ולרכוש, וכן להסטת משאבי העמותות להתמודדות עם הסכנות הנטענות. אזכורי תקיפות סייבר, נשק ביולוגי ואובדן שליטה הם טענות והנמקות של התובעים, לא ממצאים שקבע בית המשפט או הוכחה שכל הנתבעות גרמו לאירועים האלה.\n\nהבקשה היא להקפאת פיתוח, לא צו הקפאה שכבר התקבל. במקורות שנקראו לא מופיעים החלטה שמקבלת את הבקשה, מועד דיון מאומת, איסור שנכנס לתוקף או סכום פיצוי שנפסק. מאגר התיקים של בית המשפט לא נבדק כאן ישירות; ההגשה מיוחסת להודעת התובעים ולדיווח AP.\n\nAP מסרה שהחברות הנתבעות לא השיבו מיד לבקשות תגובה. אין לראות בכך הודאה. לא נמסר במקורות כימות של הכנסות או פרויקטים שכבר הושפעו, ואין בסיס להכריז שפיתוח המודלים של החברות נעצר.\n\nזהו הליך חדש ורחב נגד חמש מפתחות, בנפרד מקריאות פוליטיות קודמות להקפאת AI וממרכזי נתונים, מתביעות נזק פרטניות או מהליכים סביב תשתיות SpaceX. אין לצרף לו סימול מסחר שלא אומת עבור חברה פרטית.",
+    "טקסט_en": "November 12, 2026 | The original Public Citizen announcement, from one of the plaintiffs, and the full Associated Press report were read. The nonprofit statement has a date without an hour. AP's Philadelphia Inquirer article was published at 14:53 ET, 21:53 Israel time. App publication on November 13 is catch-up coverage, not a suit filed today.\n\nIrreplaceable Education Fund, Public Citizen, Heat Initiative and the Alliance for Secure AI announced that they filed a suit in San Francisco's state court against Anthropic, Google, Meta, OpenAI and SpaceXSI. They seek an injunction against further development or deployment of advanced AI systems that they allege could escape control and cause severe harm.\n\nThe stated legal route is California's Unfair Competition Law. The plaintiffs allege threats to public health, safety and property, and diversion of their own resources to address the claimed risks. References to cyberattacks, bioweapons and loss of control are the plaintiffs' allegations and arguments, not court findings or proof that every defendant caused such incidents.\n\nA freeze is requested, not granted. The reviewed sources contain no order granting the request, verified hearing date, ban already in force or awarded damages. The court docket was not checked directly here. The filing is attributed to the plaintiffs' announcement and AP's reporting.\n\nAP says the defendant companies did not immediately respond to requests for comment. Silence is not an admission. The sources give no quantified revenue or project impact, and do not establish that the companies have stopped model development.\n\nThis is a new broad action against five developers, separate from earlier political calls for AI or data-centre moratoria, individual harm claims or litigation involving SpaceX infrastructure. No unverified trading symbol is assigned to a private company.",
+    "קישור": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+    "מקורות": [
+      {
+        "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+        "label": "Public Citizen: הודעת אחד התובעים, 12 בנובמבר; הטענות אינן ממצאים",
+        "label_en": "Public Citizen: plaintiff announcement, November 12; allegations are not findings"
+      },
+      {
+        "url": "https://www.inquirer.com/business/ai-lawsuit-anthropic-meta-openai-google-spacex-advocacy-disaster-catatrophic-harm-20261112.html",
+        "label": "Associated Press דרך Philadelphia Inquirer: הדיווח המלא ושעון הפרסום",
+        "label_en": "Associated Press via Philadelphia Inquirer: full report and publication clock"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "40455987142fb60a823c9d55004a701debf54ade5c501afd253d4af706e1963d"
+      }
+    },
+    "מזהה": "n-1520",
+    "הועלה": "2026-11-13 09:19"
+  },
+  {
+    "category": "micro",
+    "חברה": "TSEM / SMTC",
+    "symbols": [
+      "TSEM",
+      "SMTC"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-13 13:00",
+    "כותרת": "השלמה מ-13 באוקטובר: Semtech תבטיח קיבולת SiGe ייעודית בטאואר במסגרת הסכם רב-שנתי; לא נמסר סכום",
+    "כותרת_en": "October 13 catch-up: Semtech secures dedicated Tower SiGe capacity in multiyear agreement; amount undisclosed",
+    "טקסט": "השלמת ידיעה מ-13.10.2026, המועלית ב-13 בנובמבר. ההודעה המקורית והמלאה באתר Tower Semiconductor פורסמה ב-06:00 EDT, 13:00 בישראל באותו תאריך. פרסום משני ב-13 בנובמבר אינו מועד הסכם חדש.\n\nTower ו-Semtech הכריזו על הרחבת הסכם רב-שנתי, בהמשך לשותפות בת כ-20 שנה. Semtech תשקיע בהבטחת קיבולת ייצור ייעודית של סיליקון-גרמניום, SiGe, בטאואר לתמיכה ברכיבי קישוריות אופטיים ונחושת למרכזי נתונים של AI.\n\nהקיבולת משתרעת על מפעלי טאואר בארה״ב, בישראל וביפן. לפי החברות היא מוסיפה ביטחון אספקה ופיזור גיאוגרפי על בסיס ייצור קיים. לא פורסמו סכום ההשקעה, מספר פרוסות, מספר שנות ההסכם המדויק או לוח אספקה מחייב. אין להציג זאת כהוצאה ששולמה במלואה או הכנסה שכבר הוכרה אצל טאואר.\n\nמוצרי Semtech הרלוונטיים כוללים מגברי TIA, דרייברים ומאזנים ליניאריים על תהליך SiGe של טאואר, לחיבורים בתוך ארון ובין מוקדי מחשוב. אזכור מהירויות 800G ו-1.6T כיום ו-3.2T בהמשך הוא מסלול מוצרים ושוק שמתארת ההנהלה, לא אישור שכל דורות המוצרים כבר מיוצרים בכמויות מסחריות.\n\nהחברות מזהירות שזכיות בתכנון אינן מבטיחות הזמנות ייצור או הכנסות בהיקף ובמועד הצפויים; גם התקנת ציוד, זמינות הקיבולת, ביקוש וניצול הקיבולת נותרו סיכונים. אין בהודעה לקוח ענן סופי מזוהה או אומדן כספי לתרומת ההסכם.\n\nזהו הסכם קיבולת SiGe עם Semtech, לא הכרזה חדשה על שותפות ראשונה ולא אותו אירוע של רכיב InnoLight בייצור מוקדם על פלטפורמת הפוטוניקה של טאואר שכבר סוקר. לא הועתקו לכאן נתוני דוחות כספיים.",
+    "טקסט_en": "Catch-up for October 13, 2026, published in the app on November 13. The full original Tower Semiconductor release was published at 06:00 EDT, 13:00 Israel time on that date. A November 13 secondary item is not a new agreement date.\n\nTower and Semtech announced an expanded multiyear agreement building on an approximately 20-year partnership. Semtech will invest in securing dedicated silicon-germanium (SiGe) manufacturing capacity at Tower to support optical and copper connectivity components for AI data centres.\n\nCapacity spans Tower fabs in the United States, Israel and Japan. The companies say it adds supply assurance and geographic diversity on top of existing production. No investment amount, wafer volume, exact contract duration or binding delivery schedule was disclosed. This is not proof that the full investment was paid or revenue already recognized by Tower.\n\nRelevant Semtech products include TIAs, drivers and linear equalizers built on Tower's SiGe process, for links within racks and across data centres. Management's references to 800G and 1.6T today and 3.2T later describe a product and market roadmap, not confirmation that every generation is already in volume production.\n\nThe companies caution that design wins may not turn into production orders or revenue at the anticipated scale or time. Equipment installation, capacity availability, demand and utilization remain risks. The release identifies no final cloud customer or financial contribution estimate for the agreement.\n\nThis is a Semtech SiGe capacity agreement, not a first-ever partnership or the previously covered InnoLight early-production milestone on Tower's silicon-photonics platform. No financial-results data were imported here.",
+    "קישור": "https://ir.towersemi.com/news-releases/news-release-details/tower-semiconductor-and-semtech-expand-sige-partnership-scale/",
+    "מקורות": [
+      {
+        "url": "https://ir.towersemi.com/news-releases/news-release-details/tower-semiconductor-and-semtech-expand-sige-partnership-scale/",
+        "label": "Tower ו-Semtech: הודעת ההסכם המקורית, 13 באוקטובר 06:00 EDT, כולל הסיכונים",
+        "label_en": "Tower and Semtech: original October 13 release at 06:00 EDT, including risks"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "89e0b60e2001f36500e5bcf3dd588e7a0fa2733f403eb8dfccc710aa8fd25eb5"
+      }
+    },
+    "מזהה": "n-1521",
+    "הועלה": "2026-11-13 09:19"
   }
 ]
