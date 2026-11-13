@@ -38303,5 +38303,55 @@
         "source_hash": "64fcab484d11ad43d5a34103cf9b4198e9881e42e2300562491b095cfdf794ac"
       }
     }
+  },
+  {
+    "מזהה": "n-1502",
+    "category": "micro",
+    "חברה": "Anthropic / Claude",
+    "תאריך": "2026-11-13 02:47",
+    "כותרת": "הדגמת תלת-ממד של אצבעות ברמה האטומית מיוחסת ל-Claude Fable 5.2; מקור הפרויקט ואופן יצירתו לא אומתו",
+    "כותרת_en": "Atomic-scale fingertip demo attributed to Claude Fable 5.2; project source and creation process unverified",
+    "טקסט": "לא מאומת מול מקור ראשוני\nבפרסום מ-13 בנובמבר ב-02:47:13 בישראל הוצג סרטון המדמה התקרבות בין שתי אצבעות ומעבר הדרגתי מסיבי העור לאטומים ולענני אלקטרונים. הסרטון עצמו נבדק: הוא מציג המחשה חזותית בת כ-44 שניות, ולא גישה לקוד או לכלי אינטראקטיבי שניתן לבדוק כאן.\n\nהפרסום מייחס את יצירת ההדמיה ל-Claude Fable 5.2 ומציג אותה כהסבר לכך שאצבעות אינן נוגעות זו בזו ברמה האטומית, תוך אזכור דחייה אלקטרומגנטית ועקרון האיסור של פאולי. לא נמצא בו קישור לפרויקט המקורי, זהות היוצר, תהליך העבודה או בדיקה מדעית עצמאית. לכן ייחוס היצירה למודל ודיוק ההסבר המסוים אינם מאומתים כאן. גם הטענות ליצירה בתוך דקות ולחיסכון ניכר בעלויות לא לוו במדידה שניתן לבדוק.\n\nההקשר המאומת נפרד: הודעת Anthropic הרשמית מ-9 בנובמבר אכן מציגה את Claude Fable 5.2 ומדווחת על שיפור ביכולות קוד וראייה. ההודעה נקראה מחדש, אך אינה אימות לפרויקט האצבעות המסוים. זהו פריט על הדגמה מיוחסת למודל קיים, לא השקת מודל חדשה ולא מחקר פיזיקלי שהוכח. קישור המקור בסוף הוא להודעת החברה כרקע בלבד; הוא אינו קישור לגרסה אינטראקטיבית של ההדמיה.",
+    "טקסט_en": "Not verified against a primary source\nA November 13 post timestamped 02:47:13 Israel time presented a video simulating two fingertips approaching each other, progressively zooming from skin structures to atoms and electron clouds. The video itself was inspected: it is an approximately 44-second visual illustration, not access to code or an interactive tool that can be tested here.\n\nThe post attributes the demo to Claude Fable 5.2 and presents it as an explanation of why fingertips do not touch at an atomic scale, referring to electromagnetic repulsion and the Pauli exclusion principle. It supplies no link to the original project, identified creator, workflow or independent scientific review. The attribution to the model and the accuracy of this particular explanation are therefore not verified here. Claims that it was made within minutes and saved substantial costs also lack a checkable measurement.\n\nThe verified context is separate: Anthropic's official November 9 announcement does introduce Claude Fable 5.2 and report improvements in coding and vision. That announcement was reread, but does not authenticate this fingertip project. This is a demo attributed to an existing model, not a new model release or a proven physics study. The source link below is the company announcement for background only, not an interactive version of the demo.",
+    "קישור": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "מקורות": [
+      {
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "label": "Anthropic: המודל ויכולותיו, הקשר בלבד ולא אימות להדמיה",
+        "label_en": "Anthropic: model and capabilities, context only, not verification of the demo"
+      }
+    ],
+    "הועלה": "2026-11-13 04:39",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0adcd3cff3268d1e19bdd610aa22699e97b883c8cc6a1a00b353558c33227c52"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1503",
+    "category": "micro",
+    "חברה": "Tesla (TSLA)",
+    "תאריך": "2026-11-13 04:13",
+    "כותרת": "דיווח לא מאומת: מאסק הסיר Autosteer מרכבים חדשים כדי לקדם מנויי FSD; היקף המדיניות והמניע לא אושרו",
+    "כותרת_en": "Unverified report: Musk removed Autosteer from new vehicles to promote FSD subscriptions; policy scope and motive unconfirmed",
+    "טקסט": "לא מאומת מול מקור ראשוני\nבפרסום מ-13 בנובמבר ב-04:13:33 בישראל נטען, מפי מקורות שלא זוהו, כי אילון מאסק החליט אישית להסיר את Autosteer מרכבי Tesla חדשים כדי לעודד רכישת מנויי FSD. לא צורף קישור לכתבה מקורית או להודעת החברה, ולא פורטו שוק, דגם, תאריך תחילה או תנאי הזמנה. לכן אין כאן אימות למדיניות חדשה בכל רכבי החברה, לשינוי ברכב שכבר נמכר או להחלטה אישית של מאסק.\n\nאותו פרסום קושר את המהלך ליעד תגמול של 10 מיליון מנויים פעילים וטוען לזינוק בהכנסות החודשיות. מסמך תגמול תואם, נתוני מנויים או הכנסות והקשר הסיבתי לא נבדקו ממקור ראשוני. המספר אינו מוצג כאן כיעד חברה מאומת, ואין בסיס להציג שיעור צמיחה או תוצאה עסקית מאומתת מהפרסום הזה.\n\nההקשר המאומת נפרד: עמוד FSD הרשמי של Tesla נפתח ונקרא במלואו ב-13 בנובמבר סביב 04:38 בישראל. החברה אכן מציעה Full Self-Driving (Supervised) במנוי, מציינת זמינות בשווקים נבחרים ותלות של תכונות באישור רגולטורי ובגורמים נוספים. היא מדגישה שהתכונות הזמינות דורשות פיקוח פעיל של הנהג ואינן הופכות את הרכב לאוטונומי. עמוד זה מאמת את קיום המוצר והמנוי, לא את הסרת Autosteer, המניע הנטען או יעד התגמול. הקישור בסוף הוא להקשר הרשמי הזה בלבד.",
+    "טקסט_en": "Not verified against a primary source\nA November 13 post timestamped 04:13:33 Israel time claims, citing unidentified sources, that Elon Musk personally decided to remove Autosteer from new Tesla vehicles to encourage FSD subscriptions. It supplies no original article or company announcement and specifies no market, model, effective date or order terms. This does not verify a new policy across all Tesla vehicles, a change to already-sold cars or a personal decision by Musk.\n\nThe same post links the alleged move to a compensation target of 10 million active subscribers and claims a surge in monthly revenue. A matching compensation document, subscriber or revenue data and the asserted causal link were not checked against a primary source. The number is not presented here as a verified company target, and the post does not support a verified growth rate or business result.\n\nThe verified context is separate: Tesla's official FSD page was opened and read in full around 04:38 Israel time on November 13. The company does offer Full Self-Driving (Supervised) as a subscription, describes availability in select markets and says features depend on regulatory approval and other factors. It states that currently enabled features require active driver supervision and do not make the vehicle autonomous. This page verifies the product and subscription, not Autosteer removal, the alleged motive or compensation target. The link below is this official context only.",
+    "קישור": "https://www.tesla.com/fsd",
+    "מקורות": [
+      {
+        "url": "https://www.tesla.com/fsd",
+        "label": "Tesla: FSD (Supervised), הקשר רשמי בלבד ולא אימות להסרת Autosteer",
+        "label_en": "Tesla: FSD (Supervised), official context only, not verification of Autosteer removal"
+      }
+    ],
+    "הועלה": "2026-11-13 04:39",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8a386a826c1c94bb20563935b00f9375c980a8f0f1c9d34fdbce63d5eff5043a"
+      }
+    }
   }
 ]
