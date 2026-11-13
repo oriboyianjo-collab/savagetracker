@@ -38692,5 +38692,42 @@
     },
     "מזהה": "n-1515",
     "הועלה": "2026-11-13 09:04"
+  },
+  {
+    "category": "micro",
+    "חברה": "PYPL",
+    "symbols": [
+      "PYPL"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-11",
+    "כותרת": "השלמה מ-11 בנובמבר: הרשות הגרמנית מסרה ל-PayPal הערכה ראשונית נגד איסור תוספת תשלום; אין החלטה סופית",
+    "כותרת_en": "November 11 catch-up: German regulator sends PayPal preliminary objections to surcharge ban; no final decision",
+    "טקסט": "השלמת ידיעה מ-11.11.2026, המועלית ב-13 בנובמבר. הודעת Bundeskartellamt המקורית מתוארכת ל-11 בנובמבר ללא שעת פרסום; אין לייחס את ההליך ליום ההשלמה.\n\nרשות התחרות הגרמנית מסרה ל-PayPal את הערכתה הראשונית שלפיה האיסור החוזי על סוחרים מקוונים לגבות מהלקוח תשלום נוסף עבור שימוש ב-PayPal עלול לפגוע בתחרות בין אמצעי תשלום ולהפר את דיני התחרות. ההליך נפתח בינואר 2023; ההתפתחות כאן היא מסירת ההערכה הראשונית, לא פתיחת חקירה חדשה.\n\nלפי הרשות, האיסור חל מאז 2018, נאכף בידי PayPal ומונע מסוחרים להציג ללקוחות את הבדלי העלות בין אמצעי התשלום. הרשות טוענת שעמלות PayPal גבוהות מהממוצע ושמגבלה זו עלולה להקשות על מתחרים זולים יותר ולגלגל עלויות לכלל הלקוחות. אלה ממצאים וטענות ראשוניים של הרשות, לא קביעת הפרה סופית.\n\nהרשות בוחנת גם השבת טובת הנאה כלכלית שהופקה מהפרה אפשרית לפי סעיף 34 לחוק הגרמני. לא הוכרזו בהחלטה זו קנס, סכום השבה, שינוי מחייב בעמלות או מועד להכרעה. ל-PayPal ניתנה אפשרות להגיב. Electronic Payments International דיווח ב-12 בנובמבר, בהסתמך על Reuters, כי PayPal חולקת על הממצא הראשוני ותמשיך להשתתף בהליך באופן ענייני; תגובה זו לא אומתה כאן בהודעת חברה מקורית.\n\nאין להסיק שהרשות הטילה עמלה חדשה על לקוחות או שכל אמצעי תשלום בגרמניה רשאי לגבות תוספת. ההודעה מבחינה בין PayPal לבין אמצעי תשלום מסוימים שעליהם חלים איסורים חוקיים נפרדים, בהם כרטיסי צרכן מסוימים ותשלומי SEPA. טרם נמסרה הכרעה סופית בהודעה שנבדקה.",
+    "טקסט_en": "Catch-up for November 11, 2026, published in the app on November 13. The original Bundeskartellamt release is dated November 11 without a publication hour. The catch-up date must not be treated as the date of the regulatory step.\n\nGermany's competition authority notified PayPal of its preliminary assessment that its contractual ban on online merchants charging customers extra for using PayPal could restrict competition between payment services and breach competition law. The proceeding began in January 2023. The new step is delivery of preliminary objections, not a newly opened investigation.\n\nThe authority says the ban has applied since 2018, is enforced by PayPal and prevents merchants from showing consumers the cost differences between payment methods. It argues that PayPal's fees are above average and that the restriction could disadvantage cheaper rivals and spread costs across all customers. These are the authority's preliminary findings and arguments, not a final finding of infringement.\n\nThe authority is also considering disgorgement of economic benefits from a possible infringement under Section 34 of German competition law. This notice announces no fine, disgorgement amount, mandatory fee change or decision deadline. PayPal can respond. Electronic Payments International reported on November 12, citing Reuters, that PayPal disagreed with the preliminary finding and would continue to engage constructively. That response was not independently verified here in an original company statement.\n\nThis does not mean the authority imposed a new fee on customers or that every payment method in Germany may levy a surcharge. The release distinguishes PayPal from methods subject to separate statutory bans, including certain consumer cards and SEPA payments. The reviewed notice is not a final decision.",
+    "קישור": "https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/11_11_26_Paypal_Abmahnung.html",
+    "מקורות": [
+      {
+        "url": "https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/11_11_26_Paypal_Abmahnung.html",
+        "label": "Bundeskartellamt: ההערכה הראשונית המקורית, 11 בנובמבר; לא החלטה סופית",
+        "label_en": "Bundeskartellamt: original November 11 preliminary assessment, not a final decision"
+      },
+      {
+        "url": "https://www.electronicpaymentsinternational.com/news/germany-raises-competition-concerns-over-paypal-surcharging-ban/",
+        "label": "Electronic Payments International: תגובת PayPal לפי Reuters, 12 בנובמבר; מקור משני",
+        "label_en": "Electronic Payments International: PayPal response attributed to Reuters, November 12; secondary source"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "be7d2bf20795e0155433e71d0e2e03b59cf35ff498b218f62bf21ca22521fb0c"
+      }
+    },
+    "מזהה": "n-1516",
+    "הועלה": "2026-11-13 09:11"
   }
 ]
