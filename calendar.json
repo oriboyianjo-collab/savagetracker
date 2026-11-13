@@ -3191,21 +3191,31 @@
     "תאריך": "2026-11-13",
     "מדינה": "US",
     "אירוע": "נתוני ניירות ערך מסחריים (CP) - הפד",
-    "תקופה": "יומי",
+    "תקופה": "נתוני 12.11.2026 · פרסום 13.11",
     "חשיבות": 1,
     "שעה": "20:00",
-    "הערה": "אין צפי/קודם יחיד. CP בדרך כלל13:00ET, השעה אינה מובטחת; H.15/H.8 בשעה16:15ET.",
-    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "הערה": "המקור הרשמי מציג נתונים ל-12.11.2026 שפורסמו ב-13.11.2026. אין נתון בפועל מספרי יחיד או צפי וקודם יחידים לסל הסדרות. דוגמאות לריביות שנתיות ל-12.11: AA לא-פיננסי ל-30 יום 3.98%; A2/P2 לא-פיננסי ל-30 יום 4.15%; AA פיננסי ל-90 יום 4.10%; AA מגובה נכסים ל-90 יום 4.33%. אלה סדרות ומח״מים שונים, לא ריבית מדיניות או שינוי יומי. n.a. במקור פירושו שאין די נתוני עסקאות לחישוב הריבית המסוימת, לא אפס. נתוני היתרות הם שבועיים ליום רביעי 11.11: סך 1,507.5 מיליארד דולר מנוכה עונתיות ו-1,446.4 מיליארד ללא ניכוי; אין להציגם כיתרה יומית ל-12.11. שעת 20:00 היא המועד היומי המקובל (13:00 ניו יורק), שהפד אינו מבטיח; שעת פרסום מדויקת לא אומתה.",
+    "מקור": "https://www.federalreserve.gov/releases/cp/",
     "מזהה": "c-0125",
     "אירוע_en": "Commercial paper (CP) data - Fed",
-    "תקופה_en": "Daily",
-    "הערה_en": "No single estimate/prior. CP usually at 13:00 ET, time not guaranteed; H.15/H.8 at 16:15 ET.",
+    "תקופה_en": "November 12, 2026 data · November 13 release",
+    "הערה_en": "The official source shows November 12, 2026 data posted on November 13. There is no single numeric actual, consensus or prior for this group of series. Examples of annualized November 12 rates: 30-day AA nonfinancial 3.98%; 30-day A2/P2 nonfinancial 4.15%; 90-day AA financial 4.10%; 90-day AA asset-backed 4.33%. These are different categories and maturities, not a policy rate or daily change. Source n.a. means insufficient transaction data to calculate that rate, not zero. Outstanding levels are weekly Wednesday November 11 figures: total $1,507.5 billion seasonally adjusted and $1,446.4 billion not seasonally adjusted, not daily November 12 balances. 20:00 is the usual daily release time (13:00 New York), which the Fed does not guarantee; an exact posting time was not verified.",
     "_translation": {
       "en": {
-        "source_hash": "300233a8efb2198f081ffd7823abb97c432e2a193b3ef7e8491cee8f4ef6c313",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "12915723239443238d7feaf7a2111d6232bc8fc784660966e5a084c5a3f10010"
       }
-    }
+    },
+    "היסטוריית_עדכונים": [
+      {
+        "הערה": "אין צפי/קודם יחיד. CP בדרך כלל13:00ET, השעה אינה מובטחת; H.15/H.8 בשעה16:15ET.",
+        "הערה_en": "No single estimate/prior. CP usually at 13:00 ET, time not guaranteed; H.15/H.8 at 16:15 ET.",
+        "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+      }
+    ],
+    "בפועל": "פורסם",
+    "בפועל_en": "Released",
+    "תאריך_בדיקה_עדכנית": "2026-11-13"
   },
   {
     "תאריך": "2026-11-13",
