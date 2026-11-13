@@ -41843,5 +41843,109 @@
     },
     "מזהה": "n-1606",
     "הועלה": "2026-11-13 15:41"
+  },
+  {
+    "category": "micro",
+    "חברה": "Commvault (CVLT)",
+    "חברה_en": "Commvault (CVLT)",
+    "symbols": [
+      "CVLT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 15:30",
+    "כותרת": "Commvault (CVLT): Danielle Abrahamsen תמונה לסמנכ״לית כספים זמנית ב-1 בדצמבר; התחזית אושררה, לא הועלתה",
+    "כותרת_en": "Commvault (CVLT): Danielle Abrahamsen to become interim CFO on December 1; guidance reaffirmed, not raised",
+    "קישור": "https://www.prnewswire.com/news-releases/commvault-announces-cfo-transition-302938644.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/commvault-announces-cfo-transition-302938644.html",
+        "label": "Commvault: הודעת מעבר סמנכ״ל הכספים מ-13 בנובמבר, 08:30 ET",
+        "label_en": "Commvault: November 13 CFO-transition release at 08:30 ET"
+      }
+    ],
+    "טקסט": "13.11.2026, 08:30 בחוף המזרחי בארה״ב, 15:30 בישראל | הודעת החברה המלאה נקראה.\n\nCommvault הודיעה כי Danielle Abrahamsen, מנהלת החשבונאות הראשית, תמונה לסמנכ״לית כספים זמנית החל מ-1 בדצמבר 2026. היא תחליף את Gary Merrill, שעוזב להזדמנות בחברה ציבורית אחרת מחוץ לענף. הוא יישאר יועץ עד סוף שנת הכספים של Commvault; ההודעה אינה נותנת תאריך סיום ייעוץ מדויק.\n\nהחברה שכרה את Spencer Stuart לחיפוש סמנכ״ל כספים קבוע. Abrahamsen נמצאת בחברה יותר משמונה שנים ומנהלת חשבונאות ראשית מאז 2023. אין להציג את המינוי הזמני כהשלמת החיפוש למחליף קבוע.\n\nבנוסף מונה Stan Zlotsky לסגן נשיא בכיר לכספים, עם ניסיון ב-Pendo.io, Morgan Stanley ו-Deutsche Bank. החברה אומרת שיעבוד לצד Abrahamsen וצוות הכספים על האסטרטגיה והתפעול הפיננסי.\n\nCommvault אשררה את התחזית לרבעון השלישי ולשנת הכספים 2027 שניתנה ב-27 באוקטובר. אין כאן העלאת תחזית, תוצאות רבעון חדשות או נתון הכנסות חדש. זהו שינוי הנהלה נפרד מחבילת מוצרי ה-AI שכוסתה ב-n-1223; החברה לא ציינה בהודעה כשל דיווח או סיבת עזיבה מעבר להזדמנות החיצונית.",
+    "טקסט_en": "November 13, 2026, 08:30 US Eastern, 15:30 Israel | The full company release was read.\n\nCommvault said Chief Accounting Officer Danielle Abrahamsen will become interim CFO effective December 1, 2026, succeeding Gary Merrill. Merrill is leaving for an opportunity at another publicly traded company outside the industry and will advise Commvault through its fiscal year-end. The release provides no exact advisory-end date.\n\nThe company engaged Spencer Stuart to search for a permanent CFO. Abrahamsen has been with Commvault for over eight years and Chief Accounting Officer since 2023. The interim appointment does not complete the permanent-CFO search.\n\nStan Zlotsky was also appointed Senior Vice President, Finance, bringing experience from Pendo.io, Morgan Stanley and Deutsche Bank. The company says he will work with Abrahamsen and the finance team on financial strategy and operations.\n\nCommvault reaffirmed its third-quarter and fiscal-2027 guidance issued October 27. This is not raised guidance, new quarterly results or a new revenue figure. The management transition is separate from the AI-product package covered in n-1223. The release does not report a financial-reporting failure or a departure reason beyond the outside opportunity.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a00ddb2b9ea88469e80dbcf4d1ec199f24c26b1ad3d9b30f16150e8e88314d44"
+      }
+    },
+    "מזהה": "n-1607",
+    "הועלה": "2026-11-13 15:45"
+  },
+  {
+    "category": "micro",
+    "חברה": "Vertiv (VRT)",
+    "חברה_en": "Vertiv (VRT)",
+    "symbols": [
+      "VRT"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 15:30",
+    "כותרת": "Vertiv (VRT): השקת PowerStation 3100 RPP לארונות AI מעל 100 קילוואט; זמינה כעת בצפון אמריקה",
+    "כותרת_en": "Vertiv (VRT): PowerStation 3100 RPP launched for AI racks above 100 kW; available now in North America",
+    "קישור": "https://www.prnewswire.com/news-releases/vertiv-introduces-high-density-remote-power-panel-for-next-generation-ai-data-centers-302938962.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/vertiv-introduces-high-density-remote-power-panel-for-next-generation-ai-data-centers-302938962.html",
+        "label": "Vertiv: הודעת PowerStation 3100 RPP המלאה, 13 בנובמבר",
+        "label_en": "Vertiv: full November 13 PowerStation 3100 RPP launch release"
+      }
+    ],
+    "טקסט": "13.11.2026, 08:30 בחוף המזרחי בארה״ב, 15:30 בישראל | הודעת Vertiv המלאה נקראה. החברה השיקה את PowerStation 3100 RPP, לוח חלוקת חשמל מרוחק בצפיפות גבוהה למרכזי נתונים של AI ומחשוב עתיר ביצועים. לפי החברה, המוצר זמין כעת בצפון אמריקה.\n\nהמערכת מיועדת לארונות מעל 100 קילוואט ומציעה תצורות 600, 800, 1,000 ו-1,200 אמפר באותה פלטפורמת חומרה. החברה מתארת מכלול ברישום UL-891, המבוסס על פסי צבירה ומפסקים יצוקים. טענת קיבולת של פי שלושה עד חמישה מלוחות מסורתיים היא השוואת החברה, לא בדיקת ביצועים עצמאית שנערכה כאן.\n\nבכל מפסק ענפי משולבת הפעלה מרחוק לניתוק, שמאפשרת למערכת גילוי דליפות הנוזל של המתקן לבודד חשמל לארון מסוים בלי לכבות ארונות סמוכים או מתחם שלם. זהו ממשק למערכת גילוי של המתקן, לא הוכחה שכל דליפה תימנע או שמערכת גילוי עצמאית כלולה בכל הזמנה. יחידות ניתוק מתכווננות מאפשרות לעבור בין 60, 100 ו-150 אמפר באותה מסגרת מפסק; משולבים גם מדידה וניטור מצב המפסקים.\n\nVertiv אומרת שהמוצר מתאים לארכיטקטורות חלוקה בזרם חילופין ולארכיטקטורות ארון בזרם ישר, ויכול לפעול בנפרד או להשתלב ב-SmartRun וב-OneCore. אין בכך אישור לפרויקט לקוח מסוים, הזמנה, הכנסות מובטחות או התקנה שכבר הושלמה.\n\nזו מערכת חלוקה בשלב שלפני הארון, נפרדת מ-PowerNexus MV UPS שב-n-1443: אותו מוצר מתח בינוני מיועד לנקודת החיבור לרשת ומשלוחיו צפויים באמצע 2027. הודעת ה-RPP אינה מקדימה את מועד המשלוחים שלו. מחיר, היקף הזמנות ושמות רוכשים לא פורסמו.",
+    "טקסט_en": "November 13, 2026, 08:30 US Eastern, 15:30 Israel | The full Vertiv release was read. The company introduced PowerStation 3100 RPP, a high-density remote power panel for AI and high-performance-computing data centers. It says the product is available now in North America.\n\nDesigned for racks above 100 kW, it offers 600 A, 800 A, 1,000 A and 1,200 A configurations on one hardware platform. Vertiv describes a UL-891-listed assembly using busbars and molded-case circuit breakers. Its three-to-five-times capacity comparison with traditional panels is a company claim, not an independent performance test conducted here.\n\nEach branch breaker incorporates a remote shunt trip, allowing the facility's leak-detection system to isolate power to a particular rack without shutting adjacent racks or an entire pod. This interfaces with facility leak detection; it does not establish that every leak is prevented or that a standalone detection system is included in every order. Adjustable trip units allow 60 A, 100 A and 150 A ratings in one breaker frame; metering and breaker-status monitoring are included.\n\nVertiv says the product supports fully AC distribution and DC rack architectures, operating standalone or integrated with SmartRun and OneCore. This does not establish a particular customer project, purchase order, guaranteed revenue or completed installation.\n\nThis is the distribution stage before the rack, distinct from the PowerNexus MV UPS in n-1443. That medium-voltage product is designed for the grid-connection point, with shipments expected in mid-2027. The RPP announcement does not bring forward its shipping date. Price, order volume and buyers were not disclosed.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9d1f15ee84eaddf8f65fe73ffe7022b103d27a77baf9042455cf8371bc00238c"
+      }
+    },
+    "מזהה": "n-1608",
+    "הועלה": "2026-11-13 15:45"
+  },
+  {
+    "category": "micro",
+    "חברה": "Texas Capital (TXCP; לשעבר TCBI)",
+    "חברה_en": "Texas Capital (TXCP; formerly TCBI)",
+    "symbols": [
+      "TXCP"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-09",
+    "כותרת": "השלמת סיקור: Texas Capital עברה לטיקר TXCP ב-9 בנובמבר; המעבר ל-TXSE התרחש כבר ב-8 באוקטובר",
+    "כותרת_en": "Catch-up: Texas Capital changed ticker to TXCP on November 9; TXSE listing transfer occurred October 8",
+    "קישור": "https://texascapitalbank.com/who-we-are/newsroom/news/2026/11/09/texas-capital-bancshares-inc-begins-trading-txse-under-new-txcp-ticker",
+    "מקורות": [
+      {
+        "url": "https://texascapitalbank.com/who-we-are/newsroom/news/2026/11/09/texas-capital-bancshares-inc-begins-trading-txse-under-new-txcp-ticker",
+        "label": "Texas Capital: שינוי הטיקרים ב-9 בנובמבר, ללא פעולה נדרשת מבעלי המניות",
+        "label_en": "Texas Capital: November 9 ticker change, no shareholder action required"
+      },
+      {
+        "url": "https://www.txse.com/press/texas-stock-exchange-celebrates-transfer-of-texas-capital-s-primary-listing",
+        "label": "TXSE: מעבר הרישום ב-8 באוקטובר ותחילת הטיקרים החדשים ב-9 בנובמבר",
+        "label_en": "TXSE: October 8 listing transfer and November 9 new tickers"
+      }
+    ],
+    "טקסט": "השלמת סיקור מתאריך המקור 9.11.2026, לא אירוע חדש ב-13 בנובמבר. הודעת Texas Capital והודעת Texas Stock Exchange נקראו במלואן. שעת הפרסום המקורית המדויקת לא אומתה ולכן נשמר תאריך בלבד.\n\nTexas Capital Bancshares הודיעה כי החל מפתיחת המסחר ב-9 בנובמבר טיקר המניה הרגילה הוא TXCP וטיקר מניית הבכורה מסדרה B מוצג בהודעות כ-TXCP PRB. החברה אומרת שכל המסחר, הדיווחים הרגולטוריים ומידע השוק ידווחו תחת הסימולים החדשים, ושבעלי המניות אינם נדרשים לבצע פעולה בעקבות השינוי.\n\nיש להפריד בין שינוי הטיקר למעבר הבורסה: החברה כבר העבירה את הרישום הראשי של המניה הרגילה ומניית הבכורה מ-Nasdaq ל-TXSE ב-8 באוקטובר. 9 בנובמבר הוא מועד שינוי הסימולים וטקס הנעילה, לא מועד חדש לביצוע אותו מעבר רישום.\n\nהחברה נקראה בעבר תחת TCBI, אך אין להניח שטיקר זה נשאר הסימול הנוכחי רק מפני שהוא מופיע בנתונים היסטוריים. פריט החדשות אינו משנה את רשימת המעקב, את הסימולים בכרטיסיות אחרות או היסטוריית דיווחים באפליקציה; שינוי כזה דורש בדיקה נפרדת של מיפוי ספקי הנתונים.\n\nזהו עדכון זהות מסחרית ורישום, לא הנפקת מניות חדשה, גיוס הון שהושלם, מיזוג או שינוי כמות ההחזקה של בעל מניות. אופן כתיבת טיקר הבכורה עשוי להשתנות בין ספקי נתונים; כאן נשמר הכתיב TXCP PRB של שני המקורות, ללא המצאת סימול ספק חלופי.",
+    "טקסט_en": "Catch-up retaining the November 9, 2026 source date, not a new November 13 event. The full Texas Capital and Texas Stock Exchange releases were read. The exact original publication clock was not verified, so only the date is shown.\n\nTexas Capital Bancshares said its common-stock ticker became TXCP and its Series B preferred-stock symbol is displayed in the releases as TXCP PRB, effective at the November 9 market open. It says trading, regulatory filings and market information will use the new symbols, with no shareholder action required for the ticker change.\n\nThe ticker change and exchange transfer are distinct. The company had already moved its common and preferred primary listings from Nasdaq to TXSE on October 8. November 9 is the new-symbol and bell-ceremony date, not another execution date for that listing transfer.\n\nThe company previously traded under TCBI, but that must not be assumed to remain the current symbol simply because historical records use it. This news item does not alter the app's watchlist, symbols elsewhere or historical reports. Those would need separate verification of data-provider mappings.\n\nThis is a trading-identity and listing update, not a new share offering, completed capital raise, merger or change in a shareholder's holding quantity. Preferred-symbol syntax may vary by data provider. The TXCP PRB spelling in both releases is retained here, without inventing an alternate provider symbol.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7c96ce2db2a3f2caebc4b297c36deb9cd272d87cb17b85e0239d01033d623423"
+      }
+    },
+    "מזהה": "n-1609",
+    "הועלה": "2026-11-13 15:45"
   }
 ]
