@@ -42867,5 +42867,29 @@
     },
     "מזהה": "n-1637",
     "הועלה": "2026-11-13 18:18"
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-11-13 18:30",
+    "כותרת": "GlobalFoundries (GFS): החלה בניית המפעל הראשון במלטה, ניו יורק, במסגרת היוזמה האמריקאית-יפנית",
+    "כותרת_en": "GlobalFoundries (GFS): construction starts on first Malta, New York fab under US-Japan initiative",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/13/3402843/0/en/globalfoundries-breaks-ground-on-first-new-semiconductor-fab-under-landmark-u-s-japan-initiative.html",
+    "מקורות": [
+      {
+        "label": "GlobalFoundries, הודעת החברה המלאה ב-GlobeNewswire",
+        "label_en": "GlobalFoundries, full company release on GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-release/2026/11/13/3402843/0/en/globalfoundries-breaks-ground-on-first-new-semiconductor-fab-under-landmark-u-s-japan-initiative.html"
+      }
+    ],
+    "טקסט": "13 בנובמבר 2026, 18:30 שעון ישראל (11:30 ET) | הודעת החברה המקורית נקראה במלואה.\n\nGlobalFoundries הודיעה על טקס הנחת אבן פינה ותחילת הבנייה של מפעל שבבים חדש לפרוסות 300 מ״מ באתר שלה במלטה, ניו יורק. ההתפתחות החדשה היא תחילת הבנייה של המפעל הראשון, לא השלמתו או הפעלת כושר ייצור חדש כיום.\n\nזהו המשך ליוזמה שהוכרזה ב-14 באוקטובר, במסגרתה נבחרה GF לספק טכנולוגיה ולהפעיל שני מפעלים חדשים באתר, במימון של עד 21 מיליארד דולר. לפי החברה, יפן תספק את ההשקעה ו-GF תתרום טכנולוגיה ויכולות ייצור ותפעול. אין כאן תוכנית השקעה חדשה נוספת של 21 מיליארד דולר.\n\nהחברה מציינת השקעה ראשונית של כ-10 מיליארד דולר, בתמיכת תמריצים של 570 מיליון דולר ממדינת ניו יורק, להאצת הקמת המפעל הראשון. הוא צפוי להתחיל לפעול ב-2029, וכאשר יפעל באופן מלא צפוי להוסיף כ-900 אלף פרוסות 300 מ״מ לשנה. השקעה נוספת של כ-10 מיליארד דולר מיועדת למפעל שני עם התקדמות הפרויקט, שאמור להוסיף קיבולת דומה. אלה צפי וקיבולת עתידית, לא תפוקה קיימת או מועד השלמה מובטח.\n\nהשבבים מיועדים בין היתר לרכב, לתעשייה ולתשתיות מקושרות. התחזית לכ-27 אלף משרות בנייה ואקוסיסטם וליותר מאלף משרות ייצור מיומנות מתייחסת ליוזמת שני המפעלים; אין זו ספירת משרות שכבר נוצרו או תחזית רווח חדשה.",
+    "טקסט_en": "November 13, 2026, 18:30 Israel time (11:30 ET) | The full original company release was read.\n\nGlobalFoundries announced a groundbreaking and the start of construction on a new 300mm semiconductor fab at its Malta, New York site. The new development is construction starting on the first fab, not its completion or new production capacity operating today.\n\nThis follows the October 14 initiative under which GF was selected as technology provider and operator for two new fabs at the site, with up to $21 billion in funding. The company says Japan will provide the investment while GF contributes its technology, manufacturing expertise and operating capabilities. This is not another newly announced $21 billion investment program.\n\nThe company cites an initial investment of approximately $10 billion, supported by $570 million in New York State incentives, to accelerate the first fab. It is expected to come online in 2029 and, when fully operational, add approximately 900,000 300mm wafers of annual capacity. An additional investment of approximately $10 billion is intended to support a second fab as the project advances, adding similar capacity. These are expectations and future capacity, not current output or a guaranteed completion date.\n\nThe chips are intended for markets including automotive, industrial and connected infrastructure. The projection of about 27,000 construction and ecosystem jobs and more than 1,000 skilled manufacturing jobs covers the two-fab initiative; it is not a count of jobs already created or new earnings guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6026983ea6552ab830a6ec78709e006852435cecb04b552b244e775855d645a5"
+      }
+    },
+    "מזהה": "n-1638",
+    "הועלה": "2026-11-13 18:37"
   }
 ]
