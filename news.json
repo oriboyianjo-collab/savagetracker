@@ -43312,5 +43312,34 @@
     },
     "מזהה": "n-1653",
     "הועלה": "2026-11-13 22:14"
+  },
+  {
+    "category": "micro",
+    "חברה": "Microsoft (MSFT)",
+    "חברה_en": "Microsoft (MSFT)",
+    "symbols": [
+      "MSFT"
+    ],
+    "תאריך": "2026-11-13 22:02",
+    "כותרת": "Microsoft: הגישה משתפרת, אך תורי הדואר עדיין מתרוקנים; אין מועד לחזרה מלאה",
+    "כותרת_en": "Microsoft: access improves, but mail queues are still draining; no full-recovery ETA",
+    "קישור": "https://status.cloud.microsoft/",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/api/feed/mac",
+        "label": "Microsoft: הזנת הסטטוס הרשמית המלאה, עדכון האירוע 20:02:18 UTC",
+        "label_en": "Microsoft: full official status feed, incident update 20:02:18 UTC"
+      }
+    ],
+    "טקסט": "13.11.2026, 22:02:18 בישראל (20:02:18 UTC) | עדכון האירוע הרשמי נקרא במלואו בבדיקה השעתית ב-22:40 בישראל. זו שעת עדכון האירוע, לא שעת בניית ערוץ ה-RSS ולא תחילת התקלה.\n\nMicrosoft אומרת שככל שהתשתית מתייצבת היא עדיין מרוקנת תורי הודעות ומאזנת מחדש את התעבורה. לקוחות עשויים לראות שיפור בהתחברות ובגישה לשירותים בזמן שמסירת הודעות ועיבודן עדיין משלימים פערים. החברה מדגישה שגישה לשירות יכולה לחזור לפני שזרימת הדואר חוזרת לשגרה.\n\nזהו עדכון המשך להתאוששות הרחבה שתוארה בפריט הקודם, לא הודעת סיום: Microsoft אומרת שאין לה עדיין מועד משוער להתאוששות מלאה. האירוע נשאר מסומן ServiceDegradation. אין כאן אישור שכל הודעות הדואר המעוכבות כבר נמסרו, שהבעיה חזרה לכל המשתמשים או שנגרם אובדן נתונים.\n\nהפגיעה כוללת Exchange Online ותכונות תלויות דואר ויומן בשירותים נוספים. לפי הפירוט, רוב יכולות הליבה של Teams וגישה ישירה לקבצים ב-SharePoint נותרות פעילות; אין להסיק השבתה כוללת של כל שירותי Microsoft או Azure.\n\nמועד העדכון הבא שמופיע במקור הוא 14 בנובמבר בחצות UTC, כלומר 02:00 בישראל. זהו יעד לעדכון מצב, לא התחייבות לסיום התקלה. אין בעדכון החדש דוח סיבת שורש סופי או ממצא עצמאי על נזק כספי.",
+    "טקסט_en": "November 13, 2026, 22:02:18 Israel time (20:02:18 UTC) | The full official incident update was read during the hourly check at 22:40 Israel time. This is the incident-update time, not the RSS channel-build time or outage start.\n\nMicrosoft says that as infrastructure stabilizes it is still draining queued messages and rebalancing traffic. Customers may see improved sign-in and service access while message delivery and processing continue to catch up. The company stresses that service access can recover before mail flow fully normalizes.\n\nThis continues the broad recovery described in the previous item; it is not a closure notice. Microsoft says it still has no estimated time for full recovery. The incident remains ServiceDegradation. This does not confirm delivery of every delayed email, a renewed failure for all users or data loss.\n\nImpact includes Exchange Online and email/calendar-dependent features in other services. Most core Teams functions and direct access to SharePoint files remain functional according to the detailed notice. This does not establish a total outage of every Microsoft or Azure service.\n\nThe next status update listed is November 14 at midnight UTC, or 02:00 Israel time. That is a status-update target, not a guaranteed resolution time. The new update contains no final root-cause report or independent finding of financial damage.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4167b4e537f169fcc9f90ce9d5d4beb2051a7fda238b5e8694b8747ab559bd8c"
+      }
+    },
+    "מזהה": "n-1654",
+    "הועלה": "2026-11-13 22:41"
   }
 ]
