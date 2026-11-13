@@ -41368,5 +41368,32 @@
     },
     "מזהה": "n-1590",
     "הועלה": "2026-11-13 14:00"
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-11-09",
+    "כותרת": "השלמת סיקור: מורגן סטנלי (MS) חתמה על הסכם לרכישת Vinyl Equity, להוספת שירותי רישום והעברת מניות",
+    "כותרת_en": "Catch-up: Morgan Stanley (MS) agrees to buy Vinyl Equity, adding shareholder recordkeeping and transfer services",
+    "קישור": "https://www.morganstanley.com/press-releases/morgan-stanley-to-acquire-vinyl-equity",
+    "מקורות": [
+      {
+        "url": "https://www.morganstanley.com/press-releases/morgan-stanley-to-acquire-vinyl-equity",
+        "label": "Morgan Stanley: הודעת הסכם הרכישה המקורית מ-9 בנובמבר",
+        "label_en": "Morgan Stanley: original November 9 acquisition agreement announcement"
+      }
+    ],
+    "חברה": "מורגן סטנלי",
+    "חברה_en": "Morgan Stanley",
+    "סימול": "MS",
+    "טקסט": "השלמת סיקור להודעת החברה מ-9.11.2026. שעת הפרסום המקורית אינה ידועה; ההודעה המלאה נקראה. אין כאן הודעה על עסקה חדשה מ-13 בנובמבר.\n\nמורגן סטנלי הודיעה שחתמה על הסכם לרכישת Vinyl Equity, סוכן העברת מניות הרשום ב-SEC ופלטפורמה דיגיטלית לניהול רישומי בעלי מניות. העסקה מוסיפה ל-Morgan Stanley at Work יכולת של סוכן העברה, לצד ניהול טבלת החזקות, תוכניות תגמול הוני ושירותי ניהול הון. המיקוד הוא בחברות פרטיות ובמעבר להנפקה ולשוק הציבורי, כולל רישום והעברת בעלות, פעולות תאגידיות וניהול הצבעות.\n\nהרכישה כפופה לתנאי סגירה מקובלים וצפויה להיסגר ברבעון הראשון של 2027. זהו הסכם שנחתם, לא אישור שהרכישה הושלמה או שהמערכות כבר שולבו. מחיר העסקה, הכנסות Vinyl וההשפעה הכספית הצפויה על הבנק לא נמסרו בהודעה, ולכן אין בסיס לכמת תרומה לרווח או להציג שווי עסקה.\n\nהבנק מזכיר בלוקצ'יין, טוקניזציה וסליקה אטומית כרקע לפיתוח תשתית הבעלות. אין בהודעה השקת מסחר במניות מטובנות או אישור רגולטורי חדש למוצר כזה. רישום Vinyl כסוכן העברה ב-SEC אינו אישור ה-SEC לעסקת הרכישה. זהו מהלך רכישה נפרד מהדיווח הקודם ב-n-0358 על שימוש מורגן סטנלי בשירות הטוקניזציה של DTCC.",
+    "טקסט_en": "Catch-up coverage of the company's November 9, 2026 announcement. The original publication time is unknown; the full release was read. This is not a newly announced November 13 deal.\n\nMorgan Stanley announced an agreement to acquire Vinyl Equity, an SEC-registered transfer agent and digital shareholder recordkeeping platform. The transaction adds transfer agency capabilities to Morgan Stanley at Work alongside cap table management, equity compensation administration and wealth management services. The focus is private companies and their transition through an IPO into public markets, including ownership recording and transfers, corporate actions and proxy administration.\n\nThe acquisition is subject to customary closing conditions and is expected to close in the first quarter of 2027. This is a signed agreement, not confirmation that the acquisition has closed or systems are already integrated. The release did not disclose the price, Vinyl's revenue or the expected financial impact on the bank. It therefore provides no basis to quantify an earnings contribution or transaction value.\n\nThe bank discusses blockchain, tokenization and atomic settlement as context for developing ownership infrastructure. The release does not launch tokenized-stock trading or announce a new regulatory approval for such a product. Vinyl's SEC transfer-agent registration is not SEC approval of the acquisition. This is a separate acquisition from the earlier n-0358 report on Morgan Stanley's use of DTCC's tokenization service.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dc453e12eef36dbf7a8ade608ef0e638cb5c6a555e60e9565be3b885bb249379"
+      }
+    },
+    "מזהה": "n-1591",
+    "הועלה": "2026-11-13 14:14"
   }
 ]
