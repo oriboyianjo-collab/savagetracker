@@ -40858,5 +40858,113 @@
     },
     "מזהה": "n-1576",
     "הועלה": "2026-11-13 12:11"
+  },
+  {
+    "category": "stocks",
+    "חברה": "אפבאונד / Acima",
+    "חברה_en": "Upbound / Acima",
+    "symbols": [
+      "UPBD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Acima של Upbound הגיעה להסדר של 183.5 מיליון דולר עם 43 מדינות; רק 53.5 מיליון הם תשלום במזומן",
+    "כותרת_en": "Upbound subsidiary Acima reaches $183.5 million settlement with 43 states; $53.5 million is cash",
+    "טקסט": "12.11.2026 | הודעת התובע הכללי של פנסילבניה והודעת החברה נקראו במלואן. שעת הפרסום המקורית לא אומתה.\n\nAcima Digital ו-Acima Holdings, חברות בנות בבעלות מלאה של Upbound, הגיעו להסדר בנוגע לחקירה רב-מדינתית שנפתחה ב-2021 על הסכמי שכירות-רכישה לצרכנים. פנסילבניה, קולורדו וטנסי הובילו את קואליציית 43 המדינות. בקשת ההסכמה הוגשה לבית המשפט במחוז אלגני, והיא עדיין ממתינה לאישורו לפי הודעת פנסילבניה.\n\nהכותרת הכוללת של 183.5 מיליון דולר מורכבת מ-43 מיליון להשבה לצרכנים, 10.5 מיליון למדינות ו-130 מיליון של הפחתה או מחילה על יתרות שכירות. החברה מבהירה כי רכיב המחילה נוגע לחשבונות שכבר נמחקו חשבונאית, של לקוחות שנותרו עם המוצרים אחרי חדלות פירעון. אין להציג את כל הסכום כתשלום מזומן חדש או כהוצאה חשבונאית חדשה ברבעון הנוכחי.\n\nלפי החברה, תשלום המזומן של 53.5 מיליון דולר כבר הופרש במלואו בדוחות סוף 2025 ונכלל בתחזית תזרים המזומנים ל-2026. זו הצהרת החברה על ההפרשה והתחזית, לא בדיקה מחדש של כל הדוחות או הוכחה שהכסף כבר שולם.\n\nהמדינות טענו שהצגת מסלולי פירעון ל-90 יום והמחיר במזומן הטעתה צרכנים לגבי העלות, ושחלק מההסכמים הוצבו אוטומטית בתקופה מרבית של 12 חודשים. ההסדר כולל מגבלות פרסום, הצגת תנאים, החזרת מוצרים ודיווח ללשכות אשראי. החברה אומרת שאין בהסדר ממצאים או הודאה בעוולה. אלה טענות שנפתרות בהסכמה, לא פסק דין הקובע את נכונותן.\n\nהחידוש הוא ההסכם לפתרון החקירה, בכפוף לאישור בית המשפט. אין בהודעות אישור לתשלום שכבר הושלם או שינוי חדש בתחזית התזרים.",
+    "טקסט_en": "November 12, 2026 | The Pennsylvania attorney general's release and the company statement were read in full. The original publication time was not verified.\n\nAcima Digital and Acima Holdings, wholly owned Upbound subsidiaries, reached an agreement resolving a multistate investigation opened in 2021 into consumer rental-purchase agreements. Pennsylvania, Colorado and Tennessee led the 43-state coalition. Pennsylvania says a consent petition was filed in Allegheny County court and remains subject to court approval.\n\nThe $183.5 million headline comprises $43 million of consumer restitution, $10.5 million to states and $130 million of lease-balance reductions or forgiveness. The company says the forgiveness covers charged-off accounts of certain customers who kept merchandise after default. The whole headline is not a new cash payment or a new current-quarter accounting charge.\n\nThe company says the $53.5 million cash payment was fully reserved in its year-end 2025 financial statements and is included in 2026 cash-flow guidance. This is the company's statement about its reserve and guidance, not a fresh audit of the accounts or confirmation the cash has already been paid.\n\nThe states alleged that marketing of 90-day payoff programmes and merchandise cash prices misled consumers about costs, with customers automatically placed into a maximum 12-month term. The agreement includes advertising, disclosure, product-return and credit-reporting restrictions. The company says it contains no findings or admissions of wrongdoing. These are allegations resolved by agreement, not a judgment establishing their truth.\n\nThe new stage is the agreement to resolve the investigation, subject to court approval. Neither release confirms completed payment or a new change to cash-flow guidance.",
+    "קישור": "https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-announces-183-5-million-multistate-settlement-with-rent-to-own-finance-company-acima-digital/",
+    "מקורות": [
+      {
+        "url": "https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-announces-183-5-million-multistate-settlement-with-rent-to-own-finance-company-acima-digital/",
+        "label": "פנסילבניה: הודעת התובע הכללי",
+        "label_en": "Pennsylvania attorney general release"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20261110997623/en/Acima-Announces-Settlement-of-a-2021-Matter-with-Attorneys-General-of-43-States",
+        "label": "Acima: הודעת החברה המלאה",
+        "label_en": "Acima: full company statement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f276a6c1ecc65bda6db335b04e316404b3191480ec049fc02c90f22fdcf68d99"
+      }
+    },
+    "מזהה": "n-1577",
+    "הועלה": "2026-11-13 12:20"
+  },
+  {
+    "category": "stocks",
+    "חברה": "אינטראקטיב ברוקרס",
+    "חברה_en": "Interactive Brokers",
+    "symbols": [
+      "IBKR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "IBKR מרחיבה גישה לבקשות הקצאה בהנפקת Anthropic ללקוחות זכאים באירופה; לא בישראל ולא הקצאה מובטחת",
+    "כותרת_en": "IBKR offers eligible European clients access to Anthropic IPO applications; not Israel or guaranteed allocations",
+    "טקסט": "13.11.2026 | הודעת Interactive Brokers Ireland נקראה במלואה, לצד הודעת הסניף הבריטי מ-12 בנובמבר. שעת הפרסום המקורית של ההודעות לא אומתה.\n\nInteractive Brokers Ireland הודיעה שלקוחות זכאים המתגוררים ונמצאים בדנמרק, פינלנד, צרפת, גרמניה, אירלנד, הולנד, נורווגיה, ספרד ושוודיה יכולים להגיש בקשות להשתתפות בהנפקת Anthropic דרך הפלטפורמה. התקופה המוצהרת היא 12-17 בנובמבר, עם מועד אחרון של 21:00 CET ב-17 בנובמבר, 22:00 בישראל. ישראל אינה ברשימת המדינות הזכאיות בהודעה זו; אין להסיק מכך שכל לקוח IBKR יכול להשתתף.\n\nבנפרד, הסניף הבריטי הודיע ב-12 בנובמבר על מסלול ללקוחות זכאים המתגוררים ונמצאים פיזית בבריטניה, באמצעות ההצעה הקמעונאית של RetailBook. המסלול הבריטי עשוי להיסגר מוקדם ללא הודעה. אלה שני מסלולי הפצה עם תנאי זכאות נפרדים, לא הודעה על זמינות עולמית.\n\nהקצאה אינה מובטחת: היא תלויה במדיניות החברה, במניות שהברוקר יקבל לחלוקה ובמסמכי ההצעה. מימון בחשבון, בקשת השתתפות והקצאת מניות הם שלבים שונים. לא בוצעה כאן בדיקת זכאות של חשבון אישי, ולא ניתנת המלצה להשתתף.\n\nשתי ההודעות מבהירות שרישום ניירות הערך בארה״ב טרם נכנס לתוקף במועד ההודעה; לא ניתן לקבל הצעות רכישה או תמורה לפני כניסתו לתוקף. בקשת הרישום לנאסד״ק אינה השלמת הנפקה או תחילת מסחר. אין כאן מחיר סופי או שינוי מאומת בטווח ובמבנה שכבר סוקרו בפריט n-1193.\n\nהחידוש הוא פתיחת ערוץ בקשות למשקיעים קמעונאיים זכאים במדינות שנמנו, לא אישור שההנפקה תומחרה, הושלמה או הוקצתה ללקוח מסוים.",
+    "טקסט_en": "November 13, 2026 | The full Interactive Brokers Ireland statement was read alongside the UK affiliate's November 12 statement. Their original publication times were not verified.\n\nInteractive Brokers Ireland says eligible clients resident and located in Denmark, Finland, France, Germany, Ireland, the Netherlands, Norway, Spain and Sweden can apply to participate in Anthropic's IPO through its platform. The stated offer period is November 12-17, with a November 17 deadline of 21:00 CET, 22:00 in Israel. Israel is not among the countries listed in this announcement; this does not establish eligibility for every IBKR client.\n\nSeparately, the UK affiliate announced November 12 that eligible clients resident and physically located in the UK can apply through the RetailBook UK Retail Offer. That offer may close early without notice. These are separate distribution routes and eligibility terms, not worldwide availability.\n\nAllocation is not guaranteed. It depends on the company's allocation policy, the shares the broker receives for distribution and the offer documents. Account funding, an application and an allocation are different stages. No personal account eligibility was checked here, and this is not a recommendation to participate.\n\nBoth statements say the US registration statement had not yet become effective when issued; offers to buy and purchase money cannot be accepted before effectiveness. An application to list on Nasdaq is not a completed IPO or the start of trading. This is not a final price or a verified change to the range and structure already covered in n-1193.\n\nThe new development is an application channel for eligible retail investors in the named countries, not confirmation of pricing, completion or any particular client's allocation.",
+    "קישור": "https://www.businesswire.com/news/home/20261112176315/en/Interactive-Brokers-Offers-Eligible-Clients-Access-to-the-Anthropic-PBC-Initial-Public-Offering",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261112176315/en/Interactive-Brokers-Offers-Eligible-Clients-Access-to-the-Anthropic-PBC-Initial-Public-Offering",
+        "label": "IBKR Ireland: ההודעה המלאה",
+        "label_en": "IBKR Ireland: full statement"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20261112470985/en/Interactive-Brokers-U.K.-Limited-Participating-in-the-UK-Retail-Offer-for-Anthropic-PBC",
+        "label": "IBKR UK: הודעת 12 בנובמבר",
+        "label_en": "IBKR UK: November 12 statement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f1cd2944b9f02cb2bb604ea3d0cdd3cde409513bb9c94052437b16d19fcda88d"
+      }
+    },
+    "מזהה": "n-1578",
+    "הועלה": "2026-11-13 12:20"
+  },
+  {
+    "category": "stocks",
+    "חברה": "טטרה טק",
+    "חברה_en": "Tetra Tech",
+    "symbols": [
+      "TTEK"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-10-01",
+    "כותרת": "השלמת סיקור מ-1 באוקטובר: Tetra Tech בין 16 זוכות במסגרת לוגיסטיקה של NASA בתקרת 1.4 מיליארד דולר",
+    "כותרת_en": "October 1 catch-up: Tetra Tech among 16 awardees on NASA logistics framework with $1.4 billion ceiling",
+    "טקסט": "השלמת סיקור להודעת NASA מ-1.10.2026, שעודכנה ב-2 באוקטובר להבהרת שמות החברות ונקראה במלואה. אין כאן חוזה חדש שנחתם ב-13 בנובמבר. הודעת Tetra Tech מ-11 בנובמבר מזכירה את המסגרת ברשימת זכיות אחרונות.\n\nNASA בחרה 16 חברות למסגרות Enterprise Logistics Support Services בהיקף כולל של 1.4 מיליארד דולר, ובהן Tetra Tech. זו מסגרת רכש מרובת זוכים, לא הזמנה בלעדית או התחייבות להכנסה של 1.4 מיליארד דולר לטטרה טק לבדה. ההודעות שנקראו אינן מפרטות נתח מובטח לחברה או צו משימה נפרד בסכום זה.\n\nהשירותים כוללים ניהול ציוד ורכוש, תובלה, סילוק ציוד, תמיכה בחומרת טיסה, תחזוקה ותיקון, בקרת יצוא ורכש חומרים. מסגרות ה-BPA ניתנו תחת OASIS+ של מינהל השירותים הכלליים, ו-NASA רשאית לבחור סוגי הזמנות שונים לפי הצורך.\n\nתקופת ההזמנות הבסיסית היא חמש שנים, מ-1 באוקטובר 2026 עד 30 בספטמבר 2031. אחריה שלוש אופציות של שנה ואפשרות הארכה של חצי שנה. אופציות אינן תקופות שהופעלו כבר, ותקרת המסגרת אינה מזומן שהתקבל או הכנסה שכבר הוכרה.\n\nזהו חיבור בין אזכור החברה לבין פרסום הגוף המזמין המקורי. לא פורסם בהודעות אלה צו משימה חדש מ-13 בנובמבר או סכום חלוקה בין 16 הזוכות.",
+    "טקסט_en": "Catch-up on NASA's October 1, 2026 release, updated October 2 to clarify company names and read in full. This is not a new contract signed November 13. Tetra Tech's November 11 statement lists the framework among recent key wins.\n\nNASA selected 16 companies, including Tetra Tech, for Enterprise Logistics Support Services blanket purchase agreements with a combined $1.4 billion ceiling. This is a multiple-award procurement framework, not an exclusive order or $1.4 billion of guaranteed Tetra Tech revenue. The releases read do not specify a guaranteed company share or a separate task order for that amount.\n\nServices cover equipment and property management, transportation, disposal, flight-hardware support, maintenance and repair, export control and material purchases. The BPAs sit under GSA's OASIS+ vehicle, with NASA able to choose different order types.\n\nThe five-year base ordering period runs from October 1, 2026 through September 30, 2031, followed by three optional one-year periods and a possible six-month extension. Options have not necessarily been exercised, and the framework ceiling is not cash received or revenue already recognised.\n\nThis connects the company's mention with the procuring agency's original announcement. Neither release establishes a new November 13 task order or a division of the ceiling among the 16 awardees.",
+    "קישור": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+    "מקורות": [
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+        "label": "NASA: הודעת הרכש המקורית מ-1 באוקטובר",
+        "label_en": "NASA: original October 1 procurement release"
+      },
+      {
+        "url": "https://investor.tetratech.com/news/news-details/2026/Tetra-Tech-Reports-Strong-Fourth-Quarter-and-Fiscal-Year-2026-Results/",
+        "label": "Tetra Tech: רשימת Recent Key Wins בהודעת 11 בנובמבר",
+        "label_en": "Tetra Tech: Recent Key Wins in November 11 release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7cec0240738d065fe15579e9f94867a704d318dbf45fbeb2f4d084f370f4bd10"
+      }
+    },
+    "מזהה": "n-1579",
+    "הועלה": "2026-11-13 12:20"
   }
 ]
