@@ -43312,5 +43312,39 @@
     },
     "מזהה": "n-1653",
     "הועלה": "2026-11-13 22:14"
+  },
+  {
+    "category": "micro",
+    "חברה": "AAON",
+    "חברה_en": "AAON",
+    "symbols": [
+      "AAON"
+    ],
+    "תאריך": "2026-11-12",
+    "כותרת": "AAON: אשראי מחויב של 850 מיליון דולר; הכותרת של 1.2 מיליארד כוללת הרחבה מותנית",
+    "כותרת_en": "AAON: $850 million committed credit; $1.2 billion headline includes a conditional accordion",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/824142/000162828026073758/a2026creditagreementpressr.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/824142/000162828026073758/a2026creditagreementpressr.htm",
+        "label": "AAON: הודעה מקורית מ-12 בנובמבר 2026, נקראה במלואה",
+        "label_en": "AAON: full original November 12, 2026 release"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/824142/000162828026073758/aaon-20261110.htm",
+        "label": "AAON: דיווח 8-K מלא עד החתימות, הסכם בתוקף מ-10 בנובמבר",
+        "label_en": "AAON: full 8-K through signatures, agreement effective November 10"
+      }
+    ],
+    "טקסט": "השלמה באיחור להודעת AAON מ-12.11.2026; שעת ההודעה המקורית לא אומתה. ההסכם נחתם ונכנס לתוקף ב-10 בנובמבר. הדיווח שנקרא כעת נחתם ב-13 בנובמבר, ולא מדובר בחתימה על אשראי חדש היום.\n\nהחברה הודיעה על מימון מחדש והרחבת מסגרת האשראי הבכירה: התחייבויות מלווים בסך 850 מיליון דולר, הכוללות הארכת מסגרת מתחדשת קיימת של 600 מיליון דולר ותוספת מסגרת הלוואה לתקופה של 250 מיליון דולר. מועד הפירעון של שתיהן הוא 10 בנובמבר 2031. היקף ההתחייבויות אינו סכום מזומן שאומת שכבר נמשך.\n\nהסכום של עד 1.2 מיליארד דולר בכותרת החברה כולל אפשרות להרחבה של עד 350 מיליון דולר שאינה מחויבת, בכפוף לתנאים ולהתחייבויות מלווים נוספות. אין להציג את כל ה-1.2 מיליארד כמימון מובטח. תוכנית מימון שרשרת אספקה של 100 מיליון דולר כלולה במסגרת החדשה, ולא מתווספת לסכומים האלה.\n\nלפי סיכום ההסכם ב-8-K, אמות המידה כוללות יחס מינוף מאוחד נמוך מ-3.0, או נמוך מ-3.5 בתקופת הקלה מוגדרת לרכישות, ויחס כיסוי חיובים קבועים של לפחות 1.2. החישוב הרבעוני מתחיל ב-31 בדצמבר 2026. זהו סיכום הדיווח וההודעה; הסכם ההלוואה המלא והערבות לא נקראו לצורך פריט זה.\n\nהחברה מתארת גמישות לתמיכה בצמיחה, השקעות הון והון חוזר. אין בהודעה אישור להוצאה חדשה על מפעל, לחוזה לקוח חדש או לכך שכל האשראי כבר נוצל. זהו אירוע מימון נפרד מפריט ההצגה מחדש של דוחות AAON שפורסם קודם.",
+    "טקסט_en": "Catch-up to AAON's November 12, 2026 announcement; the original release time was not verified. The agreement was signed and became effective November 10. The filing read now was signed November 13; this is not a new credit agreement signed today.\n\nThe company announced refinancing and expansion of its senior credit facility: $850 million of lender commitments, comprising an extension of the existing $600 million revolver and an additional $250 million term loan facility. Both mature November 10, 2031. Committed capacity is not a verified amount of cash already drawn.\n\nThe company's headline of up to $1.2 billion includes an uncommitted accordion of up to $350 million, subject to conditions and additional lender commitments. The full $1.2 billion is not guaranteed financing. A $100 million supply-chain financing program is included in the new facility, not additional to these totals.\n\nThe 8-K summary describes a consolidated leverage ratio below 3.0, or below 3.5 during a defined Acquisition Holiday, and fixed-charge coverage of at least 1.2. Quarterly calculation begins December 31, 2026. This item uses the full filing summary and release; the full loan and guaranty agreements were not read.\n\nThe company describes flexibility to support growth, capital investment and working capital. The release does not establish new factory spending, a new customer contract or full utilization of the facility. This is a financing event distinct from the AAON financial-restatement item published earlier.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8e6163434e6a9f84ff98549813818a8a40299cce1d656535014cfa6bdac4e11a"
+      }
+    },
+    "מזהה": "n-1654",
+    "הועלה": "2026-11-13 22:22"
   }
 ]
