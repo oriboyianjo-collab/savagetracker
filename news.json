@@ -40061,5 +40061,112 @@
     },
     "מזהה": "n-1554",
     "הועלה": "2026-11-13 10:47"
+  },
+  {
+    "category": "micro",
+    "חברה": "Nexperia / Wingtech",
+    "חברה_en": "Nexperia / Wingtech",
+    "symbols": [],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "Nexperia: בית המשפט בהולנד הורה על צעדים נוספים נגד הפרעה מצד Wingtech; אין מכירה או פתרון בעלות שהושלמו",
+    "כותרת_en": "Nexperia says Dutch court imposes further non-interference measures on Wingtech; no completed sale or ownership solution",
+    "טקסט": "לא מאומת מול מקור ראשוני: הצווים ופסק הדין עצמם לא נקראו. פרטי ההחלטה מיוחסים להודעת Nexperia מ-12 בנובמבר, שנקראה במלואה, ולדיווח Reuters המלא.\n\n12.11.2026 | הודעת החברה נושאת תאריך ללא שעה מאומתת. ההחלטה המתוארת ניתנה ב-11 בנובמבר; זו השלמת סיקור ולא צו חדש מ-13 בנובמבר.\n\nלפי Nexperia, הלשכה לענייני חברות בהולנד הטילה צעדים מיידיים נוספים, שחלקם מגובים בקנסות משמעותיים, כדי להגן על פעילותה ועל סמכויות בעלי התפקיד שמונו בידי בית המשפט. החברה אומרת שבית המשפט מצא שפעולות Wingtech, Yuching ו-Nexperia China ערערו החלטות קודמות ופגעו ביכולת לממש זכויות קניין רוחני, לשקם רציפות אספקה וליצור שותפויות. זהו תיאור החברה את הממצאים, לא קריאה עצמאית של ההכרעה.\n\nההוראות המתוארות דורשות להימנע מהפרעה לפעילות העסקית הרגילה, לרבות שותפויות, הרחבת ייצור, רישוי קניין רוחני, מימון וניהול נכסים. הן דורשות לכבד את סמכות הממונים, לאפשר בחינת עניין מצד גורמים אפשריים בפתרון ארוך טווח, ולסגת מתביעות בסין ככל שהן מערערות צווים הולנדיים קודמים.\n\nבנוסף מתואר איסור לאכוף צווי Dongguan מ-2 בנובמבר ככל שהם מונעים פעולות מוגדרות בקניין רוחני, בנכסים או בחיפוש פתרון ארוך טווח. אין בכך קביעה שכל ההליכים הסיניים בוטלו או שסכסוך הבעלות הסתיים. בהודעה לא צוין גובה הקנסות, ואין בסיס להציג סכום שכבר נגבה.\n\nהחברה מתארת את ההגנה על יכולת ההנהלה לפעול גם בהקשר של הרחבת קיבולת במלזיה ובפיליפינים. הצו אינו אישור שההרחבות הושלמו או שכל שרשרת האספקה חזרה לשגרה. בחינת עניין בשוק אינה מכירה מוסכמת, זיהוי רוכש או העברת מניות שכבר הושלמה. לפי Reuters, לא ניתן היה להשיג מיד תגובה מ-Wingtech.",
+    "טקסט_en": "Not verified against a primary source: the actual orders/judgment were not read. Decision details are attributed to Nexperia's complete November12 statement and the full Reuters report.\n\nNovember12, 2026 | The company release gives a date without a verified clock. The described court decision was issued November11. Catch-up coverage, not a new November13 order.\n\nNexperia says the Dutch Enterprise Chamber imposed further immediate measures, partly backed by significant penalties, to protect its business and court-appointed officials' powers. The company says the court found Wingtech, Yuching and Nexperia China undermined earlier rulings and impeded IP rights, supply-chain continuity and strategic partnerships. This is the company's account of the findings, not an independent reading of the judgment.\n\nThe described orders require non-interference in ordinary business, including partnerships, capacity expansion, IP licensing, financing and asset management. They require respect for appointed officials, room to explore market interest in a long-term solution, and withdrawal of Chinese claims insofar as they undermine earlier Dutch orders.\n\nThe statement also describes restrictions on enforcing November2 Dongguan injunctions insofar as they prevent specified IP/asset actions or efforts toward a long-term solution. This does not void every Chinese proceeding or settle ownership. No penalty amount is disclosed, and no amount already collected is established.\n\nThe company places the measures in the context of protecting management's ability to operate, including capacity expansion in Malaysia and the Philippines. The orders do not establish completed expansion or fully restored supply chains. Exploring market interest is not an agreed sale, an identified buyer or a completed share transfer. Reuters says Wingtech could not immediately be reached for comment.",
+    "קישור": "https://www.nexperia.com/about/news-events/press-releases/Statement-from-Nexperia-12-11-26",
+    "מקורות": [
+      {
+        "url": "https://www.nexperia.com/about/news-events/press-releases/Statement-from-Nexperia-12-11-26",
+        "label": "Nexperia: הודעת 12 בנובמבר המלאה על ההחלטה",
+        "label_en": "Nexperia: complete November12 statement on the decision"
+      },
+      {
+        "url": "https://au.marketscreener.com/news/dutch-court-orders-extra-measures-in-nexperia-wingtech-fight-ce785ed8d18af124",
+        "label": "Reuters דרך MarketScreener: דיווח מלא ותגובת Wingtech שלא התקבלה",
+        "label_en": "Reuters via MarketScreener: full report and unavailable Wingtech response"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "086dad9077a63d0fd6ae41623c0f227ee3b5768883f055b1d454478520f55937"
+      }
+    },
+    "מזהה": "n-1555",
+    "הועלה": "2026-11-13 10:49"
+  },
+  {
+    "category": "micro",
+    "חברה": "Stryker / SYK",
+    "חברה_en": "Stryker / SYK",
+    "symbols": [
+      "SYK"
+    ],
+    "sectors": [
+      "health_care"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-26",
+    "כותרת": "השלמה מ-26 באוקטובר: Stryker השלימה את רכישת ZuriMED וטכנולוגיית FiberLocker לתיקון כתף",
+    "כותרת_en": "October26 catch-up: Stryker completes ZuriMED acquisition, adding FiberLocker shoulder-repair technology",
+    "טקסט": "26.10.2026 | הודעת Stryker המקורית נקראה במלואה עד פרטי הקשר. שעת הפרסום לא אומתה. כתבה מאוחרת יותר אינה מועד רכישה חדש.\n\nStryker הודיעה שהשלימה את רכישת ZuriMED הפרטית, מפתחת FiberLocker. זו השלמת רכישה, לא רק הסכם עקרוני או מגעים. המערכת מתווספת לפורטפוליו רפואת הספורט והכתף של החברה.\n\nהחברה מתארת את FiberLocker כטכנולוגיה שכבר מוסחרה לחיזוק תיקוני גידי השרוול המסובב בכתף, המיועדת להגדיל את החוזק הביומכני של התיקון. זהו תיאור המוצר והמטרה מטעם החברה, לא תוצאת ניסוי קליני חדשה שמוכיחה ירידה בשיעור קרעים חוזרים או עדיפות לכל מטופל.\n\nבהודעה לא נמסרו מחיר הרכישה, מכירות ZuriMED, תרומה צפויה לרווח או היקף הזמנות. אין כאן אישור רגולטורי חדש או השקת מוצר חדשה בתאריך הכתבה המאוחרת. ההתרחבות בתיק הכתף היא המהלך העסקי המאומת, ללא אומדן כספי שלא פורסם.",
+    "טקסט_en": "October26, 2026 | Stryker's complete original release was read through contact details. No publication clock was verified. A later article does not create a new acquisition date.\n\nStryker announced completion of its acquisition of privately held ZuriMED, developer of FiberLocker. This is a completed acquisition, not preliminary terms or talks. The system joins its Sports Medicine and shoulder portfolio.\n\nStryker describes FiberLocker as an already-commercialized technology for rotator-cuff augmentation, designed to increase repair biomechanical strength. That is the company's product description and purpose, not a new clinical result proving fewer re-tears or superiority for every patient.\n\nThe release discloses no acquisition price, ZuriMED sales, expected profit contribution or order size. It does not announce a new regulatory approval or a new product launch on the later article's date. The verified business step is broader shoulder technology, without an invented financial estimate.",
+    "קישור": "https://investors.stryker.com/press-releases/news-details/2026/Stryker-completes-acquisition-of-ZuriMED-to-enhance-its-shoulder-offering/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.stryker.com/press-releases/news-details/2026/Stryker-completes-acquisition-of-ZuriMED-to-enhance-its-shoulder-offering/default.aspx",
+        "label": "Stryker: הודעת השלמת הרכישה המקורית, 26 באוקטובר",
+        "label_en": "Stryker: original acquisition-completion release, October26"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b38298d0d73de5472bf74a7657ed8636451af05dfea4d3cb91fd87d5bf91d6a9"
+      }
+    },
+    "מזהה": "n-1556",
+    "הועלה": "2026-11-13 10:49"
+  },
+  {
+    "category": "micro",
+    "חברה": "Permian Resources / PR",
+    "חברה_en": "Permian Resources / PR",
+    "symbols": [
+      "PR"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-04",
+    "כותרת": "השלמה: Permian Resources סגרה את רכישת Ridge Runner ב-30 באוקטובר; 1.025 מיליארד דולר בתחילה ועד 125 מיליון מותנים במחירי נפט",
+    "כותרת_en": "Catch-up: Permian Resources closed Ridge Runner October30; initial $1.025bn plus up to $125m linked to oil prices",
+    "טקסט": "4.11.2026 | תאריך מצגת החברה שבה נבדקו סעיפי הרכישה והתמורה המותנית, לצד הביאור המלא לאירועים לאחר המאזן שהוגש ל-SEC. שעת הפרסום המקורית לא אומתה. הסגירה הייתה ב-30 באוקטובר, לא בכתבה מאוחרת מנובמבר.\n\nPermian Resources השלימה את רכישת Ridge Runner Resources II וחברת התמלוגים המסונפת תמורת כ-1.025 מיליארד דולר במזומן בתחילה, בכפוף להתאמות מחיר מקובלות. ביאור ה-SEC מעגל את המחיר לכמיליארד דולר; המצגת מפרטת 1.025 מיליארד. המימון הגיע ממזומן קיים ומהנפקת ניירות ערך מסחריים קצרים, Commercial Paper.\n\nהרכישה כוללת נכסי נפט וגז מפותחים ולא מפותחים במחוזות Eddy ו-Lea בניו מקסיקו, הסמוכים לפעילות החברה באגן דלאוור הצפוני. לפי הביאור, העסקה תטופל כרכישת נכסים לפי ASC 805, אף שהישויות הנרכשות כוללות חברות.\n\nבנפרד קיימת תמורה אפשרית נוספת עד 125 מיליון דולר, לפי מחירי WTI רבעוניים בשנתיים המתחילות ב-1 בינואר 2027. זו אינה התחייבות בלתי מותנית לתשלום מלוא הסכום. ב-2027 לוח התמורה מציג 9.375 מיליון לרבעון מעל 70 דולר לחבית או 18.75 מיליון מעל 80 דולר; ב-2028, 6.25 מיליון או 12.5 מיליון בהתאמה. אין להוסיף יחד את שני מדרגי המחיר באותו רבעון.\n\nנתוני כ-24 אלף אקרים נטו, כ-200 מיקומי קידוח וכ-1.15 מיליארד דולר בחלק אחר של המצגת מתייחסים לחבילת עסקאות הכוללת גם רכישות נוספות. אין לייחס את כל החבילה ל-Ridge Runner לבדה. הפריט עוסק בעסקת נכסים שהושלמה ובמבנה התמורה.",
+    "טקסט_en": "November4, 2026 | Date of the company presentation whose acquisition and contingent-payment clauses were checked, alongside the complete SEC subsequent-events note. The original publication clock was not verified. Closing occurred October30, not on a later November article's date.\n\nPermian Resources completed its purchase of Ridge Runner Resources II and its affiliated royalty company for approximately $1.025 billion initial cash consideration, subject to customary adjustments. The SEC note rounds the price to about $1 billion; the presentation specifies $1.025 billion. Funding came from cash on hand and commercial paper issuance.\n\nThe acquisition includes proved and unproved oil/gas properties in Eddy and Lea counties, New Mexico, adjacent to the company's Northern Delaware Basin position. The note says it will be accounted for as an ASC805 asset acquisition, despite acquired legal entities including companies.\n\nAdditional consideration is capped at $125 million and depends on quarterly WTI prices over two years starting January1, 2027. It is not an unconditional promise to pay the full amount. For each2027 quarter, the schedule specifies $9.375 million above $70/barrel or $18.75 million above $80; for2028, $6.25 million or $12.5 million respectively. The two price tiers are not additive within a quarter.\n\nRoughly24,000 net acres,200 drilling locations and$1.15 billion elsewhere in the presentation describe a group of transactions including other purchases. They must not all be assigned to Ridge Runner alone. This item concerns the completed asset deal and consideration structure.",
+    "קישור": "https://www.sec.gov/Archives/edgar/data/1658566/000165856626000124/R19.htm",
+    "מקורות": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1658566/000165856626000124/R19.htm",
+        "label": "Permian Resources: ביאור האירועים לאחר המאזן ב-SEC, סגירה ותמורה מותנית",
+        "label_en": "Permian Resources: SEC subsequent-events note, closing and contingent consideration"
+      },
+      {
+        "url": "https://permianres.com/wp-content/uploads/2026/11/PR-Q326-Earnings-Presentation.vFF_.pdf",
+        "label": "Permian Resources: מצגת 4 בנובמבר, סעיפי הרכישה ונספח תמורה מותנית",
+        "label_en": "Permian Resources: November4 presentation, acquisition clauses and contingent-payment appendix"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f2a0c79becb24266f59ffa24db5d80994774788c4003cfb359b119b1eb260a4b"
+      }
+    },
+    "מזהה": "n-1557",
+    "הועלה": "2026-11-13 10:49"
   }
 ]
