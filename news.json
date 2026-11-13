@@ -42891,5 +42891,29 @@
     },
     "מזהה": "n-1638",
     "הועלה": "2026-11-13 18:37"
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-11-13 17:38",
+    "כותרת": "Claude: התקלה הרחבה סומנה כפתורה; מחבר Microsoft 365 עדיין במעקב התאוששות",
+    "כותרת_en": "Claude: broad incident marked resolved; Microsoft 365 connector still monitoring recovery",
+    "קישור": "https://status.claude.com/",
+    "מקורות": [
+      {
+        "label": "Anthropic, עמוד הסטטוס הרשמי המלא",
+        "label_en": "Anthropic, full official status page",
+        "url": "https://status.claude.com/"
+      }
+    ],
+    "טקסט": "13 בנובמבר 2026 | עמוד הסטטוס הרשמי של Claude נקרא במלואו בבדיקה השעתית ב-18:39 שעון ישראל.\n\nב-17:38 שעון ישראל (15:38 UTC), Anthropic סימנה כפתורה את התקלה הרחבה שהשפיעה על כמה משטחי Claude. זהו עדכון מעבר למעקב ההתאוששות שפורסם ב-n-1634, ולא תקלה חדשה. הודעת הסגירה קצרה ואינה מפרטת השלמה של כל תור, שחזור של ריצות שדולגו או דוח גורם שורש.\n\nבמקביל, המחבר ל-Microsoft 365 נותר אירוע נפרד ופתוח. בעדכון מ-17:40 שעון ישראל (15:40 UTC) החברה דיווחה על סימני התאוששות במחבר וב-Claude for Outlook, אך חלק מבקשות החיפוש ב-SharePoint עדיין מחזירות שגיאות. לפי ההודעה, האירוע של Microsoft נשאר פתוח ושגיאות עלולות לחזור. זהו שיפור לעומת הכשלים ברוב בקשות הדואר, היומן והחיפוש שתוארו קודם, לא אישור שהמחבר חזר לפעילות מלאה.\n\nבעת הבדיקה ה-API, Claude Code, קונסולת המפתחים ורכיבי פלטפורמות הענן סומנו כפעילים תקין; claude.ai ו-Cowork עדיין סומנו כבעלי ביצועים ירודים. סטטוס אירוע מסוים וסטטוס רכיב אינם אותו דבר, ולכן סגירת התקלה הרחבה אינה הכרזה שכל המוצרים וכל המשתמשים חזרו לשגרה.\n\nאין בעדכונים שנקראו הוכחה לאובדן נתונים, שיעור התאוששות מדוד או התחייבות למועד סיום של אירוע המחבר. אין לייחס אוטומטית את התקלה הרחבה לאותו גורם של אירוע Microsoft 365.",
+    "טקסט_en": "November 13, 2026 | Claude's full official status page was read during the hourly check at 18:39 Israel time.\n\nAt 17:38 Israel time (15:38 UTC), Anthropic marked the broad incident affecting multiple Claude surfaces resolved. This advances beyond the recovery monitoring reported in n-1634; it is not a new incident. The short closure notice does not itemize completion of every queue, replay of skipped runs or a root-cause report.\n\nThe Microsoft 365 connector remains a separate open incident. At 17:40 Israel time (15:40 UTC), the company reported signs of recovery for the connector and Claude for Outlook, but some SharePoint search requests still return errors. The notice says Microsoft's incident remains open and errors may return. This is improvement from the previously described failures in most mail, calendar and search requests, not confirmation that the connector is fully restored.\n\nAt inspection, the API, Claude Code, developer console and cloud-platform components were marked operational; claude.ai and Cowork still showed degraded performance. Incident status and component status are distinct, so closing the broad incident is not an announcement that every product and user is back to normal.\n\nThe updates read provide no proof of data loss, measured recovery rate or guaranteed end time for the connector incident. The broad incident must not automatically be attributed to the same cause as the Microsoft 365 incident.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "011d1986f04a279357d2764198fd118f5d2ba1314a0d98e1424a30a2a069b007"
+      }
+    },
+    "מזהה": "n-1639",
+    "הועלה": "2026-11-13 18:40"
   }
 ]
