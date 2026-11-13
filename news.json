@@ -38913,5 +38913,42 @@
     },
     "מזהה": "n-1521",
     "הועלה": "2026-11-13 09:19"
+  },
+  {
+    "category": "micro",
+    "חברה": "MSFT",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-16",
+    "כותרת": "השלמה מ-16 באוקטובר: CMA מציעה מעמד שוק אסטרטגי לתוכנות העסקיות של Microsoft; ההכרעה טרם התקבלה",
+    "כותרת_en": "October 16 catch-up: CMA proposes strategic market status for Microsoft business software; no final designation",
+    "טקסט": "השלמת אירוע מ-16.10.2026, המועלית ב-13 בנובמבר. הודעת CMA המקורית ועמוד התיק הממשלתי העדכני נקראו במלואם. מקור משני המתוארך ל-13 בנובמבר אינו הוכחה להצעה חדשה מהיום; 13 בנובמבר הוא מועד סיום ההתייעצות המתוכנן, בשעה 17:00 בבריטניה.\n\nרשות התחרות הבריטית מציעה להעניק ל-Microsoft מעמד שוק אסטרטגי, SMS, ביחס למערכת התוכנות העסקיות שלה. זו החלטה מוצעת הנתונה להתייעצות, לא מעמד שכבר הוטל, ממצא של הפרת חוק, קנס או הוראה שכבר מחייבת שינוי במוצרים.\n\nההערכה כוללת מערכות הפעלה למחשב אישי, חבילות תוכנה משרדית, תוכנות אבטחה, מערכות הפעלה לשרתים ומערכות לניהול מסדי נתונים יחסיים. לפי CMA, קשיי מעבר, איגוד מסחרי של מוצרים ויתרונות אינטגרציה עלולים לצמצם את הבחירה של לקוחות. אלו ממצאים זמניים של הרשות; יותר ממיליון לקוחות ארגוניים וכ-20 מיליון משתמשים חודשיים בבריטניה הם נתוני המקור, לא מדידה עצמאית שנערכה כאן.\n\nבמפת דרכים לא מחייבת CMA מציינת תחומים לבדיקת התערבות אפשרית: חופש הבחירה בכלי AI ותחרות מול Copilot, איגוד מוצרי אבטחה ותנאי רישוי תוכנה בעננים מתחרים. גם אם יינתן SMS, צעדי התערבות דורשים בחינה ותהליכים משפטיים נפרדים. אין כאן הוראה לפצל את החברה או להוציא את Copilot מחבילת Office.\n\nעמוד התיק, שעודכן ב-16 באוקטובר ונבדק כעת, עדיין מציג את ההצעה. המועד החוקי האחרון להכרעת SMS הוא 13 בפברואר 2027; לוח הביניים הוא אינדיקטיבי ועשוי להשתנות. לא נמצא במקורות האלה אישור שהחלטה סופית התקבלה או שהתקבלו ופורסמו כל תגובות הציבור. הודעת המקור אינה קובעת סכום נזק, הפחתת מחיר מחייבת או השפעה פיננסית כמותית.\n\nההודעה כוללת בנפרד מעקב שוטף אחר צעדים של Microsoft ו-AWS לקידום מעבר ושילוב בין עננים. אין לאחד את מסלול המעקב הזה עם הכרזת SMS שכבר הושלמה בענן. ההתפתחות כאן היא הצעת הסיווג בתוכנות העסקיות, בנפרד מתקלת Microsoft 365 ומהסכמי קיבולת AI שכבר סוקרו.",
+    "טקסט_en": "Catch-up for October 16, 2026, published in the app on November 13. The original CMA release and current government case page were read in full. A November 13 secondary item does not establish a new proposal today. November 13 at 17:00 UK time is the scheduled consultation deadline.\n\nThe UK Competition and Markets Authority proposes to designate Microsoft with strategic market status (SMS) for its business software ecosystem. This is a proposed decision subject to consultation, not an already imposed designation, finding of illegality, fine or binding product-change order.\n\nThe assessment covers personal-computer operating systems, productivity suites, security software, server operating systems and relational database management systems. The CMA provisionally says switching barriers, commercial bundling and integration advantages can limit customer choice. Its figures of more than one million organizational customers and around 20 million monthly UK users are regulator-provided context, not an independent measurement here.\n\nAn indicative roadmap identifies possible areas for further investigation: choice of AI tools and competition with Copilot, security-product bundling and software licensing on rival clouds. Even if SMS were granted, interventions would require separate assessment and legal processes. This is not an order to break up the company or remove Copilot from Office.\n\nThe case page, last updated October 16 and checked now, still presents the proposal. The statutory deadline for an SMS decision is February 13, 2027. Interim milestones are indicative and can change. The reviewed sources do not establish a final decision or that all consultation responses have been received and published. No damages amount, mandatory price cut or quantified financial impact is stated.\n\nThe release separately discusses ongoing monitoring of Microsoft and AWS steps to support cloud switching and interoperability. That engagement must not be merged into an already completed cloud SMS designation. This item concerns the proposed business-software designation, separate from the Microsoft 365 outage and previously covered AI-capacity agreements.",
+    "קישור": "https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software",
+    "מקורות": [
+      {
+        "url": "https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software",
+        "label": "CMA: ההודעה המקורית, 16 באוקטובר; מעמד מוצע ומפת דרכים אפשרית",
+        "label_en": "CMA: original October 16 release; proposed status and indicative roadmap"
+      },
+      {
+        "url": "https://www.gov.uk/cma-cases/microsofts-business-software-ecosystem",
+        "label": "CMA: עמוד התיק הנוכחי, שלב ההתייעצות והמועד החוקי האחרון",
+        "label_en": "CMA: current case page, consultation stage and statutory deadline"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8c828bbd20d4a4a4aa5675f5bc6955416cc3bbb91b810c3a8b672d34f6887810"
+      }
+    },
+    "מזהה": "n-1522",
+    "הועלה": "2026-11-13 09:21"
   }
 ]
