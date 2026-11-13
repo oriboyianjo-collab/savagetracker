@@ -1,6 +1,6 @@
 // Total net assets (AUM) per ETF from the issuers' own public fund data. Used by fetch-issuer-holdings.cjs -> holdings/issuer.json "netAssets".
 // Only values an issuer publishes together with an as-of date. Any failure of one issuer leaves the previous values in place.
-// Sources: iShares product screener (all US iShares ETFs), SSGA/SPDR fund finder, Global X and First Trust fund pages, and NEOS official dated fund overview.
+// Sources: iShares product screener (all US iShares ETFs), SSGA/SPDR fund finder, Global X and First Trust fund pages, NEOS official dated fund overview, and YieldMax official fund details (source precision retained).
 const fs = require('fs'), path = require('path');
 const UA = {'User-Agent': 'Mozilla/5.0 (compatible; savage-tracker-netassets)', 'Accept': '*/*'};
 const iso8 = n => { const s = String(n); return /^\d{8}$/.test(s) ? `${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}` : null; };
@@ -38,12 +38,38 @@ function parseNeos(h,universe){
  return out;
 }
 
+const strip = s=>s.replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/g,' ').replace(/\s+/g,' ').trim();
+function divTree(h){const stack=[],nodes=[];for(const m of h.matchAll(/<\/?div\b[^>]*>/gi)){if(/^<\//.test(m[0])){const n=stack.pop();if(n){n.end=m.index+m[0].length;nodes.push(n);}}else{const a=m[0].match(/\bclass=["']([^"']*)["']/i);const n={start:m.index,inner:m.index+m[0].length,classes:(a?a[1]:'').split(/\s+/),parent:stack[stack.length-1]||null};stack.push(n);}}return nodes;}
+function yieldmaxLinks(h,names){const out={},dup=new Set(),wanted=new Set(names.filter(x=>x&&x[2]===1&&/^YieldMax\b/i.test(x[1])).map(x=>x[0]));for(const m of h.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>/gi)){let u;try{u=new URL(m[1],'https://yieldmaxetfs.com/our-etfs/')}catch(e){continue}if(u.protocol!=='https:'||u.hostname!=='yieldmaxetfs.com')continue;const slug=u.pathname.match(/^\/our-etfs\/([a-z0-9]+)\/$/i);if(!slug)continue;const t=slug[1].toUpperCase();if(!wanted.has(t))continue;const url=u.origin+u.pathname;if(out[t]&&out[t]!==url){delete out[t];dup.add(t)}else if(!dup.has(t))out[t]=url;}return out;}
+function parseYieldmax(h,t,src){
+ if(![...h.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)].some(m=>strip(m[1])===t))return null;
+ const nodes=divTree(h),tables=nodes.filter(n=>n.classes.includes('fund-info-table'));
+ const rows=n=>[...h.slice(n.start,n.end).matchAll(/<div\b[^>]*class=["']fund-label["'][^>]*>([\s\S]*?)<\/div>\s*<div\b[^>]*class=["']fund-value["'][^>]*>([\s\S]*?)<\/div>/gi)].map(m=>[strip(m[1]),strip(m[2])]);
+ const identities=tables.map(rows).flat().filter(x=>x[0]==='Ticker:');if(identities.length!==1||identities[0][1]!==t)return null;
+ const candidates=tables.map(n=>({n,r:rows(n)})).filter(x=>x.r.some(y=>y[0]==='Net Assets:'));if(candidates.length!==1)return null;
+ const {n,r}=candidates[0],labels=['Net Assets:','NAV:','Shares Outstanding:','Premium/Discount Percentage','Closing Price:','Median 30-Day Spread*:'];if(r.length!==6||r.some((x,i)=>x[0]!==labels[i]))return null;
+ let container=n.parent;while(container&&!container.classes.includes('e-con'))container=container.parent;if(!container?.end)return null;
+ const text=strip(h.slice(container.start,container.end)),dates=[...text.matchAll(/\bAs of\s+(\d{1,2})\/(\d{1,2})\/(\d{4})\b/gi)];if(dates.length!==1||!text.startsWith('Net Assets:'))return null;
+ const d=dates[0],asOf=`${d[3]}-${d[1].padStart(2,'0')}-${d[2].padStart(2,'0')}`,date=new Date(asOf+'T00:00:00Z');if(!Number.isFinite(+date)||date.toISOString().slice(0,10)!==asOf)return null;
+ const m=r[0][1].match(/^\$([\d,]+(?:\.(\d+))?)\s*([BMK]?)$/);if(!m)return null;const mult={B:1e9,M:1e6,K:1e3,'':1}[m[3]],v=Number(m[1].replace(/,/g,''))*mult;if(!Number.isFinite(v)||v<=0)return null;
+ return {v:Math.round(v),asOf,issuer:'YieldMax',src,currency:'USD',sourceValue:r[0][1],sourcePrecisionUSD:mult/10**(m[2]?.length||0)};
+}
+
+
+
+async function yieldmax(names,log){
+ const links=Object.entries(yieldmaxLinks(await get('https://yieldmaxetfs.com/our-etfs/',40000),names)),out={};let i=0,blocked=false;
+ await Promise.all(Array.from({length:2},async()=>{while(i<links.length&&!blocked){const[t,url]=links[i++];try{const r=parseYieldmax(await get(url,30000),t,url);if(r)out[t]=r;else log('NA   YieldMax gap',t);}catch(e){log('NA   YieldMax error',t,e.message);if(/HTTP (403|429)\b/.test(e.message))blocked=true;}}}));
+ log('NA   YieldMax',Object.keys(out).length+'/'+links.length,blocked?'stopped on source access response':'');return out;
+}
+
 async function pool(items, n, fn){ const res = []; let i = 0; await Promise.all(Array.from({length: n}, async () => { while(i < items.length){ const k = items[i++]; try{ const r = await fn(k); if(r) res.push([k, r]); }catch(e){} } })); return res; }
 module.exports = async function fetchNetAssets(root, log = console.log){ const out = {};
   for(const [name, fn] of [['iShares', ishares], ['SSGA', ssga]]){ try{ const r = await fn(); Object.assign(out, r); log('NA   ' + name, Object.keys(r).length); }catch(e){ log('NA   ' + name + ' error', e.message); } }
   let names = []; try{ names = JSON.parse(fs.readFileSync(path.join(root, 'securities-us.json'), 'utf8')).d || []; }catch(e){}
   const etfs = names.filter(x => x && x[2] === 1);
   try{ const r = parseNeos(await get('https://neosfunds.com/', 40000), etfs); Object.assign(out, r); log('NA   NEOS', Object.keys(r).length); }catch(e){ log('NA   NEOS error', e.message); }
+  try{ Object.assign(out,await yieldmax(etfs,log)); }catch(e){log('NA   YieldMax error',e.message);}
   for(const [name, rx, fn] of [['Global X', /^Global X\b/i, globalx], ['First Trust', /^(First Trust|FT )/i, firsttrust]]){ const ts = etfs.filter(x => rx.test(x[1])).map(x => x[0]).filter(t => !out[t]);
     try{ const r = await pool(ts, 6, fn); r.forEach(([t, e]) => { out[t] = e; }); log('NA   ' + name, r.length + '/' + ts.length); }catch(e){ log('NA   ' + name + ' error', e.message); } }
   return out; };
