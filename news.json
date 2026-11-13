@@ -39636,5 +39636,44 @@
     },
     "מזהה": "n-1542",
     "הועלה": "2026-11-13 10:26"
+  },
+  {
+    "category": "micro",
+    "חברה": "SpaceX / SPCX",
+    "חברה_en": "SpaceX / SPCX",
+    "symbols": [
+      "SPCX"
+    ],
+    "sectors": [
+      "technology",
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "עדכון SpaceX: הודעת החברה מוסיפה קמפוס מתוכנן של כ-50 מיליארד דולר באריזונה לצד מיזם טקסס; לא הוצאה שכבר בוצעה",
+    "כותרת_en": "SpaceX update: company release adds roughly $50 billion planned Arizona campus alongside Texas project; not spending already completed",
+    "טקסט": "12.11.2026 | הודעת SpaceX המלאה מתאריך זה נקראה ישירות בעמוד העדכונים, עד סופה ולפני ההודעה הבאה מ-7 בנובמבר. שעת הפרסום המקורית לא אומתה; עדכון השלמה, בנפרד מהצעת טקסס שתוארה ב-n-1082 ב-9 בנובמבר. הפריט הקודם נשמר ללא שינוי.\n\nSpaceX מתארת שתי תוכניות לקמפוסי מחשוב-על: מיזם בסטארבייס שבטקסס וקמפוס של כ-50 מיליארד דולר במחוז Cochise באריזונה. החברה מציגה את התוכניות יחד כהשקעה אמריקאית מתוכננת של יותר מ-74 מיליארד דולר. זו הצהרת תוכניות, לא סכום שכבר שולם, מימון סגור או אישור שכל ההיתרים התקבלו.\n\nיש אי-אחידות בניסוח ההיקף בטקסס בתוך ההודעה: המבוא אומר יותר מ-24 מיליארד דולר, ואילו החלק המפורט אומר עד 24 מיליארד. לכן אין להציג את הסכום כמחיר חוזה סופי או לתקן את הסתירה באמצעות חיבור עצמאי. לפי החברה, המיזם בטקסס כבר יצר יותר מ-3,000 משרות בנייה; יותר מ-500 משרות קבועות הן יעד להפעלה עתידית, לא מצבת עובדים שכבר הושגה.\n\nבטקסס מתוכנן ייצור חשמל עצמאי ללא משיכה מהרשת הציבורית. באריזונה מתוארת עבודה עם אגודות חשמל מקומיות והישענות על תשתיות רשת ואנרגיה קיימות. החברה מבקשת אישורים לקמפוס באריזונה, וצופה כ-5,500 משרות בנייה וכ-1,000 קבועות. חיסכון אפשרי של עד 20% בחשבונות חברי אגודות הוא יעד מותנה, לא הפחתת תעריף שכבר נכנסה לתוקף.\n\nSpaceX מתארת קירור יבש באריזונה וללא שימוש תעשייתי מתוכנן במי תהום או בארות חדשות. אין להסיק מכך שהאתר לא ישתמש במים כלל, או להעתיק לאריזונה את תכנון תחנת הכוח של טקסס. אלו תיאורי החברה ולא אישור סביבתי עצמאי.\n\nבנפרד, החברה מדווחת על התחייבות של 220 מיליון דולר לתשתיות מים ושפכים בבראונסוויל ובמחוז קמרון, מתוכה 40 מיליון כבר הועברו לדבריה ל-Brownsville Public Utilities Board. תוספת קיבולת של כ-20 מיליון גלון ליום היא יעד הפרויקטים, לא קיבולת פעילה שכבר נוספה; הבעלות הציבורית ותעריפי המים הרגילים אמורים להישמר לפי ההודעה.\n\nהחידוש מול n-1082 הוא אימות הצהרת החברה והוספת התוכנית באריזונה ופרטי המימון המקומי. רשימת ההודעות של עיריית סטארבייס עדיין מציגה שימוע בנושא הטבות מס והסכמי פיתוח ל-9 בדצמבר; רישום שימוע אינו אישור להטבות. אין כאן אישור לרכישת Boca Chica State Park או החוף, או הכרעה לגבי עסקת מיזוג עם Tesla.",
+    "טקסט_en": "November 12, 2026 | SpaceX's complete release for this date was read directly on its updates page through its ending, before the next November 7 release. The original publication clock was not verified. Catch-up update, separate from the Texas proposal covered in n-1082 on November 9. The earlier record remains unchanged.\n\nSpaceX describes two planned supercompute campuses: a Starbase, Texas project and a roughly $50 billion campus in Cochise County, Arizona. It presents the two as more than $74 billion in planned American investment. This is a statement of plans, not money already spent, closed financing or confirmation that every permit has been obtained.\n\nThe release's Texas amounts are internally inconsistent: the overview says more than $24 billion, while the detailed section says up to $24 billion. These are not a final contract price, and the inconsistency should not be silently repaired with our own sum. SpaceX says the Texas project has already generated more than 3,000 construction jobs; more than 500 permanent jobs is an operating-stage target, not an existing workforce count.\n\nTexas is designed to generate its own electricity without drawing from the public grid. Arizona involves local electric cooperatives and existing grid and energy infrastructure. SpaceX is seeking approvals for Arizona and forecasts about 5,500 construction jobs and 1,000 permanent jobs. Potential electricity-bill savings of up to 20% for cooperative members are conditional targets, not a rate cut already in effect.\n\nSpaceX describes dry cooling in Arizona with no planned industrial groundwater use or new wells. That is not zero water use, and Texas's on-site power-plant design must not be assigned to Arizona. These are company descriptions, not independent environmental clearance.\n\nSeparately, SpaceX reports a $220 million commitment to Brownsville and Cameron County water and wastewater infrastructure, of which it says $40 million has already been provided to the Brownsville Public Utilities Board. Around 20 million gallons per day of additional capacity is the projects' target, not new operating capacity already delivered. Public ownership and standard water rates are to remain in place, according to the release.\n\nThe increment over n-1082 is direct confirmation of the company's statement, the Arizona plan and local-funding details. Starbase's notices listing still shows a December 9 hearing on tax abatement and development agreements; a hearing listing is not incentive approval. This does not approve a Boca Chica State Park or beach acquisition or settle the proposed Tesla merger question.",
+    "קישור": "https://www.spacex.com/updates?t=20",
+    "מקורות": [
+      {
+        "url": "https://www.spacex.com/updates?t=20",
+        "label": "SpaceX: הודעת 12 בנובמבר המלאה, לפני ההודעה מ-7 בנובמבר",
+        "label_en": "SpaceX: complete November 12 release, before the November 7 entry"
+      },
+      {
+        "url": "https://www.starbase.texas.gov/ordinances",
+        "label": "עיריית סטארבייס: רישום שימוע מס ל-9 בדצמבר, לא החלטת אישור",
+        "label_en": "City of Starbase: December 9 tax-hearing listing, not an approval decision"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "aff9e350ff6c97ec4441fe1603d5865b9575966c20088b085d1c6487fc657607"
+      }
+    },
+    "מזהה": "n-1543",
+    "הועלה": "2026-11-13 10:29"
   }
 ]
