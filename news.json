@@ -38278,5 +38278,30 @@
         "source_hash": "2e4220fec401e30c9f76e2f369a3d8019b56a5b01bbbfc9206e5cc5ba8697194"
       }
     }
+  },
+  {
+    "מזהה": "n-1501",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "תאריך": "2026-11-13 02:00",
+    "כותרת": "לפי Politico, טים סקוט מבקש מהואנג ומלוטניק להעיד בנפרד בסנאט בדצמבר; איום מותנה בזימון מחייב להואנג",
+    "כותרת_en": "Politico: Tim Scott requests separate December Senate testimony from Huang and Lutnick; conditional subpoena threat for Huang",
+    "טקסט": "לא מאומת מול מקור ראשוני\nדיווח Politico המקורי של Jasper Goodman פורסם ב-12 בנובמבר ב-19:00 שעון החוף המזרחי, כלומר 13 בנובמבר ב-02:00 בישראל, ונקרא במלואו. זהו דיווח על מכתבים, ולא אימות ישיר של נוסחם: קישורי המכתבים מובילים לכניסה ל-PoliticoPro, ובדפי הוועדה שנבדקו לא נמצא עותק תואם. אין בכך הוכחה שהמכתבים לא פורסמו במקום אחר.\n\nלפי Politico, יו\"ר ועדת הבנקאות של הסנאט טים סקוט שלח ביום חמישי בערב מכתבים נפרדים למנכ\"ל NVIDIA לשעבר ג'נסן הואנג ולשר המסחר הווארד לוטניק. הוא ביקש מהואנג להעיד ב-3 בדצמבר ומלוטניק ב-10 בדצמבר. אלה תאריכים שהתבקשו לפי הדיווח, לא מועדי הופעה שהנמענים אישרו או שימועים שהתקיימו.\n\nלפי הכתבה, המכתב להואנג מאיים בזימון מחייב אם לא יופיע מרצונו. אין כאן אימות שזימון מחייב הוצא. הבקשה מלוטניק עוסקת בפיקוח על תפקיד משרד המסחר בהנפקה ובאכיפה של אישורי יצוא, בעקבות הדיווחים על NVIDIA ועל חששות לביטחון הלאומי. דוברי משרד המסחר, הואנג ו-NVIDIA לא הגיבו מיד לפניית Politico; היעדר תגובה אינו הודאה.\n\nזהו שלב פיקוח נפרד בוועדת הבנקאות של הסנאט, ולא בקשת ועדות בית הנבחרים או ההסכמה להופיע לפני חג ההודיה שעליה דיווח מאסט, ולא מכתב שימור המסמכים של וורן וקונס או בדיקת המסים והמכסים של ויידן וניל. הדיווח אינו קובע ממצא חדש של ריגול או הפרת יצוא, אינו החלטת דירקטוריון נוספת ואינו שינוי בהנהלת NVIDIA. אין שעה, חדר או אישור הופעה שמאפשרים להציג כאן אירוע מתוזמן ביומן.",
+    "טקסט_en": "Not verified against a primary source\nJasper Goodman's original Politico report was published November 12 at 7:00 p.m. Eastern time, November 13 at 02:00 Israel time, and read in full. This is reporting about letters, not direct verification of their text: the linked letters lead to a PoliticoPro sign-in, and no matching copy was found on the committee pages checked. That does not prove the letters were not published elsewhere.\n\nAccording to Politico, Senate Banking Chair Tim Scott sent separate letters Thursday evening to former NVIDIA CEO Jensen Huang and Commerce Secretary Howard Lutnick. He requested Huang's testimony on December 3 and Lutnick's on December 10. These are requested dates in the report, not appearances accepted by the recipients or hearings that have taken place.\n\nThe article says Huang's letter threatens a subpoena if he does not appear voluntarily. No issued subpoena is verified here. The Lutnick request concerns oversight of the Commerce Department's role in issuing and enforcing export controls following reports about NVIDIA and national-security concerns. Spokespeople for Commerce, Huang and NVIDIA did not immediately respond to Politico. Lack of a response is not an admission.\n\nThis is a separate Senate Banking oversight step, not the House committees' request or the before-Thanksgiving appearance agreement reported by Mast, Warren and Coons' records-preservation letter, or Wyden and Neal's tax-and-tariff inquiry. The report establishes no new finding of espionage or an export violation, additional board decision or change in NVIDIA leadership. No time, room or accepted appearance is verified for a scheduled calendar event.",
+    "קישור": "https://www.politico.com/live-updates/2026/11/12/congress/tim-scott-summons-jensen-huang-howard-lutnick-to-testify-over-nvidia-saga-01164124",
+    "מקורות": [
+      {
+        "url": "https://www.politico.com/live-updates/2026/11/12/congress/tim-scott-summons-jensen-huang-howard-lutnick-to-testify-over-nvidia-saga-01164124",
+        "label": "Politico: הדיווח המקורי המלא על בקשות סקוט",
+        "label_en": "Politico: full original report on Scott's requests"
+      }
+    ],
+    "הועלה": "2026-11-13 04:35",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "64fcab484d11ad43d5a34103cf9b4198e9881e42e2300562491b095cfdf794ac"
+      }
+    }
   }
 ]
