@@ -43124,5 +43124,83 @@
     },
     "מזהה": "n-1646",
     "הועלה": "2026-11-13 21:22"
+  },
+  {
+    "category": "micro",
+    "חברה": "NVDA",
+    "חברה_en": "NVDA",
+    "תאריך": "2026-11-13 21:18",
+    "כותרת": "דירקטוריון NVIDIA ל-CNBC: טרם נבחרה חברת איתור למנכ״ל קבוע, ולא הייתה התקשרות רשמית עם מועמדים",
+    "כותרת_en": "NVIDIA board tells CNBC: no CEO search firm selected and no potential candidates formally engaged",
+    "קישור": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
+        "label": "CNBC: הדיווח המקורי המלא עם הצהרת הדירקטוריון, 13 בנובמבר 14:18 EST",
+        "label_en": "CNBC: full original report quoting board statement, November 13 at 14:18 EST"
+      }
+    ],
+    "טקסט": "לא אומת מול מקור ראשוני שפורסם בידי החברה: מבוסס על הצהרה שמסר דירקטוריון NVIDIA ל-CNBC, כפי שמצוטטת בכתבה המקורית שנקראה במלואה. 13 בנובמבר 2026, 21:18 בישראל (14:18 EST).\n\nדירקטוריון NVIDIA מסר ל-CNBC כי החברה נמצאת בתהליך בחירת חברת איתור לתפקיד המנכ״ל, וכי לא התקשרה רשמית עם מועמדים פוטנציאליים. לפי הכתבה, חברת איתור עדיין לא נבחרה. זו הבהרה לגבי שלב החיפוש, לא הודעה על בחירת מנכ״ל קבוע או על מינוי חברת איתור.\n\nהחידוש לעומת n-1445, ההודעה הרשמית על התפטרות ג׳נסן הואנג ומינוי קולט קרס למנכ״לית זמנית, הוא מצב הליך האיתור כעת. ההודעה הקודמת אמרה שיישקלו מועמדים פנימיים וחיצוניים; ההצהרה הנוכחית אינה מבטלת זאת. קרס נשארת המנכ״לית הזמנית לפי ההקשר שפורסם, ולא הוכרזה כאן כבחירה קבועה.\n\nאי-התקשרות רשמית אינה מוכיחה שלא היו שיחות לא רשמיות, פניות ראשוניות או דיונים פנימיים. אין כאן אישור לזהותו של מועמד מסוים, הכחשה מוכחת של כל מגע אפשרי, תאריך להשלמת החיפוש או ממצאים מהחקירה הנפרדת של הדירקטוריון. לא מיוחסת לדיווח תנועת מניה שלא נבדקה.",
+    "טקסט_en": "Not verified against a primary source published by the company: based on a statement NVIDIA's board gave CNBC, quoted in the full original article. November 13, 2026, 21:18 Israel (14:18 EST).\n\nNVIDIA's board told CNBC that it is in the process of selecting a search firm for the CEO role and has not formally engaged any potential candidates. The article says a search firm has not yet been selected. This clarifies the search stage; it does not announce a permanent CEO or the appointment of a search firm.\n\nThe increment over n-1445, the official announcement of Jensen Huang's resignation and Colette Kress's interim appointment, is the current status of the search process. The earlier announcement said internal and external candidates would be considered; this statement does not withdraw that plan. Kress remains the interim CEO in the published context, not a newly announced permanent selection.\n\nNo formal engagement does not establish that there have been no informal conversations, preliminary approaches or internal discussions. This is not confirmation of a particular candidate, proof disproving every possible contact, a deadline to complete the search or a finding from the separate board investigation. No unverified stock move is attributed to the report.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f1286073b5be860e9956ffea5f0c838025edaa80b4e933e2c9c3fee197711648"
+      }
+    },
+    "מזהה": "n-1647",
+    "הועלה": "2026-11-13 21:36"
+  },
+  {
+    "category": "micro",
+    "חברה": "HOOD",
+    "חברה_en": "HOOD",
+    "תאריך": "2026-11-13 21:00",
+    "כותרת": "לפי CNBC: העליון האמריקאי ידון בערעור רובינהוד על תביעת השמטת מידע בהנפקת 2021; אין הכרעה לגופה",
+    "כותרת_en": "CNBC: U.S. Supreme Court will hear Robinhood challenge to 2021 IPO omissions lawsuit; no merits ruling",
+    "קישור": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
+        "label": "CNBC: הדיווח המקורי המלא של Dan Mangan, 13 בנובמבר 14:00 EST",
+        "label_en": "CNBC: full original report by Dan Mangan, November 13 at 14:00 EST"
+      }
+    ],
+    "טקסט": "לא אומת מול מקור ראשוני: הכתבה המקורית המלאה של CNBC נקראה. אינדקס הצווים הרשמי מציג צו מ-13 בנובמבר, אך תוכן הצו והתיק המסוים לא נבדקו ישירות. 13 בנובמבר 2026, 21:00 בישראל (14:00 EST).\n\nלפי CNBC, בית המשפט העליון בארה״ב הסכים לדון בניסיון של Robinhood להביא לביטול תביעת משקיעים הנוגעת להשמטת נתונים כספיים לתקופת ביניים ממסמכי ההנפקה הראשונה שלה ב-2021. קבלת התיק לדיון אינה קבלת טענות החברה ואינה דחיית התביעה לגופה.\n\nהכתבה אומרת ששופט פדרלי בסן פרנסיסקו דחה קודם את התביעה, ושבית המשפט הפדרלי לערעורים במעגל התשיעי החיה אותה. רובינהוד מבקשת להפוך את החלטת הערעור. CNBC מוסיפה שממשל טראמפ תמך בכך שהעליון ישמע את הערעור; זו עמדת הממשל ולא תוצאת ההליך.\n\nזהו תיק ניירות ערך הקשור לגילוי בהנפקת 2021, לא הצו הזמני בלואיזיאנה בנוגע לחוזי אירועים שפורסם בנפרד ב-n-1573. לא אומתו מועד הדיון, פסק דין סופי, אחריות משפטית, פיצויים או קנס. אין כאן הכרזה שהחברה ניצחה או שהסיכון המשפטי הוסר.",
+    "טקסט_en": "Not verified against a primary source: the full original CNBC article was read. The official orders index lists a November 13 order, but the order text and specific docket were not directly reviewed. November 13, 2026, 21:00 Israel (14:00 EST).\n\nCNBC reports that the U.S. Supreme Court agreed to consider Robinhood's effort to block an investor lawsuit concerning omitted interim financial data in its 2021 initial public offering. Agreeing to hear the case does not accept the company's arguments or dismiss the lawsuit on its merits.\n\nThe article says a San Francisco federal judge previously dismissed the lawsuit and the Ninth Circuit revived it. Robinhood wants that appeals decision overturned. CNBC adds that the Trump administration supported Supreme Court review; that is the administration's position, not the outcome.\n\nThis is a securities-disclosure case concerning the 2021 IPO, not the Louisiana temporary order concerning event contracts separately covered in n-1573. No hearing date, final judgment, liability finding, damages or fine was verified. This does not announce a company victory or removal of the legal risk.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b16bfa7bd1409607a66231ebd5cf7bb57692518b0a5ceffe461cfeb6e5398029"
+      }
+    },
+    "מזהה": "n-1648",
+    "הועלה": "2026-11-13 21:36"
+  },
+  {
+    "category": "micro",
+    "חברה": "EME",
+    "חברה_en": "EME",
+    "תאריך": "2026-11-13",
+    "כותרת": "EMCOR חתמה על הסכם לרכישת P1 Construction במזומן; סכום לא נמסר והסגירה צפויה ברבעון הראשון של 2027",
+    "כותרת_en": "EMCOR signs all-cash agreement to acquire P1 Construction; price undisclosed, closing expected in Q1 2027",
+    "קישור": "https://emcorgroup.com/investor-relations/press-releases/2026-news/emcor-group-inc-announces-agreement-to-acquire-p1-construction-llc",
+    "מקורות": [
+      {
+        "url": "https://emcorgroup.com/investor-relations/press-releases/2026-news/emcor-group-inc-announces-agreement-to-acquire-p1-construction-llc",
+        "label": "EMCOR: ההודעה הרשמית המלאה, 13 בנובמבר 2026; שעת פרסום לא אומתה",
+        "label_en": "EMCOR: full official release, November 13, 2026; publication time not verified"
+      }
+    ],
+    "טקסט": "ההודעה הרשמית המלאה של EMCOR מ-13 בנובמבר 2026 נקראה. שעת הפרסום המקורית לא אומתה.\n\nEMCOR הודיעה שחתמה על הסכם מחייב לרכישת P1 Construction, קבלנית מכונות וחשמל מלנקסה שבקנזס, בעסקת מזומן. תנאי העסקה הכספיים לא נמסרו. החברה מצפה לממן את הרכישה ממזומן שברשותה ולסגור אותה ברבעון הראשון של 2027, בכפוף לאישורים רגולטוריים ולתנאי סגירה מקובלים. זו עסקה שנחתמה, לא רכישה שכבר הושלמה.\n\nP1 פועלת בתחומי תשתיות קריטיות, לרבות מרכזי נתונים גדולים, ייצור מתקדם ומערכות בריאות, ובעלת יכולות ייצור מוקדם ומערכות מכניות וחשמליות. הרלוונטיות העסקית היא הרחבת יכולות הביצוע של EMCOR בשווקים אלה, לא חוזה חדש עם לקוח מסוים או הכנסה מובטחת.\n\nלפי ההודעה, P1 צפויה לייצר בשנת 2026 הכנסות של 600–650 מיליון דולר ו-EBITDA מתואם של כ-60 מיליון דולר. אלה תחזיות לפעילות הנרכשת, לא מחיר הרכישה, לא נתונים כספיים שכבר הושלמו ואומתו לשנה המלאה ולא תוספת שכבר נכללה בתוצאות EMCOR.\n\nעם השלמת העסקה, P1 אמורה להצטרף לחטיבת הבנייה המכנית ושירותי המתקנים של EMCOR. ברוס בלצ׳ר אמור להישאר מנכ״ל P1 וההנהלה והמטה בלנקסה אמורים להישאר במקומם. תנאים אלה מתוארים כתוכנית לאחר הסגירה; אין הודעה שהאישורים כבר התקבלו או שהעסקה תיסגר בוודאות.",
+    "טקסט_en": "EMCOR's full official November 13, 2026 release was read. The original publication time was not verified.\n\nEMCOR announced a definitive agreement to acquire Lenexa, Kansas-based mechanical and electrical contractor P1 Construction in an all-cash transaction. Financial terms were not disclosed. EMCOR expects to fund the purchase with cash on hand and close in the first quarter of 2027, subject to regulatory approvals and customary closing conditions. This is a signed agreement, not a completed acquisition.\n\nP1 serves critical infrastructure including hyperscale data centers, advanced manufacturing and healthcare, with fabrication and mechanical/electrical capabilities. The business relevance is an expansion of EMCOR's delivery capabilities in those markets, not a new contract with a named customer or guaranteed revenue.\n\nThe release says P1 is expected to generate 2026 revenue of $600 million to $650 million and adjusted EBITDA of about $60 million. These are forecasts for the target business, not the purchase price, independently verified full-year actuals or contributions already included in EMCOR's results.\n\nAfter closing, P1 is expected to join EMCOR's Mechanical Construction and Facilities Services segment. Bruce Belcher is to remain P1's CEO, with the leadership team and Lenexa headquarters remaining in place. Those are post-closing plans, not confirmation that approvals have already been obtained or that closing is certain.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "122dd717dd8c1bf3414e367839bfd54499870c8777ccaced8b2e8e305e5a8587"
+      }
+    },
+    "מזהה": "n-1649",
+    "הועלה": "2026-11-13 21:36"
   }
 ]
