@@ -43067,5 +43067,57 @@
     },
     "מזהה": "n-1644",
     "הועלה": "2026-11-13 21:14"
+  },
+  {
+    "category": "micro",
+    "חברה": "NVDA",
+    "חברה_en": "NVDA",
+    "תאריך": "2026-11-13 20:32",
+    "כותרת": "לפי CNBC: החזקת מניות NVIDIA המדווחת של קנטור ירדה בכ-49%; אין ראיה למידע מוקדם אצל בני לוטניק",
+    "כותרת_en": "CNBC: Cantor reported NVIDIA share count fell about 49%; no evidence Lutnick sons had advance knowledge",
+    "קישור": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+        "label": "CNBC: הדיווח המקורי המלא של Luke Fountain, 13 בנובמבר 13:32 EST",
+        "label_en": "CNBC: full original report by Luke Fountain, November 13 at 13:32 EST"
+      }
+    ],
+    "טקסט": "לא אומת מול מקור ראשוני: מבוסס על כתבת CNBC המקורית שנקראה במלואה, לרבות תגובת קנטור וההסתייגויות. 13 בנובמבר 2026, 20:32 בישראל (13:32 EST). דוחות ניירות הערך עצמם לא נבדקו כאן בנפרד.\n\nלפי ניתוח CNBC של דיווחי ניירות ערך, מספר מניות NVIDIA שקנטור פיצג׳רלד דיווחה עליהן ירד בכ-49%, מכ-3.49 מיליון בספטמבר 2025 לכ-1.78 מיליון במרץ 2026. הכתבה קושרת מבחינת עיתוי את התקופה לדיווחי Axios על לחץ שהופעל על שר המסחר הווארד לוטניק בנוגע לחשד להברחת שבבים לסין. זו השוואת עיתוי, לא הוכחה לסיבת הירידה.\n\nקנטור, שנוהלה בעבר בידי השר וכיום בידי בניו ברנדון וקייל, אמרה ל-CNBC שהחזקותיה העצמאיות הישירות ב-NVIDIA היו לא מהותיות, ושמרבית ההחזקות המשתקפות בדיווחי 13F נבעו מעסקאות החלף עם לקוחות בשגרת הפעילות. ספירת המניות אינה כוללת אופציות, ואינה מוכיחה מה הייתה החשיפה הכלכלית נטו של החברה או אם היא ירדה.\n\nCNBC מדגישה שאין ראיה שלבניו של לוטניק היה מידע מוקדם על החששות המודיעיניים, שהשינוי בהחזקות נבע מאזהרות, או שהאינטרסים העסקיים של קנטור השפיעו על החלטות השר. אין כאן ממצא של מסחר במידע פנים, הפרת חוק או השפעה פסולה. משרד המסחר, הבית הלבן, השר ובניו לא השיבו לשאלות הכתבה; אי-תגובה אינה הודאה.\n\nהכתבה מתארת גם קשרים מסחריים מתמשכים: אירוח הואנג ובכירים למשקיעים בסוף ספטמבר ותפקיד קנטור כאחת משבע מנהלות בהנפקת אג״ח להמרה של IREN שגייסה 3 מיליארד דולר במאי. לא ידוע כמה קנטור הרוויחה מהעסקה. אלה קשרים ועסקאות קודמים ש-CNBC סוקרת, לא הסכם חדש של NVIDIA או הכנסה חדשה שהוכרזה היום. החידוש לעומת פריטי המזכר, הבדיקות והדיונים על עתיד השר הוא הניתוח המסוים של ההחזקות והקשרים, לצד תגובת קנטור.",
+    "טקסט_en": "Not verified against a primary source: based on the full original CNBC report, including Cantor's response and the caveats. November 13, 2026, 20:32 Israel (13:32 EST). The securities filings were not separately inspected here.\n\nCNBC's analysis of securities filings found that Cantor Fitzgerald's reported NVIDIA share count fell about 49%, from roughly 3.49 million in September 2025 to 1.78 million in March 2026. The article places that period alongside Axios reporting about pressure on Commerce Secretary Howard Lutnick concerning suspected chip smuggling to China. This is a comparison of timing, not proof of why the reported holdings fell.\n\nCantor, formerly run by the secretary and now led by his sons Brandon and Kyle, told CNBC that its stand-alone proprietary NVIDIA positions were immaterial and that most positions reflected in 13F filings arose from ordinary client swap transactions. The share count excludes options and does not establish the firm's net economic exposure or whether it declined.\n\nCNBC explicitly says there is no evidence that Lutnick's sons had advance knowledge of intelligence concerns, that holding changes were tied to warnings, or that Cantor's business interests influenced the secretary's decisions. This is not a finding of insider trading, a legal violation or improper influence. Commerce, the White House, the secretary and his sons did not answer the article's questions; silence is not an admission.\n\nThe article also reviews continuing business ties: hosting Huang and executives for investors in late September and Cantor's role as one of seven bookrunners in IREN's May convertible offering, which raised $3 billion. Cantor's earnings from that deal are unknown. These are earlier relationships and transactions reviewed by CNBC, not a new NVIDIA agreement or revenue announcement today. The increment over earlier memo, inquiry and personnel-discussion items is this specific holdings-and-relationships analysis and Cantor's response.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "78616a0a6f96ef2ca3249788df9ec6b86cd88e521b5649b75aac61c4000d8d27"
+      }
+    },
+    "מזהה": "n-1645",
+    "הועלה": "2026-11-13 21:22"
+  },
+  {
+    "category": "micro",
+    "חברה": "NVDA",
+    "חברה_en": "NVDA",
+    "תאריך": "2026-11-09",
+    "כותרת": "השלמה מ-9 בנובמבר: NVIDIA הציגה את GR00T 2 ללמידת רובוטים מהדגמות אנושיות ולהעברת מיומנויות בין גופים",
+    "כותרת_en": "November 9 catch-up: NVIDIA introduced GR00T 2 for learning from human demonstrations and cross-body skill transfer",
+    "קישור": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+    "מקורות": [
+      {
+        "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+        "label": "NVIDIA Blog: המקור הרשמי המלא, Sasa Docca, 9 בנובמבר 2026; שעת פרסום לא אומתה",
+        "label_en": "NVIDIA Blog: full official source by Sasa Docca, November 9, 2026; publication time not verified"
+      }
+    ],
+    "טקסט": "השלמה לפרסום רשמי מ-9 בנובמבר 2026, לא השקה חדשה ב-13 בנובמבר. הבלוג הרשמי של NVIDIA נקרא במלואו. שעת הפרסום המקורית לא אומתה. הודעת המקור מתייחסת לכנס CoRL באוסטין.\n\nNVIDIA הציגה את GR00T 2, מודל פעולה עולמי לרובוטיקה המבוסס על Cosmos. לפי החברה, הוא אומן על נתוני רובוטים ובני אדם, כולל 100 אלף שעות של נתוני צילום מנקודת המבט של האדם, ומאפשר למידת מיומנויות מניפולציה עדינות מהדגמות אנושיות והעברת מיומנויות בין גופי רובוט שונים ללא הדגמות רובוטיות. אלה טענות החברה לגבי המודל, לא הבטחה שכל מיומנות תעבוד בכל רובוט.\n\nבמבחני החברה המתוארים במקור, המודל השלים 40 מתוך 50 משימות לפחות פעם אחת ללא הדגמות ייעודיות למשימה. זה אינו שיעור הצלחה של 80% בכל ניסיון. עם הדגמה אחת לכל משימה דווח על הצלחה ממוצעת של 71%, ועם חמש הדגמות על 95%. אלה תוצאות הערכה בתנאים ש-NVIDIA מציגה, לא אימות עצמאי או אישור בטיחות לפריסה בעולם האמיתי.\n\nNVIDIA אומרת ש-Nexuni בוחנת טיפול בכביסה, Foxconn מיישמת את המודל באוטומציה לייצור שרתים ו-Siemens מעריכה שימושים תעשייתיים. אלה תיאורי שימוש והערכה של החברה, ללא סכום חוזה, מספר יחידות מסחריות או הכנסות חדשות שנמסרו. פרסום המודל אינו הוכחה לפריסה כללית של רובוטים בבתי לקוחות.\n\nבאותה הודעה הוצגו Isaac Lab 3.0 לשיפור אימון בסימולציה, שילוב עם מנוע הפיזיקה Newton, ומבחני DexBench ו-VABAR. סימולציה והערכה אינן שקולות לביצועים מובטחים בעולם הפיזי. הפריט נפרד מהפרסום הקודם על Cosmos 3 ומהשותפות של Agility סביב Digit 5; הוא אינו משכתב אותם או מתאר אותם כהודעה חדשה.",
+    "טקסט_en": "Catch-up on an official November 9, 2026 publication, not a new November 13 launch. NVIDIA's full official blog was read. The original publication time was not verified. The source describes announcements at CoRL in Austin.\n\nNVIDIA introduced GR00T 2, a robotics world action model built on Cosmos. The company says it was trained on robot and human data, including 100,000 hours of human egocentric data, and can learn dexterous manipulation from human demonstrations and transfer skills between different robot bodies without robot demonstrations. These are the company's model claims, not a guarantee that every skill works on every robot.\n\nIn the company evaluations described in the source, the model completed 40 of 50 tasks at least once without task-specific demonstrations. That does not mean an 80% success rate on every attempt. NVIDIA reports 71% average success with one demonstration per task and 95% with five. These are evaluation results under the conditions NVIDIA presents, not independent validation or a real-world deployment safety certification.\n\nNVIDIA says Nexuni is testing laundry handling, Foxconn is applying the model to server-manufacturing automation and Siemens is evaluating industrial uses. These are company descriptions of applications and evaluations, with no contract value, commercial unit count or new revenue disclosed. The model announcement does not establish general robot deployment in customers' homes.\n\nThe same announcement introduced Isaac Lab 3.0 for simulation training, integration with the Newton physics engine, and the DexBench and VABAR benchmarks. Simulation and evaluation are not guaranteed physical-world performance. This item is distinct from the earlier Cosmos 3 release and Agility's Digit 5 partnership; it does not rewrite them or present them as new today.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1c6d81a000fed041d05fc96d8335d0db0fdd20e3917f0d1f2593d6ce7f9b25d7"
+      }
+    },
+    "מזהה": "n-1646",
+    "הועלה": "2026-11-13 21:22"
   }
 ]
