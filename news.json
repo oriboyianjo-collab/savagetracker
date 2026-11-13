@@ -40718,5 +40718,49 @@
     },
     "מזהה": "n-1572",
     "הועלה": "2026-11-13 12:03"
+  },
+  {
+    "category": "macro",
+    "חברה": "Kalshi / Polymarket / Robinhood / Coinbase",
+    "חברה_en": "Kalshi / Polymarket / Robinhood / Coinbase",
+    "symbols": [
+      "HOOD",
+      "COIN"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-12",
+    "כותרת": "לואיזיאנה: שופט נתן צו זמני נגד חוזי אירועים של Kalshi, Polymarket, Robinhood ו-Coinbase",
+    "כותרת_en": "Louisiana judge grants temporary order against Kalshi, Polymarket, Robinhood and Coinbase event contracts",
+    "טקסט": "12.11.2026, 23:48 בישראל | 15:48 CST בלואיזיאנה, לפי השעה המופיעה בצו החתום. ארבע תמונות הצו שפרסמה התובעת הכללית Liz Murrill נקראו ישירות. זהו עותק שפרסם צד להליך, לא עותק מאושר שהורד מיומן בית המשפט; העתירה המלאה וראיות ההמצאה לא נבדקו.\n\nהשופט Jeffrey Johnson בבית המשפט המחוזי ה-21 בטנגיפאהואה נתן צו הרחקה זמני במעמד צד אחד נגד מפעילות שוקי חיזוי וגופים קשורים. הכותרת כוללת את Kalshi, ישויות Polymarket US, Robinhood Markets ו-Robinhood Derivatives, Coinbase Global ו-Coinbase Financial Markets, לצד חברות נוספות. אין מדובר רק בבקשת המדינה לצו: המסמך מציג צו חתום שניתן. זהו שלב זמני על בסיס פניית המדינה, לא פסק דין סופי אחרי שמיעת טענות כל הצדדים.\n\nהצו אוסר על הגופים הנקובים, ועל מי שפועל עמם ומקבל ידיעה בפועל על הצו, להציע או לתווך חוזי אירועים לאדם הנמצא בלואיזיאנה ללא רישיון והיתר לפי דיני המדינה. הוא אוסר מתן גישה לשוק לאדם הנמצא במדינה, מחייב חסימה גאוגרפית של ההצעות המתוארות בו ואוסר להציג אותן שם כחוקיות או מורשות. מדובר במיקום המשתמש בלואיזיאנה, לא באיסור ארצי על כל פעילות החברות או על כל מסחר בקריפטו.\n\nלפי נוסח הצו, תוקפו פוקע באותה שעה ביום העשירי לאחר נתינתו, אלא אם יוארך כדין או שהנתבעים יסכימו לתקופה ארוכה יותר. הצו קובע דיון בבקשה לצו מניעה מקדמי ל-30 בנובמבר בשעה 09:00 בלואיזיאנה, 17:00 בישראל. אין להציג את מועד הדיון כאילו הוא מאריך אוטומטית את הצו עד אז. לא אומתה החלטה מאוחרת המאריכה, מעכבת או מבטלת אותו.\n\nהצו מורה למדינה להמציאו ואת מסמכי התביעה לנתבעים ולהגיש אישורי המצאה. אין במקורות שנבדקו הוכחה שכל חברה כבר חסמה גישה בפועל. NOLA דיווחה שמשתמשי Kalshi בלואיזיאנה עדיין יכלו לרכוש חוזים ב-19:00 ביום חמישי; זו תצפית מתוארכת של העיתון, לא בדיקת זמינות נוכחית או קביעה עצמאית בדבר הפרת הצו.\n\nזהו הליך מדינתי נפרד מהתביעה הפדרלית נגד ארקנסו ב-n-1572. לפי NOLA, Kalshi ביקשה באותו יום הגנה זמנית בתיק הפדרלי שלה נגד רשויות לואיזיאנה, וטרם ניתנה שם החלטה בזמן דיווח העיתון. אין לערבב בין הצו המדינתי שניתן לבין ההגנה הפדרלית המבוקשת.",
+    "טקסט_en": "November 12, 2026, 23:48 Israel time | 15:48 CST in Louisiana, the time shown on the signed order. All four order images released by Attorney General Liz Murrill were read directly. This is a copy released by a litigant, not a certified copy downloaded from the court docket. The full petition and proof of service were not reviewed.\n\nJudge Jeffrey Johnson of the 21st Judicial District Court in Tangipahoa Parish granted an ex parte temporary restraining order against prediction-market operators and related entities. The caption includes Kalshi companies, Polymarket US entities, Robinhood Markets and Robinhood Derivatives, Coinbase Global and Coinbase Financial Markets, and other companies. This is a signed order, not merely the state's request for one. It is temporary relief based on the state's submission, not a final judgment after hearing all parties.\n\nThe order bars the named entities and people acting with them who receive actual knowledge of it from offering or facilitating event contracts for anyone located in Louisiana without the required state license and permit. It also bars market access for people located in the state, requires geofencing of the offerings described in the order and prohibits representing those offerings there as lawful or authorized. The scope concerns user location in Louisiana, not a nationwide ban on all company operations or all cryptocurrency trading.\n\nThe order says it expires at the same hour on the tenth day after issuance unless properly extended or the defendants agree to a longer period. It sets a preliminary-injunction hearing for November 30 at 09:00 in Louisiana, 17:00 in Israel. That hearing date does not automatically extend the order until then. No subsequent decision extending, staying or vacating it was verified.\n\nThe state must serve the order and pleadings on the defendants and file proof of service. The sources reviewed do not establish that every company has already blocked access. NOLA reported that Kalshi users in Louisiana could still buy contracts at 19:00 Thursday. That is the newspaper's dated observation, not a current availability check or an independent finding of noncompliance.\n\nThis state case is separate from the federal Arkansas complaint in n-1572. NOLA reported that Kalshi sought temporary protection the same day in its federal case against Louisiana officials and that no ruling there had been made at the time of its report. The granted state order must not be confused with the requested federal protection.",
+    "קישור": "https://x.com/AGLizMurrill/status/2121027283058041287",
+    "מקורות": [
+      {
+        "url": "https://x.com/AGLizMurrill/status/2121027283058041287",
+        "label": "ארבע תמונות הצו החתום, שפרסמה התובעת הכללית",
+        "label_en": "Four signed-order images released by the attorney general"
+      },
+      {
+        "url": "https://www.nola.com/news/judge-tro-halt-kalshi-polymarket-robinhood-liz-murrill-louisiana-lawsuit/article_606a30df-0f59-48fc-b52f-6e3ffba2cd5a.html",
+        "label": "NOLA / The Advocate: הדיווח המקומי המלא",
+        "label_en": "NOLA / The Advocate: full local report"
+      },
+      {
+        "url": "https://askspinner.com/news/louisiana-attorney-general-sues-kalshi-polymarket-state-court",
+        "label": "AskSpinner: ההליך והצו הזמני",
+        "label_en": "AskSpinner: proceeding and temporary order"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3bc10780212c67fef22c4e63821bf7859bed3f71031615865a6609c68d2ddfe2"
+      }
+    },
+    "מזהה": "n-1573",
+    "הועלה": "2026-11-13 12:06"
   }
 ]
