@@ -41395,5 +41395,39 @@
     },
     "מזהה": "n-1591",
     "הועלה": "2026-11-13 14:14"
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "דרום קוריאה מאריכה בארבעה שבועות את תקרות מחירי הדלק מבתי הזיקוק לתחנות, ללא שינוי במחיר",
+    "כותרת_en": "South Korea extends refinery-to-station fuel price caps for four weeks without changing prices",
+    "קישור": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789230&pWise=sub&pWiseSub=C4",
+    "מקורות": [
+      {
+        "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789230&pWise=sub&pWiseSub=C4",
+        "label": "ממשלת קוריאה: הודעת משרד התעשייה, 13 בנובמבר",
+        "label_en": "Korean government: industry ministry release, November 13"
+      },
+      {
+        "url": "https://www.korea.kr/common/download.do?fileId=198590116&tblKey=GMN",
+        "label": "המסמך הממשלתי המקורי המלא, שני עמודים",
+        "label_en": "Complete original government document, two pages"
+      },
+      {
+        "url": "https://en.yna.co.kr/view/AEN20261113004400320",
+        "label": "Yonhap: סיקור מלא והבהרה שהמגבלה היא באספקה מבתי זיקוק לתחנות",
+        "label_en": "Yonhap: full report clarifying the refinery-to-station scope"
+      }
+    ],
+    "טקסט": "13.11.2026, 11:00 בישראל | מועד פרסום מסומן במסמך משרד התעשייה הקוריאני: 18:00 בקוריאה. המסמך המקורי המלא וסיקור Yonhap נקראו.\n\nדרום קוריאה הודיעה כי הסבב ה-12 של תקרות מחירי הדלק יישאר ברמות הסבב ה-11 למשך ארבעה שבועות, החל משבת, 14 בנובמבר, בחצות שעון קוריאה. התקרות הן 1,784 וון לליטר בנזין, 1,773 וון לליטר סולר ו-1,380 וון לליטר נפט לחימום (קרוסין).\n\nלפי Yonhap, אלה המחירים המרביים שבהם בתי זיקוק מקומיים רשאים לספק דלק לתחנות. אין להציגם כתקרת מחיר קמעונאית בכל משאבה. ההחלטה מאריכה את תקופת הפיקוח הקיימת; היא אינה הפחתת מחירים חדשה, שינוי מס או הקפאת מחיר הנפט בעולם.\n\nהמשרד מסביר כי למרות ירידת מחירי הנפט לעומת אוקטובר, רמתם ועלויות ההובלה הימית עדיין גבוהות, והמתיחות במזרח התיכון נמשכת. שמירה על יציבות מחירים והקלה על משקי הבית הן מטרות המדיניות, לא נתון חדש שמוכיח שהאינפלציה כבר ירדה. מחירי הנפט מ-12 בנובמבר המובאים בהודעה הם רקע היסטורי, לא ציטוטי מסחר עדכניים.\n\nהממשלה מתכוונת להמשיך לבחון את המצב המקומי והבינלאומי ולהתאים את הפעלת המנגנון לפי הצורך. לא הוכרז כאן שינוי קבוע במחיר או הארכה מעבר לארבעת השבועות שנקבעו.",
+    "טקסט_en": "November 13, 2026, 11:00 Israel time | The Korean industry ministry document marks publication at 18:00 in Korea. The complete original document and Yonhap's report were read.\n\nSouth Korea announced that its 12th round of fuel price caps will remain at the 11th-round levels for four weeks, beginning at midnight on Saturday, November 14, Korea time. The caps are 1,784 won per liter of gasoline, 1,773 won per liter of diesel and 1,380 won per liter of kerosene.\n\nAccording to Yonhap, these are maximum prices at which domestic refiners may supply fuel to gas stations. They are not nationwide retail pump-price ceilings. The decision extends the existing control period; it is not a new price cut, tax change or freeze in global crude prices.\n\nThe ministry says that despite lower crude prices than in October, oil prices and maritime freight costs remain high while Middle East instability continues. Price stability and easing household burdens are policy objectives, not a new measured result showing inflation has already fallen. The November 12 oil prices cited in the document are historical context, not current trading quotes.\n\nThe government intends to keep reviewing domestic and international conditions and adjust the mechanism as needed. This announcement does not establish a permanent price change or an extension beyond the specified four weeks.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1828200793479ea29e7a5b7031c04461dd642ff46d62db986010397280cddac0"
+      }
+    },
+    "מזהה": "n-1592",
+    "הועלה": "2026-11-13 14:16"
   }
 ]
