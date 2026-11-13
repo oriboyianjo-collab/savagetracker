@@ -41265,5 +41265,43 @@
     },
     "מזהה": "n-1587",
     "הועלה": "2026-11-13 13:29"
+  },
+  {
+    "category": "micro",
+    "חברה": "Microsoft",
+    "חברה_en": "Microsoft",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 13:04",
+    "כותרת": "Microsoft: פעולות התאוששות הושלמו בחלק מתשתית אסיה-פסיפיק והדואר משתפר; אזורים אחרים עדיין בטיפול",
+    "כותרת_en": "Microsoft: recovery actions completed on parts of Asia-Pacific infrastructure and mail improves; other regions still being addressed",
+    "קישור": "https://status.cloud.microsoft/api/feed/mac",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/api/feed/mac",
+        "label": "Microsoft: עדכון האירוע הרשמי ב-RSS, 11:04:50 UTC",
+        "label_en": "Microsoft: official incident RSS update, 11:04:50 UTC"
+      },
+      {
+        "url": "https://status.cloud.microsoft/",
+        "label": "עמוד מצב השירות הציבורי של Microsoft",
+        "label_en": "Microsoft public service-status page"
+      }
+    ],
+    "טקסט": "13.11.2026, 13:04:50 בישראל (11:04:50 UTC) | עדכון האירוע הרשמי של Microsoft, שנקרא במלואו ב-13:37 בישראל. זו שעת עדכון האירוע, לא תחילת התקלה. המצב עדיין מסומן ServiceDegradation, פגיעה בשירות.\n\nMicrosoft מדווחת שפעולות התאוששות הושלמו בחלקים מהתשתית שנפגעה באזור אסיה-פסיפיק. החברה מחזירה תעבורה בהדרגה ורואה שיפור בגישה לתיבות דואר ובעיבוד הודעות שהתעכבו. זו התקדמות אזורית בחלק מהתשתית, לא הודעה שכל אסיה-פסיפיק התאוששה או שכל הלקוחות כבר מקבלים שירות תקין.\n\nהחברה מציינת שמשתמשים מסוימים עדיין עשויים לחוות תקלות לסירוגין. כעת היא מרחיבה את פעולות ההתאוששות לתשתית שנפגעה באזורים אחרים, לצד מאמצי ייצוב והוספת קיבולת תומכת לשיפור העקביות. לא פורסמו שיעור התאוששות עולמי, מועד סיום מחייב או כמות הודעות שכבר נמסרו.\n\nצמצום תורי הדואר והצבר נותר בעדיפות. חלון פקיעת הזמן המורחב של 48 שעות נותר בתוקף כדי לסייע לשמר הודעות מעוכבות בזמן שהמסירה מדביקה את הפער. זה אינו אומדן של משך התקלה או הבטחה שכל דואר כבר נמסר.\n\nהחידוש לעומת עדכוני היציבות והקיבולת הקודמים הוא זיהוי אזור שבו פעולות התאוששות כבר הושלמו בחלק מהתשתית ושיפור בשני תרחישי שימוש מסוימים. אין בכך אישור שכל שירותי Microsoft חזרו לפעילות מלאה. רשימת ההשפעות עדיין כוללת Exchange Online ותכונות תלויות דואר ויומן; רוב יכולות הליבה של Teams וגישה ישירה לקבצי SharePoint מתוארות כפעילות.\n\nMicrosoft אומרת שאין לה כעת ראיות לפעילות זדונית הקשורה לאירוע. זו הערכת החברה, לא מסקנת חקירה עצמאית או דוח סיבת שורש סופי. דוח מפורט אמור להימסר לאחר השלמת הטיפול. העדכון הבא הובטח עד 14:00 בישראל (12:00 UTC); זה אינו מועד פתרון מובטח.",
+    "טקסט_en": "November 13, 2026, 13:04:50 Israel time (11:04:50 UTC) | Microsoft's official incident update, read in full at 13:37 Israel time. This is the incident-update timestamp, not the outage start. The status remains ServiceDegradation.\n\nMicrosoft says recovery actions have been completed across portions of affected infrastructure in the Asia-Pacific region. Traffic is being gradually restored, with improvements in mailbox access and delayed email processing. This is regional progress on part of the infrastructure, not confirmation that all of Asia-Pacific has recovered or every customer has normal service.\n\nSome users may still experience intermittent issues. Microsoft is extending the recovery actions across affected infrastructure in other regions while continuing stabilization and adding supporting capacity to improve consistency. It provides no global recovery percentage, binding completion time or count of messages already delivered.\n\nReducing email queues and backlogs remains a priority. The extended 48-hour email timeout window remains in place to help protect delayed messages as delivery catches up. That is not an estimate of outage duration or confirmation that every message has arrived.\n\nThe increment over earlier stability and capacity updates is an identified region where recovery actions have been completed on portions of infrastructure, plus improvements in two specific customer scenarios. It does not establish full recovery of all Microsoft services. The impact list still includes Exchange Online and email- and calendar-dependent features. Most Teams core functions and direct access to SharePoint files are described as working.\n\nMicrosoft says it currently has no evidence of malicious activity associated with the incident. That is the company's assessment, not an independent investigation finding or final root-cause report. A detailed report is planned after mitigation. The next update was promised by 14:00 Israel time (12:00 UTC), not as a guaranteed resolution deadline.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e5dd58d1ea8288ea662511afdf769a7c0a6f2ab6e23e9e515949308dfc488ca8"
+      }
+    },
+    "מזהה": "n-1588",
+    "הועלה": "2026-11-13 13:38"
   }
 ]
