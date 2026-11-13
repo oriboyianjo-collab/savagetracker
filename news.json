@@ -41760,5 +41760,88 @@
         "source_hash": "80166a316a73fc7e638b2381bc2af6cf38483da5f457c2e4289776a6813c44b3"
       }
     }
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13 15:39",
+    "כותרת": "עדכון BLS: ליבת מחירי היצרן באוקטובר עלתה 0.3% בחודש ו-5.0% בשנה; ספטמבר החודשי תוקן ל-0.8%",
+    "כותרת_en": "BLS update: October core producer prices rise 0.3% monthly and 5.0% annually; September monthly gain revised to 0.8%",
+    "קישור": "https://www.bls.gov/news.release/ppi.t01.htm",
+    "מקורות": [
+      {
+        "url": "https://www.bls.gov/news.release/ppi.t01.htm",
+        "label": "BLS: טבלה 1 העדכנית לאוקטובר, שורת ביקוש סופי ללא מזון ואנרגיה",
+        "label_en": "BLS: current October Table 1, final demand excluding food and energy row"
+      }
+    ],
+    "טקסט": "עדכון נפרד ל-n-1602: טבלה 1 של BLS לאוקטובר אומתה ב-13.11.2026 סביב 15:39 בישראל. פריט ההודעה הראשונית נשמר כמצבו בעת הבדיקה; פער אימות הליבה נפתר כעת.\n\nמדד מחירי היצרן לביקוש סופי ללא מזון ואנרגיה עלה באוקטובר ב-0.3% בחודש, מנוכה עונתיות, וב-5.0% ב-12 חודשים, ללא ניכוי עונתיות. העלייה החודשית לספטמבר עודכנה מ-0.7% ל-0.8%; הנתון השנתי הקודם 5.0% נשאר ללא שינוי. שתי שורות הליבה ביומן הושלמו ממקור BLS, תוך שמירת הצפי החודשי 0.3% וההיסטוריה.\n\nהמדד הכללי נותר 0.3% בחודש ו-6.5% בשנה, עם ספטמבר חודשי מתוקן ל-1.4%. אין לערבב את ליבת ללא מזון ואנרגיה עם המדד ללא מזון, אנרגיה ושירותי מסחר, שעלה 0.5% בחודש ו-4.9% בשנה. אלה מדדים שונים, לא סתירה או תיקון של נתון הליבה.\n\nשעת 15:39 היא שעת אימות הטבלה בבדיקה, לא שעת פרסום רשמית חדשה של BLS. אין כאן החלטת ריבית או ייחוס תגובת שוק.",
+    "טקסט_en": "Separate update to n-1602: the October BLS Table 1 was verified around 15:39 Israel time on November 13, 2026. The earlier release item is preserved as it stood when checked; the core verification gap is now resolved.\n\nFinal-demand PPI excluding food and energy rose 0.3% month on month, seasonally adjusted, and 5.0% over 12 months, not seasonally adjusted. September's monthly gain was revised from 0.7% to 0.8%; its annual prior remains 5.0%. Both core calendar rows were completed from BLS while preserving the existing 0.3% monthly forecast and history.\n\nHeadline remains 0.3% monthly and 6.5% annually, with September monthly revised to 1.4%. Core excluding food and energy must not be confused with the separate index excluding food, energy and trade services, which rose 0.5% monthly and 4.9% annually. These are different measures, not a contradiction or revision of core.\n\n15:39 is the table-verification time in this check, not a newly asserted official BLS publication time. This announces no rate decision or attributed market reaction.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e4d03dd76a38890a6daedd97f1465d84a1dac950a82afda1e9068aaf1163ba46"
+      }
+    },
+    "מזהה": "n-1604",
+    "הועלה": "2026-11-13 15:41"
+  },
+  {
+    "category": "micro",
+    "חברה": "Anthropic / Claude",
+    "חברה_en": "Anthropic / Claude",
+    "תאריך": "2026-11-13 15:09",
+    "כותרת": "Claude: אירוע חדש בשגיאות claude.ai, ה-API ו-Claude Code; אירוע ההתחברות הקודם הוכרז כפתור",
+    "כותרת_en": "Claude: new errors incident on claude.ai, API and Claude Code; earlier sign-in incident marked resolved",
+    "קישור": "https://status.claude.com/",
+    "מקורות": [
+      {
+        "url": "https://status.claude.com/",
+        "label": "Claude Status: האירוע החדש, סגירת האירוע הקודם ומצב הרכיבים",
+        "label_en": "Claude Status: new incident, prior incident resolution and component status"
+      }
+    ],
+    "טקסט": "עמוד המצב הרשמי של Claude נבדק ב-13.11.2026 סביב 15:39 בישראל. ב-13:09 UTC, 15:09 בישראל, Anthropic פתחה אירוע חדש ובו היא חוקרת ביצועים מופחתים ושגיאות ב-claude.ai, ב-Claude API וב-Claude Code. מצב האירוע הוא Investigating; אין הודעת פתרון לאירוע החדש.\n\nבעת הבדיקה claude.ai סומן Major Outage, ה-API ו-Claude Code סומנו Partial Outage ו-Claude Cowork סומן בביצועים מופחתים. קונסולת המפתחים ורכיבי הענן של Claude סומנו פעילים. יש להבחין בין תחומי האירוע לבין מצב כל רכיב, ולא להציג זאת כהשבתה מוחלטת של כל מוצרי החברה.\n\nבנפרד, אירוע ההתחברות שתואר ב-n-1589 כמצוי בניטור נסגר: בשעה 11:58 UTC, 13:58 בישראל, החברה הודיעה שהתקלה ב-claude.ai וב-Claude Cowork נפתרה. זהו סיום האירוע הקודם, לא אישור שהאירוע החדש הסתיים או ששניהם חולקים אותה סיבה.\n\nאירוע מחבר Microsoft 365 נשאר נפרד ופתוח: לפי העמוד, פעולות דואר, יומן וחיפוש עדיין נכשלות ברוב הבקשות וגם Claude for Outlook מושפע מתקרית Microsoft. העמוד אינו מייחס את האירוע החדש של Claude לאותה סיבה. לא נמסרו בעדכון החדש מספר משתמשים, סיבת שורש, אובדן נתונים או מועד סיום מובטח.",
+    "טקסט_en": "Claude's official status page was checked around 15:39 Israel time on November 13, 2026. At 13:09 UTC, 15:09 Israel time, Anthropic opened a new incident investigating degraded performance and errors affecting claude.ai, the Claude API and Claude Code. The new incident is Investigating, with no resolution announcement.\n\nAt inspection, claude.ai was marked Major Outage, the API and Claude Code Partial Outage, and Claude Cowork degraded performance. The developer console and Claude's cloud-platform components were operational. Incident scope and each component's status must be distinguished; this is not a complete shutdown of every company product.\n\nSeparately, the earlier authentication incident reported as Monitoring in n-1589 was closed. At 11:58 UTC, 13:58 Israel time, Anthropic said the issue affecting claude.ai and Claude Cowork was resolved. That closes the prior incident, not the new one, and does not establish a shared cause.\n\nThe Microsoft 365 connector incident remains separate and open: the page says mail, calendar and search tools still fail for most requests, with Claude for Outlook also affected by a Microsoft service incident. It does not attribute Claude's new incident to that same cause. The new update supplies no affected-user count, root cause, data-loss finding or guaranteed resolution time.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dc3ddc6074527109d2ceacd7627327faa8ecfff06944b8545b7d6fac5e7df324"
+      }
+    },
+    "מזהה": "n-1605",
+    "הועלה": "2026-11-13 15:41"
+  },
+  {
+    "category": "micro",
+    "חברה": "Microsoft (MSFT)",
+    "חברה_en": "Microsoft (MSFT)",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 14:58",
+    "כותרת": "Microsoft 365: התאוששות רחבה יותר בצפון אמריקה ושיפור מתמשך באירופה; אין עדיין פתרון מלא",
+    "כותרת_en": "Microsoft 365: broader recovery in North America and sustained European improvement; full mitigation still pending",
+    "קישור": "https://status.cloud.microsoft/api/feed/mac",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/api/feed/mac",
+        "label": "Microsoft: הזנת המצב הרשמית, עדכון 12:58:36 UTC ב-13 בנובמבר",
+        "label_en": "Microsoft: official status feed, November 13 update at 12:58:36 UTC"
+      }
+    ],
+    "טקסט": "עדכון Microsoft הרשמי מ-13.11.2026 ב-12:58:36 UTC, 14:58:36 בישראל, נקרא בהזנת המצב סביב 15:39 בישראל. החברה מדווחת על שיפור רחב יותר בצפון אמריקה, שיפור מתמשך בחלקים נרחבים של אירופה וסימני התאוששות מעודדים באזור אסיה-פסיפיק.\n\nלמרות ההתקדמות, משתמשים עדיין עלולים לחוות בעיות גישה לסירוגין ועיכובים בדואר בזמן שהטיפול בתשתית שנותרה פגועה נמשך. החברה מתמקדת בייצוב התשתית שהתאוששה, בהשלמת הטיפול באזורים שנותרו ובהפחתת תורי הדואר. אין כאן הודעה שהשירות חזר במלואו או שכל ההודעות המעוכבות כבר נמסרו.\n\nההתפתחות ביחס ל-n-1596 היא הרחבת ההתאוששות המדווחת בצפון אמריקה והתקדמות אזורית נוספת. אין לפרש את התקרית כהשבתת כל התכונות: החברה ממשיכה להבחין בין יכולות התלויות ב-Exchange לבין פעולות אחרות. רוב יכולות הליבה של Teams, כולל שיחות ופגישות, אינן מושפעות לפי ההזנה.\n\nMicrosoft אומרת שבשלב זה אין בידיה ראיות לפעילות זדונית הקשורה לאירוע. זו הערכת החברה כעת, לא ממצא חקירה סופי שסיבת התקלה הוכרעה. דוח לאחר האירוע עם סיבת שורש וצעדי הגנה מתוכנן רק לאחר השלמת הטיפול. אין מועד התאוששות מלא מובטח או אומדן נזק כספי חדש.",
+    "טקסט_en": "Microsoft's official November 13, 2026 update at 12:58:36 UTC, 14:58:36 Israel time, was read in the status feed around 15:39 Israel time. It reports broader improvements in North America, sustained improvements across much of Europe and encouraging recovery signals in Asia Pacific.\n\nDespite that progress, users may still experience intermittent access issues and delayed email while mitigation continues on remaining affected infrastructure. Microsoft is focusing on stabilizing recovered infrastructure, completing remaining mitigation and reducing email queues. This does not announce full restoration or that all delayed messages have been delivered.\n\nBeyond n-1596, the development is broader reported North American recovery and further regional progress. The incident must not be read as every feature being offline: Microsoft continues to distinguish Exchange-dependent functions from others. Most core Teams functions, including calls and meetings, remain unaffected according to the feed.\n\nMicrosoft says it currently has no evidence of malicious activity associated with the incident. That is its present assessment, not a final root-cause determination. A post-incident report with root cause and defense-in-depth actions is planned only after full mitigation. No guaranteed full-recovery time or new quantified financial loss is provided.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0978c40f8b61950b18804890298a9a393414c35484ee68c86f74ba7fecf0fdc7"
+      }
+    },
+    "מזהה": "n-1606",
+    "הועלה": "2026-11-13 15:41"
   }
 ]
