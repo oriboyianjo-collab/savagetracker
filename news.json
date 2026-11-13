@@ -43010,5 +43010,38 @@
     },
     "מזהה": "n-1642",
     "הועלה": "2026-11-13 20:27"
+  },
+  {
+    "category": "micro",
+    "חברה": "Microsoft (MSFT)",
+    "חברה_en": "Microsoft (MSFT)",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13 19:57",
+    "כותרת": "Microsoft: שיפור רחב בשירותים; התקלה נקשרת לשדרוג קיבולת רשת, והשחזור ללקוחות שנותרו נמשך",
+    "כותרת_en": "Microsoft: broad service recovery; incident linked to network-capacity upgrade, with restoration continuing for remaining customers",
+    "קישור": "https://status.cloud.microsoft/",
+    "מקורות": [
+      {
+        "url": "https://status.cloud.microsoft/api/feed/mac",
+        "label": "Microsoft: הזנת הסטטוס הרשמית המלאה, עדכון 17:57:50 UTC",
+        "label_en": "Microsoft: full official status feed, 17:57:50 UTC update"
+      }
+    ],
+    "טקסט": "13.11.2026, 19:57:50 בישראל (17:57:50 UTC) | עדכון האירוע הרשמי של Microsoft נקרא במלואו בבדיקה השעתית ב-20:39 בישראל. זו שעת עדכון האירוע, לא תחילת התקלה ולא שעת בניית ערוץ ה-RSS.\n\nMicrosoft אומרת שהיא רואה התאוששות רחבה ויציבות בשירותים. לדבריה, האירוע נבע מבעיה בשדרוג קיבולת רשת קודם, שנחשפה בעקבות שינוי רשת מאוחר יותר. החברה אומרת שטיפלה בבעיה הבסיסית, אך ממשיכה לשחזר שירות ללקוחות ולאזורים שנותרו. המצב עדיין מסומן ServiceDegradation, ולא כהודעת סיום או חזרה מלאה של כל הלקוחות.\n\nהחברה מתארת את האירוע כתקלה טכנית שאינה קשורה לסייבר או ל-AI ולסוכנים. זהו הסבר מפורש של Microsoft, מעבר להודעות הקודמות שלא נמצאו ראיות לפעילות זדונית, ולא ממצא של בדיקה עצמאית. דוח מלא לאחר האירוע עדיין מובטח רק לאחר השלמת הבדיקה; אין להפוך את ההסבר הקצר לדוח סיבת שורש סופי.\n\nלפי החברה, לנוכח היקף הביקוש הוחזרו השירותים בהדרגה תוך אימות יציבות בכל שלב. היא מתנצלת על הפגיעה ומסבירה שהגישה האריכה את ההתאוששות כדי לסייע ליציבותה. אין בעדכון שיעור התאוששות מספרי, אישור שכל ההודעות המעוכבות נמסרו או נתון נזק כספי.\n\nהפגיעה שנותרה כוללת Exchange Online ותכונות בשירותים נוספים התלויות בדואר וביומן. רוב יכולות הליבה של Teams וגישה ישירה לקבצי SharePoint מתוארות כפעילות. אין להסיק השבתה כוללת של Azure או סיום אוטומטי של אירוע מחבר Microsoft 365 הנפרד ב-Claude. מועד העדכון הבא שנמסר הוא 22:00 בישראל (20:00 UTC), לא הבטחה לסיום התקלה.",
+    "טקסט_en": "November 13, 2026, 19:57:50 Israel (17:57:50 UTC) | Microsoft's full official incident update was read during the hourly check at 20:39 Israel. This is the incident-update time, not the outage start or RSS channel-build time.\n\nMicrosoft says it is seeing broad recovery and service stability. It attributes the incident to an issue during an earlier network-capacity upgrade that surfaced after a more recent network change. The company says it addressed the underlying issue but continues restoring service for remaining customers and regions. The incident remains ServiceDegradation, not closed or fully restored for every customer.\n\nMicrosoft describes it as a technical issue unrelated to cyber or AI/agents. This is a more explicit company explanation than its earlier statement that it had no evidence of malicious activity, not an independent investigation finding. A full post-incident report is still promised after its review; the short explanation is not a final root-cause report.\n\nThe company says it restored services gradually given the scale of demand, validating stability at each stage. It apologizes for the disruption and says the approach took longer to support stable restoration. The update gives no numeric recovery percentage, confirmation that every delayed email was delivered or quantified financial loss.\n\nRemaining impact includes Exchange Online and email/calendar-dependent features in other services. Most core Teams functions and direct access to SharePoint files are described as functional. This does not establish a total Azure outage or automatically close the separate Claude Microsoft 365 connector incident. The next update is promised by 22:00 Israel (20:00 UTC), not as a guaranteed resolution time.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "33c08ecc4f5905a0c0c8dc10b060defb3be64bd174eb1bcef07fd14310df43ab"
+      }
+    },
+    "מזהה": "n-1643",
+    "הועלה": "2026-11-13 20:40"
   }
 ]
