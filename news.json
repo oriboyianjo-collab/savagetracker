@@ -40201,5 +40201,43 @@
     },
     "מזהה": "n-1558",
     "הועלה": "2026-11-13 10:51"
+  },
+  {
+    "category": "micro",
+    "חברה": "ASML / ASML",
+    "חברה_en": "ASML / ASML",
+    "symbols": [
+      "ASML"
+    ],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-11",
+    "כותרת": "ארבעה איגודים הפסיקו את השיחות עם ASML על הארגון מחדש; מחלוקת על זכויות עובדים, לא קריאה לשביתה",
+    "כותרת_en": "Four unions leave ASML reorganization talks over employee-rights dispute; no strike call",
+    "טקסט": "11.11.2026 | הודעת איגוד VHP2 נקראה במלואה, לצד כתבת NL Times המלאה מ-10 בנובמבר. הודעת האיגוד מתארת ישיבה שהתקיימה ביום שני, 9 בנובמבר. שעת פרסום המקור לא אומתה. השלמת סיקור, לא משבר חדש שהחל היום.\n\nהאיגודים VHP2, FNV, CNV ו-De Unie הודיעו שהחליטו יחד להפסיק להשתתף בשיחות עם ASML על יישום הארגון מחדש ותוכנית ההגנה לעובדים. הם טוענים שהחברה אינה מכבדת את ההסכמות בעקבות שינוי לוחות הזמנים. זו טענת האיגודים, לא קביעה עצמאית שהחברה הפרה חוזה או פסק דין.\n\nלפי הודעת VHP2, מועד המעבר הארגוני נדחה מיעד קודם בנובמבר ל-7 בדצמבר 2026 בפעילות Technology Transition ול-8 במרץ 2027 ב-IT. האיגודים אומרים שהדחייה מקצרת את תקופת השחרור מעבודה בשכר שמגיעה לעובדים במסגרת התוכנית, ולכן מחייבת היוועצות לפי סעיף 2.4 שלה. אלו מועדי מעבר ארגוני, לא מועדי אספקת מכונות EUV.\n\nלפי הכתבה, דובר ASML אמר ל-Eindhovens Dagblad שלא חל שינוי משמעותי המחייב היוועצות, שמועד סיום לא היה חלק מהתוכנית, ושהחברה מאוכזבת מהפסקת השיחות. הוא אמר שהוצעו צעדים מקלים נוספים לעובדי IT שהאיגודים אינם מוכנים להמשיך לדון בהם. תגובת החברה מובאת דרך הדיווח המשני, לא מהודעה עצמאית של ASML שנבדקה כאן.\n\nבנפרד, VHP2 אומר שבאותה ישיבה ASML הכירה בקשיים בתהליך ההשמה הפנימית Wave 3 והתחייבה לשפר מידע והנמקות לדחיית מועמדויות. לפי האיגוד, הגשת מועמדות או קבלת תפקיד מוצע אינן חובה ואינן פוגעות בזכויות לפי תוכנית ההגנה. זו הצגת האיגוד את המצב, לא ייעוץ משפטי לעובד מסוים.\n\nהאיגודים אומרים שהם שוקלים יחד את הצעדים הבאים ומצפים לחידוש שיחות על בסיס ההסכמות. לא הוכרזה במקורות שנבדקו שביתה, עצירת ייצור או ביטול משלוח, ואין כאן הודעה על מספר חדש של משרות שיקוצצו. ההסלמה היא הפסקת שיחות העבודה, בנפרד מדיווח n-1231 על ביקוש ושריון מכונות EUV.",
+    "טקסט_en": "November 11, 2026 | VHP2's complete union statement and the full November10 NL Times article were read. The statement describes a meeting held Monday, November9. The original publication clock was not verified. Catch-up coverage, not a dispute that began today.\n\nVHP2, FNV, CNV and De Unie say they jointly withdrew from talks with ASML about reorganization implementation and its employee social plan. They allege the company is not honoring agreed commitments after schedule changes. This is the unions' allegation, not an independent finding of contract breach or a court ruling.\n\nVHP2 says go-live moved from a previous November target to December7, 2026 for Technology Transition and March8, 2027 for IT. The unions say this shortens employees' paid garden-leave period and therefore requires consultation under social-plan article2.4. These are organizational transition dates, not EUV-machine delivery dates.\n\nNL Times reports an ASML spokesperson told Eindhovens Dagblad there was no significant change requiring consultation, the end date was not part of the social plan, and the company was disappointed unions left talks. The spokesperson said additional mitigating measures had been offered for IT employees but unions would not continue discussing them. That response is sourced through secondary reporting, not a separately reviewed ASML release.\n\nSeparately, VHP2 says ASML acknowledged difficulties with the Wave3 internal redeployment process and undertook to improve information and reasons for rejected applications. According to the union, applying for or accepting an offered position is not compulsory and does not reduce social-plan rights. This is the union's account, not individual legal advice.\n\nThe unions say they are considering next steps together and expect talks to resume on the agreed basis. The reviewed sources announce no strike, production stoppage or cancelled shipment, and no new number of jobs to be cut. The increment is a labor-talk breakdown, separate from n-1231's EUV demand/reservation report.",
+    "קישור": "https://vhp2.nl/en/metalektro/vakorganisaties-verlaten-gezamenlijk-overleg-asml-komt-afspraken-niet-na/",
+    "מקורות": [
+      {
+        "url": "https://vhp2.nl/en/metalektro/vakorganisaties-verlaten-gezamenlijk-overleg-asml-komt-afspraken-niet-na/",
+        "label": "VHP2: הודעת האיגוד המלאה, 11 בנובמבר",
+        "label_en": "VHP2: full union statement, November11"
+      },
+      {
+        "url": "https://nltimes.nl/2026/11/10/trade-unions-abandon-talks-asml-reorganization-drags",
+        "label": "NL Times: כתבה מלאה, כולל תגובת ASML דרך ED, 10 בנובמבר",
+        "label_en": "NL Times: full article including ASML response via ED, November10"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ba13445b313b6ad64fed74b49a5319d4b2009feae44197cb9fa60b3a0f12187c"
+      }
+    },
+    "מזהה": "n-1559",
+    "הועלה": "2026-11-13 10:54"
   }
 ]
