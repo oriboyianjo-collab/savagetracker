@@ -44761,5 +44761,40 @@
         "source_hash": "960b53d893b101261ca49b8e8ec46247d263fef8e0e103590de55224afb809f8"
       }
     }
+  },
+  {
+    "מזהה": "n-1697",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 18:17",
+    "הועלה": "2026-11-15 18:17",
+    "כותרת": "NVIDIA (NVDA): לפי Reuters, בסנט קורא לחפש מנכ\"ל מחוץ לחברה ולבצע שינוי עמוק",
+    "כותרת_en": "NVIDIA (NVDA): Reuters reports Bessent calls for an outside CEO and a dramatic shakeup",
+    "summary": "אמירות בריאיון ל-Fox ביום ראשון, 15 בנובמבר: שר האוצר רוצה תשובות מהדירקטוריון ומיועצים חיצוניים בתוך עשרה ימים. לא החלטת דירקטוריון או מינוי.",
+    "summary_en": "In a Sunday, November 15 Fox interview, the Treasury secretary also sought answers from the board and outside counsel within ten days. Not a board decision or appointment.",
+    "טקסט": "לפי דיווח Reuters מוושינגטון מ-15.11.2026, שר האוצר האמריקאי סקוט בסנט אמר ביום ראשון בריאיון לתוכנית Sunday Morning Futures של Fox News כי בחיפוש אחר מנכ\"ל חדש על NVIDIA לפנות למועמד מחוץ לחברה. הוא אמר כי נדרש \"שינוי עמוק\" על רקע ההתנהלות בתוך החברה. זו עמדתו הפומבית של השר לגבי תהליך החיפוש, לא הודעה של הדירקטוריון על בחירת מועמד או מינוי.\n\nלפי Reuters, בסנט אמר גם כי על הדירקטוריון ועל יועצים משפטיים חיצוניים להשיב בתוך עשרת הימים הקרובים לשאלות על תרבות הציות של החברה להגבלות היצוא. הדיווח אינו מציג צו משפטי, החלטת אכיפה או ממצא של חקירה. אין להסיק ממנו שפורסמה החלטה כזו.\n\nמקור: Reuters דרך Investing.com, דיווח מוושינגטון מ-15 בנובמבר 2026 על ריאיון מאותו יום. שעת הפרסום המקורית בישראל אינה ידועה, משום שאזור הזמן של שעות הדף לא צוין.",
+    "טקסט_en": "According to a Reuters report datelined Washington on November 15, 2026, US Treasury Secretary Scott Bessent said on Sunday in a Fox News Sunday Morning Futures interview that NVIDIA should look outside the company for its next chief executive. He said the company needed a \"dramatic shakeup\" because of what had been happening inside it. This is the secretary's public position on the search, not a board announcement selecting or appointing a candidate.\n\nReuters also reported that Bessent said the board and outside counsel needed to answer questions about the company's culture of compliance with export restrictions within the next ten days. The report does not present a legal order, an enforcement decision or an investigation finding. It should not be read as confirming one.\n\nSource: Reuters via Investing.com, datelined Washington on November 15, 2026 and reporting an interview from the same day. The original publication time in Israel is unknown because the page clock has no stated timezone.",
+    "קישור": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004",
+        "label": "Reuters דרך Investing.com: דיווח מלא מוושינגטון, 15 בנובמבר; אזור הזמן של שעות הדף לא אומת",
+        "label_en": "Reuters via Investing.com: full report, Washington, November 15; page clock timezone unverified"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5c872ee3d3941831a137690f446f4d70cf58e7a2e73d3c7650935e804540c6eb"
+      }
+    }
   }
 ]
