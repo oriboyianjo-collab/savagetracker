@@ -44224,5 +44224,39 @@
         "source_hash": "18412774d99569de29a2d3afe5e58aaa2786798d87cee2ecaa19959e8d5950c7"
       }
     }
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-15 12:00",
+    "כותרת": "לפי CNBC: בחריין מדווחת על יירוט תקיפות איראניות; ההודעות המקוריות לא אומתו, ופגיעה בבסיס אמריקאי לא אושרה",
+    "כותרת_en": "CNBC: Bahrain reports intercepting Iranian attacks; original statements not checked and US-base hit unconfirmed",
+    "טקסט": "פרסום CNBC: 15.11.2026 בשעה 12:00 בישראל.\n\n**הדיווחים לא אומתו מול ההודעות הרשמיות המקוריות.** לפי CNBC ו-AFP דרך France 24, צבא בחריין אמר שיירט תקיפות אוויריות איראניות לפני שהגיעו ליעדיהן. משרד הפנים פרסם שתי התרעות וקרא לתושבים להגיע למקום בטוח. אלה היירוטים הראשונים שעליהם דיווחה בחריין מאז ספטמבר, לפי CNBC.\n\nבנפרד, משמרות המהפכה טענו ששיגרו שישה כטב״מים לעבר מכ״ם הגנה אווירית אמריקאי בבסיס המסוקים א-רפאע בבחריין. לפי CNBC, ארה״ב ובחריין לא אישרו באותו שלב פגיעה בבסיס. הטענה האיראנית אינה הוכחה שהמכ״ם נפגע או הושמד.\n\nאין לערבב את האירוע הנוכחי עם טענה איראנית דומה מיום שישי, 13 בנובמבר: לפי הדיווחים, צבא ארה״ב דחה אז את הטענה לפגיעה ואמר שיירט שני כטב״מים ללא נזק. זו תגובה לאירוע הקודם, לא הודעת תוצאה אמריקאית על יום ראשון.\n\nבחזית נפרדת, הקואליציה בהובלת סעודיה אמרה שיירטה היום שני טילים בליסטיים ששיגרו החות׳ים לעבר ריאד ושלושה כטב״מים באזור המזרחי. Al Arabiya, שדיווחה על הודעות הדובר טורקי אל-מאלכי, מציינת שלא נמסר מי שיגר את שלושת הכטב״מים.\n\nזהו עדכון מ-15 בנובמבר. הוא אינו מאמת את הטענות הנפרדות על מכליות או מוקשים בהורמוז, סגירה חדשה של המצר, פגיעה בתפוקת נפט או תנועת מחיר שנגרמה מהאירועים.",
+    "טקסט_en": "CNBC publication: November 15, 2026 at 12:00 Israel time.\n\n**The reports were not checked against the original official statements.** According to CNBC and AFP via France 24, Bahrain's military said it intercepted Iranian aerial attacks before they reached their targets. The interior ministry issued two alerts and urged residents to reach a safe location. CNBC described these as Bahrain's first reported interceptions since September.\n\nSeparately, Iran's Revolutionary Guards claimed they launched six drones at US air-defense radar at Bahrain's Al-Rifaa helicopter base. CNBC said neither US nor Bahraini authorities had at that point confirmed a hit on the base. The Iranian claim is not proof that the radar was hit or destroyed.\n\nThe current incident must be kept separate from a similar Iranian claim on Friday, November 13: the reports say the US military rejected that claim and said it intercepted two drones without damage. That response concerns the earlier incident, not a US outcome statement for Sunday.\n\nOn a separate front, the Saudi-led coalition said it intercepted two Houthi ballistic missiles towards Riyadh and three drones in the Eastern Region today. Al Arabiya, reporting spokesman Turki al-Malki's statements, notes that the coalition did not identify who launched the three drones.\n\nThis is a November 15 update. It does not verify the separate claims about tankers or mines in Hormuz, a new closure of the strait, an oil-production loss or a price move caused by these events.",
+    "קישור": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html",
+        "label": "CNBC: דיווחי בחריין, הטענה האיראנית וההבחנה מהאירוע הקודם",
+        "label_en": "CNBC: Bahrain reports, Iranian claim and earlier-incident distinction"
+      },
+      {
+        "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
+        "label": "AFP דרך France 24: דיווחים וטענות על בחריין",
+        "label_en": "AFP via France 24: Bahrain reports and claims"
+      },
+      {
+        "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/15/saudiled-coalition-intercepts-two-houthi-missiles-three-drones",
+        "label": "Al Arabiya: הקואליציה הסעודית לא זיהתה את משגרי שלושת הכטב״מים",
+        "label_en": "Al Arabiya: Saudi coalition did not identify who launched the three drones"
+      }
+    ],
+    "מזהה": "n-1681",
+    "הועלה": "2026-11-15 12:28",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "953232e9bcaf244435d329e3fc7665b036b18243682bbbdc4cccff95f0950ee3"
+      }
+    }
   }
 ]
