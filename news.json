@@ -44524,5 +44524,41 @@
         "source_hash": "63f6c0cd0c0b1130d658e58b1f39b6b5892412f3a7d93fb11fa4dc9559417f61"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "Alphabet / OGE Energy",
+    "חברה_en": "Alphabet / OGE Energy",
+    "symbols": [
+      "GOOGL",
+      "GOOG",
+      "OGE"
+    ],
+    "sectors": [
+      "technology",
+      "utilities"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 13:20",
+    "כותרת": "לפי The Oklahoman: שלושה מחוקקים מבקשים לבחון את אישור הסכם החשמל של OG&E עם חברה בת של Google",
+    "כותרת_en": "The Oklahoman: three lawmakers challenge approval of OG&E power deal with Google subsidiary",
+    "טקסט": "15.11.2026 | The Oklahoman פרסם ב-05:20 במרכז ארה״ב, 13:20 בישראל. הכתבה אינה מציינת כאן מועד הגשה מדויק לערעור.\n\n**לא מאומת מול מקור ראשוני: כתב הערעור והצו הסופי של הרגולטור לא נבדקו ישירות. פרטי ההליך והתגובות מיוחסים לדיווח The Oklahoman; אין כאן קביעה שההסכם בלתי חוקי, שהאישור בוטל או שניתן צו לעצירת הפרויקטים.**\n\nלפי הכתבה, חברי בית הנבחרים של אוקלהומה טום גאן, ריק ווסט וקווין ווסט ביקשו מבית המשפט העליון של המדינה לבחון את אישור נציבות התאגידים של אוקלהומה להסכם בין חברת החשמל OG&E לבין Alliance Site & Grid, חברה בת בבעלות מלאה של Google. ההסכם נוגע לאספקת חשמל לשלושה מרכזי נתונים מתוכננים.\n\nהמחוקקים טוענים שלצרכני החשמל לא ניתנה הזדמנות נאותה להצטרף להליך הרגולטורי לפני אישורו, ושהתנאים החסויים מסתירים את הסיכון הכספי לצרכנים. אלו טענותיהם בערעור, לא ממצאים של בית משפט.\n\nמנגד, לפי הכתבה, OG&E והרגולטור אומרים שההסדר כולל הגנות לצרכנים קיימים: Google תישא ב-100% מעלויות תשתית ההולכה והחלוקה הייעודית למתקניה, תשלם חיוב מינימום ללא תלות בצריכת החשמל ותישא בחלקה בעלויות הייצור. הרגולטור אומר שנשמרת סמכותו לבחון הקצאת עלויות והשפעה על צרכנים בהליכי תעריפים עתידיים. אין בכך אישור ש-Google נושאת בכל עלות אפשרית של הרשת או שכל סיכון הוסר.",
+    "טקסט_en": "November 15, 2026 | The Oklahoman published at 05:20 US Central time, 13:20 in Israel. The article does not establish an exact appeal filing date here.\n\n**Not verified against a primary source: the appeal petition and final regulatory order were not checked directly. The proceeding and responses are attributed to The Oklahoman; this does not establish that the agreement is unlawful, approval has been overturned or a court has halted the projects.**\n\nAccording to the article, Oklahoma state representatives Tom Gann, Rick West and Kevin West asked the Oklahoma Supreme Court to review the Oklahoma Corporation Commission's approval of an agreement between utility OG&E and Alliance Site & Grid, a wholly owned Google subsidiary. The agreement concerns electricity for three planned data centers.\n\nThe lawmakers allege that electricity customers did not have a proper opportunity to intervene before regulatory approval and that confidential terms obscure financial risks to customers. These are their appeal claims, not court findings.\n\nIn response, the article says OG&E and the regulator describe protections for existing customers: Google would pay 100% of dedicated transmission and distribution infrastructure costs for its facilities, pay a minimum charge regardless of power use, and pay its share of generation costs. The regulator says it retains authority to review cost allocation and customer impacts in future rate proceedings. This does not establish that Google bears every possible grid cost or that all risk has been removed.",
+    "קישור": "https://www.oklahoman.com/story/news/state/2026/11/15/lawmakers-sue-over-secret-google-data-center-power-deal/92759829007/",
+    "מקורות": [
+      {
+        "url": "https://www.oklahoman.com/story/news/state/2026/11/15/lawmakers-sue-over-secret-google-data-center-power-deal/92759829007/",
+        "label": "The Oklahoman, 15 בנובמבר 05:20 CT: הערעור ותגובות OG&E והרגולטור",
+        "label_en": "The Oklahoman, November 15 at 05:20 CT: appeal and responses from OG&E and regulator"
+      }
+    ],
+    "מזהה": "n-1690",
+    "הועלה": "2026-11-15 13:50",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4138a96f18cc36af7af0b16e8814b0d4828dc5b15a063fad69c61b0f61bf5586"
+      }
+    }
   }
 ]
