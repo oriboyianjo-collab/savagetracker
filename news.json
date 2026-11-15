@@ -43363,5 +43363,40 @@
       "source_hash": "df47fcc97d828a76dc6ac542f18a4ca719b0aebb59fd0e8076b15ae144cc29f6"
     }
   }
+},
+{
+  "category": "micro",
+  "חברה": "L3Harris (LHX); American Airlines (AAL)",
+  "חברה_en": "L3Harris (LHX); American Airlines (AAL)",
+  "symbols": [
+    "LHX",
+    "AAL"
+  ],
+  "תאריך": "2026-11-14",
+  "כותרת": "L3Harris תומכת בחקירת השבתת ההמראות בארה\"ב; American עדיין משקמת את פעילותה",
+  "כותרת_en": "L3Harris supports ground-stop investigation; American Airlines continues recovery",
+  "קישור": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
+  "טקסט": "הודעת L3Harris פורסמה ב-14 בנובמבר 2026, לאחר עצירת ההמראות הארצית בארה\"ב ב-13 בנובמבר. שעת פרסום ההודעה אינה ידועה. עדכון American Airlines האחרון במקור פורסם ב-14 בנובמבר ב-20:55 בשעון מרכז ארה\"ב, 15 בנובמבר ב-04:55 בישראל.\n\nL3Harris מסרה שהיא ושותפות התקשורת שלה תומכות בחקירת ה-FAA להבנת הנסיבות שהובילו לעצירה. החברה ציינה שיותר מ-70% מההמרה המתוכננת של תשתית התקשורת במרחב האווירי, מנחושת לסיבים אופטיים, הושלמו בתיאום עם ה-FAA. ההודעה אינה קובעת מה גרם לתקלה ואינה ממצא של חקירה שהסתיימה.\n\nלפי American Airlines, עצירת ההמראות הארצית שנמשכה כחמש שעות הוסרה ב-13 בנובמבר. בעדכון האחרון הודיעה החברה שכל הביטולים המתוכננים לאותו לילה וליום המחרת כבר בוצעו, אך ייתכנו ביטולי טיסות בודדות בזמן שיקום הפעילות. אין בכך אישור שכל הטיסות חזרו לשגרה.\n\nזהו עדכון תפעולי על אירוע שכבר התרחש ועל החקירה והשיקום שאחריו, לא הודעה על עצירת המראות חדשה. שני המקורות אינם מפרטים נזק כספי או קובעים אחריות של L3Harris לתקלה.",
+  "טקסט_en": "L3Harris published its statement on November 14, 2026, after the November 13 nationwide U.S. ground stop. The statement's publication time is unknown. The latest American Airlines update on the source page was published November 14 at 8:55 p.m. Central time, November 15 at 04:55 Israel time.\n\nL3Harris said it and its telecommunications partners are supporting the FAA's investigation into the conditions that led to the ground stop. The company said more than 70% of the planned conversion of national airspace communications from copper to fiber optics has been completed in coordination with the FAA. Its statement does not establish the cause or announce a completed investigation's findings.\n\nAccording to American Airlines, the five-hour nationwide ground stop was lifted on November 13. In its latest update, the airline said all planned cancellations for that night and the next day had been completed, but individual flights could still be canceled as recovery continued. This does not confirm that every flight is back to normal.\n\nThis is an operational update on an event that has already occurred and the investigation and recovery that followed, not a new ground-stop announcement. Neither source quantifies financial damage or determines that L3Harris caused the failure.",
+  "מקורות": [
+    {
+      "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
+      "label": "L3Harris: הודעה מ-14 בנובמבר על החקירה",
+      "label_en": "L3Harris: November 14 investigation statement"
+    },
+    {
+      "url": "https://news.aa.com/news/news-details/2026/Update-on-FAAs-nationwide-ground-stop/",
+      "label": "American Airlines: עדכוני עצירת ההמראות והשיקום",
+      "label_en": "American Airlines: ground-stop and recovery updates"
+    }
+  ],
+  "מזהה": "n-1656",
+  "הועלה": "2026-11-15 10:25",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "66c60387230f770a76e2a94c421907ecfabe33035b02bc05564ab29f34d93c7e"
+    }
+  }
 }
 ]
