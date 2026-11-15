@@ -44941,5 +44941,36 @@
         "source_hash": "879da76641268ca6efe7ae301bb981a4a2e9b0eb15859796e926de9b667b18e3"
       }
     }
+  },
+  {
+    "מזהה": "n-1702",
+    "category": "macro",
+    "תאריך": "2026-11-15 18:28",
+    "הועלה": "2026-11-15 18:28",
+    "כותרת": "סין: העלאת יחס הרזרבה על פיקדונות במט\"ח מ-4% ל-6% נכנסת לתוקף ב-15 בנובמבר, לפי Xinhua",
+    "כותרת_en": "China: foreign-currency deposit reserve ratio rises from 4% to 6% effective November 15, per Xinhua",
+    "summary": "המהלך הוכרז ב-3 בנובמבר; זהו מועד התחולה שנקבע אז, לא החלטה חדשה היום. מדובר ברזרבות מט\"ח, לא ביחס הרזרבה על פיקדונות ביואן או בריבית.",
+    "summary_en": "Announced November 3: this is the previously set effective date, not a new decision today. The measure concerns foreign-currency reserves, not yuan deposit reserves or a policy rate.",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\nלפי דיווח Xinhua מ-3 בנובמבר 2026, המופיע גם באתר ממשלת סין, הבנק המרכזי הסיני הודיע כי יעלה את יחס הרזרבה על פיקדונות במטבע חוץ של מוסדות פיננסיים ב-2 נקודות אחוז, מ-4% ל-6%, החל ב-15 בנובמבר. הודעת הבנק המרכזי עצמה לא נקראה כאן.\n\nזהו מועד תחולה שנמסר מראש, לא הודעה שההחלטה התקבלה היום. היחס קובע איזה חלק מפיקדונות המט\"ח על המוסדות להחזיק בבנק המרכזי. אין מדובר בהעלאת יחס הרזרבה על פיקדונות ביואן, בריבית מדיניות או בשינוי יעד רשמי לשער החליפין.\n\nXinhua מתארת את המהלך ככלי לניהול נזילות המט\"ח ולייצוב הציפיות בשוק המטבע. אין בדיווח הזה אימות לסכום נזילות שנגרע בפועל או לתנועת שער שנגרמה מעצם כניסתו לתוקף. המקורות מציגים חותמות זמן של 3 בנובמבר ללא אזור זמן מפורש; לא הומרה מהן שעת פרסום לישראל.",
+    "טקסט_en": "**Not verified against a primary source**\nAccording to Xinhua's November 3, 2026 report, also carried on China's government website, the People's Bank of China announced a 2-percentage-point increase in the foreign-currency deposit reserve requirement ratio for financial institutions, from 4% to 6%, effective November 15. The central bank's own notice has not been read here.\n\nThis is a previously announced effective date, not a decision newly announced today. The ratio sets the share of foreign-currency deposits that institutions must hold at the central bank. It is not an increase in the yuan deposit reserve ratio, a policy interest rate or a new official exchange-rate target.\n\nXinhua describes the measure as a tool for managing foreign-exchange liquidity and stabilizing currency-market expectations. This item does not establish the amount of liquidity actually withdrawn or an exchange-rate move caused by the measure taking effect. The sources show November 3 timestamps without an explicit time zone; no Israel publication time has been inferred.",
+    "קישור": "https://www.gov.cn/zhengce/jiedu/tujie/202611/content_7084887.htm",
+    "מקורות": [
+      {
+        "url": "https://www.gov.cn/zhengce/jiedu/tujie/202611/content_7084887.htm",
+        "label": "Xinhua באתר ממשלת סין: הודעה מ-3 בנובמבר",
+        "label_en": "Xinhua on China government website: November 3 report"
+      },
+      {
+        "url": "http://english.news.cn/20261103/098d0d81e237406a9bb76d5530315c9f/c.html",
+        "label": "Xinhua באנגלית: פרטי המהלך ומועד התחולה",
+        "label_en": "Xinhua English: measure and effective date"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ab77be406155375cacb2d399b9e8ff359f66a6a08b9182f9b0b550d787bd664a"
+      }
+    }
   }
 ]
