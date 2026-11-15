@@ -43689,5 +43689,76 @@
         "source_hash": "68a7e00ee6159ff0d0e4807a58cd49f73f9842a2cd753736aa551db325fe22cc"
       }
     }
+  },
+  {
+    "category": "micro",
+    "tags_version": 1,
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "תאריך": "2026-11-13",
+    "כותרת": "לא מאומת מול מקור ראשוני | Semafor: יועץ NVIDIA לחץ להקל תנאי פיקוח על יצוא H200 לסין תוך אזכור טראמפ",
+    "כותרת_en": "Not verified against a primary source | Semafor: NVIDIA counsel invoked Trump while pushing to ease H200 export conditions",
+    "טקסט": "לא מאומת מול מקור ראשוני: הפרטים נשענים על תחקיר Semafor, מקורותיו והתכתבויות שהוא מתאר; התיעוד המקורי לא נבדק ישירות.\n\n13.11.2026, 22:34 שעון ישראל (15:34 EST).\n\nלפי Semafor, בשיחת ינואר עם יותר מעשרה אנשי ממשל, היועץ המשפטי של NVIDIA, טים טטר, אמר שהיה עם הנשיא כשדונלד טראמפ וג'נסן הואנג דנו בנושא, וכי הנשיא רצה שההליך יתקדם מהר. הדברים מיוחסים לאנשים בעלי גישה לתיאור מפורט של השיחה.\n\nהדיון עסק בתנאים מוצעים לרישיונות יצוא שבבי H200 לסין. לפי הדיווח, NVIDIA התנגדה לחובה לזהות לקוחות ענן לפני המשלוח, ביקשה להעלות את רף בדיקות הכרת הלקוח מהזמנות של אלפי שבבים בודדים לעשרות אלפים, וביקשה שתנאי סוף החיים יחולו רק על שבבים הכפופים להגבלות. אלה עמדות לובינג מדווחות, לא הודעה שתנאים אלה אושרו.\n\nדובר BIS אמר ל-Semafor שהתייעצות עם חברות היא הליך שגרתי, שתנאים עשויים להשתנות בשל שיקולים מסחריים לגיטימיים ושנוסחם הסופי עובר בדיקה בין-משרדית. NVIDIA סירבה להגיב; הבית הלבן לא השיב מיד.\n\nהחידוש הוא פרטי הדיון בתנאי הרישיונות, בנפרד מהדיווחים הקודמים על חקירת Megaspeed ועל תכתובות אוקטובר בתוך NVIDIA. אין כאן קביעה משפטית, הרשעה או כלל יצוא חדש שנכנס לתוקף.",
+    "טקסט_en": "Not verified against a primary source: details rely on Semafor's reporting, its sources and correspondence it describes; the original records were not inspected directly.\n\nNovember 13, 2026, 22:34 Israel time (15:34 EST).\n\nAccording to Semafor, during a January call with more than a dozen government officials, NVIDIA general counsel Tim Teter said he had been with the president when Donald Trump and Jensen Huang discussed the issue and that the president wanted the process to move quickly. The account is attributed to people with access to a detailed account of the call.\n\nThe discussion concerned proposed conditions on licenses to export H200 chips to China. The report says NVIDIA opposed identifying cloud customers before shipment, sought to raise the know-your-customer threshold from orders of a few thousand chips to tens of thousands, and wanted end-of-life conditions limited to chips subject to export controls. These are reported lobbying positions, not an announcement that those conditions were approved.\n\nA BIS spokesperson told Semafor that consultation with companies is routine, conditions can change for legitimate commercial considerations and final terms undergo interagency review. NVIDIA declined to comment; the White House did not immediately respond.\n\nThe new information concerns licensing discussions, separate from earlier coverage of the Megaspeed investigation and October correspondence inside NVIDIA. This is not a legal finding, conviction or new export rule entering force.",
+    "קישור": "https://www.semafor.com/article/11/13/2026/how-nvidias-jensen-huang-and-trump-jumped-the-guardrails",
+    "מקורות": [
+      {
+        "label": "Semafor: תחקיר ותגובות BIS",
+        "label_en": "Semafor: reporting and BIS response",
+        "url": "https://www.semafor.com/article/11/13/2026/how-nvidias-jensen-huang-and-trump-jumped-the-guardrails"
+      }
+    ],
+    "מזהה": "n-1666",
+    "הועלה": "2026-11-15 11:11",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2e63d758f244c18934b3d31fea1122c0b0ce73beb39a801584c3dcef25056d7a"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "tags_version": 1,
+    "חברה": "Meta Platforms (META)",
+    "חברה_en": "Meta Platforms (META)",
+    "symbols": [
+      "META"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "תאריך": "2026-11-12",
+    "כותרת": "לא מאומת מול מקור ראשוני | לפי דיווח מבוסס הגשה, Meta השלימה ב-12 בנובמבר גיוס אג\"ח באירו של 9 מיליארד",
+    "כותרת_en": "Not verified against a primary source | Filing-based report: Meta completed its EUR9 billion bond offering on November 12",
+    "טקסט": "לא מאומת מול מקור ראשוני: השלמת העסקה מתוארת בדיווח Investing.com המבוסס על הגשה ובכתבת PPC Land; ההגשה המקורית לא נבדקה ישירות.\n\nתאריך השלמת העסקה: 12.11.2026. כתבת Investing.com מציגה 16:36 ללא אזור זמן מאומת; PPC Land פרסמה ב-14 בנובמבר.\n\nלפי הדיווחים, Meta השלימה ב-12 בנובמבר הנפקת אג\"ח בכירות באירו בהיקף קרן כולל של 9 מיליארד אירו, בשש סדרות שמועד פירעונן בין 2031 ל-2065 והריבית השנתית שלהן בין 4.3% ל-6.4%.\n\nזהו עדכון סטטוס מעבר לתמחור שפורסם ב-4 בנובמבר ולמסירה שתוכננה ל-12 בנובמבר. זו אינה הנפקה נוספת של 9 מיליארד אירו מעבר לאותה עסקה, ואין לחבר ביקושים של 53 מיליארד אירו לתמורה שגויסה.\n\nהגיוס באירו נפרד מגיוס אג\"ח דולרי של 15 מיליארד דולר שהושלם ב-5 בנובמבר וכבר סוקר. תאריך האירוע כאן הוא 12 בנובמבר, לא הודעת השלמה חדשה מ-14 בנובמבר.",
+    "טקסט_en": "Not verified against a primary source: completion is described in an Investing.com filing-based report and a PPC Land article; the original filing was not inspected directly.\n\nTransaction completion date: November 12, 2026. Investing.com displays 16:36 without a verified timezone; PPC Land published on November 14.\n\nAccording to the reports, Meta completed a EUR9 billion aggregate-principal senior note offering on November 12, in six series maturing from 2031 through 2065 with annual coupons from 4.3% to 6.4%.\n\nThis updates the status beyond the November 4 pricing and November 12 expected delivery previously reported. It is not another EUR9 billion offering on top of that transaction, and EUR53 billion of investor orders must not be added to proceeds raised.\n\nThe euro offering is separate from the USD15 billion bond sale completed November 5 and already covered. The event date here is November 12, not a new completion announcement on November 14.",
+    "קישור": "https://www.investing.com/news/sec-filings/meta-platforms-completes-9-billion-senior-notes-offering-across-multiple-maturities-93CH-5023352",
+    "מקורות": [
+      {
+        "label": "Investing.com: דיווח מבוסס הגשה",
+        "label_en": "Investing.com: filing-based report",
+        "url": "https://www.investing.com/news/sec-filings/meta-platforms-completes-9-billion-senior-notes-offering-across-multiple-maturities-93CH-5023352"
+      },
+      {
+        "label": "PPC Land: השלמת העסקה ב-12 בנובמבר",
+        "label_en": "PPC Land: November 12 completion",
+        "url": "https://ppc.land/meta-borrows-eur9bn-in-euros-at-up-to-6-4-until-2065/"
+      }
+    ],
+    "מזהה": "n-1667",
+    "הועלה": "2026-11-15 11:11",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9ff7270dbc7ed1ea3f5a639d15d0c0472806ccf7d0648003dbaa382f716c2a18"
+      }
+    }
   }
 ]
