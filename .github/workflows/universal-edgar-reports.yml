@@ -75,12 +75,12 @@ jobs:
           set -uo pipefail
           args=()
           if test -f "$RUNNER_TEMP/universal-prior.json"; then args+=(--prior "$RUNNER_TEMP/universal-prior.json"); fi
+          code=0
           python3 -m universal.cli \
             --inventory universal/universe.json --state "$RUNNER_TEMP/universal-state" \
             --result "$RUNNER_TEMP/universal-result.json" --as-of 2026-11-15 \
             --pass-id "$PASS_ID" --generation "${GENERATION}" --deadline-seconds 480 --max-issuers 50 \
-            --live --cache "$RUNNER_TEMP/universal-cache" --log "$RUNNER_TEMP/universal-run.jsonl" "${args[@]}"
-          code=$?
+            --live --cache "$RUNNER_TEMP/universal-cache" --log "$RUNNER_TEMP/universal-run.jsonl" "${args[@]}" || code=$?
           echo "code=$code" >> "$GITHUB_OUTPUT"
           # 1 is a normal resumable incomplete pass; 2 stops continuation but saves accounting.
           if test "$code" -gt 2; then exit "$code"; fi
