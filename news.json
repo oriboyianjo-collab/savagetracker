@@ -44972,5 +44972,40 @@
         "source_hash": "ab77be406155375cacb2d399b9e8ff359f66a6a08b9182f9b0b550d787bd664a"
       }
     }
+  },
+  {
+    "מזהה": "n-1703",
+    "category": "micro",
+    "חברה": "American Airlines (AAL)",
+    "חברה_en": "American Airlines (AAL)",
+    "symbols": [
+      "AAL"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 21:45",
+    "הועלה": "2026-11-15 21:45",
+    "כותרת": "American Airlines: פחות ביטולים ביום ראשון, אך השיקום מהשבתת ההמראות עדיין לא הושלם",
+    "כותרת_en": "American Airlines: fewer Sunday cancellations, but ground-stop recovery is not complete",
+    "summary": "בעדכון רשמי מ-20:55 בישראל החברה מדווחת על שיפור ועל המשך שיקום הפעילות. התראת הנסיעות הוארכה, עם אפשרות לשינוי הזמנה או לבקשת החזר.",
+    "summary_en": "In a 20:55 Israel-time update, the airline reports improvement as recovery continues. Its travel alert has been extended, allowing reservation changes or refund requests.",
+    "טקסט": "American Airlines עדכנה ביום ראשון, 15 בנובמבר 2026, בשעה 12:55 בצהריים בשעון מרכז ארה״ב, 20:55 בישראל, כי חל שיפור בפעילותה ומספר הביטולים נמוך יותר באותו יום, אך היא עדיין פועלת להחזיר את הפעילות במלואה לאחר עצירת ההמראות הארצית של ה-FAA ביום שישי, 13 בנובמבר. החברה לא פרסמה בעדכון מספר ביטולים או מועד מובטח לחזרה מלאה לשגרה.\n\nהחברה מסרה שהאריכה את התראת הנסיעות, המאפשרת ללקוחות לשנות הזמנה או לבקש החזר, והמליצה לבדוק את סטטוס הטיסה באפליקציה או באתר לפני הגעה לנמל התעופה. זהו עדכון המשך מיום ראשון לעדכון השיקום הקודם באפליקציה, שהתבסס על הודעת החברה משבת בלילה; אין כאן עצירת המראות חדשה, קביעה של סיבת התקלה או אישור שכל הטיסות חזרו לשגרה.",
+    "טקסט_en": "American Airlines said in a Sunday, November 15, 2026 update at 12:55 p.m. U.S. Central Time, 20:55 in Israel, that its operation was improving and it was seeing fewer cancellations that day. The airline was still working to fully restore operations after the FAA's nationwide ground stop on Friday, November 13. The update gave neither a cancellation count nor a guaranteed time for a full return to normal.\n\nThe airline said it had extended its travel alert, allowing customers to change reservations or request refunds, and advised checking flight status in its app or on its website before heading to the airport. This is a Sunday follow-up to the earlier recovery item in the app, which used the airline's Saturday-night update. It does not announce a new ground stop, establish the cause of the disruption or confirm that all flights are back to normal.",
+    "קישור": "https://news.aa.com/news/news-details/2026/Update-on-FAAs-nationwide-ground-stop/",
+    "מקורות": [
+      {
+        "url": "https://news.aa.com/news/news-details/2026/Update-on-FAAs-nationwide-ground-stop/",
+        "label": "American Airlines: עדכון רשמי מ-15 בנובמבר, 12:55 בצהריים CT",
+        "label_en": "American Airlines: official November 15 update, 12:55 p.m. CT"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b0365fe20824c373479b56837210672da977e9a8f1ce4f7e02078fbce67f0ad2"
+      }
+    }
   }
 ]
