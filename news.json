@@ -43457,5 +43457,38 @@
         "source_hash": "63759ed4344ea7ba4ee8bab4b403021d03b1364c8ec1e4a3aa6a2d88cdc62067"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "Xylem (XYL)",
+    "חברה_en": "Xylem (XYL)",
+    "symbols": [
+      "XYL"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "Xylem אישרה תוכנית רכישה עצמית חדשה של עד 1.5 מיליארד דולר; אין התחייבות למימוש המלא",
+    "כותרת_en": "Xylem authorizes a new buyback of up to $1.5 billion; no commitment to spend the full amount",
+    "טקסט": "13.11.2026 | שעת הפרסום המקורית אינה מצוינת.\n\nדירקטוריון Xylem אישר תוכנית חדשה לרכישה עצמית של מניות רגילות בהיקף של עד 1.5 מיליארד דולר, בתוקף מיידי. זהו אישור לרכישות אפשריות, לא הודעה שהחברה כבר רכשה מניות בסכום הזה ולא התחייבות להוציא את מלוא הסכום.\n\nלפי החברה, הרכישות עשויות להתבצע מעת לעת בשוק הפתוח או בעסקאות פרטיות. ההיקף והעיתוי יהיו תלויים בתנאי השוק ובגורמים נוספים, והחברה רשאית להשעות או להפסיק את התוכנית בכל עת. בהודעה לא נקבע מועד סיום לתוכנית ולא פורסם לוח רכישות מחייב.\n\nהחברה מציגה את התוכנית לצד כוונתה להמשיך להשקיע בצמיחה אורגנית, ברכישות ובחדשנות, תוך שמירה על גמישות פיננסית. אין כאן תחזית חדשה להכנסות או לרווח, ולא נתון על שינוי שכבר התרחש במספר המניות.",
+    "טקסט_en": "November 13, 2026 | The original publication hour is not stated.\n\nXylem's board authorized a new program to repurchase up to $1.5 billion of common stock, effective immediately. This authorizes possible purchases. It does not mean the company has already bought that amount of stock or committed to spending the full amount.\n\nThe company says purchases may occur from time to time in the open market or through privately negotiated transactions. Timing and amounts depend on market conditions and other factors, and Xylem may suspend or discontinue the program at any time. The release gives no program end date or binding purchase schedule.\n\nXylem presents the program alongside its intention to keep investing in organic growth, acquisitions and innovation while maintaining financial flexibility. This is not new revenue or earnings guidance, or a confirmed change in the share count.",
+    "קישור": "https://www.xylem.com/en-us/about-xylem/newsroom/press-releases/xylem-inc.-announces-$12.5-billion-share-repurchase-authorization/",
+    "מקורות": [
+      {
+        "label": "Xylem: הודעת אישור רכישה עצמית, 13 בנובמבר 2026",
+        "label_en": "Xylem: November 13, 2026 buyback authorization release",
+        "url": "https://www.xylem.com/en-us/about-xylem/newsroom/press-releases/xylem-inc.-announces-$12.5-billion-share-repurchase-authorization/"
+      }
+    ],
+    "מזהה": "n-1659",
+    "הועלה": "2026-11-15 10:43",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8785d740e40637a0129cdcf6d1fe7ee71bc8ac3c8ce45d1a187832b269290029"
+      }
+    }
   }
 ]
