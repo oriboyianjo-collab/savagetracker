@@ -44458,5 +44458,71 @@
         "source_hash": "c47919c52575150fd33e55c01a05a84b302eb0304957005e3f8a665ae7a62536"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "NVIDIA",
+    "חברה_en": "NVIDIA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-14 02:11",
+    "כותרת": "לפי CNBC: בכירים אמריקאים אינם צופים שטראמפ יעלה את פרשת NVIDIA בפגישתו עם שי",
+    "כותרת_en": "CNBC: US officials do not expect Trump to raise NVIDIA allegations in meeting with Xi",
+    "טקסט": "14.11.2026 | CNBC פרסמה ב-02:11 בישראל, ועדכנה ב-17:36. זהו דיווח מהיממה הקודמת, לא הודעה חדשה מ-15 בנובמבר.\n\n**לא מאומת מול מקור ראשוני: תמליל התדרוך האמריקאי לא נקרא ישירות. הדברים מיוחסים לבכירים אמריקאים שדיברו בעילום שם עם כתבים, לפי CNBC; אין כאן ממצא לגבי טענות הריגול או התחייבות לגבי תוכן פגישה עתידית.**\n\nלפי הדיווח, הבכירים אמרו בתדרוך ביום שישי כי אינם צופים שטראמפ יעלה בפני נשיא סין שי ג'ינפינג את הטענות הקשורות לג'נסן הואנג ולאליס הואנג במהלך ביקורו בסין. לדבריהם, השיחות הכלכליות יתמקדו ביישום הסכם הסחר, וארה\"ב אינה מנהלת משא ומתן על בקרות היצוא האמריקאיות.\n\nהבכירים אמרו גם כי אילון מאסק צפוי להצטרף לטראמפ בשנג'ן לקראת פסגת APEC ב-18 וב-19 בנובמבר. מדובר בתוכנית נסיעה ובציפיות לסדר היום, לא בפגישה שכבר התקיימה או בהסרת מגבלות שבבים.\n\nהטענות הביטחוניות הקשורות ל-NVIDIA ול-Megaspeed נותרות טענות ולא אומתו כאן.",
+    "טקסט_en": "November 14, 2026 | CNBC published at 02:11 Israel time and updated at 17:36. This is a previous-day report, not a new November 15 announcement.\n\n**Not verified against a primary source: the original US briefing transcript was not read directly. The statements are attributed to US officials speaking anonymously to reporters, according to CNBC; this is not a finding on espionage allegations or a commitment about a future meeting's agenda.**\n\nAccording to the report, officials said in a Friday briefing that they did not expect Trump to raise the allegations involving Jensen Huang and Alice Huang with Chinese President Xi Jinping during his China visit. They said economic discussions would focus on implementing the trade agreement and that the US does not negotiate American export controls.\n\nOfficials also said Elon Musk was expected to accompany Trump to Shenzhen for the November 18-19 APEC summit. These are travel plans and agenda expectations, not a meeting that has already taken place or a removal of chip restrictions.\n\nThe underlying security allegations involving NVIDIA and Megaspeed remain allegations and were not verified here.",
+    "קישור": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+        "label": "CNBC, פורסם ב-14 בנובמבר 02:11 בישראל: תדרוך בכירים על סדר היום בסין",
+        "label_en": "CNBC, published November 14 at 02:11 Israel time: officials briefing on China agenda"
+      }
+    ],
+    "מזהה": "n-1688",
+    "הועלה": "2026-11-15 13:39",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8966a4e09a8a5dd922a6ab073e4449a09f25d652b806aae59aff135030a0161b"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "חברה": "NVIDIA",
+    "חברה_en": "NVIDIA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-14 19:35",
+    "כותרת": "לפי CNBC: גרסטנר ובייקר מבקשים מדירקטוריון NVIDIA תהליך הנהגה מתון, עם אפשרות לחזרת הואנג",
+    "כותרת_en": "CNBC: Gerstner and Baker urge deliberate NVIDIA leadership process, leaving Huang return open",
+    "טקסט": "14.11.2026 | CNBC פרסמה ב-19:35 בישראל, ועדכנה ב-19:46. הכתבה מתארת מכתב שפורסם ביום שישי, לא החלטת דירקטוריון.\n\n**לא מאומת מול מקור ראשוני: המכתב המקורי לא נקרא ישירות. תוכנו מיוחס לדיווח CNBC. אין כאן אישור שהדירקטוריון קיבל את הבקשה או שהוחלט להחזיר את הואנג.**\n\nלפי CNBC, בראד גרסטנר, מנכ\"ל Altimeter Capital, פרסם ביום שישי מכתב לדירקטוריון NVIDIA שעליו חתום גם גווין בייקר מ-Atreides Management. השניים ביקשו תהליך איטי, שקול ומכוון לגבי הנהגת החברה, שישאיר את כל האפשרויות פתוחות, לרבות חזרה אפשרית של ג'נסן הואנג.\n\nלפי הכתבה, המכתב הביע אמון במנכ\"לית הזמנית קולט קרס ובצוותה, וטען שאין צורך למהר להחליף את המייסד לפני שהתבררו העובדות. הוא לא דרש החזרה מיידית לתפקיד.\n\nזהו מכתב של שני משקיעים, לא מינוי, ביטול ההתפטרות או מסקנה של החקירה.",
+    "טקסט_en": "November 14, 2026 | CNBC published at 19:35 Israel time and updated at 19:46. The article describes a letter posted Friday, not a board decision.\n\n**Not verified against a primary source: the original letter was not read directly. Its contents are attributed to CNBC. This does not establish that the board accepted the request or decided to bring Huang back.**\n\nAccording to CNBC, Altimeter Capital CEO Brad Gerstner posted a letter to NVIDIA's board on Friday that was also signed by Atreides Management's Gavin Baker. They asked for a slow, measured and deliberate process on future leadership that leaves all options open, including Jensen Huang's potential return.\n\nThe article says the letter expressed confidence in interim CEO Colette Kress and her team and argued against rushing to replace the founder before the facts are known. It did not demand immediate reinstatement.\n\nThis is a request from two investors, not an appointment, reversal of the resignation or investigation finding.",
+    "קישור": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+        "label": "CNBC, 14 בנובמבר 19:35 בישראל: מכתב גרסטנר ובייקר לדירקטוריון",
+        "label_en": "CNBC, November 14 at 19:35 Israel time: Gerstner and Baker letter to the board"
+      }
+    ],
+    "מזהה": "n-1689",
+    "הועלה": "2026-11-15 13:39",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "63f6c0cd0c0b1130d658e58b1f39b6b5892412f3a7d93fb11fa4dc9559417f61"
+      }
+    }
   }
 ]
