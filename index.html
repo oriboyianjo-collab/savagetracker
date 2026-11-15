@@ -4904,10 +4904,39 @@ function detRows(it, q){ const X = (q && q.x) || {}, FC = fundCells(it, q), FW =
 // v161: the 'פרטים' grid is shared by the instrument sheet and the position sheet (תיק) – detItem() is whichever is open
 let posDet = null, posDetAt = 0;
 function detItem(){ return instSheet ? instSheet.it : (sheetSym ? posDet : null); }
+// Approved Details provenance presentation. Unknown latest status stays unknown.
+function detailFinancialProvenance(it,g){
+  const en=I18n.language==='en',f=fundFor(it),d=fundData&&fundData.d&&fundData.d[String(it.sym).toUpperCase()],p=fundData&&fundData.provenance&&fundData.provenance[String(it.sym).toUpperCase()];
+  const tx=(he,eng)=>en?eng:he,validDate=v=>/^\d{4}-\d{2}-\d{2}$/.test(v||'')&&Number.isFinite(Date.parse(v+'T00:00:00Z'))&&new Date(v+'T00:00:00Z').toISOString().slice(0,10)===v;
+  const now=new Date().toISOString().slice(0,10),valid=!!(f&&validDate(f.asof)&&validDate(f.filed)&&f.asof<=f.filed&&f.filed<=now),date=v=>validDate(v)?v.split('-').reverse().join('.'):'--';
+  let n=document.getElementById('detailReportProvenance');if(!n){n=document.createElement('div');n.id='detailReportProvenance';g.before(n);new MutationObserver(()=>{n.hidden=g.hidden}).observe(g,{attributes:true,attributeFilter:['hidden']})}
+  n.dataset.symbol=String(it.sym);n.hidden=g.hidden;
+  n.style.cssText='padding:10px 12px;margin:0 0 10px;border:1px solid var(--border);border-radius:10px;font-size:12px;line-height:1.65;background:var(--bg-soft)';
+  n.replaceChildren();const line=(text,bold=false,warn=false)=>{const e=document.createElement(bold?'b':'div');e.textContent=text;e.dir='auto';if(bold)e.style.fontSize='13px';if(warn)e.style.color='#e9b76c';n.append(e)};
+  // Latest-report proof is intentionally unavailable until the source-qualified producer ships.
+  const verified=false;
+  if(valid){line(tx('נתונים פיננסיים נכון ל־','Financial data as of ')+(verified?p.fiscalPeriod+' '+p.fiscalYear+' · ':'')+date(f.asof),true);line(tx('דוח ','Report ')+'\u2066'+f.k+'\u2069'+tx(' · הוגש ב־',' · Filed ')+date(f.filed));line(tx('חל על הון עצמי למניה ובסיס מכפיל ההון בלבד','Applies to book value per share and the P/B book-value basis only'));line(verified?tx('אומת מול הדוח האחרון שפורסם','Verified against the latest published report'):tx('טרם אומת שזהו הדוח האחרון שפורסם','Not yet verified as the latest published report'),false,!verified)}
+  else{line(tx('נתונים פיננסיים: תקופת הדוח לא אומתה','Financial data: report period not verified'),true);line(f?tx('תאריך הדוח אינו תקין - הנתונים התלויים בו אינם מוצגים','Invalid report date - affected report-derived figures are unavailable'):tx('אין כרגע נתוני דוח מאומתים','No verified report data is available'),false,true)}
+  if(!document.getElementById('detailFinancialStyles')){const st=document.createElement('style');st.id='detailFinancialStyles';st.textContent='#isDetG>div{min-width:0}#isDetG small{white-space:normal;overflow-wrap:anywhere;max-width:100%}';document.head.append(st)}
+  const add=(c,text)=>{const s=document.createElement('small');s.textContent=text;s.dir='auto';s.style.cssText='display:block;font-size:10px;line-height:1.5;color:var(--muted);margin-top:4px;white-space:normal;overflow-wrap:anywhere;max-width:100%;text-align:start';c.append(s)};
+  const cells=[...g.children].filter(c=>c!==n);
+  // Array positions follow detRows, whose established order is unchanged.
+  for(const c of cells)c.querySelectorAll('.lv').forEach(e=>{const next=e.nextSibling;if(next&&next.nodeType===3)next.textContent=next.textContent.replace(/^\s*·\s*/, '');e.remove()});
+  for(const idx of [6,7,11])if(cells[idx])add(cells[idx],tx('CNBC · תקופה לא מאומתת','CNBC · Period unverified'));
+  for(const idx of [8,9])if(cells[idx])add(cells[idx],tx('תחזית · לא מדוח','Forecast · Not reported'));
+  for(const idx of [10,12])if(cells[idx]){
+    if(!valid){cells[idx].querySelectorAll('.ib,.ib-src').forEach(e=>e.remove());const b=cells[idx].querySelector('b.num');if(b){b.textContent='--';b.classList.add('na')}cells[idx].querySelectorAll('small').forEach(e=>e.remove());add(cells[idx],tx('תקופת הדוח אינה תקינה או חסרה','Report period invalid or missing'))}
+    else {const tip=cells[idx].querySelector('.ib-src');if(tip){tip.replaceChildren();const t=document.createElement('p');t.textContent=(idx===10?tx('מכפיל הון = מחיר השוק הנוכחי ÷ ההון העצמי למניה. בסיס ההון מהדוח השמור, לא בהכרח האחרון. ','P/B = current market price / book value per share. Book value comes from the stored report, not necessarily the latest. '):tx('הון עצמי למניה = הון בעלי המניות פחות מניות בכורה, חלקי המניות ששימשו לחישוב בדוח השמור. ','BVPS = stockholders equity less preferred stock, divided by the shares used in the stored report. '))+tx('דוח ','Report ')+f.k+' · '+date(f.asof)+tx(' · הוגש ',' · Filed ')+date(f.filed)+tx('. טרם אומת שזהו הדוח האחרון שפורסם. אין להסיק מתאריך עדכון הקובץ מתי החברה נבדקה.','. Not yet verified as the latest published report. File update time is not a company check time.');tip.append(t)}add(cells[idx],idx===10?tx('מחיר שוק + דוח ','Market price + report ')+'\u2066'+f.k+'\u2069':tx('דוח ','Report ')+'\u2066'+f.k+'\u2069')}
+  }
+  if(cells[13])add(cells[13],tx('CNBC · תקופת הדוח לא אומתה','CNBC · Report period unverified'));
+  if(cells[15]&&f&&f.fl)add(cells[15],(f.fls==='Y'?'Yahoo':'SEC-derived')+' · '+date(f.fld)+' · '+tx('הערכה','Estimate'));
+}
+
 function drawDet(){ const it = detItem(), g = $('isDetG'); if(!it || !g) return; const q = iq(it); updateCompanyCap(it,q||(sheetSym===it.sym?state.quotes[it.sym]:null));
   g.innerHTML = detRows(it, q).map(([l,v])=>{ if(Array.isArray(v)){ const [val, sub, t] = v, na = val==='--';
       return `<div class="fx"><span>${l}${t ? ib(t.tip, t.ttl, t.warn?'warn':'') : ''}</span><b class="num${na?' na':''}${l===I18n.p("ui-0665","מכפיל הון (P/B)") && val!==g.dataset.pbv ? ' tick' : ''}">${val}</b>${sub ? `<small>${sub}</small>` : ''}</div>`; }
     return `<div><span>${l}</span><b class="num${v===DET_DASH||v==='…'?' na':''}">${v}</b></div>`; }).join('');
+  detailFinancialProvenance(it,g);
   { const pb = detRows(it, q).find(r=>r[0]===I18n.p("ui-0666","מכפיל הון (P/B)")); g.dataset.pbv = pb ? pb[1][0] : ''; } }
 async function loadAv3m(it){ const sym = it.sym; if(sym in av3m) return; av3m[sym] = undefined;
   try{ const to = new Date(), from = new Date(); from.setMonth(from.getMonth()-3); if(from.getDate()!==to.getDate()) from.setDate(0);   // exact 3 calendar months back, clamped to month end
