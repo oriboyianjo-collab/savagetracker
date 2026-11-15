@@ -6374,6 +6374,16 @@ const newsFd = o=>o.t!=null ? new Date(o.t).toLocaleString(I18n.locale,{day:'2-d
 function newsHl(raw, q){ raw = String(raw||''); if(!q) return esc(raw); const lo = raw.toLocaleLowerCase(), ql = q.toLocaleLowerCase(); let out = '', at = 0, k;
   while(ql && (k = lo.indexOf(ql, at)) !== -1){ out += esc(raw.slice(at, k)) + '<mark>' + esc(raw.slice(k, k+q.length)) + '</mark>'; at = k + q.length; }
   return out + esc(raw.slice(at)); }
+// News emphasis is text-only: recognize paired **text**, then escape every text span.
+function newsBodyHl(raw,q){
+  raw=String(raw||''); q=String(q||'');
+  const matches=[],lo=raw.toLocaleLowerCase(),ql=q.toLocaleLowerCase(); let at=0,k;
+  while(ql && (k=lo.indexOf(ql,at))!==-1){matches.push([k,k+q.length]);at=k+q.length;}
+  const piece=(a,b)=>{let out='',pos=a;for(const [x,y]of matches){if(y<=a)continue;if(x>=b)break;const l=Math.max(a,x),r=Math.min(b,y);out+=esc(raw.slice(pos,l))+'<mark>'+esc(raw.slice(l,r))+'</mark>';pos=r;}return out+esc(raw.slice(pos,b));};
+  const bold=/\*\*([^*\n]+)\*\*/g;let out='',pos=0,m;
+  while((m=bold.exec(raw))){out+=piece(pos,m.index)+'<strong>'+piece(m.index+2,m.index+2+m[1].length)+'</strong>';pos=bold.lastIndex;}
+  return out+piece(pos,raw.length);
+}
 // A short factual teaser, never a new claim. Older items use their own first body paragraph.
 function newsPreview(o){ if(o.preview)return o.preview;const p=String(o.text||'').split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean),b=p.find(x=>!/^((?:לא מאומת|פרטי ההחלטה|מקור|דיווח מקורי|דיווח המשך|פסק הדין עצמו)|\d{1,2}[./]\d)/.test(x))||p[p.length-1]||'';return b.split(/(?<=[.!?])\s/)[0]; }
 // Optional per-item source list. Legacy articles keep their existing single details link.
@@ -6389,13 +6399,13 @@ function newsRender(){ const el = $('newsList'), cnt = $('newsCnt'); if(!el) ret
   const ql = q.toLocaleLowerCase(), M = q ? B.filter(o=>[o.title, o.text, o.company, o.date, newsFd(o)].some(v=>String(v||'').toLocaleLowerCase().includes(ql))) : B;
   cnt.hidden = !q; cnt.textContent = q ? (M.length===1 ? I18n.p("ui-1250","תוצאה אחת") : `${M.length}${I18n.p("ui-1251"," תוצאות")}`) : '';
   if(!M.length){ el.innerHTML = `${I18n.p("ui-1252","<div class=\"news-empty\">לא נמצאו חדשות עבור „")}${esc(q)}”</div>`; alReveal(); return; }
-  el.innerHTML = M.map((o,i)=>{ newsBodyItems.set(String(i),{o,q}); return `<article class="news-it" data-ak="${esc(o.ak)}"><details class="news-expand" data-news-body="${i}"><summary style="cursor:pointer;list-style-position:outside"><div class="news-d" style="display:inline-block;margin-bottom:6px">${newsHl(newsFd(o),q)}</div><h3 style="margin:0">${newsHl(o.title||o.company||I18n.p("ui-1253","עדכון"),q)}</h3><div class="news-preview" style="font-weight:400;font-size:13px;line-height:1.65;color:var(--muted);margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${newsHl(newsPreview(o),q)}</div></summary></details></article>`; }).join('');
+  el.innerHTML = M.map((o,i)=>{ newsBodyItems.set(String(i),{o,q}); return `<article class="news-it" data-ak="${esc(o.ak)}"><details class="news-expand" data-news-body="${i}"><summary style="cursor:pointer;list-style-position:outside"><div class="news-d" style="display:inline-block;margin-bottom:6px">${newsHl(newsFd(o),q)}</div><h3 style="margin:0">${newsHl(o.title||o.company||I18n.p("ui-1253","עדכון"),q)}</h3><div class="news-preview" style="font-weight:400;font-size:13px;line-height:1.65;color:var(--muted);margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${newsBodyHl(newsPreview(o),q)}</div></summary></details></article>`; }).join('');
   alReveal();
 }
 // Hidden article bodies are created only when expanded, not for the whole archive.
 let newsBodyItems = new Map();
 function newsHydrate(det){ if(!det || det.dataset.loaded==='1') return; const entry = newsBodyItems.get(det.dataset.newsBody); if(!entry) return;
-  const {o,q} = entry; det.insertAdjacentHTML('beforeend',`${o.company ? `<span class="news-co">${newsHl(o.company,q)}</span>` : ''}${o.text ? `<div class="news-t">${newsHl(o.text,q)}</div>` : ''}${newsImgHtml(o)}${newsSourceHtml(o)}`); det.dataset.loaded='1'; }
+  const {o,q} = entry; det.insertAdjacentHTML('beforeend',`${o.company ? `<span class="news-co">${newsHl(o.company,q)}</span>` : ''}${o.text ? `<div class="news-t">${newsBodyHl(o.text,q)}</div>` : ''}${newsImgHtml(o)}${newsSourceHtml(o)}`); det.dataset.loaded='1'; }
 $('newsList').addEventListener('toggle', e=>{ if(e.target.matches('details.news-expand') && e.target.open) newsHydrate(e.target); }, true);
 function newsSetAll(open){ if(open) $('newsList').querySelectorAll('details.news-expand').forEach(newsHydrate); $('newsList').querySelectorAll('details').forEach(d=>{d.open=open;});}
 $('newsExpandAll').onclick=()=>newsSetAll(true);
