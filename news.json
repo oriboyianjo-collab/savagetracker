@@ -44627,5 +44627,29 @@
         "source_hash": "34de588d89698dc2c90c96d07562cc7b14f3571abe817516f747c56dcb694525"
       }
     }
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-10-05",
+    "כותרת": "השלמה מ-5 באוקטובר | Schneider Electric ו-PTC הודיעו על הסכם רכישה במזומן: 205 דולר למניה",
+    "כותרת_en": "October 5 catch-up | Schneider Electric and PTC announced an all-cash acquisition agreement at $205 per share",
+    "טקסט": "5.10.2026 | שעת פרסום מדויקת בישראל לא צוינה במקור. הודעה היסטורית על חתימת הסכם, לא עסקה חדשה מנובמבר ולא אישור שהרכישה הושלמה.\n\nהחברות Schneider Electric ו-PTC הודיעו ב-5 באוקטובר שחתמו על הסכם מחייב שלפיו שניידר תרכוש את מלוא מניות PTC תמורת 205 דולר למניה במזומן. ההודעה מעריכה את שווי ההון בכ-22.6 מיליארד דולר ואת שווי הפעילות בכ-23.7 מיליארד דולר. המחיר שיקף פרמיה של 42.3% למחיר הסגירה האחרון שלפני ההודעה.\n\nשני הדירקטוריונים אישרו את ההסכם פה אחד. בעת ההודעה החברות צפו השלמה עד הרבעון השלישי של 2027, בכפוף לתנאים, ובהם אישור בעלי רוב מניות PTC וקבלת האישורים הרגולטוריים הדרושים. זהו לוח הזמנים שנמסר אז, לא אישור עדכני שכל התנאים התקיימו.\n\nהרכישה המתוכננת נועדה להוסיף לשניידר את תוכנות תכנון המוצרים וניהול הנתונים ההנדסיים של PTC, לצד פעילות התוכנה התעשייתית הקיימת שלה.",
+    "טקסט_en": "October 5, 2026 | The source did not specify an exact publication time in Israel. Historical announcement of a signed agreement, not a new November transaction or confirmation that the acquisition has closed.\n\nSchneider Electric and PTC announced on October 5 that they had signed a definitive agreement for Schneider to acquire all PTC shares for $205 per share in cash. The announcement values PTC's equity at approximately $22.6 billion and implies an enterprise value of $23.7 billion. The price represented a 42.3% premium to the last closing price before the announcement.\n\nBoth boards unanimously approved the agreement. At the time, the companies expected closing by the third quarter of 2027, subject to conditions including approval by holders of a majority of PTC's outstanding shares and required regulatory approvals. This is the timetable announced then, not current confirmation that all conditions have been met.\n\nThe proposed acquisition would add PTC's product-design and engineering-data software to Schneider's existing industrial-software business.",
+    "קישור": "https://www.ptc.com/en/news/2026/schneider-electric-to-acquire-ptc",
+    "מקורות": [
+      {
+        "url": "https://www.ptc.com/en/news/2026/schneider-electric-to-acquire-ptc",
+        "label": "הודעת PTC ושניידר, 5 באוקטובר: הסכם, מחיר ותנאי השלמה",
+        "label_en": "PTC and Schneider announcement, October 5: agreement, price and closing conditions"
+      }
+    ],
+    "מזהה": "n-1693",
+    "הועלה": "2026-11-15 14:35",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4f6ac71ba56cbe05bb040f69d558b4170a696ec6671c22041faf3e89eddd1a6c"
+      }
+    }
   }
 ]
