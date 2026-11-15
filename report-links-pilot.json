@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "symbol": "ISRG",
+  "cik": "1035267",
+  "source_status": "retained_previously_reviewed_not_fresh_live",
+  "live_connected": false,
+  "reports": {
+    "2025": {
+      "FY": "https://isrg.intuitive.com/node/22711/html"
+    },
+    "2026": {
+      "Q3": "https://isrg.intuitive.com/node/23391/html"
+    }
+  },
+  "provenance": [
+    {
+      "url": "https://isrg.intuitive.com/node/22711/html",
+      "sha256": "ee89f9f3619d596778fce0a0b6baa28dc96c4357c21ccabcbcf632ef20cbc5ae"
+    },
+    {
+      "url": "https://isrg.intuitive.com/node/23391/html",
+      "sha256": "1cd8128e1fd44784ca61a190d07dc9a277fa0e5191929232294bd8256f310eea"
+    }
+  ]
+}
