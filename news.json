@@ -44866,5 +44866,40 @@
         "source_hash": "92588510c5a310aa20a17b5ab01349bb8f5515f30bfde2158cf66d5898787ede"
       }
     }
+  },
+  {
+    "מזהה": "n-1700",
+    "category": "micro",
+    "חברה": "ServiceNow (NOW)",
+    "חברה_en": "ServiceNow (NOW)",
+    "symbols": [
+      "NOW"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 18:25",
+    "הועלה": "2026-11-15 18:25",
+    "כותרת": "ServiceNow (NOW): לפי CTech, אושרו מענקי שימור מנייתיים להנהלה בשווי יעד של כ-127 מיליון דולר",
+    "כותרת_en": "ServiceNow (NOW): per CTech, executive retention stock awards approved with about $127 million target value",
+    "summary": "דיווח מ-6 בנובמבר על החלטה מ-26 באוקטובר: שווי היעד למנכ\"ל הוא 50 מיליון דולר. הבשלה בשנים 2027-2029, לא מזומן שכבר שולם.",
+    "summary_en": "A November 6 report on an October 26 decision: the CEO award has a $50 million target value. Vesting is in 2027-2029, not cash already paid.",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\nלפי כתבת CTech המציגה 6.11.2026 בשעה 00:20 ללא אזור זמן מפורש, ועדת התגמול של ServiceNow אישרה ב-26 באוקטובר מענקי מניות חסומות (RSU) לשימור בכירי החברה, בשווי יעד כולל של כ-127 מיליון דולר. הכתבה מייחסת את הפרטים להגשה הרבעונית של החברה; ההגשה עצמה לא אומתה כאן. שווי היעד של המענק ליו\"ר ולמנכ\"ל Bill McDermott הוא 50 מיליון דולר.\n\nלפי הכתבה, 25% מהמענקים יבשילו ב-31 בדצמבר 2027, 35% ב-31 בדצמבר 2028 ו-40% ב-31 בדצמבר 2029, בכפוף להמשך העסקה. מענקים שטרם הבשילו יחולטו בעזיבה, למעט חריגים כגון מוות, נכות או סיום העסקה מזכה לאחר שינוי שליטה. זהו שווי יעד של תגמול מנייתי מותנה, לא תשלום מזומן שכבר הועבר לבכירים.\n\nהכתבה מצטטת את מטרת המענקים כשימור רציפות ההנהלה בתקופה של תחרות חריגה על כישרונות בטכנולוגיה ארגונית. אין כאן אישור לתחזית כספית חדשה, כימות של דילול בפועל או קביעה שהמענקים גרמו לשינוי במחיר המניה. ההחלטה על מענקי השימור נפרדת מהדיווח הקודם על סבב הפיטורים בחברה.",
+    "טקסט_en": "**Not verified against a primary source**\nAccording to a CTech article showing November 6, 2026 at 00:20 without an explicit time zone, ServiceNow's compensation committee approved restricted stock unit (RSU) retention awards for senior executives on October 26, with a combined target value of about $127 million. The article attributes the details to the company's quarterly filing; the filing itself has not been verified here. Chairman and CEO Bill McDermott's award has a $50 million target value.\n\nThe article says 25% of the awards vest on December 31, 2027, 35% on December 31, 2028 and 40% on December 31, 2029, subject to continued employment. Unvested awards are forfeited on departure, except for cases such as death, disability or a qualifying termination following a change in control. This is a target value for conditional stock compensation, not cash already paid to executives.\n\nThe article quotes the awards' purpose as maintaining leadership continuity during unusually strong competition for enterprise technology talent. This does not establish new financial guidance, quantify actual dilution or show that the awards caused a change in the share price. The retention-award decision is separate from the previously reported layoff round.",
+    "קישור": "https://www.calcalistech.com/ctechnews/article/11spg64q9",
+    "מקורות": [
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/11spg64q9",
+        "label": "CTech: דיווח מ-6 בנובמבר על מענקי השימור",
+        "label_en": "CTech: November 6 retention-award report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1fe74be656038e3ffacd40427dc5ee41b51a25d989d682a96df2a72177d0a541"
+      }
+    }
   }
 ]
