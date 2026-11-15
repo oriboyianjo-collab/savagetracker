@@ -44651,5 +44651,29 @@
         "source_hash": "4f6ac71ba56cbe05bb040f69d558b4170a696ec6671c22041faf3e89eddd1a6c"
       }
     }
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-11-12",
+    "כותרת": "ExxonMobil (XOM): השלמה מ-12 בנובמבר - החלטת השקעה ב-Longtail בגיאנה, עם השקעה מתוכננת של 12.5 מיליארד דולר",
+    "כותרת_en": "ExxonMobil (XOM): November 12 catch-up - Longtail investment decision in Guyana, with $12.5 billion planned investment",
+    "טקסט": "12.11.2026 | שעת הפרסום המדויקת בישראל לא צוינה במקור. זו השלמה להודעה מ-12 בנובמבר, לא החלטה חדשה מהיום.\n\nחברת אקסון מוביל הודיעה שקיבלה החלטת השקעה סופית לפיתוח לונגטייל בגיאנה, לאחר קבלת האישורים הממשלתיים והרגולטוריים הנדרשים. החברה מתכננת השקעה נוספת של 12.5 מיליארד דולר בפיתוח השמיני בבלוק סטאברוק, וצופה תחילת פעילות ב-2030. זהו צפי שנמסר בהודעה, לא אישור שההפקה כבר החלה.\n\nהפרויקט מתמקד בגז לא-מלווה ובמאגרים עשירים בקונדנסט. מתקן ההפקה, האחסון והפריקה הצף מתוכנן לעבד 1.2 מיליארד רגל מעוקבת סטנדרטית של גז ביום ולהפיק עד 250 אלף חביות קונדנסט ביום. מדובר בקיבולת תכנון, לא בתפוקה נוכחית.\n\nהעברת גז לחוף באמצעות צינור נותרה אפשרות המותנית בהחלטות השקעה עתידיות, בביקוש ובפיתוח התשתית הדרושה. החברה הבת בגיאנה מפעילה את הפרויקט ומחזיקה 45% בבלוק; השותפות הנוספות מחזיקות 30% ו-25%.",
+    "טקסט_en": "November 12, 2026 | The source did not specify an exact publication time in Israel. This is a catch-up to the November 12 announcement, not a new decision today.\n\nExxonMobil announced a final investment decision for the Longtail development offshore Guyana after receiving the required government and regulatory approvals. The company plans an additional $12.5 billion investment in the eighth Stabroek block development and expects start-up in 2030. This is the outlook given in the announcement, not confirmation that production has begun.\n\nThe project targets non-associated gas and condensate-rich reservoirs. Its floating production, storage and offloading vessel is designed to process 1.2 billion standard cubic feet of gas per day and produce up to 250,000 barrels of condensate per day. These are design capacities, not current production.\n\nTransporting gas to shore by pipeline remains subject to future investment decisions, market demand and necessary infrastructure. The ExxonMobil Guyana affiliate operates the project and holds 45% of the block; the other partners hold 30% and 25%.",
+    "קישור": "https://corporate.exxonmobil.com/news/news-releases/2026/1112-exxonmobil-advances-next-phase-of-guyana-development-with-longtail",
+    "מקורות": [
+      {
+        "url": "https://corporate.exxonmobil.com/news/news-releases/2026/1112-exxonmobil-advances-next-phase-of-guyana-development-with-longtail",
+        "label": "הודעת ExxonMobil מ-12 בנובמבר: החלטת השקעה, קיבולת ותנאים",
+        "label_en": "ExxonMobil November 12 announcement: investment decision, capacity and conditions"
+      }
+    ],
+    "מזהה": "n-1694",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fba3580e261b5fddf193785827ed9a5a50646fb63757f0ad2c052a92bbe310aa"
+      }
+    },
+    "הועלה": "2026-11-15 15:01"
   }
 ]
