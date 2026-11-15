@@ -45007,5 +45007,50 @@
         "source_hash": "b0365fe20824c373479b56837210672da977e9a8f1ce4f7e02078fbce67f0ad2"
       }
     }
+  },
+  {
+    "מזהה": "n-1704",
+    "category": "micro",
+    "חברה": "Amazon (AMZN)",
+    "חברה_en": "Amazon (AMZN)",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [
+      "consumer_discretionary"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 22:23",
+    "הועלה": "2026-11-15 22:23",
+    "כותרת": "ULA מאשרת: משימת Vulcan הראשונה של Amazon Leo לא הגיעה למסלול",
+    "כותרת_en": "ULA confirms first Amazon Leo Vulcan mission failed to reach orbit",
+    "summary": "מפעילת המשגר מסרה כי אירעה חריגה כעשר דקות לאחר ההמראה. המשימה נשאה 40 לווייני Amazon Leo; סיבת הכשל עדיין אינה ידועה.",
+    "summary_en": "The launch provider reported an anomaly about ten minutes after liftoff. The mission carried 40 Amazon Leo satellites; the cause is not yet known.",
+    "טקסט": "United Launch Alliance (ULA) אישרה בעדכון המשימה הרשמי מ-15 בנובמבר 2026, בשעה 20:31 בישראל, כי משגר Vulcan ששוגר ממתחם SLC-41 בקייפ קנוורל חווה חריגה עשר דקות לאחר תחילת הטיסה ולא הצליח להביא את משימת Amazon למסלול. יומן השיגור הרשמי מתעד המראה ב-19:40 בישראל.\n\nזו משימת Vulcan הראשונה של Amazon Leo, שנשאה 40 לווייני תקשורת לפי תיאור המשימה הרשמי של ULA ולפי הודעת Amazon לקראת השיגור.\n\nULA מסרה שאין בידיה עדיין מידע מסוים שמסביר מה אירע, וכי תעבוד עם הלקוח ועם הגופים המתאימים למציאת הסיבה, לקביעת פעולות תיקון ולחזרה לטיסה. לא פורסמו בעדכון סיבת כשל, אומדן הפסד כספי או לוח זמנים לחזרה לשיגורים. אין להסיק ממנו כשל במנוע או ברכיב מסוים.",
+    "טקסט_en": "United Launch Alliance (ULA) confirmed in its official November 15, 2026 mission update, displayed at 20:31 Israel time, that the Vulcan vehicle launched from SLC-41 at Cape Canaveral suffered an anomaly ten minutes into flight and failed to deliver the Amazon mission to orbit. The official launch log records liftoff at 19:40 Israel time.\n\nThis was Amazon Leo's first Vulcan mission. It carried 40 communications satellites, according to ULA's official mission description and Amazon's prelaunch announcement.\n\nULA said it did not yet have specific data explaining what happened and would work with its customer and the appropriate organizations to find the cause, determine corrective action and return to flight. Its update gave no cause, financial-loss estimate or return-to-launch timetable. It does not establish a failure of any particular engine or component.",
+    "קישור": "https://www.ulalaunch.com/missions/next-launch/vulcan-leo-1",
+    "מקורות": [
+      {
+        "url": "https://www.ulalaunch.com/missions/next-launch/vulcan-leo-1",
+        "label": "ULA: יומן המשימה הרשמי והודעת הכשל",
+        "label_en": "ULA: official mission log and failure statement"
+      },
+      {
+        "url": "https://v.24liveblog.com/iframe/?id=4161520652162300216",
+        "label": "יומן ULA המוטמע באתר הרשמי: עדכון 20:31",
+        "label_en": "ULA log embedded on its official site: 20:31 update"
+      },
+      {
+        "url": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-vulcan-satellites-launch",
+        "label": "Amazon: תיאור מטען 40 הלוויינים לקראת השיגור",
+        "label_en": "Amazon: prelaunch description of the 40-satellite payload"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8cd5a2920e6db1288c9ec4dc090a11428c587abe804fd737f7540f7c4e5daf73"
+      }
+    }
   }
 ]
