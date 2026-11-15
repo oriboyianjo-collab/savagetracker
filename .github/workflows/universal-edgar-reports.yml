@@ -1,0 +1,144 @@
+name: universal-edgar-reports
+
+on:
+  workflow_dispatch:
+    inputs:
+      pass_id:
+        description: 'Fixed approved finite pass identity'
+        required: true
+        default: 'universe-20261115-6315-replace-v1'
+        type: string
+      generation:
+        description: 'Expected committed checkpoint generation'
+        required: true
+        default: '0'
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sec-edgar-shared
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify fixed pass and unchanged checkpoint before any SEC request
+        env:
+          PASS_ID: ${{ inputs.pass_id }}
+          GENERATION: ${{ inputs.generation }}
+        run: |
+          set -euo pipefail
+          [[ "$GENERATION" =~ ^[0-9]{1,5}$ ]]
+          python3 sec-report-tool/universal/controller.py \
+            --control report-pass-control.json --pass-id "$PASS_ID" --generation "$GENERATION"
+          mkdir -p "$RUNNER_TEMP/universal-state" "$RUNNER_TEMP/universal-cache"
+          if test -f report-pass-resume.json; then
+            python3 sec-report-tool/universal/resume_shards.py \
+              --input report-pass-resume.json --directory report-pass-state \
+              --output "$RUNNER_TEMP/universal-prior.json" --hydrate
+          fi
+      - name: Run offline qualification and publication safety tests
+        working-directory: sec-report-tool
+        run: |
+          set -euo pipefail
+          python3 -m unittest discover -s universal/tests -v
+          python3 -m unittest discover -s universal -p 'test_publication.py' -v
+          python3 -m unittest discover -s universal -p 'test_controller.py' -v
+          python3 -m unittest discover -s universal -p 'test_resume*.py' -v
+          python3 -m unittest discover -s universal -p 'test_shards.py' -v
+          python3 -m unittest universal.test_combined -v
+          node universal/test_consumer.cjs
+          node universal/test_consumer_async.cjs
+      - name: Automatically discover and qualify the next bounded batch
+        id: core
+        working-directory: sec-report-tool
+        env:
+          PASS_ID: ${{ inputs.pass_id }}
+          GENERATION: ${{ inputs.generation }}
+        run: |
+          set -uo pipefail
+          args=()
+          if test -f "$RUNNER_TEMP/universal-prior.json"; then args+=(--prior "$RUNNER_TEMP/universal-prior.json"); fi
+          python3 -m universal.cli \
+            --inventory universal/universe.json --state "$RUNNER_TEMP/universal-state" \
+            --result "$RUNNER_TEMP/universal-result.json" --as-of 2026-11-15 \
+            --pass-id "$PASS_ID" --generation "${GENERATION}" --deadline-seconds 480 --max-issuers 50 \
+            --live --cache "$RUNNER_TEMP/universal-cache" --log "$RUNNER_TEMP/universal-run.jsonl" "${args[@]}"
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          # 1 is a normal resumable incomplete pass; 2 stops continuation but saves accounting.
+          if test "$code" -gt 2; then exit "$code"; fi
+          test -s "$RUNNER_TEMP/universal-result.json"
+      - name: Validate output, sanitize resume state, and advance finite controller
+        id: checkpoint
+        env:
+          PASS_ID: ${{ inputs.pass_id }}
+          GENERATION: ${{ inputs.generation }}
+          CORE_CODE: ${{ steps.core.outputs.code }}
+        run: |
+          set -euo pipefail
+          args=()
+          if test -f report-links-all.json; then args+=(--prior report-links-all.json --prior-shards report-links-all); fi
+          python3 sec-report-tool/universal/publication.py \
+            --inventory sec-report-tool/universal/universe.json --result "$RUNNER_TEMP/universal-result.json" \
+            --app-output "$RUNNER_TEMP/universal-full-index.json" --status-output report-status-all.json "${args[@]}"
+          python3 sec-report-tool/universal/shards.py \
+            --index "$RUNNER_TEMP/universal-full-index.json" --directory report-links-all --manifest report-links-all.json
+          python3 sec-report-tool/universal/resume_shards.py \
+            --input "$RUNNER_TEMP/universal-result.json" --directory report-pass-state --output report-pass-resume.json
+          python3 sec-report-tool/universal/controller.py \
+            --control report-pass-control.json --pass-id "$PASS_ID" --generation "$GENERATION" \
+            --result "$RUNNER_TEMP/universal-result.json" --exit-code "$CORE_CODE" > "$RUNNER_TEMP/controller.json"
+          python3 - <<'PY'
+          import json,os
+          x=json.load(open(os.environ['RUNNER_TEMP']+'/controller.json'))
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              f.write('continue='+str(x['continue']).lower()+'\n')
+              f.write('generation='+str(x['generation'])+'\n')
+          PY
+      - name: Commit only automatically generated pass output
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- report-links-all.json report-links-all report-status-all.json report-pass-resume.json report-pass-state report-pass-control.json
+          git diff --cached --quiet && { echo 'Unexpected empty checkpoint'; exit 1; }
+          git commit -m 'Advance finite automatically qualified EDGAR report pass'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Continue only this unfinished approved pass
+        if: steps.checkpoint.outputs.continue == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PASS_ID: ${{ inputs.pass_id }}
+          GENERATION: ${{ steps.checkpoint.outputs.generation }}
+        run: |
+          set -euo pipefail
+          gh workflow run universal-edgar-reports.yml --ref main -f pass_id="$PASS_ID" -f generation="$GENERATION"
+      - name: Save diagnostic evidence for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: universal-report-batch-${{ github.run_id }}
+          path: |
+            report-status-all.json
+            report-pass-control.json
+            ${{ runner.temp }}/controller.json
+          if-no-files-found: ignore
+          retention-days: 7
