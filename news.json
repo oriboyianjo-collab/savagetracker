@@ -43342,61 +43342,90 @@
     "מזהה": "n-1654",
     "הועלה": "2026-11-13 22:41"
   },
-{
-  "category": "micro",
-  "חברה": "Rocket Lab (RKLB)",
-  "חברה_en": "Rocket Lab (RKLB)",
-  "symbols": [
-    "RKLB"
-  ],
-  "תאריך": "2026-11-14 09:02",
-  "כותרת": "Rocket Lab השלימה את שיגור Electron ה-100; לוויין iQPS הוצב במסלול",
-  "כותרת_en": "Rocket Lab completes its 100th Electron launch, deploying an iQPS satellite",
-  "קישור": "https://www.globenewswire.com/news-release/2026/11/14/3403041/0/en/rocket-lab-hits-100-electron-launches-fastest-commercial-rocket-to-reach-the-milestone.html",
-  "טקסט": "השלמת סיקור להודעת Rocket Lab מ-14.11.2026, 09:02 בישראל (02:02 ET). האירוע התרחש ב-14 בנובמבר; זו אינה הודעת שיגור חדשה מהיום.\n\nRocket Lab הודיעה שמשימת The Mountain God Rises השלימה בהצלחה את שיגור Electron ה-100 ממתחם השיגור שלה בניו זילנד. לוויין תצפית המכ״ם YAMATSUMI-II של iQPS הוצב במסלול נמוך בגובה 575 ק״מ.\n\nלפי החברה, Electron הגיע ל-100 שיגורים מהר יותר מכל משגר אחר שפותח באופן מסחרי. זו טענת החברה, לא השוואה שאומתה כאן באופן עצמאי. החברה מסרה שזהו שיגור Electron ה-11 עבור iQPS, עם הצלחה בכל משימות הלקוח מאז 2023. אין להסיק מכך שכל 100 שיגורי Electron הצליחו.\n\nזהו ציון דרך תפעולי וביצוע משימה, לא חוזה חדש או שיגור בכורה של Neutron. שבע משימות נוספות ל-iQPS עד 2030 מוזכרות כהזמנות קיימות; לא פורסם בהודעה שווי כספי חדש.",
-  "טקסט_en": "Catch-up coverage of Rocket Lab's November 14, 2026 release, published at 09:02 Israel time (02:02 ET). The event took place on November 14; this is not a new launch announcement today.\n\nRocket Lab announced mission success for its 100th Electron launch, The Mountain God Rises, from its New Zealand launch complex. The mission deployed iQPS's YAMATSUMI-II radar Earth-imaging satellite into a 575 km low Earth orbit.\n\nThe company says Electron reached 100 launches faster than any other commercially developed rocket. This is the company's claim, not an independently verified comparison here. It says this was its 11th Electron launch for iQPS, with every mission for that customer successful since 2023. This does not mean all 100 Electron launches succeeded.\n\nThis is an operational milestone and completed mission, not a new contract or Neutron's first launch. Seven further iQPS missions through 2030 are described as existing bookings; the release gives no new financial value.",
-  "מזהה": "n-1655",
-  "הועלה": "2026-11-15 10:17",
-  "_translation": {
-    "en": {
-      "schema_version": 1,
-      "source_hash": "df47fcc97d828a76dc6ac542f18a4ca719b0aebb59fd0e8076b15ae144cc29f6"
+  {
+    "category": "micro",
+    "חברה": "Rocket Lab (RKLB)",
+    "חברה_en": "Rocket Lab (RKLB)",
+    "symbols": [
+      "RKLB"
+    ],
+    "תאריך": "2026-11-14 09:02",
+    "כותרת": "Rocket Lab השלימה את שיגור Electron ה-100; לוויין iQPS הוצב במסלול",
+    "כותרת_en": "Rocket Lab completes its 100th Electron launch, deploying an iQPS satellite",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/14/3403041/0/en/rocket-lab-hits-100-electron-launches-fastest-commercial-rocket-to-reach-the-milestone.html",
+    "טקסט": "השלמת סיקור להודעת Rocket Lab מ-14.11.2026, 09:02 בישראל (02:02 ET). האירוע התרחש ב-14 בנובמבר; זו אינה הודעת שיגור חדשה מהיום.\n\nRocket Lab הודיעה שמשימת The Mountain God Rises השלימה בהצלחה את שיגור Electron ה-100 ממתחם השיגור שלה בניו זילנד. לוויין תצפית המכ״ם YAMATSUMI-II של iQPS הוצב במסלול נמוך בגובה 575 ק״מ.\n\nלפי החברה, Electron הגיע ל-100 שיגורים מהר יותר מכל משגר אחר שפותח באופן מסחרי. זו טענת החברה, לא השוואה שאומתה כאן באופן עצמאי. החברה מסרה שזהו שיגור Electron ה-11 עבור iQPS, עם הצלחה בכל משימות הלקוח מאז 2023. אין להסיק מכך שכל 100 שיגורי Electron הצליחו.\n\nזהו ציון דרך תפעולי וביצוע משימה, לא חוזה חדש או שיגור בכורה של Neutron. שבע משימות נוספות ל-iQPS עד 2030 מוזכרות כהזמנות קיימות; לא פורסם בהודעה שווי כספי חדש.",
+    "טקסט_en": "Catch-up coverage of Rocket Lab's November 14, 2026 release, published at 09:02 Israel time (02:02 ET). The event took place on November 14; this is not a new launch announcement today.\n\nRocket Lab announced mission success for its 100th Electron launch, The Mountain God Rises, from its New Zealand launch complex. The mission deployed iQPS's YAMATSUMI-II radar Earth-imaging satellite into a 575 km low Earth orbit.\n\nThe company says Electron reached 100 launches faster than any other commercially developed rocket. This is the company's claim, not an independently verified comparison here. It says this was its 11th Electron launch for iQPS, with every mission for that customer successful since 2023. This does not mean all 100 Electron launches succeeded.\n\nThis is an operational milestone and completed mission, not a new contract or Neutron's first launch. Seven further iQPS missions through 2030 are described as existing bookings; the release gives no new financial value.",
+    "מזהה": "n-1655",
+    "הועלה": "2026-11-15 10:17",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "df47fcc97d828a76dc6ac542f18a4ca719b0aebb59fd0e8076b15ae144cc29f6"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "חברה": "L3Harris (LHX); American Airlines (AAL)",
+    "חברה_en": "L3Harris (LHX); American Airlines (AAL)",
+    "symbols": [
+      "LHX",
+      "AAL"
+    ],
+    "תאריך": "2026-11-14",
+    "כותרת": "L3Harris תומכת בחקירת השבתת ההמראות בארה\"ב; American עדיין משקמת את פעילותה",
+    "כותרת_en": "L3Harris supports ground-stop investigation; American Airlines continues recovery",
+    "קישור": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
+    "טקסט": "הודעת L3Harris פורסמה ב-14 בנובמבר 2026, לאחר עצירת ההמראות הארצית בארה\"ב ב-13 בנובמבר. שעת פרסום ההודעה אינה ידועה. עדכון American Airlines האחרון במקור פורסם ב-14 בנובמבר ב-20:55 בשעון מרכז ארה\"ב, 15 בנובמבר ב-04:55 בישראל.\n\nL3Harris מסרה שהיא ושותפות התקשורת שלה תומכות בחקירת ה-FAA להבנת הנסיבות שהובילו לעצירה. החברה ציינה שיותר מ-70% מההמרה המתוכננת של תשתית התקשורת במרחב האווירי, מנחושת לסיבים אופטיים, הושלמו בתיאום עם ה-FAA. ההודעה אינה קובעת מה גרם לתקלה ואינה ממצא של חקירה שהסתיימה.\n\nלפי American Airlines, עצירת ההמראות הארצית שנמשכה כחמש שעות הוסרה ב-13 בנובמבר. בעדכון האחרון הודיעה החברה שכל הביטולים המתוכננים לאותו לילה וליום המחרת כבר בוצעו, אך ייתכנו ביטולי טיסות בודדות בזמן שיקום הפעילות. אין בכך אישור שכל הטיסות חזרו לשגרה.\n\nזהו עדכון תפעולי על אירוע שכבר התרחש ועל החקירה והשיקום שאחריו, לא הודעה על עצירת המראות חדשה. שני המקורות אינם מפרטים נזק כספי או קובעים אחריות של L3Harris לתקלה.",
+    "טקסט_en": "L3Harris published its statement on November 14, 2026, after the November 13 nationwide U.S. ground stop. The statement's publication time is unknown. The latest American Airlines update on the source page was published November 14 at 8:55 p.m. Central time, November 15 at 04:55 Israel time.\n\nL3Harris said it and its telecommunications partners are supporting the FAA's investigation into the conditions that led to the ground stop. The company said more than 70% of the planned conversion of national airspace communications from copper to fiber optics has been completed in coordination with the FAA. Its statement does not establish the cause or announce a completed investigation's findings.\n\nAccording to American Airlines, the five-hour nationwide ground stop was lifted on November 13. In its latest update, the airline said all planned cancellations for that night and the next day had been completed, but individual flights could still be canceled as recovery continued. This does not confirm that every flight is back to normal.\n\nThis is an operational update on an event that has already occurred and the investigation and recovery that followed, not a new ground-stop announcement. Neither source quantifies financial damage or determines that L3Harris caused the failure.",
+    "מקורות": [
+      {
+        "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
+        "label": "L3Harris: הודעה מ-14 בנובמבר על החקירה",
+        "label_en": "L3Harris: November 14 investigation statement"
+      },
+      {
+        "url": "https://news.aa.com/news/news-details/2026/Update-on-FAAs-nationwide-ground-stop/",
+        "label": "American Airlines: עדכוני עצירת ההמראות והשיקום",
+        "label_en": "American Airlines: ground-stop and recovery updates"
+      }
+    ],
+    "מזהה": "n-1656",
+    "הועלה": "2026-11-15 10:25",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "66c60387230f770a76e2a94c421907ecfabe33035b02bc05564ab29f34d93c7e"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "תאריך": "2026-11-14 02:25",
+    "כותרת": "רויטרס: התכתבויות מאוקטובר מצביעות על תיאור מטעה של יחסי הואנג עם אליס הואנג בפני בכירי NVIDIA",
+    "כותרת_en": "Reuters: October messages show Huang mischaracterized his relationship with Alice Huang to NVIDIA leaders",
+    "קישור": "https://www.reuters.com/5f374b32b07b/world/china/ex-nvidia-ceo-misled-top-lawyer-affair-with-chinese-businesswoman-sources-say-2026-11-14/",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\nמבוסס על כתבת רויטרס המלאה, המייחסת את המידע לשני מקורות ולהתכתבויות פנימיות שעיינה בהן.\n\n14.11.2026, 02:25 בישראל (00:25 UTC).\n\nלפי רויטרס, בהתכתבויות מאוקטובר תיאר ג'נסן הואנג בפני בכירים ב-NVIDIA, ובהם היועץ המשפטי טים טטר וסמנכ\"לית השיווק אליסון ווגונפלד, את קשריו עם אליס הואנג כאינטראקציות עסקיות רגילות עם לקוח. רויטרס מדווחת שהדברים הטעו את הבכירים לגבי אופי הקשר. ההתכתבויות עצמן לא נבדקו כאן, ואין מדובר בממצא משפטי או בתוצאת החקירה העצמאית של הדירקטוריון.\n\nהסוכנות עיינה בהודעות מאוקטובר 2026, אך לא בהודעות מ-2025 שגם אליהן התייחסו מקורותיה. לפי הדיווח, הואנג גם ביקש לשקול צעדים משפטיים נגד הניו יורק טיימס בעקבות פרסום מ-2025. בסופו של דבר לא הוגשה תביעה מצד הואנג או NVIDIA; העיתון מסר שלא קיבל דרישה משפטית. טטר ווגונפלד לא השיבו לפניות, ונציג הואנג ודובר NVIDIA סירבו להגיב לרויטרס.\n\nהואנג כבר התפטר מתפקידיו כנשיא, מנכ\"ל וחבר דירקטוריון ב-12 בנובמבר, וקולט קרס מונתה למנכ\"לית זמנית. הדיווח על ההתכתבויות מוסיף מידע על אופן הצגת הקשר בתוך החברה; אין בו הודעה על שינוי נוסף בהנהלה או מסקנה שהחברה הפרה את החוק.\n\nרויטרס מדגישה שלא אימתה עצמאית אם אליס הואנג פעלה בשם ממשלת סין; בייג'ינג מכחישה שהיא מרגלת. הדיווח אינו קובע שהועבר מידע מסווג, אינו פסק דין בעניין ריגול ואינו מספק בסיס לייחס לו שינוי מסוים במחיר המניה.",
+    "טקסט_en": "**Not verified against a primary source**\nBased on the complete Reuters report, which attributes its account to two sources and internal correspondence it reviewed.\n\nNovember 14, 2026, 02:25 Israel time (00:25 UTC).\n\nAccording to Reuters, in October messages Jensen Huang described his interactions with Alice Huang to NVIDIA leaders, including general counsel Tim Teter and chief marketing officer Alison Wagonfeld, as routine business dealings with a customer. Reuters reports that these descriptions misled the executives about the relationship's nature. The messages were not independently inspected here; this is not a legal finding or the result of the board's independent investigation.\n\nReuters reviewed October 2026 correspondence, but not the 2025 messages also described by its sources. The report says Huang also urged consideration of legal action against The New York Times over a 2025 article. Ultimately neither Huang nor NVIDIA filed suit, and the newspaper said it received no legal demand. Teter and Wagonfeld did not answer requests for comment, while Huang's representative and NVIDIA's spokesperson declined to comment to Reuters.\n\nHuang had already resigned as president, CEO and director on November 12, and Colette Kress was appointed interim CEO. The correspondence report adds information about how the relationship was described inside the company; it announces no further management change or finding that the company broke the law.\n\nReuters stresses that it has not independently verified whether Alice Huang worked on behalf of China's government; Beijing denies she is a spy. The report does not establish that classified information was transferred, determine an espionage case or support attributing a particular stock-price move to it.",
+    "מקורות": [
+      {
+        "url": "https://www.reuters.com/5f374b32b07b/world/china/ex-nvidia-ceo-misled-top-lawyer-affair-with-chinese-businesswoman-sources-say-2026-11-14/",
+        "label": "רויטרס: הדיווח המקורי המלא מ-14 בנובמבר",
+        "label_en": "Reuters: complete original November 14 report"
+      }
+    ],
+    "מזהה": "n-1657",
+    "הועלה": "2026-11-15 10:36",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4944d79e19d7c5d6b0ed50823df74f690fe0bc4363d0e3dc95dcba2d660575af"
+      }
     }
   }
-},
-{
-  "category": "micro",
-  "חברה": "L3Harris (LHX); American Airlines (AAL)",
-  "חברה_en": "L3Harris (LHX); American Airlines (AAL)",
-  "symbols": [
-    "LHX",
-    "AAL"
-  ],
-  "תאריך": "2026-11-14",
-  "כותרת": "L3Harris תומכת בחקירת השבתת ההמראות בארה\"ב; American עדיין משקמת את פעילותה",
-  "כותרת_en": "L3Harris supports ground-stop investigation; American Airlines continues recovery",
-  "קישור": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
-  "טקסט": "הודעת L3Harris פורסמה ב-14 בנובמבר 2026, לאחר עצירת ההמראות הארצית בארה\"ב ב-13 בנובמבר. שעת פרסום ההודעה אינה ידועה. עדכון American Airlines האחרון במקור פורסם ב-14 בנובמבר ב-20:55 בשעון מרכז ארה\"ב, 15 בנובמבר ב-04:55 בישראל.\n\nL3Harris מסרה שהיא ושותפות התקשורת שלה תומכות בחקירת ה-FAA להבנת הנסיבות שהובילו לעצירה. החברה ציינה שיותר מ-70% מההמרה המתוכננת של תשתית התקשורת במרחב האווירי, מנחושת לסיבים אופטיים, הושלמו בתיאום עם ה-FAA. ההודעה אינה קובעת מה גרם לתקלה ואינה ממצא של חקירה שהסתיימה.\n\nלפי American Airlines, עצירת ההמראות הארצית שנמשכה כחמש שעות הוסרה ב-13 בנובמבר. בעדכון האחרון הודיעה החברה שכל הביטולים המתוכננים לאותו לילה וליום המחרת כבר בוצעו, אך ייתכנו ביטולי טיסות בודדות בזמן שיקום הפעילות. אין בכך אישור שכל הטיסות חזרו לשגרה.\n\nזהו עדכון תפעולי על אירוע שכבר התרחש ועל החקירה והשיקום שאחריו, לא הודעה על עצירת המראות חדשה. שני המקורות אינם מפרטים נזק כספי או קובעים אחריות של L3Harris לתקלה.",
-  "טקסט_en": "L3Harris published its statement on November 14, 2026, after the November 13 nationwide U.S. ground stop. The statement's publication time is unknown. The latest American Airlines update on the source page was published November 14 at 8:55 p.m. Central time, November 15 at 04:55 Israel time.\n\nL3Harris said it and its telecommunications partners are supporting the FAA's investigation into the conditions that led to the ground stop. The company said more than 70% of the planned conversion of national airspace communications from copper to fiber optics has been completed in coordination with the FAA. Its statement does not establish the cause or announce a completed investigation's findings.\n\nAccording to American Airlines, the five-hour nationwide ground stop was lifted on November 13. In its latest update, the airline said all planned cancellations for that night and the next day had been completed, but individual flights could still be canceled as recovery continued. This does not confirm that every flight is back to normal.\n\nThis is an operational update on an event that has already occurred and the investigation and recovery that followed, not a new ground-stop announcement. Neither source quantifies financial damage or determines that L3Harris caused the failure.",
-  "מקורות": [
-    {
-      "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
-      "label": "L3Harris: הודעה מ-14 בנובמבר על החקירה",
-      "label_en": "L3Harris: November 14 investigation statement"
-    },
-    {
-      "url": "https://news.aa.com/news/news-details/2026/Update-on-FAAs-nationwide-ground-stop/",
-      "label": "American Airlines: עדכוני עצירת ההמראות והשיקום",
-      "label_en": "American Airlines: ground-stop and recovery updates"
-    }
-  ],
-  "מזהה": "n-1656",
-  "הועלה": "2026-11-15 10:25",
-  "_translation": {
-    "en": {
-      "schema_version": 1,
-      "source_hash": "66c60387230f770a76e2a94c421907ecfabe33035b02bc05564ab29f34d93c7e"
-    }
-  }
-}
 ]
