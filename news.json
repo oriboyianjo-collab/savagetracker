@@ -45052,5 +45052,41 @@
         "source_hash": "8cd5a2920e6db1288c9ec4dc090a11428c587abe804fd737f7540f7c4e5daf73"
       }
     }
+  },
+  {
+    "מזהה": "n-1705",
+    "category": "macro",
+    "חברה": "סין / עתודות זהב",
+    "חברה_en": "China / gold reserves",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 00:35",
+    "הועלה": "2026-11-16 00:35",
+    "כותרת": "סין: עתודות הזהב הרשמיות עלו ל-78.30 מיליון אונקיות בסוף אוקטובר",
+    "כותרת_en": "China: official gold reserves rose to 78.30 million ounces at end-October",
+    "summary": "הנתונים פורסמו ב-7 בנובמבר: תוספת של 830 אלף אונקיות באוקטובר, לעומת 740 אלף בספטמבר. זו תמונת עתודות חודשית, לא החלטת מדיניות חדשה.",
+    "summary_en": "Published November 7: holdings increased by 830,000 ounces in October, versus 740,000 in September. This is monthly reserve data, not a new policy decision.",
+    "טקסט": "7.11.2026 | נתוני העתודות הרשמיים של SAFE, רשות מטבע החוץ של סין. עמוד הפרסום מציין תאריך זה; שעת הפרסום המקורית לא אומתה.\n\nבטבלת העתודות הרשמית ל-2026, כמות הזהב של סין עמדה בסוף אוקטובר על 78.30 מיליון אונקיות, לעומת 77.47 מיליון בסוף ספטמבר ו-76.73 מיליון בסוף אוגוסט. ההפרשים המחושבים מהיתרות הם עלייה של 830 אלף אונקיות באוקטובר, לעומת 740 אלף בספטמבר.\n\nהנתונים מצביעים על האצה בקצב הגידול החודשי של כמות הזהב המדווחת בשני החודשים האלה. אלה יתרות זהב פיזיות וחשבון הפרשים ביניהן, לא עלות הרכישה, שווי שוק בדולרים או דיווח על עסקה בודדת.\n\nזהו פרסום נתונים על אוקטובר שכבר פורסם ב-7 בנובמבר, לא הכרזה חדשה ב-16 בנובמבר. העמוד אינו מודיע על שינוי יעד, תוכנית רכישות עתידית או החלטת ריבית. בטבלה שנקראה שדות נובמבר ודצמבר עדיין ריקים, ואין כאן אימות לרכישות בחודשים האלה.",
+    "טקסט_en": "November 7, 2026 | Official reserve data from SAFE, China's State Administration of Foreign Exchange. The publication page gives this date; the original publication time was not verified.\n\nChina's 2026 official reserve table shows gold holdings of 78.30 million ounces at end-October, versus 77.47 million at end-September and 76.73 million at end-August. Differences calculated from those balances are an increase of 830,000 ounces in October, versus 740,000 in September.\n\nThe figures show faster monthly growth in the reported quantity of gold across these two months. These are physical gold holdings and differences between balances, not the purchase cost, dollar market value or a report of a single transaction.\n\nThis is October data already published on November 7, not a new November 16 announcement. The page does not announce a new target, future purchase program or interest-rate decision. November and December fields in the table read remain blank; no purchases in those months are verified here.",
+    "קישור": "https://www.safe.gov.cn/safe/2026/0206/27116.html",
+    "מקורות": [
+      {
+        "label": "SAFE: טבלת העתודות הרשמית ל-2026",
+        "label_en": "SAFE: official 2026 reserve table",
+        "url": "https://www.safe.gov.cn/safe/2026/0206/27116.html"
+      },
+      {
+        "label": "SAFE: עמוד הפרסום, מתוארך ל-7 בנובמבר",
+        "label_en": "SAFE: publication page dated November 7",
+        "url": "https://www.safe.gov.cn/en/2021/0203/2045.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "861bcc49eb7d5c0a4fb401cf59f8741b74f8c30e3c0a574584ace5a20a7c12ca"
+      }
+    }
   }
 ]
