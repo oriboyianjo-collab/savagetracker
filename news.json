@@ -44716,5 +44716,50 @@
         "source_hash": "bdc7751c98ec2f8e7e0211e615b51c0b7571eca3c835750ae2ad6c34d655ac8f"
       }
     }
+  },
+  {
+    "מזהה": "n-1696",
+    "category": "micro",
+    "חברה": "Columbia Banking System (COLB)",
+    "חברה_en": "Columbia Banking System (COLB)",
+    "symbols": [
+      "COLB"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 18:08",
+    "הועלה": "2026-11-15 18:08",
+    "כותרת": "Columbia Banking System (COLB): פורסם באיחור - הרשאת רכישה עצמית של 1.2 מיליארד דולר מאוקטובר והעלאת דיבידנד בנובמבר",
+    "כותרת_en": "Columbia Banking System (COLB): published late - October $1.2bn buyback authorization and November dividend increase",
+    "summary": "שני אירועים נפרדים: הרשאת הרכישה פורסמה ב-22 באוקטובר; הדיבידנד הועלה ב-13 בנובמבר ל-0.38 דולר. אין הרשאת רכישה חדשה מהיום.",
+    "summary_en": "Separate events: the buyback was announced October 22; the dividend rose to $0.38 on November 13. No new buyback authorization today.",
+    "טקסט": "פורסם באיחור: הודעת הרכישה העצמית פורסמה ב-22.10.2026 בשעה 23:01 בישראל (16:01 בחוף המזרחי בארה\"ב). הודעת הדיבידנד פורסמה ב-13.11.2026 בשעה 15:15 בישראל (08:15 בחוף המזרחי). אלה שני אירועים קודמים, לא הודעת רכישה חדשה מ-13 בנובמבר או מהיום.\n\nב-22 באוקטובר הודיעה החברה שהדירקטוריון אישר רכישה עצמית של מניות רגילות בסכום של עד 1.2 מיליארד דולר, לאחר השלמת התוכנית הקודמת. ההרשאה החדשה אינה מחייבת רכישה בפועל או מספר מניות מסוים. אין לה תאריך תפוגה, אך הדירקטוריון רשאי להשהות, לשנות או לבטל אותה בכל עת. הרכישות יכולות להתבצע בשוק הפתוח או בעסקאות פרטיות, לרבות במסגרת תוכניות לפי כלל 10b5-1; העיתוי והסכום תלויים בין היתר בהון, בביצועים, בתנאי השוק ובשיקולים רגולטוריים.\n\nבנפרד, ב-13 בנובמבר אישר הדירקטוריון דיבידנד רבעוני של 0.38 דולר למניה רגילה, עלייה של 3% לפי החברה לעומת ההכרזה הקודמת. התשלום נקבע ל-14 בדצמבר 2026, לבעלי מניות הרשומים ב-27 בנובמבר. הודעת נובמבר מזכירה את הרשאת הרכישה הקודמת כרקע בלבד. אין כאן אישור שכל 1.2 מיליארד הדולר כבר הוצאו, התחייבות לרווח או תשואה מובטחת.",
+    "טקסט_en": "Published late: the buyback announcement was released October 22, 2026 at 23:01 Israel time (16:01 US Eastern). The dividend announcement was released November 13, 2026 at 15:15 Israel time (08:15 US Eastern). These are separate earlier events, not a new buyback announcement on November 13 or today.\n\nOn October 22, the company announced board authorization to repurchase up to $1.2 billion of common stock after completing its previous program. The new authorization does not require actual purchases or a particular number of shares. It has no expiration date, but the board may suspend, modify or terminate it at any time. Repurchases may occur in the open market or in privately negotiated transactions, including under Rule 10b5-1 plans. Timing and amounts depend on capital, performance, market conditions and regulatory considerations, among other factors.\n\nSeparately, on November 13, the board approved a quarterly dividend of $0.38 per common share, a 3% increase from its previous declaration according to the company. Payment is scheduled for December 14, 2026 to shareholders of record on November 27. The November release refers to the earlier buyback authorization only as background. This does not confirm that all $1.2 billion has been spent, promise a profit or guarantee a return.",
+    "קישור": "https://www.columbiabankingsystem.com/news-market-data/press-releases/press-release/2026/Columbia-Banking-System-Announces-Increase-to-Common-Share-Dividend/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://www.columbiabankingsystem.com/news-market-data/press-releases/press-release/2026/Columbia-Banking-System-Announces-Increase-to-Common-Share-Dividend/default.aspx",
+        "label": "Columbia Banking System: הודעת הדיבידנד המקורית, 13 בנובמבר 08:15 ET",
+        "label_en": "Columbia Banking System: original dividend release, November 13 at 08:15 ET"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/columbia-banking-system-inc-reports-third-quarter-2026-results-302917221.html",
+        "label": "הודעת החברה דרך PRNewswire: הרשאת הרכישה ותנאיה, 22 באוקטובר 16:01 ET",
+        "label_en": "Company release via PRNewswire: buyback authorization and terms, October 22 at 16:01 ET"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/887343/000088734326000184/colb2026q3earningspresen.htm",
+        "label": "מצגת החברה ב-EDGAR מ-22 באוקטובר: הרשאה של עד 1.2 מיליארד דולר ללא תאריך תפוגה",
+        "label_en": "Company presentation on EDGAR, October 22: up to $1.2bn authorization with no expiration"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "960b53d893b101261ca49b8e8ec46247d263fef8e0e103590de55224afb809f8"
+      }
+    }
   }
 ]
