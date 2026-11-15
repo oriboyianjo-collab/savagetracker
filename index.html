@@ -6605,7 +6605,7 @@ const REPORT_PDFS = {"ING":{"2021":{"Q4":"https://ing.com/binaries/content/asset
             select.value=selected;
             fresh.querySelector('[data-pdf-year-text]').textContent=selected;
             fresh.querySelectorAll('[data-pdf-year]').forEach(b=>{const on=b.dataset.pdfYear===selected;b.classList.toggle('on',on);b.setAttribute('aria-selected',String(on));b.querySelector('small').textContent=on?'✓':'';});
-            fresh.querySelector('[data-pdf-actions]').innerHTML=reportPdfActions(reports[selected]||{});
+            fresh.querySelector('[data-pdf-actions]').innerHTML=reportPdfActions(reportYears('ISRG')[selected]||{});
           }
         }
         if(fresh)p.replaceWith(fresh);
@@ -6684,7 +6684,7 @@ const REPORT_PDFS = {"ING":{"2021":{"Q4":"https://ing.com/binaries/content/asset
           select.value=selected;
           fresh.querySelector('[data-pdf-year-text]').textContent=selected;
           fresh.querySelectorAll('[data-pdf-year]').forEach(b=>{const on=b.dataset.pdfYear===selected;b.classList.toggle('on',on);b.setAttribute('aria-selected',String(on));b.querySelector('small').textContent=on?'✓':'';});
-          fresh.querySelector('[data-pdf-actions]').innerHTML=reportPdfActions(reports[selected]||{});
+          fresh.querySelector('[data-pdf-actions]').innerHTML=reportPdfActions(reportYears('NOW')[selected]||{});
         }
       }
       if(fresh)p.replaceWith(fresh);
@@ -6692,18 +6692,113 @@ const REPORT_PDFS = {"ING":{"2021":{"Q4":"https://ing.com/binaries/content/asset
   } catch(_error) { /* Invalid data leaves current report links unchanged. */ }
 })();
 /* End NOW generated report index. */
+/* Begin universal report-data consumer. Data only; existing controls are unchanged. */
+let UNIVERSAL_REPORT_OVERRIDES = {};
+let UNIVERSAL_REPORT_MANIFEST = null;
+const UNIVERSAL_REPORT_REQUESTS = new Map();
+function reportYears(sym){
+  const key=String(sym||'').toUpperCase(),base=REPORT_PDFS[key],extra=UNIVERSAL_REPORT_OVERRIDES[key];
+  if(!extra){loadUniversalReportSymbol(key);return base;}
+  const merged={};for(const [year,periods] of Object.entries(base||{}))merged[year]={...periods};
+  for(const [year,periods] of Object.entries(extra))merged[year]={...(merged[year]||{}),...periods};
+  return merged;
+}
+function validateUniversalReportIndex(data){
+  const fail=()=>{throw new Error('Invalid universal report index');};
+  const plain=x=>x!==null && typeof x==='object' && !Array.isArray(x) && Object.getPrototypeOf(x)===Object.prototype;
+  const iso=s=>{if(typeof s!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(s))return false;const d=new Date(s+'T00:00:00Z');return Number.isFinite(d.getTime())&&d.toISOString().slice(0,10)===s;};
+  const exact=(o,keys)=>plain(o)&&Object.keys(o).sort().join('|')===keys.slice().sort().join('|');
+  if(!exact(data,['schema_version','inventory_sha256','as_of','symbols'])||data.schema_version!==1||data.inventory_sha256!=='4c9fdc1ad463bddf2fdfabcfa78bd5d35ef3dee05cfea3c89c0441c5bb7a46a6'||!iso(data.as_of)||data.as_of>new Date().toISOString().slice(0,10)||!plain(data.symbols)||Object.keys(data.symbols).length>6315)fail();
+  const out={};
+  for(const [sym,row] of Object.entries(data.symbols)){
+    if(!/^[A-Z0-9][A-Z0-9.\-]{0,31}$/.test(sym)||['__proto__','constructor','prototype'].includes(sym)||!exact(row,['cik','reports','ledger'])||!/^\d{10}$/.test(row.cik)||/^0+$/.test(row.cik)||!plain(row.reports)||!Array.isArray(row.ledger)||!row.ledger.length||row.ledger.length>200)fail();
+    const numericCik=String(Number(row.cik)),flat=new Map(),ledger=new Map();
+    for(const [year,periods] of Object.entries(row.reports)){
+      if(!/^20\d{2}$/.test(year)||Number(year)<2020||!plain(periods)||!Object.keys(periods).length)fail();
+      for(const [period,url] of Object.entries(periods)){
+        if(!/^(FY|Q[1-4])$/.test(period)||typeof url!=='string')fail();
+        let u;try{u=new URL(url);}catch(e){fail();}
+        if(u.protocol!=='https:'||u.hostname!=='www.sec.gov'||u.port||u.username||u.password||u.search||u.hash||u.href!==url||!new RegExp('^/Archives/edgar/data/'+numericCik+'/\\d{18}/[A-Za-z0-9][A-Za-z0-9_.-]*\\.html?$').test(u.pathname))fail();
+        const slot=year+'-'+period;if(flat.has(slot))fail();flat.set(slot,url);
+      }
+    }
+    if(!flat.size||flat.size!==row.ledger.length)fail();
+    for(const e of row.ledger){
+      if(!exact(e,['slot','url','body_sha256','period_end','filing_date'])||!flat.has(e.slot)||flat.get(e.slot)!==e.url||ledger.has(e.slot)||!/^\w{64}$/.test(e.body_sha256)||!/^[a-f0-9]{64}$/.test(e.body_sha256)||!iso(e.period_end)||!iso(e.filing_date)||e.period_end>e.filing_date||e.filing_date>data.as_of)fail();
+      ledger.set(e.slot,e);
+    }
+    const clean={};for(const [year,periods] of Object.entries(row.reports))clean[year]={...periods};out[sym]=clean;
+  }
+  return out;
+}
+function refreshUniversalReportControls(sym){
+  document.querySelectorAll('.report-pick').forEach(p=>{
+    if(p.dataset.pdfSymbol!==sym)return;
+    const selected=p.querySelector('select')?.value;
+    const shell=document.createElement('div');shell.innerHTML=reportPdfControlsAny(sym);
+    const fresh=shell.querySelector('.report-pick');
+    if(selected&&fresh){
+      const select=fresh.querySelector('select');
+      if(select&&[...select.options].some(o=>o.value===selected)){
+        select.value=selected;
+        fresh.querySelector('[data-pdf-year-text]').textContent=selected;
+        fresh.querySelectorAll('[data-pdf-year]').forEach(b=>{const on=b.dataset.pdfYear===selected;b.classList.toggle('on',on);b.setAttribute('aria-selected',String(on));b.querySelector('small').textContent=on?'✓':'';});
+        fresh.querySelector('[data-pdf-actions]').innerHTML=reportPdfActions(reportYears(sym)[selected]||{});
+      }
+    }
+    if(fresh)p.replaceWith(fresh);
+  });
+}
+function loadUniversalReportSymbol(sym){
+  if(!UNIVERSAL_REPORT_MANIFEST||!Object.hasOwn(UNIVERSAL_REPORT_MANIFEST.symbols,sym)||UNIVERSAL_REPORT_REQUESTS.has(sym))return;
+  const meta=UNIVERSAL_REPORT_MANIFEST.symbols[sym];
+  const promise=(async()=>{
+    try{
+      const response=await fetch('report-links-all/'+sym+'.'+meta.sha256+'.json',{cache:'force-cache'});
+      if(!response.ok)return;
+      const raw=await response.arrayBuffer();if(raw.byteLength>512000)throw new Error('Oversized report shard');
+      const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',raw))).map(b=>b.toString(16).padStart(2,'0')).join('');
+      if(hash!==meta.sha256)throw new Error('Report shard integrity mismatch');
+      const data=JSON.parse(new TextDecoder('utf-8',{fatal:true}).decode(raw));
+      const addition=validateUniversalReportIndex(data);
+      if(Object.keys(addition).length!==1||!Object.hasOwn(addition,sym)||data.symbols[sym].cik!==meta.cik||data.as_of!==UNIVERSAL_REPORT_MANIFEST.as_of)throw new Error('Report shard scope mismatch');
+      UNIVERSAL_REPORT_OVERRIDES[sym]=addition[sym];
+      refreshUniversalReportControls(sym);
+    }catch(e){console.warn('Universal report links unchanged:',e&&e.message||e);}
+  })();
+  UNIVERSAL_REPORT_REQUESTS.set(sym,promise);
+}
+function validateUniversalReportManifest(data){
+  const plain=x=>x!==null&&typeof x==='object'&&!Array.isArray(x)&&Object.getPrototypeOf(x)===Object.prototype;
+  if(!plain(data)||Object.keys(data).sort().join('|')!=='as_of|inventory_sha256|schema_version|symbols'||data.schema_version!==1||data.inventory_sha256!=='4c9fdc1ad463bddf2fdfabcfa78bd5d35ef3dee05cfea3c89c0441c5bb7a46a6'||!/^\d{4}-\d{2}-\d{2}$/.test(data.as_of)||new Date(data.as_of+'T00:00:00Z').toISOString().slice(0,10)!==data.as_of||data.as_of>new Date().toISOString().slice(0,10)||!plain(data.symbols)||Object.keys(data.symbols).length>6315)throw new Error('Invalid report manifest');
+  for(const [sym,row]of Object.entries(data.symbols)){
+    if(!/^[A-Z0-9][A-Z0-9.\-]{0,31}$/.test(sym)||!plain(row)||Object.keys(row).sort().join('|')!=='cik|sha256'||!/^\d{10}$/.test(row.cik)||/^0+$/.test(row.cik)||!/^[a-f0-9]{64}$/.test(row.sha256))throw new Error('Invalid report manifest entry');
+  }
+  return data;
+}
+(async function loadUniversalReports(){
+  try{
+    const response=await fetch('report-links-all.json',{cache:'no-cache'});if(!response.ok)return;
+    const text=await response.text();if(text.length>2000000)throw new Error('Oversized report manifest');
+    const data=validateUniversalReportManifest(JSON.parse(text));
+    UNIVERSAL_REPORT_MANIFEST=data;
+    document.querySelectorAll('.report-pick').forEach(p=>loadUniversalReportSymbol(p.dataset.pdfSymbol));
+  }catch(e){console.warn('Universal reports left unchanged:',e&&e.message||e);}
+})();
+/* End universal report-data consumer. */
 
 
-function reportPdfControls(sym){ const years=REPORT_PDFS[String(sym||'').toUpperCase()];if(!years)return '';const ys=Object.keys(years).filter(y=>Object.values(years[y]).some(Boolean)).sort((a,b)=>b-a);if(!ys.length)return '';const initial=ys.find(y=>years[y].FY)||ys[0];return `<div class="rpl-row"><div class="report-pick" data-pdf-symbol="${esc(sym)}">${reportYearControl(ys,initial)}<span data-pdf-actions>${reportPdfActions(years[initial])}</span></div></div>`; }
+
+function reportPdfControls(sym){ const years=reportYears(sym);if(!years)return '';const ys=Object.keys(years).filter(y=>Object.values(years[y]).some(Boolean)).sort((a,b)=>b-a);if(!ys.length)return '';const initial=ys.find(y=>years[y].FY)||ys[0];return `<div class="rpl-row"><div class="report-pick" data-pdf-symbol="${esc(sym)}">${reportYearControl(ys,initial)}<span data-pdf-actions>${reportPdfActions(years[initial])}</span></div></div>`; }
 function reportPdfActions(targets){const quarters=[1,2,3,4].filter(n=>targets['Q'+n]);return (targets.FY?'<button type="button" data-pdf-fy>FY</button>':'')+(quarters.length?`<span class="report-qwrap"><button type="button" data-pdf-q aria-expanded="false">Q ▾</button><span class="report-qmenu" hidden>${quarters.map(n=>`<button type="button" data-pdf-quarter="${n}">${n}</button>`).join('')}</span></span>`:'');}
 const PDF_NONE_ACTIONS={FY:1,Q1:1,Q2:1,Q3:1,Q4:1};   // same controls for uncovered companies; clicks answer with an honest unlinked message, never an invented URL
 function reportYearControl(ys,initial){return `${I18n.p("ui-1286","<span class=\"report-year\"><button type=\"button\" class=\"wl-pick\" data-pdf-year-open aria-label=\"בחירת שנה\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><span data-pdf-year-text>")}${esc(initial)}${I18n.p("ui-1287","</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" aria-hidden=\"true\"><path d=\"M6 9l6 6 6-6\"/></svg></button><span class=\"wl-pm\" role=\"listbox\" aria-label=\"בחירת שנה\" data-pdf-year-menu hidden>")}${ys.map(y=>`<button type="button" role="option" data-pdf-year="${esc(y)}" class="${String(y)===String(initial)?'on':''}" aria-selected="${String(y)===String(initial)}"><span>${esc(y)}</span><small>${String(y)===String(initial)?'✓':''}</small></button>`).join('')}${I18n.p("ui-1288","</span><select aria-label=\"בחירת שנה\" hidden>")}${ys.map(y=>`<option value="${esc(y)}"${String(y)===String(initial)?' selected':''}>${esc(y)}</option>`).join('')}</select></span>`;}
-function reportPdfControlsAny(sym){ const years=REPORT_PDFS[String(sym||'').toUpperCase()];
+function reportPdfControlsAny(sym){ const years=reportYears(sym);
   if(years){ const ys=Object.keys(years).filter(y=>Object.values(years[y]).some(Boolean)).sort((a,b)=>b-a); if(ys.length){ const initial=ys.find(y=>years[y].FY)||ys[0];
     return `<div class="rpl-row"><div class="report-pick" data-pdf-symbol="${esc(sym)}">${reportYearControl(ys,initial)}<span data-pdf-actions>${reportPdfActions(years[initial])}</span></div></div>`; } }
   const cy=new Date().getFullYear(), ys=[cy,cy-1,cy-2,cy-3,cy-4], initial=String(cy-1);
   return `<div class="rpl-row"><div class="report-pick" data-pdf-symbol="${esc(sym)}" data-pdf-none="1">${reportYearControl(ys,initial)}<span data-pdf-actions>${reportPdfActions(PDF_NONE_ACTIONS)}</span></div></div>`; }
-function reportPdfTargets(p){return ((REPORT_PDFS[p.dataset.pdfSymbol]||{})[p.querySelector('select').value]||{});}
+function reportPdfTargets(p){return ((reportYears(p.dataset.pdfSymbol)||{})[p.querySelector('select').value]||{});}
 document.addEventListener('change',e=>{const p=e.target.closest('.report-pick');if(!p)return;e.stopPropagation();p.querySelector('[data-pdf-actions]').innerHTML=reportPdfActions(p.dataset.pdfNone?PDF_NONE_ACTIONS:reportPdfTargets(p));},true);
 function closeReportYears(){document.querySelectorAll('[data-pdf-year-menu]').forEach(m=>m.hidden=true);document.querySelectorAll('[data-pdf-year-open]').forEach(b=>b.setAttribute('aria-expanded','false'));}
 document.addEventListener('click',e=>{const p=e.target.closest('.report-pick');if(!p){closeReportYears();document.querySelectorAll('.report-qmenu:not([hidden])').forEach(m=>{m.hidden=true;m.parentElement.querySelector('[data-pdf-q]').setAttribute('aria-expanded','false');});return;}e.stopImmediatePropagation();const yo=e.target.closest('[data-pdf-year-open]'),yv=e.target.closest('[data-pdf-year]');if(yo){e.preventDefault();const m=p.querySelector('[data-pdf-year-menu]'),open=m.hidden;closeReportYears();m.hidden=!open;yo.setAttribute('aria-expanded',String(open));return;}if(yv){e.preventDefault();const select=p.querySelector('select');select.value=yv.dataset.pdfYear;p.querySelector('[data-pdf-year-text]').textContent=select.value;p.querySelectorAll('[data-pdf-year]').forEach(b=>{const on=b.dataset.pdfYear===select.value;b.classList.toggle('on',on);b.setAttribute('aria-selected',String(on));b.querySelector('small').textContent=on?'✓':'';});closeReportYears();select.dispatchEvent(new Event('change',{bubbles:true}));p.querySelector('[data-pdf-year-open]').focus();return;}const q=e.target.closest('[data-pdf-q]');if(q){e.preventDefault();const m=p.querySelector('.report-qmenu');m.hidden=!m.hidden;q.setAttribute('aria-expanded',String(!m.hidden));return;}const n=e.target.closest('[data-pdf-quarter]'),fy=e.target.closest('[data-pdf-fy]');if(!n&&!fy)return;e.preventDefault();const url=p.dataset.pdfNone?null:reportPdfTargets(p)[fy?'FY':'Q'+n.dataset.pdfQuarter];if(url){const w=window.open(url,'_blank','noopener,noreferrer');if(w)w.opener=null;}else if(p.dataset.pdfNone)toast(I18n.p("ui-1289","דוחות לחברה זו טרם קושרו"));p.querySelectorAll('.report-qmenu').forEach(m=>m.hidden=true);const b=p.querySelector('[data-pdf-q]');if(b)b.setAttribute('aria-expanded','false');},true);

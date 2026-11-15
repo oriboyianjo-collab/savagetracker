@@ -1,0 +1,15 @@
+{
+  "synthetic_offline_cli": true,
+  "batch0_exit": 1,
+  "batch1_exit": 1,
+  "stale_exit": 2,
+  "rows_each": 6315,
+  "generation": [
+    0,
+    1
+  ],
+  "test_symbol": "NVDA",
+  "test_issuer_synthetic": true,
+  "final_test_slots": 10,
+  "raw_network_requests": 0
+}

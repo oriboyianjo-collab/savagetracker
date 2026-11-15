@@ -1,0 +1,2307 @@
+[
+  {
+    "symbol": "DJTWW",
+    "name": "Trump Media & Technology Group Corp. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "KFIIU",
+    "name": "K&F Growth Acquisition Corp. II - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "GHI",
+    "name": "Greystone Housing Impact Investors LP Beneficial Unit Certificates representing assignments of limited partnership interests",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "DRDBW",
+    "name": "Roman DBDR Acquisition Corp. II - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BPYPP",
+    "name": "Brookfield Property Partners L.P. - 6.50% Class A Cumulative Redeemable Perpetual Preferred",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "SLMBP",
+    "name": "SLM Corporation - Floating Rate Non-Cumulative Preferred Stock, Series B",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "VLYPO",
+    "name": "Valley National Bancorp - 5.5% Fixed to Floating Rate Series B Non-Cumulative Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "VLYPP",
+    "name": "Valley National Bancorp - 6.25% Fixed-to-Floating Rate Series A Non-Cumulative Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "HCXY",
+    "name": "Hercules Capital, Inc. 6.25% Notes due 2033",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "STRD",
+    "name": "Strategy Inc - 10.00% Series A Perpetual Stride Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "HOVNP",
+    "name": "Hovnanian Enterprises Inc - Depositary Share representing 1/1000th of 7.625% Series A Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "GOODO",
+    "name": "Gladstone Commercial Corporation - 6.00% Series G Cumulative Redeemable Preferred Stock, par value $0.001 per share",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "OXLCO",
+    "name": "Oxford Lane Capital Corp. - Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "RFAIU",
+    "name": "RF Acquisition Corp II - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "PLMKU",
+    "name": "Plum Acquisition Corp. IV - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "RIBBU",
+    "name": "Ribbon Acquisition Corp - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "HCACU",
+    "name": "Hall Chadwick Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "SVCCU",
+    "name": "Stellar V Capital Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "IACQU",
+    "name": "Irenic Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "MOBBW",
+    "name": "Mobilicom Limited - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "MACIU",
+    "name": "Melar Acquisition Corp. I - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "LAFAU",
+    "name": "LaFayette Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "CHAD",
+    "name": "DeFi Development Corp. - Variable Rate Series C Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "FBIOP",
+    "name": "Fortress Biotech, Inc. - 9.375% Series A Cumulative Redeemable Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "RDAGU",
+    "name": "Republic Digital Acquisition Company - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "WHLRD",
+    "name": "Wheeler Real Estate Investment Trust, Inc. - Series D Cumulative Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "WVVIP",
+    "name": "Willamette Valley Vineyards, Inc. - Series A Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "TDACW",
+    "name": "Translational Development Acquisition Corp. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "CCIIW",
+    "name": "Cohen Circle Acquisition Corp. II - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "DMAAR",
+    "name": "Drugs Made In America Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "BKHAR",
+    "name": "Black Hawk Acquisition Corporation - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "MACIW",
+    "name": "Melar Acquisition Corp. I - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "OXBRW",
+    "name": "Oxbridge Re Holdings Limited - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "AACPR",
+    "name": "Apogee Acquisition Corp - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "AACPW",
+    "name": "Apogee Acquisition Corp - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ACGCW",
+    "name": "ACP Holdings Acquisition Corp. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ACONW",
+    "name": "Aclarion, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ADAMG",
+    "name": "Adamas Trust, Inc. - 9.125% Senior Notes Due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ADAMH",
+    "name": "Adamas Trust, Inc. - 9.875% Senior Notes Due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ADAML",
+    "name": "Adamas Trust, Inc. - 6.875% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock, $0.01 par value per share",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "ADAMM",
+    "name": "Adamas Trust, Inc. - 7.875% Series E Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "ADAMN",
+    "name": "Adamas Trust, Inc. - 8.00% Series D Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "ADAMZ",
+    "name": "Adamas Trust, Inc. - 7.000% Series G Cumulative Redeemable Preferred Stock, $0.01 par value per share",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "AENTW",
+    "name": "Alliance Entertainment Holding Corporation - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "AERTW",
+    "name": "Aeries Technology, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "AFJKR",
+    "name": "Aimei Health Technology Co., Ltd - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "AFJKU",
+    "name": "Aimei Health Technology Co., Ltd - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "AIIOW",
+    "name": "Robo.ai Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "AIMDW",
+    "name": "Ainos, Inc. - warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "AIRJW",
+    "name": "AirJoule Technologies Corporation - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "AISPW",
+    "name": "Airship AI Holdings, Inc - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ALFUW",
+    "name": "Centurion Acquisition Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ALISR",
+    "name": "Calisa Acquisition Corp - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "ALPXR",
+    "name": "Alpex Acquisition Corporation - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "AMODW",
+    "name": "Alpha Modus Holdings, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "AMPGZ",
+    "name": "Amplitech Group, Inc. - Series B Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "APMCR",
+    "name": "AmperCap Acquisition Company - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "APURR",
+    "name": "Aperture AC - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "ARCIU",
+    "name": "Archimedes Tech SPAC Partners III Co. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "ARCLR",
+    "name": "ARC Group Acquisition I Corp - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "ASBPW",
+    "name": "Aspire-Lakewood Holdings, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ASPCU",
+    "name": "A SPAC III Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "ASPSW",
+    "name": "Altisource Portfolio Solutions S.A. - Net Settle Stakeholder Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ASPSZ",
+    "name": "Altisource Portfolio Solutions S.A. - Cash Exercise Stakeholder Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ATLCP",
+    "name": "Atlanticus Holdings Corporation - 7.625% Series B Cumulative Perpetual Preferred Stock, no par value per share",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "ATLQW",
+    "name": "JAB Acquisition Corp I - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "AUROW",
+    "name": "Aurora Innovation, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "AXINR",
+    "name": "Axiom Intelligence Acquisition Corp 1 - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "BACCR",
+    "name": "Blue Acquisition Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "BACCU",
+    "name": "Blue Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "BAERW",
+    "name": "Bridger Aerospace Group Holdings, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BCGWW",
+    "name": "Binah Capital Group, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BCTXZ",
+    "name": "BriaCell Therapeutics Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BDCIU",
+    "name": "BTC Development Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "BDMDW",
+    "name": "Baird Medical Investment Holdings Ltd - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BEAGR",
+    "name": "Bold Eagle Acquisition Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "BETRW",
+    "name": "Better Home & Finance Holding Company - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BFRGW",
+    "name": "Bullfrog AI Holdings, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BHAVR",
+    "name": "BHAV Acquisition Corp - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "BIPJ",
+    "name": "Brookfield Infrastructure Corporation 7.250% Subordinated Notes due 2084",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "BLUWW",
+    "name": "Blue Water Acquisition Corp. III - Warrant.",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BNAIW",
+    "name": "Brand Engagement Network Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BNCWW",
+    "name": "BNB Standard Corporation - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BPYPM",
+    "name": "Brookfield Property Partners L.P. - 6.25% Class A Cumulative Redeemable Preferred",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "BPYPN",
+    "name": "Brookfield Property Partners L.P. - 5.750% Class A Cumulative Redeemable Perpetual Preferred",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "BPYPO",
+    "name": "Brookfield Property Partners L.P. - 6.375% Class A Cumulative Redeemable Perpetual Preferred",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "BREZR",
+    "name": "Breeze Acquisition Corp. II - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "BRKRP",
+    "name": "Bruker Corporation - 6.375% Mandatory Convertible Preferred Stock, Series A",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "BRLSW",
+    "name": "Borealis Foods Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "BTSGU",
+    "name": "BrightSpring Health Services, Inc. - Tangible Equity Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "BZFDW",
+    "name": "BuzzFeed, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "CCAQW",
+    "name": "Collective Acquisition Corp. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "CCIIU",
+    "name": "Cohen Circle Acquisition Corp. II - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "CDIOW",
+    "name": "Cardio Diagnostics Holdings Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "CDTTW",
+    "name": "CDT Equity Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "CHPGR",
+    "name": "ChampionsGate Acquisition Corporation - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "CHPGU",
+    "name": "ChampionsGate Acquisition Corporation - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "CHSCL",
+    "name": "CHS Inc - Class B Cumulative Redeemable Preferred Stock, Series 4",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "CHSCM",
+    "name": "CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock, Series 3",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "CHSCO",
+    "name": "CHS Inc - Class B Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "CHSCP",
+    "name": "CHS Inc - 8% Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "CICB",
+    "name": "CION Investment Corporation 7.50% Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "CIMO",
+    "name": "Chimera Investment Corporation 9.250% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "COCHW",
+    "name": "Envoy Medical, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "COOTW",
+    "name": "Australian Oilseeds Holdings Limited - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "CORZW",
+    "name": "Core Scientific, Inc. - Tranche 1 Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "CORZZ",
+    "name": "Core Scientific, Inc. - Tranche 2 Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "CRACR",
+    "name": "Crown Reserve Acquisition Corp. I - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "CRACU",
+    "name": "Crown Reserve Acquisition Corp. I - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "CRANR",
+    "name": "Crane Harbor Acquisition Corp. II - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "CTAAR",
+    "name": "ClearThink 1 Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "CXAIW",
+    "name": "CXApp Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "DAAQW",
+    "name": "Digital Asset Acquisition Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "DFLIW",
+    "name": "Dragonfly Energy Holdings Corp - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "DFNSW",
+    "name": "T3 Defense Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "DHCNL",
+    "name": "Diversified Healthcare Trust - 6.25% Senior Notes Due 2046",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "DMIIR",
+    "name": "Drugs Made In America Acquisition II Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "DMIIU",
+    "name": "Drugs Made In America Acquisition II Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "DNMXU",
+    "name": "Dynamix Corporation III - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "DSYWW",
+    "name": "Big Tree Cloud Holdings Limited - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "DTSQR",
+    "name": "DT Cloud Star Acquisition Corporation - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "DUKRW",
+    "name": "DUKE Robotics Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ECCC",
+    "name": "Eagle Point Credit Company 6.50% Series C Term Preferred Stock due 2031",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "EDBLW",
+    "name": "Edible Garden AG Incorporated - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "EGHAR",
+    "name": "EGH Acquisition Corp. - rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "ELLA",
+    "name": "Ellington Credit Company 8.50% Notes due 2031",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "EMISR",
+    "name": "Emmis Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "ESLAW",
+    "name": "Estrella Immunopharma, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "EWAVR",
+    "name": "East West Ave Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "FACTU",
+    "name": "FACT II Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "FACTW",
+    "name": "FACT II Acquisition Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "FACWW",
+    "name": "Factorial Energy Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "FBYDP",
+    "name": "Falcon's Beyond Global, Inc. - 11% Series B Cumulative Convertible Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "FCNCO",
+    "name": "First Citizens BancShares, Inc. - 5.625% Non-Cumulative Perpetual Preferred Stock, Series C",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "FERAR",
+    "name": "Fifth Era Acquisition Corp I - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "FGBIP",
+    "name": "First Guaranty Bancshares, Inc. - 6.75% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "FGCPP",
+    "name": "FG Communities Holdings Inc. - 8.00% Cumulative Series A Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "FJDIR",
+    "name": "ARC Group Securities Acquisition I - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "FMSTW",
+    "name": "Foremost Clean Energy Ltd. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "FOXXW",
+    "name": "Foxx Development Holdings Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "FSHPR",
+    "name": "Flag Ship Acquisition Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "FTAIM",
+    "name": "FTAI Aviation Ltd. - 9.500% Fixed-Rate Reset Series D Cumulative Perpetual Redeemable Preferred",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "FVNNR",
+    "name": "Future Vision II Acquisition Corporation - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "FWACR",
+    "name": "Futurewave Acquisition Corporation - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "GAINI",
+    "name": "Gladstone Investment Corporation - 7.875% Notes due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "GENVR",
+    "name": "Gen Digital Inc. - Contingent Value Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "GFUZW",
+    "name": "General Fusion Group Ltd. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "GIBOW",
+    "name": "GIBO Holdings Limited - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "GIWWR",
+    "name": "GigCapital8 Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "GIXXR",
+    "name": "GigCapital9 Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "GOODN",
+    "name": "Gladstone Commercial Corporation - 6.625% Series E Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "GPATW",
+    "name": "GP-Act III Acquisition Corp. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "GRMLW",
+    "name": "Greenland Mines Ltd - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "GRRRW",
+    "name": "Gorilla Technology Group Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "GSHRW",
+    "name": "Gesher Acquisition Corp. II - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "GSRFR",
+    "name": "GSR IV Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "GSRVR",
+    "name": "GSR V Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "GTERR",
+    "name": "Globa Terra Acquisition Corporation - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "GTERW",
+    "name": "Globa Terra Acquisition Corporation - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "HCACR",
+    "name": "Hall Chadwick Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "HCICR",
+    "name": "Hennessy Capital Investment Corp. VIII - Share Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "HDRNW",
+    "name": "Hadron Energy, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "HOLOW",
+    "name": "MicroCloud Hologram Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "HOVRW",
+    "name": "New Horizon Aircraft Ltd. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "HSCSW",
+    "name": "HeartSciences Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "IBACR",
+    "name": "IB Acquisition Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "ICUCW",
+    "name": "SeaStar Medical Holding Corporation - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "IEAGR",
+    "name": "Infinite Eagle Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "IEAGU",
+    "name": "Infinite Eagle Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "IMPPP",
+    "name": "Imperial Petroleum Inc. - 8.75% Series A Cumulative Redeemable Perpetual Preferred",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "IMSRW",
+    "name": "Terrestrial Energy Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "INACR",
+    "name": "Indigo Acquisition Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "INACU",
+    "name": "Indigo Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "IPFXW",
+    "name": "Inflection Point Acquisition Corp. VI - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "IPHXU",
+    "name": "Inflection Point Acquisition Corp. VIII - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "IPXGU",
+    "name": "Inection Point Acquisition Corp. VII - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "IPXGW",
+    "name": "Inection Point Acquisition Corp. VII - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "IRHOR",
+    "name": "Iron Horse Acquisitions II Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "KCHVR",
+    "name": "Kochav Defense Acquisition Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "KEYYU",
+    "name": "Keystone Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "KFIIR",
+    "name": "K&F Growth Acquisition Corp. II - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "KIDZW",
+    "name": "KIDZ AI Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "KITTW",
+    "name": "Nauticus Robotics, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "KOYNW",
+    "name": "CSLM Digital Asset Acquisition Corp III - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "KTWOR",
+    "name": "K2 Capital Acquisition Corporation - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "LANDO",
+    "name": "Gladstone Land Corporation - 6.00% Series B Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "LANDP",
+    "name": "Gladstone Land Corporation - 6.00% Series C Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "LCCCR",
+    "name": "Lakeshore Acquisition III Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "LCFYW",
+    "name": "Locafy Limited - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "LFMDP",
+    "name": "LifeMD, Inc. - 8.875% Series A Cumulative Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "LKSPR",
+    "name": "Lake Superior Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "LNZAW",
+    "name": "LanzaTech Global, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "LPAAW",
+    "name": "Launch One Acquisition Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "LPBBW",
+    "name": "Launch Two Acquisition Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "LUCYW",
+    "name": "Innovative Eyewear, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "MBNKO",
+    "name": "Medallion Bank - Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series G, par value $1.00 per share",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "MBVIW",
+    "name": "M3-Brigade Acquisition VI Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "MCAHR",
+    "name": "Mountain Crest Acquisition 6 Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "MCGAU",
+    "name": "Yorkville Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "MCGAW",
+    "name": "Yorkville Acquisition Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "MDAIW",
+    "name": "Spectral AI, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "METCI",
+    "name": "Ramaco Resources, Inc. - 8.250% Senior Notes due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "METCZ",
+    "name": "Ramaco Resources, Inc. - 8.375% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MKLYR",
+    "name": "McKinley Acquisition Corporation - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "MOBXW",
+    "name": "Mobix Labs, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "MRNOW",
+    "name": "Murano Global Investments PLC - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "MSAIW",
+    "name": "MultiSensor AI Holdings, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "MTAKU",
+    "name": "Market Technology Acquisition Corp - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "MUZEU",
+    "name": "Muzero Acquisition Corp - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "MYXXR",
+    "name": "Maywood Acquisition Corp. 2 - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "NBRGR",
+    "name": "Newbridge Acquisition Limited - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "NCPLW",
+    "name": "Netcapital Inc. - warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "NEWTH",
+    "name": "NewtekOne, Inc. - 8.625% Fixed Rate Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "NEXRW",
+    "name": "Nexera Technologies Ltd - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "NIOBW",
+    "name": "NioCorp Developments Ltd. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "NMPAR",
+    "name": "NMP Acquisition Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "NOEMR",
+    "name": "CO2 Energy Transition Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "NPACW",
+    "name": "New Providence Acquisition Corp. III - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "NRSNW",
+    "name": "NeuroSense Therapeutics Ltd. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "NSAIR",
+    "name": "NorthStrive Acquisition Corp I. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "NTWOU",
+    "name": "Newbury Street II Acquisition Corp - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "NTWOW",
+    "name": "Newbury Street II Acquisition Corp - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "NUAIW",
+    "name": "New Era Energy & Digital, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "NXATW",
+    "name": "Nexus Advanced Technologies Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "OBAWW",
+    "name": "Oxley Bridge Acquisition Limited - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "OCCIM",
+    "name": "OFS Credit Company, Inc. - 7.875% Series F Term Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "OCCIN",
+    "name": "OFS Credit Company, Inc. - 5.25% Series E Term Preferred Stock Due 2026",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "OCLTR",
+    "name": "OceanLight Acquisition Corporation - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "OFSSO",
+    "name": "OFS Capital Corporation - 7.50% Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "OGGWZ",
+    "name": "Osisko Gold Group Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "OHACR",
+    "name": "Oceanhawk Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "ONMDW",
+    "name": "OneMedNet Corp - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "OPENL",
+    "name": "Opendoor Technologies Inc - Series A Warrants, each whole warrant exercisable to purchase one share of",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "OPENW",
+    "name": "Opendoor Technologies Inc - Series K Warrants, each whole warrant exercisable to purchase one share of",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "OPENZ",
+    "name": "Opendoor Technologies Inc - Series Z Warrants, each whole warrant exercisable to purchase one share of",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "OPTXW",
+    "name": "Syntec Optics Holdings, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "OXLCG",
+    "name": "Oxford Lane Capital Corp. - 7.95% Notes due 2032",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "OXLCI",
+    "name": "Oxford Lane Capital Corp. - 8.75% Notes due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "OXLCN",
+    "name": "Oxford Lane Capital Corp. - 7.125% Series 2029 Term Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "OXSQH",
+    "name": "Oxford Square Capital Corp. - 7.75% Notes due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "OYSER",
+    "name": "Oyster Enterprises II Acquisition Corp - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "OZKAP",
+    "name": "Bank OZK - 4.625% Series A Non-Cumulative Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "PACHW",
+    "name": "Pioneer Acquisition I Corp - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "PARAW",
+    "name": "Banzai International, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "PCAPU",
+    "name": "ProCap Acquisition Corp - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "PCTTU",
+    "name": "PureCycle Technologies, Inc. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "PCTTW",
+    "name": "PureCycle Technologies, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "PDPA",
+    "name": "Pearl Diver Credit Company Inc. 8.00% Series A Preferred Stock Due 2029",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "PECER",
+    "name": "Peace Acquisition Corp - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "PFLA",
+    "name": "PennantPark Floating Rate Capital Ltd. 7.375% Notes Due 2031",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "PGACR",
+    "name": "Pantages Capital Acquisition Corporation - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "PGYWW",
+    "name": "Pagaya Technologies Ltd. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "PIIIW",
+    "name": "P3 Health Partners Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "PLCIR",
+    "name": "Pelican Acquisition II Corporation - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "PLMKW",
+    "name": "Plum Acquisition Corp. IV - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "PMTRW",
+    "name": "Perimeter Acquisition Corp. I - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "PMTW",
+    "name": "PennyMac Mortgage Investment Trust 9.00% Senior Notes due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "POLEW",
+    "name": "Andretti Acquisition Corp. II - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "POWWP",
+    "name": "Outdoor Holding Company - 8.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "PRHIZ",
+    "name": "Presurance Holdings, Inc. - 9.75% Senior Unsecured Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "QSEAR",
+    "name": "Quartzsea Acquisition Corporation - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "QUMSR",
+    "name": "Quantumsphere Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "RAINW",
+    "name": "Rain Enhancement Technologies Holdco, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "RANGR",
+    "name": "Range Capital Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "RDACR",
+    "name": "Rising Dragon Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "RDAGW",
+    "name": "Republic Digital Acquisition Company - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "RDZNW",
+    "name": "Roadzen, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "REGCO",
+    "name": "Regency Centers Corporation - 5.875% Series B Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "REGCP",
+    "name": "Regency Centers Corporation - 6.25% Series A Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "REVBW",
+    "name": "Revelation Biosciences, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "RFAIR",
+    "name": "RF Acquisition Corp II - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "RFAMR",
+    "name": "RF Acquisition Corp III - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "RMCOW",
+    "name": "Royalty Management Holding Corporation - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "RMSGW",
+    "name": "Real Messenger Corporation - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "RREVW",
+    "name": "RRE Ventures Acquisition Corp. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "RTACU",
+    "name": "Renatus Tactical Acquisition Corp I - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "RTACW",
+    "name": "Renatus Tactical Acquisition Corp I - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "RUMBW",
+    "name": "RUM Group Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "RVMDW",
+    "name": "Revolution Medicines, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "RWTP",
+    "name": "Redwood Trust, Inc. 9.125% Senior Notes Due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "RWTQ",
+    "name": "Redwood Trust, Inc. 9.500% Senior Notes Due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SAIHW",
+    "name": "SAIHEAT Limited - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SATA",
+    "name": "Strive, Inc. - Variable Rate Series A Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "SATLW",
+    "name": "Satellogic Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SBCWW",
+    "name": "SBC Medical Group Holdings Incorporated - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SCATR",
+    "name": "Southern Cross Acquisition II Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "SCLXW",
+    "name": "Scilex Holding Company - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SDAWW",
+    "name": "SunCar Technology Group Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SHFSW",
+    "name": "SHF Holdings, Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SKYAW",
+    "name": "SkyAI, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SLDPW",
+    "name": "Solid Power, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SLNHP",
+    "name": "Soluna Holdings, Inc. - 9.0% Series A Cumulative Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "SMXWW",
+    "name": "SMX (Security Matters) Public Limited Company - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SORNU",
+    "name": "Soren Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "SOUNW",
+    "name": "SoundHound AI, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SPEGR",
+    "name": "Silver Pegasus Acquisition Corp - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "SPMA",
+    "name": "Sound Point Meridian Capital, Inc. 8.00% Series A Preferred",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "SPME",
+    "name": "Sound Point Meridian Capital, Inc. 7.875% Series B Preferred",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "SPWRW",
+    "name": "SunPower Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SQFTP",
+    "name": "Presidio Property Trust, Inc. - 9.375% Series D Cumulative Redeemable Perpetual Preferred Stock, $0.01 par value per share",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "SSACR",
+    "name": "SPACSphere Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "SSACU",
+    "name": "SPACSphere Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "SSEAR",
+    "name": "Starry Sea Acquisition Corp - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "SSEAU",
+    "name": "Starry Sea Acquisition Corp - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "STLNW",
+    "name": "Starling Oncology, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "STRC",
+    "name": "Strategy Inc - Variable Rate Series A Perpetual Stretch Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "STRF",
+    "name": "Strategy Inc - 10.00% Series A Perpetual Strife Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "STRK",
+    "name": "Strategy Inc - 8.00% Series A Perpetual Strike Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "STRRP",
+    "name": "Star Equity Holdings, Inc. - 10% Series A Cumulative Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "SVIAW",
+    "name": "Silvia, Inc. - Warrant.",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SWAGW",
+    "name": "Stran & Company, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SXTPW",
+    "name": "60 Degrees Pharmaceuticals, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "SZZLR",
+    "name": "Sizzle Acquisition Corp. II - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "SZZLU",
+    "name": "Sizzle Acquisition Corp. II - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "TACHW",
+    "name": "Titan Acquisition Corp. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "TACOW",
+    "name": "Berto Acquisition Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "TAVIR",
+    "name": "Tavia Acquisition Corp. - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "TDWDU",
+    "name": "Tailwind 2.0 Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "THEOR",
+    "name": "BOA Acquisition Corp. II - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "TLSIW",
+    "name": "TriSalus Life Sciences, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "TMSWW",
+    "name": "Teamshares Inc. - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "TMTSU",
+    "name": "Spartacus Acquisition Corp. II - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "TRGSR",
+    "name": "TRG Latin America Acquisitions Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "TVACU",
+    "name": "Texas Ventures Acquisition III Corp - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "TVACW",
+    "name": "Texas Ventures Acquisition III Corp - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "TVAIR",
+    "name": "Thayer Ventures Acquisition Corporation II - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "TVGNW",
+    "name": "Tevogen Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "TWLVR",
+    "name": "Twelve Seas Investment Company III - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "UYSCR",
+    "name": "UY Scuti Acquisition Corp. - Rights",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "VEEAW",
+    "name": "Veea Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "VGASW",
+    "name": "Verde Clean Fuels, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "VLOSW",
+    "name": "Velos Acquisition I Corp. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "VLYPN",
+    "name": "Valley National Bancorp - 8.250% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series C",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "VNMEU",
+    "name": "Vendome Acquisition Corporation I - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "VWAVW",
+    "name": "VisionWave Holdings, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "WLDSW",
+    "name": "Wearable Devices Ltd. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "WLIIU",
+    "name": "Willow Lane Acquisition Corp. II - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "WSTNR",
+    "name": "Westin Acquisition Corp - Right",
+    "hold": "name_indicates_right"
+  },
+  {
+    "symbol": "WTGUU",
+    "name": "Wintergreen Acquisition Corp. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "XBPEW",
+    "name": "XBP Global Holdings, Inc. - Warrant",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "XCBEU",
+    "name": "X3 Acquisition Corp. Ltd. - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "XELLL",
+    "name": "Xcel Energy Inc. - 6.25% Junior Subordinated Notes, Series due 2085",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ZEOWW",
+    "name": "Zeo Energy Corporation - Warrants",
+    "hold": "name_indicates_warrant"
+  },
+  {
+    "symbol": "ZKPU",
+    "name": "Lafayette Digital Acquisition Corp. I - Unit",
+    "hold": "name_indicates_unit"
+  },
+  {
+    "symbol": "ABXL",
+    "name": "Abacus Global Management, Inc. 9.875% Fixed Rate Senior Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ADAMI",
+    "name": "Adamas Trust, Inc. - 9.125% Senior Notes Due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ADAMO",
+    "name": "Adamas Trust, Inc. - 9.250% Senior Notes Due 2031",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "AEFC",
+    "name": "Aegon Funding Company LLC 5.10% Subordinated Notes due 2049",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "AIZN",
+    "name": "Assurant, Inc. 5.25% Subordinated Notes due 2061",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "AOMD",
+    "name": "Angel Oak Mortgage REIT, Inc. 9.750% Senior Notes due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "AOMN",
+    "name": "Angel Oak Mortgage REIT, Inc. 9.500% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "APOS",
+    "name": "Apollo Global Management, Inc. 7.625% Fixed-Rate Resettable Junior Subordinated Notes due 2053",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "AQNB",
+    "name": "Algonquin Power & Utilities Corp. 6.20% Fixed-to-Floating Subordinated Notes Series 2019-A due July 1, 2079",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ASBA",
+    "name": "Associated Banc-Corp 6.625% Fixed-Rate Reset Subordinated Notes due 2033",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ATLCL",
+    "name": "Atlanticus Holdings Corporation - 6.125% Senior Notes due 2026",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ATLCZ",
+    "name": "Atlanticus Holdings Corporation - 9.25% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "BANFP",
+    "name": "BancFirst Corporation - 7.2% Cumulative Trust Preferred Securities",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "BEPH",
+    "name": "Brookfield BRP Holdings (Canada) Inc. 4.625% Perpetual Subordinated Notes",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "BEPI",
+    "name": "Brookfield BRP Holdings (Canada) Inc. 4.875% Perpetual Subordinated Notes",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "BEPJ",
+    "name": "Brookfield BRP Holdings (Canada) Inc. 7.250% Perpetual Subordinated Notes",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "BIPH",
+    "name": "Brookfield Infrastructure Corporation 5.000% Subordinated Notes due 2081",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "BIPI",
+    "name": "BIP Bermuda Holdings I Limited 5.125% Perpetual Subordinated Notes",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "BMNP",
+    "name": "BitMine Immersion Technologies, Inc. 9.5% Series A Perpetual Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "BNH",
+    "name": "Brookfield Finance Inc. 4.625% Subordinated Notes due October 16, 2080",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "BNJ",
+    "name": "Brookfield Finance Inc. 4.50% Perpetual Subordinated Notes",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "BPOPM",
+    "name": "Popular, Inc. - Popular Capital Trust II - 6.125% Cumulative Monthly Income Trust Preferred Securities",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "CGABL",
+    "name": "The Carlyle Group Inc. - 4.625% Subordinated Notes due 2061",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "CHTRP",
+    "name": "Charter Communications, Inc. - Series A Cumulative Redeemable Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "CICC",
+    "name": "CION Investment Corporation 7.50% Notes due 2031",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "CIMN",
+    "name": "Chimera Investment Corporation 9.000% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "CIMP",
+    "name": "Chimera Investment Corporation 8.875% Senior Notes due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "CMSA",
+    "name": "CMS Energy Corporation 5.625% Junior Subordinated Notes due 2078",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "CMSC",
+    "name": "CMS Energy Corporation 5.875% Junior Subordinated Notes due 2078",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "CMSD",
+    "name": "CMS Energy Corporation 5.875% Junior Subordinated Notes due 2079",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "CRBD",
+    "name": "Corebridge Financial Inc. 6.375% Junior Subordinated Notes due 2064",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "CUBB",
+    "name": "Customers Bancorp, Inc 5.375% Subordinated Notes Due 2034",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "DCBG",
+    "name": "Dime Commercial Bancshares, Inc. 9.000% Junior Subordinated Notes",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "DHCNI",
+    "name": "Diversified Healthcare Trust - 5.625% Senior Notes due 2042",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ECCU",
+    "name": "Eagle Point Credit Company 7.75% Notes due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "ECCV",
+    "name": "Eagle Point Credit Company 5.375% Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "FGN",
+    "name": "F&G Annuities & Life, Inc. 7.950% Senior Notes due 2053",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "FGSN",
+    "name": "F&G Annuities & Life, Inc. 7.300% Junior Subordinated Notes due 2065",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "GAINZ",
+    "name": "Gladstone Investment Corporation - 4.875% Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "GECCG",
+    "name": "Great Elm Capital Corp. - 7.75% Notes Due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "GECCH",
+    "name": "Great Elm Capital Corp. - 8.125% Notes Due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "GECCI",
+    "name": "Great Elm Capital Corp. - 8.50% NOTES DUE 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "GEGGL",
+    "name": "Great Elm Group, Inc. - 7.25% Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "GPJA",
+    "name": "Georgia Power Company Series 2017A 5.00% Junior Subordinated Notes due October 1, 2077",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "HTFC",
+    "name": "Horizon Technology Finance Corporation 6.25% Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "HWCPZ",
+    "name": "Hancock Whitney Corporation - 6.25% Subordinated Notes due 2060",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "INBKZ",
+    "name": "First Internet Bancorp - Fixed-to-Floating Rate Subordinated Notes Due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "KKRS",
+    "name": "KKR Group Finance Co. IX LLC 4.625% Subordinated Notes due 2061",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "KKRT",
+    "name": "KKR & Co. Inc. 6.875% Subordinated Notes due 2065",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "KTH",
+    "name": "Structures Products Cp 8% CorTS Issued by Peco Energy Cap Tr II Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "MFAN",
+    "name": "MFA Financial, Inc. 8.875% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MFAO",
+    "name": "MFA Financial, Inc. 9.000% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MFICL",
+    "name": "MidCap Financial Investment Corporation - 8.00% Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MGR",
+    "name": "Affiliated Managers Group, Inc. 5.875% Junior Subordinated Notes due 2059",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MGRB",
+    "name": "Affiliated Managers Group, Inc. 4.750% Junior Subordinated Notes due 2060",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MGRD",
+    "name": "Affiliated Managers Group, Inc. 4.200% Junior Subordinated Notes due 2061",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MGRE",
+    "name": "Affiliated Managers Group, Inc. 6.750% Junior Subordinated Notes due 2064",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MHLA",
+    "name": "Maiden Holdings, Ltd. 6.625% Notes due 2046",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MHNC",
+    "name": "Maiden Holdings North America, Ltd. 7.75% Notes due 2043",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MITN",
+    "name": "TPG Mortgage Investment Trust, Inc. 9.500% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MITP",
+    "name": "TPG Mortgage Investment Trust, Inc. 9.500% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "MLCIL",
+    "name": "Mount Logan Capital Inc. - 8.00% Notes Due 2031",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "NEWTG",
+    "name": "NewtekOne, Inc. - 8.50% Fixed Rate Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "NEWTI",
+    "name": "NewtekOne, Inc. - 8.00% Fixed Rate Senior Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "NFEGP",
+    "name": "New Fortress Energy Inc. - Series A Mandatorily Convertible Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "NMFCZ",
+    "name": "New Mountain Finance Corporation - 8.250% Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "NRUC",
+    "name": "National Rural Utilities Cooperative Finance Corporation 5.500% Subordinated Notes due 2064 (Subordinated Deferrable Interest Notes)",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "OFSSH",
+    "name": "OFS Capital Corporation - 4.95% Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "OXLCL",
+    "name": "Oxford Lane Capital Corp. - 6.75% Notes due 2031",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "OXLCM",
+    "name": "Oxford Lane Capital Corp. - Preferred Stock",
+    "hold": "name_indicates_preferred"
+  },
+  {
+    "symbol": "OXLCZ",
+    "name": "Oxford Lane Capital Corp. - 5.00% Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "OXSQG",
+    "name": "Oxford Square Capital Corp. - 5.50% Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "PFH",
+    "name": "Prudential Financial, Inc. 4.125% Junior Subordinated Notes due 2060",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "PFXNZ",
+    "name": "PhenixFIN Corporation - 5.25% Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "PMTU",
+    "name": "PennyMac Mortgage Investment Trust 8.50% Senior Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "PMTV",
+    "name": "PennyMac Mortgage Investment Trust 9.00% Senior Notes due 2030",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "PRH",
+    "name": "Prudential Financial, Inc. 5.950% Junior Subordinated Notes due 2062",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "PRS",
+    "name": "Prudential Financial, Inc. 5.625% Junior Subordinated Notes due 2058",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "RCD",
+    "name": "Ready Capital Corporation 9.00% Senior Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "RILYG",
+    "name": "BRC Group Holdings, Inc. - 5.00% Senior Notes due 2026",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "RILYT",
+    "name": "BRC Group Holdings, Inc. - 6.00% Senior Notes Due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "RILYZ",
+    "name": "BRC Group Holdings, Inc. - 5.25% Senior Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "RWAYL",
+    "name": "Runway Growth Finance Corp. - 7.50% Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "RWTN",
+    "name": "Redwood Trust, Inc. 9.125% Senior Notes Due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "RWTO",
+    "name": "Redwood Trust, Inc. 9.00% Senior Notes Due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "RWTS",
+    "name": "Redwood Trust, Inc. 9.75% Senior Notes Due 2031",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SAJ",
+    "name": "Saratoga Investment Corp 8.00% Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SAV",
+    "name": "Saratoga Investment Corp 7.50% Notes due 2031",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SAX",
+    "name": "Saratoga Investment Corp 8.00% Notes due 2031",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SAY",
+    "name": "Saratoga Investment Corp 8.125% Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SAZ",
+    "name": "Saratoga Investment Corp 8.50% Notes due 2028",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SCCD",
+    "name": "Sachem Capital Corp. 6.00% Notes due 2026",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SCCE",
+    "name": "Sachem Capital Corp. 6.00% Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SCCF",
+    "name": "Sachem Capital Corp. 7.125% Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SCCG",
+    "name": "Sachem Capital Corp. 8.00% Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SFB",
+    "name": "Stifel Financial Corporation 5.20% Senior Notes due 2047",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SOJC",
+    "name": "Southern Company (The) Series 2017B 5.25% Junior Subordinated Notes due December 1, 2077",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SOJD",
+    "name": "Southern Company (The) Series 2020A 4.95% Junior Subordinated Notes due January 30, 2080",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SOJE",
+    "name": "Southern Company (The) Series 2020C 4.20% Junior Subordinated Notes due October 15, 2060",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SOJF",
+    "name": "Southern Company (The) Series 2025A 6.50% Junior Subordinated Notes due March 15, 2085",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SREA",
+    "name": "DBA Sempra 5.750% Junior Subordinated Notes due 2079",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SRJN",
+    "name": "Spire Inc. 6.375% Junior Subordinated Notes due 2086",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "SWKHL",
+    "name": "SWK Holdings Corporation - 9.00% Senior Notes due 2027",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "TBB",
+    "name": "AT&T Inc. 5.350% Global Notes due 2066",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "TCPA",
+    "name": "TransCanada PipeLines Limited 6.250% Junior Subordinated Notes due 2085",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "TMUSI",
+    "name": "T-Mobile US, Inc. - 5.500% Senior Notes due June 2070",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "TMUSL",
+    "name": "T-Mobile US, Inc. - 6.250% Senior Notes due 2069",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "TMUSZ",
+    "name": "T-Mobile US, Inc. - 5.500% Senior Notes due March 2070",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "TPGXL",
+    "name": "TPG Inc. - 6.950% Fixed-Rate Junior Subordinated Notes due 2064",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "TPTS",
+    "name": "Terra Property Trust, Inc. 7.00% Senior Secured Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "TRNI",
+    "name": "Trinity Capital Inc. 7.875% Notes Due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "TRNZ",
+    "name": "Trinity Capital Inc. 7.875% Notes due 2029",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "UNMA",
+    "name": "Unum Group 6.250% Junior Subordinated Notes due 2058",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "UZD",
+    "name": "Array Digital Infrastructure, Inc. 6.250% Senior Notes due 2069",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "UZE",
+    "name": "Array Digital Infrastructure, Inc. 5.500% Senior Notes due 2070",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "UZF",
+    "name": "Array Digital Infrastructure, Inc. 5.500% Senior Notes due 2070",
+    "hold": "name_indicates_debt"
+  },
+  {
+    "symbol": "WHFCL",
+    "name": "WhiteHorse Finance, Inc. - 7.875% Notes due 2028",
+    "hold": "name_indicates_debt"
+  }
+]

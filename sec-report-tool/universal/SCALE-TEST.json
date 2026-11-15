@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "symbols": 6315,
+  "slots_each": 33,
+  "manifest_bytes": 655387,
+  "all_shards_bytes": 75301265,
+  "largest_shard_bytes": 11939,
+  "estimated_resume_rows_bytes": 74725493,
+  "app_first_load_bytes": 655387,
+  "one_selected_symbol_extra_max_bytes": 11939
+}
