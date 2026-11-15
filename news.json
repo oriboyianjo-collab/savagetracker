@@ -43875,5 +43875,46 @@
         "source_hash": "1529a1c02f4493a4d5afc2f049700518f8415afb0d0ca002d65e7a75c4070c38"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "Apple",
+    "חברה_en": "Apple",
+    "symbols": [
+      "AAPL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "Epic מבקשת מהעליון בארה\"ב להשאיר את קביעת הביזיון נגד Apple; זו הגשת טיעונים, לא פסיקה חדשה",
+    "כותרת_en": "Epic asks US Supreme Court to uphold Apple contempt ruling; this is a brief, not a new decision",
+    "טקסט": "13.11.2026 | יומן בית המשפט העליון מאשר הגשת כתב טענות של Epic בתיק 25-1311. שעת ההגשה לא אומתה. כתבת 9to5Mac פורסמה באותו יום ב-12:00 בחוף המערבי, שהם 22:00 בישראל; זו שעת הסיקור, לא שעת ההגשה.\n\nEpic Games ביקשה מבית המשפט העליון בארה\"ב להשאיר על כנה את החלטת הערעור שקיימה קביעת ביזיון אזרחי נגד Apple בנוגע להגבלות על הפניית משתמשי App Store לאמצעי תשלום חיצוניים. בכתב הטענות היא אומרת שהעמלה בשיעור 27% והגבלות עיצוב הקישורים עקפו את הצו הקודם, גם אם לא פורטו בו באותן מילים. אלה טיעוני Epic בהליך, לא קביעות חדשות של העליון.\n\nהשאלה המשפטית המוצגת במסמך היא אם ביזיון דורש שהצו יאסור במפורש את ההתנהגות המדויקת, או שאפשר לפרשו לפי לשונו בהקשרו ובתכליתו, לרבות ניסיון לעקוף אותו באמצעים אחרים. Epic מבקשת לאשר את ההחלטה; לחלופין, אם העליון יבהיר את המבחן המשפטי, היא מבקשת להחזיר את התיק לערכאות הנמוכות ליישומו.\n\nיומן התיק מראה שהעליון הסכים כבר ב-30 ביוני לדון בשאלה הראשונה בלבד. הדיון בעל פה נקבע ל-11 בינואר 2027. ההגשה הנוכחית אינה פתיחת ערעור חדשה, הרשעה פלילית, קנס חדש או שינוי שהוכרז כעת בעמלות. לא נמסר בה אומדן מאומת להשפעה על רווחי Apple.",
+    "טקסט_en": "November 13, 2026 | The Supreme Court docket records Epic's brief in case 25-1311. The submission time was not verified. The 9to5Mac report was published that day at 12:00 Pacific time, or 22:00 in Israel; that is the reporting time, not the submission time.\n\nEpic Games asked the US Supreme Court to affirm the appellate decision upholding a civil-contempt finding against Apple over restrictions on directing App Store users to external payment methods. Its brief argues that the 27% commission and link-design restrictions circumvented the earlier injunction even if those exact practices were not spelled out in its text. These are Epic's arguments in the case, not new Supreme Court findings.\n\nThe legal question presented is whether contempt requires an injunction expressly to prohibit the precise conduct at issue, or whether its terms may be read in their context and purpose, including attempts to evade an order through other means. Epic seeks affirmance or, if the Court clarifies the legal test, a remand for the lower courts to apply it.\n\nThe docket shows the Court had already granted review on June 30, limited to the first question presented. Oral argument is set for January 11, 2027. This submission is not a new appeal being opened, a criminal conviction, a new fine or a newly announced change in fees. It provides no verified estimate of an effect on Apple's earnings.",
+    "קישור": "https://www.supremecourt.gov/DocketPDF/25/25-1311/432659/20261113133444331_25-1311bs.pdf",
+    "מקורות": [
+      {
+        "label": "בית המשפט העליון: כתב הטענות של Epic",
+        "label_en": "Supreme Court: Epic's respondent brief",
+        "url": "https://www.supremecourt.gov/DocketPDF/25/25-1311/432659/20261113133444331_25-1311bs.pdf"
+      },
+      {
+        "label": "יומן התיק הרשמי 25-1311",
+        "label_en": "Official docket 25-1311",
+        "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/25-1311.html"
+      },
+      {
+        "label": "9to5Mac: סיקור ההגשה",
+        "label_en": "9to5Mac: report on the submission",
+        "url": "https://9to5mac.com/2026/11/13/epic-formally-asks-scotus-to-uphold-contempt-ruling-against-apple/"
+      }
+    ],
+    "מזהה": "n-1671",
+    "הועלה": "2026-11-15 11:25",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "11f88b895a1c75bb6b7e989202312792d9527894d309dc5836b0e2875cee5b43"
+      }
+    }
   }
 ]
