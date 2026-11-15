@@ -43760,5 +43760,120 @@
         "source_hash": "9ff7270dbc7ed1ea3f5a639d15d0c0472806ccf7d0648003dbaa382f716c2a18"
       }
     }
+  },
+  {
+    "category": "macro",
+    "חברה": "Bank of England",
+    "חברה_en": "Bank of England",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-14",
+    "כותרת": "לא מאומת מול מקור ראשוני | לפי Reuters בשם FT, היו פיל צופה צורך בהעלאות ריבית נוספות בבריטניה ב-2027",
+    "כותרת_en": "Not verified against a primary source | Reuters cites FT: Huw Pill expects further UK rate rises in 2027",
+    "טקסט": "לא מאומת מול מקור ראשוני: הדברים מובאים ב-Reuters וב-The Independent מתוך ראיון ל-Financial Times; תמליל הראיון המלא לא נבדק.\n\n14.11.2026 | Reuters מציגה 01:59 ועדכון ב-02:00 ללא אזור זמן מאומת.\n\nלפי הדיווחים, הכלכלן הראשי של בנק אנגליה, היו פיל, אמר כי סביר שיהיה צורך בהעלאות ריבית נוספות ב-2027, מעבר להעלאה אפשרית בדצמבר. הוא תיאר את העלאת הריבית האחרונה ל-4% כצעד משמעותי, אך אמר שיש עוד דרך לעבור להחזרת האינפלציה ליעד של 2%.\n\nפיל הביע חשש שהשפעת עלויות האנרגיה תתפשט לשכר ולמחירים נוספים. לפי FT כפי שצוטטה ב-Reuters, הוא אותת על נטייה לתמוך בהעלאה נוספת של רבע נקודת אחוז בדצמבר. הוא אמר שתמחור שוק המרמז על ריבית קרובה ל-5% ב-2027 אינו מופרך, לא התחייב להגיע לרמה זו.\n\nזו עמדתו של חבר בוועדה, לא החלטת ריבית חדשה ולא התחייבות של בנק אנגליה למסלול עתידי. הדברים נפרדים מסקר הכלכלנים שפורסם קודם לכן וצפה ברוב גדול המתנה בדצמבר; סקר, תמחור שוק ועמדת חבר ועדה אינם אותה החלטה.",
+    "טקסט_en": "Not verified against a primary source: Reuters and The Independent report remarks from a Financial Times interview; the full interview transcript was not inspected.\n\nNovember 14, 2026 | Reuters displays 01:59 and an update at 02:00 without a verified timezone.\n\nAccording to the reports, Bank of England Chief Economist Huw Pill said further rate rises would probably be needed in 2027, beyond a possible December increase. He described the latest rise to 4% as a significant step but said there was further to go to return inflation to the 2% target.\n\nPill voiced concern that energy costs would feed into wages and wider prices. According to the FT, as cited by Reuters, he signalled a bias toward another quarter-point increase in December. He called market pricing implying rates near 5% in 2027 not outrageous, rather than committing to that level.\n\nThis is one committee member's view, not a new rate decision or a Bank of England commitment to a future path. It is separate from the earlier economist poll whose large majority expected a December hold; a survey, market pricing and a policymaker's view are not the same decision.",
+    "קישור": "https://www.investing.com/news/economy-news/boe-likely-to-raise-rates-further-in-2027-pill-tells-ft-5027169",
+    "מקורות": [
+      {
+        "label": "Reuters דרך Investing.com: ראיון FT",
+        "label_en": "Reuters via Investing.com: FT interview",
+        "url": "https://www.investing.com/news/economy-news/boe-likely-to-raise-rates-further-in-2027-pill-tells-ft-5027169"
+      },
+      {
+        "label": "The Independent: דברי פיל",
+        "label_en": "The Independent: Pill remarks",
+        "url": "https://www.the-independent.com/news/uk/home-news/bank-of-england-interest-rate-rises-inflation-mortgages-b3084994.html"
+      }
+    ],
+    "מזהה": "n-1668",
+    "הועלה": "2026-11-15 11:17",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fec3483c2c66b1acbdfe9155b034c106c89ccb07434d8d16f446a8a342c46b3d"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "חברה": "SpaceX",
+    "חברה_en": "SpaceX",
+    "symbols": [],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-14",
+    "כותרת": "SpaceX לכדה לראשונה את השלב העליון של Starship בחזרתו מהמסלול; ניסיון לכידת המאיץ בוטל",
+    "כותרת_en": "SpaceX catches Starship upper stage returning from orbit for the first time; booster catch aborted",
+    "טקסט": "14.11.2026 | הלכידה התרחשה בסביבות 23:20 שעון ישראל, לפי Space.com (16:20 EST). עמוד המשימה הרשמי אינו מציג שעת עדכון.\n\nSpaceX הודיעה כי השלב העליון של Starship חזר ל-Starbase בטקסס ונלכד לראשונה בזרועות מגדל השיגור בתום טיסת הניסוי ה-15, לאחר כ-22.5 שעות בחלל. זו לכידה ראשונה של הספינה עצמה לאחר טיסה במסלול, בנפרד מלכידות קודמות של מאיץ Super Heavy.\n\nהמטרה ללכוד את שני השלבים באותה טיסה לא הושגה. לפי החברה, בעירת החזרה של המאיץ הסתיימה מוקדם בגלל מסת דלק נמוכה, ושורש התקלה עדיין נחקר. מערכת הניווט הפעילה ביטול אוטומטי והסיטה אותו לאזור בים; לאחר בעירת הנחיתה הופעלה מערכת סיום הטיסה שלו.\n\nלפי SpaceX, השלב העליון פרס 26 לווייני Starlink V3, נוצר קשר עם כולם והם החלו להעלות את מסלוליהם. פריסה וקשר ראשוני אינם אישור שכל הלוויינים כבר החלו שירות מסחרי.\n\nזהו הישג שבוצע מעבר לתוכנית הטיסה שפורסמה קודם לכן, אך לא הוכחה לשימוש חוזר מלא בשני השלבים, לא אישור כשירות לטיסות מאוישות ולא נתון מאומת על חיסכון בעלויות.",
+    "טקסט_en": "November 14, 2026 | The catch occurred around 23:20 Israel time, according to Space.com (16:20 EST). The official mission page does not show an update time.\n\nSpaceX said Starship's upper stage returned to Starbase, Texas and was caught by the launch tower's arms for the first time at the end of Flight 15, after roughly 22.5 hours in space. This was the first catch of the ship itself after an orbital flight, separate from previous Super Heavy booster catches.\n\nThe goal of catching both stages on the same flight was not achieved. According to the company, the booster's boostback burn ended early because of low fuel mass, with the root cause still under investigation. Its guidance system triggered an automatic abort and diverted it offshore; its flight termination system activated after the landing burn.\n\nSpaceX said the upper stage deployed 26 Starlink V3 satellites, contact was established with all of them and they began raising their orbits. Deployment and initial contact do not establish that all satellites have started commercial service.\n\nThis is a completed milestone beyond the previously announced flight plan, but not proof of full reuse of both stages, approval for crewed flights or a verified cost-saving figure.",
+    "קישור": "https://www.spacex.com/launches/starship-flight-15/",
+    "מקורות": [
+      {
+        "label": "SpaceX: סיכום רשמי של טיסה 15",
+        "label_en": "SpaceX: official Flight 15 account",
+        "url": "https://www.spacex.com/launches/starship-flight-15/"
+      },
+      {
+        "label": "Space.com: שעת לכידת הספינה",
+        "label_en": "Space.com: ship catch timing",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+      },
+      {
+        "label": "The Verge: דיווח מ-21:44 UTC",
+        "label_en": "The Verge: report at 21:44 UTC",
+        "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+      }
+    ],
+    "מזהה": "n-1669",
+    "הועלה": "2026-11-15 11:17",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "09657a8daaa5163b0211ca951d91a6f75ea340a6b031f0a5086293ad0d0d3a5a"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "חברה": "Micron, Samsung, SK hynix",
+    "חברה_en": "Micron, Samsung, SK hynix",
+    "symbols": [
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-14",
+    "כותרת": "לא מאומת מול מקור ראשוני | לפי עותק צו, נדחתה בקשת Micron, Samsung ו-SK hynix לסלק תביעת תיאום היצע DRAM",
+    "כותרת_en": "Not verified against a primary source | Order copy says Micron, Samsung and SK hynix lost bid to dismiss DRAM supply suit",
+    "טקסט": "לא מאומת מול מקור ראשוני: מקור המסמך: עותק בן 20 עמודים של צו בית המשפט המתארח באתר LitNews, ולא מסמך שאומת ישירות מול שרת בית המשפט. תאריך החתימה וההגשה המופיע בו הוא 14.11.2026; שעת ההגשה לא אומתה.\n\nלפי הצו בתיק Garciaguirre נגד Samsung ואחרות, השופטת Noël Wise בבית המשפט הפדרלי בצפון קליפורניה דחתה את בקשת הנתבעות לסלק את התביעה המוצעת כייצוגית נגד Samsung, SK hynix ו-Micron. התובעים טוענים לתיאום צמצום ההיצע של זיכרונות DRAM רגילים ולהסטת קיבולת ל-HBM.\n\nבשלב מקדמי זה בית המשפט מצא שהטענות העובדתיות מספיקות להמשך התיק. הצו מבחין בין החלטות מקבילות שעשויות להיות חוקיות לבין הנסיבות הנוספות הנטענות, ובהן התחייבויות קיבולת ארוכות טווח, החלטות על מפעלים ובדיקות לקוחות דומות. הוא אינו נותן משקל לכל טענות התובעים.\n\nדחיית בקשת הסילוק אינה פסק דין הקובע תיאום מחירים או אחריות, אינה הרשעה ואינה אישור שהתביעה כבר הוכרה כייצוגית. טענות התובעים מתקבלות כהנחות לצורך בחינת בקשת הסילוק, לא כממצאים שהוכחו במשפט.\n\nהצו קובע תשובות עד 7 בדצמבר 2026 ודיון ניהול תיק ראשוני ל-12 בינואר 2027 בשעה 09:00 לפי שעון בית המשפט. אין בצו סכום פיצויים שנפסק או אומדן מאומת לפגיעה ברווחי החברות.",
+    "טקסט_en": "Not verified against a primary source: Document source: a 20-page copy of the court order hosted by LitNews, not a document authenticated directly against the court server. Its displayed signature and filing date is November 14, 2026; the filing time was not verified.\n\nAccording to the order in Garciaguirre v. Samsung and others, Judge Noël Wise in the Northern District of California denied the defendants' motion to dismiss the proposed class action against Samsung, SK hynix and Micron. The plaintiffs allege coordinated restrictions on conventional DRAM supply and a shift of capacity to HBM.\n\nAt this preliminary stage, the court found the factual allegations sufficient for the case to proceed. The order distinguishes parallel decisions that can be lawful from additional alleged circumstances, including long-term capacity commitments, plant decisions and similar customer-vetting practices. It does not give weight to every plaintiff argument.\n\nDenial of dismissal is not a judgment establishing price coordination or liability, a conviction or confirmation that a class has been certified. Plaintiffs' allegations are assumed for testing the dismissal motion, not findings proven at trial.\n\nThe order sets answers due December 7, 2026 and an initial case management conference for January 12, 2027 at 09:00 court time. It awards no damages and provides no verified estimate of an earnings impact on the companies.",
+    "קישור": "https://litnews.ai/opinions/cand/5-26-cv-06345/ecf-68.pdf",
+    "מקורות": [
+      {
+        "label": "עותק צו ECF 68 באתר LitNews, עמודים 1-20",
+        "label_en": "ECF 68 court-order copy hosted by LitNews, pages 1-20",
+        "url": "https://litnews.ai/opinions/cand/5-26-cv-06345/ecf-68.pdf"
+      },
+      {
+        "label": "LitNews: סיכום הצו",
+        "label_en": "LitNews: order summary",
+        "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal"
+      }
+    ],
+    "מזהה": "n-1670",
+    "הועלה": "2026-11-15 11:17",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1529a1c02f4493a4d5afc2f049700518f8415afb0d0ca002d65e7a75c4070c38"
+      }
+    }
   }
 ]
