@@ -7,8 +7,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: now-edgar-reports
+  group: sec-edgar-shared
   cancel-in-progress: false
+  queue: max
 
 jobs:
   update:
