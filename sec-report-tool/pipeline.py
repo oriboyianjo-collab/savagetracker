@@ -43,6 +43,27 @@ class RunLog:
             self.fh.close()
             self.fh = None
 
+# XBRL inline-viewer date transforms observed on ISRG DEI facts. Only these deterministic
+# month-name formats are accepted; anything else is an honest validation failure, not a guess.
+_MONTHS = {m.lower(): i for i, m in enumerate(
+    ['January', 'February', 'March', 'April', 'May', 'June',
+     'July', 'August', 'September', 'October', 'November', 'December'], 1)}
+_DEI_DATE_FORMATS = {'ixt:date-monthname-day-year-en', 'ixt:datemonthdayyearen'}
+
+def dei_date(text, fmt):
+    """Normalize a DEI date fact to ISO. Accepts plain ISO, or the declared ixt transform.
+    Never guesses: an unknown transform or unrecognized text raises."""
+    v = ' '.join((text or '').replace('\xa0', ' ').split())
+    try:
+        return date.fromisoformat(v).isoformat()
+    except ValueError:
+        pass
+    if fmt in _DEI_DATE_FORMATS:
+        m = re.fullmatch(r'([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})', v)
+        if m and m.group(1).lower() in _MONTHS:
+            return date(int(m.group(3)), _MONTHS[m.group(1).lower()], int(m.group(2))).isoformat()
+    raise ValueError('unparseable DEI date %r (format %s)' % (text, fmt or 'none'))
+
 class Facts(HTMLParser):
     def __init__(self, html):
         super().__init__(convert_charrefs=True)
@@ -53,20 +74,29 @@ class Facts(HTMLParser):
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag in {'ix:nonfraction', 'ix:nonnumeric'}:
-            self.active.append([a.get('name', '').lower(), []])
+            self.active.append([a.get('name', '').lower(), [], a.get('format')])
     def handle_endtag(self, tag):
         if tag in {'ix:nonfraction', 'ix:nonnumeric'} and self.active:
-            name, parts = self.active.pop()
-            self.values.setdefault(name, []).append(' '.join(''.join(parts).split()))
+            name, parts, fmt = self.active.pop()
+            self.values.setdefault(name, []).append((' '.join(''.join(parts).split()), fmt))
     def handle_data(self, s):
         self.parts.append(s)
         for a in self.active:
             a[1].append(s)
-    def one(self, key):
-        values = set(self.values.get('dei:' + key.lower(), []))
-        if len(values) != 1:
+    def _unique(self, key):
+        values = {(t, f) for t, f in self.values.get('dei:' + key.lower(), [])}
+        texts = {t for t, f in values}
+        if len(texts) != 1:
             raise ValueError('missing/conflicting DEI ' + key)
-        return next(iter(values))
+        fmts = {f for t, f in values}
+        if len(fmts) != 1:
+            raise ValueError('conflicting DEI transforms for ' + key)
+        return next(iter(texts)), next(iter(fmts))
+    def one(self, key):
+        return self._unique(key)[0]
+    def one_date(self, key):
+        text, fmt = self._unique(key)
+        return dei_date(text, fmt)
 
 def expected(as_of):
     d = date.fromisoformat(as_of)
@@ -78,6 +108,13 @@ def expected(as_of):
     if date(d.year, 12, 31) < d:
         slots.append((d.year, 'FY'))
     return slots
+
+class NotQ4Final(Exception):
+    """The filing is a valid preliminary Q4 release, not the full earnings release.
+    Not an error and not a mapping candidate: the slot waits for the final release."""
+
+class PublishBlocked(RuntimeError):
+    """Refusing to overwrite the published app index with a degraded result."""
 
 class ExhibitLinks(HTMLParser):
     def __init__(self, text):
@@ -136,7 +173,15 @@ def filing_rows(raw):
     n = len(rows.get(keys[0], []))
     if any(not isinstance(rows.get(k), list) or len(rows[k]) != n for k in keys):
         raise ValueError('misaligned submissions columns')
-    return [{k: rows[k][i] for k in keys} for i in range(n)], j.get('filings', {}).get('files', []), j
+    items = rows.get('items')
+    if not (isinstance(items, list) and len(items) == n):
+        items = [''] * n
+    out = []
+    for i in range(n):
+        r = {k: rows[k][i] for k in keys}
+        r['items'] = items[i]
+        out.append(r)
+    return out, j.get('filings', {}).get('files', []), j
 
 STALE_HOLD_REASONS = (
     'SEC acquisition disabled: prior access hold unresolved; no request sent',
@@ -161,7 +206,14 @@ class Pipeline:
         if not (self.root / STATE_NAME).exists() and legacy.exists():
             self.state = load(legacy, self.state)
         if self.state['as_of'] != self.as_of:
-            raise ValueError('new cutoff requires new run directory')
+            # The scheduled run reuses this directory daily. Advancing the cutoff is safe:
+            # validated documents keep their per-period identity and expected() only grows.
+            prior = self.state['as_of']
+            if self.as_of < prior:
+                raise ValueError('as_of cannot move backward for an existing run directory')
+            self.log(event='as_of_advanced', previous=prior, current=self.as_of)
+            self.state['as_of'] = self.as_of
+            self.save()
 
     def log(self, **kw):
         self.logger.event(**kw)
@@ -213,10 +265,25 @@ class Pipeline:
                     a = accession(r['accessionNumber'])
                     date.fromisoformat(r['filingDate'])
                     rd = date.fromisoformat(r['reportDate'])
-                    # Only Q4 earnings 8-Ks are used (Item 2.02 after year-end). Skip other 8-Ks so we
-                    # do not download documents we will not map, per "download only what you need".
-                    if r['form'].startswith('8-K') and rd.month not in {1, 2, 3}:
+                    # Approved history starts HISTORY_START. Older filings are outside scope: skip
+                    # them here instead of downloading documents we will never map.
+                    if r['form'].startswith('8-K'):
+                        # Only Q4 earnings 8-Ks are used (Item 2.02 after year-end). The Q4 earnings
+                        # 8-K for history year Y is filed late Dec Y or early Y+1.
+                        if rd < date(HISTORY_START, 12, 1):
+                            continue
+                    elif rd < date(HISTORY_START, 1, 1):
                         continue
+                    if r['form'].startswith('8-K'):
+                        # Only Q4 earnings 8-Ks are used (Item 2.02 after year-end). Skip other
+                        # 8-Ks so we do not download documents we will not map, per "download
+                        # only what you need". The submissions items column additionally rules
+                        # out non-earnings events inside the calendar window.
+                        if rd.month not in {1, 2, 3}:
+                            continue
+                        items = r.get('items') or ''
+                        if items.strip() and not re.search(r'(?<![\d.])2\.02(?!\d)', items):
+                            continue
                     if r['filingDate'] > self.as_of:
                         continue
                     if r['filingDate'] < r['reportDate']:
@@ -264,8 +331,7 @@ class Pipeline:
             return self.validate_q4(row, b, ev, url, f)
         year = int(f.one('DocumentFiscalYearFocus'))
         period = f.one('DocumentFiscalPeriodFocus')
-        end = f.one('DocumentPeriodEndDate')
-        date.fromisoformat(end)
+        end = f.one_date('DocumentPeriodEndDate')
         if end != row['reportDate']:
             raise ValueError('document/submissions period conflict')
         if end[:4] != str(year) or end[5:] != {'FY': '12-31', 'Q1': '03-31', 'Q2': '06-30', 'Q3': '09-30'}.get(period):
@@ -297,7 +363,11 @@ class Pipeline:
             raise ValueError('8-K has no earnings Item 2.02')
         links = []
         for href, label in ExhibitLinks(primary.decode('utf-8')).links:
-            if re.search(r'(?:ex(?:hibit)?\s*)?99\.1\b', label, re.I):
+            name = href.rsplit('/', 1)[-1]
+            # Exhibit 99.1 is identified by its link text or by the EDGAR exhibit filename
+            # (e.g. a20251231ex-991.htm, q425ex-991earningsrelease.htm). 99.2+ never matches.
+            if re.search(r'(?:ex(?:hibit)?\s*)?99\.1\b', label, re.I) or re.fullmatch(
+                    r'[A-Za-z0-9_.-]*ex[-_]?(?:hibit)?[-_]?99[-_.]?1(?!\d)[A-Za-z0-9_.-]*\.(?:htm|html)', name, re.I):
                 u = urljoin(url, href)
                 sec_url(u)
                 if u.rsplit('/', 1)[0] != url.rsplit('/', 1)[0]:
@@ -306,28 +376,46 @@ class Pipeline:
                     links.append(u)
         if len(links) != 1:
             raise ValueError('Q4 exhibit mapping absent/ambiguous')
-        eb, ee = self.document_get(links[0])
-        text = ' '.join(Facts(eb.decode('utf-8')).parts)
-        text = ' '.join(text.split())
-        if not re.search(r'Intuitive Surgical(?:,? Inc\.?)?', text, re.I):
-            raise ValueError('Q4 issuer not established')
-        years = set(re.findall(r'(?:fourth quarter(?: and (?:full[ -]year|annual))?\s+(?:20\d{2}\s+)?(?:financial )?(?:results|earnings).{0,25}?(20\d{2})|fourth quarter(?: and (?:full[ -]year|annual))?\s+(20\d{2})\s+(?:financial )?(?:results|earnings))', text, re.I))
-        years = {v for pair in years for v in pair if v}
-        if len(years) != 1:
-            raise ValueError('Q4 title year absent/ambiguous')
-        year = int(next(iter(years)))
+        # The mapped period comes from the 8-K's own reportDate metadata (Q4 of year Y is
+        # reported in Jan-Mar of Y+1), then confirmed inside the exhibit text.
+        rd = date.fromisoformat(row['reportDate'])
+        if rd.month not in {1, 2, 3}:
+            raise ValueError('8-K earnings event outside the post-year-end window')
+        year = rd.year - 1
         end = str(year) + '-12-31'
         if (year, 'Q4') not in expected(self.as_of):
             raise ValueError('Q4 outside approved history')
-        if not re.search(r'December\s+31,?\s+' + str(year), text, re.I):
-            raise ValueError('Q4 period end absent')
+        eb, ee = self.document_get(links[0])
+        text = ' '.join(Facts(eb.decode('utf-8')).parts)
+        text = ' '.join(text.split())
+        # Issuer: the accession directory already binds the exhibit to CIK 1035267 filings;
+        # the text must still name the issuer, as Intuitive Surgical or via the Nasdaq: ISRG
+        # reference the SEC issuer record for this CIK declares (tickers [ISRG], Nasdaq).
+        if not (re.search(r'Intuitive Surgical(?:,? Inc\.?)?', text, re.I) or re.search(r'Nasdaq:\s*ISRG', text)):
+            raise ValueError('Q4 issuer not established')
         if row['reportDate'] < end:
             raise ValueError('8-K event predates quarter end')
+        lead = text[:2000]
+        if re.search(r'\bpreliminary\b', lead, re.I):
+            # ISRG announces preliminary Q4 results about a week before the full earnings
+            # release. The headline must confirm the expected period; then the slot waits
+            # for the final release. A preliminary release is never the Q4 button.
+            t = re.search(r'fourth\s+quarter\s+and\s+full[- ]year\s+(20\d{2})\s+results', lead, re.I)
+            if not t or int(t.group(1)) != year:
+                raise ValueError('preliminary release does not confirm expected Q4 period')
+            raise NotQ4Final('preliminary Q4 %s release; slot waits for the full earnings release' % year)
+        # Strict period binding: the exhibit must state results for exactly the expected
+        # quarter. Comparative columns read "three months ended", so this phrase binds only
+        # the reported quarter (checked against all retained 2020-2025 releases).
+        years = {m.group(1) for m in re.finditer(r'quarter\s+ended\s+December\s+31,?\s+(20\d{2})', text, re.I)}
+        if years != {str(year)}:
+            raise ValueError('Q4 period-end binding absent/ambiguous')
         result = {
             'accession': row['accessionNumber'], 'form': row['form'], 'year': year, 'period': 'Q4',
             'period_end': end, 'filed': row['filingDate'], 'url': links[0], 'sha256': digest(eb),
             'amended': row['form'].endswith('/A'), 'full_restatement': False, 'provenance': ee,
-            'filing_provenance': ev, 'status': 'validated_q4_earnings_exhibit_not_annual_cashflow'
+            'filing_provenance': ev,
+            'status': 'validated_q4_earnings_exhibit_not_annual_cashflow'
         }
         self.log(event='mapped', accession=result['accession'], form=result['form'], year=year, period='Q4', url=links[0], status=result['status'])
         return result
@@ -351,7 +439,7 @@ class Pipeline:
         cursor = self.state.get('filing_cursor', '')
         ordered = [r for r in ordered if r[0] > cursor] + [r for r in ordered if r[0] <= cursor]
         for a, row in ordered:
-            if a in self.state['documents'] or statuses.get(a) in {'missing_capture', 'held_invalid'}:
+            if a in self.state['documents'] or statuses.get(a) in {'missing_capture', 'held_invalid', 'not_q4_final'}:
                 continue
             if self._attempts >= max_documents or considered >= max_documents:
                 break
@@ -375,6 +463,11 @@ class Pipeline:
             except FileNotFoundError:
                 statuses[a] = 'missing_capture'
                 self.log(event='missing_capture', accession=a)
+                self.save()
+                continue
+            except NotQ4Final as e:
+                statuses[a] = 'not_q4_final'
+                self.log(event='q4_preliminary_not_mapped', accession=a, reason=str(e), form=row.get('form'), filingDate=row.get('filingDate'))
                 self.save()
                 continue
             except (ValueError, UnicodeError, TypeError, KeyError) as e:
@@ -415,13 +508,16 @@ class Pipeline:
                 status = 'unresolved_not_evidence_of_absence'
             self.log(event='slot', year=y, period=p, status=status, accessions=[d['accession'] for d in rows], url=buttons.get(str(y), {}).get(p))
             ledger.append({'year': y, 'period': p, 'status': status, 'accessions': [d['accession'] for d in rows]})
+        statuses = self.state.get('attempt_status', {})
+        uncollected = sum(1 for a in self.state['filings']
+                          if a not in self.state['documents'] and statuses.get(a) != 'not_q4_final')
         return {
             'schema_version': 1, 'symbol': SYMBOL, 'cik': CIK, 'as_of': self.as_of,
             'live_connected': bool(self.live), 'acquisition_disabled': not self.live,
             'history_complete': False, 'pages_complete': not self.state['queue'],
             'buttons': {SYMBOL: buttons}, 'ledger': ledger,
             'errors': copy.deepcopy(self.state['errors']),
-            'uncollected_filings': len(self.state['filings']) - len(self.state['documents']),
+            'uncollected_filings': uncollected,
             'provenance_kind': 'edgar_live' if self.live else ('synthetic' if any(d['provenance']['kind'] == 'synthetic' for d in docs) else 'retained_sec_not_fresh')
         }
 
@@ -448,6 +544,24 @@ class Pipeline:
                 clean[period] = url
             if clean:
                 reports[str(year)] = clean
+        # Gates: never overwrite a good published index with a degraded result. A blocked
+        # publish leaves the previous file untouched and fails the run.
+        errors = r.get('errors') or []
+        if errors:
+            raise PublishBlocked('refusing to publish while %d validation error(s) are held' % len(errors))
+        if not r.get('pages_complete'):
+            raise PublishBlocked('refusing to publish while submissions paging is incomplete')
+        if r.get('uncollected_filings'):
+            raise PublishBlocked('refusing to publish with %s uncollected filing(s)' % r['uncollected_filings'])
+        if not sum(len(v) for v in reports.values()):
+            raise PublishBlocked('refusing to publish an empty report index')
+        dest_path = Path(dest)
+        if dest_path.exists():
+            prev = load(dest_path, {})
+            missing = [(y, p) for y, ps in (prev.get('reports') or {}).items()
+                       for p in (ps or {}) if p not in (reports.get(str(y)) or {})]
+            if missing:
+                raise PublishBlocked('refusing to drop previously validated link(s): %s' % missing)
         doc = {
             'schema_version': 1,
             'symbol': SYMBOL,
@@ -513,7 +627,12 @@ if __name__ == '__main__':
     pipe = Pipeline(a.output, a.as_of, transport, logger=logger, live=live)
     r = pipe.run(clear_stale_hold=a.clear_stale_hold)
     if a.app_output and r.get('status') in {'live', 'candidate_only'} and r.get('result'):
-        pipe.publish_app(a.app_output, r['result'])
+        try:
+            pipe.publish_app(a.app_output, r['result'])
+        except PublishBlocked as e:
+            print('publish blocked: ' + str(e), file=sys.stderr)
+            logger.close()
+            sys.exit(2)
     buttons = ((r.get('result') or {}).get('buttons') or {}).get(SYMBOL, {})
     summary = {k: v for k, v in r.items() if k != 'result'}
     summary['links'] = sum(len(x) for x in buttons.values())

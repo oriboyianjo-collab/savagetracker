@@ -85,7 +85,7 @@ class Extended(unittest.TestCase):
  pipe=Tests.pipe
  valid=Tests.valid
  def test_q4_exhibit(self):
-  r=row(form='8-K',end='2026-01-27');self.f.put(ROOT,submissions([r]));p=self.pipe();u=p.document_url(r);self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="results.htm">Exhibit 99.1</a>').encode());self.f.put(u.rsplit('/',1)[0]+'/results.htm',b'<h1>Intuitive Surgical Announces Fourth Quarter and Full Year 2025 Financial Results</h1><p>December 31, 2025</p>');result=self.pipe().run()['result'];self.assertIn('Q4',result['buttons']['ISRG']['2025'])
+  r=row(form='8-K',end='2026-01-27');self.f.put(ROOT,submissions([r]));p=self.pipe();u=p.document_url(r);self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="results.htm">Exhibit 99.1</a>').encode());self.f.put(u.rsplit('/',1)[0]+'/results.htm',b'<h1>Intuitive Surgical Announces Fourth Quarter and Full Year 2025 Financial Results</h1><p>announced financial results for the quarter ended December 31, 2025</p>');result=self.pipe().run()['result'];self.assertIn('Q4',result['buttons']['ISRG']['2025'])
  def test_full_restatement(self):
   rs=[row(),row(2,form='10-K/A')];rs[1]['filingDate']='2026-03-01';self.f.put(ROOT,submissions(rs));p=self.pipe()
   for r in rs:self.f.put(p.document_url(r),(html(form=r['form'],amend='true'if r['form'].endswith('/A')else'false')+('This Form 10-K/A amends and restates the original report in its entirety'if r['form'].endswith('/A')else'')).encode())
@@ -158,7 +158,7 @@ class Regressions(unittest.TestCase):
   for r in rs:self.f.put(p.document_url(r),b'invalid')
   p=self.pipe();p.discover();p.transport.calls=[];r=p.collect(3);self.assertEqual(len(p.transport.calls),3);self.assertEqual(len(p.state['errors']),3)
  def test_q4_exhibit_budget_included(self):
-  r=row(form='8-K',end='2026-01-27');self.f.put(ROOT,submissions([r]));p=self.pipe();u=p.document_url(r);self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="results.htm">Exhibit 99.1</a>').encode());self.f.put(u.rsplit('/',1)[0]+'/results.htm',b'<h1>Intuitive Surgical Announces Fourth Quarter and Full Year 2025 Financial Results</h1><p>December 31, 2025</p>');p=self.pipe();p.discover();p.transport.calls=[];first=p.collect(1);self.assertEqual(first['attempts'],1);self.assertEqual(len(p.transport.calls),1);self.assertFalse(p.state['documents']);p.transport.calls=[];second=p.collect(2);self.assertEqual(second['attempts'],2);self.assertEqual(second['processed'],1);self.assertEqual(len(p.transport.calls),2)
+  r=row(form='8-K',end='2026-01-27');self.f.put(ROOT,submissions([r]));p=self.pipe();u=p.document_url(r);self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="results.htm">Exhibit 99.1</a>').encode());self.f.put(u.rsplit('/',1)[0]+'/results.htm',b'<h1>Intuitive Surgical Announces Fourth Quarter and Full Year 2025 Financial Results</h1><p>announced financial results for the quarter ended December 31, 2025</p>');p=self.pipe();p.discover();p.transport.calls=[];first=p.collect(1);self.assertEqual(first['attempts'],1);self.assertEqual(len(p.transport.calls),1);self.assertFalse(p.state['documents']);p.transport.calls=[];second=p.collect(2);self.assertEqual(second['attempts'],2);self.assertEqual(second['processed'],1);self.assertEqual(len(p.transport.calls),2)
  def test_unsafe_names_bounded(self):
   rs=[row(i,name='../bad.htm')for i in range(1,40)];self.f.put(ROOT,submissions(rs));p=self.pipe();p.discover();r=p.collect(3);self.assertEqual(r['filings_considered'],3);self.assertEqual(r['attempts'],0)
 
@@ -180,7 +180,7 @@ class FairQueue(unittest.TestCase):
  def test_missing_not_retried_until_refresh(self):
   self.f.put(ROOT,submissions([row()]));p=self.pipe();p.discover();p.collect(1);p=self.pipe();self.assertEqual(p.collect(1)['attempts'],0);p.begin_refresh();self.assertEqual(p.collect(1)['attempts'],1)
  def test_q4_progress_behind_missing(self):
-  rs=[row(i)for i in range(1,4)]+[row(4,form='8-K',end='2026-01-27')];self.f.put(ROOT,submissions(rs));p=self.pipe();u=p.document_url(rs[3]);self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="results.htm">Exhibit 99.1</a>').encode());self.f.put(u.rsplit('/',1)[0]+'/results.htm',b'<h1>Intuitive Surgical Announces Fourth Quarter and Full Year 2025 Financial Results</h1><p>December 31, 2025</p>');p=self.pipe();p.discover();p.collect(3);p=self.pipe();r=p.collect(2);self.assertEqual(r['processed'],1);self.assertEqual(r['attempts'],2);self.assertIn(acc(4),p.state['documents'])
+  rs=[row(i)for i in range(1,4)]+[row(4,form='8-K',end='2026-01-27')];self.f.put(ROOT,submissions(rs));p=self.pipe();u=p.document_url(rs[3]);self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="results.htm">Exhibit 99.1</a>').encode());self.f.put(u.rsplit('/',1)[0]+'/results.htm',b'<h1>Intuitive Surgical Announces Fourth Quarter and Full Year 2025 Financial Results</h1><p>announced financial results for the quarter ended December 31, 2025</p>');p=self.pipe();p.discover();p.collect(3);p=self.pipe();r=p.collect(2);self.assertEqual(r['processed'],1);self.assertEqual(r['attempts'],2);self.assertIn(acc(4),p.state['documents'])
 
 
 class LiveActivation(unittest.TestCase):
@@ -202,6 +202,7 @@ class LiveActivation(unittest.TestCase):
         self.assertNotIn((2019,'FY'),slots)
     def test_publish_app_edgar_only(self):
         out=self.r/'run';p=Pipeline(out,live=True)
+        p.state['queue']=[]
         p.state['documents']={'0001035267-26-000001':{'accession':'0001035267-26-000001','form':'10-K','year':2025,'period':'FY','period_end':'2025-12-31','filed':'2026-02-03','url':'https://www.sec.gov/Archives/edgar/data/1035267/000103526726000001/isrg-report.htm','sha256':'0'*64,'amended':False,'full_restatement':False,'provenance':{'kind':'retained_sec'},'status':'validated_period_identity'}}
         dest=self.r/'report-links-pilot.json';doc=p.publish_app(dest)
         self.assertTrue(doc['live_connected']);self.assertEqual(doc['source_status'],'edgar_live')
@@ -209,5 +210,172 @@ class LiveActivation(unittest.TestCase):
         self.assertEqual(json.loads(dest.read_text())['symbol'],'ISRG')
     def test_expected_default_as_of_stable(self):
         self.assertEqual(Pipeline(self.r/'x').as_of,'2026-11-15')
+
+class Repair20261115(unittest.TestCase):
+ setUp=Tests.setUp
+ tearDown=Tests.tearDown
+ pipe=Tests.pipe
+ valid=Tests.valid
+ def test_ixt_monthname_date_accepted(self):
+  r=row(form='10-Q',end='2026-09-30');r['filingDate']='2026-10-20';self.f.put(ROOT,submissions([r]));p=self.pipe()
+  h=html(form='10-Q',year='2026',period='Q3',end='2026-09-30').replace('dei:DocumentPeriodEndDate">2026-09-30','dei:DocumentPeriodEndDate" format="ixt:date-monthname-day-year-en">September&#160;30, 2026')
+  self.f.put(p.document_url(r),h.encode());self.assertIn('Q3',self.pipe().run()['result']['buttons']['ISRG']['2026'])
+ def test_ixt_legacy_transform_accepted(self):
+  self.f.put(ROOT,submissions([row()]));p=self.pipe()
+  h=html().replace('dei:DocumentPeriodEndDate">2025-12-31','dei:DocumentPeriodEndDate" format="ixt:datemonthdayyearen">December 31, 2025')
+  self.f.put(p.document_url(row()),h.encode());self.assertIn('FY',self.pipe().run()['result']['buttons']['ISRG']['2025'])
+ def test_unknown_date_format_held(self):
+  self.f.put(ROOT,submissions([row()]));p=self.pipe()
+  h=html().replace('dei:DocumentPeriodEndDate">2025-12-31','dei:DocumentPeriodEndDate" format="ixt:date-future-unknown">31.12.2025')
+  self.f.put(p.document_url(row()),h.encode());p=self.pipe();p.run();self.assertEqual(p.state['documents'],{});self.assertTrue(p.state['errors'])
+ def test_pre2020_not_downloaded(self):
+  old=row(1,form='10-Q',end='2019-09-30');old['filingDate']='2019-10-18'
+  oldq4=row(2,form='8-K',end='2020-01-23');oldq4['filingDate']='2020-01-23'
+  self.f.put(ROOT,submissions([old,oldq4,row(3)]));p=self.pipe();p.discover();self.assertEqual(list(p.state['filings']),[acc(3)])
+  p.transport.calls=[];p.collect(5);self.assertEqual(len(p.transport.calls),1)
+ def test_8k_items_filter(self):
+  other=row(1,form='8-K',end='2026-03-01');other['filingDate']='2026-03-02'
+  earn=row(2,form='8-K',end='2026-01-22');earn['filingDate']='2026-01-22'
+  j=json.loads(submissions([other,earn]));j['filings']['recent']['items']=['8.01,9.01','2.02,9.01']
+  self.f.put(ROOT,json.dumps(j).encode());p=self.pipe();p.discover();self.assertEqual(list(p.state['filings']),[acc(2)])
+ def test_8k_other_quarter_earnings_skipped(self):
+  q2=row(1,form='8-K',end='2026-07-16');q2['filingDate']='2026-07-16'
+  j=json.loads(submissions([q2]));j['filings']['recent']['items']=['2.02,9.01']
+  self.f.put(ROOT,json.dumps(j).encode());p=self.pipe();p.discover();self.assertEqual(p.state['filings'],{})
+ def test_8k_items_fallback_month(self):
+  earn=row(1,form='8-K',end='2026-01-22');earn['filingDate']='2026-01-22'
+  j=json.loads(submissions([earn]));j['filings']['recent'].pop('items',None)
+  self.f.put(ROOT,json.dumps(j).encode());p=self.pipe();p.discover();self.assertEqual(list(p.state['filings']),[acc(1)])
+ def test_q4_prelim_then_final(self):
+  pre=row(1,form='8-K',end='2026-01-14');pre['filingDate']='2026-01-14'
+  fin=row(2,form='8-K',end='2026-01-22');fin['filingDate']='2026-01-22'
+  self.f.put(ROOT,submissions([pre,fin]));p=self.pipe()
+  for r,prelim in [(pre,True),(fin,False)]:
+   u=p.document_url(r)
+   self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="q425ex-991release.htm">Press release issued by Intuitive Surgical, Inc., dated</a>').encode())
+   if prelim:
+    body='<h1>Intuitive Surgical Announces PRELIMINARY Fourth Quarter and Full Year 2025 Results</h1><p>unaudited preliminary results</p>'
+   else:
+    body='<h1>Intuitive Surgical Announces Fourth Quarter Earnings</h1><p>announced financial results for the quarter ended December 31, 2025</p>'
+   self.f.put(u.rsplit('/',1)[0]+'/q425ex-991release.htm',body.encode())
+  p2=self.pipe();result=p2.run()['result']
+  self.assertEqual(result['buttons']['ISRG']['2025']['Q4'],p.document_url(fin).rsplit('/',1)[0]+'/q425ex-991release.htm')
+  self.assertEqual(result['errors'],[])
+  self.assertNotIn(acc(1),p2.state['documents'])
+  self.assertEqual(p2.state['attempt_status'][acc(1)],'not_q4_final')
+  self.assertEqual(result['uncollected_filings'],0)
+ def test_q4_prelim_only_unresolved(self):
+  pre=row(1,form='8-K',end='2026-01-14');pre['filingDate']='2026-01-14'
+  self.f.put(ROOT,submissions([pre]));p=self.pipe();u=p.document_url(pre)
+  self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="q425ex-991release.htm">Exhibit 99.1</a>').encode())
+  self.f.put(u.rsplit('/',1)[0]+'/q425ex-991release.htm',b'<h1>Intuitive Surgical Announces PRELIMINARY Fourth Quarter and Full Year 2025 Results</h1>')
+  result=self.pipe().run()['result']
+  self.assertNotIn('2025',result['buttons']['ISRG'])
+  self.assertEqual(result['errors'],[])
+  self.assertEqual(result['uncollected_filings'],0)
+  self.assertIn('unresolved_not_evidence_of_absence',[x['status'] for x in result['ledger'] if x['period']=='Q4'])
+ def test_q4_prelim_wrong_year_held(self):
+  pre=row(1,form='8-K',end='2026-01-14');pre['filingDate']='2026-01-14'
+  self.f.put(ROOT,submissions([pre]));p=self.pipe();u=p.document_url(pre)
+  self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="q425ex-991release.htm">Exhibit 99.1</a>').encode())
+  self.f.put(u.rsplit('/',1)[0]+'/q425ex-991release.htm',b'<h1>Intuitive Surgical Announces PRELIMINARY Fourth Quarter and Full Year 2024 Results</h1>')
+  result=self.pipe().run()['result']
+  self.assertNotIn('2025',result['buttons']['ISRG']);self.assertTrue(result['errors'])
+ def test_q4_two_finals_held(self):
+  a=row(1,form='8-K',end='2026-01-14');a['filingDate']='2026-01-14'
+  b=row(2,form='8-K',end='2026-01-22');b['filingDate']='2026-01-22'
+  self.f.put(ROOT,submissions([a,b]));p=self.pipe()
+  for r in [a,b]:
+   u=p.document_url(r)
+   self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="ex-991.htm">Exhibit 99.1</a>').encode())
+   self.f.put(u.rsplit('/',1)[0]+'/ex-991.htm',b'<h1>Intuitive Surgical Announces Fourth Quarter Earnings</h1><p>announced financial results for the quarter ended December 31, 2025</p>')
+  self.assertNotIn('2025',self.pipe().run()['result']['buttons']['ISRG'])
+ def test_q4_final_wrong_year_held(self):
+  fin=row(1,form='8-K',end='2026-01-22');fin['filingDate']='2026-01-22'
+  self.f.put(ROOT,submissions([fin]));p=self.pipe();u=p.document_url(fin)
+  self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="ex-991.htm">Exhibit 99.1</a>').encode())
+  self.f.put(u.rsplit('/',1)[0]+'/ex-991.htm',b'<h1>Intuitive Surgical Announces Fourth Quarter 2024 Results</h1><p>Comparative full year 2025 outlook</p>')
+  result=self.pipe().run()['result']
+  self.assertNotIn('2025',result['buttons']['ISRG']);self.assertTrue(result['errors'])
+ def test_conflicting_transforms_held(self):
+  self.f.put(ROOT,submissions([row()]));p=self.pipe()
+  h=html()+'<ix:nonNumeric name="dei:DocumentFiscalYearFocus" format="ixt:fixed-false">2025</ix:nonNumeric>'
+  self.f.put(p.document_url(row()),h.encode());p=self.pipe();p.run()
+  self.assertEqual(p.state['documents'],{})
+  self.assertTrue(any('transform' in e['reason'] for e in p.state['errors']))
+ def test_as_of_advance_and_backward(self):
+  p=self.valid();p.run()
+  p2=Pipeline(self.out,as_of='2026-11-16',transport=Captures(self.r));p2.run()
+  self.assertEqual(p2.state['as_of'],'2026-11-16')
+  with self.assertRaises(ValueError):Pipeline(self.out,as_of='2026-11-15',transport=Captures(self.r))
+ _doc1={'accession':'0001035267-26-000001','form':'10-K','year':2025,'period':'FY','period_end':'2025-12-31','filed':'2026-02-03','url':'https://www.sec.gov/Archives/edgar/data/1035267/000103526726000001/isrg-report.htm','sha256':'0'*64,'amended':False,'full_restatement':False,'provenance':{'kind':'retained_sec'},'status':'validated_period_identity'}
+ def _pubpipe(self):
+  p=Pipeline(self.r/'run',live=True);p.state['queue']=[];p.state['documents']={'0001035267-26-000001':dict(self._doc1)};return p
+ def test_publish_blocked_on_errors(self):
+  p=self._pubpipe();p.state['errors']=[{'accession':'x','reason':'held'}]
+  with self.assertRaises(PublishBlocked):p.publish_app(self.r/'app.json')
+  self.assertFalse((self.r/'app.json').exists())
+ def test_publish_blocked_paging_incomplete(self):
+  p=self._pubpipe();p.state['queue']=[ROOT]
+  with self.assertRaises(PublishBlocked):p.publish_app(self.r/'app.json')
+  self.assertFalse((self.r/'app.json').exists())
+ def test_publish_blocked_empty(self):
+  p=Pipeline(self.r/'run',live=True);p.state['queue']=[]
+  with self.assertRaises(PublishBlocked):p.publish_app(self.r/'app.json')
+  self.assertFalse((self.r/'app.json').exists())
+ def test_publish_blocked_uncollected(self):
+  p=self._pubpipe()
+  p.state['filings']={'0001035267-26-000001':{},'0001035267-26-000099':{}}
+  with self.assertRaises(PublishBlocked):p.publish_app(self.r/'app.json')
+  self.assertFalse((self.r/'app.json').exists())
+ def test_publish_regression_blocked(self):
+  p=self._pubpipe()
+  dest=self.r/'app.json';atomic(dest,{'reports':{'2024':{'FY':'https://www.sec.gov/Archives/edgar/data/1035267/000103526725000017/old.htm'}}})
+  before=dest.read_bytes()
+  with self.assertRaises(PublishBlocked):p.publish_app(dest)
+  self.assertEqual(dest.read_bytes(),before)
+ def test_publish_growth_allowed(self):
+  p=self._pubpipe()
+  dest=self.r/'app.json';atomic(dest,{'reports':{'2025':{'Q3':'https://www.sec.gov/Archives/edgar/data/1035267/000103526725000209/isrg-q3.htm'}}})
+  # The existing slot is NOT in the new result, so this is a regression and must block.
+  with self.assertRaises(PublishBlocked):p.publish_app(dest)
+  # Add the missing slot and it publishes.
+  p.state['documents']['0001035267-25-000209']={'accession':'0001035267-25-000209','form':'10-Q','year':2025,'period':'Q3','period_end':'2025-09-30','filed':'2025-10-22','url':'https://www.sec.gov/Archives/edgar/data/1035267/000103526725000209/isrg-q3.htm','sha256':'0'*64,'amended':False,'full_restatement':False,'provenance':{'kind':'retained_sec'},'status':'validated_period_identity'}
+  doc=p.publish_app(dest)
+  self.assertIn('FY',doc['reports']['2025']);self.assertIn('Q3',doc['reports']['2025'])
+
+class VerifyStrict(unittest.TestCase):
+ def test_wrong_year_rejected(self):
+  import verify_isrg
+  body=b'<h1>Intuitive Surgical Announces Fourth Quarter 2024 Results</h1><p>Comparative full year 2025 outlook</p>'
+  ok,_=verify_isrg._matches(body,'2025','Q4');self.assertFalse(ok)
+  ok,_=verify_isrg._matches(body,'2024','Q4');self.assertFalse(ok)
+ def test_preliminary_rejected(self):
+  import verify_isrg
+  body=b'<h1>INTUITIVE ANNOUNCES PRELIMINARY FOURTH QUARTER AND FULL YEAR 2025 RESULTS (Nasdaq: ISRG)</h1><p>quarter ended December 31, 2025</p>'
+  ok,_=verify_isrg._matches(body,'2025','Q4');self.assertFalse(ok)
+ def test_final_shape_accepted(self):
+  import verify_isrg
+  body=b'<h1>INTUITIVE ANNOUNCES FOURTH QUARTER EARNINGS</h1><p>Intuitive (Nasdaq: ISRG) announced financial results for the quarter ended December 31, 2025</p>'
+  ok,reason=verify_isrg._matches(body,'2025','Q4');self.assertTrue(ok,reason)
+ def test_two_quarter_ended_years_rejected(self):
+  import verify_isrg
+  body=b'<h1>Intuitive Surgical Fourth Quarter Earnings</h1><p>quarter ended December 31, 2025</p><p>restated quarter ended December 31, 2024</p>'
+  ok,_=verify_isrg._matches(body,'2025','Q4');self.assertFalse(ok)
+  ok,_=verify_isrg._matches(body,'2024','Q4');self.assertFalse(ok)
+ def test_payload_truthy_empty_rejected(self):
+  import verify_isrg
+  with self.assertRaises(ValueError):verify_isrg._check_payload({'reports':{'2025':{}}})
+  with self.assertRaises(ValueError):verify_isrg._check_payload({'reports':{}})
+  with self.assertRaises(ValueError):verify_isrg._check_payload({'reports':[]})
+ def test_payload_shape_identity(self):
+  import verify_isrg
+  good='https://www.sec.gov/Archives/edgar/data/1035267/000103526726000001/isrg.htm'
+  with self.assertRaises(ValueError):verify_isrg._check_payload({'reports':{'25':{'FY':good}}})
+  with self.assertRaises(ValueError):verify_isrg._check_payload({'reports':{'2025':{'H1':good}}})
+  with self.assertRaises(ValueError):verify_isrg._check_payload({'reports':{'2025':{'FY':5}}})
+  with self.assertRaises(ValueError):verify_isrg._check_payload({'reports':{'2025':{'FY':'https://isrg.intuitive.com/node/22711/html'}}})
+  with self.assertRaises(ValueError):verify_isrg._check_payload({'reports':{'2025':{'FY':'https://www.sec.gov/Archives/edgar/data/320193/000032019326000001/a.htm'}}})
+  self.assertEqual(verify_isrg._check_payload({'reports':{'2025':{'FY':good}}}),[('2025','FY',good)])
 
 if __name__=='__main__':unittest.main(verbosity=2)

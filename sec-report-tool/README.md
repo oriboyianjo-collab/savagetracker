@@ -52,7 +52,7 @@ ISRG's fiscal year is the calendar year.
 
 - FY = Form 10-K for the year ended 31 December
 - Q1 / Q2 / Q3 = Form 10-Q for the quarters ended 31 March, 30 June, 30 September
-- Q4 = Exhibit 99.1 of the earnings Form 8-K (Item 2.02), not the annual report
+- Q4 = Exhibit 99.1 of the earnings Form 8-K (Item 2.02), not the annual report. ISRG files a preliminary Q4 release about a week before the full earnings release; the button links the full release and the preliminary one is noted as superseded.
 
 The app reads `report-links-pilot.json` and places each URL on the matching year and period button. A scheduled GitHub Actions workflow (`isrg-edgar-reports`) re-runs this for ISRG on weekdays and commits only when the published index changes.
 

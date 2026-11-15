@@ -5,7 +5,7 @@ from datetime import date
 from pathlib import Path
 
 from common import SYMBOL, AccessHeld
-from pipeline import Pipeline, RunLog
+from pipeline import Pipeline, PublishBlocked, RunLog
 from transport_locked import SEC_USER_AGENT, SecTransport
 
 def main():
@@ -29,17 +29,28 @@ def main():
     except AccessHeld as e:
         result = {'status': 'held', 'reason': str(e), 'live_connected': False, 'last_good_unchanged': True}
         logger.event(event='run_held', reason=str(e))
+    published = False
     if result.get('status') == 'live' and result.get('result'):
-        pipe.publish_app(a.app_output, result['result'])
-        mapping = here / 'logs' / 'isrg-mapping.md'
-        _write_mapping(mapping, result['result'])
-        logger.event(event='mapping_written', path=str(mapping))
+        try:
+            pipe.publish_app(a.app_output, result['result'])
+            published = True
+            mapping = here / 'logs' / 'isrg-mapping.md'
+            _write_mapping(mapping, result['result'])
+            logger.event(event='mapping_written', path=str(mapping))
+        except PublishBlocked as e:
+            # Leave the previously published index untouched and fail the run so the
+            # workflow does not commit a degraded index.
+            logger.event(event='publish_blocked', reason=str(e))
+            print('publish blocked: ' + str(e), file=sys.stderr)
+    if result.get('status') == 'live' and not published:
+        result = {'status': 'held', 'reason': 'publish blocked; previous index preserved',
+                  'live_connected': False, 'last_good_unchanged': True}
     buttons = ((result.get('result') or {}).get('buttons') or {}).get(SYMBOL, {})
     summary = {k: v for k, v in result.items() if k != 'result'}
     summary['links'] = sum(len(x) for x in buttons.values())
     print(json.dumps(summary, indent=2, default=str))
     logger.close()
-    sys.exit(0 if result.get('status') == 'live' else 2)
+    sys.exit(0 if result.get('status') == 'live' and published else 2)
 
 def _write_mapping(path, result):
     lines = [
