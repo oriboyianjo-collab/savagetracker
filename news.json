@@ -44901,5 +44901,45 @@
         "source_hash": "1fe74be656038e3ffacd40427dc5ee41b51a25d989d682a96df2a72177d0a541"
       }
     }
+  },
+  {
+    "מזהה": "n-1701",
+    "category": "micro",
+    "חברה": "Viatris (VTRS)",
+    "חברה_en": "Viatris (VTRS)",
+    "symbols": [
+      "VTRS"
+    ],
+    "sectors": [
+      "healthcare"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 18:27",
+    "הועלה": "2026-11-15 18:27",
+    "כותרת": "Viatris (VTRS): S&P שינתה את התחזית לחיובית ואשררה דירוג BB+; לא העלאת דירוג",
+    "כותרת_en": "Viatris (VTRS): S&P revises outlook to Positive and affirms BB+; not a rating upgrade",
+    "summary": "פעולת האשראי מ-13 בנובמבר מבוססת על שיפור בסיכויי הצמיחה והרווחיות. שינוי התחזית מותנה בהמשך הביצועים, לא הבטחה להעלאת דירוג.",
+    "summary_en": "The November 13 credit action reflects improving growth and profitability prospects. The outlook depends on future performance, not a promised upgrade.",
+    "טקסט": "בפעולת אשראי מ-13 בנובמבר 2026 שינתה S&P Global Ratings את תחזית הדירוג של Viatris מיציבה לחיובית ואשררה את דירוג האשראי של המנפיק ברמה BB+. זו אינה העלאת דירוג, והדירוג לא הוחזר לדרגת השקעה. שעת הפרסום המקורית לא אומתה.\n\nהסוכנות מייחסת את התחזית החיובית לבסיס פעילות יציב ולתמהיל גדל של מוצרים ממותגים וגנריקה מורכבת בעלי שולי רווח גבוהים יותר. היא רואה מסלול למינוף מתואם לפי שיטתה באזור אמצע טווח ה-3 פעמים, הנתמך בצמיחה ושיפור הדרגתי ברווחיות. אלה הערכות אשראי של S&P, לא תוצאות שכבר הושגו או תחזית חדשה מטעם החברה.\n\nלפי S&P, העלאת דירוג אפשרית אם החברה תשמור על מינוף באזור זה לצד צמיחה מתונה ורווחיות יציבה. התחזית עשויה לחזור ליציבה אם תקלות ייצור ועלויות ארגון מחדש יפגעו בתוצאות, או אם רכישות ורכישות עצמיות אגרסיביות יותר יותירו את המינוף מעל הרמה הצפויה. הסוכנות מציינת גם סיכונים מתקלות אספקה, מעלויות גבוהות ומהתפתחויות לא חיוביות בצנרת המוצרים.\n\nהחידוש הוא שינוי תחזית האשראי של S&P. אין כאן אישור חדש לתרופה, השלמת רכישת Pacira או שינוי ריבית שהוכרז על חוב החברה; תנאי המימון בפועל לא נקבעים מעצם שינוי התחזית.",
+    "טקסט_en": "In a November 13, 2026 credit action, S&P Global Ratings revised Viatris' outlook from Stable to Positive and affirmed its BB+ issuer credit rating. This is not a rating upgrade, and the rating has not returned to investment grade. The original publication time has not been verified.\n\nThe agency attributes the Positive outlook to a stable base business and a growing mix of higher-margin branded products and complex generics. It sees a path to S&P-adjusted leverage in the mid-3x area, supported by growth and gradually improving profitability. These are S&P credit assessments, not results already achieved or new company guidance.\n\nS&P says an upgrade is possible if the company sustains leverage in that area alongside modest growth and solid profitability. The outlook could return to Stable if manufacturing setbacks and restructuring costs weigh on results, or if more aggressive acquisitions and share repurchases keep leverage above the expected level. The agency also cites risks from supply disruptions, higher costs and adverse pipeline developments.\n\nThe development is S&P's change in the credit outlook. This does not establish a new drug approval, completion of the Pacira acquisition or a newly announced interest rate on company debt; the outlook change alone does not set actual financing terms.",
+    "קישור": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3660094",
+    "מקורות": [
+      {
+        "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3660094",
+        "label": "S&P Global Ratings: עדכון מחקר ופעולת תחזית האשראי",
+        "label_en": "S&P Global Ratings: research update and credit-outlook action"
+      },
+      {
+        "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3660095",
+        "label": "S&P Global Ratings: הודעת פעולת האשראי מ-13 בנובמבר",
+        "label_en": "S&P Global Ratings: November 13 credit-action release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "879da76641268ca6efe7ae301bb981a4a2e9b0eb15859796e926de9b667b18e3"
+      }
+    }
   }
 ]
