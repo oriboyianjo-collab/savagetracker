@@ -43916,5 +43916,74 @@
         "source_hash": "11f88b895a1c75bb6b7e989202312792d9527894d309dc5836b0e2875cee5b43"
       }
     }
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-11-14",
+    "כותרת": "Meta (META): רשות הפרטיות באיטליה הטילה קנס של 805 מיליון אירו על גישה לגלריית משתמשי Android ללא הסכמה ספציפית",
+    "כותרת_en": "Meta (META): Italy's privacy authority imposes EUR805 million fine over Android gallery access without specific consent",
+    "טקסט": "14.11.2026 | **שעת פרסום ההודעה הרשמית לא צוינה.**\n\nרשות הגנת הפרטיות באיטליה, Garante, הודיעה שהטילה על Meta Platforms Ireland קנס של 805 מיליון אירו. לפי ממצאי הרשות, תכונת Facebook המציעה למשתמשים תמונות וסרטונים מהגלריה לפרסום אפשרה גישה לתמונות, לסרטונים ולמטא-נתונים בטלפוני Android באיטליה בלי הסכמה ספציפית ובלי הסבר מספיק. הרשות ציינה כ-20 מיליון משתמשים מושפעים.\n\nבתוך 60 יום על Meta לבקש הסכמה נפרדת וספציפית לתכונה, להסביר את הגישה לגלריה ואת דרך הכיבוי ולהשאיר אותה כבויה כברירת מחדל, גם למי שכבר נתן הרשאה. עליה לדווח לרשות בתוך 30 יום על היוזמות שהחלו ובתוך 90 יום על הצעדים שננקטו. ההחלטה אינה מעידה שהקנס כבר שולם או שהשינויים כבר בוצעו.\n\nבתגובה שפורסמה ב-CNBC, Meta הודיעה שתערער, כינתה את הקנס לא מידתי וחלקה על החלטת הרשות. לדבריה, התכונה דורשת הרשאת מכשיר שהמשתמש יכול לשנות בהגדרות.\n\nההליך לא עסק בשימוש אפשרי בתוכן לאימון AI, ש-Meta מכחישה. הרשות שמרה לעצמה בדיקה נפרדת של תכונת עיבוד גלריה בענן שהושקה ב-2026.",
+    "טקסט_en": "November 14, 2026 | **The official release does not state a publication time.**\n\nItaly's data protection authority, Garante, announced an EUR805 million fine against Meta Platforms Ireland. According to its findings, Facebook's feature suggesting gallery photos and videos for posting allowed access to photos, videos and metadata on Italian Android users' phones without specific consent or adequate information. The authority cited about 20 million affected users.\n\nWithin 60 days, Meta must request separate, specific consent, explain gallery access and how to disable it, and keep the feature off by default, including for users who previously granted permission. It must report initiatives started within 30 days and measures taken within 90 days. The decision does not establish that the fine has been paid or the changes completed.\n\nIn its response published by CNBC, Meta said it would appeal, called the fine disproportionate and disputed the authority's decision. It said the feature requires device permission that users can change in settings.\n\nThe proceeding did not address possible use of content to train AI, which Meta denies. The authority reserved a separate assessment of a cloud gallery-processing feature launched in 2026.",
+    "קישור": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321080",
+    "מקורות": [
+      {
+        "label": "Garante: ההודעה הרשמית המלאה",
+        "label_en": "Garante: full official release",
+        "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321080"
+      },
+      {
+        "label": "CNBC: דיווח ותגובת Meta",
+        "label_en": "CNBC: report and Meta's response",
+        "url": "https://www.cnbc.com/2026/11/14/italy-fines-meta-887-million-over-android-users-data-access.html"
+      }
+    ],
+    "symbols": [
+      "META"
+    ],
+    "sectors": [
+      "communication-services"
+    ],
+    "tags_version": 1,
+    "חברה": "Meta Platforms",
+    "חברה_en": "Meta Platforms",
+    "מזהה": "n-1672",
+    "הועלה": "2026-11-15 11:40",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "cd9889de19ebc96be72ead0adb5b340194b8bcd5f7e7f6cfe444103cfe868b5c"
+      }
+    }
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-14 13:03",
+    "כותרת": "לא מאומת מול מקור ראשוני | לפי Reuters: טראמפ שוקל להימנע מתקיפות באיראן בהיעדר פרובוקציות חדשות; אין החלטה סופית",
+    "כותרת_en": "Not verified against a primary source | Reuters: Trump considers holding off on Iran strikes absent new provocations; no final decision",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\n14.11.2026, 13:03 בישראל | שעת פרסום עותק הכתבה ב-Al-Monitor; שעת הפרסום המקורית ב-Reuters לא אומתה.\n\nלפי שלושה אנשים המכירים את העניין שצוטטו ב-Reuters בעילום שם, טראמפ אמר ליועצים בימים האחרונים שהוא שוקל להימנע מתקיפות באיראן אם לא יהיו פרובוקציות חדשות מצד טהרן או החות'ים בתימן. לפי גורמים בהווה ובעבר שצוטטו בכתבה, הוא עדיין לא נראה כמי שהחליט כיצד לסיים את העימות.\n\nלפי הדיווח, מנהיגי סעודיה וטורקיה ביקשו ממנו שלא לחדש את התקיפות, אך הוא לא התחייב לכאן או לכאן. במקביל, מקורות המכירים את התכנון האמריקאי אמרו שהצבא מוכן להסלים אם יידרש. גורם בבית הלבן אמר בתגובה שרק טראמפ יודע מה יעשה ומתי.\n\nזהו דיווח מבוסס מקורות אנונימיים על שיקול מותנה, לא החלטה סופית, הפסקת אש או התחייבות לא לתקוף. הדברים אינם מבטלים את האפשרות לפעולה צבאית.",
+    "טקסט_en": "**Not verified against a primary source**\nNovember 14, 2026, 13:03 Israel time | Publication time of the Al-Monitor copy; the original Reuters publication time was not verified.\n\nThree people familiar with the matter, cited anonymously by Reuters, said Trump told advisers in recent days that he was considering holding off on Iran strikes if there were no new provocations from Tehran or Yemen's Houthis. Current and former officials cited in the article said he still did not appear to have decided how to end the conflict.\n\nAccording to the report, Saudi and Turkish leaders urged him not to resume attacks, but he made no commitment either way. Sources familiar with US planning said the military remained ready to escalate if needed. A White House official said in response that only Trump knows what he will do and when.\n\nThis is anonymously sourced reporting about a conditional consideration, not a final decision, ceasefire or commitment not to attack. It does not rule out military action.",
+    "קישור": "https://www.al-monitor.com/originals/2026/11/trump-tells-advisers-he-may-hold-iran-attacks-barring-new-provocations-sources",
+    "מקורות": [
+      {
+        "label": "Reuters: הכתבה המלאה בעותק Al-Monitor",
+        "label_en": "Reuters: full article via Al-Monitor",
+        "url": "https://www.al-monitor.com/originals/2026/11/trump-tells-advisers-he-may-hold-iran-attacks-barring-new-provocations-sources"
+      }
+    ],
+    "symbols": [],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "חברה": "ארה\"ב ואיראן",
+    "חברה_en": "United States and Iran",
+    "מזהה": "n-1673",
+    "הועלה": "2026-11-15 11:40",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "15ebae8033f52d6be154bceed29d4f1bc24f799927d10c6194989a3034b4c8ee"
+      }
+    }
   }
 ]
