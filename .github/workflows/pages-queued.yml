@@ -5,7 +5,8 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_run:
-    workflows: [issuer-holdings, fundamentals, isrg-edgar-reports, now-edgar-reports, universal-edgar-reports]
+    # Universal checkpoints explicitly dispatch this workflow once after commit.
+    workflows: [issuer-holdings, fundamentals, isrg-edgar-reports, now-edgar-reports]
     types: [completed]
     branches: [main]
 
