@@ -43427,5 +43427,35 @@
         "source_hash": "4944d79e19d7c5d6b0ed50823df74f690fe0bc4363d0e3dc95dcba2d660575af"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "Alphabet / Google (GOOGL, GOOG)",
+    "חברה_en": "Alphabet / Google (GOOGL, GOOG)",
+    "symbols": [
+      "GOOGL",
+      "GOOG"
+    ],
+    "תאריך": "2026-11-12",
+    "כותרת": "חוות דעת באיחוד האירופי: להחזיר את תיק קנס AdSense של גוגל לדיון נוסף, לא להשיב את הקנס אוטומטית",
+    "כותרת_en": "EU court adviser proposes returning Google's AdSense fine case for a new judgment, not automatic reinstatement",
+    "קישור": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260164en.pdf",
+    "טקסט": "12.11.2026 | הודעת בית הדין לצדק של האיחוד האירופי על חוות דעתה של היועצת המשפטית ז'וליאן קוקוט בתיק C-826/24 P. שעת הפרסום המקורית אינה מצוינת.\n\nקוקוט ממליצה לבטל את פסק הדין מ-2024 שביטל את החלטת הנציבות האירופית להטיל על גוגל קנס של כמעט 1.5 מיליארד אירו בפרשת AdSense, ולהחזיר את התיק לבית המשפט הכללי לפסק דין חדש. זו חוות דעת שאינה מחייבת את השופטים, לא פסק דין חדש ולא הודעה שהקנס הוחזר לתוקף.\n\nלפי חוות הדעת כפי שסוכמה בהודעת בית הדין, בית המשפט הכללי הציב דרישות מחמירות מדי לבדיקת משך חוזי הפרסום של גוגל. קוקוט סבורה שניתן להעריך במצטבר את החוזים המשמעותיים לתחרות, לצד יתר הנסיבות, ואין לדרוש בחינה מפורטת של כל חוזה בנפרד כדי לבסס השפעה מדירה.\n\nגם לפי ההמלצה, עדיין יהיה צורך לדון בטענות של גוגל שטרם הוכרעו, ובהן גובה הקנס. הודעת בית הדין אומרת שהקנס צריך לרדת בכל מקרה, משום שהממצאים שלפיהם לא הוכחה השפעה מדירה ב-2016 לא הותקפו בערעור. לא נקבע סכום קנס חדש או שיעור הפחתה.\n\nהשופטים מתחילים כעת את הדיון, ופסק הדין יינתן במועד מאוחר יותר שלא צוין. הפרשה נוגעת לתנאים היסטוריים בחוזי AdSense for Search; גוגל הפסיקה להחיל את התנאים הנדונים או שינתה אותם ב-2016. אין בהודעה הוראה חדשה לשנות חוזים נוכחיים או תשלום חדש שכבר בוצע.",
+    "טקסט_en": "November 12, 2026 | The Court of Justice of the European Union's release on Advocate General Juliane Kokott's opinion in Case C-826/24 P. The original publication hour is not stated.\n\nKokott proposes setting aside the 2024 judgment that annulled the European Commission's decision imposing an AdSense fine of almost EUR1.5 billion on Google, and returning the case to the General Court for a new judgment. Her opinion is not binding on the judges. It is not a new judgment or confirmation that the fine has been reinstated.\n\nAs summarized in the Court's release, Kokott considers that the General Court imposed excessive requirements for examining the duration of Google's advertising contracts. She says the contracts significant to competition may be assessed cumulatively alongside the other circumstances, without requiring a detailed examination of every individual contract to establish exclusionary effects.\n\nEven under her recommendation, Google's arguments that have not yet been decided, including its challenge to the fine's amount, would still need to be addressed. The Court's release says the fine should be reduced in any event because the findings that exclusionary effects were not demonstrated in 2016 were not challenged on appeal. No new fine amount or reduction percentage is specified.\n\nThe judges are now beginning their deliberations and judgment will follow at an unspecified later date. The case concerns historical AdSense for Search contract terms; Google stopped applying or amended the disputed clauses in 2016. The release imposes no new change to current contracts and confirms no payment already made.",
+    "מקורות": [
+      {
+        "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260164en.pdf",
+        "label": "בית הדין לצדק של האיחוד האירופי: הודעה 164/26 מ-12 בנובמבר",
+        "label_en": "Court of Justice of the EU: November 12 press release 164/26"
+      }
+    ],
+    "מזהה": "n-1658",
+    "הועלה": "2026-11-15 10:39",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "63759ed4344ea7ba4ee8bab4b403021d03b1364c8ec1e4a3aa6a2d88cdc62067"
+      }
+    }
   }
 ]
