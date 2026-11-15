@@ -43985,5 +43985,43 @@
         "source_hash": "15ebae8033f52d6be154bceed29d4f1bc24f799927d10c6194989a3034b4c8ee"
       }
     }
+  },
+  {
+    "category": "micro",
+    "tags_version": 1,
+    "חברה": "NVIDIA ו-Megaspeed",
+    "חברה_en": "NVIDIA and Megaspeed",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "תאריך": "2026-11-15 10:20",
+    "כותרת": "לא מאומת מול מקור ראשוני | NVIDIA (NVDA) | Megaspeed: אליס הואנג עזבה ב-30 באוגוסט 2025 ואין לה תפקיד כיום; החברה חולקת על הטענות בדיווחים",
+    "כותרת_en": "Not verified against a primary source | NVIDIA (NVDA) | Megaspeed says Alice Huang left on August 30, 2025 and has no current role; disputes media assertions",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\n15.11.2026, 10:20 בישראל | שעת פרסום הכתבה ב-CNBC, לא מועד עזיבתה של הואנג.\n\nבהודעה שנמסרה ל-CNBC ושדווחה גם ב-Reuters, Megaspeed מסרה שאליס הואנג עזבה את החברה ב-30 באוגוסט 2025 ואין לה כיום תפקיד בה. החברה סירבה להגיב על ענייניה האישיים. מדובר באישור שפורסם היום על עזיבה בשנה שעברה, לא בעזיבה חדשה.\n\nחברת מחשוב הענן הסינגפורית טענה שהקביעות בדיווחים האחרונים על עסקיה, שרשרת האספקה ופעילותה העולמית אינן נתמכות בראיות שניתן לאמת. לדבריה, היא מקיימת בקרות שנועדו לעמוד בדיני הפיקוח על היצוא בארה\"ב ובדינים המקומיים. זו עמדת החברה, לא ממצא של רשות חקירה או אישור שלא הייתה הפרה.",
+    "טקסט_en": "**Not verified against a primary source**\nNovember 15, 2026, 10:20 Israel time | CNBC article publication time, not the date Huang left.\n\nIn a statement provided to CNBC and also reported by Reuters, Megaspeed said Alice Huang left the company on August 30, 2025 and has no current role. It declined to comment on her personal matters. This is confirmation published today of a departure last year, not a new departure.\n\nThe Singapore-based cloud computing company said assertions in recent reporting about its business, supply chain and global operations were not supported by verifiable evidence. It said its controls were designed to comply with US export requirements and local laws. These are company statements, not findings by investigators or confirmation that no violation occurred.",
+    "קישור": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+        "label": "CNBC: דיווח על הודעת החברה, 15 בנובמבר 03:20 EST",
+        "label_en": "CNBC: report on the company statement, November 15 at 03:20 EST"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/megaspeed-says-alice-huang-left-company-in-august-2025-5027761",
+        "label": "Reuters דרך Investing: הודעת Megaspeed על העזיבה והתגובה לדיווחים",
+        "label_en": "Reuters via Investing: Megaspeed statement on departure and response to reporting"
+      }
+    ],
+    "מזהה": "n-1674",
+    "הועלה": "2026-11-15 11:54",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9a563fcbc94c1f20c83b38f09728b4e633a49ce5c0180230915655f6a29d0dfc"
+      }
+    }
   }
 ]
