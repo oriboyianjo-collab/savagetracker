@@ -44119,5 +44119,66 @@
         "source_hash": "c04730fc75e6294a2ad01900d9cb9bd5962b4387172977d009389cad4fe630b5"
       }
     }
+  },
+  {
+    "category": "macro",
+    "tags_version": 1,
+    "symbols": [],
+    "sectors": [
+      "financials"
+    ],
+    "תאריך": "2026-11-12",
+    "כותרת": "לא מאומת מול מקור ראשוני | Reuters: Kalshi מנהלת שיחות לגיוס לפי שווי של 65 מיליארד דולר, לצורך פלטפורמת חוזים על כוח מחשוב",
+    "כותרת_en": "Not verified against a primary source | Reuters: Kalshi in funding talks at a $65 billion valuation for a compute-futures platform",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\n12.11.2026 | דיווח Reuters דרך Investing. אזור הזמן של שעות הפרסום המוצגות באתר אינו מצוין, ולכן לא נקבעה שעת פרסום בישראל.\n\nלפי מקור המעורה בנושא ששוחח עם Reuters, Kalshi מנהלת שיחות לגיוס מימון לפי שווי של 65 מיליארד דולר כדי לבנות פלטפורמה למסחר בחוזים עתידיים על כוח מחשוב. החברה לא הייתה זמינה לתגובה מיידית.\n\nמדובר בשיחות, לא בגיוס שנסגר או בשווי שאושר בעסקה שהושלמה. חוזים כאלה נועדו לאפשר גידור או מסחר על המחיר העתידי של משאבי מחשוב, כגון קיבולת ענן ו-GPU. הדיווח אינו אישור רגולטורי להשקת המוצר ואינו מאשר שכבר החל מסחר.",
+    "טקסט_en": "**Not verified against a primary source**\nNovember 12, 2026 | Reuters via Investing. The timezone of the carrier's displayed publication times is not stated, so no Israel publication hour is assigned.\n\nKalshi is in talks to raise funds at a $65 billion valuation to build a compute-futures trading platform, a source familiar with the matter told Reuters. The company could not immediately be reached for comment.\n\nThese are talks, not a completed financing or a valuation established by a closed transaction. Such contracts are intended to allow hedging or trading on future prices of computing resources, including cloud and GPU capacity. The report is not regulatory approval for a product launch or confirmation that trading has begun.",
+    "קישור": "https://www.investing.com/news/stock-market-news/kalshi-in-talks-to-raise-money-at-65-billion-valuation-bloomberg-news-reports-5023255",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/stock-market-news/kalshi-in-talks-to-raise-money-at-65-billion-valuation-bloomberg-news-reports-5023255",
+        "label": "Reuters דרך Investing: דיווח מלא על שיחות הגיוס",
+        "label_en": "Reuters via Investing: full funding-talks report"
+      }
+    ],
+    "מזהה": "n-1678",
+    "הועלה": "2026-11-15 12:13",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7b5a14c8449220870dae54c02aff03d47afad814513627b6c53c0e703018b358"
+      }
+    }
+  },
+  {
+    "category": "macro",
+    "tags_version": 1,
+    "symbols": [],
+    "sectors": [],
+    "תאריך": "2026-11-14",
+    "כותרת": "לא מאומת מול מקור ראשוני | קולינס מעדיפה העלאות ריבית מתונות והדרגתיות; אינה מתחייבת לקצב קבוע",
+    "כותרת_en": "Not verified against a primary source | Collins favors modest, gradual rate hikes without committing to a fixed pace",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\n14.11.2026 | דברי סוזן קולינס לכתבים בכנס הדיור של הפד בבוסטון, לפי Reuters. תמליל מקורי של השיחה לא נבדק; אזור הזמן של שעות הפרסום באתר הנושא את הדיווח אינו מצוין.\n\nנשיאת הפד בבוסטון אמרה שהיא תומכת לעת עתה במסלול יציב והדרגתי של העלאות ריבית, משום שהוא מתמודד טוב יותר עם אי-הוודאות הכלכלית. לדבריה, האינפלציה גבוהה ומתרחבת, אך גם שוק העבודה יציב ועשוי להתחזק; עלייה בריביות לטווחים ארוכים עלולה לרסן ביקוש יותר מכפי שהיא מעריכה.\n\nקולינס אמרה שהנתונים האחרונים עשויים להצדיק מסלול ריבית גבוה יותר בשנה הקרובה מכפי שצפתה לפני כמה חודשים. עם זאת, העדפה להדרגתיות אינה התחייבות לתדירות מסוימת ואינה תמיכה אוטומטית בהאצת ההעלאות. אלה עמדותיה של קובעת מדיניות אחת, לא החלטת ריבית חדשה של הפד או התחייבות למועד ולהיקף של העלאה.",
+    "טקסט_en": "**Not verified against a primary source**\nNovember 14, 2026 | Susan Collins' remarks to reporters at the Boston Fed housing conference, according to Reuters. An original transcript of the exchange was not checked; the carrier does not state the timezone of its displayed publication times.\n\nThe Boston Fed president said she favored a steady, gradual path of modest rate increases for now because it better managed economic uncertainty. She said inflation remained high and was broadening, while the labor market was stable and could strengthen. Higher longer-term rates could restrain demand more than she expected.\n\nCollins said recent data could justify a higher rate path over the coming year than she had expected a few months earlier. However, a preference for gradual action does not commit her to a particular cadence or automatically support accelerating hikes. These are one policymaker's views, not a new Fed rate decision or a commitment to a hike date or size.",
+    "קישור": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385",
+        "label": "Reuters דרך Investing: דברי קולינס לכתבים ב-14 בנובמבר",
+        "label_en": "Reuters via Investing: Collins' November 14 remarks to reporters"
+      },
+      {
+        "url": "https://www.brecorder.com/news/40448923",
+        "label": "Reuters דרך Business Recorder: דיווח נוסף על אותה שיחה",
+        "label_en": "Reuters via Business Recorder: another version of the same exchange"
+      }
+    ],
+    "מזהה": "n-1679",
+    "הועלה": "2026-11-15 12:13",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4a3bf0bb9504241fa7f091b82a1a898ba53ef4459ea60793dbf453a17b721120"
+      }
+    }
   }
 ]
