@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Authorized ISRG live runner. Import pipeline as a module; do not execute it as __main__."""
-import argparse, json, sys
+import argparse, json, os, sys
 from datetime import date
 from pathlib import Path
 
@@ -20,8 +20,9 @@ def main():
     p.add_argument('--clear-stale-hold', action='store_true')
     a = p.parse_args()
     logger = RunLog(a.log)
-    transport = SecTransport(a.cache, identity=SEC_USER_AGENT, network=True, logger=logger)
-    logger.event(event='live_transport_ready', user_agent=SEC_USER_AGENT, cache=a.cache)
+    identity = os.environ.get('SEC_UA') or SEC_USER_AGENT
+    transport = SecTransport(a.cache, identity=identity, network=True, logger=logger)
+    logger.event(event='live_transport_ready', user_agent=identity, cache=a.cache)
     pipe = Pipeline(a.output, a.as_of, transport, logger=logger, live=True)
     try:
         result = pipe.run(clear_stale_hold=a.clear_stale_hold)

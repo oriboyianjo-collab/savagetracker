@@ -21,6 +21,9 @@ This client:
 
 A detailed JSONL log of each request, status, mapping decision, and error is written under `logs/`. Logs contain no secrets.
 
+Live HTTP uses the same official Node `fetch` pattern as the existing `fundamentals` job (`sec_fetch.cjs`): declared User-Agent, official hosts only, no retries inside the helper, and no proxies or disguised clients.
+
+
 ## Local use
 
 Requires Python 3 and its standard library. From this directory:

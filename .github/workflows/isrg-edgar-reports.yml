@@ -27,6 +27,8 @@ jobs:
         working-directory: sec-report-tool
         env:
           PYTHONPATH: .
+          # Same optional contact as fundamentals.yml. If unset, the declared default User-Agent is used.
+          SEC_UA: ${{ vars.SEC_UA }}
         run: |
           set -euo pipefail
           stamp=$(date -u +%Y%m%dT%H%M%SZ)

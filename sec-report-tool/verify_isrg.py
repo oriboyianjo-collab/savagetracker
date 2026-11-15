@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Verify each published ISRG button URL on official SEC hosts, fairly and politely."""
-import json, sys
+import json, os, sys
 from pathlib import Path
 
 from common import AccessHeld, body_excerpt, sec_url
@@ -19,7 +19,7 @@ def main():
     log_path = here / 'logs' / 'isrg-verification.jsonl'
     logger = RunLog(log_path)
     cache = Path('/tmp/isrg-edgar-cache')
-    transport = SecTransport(cache, identity=SEC_USER_AGENT, network=True, logger=logger)
+    transport = SecTransport(cache, identity=os.environ.get("SEC_UA") or SEC_USER_AGENT, network=True, logger=logger)
     rows = []
     errors = 0
     try:

@@ -14,7 +14,7 @@ and the SEC.gov Internet Security Policy):
 
 No account credentials are used or stored. Contact identity is the public User-Agent string only.
 """
-import gzip, json, time, urllib.request, urllib.error
+import gzip, json, os, time, subprocess, urllib.request, urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 from common import AccessHeld, sec_url, atomic, digest, body_excerpt
@@ -36,12 +36,13 @@ class SecTransport:
     def __init__(self, cache, identity=SEC_USER_AGENT, opener=None, clock=None, sleeper=None, logger=None, network=False):
         self.cache = Path(cache)
         self.cache.mkdir(parents=True, exist_ok=True)
-        self._open = opener or urllib.request.urlopen
         self.clock = clock or time.monotonic
         self.sleep = sleeper or time.sleep
         self.logger = logger
         self.network = bool(network)
         self.identity = validate_identity(identity, require_product=self.network)
+        self._node = Path(__file__).with_name('sec_fetch.cjs')
+        self._open = opener or (self._node_open if self.network else urllib.request.urlopen)
         self.last = None
         self.stopped = False
         self.stop_reason = None
@@ -70,7 +71,20 @@ class SecTransport:
         finally:
             self.identity = prior
 
+    def _node_open(self, req, timeout=30):
+        """Live GET via the same official Node fetch pattern already used by fundamentals.yml."""
+        url = req.full_url if hasattr(req, 'full_url') else req
+        env = os.environ.copy()
+        env['SEC_UA'] = self.identity
+        proc = subprocess.run(['node', str(self._node), url], capture_output=True, timeout=timeout + 5, env=env)
+        if proc.returncode not in {0} or not proc.stdout:
+            err = (proc.stderr or proc.stdout or b'').decode('utf-8', 'replace')
+            raise urllib.error.URLError('official SEC fetch helper failed: ' + err.strip())
+        payload = json.loads(proc.stdout.decode('utf-8'))
+        return _NodeResponse(payload)
+
     def _request(self, url, allow_retry=True):
+
         sec_url(url)
         key = digest(url.encode())
         cached = self.cache / (key + '.json')
@@ -98,8 +112,11 @@ class SecTransport:
                     encoding = headers.get('content-encoding', '')
                     body = _decode(raw, encoding)
             except urllib.error.HTTPError as e:
-                raw = e.read(4096) if e.fp else b''
-                body = raw
+                raw = e.read(MAX_BODY + 1) if e.fp else b''
+                try:
+                    body = _decode(raw, getattr(e, 'headers', {}) and dict(e.headers).get('Content-Encoding') or '')
+                except Exception:
+                    body = raw
                 elapsed = max(0.0, self.clock() - started)
                 self._log(event='http_error', url=url, status=e.code, attempt=attempts, elapsed_sec=round(elapsed, 3), body_prefix_hash=digest(raw), body_excerpt=body_excerpt(raw), compliance='fair-access: declared UA, official host, no workaround')
                 if e.code in {403, 429}:
@@ -165,6 +182,41 @@ class SecTransport:
 
 # Backward-compatible name used by existing tests.
 LockedSecTransport = SecTransport
+
+
+class _NodeResponse:
+    def __init__(self, payload):
+        self.status = int(payload['status'])
+        self._final = payload.get('final_url') or ''
+        self.headers = {str(k).lower(): str(v) for k, v in (payload.get('headers') or {}).items()}
+        # Node's fetch already decompresses; do not gunzip again.
+        self.headers.pop('content-encoding', None)
+        self._body = bytes.fromhex(payload.get('hex') or '')
+        if self.status >= 400:
+            raise urllib.error.HTTPError(self._final, self.status, 'SEC HTTP %s' % self.status, self.headers, _BytesFP(self._body))
+    def geturl(self):
+        return self._final
+    def read(self, n=-1):
+        if n is None or n < 0:
+            return self._body
+        return self._body[:n]
+    def __enter__(self):
+        return self
+    def __exit__(self, *a):
+        return False
+
+class _BytesFP:
+    def __init__(self, data):
+        self._data = data
+        self.closed = False
+    def read(self, n=-1):
+        if n is None or n < 0:
+            out, self._data = self._data, b''
+            return out
+        out, self._data = self._data[:n], self._data[n:]
+        return out
+    def close(self):
+        self.closed = True
 
 def _decode(raw, encoding):
     enc = (encoding or '').lower()
