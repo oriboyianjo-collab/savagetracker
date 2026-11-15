@@ -44796,5 +44796,40 @@
         "source_hash": "5c872ee3d3941831a137690f446f4d70cf58e7a2e73d3c7650935e804540c6eb"
       }
     }
+  },
+  {
+    "מזהה": "n-1698",
+    "category": "micro",
+    "חברה": "Aflac (AFL)",
+    "חברה_en": "Aflac (AFL)",
+    "symbols": [
+      "AFL"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 18:19",
+    "הועלה": "2026-11-15 18:19",
+    "כותרת": "Aflac (AFL): הדיבידנד לרבעון הראשון של 2027 עולה ב-4.9% ל-0.64 דולר למניה",
+    "כותרת_en": "Aflac (AFL): Q1 2027 dividend rises 4.9% to $0.64 per share",
+    "summary": "הכרזה מ-12 בנובמבר, לא מהיום: תשלום ב-1 במרץ 2027 לבעלי מניות הרשומים בתום 17 בפברואר.",
+    "summary_en": "A November 12 declaration, not a new announcement today: payment March 1, 2027 to shareholders of record at the February 17 close.",
+    "טקסט": "לפי הודעת Aflac המקורית מ-12.11.2026, דירקטוריון החברה הכריז על דיבידנד לרבעון הראשון של 2027 בסך 0.64 דולר למניה. לפי החברה, זו עלייה של 4.9% לעומת הדיבידנד שהוכרז קודם לכן לרבעון הרביעי של 2026.\n\nהתשלום נקבע ל-1 במרץ 2027, לבעלי מניות הרשומים בתום יום העסקים ב-17 בפברואר 2027. מדובר בדיבידנד רבעוני שהוכרז, לא בסכום שנתי, בתשלום שכבר בוצע או בהבטחה לעלייה במחיר המניה.\n\nהחברה מסרה כי זו השנה ה-44 ברציפות של העלאות דיבידנד. המנכ\"ל דניאל עמוס הדגיש שמירה על הון ונזילות ועל התחייבויות למבוטחים לצד החזרת הון לבעלי המניות. אין כאן תחזית רווח חדשה או הכרזה שהתקבלה היום. שעת הפרסום המקורית המדויקת בישראל אינה ידועה.",
+    "טקסט_en": "in its original November 12, 2026 release, Aflac announced that its board declared a first-quarter 2027 dividend of $0.64 per share. The company said this was a 4.9% increase over its previously declared fourth-quarter 2026 dividend.\n\nPayment is scheduled for March 1, 2027 to shareholders of record at the close of business on February 17, 2027. This is a declared quarterly dividend, not an annual amount, a payment already made or a promise of a higher share price.\n\nThe company said this marked 44 consecutive years of dividend increases. CEO Daniel Amos stressed capital, liquidity and policyholder obligations alongside capital returns to shareholders. This is not a new earnings forecast or an announcement made today. The exact original publication time in Israel is unknown.",
+    "קישור": "https://investors.aflac.com/press-releases/press-release-details/2026/Aflac-Incorporated-Announces-4-9-Increase-in-the-First-Quarter-2027-Dividend/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.aflac.com/press-releases/press-release-details/2026/Aflac-Incorporated-Announces-4-9-Increase-in-the-First-Quarter-2027-Dividend/default.aspx",
+        "label": "Aflac: הודעת הדיבידנד המקורית מ-12 בנובמבר 2026",
+        "label_en": "Aflac: original dividend release, November 12, 2026"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e699579f7e49c097075f3e042e22ee3a516ac6a33453a9831290033d15b85d66"
+      }
+    }
   }
 ]
