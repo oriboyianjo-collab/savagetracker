@@ -6613,6 +6613,57 @@ const REPORT_PDFS = {"ING":{"2021":{"Q4":"https://ing.com/binaries/content/asset
   } catch(_error) { /* Invalid index never replaces other companies' links. */ }
 })();
 /* End ISRG retained-data pilot. */
+/* NOW automation: apply the generated, validated index to the existing report controls. */
+(async function loadNowReportIndex(){
+  try {
+    const response=await fetch('report-links-now.json',{cache:'no-cache'});
+    if(!response.ok)return;
+    const data=await response.json();
+    const exactKeys=(v,keys)=>v&&typeof v==='object'&&!Array.isArray(v)&&Object.keys(v).sort().join('|')===keys.slice().sort().join('|');
+    const keys=['schema_version','symbol','cik','source_status','live_connected','as_of','reports','ledger_summary'];
+    if(!exactKeys(data,keys)||data.schema_version!==1||data.symbol!=='NOW'||data.cik!=='0001373715'||data.source_status!=='edgar_live'||data.live_connected!==true||typeof data.as_of!=='string'||!/^20\d{2}-\d{2}-\d{2}$/.test(data.as_of)||!data.reports||typeof data.reports!=='object'||Array.isArray(data.reports)||!Array.isArray(data.ledger_summary))return;
+    const reports={},seen=new Set(),slots={};
+    const urlRe=/^https:\/\/www\.sec\.gov\/Archives\/edgar\/data\/1373715\/0001373715\d{8}\/[A-Za-z0-9_.-]+\.html?$/;
+    for(const year of Object.keys(data.reports)){
+      const source=data.reports[year];
+      if(!/^20\d{2}$/.test(year)||Number(year)<2020||Number(year)>Number(data.as_of.slice(0,4))||!source||typeof source!=='object'||Array.isArray(source)||!Object.keys(source).length)return;
+      const row={};
+      for(const period of Object.keys(source)){
+        if(!/^(FY|Q[1-4])$/.test(period))return;
+        const end={FY:'12-31',Q1:'03-31',Q2:'06-30',Q3:'09-30',Q4:'12-31'}[period];
+        if(year+'-'+end>=data.as_of)return;
+        const url=source[period];
+        if(typeof url!=='string'||!urlRe.test(url)||seen.has(url))return;
+        seen.add(url);row[period]=url;slots[year+'-'+period]=url;
+      }
+      reports[year]=row;
+    }
+    if(!seen.size||data.ledger_summary.length!==seen.size)return;
+    const proved=new Set();
+    for(const item of data.ledger_summary){
+      if(!exactKeys(item,['slot','url','body_sha256'])||typeof item.slot!=='string'||slots[item.slot]!==item.url||typeof item.body_sha256!=='string'||!/^[a-f0-9]{64}$/.test(item.body_sha256)||proved.has(item.slot))return;
+      proved.add(item.slot);
+    }
+    REPORT_PDFS.NOW=reports;
+    document.querySelectorAll('.report-pick[data-pdf-symbol="NOW"]').forEach(p=>{
+      const selected=p.querySelector('select')?.value;
+      const shell=document.createElement('div');shell.innerHTML=reportPdfControlsAny('NOW');
+      const fresh=shell.querySelector('.report-pick');
+      if(selected&&fresh){
+        const select=fresh.querySelector('select');
+        if(select&&[...select.options].some(o=>o.value===selected)){
+          select.value=selected;
+          fresh.querySelector('[data-pdf-year-text]').textContent=selected;
+          fresh.querySelectorAll('[data-pdf-year]').forEach(b=>{const on=b.dataset.pdfYear===selected;b.classList.toggle('on',on);b.setAttribute('aria-selected',String(on));b.querySelector('small').textContent=on?'✓':'';});
+          fresh.querySelector('[data-pdf-actions]').innerHTML=reportPdfActions(reports[selected]||{});
+        }
+      }
+      if(fresh)p.replaceWith(fresh);
+    });
+  } catch(_error) { /* Invalid data leaves current report links unchanged. */ }
+})();
+/* End NOW generated report index. */
+
 
 function reportPdfControls(sym){ const years=REPORT_PDFS[String(sym||'').toUpperCase()];if(!years)return '';const ys=Object.keys(years).filter(y=>Object.values(years[y]).some(Boolean)).sort((a,b)=>b-a);if(!ys.length)return '';const initial=ys.find(y=>years[y].FY)||ys[0];return `<div class="rpl-row"><div class="report-pick" data-pdf-symbol="${esc(sym)}">${reportYearControl(ys,initial)}<span data-pdf-actions>${reportPdfActions(years[initial])}</span></div></div>`; }
 function reportPdfActions(targets){const quarters=[1,2,3,4].filter(n=>targets['Q'+n]);return (targets.FY?'<button type="button" data-pdf-fy>FY</button>':'')+(quarters.length?`<span class="report-qwrap"><button type="button" data-pdf-q aria-expanded="false">Q ▾</button><span class="report-qmenu" hidden>${quarters.map(n=>`<button type="button" data-pdf-quarter="${n}">${n}</button>`).join('')}</span></span>`:'');}
