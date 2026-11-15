@@ -43341,5 +43341,27 @@
     },
     "מזהה": "n-1654",
     "הועלה": "2026-11-13 22:41"
+  },
+{
+  "category": "micro",
+  "חברה": "Rocket Lab (RKLB)",
+  "חברה_en": "Rocket Lab (RKLB)",
+  "symbols": [
+    "RKLB"
+  ],
+  "תאריך": "2026-11-14 09:02",
+  "כותרת": "Rocket Lab השלימה את שיגור Electron ה-100; לוויין iQPS הוצב במסלול",
+  "כותרת_en": "Rocket Lab completes its 100th Electron launch, deploying an iQPS satellite",
+  "קישור": "https://www.globenewswire.com/news-release/2026/11/14/3403041/0/en/rocket-lab-hits-100-electron-launches-fastest-commercial-rocket-to-reach-the-milestone.html",
+  "טקסט": "השלמת סיקור להודעת Rocket Lab מ-14.11.2026, 09:02 בישראל (02:02 ET). האירוע התרחש ב-14 בנובמבר; זו אינה הודעת שיגור חדשה מהיום.\n\nRocket Lab הודיעה שמשימת The Mountain God Rises השלימה בהצלחה את שיגור Electron ה-100 ממתחם השיגור שלה בניו זילנד. לוויין תצפית המכ״ם YAMATSUMI-II של iQPS הוצב במסלול נמוך בגובה 575 ק״מ.\n\nלפי החברה, Electron הגיע ל-100 שיגורים מהר יותר מכל משגר אחר שפותח באופן מסחרי. זו טענת החברה, לא השוואה שאומתה כאן באופן עצמאי. החברה מסרה שזהו שיגור Electron ה-11 עבור iQPS, עם הצלחה בכל משימות הלקוח מאז 2023. אין להסיק מכך שכל 100 שיגורי Electron הצליחו.\n\nזהו ציון דרך תפעולי וביצוע משימה, לא חוזה חדש או שיגור בכורה של Neutron. שבע משימות נוספות ל-iQPS עד 2030 מוזכרות כהזמנות קיימות; לא פורסם בהודעה שווי כספי חדש.",
+  "טקסט_en": "Catch-up coverage of Rocket Lab's November 14, 2026 release, published at 09:02 Israel time (02:02 ET). The event took place on November 14; this is not a new launch announcement today.\n\nRocket Lab announced mission success for its 100th Electron launch, The Mountain God Rises, from its New Zealand launch complex. The mission deployed iQPS's YAMATSUMI-II radar Earth-imaging satellite into a 575 km low Earth orbit.\n\nThe company says Electron reached 100 launches faster than any other commercially developed rocket. This is the company's claim, not an independently verified comparison here. It says this was its 11th Electron launch for iQPS, with every mission for that customer successful since 2023. This does not mean all 100 Electron launches succeeded.\n\nThis is an operational milestone and completed mission, not a new contract or Neutron's first launch. Seven further iQPS missions through 2030 are described as existing bookings; the release gives no new financial value.",
+  "מזהה": "n-1655",
+  "הועלה": "2026-11-15 10:17",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "df47fcc97d828a76dc6ac542f18a4ca719b0aebb59fd0e8076b15ae144cc29f6"
+    }
   }
+}
 ]
