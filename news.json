@@ -43590,5 +43590,104 @@
         "source_hash": "c56c2d84837e9826b3bce0431d9205f51d6853a3e0c1770be7a32f9c78f7cb84"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "Incyte (INCY)",
+    "חברה_en": "Incyte (INCY)",
+    "symbols": [
+      "INCY"
+    ],
+    "sectors": [
+      "healthcare"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "לא מאומת מול מקור ראשוני | Incyte לא תקדם את ניסוי MAESTRA-3 המתוכנן בסרטן השחלות; החברה מייחסת זאת לתעדוף הפיתוח",
+    "כותרת_en": "Not verified against a primary source | Incyte will not proceed with planned MAESTRA-3 ovarian cancer study, citing development priorities",
+    "טקסט": "לא מאומת מול מקור ראשוני: הפרטים נשענים על סיכום TradingView המפנה לדיווח 8-K של החברה מ-13 בנובמבר, ולא על הדיווח המקורי שנבדק ישירות.\n\n13.11.2026 | שעת הפרסום הראשונה לא אומתה.\n\nלפי הסיכום, Incyte החליטה שלא להתקדם עם ניסוי שלב 3 MAESTRA-3 שתוכנן לבחון INCB123667 בשילוב bevacizumab כטיפול אחזקה בקו ראשון בסרטן השחלות. תחילת הניסוי תוכננה לרבעון הרביעי של 2026.\n\nהחברה מייחסת את ההחלטה לתעדוף תיק הפיתוח הקליני, ולא לממצאי בטיחות או יעילות מתוכנית INCB123667. היא אינה צופה השפעה על התחזית הכספית או על התחזית ארוכת הטווח שפרסמה קודם לכן.\n\nזו החלטה לא להתחיל ניסוי מתוכנן, לא דיווח על כישלון ניסוי זה שכבר נערך או על ביטול כל תוכנית התרופה.",
+    "טקסט_en": "Not verified against a primary source: details rely on TradingView's summary referencing the company's November 13 Form 8-K, not a directly reviewed original filing.\n\nNovember 13, 2026 | The first publication hour was not verified.\n\nIncyte decided not to proceed with the planned Phase 3 MAESTRA-3 study of INCB123667 with bevacizumab as first-line maintenance therapy for ovarian cancer, according to the summary. The study had been expected to begin in the fourth quarter of 2026.\n\nThe company attributes the decision to clinical development portfolio prioritization, not safety or efficacy findings from the INCB123667 program. It does not expect an effect on financial guidance or its previously disclosed long-term outlook.\n\nThis is a decision not to begin a planned study, not a report that this study has failed after being conducted or that the entire drug program has been canceled.",
+    "קישור": "https://www.tradingview.com/news/tradingview:cfcf8fa6fc6e0:0-incyte-won-t-proceed-with-planned-phase-3-maestra-3-study/",
+    "מקורות": [
+      {
+        "label": "TradingView: סיכום דיווח החברה, 13 בנובמבר",
+        "label_en": "TradingView: company filing summary, November 13",
+        "url": "https://www.tradingview.com/news/tradingview:cfcf8fa6fc6e0:0-incyte-won-t-proceed-with-planned-phase-3-maestra-3-study/"
+      }
+    ],
+    "מזהה": "n-1663",
+    "הועלה": "2026-11-15 11:04",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4883945dc04f079d804b0949f8f56107b5341769f0b461f27992446ef5a35858"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "חברה": "Ares Management (ARES)",
+    "חברה_en": "Ares Management (ARES)",
+    "symbols": [
+      "ARES"
+    ],
+    "sectors": [
+      "financial-services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-13",
+    "כותרת": "לא מאומת מול מקור ראשוני | לפי דיווח המיוחס ל-Bloomberg, Ares גייסה 3.3 מיליארד אירו לרכב המשך של הלוואות אירופיות",
+    "כותרת_en": "Not verified against a primary source | Report attributed to Bloomberg: Ares raises EUR3.3 billion for European loan continuation vehicle",
+    "טקסט": "לא מאומת מול מקור ראשוני: דיווח Private Equity Insights מ-13 בנובמבר מייחס את פרטי העסקה למקורות אנונימיים שצוטטו ב-Bloomberg. Ares, Coller ו-Evercore סירבו להגיב ל-Bloomberg, לפי הכתבה.\n\n13.11.2026 | שעת הכתבה לא אומתה. לפי הדיווח, העסקה נסגרה בתחילת נובמבר.\n\nלפי הכתבה, Ares Management גייסה 3.3 מיליארד אירו לרכב המשך המחזיק תיק של 24 הלוואות מקרן Ares Capital Europe Fund IV. Coller EQT הובילה את ההשקעה ו-Evercore ייעצה לעסקה.\n\nרכב ההמשך מאפשר למשקיעים בקרן הוותיקה למכור את החזקתם, בעוד Ares ממשיכה לנהל את ההלוואות שנותרו. זה אינו גיוס של 3.3 מיליארד אירו למזומני התאגיד Ares או מכירה של החברה.\n\nהתוספת היא דיווח על עסקת נזילות בתיק האשראי האירופי, בנפרד ממסגרת האשראי של Ares ל-Moderna שכבר סוקרה. לא אומתו הודעת חברה, מחיר העסקה ביחס לשווי הנכסים או תנאי ההעברה המלאים.",
+    "טקסט_en": "Not verified against a primary source: Private Equity Insights' November 13 article attributes the deal details to anonymous people cited by Bloomberg. Ares, Coller and Evercore declined to comment to Bloomberg, according to the article.\n\nNovember 13, 2026 | The article's publication hour was not verified. The transaction reportedly closed in early November.\n\nAres Management raised EUR3.3 billion for a continuation vehicle holding 24 loans from Ares Capital Europe Fund IV, the article reports. Coller EQT led the investment and Evercore advised on the transaction.\n\nThe vehicle lets investors in the older fund cash out while Ares keeps managing the remaining loans. This is not EUR3.3 billion raised as Ares corporate cash or a sale of the company.\n\nThe increment is a reported liquidity transaction in the European credit portfolio, separate from Ares' previously covered credit facility for Moderna. A company announcement, transaction price relative to asset value and full transfer terms were not verified.",
+    "קישור": "https://peinsights.substack.com/p/coller-eqt-leads-ares-largest-credit",
+    "מקורות": [
+      {
+        "label": "Private Equity Insights: דיווח המיוחס למקורות Bloomberg",
+        "label_en": "Private Equity Insights: report attributed to Bloomberg sources",
+        "url": "https://peinsights.substack.com/p/coller-eqt-leads-ares-largest-credit"
+      }
+    ],
+    "מזהה": "n-1664",
+    "הועלה": "2026-11-15 11:04",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5b0923023b9ba221a33db44f7c0917a3eb1a2d9746b5f0620aad1b89b230d766"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "חברה": "IBM (IBM)",
+    "חברה_en": "IBM (IBM)",
+    "symbols": [
+      "IBM"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-10",
+    "כותרת": "לא מאומת מול מקור ראשוני | Reuters: IBM מסיימת מתן חסות לאשרות ולגרין קארד ברוב התפקידים בחטיבת הייעוץ",
+    "כותרת_en": "Not verified against a primary source | Reuters: IBM ends US visa and green card sponsorship for most Consulting roles",
+    "טקסט": "לא מאומת מול מקור ראשוני פומבי: Reuters מצטטת דובר של IBM. מסמך החברה שעליו נשענים פרטי העובדים המושפעים לא נבדק ישירות.\n\n10.11.2026 | כתבת Reuters מציגה שעות פרסום ועדכון ללא אזור זמן מאומת.\n\nIBM מסרה ל-Reuters כי היא מסיימת מתן חסות לאשרות עבודה אמריקאיות ולגרין קארד ברוב התפקידים בחטיבת IBM Consulting, המעסיקה יותר מ-150 אלף עובדים. הנתון מתאר את גודל החטיבה, לא את מספר העובדים שיושפעו מההחלטה.\n\nדובר החברה אמר כי ההשתתפות בתוכניות האשרות לעובדים מיומנים ירדה במשך שנים, וכי זמינות הכישורים וצורכי הלקוחות השתנו. ההחלטה מתייחסת לרוב תפקידי הייעוץ, לא לכל תפקידי IBM בעולם.\n\nלפי Bloomberg, שצוטטה ב-Reuters בהתבסס על מסמך חברה, העובדים שיושפעו יכולים לעבוד עם IBM מחוץ לארה״ב או לעזוב עד סוף השנה. זהו פרט המיוחס למסמך בדיווח, לא מדיניות שנבדקה ישירות ולא נתון מאומת על פיטורים שכבר בוצעו.",
+    "טקסט_en": "Not verified against a public primary source: Reuters quotes an IBM spokesperson. The company document underlying the affected-worker details was not inspected directly.\n\nNovember 10, 2026 | The Reuters article displays publication and update times without a verified timezone.\n\nIBM told Reuters it is ending US visa and green card sponsorship for most roles in IBM Consulting, which employs more than 150,000 people. That number describes the division's workforce, not the number affected by the decision.\n\nA company spokesperson said participation in high-skilled visa programs has been declining for years and that skill availability and client needs have evolved. The decision concerns most Consulting roles, not all IBM roles worldwide.\n\nAccording to Bloomberg, cited by Reuters and relying on a company document, affected workers can work with IBM outside the US or leave by year-end. That detail remains attributed to the reported document, not directly checked policy or a verified count of layoffs already carried out.",
+    "קישור": "https://www.investing.com/news/stock-market-news/ibm-to-end-visa-green-card-sponsorship-for-most-roles-in-its-consulting-arm-5016379",
+    "מקורות": [
+      {
+        "label": "Reuters דרך Investing.com: דברי דובר IBM וייחוס למסמך Bloomberg",
+        "label_en": "Reuters via Investing.com: IBM spokesperson and Bloomberg document attribution",
+        "url": "https://www.investing.com/news/stock-market-news/ibm-to-end-visa-green-card-sponsorship-for-most-roles-in-its-consulting-arm-5016379"
+      }
+    ],
+    "מזהה": "n-1665",
+    "הועלה": "2026-11-15 11:04",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "68a7e00ee6159ff0d0e4807a58cd49f73f9842a2cd753736aa551db325fe22cc"
+      }
+    }
   }
 ]
