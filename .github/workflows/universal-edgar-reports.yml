@@ -63,6 +63,7 @@ jobs:
           python3 -m unittest discover -s universal -p 'test_resume*.py' -v
           python3 -m unittest discover -s universal -p 'test_shards.py' -v
           python3 -m unittest universal.test_combined -v
+          python3 -m unittest universal.test_diagnostics -v
           node universal/test_consumer.cjs
           node universal/test_consumer_async.cjs
       - name: Automatically discover and qualify the next bounded batch
@@ -122,6 +123,12 @@ jobs:
           git commit -m 'Advance finite automatically qualified EDGAR report pass'
           git pull --rebase origin main
           git push origin HEAD:main
+      - name: Publish every saved checkpoint, including protective stops
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh workflow run pages-queued.yml --ref main
       - name: Continue only this unfinished approved pass
         if: steps.checkpoint.outputs.continue == 'true'
         env:
@@ -131,6 +138,12 @@ jobs:
         run: |
           set -euo pipefail
           gh workflow run universal-edgar-reports.yml --ref main -f pass_id="$PASS_ID" -f generation="$GENERATION"
+      - name: Prepare sanitized stop diagnostics without source requests
+        if: always()
+        run: |
+          python3 sec-report-tool/universal/diagnostics.py \
+            --state "$RUNNER_TEMP/universal-state" --log "$RUNNER_TEMP/universal-run.jsonl" \
+            --control report-pass-control.json --output "$RUNNER_TEMP/universal-diagnostics"
       - name: Save diagnostic evidence for review
         if: always()
         uses: actions/upload-artifact@v4
@@ -140,5 +153,6 @@ jobs:
             report-status-all.json
             report-pass-control.json
             ${{ runner.temp }}/controller.json
+            ${{ runner.temp }}/universal-diagnostics
           if-no-files-found: ignore
           retention-days: 7
