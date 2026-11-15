@@ -43490,5 +43490,38 @@
         "source_hash": "8785d740e40637a0129cdcf6d1fe7ee71bc8ac3c8ce45d1a187832b269290029"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "Blackstone / QTS (BX)",
+    "חברה_en": "Blackstone / QTS (BX)",
+    "symbols": [
+      "BX"
+    ],
+    "sectors": [
+      "financial-services"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-14",
+    "כותרת": "לא מאומת מול מקור ראשוני | Bloomberg: QTS של Blackstone מקטינה מימון מתוכנן מכ-800 לכ-300 מיליון דולר",
+    "כותרת_en": "Not verified against a primary source | Bloomberg: Blackstone-backed QTS cuts planned financing from about $800 million to $300 million",
+    "טקסט": "לא מאומת מול מקור ראשוני: פרטי המימון מבוססים על מקורות אנונימיים של Bloomberg; Blackstone סירבה להגיב.\n\n14.11.2026 | פרסום Bloomberg בהפצת The Business Times, בחותמת האתר 08:21; אזור הזמן אינו מצוין בגוף הכתבה. שעת המקור הראשונה ב-Bloomberg לא אומתה.\n\nלפי הדיווח, מפעילת מרכזי הנתונים QTS, שבשליטת Blackstone, מקטינה מימון מתוכנן מכ-800 מיליון דולר לכ-300 מיליון דולר. המקורות תיארו ביקוש מוגבל במחיר שהוצע: חלק מהמשקיעים התנגדו לתשואה וחלקם התקרבו למגבלות חשיפה ללווה שפנה לשוק מספר פעמים. לפי Bloomberg, Blackstone העדיפה סכום קטן יותר על פני העלאה ניכרת של עלות המימון.\n\nהחלוקה חשובה: רק רכיב של 100 מיליון דולר, בהשמה פרטית לשבע שנים, תומחר ביום שישי במרווח של 2.45 נקודות אחוז מעל מדדי הייחוס, לפי המקורות. רכיב נוסף של 200 מיליון דולר בהלוואה בנקאית לחמש שנים צפוי להיות מתומחר בשבועות הקרובים. אין כאן אישור שכל 300 מיליון הדולר כבר גויסו או התקבלו.\n\nהמימון המקורי נועד למחזר חוב בנקאי קיים לחמש שנים. לפי אחד המקורות, עם המהלך המצומצם החוב הבנקאי הזה יכול להישאר בתוקף. זהו שינוי בתוכנית מימון ובמחירה, לא הודעה על חדלות פירעון, ביטול מרכז נתונים או קיצוץ של 60% בכל השקעות QTS או Blackstone.\n\nהסוגיה נפרדת מההנפקות הירוקות של QTS באפריל ובאוגוסט ומההסכמות הלא מחייבות עם PPL על קיבולת עתידית. הדיווח אינו קובע שהקשיים במימון המסוים חלים על כל שוק התשתיות ל-AI.",
+    "טקסט_en": "Not verified against a primary source: financing details rely on Bloomberg's anonymous sources; Blackstone declined to comment.\n\nNovember 14, 2026 | Bloomberg via The Business Times, carrying an 08:21 site timestamp. The article body does not state the time zone. Bloomberg's first original publication time was not verified.\n\nQTS, the Blackstone-backed data-center operator, is cutting planned financing from about $800 million to roughly $300 million, Bloomberg reports. Sources described limited demand at the proposed price: some investors objected to the yield, while others faced exposure limits after QTS tapped the market several times. Blackstone preferred a smaller amount to a substantial increase in financing costs, according to the report.\n\nThe split matters. Only a $100 million seven-year private-placement component was priced Friday, at 2.45 percentage points over benchmarks, according to the sources. Another $200 million in a five-year bank loan is expected to be priced in coming weeks. This does not confirm that all $300 million has already been raised or received.\n\nThe original financing was intended to refinance existing five-year bank debt. One source said that debt can remain in place with the smaller transaction. This is a change in a financing plan and its pricing, not a default announcement, a canceled data center, or a 60% cut to all QTS or Blackstone investment.\n\nIt is separate from QTS's April and August green-bond transactions and the nonbinding PPL terms for future power capacity. The report does not establish that this particular transaction represents the entire AI infrastructure financing market.",
+    "קישור": "https://www.businesstimes.com.sg/property/blackstones-qts-cutting-ai-debt-sale-more-half",
+    "מקורות": [
+      {
+        "label": "Bloomberg בהפצת The Business Times, 14 בנובמבר 2026",
+        "label_en": "Bloomberg via The Business Times, November 14, 2026",
+        "url": "https://www.businesstimes.com.sg/property/blackstones-qts-cutting-ai-debt-sale-more-half"
+      }
+    ],
+    "מזהה": "n-1660",
+    "הועלה": "2026-11-15 10:47",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "21578b2086e278aed456ef1f2f9130737a6cea941632b3bb0b04e7f9a04c2f2b"
+      }
+    }
   }
 ]
