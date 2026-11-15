@@ -44023,5 +44023,77 @@
         "source_hash": "9a563fcbc94c1f20c83b38f09728b4e633a49ce5c0180230915655f6a29d0dfc"
       }
     }
+  },
+  {
+    "category": "micro",
+    "tags_version": 1,
+    "חברה": "Amazon",
+    "חברה_en": "Amazon",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [
+      "consumer"
+    ],
+    "תאריך": "2026-11-13",
+    "כותרת": "Amazon (AMZN): בורר קבע הסכם קיבוצי מחייב לכ-800 עובדים באתר YVR2 בקנדה; החברה מתנגדת ותמשיך בהליכים",
+    "כותרת_en": "Amazon (AMZN): arbitrator imposes binding union contract for about 800 workers at Canada's YVR2 site; company objects and continues challenges",
+    "טקסט": "13.11.2026 | הודעות Unifor ואמזון מציינות תאריך ללא שעת פרסום. כתבת Canadian Press ב-CBC פורסמה ב-14.11 בשעה 02:39 בישראל.\n\nאמזון ואיגוד Unifor אישרו שבורר עצמאי קבע הסכם קיבוצי מחייב לשלוש שנים במרכז ההפצה YVR2 בדלתא, קולומביה הבריטית. לפי האיגוד, מדובר בכ-800 עובדים ובהסכם הקיבוצי הראשון לעובדי אמזון בצפון אמריקה. ההסכם חל על האתר הזה בלבד, לא על כלל עובדי אמזון בקנדה או בארה\"ב.\n\nהאיגוד מציין שיפורי שכר והגנות לעובדים. אמזון מתנגדת להליך וטוענת שלעובדים לא ניתנה אפשרות להצביע על ההסכם. לדבריה, היא תמשיך לאתגר את החלטות מועצת יחסי העבודה, ובמקביל עובדים הגישו בקשה לביקורת שיפוטית. אלה עמדות הצדדים והליכים נמשכים, לא החלטה שביטלה את ההסכם.\n\nזהו הסכם שנקבע בבוררות, לא הסכם שאמזון והאיגוד הגיעו אליו מרצונם או אישור שהעובדים הצביעו בעדו.",
+    "טקסט_en": "November 13, 2026 | Unifor and Amazon releases give a date without a publication hour. The Canadian Press article on CBC was published November 14 at 02:39 Israel time.\n\nAmazon and Unifor confirmed that an independent arbitrator imposed a binding three-year collective agreement at the YVR2 fulfilment centre in Delta, British Columbia. The union says it covers about 800 workers and is the first collective agreement for Amazon workers in North America. It applies to this site only, not Amazon's entire Canadian or US workforce.\n\nThe union points to wage improvements and worker protections. Amazon objects to the process and says workers were not allowed to vote on the agreement. It says it will continue challenging Labour Relations Board decisions, while workers have separately sought judicial review. These are the parties' positions and continuing proceedings, not a ruling overturning the agreement.\n\nThe contract was imposed through arbitration, not voluntarily agreed between Amazon and the union or approved in a worker ratification vote.",
+    "קישור": "https://www.unifor.org/news/all-news/amazon-workers-delta-win-first-union-contract-north-america",
+    "מקורות": [
+      {
+        "url": "https://www.unifor.org/news/all-news/amazon-workers-delta-win-first-union-contract-north-america",
+        "label": "Unifor: הודעת האיגוד המקורית מ-13 בנובמבר",
+        "label_en": "Unifor: original November 13 union statement"
+      },
+      {
+        "url": "https://www.aboutamazon.ca/news/workplace/an-update-on-labour-proceedings-in-delta-bc-and-our-work-to-ensure-our-employees-are-heard",
+        "label": "Amazon Canada: תגובת החברה המקורית מ-13 בנובמבר",
+        "label_en": "Amazon Canada: original November 13 company response"
+      },
+      {
+        "url": "https://www.cbc.ca/news/canada/british-columbia/amazon-union-contract-b-c-first-north-america-9.7421834",
+        "label": "Canadian Press דרך CBC: כתבה ושעת פרסום",
+        "label_en": "Canadian Press via CBC: article and publication time"
+      }
+    ],
+    "מזהה": "n-1675",
+    "הועלה": "2026-11-15 11:57",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "085bb141283a594320ad6b8fb5a68459731e0dd24d1af6b15c666779779c502f"
+      }
+    }
+  },
+  {
+    "category": "macro",
+    "tags_version": 1,
+    "symbols": [],
+    "sectors": [
+      "energy"
+    ],
+    "תאריך": "2026-11-13 23:29",
+    "כותרת": "ארה\"ב האריכה ב-90 יום את מסגרת ההקלות בחוק ג'ונס; אישור הפלגות באוניות זרות נשאר פרטני",
+    "כותרת_en": "US extends Jones Act waiver framework by 90 days; foreign-vessel voyages still require individual approval",
+    "טקסט": "13.11.2026, 23:29 בישראל | הודעת המכס והגנת הגבולות בארה\"ב, CBP.\n\nCBP הודיע שמשרד ביטחון המולדת אישר הארכה שלישית, ל-90 יום נוספים, של ההקלה בחוק ג'ונס שניתנה במרץ. ההארכה מתחילה ב-16 בנובמבר בשעה 00:00 בחוף המזרחי, 07:00 בישראל. החוק מגביל בדרך כלל הובלת מטענים בין נמלים אמריקאיים לאוניות העומדות בדרישות אמריקאיות של בנייה, בעלות ואיוש.\n\nההקלה אינה היתר גורף לכל אונייה או מטען. לפני הפלגה יש להגיש בקשה, MARAD בודק זמינות של אוניות כשירות לסחר חופי, ומשרד המלחמה האמריקאי מחליט אם להתיר את ההובלה הפרטנית באונייה זרה. רשימת מוצרים ותנאי דיווח ממשיכים לחול.\n\nלפי ההודעה, מטען מכוסה חייב להיטען לאונייה עד 14 בפברואר 2027 בשעה 23:59 בחוף המזרחי. זהו מועד אחרון לטעינה, לא להגעה ליעד. ההארכה אינה ביטול קבוע של החוק ואינה מבטיחה ירידה במחירי הדלק.",
+    "טקסט_en": "November 13, 2026, 23:29 Israel time | US Customs and Border Protection notice.\n\nCBP said the Department of Homeland Security approved a third extension, for another 90 days, of the Jones Act waiver issued in March. The extension starts November 16 at 00:00 Eastern, or 07:00 Israel time. The law normally restricts cargo movements between US ports to vessels meeting US construction, ownership and crewing requirements.\n\nThe waiver is not blanket permission for every vessel or cargo. Before a voyage, a request must be submitted, MARAD surveys the availability of coastwise-qualified vessels, and the Department of War decides whether to authorize the individual foreign-vessel movement. Product eligibility and reporting requirements still apply.\n\nThe notice says covered cargo must be loaded aboard the vessel by February 14, 2027 at 23:59 Eastern. This is a loading deadline, not an arrival deadline. The extension is not a permanent repeal and does not guarantee lower fuel prices.",
+    "קישור": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/432c16c",
+    "מקורות": [
+      {
+        "url": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/432c16c",
+        "label": "CBP: הודעת CSMS 70435180 המקורית, 13 בנובמבר 16:29 EST",
+        "label_en": "CBP: original CSMS 70435180 notice, November 13 at 16:29 EST"
+      }
+    ],
+    "מזהה": "n-1676",
+    "הועלה": "2026-11-15 11:57",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "327bf26f9b76fca4fd95efed4cf48e06746fdcb25c639ae32af6390104b55842"
+      }
+    }
   }
 ]
