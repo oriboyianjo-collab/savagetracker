@@ -43523,5 +43523,72 @@
         "source_hash": "21578b2086e278aed456ef1f2f9130737a6cea941632b3bb0b04e7f9a04c2f2b"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "Tesla (TSLA)",
+    "חברה_en": "Tesla (TSLA)",
+    "symbols": [
+      "TSLA"
+    ],
+    "sectors": [
+      "consumer-cyclical"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-14 04:11",
+    "כותרת": "לא מאומת מול מקור ראשוני | Electrek: טסלה מזמינה לקוחות נבחרים להזמין Cybercab ב-29,990 דולר, בתוספת מנוי חובה של 299 דולר בחודש",
+    "כותרת_en": "Not verified against a primary source | Electrek: Tesla invites select customers to order Cybercab for $29,990 plus a mandatory $299 monthly subscription",
+    "טקסט": "לא מאומת מול מקור ראשוני: תנאי ההזמנה מיוחסים לכתבת Electrek ולצילומים שהיא מתארת, ולא לעמוד הזמנה של טסלה שנבדק ישירות.\n\n14.11.2026 | 04:11 שעון ישראל, המרה מחותמת Electrek ב-13 בנובמבר, 18:11 שעון החוף המערבי בארה״ב. זו שעת הכתבה שנבדקה, לא אישור לשעת הפרסום הראשונה של ההזמנה.\n\nלפי Electrek, טסלה החלה להזמין לקוחות נבחרים לרכוש Cybercab לשימוש אישי במחיר של 29,990 דולר לפני מסים. הכתבה מתארת מקדמה לא ניתנת להחזר של 1,000 דולר וצפי מסירה בדצמבר 2026 באוסטין. אלה תנאים מדווחים וצפי, לא אישור למסירות ללקוחות שכבר בוצעו.\n\nלפי הדיווח, מנוי Autonomy בסך 299 דולר לחודש נדרש להפעלת הרכב, כאשר חודש אחד כלול. ההפעלה מוגבלת לאזורי השירות הנתמכים של Robotaxi בטקסס ובפלורידה. אין כאן הבטחה שהרכב יוכל לנסוע בכל מקום או בכל כתובת בתוך גבול שמוצג במפה.\n\nעמוד Robotaxi הרשמי שנבדק מתאר צי של Model Y ו-Cybercab ושירות בשמונה ערים, אך אינו מאמת את מחיר הרכישה, המקדמה או המנוי האישי המתוארים בכתבה. אין להסיק מכך אישור רגולטורי חדש לרכב ללא הגה ודוושות.\n\nהתוספת לעדכונים הקודמים היא הזמנות אישיות מדווחות ותנאי מחיר ושימוש, ולא רק יעד למסירה עד סוף השנה, הרחבת שירות בסן אנטוניו או בקשת החיסיון במסמכי NHTSA. הפרטים מוגבלים ללקוחות שנבחרו, ולא לפתיחת מכירה חופשית לכל הציבור.",
+    "טקסט_en": "Not verified against a primary source: order terms are attributed to Electrek and the screenshots it describes, not a Tesla order page inspected directly.\n\nNovember 14, 2026 | 04:11 Israel time, converted from Electrek's November 13, 18:11 Pacific timestamp. This is the reviewed article's time, not a verified first-publication time for the invitation.\n\nTesla has begun inviting select customers to buy a Cybercab for personal use for $29,990 before taxes, Electrek reports. The article describes a $1,000 non-refundable deposit and estimated December 2026 delivery in Austin. Those are reported terms and an estimate, not confirmation that customer deliveries have happened.\n\nAccording to the report, a $299 monthly Autonomy Subscription is required to operate the vehicle, with one month included. Operation is limited to supported Robotaxi service areas in Texas and Florida. This is not a promise that the car can drive anywhere or to every address within an advertised map boundary.\n\nTesla's official Robotaxi page, read directly, describes Model Y and Cybercab vehicles and service in eight cities, but does not verify the purchase price, deposit or personal subscription described in the article. No new regulatory approval for a vehicle without a steering wheel or pedals is established here.\n\nThe addition to earlier coverage is reported personal-use invitations and their price and operating terms, rather than the earlier year-end delivery target, San Antonio service expansion or NHTSA confidentiality request. The report is limited to selected customers, not unrestricted public sales.",
+    "קישור": "https://electrek.co/2026/11/13/tesla-cybercab-personal-use-orders-299-subscription-geofence/",
+    "מקורות": [
+      {
+        "label": "Electrek: הכתבה המקורית, 13 בנובמבר בשעון החוף המערבי",
+        "label_en": "Electrek: original article, November 13 Pacific time",
+        "url": "https://electrek.co/2026/11/13/tesla-cybercab-personal-use-orders-299-subscription-geofence/"
+      },
+      {
+        "label": "Tesla: עמוד Robotaxi הרשמי, אינו מאמת תנאי הזמנה אישית",
+        "label_en": "Tesla: official Robotaxi page, does not verify personal order terms",
+        "url": "https://www.tesla.com/robotaxi"
+      }
+    ],
+    "מזהה": "n-1661",
+    "הועלה": "2026-11-15 10:54",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e036044cb0ac841f2b82659c89911e3014e5e0d0401940b9e0c43b3cda7f2ecc"
+      }
+    }
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-13",
+    "כותרת": "סנאטורים דורשים ממאסק ו-SpaceX לשמר מסמכים על מגבלות Starlink ו-Starshield באוקראינה; מועד התשובה 30 בנובמבר",
+    "כותרת_en": "Senators demand Musk and SpaceX preserve Ukraine Starlink and Starshield records; response due November 30",
+    "טקסט": "13.11.2026 | הודעה ומכתב רשמיים של הסנאטורית ג׳ין שאהין והסנאטור כריס קונס. שעת הפרסום המקורית לא אומתה.\n\nשני הסנאטורים דרשו מאלון מאסק ומ-SpaceX לשמר מסמכים, תכתובות ורשומות טכניות הנוגעים לגישה של אוקראינה ל-Starlink ול-Starshield. הם ביקשו אישור בכתב עד 30 בנובמבר שננקטו צעדי שימור, וכן תשובות לשאלות על מי אישר מגבלות שירות ועל בסיס איזו סמכות.\n\nהמכתב מבקש לשמר חומר החל מ-1 בספטמבר 2026, לרבות חוזים, יומני רשת, שינויי תצורה ותכתובות עם הבית הלבן והפנטגון. אלה דרישות פיקוח של הסנאטורים, לא פסק דין, קנס, ביטול חוזה או ממצא שהחברה הפרה חוק.\n\nהסנאטורים מפנים למגבלות שדווחו באוקטובר ולדיווח האוקראיני על הפרעות חוזרות ב-12 בנובמבר. טענות ההשפעה על הגנה אווירית ועל בטיחות נותרות מיוחסות למכתב ולדיווחים המצוטטים בו. המכתב אינו מכריע בין הגרסאות הסותרות בשאלה מי הורה על המגבלות.\n\nהתוספת לפריט הקודם על הפרעות Starshield היא דרישת שימור מסמכים ותשובות עם מועד מוגדר. אין זו הפרעה חדשה שאומתה באופן עצמאי, ואין אישור ש-SpaceX כבר השיבה או עמדה בדרישה.",
+    "טקסט_en": "November 13, 2026 | Official release and letter from Senators Jeanne Shaheen and Chris Coons. The original publication hour was not verified.\n\nThe senators demanded that Elon Musk and SpaceX preserve documents, communications and technical records concerning Ukraine's access to Starlink and Starshield. They requested written confirmation by November 30 that preservation measures have been implemented, together with answers about who approved service restrictions and under what authority.\n\nThe letter seeks preservation of material from September 1, 2026, including contracts, network logs, configuration changes and communications with the White House and Pentagon. These are congressional oversight demands, not a court ruling, fine, contract cancellation or finding that the company broke the law.\n\nThe senators cite restrictions reported in October and Ukrainian reports of renewed disruptions on November 12. Claims about air-defense effects and safety remain attributed to the letter and the reports it cites. The letter does not settle conflicting accounts of who ordered the restrictions.\n\nThe addition to the earlier Starshield disruption item is a records-preservation and information demand with a defined deadline. This is not a newly independently verified outage, and there is no confirmation here that SpaceX has already replied or complied.",
+    "קישור": "https://www.foreign.senate.gov/press/dem/release/ranking-member-shaheen-senator-coons-demand-elon-musk-preserve-documents-regarding-ukraines-access-to-starlink-and-starshield",
+    "מקורות": [
+      {
+        "label": "הודעה ומכתב רשמיים: שאהין וקונס, 13 בנובמבר",
+        "label_en": "Official release and letter: Shaheen and Coons, November 13",
+        "url": "https://www.foreign.senate.gov/press/dem/release/ranking-member-shaheen-senator-coons-demand-elon-musk-preserve-documents-regarding-ukraines-access-to-starlink-and-starshield"
+      },
+      {
+        "label": "Reuters דרך Investing.com: שעת האתר ללא אזור זמן מאומת",
+        "label_en": "Reuters via Investing.com: displayed time has no verified timezone",
+        "url": "https://www.investing.com/news/stock-market-news/democrats-senators-order-musk-to-preserve-spacex-records-over-ukraine-starlink-accesswsj-reports-5026793"
+      }
+    ],
+    "מזהה": "n-1662",
+    "הועלה": "2026-11-15 10:54",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c56c2d84837e9826b3bce0431d9205f51d6853a3e0c1770be7a32f9c78f7cb84"
+      }
+    }
   }
 ]
