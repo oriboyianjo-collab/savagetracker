@@ -1,0 +1,224 @@
+{
+  "as_of": "2026-11-15",
+  "cik": "0001373715",
+  "ledger_summary": [
+    {
+      "body_sha256": "e9300bd2476d2e384f66d1af192619b548bab531108da745be7e06581a9a6446",
+      "slot": "2026-Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
+    },
+    {
+      "body_sha256": "f74765b29f0069a6516de6f0fd87ade39641d46f8a469c7765eb22a6824d09e4",
+      "slot": "2026-Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm"
+    },
+    {
+      "body_sha256": "66107dbd77902b67ef1975fc6932ef82d1ae27053087413b60bdbde62850cd06",
+      "slot": "2026-Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000056/now-20260331.htm"
+    },
+    {
+      "body_sha256": "bdc76b3357736cf0e41109d5c51f77721c1077415031b7966ebc2a17d9e8e0ad",
+      "slot": "2025-FY",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm"
+    },
+    {
+      "body_sha256": "1b226810f7f94686205266b12d722a926399e50d9b299207d12ee75dfe216ee1",
+      "slot": "2025-Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000005/erq4fy25.htm"
+    },
+    {
+      "body_sha256": "10881fecc50851e131242d1f38f3f941be1fc8d45f61a66be9cf5b4115b7077e",
+      "slot": "2025-Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000309/now-20250930.htm"
+    },
+    {
+      "body_sha256": "ab3c2930351022be2099d4fb661cf8aafc335a09ea7efb324adab2ce1cf42f93",
+      "slot": "2025-Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000276/now-20250630.htm"
+    },
+    {
+      "body_sha256": "464a23e1d4fb70b545e30b52396d74313d122b4635a2cb9ca8ae2e1201c713b0",
+      "slot": "2025-Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000126/now-20250331.htm"
+    },
+    {
+      "body_sha256": "fdcccf1c5310dec707640ff3b54fa5ec122230e5d81908be38e31c7bffa85726",
+      "slot": "2024-FY",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000010/now-20241231.htm"
+    },
+    {
+      "body_sha256": "1ff0f93d62882145d7e1854704623b8ada24cce01b04e07f0018ae38d07e38d1",
+      "slot": "2024-Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000007/erq4fy24.htm"
+    },
+    {
+      "body_sha256": "7ac000032fda0b2b880b30aa4d62992f5755821b4b4171a0224be067afd1b753",
+      "slot": "2024-Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000344/now-20240930.htm"
+    },
+    {
+      "body_sha256": "8cbb2a961b13ab1a12f8f7259157d9f50a4d246a09cd991139346b6f78284d99",
+      "slot": "2024-Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000272/now-20240630.htm"
+    },
+    {
+      "body_sha256": "e7f3eda0235f4e3fae77fe7f6a291cbe51e03f099d4b8fb0c0655c6da6c24088",
+      "slot": "2024-Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000169/now-20240331.htm"
+    },
+    {
+      "body_sha256": "903b5258e6c531e99a847532b68613651f4ac500bd3933087898fc9435d4d925",
+      "slot": "2023-FY",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000030/now-20231231.htm"
+    },
+    {
+      "body_sha256": "2b6104bbda2455101724ca0dbb565d163d4119a61600c1f2c90aa186af3d0553",
+      "slot": "2023-Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000009/erq4fy23.htm"
+    },
+    {
+      "body_sha256": "271e2c3800e63064d056df9b17ee49db2703be0fc501cf293489d6ebb96234b1",
+      "slot": "2023-Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000419/now-20230930.htm"
+    },
+    {
+      "body_sha256": "c1e8a3a871a98ec54fd4085a9aeb73eda97e0c70e63a94cc45fdfd90a58b375d",
+      "slot": "2023-Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000325/now-20230630.htm"
+    },
+    {
+      "body_sha256": "7ea543473d68d8873a15be1d5bcf784061b99863c75edc435a660f869d674035",
+      "slot": "2023-Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000166/now-20230331.htm"
+    },
+    {
+      "body_sha256": "faa91d6751b54aab4ee6f46ff478937f68382885719d1fd71a54103e4963ec8b",
+      "slot": "2022-FY",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000035/now-20221231.htm"
+    },
+    {
+      "body_sha256": "ac2a21fc240e2702c4f4b560dd5706e72ea41a1fa8ae9c8ab197a71b48d2ad2c",
+      "slot": "2022-Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000016/erq4fy22.htm"
+    },
+    {
+      "body_sha256": "7e84265016bdee6a442347cdb070dbd1b8995cd00d4464f15ff715f726e0b030",
+      "slot": "2022-Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000330/now-20220930.htm"
+    },
+    {
+      "body_sha256": "4fc4031220ec8b957b82f0a6fd535a045f34ddc1a960b6ace5ae59a3a4980844",
+      "slot": "2022-Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000241/now-20220630.htm"
+    },
+    {
+      "body_sha256": "338cbd13203119220dcc2edc8707ec0b320cfe9b79b06fb28f82bca586ccdf03",
+      "slot": "2022-Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000134/now-20220331.htm"
+    },
+    {
+      "body_sha256": "1762400fd85e364d12ca5d03d0bc4857ee803289a4a90810165487230be8d9d0",
+      "slot": "2021-FY",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000024/now-20211231.htm"
+    },
+    {
+      "body_sha256": "9ac6724384923b7ce1c4efb2d63b72ba91066c041d187ad25b396d707f611606",
+      "slot": "2021-Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000006/erq4fy21.htm"
+    },
+    {
+      "body_sha256": "b02c5c2c8ca7d101f99e38b1e23611cf7526fa519921c4bf5982c5618db065fa",
+      "slot": "2021-Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000292/now-20210930.htm"
+    },
+    {
+      "body_sha256": "dee082428e26d2307f177b57963679edda7a70132d877946c63b6785b2960cc3",
+      "slot": "2021-Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000202/now-20210630.htm"
+    },
+    {
+      "body_sha256": "48332eaa9ad8cbebf34a0b2b70d9955806de7ab60f902cd1cd96d46544db7e6e",
+      "slot": "2021-Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000114/now-20210331.htm"
+    },
+    {
+      "body_sha256": "3dd3af4feb43bdf586d0d0761c36a0e1c64095eade6fe2691ad43e2e7aa385b7",
+      "slot": "2020-FY",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000061/now-20201231.htm"
+    },
+    {
+      "body_sha256": "2db5ffe701d91cb994c7a80a1ea49952526a5f2977904dfbe523e07d50b8e95a",
+      "slot": "2020-Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000008/erq4fy20-document.htm"
+    },
+    {
+      "body_sha256": "dfab462a4d67a05939988160b09ea0663b9eeb1231785d3042135159b5fc6d56",
+      "slot": "2020-Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371520000257/now-20200930.htm"
+    },
+    {
+      "body_sha256": "b0021db33a2816d4078231cb3777bd119864468d71e5f1f96e10963c28ef6d25",
+      "slot": "2020-Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371520000191/now-20200630.htm"
+    },
+    {
+      "body_sha256": "9fe34a8488b217b70adafec0bb43642855bb968b26d9cc21f4156c5546deafc6",
+      "slot": "2020-Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371520000101/now-20200331x10q.htm"
+    }
+  ],
+  "live_connected": true,
+  "reports": {
+    "2020": {
+      "FY": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000061/now-20201231.htm",
+      "Q1": "https://www.sec.gov/Archives/edgar/data/1373715/000137371520000101/now-20200331x10q.htm",
+      "Q2": "https://www.sec.gov/Archives/edgar/data/1373715/000137371520000191/now-20200630.htm",
+      "Q3": "https://www.sec.gov/Archives/edgar/data/1373715/000137371520000257/now-20200930.htm",
+      "Q4": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000008/erq4fy20-document.htm"
+    },
+    "2021": {
+      "FY": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000024/now-20211231.htm",
+      "Q1": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000114/now-20210331.htm",
+      "Q2": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000202/now-20210630.htm",
+      "Q3": "https://www.sec.gov/Archives/edgar/data/1373715/000137371521000292/now-20210930.htm",
+      "Q4": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000006/erq4fy21.htm"
+    },
+    "2022": {
+      "FY": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000035/now-20221231.htm",
+      "Q1": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000134/now-20220331.htm",
+      "Q2": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000241/now-20220630.htm",
+      "Q3": "https://www.sec.gov/Archives/edgar/data/1373715/000137371522000330/now-20220930.htm",
+      "Q4": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000016/erq4fy22.htm"
+    },
+    "2023": {
+      "FY": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000030/now-20231231.htm",
+      "Q1": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000166/now-20230331.htm",
+      "Q2": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000325/now-20230630.htm",
+      "Q3": "https://www.sec.gov/Archives/edgar/data/1373715/000137371523000419/now-20230930.htm",
+      "Q4": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000009/erq4fy23.htm"
+    },
+    "2024": {
+      "FY": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000010/now-20241231.htm",
+      "Q1": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000169/now-20240331.htm",
+      "Q2": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000272/now-20240630.htm",
+      "Q3": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000344/now-20240930.htm",
+      "Q4": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000007/erq4fy24.htm"
+    },
+    "2025": {
+      "FY": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
+      "Q1": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000126/now-20250331.htm",
+      "Q2": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000276/now-20250630.htm",
+      "Q3": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000309/now-20250930.htm",
+      "Q4": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000005/erq4fy25.htm"
+    },
+    "2026": {
+      "Q1": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000056/now-20260331.htm",
+      "Q2": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm",
+      "Q3": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
+    }
+  },
+  "schema_version": 1,
+  "source_status": "edgar_live",
+  "symbol": "NOW"
+}
