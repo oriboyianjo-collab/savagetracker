@@ -44180,5 +44180,49 @@
         "source_hash": "4a3bf0bb9504241fa7f091b82a1a898ba53ef4459ea60793dbf453a17b721120"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "L3Harris (LHX)",
+    "חברה_en": "L3Harris (LHX)",
+    "symbols": [
+      "LHX"
+    ],
+    "תאריך": "2026-11-14",
+    "כותרת": "דאפי: נבדק אם טעות בהתקנה או נתב פגום קשורים להשבתת ההמראות; דיווח על ספקות של פקחים לא אומת מול המקור המקורי",
+    "כותרת_en": "Duffy: installer error or faulty router under review after ground stop; reported controller doubts not checked against the original source",
+    "טקסט": "הודעת משרד התחבורה האמריקאי: 14.11.2026, שעת הפרסום אינה ידועה. דיווח IBTimes על ספקות הפקחים: 14.11.2026 בשעה 14:45 בישראל.\n\nשר התחבורה שון דאפי אמר שנבדק אם טעות משתמש או התקנה מצד L3Harris, או נתב פגום, עומדים מאחורי התקלה שקדמה לעצירת ההמראות הארצית ב-13 בנובמבר. לפי הסברו, במסגרת מעבר מנחושת לסיבים באתר FAA מרוחק, נתב החל להציף נתבים אחרים בניסיונות חיבור ולשבש תקשורת ונתוני מכ״ם. הוא הדגיש: עדיין לא נקבע מה היה הכשל. אלה הסבר והשערות רשמיים בחקירה, לא ממצא סופי או קביעה שהחברה אחראית.\n\n**הדיווח על ספקות הפקחים לא אומת מול המקור המקורי.** לפי IBTimes ו-Common Dreams, העיתונאית אנה ג׳יאריטלי אמרה ל-CNN ששוחחה עם 60 פקחים שאינם מקבלים את ההסבר, ושעבודות כאלה נעשות בדרך כלל בשעות דלילות ולא ביום שישי אחר הצהריים. זו עדותה של עיתונאית על שיחותיה, לא הודעה חתומה של 60 פקחים או עמדת איגוד שאומתה כאן.\n\nבתשובה רשמית על התזמון אמר דאפי שעבודה באתרים קטנים ומרוחקים עשויה להיעשות ביום, בעוד שבמתקנים גדולים היא נעשית בלילה; לדבריו, התזמון ייבחן מחדש. לכן הביקורת אינה מוכיחה שההסבר הרשמי שקרי או קובעת את סיבת התקלה.\n\nL3Harris מסרה בהודעתה הקודמת שהיא ושותפותיה תומכות בחקירת ה-FAA. אין כאן עצירת המראות חדשה, הוכחה למעורבות מערכת AI או הערכת נזק כספי.",
+    "טקסט_en": "US Transportation Department announcement: November 14, 2026, publication hour unknown. IBTimes' report on controller doubts: November 14, 2026 at 14:45 Israel time.\n\nTransportation Secretary Sean Duffy said officials were examining whether user or installation error by L3Harris, or a faulty router, lay behind the failure preceding the November 13 nationwide ground stop. His account said that, during a copper-to-fiber switch at a remote FAA location, a router flooded other routers with connection attempts, disrupting communications and radar feeds. He stressed that the fault had not yet been determined. These are an official account and hypotheses under investigation, not a final finding or a determination that the company is liable.\n\n**The report of controller doubts was not checked against the original source.** According to IBTimes and Common Dreams, journalist Anna Giaritelli told CNN she had spoken with 60 controllers who did not accept the explanation and said such work normally happens during quiet periods, not a busy Friday afternoon. This is a journalist's account of her conversations, not a signed statement by 60 controllers or a union position verified here.\n\nIn an official answer about timing, Duffy said work at small remote locations could happen by day, while large-facility changes happen at night; he said the timing would be reviewed. The criticism therefore does not prove the official account false or establish the cause.\n\nIn its earlier statement, L3Harris said it and its partners were supporting the FAA investigation. This is not a new ground stop, proof of an AI system's involvement or a quantified financial-damage estimate.",
+    "קישור": "https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-provides-update-restoration-airspace",
+    "מקורות": [
+      {
+        "url": "https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-provides-update-restoration-airspace",
+        "label": "משרד התחבורה: הסבר דאפי, מה טרם נקבע ותשובתו על עבודה ביום",
+        "label_en": "US DOT: Duffy account, unresolved fault and daytime-work answer"
+      },
+      {
+        "url": "https://www.ibtimes.co.uk/we-dont-buy-that-60-air-controllers-reject-us-faa-outage-excuse-amid-national-security-risk-1832191",
+        "label": "IBTimes: דיווח על דברי אנה ג׳יאריטלי ב-CNN",
+        "label_en": "IBTimes: report of Anna Giaritelli's CNN remarks"
+      },
+      {
+        "url": "https://www.commondreams.org/news/duffy-ground-stop-explanation",
+        "label": "Common Dreams: דיווח נוסף על אותו ראיון",
+        "label_en": "Common Dreams: another report of the same interview"
+      },
+      {
+        "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
+        "label": "L3Harris: תמיכה בחקירה, בלי קביעה של סיבת התקלה",
+        "label_en": "L3Harris: investigation support, no cause determination"
+      }
+    ],
+    "מזהה": "n-1680",
+    "הועלה": "2026-11-15 12:23",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "18412774d99569de29a2d3afe5e58aaa2786798d87cee2ecaa19959e8d5950c7"
+      }
+    }
   }
 ]
