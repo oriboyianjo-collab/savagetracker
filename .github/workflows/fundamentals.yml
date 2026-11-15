@@ -18,8 +18,9 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: fundamentals
+  group: sec-edgar-shared
   cancel-in-progress: false
+  queue: max
 jobs:
   fetch:
     runs-on: ubuntu-latest
