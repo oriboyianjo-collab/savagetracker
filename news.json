@@ -44383,5 +44383,80 @@
         "source_hash": "f6cfb2ee24acb366f23f1840a098d00696737917df8929c6cfd9bcde19dd2f8a"
       }
     }
+  },
+  {
+    "category": "macro",
+    "חברה": "רומניה / ספנות בים השחור",
+    "חברה_en": "Romania / Black Sea shipping",
+    "symbols": [],
+    "sectors": [
+      "energy",
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 12:38",
+    "כותרת": "לפי דיווחים ברומניה, שר ההגנה אמר ששלוש אוניות נפגעו מרחפנים ליד סולינה בשבת בלילה",
+    "כותרת_en": "Romanian reports: defense minister says three ships were hit by drones near Sulina on Saturday night",
+    "טקסט": "15.11.2026 | Mediafax פרסמה את הדיווח ב-12:38 ברומניה ובישראל, UTC+2.\n\n**לא מאומת מול מקור ראשוני: ההודעה המקורית של שר ההגנה ומשרד ההגנה ברומניה לא נבדקה ישירות. הדברים מיוחסים לדיווחי Mediafax ו-Antena 3 CNN, המצטטים את השר. זהות מפעיל הרחפנים לא אומתה.**\n\nלפי שני הדיווחים, שר ההגנה שטפן ראדו אופריה אמר ביום ראשון כי שלוש אוניות מסחריות נפגעו בשבת בלילה ליד שפכי הדנובה ותעלת סולינה בים השחור: Evia Petrol V, Marsol ו-Ali Najafov. לפי דבריו המצוטטים, לא היו נפגעים והצוותים השתלטו על השריפות.\n\nAntena 3 מדווחת, בציטוט הודעת משרד ההגנה, כי Evia Petrol V נפגעה בסביבות 21:10, כארבעה מיילים ימיים מזרח-דרום-מזרח לסולינה, ו-Marsol נפגעה בסביבות 21:45, כחמישה מיילים ימיים מדרום-מזרח לתעלה. פרטי האונייה השלישית מיוחסים לדיווחים על דברי השר; היקף הנזק והפגיעות לא אומתו כאן באופן עצמאי.\n\nדיווח מוקדם יותר של Kyiv Independent על שלוש אוניות ביומיים עסק בקבוצה אחרת: Larissa 1 ביום שישי ושתי האוניות Evia Petrol V ו-Marsol בשבת. לכן הדיווח המוקדם והצהרת השר ביום ראשון אינם מתארים בדיוק את אותה קבוצת אוניות.",
+    "טקסט_en": "November 15, 2026 | Mediafax published its report at 12:38 in Romania and Israel, both UTC+2.\n\n**Not verified against a primary source: the original statement by Romania's defense minister and Defense Ministry was not checked directly. This item attributes the statements to Mediafax and Antena 3 CNN, which quote the minister. The operator of the drones has not been verified.**\n\nAccording to both reports, Defense Minister Stefan Radu Oprea said on Sunday that three commercial ships were hit on Saturday night near the Danube mouths and the Sulina Canal in the Black Sea: Evia Petrol V, Marsol and Ali Najafov. His quoted statement says there were no casualties and crews brought the fires under control.\n\nCiting the Defense Ministry, Antena 3 reports that Evia Petrol V was hit at about 21:10, around four nautical miles east-southeast of Sulina, and Marsol at about 21:45, around five nautical miles southeast of the canal. Details about the third vessel are attributed to reports of the minister's statement; the damage and strikes are not independently verified here.\n\nAn earlier Kyiv Independent report about three ships over two days referred to a different grouping: Larissa 1 on Friday and Evia Petrol V and Marsol on Saturday. The earlier report and Sunday's ministerial statement therefore do not describe exactly the same group of vessels.",
+    "קישור": "https://www.mediafax.ro/aparare/trei-nave-au-fost-lovite-de-drone-in-apropierea-gurilor-dunarii-radu-oprea-cere-sprijinul-aliatilor-pentru-apararea-marii-negre-23843352",
+    "מקורות": [
+      {
+        "url": "https://www.mediafax.ro/aparare/trei-nave-au-fost-lovite-de-drone-in-apropierea-gurilor-dunarii-radu-oprea-cere-sprijinul-aliatilor-pentru-apararea-marii-negre-23843352",
+        "label": "Mediafax, 15 בנובמבר 12:38: דברי שר ההגנה על שלוש אוניות",
+        "label_en": "Mediafax, November 15 12:38: defense minister's statement on three ships"
+      },
+      {
+        "url": "https://www.antena3.ro/actualitate/nave-lovite-langa-sulina-am-vorbit-cu-francezii-de-la-thales-sa-ne-furnizeze-radarele-mai-devreme-anunta-ministrul-oprea-811198.html",
+        "label": "Antena 3 CNN: דברי השר ופרטי שתי הפגיעות",
+        "label_en": "Antena 3 CNN: minister's statement and details of two strikes"
+      },
+      {
+        "url": "https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days/",
+        "label": "Kyiv Independent: דיווח מוקדם על קבוצה אחרת של שלוש אוניות ביומיים",
+        "label_en": "Kyiv Independent: earlier report on a different grouping of three ships over two days"
+      }
+    ],
+    "מזהה": "n-1686",
+    "הועלה": "2026-11-15 13:34",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4f289ef44c634b1944c6c3d7095192db6552fd7ed84f27a7712ff6e4cee057fd"
+      }
+    }
+  },
+  {
+    "category": "micro",
+    "חברה": "Kroger",
+    "חברה_en": "Kroger",
+    "symbols": [
+      "KR"
+    ],
+    "sectors": [
+      "consumer_staples"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-12",
+    "כותרת": "השלמה לדיווח מ-12 באוקטובר: לפי Grocery Dive, Kroger תכננה קיצוץ של כ-3,000 משרות מטה בשלוש שנים",
+    "כותרת_en": "October 12 report catch-up: Grocery Dive said Kroger planned to cut about 3,000 corporate jobs over three years",
+    "טקסט": "דיווח מ-12 באוקטובר 2026, לא הודעה חדשה מ-15 בנובמבר. שעת הפרסום המדויקת לא אומתה.\n\n**לא מאומת מול מקור ראשוני: המזכר הפנימי המקורי לא נקרא ישירות. התוכנית מיוחסת ל-Grocery Dive, שכתבה כי Kroger מסרה לה את המזכר. מספר המשרות שכבר קוצצו ומצב הביצוע ב-15 בנובמבר לא אומתו.**\n\nלפי הכתבה, Kroger תכננה לצמצם את כוח האדם בתפקידי המטה בכ-3,000 משרות במהלך שלוש השנים הבאות. המנכ\"ל גרג פורן כתב במזכר שלחברה יותר מדי שכבות ארגוניות, העברות בין צוותים ותקורה, וכי היא תשתמש בטכנולוגיה לצמצום עבודה כפולה ולשיפור היעילות.\n\nלפי הכתבה, הודעות על התפקידים שיושפעו היו אמורות להתחיל בחודשים הבאים. לא נמסרו לוח זמנים מפורט לפיטורים או רשימת המחלקות שיושפעו. הדברים מתארים תוכנית שעליה דווח באוקטובר, לא קיצוץ שכבר הושלם.",
+    "טקסט_en": "Reported October 12, 2026, not a new November 15 announcement. The exact publication time was not verified.\n\n**Not verified against a primary source: the original internal memo was not read directly. The plan is attributed to Grocery Dive, which said Kroger shared the memo with the outlet. The number of positions already eliminated and the implementation status on November 15 have not been verified.**\n\nAccording to the report, Kroger planned to reduce its corporate workforce by about 3,000 jobs over the following three years. CEO Greg Foran wrote that the company had too many organizational layers, handoffs and overhead, and would use technology to reduce duplicative work and improve efficiency.\n\nThe report said decisions about affected roles would begin to be communicated in the coming months. It gave no detailed layoff timetable or list of affected departments. This describes a plan reported in October, not a completed job reduction.",
+    "קישור": "https://www.grocerydive.com/news/kroger-corporate-layoffs-3000-employees/832811/",
+    "מקורות": [
+      {
+        "url": "https://www.grocerydive.com/news/kroger-corporate-layoffs-3000-employees/832811/",
+        "label": "Grocery Dive, 12 באוקטובר 2026: תוכנית הקיצוץ לפי מזכר שנמסר לעיתון",
+        "label_en": "Grocery Dive, October 12, 2026: job-cut plan based on a memo shared with the outlet"
+      }
+    ],
+    "מזהה": "n-1687",
+    "הועלה": "2026-11-15 13:34",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c47919c52575150fd33e55c01a05a84b302eb0304957005e3f8a665ae7a62536"
+      }
+    }
   }
 ]
