@@ -44560,5 +44560,48 @@
         "source_hash": "4138a96f18cc36af7af0b16e8814b0d4828dc5b15a063fad69c61b0f61bf5586"
       }
     }
+  },
+  {
+    "category": "micro",
+    "חברה": "eBay",
+    "חברה_en": "eBay",
+    "symbols": [
+      "EBAY"
+    ],
+    "sectors": [
+      "consumer_cyclical"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-10-21 18:17",
+    "כותרת": "eBay: לפי דיווחי 21 באוקטובר, החברה תקצץ כ-9% מכוח האדם",
+    "כותרת_en": "eBay: October 21 reports say company will cut about 9% of its workforce",
+    "טקסט": "21.10.2026 | דיווח היסטורי, לא סבב פיטורים חדש מנובמבר. CNBC פרסמה ב-11:17 במזרח ארה\"ב, 18:17 בישראל.\n\n**לא מאומת מול מקור ראשוני: ההודעה המקורית של eBay לעובדים לא נקראה ישירות. CNBC ורויטרס דיווחו שדובר החברה אישר להם את הקיצוצים; רויטרס מסרה שעיינה במזכר המנכ\"ל.**\n\nלפי הדיווחים מ-21 באוקטובר, eBay מתכננת לצמצם כ-9% מכוח האדם כדי לפשט את הפעילות ולהפנות משאבים לתחומים שצומחים מהר יותר. CNBC מתארת כ-1,000 עובדים שיושפעו; The Verge מציינת כ-1,100. לכן מספר המשרות אינו מוצג כאן כמספר סופי מדויק.\n\nלפי רויטרס, המנכ\"ל ג'יימי איאנון כתב לעובדים שהחברה צריכה לבחור היכן להתמקד ולהשקיע, ושעובדים שיושפעו יקבלו הודעה בימים שלאחר המזכר. CNBC דיווחה שהחברה תמשיך לגייס לתחומים בעלי עדיפות אסטרטגית.\n\nזהו הסבב השני שעליו דווח ב-2026, לאחר קיצוץ של כ-6%, או כ-800 עובדים, בפברואר.",
+    "טקסט_en": "October 21, 2026 | Historical report, not a new November layoff round. CNBC published at 11:17 US Eastern time, 18:17 in Israel.\n\n**Not verified against a primary source: eBay's original employee announcement was not read directly. CNBC and Reuters said a company spokesperson confirmed the cuts; Reuters said it reviewed the CEO's memo.**\n\nAccording to the October 21 reports, eBay plans to cut about 9% of its workforce to simplify operations and shift resources toward faster-growing areas. CNBC describes approximately 1,000 affected employees; The Verge says around 1,100. The number of positions is therefore not presented here as a precise final count.\n\nReuters reported that CEO Jamie Iannone told staff the company needed to choose where to focus and invest, and that affected employees would be informed in the days after the memo. CNBC said the company would continue hiring in strategic priority areas.\n\nThis is the second reported round in 2026, following cuts of about 6%, or 800 employees, in February.",
+    "קישור": "https://www.cnbc.com/2026/10/21/ebay-layoffs-workforce-cuts.html",
+    "מקורות": [
+      {
+        "url": "https://www.cnbc.com/2026/10/21/ebay-layoffs-workforce-cuts.html",
+        "label": "CNBC, 21 באוקטובר: כ-9%, כ-1,000 עובדים ואישור דובר",
+        "label_en": "CNBC, October 21: about 9%, approximately 1,000 employees and spokesperson confirmation"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/exclusiveebay-to-lay-off-9-of-workforce-in-push-to-simplify-operations-internal-memo-shows-4962778",
+        "label": "רויטרס באמצעות Investing.com, 21 באוקטובר: מזכר מנכ\"ל ואישור דובר",
+        "label_en": "Reuters via Investing.com, October 21: CEO memo and spokesperson confirmation"
+      },
+      {
+        "url": "https://www.theverge.com/tech/1015292/ebay-is-laying-off-about-9-percent-of-its-workers",
+        "label": "The Verge, 21 באוקטובר: כ-1,100 עובדים",
+        "label_en": "The Verge, October 21: around 1,100 employees"
+      }
+    ],
+    "מזהה": "n-1691",
+    "הועלה": "2026-11-15 13:58",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ea14f9fd8046c146248c1abf8dae96a1b25560ebe13870098534ed3ed8fa959f"
+      }
+    }
   }
 ]
