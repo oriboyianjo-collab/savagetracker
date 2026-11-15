@@ -44603,5 +44603,29 @@
         "source_hash": "ea14f9fd8046c146248c1abf8dae96a1b25560ebe13870098534ed3ed8fa959f"
       }
     }
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-15",
+    "כותרת": "לא מאומת מול מקור ראשוני | לפי Fox News: כוחות תימניים נסוגו מעמדות ליד באב אל-מנדב לכיוון עדן",
+    "כותרת_en": "Not verified against a primary source | Fox News: Yemeni forces withdraw from positions near Bab el-Mandeb toward Aden",
+    "טקסט": "15.11.2026 | בדיווח Fox News, שמציין כי Reuters השתתפה בהכנתו, נמסר על נסיגה שהוכרזה לפנות בוקר ביום ראשון. שעת פרסום מדויקת לפריט לא הוצגה במקור שנקרא.\n\n**לא מאומת מול מקור ראשוני: ההודעה המקורית של הכוחות לא נקראה ישירות.** לפי Fox News, כוחות תימניים הנתמכים בידי סעודיה הודיעו על נסיגה מנמל התעופה דובאב ומעמדות באזור באב אל-מנדב, ממערב למחוז תעז, לכיוון עדן. הדיווח מייחס ל-Southern Armed Forces הודעה שההיערכות מחדש נועדה לחזק את ההגנה על המעוזים הדרומיים מול לחץ חות'י.\n\nלפי הדיווח, הנסיגה מבטלת הישגים של מתקפה ממשלתית מאוקטובר ומשאירה את החות'ים בשליטה באזור החוף. זו טענת הדיווח, לא אימות עצמאי של מפת השליטה בשטח.\n\nאין בדיווח שקראתי אישור לסגירה חדשה של המצר, להפסקת תנועת אוניות, לפגיעה בתפוקת נפט או לתנועת מחיר שנגרמה מהאירוע.",
+    "טקסט_en": "November 15, 2026 | Fox News, noting that Reuters contributed, reported a withdrawal announced early Sunday. The source read did not show a precise publication time for this item.\n\n**Not verified against a primary source: the forces' original statement was not read directly.** Fox News reported that Saudi-backed Yemeni forces announced a withdrawal from Dhubab Airport and positions in the Bab el-Mandeb area west of Taiz Governorate toward Aden. The report attributes to the Southern Armed Forces a statement that the redeployment was intended to strengthen southern defenses against Houthi pressure.\n\nAccording to the report, the retreat reverses gains from an October government offensive and leaves the Houthis in control of the coastline. This is the report's account, not independent verification of territorial control.\n\nThe report read does not confirm a new closure of the strait, a halt to shipping, an oil-production loss or a price move caused by this event.",
+    "קישור": "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15",
+    "מקורות": [
+      {
+        "url": "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15",
+        "label": "Fox News, בהשתתפות Reuters: דיווח הנסיגה בתימן",
+        "label_en": "Fox News, with Reuters contributing: Yemen withdrawal report"
+      }
+    ],
+    "מזהה": "n-1692",
+    "הועלה": "2026-11-15 14:26",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "34de588d89698dc2c90c96d07562cc7b14f3571abe817516f747c56dcb694525"
+      }
+    }
   }
 ]
