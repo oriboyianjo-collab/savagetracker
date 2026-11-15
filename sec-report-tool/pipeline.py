@@ -25,7 +25,7 @@ class RunLog:
             self.path.parent.mkdir(parents=True, exist_ok=True)
             self.fh = self.path.open('a', encoding='utf-8')
             self.event(event='log_open', compliance='SEC EDGAR fair access', policy=POLICY_URL,
-                       declared_user_agent='SavageTracker oriboyianjo@users.noreply.github.com',
+                       declared_user_agent='SavageTracker Savtra12@gmail.com',
                        rate_limit='min 0.6s between requests (~1.6/s), well under 10/s',
                        endpoints='official data.sec.gov and www.sec.gov only',
                        workarounds='none: no proxies, no IP rotation, no disguised UA; stop on 403/429')

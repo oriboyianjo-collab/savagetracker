@@ -11,7 +11,7 @@ The live run follows the SEC's EDGAR fair-access policy:
 
 This client:
 
-- Sends a declared User-Agent on every request: `SavageTracker oriboyianjo@users.noreply.github.com`
+- Sends a declared User-Agent on every request: `SavageTracker Savtra12@gmail.com`
 - Uses only official endpoints: `https://data.sec.gov/submissions/...` and `https://www.sec.gov/Archives/edgar/data/1035267/...`
 - Waits at least 0.6 seconds between requests (~1.6/s), well under the 10/s maximum
 - Downloads only the submissions index and the primary document (or Q4 Exhibit 99.1) needed to map a period

@@ -15,7 +15,7 @@ const arg = (k, d) => { const i = process.argv.indexOf(k); return i > 0 ? proces
 const OUT = path.resolve(ROOT, arg('--out', 'fundamentals.json')), STATE = path.resolve(ROOT, arg('--state', 'fundamentals/progress.json'));
 const ONLY = arg('--only', '').split(',').map(s => s.trim().toUpperCase()).filter(Boolean);
 const SEC_MIN = +arg('--sec-min', 38), YAHOO_MIN = +arg('--yahoo-min', 22), YAHOO_MAX = +arg('--yahoo-max', 1500);   // minutes of budget per source / max Yahoo calls
-const SEC_UA = process.env.SEC_UA || 'SavageTracker oriboyianjo-collab@example.org';   // SEC wants "Name contact"; set repo variable SEC_UA to a real contact
+const SEC_UA = process.env.SEC_UA || 'SavageTracker Savtra12@gmail.com';   // SEC wants "Name contact"; set repo variable SEC_UA to a real contact
 const YUA = 'Mozilla/5.0';   // (a long fake-Chrome UA gets 429 from Yahoo; the short one works)
 const EXCH = new Set(['Nasdaq', 'NYSE', 'CBOE', 'TXSE']);
 const log = (...a) => console.log(...a), sleep = ms => new Promise(r => setTimeout(r, ms));

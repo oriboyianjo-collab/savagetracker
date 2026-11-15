@@ -2,7 +2,7 @@
 // Official one-request EDGAR GET. Same legal client pattern as scripts/fetch-fundamentals.cjs.
 // Declared User-Agent, official sec.gov hosts only, no retries, no proxies, no disguised UA.
 const { URL } = require('url');
-const UA = process.env.SEC_UA || 'SavageTracker oriboyianjo@users.noreply.github.com';
+const UA = process.env.SEC_UA || 'SavageTracker Savtra12@gmail.com';
 const url = process.argv[2];
 if (!url) {
   console.error('usage: node sec_fetch.cjs URL');

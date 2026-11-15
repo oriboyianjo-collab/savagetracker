@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from common import AccessHeld, sec_url, atomic, digest, body_excerpt
 
-SEC_USER_AGENT = 'SavageTracker oriboyianjo@users.noreply.github.com'
+SEC_USER_AGENT = 'SavageTracker Savtra12@gmail.com'
 MIN_INTERVAL_SEC = 0.6
 MAX_BODY = 25 * 1024 * 1024
 POLICY_URL = 'https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data'

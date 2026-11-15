@@ -31,7 +31,7 @@ jobs:
         with: { node-version: '20' }
       - name: fetch fundamentals
         env:
-          SEC_UA: ${{ vars.SEC_UA }}
+          SEC_UA: ${{ vars.SEC_UA != '' && vars.SEC_UA || 'SavageTracker Savtra12@gmail.com' }}
           ONLY: ${{ github.event.inputs.only }}
         run: |
           if [ -n "$ONLY" ]; then node scripts/fetch-fundamentals.cjs --only "$ONLY" --out /tmp/fund-test.json --state /tmp/fund-test-state.json | tee fetch.log; cat /tmp/fund-test.json | head -c 3000; exit 0; fi
