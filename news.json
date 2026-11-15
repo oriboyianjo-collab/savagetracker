@@ -44831,5 +44831,40 @@
         "source_hash": "e699579f7e49c097075f3e042e22ee3a516ac6a33453a9831290033d15b85d66"
       }
     }
+  },
+  {
+    "מזהה": "n-1699",
+    "category": "micro",
+    "חברה": "Eli Lilly (LLY)",
+    "חברה_en": "Eli Lilly (LLY)",
+    "symbols": [
+      "LLY"
+    ],
+    "sectors": [
+      "healthcare"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 18:21",
+    "הועלה": "2026-11-15 18:21",
+    "כותרת": "Eli Lilly (LLY): דיווח מניסוי שלב 2 על ירידה ממוצעת של עד 23.3% במשקל עם השילוב הניסיוני EloraTZP",
+    "כותרת_en": "Eli Lilly (LLY): company reports up to 23.3% average weight loss in Phase 2 with investigational EloraTZP",
+    "summary": "הודעת החברה מ-14 בנובמבר: נתוני 48 שבועות במבוגרים עם השמנה או עודף משקל וסוכרת סוג 2. השילוב עדיין ניסיוני, לא אישור תרופה חדש.",
+    "summary_en": "A November 14 company release reports 48-week results in adults with obesity or overweight and type 2 diabetes. The combination remains investigational, not a new drug approval.",
+    "טקסט": "בהודעת Eli Lilly מ-14.11.2026, שפורסמה ב-19:01 בישראל (12:01 בחוף המזרחי בארה\"ב), דיווחה החברה לקראת כנס ObesityWeek על תוצאות שלב 2 של EloraTZP, שילוב ניסיוני של eloralintide ו-tirzepatide. במבוגרים עם השמנה או עודף משקל וסוכרת סוג 2 דווחה ירידה ממוצעת של עד 23.3% במשקל לאחר 48 שבועות, ממשקל בסיס ממוצע של 232.4 פאונד.\n\nהניסוח \"עד\" מתייחס לנתון הממוצע הגבוה שהחברה מדווחת, לא לירידה שהושגה אצל כל מטופל. ההודעה אינה מציגה כאן את גודל המדגם, המינון של הקבוצה הרלוונטית, אומדן ההשפעה מול פלצבו או פירוט ההפסקות ותופעות הלוואי של השילוב. לכן אין להסיק מהנתון לבדו על יתרון מול טיפול אחר, על סיכויי אישור או על פרופיל בטיחות מלא.\n\nהחברה ציינה כי תציג את נתוני השילוב ביום ראשון, 15 בנובמבר, במסגרת מושב בין 22:30 ל-23:30 בישראל. הודעת הנתונים פורסמה כבר ב-14 בנובמבר; אין כאן קביעה שהמצגת המתוכננת כבר התקיימה.\n\nEloraTZP הוא טיפול ניסיוני. הודעת כנס ותוצאת שלב 2 אינן אישור רגולטורי, השקה מסחרית או הכנסה שכבר הוכרה. אזהרות הבטיחות הכלליות בהודעה למוצרים Zepbound ו-Foundayo אינן תחליף לנתוני בטיחות מהניסוי בשילוב עצמו. החברה מזהירה שאין ודאות שהמחקרים יושלמו כמתוכנן, שהתוצאות ישוחזרו או שהמועמדים יאושרו.",
+    "טקסט_en": "In its November 14, 2026 release, published at 19:01 Israel time (12:01 US Eastern), Eli Lilly reported Phase 2 findings ahead of ObesityWeek for EloraTZP, an investigational combination of eloralintide and tirzepatide. In adults with obesity or overweight and type 2 diabetes, the company reported up to 23.3% average weight loss at 48 weeks from an average baseline weight of 232.4 pounds.\n\n\"Up to\" describes the highest average reported by the company, not weight loss achieved by every patient. The announcement does not provide the sample size, dose for the relevant group, placebo-adjusted treatment effect or detailed discontinuation and adverse-event results for the combination. The figure alone therefore does not establish superiority to another treatment, approval prospects or a complete safety profile.\n\nThe company scheduled presentation of the combination data for Sunday, November 15, from 22:30 to 23:30 Israel time. The data announcement was already published on November 14; this does not claim the planned presentation has already taken place.\n\nEloraTZP remains investigational. A conference release and a Phase 2 result are not regulatory approval, a commercial launch or revenue already recognized. The release's general safety warnings for Zepbound and Foundayo do not replace trial-specific safety results for the combination. Lilly cautions that studies may not finish as planned, findings may not be replicated and investigational treatments may not receive approval.",
+    "קישור": "https://www.prnewswire.com/news-releases/lilly-to-present-new-data-across-zepbound-foundayo-eloratzp-and-retatrutide-at-obesityweek-2026-moving-obesity-care-beyond-the-scale-302938569.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/lilly-to-present-new-data-across-zepbound-foundayo-eloratzp-and-retatrutide-at-obesityweek-2026-moving-obesity-care-beyond-the-scale-302938569.html",
+        "label": "Eli Lilly דרך PRNewswire: הודעת החברה מ-14 בנובמבר, 12:01 ET",
+        "label_en": "Eli Lilly via PRNewswire: company release, November 14 at 12:01 ET"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "92588510c5a310aa20a17b5ab01349bb8f5515f30bfde2158cf66d5898787ede"
+      }
+    }
   }
 ]
