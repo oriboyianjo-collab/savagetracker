@@ -45088,5 +45088,41 @@
         "source_hash": "861bcc49eb7d5c0a4fb401cf59f8741b74f8c30e3c0a574584ace5a20a7c12ca"
       }
     }
+  },
+  {
+    "מזהה": "n-1706",
+    "category": "macro",
+    "חברה": "יפן / תוצר מקומי גולמי",
+    "חברה_en": "Japan / GDP",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 01:55",
+    "הועלה": "2026-11-16 01:55",
+    "כותרת": "יפן: התוצר כמעט לא השתנה ברבעון השלישי; ירידה של 0.1% בקצב שנתי",
+    "כותרת_en": "Japan: GDP was nearly flat in Q3, down 0.1% annualized",
+    "summary": "אומדן ראשון ליולי-ספטמבר: התוצר הריאלי ירד בשיעור שמתעגל ל-0.0%- לעומת הרבעון הקודם. הצריכה הפרטית ירדה ב-0.3%; תרומת היצוא נטו קיזזה את תרומת הביקוש המקומי.",
+    "summary_en": "First estimate for July-September: real GDP fell by an amount that rounds to -0.0% quarter on quarter. Private consumption fell 0.3%; net exports offset the contribution from domestic demand.",
+    "טקסט": "16.11.2026 | משרד הקבינט של יפן, אומדן ראשון לתוצר ביולי-ספטמבר 2026. תאריך הפרסום הרשמי הוא 16 בנובמבר; שעת הפרסום המקורית לא אומתה.\n\nהתוצר המקומי הגולמי הריאלי, בניכוי עונתיות, נרשם בטבלה הרשמית בשיעור של 0.0%- לעומת הרבעון הקודם: ירידה זעירה שמתעגלת לאפס בעשירית האחוז. בקצב שנתי זו ירידה של 0.1%. זה אינו נתון של ירידה שנתית לעומת הרבעון המקביל. ברבעון השני מוצגת באותו פרסום צמיחה של 0.4% לעומת הרבעון הקודם, או 1.7% בקצב שנתי.\n\nהצריכה הפרטית ירדה ב-0.3% לעומת הרבעון הקודם, בעוד ההשקעה העסקית הלא-למגורים עלתה ב-1.6%. הביקוש המקומי תרם 0.6 נקודת אחוז לצמיחה, והיצוא נטו גרע 0.6 נקודת אחוז. תרומות אלה מעוגלות, ולכן אין להסיק מהחיסור ביניהן שהתוצר לא השתנה בדיוק.\n\nזהו אומדן ראשון, הנתון לעדכון בפרסומים הבאים. הפרסום הרשמי אינו מספק תחזית קונצנזוס; לא מוצגת כאן השוואה לתחזית, ולא מוסקת ממנו החלטת ריבית או תגובת שוק.",
+    "טקסט_en": "November 16, 2026 | Japan Cabinet Office, first preliminary GDP estimate for July-September 2026. The official release is dated November 16; its original publication time was not verified.\n\nSeasonally adjusted real GDP is reported at -0.0% quarter on quarter: a very small decline that rounds to zero at one decimal place. The annualized rate was -0.1%. This is not a year-on-year contraction figure. The same release shows second-quarter growth of 0.4% quarter on quarter, or 1.7% annualized.\n\nPrivate consumption fell 0.3% quarter on quarter, while private non-residential investment rose 1.6%. Domestic demand added 0.6 percentage point to GDP growth and net exports subtracted 0.6 point. These contributions are rounded, so subtracting them does not establish that GDP was exactly unchanged.\n\nThis is a first estimate and may change in later releases. The official release does not provide a consensus forecast; no forecast comparison, interest-rate decision or market reaction is inferred here.",
+    "קישור": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe263/gdemenuea.html",
+    "מקורות": [
+      {
+        "label": "משרד הקבינט: אומדן ראשון לרבעון השלישי 2026",
+        "label_en": "Cabinet Office: first preliminary Q3 2026 estimate",
+        "url": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe263/gdemenuea.html"
+      },
+      {
+        "label": "טבלת הסיכום הרשמית: תוצר ורכיביו",
+        "label_en": "Official summary: GDP and its components",
+        "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/gaiyou/pdf/main_1e.pdf"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "409c6049c3ef2239f9fb9f9563e30c8a8c05ec074378e6c18706b58cbbb3a8bc"
+      }
+    }
   }
 ]
