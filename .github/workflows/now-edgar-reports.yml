@@ -1,0 +1,70 @@
+name: now-edgar-reports
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: now-edgar-reports
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test NOW qualification and failure safety
+        working-directory: sec-report-tool/now
+        run: python3 -m unittest -v
+      - name: Discover, validate, and connect NOW reports
+        working-directory: sec-report-tool/now
+        run: |
+          set -euo pipefail
+          python3 run_now.py --live \
+            --as-of "$(date -u +%F)" \
+            --cache "$RUNNER_TEMP/now-edgar-cache" \
+            --result "$RUNNER_TEMP/now-result.json" \
+            --log "$RUNNER_TEMP/now-run.jsonl" \
+            --app-output ../../report-links-now.json
+          python3 verify_now.py \
+            --result "$RUNNER_TEMP/now-result.json" \
+            --cache "$RUNNER_TEMP/now-edgar-cache"
+          NOW_CAPTURE_CACHE="$RUNNER_TEMP/now-edgar-cache" python3 -m unittest -v
+      - name: Commit only the automatically generated NOW index
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- report-links-now.json
+          if git diff --cached --quiet; then
+            echo 'No NOW index change'
+            exit 0
+          fi
+          git commit -m 'Update automatically qualified NOW report links'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 5
+          done
+          exit 1
+      - name: Save test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: now-report-test-evidence
+          path: |
+            ${{ runner.temp }}/now-result.json
+            ${{ runner.temp }}/now-run.jsonl
+          if-no-files-found: ignore
+          retention-days: 7
