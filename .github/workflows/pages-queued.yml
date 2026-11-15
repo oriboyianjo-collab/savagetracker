@@ -5,7 +5,7 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_run:
-    workflows: [issuer-holdings, fundamentals, isrg-edgar-reports]
+    workflows: [issuer-holdings, fundamentals, isrg-edgar-reports, now-edgar-reports]
     types: [completed]
     branches: [main]
 
