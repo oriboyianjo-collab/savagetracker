@@ -612,6 +612,7 @@ html.dark .rq{color:#a5b4fc}html.dark .rtag{color:#93c5fd}
 .pc-btn{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:10px}.pc-btn .btn{white-space:nowrap;padding:0 4px;min-height:38px;font-size:.76rem;justify-content:center}
 .pc-btn.has-finance{grid-template-columns:.95fr 1.15fr .9fr .95fr}.pc-btn.has-finance .btn{min-width:0;padding-inline:3px;font-size:.64rem;gap:3px}.pc-btn.has-finance [data-stock-finance]{display:flex;align-items:center}.pc-btn.has-finance [data-stock-finance] svg{flex:none}@media(max-width:350px){.pc-btn.has-finance .btn{font-size:.58rem;padding-inline:2px;gap:2px}}
 .is-trade{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0 2px}.is-trade .btn{min-height:42px;white-space:nowrap;justify-content:center}
+.tx-fee-summary{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 16px;padding:12px 0;border-bottom:1px solid var(--border);font-weight:600}.tx-fee-amounts{display:flex;flex-wrap:wrap;gap:8px 16px;min-width:0}.tx-fee-amounts .num{white-space:nowrap}
 .tx-h{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}.tx-h h2{margin:0}.tx-h .btn{white-space:nowrap}
 .fxfl{flex:0 0 auto;width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;font-size:.9rem;letter-spacing:-3px;border-radius:50%;background:var(--bg-fff);border:1px solid var(--border)}
 body.kb-on nav.bottom,body.kb-on .nav-srch{display:none!important}body.kb-on{--nav-h:0px}
@@ -1201,7 +1202,7 @@ body:not(.kb-on):has(#tab-watch.on){padding-bottom:calc(var(--nav-h) + var(--saf
     <div class="card"><h2><span>רווח והפסד <button type="button" class="ib" data-ib-for="plInfoSrc" data-ib-t="איך מחושב המס המוערך" aria-label="הסבר: איך מחושב המס המוערך" aria-haspopup="dialog">i</button></span></h2><div class="kv" id="plKv"></div><div class="taxbox" id="taxBox"></div>
       <div class="ib-src" id="plInfoSrc">מס רווחי הון מוערך לפי השיעור בהגדרות, רק על רווח חיובי. החישוב משוער (ללא התאמה לאינפלציה/שער, ללא קיזוז הפסדים משנים קודמות) ואינו ייעוץ מס.</div></div>
   </section>
-  <section class="tab" id="tab-tx"><div class="card"><div class="tx-h"><h2>היסטוריית עסקאות <small id="txCount"></small></h2></div><div class="hist-bar" id="txHistBar" style="margin-top:0"></div><div id="txList"></div></div></section>
+  <section class="tab" id="tab-tx"><div class="card"><div class="tx-h"><h2>היסטוריית עסקאות <small id="txCount"></small></h2></div><div class="hist-bar" id="txHistBar" style="margin-top:0"></div><div id="txFeeSummary" class="tx-fee-summary" aria-live="polite"></div><div id="txList"></div></div></section>
   <section class="tab" id="tab-market">
     <div class="seg mkt-mode" id="mktMode" role="group" aria-label="תצוגת השווקים"><button data-mm="mk" class="on">🌐 שווקים</button><button data-mm="etf">🧩 מדדים</button></div>
     <div class="mk-sub" id="mkSub" role="group" aria-label="סוג שוק"><button data-ms="glob">גלובל</button><button data-ms="com">סחורות</button><button data-ms="fx">מט״ח</button></div>
@@ -3117,16 +3118,33 @@ function txDesc(t){
   return {t1:`${TX_LABELS[t.type]}${t.type==='sell' && t.lotMethod==='lifo' ? '<span class="tag lifo">LIFO</span>' : ''} <span class="ltr">${esc(t.symbol)}</span> · <span class="num">${hidden() ? MASK : fmtQty(t.qty)+' × '+fmtPrice(t.price,t.currency)}</span>`,
     amt: fmtSigned((t.type==='buy'?-1:1)*t.qty*t.price - (t.fee||0), t.currency), c: t.type==='buy'?'neg':'pos'};
 }
+function isAssetTrade(t){ return t.type==='buy'||t.type==='sell'||t.type==='convert'; }
+function paidCommissionTotals(txs){
+  const totals = {};
+  for(const t of txs){
+    let cur, amount;
+    if(t.type==='fee'){ cur=t.currency; amount=num(t.amount)||0; }
+    else if(t.type==='buy'||t.type==='sell'){ cur=t.currency; amount=num(t.fee)||0; }
+    else if(t.type==='convert'){ cur=t.from; amount=num(t.fee)||0; }
+    else continue;
+    if(cur && Number.isFinite(amount) && amount!==0) totals[cur]=(totals[cur]||0)+amount;
+  }
+  return totals;
+}
 function renderTxList(){
-  let list = sortedTxs().reverse(), hiddenN = 0;
+  const trades = state.txs.filter(isAssetTrade);
+  let list = sortedTxs().reverse().filter(isAssetTrade), hiddenN = 0;
   if(ui.txQuery){const q=ui.txQuery.trim().toLowerCase();list=list.filter(t=>[t.symbol,t.toSymbol,state.assets[t.symbol]?.name].filter(Boolean).some(v=>String(v).toLowerCase().includes(q)));}
   const years = [...new Set(state.txs.map(t=>String(t.date||'').slice(0,4)).filter(y=>/^\d{4}$/.test(y)))].sort().reverse();
   if(ui.txYear && !years.includes(ui.txYear)) ui.txYear = '';
   if(ui.txYear) list = list.filter(t=>String(t.date||'').slice(0,4)===ui.txYear);
   if(histHidden('tx')){ const cs = closedSymSet(); const all = list.length; list = list.filter(t=>!(t.symbol && (t.type==='buy'||t.type==='sell'||t.type==='split'||t.type==='sharebonus'||t.type==='fraczero') && cs.has(t.symbol))); hiddenN = all - list.length; }
-  const yCnt = {}; state.txs.forEach(t=>{ const y=String(t.date||'').slice(0,4); if(/^\d{4}$/.test(y)) yCnt[y]=(yCnt[y]||0)+1; });
-  const yrSel = years.length>1 ? `<span class="wl-to" style="width:134px;flex:none"><button type="button" class="wl-pick" style="flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:8px;margin-top:0;background:var(--card)" data-txyearmenu aria-haspopup="listbox" aria-expanded="${!!ui.txYearMenu}"><span>📅 ${ui.txYear||I18n.p("ui-0249","הכול")}</span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button><div class="wl-pm" role="listbox"${ui.txYearMenu?'':' hidden'}><button type="button" role="option" data-txyear="" class="${ui.txYear?'':'on'}" aria-selected="${ui.txYear?'false':'true'}${I18n.p("ui-0250","\"><span>הכול</span><small class=\"num\">")}${state.txs.length}</small></button>${years.map(y=>`<button type="button" role="option" data-txyear="${y}" class="${ui.txYear===y?'on':''}" aria-selected="${ui.txYear===y}"><span class="num">${y}</span><small class="num">${yCnt[y]||0}</small></button>`).join('')}</div></span>` : '';
+  const yCnt = {}; trades.forEach(t=>{ const y=String(t.date||'').slice(0,4); if(/^\d{4}$/.test(y)) yCnt[y]=(yCnt[y]||0)+1; });
+  const yrSel = years.length>1 ? `<span class="wl-to" style="width:134px;flex:none"><button type="button" class="wl-pick" style="flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:8px;margin-top:0;background:var(--card)" data-txyearmenu aria-haspopup="listbox" aria-expanded="${!!ui.txYearMenu}"><span>📅 ${ui.txYear||I18n.p("ui-0249","הכול")}</span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button><div class="wl-pm" role="listbox"${ui.txYearMenu?'':' hidden'}><button type="button" role="option" data-txyear="" class="${ui.txYear?'':'on'}" aria-selected="${ui.txYear?'false':'true'}${I18n.p("ui-0250","\"><span>הכול</span><small class=\"num\">")}${trades.length}</small></button>${years.map(y=>`<button type="button" role="option" data-txyear="${y}" class="${ui.txYear===y?'on':''}" aria-selected="${ui.txYear===y}"><span class="num">${y}</span><small class="num">${yCnt[y]||0}</small></button>`).join('')}</div></span>` : '';
   $('txHistBar').innerHTML = state.txs.length ? `<div class="tx-search-row">${yrSel}${I18n.p("ui-0251","<div class=\"tx-search-inline\"><input id=\"txSecurityQuery\" type=\"search\" autocomplete=\"off\" placeholder=\"חיפוש לפי נייר\" value=\"")}${esc(ui.txQuery||'')}${I18n.p("ui-0252","\" aria-label=\"חיפוש עסקאות לפי נייר\"></div></div>")}` + histToggleHtml('tx') + (hiddenN ? `${I18n.p("ui-0253","<span class=\"hist-note\" id=\"txHiddenNote\">מוסתרות ")}${hiddenN}${I18n.p("ui-0254"," עסקאות של פוזיציות סגורות · <button class=\"linkbtn\" data-histshow data-hscope=\"tx\">הצג</button></span>")}` : '') : '';
+  const feeTxs = ui.txYear ? state.txs.filter(t=>String(t.date||'').slice(0,4)===ui.txYear) : state.txs;
+  const fees = paidCommissionTotals(feeTxs), currencies = Object.keys(fees).sort();
+  $('txFeeSummary').innerHTML = `<span>${I18n.language==='en'?'Total commissions paid':'סך עמלות ששולמו'}</span><span class="tx-fee-amounts">${currencies.length ? currencies.map(cur=>`<b class="num neg" dir="ltr">${fmtMoney(fees[cur],cur)}</b>`).join('') : `<b class="num">${hidden()?MASK:'0'}</b>`}</span>`;
   $('txCount').textContent = list.length ? `${list.length}${I18n.p("ui-0255"," עסקאות")}` : '';
   if(!list.length && hiddenN){ $('txList').innerHTML = I18n.p("ui-0256","<div class=\"empty\">כל העסקאות שייכות לפוזיציות סגורות ומוסתרות.</div>"); return; }
   if(!list.length){ $('txList').innerHTML = ui.txQuery ? I18n.p("ui-0257","<div class=\"empty\">אין עסקאות התואמות לחיפוש.</div>") : I18n.p("ui-0258","<div class=\"empty\"><div class=\"big\">🧾</div>אין עדיין עסקאות. לחצו על + כדי להוסיף.</div>"); return; }
