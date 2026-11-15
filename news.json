@@ -44258,5 +44258,94 @@
         "source_hash": "953232e9bcaf244435d329e3fc7665b036b18243682bbbdc4cccff95f0950ee3"
       }
     }
+  },
+  {
+    "category": "micro",
+    "תאריך": "2026-11-14 01:30",
+    "כותרת": "HIVE: חוזי החשמל בפרגוואי מסתיימים בסוף 2027; לפי CoinDesk, החברה אינה מגיבה למגעי הארכה ואין החלטת סגירה מאומתת",
+    "כותרת_en": "HIVE: Paraguay power contracts expire at end-2027; CoinDesk reports renewal uncertainty, not a confirmed shutdown",
+    "טקסט": "CoinDesk פרסמה ב-14.11.2026 ב-01:30 בישראל; עדכון ב-07:36.\n\nהדוח השנתי של HIVE לשנה שהסתיימה במרץ 2026, שנקרא באתר החברה, מאשר שחוזי רכישת החשמל של האתרים ולנסואלה ואיגואסו מסתיימים ב-31 בדצמבר 2027. לאחר מכן הפעילות תלויה במשא ומתן להארכה או בהסדר חלופי בתנאים מסחריים מקובלים. זהו תנאי קיים בדוח, לא הודעה חדשה על סגירה.\n\nבכתבת CoinDesk החדשה אמר נשיא פעילות HIVE בפרגוואי, גבריאל לאמאס, שהחברה מעריכה את השותפות עם חברת החשמל הממשלתית ANDE, אך לא תגיב לדיונים מסחריים נמשכים. החברה לא מסרה מה תעשה בציוד אם החוזים יפקעו, והגדירה זאת מצב היפותטי.\n\nלפי CoinDesk, ANDE מתכוונת לאפשר לחוזי הקריפטו המיוחדים לפקוע במועד הקיים. **לא נקראה הודעה רשמית חדשה של ANDE על החלטה זו.** הצעה של ארגון מהנדסי ANDE להגביל יחד כרייה, AI ומרכזי נתונים ל-700 מגה-ואט ולמכור חשמל במכרז במחיר בסיס של 56 דולר למגה-ואט-שעה היא הצעת הארגון, לא מדיניות מאומצת.\n\nהחידוש הוא דיווח מקורי על אי-הוודאות בהמשך אספקת החשמל ועל תגובת החברה למגעים, לא ביטול מיידי של הספק, איסור כרייה חדש או הוכחה שפעילות HIVE תיסגר בסוף 2027. אין כאן סיבה מאומתת לתנועת מניה.",
+    "טקסט_en": "CoinDesk published on November 14, 2026 at 01:30 Israel time and updated at 07:36.\n\nHIVE's annual report for the year ended March 2026, read on the company website, confirms that the Valenzuela and Yguazu power purchase agreements expire on December 31, 2027. Continued operation then depends on renegotiation or a replacement arrangement on commercially acceptable terms. This is an existing disclosed contract term, not a new shutdown announcement.\n\nIn the new CoinDesk report, HIVE Paraguay operations president Gabriel Lamas said the company values its partnership with state utility ANDE but would not comment on ongoing commercial discussions. HIVE did not say what it would do with its equipment if the contracts lapse, describing that scenario as hypothetical.\n\nCoinDesk reports that ANDE intends to let the special crypto contracts expire on the existing date. **A new original ANDE statement announcing that decision was not read.** A proposal from ANDE's engineers' association to cap mining, AI and data centers together at 700 megawatts and auction power with a $56-per-megawatt-hour floor is that association's proposal, not adopted policy.\n\nThe new information is original reporting on power-renewal uncertainty and the company's response to questions about the talks, not an immediate power cancellation, a new mining ban or proof that HIVE will shut its Paraguay operations at end-2027. No cause of a stock-price move is established.",
+    "קישור": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+    "מקורות": [
+      {
+        "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+        "label": "CoinDesk: כתבה מקורית ותגובת HIVE",
+        "label_en": "CoinDesk: original reporting and HIVE response"
+      },
+      {
+        "url": "https://www.hivedigitaltechnologies.com/medias/hivesite/reporting/06020226hive-fs.pdf",
+        "label": "HIVE: דוח שנתי 2026, חוזי חשמל בעמ׳ 17 וסיכונים בעמ׳ 32",
+        "label_en": "HIVE: FY2026 annual report, power contracts on p.17 and risks on p.32"
+      }
+    ],
+    "סימול": "HIVE",
+    "חברה": "HIVE Digital (HIVE)",
+    "מזהה": "n-1682",
+    "הועלה": "2026-11-15 12:44",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e172b47e1a571c88135a9712467b8c102a79d3a008bdf7908edf3a7a4dc25d3b"
+      }
+    }
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-14",
+    "כותרת": "לפי הקרמלין, טראמפ, שי ופוטין צפויים להיפגש בשנזן ב-19 בנובמבר; אין עדיין אישור סיני שנקרא",
+    "כותרת_en": "Kremlin says Trump, Xi and Putin plan a November 19 Shenzhen meeting; Chinese confirmation not verified",
+    "טקסט": "דיווח TASS מ-14.11.2026; שעת הפרסום המקורית לא אומתה.\n\n**לא נקראה הודעת ממשלה מקורית המאשרת את פרטי המפגש.** דובר הקרמלין דמיטרי פסקוב אמר ל-TASS שהושגה הסכמה לקיים מפגש משולש של נשיאי רוסיה, סין וארה״ב בשנזן ב-19 בנובמבר, בשולי פסגת APEC. סוכנות Anadolu דיווחה על אותה אמירה. זהו מפגש מתוכנן, לא שיחה שכבר התקיימה.\n\nAFP, בעותק המלא שנקרא ב-Sino Daily ב-15 בנובמבר, מדווחת שהבית הלבן הודיע על המפגש ביום שישי, בעוד שסין עדיין לא אישרה אותו באותו שלב. לפיכך אין להציג את הודעת הקרמלין כאישור פומבי עצמאי של כל שלושת הצדדים.\n\nלפי AFP, הבית הלבן אמר שהדיונים יכללו צמצום נשק גרעיני והמלחמה במזרח התיכון, אך לא את המלחמה באוקראינה. אלה נושאים מתוכננים לפי הדיווח, לא הסכמות או ויתורים. אין כאן עסקת סחר, הסרת סנקציות, הסכם שלום או השפעה מאומתת על מחירי אנרגיה.",
+    "טקסט_en": "TASS report dated November 14, 2026; its original publication hour was not verified.\n\n**An original government announcement confirming the meeting details was not read.** Kremlin spokesman Dmitry Peskov told TASS that an agreement had been reached for the Russian, Chinese and US presidents to hold a trilateral meeting in Shenzhen on November 19, on the sidelines of APEC. Anadolu reported the same remarks. This is a planned meeting, not talks that have already taken place.\n\nAFP, in a full report read through Sino Daily on November 15, says the White House announced the meeting on Friday while China had not yet confirmed it at that point. The Kremlin's announcement therefore is not independent public confirmation from all three sides.\n\nAccording to AFP, the White House said discussions would include nuclear arms reductions and the Middle East war, but not the war in Ukraine. These are reported agenda plans, not agreements or concessions. No trade deal, sanctions removal, peace agreement or verified energy-price effect is established.",
+    "קישור": "https://tass.com/politics/2218203",
+    "מקורות": [
+      {
+        "url": "https://tass.com/politics/2218203",
+        "label": "TASS: דברי פסקוב על תוכנית המפגש",
+        "label_en": "TASS: Peskov on the planned meeting"
+      },
+      {
+        "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290",
+        "label": "Anadolu: ייחוס לקרמלין ורקע ההכנות",
+        "label_en": "Anadolu: Kremlin attribution and planning context"
+      },
+      {
+        "url": "https://www.sinodaily.com/reports/261115032739.w3udvrcz.html",
+        "label": "AFP דרך Sino Daily: הודעת הבית הלבן ואישור סיני שטרם ניתן",
+        "label_en": "AFP via Sino Daily: White House announcement, no Chinese confirmation yet"
+      }
+    ],
+    "מזהה": "n-1683",
+    "הועלה": "2026-11-15 12:44",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "656501ea40854746d8dc2df731903b7b7794bdba74f8f9b41dc267a5b1a6de1b"
+      }
+    }
+  },
+  {
+    "category": "macro",
+    "תאריך": "2026-11-14",
+    "כותרת": "לפי Reuters ו-GasBuddy: ממוצע הדיזל בארה״ב ירד ל-5.998 דולר לגלון, מתחת ל-6 דולר לראשונה מאז ספטמבר",
+    "כותרת_en": "Reuters, citing GasBuddy: US diesel average slips to $5.998 a gallon, first sub-$6 reading since September",
+    "טקסט": "כתבת Reuters מתוארכת ל-14.11.2026; העותק מציג 20:22 ללא אזור זמן מאומת, ולכן לא הומרה השעה לישראל. הנתון מתייחס לשבת, לא למחיר חי כעת.\n\nReuters מדווחת, לפי שירות מעקב מחירי הדלק GasBuddy, שממוצע מחיר הדיזל הקמעונאי הארצי בארה״ב היה 5.998 דולר לגלון בשבת. לפי אותה כתבה זו הירידה הראשונה מתחת ל-6 דולר מזה כחודשיים, לאחר שהממוצע חצה את הרף ב-10 בספטמבר.\n\nהנתון שייך למדד של GasBuddy. אין להציג אותו כמדד רשמי ממשלתי, כמחיר בכל תחנה או כממוצע של כל ספקי המעקב. זו תמונת מחיר היסטורית, ואין להסיק ממנה לבדה ירידה זהה בעלויות כל חברת תחבורה, בתחזית האינפלציה או ברווחיות חברות האנרגיה. לא מיוחסת כאן התנועה להודעה מדינית מסוימת.",
+    "טקסט_en": "Reuters article dated November 14, 2026; the copy shows 20:22 without a verified timezone, so the hour was not converted to Israel time. The data concern Saturday, not a live price now.\n\nReuters reports, citing fuel-price tracker GasBuddy, that the US national average retail diesel price was $5.998 per gallon on Saturday. The article describes this as the first reading below $6 in about two months, after the average crossed that threshold on September 10.\n\nThis is GasBuddy's measure. It is not presented as an official government series, a price at every station or a common reading across all tracking providers. It is a historical price snapshot and does not by itself establish an equal reduction in every freight company's costs, an inflation forecast or energy-company profitability. No particular diplomatic announcement is identified here as the verified cause.",
+    "קישור": "https://www.investing.com/news/commodities-news/us-diesel-below-6-a-gallon-at-2month-low-on-easing-tensions-weaker-demand-5027622",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/commodities-news/us-diesel-below-6-a-gallon-at-2month-low-on-easing-tensions-weaker-demand-5027622",
+        "label": "Reuters דרך Investing.com: מחיר GasBuddy לשבת",
+        "label_en": "Reuters via Investing.com: Saturday GasBuddy price"
+      }
+    ],
+    "מזהה": "n-1684",
+    "הועלה": "2026-11-15 12:44",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bbd971b77433e91c2492715bc748d5f459a7719917dd28719b65cb2b656a1e84"
+      }
+    }
   }
 ]
