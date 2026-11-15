@@ -44348,34 +44348,40 @@
       }
     }
   },
-  [
-    {
-      "category": "micro",
-      "חברה": "Nexperia / Wingtech",
-      "חברה_en": "Nexperia / Wingtech",
-      "symbols": [],
-      "sectors": [
-        "information_technology"
-      ],
-      "tags_version": 1,
-      "תאריך": "2026-11-15 12:24",
-      "כותרת": "לפי Reuters, Wingtech מתכוונת לערער על צו הביניים ההולנדי בעניין Nexperia; אין ביטול של הצו",
-      "כותרת_en": "Reuters: Wingtech plans to appeal Dutch interim order over Nexperia; no reversal of the order",
-      "טקסט": "15.11.2026 | דיווח Reuters פורסם ב-05:24 EST, שהם 12:24 בישראל.\n\n**הודעת Wingtech לבורסה בשנגחאי והצו השיפוטי עצמם לא נקראו. פרטי עמדת Wingtech מיוחסים לדיווח Reuters, לא לאימות עצמאי של טענותיה המשפטיות.**\n\nבהמשך לדיווח הקודם על הצעדים הנוספים שניתנו ב-11 בנובמבר: Reuters מדווחת ש-Wingtech אמרה בהודעה שהוגשה לבורסה בשנגחאי ביום ראשון כי תערער על צו הביניים של בית המשפט בהולנד בעניין Nexperia. החברה טוענת שההחלטה חסרה בסיס עובדתי ומשפטי ומתערבת שלא כראוי בהליכים משפטיים המתנהלים בסין. אלה טענות Wingtech, לא ממצאים של בית משפט.\n\nהמידע החדש הוא עמדת Wingtech וכוונתה לערער. הדיווח אינו קובע שערעור כבר הוגש, שהתקבל עיכוב ביצוע או שהצו בוטל. הפריט הקודם תיאר את עמדת Nexperia ואת העובדה שלא התקבלה אז תגובת Wingtech.\n\nבהודעת Nexperia מ-12 בנובמבר, החברה תיארה הוראות לאי-הפרעה לפעילותה ולבעלי התפקיד שמונו בידי בית המשפט, ובכלל זה אפשרות לבחון עניין בשוק בפתרון ארוך טווח. כוונה לערער אינה עסקת מכירה, העברת שליטה שהושלמה או הסדר בין הצדדים. לא נקבע כאן שחזרו לשגרה הייצור או שרשרת האספקה, ולא מיוחסת תנועת מניה לאירוע.",
-      "טקסט_en": "November 15, 2026 | The Reuters report was published at 05:24 EST, or 12:24 in Israel.\n\n**Wingtech's Shanghai exchange announcement and the actual court order were not read. Wingtech's position is attributed to Reuters, not independently verified legal findings.**\n\nFollowing the earlier report on the additional measures issued November 11, Reuters reports that Wingtech said in a filing submitted to the Shanghai Stock Exchange on Sunday that it will appeal the Dutch court's interim order over Nexperia. The company argues that the decision lacks a factual and legal basis and improperly interferes with judicial proceedings in China. Those are Wingtech's allegations, not findings by a court.\n\nThe new information is Wingtech's response and intention to appeal. The report does not establish that an appeal has already been filed, that enforcement has been stayed or that the order has been reversed. The earlier item described Nexperia's position and said Wingtech's response had not then been obtained.\n\nIn its November 12 statement, Nexperia described non-interference orders protecting its operations and court-appointed officials, including their ability to explore market interest in a long-term solution. An intention to appeal is not a sale, completed transfer of control or settlement between the parties. No restoration of normal production or supply chains, or causal link to a share-price move, is established here.",
-      "קישור": "https://www.streetinsider.com/Reuters/Wingtech+says+it+will+appeal+Dutch+courts+order+in+Nexperia+dispute/27346281.html",
-      "מקורות": [
-        {
-          "url": "https://www.streetinsider.com/Reuters/Wingtech+says+it+will+appeal+Dutch+courts+order+in+Nexperia+dispute/27346281.html",
-          "label": "Reuters דרך StreetInsider: כוונת Wingtech לערער, 15 בנובמבר",
-          "label_en": "Reuters via StreetInsider: Wingtech's intention to appeal, November 15"
-        },
-        {
-          "url": "https://www.nexperia.com/about/news-events/press-releases/Statement-from-Nexperia-12-11-26",
-          "label": "Nexperia: הודעת 12 בנובמבר על הצעדים, כרקע לעמדת החברה",
-          "label_en": "Nexperia: November 12 statement on the measures, company-position background"
-        }
-      ]
+  {
+    "category": "micro",
+    "חברה": "Nexperia / Wingtech",
+    "חברה_en": "Nexperia / Wingtech",
+    "symbols": [],
+    "sectors": [
+      "information_technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-15 12:24",
+    "כותרת": "לפי Reuters, Wingtech מתכוונת לערער על צו הביניים ההולנדי בעניין Nexperia; אין ביטול של הצו",
+    "כותרת_en": "Reuters: Wingtech plans to appeal Dutch interim order over Nexperia; no reversal of the order",
+    "טקסט": "15.11.2026 | דיווח Reuters פורסם ב-05:24 EST, שהם 12:24 בישראל.\n\n**הודעת Wingtech לבורסה בשנגחאי והצו השיפוטי עצמם לא נקראו. פרטי עמדת Wingtech מיוחסים לדיווח Reuters, לא לאימות עצמאי של טענותיה המשפטיות.**\n\nבהמשך לדיווח הקודם על הצעדים הנוספים שניתנו ב-11 בנובמבר: Reuters מדווחת ש-Wingtech אמרה בהודעה שהוגשה לבורסה בשנגחאי ביום ראשון כי תערער על צו הביניים של בית המשפט בהולנד בעניין Nexperia. החברה טוענת שההחלטה חסרה בסיס עובדתי ומשפטי ומתערבת שלא כראוי בהליכים משפטיים המתנהלים בסין. אלה טענות Wingtech, לא ממצאים של בית משפט.\n\nהמידע החדש הוא עמדת Wingtech וכוונתה לערער. הדיווח אינו קובע שערעור כבר הוגש, שהתקבל עיכוב ביצוע או שהצו בוטל. הפריט הקודם תיאר את עמדת Nexperia ואת העובדה שלא התקבלה אז תגובת Wingtech.\n\nבהודעת Nexperia מ-12 בנובמבר, החברה תיארה הוראות לאי-הפרעה לפעילותה ולבעלי התפקיד שמונו בידי בית המשפט, ובכלל זה אפשרות לבחון עניין בשוק בפתרון ארוך טווח. כוונה לערער אינה עסקת מכירה, העברת שליטה שהושלמה או הסדר בין הצדדים. לא נקבע כאן שחזרו לשגרה הייצור או שרשרת האספקה, ולא מיוחסת תנועת מניה לאירוע.",
+    "טקסט_en": "November 15, 2026 | The Reuters report was published at 05:24 EST, or 12:24 in Israel.\n\n**Wingtech's Shanghai exchange announcement and the actual court order were not read. Wingtech's position is attributed to Reuters, not independently verified legal findings.**\n\nFollowing the earlier report on the additional measures issued November 11, Reuters reports that Wingtech said in a filing submitted to the Shanghai Stock Exchange on Sunday that it will appeal the Dutch court's interim order over Nexperia. The company argues that the decision lacks a factual and legal basis and improperly interferes with judicial proceedings in China. Those are Wingtech's allegations, not findings by a court.\n\nThe new information is Wingtech's response and intention to appeal. The report does not establish that an appeal has already been filed, that enforcement has been stayed or that the order has been reversed. The earlier item described Nexperia's position and said Wingtech's response had not then been obtained.\n\nIn its November 12 statement, Nexperia described non-interference orders protecting its operations and court-appointed officials, including their ability to explore market interest in a long-term solution. An intention to appeal is not a sale, completed transfer of control or settlement between the parties. No restoration of normal production or supply chains, or causal link to a share-price move, is established here.",
+    "קישור": "https://www.streetinsider.com/Reuters/Wingtech+says+it+will+appeal+Dutch+courts+order+in+Nexperia+dispute/27346281.html",
+    "מקורות": [
+      {
+        "url": "https://www.streetinsider.com/Reuters/Wingtech+says+it+will+appeal+Dutch+courts+order+in+Nexperia+dispute/27346281.html",
+        "label": "Reuters דרך StreetInsider: כוונת Wingtech לערער, 15 בנובמבר",
+        "label_en": "Reuters via StreetInsider: Wingtech's intention to appeal, November 15"
+      },
+      {
+        "url": "https://www.nexperia.com/about/news-events/press-releases/Statement-from-Nexperia-12-11-26",
+        "label": "Nexperia: הודעת 12 בנובמבר על הצעדים, כרקע לעמדת החברה",
+        "label_en": "Nexperia: November 12 statement on the measures, company-position background"
+      }
+    ],
+    "מזהה": "n-1685",
+    "הועלה": "2026-11-15 13:01",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f6cfb2ee24acb366f23f1840a098d00696737917df8929c6cfd9bcde19dd2f8a"
+      }
     }
-  ]
+  }
 ]
