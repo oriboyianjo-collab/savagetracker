@@ -44095,5 +44095,29 @@
         "source_hash": "327bf26f9b76fca4fd95efed4cf48e06746fdcb25c639ae32af6390104b55842"
       }
     }
+  },
+  {
+    "category": "macro",
+    "כותרת": "לא מאומת מול מקור ראשוני | Reuters: ביטקוין ירד בכ-5.3% לכ-64,734 דולר בשבת",
+    "כותרת_en": "Not verified against a primary source | Reuters: Bitcoin fell about 5.3% to around $64,734 on Saturday",
+    "תאריך": "2026-11-14 23:05",
+    "קישור": "https://www.marketscreener.com/news/bitcoin-falls-around-5-3-to-64-734-ce785ededd8ef722",
+    "מקורות": [
+      {
+        "label": "Reuters דרך MarketScreener: כותרת הדיווח ושעת הפרסום",
+        "label_en": "Reuters via MarketScreener: wire headline and publication time",
+        "url": "https://www.marketscreener.com/news/bitcoin-falls-around-5-3-to-64-734-ce785ededd8ef722"
+      }
+    ],
+    "טקסט": "**לא מאומת מול מקור ראשוני**\n14.11.2026, 23:05 בישראל | כותרת דיווח Reuters דרך MarketScreener, שפורסמה ב-16:05 לפי שעון החוף המזרחי בארה\"ב.\n\nלפי הדיווח, ביטקוין ירד בכ-5.3% לכ-64,734 דולר במהלך המסחר בשבת. זהו נתון נקודתי ממועד הדיווח, לא מחיר נוכחי ולא שער סגירה יומי. נתון המחיר והשינוי לא נבדקו ישירות מול בורסת מסחר או ספק נתוני השוק המקורי.",
+    "טקסט_en": "**Not verified against a primary source**\nNovember 14, 2026, 23:05 Israel time | Reuters wire headline via MarketScreener, published at 16:05 EST.\n\nReuters reported that Bitcoin fell about 5.3% to around $64,734 during Saturday trading. This is a snapshot from the time of the report, not a current price or daily closing price. The price and percentage change were not checked directly against an exchange or the original market-data provider.",
+    "מזהה": "n-1677",
+    "הועלה": "2026-11-15 12:04",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3448fca408cd8847221d8880d7a6602331444befe8c407fadacb3b54da549427"
+      }
+    }
   }
 ]
