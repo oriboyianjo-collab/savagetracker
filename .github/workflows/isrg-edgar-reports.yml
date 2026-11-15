@@ -1,0 +1,52 @@
+name: isrg-edgar-reports
+# ISRG-only. Pulls official SEC EDGAR filings under the fair-access policy and updates
+# report-links-pilot.json when a new validated period appears. Never touches
+# reports.json, news.json, calendar.json, or secrets. Uses the built-in GITHUB_TOKEN only.
+# Fair access: declared User-Agent, official data.sec.gov / www.sec.gov hosts, ~1.6 req/s,
+# stop on 403/429 with no workarounds. See sec-report-tool/README.md.
+on:
+  schedule:
+    # Four times on weekdays, UTC, away from the fundamentals EDGAR windows (05:25, 21:55 UTC).
+    - cron: '10 1,7,13,19 * * 1-5'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: isrg-edgar-reports
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: run ISRG EDGAR pipeline
+        working-directory: sec-report-tool
+        env:
+          PYTHONPATH: .
+        run: |
+          set -euo pipefail
+          stamp=$(date -u +%Y%m%dT%H%M%SZ)
+          as_of=$(date -u +%F)
+          mkdir -p logs state/isrg
+          python3 -m unittest -q
+          python3 run_isrg.py \
+            --output state/isrg \
+            --clear-stale-hold \
+            --as-of "$as_of" \
+            --log "logs/isrg-$stamp.jsonl" \
+            --app-output ../report-links-pilot.json \
+            --cache "$RUNNER_TEMP/isrg-edgar-cache"
+          python3 verify_isrg.py
+          cp "logs/isrg-$stamp.jsonl" logs/isrg-latest.jsonl
+      - name: commit if the published index changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add report-links-pilot.json sec-report-tool/logs sec-report-tool/state/isrg/pipeline-state.json sec-report-tool/state/isrg/candidate-index.json sec-report-tool/logs/isrg-mapping.md
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Update ISRG EDGAR report links"
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break || sleep 5; done

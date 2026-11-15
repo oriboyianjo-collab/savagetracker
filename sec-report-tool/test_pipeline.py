@@ -21,12 +21,12 @@ class Tests(unittest.TestCase):
  def valid(self):
   self.f.put(ROOT,submissions([row()]));p=self.pipe();self.f.put(p.document_url(row()),html().encode());return self.pipe()
  def test_default_no_network(self):self.assertEqual(Pipeline(self.out).run()['status'],'held')
- def test_expected_28(self):self.assertEqual(len(expected('2026-11-15')),28)
+ def test_expected_28(self):self.assertEqual(len(expected('2026-11-15')),33)
  def test_future_excluded(self):self.assertNotIn((2026,'Q4'),expected('2026-11-15'));self.assertNotIn((2026,'FY'),expected('2026-11-15'))
  def test_valid_identity_period(self):
   p=self.valid();r=p.run()['result'];self.assertIn('FY',r['buttons']['ISRG']['2025']);self.assertFalse(r['history_complete']);self.assertFalse(r['live_connected'])
  def test_resume_idempotent(self):
-  p=self.valid();p.run();state=(self.out/'state.json').read_bytes();p=self.pipe();p.run();self.assertEqual(state,(self.out/'state.json').read_bytes());self.assertEqual(p.transport.calls,[])
+  p=self.valid();p.run();state=(self.out/'pipeline-state.json').read_bytes();p=self.pipe();p.run();self.assertEqual(state,(self.out/'pipeline-state.json').read_bytes());self.assertEqual(p.transport.calls,[])
  def test_recursive_pages_bounded(self):
   u='https://data.sec.gov/submissions/CIK0001035267-submissions-001.json';self.f.put(ROOT,submissions([], [{'name':u.rsplit('/',1)[1]}]));self.f.put(u,submissions([row()]));p=self.pipe();p.discover(1);self.assertEqual(len(p.state['queue']),1);p=self.pipe();p.discover(1);self.assertEqual(len(p.state['queue']),0);self.assertEqual(len(p.state['filings']),1)
  def test_hash_mismatch(self):
@@ -52,7 +52,7 @@ class Tests(unittest.TestCase):
  def test_amendment_not_blind_latest(self):
   rs=[row(),row(2,form='10-K/A')];self.f.put(ROOT,submissions(rs));p=self.pipe()
   for r in rs:self.f.put(p.document_url(r),html(form=r['form'],amend='true'if r['form'].endswith('/A')else'false').encode())
-  r=self.pipe().run()['result'];self.assertEqual(r['ledger'][20]['status'],'held_amendment_scope');self.assertNotIn('2025',r['buttons']['ISRG'])
+  r=self.pipe().run()['result'];self.assertEqual(r['ledger'][25]['status'],'linked_original_amendment_held');self.assertEqual(r['buttons']['ISRG']['2025']['FY'],p.document_url(row()))
  def test_last_good_unchanged_on_failure(self):
   self.out.mkdir();atomic(self.out/'last-good-index.json',{'prior':'good'});b=(self.out/'last-good-index.json').read_bytes();Pipeline(self.out).run();self.assertEqual(b,(self.out/'last-good-index.json').read_bytes())
  def test_last_good_not_overwritten_by_partial(self):
@@ -128,7 +128,7 @@ class TransportMechanics(unittest.TestCase):
    calls=[];delays=[]
    def opener(req,**k):calls.append(req);return Response(req.full_url)
    t=LockedSecTransport(d,opener=opener,clock=lambda:100.,sleeper=delays.append);a=t._implementation_under_test(ROOT,'Synthetic test@example.invalid');b=t._implementation_under_test(ROOT,'Synthetic test@example.invalid');self.assertEqual(len(calls),1);self.assertEqual(a,b)
-   t._implementation_under_test(ROOT.replace('.json','-submissions-001.json'),'Synthetic test@example.invalid');self.assertEqual(len(calls),2);self.assertEqual(delays,[1.0])
+   t._implementation_under_test(ROOT.replace('.json','-submissions-001.json'),'Synthetic test@example.invalid');self.assertEqual(len(calls),2);self.assertEqual(delays,[0.6])
  def test_redirect_stop(self):
   class Response:
    status=200
@@ -181,4 +181,33 @@ class FairQueue(unittest.TestCase):
   self.f.put(ROOT,submissions([row()]));p=self.pipe();p.discover();p.collect(1);p=self.pipe();self.assertEqual(p.collect(1)['attempts'],0);p.begin_refresh();self.assertEqual(p.collect(1)['attempts'],1)
  def test_q4_progress_behind_missing(self):
   rs=[row(i)for i in range(1,4)]+[row(4,form='8-K',end='2026-01-27')];self.f.put(ROOT,submissions(rs));p=self.pipe();u=p.document_url(rs[3]);self.f.put(u,(html(form='8-K')+'Item 2.02 <a href="results.htm">Exhibit 99.1</a>').encode());self.f.put(u.rsplit('/',1)[0]+'/results.htm',b'<h1>Intuitive Surgical Announces Fourth Quarter and Full Year 2025 Financial Results</h1><p>December 31, 2025</p>');p=self.pipe();p.discover();p.collect(3);p=self.pipe();r=p.collect(2);self.assertEqual(r['processed'],1);self.assertEqual(r['attempts'],2);self.assertIn(acc(4),p.state['documents'])
+
+
+class LiveActivation(unittest.TestCase):
+    def setUp(self):
+        self.tmp=tempfile.TemporaryDirectory();self.r=Path(self.tmp.name)
+    def tearDown(self):
+        self.tmp.cleanup()
+    def test_stale_hold_cleared(self):
+        out=self.r/'run';out.mkdir();atomic(out/'pipeline-state.json',{'version':1,'as_of':'2026-11-15','queue':[ROOT],'pages':{},'filings':{},'documents':{},'errors':[],'access_held':True,'access_held_reason':'SEC acquisition disabled: prior access hold unresolved; no request sent'})
+        p=Pipeline(out,transport=DisabledTransport())
+        self.assertTrue(p.clear_stale_hold());self.assertFalse(p.state.get('access_held'))
+    def test_403_hold_not_cleared_as_stale(self):
+        out=self.r/'run';out.mkdir();atomic(out/'pipeline-state.json',{'version':1,'as_of':'2026-11-15','queue':[ROOT],'pages':{},'filings':{},'documents':{},'errors':[],'access_held':True,'access_held_reason':'HTTP 403; stopped per fair-access policy, no circumvention'})
+        p=Pipeline(out,transport=DisabledTransport())
+        self.assertFalse(p.clear_stale_hold());self.assertTrue(p.state.get('access_held'))
+    def test_history_includes_2020(self):
+        slots=expected('2026-11-15')
+        self.assertIn((2020,'FY'),slots);self.assertIn((2020,'Q1'),slots);self.assertIn((2026,'Q3'),slots)
+        self.assertNotIn((2019,'FY'),slots)
+    def test_publish_app_edgar_only(self):
+        out=self.r/'run';p=Pipeline(out,live=True)
+        p.state['documents']={'0001035267-26-000001':{'accession':'0001035267-26-000001','form':'10-K','year':2025,'period':'FY','period_end':'2025-12-31','filed':'2026-02-03','url':'https://www.sec.gov/Archives/edgar/data/1035267/000103526726000001/isrg-report.htm','sha256':'0'*64,'amended':False,'full_restatement':False,'provenance':{'kind':'retained_sec'},'status':'validated_period_identity'}}
+        dest=self.r/'report-links-pilot.json';doc=p.publish_app(dest)
+        self.assertTrue(doc['live_connected']);self.assertEqual(doc['source_status'],'edgar_live')
+        self.assertEqual(doc['reports']['2025']['FY'],'https://www.sec.gov/Archives/edgar/data/1035267/000103526726000001/isrg-report.htm')
+        self.assertEqual(json.loads(dest.read_text())['symbol'],'ISRG')
+    def test_expected_default_as_of_stable(self):
+        self.assertEqual(Pipeline(self.r/'x').as_of,'2026-11-15')
+
 if __name__=='__main__':unittest.main(verbosity=2)

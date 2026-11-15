@@ -6,3 +6,8 @@
 state*.json
 shot-*.png
 private*/
+
+# SEC tool: do not commit downloaded filing bodies or bytecode
+sec-report-tool/**/__pycache__/
+sec-report-tool/**/cache/
+sec-report-tool/**/*.pyc
