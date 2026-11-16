@@ -47393,5 +47393,45 @@
         "source_hash": "f90159368f891ef51c21bbda6483c3f8353aa6e69b38266cacb9daa7455a1e4c"
       }
     }
+  },
+  {
+    "מזהה": "n-1771",
+    "category": "micro",
+    "חברה": "NOK",
+    "symbols": [
+      "NOK"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:41",
+    "הועלה": "2026-11-16 11:41",
+    "כותרת": "Nokia (NOK): לפי העתק הודעת החברה, הושלמו תנאי רישיון הפטנטים הרב-שנתי עם ASUS ויושבו ההליכים הקשורים",
+    "כותרת_en": "Nokia (NOK): company-release reproduction says ASUS multi-year patent-license terms finalized and related litigation resolved",
+    "קישור": "https://ae.marketscreener.com/news/nokia-oyj-signs-patent-license-agreement-with-asus-ce785eded088f224",
+    "מקורות": [
+      {
+        "url": "https://ae.marketscreener.com/news/nokia-oyj-signs-patent-license-agreement-with-asus-ce785eded088f224",
+        "label": "MarketScreener: העתק הודעת Nokia מ-16 בנובמבר",
+        "label_en": "MarketScreener: reproduction of November 16 Nokia release"
+      },
+      {
+        "url": "https://www.nokia.com/blog/innovation-leadership-drives-nokias-patent-licensing-progress-in-2026/",
+        "label": "Nokia: עדכון קודם על רישיון ASUS ובוררות לתנאיו",
+        "label_en": "Nokia: earlier ASUS license and arbitration update"
+      },
+      {
+        "url": "https://www.nokia.com/blog/video-innovation-behind-todays-tvs-and-pcs-why-fair-licensing-matters/",
+        "label": "Nokia: הקשר מספטמבר על הבוררות בקיץ",
+        "label_en": "Nokia: September context on summer arbitration"
+      }
+    ],
+    "טקסט": "16.11.2026 | העתק הודעת Nokia ב-MarketScreener. **שעת ההודעה המקורית בישראל לא אומתה.** **לא מאומת מול מקור ראשוני**: ההודעה החדשה נקראה בהעתק חיצוני; הודעות קודמות באתר Nokia מאמתות את הרקע בלבד.\n\nלפי ההעתק, Nokia השלימה עם ASUS את תנאיו של הסכם רישיון פטנטים רב-שנתי לשימוש בטכנולוגיות הווידאו של Nokia במכשירי ASUS. עוד נכתב כי כל ההליכים המשפטיים הקשורים לפטנטים בין שתי החברות יושבו. תנאי ההסכם חסויים בהסכמת הצדדים.\n\n**זו אינה חתימה ראשונה על רישיון ASUS.** בעדכון קודם באתר Nokia כבר נכתב כי נחתם רישיון וכי הצדדים הסכימו לבוררות מחייבת לקביעת תנאים מסוימים, עם השהיה או משיכה של ההליכים הקשורים. פוסט נוסף של Nokia מ-2 בספטמבר תיאר את הסכמת ASUS לבוררות בקיץ. החידוש המדווח כעת הוא השלמת התנאים ויישוב כל ההליכים הקשורים, מעבר למצב הבוררות הקודם.\n\nהשלמת התנאים וסיום המחלוקת, אם הדיווח משקף את ההודעה המקורית במדויק, מסירים אי-ודאות משפטית וחוזית סביב רישיון קיים בתחום פטנטי הווידאו. לא פורסמו סכום העסקה, שיעורי תמלוגים, מספר שנות הרישיון או השפעה כספית. אין להסיק מכך הכנסה חדשה בסכום מסוים או פסק בוררות שפרטיו לא נמסרו.",
+    "טקסט_en": "November 16, 2026 | Nokia release reproduced by MarketScreener. **Original announcement time in Israel not verified.** **Not verified against a primary source**: the new announcement was read in an external reproduction; earlier Nokia-site posts confirm only the background.\n\nAccording to the reproduction, Nokia finalized the terms of a multi-year patent license agreement with ASUS covering Nokia video technologies in ASUS devices. It also says all related patent litigation between the companies has been resolved. The agreement's terms are confidential by mutual agreement.\n\n**This is not ASUS's first license signing.** An earlier Nokia-site update already said the parties had signed a license and agreed to binding arbitration to determine certain terms, with related litigation to be paused or withdrawn. A September 2 Nokia post separately described ASUS agreeing to arbitration during the summer. The reported new development is completion of the terms and resolution of all related litigation, beyond the previous arbitration stage.\n\nIf the reproduction accurately reflects the original release, finalized terms and resolution of the dispute remove legal and contractual uncertainty around an existing video-patent license. No deal value, royalty rates, exact license duration or financial impact was disclosed. No specific new revenue amount or undisclosed arbitration award can be inferred.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d995c2129387faca8b03f58fb1cbdf3786f951707123426e8a3dd19939da9335"
+      }
+    }
   }
 ]
