@@ -48509,5 +48509,68 @@
         "source_hash": "2b96a80c1a5bddce418deef0166dd0221e15b77e3ea1c9251fc472f599f2797d"
       }
     }
+  },
+  {
+    "מזהה": "n-1808",
+    "category": "micro",
+    "חברה": "AMZN",
+    "symbols": [
+      "AMZN",
+      "BX",
+      "BXDC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:13",
+    "הועלה": "2026-11-16 14:13",
+    "כותרת": "BXDC חתמה לרכישת 75% משני מיזמי מרכזי נתונים עם AWS בעסקה של כ-5 מיליארד דולר; אמזון תחכור את כל הפורטפוליו",
+    "כותרת_en": "BXDC agrees to acquire 75% of two AWS data-center ventures in a roughly $5 billion transaction; Amazon to lease the entire portfolio",
+    "קישור": "https://www.businesswire.com/news/home/20261115127759/en/Blackstone-Digital-Infrastructure-Trust-Announces-%245-Billion-Acquisition-of-Stabilized-Data-Center-Portfolio",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261115127759/en/Blackstone-Digital-Infrastructure-Trust-Announces-%245-Billion-Acquisition-of-Stabilized-Data-Center-Portfolio",
+        "label": "הודעת Blackstone Digital Infrastructure Trust דרך Business Wire",
+        "label_en": "Blackstone Digital Infrastructure Trust release via Business Wire"
+      }
+    ],
+    "טקסט": "16.11.2026 | נוסח הודעת BXDC המלא דרך Business Wire נקרא. שעת הפרסום המקורית לא נמסרה בנוסח שנבדק; אין להסיק אותה מהתאריך שבכתובת הקישור.\n\nBlackstone Digital Infrastructure Trust הודיעה שחתמה על הסכם מחייב לרכישת החזקה של 75% בשני מיזמים משותפים עם Amazon Web Services. שווי העסקה המדווח הוא כ-5 מיליארד דולר, בשיעור היוון התחלתי של 7%. זהו נתון תמחור של נכסי הנדל\"ן, לא תשואה כוללת מובטחת למשקיע.\n\nהמיזמים יחזיקו 13 מבני מרכזי נתונים חדשים המחוברים לחשמל בשני קמפוסים של AWS. אמזון תשמור על 25% במיזמים ותחכור בחזרה 100% מהפורטפוליו בחכירה מסוג triple-net. התקופה הראשונית היא 12 שנים, ועד 32 שנים במימוש מלוא ההארכות; אין להציג 32 שנים כתקופה ראשונית מחייבת.\n\nBXDC צופה השלמה ברבעון הרביעי של 2026, בכפוף לתנאי סגירה. זו השקעתה הראשונה של BXDC והסכם שטרם הושלם, לא אישור להעברת הנכסים שכבר התבצעה. BXDC מנוהלת חיצונית בידי חברה קשורה ל-Blackstone, והיא אינה מניית BX עצמה.\n\nעסקת הרכישה והחכירה אינה הכרזה על השקעה הונית חדשה של אמזון בהיקף 5 מיליארד דולר. ההודעה אינה מפרטת הכנסות חדשות של AWS, קיבולת מחשוב במגה-ואט או מיקומים גאוגרפיים של שני הקמפוסים; פרטים אלה אינם מושלמים מדיווח חלקי או מהשערה.",
+    "טקסט_en": "November 16, 2026 | The complete BXDC release via Business Wire was read. The text checked did not provide an original publication time; none is inferred from the date embedded in the URL.\n\nBlackstone Digital Infrastructure Trust said it signed a definitive agreement to acquire a 75% interest in two joint ventures with Amazon Web Services. The reported transaction value is approximately $5 billion, reflecting an initial capitalization rate of 7%. That is a property-pricing measure, not a guaranteed total investment return.\n\nThe ventures will own 13 newly constructed powered shells across two AWS campuses. AWS will retain 25% of the ventures and lease back 100% of the portfolio on a triple-net basis. The initial lease term is 12 years, or 32 years if fully extended; 32 years is not the initial committed term.\n\nBXDC expects closing in Q4 2026, subject to closing conditions. This is BXDC's inaugural investment and a pending agreement, not confirmation that the asset transfer has already occurred. BXDC is externally managed by a Blackstone affiliate and is not the same stock as BX.\n\nThe acquisition and leaseback are not an announcement of $5 billion in new Amazon capital expenditure. The release does not specify new AWS revenue, computing capacity in megawatts or the two campuses' geographic locations. Those details are not supplied from a partial report or inference.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "044057858247e252400f35723bb4353987595c7feb63ed787a96b2300975c224"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1809",
+    "category": "micro",
+    "חברה": "BRK.B",
+    "symbols": [
+      "BRK.A",
+      "BRK.B"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:13",
+    "הועלה": "2026-11-16 14:13",
+    "כותרת": "Berkshire: באפט מתכנן להמיר 6,150 מניות A ל-9.225 מיליון מניות B ולתרום אותן לארבע קרנות משפחתיות",
+    "כותרת_en": "Berkshire: Buffett to convert 6,150 A shares into 9.225 million B shares and donate them to four family foundations",
+    "קישור": "https://www.businesswire.com/news/home/20261116814488/en/Berkshire-Hathaway-Inc.-News-Release",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261116814488/en/Berkshire-Hathaway-Inc.-News-Release",
+        "label": "הודעת Berkshire Hathaway דרך Business Wire: המרה ותרומת מניות",
+        "label_en": "Berkshire Hathaway release via Business Wire: share conversion and gifts"
+      }
+    ],
+    "טקסט": "16.11.2026 | הודעת Berkshire Hathaway המלאה דרך Business Wire נקראה. שעת הפרסום המקורית לא נמסרה בנוסח שנבדק.\n\nBerkshire מסרה שוורן באפט ימיר 6,150 מניות Class A ל-9,225,000 מניות Class B ויתרום אותן לארבע קרנות משפחתיות. זו הודעה על המרה ותרומה של מניות בבעלותו, לא מכירת מניות לציבור או גיוס הון חדש לחברה.\n\nלפי החלוקה שפורסמה, 3,690,000 מניות יועברו ל-Susan Thompson Buffett Foundation ו-1,845,000 מניות לכל אחת מהקרנות Sherwood, Howard G. Buffett ו-NoVo. אין כאן תמורת מכירה ש-Berkshire אמורה לקבל.\n\nלאחר התרומות, החזקתו של באפט אמורה לעמוד על 182,140 מניות Class A ו-1,162 מניות Class B. אלה יתרות צפויות לאחר ההעברה המתוארת, לא הודעה שמכר את מלוא החזקתו או עזב את החברה היום. הנוסח נוקט לשון עתיד לגבי ההמרה והתרומה, ולכן אין בו אישור נפרד להשלמת כל ההעברות.\n\nהחברה לא פרסמה במסגרת ההודעה תוצאות כספיות חדשות, שינוי בתחזית העסקית או עסקת רכישה. הדברים האישיים של באפט על תרומות והכרת תודה אינם מוצגים כאן כתחזית לשוק או כתשואה למשקיעים.",
+    "טקסט_en": "November 16, 2026 | The complete Berkshire Hathaway release via Business Wire was read. The text checked did not provide an original publication time.\n\nBerkshire said Warren Buffett will convert 6,150 Class A shares into 9,225,000 Class B shares and donate them to four family foundations. This concerns conversion and gifts of shares he owns, not a public share sale or new capital raising by Berkshire.\n\nThe announced allocation is 3,690,000 shares to the Susan Thompson Buffett Foundation and 1,845,000 shares each to the Sherwood Foundation, the Howard G. Buffett Foundation and NoVo Foundation. Berkshire is not receiving sale proceeds from the gifts.\n\nFollowing the donations, Buffett's holdings are to consist of 182,140 Class A shares and 1,162 Class B shares. These are expected post-transfer balances, not an announcement that he sold his entire holding or left the company today. The release uses future tense for the conversion and donations, so it is not separate confirmation that every transfer has been completed.\n\nThe release does not announce new financial results, a change in business guidance or an acquisition. Buffett's personal comments about giving and gratitude are not presented as a market forecast or investment return.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a88c4b0050a6e5f1584dffffdbf2bf32f493b47b35734c32fd780240d65551d9"
+      }
+    }
   }
 ]
