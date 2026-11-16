@@ -51668,5 +51668,68 @@
         "source_hash": "6f8855e8b2873b4c079af64c8e691a955419b6bcd7c6dc0c805249b0d76e7815"
       }
     }
+  },
+  {
+    "מזהה": "n-1910",
+    "category": "micro",
+    "חברה": "Visa / Global Payments (V / GPN)",
+    "חברה_en": "Visa / Global Payments (V / GPN)",
+    "symbols": [
+      "V",
+      "GPN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:03",
+    "הועלה": "2026-11-16 17:03",
+    "כותרת": "פורסם באיחור | Visa ורשות שדות התעופה בהונג קונג הכריזו על מודול תשלומי מטען; ההפעלה בדצמבר 2026",
+    "כותרת_en": "Published late | Visa and Hong Kong airport authority announce cargo payment module for December 2026",
+    "קישור": "https://markets.ft.com/data/announce/detail?dockey=600-202611160745DGAP____ASPR_____corporate_2435832_en-1",
+    "מקורות": [
+      {
+        "url": "https://markets.ft.com/data/announce/detail?dockey=600-202611160745DGAP____ASPR_____corporate_2435832_en-1",
+        "label": "הודעת Visa דרך EQS/FT, בהפצת Media OutReach",
+        "label_en": "Visa announcement via EQS/FT, distributed by Media OutReach"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 16.11.2026. הודעת החברה ב-FT נושאת חותמת 12:45 GMT, שהם 14:45 בישראל; זו חותמת ההפצה המוצגת שם, ולא אימות לשעת ההפצה הראשונה בכל המקורות.\n\nVisa ורשות שדות התעופה בהונג קונג (AAHK) הכריזו על Visa Cargo Solutions, פתרון המחבר נתוני מטען מאומתים לתשלומים בכרטיסים מסחריים באמצעות מודול התשלומים של HKIA Cargo Data Platform.\n\n**הפעלת מודול התשלומים מתוכננת לדצמבר 2026, ולא מדווחת כהפעלה מלאה שכבר התרחשה היום.** לפי ההודעה, ב-18 החודשים הראשונים מההשקה יתאפשרו במודול תשלומי כרטיסים באמצעות Visa בלבד.\n\nShanghai Commercial Bank ו-Lakala הן שותפות ההנפקה, ו-Global Payments היא שותפת הסליקה והעיבוד. לעסקים זכאים מוצעים עד 85 ימים לתשלום, בעוד שמקבלי הכסף יוכלו לקבלו כבר כעבור שלושה ימים לאחר עמידה בתנאי התשלום. אלה תנאים מותנים ותקרות שירות, לא הבטחה לכל עסק או תשלום.\n\nהפתרון מיועד למשלחי מטענים בהונג קונג, על בסיס אימות פעילות משלוחים ונתונים בזמן אמת. ההודעה אינה מוסרת היקף הכנסות, חוזה כספי מובטח או תחזית חדשה ל-Visa או ל-Global Payments.",
+    "טקסט_en": "Published late | November 16, 2026. The company announcement on FT is timestamped 12:45 GMT, 14:45 in Israel. That is the distribution time displayed there, not verification of the earliest publication across all sources.\n\nVisa and Airport Authority Hong Kong (AAHK) announced Visa Cargo Solutions, connecting verified cargo data to commercial-card payments through the HKIA Cargo Data Platform's Payment Module.\n\n**The Payment Module is scheduled to launch in December 2026. This is not a report that full operation began today.** The announcement says card payments in the module will be exclusive to Visa for the first 18 months after launch.\n\nShanghai Commercial Bank and Lakala are issuing partners, while Global Payments is the acquiring and processing partner. Eligible payers can access up to 85 days to pay, and recipients can receive funds in as few as three days once payment conditions are met. These are conditional service terms and limits, not guarantees for every business or transaction.\n\nThe offering targets Hong Kong freight forwarders, using shipment verification and real-time data. The announcement provides no revenue amount, guaranteed financial contract value or new guidance for Visa or Global Payments.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1684d027385f08431c487362c964248f76769f4468d6240274611696f4c16e1f"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1911",
+    "category": "micro",
+    "חברה": "Medtronic (MDT)",
+    "חברה_en": "Medtronic (MDT)",
+    "symbols": [
+      "MDT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:03",
+    "הועלה": "2026-11-16 17:03",
+    "כותרת": "Medtronic הודיעה על המקרים הקליניים הראשונים באירופה עם Stealth AXiS לניתוחי אף-אוזן-גרון",
+    "כותרת_en": "Medtronic reports first European ENT clinical cases using Stealth AXiS navigation",
+    "קישור": "https://news.medtronic.com/Medtronic-Announces-First-ENT-Clinical-Cases-using-Stealth-AXiS-TM-ENT-Navigation-System-in-Europe",
+    "מקורות": [
+      {
+        "url": "https://news.medtronic.com/Medtronic-Announces-First-ENT-Clinical-Cases-using-Stealth-AXiS-TM-ENT-Navigation-System-in-Europe",
+        "label": "Medtronic: הודעת המקרים הקליניים המקורית",
+        "label_en": "Medtronic: original clinical-use announcement"
+      }
+    ],
+    "טקסט": "16.11.2026. ההודעה המקורית מציגה תאריך ללא שעת פרסום מדויקת.\n\nMedtronic הודיעה על המקרים הקליניים הראשונים באירופה שבהם נעשה שימוש במערכת הניווט Stealth AXiS להליכי אף-אוזן-גרון (ENT). לפי החברה, ההליכים הראשונים נערכו בשמונה בתי חולים באוסטריה, גרמניה, נורווגיה ובריטניה, והם השימושים הראשונים במערכת בהליכי ENT מחוץ לארה״ב.\n\nהמערכת משלבת הדמיה, ניווט ותהליכי עבודה מחוברים כדי לסייע למנתחים בהליכי סינוסים ובסיס הגולגולת. היא חלק ממערך AiBLE ENT של החברה. תיאור יכולות המוצר הוא תיאור החברה, ולא ממצא חדש על עדיפות קלינית לעומת טיפול אחר.\n\n**החדשה היא השימוש הקליני הראשון באירופה, לא קבלת אישור רגולטורי חדש היום.** לפי Medtronic, סימון CE להליכי ENT ניתן ביוני 2026, וההשקה בארה״ב התרחשה מוקדם יותר השנה.\n\nמקרים נוספים מתוכננים בשבועות ובחודשים הבאים באירופה ובשווקים בינלאומיים שבהם המערכת מאושרת וזמינה מסחרית. הזמינות וההתוויות משתנות בין מדינות. אין בהודעה נתוני הכנסות, תוצאות מחקר השוואתי או המלצה רפואית אישית.",
+    "טקסט_en": "November 16, 2026. The original announcement gives a date but no exact publication time.\n\nMedtronic announced the first European clinical cases using its Stealth AXiS navigation system for ear, nose and throat (ENT) procedures. It says the initial procedures took place at eight hospitals in Austria, Germany, Norway and the United Kingdom, marking the first ENT uses of the system outside the United States.\n\nThe system combines visualization, navigation and connected workflows to assist surgeons with sinus and skull-base anatomy. It is part of the company's AiBLE ENT ecosystem. Those capabilities are described by the company, not a new finding of clinical superiority over another treatment.\n\n**The news is the first European clinical use, not a new regulatory approval today.** Medtronic says the ENT CE mark was obtained in June 2026 and the US launch took place earlier this year.\n\nAdditional cases are planned in the coming weeks and months in Europe and other international markets where the system is approved and commercially available. Availability and indications vary by country. The announcement provides no revenue figures, comparative-trial results or personal medical advice.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d7159684c569f9a43c00ee613d50e3bf61a6f9accd2202c173e4a63baeab5567"
+      }
+    }
   }
 ]
