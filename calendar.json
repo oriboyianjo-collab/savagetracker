@@ -4364,5 +4364,34 @@
         "source_hash": "40bcf9ee12026c9a40694926842c29ddebace5b7e3cd8ea06f60b833efa9414a"
       }
     }
+  },
+  {
+    "מזהה": "c-0187",
+    "תאריך": "2026-11-16",
+    "שעה": "12:00",
+    "מדינה": "EU",
+    "אירוע": "ייצור תעשייתי בגוש האירו - חודשי",
+    "אירוע_en": "Euro-area industrial production - monthly",
+    "תקופה": "ספטמבר 2026 · חודשי",
+    "תקופה_en": "September 2026 · monthly",
+    "חשיבות": 2,
+    "בפועל": "0.2%",
+    "צפי": "0.3%",
+    "קודם": "-0.5%",
+    "מקור": "https://www.forexfactory.com/calendar?day=nov16.2026",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.forexfactory.com/calendar?day=nov16.2026",
+      "https://www.investing.com/economic-calendar/industrial-production-160",
+      "https://1prime.ru/20261116/promproizvodstvo-875226528.html"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-16",
+    "הערה": "לא מאומת מול מקור ראשוני.",
+    "הערה_en": "Not verified against a primary source.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c453dae256be06e4986e272914dc555b1a66f9efcdd141b4e824ccddc311a41f"
+      }
+    }
   }
 ]
