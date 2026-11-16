@@ -46504,5 +46504,71 @@
         "source_hash": "0cc050d6094da0103fe682f791b9fc014fb61d77f7da24bd68f71d72e621346e"
       }
     }
+  },
+  {
+    "מזהה": "n-1744",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:02",
+    "הועלה": "2026-11-16 10:02",
+    "חברה": "OGE Energy",
+    "חברה_en": "OGE Energy",
+    "symbols": [
+      "OGE"
+    ],
+    "sectors": [
+      "utilities"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 28 באוקטובר | OGE Energy (OGE): מסגרת ATM של 750 מיליון דולר ותוספת של 555 מיליון לתוכנית ההשקעות",
+    "כותרת_en": "Published late | October 28 | OGE Energy (OGE): $750 million ATM program and $555 million added to investment plan",
+    "טקסט": "במצגת העסקית מ-28 באוקטובר 2026, OGE Energy הציגה השקה של תוכנית ראשונה למכירת מניות בשוק (ATM) בהיקף של 750 מיליון דולר. **זהו היקף המסגרת, לא סכום שכבר גויס.** החברה הציגה בנפרד צורך צפוי בהון מניות של עד 200 מיליון דולר לתמיכה בתוכנית ההשקעות וביעד יחס FFO לחוב של כ-17% בכל שנה עד 2030. אין להחליף בין שני הסכומים.\n\nלתוכנית ההשקעות לחמש השנים 2026–2030 נוספו 395 מיליון דולר למערכת אגירת האנרגיה Frontier ו-160 מיליון דולר להשקעות הולכה נוספות. התוכנית המעודכנת מסתכמת ב-7.840 מיליארד דולר. במצגת מופיע הספק מתוכנן של 300 מגה-ואט ל-Frontier; **זו תוכנית השקעה, לא אישור שהמתקן כבר הופעל או שהתקציב כבר הוצא.**\n\nהחברה מציינת שהתוכנית אינה כוללת השקעות מתוכנית המשאבים המשולבת של 2026 ואת פרויקט קו 765 קילו-וולט במסגרת תוכנית SPP. תחזיות המימון וההשקעות כפופות לביצוע ולתנאי השוק; השקת מסגרת המניות אינה מבטיחה גיוס מלא או קובעת את מספר המניות שיימכרו ואת מחיר המכירה.\n\n**המקור נושא תאריך 28 באוקטובר ללא שעת פרסום מדויקת; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In its October 28, 2026 business presentation, OGE Energy said it was launching its inaugural $750 million at-the-market equity program. **That is the program size, not cash already raised.** Separately, the company forecast up to $200 million of equity to support its investment plan and its funds-from-operations-to-debt target of approximately 17% each year through 2030. Those two amounts are not interchangeable.\n\nThe 2026–2030 five-year investment plan adds $395 million for the Frontier Energy Storage System and $160 million for additional transmission investment. The revised plan totals $7.840 billion. The presentation lists planned Frontier capacity of 300 megawatts. **This is an investment plan, not confirmation that the facility is operating or that the budget has been spent.**\n\nThe company says the plan excludes 2026 integrated-resource-plan investment and the 765-kilovolt project in the SPP plan. Financing and investment forecasts depend on execution and market conditions. Launching an equity program does not guarantee full issuance or establish the number or sale price of shares.\n\n**The source is dated October 28 without an exact publication time; the original publication time in Israel was not verified.**",
+    "קישור": "https://ogeenergy.gcs-web.com/static-files/1cb6ffd7-3333-4163-9466-e6f12fc43882",
+    "מקורות": [
+      {
+        "url": "https://ogeenergy.gcs-web.com/static-files/1cb6ffd7-3333-4163-9466-e6f12fc43882",
+        "label": "OGE Energy: מצגת עסקית מקורית, 28 באוקטובר",
+        "label_en": "OGE Energy: original business presentation, October 28"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c2da03d9fd7437f41f5cee40c73818aa392e90ae40f66d08d1e2787d7cd8be85"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1745",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:02",
+    "הועלה": "2026-11-16 10:02",
+    "חברה": "International Flavors & Fragrances",
+    "חברה_en": "International Flavors & Fragrances",
+    "symbols": [
+      "IFF"
+    ],
+    "sectors": [
+      "materials"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 12 בנובמבר | International Flavors & Fragrances (IFF) השיקה את CONCEPT MUSE לפיתוח רעיונות למזון ולמשקאות",
+    "כותרת_en": "Published late | November 12 | International Flavors & Fragrances (IFF) launches CONCEPT MUSE for food and beverage concepts",
+    "טקסט": "בהודעה מ-12 בנובמבר 2026, International Flavors & Fragrances הכריזה על השקת CONCEPT MUSE, כלי AI קנייני לפיתוח רעיונות למוצרי מזון ומשקאות. הכלי משתמש בתובנות צרכנים, במידע שוק ובמומחיות הטעמים של IFF כדי להפיק מפרומפטים רעיונות הכוללים תיאור, הדמיות חזותיות וטכנולוגיות מוצעות.\n\nלפי החברה, מומחי IFF מגדירים את הבעיה, בוחרים את הקלט, בוחנים את התוצאות ומשפרים אותן. **זהו כלי בהנחיית אנשי מקצוע, לא פיתוח מוצר אוטונומי או אישור רגולטורי למזון.** החברה מסרה שהדגימה את הכלי באירוע הלקוחות FirsTaste, שבו מומחים ולקוחות יצרו יחד רעיונות למותגים ולשווקים מסוימים.\n\nהטענה שהכלי מקצר יצירת רעיונות משבועות לדקות היא טענת IFF, לא מדידת ביצועים עצמאית. ההודעה אינה מוסרת מחיר, מספר לקוחות משתמשים, חוזה בסכום ידוע או הכנסה מהכלי. אין בה אישור להשקת מנוי תוכנה עצמאי לכלל הציבור.\n\n**המקור מציין 12 בנובמבר ללא שעת פרסום מדויקת; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In a November 12, 2026 announcement, International Flavors & Fragrances launched CONCEPT MUSE, a proprietary AI tool for food and beverage concept generation. It draws on IFF consumer insights, market intelligence and flavor expertise to turn prompts into concepts with narratives, visual mockups and suggested technologies.\n\nThe company says IFF experts frame the challenge, choose inputs, evaluate outputs and refine the results. **This is a human-guided tool, not autonomous product development or regulatory approval for food.** IFF said it demonstrated the tool at its FirsTaste customer event, where experts and customers co-created concepts for specific brands and markets.\n\nThe claim that it can compress concept generation from weeks to minutes is a claim by IFF, not an independent performance measurement. The announcement gives no price, user count, quantified customer contract or revenue from the tool. It does not announce a standalone software subscription available to the general public.\n\n**The source gives November 12 without an exact publication time; the original publication time in Israel was not verified.**",
+    "קישור": "https://www.iff.com/media/news/iff-launches-concept-muse-an-ai-powered-platform-designed-to-accelerate-food-and-beverage-product-development/",
+    "מקורות": [
+      {
+        "url": "https://www.iff.com/media/news/iff-launches-concept-muse-an-ai-powered-platform-designed-to-accelerate-food-and-beverage-product-development/",
+        "label": "IFF: הודעת השקת CONCEPT MUSE המקורית, 12 בנובמבר",
+        "label_en": "IFF: original CONCEPT MUSE launch announcement, November 12"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "15bab568e7cd0dc316c08799d0c1f8bfc4c6a8aec0ec4216f2ebddc4d07e8510"
+      }
+    }
   }
 ]
