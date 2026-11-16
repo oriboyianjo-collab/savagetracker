@@ -46746,5 +46746,38 @@
         "source_hash": "e738d0db923f8d9dbcd8dd4e419f2e4b7dc6870776899590604fd385818079c7"
       }
     }
+  },
+  {
+    "מזהה": "n-1751",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:18",
+    "הועלה": "2026-11-16 10:18",
+    "חברה": "Dynatrace",
+    "חברה_en": "Dynatrace",
+    "symbols": [
+      "DT"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 3 בנובמבר | Dynatrace (DT) אישרה מסגרת נוספת לרכישה עצמית של מניות בהיקף של עד מיליארד דולר",
+    "כותרת_en": "Published late | November 3 | Dynatrace (DT) authorizes up to $1 billion in additional share repurchases",
+    "טקסט": "3.11.2026 | הודעת החברה פורסמה ב-06:30 שעון החוף המזרחי בארה\"ב, 13:30 בישראל.\n\nדירקטוריון Dynatrace אישר מסגרת נוספת לרכישה עצמית של מניות רגילות בהיקף של עד מיליארד דולר. לפי הודעת החברה מאותו יום, לאחר התוספת עמדה יתרת יכולת הרכישה הכוללת על כ-1.3 מיליארד דולר.\n\n**מיליארד הדולר הם הרשאה נוספת, ו-1.3 מיליארד הדולר הם יתרת המסגרת הכוללת באותו מועד, לא שתי תוכניות חדשות שמצטברות ל-2.3 מיליארד דולר ולא סכום שכבר הוצא.** אין לתוכנית מועד תפוגה, והיא אינה מחייבת רכישת מספר מסוים של מניות. החברה רשאית להשהות, לשנות או לסיים אותה בכל עת וללא הודעה מוקדמת.\n\nהרכישות עשויות להתבצע בשוק הפתוח, בעסקאות פרטיות ובדרכים חוקיות נוספות, לרבות תוכניות מסחר לפי כלל 10b5-1. היקף ומועד הביצוע תלויים בתנאי השוק ובגורמים נוספים. החברה צופה לממן רכישות משילוב של יתרות מזומנים קיימות ותזרים עתידי.\n\nהעדכון פורסם בתוך הודעת הדוחות, אך מדובר בהחלטת הקצאת הון נפרדת. הוא אינו מבטיח ביצוע מלא, מחיר רכישה מסוים או עלייה במחיר המניה. הנתון של 1.3 מיליארד דולר מתייחס להודעת 3 בנובמבר, לא ליתרה שאומתה מחדש היום.",
+    "טקסט_en": "November 3, 2026 | The company announcement was published at 06:30 US Eastern time, 13:30 in Israel.\n\nDynatrace's board authorized an incremental program to repurchase up to $1 billion of common stock. According to the announcement that day, the addition brought total remaining buyback capacity to approximately $1.3 billion.\n\n**The $1 billion is additional authorization and the $1.3 billion is total remaining capacity at that time, not two new programs adding up to $2.3 billion and not money already spent.** The program has no time limit and does not require the company to buy a specified number of shares. Dynatrace may suspend, modify or terminate it at any time without prior notice.\n\nRepurchases may occur on the open market, in privately negotiated transactions or through other legal means, including Rule 10b5-1 trading plans. Their timing and size depend on market conditions and other factors. The company expects to fund purchases from existing cash balances and future cash flow.\n\nThe update appeared within the earnings announcement but is a separate capital-allocation decision. It does not guarantee full execution, a particular purchase price or a rise in the share price. The $1.3 billion figure refers to the November 3 announcement, not capacity reverified today.",
+    "קישור": "https://ir.dynatrace.com/news-events/press-releases/detail/445/dynatrace-reports-second-quarter-fiscal-year-2027-financial-results",
+    "מקורות": [
+      {
+        "url": "https://ir.dynatrace.com/news-events/press-releases/detail/445/dynatrace-reports-second-quarter-fiscal-year-2027-financial-results",
+        "label": "Dynatrace: הודעת החברה המקורית, סעיף רכישה עצמית, 3 בנובמבר",
+        "label_en": "Dynatrace: original company announcement, share repurchase section, November 3"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9dfcc5c2fb1320b3ecbb536b9d472a54eabfd9dec84720bc08bfadb75fed0700"
+      }
+    }
   }
 ]
