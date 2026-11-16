@@ -47433,5 +47433,70 @@
         "source_hash": "d995c2129387faca8b03f58fb1cbdf3786f951707123426e8a3dd19939da9335"
       }
     }
+  },
+  {
+    "מזהה": "n-1772",
+    "category": "micro",
+    "חברה": "JD",
+    "symbols": [
+      "JD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:47",
+    "הועלה": "2026-11-16 11:47",
+    "כותרת": "פורסם באיחור | 12 בנובמבר | JD.com (JD) השלימה רכישת 59.8% מ-CECONOMY תמורת 1.335 מיליארד אירו",
+    "כותרת_en": "Published late | November 12 | JD.com (JD) completes purchase of 59.8% of CECONOMY for EUR 1.335 billion",
+    "קישור": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1112/2026111201308.pdf",
+    "מקורות": [
+      {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1112/2026111201308.pdf",
+        "label": "JD.com: הודעת ההשלמה המקורית בבורסת הונג קונג",
+        "label_en": "JD.com: original completion announcement on HKEX"
+      },
+      {
+        "url": "https://www.ceconomy-mms.com/en/article/investorenvereinbarung-mit-jdcom",
+        "label": "CECONOMY: עמוד מסמכי העסקה וההשלמה",
+        "label_en": "CECONOMY: transaction and completion documents"
+      }
+    ],
+    "טקסט": "12.11.2026 | הודעת JD.com המקורית בבורסת הונג קונג נקראה במלואה. **שעת ההודעה המקורית בישראל לא אומתה.** פורסם באיחור.\n\nJD.com הודיעה על השלמת הצעת הרכש הציבורית ל-CECONOMY, בעלת MediaMarkt, Saturn ו-MediaWorld. החברה רכשה 59.8% מהון המניות ומזכויות ההצבעה תמורת 1.335 מיליארד אירו, במחיר של 4.60 אירו למניה במזומן, דרך חברה-בת גרמנית בבעלות עקיפה מלאה.\n\n**זו השלמה בפועל של הצעת הרכש, לא רק אישור רגולטורי או פתיחת מגעים.** בעקבותיה CECONOMY היא חברה-בת ותוצאותיה מאוחדות בדוחות JD.com מ-12 בנובמבר. שיעור 59.8% הוא החזקת JD.com שנרכשה, לא רכישת מלוא מניות CECONOMY. שותפתה Convergenta שמרה בנפרד על 25.3%, לפי ההודעה.\n\nהחברה מסרה שכל תנאי ההשלמה מולאו, ובהם אישורי תחרות, השקעות זרות וסובסידיות זרות באיחוד האירופי. עמוד מסמכי העסקה של CECONOMY מבחין בין אישור הרגולציה הסופי מ-3 בנובמבר לבין ההשלמה מ-12 בנובמבר; אין כאן אישור חדש מ-15 או מ-16 בנובמבר.\n\nלפי הודעת ההשלמה, CECONOMY מפעילה יותר מ-1,000 חנויות ב-11 שווקים ויותר מ-50 אלף עובדים. התוכנית היא לשמור אותה כעסק עצמאי באירופה עם מערך טכנולוגי מקומי עצמאי, ללא שינויים מתוכננים בכוח האדם, בהסכמי העובדים ובאתרים. אלה כוונות החברה, לא התחייבות רגולטורית חדשה שאומתה בנפרד. לא נמסרו בהודעה יעדי סינרגיה כספיים או תרומה כמותית לרווח JD.com.",
+    "טקסט_en": "November 12, 2026 | JD.com's original HKEX completion announcement was read in full. **Original announcement time in Israel not verified.** Published late.\n\nJD.com announced completion of its public takeover offer for CECONOMY, which operates MediaMarkt, Saturn and MediaWorld. It acquired 59.8% of the share capital and voting rights for EUR 1.335 billion, at EUR 4.60 per share in cash, through an indirectly wholly owned German subsidiary.\n\n**This is completion of the takeover offer, not merely regulatory clearance or the start of talks.** CECONOMY became a subsidiary and its financial results are consolidated into JD.com's statements from November 12. The acquired 59.8% is JD.com's stake, not a purchase of all CECONOMY shares. Partner Convergenta separately retained 25.3%, according to the announcement.\n\nThe company said all completion conditions had been fulfilled, including merger control, foreign investment and EU foreign subsidies clearances. CECONOMY's transaction-document page distinguishes final regulatory clearance on November 3 from completion on November 12; this is not a new approval on November 15 or 16.\n\nThe completion release says CECONOMY operates more than 1,000 stores in 11 markets and employs more than 50,000 people. The stated plan keeps it a stand-alone European business with a local independent technology stack and no planned changes to the workforce, employee agreements or sites. These are company intentions, not a separately verified new regulatory undertaking. The release supplies no quantified financial synergy target or contribution to JD.com earnings.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f4958c5cfa0c8526ddc7c77df1f1c907a887eea1c4de44b80db50ccae88ab19a"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1773",
+    "category": "micro",
+    "חברה": "JNJ",
+    "symbols": [
+      "JNJ"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:47",
+    "הועלה": "2026-11-16 11:47",
+    "כותרת": "פורסם באיחור | 15 בנובמבר | Johnson & Johnson (JNJ): דיווח על מגעים לרכישת Ollin Biosciences בעד 3.4 מיליארד דולר",
+    "כותרת_en": "Published late | November 15 | Johnson & Johnson (JNJ): report of talks to buy Ollin Biosciences for up to $3.4 billion",
+    "קישור": "https://www.nst.com.my/business/corporate/2026/11/1578636/johnson-johnson-looking-buy-ollin-biosciences-us34bil",
+    "מקורות": [
+      {
+        "url": "https://www.nst.com.my/business/corporate/2026/11/1578636/johnson-johnson-looking-buy-ollin-biosciences-us34bil",
+        "label": "Reuters דרך NST: דיווח FT על עסקה אפשרית",
+        "label_en": "Reuters via NST: FT report of a possible deal"
+      }
+    ],
+    "טקסט": "15.11.2026 | דיווח Reuters בהפצת NST, המבוסס על Financial Times ומקורותיו. **לא מאומת מול מקור ראשוני. שעת הדיווח המקורי בישראל לא אומתה.** פורסם באיחור.\n\nלפי הדיווח, Johnson & Johnson קרובה לרכישת Ollin Biosciences, חברה פרטית המפתחת תרופות למחלות עיניים, בעסקה אפשרית של עד 3.4 מיליארד דולר. FT ייחס את המידע לאנשים המעורים בנושא; Reuters ציינה שלא הצליחה לאמת את הדיווח באופן עצמאי.\n\nהתנאים שבדיון כוללים, לפי אותו דיווח, 2.2 מיליארד דולר מראש במזומן ועוד עד 1.2 מיליארד דולר בתשלומים אפשריים המותנים באבני דרך. **3.4 מיליארד דולר הוא הסכום המרבי המדווח כולל התמורה המותנית, לא תשלום ודאי במועד ההשלמה.**\n\nאין כאן הודעת חברה על הסכם חתום או רכישה שהושלמה. הדיווח אינו מספק מועד סגירה מאושר, תנאי אישור רגולטורי, תוצאות ניסוי או השפעה על תחזית J&J. יש להפריד בין מגעים לעסקת תרופות אפשרית לבין הוכחת יעילות של טיפול או הכנסה שכבר נוצרה.",
+    "טקסט_en": "November 15, 2026 | Reuters report carried by NST, based on the Financial Times and its sources. **Not verified against a primary source. Original report time in Israel not verified.** Published late.\n\nAccording to the report, Johnson & Johnson is poised to buy Ollin Biosciences, a privately held developer of drugs for eye diseases, in a potential deal worth up to $3.4 billion. The FT attributed the information to people familiar with the matter; Reuters said it could not independently verify the report.\n\nThe terms being discussed would reportedly include $2.2 billion upfront in cash and up to $1.2 billion in potential milestone payments. **The reported $3.4 billion is a maximum including contingent payments, not a certain payment at closing.**\n\nThis is not a company announcement of a signed agreement or a completed acquisition. The report provides no approved closing date, regulatory approval conditions, trial results or effect on J&J guidance. Talks over a potential drug-company acquisition are separate from evidence that a treatment works or revenue already earned.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3bcb869f5ff3ac154005226492e65edc681c8c9fbd79746a74c745a992b2a56f"
+      }
+    }
   }
 ]
