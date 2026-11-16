@@ -48942,5 +48942,40 @@
         "source_hash": "a089cfdaf94bfb532133e0035f3544af9aab68c8829862b67918fc3ade404fde"
       }
     }
+  },
+  {
+    "מזהה": "n-1822",
+    "category": "micro",
+    "חברה": "AFG",
+    "symbols": [
+      "AFG"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:31",
+    "הועלה": "2026-11-16 14:31",
+    "כותרת": "פורסם באיחור | סינדיקט Lloyd's מבקש בוררות וביטול חוזי ביטוח משנה מול חברות Great American של AFG, לפי דיווח",
+    "כותרת_en": "Published late | Lloyd's syndicate seeks arbitration and reinsurance rescission against AFG's Great American companies, report says",
+    "קישור": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/priceless-ip-or-worthless-collateral-lloyds-syndicate-sues-great-american-595681.aspx",
+    "מקורות": [
+      {
+        "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/priceless-ip-or-worthless-collateral-lloyds-syndicate-sues-great-american-595681.aspx",
+        "label": "Insurance Business: דיווח 30 באוקטובר על התביעה",
+        "label_en": "Insurance Business: October 30 lawsuit report"
+      },
+      {
+        "url": "https://dockets.justia.com/docket/new-york/nysdce/1:2026cv09492/676159",
+        "label": "Justia: רישום פתיחת תיק 1:2026cv09492",
+        "label_en": "Justia: case 1:2026cv09492 opening docket"
+      }
+    ],
+    "טקסט": "פורסם באיחור | כתבת Insurance Business מ-30.10.2026 נקראה במלואה, לצד סיקור Simply Wall St מ-1 בנובמבר ורישום התיק החינמי ב-Justia. שעת הפרסום המקורית של הכתבה לא צוינה. **לא מאומת מול מסמך משפטי ראשוני: כתב התביעה והבקשה המקוריים לא נקראו. תיאור הטענות מבוסס על דיווח עיתונאי; Justia מאשר את פרטי פתיחת התיק אך אינו תחליף לקריאת המסמכים.**\n\nלפי Insurance Business, AEGIS London, סינדיקט Lloyd's מספר 1225, הגישה ב-29 באוקטובר בקשה לחייב בוררות ותביעה נגד Great American Insurance Company ו-Great American E&S Insurance Company, הקשורות ל-American Financial Group. הרישום ב-Justia מציג תיק 1:2026cv09492 בבית המשפט הפדרלי בדרום ניו יורק, שנפתח באותו יום בנושא בוררות.\n\nהמחלוקת נוגעת לשני חוזי ביטוח משנה מסוג variable quota share, שנחתמו לפי הדיווח בדצמבר 2021 וביוני 2023, במסגרת תוכנית לביטוח הלוואות מגובות בקניין רוחני. הסינדיקט טוען למצגים מטעים בנוגע לאיכות הלווים, לערך הביטחונות ולבדיקות החיתום, וכן לאי-גילוי של פוליסה שלא תאמה לכאורה את תנאי החוזה והמצגים. אלה טענות של צד להליך, לא עובדות שהוכחו.\n\nלפי הכתבה, הסינדיקט ביקש לבטל את החוזים באוגוסט 2026 ולהחזיר את הפרמיות נטו שקיבל, אך Great American דחתה את הביטול. ההליך מבקש בין היתר בוררות וסעדים בנוגע לחוזים ולחיובי ביטוח המשנה. הכתבה אינה מוסרת סכום תביעה סופי או קובעת הפסד מאושר ל-AFG.\n\nנכון לכתבה, הטענות טרם נבחנו ולא ניתנה הכרעה לגופן. רישום Justia שנקרא מציג רק את מסמכי הפתיחה, ולכן לא אומת כאן מצב ההליך העדכני ל-16 בנובמבר. תביעה נפרדת של Great American E&S נגד Gallagher המוזכרת בכתבה אינה אותו הליך, ואין לייחס פסק או החלטה ממנה לתביעה זו.",
+    "טקסט_en": "Published late | The complete October 30, 2026 Insurance Business article was read alongside November 1 Simply Wall St coverage and the free Justia docket listing. The original article provides no publication time. **Not verified against an original legal document: the complaint and petition themselves were not read. Allegations below come from journalism; Justia corroborates the case-opening details but does not replace the original documents.**\n\nInsurance Business reports that AEGIS London, Lloyd's Syndicate No. 1225, filed a petition to compel arbitration and a complaint on October 29 against Great American Insurance Company and Great American E&S Insurance Company, associated with American Financial Group. Justia lists case 1:2026cv09492 in the US District Court for the Southern District of New York, filed that day as an arbitration matter.\n\nThe dispute concerns two variable quota-share reinsurance contracts reportedly signed in December 2021 and June 2023 for an intellectual-property-backed lending insurance program. The syndicate alleges misleading representations about borrowers, collateral values and underwriting diligence, plus non-disclosure of a policy allegedly inconsistent with the contract and prior representations. These are a party's allegations, not proven facts.\n\nAccording to the article, the syndicate sought to rescind the contracts in August 2026 and return the net premiums it received, but Great American rejected rescission. The proceeding seeks arbitration and remedies concerning the contracts and reinsurance obligations. The article gives no final claimed damages amount or established AFG loss.\n\nAs of the article, the allegations had not been tested and no merits ruling had been issued. The Justia listing read shows only opening documents, so the case's current November 16 status was not verified here. A separate Great American E&S lawsuit against Gallagher mentioned in the article is not this proceeding; its rulings must not be attributed to this case.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d76646e0202a9ce3aa55e5227058e25c66cd247f0499a563bcaeede0e25acfab"
+      }
+    }
   }
 ]
