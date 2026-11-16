@@ -45190,5 +45190,41 @@
         "source_hash": "810a669aa71f987da224618a569cf08237d527a1d561bcf2d28a89926a1a45e8"
       }
     }
+  },
+  {
+    "מזהה": "n-1709",
+    "category": "macro",
+    "חברה": "סין / מחירי דיור",
+    "חברה_en": "China / housing prices",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16",
+    "הועלה": "2026-11-16 03:40",
+    "כותרת": "סין: הירידות השנתיות במחירי הדיור התמתנו באוקטובר; מחירי דירות חדשות בערי הדרג הראשון נותרו ללא שינוי חודשי",
+    "כותרת_en": "China: annual housing-price declines narrow in October; first-tier new-home prices flat month on month",
+    "summary": "נתוני NBS ל-70 ערים: מחירי דירות חדשות ירדו בחודש בערי הדרג השני והשלישי, ורק 14 ערים רשמו עלייה. התמתנות שנתית אינה התאוששות חודשית רחבה.",
+    "summary_en": "NBS data for 70 cities: new-home prices fell month on month in second- and third-tier cities, and only 14 cities posted increases. Narrower annual declines are not a broad monthly rebound.",
+    "טקסט": "16.11.2026 | פרסום הלשכה הלאומית לסטטיסטיקה של סין: טבלאות מחירי הדיור ב-70 ערים גדולות ובינוניות והפרשנות הרשמית לנתוני אוקטובר. העמודים מציגים 09:30 ללא ציון מפורש של אזור זמן; שעת הפרסום בישראל לא אומתה.\n\nלפי NBS, מחירי דירות חדשות בערי הדרג הראשון נותרו באוקטובר ללא שינוי לעומת ספטמבר, לאחר עלייה חודשית של 0.1% בחודש הקודם. בערי הדרג השני נרשמה ירידה חודשית של 0.1%, לאחר יציבות בספטמבר, ובדרג השלישי ירידה של 0.2%, ללא שינוי בקצב הירידה. רק 14 מתוך 70 הערים רשמו עלייה חודשית במחירי דירות חדשות, שלוש פחות מבחודש הקודם.\n\nבהשוואה שנתית, מחירי הדירות החדשות ירדו ב-0.1% בערי הדרג הראשון, ב-2.0% בדרג השני וב-3.6% בדרג השלישי. הירידות השנתיות התמתנו ב-0.4, ב-0.4 וב-0.3 נקודות אחוז בהתאמה. מדובר בהאטה בירידה לעומת השנה הקודמת, לא בעליית מחירים שנתית או בהתאוששות חודשית בכל הקבוצות.\n\nבארבע ערי הדרג הראשון, מחירי הדירות החדשות בשנגחאי עלו ב-0.2% בחודש ובשנזן ב-0.1%; בגואנגג׳ואו נותרו ללא שינוי ובבייג׳ינג ירדו ב-0.1%. אלה נתוני דירות חדשות, לא מחירי דירות יד שנייה.\n\nבשוק היד השנייה, המחירים בערי הדרג הראשון עלו ב-0.2% בחודש, בעוד שבדרג השני ובדרג השלישי ירדו ב-0.3% בכל קבוצה. הירידות השנתיות ביד שנייה היו 0.4%, 4.1% ו-5.0% בהתאמה. נתוני קבוצות הערים אינם מוצגים כאן כמדד מחירים ארצי יחיד.",
+    "טקסט_en": "November 16, 2026 | NBS release: housing-price tables for 70 large and medium-sized Chinese cities and official October commentary. Both pages display 09:30 without an explicit timezone; the Israel publication time was not verified.\n\nNBS says first-tier new-home prices were unchanged in October from September, following a 0.1% monthly rise in the previous month. Second-tier prices fell 0.1% month on month after being flat in September, while third-tier prices fell 0.2%, the same pace as before. Only 14 of the 70 cities recorded monthly new-home price increases, three fewer than in the previous month.\n\nYear on year, new-home prices fell 0.1% in first-tier cities, 2.0% in second-tier cities and 3.6% in third-tier cities. The annual declines narrowed by 0.4, 0.4 and 0.3 percentage points respectively. This is a slower decline from a year earlier, not annual price growth or a monthly recovery across every group.\n\nAmong the four first-tier cities, new-home prices rose 0.2% month on month in Shanghai and 0.1% in Shenzhen, were flat in Guangzhou and fell 0.1% in Beijing. These are new-home figures, not second-hand home prices.\n\nFor second-hand homes, first-tier prices rose 0.2% month on month, while second- and third-tier prices each fell 0.3%. Annual second-hand price declines were 0.4%, 4.1% and 5.0% respectively. The city-group data are not presented here as a single national price index.",
+    "קישור": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965838.html",
+    "מקורות": [
+      {
+        "label": "NBS: הפרשנות הרשמית לנתוני מחירי הדיור באוקטובר",
+        "label_en": "NBS: official October housing-price commentary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965838.html"
+      },
+      {
+        "label": "NBS: טבלאות מחירי דיור ב-70 ערים לאוקטובר",
+        "label_en": "NBS: October housing-price tables for 70 cities",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965836.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "353ee057a27884adc6b186867f51cb0cd907080bd4951d89090a16a672fc95e0"
+      }
+    }
   }
 ]
