@@ -45470,5 +45470,56 @@
         "source_hash": "4b3834d5c8e5f8b523a000cacbc49dc1bcc2d22e721e2445b589a5f628feadce"
       }
     }
+  },
+  {
+    "מזהה": "n-1715",
+    "category": "macro",
+    "חברה": "פרוויו בוקר / וול סטריט",
+    "חברה_en": "Morning preview / Wall Street",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 07:46",
+    "הועלה": "2026-11-16 07:46",
+    "כותרת": "בוקר וול סטריט, שני 16.11: אמפייר סטייט ב-15:30, פתיחת המסחר ב-16:30 ודברי וורש ב-19:00",
+    "כותרת_en": "Wall Street morning, Monday November 16: Empire State at 15:30, market open at 16:30 and Warsh at 19:00",
+    "summary": "סדר היום בארה\"ב: סקר התעשייה של ניו יורק, סקר נגישות לאשראי ונאומי פד. הצפי לאמפייר סטייט הוא 17.6 נקודות מול 25.5 באוקטובר; זהו צפי ממקור משני, לא נתון בפועל.",
+    "summary_en": "The US agenda includes New York manufacturing, credit access and Fed speeches. The Empire State forecast is 17.6 points versus 25.5 in October; the forecast is from a secondary source, not an actual result.",
+    "טקסט": "יום שני, 16 בנובמבר 2026 | כל השעות בישראל. זהו סדר היום להיום; המבט השבועי פורסם בנפרד.\n\n**15:30 - סקר הייצור אמפייר סטייט לנובמבר.** לפי Forex Factory, הצפי הוא 17.6 נקודות. הנתון הקודם, 25.5 נקודות באוקטובר, אומת בדוח הפד בניו יורק. הצפי הוא ממקור משני, אינו תחזית של הפד ואופן איסוף הקונצנזוס לא אומת. בנקודת הבדיקה בבוקר עדיין לא פורסם נתון נובמבר בעמוד הסקר. מדובר במדד דיפוזיה של תנאי הפעילות במדינת ניו יורק, לא בשיעור הצמיחה של התעשייה בארה\"ב.\n\n**18:00 - סקר נגישות לאשראי של הפד בניו יורק (SCE Credit Access).** המועד מופיע בלוח הרשמי. לא מוצג כאן צפי מספרי שלא אומת.\n\n**נאומי פד שנבדקו בלוח הרשמי:**\n12:00 - מייקל באר: בינה מלאכותית ויציבות פיננסית, בכנס במילאנו.\n19:00 - יו\"ר הפד קווין וורש: דברי פתיחה בכנס פריון ותעסוקה של הפד בסן פרנסיסקו.\nאלה מועדים מתוכננים, לא תוכן נאומים שכבר פורסם ולא החלטת ריבית.\n\n**שעות המסחר הרגיל ב-NYSE:** פתיחה 16:30, סגירה 23:00, לפי לוח המסחר הרשמי והמרת שעון ניו יורק לישראל.",
+    "טקסט_en": "Monday, November 16, 2026 | All times Israel. This is today's agenda; the weekly look-ahead was published separately.\n\n**15:30 - November Empire State manufacturing survey.** Forex Factory lists a 17.6-point forecast. October's prior reading of 25.5 points was verified in the New York Fed report. The forecast is from a secondary source, not the Fed, and the consensus collection method was not verified. At the morning check, the survey page had not yet published November's result. This is a diffusion index of business conditions in New York State, not the growth rate of US manufacturing.\n\n**18:00 - New York Fed SCE Credit Access Survey.** The official calendar lists this release. No unverified numerical forecast is shown here.\n\n**Fed speeches checked against the official calendar:**\n12:00 - Michael Barr: artificial intelligence and financial stability at a conference in Milan.\n19:00 - Fed Chair Kevin Warsh: opening remarks at the Fed's productivity and jobs conference in San Francisco.\nThese are scheduled events, not remarks already released or a rate decision.\n\n**NYSE regular trading hours:** open 16:30, close 23:00, from the official trading calendar and New York-to-Israel time conversion.",
+    "קישור": "https://www.newyorkfed.org/research/calendars/nationalecon_cal",
+    "מקורות": [
+      {
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "label": "NYSE: שעות המסחר ולוח החגים",
+        "label_en": "NYSE: trading hours and holidays"
+      },
+      {
+        "url": "https://www.newyorkfed.org/research/calendars/nationalecon_cal",
+        "label": "לוח הפרסומים של הפד בניו יורק",
+        "label_en": "New York Fed economic releases calendar"
+      },
+      {
+        "url": "https://www.newyorkfed.org/survey/empire/empiresurvey_overview",
+        "label": "סקר אמפייר סטייט: נתון אוקטובר ומתודולוגיה",
+        "label_en": "Empire State survey: October reading and methodology"
+      },
+      {
+        "url": "https://www.forexfactory.com/calendar?day=nov16.2026",
+        "label": "Forex Factory: צפי ל-16 בנובמבר",
+        "label_en": "Forex Factory: November 16 forecast"
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+        "label": "לוח הפד לנובמבר: נאומי באר ווורש",
+        "label_en": "Fed November calendar: Barr and Warsh speeches"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b8da7d721c50be2bf70beb02fb58ecda6842d27ff104aa3385776e1092d51319"
+      }
+    }
   }
 ]
