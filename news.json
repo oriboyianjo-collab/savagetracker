@@ -47333,5 +47333,35 @@
         "source_hash": "f7f7cbb0720687b5560e554ab5cf4be666c75fbb86582f22f6ec1530fe0c56d9"
       }
     }
+  },
+  {
+    "מזהה": "n-1769",
+    "category": "micro",
+    "חברה": "VVV",
+    "symbols": [
+      "VVV"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:23",
+    "הועלה": "2026-11-16 11:23",
+    "כותרת": "פורסם באיחור | 29 בספטמבר | Valvoline (VVV) הוסיפה 175 מיליון דולר להרשאת הרכישה העצמית",
+    "כותרת_en": "Published late | September 29 | Valvoline (VVV) adds $175 million to share-repurchase authorization",
+    "קישור": "https://investors.valvoline.com/news/news-details/2026/Valvoline-Inc--Announces-Increase-in-Share-Repurchase-Authorization/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.valvoline.com/news/news-details/2026/Valvoline-Inc--Announces-Increase-in-Share-Repurchase-Authorization/default.aspx",
+        "label": "Valvoline: הודעת הדירקטוריון מ-29 בספטמבר על הגדלת הרשאת הרכישה העצמית",
+        "label_en": "Valvoline: September 29 board authorization increase announcement"
+      }
+    ],
+    "טקסט": "29.09.2026 | הודעת Valvoline; שעת הפרסום המקורית לא אומתה. זהו אירוע היסטורי, לא אישור חדש מ-16 בנובמבר.\n\nדירקטוריון Valvoline אישר רכישה עצמית נוספת של מניות רגילות בהיקף 175 מיליון דולר. לפי הודעת החברה, ההגדלה הביאה את יתרת ההרשאה ל-500 מיליון דולר במועד ההודעה, ללא תאריך תפוגה.\n\n**זו הרשאה לרכישה, לא הודעה שנקנו מניות ב-175 או ב-500 מיליון דולר.** 500 מיליון דולר הם היתרה לאחר ההגדלה באותו מועד, ולא תוספת נוספת ל-175 מיליון דולר. היתרה העדכנית לאחר רכישות או שינויים מאוחרים יותר לא אומתה כאן.\n\nהחברה קבעה שעיתוי וסכומי הרכישות נתונים לשיקול דעתה ותלויים בתנאי השוק והעסק ובגורמים נוספים. ההרשאה מאפשרת רכישות בשוק, עסקאות פרטיות, רכישות מואצות ותוכניות מסחר לפי Rule 10b5-1; היא אינה התחייבות לבצע את כולן או לרכוש את מלוא הסכום.\n\nב-29 בספטמבר אמרה ההנהלה שהיא מצפה לחדש רכישות לאחר פרסום תוצאות שנת הכספים. זו הייתה ציפייה עתידית במועד ההודעה, לא אישור כאן שהרכישות חודשו או בוצעו לאחר מכן. אין בהודעה זו דיבידנד מיוחד או קביעה שהגדלת ההרשאה כשלעצמה מגדילה את הרווח.",
+    "טקסט_en": "September 29, 2026 | Valvoline announcement; original publication time was not verified. This is a historical event, not a new November 16 authorization.\n\nValvoline's board authorized an additional $175 million of common-share repurchases. The company said the increase brought remaining authorization to $500 million at the announcement date, with no expiration date.\n\n**This is repurchase authority, not an announcement that $175 million or $500 million of shares were bought.** The $500 million is the remaining balance after the increase at that date, not an additional amount on top of the $175 million. The current balance after later repurchases or changes was not verified here.\n\nThe company said repurchase timing and amounts remain at its discretion and depend on business and market conditions and other factors. The authorization permits open-market purchases, privately negotiated transactions, accelerated repurchases and Rule 10b5-1 plans; it does not commit the company to use every method or buy the full amount.\n\nOn September 29, management said it expected to resume repurchases after releasing fiscal-year results. That was a forward-looking expectation at the time, not confirmation here that purchases later resumed or occurred. This announcement is not a special dividend or a determination that the authorization increase itself raises earnings.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7904a499fab1e46a0fc786de3367f25f6768a5fc205ef7b4201f8e43d2ca383c"
+      }
+    }
   }
 ]
