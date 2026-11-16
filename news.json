@@ -45879,5 +45879,75 @@
         "source_hash": "608c51ff5da2ea0b9586ba5d2b2fb8e7c7385ea6ebc867d88ac450570317bcba"
       }
     }
+  },
+  {
+    "מזהה": "n-1726",
+    "category": "micro",
+    "חברה": "Microchip Technology",
+    "חברה_en": "Microchip Technology",
+    "symbols": [
+      "MCHP"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:24",
+    "הועלה": "2026-11-16 09:24",
+    "כותרת": "פורסם באיחור | הודעת 12 באוקטובר | Microchip Technology (MCHP) מרחיבה את מוצרי הקישוריות והאחסון למרכזי נתונים",
+    "כותרת_en": "Published late | October 12 announcement | Microchip Technology (MCHP) expands data-center connectivity and storage products",
+    "summary": "מתג PCIe 6.0 חדש בגרסה מצומצמת-נתיבים, ועדכוני אבטחה ויכולות אחסון. המחיר והזמינות משתנים בין המוצרים.",
+    "summary_en": "A new low-lane-count PCIe 6.0 switch and storage security and capability updates. Pricing and availability vary by device.",
+    "טקסט": "הודעת החברה המקורית פורסמה ב-12 באוקטובר 2026, ב-14:09 בישראל (07:09 EDT). זו הודעת מוצרים מאוקטובר, לא השקה חדשה היום.\n\nמיקרוצ׳יפ הרחיבה את סל המוצרים למרכזי נתונים. מתג Switchtec PCIe 6.0 בגרסת Low-Lane-Count החדשה תומך בעד 64 נתיבי תקשורת ו-32 יציאות. הוא מיועד גם לפלטפורמות מוגבלות מקום וצריכת הספק, וכולל יכולות להעברת נתונים בין התקנים בלי להעמיס באותה מידה על המעבד המארח.\n\nבנוסף, גרסה מעודכנת של בקר האחסון Flashtec NVMe 5016 מוסיפה תמיכה בחבילת האלגוריתמים CNSA 2.0 לקראת דרישות אבטחה פוסט-קוונטיות. משפחת מאיצי האחסון SmartRAID 4300 קיבלה יכולות נוספות, ובהן תמיכה בכוננים בעלי הצפנה עצמית, בניהול מפתחות מקומי ומרוחק ובמערכי RAID 6 ו-RAID 60.\n\n**המחיר והזמינות משתנים לפי המוצר. החברה אינה מציינת מועד משלוח אחיד, לקוח חדש, הזמנה או שווי חוזה.**",
+    "טקסט_en": "The original company release was published on October 12, 2026 at 14:09 in Israel (07:09 EDT). This is an October product announcement, not a new launch today.\n\nMicrochip expanded its data-center portfolio. Its new Switchtec PCIe 6.0 Low-Lane-Count switch supports up to 64 lanes and 32 ports. It targets space- and power-constrained platforms and includes capabilities for peer-to-peer data movement with less involvement from the host CPU.\n\nAn updated Flashtec NVMe 5016 storage controller adds support for the CNSA 2.0 algorithm suite to help customers prepare for post-quantum security requirements. The SmartRAID 4300 storage accelerator family also gained capabilities including support for self-encrypting drives, local and remote key management, and RAID 6 and RAID 60.\n\n**Pricing and availability vary by device. The release gives no uniform shipment date, new customer, order or contract value.**",
+    "קישור": "https://ir.microchip.com/news-events/press-releases/detail/1420/microchip-expands-data-center-portfolio-to-meet-evolving-ai-infrastructure-demands",
+    "מקורות": [
+      {
+        "url": "https://ir.microchip.com/news-events/press-releases/detail/1420/microchip-expands-data-center-portfolio-to-meet-evolving-ai-infrastructure-demands",
+        "label": "מיקרוצ׳יפ: הודעת המוצרים המקורית, 12 באוקטובר",
+        "label_en": "Microchip: original October 12 product announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "334c8540670f5dfdf38f69af3971aa785c9b78367c3f5d8b73e858aed220682b"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1727",
+    "category": "micro",
+    "חברה": "Intel",
+    "חברה_en": "Intel",
+    "symbols": [
+      "INTC"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:24",
+    "הועלה": "2026-11-16 09:24",
+    "כותרת": "פורסם באיחור | דיווח 15 בנובמבר | Intel (INTC): לפי Reuters, בעלי מניות הגישו תביעה על גילוי השפעת ההאטה במחשבים",
+    "כותרת_en": "Published late | November 15 report | Intel (INTC) shareholders sue over PC slowdown disclosures, Reuters reports",
+    "summary": "התביעה הייצוגית המוצעת הוגשה ב-13 בנובמבר לפי רויטרס. סכום הנזק לא צוין, ולא ניתנה הכרעה בטענות.",
+    "summary_en": "The proposed class action was filed on November 13, according to Reuters. Damages are unspecified and the allegations have not been decided.",
+    "טקסט": "**לא מאומת מול מקור ראשוני: הדיווח של Reuters נקרא דרך Investing.com; כתב התביעה המקורי לא נבדק.**\n\nלפי רויטרס בדיווח מ-15 בנובמבר 2026, בעלי מניות הגישו ב-13 בנובמבר תביעה ייצוגית מוצעת בבית המשפט הפדרלי בסן חוזה, קליפורניה, נגד אינטל. בראש התובעים עומדת קרן הפנסיה של הכבאים והשוטרים בעיר סאות׳פילד שבמישיגן. גם המנכ״ל ליפ-בו טאן וסמנכ״ל הכספים דייוויד זינסנר נכללים כנתבעים.\n\nהתובעים טוענים שהחברה התעכבה בגילוי השפעת ההאטה במכירות מחשבים אישיים והצטברות המלאי על עסקיה. אלה טענות התובעים, לא ממצאים של בית משפט. התביעה מבקשת פיצויים בסכום שלא צוין עבור בעלי מניות בתקופה שבין 23 ביולי ל-29 באוקטובר 2026. לפי רויטרס, אינטל לא הגיבה מיד לבקשת תגובה ביום ראשון.\n\n**זו בקשה להליך ייצוגי, לא אישור תובענה ייצוגית, פסק דין או חיוב בפיצויים. עמוד המקור מציג 15 בנובמבר בשעה 18:04 ועדכון ב-18:06 ללא אזור זמן מזוהה; שעת הפרסום בישראל לא אומתה.**",
+    "טקסט_en": "**Not verified against a primary source: the Reuters report was read through Investing.com; the original court complaint was not inspected.**\n\nReuters reported on November 15, 2026 that shareholders filed a proposed class action against Intel on November 13 in federal court in San Jose, California. The City of Southfield Fire and Police Retirement System in Michigan leads the plaintiffs. CEO Lip-Bu Tan and CFO David Zinsner are also defendants.\n\nThe plaintiffs allege that Intel was too slow to disclose how weaker personal-computer sales and excess inventory would affect its business. These are the plaintiffs' allegations, not court findings. The lawsuit seeks unspecified damages for shareholders from July 23 through October 29, 2026. Reuters said Intel did not immediately respond to a request for comment on Sunday.\n\n**This is a proposed class action, not class certification, a judgment or a damages award. The source page shows November 15 at 18:04 and an update at 18:06 without an identified timezone; the publication time in Israel was not verified.**",
+    "קישור": "https://www.investing.com/news/stock-market-news/intel-sued-by-shareholders-following-29-stock-plunge-5028171",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/stock-market-news/intel-sued-by-shareholders-following-29-stock-plunge-5028171",
+        "label": "רויטרס דרך Investing.com: דיווח 15 בנובמבר על הגשת התביעה",
+        "label_en": "Reuters via Investing.com: November 15 report on the lawsuit filing"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8c917591e97bb279a294b12d43a8069c3b01c5f260bd9d0cb6c3d7f4a84453e4"
+      }
+    }
   }
 ]
