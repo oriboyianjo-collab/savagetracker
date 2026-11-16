@@ -51498,5 +51498,46 @@
         "source_hash": "5e15d6d5608eae9e4b2f2bf48225965828bebe1237ecf0ab16d74ae4945d45e5"
       }
     }
+  },
+  {
+    "מזהה": "n-1905",
+    "category": "micro",
+    "חברה": "Doximity (DOCS)",
+    "חברה_en": "Doximity (DOCS)",
+    "symbols": [
+      "DOCS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:50",
+    "הועלה": "2026-11-16 16:50",
+    "כותרת": "Doximity: משרדי עורכי דין מזכירים מועד 16 בנובמבר לבקשת מינוי תובע מוביל בתביעה שהוגשה בספטמבר",
+    "כותרת_en": "Doximity: law firms cite November 16 lead-plaintiff motion deadline in September-filed lawsuit",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3403669/0/en/deadline-alert-for-doximity-inc-docs-better-home-finance-holding-company-betr-honeywell-aerospace-inc-hona-and-tigo-energy-inc-tygo-the-law-offices-of-frank-r-cruz-reminds-investor.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3403669/0/en/deadline-alert-for-doximity-inc-docs-better-home-finance-holding-company-betr-honeywell-aerospace-inc-hona-and-tigo-energy-inc-tygo-the-law-offices-of-frank-r-cruz-reminds-investor.html",
+        "label": "Frank R. Cruz: תזכורת מ-16 בנובמבר",
+        "label_en": "Frank R. Cruz: November 16 reminder"
+      },
+      {
+        "url": "https://www.blbglaw.com/cases-investigations/doximity-advertising/_pdfx/doximity-advertising.pdf",
+        "label": "BLB&G: הודעת באי כוח התובע ופרטי התיק",
+        "label_en": "BLB&G: plaintiff counsel notice and case details"
+      },
+      {
+        "url": "https://dockets.justia.com/docket/california/candce/3:2026cv10529/479094",
+        "label": "Justia: פרטי ההגשה הראשונית, לא תיק בית משפט עדכני",
+        "label_en": "Justia: initial filing details, not a current court docket"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:29 בחוף המזרחי של ארה״ב, 16:29 בישראל, מועד תזכורת משרד Frank R. Cruz.\n\nמשרד עורכי הדין Frank R. Cruz פרסם תזכורת שלפיה 16 בנובמבר הוא המועד להגשת בקשה למינוי כתובע מוביל בתביעה Michigan Laborers’ Pension Fund v. Doximity, Inc. גם הודעת BLB&G, באי כוח התובע שהגיש את ההליך, מציינת תאריך זה. **המועד מיוחס להודעות עורכי הדין; הוא לא אומת כאן מול תיק בית המשפט העדכני.**\n\nההליך הוגש ב-16 בספטמבר 2026 לבית המשפט הפדרלי במחוז הצפוני של קליפורניה, מספר 26-cv-10529. הקבוצה המוצעת כוללת רוכשי מניות Doximity בין 8 באוגוסט 2024 ל-13 במאי 2026. זהו הליך קיים ותזכורת דיונית, לא תביעה חדשה שהוגשה ב-16 בנובמבר.\n\nלטענת התביעה, החברה הפריזה בתרומת Newsfeed לצמיחת הכנסותיה, איבדה נתח שוק למתחרים והסתמכה על באנרים וניוזלטרים באופן שאינו תואם מצגים קודמים. **אלה טענות התובעים, לא ממצאי בית משפט או קביעה שהתרמית הוכחה.**\n\nלפי תזכורת המשרד, עדיין לא אושרה קבוצה, ואין צורך לבקש מינוי כתובע מוביל כדי להישאר חבר בקבוצה המוצעת. אין בהודעה קביעה על זכאות אישית, מינוי שכבר ניתן, פיצוי מובטח או תוצאה כספית סופית. המידע אינו המלצה לפעולה משפטית אישית.",
+    "טקסט_en": "November 16, 2026 at 09:29 US Eastern time, 16:29 in Israel, is the publication time of the Frank R. Cruz reminder.\n\nThe Law Offices of Frank R. Cruz issued a reminder citing November 16 as the deadline to move for appointment as lead plaintiff in Michigan Laborers’ Pension Fund v. Doximity, Inc. A notice from BLB&G, counsel that filed the action for the plaintiff, also lists that date. **The date is attributed to counsel's notices; it has not been checked here against the current court docket.**\n\nThe action was filed on September 16, 2026 in the Northern District of California, case 26-cv-10529. The proposed class covers purchasers of Doximity shares from August 8, 2024 through May 13, 2026. This is an existing proceeding and a procedural reminder, not a new lawsuit filed on November 16.\n\nThe complaint alleges that the company overstated Newsfeed's contribution to revenue growth, lost market share to competitors and relied on banner ads and email newsletters inconsistently with earlier representations. **These are plaintiffs' allegations, not court findings or a determination that fraud has been proved.**\n\nThe firm's reminder says no class has yet been certified and investors do not have to seek the lead-plaintiff role to remain in the proposed class. The notice does not establish personal eligibility, an appointment already made, guaranteed compensation or a final financial outcome. This is not a recommendation for personal legal action.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f96d4c17e9f286e6631950f5333ef67272901c465539bed0c405afa500254251"
+      }
+    }
   }
 ]
