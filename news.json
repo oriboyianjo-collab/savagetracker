@@ -49176,5 +49176,69 @@
         "source_hash": "3b18ff224bfaa1cd372a48bbd18ee91b5290ce3de0db5959382ff8cbdc7623e9"
       }
     }
+  },
+  {
+    "מזהה": "n-1829",
+    "category": "micro",
+    "חברה": "AMAT",
+    "symbols": [
+      "AMAT",
+      "INTC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:49",
+    "הועלה": "2026-11-16 14:49",
+    "כותרת": "פורסם באיחור | Applied Materials הציגה את VeritySEM 20 והוסיפה את Intel, Kioxia, Besi ו-UCLA לשותפויות EPIC",
+    "כותרת_en": "Published late | Applied Materials introduces VeritySEM 20 and adds Intel, Kioxia, Besi and UCLA to EPIC partnerships",
+    "קישור": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html",
+    "מקורות": [
+      {
+        "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html",
+        "label": "Applied Materials: סעיפי EPIC והמוצרים בהודעת 12 בנובמבר",
+        "label_en": "Applied Materials: EPIC and product sections of November 12 release"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 12.11.2026, 16:01 EST, 23:01 בישראל לפי חישוב אזורי הזמן. הודעת Applied Materials כוללת עדכוני תפעול ומוצרים לצד תוצאות כספיות. הפרטים כאן מתייחסים למערכת המדידה ולשותפויות המחקר, לא לתוצאות הרבעון.\n\nApplied Materials הציגה את VeritySEM 20, מערכת מיקרוסקופיית אלקטרונים למדידת ממדים קריטיים, CD-SEM. לפי החברה, המערכת נועדה להתמודד עם בקרת תהליכי דפוס ב-high-NA EUV, למדוד שכבות פוטורזיסט דקות יותר, לתמוך בחלונות תהליך צרים ולזרז יצירת מתכוני מדידה באמצעות eBeam ויעילות תהליכית בסיוע AI. אלה יכולות ותכליות לפי החברה, לא בדיקת ביצועים עצמאית.\n\nהחברה גם דיווחה על חשיפת מרכז EPIC בעמק הסיליקון ועל ארבע שותפויות חדשות, שהביאו את סך השותפויות שהוכרזו ל-15. Intel תצטרף כשותפה מייסדת לפיתוח טרנזיסטורים, חיבורים ואריזה מתקדמת, בשילוב מרכז המחקר שלה בהילסבורו, אורגון.\n\nKioxia תצטרף כשותפת חדשנות בתחום הזיכרון; Besi תרחיב שיתוף פעולה אל ארכיטקטורות חיבורים ויישומים מעבר לחיבור היברידי; UCLA Samueli תצטרף כשותפת מחקר בנושאי חומרים ואינטגרציה. ההכרזות מתארות שיתופי פיתוח, לא הוכחה למוצרים מסחריים שכבר הושלמו בעקבותיהם.\n\nלא נמסרו בסעיפים אלה שווי התקשרויות, הזמנות ציוד או תוספת הכנסות המיוחסת לכל שותפה. שותפות Besi במרכז נפרדת מהגדלת האחזקה הפיננסית ב-Besi שכבר סוקרה; אין כאן רכישה נוספת של אותן מניות.",
+    "טקסט_en": "Published late | November 12, 2026 at 16:01 EST, or 23:01 Israel time by timezone calculation. Applied Materials' release includes operating and product updates alongside financial results. This item covers metrology and research partnerships, not quarterly results.\n\nApplied Materials introduced VeritySEM 20, a critical-dimension scanning electron microscope, or CD-SEM. The company says it addresses high-NA EUV patterning control, measures thinner photoresists, supports tighter process windows and speeds recipe creation using eBeam innovations and AI-driven process efficiencies. These are company-stated capabilities and objectives, not independent performance tests.\n\nThe company also reported unveiling its Silicon Valley EPIC Center and four new partnerships, bringing announced engagements to 15. Intel will join as a founding partner for next-generation transistors, interconnects and advanced packaging, connecting the work with its Hillsboro, Oregon R&D campus.\n\nKioxia will join as a memory-technology innovation partner; Besi will expand collaboration into interconnect architectures and applications beyond hybrid bonding; UCLA Samueli will join as a materials and integration research partner. These are development collaborations, not proof that resulting commercial products are already complete.\n\nThose sections disclose no engagement values, equipment orders or incremental revenue per partner. Besi's EPIC partnership is distinct from Applied's previously covered increased financial stake in Besi; this does not announce another purchase of the same shares.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4805afb7951f922c7c285f021ee2fc77c973c09aaa59ea0e27b0084fa375eaf8"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1830",
+    "category": "macro",
+    "חברה": "ECB",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:49",
+    "הועלה": "2026-11-16 14:49",
+    "כותרת": "פורסם באיחור | לפי de Volkskrant, קלאס קנוט צפוי לפרוש השבוע מהמרוץ לנשיאות ה-ECB; אין הודעת פרישה רשמית",
+    "כותרת_en": "Published late | De Volkskrant: Klaas Knot expected to leave ECB presidency race this week; no official withdrawal announced",
+    "קישור": "https://www.volkskrant.nl/politiek/voorzitterschap-ecb-lijkt-buiten-bereik-voor-oud-dnb-baas-klaas-knot-als-gevolg-van-banencarrousel~b1e3031b/",
+    "מקורות": [
+      {
+        "url": "https://www.volkskrant.nl/politiek/voorzitterschap-ecb-lijkt-buiten-bereik-voor-oud-dnb-baas-klaas-knot-als-gevolg-van-banencarrousel~b1e3031b/",
+        "label": "de Volkskrant: דיווח 16 בנובמבר על הציפייה לפרישת קנוט",
+        "label_en": "de Volkskrant: November 16 report on expected Knot withdrawal"
+      },
+      {
+        "url": "https://www.bnr.nl/nieuws/economie/10615624/klaas-knot-stapt-uit-race-ecb-voorzitterschap",
+        "label": "BNR: סיקור המיוחס ל-de Volkskrant",
+        "label_en": "BNR: coverage attributed to de Volkskrant"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 16.11.2026, 11:45 בהולנד, 12:45 בישראל לפי חישוב אזורי הזמן. **לא מאומת מול הודעה רשמית של המועמד או מוסדות האיחוד: זהו דיווח de Volkskrant המבוסס על דיפלומטים באיחוד האירופי.** BNR מסקרת את אותו דיווח; אין בכך אישור עצמאי לפרישה.\n\nלפי העיתון, נשיא הבנק המרכזי ההולנדי לשעבר Klaas Knot צפוי לפרוש השבוע מהמרוץ לנשיאות הבנק המרכזי האירופי. הדיווח אומר שגרמניה וצרפת תומכות עקרונית במועמד הספרדי Pablo Hernández de Cos, ולכן סיכוייו של קנוט פחתו. דוברו סירב להגיב ביום שני בבוקר, לפי הכתבה.\n\nהתפקיד המדובר הוא נשיא ה-ECB, לא משרת הכלכלן הראשי או תפקיד הפיקוח, שגם הם מוזכרים כחלק מדיוני האיוש. העיתון מתאר העדפות וחלוקת תפקידים אפשרית בין מדינות; אין כאן הודעה שקנוט כבר פרש או שדה קוס כבר מונה.\n\nלפי הדיווח, מנהיגי מדינות גוש האירו צפויים לדון בהרכב הנהלת ה-ECB לקראת החלטה בסוף נובמבר, לאחר הליכי ההתייעצות המתוארים בכתבה. לוח הזמנים וההערכות מיוחסים לדיווח, לא להחלטת מינוי רשמית.\n\nזו התפתחות מדווחת במרוץ האיוש. היא אינה החלטת ריבית, תחזית אינפלציה או התחייבות למדיניות מוניטרית עתידית של ה-ECB.",
+    "טקסט_en": "Published late | November 16, 2026 at 11:45 in the Netherlands, or 12:45 Israel time by timezone calculation. **Not verified against an official statement from the candidate or EU institutions: this is a de Volkskrant report citing EU diplomats.** BNR covers the same report and is not independent confirmation of a withdrawal.\n\nThe newspaper reports that former Dutch central-bank president Klaas Knot is expected to leave the race for the European Central Bank presidency this week. It says Germany and France favor Spanish candidate Pablo Hernández de Cos in principle, reducing Knot's chances. His spokesperson declined to comment on Monday morning, according to the article.\n\nThe role at issue is ECB president, not chief economist or the supervisory portfolio, which are also mentioned in staffing talks. The newspaper describes preferences and a possible distribution of jobs among countries; it does not establish that Knot has already withdrawn or de Cos has been appointed.\n\nAccording to the report, euro-area leaders are expected to consider the ECB executive-board lineup ahead of a decision at the end of November, following the consultation steps described by the article. The timetable and expectations are attributed to the report, not an official appointment decision.\n\nThis is a reported staffing-race development. It is not an interest-rate decision, inflation forecast or commitment to a future ECB monetary-policy path.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c9dbf9e87e5245655ac514c78de01849d63bf237f244c1cc502235e24a4892c7"
+      }
+    }
   }
 ]
