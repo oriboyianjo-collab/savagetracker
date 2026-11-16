@@ -3323,24 +3323,6 @@
   {
     "תאריך": "2026-11-16",
     "מדינה": "US",
-    "אירוע": "נתוני ניירות ערך מסחריים (CP) - הפד",
-    "חשיבות": 1,
-    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-    "הערה": "לוח הפד13:00ET=20:00ישראל; השעה היא מועד רגיל ואינה מובטחת. אין צפי או קודם יחיד.",
-    "שעה": "20:00",
-    "מזהה": "c-0131",
-    "אירוע_en": "Commercial paper (CP) data - Fed",
-    "הערה_en": "Fed schedule 13:00 ET = 20:00 Israel; the time is a regular slot and is not guaranteed. No single estimate or prior.",
-    "_translation": {
-      "en": {
-        "source_hash": "35fa8955e192b30648e2106c6a65bf43e4308922efcb6d92c872e74044e56449",
-        "schema_version": 1
-      }
-    }
-  },
-  {
-    "תאריך": "2026-11-16",
-    "מדינה": "US",
     "אירוע": "ריביות נבחרות (H.15) - הפד",
     "חשיבות": 1,
     "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
