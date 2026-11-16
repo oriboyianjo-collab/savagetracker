@@ -21,6 +21,8 @@ and the SEC.gov Internet Security Policy). This client:
 - An official HTTP 200 whose decompressed body exceeds MAX_BODY is not an access
   hold: the body is not cached, DocumentExceedsSizeBudget is raised, and the pass
   may continue with later documents or issuers. A challenge/block page still stops.
+- An official HTTP 404/410 (document does not exist) is not an access hold:
+  DocumentNotFound is raised and the pass continues with other documents.
 - On 5xx or network errors: at most 2 polite backoff retries, then a persistent stop.
 - Caches raw response bodies by URL hash with sha256 evidence. Extracted text is
   never persisted as an artifact; retained bytes are the raw response only.
@@ -40,7 +42,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from .core import AccessHeld, DocumentExceedsSizeBudget
+from .core import AccessHeld, DocumentExceedsSizeBudget, DocumentNotFound
 
 SEC_USER_AGENT = 'SavageTracker Savtra12@gmail.com'
 MIN_INTERVAL_SEC = 1.0
@@ -234,6 +236,9 @@ class GlobalSecTransport:
                     self._block(url, e.code, body,
                                 'redirect (HTTP %s, Location: %s) refused before following; exactly one request made; persistent stop'
                                 % (e.code, location))
+                if e.code in {404, 410}:
+                    # The official document does not exist: per-document failure, not an access hold.
+                    raise DocumentNotFound(url=url, status=e.code)
                 if e.code in {403, 429}:
                     self._block(url, e.code, body, 'HTTP %s; persistent stop per fair-access policy, no circumvention' % e.code)
                 if e.code >= 500 and attempts < max_attempts:
@@ -253,6 +258,8 @@ class GlobalSecTransport:
                       bytes=len(body), attempt=attempts, elapsed_sec=round(elapsed, 3))
             if status in {403, 429}:
                 self._block(url, status, body, 'HTTP %s; persistent stop per fair-access policy, no circumvention' % status)
+            if status in {404, 410}:
+                raise DocumentNotFound(url=url, status=status)
             if status != 200:
                 self._block(url, status, body, 'non-200 status; persistent stop')
             if final != url:

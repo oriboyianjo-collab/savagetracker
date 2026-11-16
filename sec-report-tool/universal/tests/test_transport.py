@@ -9,7 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from unittest import mock
 
-from universal.core import AccessHeld, DocumentExceedsSizeBudget
+from universal.core import AccessHeld, DocumentExceedsSizeBudget, DocumentNotFound
 from universal.transport import GlobalSecTransport, sec_url, STOP_NAME
 
 DOC = 'https://www.sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm'
@@ -121,6 +121,25 @@ class TestTransport(unittest.TestCase):
         t1.get('https://www.sec.gov/Archives/edgar/data/1035267/000103526724000021/a.htm')
         t2.get('https://www.sec.gov/Archives/edgar/data/1035267/000103526724000022/b.htm')
         self.assertEqual(clk.slept, [0.8], clk.slept)
+
+    def test_404_is_document_failure_not_access_hold(self):
+        tmp = tempfile.mkdtemp()
+        calls = []
+
+        def opener(req, timeout=30):
+            calls.append(req.full_url)
+            if req.full_url == DOC:
+                raise urllib.error.HTTPError(DOC, 404, 'Not Found', {}, io.BytesIO(b'missing'))
+            return FakeResponse(body=b'{"cik":1035267}', final=req.full_url)
+
+        t, _ = make(tmp, opener)
+        with self.assertRaises(DocumentNotFound) as ctx:
+            t.get(DOC)
+        self.assertEqual(ctx.exception.status, 404)
+        self.assertEqual(calls.count(DOC), 1)
+        self.assertFalse((Path(tmp) / 'state' / STOP_NAME).exists())
+        self.assertIsNone(t.stop_reason)
+        t.get(SUBS)
 
     def test_403_persistent_stop_and_no_autoresume(self):
         tmp = tempfile.mkdtemp()
