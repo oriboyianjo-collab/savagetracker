@@ -45155,5 +45155,40 @@
         "source_hash": "2b203192d53dd6c7be586ad4983429edb45ce9cf41c8eb899697307adf64ca81"
       }
     }
+  },
+  {
+    "מזהה": "n-1708",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 03:22",
+    "הועלה": "2026-11-16 03:22",
+    "כותרת": "לפי FT, הואנג דן עם מקורביו באפשרות לחזור לתפקיד מנכ\"ל NVIDIA; לא דווח על החלטת דירקטוריון",
+    "כותרת_en": "FT reports Huang discussed a possible NVIDIA CEO comeback with allies; no board decision announced",
+    "summary": "Reuters, בהפצת Korea Times, מייחס ל-FT דיווח על שיחות של הואנג עם מקורביו ועל מאמץ תומכים להשיג גיבוי מהבית הלבן. לא דווח על מינוי מחדש.",
+    "summary_en": "Reuters, carried by The Korea Times, attributes to the FT a report on Huang's discussions with confidants and a supporters' effort to seek White House backing. No reappointment was reported.",
+    "טקסט": "16.11.2026 | Reuters בהפצת Korea Times, פורסם ב-10:05 בקוריאה, 03:05 בישראל. שעת הפרסום המקורית ב-FT לא אומתה.\n\n**לא מאומת מול מקור ראשוני:** הכתבה המלאה של Reuters בהפצת Korea Times נקראה, אך המקור ב-FT לא נקרא כאן ולא נקראה הודעה רשמית של NVIDIA המאשרת חזרה לתפקיד. Reuters מייחס את הפרטים ל-FT, ולא מוצג כאן אימות עצמאי נוסף של אותן טענות.\n\nלפי הדיווח, ג'נסן הואנג שוקל חזרה לתפקיד מנכ\"ל NVIDIA ודן באפשרות עם מקורביו. מקורב אחד אמר ל-FT כי תומכים מארגנים קבוצת בכירי טכנולוגיה כדי לקדם את חזרתו ולנסות להשיג תמיכה מהבית הלבן, וכי המאמץ זוכה לתמיכתו של הואנג. אלה טענות של מקורבים על שיחות ומאמץ שכנוע, לא הודעה שהבית הלבן תומך או שהדירקטוריון אישר חזרה.\n\nהתוספת לעומת הדיווחים הקודמים על קריאות עובדים ומכתב משקיעים היא הטענה כי הואנג עצמו דן באפשרות וכי תומכיו מארגנים מאמץ שכנוע. אין כאן מינוי מחדש, ביטול ההתפטרות או החלטת דירקטוריון חדשה. לפי Reuters, NVIDIA לא השיבה מיד לבקשת תגובה מחוץ לשעות הפעילות הרגילות. לא מיוחסת לדיווח תנועת מחיר או תוצאה של חקירה.",
+    "טקסט_en": "November 16, 2026 | Reuters via The Korea Times, published at 10:05 KST, or 03:05 in Israel. The original FT publication time was not verified.\n\n**Not verified against a primary source:** the full Reuters report carried by The Korea Times was read, but the FT original was not read here and no official NVIDIA announcement confirming a return was read. Reuters attributes the details to the FT; this is not presented as separate independent confirmation of the same claims.\n\nAccording to the report, Jensen Huang is considering a comeback as NVIDIA CEO and has discussed the possibility with confidants. One ally told the FT that supporters were organizing a group of technology executives to lobby for his return and try to secure White House support, and said the effort had Huang's backing. These are allies' claims about discussions and lobbying, not an announcement that the White House supports him or that the board approved a return.\n\nThe addition to earlier reports of employee calls and an investor letter is the claim that Huang himself has discussed the possibility and supporters are organizing a lobbying effort. No reappointment, reversal of the resignation or new board decision is established. Reuters says NVIDIA did not immediately respond to a request for comment outside regular business hours. No price move or investigation outcome is attributed to this report.",
+    "קישור": "https://www.koreatimes.co.kr/world/20261116/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports",
+    "מקורות": [
+      {
+        "label": "Reuters בהפצת Korea Times: הדיווח המלא המיוחס ל-FT, 16 בנובמבר",
+        "label_en": "Reuters via The Korea Times: full FT-attributed report, November 16",
+        "url": "https://www.koreatimes.co.kr/world/20261116/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "810a669aa71f987da224618a569cf08237d527a1d561bcf2d28a89926a1a45e8"
+      }
+    }
   }
 ]
