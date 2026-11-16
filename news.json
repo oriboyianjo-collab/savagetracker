@@ -47928,5 +47928,96 @@
         "source_hash": "12262d2fbde20883942308b2d2a10dcd104746579fa73e8694f73951518a40ea"
       }
     }
+  },
+  {
+    "מזהה": "n-1788",
+    "category": "micro",
+    "חברה": "AMZN",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:42",
+    "הועלה": "2026-11-16 13:42",
+    "כותרת": "Amazon (AMZN): לפי City & State, קואליציה בראשות החברה מאיימת בהליך משפטי נגד חוק משלוחים מוצע בניו יורק",
+    "כותרת_en": "Amazon (AMZN): City & State reports company-led coalition threatens legal action over proposed NYC delivery law",
+    "קישור": "https://www.cityandstateny.com/policy/2026/11/amazon-national-urban-league-threaten-sue-city-if-delivery-protection-act-passes/417239/?oref=csny-topic-lander-featured-river",
+    "מקורות": [
+      {
+        "url": "https://www.cityandstateny.com/policy/2026/11/amazon-national-urban-league-threaten-sue-city-if-delivery-protection-act-passes/417239/?oref=csny-topic-lander-featured-river",
+        "label": "City & State New York: המכתב והאיום המשפטי",
+        "label_en": "City & State New York: letter and threatened legal challenge"
+      }
+    ],
+    "טקסט": "16.11.2026, 12:00 בישראל (05:00 ET) | כתבת City & State New York נקראה במלואה. **לא מאומת מול מקור ראשוני: המכתב והצעת החוק לא נקראו ישירות.**\n\nלפי הכתבה, National Urban League וקואליציית ארגונים עסקיים בהובלת Amazon מאיימים לתבוע את עיריית ניו יורק אם מועצת העיר תאשר את Delivery Protection Act בנוסחו הנוכחי. במכתב שנשלח ביום שני ליו״ר המועצה ולחבריה, עורך הדין Derek Sells טוען שהצעת Intro 518 סותרת דין פדרלי ומדינתי ומעלה שאלות על סמכות העיר. אלו טענות של מתנגדי ההצעה, לא הכרעת בית משפט.\n\nההצעה מבקשת, בין היתר, לחייב חברות משלוחים גדולות להעסיק ישירות עובדים במקום דרך קבלנים. תומכיה טוענים שהקבלנות פוגעת בזכויות עובדים; המתנגדים מזהירים מפגיעה בעסקים עצמאיים ובמשרות. לא אומת אומדן כספי או מספר משרות שיאבדו בפועל.\n\nהחדש הוא המכתב והאיום המשפטי המותנה, לא תביעה שכבר הוגשה או חוק שכבר עבר. הכתבה אומרת שלא הייתה התקדמות במועצה מאז דיון באפריל. מסיבת עיתונאים שתוכננה ליום שני אינה מוצגת כאן כאירוע שכבר התקיים, ואין אישור ש-Amazon סגרה מחסנים בעקבות ההצעה.",
+    "טקסט_en": "November 16, 2026, 12:00 Israel time (05:00 ET) | The complete City & State New York article was read. **Not verified against a primary source: the letter and proposed legislation were not read directly.**\n\nThe article reports that the National Urban League and an Amazon-led coalition of business organizations are threatening to sue New York City if its council passes the Delivery Protection Act in its current form. A Monday letter to the council speaker and members from attorney Derek Sells argues that Intro 518 conflicts with federal and state law and raises questions about city authority. These are the opponents' legal arguments, not a court ruling.\n\nAmong other provisions, the proposal would require large delivery companies to hire workers directly rather than through contractors. Supporters argue subcontracting harms worker rights; opponents warn of damage to independent businesses and jobs. No financial impact or actual job-loss figure was verified.\n\nThe new development is the letter and conditional legal threat, not an already-filed lawsuit or enacted law. The article says there has been no council movement since an April hearing. A planned Monday press conference is not presented here as completed, and there is no confirmation Amazon closed warehouses because of the proposal.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e53ed5db80d801f5a65dd252c0bc04737f853dbfd5bea25d764813ccb51a9318"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1789",
+    "category": "micro",
+    "חברה": "AMD",
+    "symbols": [
+      "AMD",
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:42",
+    "הועלה": "2026-11-16 13:42",
+    "כותרת": "פורסם באיחור | AMD (AMD): לפי FinanceFeeds, Anthropic טוענת שהסבה עיבוד קלט של מודל אחד ל-MI355X בכשלושה ימים",
+    "כותרת_en": "Published late | AMD (AMD): FinanceFeeds reports Anthropic claims one-model prompt processing bring-up on MI355X in about three days",
+    "קישור": "https://financefeeds.com/amd-shares-anthropic-claude-3-day-port-nvidia/",
+    "מקורות": [
+      {
+        "url": "https://financefeeds.com/amd-shares-anthropic-claude-3-day-port-nvidia/",
+        "label": "FinanceFeeds: טענת Anthropic מה-Roadshow ומגבלותיה",
+        "label_en": "FinanceFeeds: Anthropic roadshow claim and its limitations"
+      }
+    ],
+    "טקסט": "פורסם באיחור | דיווח FinanceFeeds מ-16.11.2026 על חומר Roadshow שפורסם, לפי הכתבה, ב-11 בנובמבר, עם כתוביות מתוארכות ל-10 בנובמבר. **לא מאומת מול מקור ראשוני: המצגת והסרטון המקוריים לא נבדקו ישירות. שעת המקור בישראל לא אומתה.**\n\nלפי הכתבה, המסתמכת על FourWeekMBA, Anthropic טענה ששימוש ב-Claude Mythos סייע להביא עיבוד קלט של מודל אחד שלה לביצועים שימושיים על שבבי AMD MI355X בתוך כשלושה ימים. ההשוואה לכשישה עד 12 חודשים מתייחסת לניסיון ההיסטורי של החברה בהכנסת מאיצים חדשים בשיטות הנדסיות רגילות, לא למבחן עצמאי זהה בין מערכות.\n\nההערה המגבילה במצגת מתייחסת ל-prompt processing של מודל אחד. אין בכך הוכחה שאימון המודל, יצירת הטוקנים או הפעלה מרובת שרתים הוסבו באותו זמן, ולא הוכחה לשוויון עם כלל יכולות CUDA או NVIDIA. הטענה לא אומתה בניסוי עצמאי במקורות שנקראו.\n\nהחדש ביחס לידיעות קודמות על שבבי MI355X הוא טענת הסבה טכנית מצומצמת של לקוחה, לא הזמנת שבבים חדשה, פריסה מסחרית חדשה או שיפור הכנסות מאומת. הסכמי MI450 מיולי המוזכרים כרקע בכתבה הם דגם ועסקאות נפרדים; אין להסיק מהטענה על MI355X את עלותם או ביצועיהם.",
+    "טקסט_en": "Published late | A November 16, 2026 FinanceFeeds report discusses roadshow material posted on November 11, according to the article, with captions dated November 10. **Not verified against a primary source: the original presentation and video were not checked directly. The source publication time in Israel was not verified.**\n\nCiting FourWeekMBA, the article says Anthropic claimed that Claude Mythos helped bring prompt processing for one Anthropic model on AMD MI355X GPUs to a useful level of performance in about three days. The comparison with six to twelve months refers to the company's historical experience bringing up new accelerators with traditional engineering methods, not an identical independent head-to-head test.\n\nThe slide's limiting footnote concerns prompt processing for one model. It does not establish equivalent bring-up time for training, token generation or multi-node serving, or parity with the full CUDA or NVIDIA ecosystem. The claim was not independently tested in the sources read.\n\nThe new information relative to earlier MI355X stories is a customer's narrow technical bring-up claim, not a new chip order, commercial deployment or verified revenue improvement. July MI450 agreements mentioned as background concern a separate chip generation and deals; their costs or performance cannot be inferred from the MI355X claim.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "56b149b150c3b5874d6871ef76beb4ec15842f0dec43814c59dbd95c435a62c0"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1790",
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:42",
+    "הועלה": "2026-11-16 13:42",
+    "כותרת": "NVIDIA (NVDA): לפי Reuters, הסנאטורית קנטוול מאשימה את משרד המסחר בכשלי אכיפת מגבלות יצוא שבבי AI",
+    "כותרת_en": "NVIDIA (NVDA): Reuters reports Senator Cantwell accuses Commerce of failures in enforcing AI chip export controls",
+    "קישור": "https://www.streetinsider.com/Reuters/Senator+accuses+US+Commerce+Department+of+failing+to+stem+flow+of+AI+chips+to+China/27346936.html",
+    "מקורות": [
+      {
+        "url": "https://www.streetinsider.com/Reuters/Senator+accuses+US+Commerce+Department+of+failing+to+stem+flow+of+AI+chips+to+China/27346936.html",
+        "label": "Reuters דרך StreetInsider: מכתב קנטוול מה-15 בנובמבר",
+        "label_en": "Reuters via StreetInsider: Cantwell November 15 letter"
+      }
+    ],
+    "טקסט": "16.11.2026, 12:18 בישראל (05:18 EST) | דיווח Reuters המלא דרך StreetInsider נקרא. **לא מאומת מול מקור ראשוני: מכתב הסנאטורית לא נקרא ישירות.** המכתב מתוארך ל-15 בנובמבר; זו שעת הדיווח, לא שעת שליחתו.\n\nלפי Reuters, הסנאטורית Maria Cantwell, הדמוקרטית הבכירה בוועדת המסחר של הסנאט, האשימה במכתב לשר המסחר Howard Lutnick את המשרד בכך שלא פעל מספיק למנוע גישה סינית לשבבי AI מתקדמים. לטענתה, אי-האכיפה פוגעת בביטחון הלאומי. דוברו של Lutnick סירב להגיב למכתב, לפי הדיווח.\n\nקנטוול טוענת גם שחקירת משרד המסחר בעניין Megaspeed הושעתה, ומעלה חשש לניגוד עניינים סביב עמלה ממשלתית על מכירות שבבים לסין. אלה טענות המכתב כפי שדווחו, לא אישור עצמאי להפסקת חקירה, ממצא לניגוד עניינים או החלטת אכיפה חדשה. Megaspeed לא נמצאה כמפרת הכללים לפי הכתבה, ומסרה שהיא פועלת כחוק.\n\nקשור לידיעות הקודמות על חקירת Megaspeed, דברי בסנט על תמיכה בהגבלות והדיווח שהועלה היום על חיפוש באינדונזיה. החדש כאן הוא פנייה רשמית נוספת של מחוקקת לשר, לא אימוץ הגבלת יצוא חדשה, הכנסת Megaspeed לרשימה או ממצא חדש של דירקטוריון NVIDIA.",
+    "טקסט_en": "November 16, 2026, 12:18 Israel time (05:18 EST) | The full Reuters report via StreetInsider was read. **Not verified against a primary source: the senator's letter was not read directly.** The letter is dated November 15; this is the report time, not when it was sent.\n\nReuters reports that Senator Maria Cantwell, the Senate Commerce Committee's top Democrat, accused Commerce Secretary Howard Lutnick's department in a letter of failing to do enough to prevent Chinese access to advanced AI chips. She argues that the enforcement failure undermines national security. A Lutnick spokesperson declined to comment on the letter, according to the report.\n\nCantwell also alleges that Commerce suspended a Megaspeed probe and raises concerns about financial conflicts around a government fee on chip sales to China. These are the letter's reported allegations, not independent confirmation of a suspended probe, a finding of conflicts or a new enforcement decision. The article says Megaspeed has not been found to have violated the rules and says it operates lawfully.\n\nRelated to earlier stories on the Megaspeed investigation, Bessent's support for restrictions and the report uploaded today on an Indonesian search. The new development is another formal lawmaker letter to the secretary, not a new export restriction, Megaspeed designation or finding by NVIDIA's board.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7fe360ed8ac6a53ca1e7ea12e89258aa8e64f12509d0b9dbeaae284dbcf71669"
+      }
+    }
   }
 ]
