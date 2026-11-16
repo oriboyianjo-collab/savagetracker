@@ -51539,5 +51539,72 @@
         "source_hash": "f96d4c17e9f286e6631950f5333ef67272901c465539bed0c405afa500254251"
       }
     }
+  },
+  {
+    "מזהה": "n-1906",
+    "category": "micro",
+    "חברה": "ExxonMobil (XOM)",
+    "חברה_en": "ExxonMobil (XOM)",
+    "symbols": [
+      "XOM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:53",
+    "הועלה": "2026-11-16 16:53",
+    "כותרת": "ExxonMobil פתחה הצעות לרכישת אג״ח בהיקף קרן מצטבר של עד 3 מיליארד דולר",
+    "כותרת_en": "ExxonMobil launches debt tender offers for up to $3 billion in aggregate principal",
+    "קישור": "https://investor.exxonmobil.com/company-information/press-releases/detail/1215/exxonmobil-cash-tender-offers-to-purchase-certain",
+    "מקורות": [
+      {
+        "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1215/exxonmobil-cash-tender-offers-to-purchase-certain",
+        "label": "ExxonMobil: הודעת הצעות הרכש המקורית",
+        "label_en": "ExxonMobil: original tender offer announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 08:00 בשעון מרכז ארה״ב, 16:00 בישראל.\n\nExxonMobil Holdings הודיעה כי חברות הבת Pioneer Natural Resources ו-Exxon Mobil Corporation פתחו הצעות רכש במזומן לארבע סדרות אג״ח. תקרת ההצעות המשותפת היא עד 3 מיליארד דולר בערך נקוב מצטבר של קרן החוב.\n\nהסדרות הן אג״ח Pioneer בריבית 1.900% לפדיון ב-2030 ו-2.150% לפדיון ב-2031, ואג״ח Exxon בריבית 3.482% לפדיון ב-2030 ו-4.227% לפדיון ב-2040. כל חברה מציעה לרכוש את האג״ח שלה בלבד, והתקרה של 3 מיליארד דולר חלה על כולן יחד, לא על כל סדרה בנפרד.\n\n**זו הצעת רכישה של חוב, לא רכישה עצמית של מניות ולא הודעה שכבר שולמו 3 מיליארד דולר.** התקרה היא סכום הקרן; התמורה בפועל תיקבע לפי תשואות ייחוס ומרווחים מוגדרים, בתוספת ריבית שנצברה. רכישות כפופות לתנאים, לסדרי קדימות ולאפשרות הקצאה יחסית, והחברות רשאיות לשנות את התקרה לפי הדין.\n\nהמועד המפורסם לסיום ההצעות הוא 20 בנובמבר בשעה 17:00 בניו יורק, אלא אם יוארכו או יסתיימו קודם. הסליקה צפויה ל-24 בנובמבר. אלה מועדים מותנים של הליך פתוח, לא תוצאות סופיות; אג״ח שיירכשו מיועדות לביטול.",
+    "טקסט_en": "November 16, 2026 at 08:00 US Central time, 16:00 in Israel.\n\nExxonMobil Holdings said subsidiaries Pioneer Natural Resources and Exxon Mobil Corporation launched cash tender offers for four bond series. The combined cap is up to $3 billion in aggregate principal amount of debt.\n\nThe series are Pioneer's 1.900% notes due 2030 and 2.150% notes due 2031, and Exxon's 3.482% notes due 2030 and 4.227% notes due 2040. Each subsidiary offers to purchase only its own notes. The $3 billion cap applies across all four series, not separately to each.\n\n**These are debt tender offers, not a share buyback or a report that $3 billion has already been paid.** The cap measures principal; actual consideration is determined using specified reference yields and fixed spreads, with accrued interest paid separately. Purchases remain subject to conditions, acceptance priorities and possible proration. The offerors may change the cap subject to law.\n\nThe stated expiry is November 20 at 17:00 New York time, unless extended or terminated earlier. Settlement is expected on November 24. These are conditional dates in an open process, not final results; purchased notes are to be cancelled.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4f36d1bd1fc7f9c1512da5db13817df9972066fae8aa8385398b1b2ad73def2d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1907",
+    "category": "micro",
+    "חברה": "Nvidia (NVDA)",
+    "חברה_en": "Nvidia (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:53",
+    "הועלה": "2026-11-16 16:53",
+    "כותרת": "פורסם באיחור | לפי דיווחים, UBS הוריד את יעד Nvidia מ-300 ל-240 דולר והשאיר המלצת Buy",
+    "כותרת_en": "Published late | Reports say UBS cuts Nvidia target from $300 to $240, retains Buy",
+    "קישור": "https://www.investing.com/news/analyst-ratings/ubs-cuts-nvidia-stock-price-target-to-240-on-2028-revenue-concerns-93CH-5028877",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/analyst-ratings/ubs-cuts-nvidia-stock-price-target-to-240-on-2028-revenue-concerns-93CH-5028877",
+        "label": "Investing.com: דיווח על עדכון UBS, לא המזכר המקורי",
+        "label_en": "Investing.com: report on UBS update, not the original note"
+      },
+      {
+        "url": "https://www.ad-hoc-news.de/boerse/news/analysen/analyse-flash-ubs-senkt-ziel-fuer-nvidia-auf-240-dollar-buy/70520664",
+        "label": "dpa-AFX דרך AD HOC NEWS: יעד, דירוג ופרטי חותמת המחקר",
+        "label_en": "dpa-AFX via AD HOC NEWS: target, rating and research timestamp details"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 16.11.2026. דיווח dpa-AFX מציין שהמחקר המקורי פורסם ב-07:38 GMT, שהם 09:38 בישראל, אך אינו מוסר שעת הפצה ראשונה מאומתת. מזכר UBS המקורי לא נקרא.\n\n**לא מאומת מול מקור ראשוני.** לפי Investing.com ו-dpa-AFX, אנליסט UBS Timothy Arcuri הוריד את מחיר היעד למניית Nvidia מ-300 ל-240 דולר, תוך השארת המלצת Buy. שינוי היעד הוא הערכת אנליסט, לא מחיר מסחר נוכחי ולא החלטה של Nvidia.\n\nלפי Investing.com, UBS הפחית את אומדן הכנסות שנת 2028 הקלנדרית מ-985 ל-885 מיליארד דולר ואת אומדן הרווח למניה מ-22.08 ל-20.01 דולר. שני הדיווחים מתארים חשש מפיקוח יצוא ורישוי שעלולים לפגוע במכירות לאזורים כגון סינגפור ומלזיה. תרחיש הפגיעה של עד 10% מההכנסות מיוחס לאנליסט, לא לאיסור חדש שכבר פורסם או לאובדן הכנסות שהתרחש.\n\nהאנליסט עדיין מצפה, לפי הדיווחים, לתוצאות ולהכוונה מעל ציפיות השוק. אלה תחזיות UBS לפני פרסום התוצאות, לא תוצאות כספיות שכבר פורסמו ולא תחזית הכנסות רשמית חדשה של החברה. אין כאן המלצת השקעה אישית או אימות של שינוי במחיר המניה עקב המזכר.",
+    "טקסט_en": "Published late | November 16, 2026. The dpa-AFX report lists the original research publication at 07:38 GMT, 09:38 in Israel, but gives no verified first-distribution time. The original UBS note was not read.\n\n**Not verified against a primary source.** Investing.com and dpa-AFX report that UBS analyst Timothy Arcuri cut Nvidia's price target from $300 to $240 while retaining Buy. The target is an analyst's assessment, not a current trading price or an Nvidia decision.\n\nInvesting.com says UBS reduced its calendar-2028 revenue estimate from $985 billion to $885 billion and its EPS estimate from $22.08 to $20.01. Both reports describe concerns about export scrutiny and licensing that could affect sales to places such as Singapore and Malaysia. The potential downside of up to 10% of revenue is attributed to the analyst, not a newly enacted restriction or revenue loss already incurred.\n\nThe analyst still expects results and guidance above market expectations, according to the reports. These are UBS forecasts ahead of the results, not published financial results or new official company revenue guidance. This is not personal investment advice or verification of a share-price move caused by the note.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9c77a9e7e0d164c8a7f869c5263d9d0d8266b435ad3c4f7374ce6c27eaa33c44"
+      }
+    }
   }
 ]
