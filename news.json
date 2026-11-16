@@ -53160,5 +53160,39 @@
         "source_hash": "974bf0ebaaada1c9a8a810dd480d133a8e6098563e4ddbff45dc186e1ace8c9c"
       }
     }
+  },
+  {
+    "מזהה": "n-1957",
+    "category": "micro",
+    "חברה": "AMD (AMD)",
+    "חברה_en": "AMD (AMD)",
+    "symbols": [
+      "AMD",
+      "HPE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 21:05",
+    "הועלה": "2026-11-16 21:05",
+    "כותרת": "AMD (AMD): מחשב-העל Lux באוק רידג׳ נפתח למשתמשים מדעיים, לפי הודעת החברה",
+    "כותרת_en": "AMD (AMD): Lux supercomputer at Oak Ridge opens to scientific users, company says",
+    "summary": "מערכת בבניית HPE משלבת מעבדי EPYC ומאיצי MI355X עבור מחקר במסגרת Genesis Mission.",
+    "summary_en": "The HPE-built system combines EPYC CPUs and MI355X GPUs for Genesis Mission research.",
+    "קישור": "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
+    "מקורות": [
+      {
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
+        "label": "AMD: Lux opens to scientific users at Oak Ridge",
+        "label_en": "AMD: Lux opens to scientific users at Oak Ridge"
+      }
+    ],
+    "טקסט": "16.11.2026, 14:00 בשעון מזרח ארה״ב, 21:00 בישראל.\n\nAMD הודיעה כי מחשב-העל Lux במעבדה הלאומית אוק רידג׳ של משרד האנרגיה האמריקאי נפתח למשתמשים מדעיים. החברה מתארת אותו כמפעל ה-AI הייעודי הראשון בארה״ב עבור Genesis Mission, יוזמת משרד האנרגיה לקידום מדע בעזרת AI.\n\nהמערכת נבנתה בידי HPE ומשלבת מעבדי AMD EPYC, מאיצי Instinct MI355X, רשתות Pensando ותוכנת ROCm. לפי ההודעה, הוקצו לה פרויקטים לתכנון תחנות כוח בהיתוך, פיתוח חומרים וייצור מתקדם, וחיזוי זמינות מים, זרימת נחלים וטמפרטורת נהרות באזור רשות עמק טנסי. אלה תחומי מחקר שהוקצו למערכת, לא תוצאות מחקר שהושגו היום.\n\nAMD מציינת ש-Lux דורג במקום ה-14 ברשימת TOP500 שפורסמה היום. החברה מפנה חוקרים ל-OLCF לבדיקת מסלולי גישה; ההודעה אינה מבטיחה גישה חופשית ובלתי מוגבלת ואינה מוסרת שווי חוזה או תחזית הכנסות.",
+    "טקסט_en": "November 16, 2026 at 14:00 US Eastern time, 21:00 in Israel.\n\nAMD announced that the Lux supercomputer at the US Department of Energy's Oak Ridge National Laboratory is open to scientific users. The company describes it as the first dedicated US AI Factory for the Genesis Mission, the DOE initiative to advance AI-driven science.\n\nBuilt by HPE, the system combines AMD EPYC CPUs, Instinct MI355X GPUs, Pensando networking and ROCm software. The announcement lists allocated projects in fusion power-plant design, materials development and advanced manufacturing, and prediction of water availability, streamflow and river temperature in the Tennessee Valley Authority region. These are allocated research areas, not scientific results achieved today.\n\nAMD says Lux ranks 14th on today's TOP500 list. AMD directs researchers to OLCF to discuss access pathways; the release promises neither unrestricted free access nor a contract value or revenue forecast.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "cbd7977cbb23ad2642b995b3624157d75af48f1b355f636652e0fcf59b281e38"
+      }
+    }
   }
 ]
