@@ -45277,5 +45277,41 @@
         "source_hash": "95b0b6a3500570cc98726b422b23aa749c381c08e1a2d70a1375a4593f846fb8"
       }
     }
+  },
+  {
+    "מזהה": "n-1711",
+    "category": "macro",
+    "חברה": "דרום קוריאה / שבבים",
+    "חברה_en": "South Korea / semiconductors",
+    "symbols": [
+      "005930.KS",
+      "000660.KS"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 04:43",
+    "הועלה": "2026-11-16 04:43",
+    "כותרת": "לפי Yonhap, קוספי ירד ב-2.07% במסחר הבוקר בסיאול; SK hynix איבדה 4.28%",
+    "כותרת_en": "Yonhap: KOSPI falls 2.07% in Seoul morning trade; SK hynix down 4.28%",
+    "summary": "לפי סוכנות הידיעות, הירידות בשעה 11:20 בסיאול כללו גם 2.67% בסמסונג. הסוכנות מייחסת את החולשה למכירות זרים בטכנולוגיה ולחששות סביב AI.",
+    "summary_en": "The agency reports the 11:20 a.m. Seoul snapshot also included a 2.67% Samsung decline, attributing weakness to foreign technology selling and AI concerns.",
+    "טקסט": "16.11.2026 | תמונת מסחר בוקר בסיאול לפי Yonhap. העמוד מציג פרסום ב-11:36 ללא ציון מפורש של אזור זמן; שעת הפרסום בישראל לא אומתה. השעה מעל הכותרת היא מועד ההעלאה לאפליקציה.\n\n**לא מאומת מול מקור ראשוני:** נתוני המסחר וזרימות המשקיעים מיוחסים ל-Yonhap; נתוני הבורסה המקוריים לא נבדקו ישירות. אלה נתוני ביניים מהכתבה, לא ציטוטים חיים או תוצאת סגירה.\n\nלפי הדיווח, מדד קוספי ירד ב-109.57 נקודות, 2.07%, לרמה של 5,180.96 בשעה 11:20 בבוקר בסיאול ביום שני, 16 בנובמבר. סמסונג אלקטרוניקס ירדה ב-2.67% ו-SK hynix ב-4.28%. לפי אותה כתבה, מניית Samsung Electro-Mechanics ירדה ב-5.96% ומניית SK Square ב-7.02%.\n\nלפי סוכנות Yonhap, נרשמו מכירות כבדות של מניות טכנולוגיה בידי משקיעים זרים על רקע חששות מחודשים לגבי המשך גאות ה-AI. זהו ההסבר שמייחסת הסוכנות לתנועת השוק, לא גורם שאומת באופן עצמאי.\n\nזהו עדכון למסחר של 16 בנובמבר, נפרד מתוצאת הסגירה של 13 בנובמבר.",
+    "טקסט_en": "November 16, 2026 | Seoul morning trading snapshot reported by Yonhap. The page displays publication at 11:36 without an explicit timezone; the Israel publication time was not verified. The time above the headline is the app upload time.\n\n**Not verified against a primary source:** trading figures and investor flows are attributed to Yonhap; original exchange data were not checked directly. These are interim figures from the article, not live quotes or a closing result.\n\nYonhap reports the KOSPI was down 109.57 points, or 2.07%, at 5,180.96 as of 11:20 a.m. in Seoul on Monday, November 16. Samsung Electronics was down 2.67% and SK hynix 4.28%. Samsung Electro-Mechanics fell 5.96% and SK Square 7.02%, according to the same article.\n\nYonhap describes heavy foreign selling of technology shares amid renewed concerns about the sustainability of the AI boom. This is the agency's explanation of the market move, not an independently established cause.\n\nThis updates November 16 trading separately from the November 13 closing result.",
+    "קישור": "https://en.yna.co.kr/view/AEN20261116004400320?section=economy-finance/economy",
+    "מקורות": [
+      {
+        "label": "Yonhap: דיווח מסחר הבוקר בסיאול, 16 בנובמבר",
+        "label_en": "Yonhap: Seoul morning trading report, November 16",
+        "url": "https://en.yna.co.kr/view/AEN20261116004400320?section=economy-finance/economy"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dd021487ff018b79de5d639314064c1d2a8fe8d8650b597f8b9d903ff6482022"
+      }
+    }
   }
 ]
