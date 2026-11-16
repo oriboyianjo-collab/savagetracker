@@ -48419,5 +48419,65 @@
         "source_hash": "057c23bc5b33d3ef26ea5417bd2e7bae97c2c3e68f513a7bcf08bc4f237ee5a8"
       }
     }
+  },
+  {
+    "מזהה": "n-1805",
+    "category": "micro",
+    "חברה": "FANG",
+    "symbols": [
+      "FANG"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:08",
+    "הועלה": "2026-11-16 14:08",
+    "כותרת": "Diamondback (FANG) חתמה לרכישת נכסי Double Eagle תמורת כ-15.56 מיליון מניות ו-2.15 מיליארד דולר במזומן",
+    "כותרת_en": "Diamondback (FANG) agrees to buy Double Eagle assets for about 15.56 million shares and $2.15 billion in cash",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3403319/22886/en/diamondback-energy-inc-announces-core-midland-basin-acquisition.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3403319/22886/en/diamondback-energy-inc-announces-core-midland-basin-acquisition.html",
+        "label": "הודעת Diamondback דרך GlobeNewswire: רכישה באגן מידלנד",
+        "label_en": "Diamondback release via GlobeNewswire: Midland Basin acquisition"
+      }
+    ],
+    "טקסט": "16.11.2026, 13:45 בישראל (06:45 ET) | הודעת Diamondback דרך GlobeNewswire נקראה במלואה.\n\nDiamondback חתמה על הסכם רכישה מחייב לרכישת חברות בנות מסוימות של Double Eagle IV Midco ו-Double Eagle V Midco. התמורה היא כ-15.56 מיליון מניות Diamondback ו-2.15 מיליארד דולר במזומן, בכפוף להתאמות מקובלות. זהו הסכם, לא עסקה שהושלמה; החברה צופה סגירה ב-21 בדצמבר 2026, בכפוף לתנאי הסגירה.\n\nלדברי המנכ\"ל, העסקה רוכשת את 40% מהשותפות שהחברה עדיין לא החזיקה. הנכסים כוללים כ-176 אלף אקרים נטו בליבת אגן מידלנד. החברה מעריכה שהפקת הנפט מהם תהיה כ-35 אלף חביות ביום ב-2027; זו תחזית לשנה הבאה, לא קצב הפקה נוכחי מאומת. אומדן ההפקה הכוללת הוא 92 אלף חביות שווה ערך נפט ביום, ואין לבלבל אותו עם נפט בלבד.\n\nהחברה מתכננת לממן את רכיב המזומן ממזומן בקופה, אשראי ו/או הלוואות לזמן קצוב. היא מסרה שאין צורך להוסיף אסדת קידוח או לשנות מהותית את תוכנית הפיתוח בעקבות העסקה. טענותיה לתוספת לתזרים למניה ולניטרליות במינוף הן ציפיות, לא תוצאות שהושגו.\n\nהסכם זה נפרד מעסקת תשתיות המים Deep Blue עם KKR ומהעדכון התפעולי הקודם על Barnett. אין כאן אימוץ של מחיר כותרת משמועות: התמורה מתוארת לפי המזומן והמניות שבהסכם, ושווי המניות משתנה עם מחירן.",
+    "טקסט_en": "November 16, 2026, 13:45 Israel time (06:45 ET) | The complete Diamondback release via GlobeNewswire was read.\n\nDiamondback signed a definitive purchase agreement to acquire certain subsidiaries of Double Eagle IV Midco and Double Eagle V Midco. Consideration is approximately 15.56 million Diamondback shares and $2.15 billion in cash, subject to customary adjustments. This is an agreement, not a completed acquisition; the company expects closing on December 21, 2026, subject to closing conditions.\n\nThe CEO said the deal buys out the 40% of the partnership Diamondback did not already own. The assets include about 176,000 net acres in the core Midland Basin. The company estimates their 2027 oil production at about 35,000 barrels per day. That is a next-year estimate, not a verified current production rate. Estimated total production is 92,000 barrels of oil equivalent per day, which must not be confused with oil alone.\n\nThe company expects to fund the cash portion through cash on hand, its credit facility and/or term loans. It says the transaction does not require an additional rig or a material change in its development plan. Its statements about per-share cash-flow accretion and leverage neutrality are expectations, not achieved results.\n\nThis agreement is separate from the Deep Blue water-infrastructure transaction with KKR and the earlier Barnett operating update. No rumored headline valuation is adopted here: consideration is stated in the cash and shares specified in the agreement, and the share component's value varies with the stock price.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a3bcaed60aea734d68c69b8cbaf84e73a3ceaf4e83e6441d6c0f688d0f696fc1"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1806",
+    "category": "micro",
+    "חברה": "ALAB",
+    "symbols": [
+      "ALAB"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:08",
+    "הועלה": "2026-11-16 14:08",
+    "כותרת": "פורסם באיחור | Astera Labs (ALAB) הציגה את Orion: תכנון ארונות AI לבחירת מעבדים ומאיצים; זמינות צפויה ברבעון הראשון של 2027",
+    "כותרת_en": "Published late | Astera Labs (ALAB) unveils Orion rack reference designs with a choice of CPUs and accelerators; availability expected in Q1 2027",
+    "קישור": "https://www.asteralabs.com/news/astera-labs-unveils-orion-a-compute-agnostic-rack-scale-architecture-for-token-efficient-ai-factories/",
+    "מקורות": [
+      {
+        "url": "https://www.asteralabs.com/news/astera-labs-unveils-orion-a-compute-agnostic-rack-scale-architecture-for-token-efficient-ai-factories/",
+        "label": "Astera Labs: הודעת Orion המקורית מ-12 באוקטובר",
+        "label_en": "Astera Labs: original October 12 Orion announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת Astera Labs מ-12.10.2026 נקראה במלואה. שעת המקור לא נמסרה בעמוד שנבדק. זהו פרסום ישן שלא נמצא בארכיון החדשות, לא השקה חדשה מ-16 בנובמבר.\n\nAstera Labs הציגה את Orion, ארכיטקטורת ייחוס מודולרית לארונות מחשוב AI שמאפשרת בחירה של CPU ומאיצים בהתאם לזמינות, לעלות ולעומסי העבודה. התכנון מיועד בעיקר לספקיות ענן AI ולארגונים שמרחיבים קיבולת הסקת מסקנות.\n\nלפי החברה, מארג החיבור מבוסס PCIe מתוכנן לתמוך ב-8 עד 160 מאיצים בכל pod. זהו כושר תכנון מוצהר, לא הוכחה שמערכת של 160 מאיצים כבר נמסרה ללקוח או שהשיגה ביצועים מסוימים. התכנון משלב מגשי מחשוב, חיבור וזיכרון, לוחות ויכולות ניהול, ניטור ואבחון באמצעות תוכנת COSMOS.\n\nהזמינות דרך שותפות OEM ו-ODM צפויה להתחיל ברבעון הראשון של 2027. Astera מתכננת ומאמתת את ארכיטקטורת הייחוס ואת תתי-המערכות; היא אינה יצרנית הארונות. הייצור, הרישוי והמכירה של מערכות מלאות אמורים להיעשות דרך השותפות.\n\nטענות לשיפור בעלות לכל טוקן, לביצועים ולגמישות הן יעדי החברה. ההודעה אינה כוללת חוזה לקוח חדש, היקף הכנסות, משלוחים מסחריים מוכחים או בדיקת ביצועים עצמאית; הרחבה עתידית לחיבורים נוספים, ובהם UALink, היא תוכנית עבודה ולא יכולת שכבר אומתה כאן.",
+    "טקסט_en": "Published late | The complete Astera Labs announcement dated October 12, 2026 was read. The page checked did not state a publication time. This is an older announcement absent from the news archive, not a new November 16 launch.\n\nAstera Labs introduced Orion, a modular rack-scale AI reference architecture intended to let customers choose CPUs and accelerators based on availability, cost and workloads. It primarily targets neoclouds and enterprises expanding inference capacity.\n\nThe company says its PCIe-based fabric is designed to scale from 8 to 160 accelerators per pod. This is a stated design capability, not evidence that a 160-accelerator system has already shipped to a customer or achieved a particular performance level. The design combines compute, fabric and memory trays, boards, and management, telemetry and diagnostics through COSMOS software.\n\nAvailability through OEM and ODM partners is expected to begin in Q1 2027. Astera designs and validates the reference architecture and subsystems; it does not manufacture the racks. Partners are expected to manufacture, license and sell complete systems.\n\nClaims about better token economics, performance and flexibility are company objectives. The announcement does not disclose a new customer contract, revenue value, proven commercial shipments or an independent benchmark. Future support for additional interconnects, including UALink, is a roadmap, not a capability verified here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9e9727bd31e5fa733ba040f165b76b52e4bcb17498a0af83971cad1ec66866b5"
+      }
+    }
   }
 ]
