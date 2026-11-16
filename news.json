@@ -53320,5 +53320,38 @@
         "source_hash": "c28814dab5f01367aecd583141c1ea63dd3b5a5809b40840f580fde39b8b539f"
       }
     }
+  },
+  {
+    "מזהה": "n-1962",
+    "category": "company",
+    "חברה": "First Horizon (FHN)",
+    "חברה_en": "First Horizon (FHN)",
+    "symbols": [
+      "FHN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 22:08",
+    "הועלה": "2026-11-16 22:08",
+    "כותרת": "First Horizon (FHN): אנדרו פינקל מונה לנשיא אזור פאלם ביץ׳ וברווארד בפלורידה",
+    "כותרת_en": "First Horizon (FHN): Andrew Finkle named Palm Beach and Broward market president in Florida",
+    "summary": "מינוי להובלת הצוות המקומי ולקוחות האזור, לא לתפקיד נשיא הבנק כולו.",
+    "summary_en": "Appointment to lead the local team and serve regional clients, not to become president of the whole bank.",
+    "קישור": "https://www.prnewswire.com/news-releases/first-horizon-bank-names-andrew-finkle-palm-beach-and-broward-county-florida-market-president-302940930.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/first-horizon-bank-names-andrew-finkle-palm-beach-and-broward-county-florida-market-president-302940930.html",
+        "label": "First Horizon Bank / PR Newswire: Andrew Finkle appointment",
+        "label_en": "First Horizon Bank / PR Newswire: Andrew Finkle appointment"
+      }
+    ],
+    "טקסט": "16.11.2026 | הודעת First Horizon Bank הופצה ב-PR Newswire בשעה 15:00 בחוף המזרחי של ארה״ב, 22:00 בישראל.\n\nהבנק הודיע על מינוי אנדרו פינקל לנשיא אזור פאלם ביץ׳ וברווארד בפלורידה. הוא יוביל את הצוות המקומי וישרת את לקוחות הבנק באזור. מדובר בתפקיד אזורי, לא במינוי לנשיא או למנכ״ל First Horizon כולה.\n\nפינקל שימש קודם לכן ראש צוות הבנקאות המסחרית של First Horizon במחוזות ברווארד ופאלם ביץ׳. הוא הצטרף לבנק ב-2016, ולפי ההודעה יש לו יותר מ-25 שנות ניסיון בבנקאות מסחרית ובנקאות השקעות, נוסף על חמש שנים כסמנכ״ל כספים בחברת הפצה סיטונאית לשוק הביניים.\n\nההודעה אינה כוללת יעד כספי חדש, שינוי בתחזית או עסקה חדשה; אין להסיק מהמינוי לבדו השפעה כמותית על הכנסות הבנק.",
+    "טקסט_en": "November 16, 2026 | First Horizon Bank's announcement was distributed by PR Newswire at 15:00 ET, or 22:00 Israel time.\n\nThe bank named Andrew Finkle market president for Palm Beach and Broward County, Florida. He will lead the local team and serve the bank's clients in the region. This is a regional role, not an appointment as president or CEO of First Horizon as a whole.\n\nFinkle previously led First Horizon's commercial banking team for Broward and Palm Beach Counties. He joined the bank in 2016 and, according to the announcement, has more than 25 years of experience in commercial and investment banking, plus five years as CFO of a middle-market wholesale distribution company.\n\nThe announcement includes no new financial target, guidance change or new transaction. The appointment alone does not establish a quantified revenue impact for the bank.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "83ffb2adc9dd755f5f286a3848eb173f027526ac2e4fac5c70a8810402b2047d"
+      }
+    }
   }
 ]
