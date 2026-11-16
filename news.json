@@ -51120,5 +51120,135 @@
         "source_hash": "43d317ae6f864c66fc1fa8d3f1a6ce6daf4a54d0c2eb153f16a52a8cbc8f1437"
       }
     }
+  },
+  {
+    "מזהה": "n-1893",
+    "category": "micro",
+    "חברה": "TensorWave / AMD",
+    "חברה_en": "TensorWave / AMD",
+    "symbols": [
+      "AMD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:25",
+    "הועלה": "2026-11-16 16:25",
+    "כותרת": "TensorWave חתמה עם OpenAI על 457 מגה-ואט לשש שנים באמצעות AMD; פריסה צפויה מ-2027",
+    "כותרת_en": "TensorWave signs six-year OpenAI agreement for 457 MW using AMD; deployment expected from 2027",
+    "קישור": "https://www.businesswire.com/news/home/20261116130015/en/TensorWave-Announces-Agreement-with-OpenAI-to-Deliver-More-Than-450MW-of-AMD-Powered-AI-Infrastructure",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261116130015/en/TensorWave-Announces-Agreement-with-OpenAI-to-Deliver-More-Than-450MW-of-AMD-Powered-AI-Infrastructure",
+        "label": "TensorWave / AMD: ההודעה המקורית מ-16 בנובמבר",
+        "label_en": "TensorWave / AMD: original November 16 announcement"
+      },
+      {
+        "url": "https://irp.cdn-website.com/4ee5afac/files/uploaded/Fermi+Q326+ER+11-12-26+vF.pdf",
+        "label": "Fermi: מקור נפרד מ-12 בנובמבר על ביטול הסדר TensorWave",
+        "label_en": "Fermi: separate November 12 source on the TensorWave termination"
+      }
+    ],
+    "טקסט": "הודעת TensorWave מ-16.11.2026. שעת הפרסום המקורית לא אומתה.\n\nTensorWave, ספקית ענן AI הנתמכת בידי AMD Ventures, הודיעה על הסכם לשש שנים עם OpenAI לאספקת קיבולת IT ייעודית של 457 מגה-ואט בכמה אתרי מרכזי נתונים בארה״ב. התשתית מיועדת למאיצי AMD Instinct MI455X ולמערכות Helios, בקיבולת המוקדשת ללקוח יחיד, OpenAI.\n\nלפי ההודעה, תחילת העלייה לאוויר צפויה במחצית הראשונה של 2027 והפריסה המלאה בתחילת 2028. **457 מגה-ואט הם קיבולת עתידית בהסכם, לא קיבולת שכבר הופעלה או צריכת חשמל שנמדדה.** מועדי הפריסה הם ציפיות, לא אישור השלמה.\n\nההודעה מציבה את הפרויקט כחלק מהשותפות הקיימת של OpenAI ו-AMD. היא אינה מוסרת שווי חוזה, מחיר לשירות או הכנסות מוכרות של AMD או TensorWave. אין להציג את ההסכם כהתחייבות חדשה של AMD בהיקף כספי שלא נמסר.\n\nזהו הסכם נפרד מהסדר TensorWave–Fermi שביטולו כבר פורסם בהודעת Fermi מ-12 בנובמבר; ההודעה הנוכחית אינה מודיעה על החייאת אותו הסדר או על הקצאת הפרויקט לאתר Fermi.",
+    "טקסט_en": "TensorWave announcement dated November 16, 2026. Original publication time was not verified.\n\nAMD Ventures-backed AI cloud provider TensorWave announced a six-year agreement with OpenAI for 457 MW of dedicated IT capacity across multiple US data center sites. The infrastructure is intended for AMD Instinct MI455X GPUs and Helios rack-scale systems, operated as single-tenant capacity for OpenAI.\n\nCapacity is expected to begin coming online in the first half of 2027, with full deployment expected by early 2028. **The 457 MW is future capacity under an agreement, not capacity already operational or measured electricity consumption.** Deployment dates are expectations, not confirmed completion.\n\nThe release positions the project within OpenAI and AMD's existing partnership. It discloses no contract value, service price or recognized revenue for AMD or TensorWave. It should not be read as an additional AMD financial commitment of an undisclosed amount.\n\nThis is separate from the TensorWave-Fermi arrangement whose termination Fermi disclosed on November 12. The current announcement does not revive that arrangement or assign the project to Fermi's site.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a694d6daaaddb68beeb5acd808e4f112819238cb40682941d79d7258c0f07cc5"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1894",
+    "category": "micro",
+    "חברה": "Astera Labs / TD SYNNEX",
+    "חברה_en": "Astera Labs / TD SYNNEX",
+    "symbols": [
+      "ALAB",
+      "SNX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:25",
+    "הועלה": "2026-11-16 16:25",
+    "כותרת": "Astera ו-Hyve מרחיבות שיתוף פעולה במערכות Orion; זמינות צפויה ברבעון הראשון של 2027",
+    "כותרת_en": "Astera and Hyve expand Orion systems collaboration; availability expected in Q1 2027",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3403604/0/en/hyve-solutions-and-astera-labs-collaborate-to-bring-ai-inference-capacity-to-customers-faster.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3403604/0/en/hyve-solutions-and-astera-labs-collaborate-to-bring-ai-inference-capacity-to-customers-faster.html",
+        "label": "Astera Labs / TD SYNNEX: ההודעה המקורית מ-16 בנובמבר",
+        "label_en": "Astera Labs / TD SYNNEX: original November 16 announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:00 בחוף המזרחי של ארה״ב, 16:00 בישראל.\n\nAstera Labs ו-Hyve Solutions, חברה בת בבעלות מלאה של TD SYNNEX, הודיעו על הרחבת שיתוף פעולה: Hyve תשלב את Orion Compute Board, Fabric Tray ו-Link Board בפלטפורמת Apex שלה למערכות הסקת AI ברמת ארון.\n\nזהו עדכון שותפות קונקרטי לארכיטקטורת Orion שהוצגה באוקטובר, לא השקה חדשה של עצם הארכיטקטורה. המערכות צפויות להיות זמינות ברבעון הראשון של 2027. תכנון קירור האוויר מיועד לאפשר שימוש במרכזי נתונים ללא תשתית קירור נוזלי, אך אין כאן אישור שהמערכות כבר נמסרו ללקוחות.\n\n**טענת שיפור של עד 89% בטוקנים לשנייה היא תוצאת בדיקת Astera, לא מדד עצמאי או שיפור מובטח לכל עומס.** לפי הערת הבדיקה, הושוו שתי תצורות של שמונה GPU שהיו זהות מלבד מארג החיבור: מתג Scorpio יחיד עם 320 נתיבים לעומת שני מתגים של 144 נתיבים. נבדקו ארבעה מודלים, שלושה פרופילי עומס ומקביליות של 1–512 בקשות; התוצאות משתנות לפי מודל ותצורה.\n\nההודעה אינה מוסרת היקף חוזה, הזמנות לקוח או תחזית הכנסות חדשה. יכולת תכנון להרחבה עד 160 מאיצים אינה הוכחה שמשלוח בהיקף הזה כבר הושלם.",
+    "טקסט_en": "November 16, 2026 at 09:00 US Eastern time, 16:00 in Israel.\n\nAstera Labs and Hyve Solutions, a wholly owned TD SYNNEX subsidiary, announced expanded collaboration. Hyve will integrate Orion Compute Board, Fabric Tray and Link Board into its Apex platform for rack-scale AI inference systems.\n\nThis is a specific partner-integration update to Orion, introduced in October, not a new announcement of the architecture itself. Systems are expected to be available in Q1 2027. Air-cooled designs target existing data centers without liquid-cooling infrastructure; the release does not confirm completed customer deliveries.\n\n**The claim of up to 89% higher tokens per second comes from Astera testing, not an independent benchmark or a guarantee across workloads.** The footnote compares otherwise identical eight-GPU platforms: a single 320-lane Scorpio switch against a two-switch, 144-lanes-each baseline. Tests covered four models, three workload profiles and concurrency from 1 to 512 requests; results vary by model and configuration.\n\nThe announcement gives no contract value, customer-order amount or new revenue guidance. A design capability for up to 160 accelerators is not proof that such a shipment has occurred.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "65a206fbea35608bbac80343c567dae334bcd865a894322d033a58eb8ad7d24b"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1895",
+    "category": "micro",
+    "חברה": "Ciena (CIEN)",
+    "חברה_en": "Ciena (CIEN)",
+    "symbols": [
+      "CIEN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:25",
+    "הועלה": "2026-11-16 16:25",
+    "כותרת": "Ciena מינתה את Greg Friesen לסמנכ״ל בכיר ומנהל המוצר הראשי, בתוקף מיידי",
+    "כותרת_en": "Ciena appoints Greg Friesen EVP and Chief Product Officer, effective immediately",
+    "קישור": "https://www.businesswire.com/news/home/20261116451812/en/Ciena-Appoints-Greg-Friesen-as-Executive-Vice-President-and-Chief-Product-Officer",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261116451812/en/Ciena-Appoints-Greg-Friesen-as-Executive-Vice-President-and-Chief-Product-Officer",
+        "label": "Ciena (CIEN): ההודעה המקורית מ-16 בנובמבר",
+        "label_en": "Ciena (CIEN): original November 16 announcement"
+      }
+    ],
+    "טקסט": "הודעת Ciena מ-16.11.2026. שעת הפרסום המקורית לא אומתה.\n\nCiena הודיעה על מינוי Greg Friesen לסגן נשיא בכיר ומנהל המוצר הראשי, בתוקף מהיום. הוא ידווח לנשיא ולמנכ״ל Gary Smith ויהיה חבר בצוות ההנהלה הבכירה.\n\nFriesen יוביל את ארגון המוצר העולמי, ובאחריותו ניהול קווי מוצר, הנדסת פתרונות והכנסתם לשוק ואיכות, בשיתוף ארגון המחקר והפיתוח. בתפקידו האחרון בחברה ניהל את השירות והתמיכה העולמיים; הוא הצטרף ל-Ciena ב-2017.\n\n**זהו מינוי פנימי לתפקיד מוצר, לא החלפת המנכ״ל.** דברי ההנהלה על ביקוש הנובע מ-AI הם הסבר למינוי, לא תחזית מספרית חדשה או הודעה על חוזה לקוח. ההודעה לא מוסרת שינוי בתחזית הכספית.",
+    "טקסט_en": "Ciena announcement dated November 16, 2026. Original publication time was not verified.\n\nCiena appointed Greg Friesen Executive Vice President and Chief Product Officer, effective today. He reports to President and CEO Gary Smith and joins the Executive Leadership Team.\n\nHe will lead the global product organization, including product line management, solutions engineering and introduction, and quality, working with R&D. Most recently he led Ciena's global services and support organization; he joined the company in 2017.\n\n**This is an internal appointment to a product leadership role, not a CEO replacement.** Management's comments about AI-related demand provide context, not new numerical guidance or a customer-contract announcement. The release gives no change to financial guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9d63d059a0064c84cf1df637805f8a3f8cd03d62097d8e6ff3125b816fb86e10"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1896",
+    "category": "micro",
+    "חברה": "AMD / Rancher Government Solutions",
+    "חברה_en": "AMD / Rancher Government Solutions",
+    "symbols": [
+      "AMD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:25",
+    "הועלה": "2026-11-16 16:25",
+    "כותרת": "AMD ו-Rancher Government Solutions הציגו ארכיטקטורת ייחוס מוקשחת ל-HPC ו-AI על Kubernetes",
+    "כותרת_en": "AMD and Rancher Government Solutions present hardened HPC and AI reference architecture on Kubernetes",
+    "קישור": "https://www.amd.com/en/blogs/2026/amd-and-rancher-government-solutions-bring-security.html",
+    "מקורות": [
+      {
+        "url": "https://www.amd.com/en/blogs/2026/amd-and-rancher-government-solutions-bring-security.html",
+        "label": "AMD / Rancher Government Solutions: ההודעה המקורית מ-16 בנובמבר",
+        "label_en": "AMD / Rancher Government Solutions: original November 16 announcement"
+      }
+    ],
+    "טקסט": "פרסום AMD מ-16.11.2026. שעת הפרסום המקורית לא נמסרה במקור שנקרא.\n\nAMD ו-Rancher Government Solutions הציגו ארכיטקטורת ייחוס המשלבת מאיצי AMD Instinct ותוכנת ROCm עם פלטפורמת Carbide וסביבת Kubernetes מוקשחת. התכנון מיועד לפישוט תזמון משימות HPC ו-AI ולהקצאת משאבי GPU לארגוני מחקר, גופים ממשלתיים וארגונים בעלי דרישות רגולציה.\n\nלפי AMD, התכנון משלב את Slinky להבאת מתזמן Slurm ל-Kubernetes ואת Kueue לניהול תורים ומכסות, לצד התקנה אוטומטית של רכיבי התשתית. החברה מתארת אימות של רכיבי הליבה וייעוד לסביבות עבודה רגישות.\n\n**זהו תכנון ייחוס ושיתוף פעולה טכנולוגי, לא זכייה בחוזה ממשלתי או אישור אבטחה גורף.** תיאור RKE2 Government כמתוכנן לעמוד בדרישות ממשל אינו הוכחה להסמכה מסוימת שלא נמסרה. לא פורסמו שווי עסקה, היקף הזמנות או תוצאות ביצועים עצמאיות; שיפור ניצול GPU הוא יעד התכנון ולא נתון אחיד מובטח.",
+    "טקסט_en": "AMD publication dated November 16, 2026. The source read did not give an original publication time.\n\nAMD and Rancher Government Solutions presented a reference architecture combining AMD Instinct GPUs and ROCm with the Carbide platform and hardened Kubernetes. It targets simpler HPC and AI scheduling and GPU allocation for research, government and regulated organizations.\n\nAMD says the design integrates Slinky to bring the Slurm scheduler to Kubernetes and Kueue for queues and quotas, alongside automated infrastructure deployment. The company describes validation of core components and a design intended for sensitive workloads.\n\n**This is a reference architecture and technology collaboration, not a government contract award or blanket security approval.** Describing RKE2 Government as designed for government requirements does not establish an unspecified certification. No deal value, order volume or independent performance results were disclosed; better GPU utilization is a design goal, not a universal guaranteed result.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4a3b9cca6ad7a7f2781c080c1ab3a2188a47f59f1d8705a31ffda6caf7ef5bde"
+      }
+    }
   }
 ]
