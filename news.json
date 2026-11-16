@@ -53686,5 +53686,38 @@
         "source_hash": "db05e557af9aa532cc86ff7a7157c21d96719dce36a23771937bbd6ee4f0c27b"
       }
     }
+  },
+  {
+    "מזהה": "n-1973",
+    "category": "company",
+    "חברה": "PicPay (PICS)",
+    "חברה_en": "PicPay (PICS)",
+    "symbols": [
+      "PICS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 23:49",
+    "הועלה": "2026-11-16 23:49",
+    "כותרת": "PicPay (PICS): שינוי מדיניות מחיקת הלוואות צפוי לגרוע כ-325 מיליון ריאל מהרווח הנקי ברבעון הרביעי",
+    "כותרת_en": "PicPay (PICS): loan write-off policy change expected to reduce Q4 net income by about R$325 million",
+    "summary": "מחיקת הלוואות אישיות לא מובטחות תוקדם מ-360 ל-120 יום; תחזית הרווח המתואם השנתי במדיניות החדשה היא כ-733 מיליון ריאל.",
+    "summary_en": "Unsecured personal loans to be written off after 120 rather than 360 days; new-policy full-year adjusted net income outlook is about R$733 million.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3404176/0/en/picpay-announces-third-quarter-2026-results.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3404176/0/en/picpay-announces-third-quarter-2026-results.html",
+        "label": "PicPay: הודעת תוצאות ותחזית",
+        "label_en": "PicPay: results and outlook release"
+      }
+    ],
+    "טקסט": "פורסם ב-16.11.2026 בשעה 16:43 בחוף המזרחי של ארה״ב, 23:43 בישראל.\n\nחברת PicPay (PICS) הודיעה במסגרת דוחות הרבעון השלישי כי החל מהרבעון הרביעי של 2026 תקדים את מחיקת ההלוואות האישיות הלא מובטחות מ-360 ל-120 יום. יתר תיק האשראי יישאר במדיניות של 360 יום. החברה צופה השפעה שלילית חד-פעמית של כ-325 מיליון ריאל ברזילאי על הרווח הנקי ברבעון הרביעי.\n\nבתחזית שנת 2026 לפי המדיניות הקיימת, הרווח הנקי המתואם הוא כ-1.058 מיליארד ריאל. לפי מדיניות 120 הימים החדשה, התחזית היא כ-733 מיליון ריאל לרווח הנקי המתואם וכ-681 מיליון ריאל לרווח הנקי לפי IFRS. תחזיות הרבעון הרביעי של כ-327 מיליון ריאל לרווח הנקי לפי IFRS וכ-334 מיליון ריאל לרווח המתואם מוצגות לפני השפעת שינוי המדיניות. אין להציג אותן כרווח הצפוי לאחר ההשפעה.\n\nלפי החברה, שיעור ההלוואות בפיגור של יותר מ-90 יום צפוי לרדת מ-10.7% לכ-6.8% ברבעון הרביעי, ולהתייצב סביב 9% מהרבעון השני של 2027. הירידה הצפויה קשורה לשינוי מדיניות המחיקה ואינה כשלעצמה ראיה לשיפור בגבייה. שיעור הפיגורים של 15 עד 90 יום עלה מ-7.5% ברבעון השני ל-9.2%; החברה מייחסת את עיקר העלייה ללווים שהסדירו חוב בתוכנית Desenrola וחזרו לפיגור.\n\nברבעון השלישי, ללא תרומת Kev, ההכנסות צמחו ב-73% לעומת שנה קודמת לכ-4.73 מיליארד ריאל והרווח הנקי המתואם עלה ב-157% לכ-271 מיליון ריאל. תיק האשראי הסתכם בכ-35 מיליארד ריאל. אלה נתוני החברה והתחזיות שלה, לא השוואה לקונצנזוס אנליסטים.",
+    "טקסט_en": "Published November 16, 2026 at 16:43 ET, or 23:43 Israel time.\n\nPicPay (PICS) said in its third-quarter results that, starting in Q4 2026, it will change the write-off policy for unsecured personal loans from 360 to 120 days. The rest of the credit portfolio remains on a 360-day policy. The company expects a one-time negative impact of approximately R$325 million on fourth-quarter net income.\n\nIts full-year 2026 outlook under the current policy is approximately R$1.058 billion of adjusted net income. Under the new 120-day policy, the outlook is approximately R$733 million of adjusted net income and R$681 million of IFRS net income. Fourth-quarter forecasts of approximately R$327 million IFRS net income and R$334 million adjusted net income are presented before the policy change impact. They should not be read as the expected profits after that impact.\n\nThe company expects its over-90-day non-performing loan ratio to fall from 10.7% to approximately 6.8% in Q4 and stabilize at around 9% from Q2 2027. The expected decline is linked to the write-off policy change and is not, by itself, evidence of better collections. Loans 15 to 90 days past due rose from 7.5% in Q2 to 9.2%; PicPay attributes most of the increase to borrowers who renegotiated through the Desenrola program and fell behind again.\n\nFor Q3, excluding Kev's contribution, revenue grew 73% year over year to approximately R$4.73 billion and adjusted net income rose 157% to approximately R$271 million. The credit portfolio reached approximately R$35 billion. These are company-reported figures and forecasts, not a comparison with analyst consensus.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9663a424c26480d438f79b22245eeca9b9eae95fb53546abb7d942585551d7f5"
+      }
+    }
   }
 ]
