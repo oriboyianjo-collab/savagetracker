@@ -48479,5 +48479,35 @@
         "source_hash": "9e9727bd31e5fa733ba040f165b76b52e4bcb17498a0af83971cad1ec66866b5"
       }
     }
+  },
+  {
+    "מזהה": "n-1807",
+    "category": "micro",
+    "חברה": "GXO",
+    "symbols": [
+      "GXO"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:10",
+    "הועלה": "2026-11-16 14:10",
+    "כותרת": "GXO פרסמה יעדים ל-2030 ותחזית ראשונית ל-2027: צמיחה אורגנית מעל 5.5% בשנה הבאה",
+    "כותרת_en": "GXO issues 2030 targets and initial 2027 outlook: organic growth above 5.5% next year",
+    "קישור": "https://gxologistics.gcs-web.com/news-releases/news-release-details/gxo-announces-2030-financial-targets-investor-day",
+    "מקורות": [
+      {
+        "url": "https://gxologistics.gcs-web.com/news-releases/news-release-details/gxo-announces-2030-financial-targets-investor-day",
+        "label": "GXO: הודעת יום המשקיעים, יעדי 2030 ותחזית 2027",
+        "label_en": "GXO: Investor Day release, 2030 targets and 2027 outlook"
+      }
+    ],
+    "טקסט": "16.11.2026 | הודעת GXO המקורית ליום המשקיעים נקראה במלואה. בעמוד המלא מצוין התאריך אך לא שעת פרסום; האירוע עצמו נקבע ל-09:00 בחוף המזרחי, 16:00 בישראל. שעת האירוע אינה שעת פרסום ההודעה.\n\nGXO הציגה יעדים פיננסיים ל-2030: שיעור צמיחה שנתי מורכב אורגני בהכנסות של יותר מ-7% בתקופה בת ארבע השנים 2027–2030; שיעור רווח EBITA מתואם של יותר מ-6.5%; והמרת 40%–50% מה-EBITDA המתואם לתזרים מזומנים חופשי.\n\nבנפרד, התחזית הראשונית לשנת 2027 היא צמיחה אורגנית בהכנסות של יותר מ-5.5%, שיעור EBITDA מתואם של יותר מ-7.1% ושיעור EBITA מתואם של יותר מ-4.5%. אלו שני מדדי רווח שונים: אין להחליף בין EBITA ל-EBITDA, ואין להציג את יעד 2030 כתחזית לשנה הבאה.\n\nשיעור המרת התזרים מחושב כתזרים מזומנים חופשי חלקי EBITDA מתואם, לא כשיעור מההכנסות. החברה מגדירה תזרים חופשי כתזרים מפעילות שוטפת פחות השקעות הוניות ובתוספת תקבולים ממכירת רכוש וציוד.\n\nאלו יעדים ותחזיות עתידיים המבוססים על מדדי non-GAAP, לא תוצאות שהושגו או התחייבות לצמיחה מובטחת. החברה לא סיפקה התאמה מלאה למדדי GAAP עתידיים, בנימוק שלא ניתן להכינה ללא מאמץ בלתי סביר. ההודעה נפרדת מדוחות הרבעון השלישי ומעסקאות הלקוחות והרובוטיקה שכבר סוקרו.",
+    "טקסט_en": "November 16, 2026 | GXO's complete original Investor Day release was read. The full page gives a date but no publication time. The event itself was scheduled for 09:00 Eastern, or 16:00 Israel time; the event time is not the release's publication timestamp.\n\nGXO introduced 2030 financial targets: organic revenue CAGR above 7% over the four-year fiscal 2027–2030 period; adjusted EBITA margin above 6.5%; and free cash flow conversion of 40%–50% of adjusted EBITDA.\n\nSeparately, its initial 2027 outlook calls for organic revenue growth above 5.5%, adjusted EBITDA margin above 7.1% and adjusted EBITA margin above 4.5%. EBITA and EBITDA are different profit measures. The 2030 target must not be presented as next year's outlook.\n\nFree cash flow conversion is free cash flow divided by adjusted EBITDA, not a percentage of revenue. GXO defines free cash flow as operating cash flow less capital expenditures plus proceeds from sales of property and equipment.\n\nThese are forward-looking targets and guidance using non-GAAP measures, not achieved results or guaranteed growth. GXO did not provide a full reconciliation to future GAAP measures, saying it could not do so without unreasonable effort. The announcement is separate from third-quarter results and previously covered customer and robotics deals.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2b96a80c1a5bddce418deef0166dd0221e15b77e3ea1c9251fc472f599f2797d"
+      }
+    }
   }
 ]
