@@ -48114,5 +48114,70 @@
         "source_hash": "5896b4021958e667d9171c631ab6f8517d175ab440001c84662380c616724737"
       }
     }
+  },
+  {
+    "מזהה": "n-1794",
+    "category": "micro",
+    "חברה": "MDT",
+    "symbols": [
+      "MDT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:55",
+    "הועלה": "2026-11-16 13:55",
+    "כותרת": "Medtronic (MDT) הודיעה על כוונתה לרכוש את Contego Medical בעסקה בשווי 380 מיליון דולר ותשלומים אפשריים נוספים",
+    "כותרת_en": "Medtronic (MDT) announces intent to acquire Contego Medical in a $380 million deal with potential additional payments",
+    "קישור": "https://www.prnewswire.com/news-releases/medtronic-to-acquire-contego-medical-expanding-access-to-next-generation-carotid-therapies-302939849.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/medtronic-to-acquire-contego-medical-expanding-access-to-next-generation-carotid-therapies-302939849.html",
+        "label": "הודעת Medtronic דרך PRNewswire: רכישת Contego המתוכננת",
+        "label_en": "Medtronic release via PRNewswire: planned Contego acquisition"
+      }
+    ],
+    "טקסט": "16.11.2026, 13:45 בישראל (06:45 ET) | הודעת Medtronic דרך PRNewswire נקראה במלואה.\n\nMedtronic הודיעה על כוונתה לרכוש את Contego Medical הפרטית, המפתחת מכשור לטיפול במחלת עורקי התרדמה ולהוצאת קרישי דם בכלי דם היקפיים. החברה מציינת שווי עסקה של 380 מיליון דולר ותשלומים אפשריים לאחר הרכישה. אין להציג את הסכום כמזומן שכבר שולם או כתקרה הכוללת בהכרח את כל התשלומים העתידיים.\n\nהרכישה המתוכננת כוללת את מערכת Neuroguard IEP Direct, שלפי הודעת החברה קיבלה לאחרונה אישור FDA, ואת מכשירי Excipio להוצאת קרישי דם. היא מרחיבה קשר מסחרי קיים: הסכם הפצה בלעדי בארה״ב שעליו הוכרז בינואר 2025. החדש הוא הרכישה המתוכננת, לא עצם הסכם ההפצה.\n\nMedtronic צופה להשלים את העסקה ברבעון השלישי של שנת הכספים שלה, בכפוף לתנאי סגירה מקובלים. זו אינה רכישה שהושלמה. החברה צופה דילול קל ברווח המתואם למניה בשנות הכספים 2027 ו-2028 והשפעה ניטרלית עד חיובית לאחר מכן; אלה תחזיות, לא תוצאות שכבר נרשמו.",
+    "טקסט_en": "November 16, 2026, 13:45 Israel time (06:45 ET) | The complete Medtronic release via PRNewswire was read.\n\nMedtronic announced its intent to acquire privately held Contego Medical, which develops devices for carotid artery disease and peripheral thrombectomy. The company states a $380 million deal value with potential payments after the acquisition. This is not cash already paid or necessarily an all-in cap on future payments.\n\nThe planned acquisition includes Neuroguard IEP Direct, which the release says recently received FDA approval, and Excipio thrombectomy devices. It expands an existing relationship: an exclusive U.S. distribution agreement announced in January 2025. The development is the planned acquisition, not the original distribution agreement.\n\nMedtronic expects to complete the transaction in its fiscal third quarter, subject to customary closing conditions. The acquisition has not closed. The company expects minimal dilution to adjusted EPS in fiscal 2027 and 2028 and a neutral-to-accretive effect thereafter; these are forecasts, not reported outcomes.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "350805b12efe8b9933dca473c98e044c2543b42f3e55928ea0737abfa88f548d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1795",
+    "category": "micro",
+    "חברה": "ARMK",
+    "symbols": [
+      "ARMK"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:55",
+    "הועלה": "2026-11-16 13:55",
+    "כותרת": "Aramark (ARMK) אישרה תוכנית רכישה עצמית חדשה של מיליארד דולר והעלאת דיבידנד של 17% ל-0.14 דולר למניה",
+    "כותרת_en": "Aramark (ARMK) authorizes new $1 billion buyback and raises quarterly dividend 17% to $0.14 a share",
+    "קישור": "https://www.morningstar.com/news/business-wire/20261114091731/aramark-reports-earnings-results-for-fiscal-2026",
+    "מקורות": [
+      {
+        "url": "https://www.morningstar.com/news/business-wire/20261114091731/aramark-reports-earnings-results-for-fiscal-2026",
+        "label": "הודעת Aramark דרך Morningstar: רכישה עצמית ודיבידנד",
+        "label_en": "Aramark release via Morningstar: buyback and dividend"
+      },
+      {
+        "url": "https://aramark.gcs-web.com/",
+        "label": "Aramark: אינדקס קשרי משקיעים, הודעת 16 בנובמבר",
+        "label_en": "Aramark: investor-relations index, November 16 release"
+      }
+    ],
+    "טקסט": "16.11.2026 | סעיף הרכישה העצמית והדיבידנד בהודעת Aramark המלאה, המופצת דרך Morningstar, נקרא. אינדקס קשרי המשקיעים של החברה מאשר גם הוא את הכותרות. שעת הפרסום המקורית בישראל לא אומתה.\n\nדירקטוריון Aramark אישר תוכנית חדשה לרכישה עצמית של מניות בהיקף של עד מיליארד דולר. המסגרת מחליפה את תוכנית 500 מיליון הדולר מנובמבר 2024, ולא מתווספת אליה אוטומטית כמסגרת של 1.5 מיליארד דולר. לפי ההודעה, במסגרת הישנה נרכשו כ-7 מיליון מניות.\n\nלתוכנית החדשה אין תאריך פקיעה קבוע. החברה יכולה לרכוש מניות בשוק, בעסקאות פרטיות, בהסכמי רכישה מואצת או בתוכניות מסחר מסוג 10b5-1. ההיקף והעיתוי תלויים, בין היתר, במחיר המניה ובתנאי השוק. זהו אישור לביצוע רכישות אפשריות, לא הודעה שמיליארד דולר כבר הוצאו.\n\nבנוסף אושרה העלאה של 17% בדיבידנד הרבעוני, ל-0.14 דולר למניה רגילה. התשלום מיועד ל-16 בדצמבר 2026 לבעלי מניות הרשומים בסוף יום 4 בדצמבר. אלה מועדי תשלום ורישום, לא קביעה של תאריך האקס; לא נטען שהדיבידנד כבר שולם.",
+    "טקסט_en": "November 16, 2026 | The buyback and dividend section of the complete Aramark release carried by Morningstar was read. The company's investor-relations index also confirms the headlines. The original publication time in Israel was not verified.\n\nAramark's board authorized a new share repurchase program of up to $1 billion. It replaces the $500 million program from November 2024, rather than automatically adding up to a $1.5 billion authorization. The release says approximately 7 million shares were repurchased under the prior program.\n\nThe new program has no fixed expiration date. Repurchases may use open-market purchases, private transactions, accelerated repurchase agreements or Rule 10b5-1 plans. Their size and timing depend on factors including the share price and market conditions. This is authorization for potential purchases, not confirmation that $1 billion has been spent.\n\nThe board also approved a 17% increase in the quarterly dividend to $0.14 per common share. Payment is scheduled for December 16, 2026, to shareholders of record at the close of December 4. These are payment and record dates, not a stated ex-dividend date; the dividend is not presented as already paid.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1b149a64da67330dd5a7d40324dcf99ab44c0a2ed836e37fb17c94209893707e"
+      }
+    }
   }
 ]
