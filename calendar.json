@@ -3369,17 +3369,21 @@
     "מדינה": "US",
     "אירוע": "סקירת שוק הפחם השבועית (EIA)",
     "חשיבות": 1,
-    "מקור": "https://www.eia.gov/reports/upcoming.php",
-    "הערה": "לוח EIA:יום שני עד17:00ET, כלומר עד00:00ב-17.11בישראל. זהו חלון פרסום, לא שעה מדויקת. אין צפי או קודם יחיד.",
+    "מקור": "https://www.eia.gov/coal/markets/",
+    "הערה": "לוח EIA:יום שני עד17:00ET, כלומר עד00:00ב-17.11בישראל. זהו חלון פרסום, לא שעה מדויקת. אין צפי או קודם יחיד. פורסמה סקירת 16.11, לשבוע שהסתיים ב-13.11; הפרסום הבא 23.11. מחירי מסירה לרבעון הבא לפי אזור, בדולר לטון קצר: מרכז אפלצ׳יה 88; צפון אפלצ׳יה 68; אגן אילינוי 56; אגן פאודר ריבר 14.65. כל הארבעה ללא שינוי שבועי. אין נתון ארצי מצרפי. נתוני דולר ל-MMBtu הם יחידה נפרדת. סדרת אגן Uinta הופסקה באפריל 2024 ואינה מחיר עדכני. אין צפי יחיד.",
     "מזהה": "c-0134",
     "אירוע_en": "Weekly coal market review (EIA)",
-    "הערה_en": "EIA schedule: Monday by 17:00 ET, i.e. by 00:00 Israel on Nov 17. This is a release window, not an exact time. No single estimate or prior.",
+    "הערה_en": "EIA schedule: Monday by 17:00 ET, i.e. by 00:00 Israel on Nov 17. This is a release window, not an exact time. No single estimate or prior. The Nov 16 review is released for the week ended Nov 13; next release Nov 23. Prompt-quarter delivery prices by region, dollars per short ton: Central Appalachia 88; Northern Appalachia 68; Illinois Basin 56; Powder River Basin 14.65. All four unchanged week over week. No single national aggregate. Dollars per MMBtu are a separate unit. The Uinta Basin series ended in April 2024 and is not a current price. No single forecast.",
     "_translation": {
       "en": {
-        "source_hash": "7b23f537c46246c226866bf769a337a31ea69b37b9b1a0beadab7aa829d66781",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "6220c69eebc1a5b6983cc34040369727486bfebea29536a6c2c204f8f416ed9a"
       }
-    }
+    },
+    "תקופה": "השבוע שהסתיים ב-13.11.2026",
+    "תקופה_en": "Week ended Nov 13, 2026",
+    "בפועל": "פורסם · נתוני 13.11",
+    "בפועל_en": "Published · Nov 13 data"
   },
   {
     "תאריך": "2026-11-17",
