@@ -47528,5 +47528,40 @@
         "source_hash": "2935010c52da8c1cb56b249713a72d7be8a5efcaf04dc901bcd9794088a8ebc1"
       }
     }
+  },
+  {
+    "מזהה": "n-1775",
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:58",
+    "הועלה": "2026-11-16 11:58",
+    "כותרת": "NVIDIA (NVDA): לפי Straits Times, משטרת אינדונזיה פשטה מוקדם יותר השנה על יחידת Megaspeed במסגרת בדיקה שביקש ה-FBI",
+    "כותרת_en": "NVIDIA (NVDA): Straits Times reports Indonesian police raided Megaspeed unit earlier this year in FBI-requested inquiry",
+    "קישור": "https://www.straitstimes.com/asia/se-asia/indonesian-police-find-empty-server-racks-during-raid-on-megaspeed-subsidiary",
+    "מקורות": [
+      {
+        "url": "https://www.straitstimes.com/asia/se-asia/indonesian-police-find-empty-server-racks-during-raid-on-megaspeed-subsidiary",
+        "label": "The Straits Times: הדיווח המקורי על החיפוש באינדונזיה",
+        "label_en": "The Straits Times: original report on Indonesian search"
+      },
+      {
+        "url": "https://www.streetinsider.com/Reuters/Singapore%2C+US+agree+to+continue+discussing+Megaspeed+case%2C+Straits+Times+says/27346852.html",
+        "label": "Reuters דרך StreetInsider: דיווח המשך מ-16 בנובמבר",
+        "label_en": "Reuters via StreetInsider: November 16 follow-up report"
+      }
+    ],
+    "טקסט": "16.11.2026 | דיווח חדש על חיפוש שהתרחש מוקדם יותר ב-2026. **לא מאומת מול מקור ראשוני. שעת הדיווח המקורי בישראל לא אומתה; תאריך החיפוש המדויק לא נמסר.** דיווח ההמשך של Reuters פורסם ב-11:23 בישראל (04:23 EST).\n\nלפי The Straits Times, משטרת אינדונזיה ערכה מוקדם יותר השנה חיפוש ב-PT Megaspeed International Indonesia, החברה המקומית של Megaspeed הסינגפורית, במסגרת בדיקה שהתבקשה בידי ה-FBI למעקב אחר שבבי NVIDIA שרכשה הקבוצה. העיתון מייחס את המידע לבכיר ממשל אינדונזי שלא הזדהה, משום שאינו מוסמך לדבר עם התקשורת. זו אינה הודעה רשמית של המשטרה או ה-FBI.\n\nלפי אותו מקור, השוטרים מצאו ארונות שרתים אך לא מעבדים גרפיים; הארונות נראו כאילו לא נפרקו ולא נעשה בהם שימוש. **זהו דיווח על ממצאי חיפוש היסטורי, לא פשיטה שהתרחשה היום, לא הוכחה שהשבבים הוברחו לסין ולא זיכוי של Megaspeed.** גם ההשערה שהחומרה לא הותקנה במקום אינה ממצא מאומת של בית משפט.\n\nST מביא גם חשד של המקור להעברת חומרה מאינדונזיה לסין. לא פורסמו בכתבה ראיות עצמאיות, מספר שבבים מאומת או קביעה משפטית התומכים במסלול הזה. בכיר במשטרת אינדונזיה סירב למסור פרטים, פנייה לבכיר נוסף לא נענתה, ו-Reuters ציינה שהמשטרה לא השיבה מיד לבקשת תגובה.\n\nהחידוש הוא הדיווח הקונקרטי על פעולת חקירה באינדונזיה ובקשת FBI, מעבר לחקירה שכבר ידועה בסינגפור. הסכמה של סינגפור וארה״ב להמשיך לדון בנושא אינה החלטה להכניס את Megaspeed לרשימת סחר מוגבלת. אין כאן אישום חדש נגד NVIDIA, קביעה שהפרה את חוקי היצוא או מגבלת יצוא חדשה שנכנסה לתוקף.",
+    "טקסט_en": "November 16, 2026 | New reporting about a search conducted earlier in 2026. **Not verified against a primary source. Original report time in Israel not verified; the exact search date was not disclosed.** Reuters' follow-up was published at 11:23 Israel time (04:23 EST).\n\nThe Straits Times reports that Indonesian police searched PT Megaspeed International Indonesia, the local arm of Singapore-based Megaspeed, earlier this year as part of an FBI-requested inquiry to trace NVIDIA chips purchased by the group. ST attributes the information to an unnamed senior Indonesian government official who was not authorized to speak to the media. This is not an official police or FBI announcement.\n\nAccording to that source, officers found server racks but no graphics processing units; the racks appeared never to have been unpacked or used. **This is a report about findings in a historical search, not a raid today, proof of chip diversion to China or clearance of Megaspeed.** The inference that hardware had never been installed is not a verified court finding either.\n\nST also reports the source's suspicion that hardware moved through Indonesia to China. The article provides no independently verified evidence, chip count or legal determination supporting that route. One senior Indonesian police official declined to give details, another did not respond, and Reuters said police did not immediately answer its request for comment.\n\nThe new detail is the specific reported investigative action in Indonesia and FBI request, beyond the already known Singapore investigation. Singapore and the US agreeing to keep discussing the case is not a decision to add Megaspeed to a trade blacklist. This report establishes no new charge against NVIDIA, finding that it violated export laws or new export restriction in force.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "de069d30a4ce44a3d8e25a6c1fc25fd7388ef4c999bb3a3ec244a51f271d285a"
+      }
+    }
   }
 ]
