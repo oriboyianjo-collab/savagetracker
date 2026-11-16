@@ -46351,5 +46351,45 @@
         "source_hash": "66faad4254007600481f919871b90256e0e693fa234bf334c2baf1c754479fd4"
       }
     }
+  },
+  {
+    "מזהה": "n-1739",
+    "category": "micro",
+    "חברה": "JPMorgan Chase",
+    "חברה_en": "JPMorgan Chase",
+    "symbols": [
+      "JPM"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:53",
+    "הועלה": "2026-11-16 09:53",
+    "כותרת": "JPMorgan Chase (JPM) ו-DBS השיקו חיבור להעברות פיקדונות דיגיטליים בדולר בין ארה\"ב לסינגפור",
+    "כותרת_en": "JPMorgan Chase (JPM) and DBS launch US-Singapore tokenised deposit transfers",
+    "summary": "Ant International היא הלקוחה הראשונה. השירות מיועד למוסדות על גבי רשתות מורשות, לא להעברות קריפטו ציבוריות.",
+    "summary_en": "Ant International is the first client. The service connects institutional accounts on permissioned networks, not public crypto transfers.",
+    "טקסט": "בהודעה מ-16 בנובמבר 2026, DBS ו-Kinexys של JPMorgan Chase הודיעו על השקת שירות מסחרי להעברות מיידיות בדולר בין חשבונות מבוססי בלוקצ'יין בארה\"ב ובסינגפור. החיבור מקשר את DBS Token Services לרשת Blockchain Deposit Account של Kinexys, עם Partior לתיאום הסליקה. Ant International היא הלקוחה הראשונה לניהול אוצר ונזילות בין ישויותיה בשני השווקים.\n\nזהו מעבר למסגרת שיתוף הפעולה שהוכרזה בנובמבר 2025: לפי הודעת הבנק, השירות הושק וכעת זמין מסחרית. מדובר בפיקדונות בנקאיים שעברו טוקניזציה ברשתות מורשות וללקוחות מוסדיים, לא ברשת קריפטו ציבורית או בשירות לכל לקוח פרטי. ההשקה המתוארת היא בדולר; לא פורסמו עמלות, מגבלות עסקה או היקפי פעילות.\n\nהבנקים מתארים העברות בתוך רשת Kinexys כזמינות 24/7/365 ובאותו יום. **קיימת מגבלה נפרדת: העברת כסף בין חשבונות עו\"ש במערכות המסורתיות לבין חשבונות הבלוקצ'יין אינה זמינה במשך שלוש שעות בכל שבת, 15:00–18:00 לפי שעון החוף המזרחי בארה\"ב.** אין להסיק מכך שכל הרשת מושבתת בחלון זה.\n\n**המקור הראשוני מציין 16 בנובמבר ללא שעת פרסום מדויקת; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In a November 16, 2026 release, DBS and JPMorgan Chase's Kinexys announced the commercial launch of instant USD transfers between blockchain-based accounts in the United States and Singapore. The solution connects DBS Token Services with Kinexys' Blockchain Deposit Account network, using Partior for settlement orchestration. Ant International is the first client, using it for treasury and liquidity management across its entities in both markets.\n\nThis goes beyond the interoperability framework announced in November 2025: the bank says the solution has launched and is commercially ready. It covers tokenised bank deposits on permissioned networks for institutional clients, not a public crypto network or a service for every retail customer. The announced launch covers USD; fees, transaction limits and activity volumes were not disclosed.\n\nThe banks describe transfers on the Kinexys network as available 24/7/365 and on a same-day basis. **A separate limitation applies: moving money between traditional Demand Deposit Accounts and Blockchain Deposit Accounts has a three-hour downtime every Saturday, 3–6 p.m. US Eastern Time.** This does not mean the entire network shuts down during that window.\n\n**The primary source gives November 16 without an exact publication time; the original publication time in Israel was not verified.**",
+    "קישור": "https://www.dbs.com/newsroom/DBS_and_Kinexys_by_JP_Morgan_launch_industry_first_247_interoperability_solution_for_cross_border_tokenised_deposit_transfers",
+    "מקורות": [
+      {
+        "url": "https://www.dbs.com/newsroom/DBS_and_Kinexys_by_JP_Morgan_launch_industry_first_247_interoperability_solution_for_cross_border_tokenised_deposit_transfers",
+        "label": "DBS: הודעת ההשקה המקורית, 16 בנובמבר",
+        "label_en": "DBS: original November 16 launch announcement"
+      },
+      {
+        "url": "https://www.businesstimes.com.sg/companies-markets/dbs-jpmorgan-launch-us-singapore-tokenised-deposit-service-institutions",
+        "label": "The Business Times: דיווח על השקת השירות",
+        "label_en": "The Business Times: service launch report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7d1fb31ee082e0f884924b1c0bbb8f55674d4f9bf4aead7f1ad1cff5a1c32a61"
+      }
+    }
   }
 ]
