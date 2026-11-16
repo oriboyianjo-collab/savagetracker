@@ -7,7 +7,9 @@ import urllib.error
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from universal.core import AccessHeld
+from unittest import mock
+
+from universal.core import AccessHeld, DocumentExceedsSizeBudget
 from universal.transport import GlobalSecTransport, sec_url, STOP_NAME
 
 DOC = 'https://www.sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm'
@@ -187,6 +189,47 @@ class TestTransport(unittest.TestCase):
         t, _ = make(tmp, opener)
         with self.assertRaises(AccessHeld):
             t.get(DOC)
+
+    def test_oversize_official_200_does_not_stop(self):
+        tmp = tempfile.mkdtemp()
+        opens = []
+        oversized = b'<html>' + b'x' * 50 + b'</html>'
+
+        def opener(req, timeout=30):
+            opens.append(req.full_url)
+            if req.full_url == DOC:
+                return FakeResponse(body=oversized, final=req.full_url)
+            return FakeResponse(body=b'{"cik":1035267}', final=req.full_url)
+
+        tpt, _ = make(tmp, opener)
+        with mock.patch('universal.transport.MAX_BODY', 20):
+            with self.assertRaises(DocumentExceedsSizeBudget) as ctx:
+                tpt.get(DOC)
+        self.assertEqual(str(ctx.exception), 'document_exceeds_size_budget')
+        self.assertGreater(ctx.exception.size, 20)
+        self.assertEqual(ctx.exception.limit, 20)
+        self.assertEqual(ctx.exception.url, DOC)
+        self.assertFalse((Path(tmp) / 'state' / STOP_NAME).exists())
+        self.assertIsNone(tpt.stop_reason)
+        # The same transport can still fetch a later official URL; no persistent stop.
+        body, ev = tpt.get(SUBS)
+        self.assertEqual(body, b'{"cik":1035267}')
+        self.assertEqual(ev['status'], 200)
+        self.assertFalse((Path(tmp) / 'state' / STOP_NAME).exists())
+        self.assertEqual(opens, [DOC, SUBS])
+
+    def test_block_page_still_stops_even_if_oversize(self):
+        tmp = tempfile.mkdtemp()
+
+        def opener(req, timeout=30):
+            return FakeResponse(body=b'Access Denied: undeclared automated tool' + b'x' * 50)
+
+        t, _ = make(tmp, opener)
+        with mock.patch('universal.transport.MAX_BODY', 20):
+            with self.assertRaises(AccessHeld):
+                t.get(DOC)
+        self.assertTrue((Path(tmp) / 'state' / STOP_NAME).exists())
+        self.assertIsNotNone(t.stop_reason)
 
     def test_network_disabled_by_default(self):
         tmp = tempfile.mkdtemp()

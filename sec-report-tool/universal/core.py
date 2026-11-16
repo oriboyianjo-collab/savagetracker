@@ -41,7 +41,8 @@ REASON_CODES = (
     'AMENDMENT_REQUIRES_REVIEW', 'AMENDMENT_FLAG_CONFLICT', 'VERSION_CONFLICT_DUPLICATE_PERIOD',
     'NO_VALIDATED_REPORTS', 'UNRESOLVED_IN_SCOPE_FILINGS',
     'UNSUPPORTED_NO_PERIODIC_FORMS', 'UNSUPPORTED_NO_IN_SCOPE_FILINGS',
-    'PENDING_NOT_ATTEMPTED', 'PENDING_DEADLINE', 'PENDING_ACCESS_HELD', 'OTHER',
+    'PENDING_NOT_ATTEMPTED', 'PENDING_DEADLINE', 'PENDING_ACCESS_HELD',
+    'DOCUMENT_EXCEEDS_SIZE_BUDGET', 'OTHER',
 )
 _REASON_MAP = {
     'identity_not_in_sec_ticker_map': 'IDENTITY_NOT_IN_TICKER_MAP',
@@ -61,6 +62,7 @@ _REASON_MAP = {
     'no_in_scope_filings': 'UNSUPPORTED_NO_IN_SCOPE_FILINGS',
     'not_attempted_this_batch': 'PENDING_NOT_ATTEMPTED',
     'access_held': 'PENDING_ACCESS_HELD',
+    'document_exceeds_size_budget': 'DOCUMENT_EXCEEDS_SIZE_BUDGET',
 }
 
 
@@ -162,6 +164,18 @@ def security_class_hold(row):
 
 class AccessHeld(RuntimeError):
     """Transport stopped (403/429/challenge/redirect/unsafe). Never retried by core."""
+
+
+class DocumentExceedsSizeBudget(ValueError):
+    """Official HTTP 200 body exceeded the retained-document size budget.
+
+    This is not an access hold: the document can be skipped and the pass may continue.
+    """
+    def __init__(self, url=None, size=None, limit=None):
+        super().__init__('document_exceeds_size_budget')
+        self.url = url
+        self.size = size
+        self.limit = limit
 
 
 class IssuerHold(Exception):
@@ -528,9 +542,13 @@ class Connector:
         out['unresolved_slots'] = cp_unresolved
         out['ledger'] = cp_ledger
         try:
-            ident = self.bind_identity(row)
-            out['cik'] = ident['cik']
-            filings = self.load_filings(ident)
+            try:
+                ident = self.bind_identity(row)
+                out['cik'] = ident['cik']
+                filings = self.load_filings(ident)
+            except DocumentExceedsSizeBudget:
+                # Identity/submissions payloads are issuer-level; hold this issuer and continue the pass.
+                raise IssuerHold('document_exceeds_size_budget')
             regular = [r for r in filings if 'error_row' not in r and r['form'].rstrip('/A') in REGULAR_FORMS and not r['form'].endswith('/A')]
             amendments = [r for r in filings if 'error_row' not in r and r['form'].endswith('/A')]
             q4cands = [r for r in filings if 'error_row' not in r and r['form'] == '8-K']

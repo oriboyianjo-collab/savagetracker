@@ -14,10 +14,13 @@ and the SEC.gov Internet Security Policy). This client:
   layer, so a 3xx response is a persistent stop BEFORE any second request is
   made (the redirect target is never contacted). As defense in depth, the
   final URL must still equal the requested URL.
-- On HTTP 403/429, a challenge/block page, redirect, or unsafe body: writes a
+- On HTTP 403/429, a challenge/block page, or redirect: writes a
   PERSISTENT stop file and raises AccessHeld. There is no retry, no bypass and no
   automatic resume. The stop clears only via an explicit reviewed reset recorded
   with a review reference (reset_after_review); core and the batch loop never call it.
+- An official HTTP 200 whose decompressed body exceeds MAX_BODY is not an access
+  hold: the body is not cached, DocumentExceedsSizeBudget is raised, and the pass
+  may continue with later documents or issuers. A challenge/block page still stops.
 - On 5xx or network errors: at most 2 polite backoff retries, then a persistent stop.
 - Caches raw response bodies by URL hash with sha256 evidence. Extracted text is
   never persisted as an artifact; retained bytes are the raw response only.
@@ -37,11 +40,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from .core import AccessHeld
+from .core import AccessHeld, DocumentExceedsSizeBudget
 
 SEC_USER_AGENT = 'SavageTracker Savtra12@gmail.com'
 MIN_INTERVAL_SEC = 1.0
-MAX_BODY = 25 * 1024 * 1024
+MAX_BODY = 50 * 1024 * 1024
 POLICY_URL = 'https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data'
 STOP_NAME = 'transport-stopped.json'
 PACER_NAME = 'pacer.json'
@@ -254,8 +257,12 @@ class GlobalSecTransport:
                 self._block(url, status, body, 'non-200 status; persistent stop')
             if final != url:
                 self._block(url, status, body, 'redirect not followed; persistent stop (%s -> %s)' % (url, final))
-            if len(body) > MAX_BODY or _unsafe_body(body):
+            if _unsafe_body(body):
                 self._block(url, status, body, 'body safety check failed; persistent stop')
+            if len(body) > MAX_BODY:
+                self._log(event='body_too_large', url=url, status=status,
+                          bytes=len(body), limit=MAX_BODY)
+                raise DocumentExceedsSizeBudget(url=url, size=len(body), limit=MAX_BODY)
             ev = {'url': url, 'sha256': _digest(body), 'status': status,
                   'source': 'sec_edgar_live' if self.network else 'injected_transport_test_not_live',
                   'retrieved_at': datetime.now(timezone.utc).isoformat(),

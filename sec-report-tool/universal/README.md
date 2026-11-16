@@ -17,6 +17,8 @@ autonomous report connector pass. No issuer-specific code paths.
   (survives process restarts via the state file) and can only be cleared by
   `GlobalSecTransport.reset_after_review(review_reference)` after human review.
   5xx responses get bounded exponential backoff; they do not trip the stop.
+  An official HTTP 200 whose body exceeds MAX_BODY (50 MiB) is a per-document
+  size failure (`document_exceeds_size_budget`), not a persistent access stop.
 - Raw HTML/JSON is cached hash-addressed in a runner-temporary cache dir. The
   cache is NOT a resume mechanism: resume is driven by slot-level checkpoints
   in the result document (see CHECKPOINT.md).

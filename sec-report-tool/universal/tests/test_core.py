@@ -6,7 +6,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from universal.core import run_batch, AccessHeld
+from universal.core import run_batch, AccessHeld, DocumentExceedsSizeBudget
 from universal.replay import ReplayTransport
 from universal.tests import synth
 
@@ -480,6 +480,32 @@ class TestBatchSemantics(unittest.TestCase):
         self.assertFalse(r['complete_pass'])
         self.assertEqual(r['summary']['pending'], 2)
         self.assertEqual(r['summary']['existing_preserved'], 1)
+
+    def test_oversize_document_continues_pass(self):
+        class SizeLimited:
+            def __init__(self, inner):
+                self.inner = inner
+                self.hits = []
+
+            def get(self, url):
+                self.hits.append(url)
+                body, ev = self.inner.get(url)
+                # Trip only on TEST's FY2024 10-K; other documents and the next issuer proceed.
+                if url.endswith('/test-20241231.htm'):
+                    raise DocumentExceedsSizeBudget(url=url, size=len(body) + 1, limit=len(body))
+                return body, ev
+
+        wrapped = SizeLimited(self.replay)
+        r = run_batch(self.inv, None, wrapped, as_of=AS_OF)
+        self.assertFalse(r['access_held'], r.get('access_hold_reason'))
+        by = {row['symbol']: row for row in r['rows']}
+        self.assertEqual(by['TEST']['status'], 'partial_validated', by['TEST'])
+        self.assertGreater(by['TEST']['linked_slots'], 0)
+        self.assertNotIn('FY', by['TEST']['reports'].get('2024', {}))
+        self.assertEqual(by['JUNE']['status'], 'connected', by['JUNE'])
+        self.assertEqual(by['AAPL']['status'], 'existing_preserved')
+        self.assertTrue(any(url.endswith('/test-20241231.htm') for url in wrapped.hits))
+        self.assertTrue(any(url.endswith('/june-20250630.htm') for url in wrapped.hits))
 
 
 if __name__ == '__main__':
