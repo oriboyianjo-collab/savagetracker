@@ -45435,5 +45435,40 @@
         "source_hash": "41363c1082d879a89f6bcbb5532ccf802c9a1d763123c6e1a9aafe925ae2d8cb"
       }
     }
+  },
+  {
+    "מזהה": "n-1714",
+    "category": "micro",
+    "חברה": "American Airlines (AAL)",
+    "חברה_en": "American Airlines (AAL)",
+    "symbols": [
+      "AAL"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 07:18",
+    "הועלה": "2026-11-16 07:18",
+    "כותרת": "אמריקן איירליינס נערכת ללוח טיסות קרוב לרגיל ביום שני, ללא צפי לביטולים רחבים נוספים בגלל ההשבתה",
+    "כותרת_en": "American Airlines prepares for a largely normal Monday schedule, expects no additional broad ground-stop cancellations",
+    "summary": "בעדכון רשמי מ-07:00 בישראל החברה אומרת שהצוותים והמטוסים מוצבים במקומם. זו הערכת התאוששות להמשך היום, לא אישור שכל הטיסות חזרו לשגרה.",
+    "summary_en": "In a 07:00 Israel-time update, the airline says crews and aircraft are in position. This is a recovery outlook for the day, not confirmation that every flight is back to normal.",
+    "טקסט": "חברת אמריקן איירליינס מסרה בעדכון רשמי מיום ראשון, 15 בנובמבר 2026, בשעה 23:00 בשעון מרכז ארה\"ב, יום שני 16 בנובמבר בשעה 07:00 בישראל, כי היא ערוכה להפעיל ביום שני לוח טיסות קרוב לרגיל לאחר עצירת ההמראות הארצית של ה-FAA. לדבריה, הצוותים והמטוסים מוצבים במקומם, ומזג אוויר נוח צפוי ברשת הטיסות שלה. החברה אינה צופה ביטולים רחבי היקף נוספים הקשורים לאירוע.\n\nזהו שינוי מהעדכון הקודם של החברה, מיום ראשון בצהריים בארה\"ב, שדיבר על פחות ביטולים ועל המשך עבודה להשבת הפעילות במלואה. ההודעה החדשה היא הערכה צופה פני עתיד של חברת התעופה, לא אישור של ה-FAA שכל הטיסות חזרו לשגרה ולא הבטחה שטיסה מסוימת תתקיים.\n\nהתראת הנסיעות נשארת בתוקף, עם אפשרות לשנות תוכניות או לבקש החזר. החברה מבקשת מהנוסעים לבדוק את סטטוס הטיסה באפליקציה או באתר לפני היציאה לנמל התעופה.",
+    "טקסט_en": "American Airlines said in an official update issued Sunday, November 15, 2026 at 11 p.m. U.S. Central Time, Monday, November 16 at 07:00 in Israel, that it is prepared to operate a largely normal Monday schedule following the FAA nationwide ground stop. The airline says crews and aircraft are in position, with favorable weather expected across its network, and it does not anticipate additional broad cancellations related to the event.\n\nThis advances the airline's previous Sunday-afternoon U.S. update, which reported fewer cancellations and continued work to fully restore operations. The new statement is the airline's forward-looking recovery outlook, not FAA confirmation that every flight has returned to normal or a guarantee that a particular flight will operate.\n\nThe travel alert remains in effect, offering customers options to change plans or request a refund. The airline asks customers to check flight status in its app or on its website before heading to the airport.",
+    "קישור": "https://news.aa.com/news/news-details/2026/Update-on-FAAs-nationwide-ground-stop/",
+    "מקורות": [
+      {
+        "url": "https://news.aa.com/news/news-details/2026/Update-on-FAAs-nationwide-ground-stop/",
+        "label": "אמריקן איירליינס: עדכון רשמי מ-15 בנובמבר, 23:00 CT",
+        "label_en": "American Airlines: official November 15 update, 11 p.m. CT"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4b3834d5c8e5f8b523a000cacbc49dc1bcc2d22e721e2445b589a5f628feadce"
+      }
+    }
   }
 ]
