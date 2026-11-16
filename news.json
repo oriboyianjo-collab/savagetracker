@@ -49865,5 +49865,41 @@
         "source_hash": "b10ae86bc2c681d80a98f3d7b1ce002fdaf338dd8e60ac29899bf5807bbb946f"
       }
     }
+  },
+  {
+    "מזהה": "n-1852",
+    "category": "macro",
+    "חברה": "",
+    "symbols": [
+      "NVDA",
+      "AMD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:28",
+    "הועלה": "2026-11-16 15:28",
+    "כותרת": "פורסם באיחור | BIS הודיע ב-15 בנובמבר על כלל ביניים להגבלת גישה מרחוק למחשוב מתקדם; תאריך כניסה לתוקף לא אומת",
+    "כותרת_en": "Published late | BIS announced an interim final rule on remote access to advanced computing November 15; effective date not verified",
+    "קישור": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "מקורות": [
+      {
+        "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "label": "BIS: הודעת 15 בנובמבר על גישה מרחוק",
+        "label_en": "BIS: November 15 remote-access rule announcement"
+      },
+      {
+        "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+        "label": "המסמך שפרסם BIS, RIN 0694-AK50: נוסח ותאריכים לא מלאים",
+        "label_en": "BIS-posted RIN 0694-AK50: text with incomplete dates"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 15.11.2026 לפי הודעת BIS, ללא שעת פרסום או אזור זמן מאומתים. לשכת התעשייה והביטחון במשרד המסחר האמריקאי הודיעה שפרסמה interim final rule שנועד לטפל בגישה מרחוק לשבבי ולשרתי מחשוב מתקדם דרך מרכזי נתונים במדינות שלישיות.\n\n**מועד תחילה משפטי לא אומת.** במסמך המקושר, RIN 0694-AK50, תאריך הכניסה לתוקף מופיע כמציין מקום ליום הפרסום ב-Federal Register; גם מספר התיק ומועד סיום ההערות אינם מלאים, ובעמודים מופיע סימון CUI - DELIBERATIVE PROCESS. לכן הודעת BIS מאומתת, אך אין כאן קביעה שהנוסח נכנס לתוקף, קביעת תאריך ציות מחייב או הנחיות פעולה משפטיות.\n\nהנוסח שפורסם מונה חמש מדינות בדרישת רישיון אזורית לפריטי מחשוב מתקדמים מכוסים: אינדונזיה, מלזיה, סינגפור, תאילנד וברזיל. הוא כולל החרגה מותנית ליעד סופי או משתמש קצה שמטהו, או מטה חברת האם הסופית שלו, בארה״ב, בכפוף לדיווח. זה אינו איסור על כל השבבים או כל עסקה במדינות האלה, ואינו פטור גורף לכל מפעיל אמריקאי.\n\nבנפרד, סעיף 744.24 בנוסח עוסק ביצוא, יצוא חוזר והעברות של פריטי EAR מסוימים כאשר קיימת ידיעה שהם מיועדים למרכז נתונים בכל מקום בעולם המספק או עתיד לספק יותר מ-12 מיליון aggregate TPP, באתר אחד או באתרים מקושרים, לחברה שמטה או מטה חברת האם הסופית שלה במקאו או בקבוצת D:5. הסף הוא מדד ביצועי עיבוד מצטברים לפי ההגדרות, לא מספר שבבים או סכום בדולרים.\n\nהנוסח כולל חריג מותנה למערכות המלצה מסחריות, עם שימוש בלעדי ודיווח נדרש, וכן הוראת 90 ימים מהתחולה לשירותים קיימים מסוימים לצורך קבלת רישיון. זו אינה החרגה גורפת וקבועה לכל מרכז נתונים קיים.\n\nזהו שלב חדש ביחס לדיווח הקודם על הצעה בשבע מדינות: הודעת BIS והטקסט שפרסם מציגים חמש מדינות ואת התנאים המתוארים לעיל. אין להסיק שהדיווח הקודם על פטור גורף למתקנים קיימים הוא נוסח הכלל שפרסם BIS. לא אומתו כאן השפעה כספית לחברה מסוימת או רישיון מסוים שאושר או נדחה.",
+    "טקסט_en": "Published late | November 15, 2026 according to BIS's release, without a verified publication time or timezone. The US Commerce Department's Bureau of Industry and Security announced it released an interim final rule addressing remote access to advanced computing chips and servers through third-country data centers.\n\n**A legal effective date has not been verified.** The linked RIN 0694-AK50 document leaves its effective date as a Federal Register publication-date placeholder. Its docket number and comment deadline are incomplete, and its pages carry a CUI - DELIBERATIVE PROCESS marking. The BIS announcement is verified, but this item does not establish that the posted text is in force, set a binding compliance date or provide legal operating instructions.\n\nThe posted text names five countries for a regional license requirement covering specified advanced-computing items: Indonesia, Malaysia, Singapore, Thailand and Brazil. A conditional exclusion applies to an ultimate consignee or end user headquartered in the United States, or with a US-headquartered ultimate parent, subject to reporting. This is not a prohibition on every chip or transaction in those countries or a blanket exemption for every US operator.\n\nSeparately, the posted section 744.24 addresses exports, reexports and transfers of specified EAR items where there is knowledge that the item is destined for a data center anywhere worldwide providing or planning access to more than 12 million aggregate TPP, at one site or linked sites, to or for a company headquartered in Macau or Country Group D:5, or with an ultimate parent there. This is a defined aggregate processing-performance measure, not a chip count or dollar amount.\n\nThe text includes a conditional commercial-recommender-system exception requiring exclusive use and reporting, and a 90-day-from-effectiveness provision for certain existing services to obtain a license. This is not a permanent blanket exemption for every existing data center.\n\nThis is a new stage after the earlier report of a seven-country proposal: BIS's announcement and posted text describe five countries and the conditions above. The earlier reported broad exemption for existing facilities should not be treated as the BIS-posted wording. No company-specific financial impact or particular license approval or denial has been verified here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "349ea5e33bbde5901337455944ac94e089c02b818caeae6b6aad6c5e21041cd8"
+      }
+    }
   }
 ]
