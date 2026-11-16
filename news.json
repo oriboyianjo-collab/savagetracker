@@ -48852,5 +48852,65 @@
         "source_hash": "7cdc3fee1b9326d64296082fd5277e27e61cf023d1fb43a65a73b69805d0ec50"
       }
     }
+  },
+  {
+    "מזהה": "n-1819",
+    "category": "micro",
+    "חברה": "GEV",
+    "symbols": [
+      "GEV"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:26",
+    "הועלה": "2026-11-16 14:26",
+    "כותרת": "פורסם באיחור | GE Vernova אימתה עד 50% מימן ב-LM2500XPRESS ובחנה 100% מימן ב-LM6000VELOX",
+    "כותרת_en": "Published late | GE Vernova validates up to 50% hydrogen for LM2500XPRESS and tests 100% for LM6000VELOX",
+    "קישור": "https://www.gevernova.com/news/press-releases/ge-vernova-advances-hydrogen-capabilities-aeroderivative-gas-turbines-new-milestones",
+    "מקורות": [
+      {
+        "url": "https://www.gevernova.com/news/press-releases/ge-vernova-advances-hydrogen-capabilities-aeroderivative-gas-turbines-new-milestones",
+        "label": "GE Vernova: הודעת אבני הדרך במימן מ-10 בנובמבר",
+        "label_en": "GE Vernova: November 10 hydrogen milestones release"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 10.11.2026. הודעת GE Vernova המקורית נקראה במלואה; שעת פרסום מקורית לא צוינה בעמוד. אלה אבני דרך מניסוי ואימות, לא הודעה על הפעלה מסחרית חדשה של תחנות כוח.\n\nGE Vernova הודיעה שאימתה את ביצועי חבילת טורבינת הגז האווירית LM2500XPRESS להפעלה בתערובת דלק הכוללת עד 50% מימן בתצורת Dry Low Emission, המכונה DLE. במקביל הושלמו ניסויי LM6000VELOX בתצורת Singular Annular Combustion, המכונה SAC, לאימות יכולת פעולה ב-100% מימן.\n\nשני ההישגים הושגו במתקן בדיקות המימן הייעודי במרכז הטכנולוגיה של החברה בגרינוויל, דרום קרוליינה. ההודעה הוצגה במסגרת פעילות החברה ב-COP31 באנטליה. החברה מציגה את המתקן כתשתית להמשך פיתוח ואימות, ולא כהוכחה לכך שכל יחידה מותקנת כבר הוסבה לתערובות אלה.\n\nהחברה גם דיווחה שצי טורבינות הגז העולמי שלה עבר 11 מיליון שעות פעילות במימן או בתערובות מימן. זהו נתון מצטבר של הצי הרחב, ולא 11 מיליון שעות פעילות של שתי התצורות שנבחנו כעת.\n\nההודעה אינה כוללת הזמנת לקוח חדשה, תמורה חוזית או תחזית הכנסות מהניסויים. מעבר של תחנות קיימות למימן מצריך התאמות מערכת ושדרוגים; אין להסיק מתוצאות הבדיקה שכל תחנה יכולה לעבור מיד להפעלה ב-100% מימן.",
+    "טקסט_en": "Published late | November 10, 2026. GE Vernova's complete original release was read; the page provides no original publication time. These are testing and validation milestones, not a new commercial power-plant operating launch.\n\nGE Vernova said it validated its LM2500XPRESS aeroderivative gas turbine package for fuel blends containing up to 50% hydrogen in a Dry Low Emission, or DLE, configuration. It also completed testing of LM6000VELOX in a Singular Annular Combustion, or SAC, configuration to validate 100% hydrogen capability.\n\nBoth milestones were achieved at the dedicated hydrogen testing facility at the company's Global Technology Center in Greenville, South Carolina. The announcement was presented during the company's COP31 activities in Antalya. The facility supports further development and validation; the release does not establish that all installed units have already been converted to these blends.\n\nThe company also said its global gas turbine fleet has exceeded 11 million operating hours on hydrogen or hydrogen-blended fuels. That is a cumulative figure for the broader fleet, not 11 million operating hours for the two configurations tested here.\n\nThe release discloses no new customer order, contract value or revenue forecast from these tests. Converting existing plants requires system modifications and upgrades; the test results do not mean every plant can immediately switch to 100% hydrogen.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d4941288f0690fef8c3d7d35f7971ce600371aef5108e42a9779f7e9008f0796"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1820",
+    "category": "micro",
+    "חברה": "HLI",
+    "symbols": [
+      "HLI"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:26",
+    "הועלה": "2026-11-16 14:26",
+    "כותרת": "Houlihan Lokey מינתה את Fahd Aijaz למנהל בכיר בקבוצת הנפט והגז בלונדון, להובלת הכיסוי באירופה",
+    "כותרת_en": "Houlihan Lokey names Fahd Aijaz a London-based Oil & Gas Managing Director to lead European coverage",
+    "קישור": "https://investors.hl.com/news/press-and-earnings-releases/news-details/2026/Houlihan-Lokey-Further-Expands-Global-Oil--Gas-Group-With-Senior-Hire-in-London/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.hl.com/news/press-and-earnings-releases/news-details/2026/Houlihan-Lokey-Further-Expands-Global-Oil--Gas-Group-With-Senior-Hire-in-London/default.aspx",
+        "label": "Houlihan Lokey: הודעת המינוי מ-16 בנובמבר",
+        "label_en": "Houlihan Lokey: November 16 appointment release"
+      }
+    ],
+    "טקסט": "16.11.2026 | הודעת Houlihan Lokey המקורית נקראה במלואה. בעמוד מופיע תאריך אך לא שעת פרסום מקורית.\n\nHoulihan Lokey הודיעה על מינוי Fahd Aijaz ל-Managing Director בקבוצת הנפט והגז. הוא יפעל מלונדון ויוביל את כיסוי החברות והמשקיעים באירופה, בשיתוף שותפים בכירים נוספים בקבוצה העולמית.\n\nAijaz מצטרף לאחר שבע שנים ב-ING, שם היה Managing Director וראש צוות האנרגיה והסחורות. קודם לכן עבד עשר שנים בקבוצת משאבי הטבע של Deutsche Bank, בתחום הנפט והגז. לפי החברה, ניסיונו כולל ייעוץ ביותר מ-50 עסקאות לאורך 19 שנות קריירה, ובהן הנפקות, מיזוגים ורכישות ומימון חוב.\n\nהמינוי בא לאחר השלמת רכישת Intrepid Financial Partners מוקדם יותר השנה. רכישה זו היא רקע למינוי, לא עסקה חדשה שהוכרזה היום. לפי ההודעה, קבוצת הנפט והגז מונה כעת יותר מ-70 אנשי מקצוע, כולל צוות טכני של עשרה המייעץ לרכישות ומכירות נכסים.\n\nההודעה עוסקת בהרחבת צוות הייעוץ והכיסוי האירופי. לא הוכרזו בה עסקת לקוח חדשה, שווי התקשרות, תנאי שכר או תחזית הכנסות מהמינוי.",
+    "טקסט_en": "November 16, 2026 | Houlihan Lokey's complete original release was read. The page provides a date but no original publication time.\n\nHoulihan Lokey appointed Fahd Aijaz as a Managing Director in its Oil & Gas Group. Based in London, he will lead coverage of European companies and investors in collaboration with other senior partners in the global group.\n\nAijaz joins after seven years at ING, where he was a Managing Director and Head of the Energy & Commodities team. He previously spent ten years in Deutsche Bank's Natural Resources Group, focused on oil and gas. The company says his 19-year career includes advice on more than 50 transactions, including IPOs, M&A and debt financing.\n\nThe appointment follows completion of the Intrepid Financial Partners acquisition earlier this year. That acquisition is background to the hire, not a new deal announced today. The release says the Oil & Gas Group now has more than 70 financial professionals, including a ten-person technical asset-level acquisition and divestiture advisory team.\n\nThe announcement concerns expansion of the advisory team and European coverage. It discloses no new client transaction, engagement value, pay terms or revenue forecast tied to the appointment.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "59805c3c1d6f2ce7eadafecd3318ed638eacbcac6e65321878a6a2af99437b53"
+      }
+    }
   }
 ]
