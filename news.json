@@ -53620,5 +53620,71 @@
         "source_hash": "1e2b801d041635e3b1ef74e9b38fb67c36ee157605453496b14ca5ad0317922c"
       }
     }
+  },
+  {
+    "מזהה": "n-1971",
+    "category": "company",
+    "חברה": "Hormel Foods (HRL)",
+    "חברה_en": "Hormel Foods (HRL)",
+    "symbols": [
+      "HRL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 23:39",
+    "הועלה": "2026-11-16 23:39",
+    "כותרת": "Hormel Foods (HRL): השלימה את רכישת Brakebush תמורת כ-1.055 מיליארד דולר",
+    "כותרת_en": "Hormel Foods (HRL): completes Brakebush acquisition for approximately $1.055 billion",
+    "summary": "ההסכם הוכרז בספטמבר; החברה צופה שכעת פעילות העוף שלה תשלש בקירוב את היקף המכירות.",
+    "summary_en": "Agreement was announced in September; company expects its chicken business to roughly triple in net sales.",
+    "קישור": "https://www.prnewswire.com/news-releases/hormel-foods-completes-acquisition-of-brakebush-brothers-llc-302941030.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/hormel-foods-completes-acquisition-of-brakebush-brothers-llc-302941030.html",
+        "label": "Hormel Foods: company announcement",
+        "label_en": "Hormel Foods: company announcement"
+      }
+    ],
+    "טקסט": "פורסם ב-16.11.2026 בשעה 16:30 בחוף המזרחי של ארה״ב, 23:30 בישראל.\n\nחברת Hormel Foods (HRL) הודיעה שהשלימה את רכישת Brakebush Brothers, יצרנית מוצרי עוף מעובדים לשוק שירותי המזון, תמורת כ-1.055 מיליארד דולר. ההסכם המקורי הוכרז ב-30 בספטמבר 2026; העדכון הנוכחי הוא השלמת העסקה, לא הכרזה ראשונה עליה.\n\nלפי החברה, הרכישה מחזקת את פעילות שירותי המזון שלה באמצעות המוצרים, קשרי הלקוחות ומערך המכירות הישיר של Brakebush. היא צופה שפעילות העוף שלה תשלש בקירוב את היקף המכירות נטו בעקבות צירוף החברה הנרכשת. זו תחזית להיקף הפעילות המשולבת, לא דיווח על צמיחה אורגנית של פי שלושה או הכנסות שכבר הוכרו.\n\nהחברה מתכננת למסור פרטים נוספים על הרכישה ועל תחזית שנת הכספים 2027 בשיחת דוחות הרבעון הרביעי ב-3 בדצמבר 2026. ההודעה אינה מציגה תחזית מספרית חדשה לרווח למניה.",
+    "טקסט_en": "Published November 16, 2026 at 16:30 ET, or 23:30 Israel time.\n\nHormel Foods (HRL) announced completion of its acquisition of Brakebush Brothers, a value-added chicken supplier to foodservice operators, for approximately $1.055 billion. The original agreement was announced September 30, 2026; the current update is deal completion, not its first announcement.\n\nHormel says the acquisition strengthens its Foodservice business through Brakebush products, customer relationships and direct sales organization. It expects its chicken business to approximately triple in net sales after the addition. That is an expectation for the combined business scale, not a report of threefold organic growth or revenue already recognized.\n\nHormel plans to provide more acquisition detail and its fiscal 2027 outlook on its fourth-quarter earnings call December 3, 2026. This release does not provide new numerical earnings-per-share guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "44a6e0e8ee26040eabc48304508f1b81244dfdfb8f1f3cfd18c756d8b94d8379"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1972",
+    "category": "company",
+    "חברה": "nVent Electric (NVT)",
+    "חברה_en": "nVent Electric (NVT)",
+    "symbols": [
+      "NVT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 23:39",
+    "הועלה": "2026-11-16 23:39",
+    "כותרת": "nVent Electric (NVT): מציגה יחידת קירור של עד 2.3 מגה-ואט וארון חשמל 800 וולט בכנס SC26",
+    "כותרת_en": "nVent Electric (NVT): showcases up-to-2.3 MW cooling unit and 800-volt power rack at SC26",
+    "summary": "ייצור יחידת CX121 מתוכנן לסוף השנה; החברה מדווחת על הזמנות מוקדמות, ללא סכום.",
+    "summary_en": "CX121 production planned for late this year; company reports pre-orders without a value.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3404164/0/en/nvent-features-expanded-liquid-cooling-and-power-portfolio-at-sc26.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3404164/0/en/nvent-features-expanded-liquid-cooling-and-power-portfolio-at-sc26.html",
+        "label": "nVent Electric: company announcement",
+        "label_en": "nVent Electric: company announcement"
+      }
+    ],
+    "טקסט": "פורסם ב-16.11.2026 בשעה 16:30 בחוף המזרחי של ארה״ב, 23:30 בישראל.\n\nחברת nVent Electric (NVT) מפרטת פתרונות קירור נוזלי וחלוקת חשמל שהיא מציגה בכנס מחשוב-העל SC26 בשיקגו, המתקיים ב-15–20 בנובמבר. בין המוצרים יחידת חלוקת נוזל קירור מודולרית CX121, בעלת ביצועי הפעלה מרביים של 2.3 מגה-ואט לפי החברה.\n\nייצור היחידה מתוכנן להתחיל לקראת סוף 2026. החברה אומרת שכבר קיבלה הזמנות מוקדמות משמעותיות ושתמשיך לקבלן בכנס, אך אינה מפרסמת את סכומן. התצוגה וההזמנות המוקדמות אינן אישור שייצור מסחרי כבר החל או שההכנסה הוכרה.\n\nהחברה מציגה גם ארון חשמל nVent MAVERICK הממיר זרם חילופין לזרם ישר של 800 וולט. לפי התיאור, הוא משלב המרה, הגנה ובקרה ונועד לתמוך במחשוב AI צפוף ללא תכנון חשמל מחדש של כל המתקן. אלה תיאורי מוצר של החברה, לא בדיקת ביצועים עצמאית.\n\nבהמשך לפריט על רכישת Maverick Power שעלה ב-16 בנובמבר בשעה 12:38, ולפריט על אתר הייצור באריזונה שעלה ב-13:36: העדכון כאן הוא תצוגת מוצרים ולוח ייצור מתוכנן, לא רכישה נוספת או פתיחת המפעל. שיתופי הפעולה הקודמים עם AMD ו-NVIDIA נזכרים כרקע, לא כהזמנות חדשות שכומתו היום.",
+    "טקסט_en": "Published November 16, 2026 at 16:30 ET, or 23:30 Israel time.\n\nnVent Electric (NVT) detailed liquid-cooling and power-distribution solutions it is displaying at the SC26 supercomputing conference in Chicago, November 15-20. They include the modular CX121 coolant distribution unit, with maximum operating performance of 2.3 megawatts according to the company.\n\nProduction is planned to begin late in 2026. nVent says it has received significant pre-orders and will continue taking them at the show, without disclosing their value. Display and pre-orders do not confirm commercial production has started or revenue has been recognized.\n\nThe company is also displaying its nVent MAVERICK power rack, which converts AC to 800-volt DC. It says the rack combines conversion, protection and controls to support dense AI computing without a facility-wide power redesign. These are company product descriptions, not independent performance tests.\n\nRelated to the Maverick Power acquisition item uploaded November 16 at 12:38 and the Arizona manufacturing-site item uploaded at 13:36: this update concerns product displays and planned production, not another acquisition or a factory opening. Prior AMD and NVIDIA collaborations are background, not newly quantified orders today.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "db05e557af9aa532cc86ff7a7157c21d96719dce36a23771937bbd6ee4f0c27b"
+      }
+    }
   }
 ]
