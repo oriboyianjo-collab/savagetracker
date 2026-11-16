@@ -46164,5 +46164,80 @@
         "source_hash": "96ffa3fab2c0bee54e6722462a7daea4be0cfff61dd46af7cc1728d1b2bcf9da"
       }
     }
+  },
+  {
+    "מזהה": "n-1734",
+    "category": "micro",
+    "חברה": "FirstEnergy",
+    "חברה_en": "FirstEnergy",
+    "symbols": [
+      "FE"
+    ],
+    "sectors": [
+      "utilities"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:46",
+    "הועלה": "2026-11-16 09:46",
+    "כותרת": "פורסם באיחור | 27 באוקטובר | FirstEnergy (FE) צופה גידול של לפחות 25% בתוכנית ההשקעה בהולכה בעת עדכונה",
+    "כותרת_en": "Published late | October 27 | FirstEnergy (FE) expects at least 25% growth in its transmission investment plan when updated",
+    "summary": "הבסיס הוא תוכנית של 19 מיליארד דולר ל-2026–2030. מדובר בציפייה לעדכון 2027–2031, לא בהוצאה שכבר בוצעה.",
+    "summary_en": "The baseline is a $19 billion 2026–2030 plan. This is an expectation for the 2027–2031 update, not spending already completed.",
+    "טקסט": "בהודעת החברה מ-27 באוקטובר 2026, שפורסמה ב-16:25 שעון החוף המזרחי, 22:25 בישראל, FirstEnergy אמרה שהביקוש והתשתיות הנחוצות לתמיכה ברשת צפויים להניע גידול של לפחות 25% בתוכנית ההשקעה הנוכחית בהולכת חשמל, בהיקף 19 מיליארד דולר ל-2026–2030, עם גלגולה לתקופה 2027–2031.\n\n**זו ציפייה לעדכון עתידי של התוכנית, לא אישור שכל התוספת אושרה רגולטורית, נחתמה בחוזים או כבר הושקעה.** בסיס 19 מיליארד הדולר הוא רכיב ההולכה, לא מלוא תוכנית Energize365 של החברה.\n\nהחברה דיווחה על 7.9 גיגה-ואט של ביקוש בחוזים מלקוחות בעלי עומס גדול בשטחי השירות שלה, כמעט כפול מתחילת השנה. בנפרד, היא מנהלת משא ומתן על כ-4 גיגה-ואט נוספים. **משא ומתן אינו ביקוש שכבר הובטח בחוזה; נתוני ההספק אינם הכנסה או השקעה בדולרים.** ההודעה הראשונית אינה מגדירה את כל 7.9 הגיגה-ואט כמרכזי נתונים.",
+    "טקסט_en": "In its October 27, 2026 release, published at 4:25 p.m. Eastern Time, 22:25 in Israel, FirstEnergy said demand and infrastructure needed to support the grid are expected to drive at least a 25% increase in its current $19 billion 2026–2030 transmission investment plan when it rolls forward to 2027–2031.\n\n**This is an expectation for a future plan update, not confirmation that the entire increase has regulatory approval, is under contract or has already been spent.** The $19 billion baseline is the transmission component, not the company's entire Energize365 plan.\n\nThe company reported 7.9 gigawatts of contracted demand from large-load customers across its service territory, nearly double since the start of the year. Separately, it is negotiating approximately 4 gigawatts more. **Negotiations are not contracted demand; power figures are not revenue or dollar investment.** The primary release does not identify all 7.9 gigawatts as data centers.",
+    "קישור": "https://investors.firstenergycorp.com/investor-materials/news-releases/news-details/2026/FIRSTENERGY-DELIVERS-STRONG-THIRD-QUARTER-RESULTS-BUILDS-MOMENTUM-FOR-LONG-TERM-GROWTH/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.firstenergycorp.com/investor-materials/news-releases/news-details/2026/FIRSTENERGY-DELIVERS-STRONG-THIRD-QUARTER-RESULTS-BUILDS-MOMENTUM-FOR-LONG-TERM-GROWTH/default.aspx",
+        "label": "FirstEnergy: סעיף תוכנית ההולכה בהודעת 27 באוקטובר, 16:25 ET",
+        "label_en": "FirstEnergy: transmission-plan section of October 27 release, 4:25 p.m. ET"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "46c063797486315177420567b07b025870f625ce19740e528b715597c4fa7852"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1735",
+    "category": "micro",
+    "חברה": "Citizens Financial Group",
+    "חברה_en": "Citizens Financial Group",
+    "symbols": [
+      "CFG"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:46",
+    "הועלה": "2026-11-16 09:46",
+    "כותרת": "פורסם באיחור | 9 בנובמבר | Citizens Financial Group (CFG) הציגה פלטפורמת ניהול מזומנים עם Trovata ו-Mastercard; פריסה מלאה צפויה ברבעון הראשון של 2027",
+    "כותרת_en": "Published late | November 9 | Citizens Financial Group (CFG) announces treasury platform with Trovata and Mastercard; full rollout expected in Q1 2027",
+    "summary": "Citizens Treasury Intelligence מיועדת ללקוחות עסקיים זכאים, עם גרסת בסיס ללא תשלום ומסלולים בתשלום. לא פורסם שווי השותפות.",
+    "summary_en": "Citizens Treasury Intelligence is for eligible commercial clients, with a no-cost basic version and paid tiers. Partnership value was not disclosed.",
+    "טקסט": "בהודעתה מ-9 בנובמבר 2026, Citizens הציגה את Citizens Treasury Intelligence, פלטפורמה ללקוחות בנקאות מסחרית המשלבת תמונת מזומנים במספר בנקים, ניתוח נתונים, חיזוי תזרים וכלי עבודה לאנשי כספים. היא משלבת את פעילות האוצר של Citizens, הטכנולוגיה של Trovata והמערכת העסקית של Mastercard.\n\nלפי הבנק, גרסה בסיסית תוצע ללא תשלום ללקוחות דיווח מידע זכאים של accessOPTIMA, עם מסלולים בתשלום לצרכים מורחבים. אין בכך לומר שכל היכולות או כל סוגי הלקוחות נכללים בחינם. לא נמסרו כאן מחירי המסלולים בתשלום, שווי ההסכם או יעד הכנסות.\n\n**הפריסה המלאה צפויה ברבעון הראשון של 2027; זו אינה הוכחה שהמערכת כבר נפרסה במלואה לכל הלקוחות.** Trovata מתארת את המוצר כגרסה ממותגת Citizens של Trovata Bank Pro, ולא כטכנולוגיה שנרכשה בבעלות מלאה על ידי הבנק.\n\n**המקורות מציינים 9 בנובמבר ללא שעת פרסום מדויקת; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In its November 9, 2026 announcement, Citizens introduced Citizens Treasury Intelligence, a platform for commercial banking clients combining multi-bank cash visibility, analytics, cash-flow forecasting and treasury workflow tools. It combines Citizens' treasury business, Trovata's technology and Mastercard's ecosystem.\n\nThe bank says a basic version will be offered at no cost to eligible accessOPTIMA information reporting clients, with paid tiers for expanded needs. This does not mean every capability or client type is included for free. Paid-tier prices, agreement value and revenue targets were not disclosed here.\n\n**Full rollout is expected in the first quarter of 2027; this does not establish that the platform has already been fully deployed to all clients.** Trovata describes the product as a Citizens-branded version of Trovata Bank Pro, not technology acquired outright by the bank.\n\n**The sources give November 9 without an exact publication time; the original publication time in Israel was not verified.**",
+    "קישור": "https://investor.citizensbank.com/about-us/newsroom/latest-news/2026/2026-11-09-133051871.aspx",
+    "מקורות": [
+      {
+        "url": "https://investor.citizensbank.com/about-us/newsroom/latest-news/2026/2026-11-09-133051871.aspx",
+        "label": "Citizens: הודעת הבנק על הפלטפורמה, 9 בנובמבר",
+        "label_en": "Citizens: November 9 bank announcement of the platform"
+      },
+      {
+        "url": "https://trovata.io/press/citizens-launches-citizens-treasury-intelligence-powered-by-trovata",
+        "label": "Trovata: הודעת השותף ופרטי המוצר, 9 בנובמבר",
+        "label_en": "Trovata: November 9 partner announcement and product details"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8c861ecde8e7c1f8d37989eb6a02f4aa865f0ee16124a36b69a3a3706defeca6"
+      }
+    }
   }
 ]
