@@ -49435,5 +49435,100 @@
         "source_hash": "c52fcf5f61c4c91733580082e7009273c5b9f37ae86b293caed181cfe7c414fa"
       }
     }
+  },
+  {
+    "מזהה": "n-1838",
+    "category": "micro",
+    "חברה": "PSX",
+    "symbols": [
+      "PSX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:09",
+    "הועלה": "2026-11-16 15:09",
+    "כותרת": "פורסם באיחור | Phillips 66 נבחרה לשותפת הדלק הרשמית של LA28 ו-Team USA; התמיכה כוללת כלי רכב ומרוצי לפיד",
+    "כותרת_en": "Published late | Phillips 66 named official fuel partner of LA28 and Team USA, covering vehicles and torch relays",
+    "קישור": "https://investor.phillips66.com/financial-information/news-releases/news-release-details/2026/Phillips-66-Named-Official-Fuel-Partner-of-the-LA28-Olympic-and-Paralympic-Games-and-Team-USA/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investor.phillips66.com/financial-information/news-releases/news-release-details/2026/Phillips-66-Named-Official-Fuel-Partner-of-the-LA28-Olympic-and-Paralympic-Games-and-Team-USA/default.aspx",
+        "label": "Phillips 66: הודעת שותפות LA28 מ-12 בנובמבר",
+        "label_en": "Phillips 66: November 12 LA28 partnership announcement"
+      },
+      {
+        "url": "https://la28.org/en/newsroom/phillips-66-named-official-fuel-partner-la28-olympic-paralympic-games-team-usa.html",
+        "label": "LA28: הודעת הצד השני לשותפות",
+        "label_en": "LA28: counterparty partnership announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 12.11.2026. Phillips 66 ו-LA28 פרסמו הודעות תואמות על בחירת החברה לשותפת הדלק הרשמית של המשחקים האולימפיים והפאראלימפיים בלוס אנג'לס 2028 ושל Team USA. בעמודים אין שעת פרסום מקורית מאומתת; אין מדובר בהסכם חדש מ-16 בנובמבר.\n\nלפי ההודעות, Phillips 66 תספק בנזין, סולר מתחדש ופרופאן לכלי רכב ולציוד הקשורים למשחקים. התמיכה מיועדת בין השאר להובלת ספורטאים, אוהדים ובעלי תפקידים בין 49 אתרי התחרויות, ולציוד החיוני לפעילות האתרים ולשידורים. 49 הוא מספר אתרי המשחקים המתואר, לא מספר תחנות תדלוק חדשות.\n\nהאספקה תשתמש ביכולות החברה ובמותגים Phillips 66, 76 ו-Conoco, לרבות תחנות 76 בבעלות מקומית. בנוסף תספק החברה דלק ללפידים ולכלי הרכב של מרוצי הלפיד האולימפי והפאראלימפי. Conoco מוזכר כאן כמותג דלק של Phillips 66, לא כחברת ConocoPhillips או כהסכם נפרד עמה.\n\nהשותפות כוללת מעמד Presenting Partner למבחנים האמריקאיים האולימפיים והפאראלימפיים באתלטיקה ב-2028, וכן אספקת דלק למתקן קיים בקמפוס מרכז האימונים בקולורדו ספרינגס. ההודעות מתארות התחייבויות ותכנון לקראת האירועים, לא הוכחה שכל האספקה כבר בוצעה.\n\nלא נמסרו סכום החסות, נפח הדלק, מחיר ליחידה, רווח צפוי או תקופת אספקה מדויקת לכל רכיב. אין להסיק מההודעה לבדה השפעה כספית מסוימת על Phillips 66.",
+    "טקסט_en": "Published late | November 12, 2026. Phillips 66 and LA28 published matching announcements naming the company official fuel partner of the Los Angeles 2028 Olympic and Paralympic Games and Team USA. The pages give no verified original publication time; this is not a new November 16 agreement.\n\nAccording to the announcements, Phillips 66 will provide gasoline, renewable diesel and propane for Games-related vehicles and equipment. Support includes moving athletes, fans and officials across LA28's 49 venues and powering equipment essential to venue and broadcast operations. The 49 figure describes Games venues, not new filling stations.\n\nSupply will use the company's capabilities and Phillips 66, 76 and Conoco brands, including locally owned 76 stations. The company will also fuel the Olympic and Paralympic torches and relay vehicles. Conoco here is a Phillips 66 fuel brand, not ConocoPhillips or a separate agreement with that company.\n\nThe partnership includes presenting-partner status for the 2028 US Olympic and Paralympic Track & Field Trials, plus fuel for an existing facility at the Colorado Springs training-center campus. These are commitments and plans ahead of the events, not evidence all deliveries have already occurred.\n\nNo sponsorship amount, fuel volume, unit price, expected profit or exact supply period for each component was disclosed. The announcement alone does not establish a particular financial impact on Phillips 66.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "11aa7f4b447a85f11dd6fa8eb2411d8b9496398a13f7543ea506a3f6687d22e0"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1839",
+    "category": "micro",
+    "חברה": "ROP",
+    "symbols": [
+      "ROP"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:09",
+    "הועלה": "2026-11-16 15:09",
+    "כותרת": "פורסם באיחור | PowerPlan של Roper השיקה מתאם נתמך ל-Oracle Fusion Cloud ERP; זמין מאז הודעת 13 באוקטובר",
+    "כותרת_en": "Published late | Roper subsidiary PowerPlan launches supported Oracle Fusion Cloud ERP adapter, available from October 13 announcement",
+    "קישור": "https://powerplan.com/oracle-fusion-cloud-erp-integration/",
+    "מקורות": [
+      {
+        "url": "https://powerplan.com/oracle-fusion-cloud-erp-integration/",
+        "label": "PowerPlan: השקת Enterprise Adapter ב-13 באוקטובר",
+        "label_en": "PowerPlan: October 13 Enterprise Adapter launch"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 13.10.2026. PowerPlan, המזוהה בהודעתה כחברה בת עצמאית של Roper Technologies, הודיעה על השקת Enterprise Adapter ל-Oracle Fusion Cloud ERP. בהודעה נאמר שהמוצר זמין באותו יום; זו אינה השקה חדשה מ-16 בנובמבר. אין בעמוד שעת פרסום מקורית מאומתת.\n\nלפי החברה, המתאם מאפשר להעביר נתונים פיננסיים ונתוני פרויקטים ממערכת Oracle Fusion Cloud ERP אל פתרון Project and Asset Accounting של PowerPlan באמצעות חיבור סטנדרטי הנתמך על ידה. המטרה היא להפחית את הצורך בחיבורים מותאמים שכל לקוח מתחזק בעצמו.\n\nPowerPlan אומרת שהיא בונה, תומכת ומתחזקת את החיבור גם כאשר שתי הפלטפורמות משתנות. היא מציגה שימושים לסגירת חודש, ניהול פרויקטים, דיווח ורישום פקודות יומן, וטוענת שהחיבור מפחית עומס תחזוקה על צוותי IT וסיכון תפעולי. אלה תיאור מוצר וטענות הספק, לא מבחן עצמאי של אמינות או שיעור חיסכון מוכח.\n\nזמינות המתאם אינה אומרת שכל לקוח Oracle כבר התקין אותו או שכל מערכת מותאמת הוחלפה. ההודעה אינה מפרטת מחיר, מספר לקוחות, שווי הסכם, תנאי רישוי או תוספת הכנסות צפויה ל-PowerPlan או ל-Roper.\n\nמדובר בעדכון מוצר של חברה בת קיימת של Roper ובחיבור למערכת Oracle, לא בהודעה על רכישה חדשה של PowerPlan או על שינוי בעלות ב-Oracle.",
+    "טקסט_en": "Published late | October 13, 2026. PowerPlan, identified in its announcement as an independent Roper Technologies subsidiary, announced its Enterprise Adapter for Oracle Fusion Cloud ERP. It said the product was available that day; this is not a new November 16 launch. The page gives no verified original publication time.\n\nThe company says the adapter brings Oracle Fusion Cloud ERP financial and project data into PowerPlan's Project and Asset Accounting solution through a standard, supported connection. The intended benefit is less reliance on custom integrations maintained separately by customers.\n\nPowerPlan says it builds, supports and maintains the connection as both platforms change. It describes uses for month-end close, project management, reporting and journal posting, and claims reduced IT maintenance work and operational risk. These are product descriptions and supplier claims, not independent reliability testing or proven savings rates.\n\nAvailability does not mean every Oracle customer has installed the adapter or replaced every custom system. No price, customer count, contract value, licensing terms or expected incremental revenue for PowerPlan or Roper was disclosed.\n\nThis is a product update from an existing Roper subsidiary connecting to Oracle software, not a new PowerPlan acquisition or a change in Oracle ownership.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0990376958b98a7517ff074f97de2bcb21ea5e9b19374c989069e15e3adddd7b"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1840",
+    "category": "micro",
+    "חברה": "ROP",
+    "symbols": [
+      "ROP"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:09",
+    "הועלה": "2026-11-16 15:09",
+    "כותרת": "פורסם באיחור | Frontline של Roper הציגה System of Intelligent Action; Invoice Agent פעיל בטקסס, רכיבים אחרים בגישה מוקדמת",
+    "כותרת_en": "Published late | Roper subsidiary Frontline introduces System of Intelligent Action; Invoice Agent live in Texas, other components in early access",
+    "קישור": "https://www.frontlineeducation.com/news/frontline-education-introduces-the-system-of-intelligent-action-starting-with-ai-that-is-already-giving-districts-time-back/",
+    "מקורות": [
+      {
+        "url": "https://www.frontlineeducation.com/news/frontline-education-introduces-the-system-of-intelligent-action-starting-with-ai-that-is-already-giving-districts-time-back/",
+        "label": "Frontline Education: הודעת 20 באוקטובר ומצב זמינות הרכיבים",
+        "label_en": "Frontline Education: October 20 announcement and component availability"
+      }
+    ],
+    "טקסט": "פורסם באיחור | עמוד ההודעה של Frontline Education נושא תאריך 20.10.2026. החברה, המזוהה בו כחלק מ-Roper Technologies, הציגה אסטרטגיית מוצר בשם System of Intelligent Action. אין בעמוד שעת פרסום מקורית מאומתת; זו אינה הודעה חדשה מ-16 בנובמבר.\n\nלפי החברה, המערכת מיועדת לחבר עבודת משאבי אנוש, שירותי תלמידים וניהול עסקי במחוזות חינוך K–12, כדי להציג משימות, הקשר והמלצות לפעולה במקום אחד. זהו תיאור אסטרטגיה עם רכיבים בשלבי זמינות שונים, לא השקה מלאה של כל היכולות לכל הלקוחות.\n\nFrontline אומרת ש-Invoice Agent החל לפעול במחוזות בטקסס ב-15 באוקטובר. המוצר קורא ומעריך חשבוניות ומקדם אותן לקראת תשלום, אך אדם מאשר לפני רישום. החברה טוענת לקיצור טיפול מחשבונית של שלוש דקות לפחות מ-30 שניות; זהו נתון החברה, לא מדד ביצועים שאומת כאן באופן עצמאי.\n\nבנפרד, Frontline Identity וה-Shared Workspace נמצאים לפי ההודעה בגישה מוקדמת. החברה מתכננת להוסיף יכולות תהליכי עבודה, חיבורי מערכות, נתונים ו-AI בשלבים עד 2027. הרחבת Invoice Agent לקליפורניה מתוכננת לחודשים הבאים, ופריסה ארצית אמורה לבוא בהמשך. אין להציג זאת כזמינות כלל-ארצית שכבר הושלמה.\n\nלא נמסרו מחיר החבילה, היקף חוזים, מספר משתמשים בכל רכיב או תחזית הכנסות מהמהלך. הטענה למתן זמן בחזרה לצוותי המחוזות היא תיאור התועלת של החברה, ולא התחייבות לחיסכון כספי מסוים.",
+    "טקסט_en": "Published late | Frontline Education's issuer page is dated October 20, 2026. The company, identified there as part of Roper Technologies, introduced a product strategy called the System of Intelligent Action. The page gives no verified original publication time; this is not a new November 16 announcement.\n\nThe company says the system is intended to connect human resources, student services and business work in K–12 districts, putting tasks, context and recommended next steps in one experience. This is a strategy with components at different availability stages, not a completed launch of every capability to all customers.\n\nFrontline says Invoice Agent went live for Texas districts on October 15. It reads and scores invoices and advances them toward payment, but a person approves before anything posts. The company claims processing can fall from three minutes per invoice to under 30 seconds; that is a company figure, not an independently verified benchmark here.\n\nSeparately, Frontline Identity and the Shared Workspace are in early access. The company plans phased workflow, integration, data and AI capabilities through 2027. An Invoice Agent expansion to California is planned for the coming months, with a national rollout afterward. This should not be presented as completed nationwide availability.\n\nNo bundle price, contract volume, per-component user count or revenue forecast for the initiative was disclosed. Giving district staff time back is the company's description of the intended benefit, not a commitment to particular financial savings.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fe5b4678c5610867f8a64c7a2c11423f33316e54f0f779d61c4bc304f8b34c33"
+      }
+    }
   }
 ]
