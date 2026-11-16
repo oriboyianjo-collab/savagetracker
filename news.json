@@ -53521,5 +53521,71 @@
         "source_hash": "cd97416a34611191651227a155aef62e99b22c83929f6254ac260b90f00ea2f9"
       }
     }
+  },
+  {
+    "מזהה": "n-1968",
+    "category": "company",
+    "חברה": "Aon (AON)",
+    "חברה_en": "Aon (AON)",
+    "symbols": [
+      "AON"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 23:25",
+    "הועלה": "2026-11-16 23:25",
+    "כותרת": "Aon (AON): השלימה את רכישת USI תמורת 17 מיליארד דולר",
+    "כותרת_en": "Aon (AON): completes USI acquisition for $17 billion",
+    "summary": "החברה מרחיבה את פעילותה בשוק הביניים בארה״ב; התחזית ל-2027 תעודכן עם דוחות הרבעון הרביעי.",
+    "summary_en": "Company expands its U.S. middle-market business; 2027 outlook update planned with fourth-quarter earnings.",
+    "קישור": "https://www.prnewswire.com/news-releases/aon-completes-acquisition-of-usi-to-establish-the-premier-us-middle-market-platform-302940834.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/aon-completes-acquisition-of-usi-to-establish-the-premier-us-middle-market-platform-302940834.html",
+        "label": "Aon / PR Newswire: company announcement",
+        "label_en": "Aon / PR Newswire: company announcement"
+      }
+    ],
+    "טקסט": "פורסם ב-16.11.2026 בשעה 16:15 בחוף המזרחי של ארה״ב, 23:15 בישראל.\n\nחברת Aon (AON) הודיעה שהשלימה את רכישת USI במחיר רכישה כולל של 17 מיליארד דולר. זו הודעה על השלמת העסקה, לא על חתימה ראשונית על הסכם. הרכישה מרחיבה את שירותי הביטוח, הטבות העובדים, הסיכון האישי והפרישה שלה ללקוחות בשוק הביניים בארה״ב, בהמשך לרכישת NFP ב-2024.\n\nלפי החברה, ל-USI הכנסות שנתיות של כ-3 מיליארד דולר, יותר מ-10,500 עובדים וכ-200 משרדים בארה״ב. היא תפעל בשם \"USI, an Aon company\" בהובלת מייק סיקארד, שכעת מכהן כנשיא Aon וכמנכ״ל הגלובלי של פעילות שוק הביניים בקבוצה, הכוללת את Aon, NFP ו-USI.\n\nהחברה מתכננת לעדכן את תחזית 2027, כולל השפעת USI, עם פרסום דוחות הרבעון הרביעי בתחילת 2027. היא מתכוונת לדווח גם על ההתקדמות לעבר סינרגיות צפויות נטו של 395 מיליון דולר ב-EBITDA מתואם. זהו יעד עתידי שאינו לפי כללי GAAP, לא חיסכון או רווח שכבר מומשו.",
+    "טקסט_en": "Published November 16, 2026 at 16:15 ET, or 23:15 Israel time.\n\nAon (AON) announced completion of its acquisition of USI for a total purchase price of $17 billion. This is completion of the deal, not an initial agreement announcement. The acquisition expands its U.S. middle-market property and casualty, employee benefits, personal risk and retirement services, building on its 2024 NFP acquisition.\n\nAccording to Aon, USI has approximately $3 billion in annual revenue, more than 10,500 team members and nearly 200 U.S. offices. It will operate as \"USI, an Aon company\" under Mike Sicard, now President of Aon and global CEO of the middle market across Aon, NFP and USI.\n\nAon plans to update its 2027 outlook, including USI, with fourth-quarter earnings in early 2027. It also intends to report progress toward $395 million of expected net adjusted EBITDA synergies. This is a forward-looking non-GAAP target, not savings or profit already realized.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8ac4a5324e27ad0e788f22fefbd94903d50b3f82783ea3afa06f13bac98910a0"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1969",
+    "category": "company",
+    "חברה": "Consolidated Edison (ED)",
+    "חברה_en": "Consolidated Edison (ED)",
+    "symbols": [
+      "ED"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 23:25",
+    "הועלה": "2026-11-16 23:25",
+    "כותרת": "Consolidated Edison (ED): הכריזה על הנפקת 6 מיליון מניות במבנה מכירה עתידית",
+    "כותרת_en": "Consolidated Edison (ED): announces 6 million-share offering with a forward component",
+    "summary": "החברה לא תקבל את תמורת מכירת המניות השאולות הראשונית; הסליקה צפויה עד סוף 2027, בכפוף למבנה ההסכם.",
+    "summary_en": "Company will not receive initial borrowed-share sale proceeds; settlement expected by end-2027 under the agreement.",
+    "קישור": "https://www.prnewswire.com/news-releases/con-edison-announces-common-share-offering-with-a-forward-component-302941041.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/con-edison-announces-common-share-offering-with-a-forward-component-302941041.html",
+        "label": "Consolidated Edison / PR Newswire: company announcement",
+        "label_en": "Consolidated Edison / PR Newswire: company announcement"
+      }
+    ],
+    "טקסט": "פורסם ב-16.11.2026 בשעה 16:18 בחוף המזרחי של ארה״ב, 23:18 בישראל.\n\nחברת Consolidated Edison (ED) הכריזה על הנפקה פומבית של 6 מיליון מניות רגילות עם רכיב מכירה עתידית. הצד הנגדי בהסכם, BofA Securities או חברה קשורה, אמור לשאול מניות מצדדים שלישיים ולמכור אותן לחתם BofA Securities. זו הכרזה על הנפקה, לא הודעה על תמחור סופי או על השלמת גיוס מזומנים.\n\nהחברה צופה להנפיק ולמסור את המניות לצד הנגדי בעת סליקה פיזית של ההסכם, כנגד תמורה לפי מחיר ה-forward שייקבע במנגנון ההסכם. היא מתכננת להשתמש במזומנים שתקבל בסליקה פיזית מלאה למימון צורכי ההון של החברות הבנות ולמטרות תאגידיות כלליות.\n\nהסליקה צפויה עד 31 בדצמבר 2027, אך החברה רשאית להקדימה, כולה או חלקה, בכפוף לתנאים. בכפוף לתנאים מסוימים היא יכולה לבחור גם בסליקה במזומן או בנטו מניות במקום בסליקה פיזית. התאריך אינו מועד מובטח לקבלת תמורה.\n\nהחברה לא תקבל תמורה ממכירת המניות השאולות הראשונית של הצד הנגדי לחתם. אם לא ניתן יהיה לשאול את מלוא המניות או שעלות ההשאלה תעבור רף שנקבע, החברה עשויה להידרש למכור לחתם מניות השלמה ישירות, לקבל תמורה בגינן ולהקטין בהתאם את מספר המניות בהסכם העתידי.",
+    "טקסט_en": "Published November 16, 2026 at 16:18 ET, or 23:18 Israel time.\n\nConsolidated Edison (ED) announced a public offering of 6 million common shares with a forward component. BofA Securities or its affiliate, as forward counterparty, is to borrow shares from third parties and sell them to underwriter BofA Securities. This is an offering announcement, not final pricing or a completed cash raise.\n\nCon Edison expects to issue and deliver shares to the counterparty upon physical settlement in exchange for proceeds based on the forward price determined under the agreement. It plans to use proceeds from full physical settlement for subsidiary capital requirements and general corporate purposes.\n\nSettlement is expected by December 31, 2027, but Con Edison may settle earlier, in whole or part, subject to conditions. Under certain conditions it may elect cash or net share settlement instead of physical settlement. The date is not a guaranteed cash-receipt date.\n\nCon Edison will not receive proceeds from the counterparty's initial borrowed-share sale to the underwriter. If sufficient shares cannot be borrowed or borrowing costs exceed a specified rate, it may have to sell top-up shares directly to the underwriter, receive those proceeds and reduce the forward share count accordingly.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "173bcaa75bcdfd8dad443f3504ddedb0090f7078303d3e0d24a63b4a6ee6e969"
+      }
+    }
   }
 ]
