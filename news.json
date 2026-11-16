@@ -53488,5 +53488,38 @@
         "source_hash": "548b60c0edccc113ad6494f2a8ba96bc09867a3b615b73ba2373895e907664cb"
       }
     }
+  },
+  {
+    "מזהה": "n-1967",
+    "category": "company",
+    "חברה": "Google (GOOGL)",
+    "חברה_en": "Google (GOOGL)",
+    "symbols": [
+      "GOOGL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 23:23",
+    "הועלה": "2026-11-16 23:23",
+    "כותרת": "Google (GOOGL): לפי Nikkei, תציע ליפן גישה מוקדמת למודל AI מתקדם להגנת סייבר",
+    "כותרת_en": "Google (GOOGL): Nikkei reports planned early access to advanced AI for Japan cybersecurity",
+    "summary": "הדיווח מתייחס לממשלה ולספקי תשתיות מרכזיים; טרם אומת בהודעת Google.",
+    "summary_en": "Report concerns the government and major infrastructure providers; not verified in a Google announcement.",
+    "קישור": "https://asia.nikkei.com/spotlight/cybersecurity/google-to-give-japan-early-access-to-frontier-ai-for-cybersecurity",
+    "מקורות": [
+      {
+        "url": "https://asia.nikkei.com/spotlight/cybersecurity/google-to-give-japan-early-access-to-frontier-ai-for-cybersecurity",
+        "label": "Nikkei Asia: דיווח על גישה מוקדמת ל-AI להגנת סייבר ביפן",
+        "label_en": "Nikkei Asia: report on early AI access for cybersecurity in Japan"
+      }
+    ],
+    "טקסט": "**לא מאומת מול מקור ראשוני.**\n\nפורסם ב-Nikkei Asia ב-17.11.2026 בשעה 06:02 ביפן, 16.11.2026 בשעה 23:02 בישראל.\n\nלפי דיווח של Nikkei Asia מאת קזויוקי אוקודאירה, חברת Google תציע לממשלת יפן ולספקי תשתיות מרכזיים במדינה גישה מוקדמת למודל הבינה המלאכותית העדכני שלה, כדי לסייע בהגנת סייבר על רקע העלייה במתקפות.\n\nזהו דיווח על גישה שעתידה להינתן, לא הודעה על פריסה כללית שכבר הושלמה. המידע מובא בשם Nikkei ואינו אישור מטעם Google.",
+    "טקסט_en": "**Not verified against a primary source.**\n\nPublished by Nikkei Asia on November 17, 2026 at 06:02 JST, or November 16 at 23:02 Israel time.\n\nAccording to a Nikkei Asia report by Kazuyuki Okudaira, Google will offer Japan's government and major infrastructure providers early access to its latest artificial intelligence model to help bolster cybersecurity amid a rise in attacks.\n\nThis is a report of access to be offered, not a completed general rollout. The information is attributed to Nikkei, not confirmed by Google.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "cd97416a34611191651227a155aef62e99b22c83929f6254ac260b90f00ea2f9"
+      }
+    }
   }
 ]
