@@ -52647,5 +52647,36 @@
         "source_hash": "8509bcb063d405d1f0465f8f2ca6ad0d9eb70fd00a7cdeac8de818859822144d"
       }
     }
+  },
+  {
+    "מזהה": "n-1941",
+    "category": "micro",
+    "חברה": "Adobe (ADBE)",
+    "חברה_en": "Adobe (ADBE)",
+    "symbols": [
+      "ADBE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:59",
+    "הועלה": "2026-11-16 18:59",
+    "כותרת": "Adobe (ADBE): Monotype השיקה פאנל גופני מותג ל-Illustrator, Photoshop ו-InDesign",
+    "כותרת_en": "Adobe (ADBE): Monotype launches brand-font panel for Illustrator, Photoshop and InDesign",
+    "קישור": "https://www.prnewswire.com/news-releases/monotype-launches-brand-font-panel-for-adobe-creative-apps-302940723.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/monotype-launches-brand-font-panel-for-adobe-creative-apps-302940723.html",
+        "label": "Monotype via PR Newswire",
+        "label_en": "Monotype via PR Newswire"
+      }
+    ],
+    "טקסט": "הודעת Monotype מ-16.11.2026, 11:47 בשעון מזרח ארה״ב, 18:47 בישראל.\n\nMonotype הודיעה על השקת פאנל Monotype Connect בתוך Adobe Illustrator, Photoshop ו-InDesign. הפאנל מאפשר לצוותים לגשת לספריות הגופנים המאושרות של הארגון, לבדוק התאמה של גופנים בעיצוב לספרייה נבחרת ולהחליף חריגות בשליטת המעצב.\n\nלפי Monotype, הפאנל זמין לצוותים במסלולי Monotype Connect, Connect Pro ו-Connect for Agencies לאחר התקנת עדכוני Adobe Creative Cloud 2027. ההודעה מציינת שהפאנל הוצג לראשונה ב-Adobe MAX בשבוע שעבר; ההודעה הנוכחית אינה מתארכת את ההדגמה הראשונה להיום.\n\nזו הודעת ספק משולב במוצרי Adobe, לא הודעה שפרסמה Adobe עצמה. Monotype מתארת שיתוף פעולה ממושך עם Adobe; לא נמסרו שווי עסקה, תרומה להכנסות Adobe או שינוי בתחזית. פאנל נפרד של Monotype Fonts מתוכנן לגרסה עתידית ואינו מוצג כזמין כעת.",
+    "טקסט_en": "Monotype announcement dated November 16, 2026 at 11:47 US Eastern time, 18:47 in Israel.\n\nMonotype announced its Monotype Connect panel inside Adobe Illustrator, Photoshop and InDesign. The panel lets teams access their organization's approved font libraries, compare a design's fonts with a selected library and replace exceptions under the designer's control.\n\nMonotype says the panel is available to teams on Monotype Connect, Connect Pro and Connect for Agencies plans after installing Adobe Creative Cloud 2027 updates. The release says it debuted at Adobe MAX last week; the current announcement does not date the first demonstration to today.\n\nThis is an integrated vendor's announcement, not a release issued by Adobe itself. Monotype describes a longstanding collaboration with Adobe; it discloses no deal value, Adobe revenue contribution or guidance change. A separate Monotype Fonts panel is planned for a future release and is not described as available now.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a09bedba5447002fa90efe19c123cf9f44ade819079e49ace1f3d9a1dd393b53"
+      }
+    }
   }
 ]
