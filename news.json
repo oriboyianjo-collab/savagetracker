@@ -48330,5 +48330,94 @@
         "source_hash": "868bf1a7fb597e6360fa07671d0d3f810da93ee482a84f7b3287462645e6e432"
       }
     }
+  },
+  {
+    "מזהה": "n-1802",
+    "category": "micro",
+    "חברה": "LLY",
+    "symbols": [
+      "LLY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:05",
+    "הועלה": "2026-11-16 14:05",
+    "כותרת": "Lilly (LLY) תרכוש את Calytrix לפי הסכם מחייב; בעלי המניות עשויים לקבל עד 1.5 מיליארד דולר בכפוף לאבני דרך",
+    "כותרת_en": "Lilly (LLY) agrees to acquire Calytrix; shareholders could receive up to $1.5 billion subject to milestones",
+    "קישור": "https://www.prnewswire.com/news-releases/calytrix-bio-enters-an-agreement-to-be-acquired-by-lilly-to-advance-outcomes-for-patients-living-with-essential-thrombocythemia-and-myelofibrosis-302940325.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/calytrix-bio-enters-an-agreement-to-be-acquired-by-lilly-to-advance-outcomes-for-patients-living-with-essential-thrombocythemia-and-myelofibrosis-302940325.html",
+        "label": "הודעת Calytrix דרך PRNewswire: הסכם הרכישה בידי Lilly",
+        "label_en": "Calytrix release via PRNewswire: Lilly acquisition agreement"
+      }
+    ],
+    "טקסט": "16.11.2026, 13:45 בישראל (06:45 ET) | הודעת Calytrix Bio דרך PRNewswire נקראה במלואה.\n\nCalytrix Bio הודיעה על הסכם מחייב לרכישתה בידי Eli Lilly. לפי התנאים, בעלי מניות Calytrix עשויים לקבל עד 1.5 מיליארד דולר במזומן, הכוללים תשלום מראש ותשלומים נוספים רק אם יושגו אבני דרך קליניות ורגולטוריות מסוימות. סכום התשלום הראשוני לא פורט; אין להציג את כל 1.5 מיליארד הדולר כמזומן מובטח בסגירה או כתשלום שכבר בוצע.\n\nהמועמד המוביל של Calytrix הוא נוגדן דו-אתרי ניסיוני המכוון למוטציות בחלבון calreticulin, עבור essential thrombocythemia ומיאלופיברוזיס. התוכנית נמצאת בשלב קדם-קליני. מטרותיה להשפיע על מנגנון המחלה אינן הוכחת יעילות או בטיחות בבני אדם, ואין כאן אישור לתרופה.\n\nהעסקה מרחיבה את פעילות Lilly בתחום מחלות הדם והגידולים המיאלופרוליפרטיביים. מדובר בהסכם לרכישה, לא בהודעה שהרכישה הושלמה. בהודעה שנקראה לא נמסר מועד סגירה מאומת או מועד לתחילת ניסוי בבני אדם.",
+    "טקסט_en": "November 16, 2026, 13:45 Israel time (06:45 ET) | The complete Calytrix Bio release via PRNewswire was read.\n\nCalytrix Bio announced a definitive agreement to be acquired by Eli Lilly. Its shareholders could receive up to $1.5 billion in cash, including an upfront payment and later payments only upon specified clinical and regulatory milestones. The upfront amount was not disclosed; the full $1.5 billion is not guaranteed cash at closing or money already paid.\n\nCalytrix's lead asset is an investigational biparatopic antibody targeting mutant calreticulin for essential thrombocythemia and myelofibrosis. The program is preclinical. Its disease-modifying objectives are not evidence of efficacy or safety in humans, and this is not a drug approval.\n\nThe deal expands Lilly's work in blood diseases and myeloproliferative neoplasms. This is an acquisition agreement, not a completed acquisition. The release read did not provide a verified closing date or a date for starting a human trial.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "74ee0070eac901e2c83759d7c295e4603b55bd7665e6358dc0075c8f3e956b8f"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1803",
+    "category": "micro",
+    "חברה": "BR",
+    "symbols": [
+      "BR",
+      "COIN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:05",
+    "הועלה": "2026-11-16 14:05",
+    "כותרת": "Broadridge (BR) ו-Coinbase (COIN) פרסמו הצעת תקן לדיווח לבעלי מניות בארנקים; Broadridge השיקה אורקל נתונים",
+    "כותרת_en": "Broadridge (BR) and Coinbase (COIN) publish proposed wallet shareholder-communications standard; Broadridge launches data oracle",
+    "קישור": "https://www.prnewswire.com/news-releases/coinbase-and-broadridge-publish-proposed-standard-for-onchain-shareholder-communications-broadridge-launches-data-oracle-302939893.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/coinbase-and-broadridge-publish-proposed-standard-for-onchain-shareholder-communications-broadridge-launches-data-oracle-302939893.html",
+        "label": "הודעת Broadridge דרך PRNewswire: הצעת התקן והשקת האורקל",
+        "label_en": "Broadridge release via PRNewswire: proposed standard and oracle launch"
+      }
+    ],
+    "טקסט": "16.11.2026, 14:00 בישראל (07:00 ET) | הודעת Broadridge דרך PRNewswire נקראה במלואה.\n\nBroadridge ו-Coinbase פרסמו יחד תקן טכני פתוח מוצע, שנועד להעביר דיווחים לבעלי מניות ישירות לארנקים המחזיקים מניות מטוקננות. ההצעה הוגשה גם כ-Ethereum Improvement Proposal לבדיקה; אין בכך אישור שהתקן אומץ ברשת Ethereum, בידי רגולטור או בכל ספקיות הארנקים.\n\nבמקביל Broadridge השיקה אורקל נתונים תומך, שנועד לאפשר לגופים משתתפים להציג ראיה מצרפית להפצת הדיווחים. זו השקת תשתית להפצה ולהוכחתה, לא הוכחה שכל בעל מניות קיבל וקרא כל מסמך.\n\nהחברות אומרות שהיישום תלוי במבנה המניה, בגורמי התיווך ובדין הרלוונטי. ההרחבה לפעולות תאגידיות נוספות היא שלב מתוכנן לבדיקה. לא נמסרו שווי חוזה, הכנסה צפויה או היקף אימוץ בפועל.\n\nהחדש הוא פרסום ההצעה והשקת האורקל, על בסיס יכולות ההצבעה הקיימות של Broadridge. זה נפרד משילוב dShares של Dinari ומהשותפויות לפלטפורמת NYSE שכבר סוקרו; אין כאן הענקת זכויות זהות לכל טוקן העוקב אחר מניה.",
+    "טקסט_en": "November 16, 2026, 14:00 Israel time (07:00 ET) | The complete Broadridge release via PRNewswire was read.\n\nBroadridge and Coinbase jointly published a proposed open technical standard for delivering shareholder communications directly to wallets holding tokenized shares. It was also submitted for review as an Ethereum Improvement Proposal; this does not mean Ethereum, a regulator or every wallet provider has adopted it.\n\nBroadridge also launched a supporting data oracle intended to let participating firms demonstrate aggregate distribution of communications. This is infrastructure for delivery and evidence of distribution, not proof that every shareholder received and read every document.\n\nThe companies say implementation depends on the share structure, intermediaries and applicable law. Expansion into other corporate actions is a planned next phase to explore. No contract value, expected revenue or actual adoption volume was disclosed.\n\nThe developments are publication of the proposal and launch of the oracle, building on Broadridge's existing voting capabilities. This is separate from the previously covered Dinari dShares integration and NYSE platform partnerships; it does not give identical rights to every token tracking a stock.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ccaacb66b3aa84f24c437d56bb21d5da845a5874d11ec3d574652e6b436380be"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1804",
+    "category": "macro",
+    "חברה": "",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:05",
+    "הועלה": "2026-11-16 14:05",
+    "כותרת": "UKMTO: מכלית דיווחה על פגיעת קליע לא מזוהה ושריפה בחדר המכונות ביציאה מהורמוז; הצוות אותר ללא נפגעים מדווחים",
+    "כותרת_en": "UKMTO: tanker reports unknown projectile strike and engine-room fire while leaving Hormuz; all crew accounted for, no casualties reported",
+    "קישור": "https://www.ukmto.org/-/media/ukmto/products/20261116-ukmto_warning_207-26.pdf?rev=b7a05cc809114a4c9bb82eb10734d893",
+    "מקורות": [
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261116-ukmto_warning_207-26.pdf?rev=b7a05cc809114a4c9bb82eb10734d893",
+        "label": "UKMTO: אזהרה רשמית 207-26, אירוע 16 בנובמבר",
+        "label_en": "UKMTO: official warning 207-26, November 16 incident"
+      }
+    ],
+    "טקסט": "16.11.2026 | אזהרת UKMTO הרשמית 207-26 נקראה במלואה. מועד האירוע הרשום: 05:58 UTC, שהם 07:58 בישראל. זו שעת האירוע, לא חותמת פרסום האזהרה.\n\nUKMTO מסר שקיבל דיווח מקצין הביטחון של חברת ספנות על מכלית שנפגעה מקליע לא מזוהה בזמן שהפליגה החוצה במצר הורמוז. לפי הדיווח, פרצה שריפה בחדר המכונות. כל אנשי הצוות אותרו ולא דווח על נפגעים.\n\nהערכת הנזק וההשפעה הסביבתית עדיין לא היו ידועות במסמך. לא נמסרו שם המכלית, סוג מטענה, התוקף או מנגנון הפגיעה מעבר לתיאור קליע לא מזוהה. אין להסיק שמדובר במוקש, שאיראן אחראית או שהשריפה כבר כובתה. הרשויות חוקרות ו-UKMTO קורא לכלי שיט לעבור בזהירות.\n\nזו אזהרה מתוארכת על אירוע מ-16 בנובמבר, בנפרד מהאזהרות על פגיעות קודמות ליד לימה ומהדיווח על אירוע 11 בנובמבר ליד ראס אל-חיימה. אין התאמה שמאפשרת לחבר את המכלית הזאת לספירה האיראנית הנטענת של כלי שיט שנפגעו. אין במסמך אישור לחסימה חדשה של המצר, לכמות אספקת נפט שאבדה או לתגובה סיבתית במחיר הנפט.",
+    "טקסט_en": "November 16, 2026 | Official UKMTO warning 207-26 was read in full. Its recorded incident time is 05:58 UTC, or 07:58 Israel time. This is the incident time, not the warning's publication timestamp.\n\nUKMTO said it received a report from a Company Security Officer that a tanker was struck by an unknown projectile while transiting outbound through the Strait of Hormuz. The report says a fire broke out in the engine room. All crew have been accounted for and no casualties were reported.\n\nDamage assessment and environmental impact were still unknown in the document. It did not identify the tanker, cargo, attacker or mechanism beyond an unknown projectile. This does not establish a mine strike, Iranian responsibility or that the fire has been extinguished. Authorities are investigating and UKMTO advises vessels to transit with caution.\n\nThis is a dated warning about a November 16 incident, separate from earlier warnings near Lima and the report of a November 11 incident near Ras Al Khaimah. There is no match establishing that this tanker belongs in Iran's claimed count of damaged vessels. The document does not confirm a new strait closure, a quantified loss of oil supply or a causal effect on oil prices.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "057c23bc5b33d3ef26ea5417bd2e7bae97c2c3e68f513a7bcf08bc4f237ee5a8"
+      }
+    }
   }
 ]
