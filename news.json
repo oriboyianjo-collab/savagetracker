@@ -48302,5 +48302,33 @@
         "source_hash": "499416376b12b1e896b413067f725b57fefb2e3f6922230f3fd26b443693bbcf"
       }
     }
+  },
+  {
+    "מזהה": "n-1801",
+    "category": "macro",
+    "חברה": "",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:02",
+    "הועלה": "2026-11-16 14:02",
+    "כותרת": "לפי NRK, שר הבריאות הנורווגי מזהיר מסיכון מוגבר לתאונה גרעינית עקב התקיפות על רשת החשמל באוקראינה",
+    "כותרת_en": "NRK reports Norwegian health minister warns of heightened nuclear accident risk from attacks on Ukraine's power grid",
+    "קישור": "https://www.nrk.no/artikkel/vestre-storste-risiko-for-atomulykke-pa-40-ar-1533104",
+    "מקורות": [
+      {
+        "url": "https://www.nrk.no/artikkel/vestre-storste-risiko-for-atomulykke-pa-40-ar-1533104",
+        "label": "NRK: ראיון עם השר הנורווגי על הסיכון והיערכות הרשויות",
+        "label_en": "NRK: Norwegian minister interview on risk and official preparedness"
+      }
+    ],
+    "טקסט": "16.11.2026, 13:48 בישראל (12:48 באוסלו); עודכן ב-13:50 בישראל | כתבת NRK המלאה נקראה. **לא מאומת מול מקור ראשוני: ההצהרה הרב-מדינתית המקורית לא נקראה. הדברים כאן מיוחסים לראיון NRK עם שר הבריאות הנורווגי Jan Christian Vestre, ולא לדיווח על תאונה שהתרחשה.**\n\nVestre אמר ל-NRK שנורווגיה ומדינות נוספות מעריכות כי הסיכון לתאונה גרעינית חמורה באירופה הוא הגבוה זה 40 שנה, בשל התקיפות הרוסיות המתמשכות על תשתיות האנרגיה באוקראינה והסיכון הנגרם לתחנות הכוח הגרעיניות. זו הערכת סיכון של השר כפי שדווחה, לא הסתברות מספרית או תחזית ודאית.\n\nלדבריו, תחנות גרעיניות זקוקות לחשמל כדי לקרר את הכורים, וקריסה מלאה של מערכת האנרגיה האוקראינית תגדיל משמעותית את הסיכון לתאונה. זהו תרחיש מותנה, לא אישור שכבר אירעה קריסה ארצית, התכת כור או דליפה רדיואקטיבית. השר הדגיש שלא התרחשה תאונה.\n\nהשר קרא לרשויות באירופה לבדוק תוכניות חירום ולחזק מוכנות. הוא אמר שלעת עתה אין לציבור בנורווגיה סיבה לשנות את אמצעי ההיערכות הקיימים; ההשלכות של תאונה אפשרית תלויות במיקום, בחומרה ובכיוון הרוח. אין כאן הוראת חירום חדשה לציבור בישראל או טענה לפגיעה מאומתת בייצור החשמל האירופי.",
+    "טקסט_en": "November 16, 2026, 13:48 Israel time (12:48 Oslo); updated at 13:50 Israel time | The complete NRK article was read. **Not verified against a primary source: the original multinational statement was not read. The account here is attributed to NRK's interview with Norwegian Health Minister Jan Christian Vestre, not a report of an accident that has occurred.**\n\nVestre told NRK that Norway and other countries assess the risk of a serious nuclear accident in Europe as the highest in 40 years, citing Russia's continuing attacks on Ukrainian energy infrastructure and the resulting risks to nuclear plants. This is the minister's reported risk assessment, not a numerical probability or certain forecast.\n\nHe said nuclear plants need electricity to cool reactors and that a total collapse of Ukraine's energy system would significantly increase accident risk. This is a conditional scenario, not confirmation of an existing nationwide collapse, reactor meltdown or radioactive release. The minister stressed that no accident had occurred.\n\nHe urged European authorities to review emergency plans and strengthen preparedness. He said there was currently no reason for people in Norway to change existing preparedness measures; the effects of a potential accident would depend on its location, severity and wind direction. This is not a new public emergency instruction for Israel or a claim of confirmed disruption to European power production.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "868bf1a7fb597e6360fa07671d0d3f810da93ee482a84f7b3287462645e6e432"
+      }
+    }
   }
 ]
