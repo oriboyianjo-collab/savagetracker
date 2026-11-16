@@ -51436,5 +51436,67 @@
         "source_hash": "f7b4d7abba6a584e08ea529d10fdcc3c9745c4462810d084c3320f5eaf7ecf19"
       }
     }
+  },
+  {
+    "מזהה": "n-1903",
+    "category": "micro",
+    "חברה": "PepsiCo (PEP)",
+    "חברה_en": "PepsiCo (PEP)",
+    "symbols": [
+      "PEP"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:47",
+    "הועלה": "2026-11-16 16:47",
+    "כותרת": "PepsiCo: בסוף 2025, 94% מרכש חומרי הגלם בסיכון גבוה בפעילות שבבעלותה ובהפעלתה היו ללא כריתת יערות",
+    "כותרת_en": "PepsiCo reports 94% deforestation-free high-risk commodity sourcing in owned and operated activities at end-2025",
+    "קישור": "https://www.prnewswire.com/news-releases/pepsico-announces-progress-toward-deforestation-free-sourcing-goal-302939150.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/pepsico-announces-progress-toward-deforestation-free-sourcing-goal-302939150.html",
+        "label": "PepsiCo (PEP): הודעת החברה המלאה",
+        "label_en": "PepsiCo (PEP): full company announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:35 בחוף המזרחי של ארה״ב, 16:35 בישראל.\n\nPepsiCo דיווחה כי בסוף 2025, 94% מהרכש של חומרי גלם בסיכון גבוה בפעילות שבבעלותה ובהפעלתה היו ללא כריתת יערות. זהו דיווח החברה על התקדמות ביעד הרכש שלה, לא אישור עצמאי חדש של כלל שרשרת האספקה.\n\nבקטגוריות שבתחולת היעד, החברה מדווחת על שיעורי רכש ללא כריתת יערות של 77% בשמן דקלים, 99.5% באריזות סיבים, 95% בקנה סוכר, 99.7% בשמן סויה ו-59% בקקאו. שיעור ההסמכה או העקיבות אינו אותו מדד: למשל, 100% מנפח שמן הדקלים מכוסים בהסמכת RSPO, אך נתון הרכש ללא כריתת יערות בקטגוריה הוא 77%.\n\n**94% אינם נתון על כל תשומה וכל גורם בשרשרת האספקה ללא הגבלה.** המדד מתייחס לחומרי הגלם ולפעילות שהוגדרו בהודעה ולסוף 2025; הוא אינו אומר שהחברה כבר השלימה את שאיפתה לרכש ללא כריתת יערות וללא המרת מערכות אקולוגיות טבעיות עד 2030.\n\nהחברה מציינת כי שיטות מדידה מוסכמות לרכש ללא המרת מערכות אקולוגיות עדיין מתפתחות, וכי פערי גישה עשויים לגרום לתנודות בדיווח משנה לשנה. ההודעה עוסקת במעקב, בשרשרת אספקה וביעדים סביבתיים, לא בשינוי תחזית הכנסות או רווח.",
+    "טקסט_en": "November 16, 2026 at 09:35 US Eastern time, 16:35 in Israel.\n\nPepsiCo said 94% of its high-risk commodity sourcing in company-owned and operated activities was deforestation-free at the end of 2025. This is company-reported progress against its sourcing goal, not a new independent certification of its entire supply chain.\n\nFor commodities within the goal's scope, it reports deforestation-free sourcing of 77% for palm oil, 99.5% for fiber packaging, 95% for sugarcane, 99.7% for soybean oil and 59% for cocoa. Certification and traceability percentages are separate measures: for example, RSPO certification covers 100% of palm-oil volumes, while the category's deforestation-free sourcing figure is 77%.\n\n**The 94% figure does not cover every input and every supply-chain participant without limitation.** It concerns the commodities and activities defined in the release, as of end-2025. It does not mean PepsiCo has already achieved its ambition for deforestation- and natural-ecosystem-conversion-free sourcing by 2030.\n\nThe company says shared methodologies for conversion-free sourcing are still developing and different approaches can create year-to-year reporting fluctuations. This is a sourcing, monitoring and environmental-goals update, not a change to revenue or earnings guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c2f0b05be0c9d36c3059121ca15afe4a702aff8aecf9e89e2be4061fe5fabf8d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1904",
+    "category": "micro",
+    "חברה": "Kratos (KTOS)",
+    "חברה_en": "Kratos (KTOS)",
+    "symbols": [
+      "KTOS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:47",
+    "הועלה": "2026-11-16 16:47",
+    "כותרת": "פורסם באיחור | Kratos הודיעה ב-9 בנובמבר על חוזה תשתית קרקעית ללוויין THAICOM 10; שווי לא נמסר",
+    "כותרת_en": "Published late | Kratos announced THAICOM 10 gateway infrastructure contract on November 9; value undisclosed",
+    "קישור": "https://www.kratosdefense.com/newsroom/kratos-awarded-contract-to-deliver-fully-integrated-q-v-ka-band-gateway-and-antenna-systems-for-gulf-space-technologys-software-defined-satellite",
+    "מקורות": [
+      {
+        "url": "https://www.kratosdefense.com/newsroom/kratos-awarded-contract-to-deliver-fully-integrated-q-v-ka-band-gateway-and-antenna-systems-for-gulf-space-technologys-software-defined-satellite",
+        "label": "Kratos (KTOS): הודעת החברה המלאה",
+        "label_en": "Kratos (KTOS): full company announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת החברה המקורית היא מ-9.11.2026, לא מ-16 בנובמבר. לא נמסרה בעמוד שעת פרסום מקורית מדויקת. הסיכום השבועי מ-16 בנובמבר הפנה לחוזה מהשבוע הקודם; אין להציגו כחוזה חדש שנחתם היום.\n\nKratos הודיעה כי Gulf Space Technology, לשעבר Thaicom, העניקה לה חוזה לאספקת מערכות אנטנות ותשתית שער קרקעי משולב בתדרי Q/V/Ka עבור THAICOM 10, לוויין תקשורת בעל מטע״ד המוגדר בתוכנה.\n\nההתקשרות כוללת אנטנות, ציוד תדר רדיו, תמסורת סיבים אופטיים, תתי-מערכות תזמון וייחוס ותשתית אתר מלאה במיקומים ראשיים ובאתרי גיבוי מתוכננים. מערכת הניטור והבקרה אמורה לקשר את מרכיבי השער למרכז הפעלת הלוויין, שנמצא בפיתוח במסגרת עבודה קודמת של Kratos.\n\n**לא פורסמו שווי החוזה או לוח זמנים מחייב למסירה.** זוהי הודעת זכייה, לא אישור שהתשתית כבר נמסרה או שהלוויין כבר שוגר. החברה מתארת גידול רוחב פס של בערך פי שניים עד שלושה ביחס למערכות Ka-band HTS; זו טענת ביצועים שלה, לא תוצאת בדיקה עצמאית המוצגת כאן.",
+    "טקסט_en": "Published late | The original company announcement is dated November 9, 2026, not November 16. The page did not state a precise original publication time. A November 16 weekly recap pointed to the prior week's award; it should not be presented as a new contract signed today.\n\nKratos said Gulf Space Technology, formerly Thaicom, awarded it a contract for integrated Q/V/Ka-band gateway antenna systems and ground infrastructure for THAICOM 10, a software-defined communications satellite.\n\nThe award covers antennas, radio-frequency equipment, fiber-optic transport, timing and reference subsystems, and complete gateway-site infrastructure at primary and planned diversity locations. Monitoring and control is intended to connect gateway elements with the satellite operations center, which Kratos is developing under earlier work.\n\n**No contract value or binding delivery schedule was disclosed.** This is an award announcement, not confirmation that the infrastructure has been delivered or the satellite launched. The company describes roughly two to three times the bandwidth of Ka-band HTS systems; that is its performance claim, not an independent test result presented here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5e15d6d5608eae9e4b2f2bf48225965828bebe1237ecf0ab16d74ae4945d45e5"
+      }
+    }
   }
 ]
