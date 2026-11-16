@@ -49620,5 +49620,160 @@
         "source_hash": "5d2231762189abd6e0668fd970b7f6744a335e4f388a28a92bcf3cdc63f4bdda"
       }
     }
+  },
+  {
+    "מזהה": "n-1844",
+    "category": "micro",
+    "חברה": "MRVL",
+    "symbols": [
+      "MRVL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:20",
+    "הועלה": "2026-11-16 15:20",
+    "כותרת": "לפי The Register, Marvell ו-Penguin מפתחות מערכת זיכרון משותף אופטית; מערכות ראשונות צפויות במחצית השנייה של 2027",
+    "כותרת_en": "The Register: Marvell and Penguin develop photonic shared-memory systems, first appliances expected in H2 2027",
+    "קישור": "https://www.theregister.com/systems/2026/11/16/marvell-and-penguin-solutions-aim-to-end-the-rampocalypse-with-photonic-memory-fabric/5309921",
+    "מקורות": [
+      {
+        "url": "https://www.theregister.com/systems/2026/11/16/marvell-and-penguin-solutions-aim-to-end-the-rampocalypse-with-photonic-memory-fabric/5309921",
+        "label": "The Register: שיתוף הפעולה בזיכרון Photonic Fabric",
+        "label_en": "The Register: Photonic Fabric memory collaboration"
+      }
+    ],
+    "טקסט": "16.11.2026, 13:00 UTC, שהם 15:00 בישראל. לפי The Register, Marvell Technology ו-Penguin Solutions משתפות פעולה בפיתוח מערכות הרחבת זיכרון המבוססות על Photonic Fabric, במטרה לאפשר לשרתים לגשת למאגר זיכרון משותף דרך חיבורים אופטיים.\n\nהכתבה מצטטת את Preet Virk, מנהל בכיר בתחום הפוטוני ב-Marvell: החברה מספקת מודולי זיכרון ל-Penguin, שבונה את המארז ומספקת את ניהול החשמל, התוכנה ושכבת הניהול. לפי הדיווח, מערכת ראשונה מיועדת לתמוך בעד 16 שרתים מחוברים. זהו תיאור תכנון המערכת, לא מספר התקנות מאומת אצל לקוחות.\n\nMarvell מציגה את המערכת כחלופה להעברת מטמוני KV של הסקת AI לאחסון, וכדרך לנצל זיכרון משותף במקום להקצות לכל שרת את מלוא הקיבולת בנפרד. טענות לשיפור ביצועים, לניצול זיכרון ולחיסכון הן ציפיות החברה כפי שדווחו, לא תוצאות מבחן עצמאי או חיסכון כספי מובטח.\n\nלפי הכתבה, Marvell מצפה שהדור הראשון של מערכות Penguin יגיע במחצית השנייה של השנה הבאה, כלומר 2027. אין כאן אישור למשלוחים מסחריים שכבר החלו, הזמנת לקוח מסוימת, מחיר או הכנסות מוכרות. נתוני קיבולת הזיכרון אינם מובאים כאן משום שהכותרות, הגוף וכיתובי התמונות בכתבה אינם עקביים לגביהם.",
+    "טקסט_en": "November 16, 2026 at 13:00 UTC, equivalent to 15:00 in Israel. The Register reports that Marvell Technology and Penguin Solutions are collaborating on Photonic Fabric memory-expansion appliances intended to let servers access shared memory over optical connections.\n\nThe article quotes Marvell photonic-fabric executive Preet Virk saying Marvell supplies memory modules to Penguin, which builds the box and provides power management, software and the management layer. The reported first appliance is intended to support up to 16 connected servers. That describes a system design, not verified customer installations.\n\nMarvell positions the appliance as an alternative to storage-based AI-inference KV-cache offload and a way to use pooled memory instead of provisioning all capacity separately in each server. Reported claims about performance, memory use and savings are company expectations, not independent benchmark results or guaranteed financial savings.\n\nThe article says Marvell expects Penguin's first-generation systems in the second half of next year, meaning 2027. It does not confirm commercial shipments already underway, a particular customer order, pricing or recognized revenue. Memory-capacity figures are not reproduced here because the article's headline, body and image captions are inconsistent.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4969f7b66fff80a0680989d79810da361123133664bedd69be78978824a56642"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1845",
+    "category": "micro",
+    "חברה": "ECL",
+    "symbols": [
+      "ECL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:20",
+    "הועלה": "2026-11-16 15:20",
+    "כותרת": "Ecolab הציגה ב-SC26 פלטפורמת קירור AI המשלבת CoolIT CHx 3000 עם 3D TRASAR",
+    "כותרת_en": "Ecolab unveils AI cooling platform combining CoolIT CHx 3000 and 3D TRASAR at SC26",
+    "קישור": "https://www.businesswire.com/news/home/20261116944861/en/Ecolab-Unveils-First-of-Its-Kind-Integrated-Cooling-Platform-to-Unlock-the-Next-Generation-of-AI-Heralds-New-Tech-driven-Growth-Phase",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261116944861/en/Ecolab-Unveils-First-of-Its-Kind-Integrated-Cooling-Platform-to-Unlock-the-Next-Generation-of-AI-Heralds-New-Tech-driven-Growth-Phase",
+        "label": "Ecolab דרך Business Wire: הודעת פלטפורמת הקירור",
+        "label_en": "Ecolab via Business Wire: cooling platform announcement"
+      }
+    ],
+    "טקסט": "בהודעתה מ-16.11.2026, Ecolab הציגה ב-SC26 בשיקגו פלטפורמה המשלבת חומרת קירור נוזלי ישיר של CoolIT, ניהול נוזלים, ניטור דיגיטלי ושירות. טכנולוגיית 3D TRASAR משולבת ביחידת חלוקת נוזל הקירור CoolIT CHx 3000, המתוארת כבעלת קיבולת קירור של 3 מגה-ואט. זהו נתון קירור ליחידה, לא כושר ייצור חשמל או מכירות.\n\nהחברה מתארת את השילוב כמערכת ניהול תרמי חכמה המספקת נראות בזמן אמת לביצועי הקירור. טענות לפריסה מהירה יותר, לאמינות ולשימוש יעיל יותר במים ובאנרגיה הן טענות החברה, לא נתוני חיסכון מאומתים ללקוח מסוים.\n\nלפי החברה, פעילות Global High-Tech של Ecolab צומחת ביותר מ-25% בשנה ומתקרבת לקצב מכירות שנתי של 1.5 מיליארד דולר ב-2026, כולל Ovivo Electronics ו-CoolIT. יעד החברה הוא 4 מיליארד דולר במכירות שנתיות בתחום ב-2030 ושיעור רווח תפעולי של 25%. הקצב השנתי אינו הכנסות רבעון שכבר הוכרו, ויעדי 2030 אינם תוצאות שהושגו.\n\nלא נמסרו מחיר המערכת, מספר התקנות, הזמנות מחייבות או לוח אספקה מלא. אין להסיק מההכרזה בלבד שכבר בוצעה פריסה רחבת היקף.",
+    "טקסט_en": "In its November 16, 2026 release, Ecolab introduced an SC26 platform in Chicago combining CoolIT direct-liquid-cooling hardware, fluid management, digital monitoring and service. Ecolab's 3D TRASAR technology is integrated into the CoolIT CHx 3000 coolant distribution unit, described as having 3 megawatts of cooling capacity. That is a per-unit cooling rating, not electricity generation or sales.\n\nThe company describes smart thermal management with real-time visibility into cooling-system performance. Claims of faster deployment, reliability and improved water and energy efficiency are company claims, not verified savings for a particular customer.\n\nEcolab says Global High-Tech business is growing more than 25% annually and approaching $1.5 billion in 2026 annualized sales including Ovivo Electronics and CoolIT. The company's target is $4 billion in annual High-Tech sales by 2030 with a 25% operating-income margin. Annualized sales are not already recognized quarterly revenue, and the 2030 targets are not achieved results.\n\nNo system price, installation count, binding orders or complete delivery schedule was disclosed. The announcement alone does not establish a completed large-scale rollout.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "85b1f46ddd55c0e70cff1579838050c3ed73e40257f46f9a39e94db076274647"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1846",
+    "category": "micro",
+    "חברה": "TMUS",
+    "symbols": [
+      "TMUS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:20",
+    "הועלה": "2026-11-16 15:20",
+    "כותרת": "פורסם באיחור | הסדר ניו יורק מ-9 בנובמבר מחייב את T-Mobile להסיר מגבלות בתוכניות אינטרנט מוזלות ולהרחיב גישה לזכאים",
+    "כותרת_en": "Published late | November 9 New York agreement requires T-Mobile to remove restrictions from affordable broadband plans and expand eligible access",
+    "קישור": "https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-improve-access-affordable-home",
+    "מקורות": [
+      {
+        "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-improve-access-affordable-home",
+        "label": "התובעת הכללית של ניו יורק: הודעת הסדר T-Mobile מ-9 בנובמבר",
+        "label_en": "New York Attorney General: November 9 T-Mobile agreement announcement"
+      },
+      {
+        "url": "https://ag.ny.gov/sites/default/files/settlements-agreements/t-mobile-usa-inc-aod-2026.pdf",
+        "label": "הסדר 26-069: נוסח התנאים ומועדי הציות",
+        "label_en": "Assurance 26-069: operative terms and compliance deadlines"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 9.11.2026. התובעת הכללית של ניו יורק והמושלת הודיעו על הסדר עם T-Mobile בנוגע לתוכניות אינטרנט ביתי מוזלות במסגרת Affordable Broadband Act. הסדר 26-069 קובע תאריך תחולה של 9 בנובמבר. סיקור Light Reading מ-16 בנובמבר מתאר את ההסדר הקודם, לא הסכם חדש מאותו יום; אין שעת פרסום מקורית מאומתת.\n\nלפי ממצאי משרד התובעת הכללית, תוכנית אינטרנט אלחוטי קבוע ב-15 דולר לחודש שפורסמה כמהירות 25 מגה-ביט לשנייה כללה מכסת 50 גיגה-בייט ולאחריה האטה משמעותית. המשרד מצא גם שהתוכנית הוגבלה לאזורים הזכאים לשירות 5G ושעמוד המידע הוסתר ממנועי חיפוש. T-Mobile שיתפה פעולה בחקירה, ובהסדר אינה מודה או מכחישה את הממצאים. אלה ממצאי הרשות במסגרת הסדר, לא הרשעה פלילית.\n\nבתוך 120 ימים ממועד התחולה התחייבה החברה שלא להגביל בכוונה את המהירות מתחת למינימום החוקי בתוכניות ABA, ולהציע תוכנית לזכאים בכל כתובת שבה היא מספקת אינטרנט ביתי אלחוטי קבוע. ההסדר כולל חריגים לעומס רשת זמני ולמגבלות רשת החלות באותה כתובת גם על תוכנית רגילה; הוא אינו מחייב הקמת רשת חדשה בכל מקום בניו יורק.\n\nבתוך 60 ימים נדרש עמוד ציבורי הניתן לאיתור במנועי חיפוש וקישור בולט מעמוד עסקאות האינטרנט הביתי. בתוך 300 ימים נדרש דוח ציות הכולל מספר מנויים ומהירויות ממוצעות. אלה מועדי התחייבות מההסדר, לא הוכחה שכל השינויים כבר בוצעו.\n\nההסדר שומר לרשות אפשרות לנקוט הליכים בגין הפרתו, אך אינו מציג קנס כספי שכבר הוטל. אין בו פיצוי כספי אישי מובטח לכל מנוי.",
+    "טקסט_en": "Published late | November 9, 2026. New York's Attorney General and Governor announced an agreement with T-Mobile concerning affordable home-internet plans under the Affordable Broadband Act. Assurance 26-069 is effective November 9. Light Reading's November 16 coverage describes that earlier agreement, not a new deal on that date; no original publication time is verified.\n\nThe OAG found that a $15-per-month fixed-wireless plan advertised at 25 Mbps had a 50GB cap followed by substantial throttling. It also found the plan was restricted to 5G-eligible areas and its information page hidden from search engines. T-Mobile cooperated and neither admits nor denies the findings under the assurance. These are agency findings within an agreement, not a criminal conviction.\n\nWithin 120 days of the effective date, T-Mobile agreed not to intentionally limit ABA-plan speeds below the statutory minimum and to offer an eligible plan at every address where it provides residential fixed-wireless service. Exceptions cover temporary congestion and network limitations affecting regular service at the same address. The agreement does not require building a new network everywhere in New York.\n\nWithin 60 days, the company must maintain a search-discoverable public page and a prominent link from its home-internet deals page. Within 300 days, it must report compliance, subscriber counts and average download speeds. These are agreement deadlines, not proof every change is already complete.\n\nThe assurance preserves enforcement options for a breach but does not announce an already imposed monetary fine. It does not guarantee an individual cash payment to every subscriber.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a990fe964d7dd8bfbd61f55af683bae3a755e91c77066ca97d7f282065bdaab8"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1847",
+    "category": "micro",
+    "חברה": "ARW",
+    "symbols": [
+      "ARW"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:20",
+    "הועלה": "2026-11-16 15:20",
+    "כותרת": "פורסם באיחור | Arrow הודיעה ב-11 בנובמבר שנבחרה לשותפת ההפצה של השנה של Microsoft, שנה שנייה ברציפות",
+    "כותרת_en": "Published late | Arrow announced November 11 it won Microsoft Distribution Partner of the Year for a second consecutive year",
+    "קישור": "https://www.arrow.com/globalecs/ma/arrow-channel-advisor/two-years-running-helping-microsoft-partners-grow/",
+    "מקורות": [
+      {
+        "url": "https://www.arrow.com/globalecs/ma/arrow-channel-advisor/two-years-running-helping-microsoft-partners-grow/",
+        "label": "Arrow ECS: הודעת הזכייה מ-11 בנובמבר",
+        "label_en": "Arrow ECS: November 11 award announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 11.11.2026 לפי עמוד Arrow ECS. Arrow הודיעה שנבחרה ל-Microsoft Distribution Partner of the Year שנה שנייה ברציפות. סיקור MSP Channel מ-16 בנובמבר מתאר אותה זכייה; ההודעה באתר החברה קדמה לו ואינה מוצגת כאן כהכרזה חדשה מהיום. אין שעת פרסום מקורית מאומתת.\n\nלפי Arrow, הפרס מכיר בעבודתה עם שותפי הפצה ולקוחות המבוססת על ענן, AI וטכנולוגיות Microsoft. יותר מ-4,500 מועמדויות הוגשו בכלל קטגוריות הפרסים בעולם; זה אינו מספר המתחרות הספציפיות על קטגוריית ההפצה ואינו מספר לקוחות Arrow.\n\nEric Nowak, נשיא פעילות המחשוב הארגוני של Arrow, מייחס את הזכייה לשיתוף הפעולה עם Microsoft ולתמיכה בשותפי הערוץ. תיאור התועלת העסקית והטכנולוגית הוא דברי החברה במסגרת הודעת פרס, לא מדד בלתי תלוי לצמיחת הכנסות.\n\nהזכייה אינה כשלעצמה חוזה מכירות חדש, רכישה, בלעדיות הפצה או הודעה על מוצר חדש הזמין כעת. לא נמסרו בהודעה שווי כספי לפרס או תוספת הכנסות צפויה.",
+    "טקסט_en": "Published late | November 11, 2026, according to Arrow ECS's page. Arrow announced it was named Microsoft Distribution Partner of the Year for the second consecutive year. MSP Channel's November 16 article covers the same award; the company's earlier announcement is not presented as new today. No original publication time is verified.\n\nArrow says the award recognizes its work supporting channel partners and customers using Microsoft cloud, AI and technology. More than 4,500 nominations were submitted across award categories worldwide. That is not the number competing specifically for the distribution award or Arrow's customer count.\n\nArrow enterprise-computing-solutions president Eric Nowak attributes the award to its Microsoft collaboration and support for channel partners. Descriptions of commercial and technical benefits are company statements in an award announcement, not an independent revenue-growth measure.\n\nThe award itself is not a new sales contract, acquisition, exclusive distribution arrangement or confirmation of a newly available product. No monetary award value or expected incremental revenue was disclosed.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dabbea6c6dbb2320787654b6a4385d8263dc7c2fba6fe9f91e4c3da57c3dfed5"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1848",
+    "category": "micro",
+    "חברה": "ADM",
+    "symbols": [
+      "ADM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:20",
+    "הועלה": "2026-11-16 15:20",
+    "כותרת": "ADM הודיעה על חמישה פרויקטים בהשקעה של יותר מ-60 מיליון דולר במפעל זרעי השמן Decatur West",
+    "כותרת_en": "ADM announces five projects totaling more than $60 million at its Decatur West oilseed facility",
+    "קישור": "https://www.businesswire.com/news/home/20261116093740/en/ADM-Announces-More-Than-%2460-Million-in-Investments-at-Decatur-Oilseed-Facility",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261116093740/en/ADM-Announces-More-Than-%2460-Million-in-Investments-at-Decatur-Oilseed-Facility",
+        "label": "ADM דרך Business Wire: השקעות Decatur West מ-16 בנובמבר",
+        "label_en": "ADM via Business Wire: November 16 Decatur West investments"
+      }
+    ],
+    "טקסט": "16.11.2026. ADM הודיעה על חמישה פרויקטים מתוכננים בהיקף כולל של יותר מ-60 מיליון דולר במפעל Decatur West לעיבוד זרעי שמן באילינוי. אין שעת פרסום מקורית מאומתת, ולכן אין כאן טענת השקה בדקה מסוימת.\n\nלפי החברה, ההשקעה נועדה לשפר אמינות תפעולית, בטיחות ויעילות, וכוללת שדרוג יחידות עיבוד מרכזיות, שיפור מערכות בקרת תהליכים והחלפת קצף כיבוי המכיל PFAS. אלה תוכניות השקעה, לא הודעה שכל הפרויקטים הושלמו או אומדן להכנסות חדשות.\n\nADM מזכירה בנפרד תוכנית שעליה הודיעה ביוני להשקיע לפחות 103 מיליון דולר במודרניזציה של מתחם Decatur, בתמיכת תוכנית EDGE של אילינוי. אין לחבר אוטומטית את שני הסכומים להשקעה חדשה אחת, ואין בהודעה פירוט המאשר שאין חפיפה ביניהם.\n\nהחברה אומרת שמאז 2020 ממוצע השקעות ההון השנתי שלה בכלל פעילות Macon County התקרב ל-200 מיליון דולר, וכי ב-2025 הושקעו שם 285 מיליון דולר. אלה נתוני הקשר אזוריים היסטוריים, לא היקף חמשת הפרויקטים החדשים לבדם.\n\nלא נמסרו לוח השלמה לכל פרויקט, תרומה כמותית לרווח, גידול מוסכם בתפוקת מפעל Decatur West או סכום מענק מדינה חדש. תיאורי תועלת צפויה הם דברי החברה ולא תוצאות שכבר הושגו.",
+    "טקסט_en": "November 16, 2026. ADM announced five planned projects totaling more than $60 million at its Decatur West oilseed facility in Illinois. No original publication time is verified, so no minute-specific launch claim is made.\n\nThe company says the investments support reliability, safety and efficiency, including upgrades to key processing units, plant-wide process-control systems and replacement of PFAS-containing firefighting foam. These are investment plans, not confirmation that every project is complete or an estimate of new revenue.\n\nADM separately references a June announcement of at least $103 million for modernization across its Decatur complex supported by Illinois's EDGE program. The two amounts should not automatically be added into one new investment total; the release does not establish that they do not overlap.\n\nThe company says annual capital investment across its Macon County operations has averaged almost $200 million since 2020, including $285 million in 2025. Those are historical regional context figures, not the size of the five new projects alone.\n\nNo project-by-project completion schedule, quantified profit contribution, agreed increase in Decatur West output or new state-grant amount was disclosed. Expected benefits are company statements, not already achieved results.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ccff3dac946b0085b3fbf15a3069dcfc7ab24b4cd6042621466eb4e332477bc1"
+      }
+    }
   }
 ]
