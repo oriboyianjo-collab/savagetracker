@@ -49345,5 +49345,35 @@
         "source_hash": "f9e9f22988bf3b2202c8ec34737bab044b583294ea2aa8bd787c016c5d0a6d37"
       }
     }
+  },
+  {
+    "מזהה": "n-1835",
+    "category": "micro",
+    "חברה": "COST",
+    "symbols": [
+      "COST"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:02",
+    "הועלה": "2026-11-16 15:02",
+    "כותרת": "פורסם באיחור | מנהל הטכנולוגיה של Costco ל-TOI: מרכז הודו תומך בתוכניות הגלובליות; החברה עשויה לשקול מתקן נוסף",
+    "כותרת_en": "Published late | Costco technology chief tells TOI India center supports global programs; another facility may be considered",
+    "קישור": "https://timesofindia.indiatimes.com/business/india-business/india-at-centre-of-global-tech-strategy-costco/articleshow/135784917.cms",
+    "מקורות": [
+      {
+        "url": "https://timesofindia.indiatimes.com/business/india-business/india-at-centre-of-global-tech-strategy-costco/articleshow/135784917.cms",
+        "label": "Times of India: ראיון עם Javier Polit מ-13 בנובמבר",
+        "label_en": "Times of India: November 13 Javier Polit interview"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 13.11.2026, 04:35 לפי שעון הודו (Asia/Kolkata), שהם 01:05 ב-13 בנובמבר בישראל (Asia/Jerusalem) לפי חישוב אזורי הזמן. מדובר בראיון של Times of India עם Javier Polit, מנהל המידע והדיגיטל הגלובלי של Costco, לא בהודעה על פתיחת מרכז חדש ב-16 בנובמבר.\n\nלפי הראיון, Costco הציבה את הודו במרכז אסטרטגיית הטכנולוגיה הגלובלית שלה. Polit אמר שמרכז היכולות הגלובלי הראשון של החברה בהיידראבאד כבר נעשה תפעולי בסביבות פברואר–מרץ 2026, לאחר בחינת כישרונות, תנאים גיאופוליטיים ובשלות המערכת המקומית במספר יעדים. פתיחת המרכז היא רקע היסטורי, לא האירוע החדש בראיון.\n\nPolit אמר שהמרכז בהודו תומך בתוכניות בצפון אמריקה, אירופה ואסיה בתחומי בינה מלאכותית, ניתוח נתונים, אבטחת סייבר, SAP, מערכות ניהול מחסנים, דיגיטציה של שרשרת האספקה ורובוטיקה. לדבריו, הצוות אינו יחידת ביצוע זולה בלבד אלא משתתף באותן יוזמות אסטרטגיות שבהן עובד הצוות המרכזי בארה\"ב. אלה דברי הבכיר בראיון, לא מדד עצמאי לתרומה הכספית של המרכז.\n\nעוד אמר שהחברה עשויה לשקול הרחבה מעבר להיידראבאד ומתקן שני בהודו בעתיד. לא נמסרו החלטה מחייבת, עיר, תקציב, היקף גיוס או מועד פתיחה למתקן נוסף. אין להציג אפשרות זו כעסקה חתומה או כתוכנית הרחבה שאושרה לביצוע.\n\nהראיון קושר את עבודת הטכנולוגיה לשאיפה להגיע להכנסות של 500 מיליארד דולר עד 2033. זו שאיפה ארוכת טווח המיוחסת לראיון, לא תחזית חדשה לרבעון הקרוב ולא הכנסה שכבר הושגה.",
+    "טקסט_en": "Published late | November 13, 2026 at 04:35 India time (Asia/Kolkata), equivalent to 01:05 on November 13 in Israel (Asia/Jerusalem), by timezone calculation. This is a Times of India interview with Costco global chief information and digital officer Javier Polit, not a November 16 announcement of a newly opened center.\n\nAccording to the interview, Costco has put India at the center of its global technology strategy. Polit said the company's first global capability center in Hyderabad became operational around February–March 2026 after evaluating talent, geopolitical factors and ecosystem maturity across locations. That opening is historical context, not the new event in the interview.\n\nPolit said the India center supports programs across North America, Europe and Asia in artificial intelligence, data analytics, cybersecurity, SAP, warehouse management systems, supply-chain digitization and robotics. He said it is not merely a low-end delivery unit and contributes to the same strategic initiatives as the central US team. These are the executive's interview statements, not an independent measure of the center's financial contribution.\n\nHe also said the company may consider expanding beyond Hyderabad and a second Indian facility in the future. No binding decision, city, budget, hiring target or opening date for another facility was provided. That possibility is not a signed transaction or an approved implementation plan.\n\nThe interview links the technology work to an ambition to reach $500 billion in revenue by 2033. That is a long-term ambition attributed to the interview, not new next-quarter guidance or revenue already achieved.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f951a36b1051182624913d14c8feb17b03b4971eed8dfec1c3feae07f327d19f"
+      }
+    }
   }
 ]
