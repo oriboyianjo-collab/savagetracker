@@ -3325,18 +3325,22 @@
     "מדינה": "US",
     "אירוע": "ריביות נבחרות (H.15) - הפד",
     "חשיבות": 1,
-    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-    "הערה": "לוח הפד16:15ET=23:15ישראל; אין צפי או קודם יחיד.",
+    "מקור": "https://www.federalreserve.gov/releases/h15/",
+    "הערה": "פרסום H.15 הרשמי מ-16 בנובמבר אומת לאחר מועד הפרסום. התצפית האחרונה היא ל-13 בנובמבר, לא ציטוט שוק ל-16 בנובמבר. אלו סדרות נפרדות, ללא נתון בפועל יחיד או צפי יחיד, ולא החלטת ריבית חדשה. יתר הסדרות והשיעורים השנתיים במקור הרשמי; n.a. מציין נתון שאינו זמין, לא אפס. רישום הלוח הקודם: לוח הפד 16:15ET=23:15 ישראל; אין צפי או קודם יחיד.",
     "שעה": "23:15",
     "מזהה": "c-0132",
     "אירוע_en": "Selected interest rates (H.15) - Fed",
-    "הערה_en": "Fed schedule 16:15 ET = 23:15 Israel; no single estimate or prior.",
+    "הערה_en": "Official H.15 release dated November 16 verified after the scheduled release. The latest observation is November 13, not a November 16 market quote. These are separate series with no single actual or forecast, not a new policy-rate decision. Remaining series and annual rates are in the official source; n.a. means unavailable, not zero. Previous calendar entry: Fed schedule 16:15 ET = 23:15 Israel; no single estimate or prior.",
     "_translation": {
       "en": {
-        "source_hash": "fa31ba02591a76ad9093fc6346d565936bb5941254194215e799d628af0ff71e",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "d4d29a45c8662d8ba9935376c3d4a0722aa847a6334650490cbc98a42ffd62bf"
       }
-    }
+    },
+    "בפועל": "פורסם · נתוני 13.11",
+    "בפועל_en": "Published · Nov 13 data",
+    "תקופה": "פרסום 16.11.2026; תצפית אחרונה 13.11",
+    "תקופה_en": "Nov 16, 2026 release; latest observation Nov 13"
   },
   {
     "תאריך": "2026-11-16",
