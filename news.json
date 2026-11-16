@@ -52835,5 +52835,129 @@
         "source_hash": "569f5715c94569ba1d426b119f30bd47522ba05b51f1d8d43149f3c8be3faf85"
       }
     }
+  },
+  {
+    "מזהה": "n-1947",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:48",
+    "הועלה": "2026-11-16 19:48",
+    "כותרת": "NVIDIA (NVDA): הציגה את Rubin HPC לסימולציות מדעיות; זמינות צפויה ב-2028",
+    "כותרת_en": "NVIDIA (NVDA): Rubin HPC announced for scientific simulation; expected in 2028",
+    "קישור": "https://blogs.nvidia.com/blog/rubin-hpc/",
+    "מקורות": [
+      {
+        "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+        "label": "NVIDIA Blog: Rubin HPC announced for scientific simulation; expected in 2028",
+        "label_en": "NVIDIA Blog: Rubin HPC announced for scientific simulation; expected in 2028"
+      }
+    ],
+    "טקסט": "פוסט של NVIDIA מ-16.11.2026. **שעת הפרסום המקורית אינה ידועה.**\n\nNVIDIA הכריזה על Rubin HPC, מעבד גרפי בפלטפורמת Vera Rubin המיועד לסימולציות ולעיבוד נתונים במדע, בהנדסה ובאנליטיקה. לפי החברה, המעבד יכלול יותר מ-50 אלף ליבות CUDA, האצת נתונים דלילים וקישוריות NVLink מהדור השביעי.\n\nהחברה מתארת תכנון שמאזן בין חישוב להעברת נתונים, כדי להאיץ דפוסים כגון מטריצות דלילות ופעולות מיון וצמצום. השימוש המיועד הוא גם בסימולציות שסוכני AI מפעילים לבדיקת חומרים, מולקולות ותכנונים.\n\nהזמינות צפויה ב-2028, לא כיום. ההודעה אינה מפרסמת מחיר, הזמנות או מדדי ביצועים עצמאיים. מספר הליבות ותיאור התועלות הם מפרטי ותוכניות החברה; אין להסיק מהם קצב האצה אחיד לכל יישום.",
+    "טקסט_en": "NVIDIA blog dated November 16, 2026. **The original publication time is unknown.**\n\nNVIDIA announced Rubin HPC, a GPU in its Vera Rubin platform intended for simulation and data processing in science, engineering and analytics. The company says it will feature more than 50,000 CUDA cores, sparse-data acceleration and seventh-generation NVLink connectivity.\n\nNVIDIA describes a design balancing computation and data movement to accelerate patterns including sparse matrices, sorting and reductions. Intended uses include simulations invoked by AI agents to evaluate materials, molecules and designs.\n\nAvailability is expected in 2028, not today. The post discloses no price, orders or independent performance measurements. Core counts and benefits are company specifications and plans, not a uniform speedup promise for every application.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "10af52dfbf94121971fe8d95d42a2319d9e1c3af1d6127d56caadc9fb672d2af"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1948",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:48",
+    "הועלה": "2026-11-16 19:48",
+    "כותרת": "NVIDIA (NVDA): מרחיבה את Slurm לשילוב מעבדים קוונטיים; גרסה 26.11 צפויה בהמשך נובמבר",
+    "כותרת_en": "NVIDIA (NVDA): Slurm expands quantum-processor integration; version 26.11 due later in November",
+    "קישור": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+    "מקורות": [
+      {
+        "url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+        "label": "NVIDIA Blog: Slurm expands quantum-processor integration; version 26.11 due later in November",
+        "label_en": "NVIDIA Blog: Slurm expands quantum-processor integration; version 26.11 due later in November"
+      }
+    ],
+    "טקסט": "פוסט של NVIDIA מ-16.11.2026. **שעת הפרסום המקורית אינה ידועה.**\n\nNVIDIA הציגה הרחבה של מנהל עומסי העבודה הקהילתי Slurm, שמאפשרת ליצרני מעבדים קוונטיים להשתמש בממשק חומרה יחיד עבור מרכזי מחשוב-על שונים. ההרחבה תומכת בממשקי QRMI ו-QDMI, ומיועדת לצמצם פיתוח התאמות ייעודיות לכל שילוב של מרכז ומעבד.\n\nלפי החברה, Alice & Bob, IBM, IQM, Pasqal, Quantinuum ו-MQSC כבר מאמצות את ההרחבה. Slurm 26.11 צפויה להיות זמינה בהמשך החודש; אימוץ מדווח אינו אומר שכל הפריסות כבר הושלמו.\n\nזהו עדכון תזמור ותוכנה לשילוב מחשוב קוונטי וקלאסי, לא הוכחה למחשב קוונטי מסחרי בעל סבילות תקלות. רכיבי CUDA-Q ותיקון שגיאות נוספים מוזכרים בפוסט; שיתוף הפעולה עם IBM ו-Fermilab כבר סוקר בנפרד ואינו מוצג כאן כהכרזה חדשה נוספת.",
+    "טקסט_en": "NVIDIA blog dated November 16, 2026. **The original publication time is unknown.**\n\nNVIDIA described an expansion of the community-built Slurm workload manager allowing QPU builders to reuse a single hardware interface across supercomputing centers. It supports QRMI and QDMI interfaces and is intended to reduce custom integration work for each center and processor combination.\n\nThe company says Alice & Bob, IBM, IQM, Pasqal, Quantinuum and MQSC are adopting the expansion. Slurm 26.11 is expected later this month; reported adoption does not establish that every deployment is complete.\n\nThis is an orchestration and software update for hybrid quantum-classical computing, not proof of a commercially fault-tolerant quantum computer. The blog also mentions CUDA-Q and error-correction developments; the separately covered IBM/Fermilab collaboration is not presented here as another new announcement.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f15ffebad1e1f4384fef4861874468771d1d6855f6548d9193b296e3ec5f4a67"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1949",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:48",
+    "הועלה": "2026-11-16 19:48",
+    "כותרת": "NVIDIA (NVDA): מדווחת על תוצאות Vera Rubin ב-MLPerf; נתון Endpoints של פי 10 עדיין זמני",
+    "כותרת_en": "NVIDIA (NVDA): reports Vera Rubin MLPerf results; 10x Endpoints claim remains provisional",
+    "קישור": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+    "מקורות": [
+      {
+        "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+        "label": "NVIDIA Blog: reports Vera Rubin MLPerf results; 10x Endpoints claim remains provisional",
+        "label_en": "NVIDIA Blog: reports Vera Rubin MLPerf results; 10x Endpoints claim remains provisional"
+      }
+    ],
+    "טקסט": "פוסט של NVIDIA מ-16.11.2026. **שעת הפרסום המקורית אינה ידועה.**\n\nNVIDIA דיווחה על תוצאות Vera Rubin במבחני MLPerf Training v6.1. לפי החברה, היא הגישה תוצאות בכל מבחני הסבב; Vera Rubin NVL72 הציגה עד פי 2 ביצועים לכל GPU לעומת GB300 NVL72 במבחנים המדווחים, ולא בכל עומס עבודה אפשרי.\n\nבמבחן DeepSeek-V3 החברה מדווחת על יעילות הרחבה של כ-97% במעבר מ-256 ל-1,024 מעבדים גרפיים, עם קיצור זמן האימון מכ-16 לכ-4 דקות. אין להסיק מכך שאימון מודל מכל סוג או גודל יסתיים בארבע דקות.\n\n**טבלאות המקור של MLCommons לא נבדקו כאן בנפרד. נתוני הביצועים מובאים מהפוסט של NVIDIA, עם תנאי ההשוואה שלו.**\n\nהפוסט כולל גם טענה ליותר מפי 10 תפוקה לוואט במבחן Endpoints עבור Kimi K3, לעומת GB300 ובסף קצב תגובה משותף. **לפי ההערה בפוסט, תוצאת Vera Rubin זמנית, ממתינה לאימות MLCommons ועשויה להשתנות. הערת המקור נושאת תאריך 9.11.2026, ולכן אין להציג את חלק ה-Endpoints כתוצאה שפורסמה לראשונה היום.** אלה מבחנים מסוימים, לא הבטחה לפי 10 בכל שימוש או להשוואה מול כל המתחרים.",
+    "טקסט_en": "NVIDIA blog dated November 16, 2026. **The original publication time is unknown.**\n\nNVIDIA reported Vera Rubin results in MLPerf Training v6.1. It says it submitted results on every benchmark in the round, and Vera Rubin NVL72 delivered up to twice the performance per GPU of GB300 NVL72 on the reported tests, not on every possible workload.\n\nOn DeepSeek-V3, the company reports about 97% scaling efficiency from 256 to 1,024 GPUs, reducing training time from roughly 16 to four minutes. This does not mean every model of any size can be trained in four minutes.\n\n**The underlying MLCommons result tables were not independently read here. Performance figures are attributed to NVIDIA's blog and its comparison conditions.**\n\nThe post also claims more than 10x throughput per watt for Kimi K3 on MLPerf Endpoints versus GB300 at a shared response-speed threshold. **Its footnote says the Vera Rubin result is provisional, pending MLCommons verification and subject to change. The source note is dated November 9, 2026, so the Endpoints portion must not be presented as first published today.** These are specific tests, not a promise of 10x gains everywhere or superiority to every competitor.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0ca52cc6f58c83b6bf25e9ec0b622441a4955c033ce921036478e1d760532e63"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1950",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:48",
+    "הועלה": "2026-11-16 19:48",
+    "כותרת": "NVIDIA (NVDA): מרחיבה את CUDA-X עם כלים לאסטרופיזיקה, סימולציות מולקולריות וביולוגיה",
+    "כותרת_en": "NVIDIA (NVDA): expands CUDA-X tools for astrophysics, molecular simulation and biology",
+    "קישור": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+    "מקורות": [
+      {
+        "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+        "label": "NVIDIA Blog: expands CUDA-X tools for astrophysics, molecular simulation and biology",
+        "label_en": "NVIDIA Blog: expands CUDA-X tools for astrophysics, molecular simulation and biology"
+      }
+    ],
+    "טקסט": "פוסט של NVIDIA מ-16.11.2026. **שעת הפרסום המקורית אינה ידועה.**\n\nNVIDIA הציגה עדכונים לספריות CUDA-X, ובהם cuPhoton, cuPotential ו-cuSpa, שנועדו להאיץ חישובים מדעיים ולתת לסוכני AI כלים להפעלת תהליכי מחקר.\n\nלפי החברה, cuPhoton תומכת בעיבוד תצפיות אסטרונומיות וניתוח סימולציות פלזמה; cuPotential נועדה להאיץ סימולציות מולקולריות, בשיתוף קהילות ותוכנות כגון AMBER, NAMD ו-GROMACS. cuSpa נפתחה בקוד פתוח לחישובי מרחב תאי, ו-rapids-singlecell זמינה במארז תוכנה יחיד המותאם לסוכנים.\n\nהפוסט מציג מקרי שימוש ומקדמי האצה שונים, אך אלה תלויים במשימה, בנתונים ובמערכת. אין כאן אימות עצמאי של הבנצ׳מרקים או בסיס לאחד אותם למספר האצה כולל. כלים לגילוי תרופות או מודלים של סרטן אינם תרופות מאושרות או הוכחת תועלת קלינית.\n\nDaviator מתוארת כתוספת עתידית ל-ALCHEMI, לא כיכולת שכבר זמינה לכל המשתמשים. הפוסט אינו מפרסם מחיר כולל, הכנסות או היקף הזמנות.",
+    "טקסט_en": "NVIDIA blog dated November 16, 2026. **The original publication time is unknown.**\n\nNVIDIA described CUDA-X library updates including cuPhoton, cuPotential and cuSpa, intended to accelerate scientific computation and give AI agents tools for research workflows.\n\nThe company says cuPhoton supports astronomical observation processing and plasma-simulation analysis; cuPotential targets molecular simulation, working with communities and software including AMBER, NAMD and GROMACS. cuSpa is newly open source for spatial-cell calculations, while rapids-singlecell is available in a single agent-ready container.\n\nThe post presents use cases and different speedups tied to particular tasks, data and systems. The benchmarks were not independently verified here and cannot be combined into a universal acceleration figure. Drug-discovery tools and cancer models are not approved medicines or demonstrated clinical benefit.\n\nDaviator is described as coming to ALCHEMI, not already available to all users. The post discloses no overall price, revenue or order value.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e08ea1bd7d7a3a380da615facdd1beef9c50f26450cde1865ed36bf843ea57d3"
+      }
+    }
   }
 ]
