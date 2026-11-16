@@ -52678,5 +52678,37 @@
         "source_hash": "a09bedba5447002fa90efe19c123cf9f44ade819079e49ace1f3d9a1dd393b53"
       }
     }
+  },
+  {
+    "מזהה": "n-1942",
+    "category": "micro",
+    "חברה": "Rockwell Automation (ROK)",
+    "חברה_en": "Rockwell Automation (ROK)",
+    "symbols": [
+      "ROK",
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:09",
+    "הועלה": "2026-11-16 19:09",
+    "כותרת": "Rockwell Automation (ROK) משלבת טכנולוגיות NVIDIA (NVDA) ב-Emulate3D לסימולציה של מפעלים",
+    "כותרת_en": "Rockwell Automation (ROK) integrates NVIDIA (NVDA) technologies into Emulate3D for factory simulation",
+    "קישור": "https://www.prnewswire.com/news-releases/rockwell-automation-integrates-nvidia-omniverse-into-emulate3d-to-advance-industrial-simulation-and-ai-powered-factory-design-302940633.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/rockwell-automation-integrates-nvidia-omniverse-into-emulate3d-to-advance-industrial-simulation-and-ai-powered-factory-design-302940633.html",
+        "label": "Rockwell Automation via PR Newswire",
+        "label_en": "Rockwell Automation via PR Newswire"
+      }
+    ],
+    "טקסט": "הודעת Rockwell Automation מ-16.11.2026, 12:00 בשעון מזרח ארה״ב, 19:00 בישראל.\n\nRockwell הודיעה על שילוב NVIDIA Omniverse, עיבוד גרפי RTX ותקן OpenUSD ב-Emulate3D. השילוב מחבר סימולציה ובדיקת מערכות בקרה עם הדמיה וירטואלית של סביבות ייצור, כדי לתכנן ולבדוק מערכות גדולות ומורכבות יותר לפני התקנת ציוד והפעלתו במפעל.\n\nלפי Rockwell, המהלך מרחיב את השימוש מסימולציה של מכונות ומערכות בודדות לסביבות בקנה מידה של מפעל, ותומך בבדיקת תכנון, אסטרטגיות תפעול ותהליכי AI לפני הפעלה פיזית. אלה תיאורי יכולות ותועלות של החברה, לא נתוני חיסכון או שיפור ביצועים שאומתו כאן באופן עצמאי.\n\nההודעה אינה מציינת מועד זמינות מסחרי נפרד, גרסת תוכנה, מחיר, היקף הזמנות או תרומה להכנסות. אין להסיק ממנה שכל הלקוחות כבר קיבלו את היכולות. ציטוט מנהלת מ-GE Appliances מתייחס לערך הסימולציה הווירטואלית ואינו מכריז על חוזה חדש או אימוץ מאומת של השילוב המסוים.",
+    "טקסט_en": "Rockwell Automation announcement dated November 16, 2026 at 12:00 US Eastern time, 19:00 in Israel.\n\nRockwell announced the integration of NVIDIA Omniverse, RTX rendering and OpenUSD technologies into Emulate3D. The integration combines simulation and controls testing with virtual visualization of production environments, intended to help manufacturers design and test larger, more complex systems before installing and commissioning physical equipment.\n\nRockwell says this expands simulation from individual machines and systems toward factory-scale environments, supporting tests of designs, operating strategies and AI-enabled workflows before physical deployment. These are company descriptions of capabilities and benefits, not independently verified savings or performance results here.\n\nThe release does not specify a separate commercial availability date, software version, price, order value or revenue contribution. It should not be read as confirmation that all customers already have the capabilities. A GE Appliances manager's quote addresses the value of virtual simulation, not a new contract or verified adoption of this particular integration.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1e5fc0fa2d46b8b670b257fcd0945d3ad1ab4e20804017f4cfcb4c24a79145f4"
+      }
+    }
   }
 ]
