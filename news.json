@@ -46570,5 +46570,38 @@
         "source_hash": "15bab568e7cd0dc316c08799d0c1f8bfc4c6a8aec0ec4216f2ebddc4d07e8510"
       }
     }
+  },
+  {
+    "מזהה": "n-1746",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:04",
+    "הועלה": "2026-11-16 10:04",
+    "חברה": "Palantir Technologies",
+    "חברה_en": "Palantir Technologies",
+    "symbols": [
+      "PLTR"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "כותרת": "Palantir Technologies (PLTR): לפי Reuters, גרמניה בוחנת רשימה מצומצמת ללא החברה; צרפת והולנד מקדמות חלופות אירופיות",
+    "כותרת_en": "Palantir Technologies (PLTR): Reuters says German shortlist excludes company as France and Netherlands pursue European alternatives",
+    "טקסט": "16.11.2026 | Reuters דרך The Star, פורסם ב-15:30 במלזיה, 09:30 בישראל.\n\n**לא מאומת מול מקור ראשוני: מסמכי הרכש הממשלתיים לא נבדקו ישירות. פרטי הרשימה הגרמנית מיוחסים למקור לא מזוהה של Reuters, לא להכרזה על זכייה או ביטול חוזה.**\n\nלפי הדיווח, גרמניה מכוונת לפרוס פלטפורמת AI לשילוב נתונים צבאיים מ-2027 וצמצמה את הבחינה לקומץ פתרונות מקומיים ואירופיים שאינם כוללים את Palantir. המקור אמר שהפתרונות לא ישתוו לכל יכולות Palantir, אך אמורים לספק כ-80% מהנדרש בתוך שנה ולשמור על ריבונות הנתונים. זהו יעד שדווח מפי המקור, לא יכולת שכבר נמסרה או נבדקה.\n\nבצרפת, סגן ראש רשות הרכש הביטחוני DGA, אלכסנדר להוס, אמר ל-Reuters שפלטפורמת Arcadia תכלול כמה ספקים. הרשות מתכננת להעניק לפחות חלק מהחוזים עד סוף השנה ולהעמיד גרסה מבצעית לפריסה בשטח עד אמצע 2027. אלו תוכניות ולוחות זמנים, לא אישור שהחוזים כבר הוענקו.\n\nשר הרכש הביטחוני ההולנדי דרק בוסווייק אמר שהצבא נפגש עם ספקים ורוצה חלופה אירופית בתוך שנתיים, כנראה בשילוב ספקים הולנדיים ואירופיים. הולנד משתמשת כיום בחלק מתוכנות Palantir; הכתבה אינה מדווחת על סיום חוזה קיים כעת.\n\nHelsing חשפה את Clarity בשבוע שעבר ואמרה שתוכל לספק גרסה ראשונית בתוך חודשים. אין כאן הודעת זכייה גרמנית חדשה ל-Helsing. בתגובה, מנהל הפעילות הבינלאומית של Palantir, לואיס מוזלי, אמר שנמשך הביקוש באירופה, כולל בבריטניה, ושהוא עדיין מנסה לשכנע את גרמניה לבחור במערכת החברה. החברה גם חזרה על טענתה שלמערכת הצבאית שלה בשימוש נאט\"ו אין מתג כיבוי.\n\nזהו דיווח על תחרות ותוכניות רכש. אין בו סכום הכנסות ש-Palantir איבדה, הפסד חוזה מאומת או הוכחה שנאט\"ו מפסיקה להשתמש במערכת.",
+    "טקסט_en": "November 16, 2026 | Reuters via The Star, published at 15:30 Malaysia time, 09:30 in Israel.\n\n**Not verified against a primary source: government procurement documents were not inspected directly. The German shortlist details are attributed to an unidentified Reuters source, not an announced contract award or cancellation.**\n\nGermany aims to deploy an AI-based military data-integration platform from 2027 and has narrowed its review to a handful of domestic and European solutions that exclude Palantir, according to the report. The source said they would not match all of Palantir's capabilities but should meet about 80% of requirements within a year while preserving national data sovereignty. That is a reported goal, not capability already delivered or independently tested.\n\nIn France, defence procurement agency DGA deputy head Alexandre Lahousse told Reuters that Arcadia would include multiple suppliers. The agency plans to award at least some contracts by year-end and have an operational version ready for field deployment by mid-2027. These are plans and timelines, not confirmation that contracts have been awarded.\n\nDutch procurement minister Derk Boswijk said the military is meeting suppliers and wants a European alternative within two years, likely combining Dutch and other European providers. The Netherlands currently uses some Palantir software; the article does not report termination of an existing contract today.\n\nHelsing unveiled Clarity last week and said it could supply an initial version within months. This is not a new German contract award to Helsing. Responding for Palantir, international chief Louis Mosley said demand continues in Europe, including the UK, and that he still hopes to persuade Germany to adopt its software. The company also repeated its statement that its military AI system used by NATO has no kill switch.\n\nThis is reporting on competition and procurement plans. It gives no quantified lost revenue for Palantir, verified contract loss or evidence that NATO is stopping use of its system.",
+    "קישור": "https://www.thestar.com.my/tech/tech-news/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence-",
+    "מקורות": [
+      {
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence-",
+        "label": "Reuters דרך The Star: חלופות אירופיות ל-Palantir",
+        "label_en": "Reuters via The Star: European alternatives to Palantir"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "cf528fa6d1261756e904ce488afb82d7280e5d0ccae9a5d22b696762b2b112ff"
+      }
+    }
   }
 ]
