@@ -49375,5 +49375,65 @@
         "source_hash": "f951a36b1051182624913d14c8feb17b03b4971eed8dfec1c3feae07f327d19f"
       }
     }
+  },
+  {
+    "מזהה": "n-1836",
+    "category": "micro",
+    "חברה": "CMCSA",
+    "symbols": [
+      "CMCSA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:06",
+    "הועלה": "2026-11-16 15:06",
+    "כותרת": "פורסם באיחור | Blue Lucy הודיעה על שילוב VideoAI של Comcast Technology Solutions להפעלת תהליכי עבודה מנתוני ארכיון",
+    "כותרת_en": "Published late | Blue Lucy announces Comcast Technology Solutions VideoAI integration to trigger workflows from archive metadata",
+    "קישור": "https://www.bluelucy.com/blue-lucy-integrates-with-comcast-technology-solutions-videoai-to-turn-archive-metadata-into-automated-action/",
+    "מקורות": [
+      {
+        "url": "https://www.bluelucy.com/blue-lucy-integrates-with-comcast-technology-solutions-videoai-to-turn-archive-metadata-into-automated-action/",
+        "label": "Blue Lucy: הודעת שילוב VideoAI מ-11 בנובמבר",
+        "label_en": "Blue Lucy: November 11 VideoAI integration announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 11.11.2026. Blue Lucy הודיעה על שילוב עם VideoAI של Comcast Technology Solutions. ההודעה מציינת תאריך בלבד, ללא שעת פרסום מקורית מאומתת; זו אינה השקה חדשה מ-16 בנובמבר.\n\nלפי Blue Lucy, השילוב מחבר את ניתוח הווידאו של VideoAI למנוע תזמור תהליכי העבודה שלה. VideoAI מייצר מטא-דאטה על התוכן, ובהם פרקים, סנטימנט, הופעת ידוענים והפסקות פרסום; מנוע התזמור יכול להשתמש במידע כדי לנתב נכסים, להפעיל עיבוד ולהעביר תוכן.\n\nהחברה מציגה שימושים לבעלי זכויות, גופי שידור וחברות לוקליזציה: הפעלת תהליכי דיבוב או כתוביות בעקבות זיהוי שפה או אזור, שילוב בדיקות התאמת תוכן למותג, וזיהוי נקודות לפרסומות בתהליכי הפצה קיימים. אלה יכולות ושימושים המוצגים בהודעת הספק, לא תוצאות מוכחות אצל לקוח מסוים.\n\nBlue Lucy אומרת שהלקוחות יכולים לבחור יכולות מסוימות בלי לאמץ את כל החבילה. טענות לצמצום עבודה ידנית ולשיפור מימוש ההכנסות הן טענות החברה, ללא מדד כספי, מבחן ביצועים או שיעור חיסכון מאומת בהודעה.\n\nלא נמסרו שווי חוזה, מחיר ללקוח, בלעדיות, מספר לקוחות או תחזית הכנסות לשילוב. מדובר בהודעת שילוב טכנולוגי עם פעילות של Comcast, לא ברכישה של Blue Lucy ולא בפריסת DOCSIS 4.0 לצרכני אינטרנט.",
+    "טקסט_en": "Published late | November 11, 2026. Blue Lucy announced an integration with Comcast Technology Solutions' VideoAI. The announcement gives a date but no verified original publication time; this is not a new November 16 launch.\n\nAccording to Blue Lucy, the integration connects VideoAI's video analysis to its workflow orchestration engine. VideoAI generates metadata including chapters, sentiment, celebrity appearances and ad breaks; the orchestration engine can use that information to route assets, trigger processing and deliver content.\n\nThe company describes uses for rights owners, broadcasters and localization companies, including triggering dubbing or subtitling after a language or regional cue, adding brand-safety checks and routing ad-break detection into existing delivery workflows. These are capabilities and examples in the supplier announcement, not verified results at a particular customer.\n\nBlue Lucy says customers can select individual capabilities without adopting the full suite. Claims of reduced manual work and better monetization are company claims, with no verified financial metric, performance benchmark or savings rate in the announcement.\n\nNo contract value, customer price, exclusivity, customer count or integration revenue forecast was disclosed. This is a technology integration involving a Comcast business, not an acquisition of Blue Lucy or a consumer DOCSIS 4.0 broadband rollout.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "809796588d5939dc8568ebb2f7626e3d358385ab669e9c1249897e4205198a40"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1837",
+    "category": "micro",
+    "חברה": "GOOGL",
+    "symbols": [
+      "GOOGL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:06",
+    "הועלה": "2026-11-16 15:06",
+    "כותרת": "פורסם באיחור | לפי Europa Press, שופט בספרד הורה לפנות ל-Google כדי לשמר נתוני תוכנה בתיק Begoña Gómez",
+    "כותרת_en": "Published late | Europa Press: Spanish judge directs notice to Google to preserve software-project data in Begoña Gómez case",
+    "קישור": "https://www.europapress.es/nacional/noticia-juzgado-caso-begona-gomez-insta-google-no-eliminar-contenido-software-investigado-20261116120414.html",
+    "מקורות": [
+      {
+        "url": "https://www.europapress.es/nacional/noticia-juzgado-caso-begona-gomez-insta-google-no-eliminar-contenido-software-investigado-20261116120414.html",
+        "label": "Europa Press: דיווח על הוראת שימור תוכן ב-Google Cloud",
+        "label_en": "Europa Press: report on Google Cloud content-preservation direction"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 16.11.2026. Europa Press מציגה עדכון בשעה 12:06 לפי שעון מדריד (Europe/Madrid), שהם 13:06 בישראל (Asia/Jerusalem) לפי חישוב אזורי הזמן. זו שעת עדכון הכתבה, לא שעת ההחלטה השיפוטית או שעת הפרסום הראשונה המאומתת.\n\nלפי הסוכנות, השופט Carlos Valle, המחליף זמנית את Juan Carlos Peinado במדריד, הורה לפנות ל-Google כדי שלא תימחק תכולת פרויקטים ב-Google Cloud הקשורים לתוכנה של אוניברסיטת קומפלוטנסה במדריד (UCM). הסוכנות אומרת שעיינה בהחלטה ומצטטת הוראה לפנות לחברה מטעמי דחיפות וזהירות כדי למנוע אובדן תוכן.\n\nההוראה נוגעת לשימור נתונים במסגרת תיק Begoña Gómez, רעיית ראש ממשלת ספרד. לפי הדיווח, Valle ציין שלא התקבלה תשובה מ-Devoteam Drago בנוגע לניתוק קונסולת הענן של הפרויקטים. אין בדיווח קביעה ש-Google כבר מחקה ראיות או שהפרה את ההוראה.\n\nהפרסום מתאר הליך נגד Gómez והיועצת Cristina Álvarez בקשר לטענות לשימוש לא תקין במשאבים ולתוכנה שפותחה במסגרת קתדרה באוניברסיטה. אלה טענות בהליך תלוי ועומד, לא הרשעה. לפי הסוכנות, ההגנה והתביעה הציבורית מבקשות זיכוי, בעוד הקובלנה העממית מבקשת עונשי מאסר; למשפט לא נמסר מועד בדיווח.\n\nזהו צעד לשימור מידע בענן בתיק של צדדים אחרים, לא הודעה על אישום, קנס או ממצא של התנהגות פסולה מצד Google. החלטת בית המשפט המקורית לא אומתה כאן ישירות; פרטי ההוראה מיוחסים לדיווח Europa Press ולציטוט שלה.",
+    "טקסט_en": "Published late | November 16, 2026. Europa Press displays an update at 12:06 Madrid time (Europe/Madrid), equivalent to 13:06 in Israel (Asia/Jerusalem), by timezone calculation. This is the article's update time, not the court decision time or a verified first-publication time.\n\nAccording to the agency, Carlos Valle, temporarily replacing Juan Carlos Peinado in Madrid, directed that Google be contacted so it does not delete Google Cloud project content related to software at the Complutense University of Madrid (UCM). The agency says it reviewed the procedural decision and quotes the direction to notify Google, citing urgency and caution to avoid losing content.\n\nThe direction concerns data preservation in the case involving Begoña Gómez, the Spanish prime minister's wife. The report says Valle noted there had been no response from Devoteam Drago concerning disconnection of the projects' cloud console. It does not establish that Google deleted evidence or disobeyed the direction.\n\nThe article describes proceedings against Gómez and adviser Cristina Álvarez involving allegations about use of resources and software developed through a university chair. Those are pending allegations, not convictions. The agency says the defense and public prosecutor seek acquittals while the private popular prosecution seeks prison terms; no trial date is given in the report.\n\nThis is a cloud-data preservation step in a case involving other parties, not an announcement of charges, a fine or a wrongdoing finding against Google. The original court decision has not been directly verified here; the direction's details are attributed to Europa Press and its quotation.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c52fcf5f61c4c91733580082e7009273c5b9f37ae86b293caed181cfe7c414fa"
+      }
+    }
   }
 ]
