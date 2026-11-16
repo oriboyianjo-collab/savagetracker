@@ -53422,5 +53422,38 @@
         "source_hash": "4349302b7d76ce882dd9358494a928ce6e11506123fa5122cedf5793c2b8d0a0"
       }
     }
+  },
+  {
+    "מזהה": "n-1965",
+    "category": "company",
+    "חברה": "Genpact (G)",
+    "חברה_en": "Genpact (G)",
+    "symbols": [
+      "G"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 23:14",
+    "הועלה": "2026-11-16 23:14",
+    "כותרת": "Genpact (G): הודיעה על זמינות Onyx לסוכני AI בתפעול ארגוני, לאחר חשיפה ב-12 בנובמבר",
+    "כותרת_en": "Genpact (G): announces Onyx availability for enterprise AI agents after November 12 unveiling",
+    "summary": "החברה מתארת בנייה, הפעלה ופיקוח על סוכנים עם בקרה אנושית; ללא נתוני ביצועים עצמאיים או תחזית הכנסות.",
+    "summary_en": "Company describes building, running and governing agents with human oversight; no independent performance data or revenue forecast.",
+    "קישור": "https://www.prnewswire.com/news-releases/genpact-launches-genpact-onyx-the-agentic-operations-platform-for-building-running-and-governing-ai-agents-in-enterprise-operations-302940973.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/genpact-launches-genpact-onyx-the-agentic-operations-platform-for-building-running-and-governing-ai-agents-in-enterprise-operations-302940973.html",
+        "label": "Genpact / PR Newswire: Onyx availability announcement",
+        "label_en": "Genpact / PR Newswire: Onyx availability announcement"
+      }
+    ],
+    "טקסט": "16.11.2026 | הודעת החברה הופצה ב-PR Newswire בשעה 16:05 בחוף המזרחי של ארה״ב, 23:05 בישראל. ההודעה עוסקת בזמינות המוצר; לפי החברה, Onyx כבר נחשפה באירוע שלה בניו יורק ב-12 בנובמבר, ואינה מוצגת כאן כחשיפה ראשונה היום.\n\nחברת Genpact (G) הודיעה על זמינות Genpact Onyx, פלטפורמה לבנייה, הפעלה ופיקוח על סוכני AI בתפעול ארגוני. לפי החברה, היא נשענת על Process Intelligence Core, מאגר הידע התפעולי שקידדה מפעילותה בתחומי כספים, סיכון, שרשרת אספקה, בנקאות, ביטוח ורכש.\n\nהפלטפורמה היא בסיס לפתרונות החברה, תחילה חבילת החשבונות לתשלום Genpact Accounts Payable Suite, ולפתרונות מותאמים ללקוחות. החברה אומרת שהיא מתחברת למערכות הטכנולוגיה והנתונים הקיימות ותומכת בבחירה בין מודלי AI של שותפיה.\n\nלפי התיאור, סוכנים מתחילים בהצעת פעולות לאישור מומחה אנושי, ורמת האוטונומיה אמורה להתרחב עם הוכחת יכולת. החלטות מומחים וחריגים שנבדקו מזינים לולאת למידה, לצד יכולות בקרה, ביקורת ומעקב אחר פעולות. אלה תיאורי המוצר והבטחות החברה, לא בדיקת ביצועים או אבטחה עצמאית.\n\nההודעה אינה מפרסמת מחיר, שווי חוזים חדשים, מספר משתמשים משלמים או תחזית הכנסות ל-Onyx. אין להסיק מההכרזה לבדה חיסכון מוכח, אימוץ רחב או הכנסה שכבר הוכרה.",
+    "טקסט_en": "November 16, 2026 | The company release was distributed by PR Newswire at 16:05 ET, or 23:05 Israel time. It announces availability; Genpact says Onyx was already unveiled at its New York event on November 12, so this is not presented as its first unveiling today.\n\nGenpact (G) announced the availability of Genpact Onyx, a platform for building, running and governing AI agents in enterprise operations. The company says it is powered by its Process Intelligence Core, operational knowledge codified from its work across finance, risk, supply chain, banking, insurance and procurement.\n\nThe platform underpins Genpact's own solutions, starting with its Accounts Payable Suite, and custom client solutions. Genpact says it connects to existing technology and data systems and supports a choice of AI models across its partner ecosystem.\n\nAccording to the description, agents start by proposing actions for a human expert to approve, with autonomy intended to expand as they demonstrate capability. Reviewed exceptions and expert decisions feed a learning loop alongside controls, auditing and action traceability. These are company product descriptions and claims, not independent performance or security tests.\n\nThe release provides no price, new contract value, paying-user count or Onyx revenue forecast. The announcement alone does not establish proven savings, broad adoption or recognized revenue.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "71e2319d88c241083a7801c1a9061c0044370a97b24fc7aec7456f6ffc571511"
+      }
+    }
   }
 ]
