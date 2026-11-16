@@ -47292,5 +47292,46 @@
         "source_hash": "ac27f790f34881df73a428e668259b198d8ee2c3c3cf1f349991aabaa25dd65d"
       }
     }
+  },
+  {
+    "מזהה": "n-1768",
+    "category": "micro",
+    "חברה": "FRMI",
+    "symbols": [
+      "FRMI",
+      "AMZN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:17",
+    "הועלה": "2026-11-16 11:17",
+    "כותרת": "פורסם באיחור | Fermi (FRMI): הסכמי פיתוח ל-600 מגה-ואט לפני חוזה שכירות סופי; הדיווח שהלקוחה Amazon (AMZN) אינו מאומת",
+    "כותרת_en": "Published late | Fermi (FRMI): 600 MW development agreements precede final lease; reported Amazon (AMZN) identity unconfirmed",
+    "קישור": "https://irp.cdn-website.com/4ee5afac/files/uploaded/Fermi+Q326+ER+11-12-26+vF.pdf",
+    "מקורות": [
+      {
+        "url": "https://irp.cdn-website.com/4ee5afac/files/uploaded/Fermi+Q326+ER+11-12-26+vF.pdf",
+        "label": "Fermi: הודעת החברה מ-12 בנובמבר, סעיפי הסכמי הלקוחות בעמודים 1–2",
+        "label_en": "Fermi: November 12 company release, customer agreement sections on pages 1–2"
+      },
+      {
+        "url": "https://investor.fermiamerica.com/events-presentations",
+        "label": "Fermi: דף המשקיעים המקשר להודעה המקורית",
+        "label_en": "Fermi: investor page linking the original release"
+      },
+      {
+        "url": "https://au.marketscreener.com/news/fermi-signs-amazon-for-texas-data-centre-in-major-boost-ft-ce785eded18bf322",
+        "label": "Alliance News דרך MarketScreener: ייחוס ל-FT של זיהוי Amazon; לא אישור חברה",
+        "label_en": "Alliance News via MarketScreener: FT-attributed Amazon identification, not company confirmation"
+      }
+    ],
+    "טקסט": "12.11.2026 | הודעת Fermi המקורית, סעיפי ההסכמים נקראו. שעת הפרסום המקורית לא אומתה. זיהוי הלקוחה פורסם, לפי Alliance News, ב-FT ביום שישי 13 בנובמבר; הכתבה המקורית ב-FT ושעתה לא אומתו כאן. עותק Alliance מ-16 בנובמבר אינו מועד ההכרזה המקורית.\n\nFermi הודיעה שחתמה על הסכמים עם לקוח מחשוב ענן גדול בעל דירוג השקעה, ששמו נותר חסוי, לקידום פיתוח של 600 מגה-ואט ראשונים ב-Project Matador בטקסס, החל מ-2027. ההסכמים כוללים מקדמה מוסכמת של 200 מיליון דולר והסכם בנייה מוקדמת ופיתוח אתר בסך 15 מיליון דולר.\n\n**לפי הודעת 12 בנובמבר, חוזה השכירות ארוך הטווח הסופי טרם הושלם.** הסכם נוסף לרכישת פלדה וחומרי בניין ב-90 מיליון דולר עדיין היה בשלבי גיבוש. חתימה על הסכם מקדמה אינה מוכיחה שהכסף כבר התקבל; קבלת הכסף או חתימת החוזה הסופי לאחר ההודעה לא אומתו כאן.\n\n**לא מאומת מול מקור ראשוני:** Alliance News מדווחת ש-FT זיהה את הלקוחה כ-Amazon על סמך אנשים המעורים בנושא. לפי אותו דיווח, Fermi סירבה להגיב ו-Amazon לא השיבה לבקשת תגובה. הודעת Fermi אינה נוקבת בשם Amazon. זהות הלקוחה אינה מוצגת כאן כעובדה שאישרו החברות.\n\n600 מגה-ואט הם קיבולת לפיתוח עתידי, לא חשמל שכבר סופק או צריכת Amazon שנמדדה. דברי ההנהלה על 2.2 גיגה-ואט מתייחסים לאפשרות למלא את הקיבולת אם לקוחות פוטנציאליים יהפכו לשוכרים, לא לאישור שכל הקיבולת הושכרה או פועלת.\n\nבנפרד, Fermi אישרה שבוטלו חוזה השכירות והשירותים עם TensorWave מאוגוסט וכן הסכם תמיכת האשראי של AMD שנלווה אליו. אלה ביטולים שהוכרזו, לא רק דחייה במועד הסגירה; אין בהודעה קביעה ש-Amazon החליפה משפטית את TensorWave באותו חוזה. לא נכללים כאן תוצאות כספיות, תחזית צריכת חשמל של Amazon או ייחוס סיבתי לתנועת מניה.",
+    "טקסט_en": "November 12, 2026 | Original Fermi release, customer agreement sections read. Original publication time was not verified. Alliance News attributes the customer identification to an FT report on Friday, November 13; the original FT article and its clock were not verified here. The November 16 Alliance copy is not the original announcement date.\n\nFermi said it entered agreements with an unnamed investment-grade hyperscale customer to advance an initial 600 MW of power capacity at Project Matador in Texas beginning in 2027. The agreements include a $200 million prepayment agreement and a $15 million early construction and site development agreement.\n\n**According to the November 12 release, the definitive long-term lease was not yet finalized.** A further $90 million structural steel and building materials purchase agreement was still being finalized. A signed prepayment agreement does not prove cash has been received; subsequent receipt or execution of the final lease was not verified here.\n\n**Not verified against a primary source:** Alliance News says the FT identified Amazon as the customer, citing people familiar with the matter. The same report says Fermi declined to comment and Amazon did not respond to a request for comment. Fermi's release does not name Amazon. The customer's identity is not presented here as company-confirmed.\n\nThe 600 MW concerns future development, not power already delivered or measured Amazon consumption. Management's 2.2 GW comment concerns the possibility of filling capacity if prospective customers become tenants, not confirmation that all capacity is leased or operating.\n\nSeparately, Fermi confirmed termination of the August TensorWave Data Center Lease and Services Agreement and the associated AMD credit support agreement. These are announced terminations, not merely a missed closing date; the release does not establish that Amazon legally replaced TensorWave under the same contract. This item includes no financial results, Amazon power-consumption forecast or causal attribution of a share-price move.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f7f7cbb0720687b5560e554ab5cf4be666c75fbb86582f22f6ec1530fe0c56d9"
+      }
+    }
   }
 ]
