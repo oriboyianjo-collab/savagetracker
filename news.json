@@ -45124,5 +45124,36 @@
         "source_hash": "409c6049c3ef2239f9fb9f9563e30c8a8c05ec074378e6c18706b58cbbb3a8bc"
       }
     }
+  },
+  {
+    "מזהה": "n-1707",
+    "category": "macro",
+    "חברה": "סין / רוסיה / ארה\"ב",
+    "חברה_en": "China / Russia / US",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 03:10",
+    "הועלה": "2026-11-16 03:10",
+    "כותרת": "Xinhua: מפגש ראשי המדינות של סין, רוסיה וארה\"ב ייערך בשנזן ב-19 בנובמבר",
+    "כותרת_en": "Xinhua: Chinese, Russian and US heads of state to meet in Shenzhen on November 19",
+    "summary": "עדכון לדיווח הקודם על הודעת הקרמלין: סוכנות הידיעות הסינית מפרסמת כעת בעצמה את מועד ומיקום המפגש המתוכנן. נוסח מפורט על הפורמט וסדר היום לא הופיע בעמוד שנקרא.",
+    "summary_en": "Update to the earlier Kremlin planning report: the Chinese news agency now publishes the planned meeting date and location itself. Detailed wording on the format and agenda was not present on the page read.",
+    "טקסט": "16.11.2026 | Xinhua, סוכנות הידיעות הסינית. העמוד מציג את השעה 09:01:45 ללא ציון מפורש של אזור הזמן.\n\nכותרת הפרסום המקורי אומרת כי מפגש של ראשי המדינות של סין, רוסיה וארצות הברית ייערך בשנזן ב-19 בנובמבר. הכותרת מופיעה גם בעמוד הבית ובעמוד סין של הסוכנות. זהו מפגש עתידי מתוכנן, לא שיחות שכבר התקיימו או הסכם שהושג.\n\nזהו עדכון לדיווח הקודם על הודעת הקרמלין בדבר התכנון, שבו צוין כי אישור סיני טרם אומת. התוספת כעת היא הפרסום הישיר של Xinhua. בעת הבדיקה הופיעו בעמוד הכותרת והתאריך, אך לא גוף הודעה מפורט; לכן לא מיוחסים כאן דברים לדובר סיני מסוים, לא נקבע אם הפורמט משותף או סדרת מפגשים נפרדים, ולא מתווסף סדר יום מאומת. אין בפרסום שנקרא הסכם סחר, שינוי בסנקציות או תוצאה מדינית.",
+    "טקסט_en": "November 16, 2026 | Xinhua, the Chinese news agency. The page displays 09:01:45 without an explicit timezone label.\n\nThe original headline says a meeting of the Chinese, Russian and US heads of state will be held in Shenzhen on November 19. The headline also appears on the agency's home and China pages. This is a planned future meeting, not talks that have already happened or an agreement reached.\n\nThis updates the earlier report on the Kremlin's planning announcement, which noted that Chinese confirmation had not been verified. The new element is Xinhua's direct publication. At the time checked, the page displayed the headline and date but no detailed announcement body. No statement is therefore attributed here to a named Chinese spokesperson, no conclusion is drawn on a joint format versus separate meetings, and no verified agenda is added. The publication read establishes no trade deal, sanctions change or diplomatic outcome.",
+    "קישור": "https://english.news.cn/20261116/911048fc9cd247a8b9f814d9ecd5b66c/c.html",
+    "מקורות": [
+      {
+        "label": "Xinhua: הפרסום המקורי על מפגש ראשי המדינות, 16 בנובמבר",
+        "label_en": "Xinhua: original heads-of-state meeting publication, November 16",
+        "url": "https://english.news.cn/20261116/911048fc9cd247a8b9f814d9ecd5b66c/c.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2b203192d53dd6c7be586ad4983429edb45ce9cf41c8eb899697307adf64ca81"
+      }
+    }
   }
 ]
