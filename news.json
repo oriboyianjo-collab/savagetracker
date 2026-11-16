@@ -52959,5 +52959,36 @@
         "source_hash": "e08ea1bd7d7a3a380da615facdd1beef9c50f26450cde1865ed36bf843ea57d3"
       }
     }
+  },
+  {
+    "מזהה": "n-1951",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:51",
+    "הועלה": "2026-11-16 19:51",
+    "כותרת": "NVIDIA (NVDA): מציינת 20 שנה ל-CUDA בפוסט על קהילת המפתחים והמחקר המדעי",
+    "כותרת_en": "NVIDIA (NVDA): marks 20 years of CUDA with developer and scientific-research retrospective",
+    "קישור": "https://blogs.nvidia.com/blog/20-years-cuda/",
+    "מקורות": [
+      {
+        "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+        "label": "NVIDIA Blog: marks 20 years of CUDA with developer and scientific-research retrospective",
+        "label_en": "NVIDIA Blog: marks 20 years of CUDA with developer and scientific-research retrospective"
+      }
+    ],
+    "טקסט": "פוסט של NVIDIA מ-16.11.2026. **שעת הפרסום המקורית אינה ידועה.**\n\nNVIDIA פרסמה סקירה לציון 20 שנה ל-CUDA במסגרת SC26. החברה מתארת את המעבר משימוש במעבדים גרפיים לגרפיקה לשימוש בהם בסימולציות, במדע וב-AI, ואת תרומת קהילת המפתחים.\n\nלפי החברה, יותר מ-11 מיליון מפתחים עובדים כיום עם CUDA, והמערכת כוללת יותר מ-1,000 ספריות CUDA-X. אלה ספירות שהחברה מפרסמת, ללא פירוט שיטת הספירה או אימות עצמאי כאן.\n\nהפוסט מזכיר מחקרים וכלים היסטוריים, ובהם AlexNet ו-AlphaFold 2. זו סקירת חברה רטרוספקטיבית, לא הכרזה על GPU חדש, תוצאת ניסוי חדשה או פרס נובל שהוענק היום. אין בפרסום נתון חדש על הכנסות או תחזית כספית.",
+    "טקסט_en": "NVIDIA blog dated November 16, 2026. **The original publication time is unknown.**\n\nNVIDIA published a CUDA 20th-anniversary retrospective at SC26. It describes the expansion of GPU computing beyond graphics into simulation, science and AI, and the role of the developer community.\n\nThe company says more than 11 million developers now build on CUDA and the ecosystem includes over 1,000 CUDA-X libraries. These are company-reported counts, without a counting methodology or independent verification here.\n\nThe post discusses historical research and tools including AlexNet and AlphaFold 2. It is a company retrospective, not a new GPU announcement, a new experimental result or a Nobel Prize awarded today. It provides no new revenue figure or financial guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "821e8713963fa3703703c4afb91d6ae6038642d9e93dcc4816d88dd84d0ada6b"
+      }
+    }
   }
 ]
