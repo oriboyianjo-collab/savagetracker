@@ -45313,5 +45313,36 @@
         "source_hash": "dd021487ff018b79de5d639314064c1d2a8fe8d8650b597f8b9d903ff6482022"
       }
     }
+  },
+  {
+    "מזהה": "n-1712",
+    "category": "macro",
+    "חברה": "טייוואן / שוק המניות",
+    "חברה_en": "Taiwan / equities",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 05:05",
+    "הועלה": "2026-11-16 05:05",
+    "כותרת": "לפי Cnyes, מדד המניות המשוקלל בטייוואן ירד ב-3.15% בשעה 09:55 בטאיפיי",
+    "כותרת_en": "Cnyes: Taiwan weighted stock index down 3.15% at 9:55 a.m. Taipei time",
+    "summary": "לפי אתר החדשות הפיננסיות, המדד ירד ב-1,377.60 נקודות לרמה של 42,297.52 במסחר הבוקר ב-16 בנובמבר. זו תמונת ביניים מתוארכת, לא ציטוט חי או תוצאת סגירה.",
+    "summary_en": "The financial news site reports a 1,377.60-point decline to 42,297.52 in November 16 morning trade. This is a dated interim snapshot, not a live quote or closing result.",
+    "טקסט": "16.11.2026 | תמונת מסחר בטייוואן לפי אתר החדשות הפיננסיות Cnyes. הכתבה מציינת במפורש שהנתונים הם לשעה 09:55 בטאיפיי ביום שני, 16 בנובמבר. השעה מעל הכותרת היא מועד ההעלאה לאפליקציה.\n\n**לא מאומת מול מקור ראשוני:** הנתונים מיוחסים ל-Cnyes; נתוני הבורסה המקוריים לא אומתו ישירות. זו תמונת ביניים מהכתבה, לא ציטוט חי או תוצאת סגירה.\n\nלפי הדיווח, מדד המניות המשוקלל של השוק המרכזי בטייוואן ירד ב-1,377.60 נקודות, 3.15%, לרמה של 42,297.52 בשעה הנקובה.\n\nהעדכון אינו קובע את סיבת הירידה ואינו מתאר את מצב המדד בשעה מאוחרת יותר.",
+    "טקסט_en": "November 16, 2026 | Taiwan trading snapshot reported by financial news site Cnyes. The article explicitly dates its figures to 9:55 a.m. Taipei time on Monday, November 16. The time above the headline is the app upload time.\n\n**Not verified against a primary source:** figures are attributed to Cnyes; original exchange data were not independently verified. This is an interim snapshot from the article, not a live quote or closing result.\n\nCnyes reports that Taiwan's main-market weighted stock index was down 1,377.60 points, or 3.15%, at 42,297.52 at that time.\n\nThis update does not establish a cause for the decline or describe the index at a later time.",
+    "קישור": "https://news.cnyes.com/news/id/6663395",
+    "מקורות": [
+      {
+        "label": "Cnyes: תמונת המדד המשוקלל, 16 בנובמבר, 09:55 בטאיפיי",
+        "label_en": "Cnyes: weighted-index snapshot, November 16, 9:55 a.m. Taipei",
+        "url": "https://news.cnyes.com/news/id/6663395"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b01b7563d5c62427618c178ec90da9200355aaa1694fa57eadccd2094d370d65"
+      }
+    }
   }
 ]
