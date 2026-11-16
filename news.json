@@ -52990,5 +52990,76 @@
         "source_hash": "821e8713963fa3703703c4afb91d6ae6038642d9e93dcc4816d88dd84d0ada6b"
       }
     }
+  },
+  {
+    "מזהה": "n-1952",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 20:20",
+    "הועלה": "2026-11-16 20:20",
+    "כותרת": "NVIDIA (NVDA): לפי CNBC, הדירקטוריון אינו שוקל להחזיר את Jensen Huang לתפקיד המנכ״ל",
+    "כותרת_en": "NVIDIA (NVDA): CNBC reports board is not considering bringing Jensen Huang back as CEO",
+    "קישור": "https://www.koreatimes.co.kr/world/20261117/nvidia-board-not-considering-bringing-jensen-huang-back-as-ceo-cnbc-reports",
+    "מקורות": [
+      {
+        "url": "https://www.koreatimes.co.kr/world/20261117/nvidia-board-not-considering-bringing-jensen-huang-back-as-ceo-cnbc-reports",
+        "label": "Reuters via The Korea Times, citing CNBC",
+        "label_en": "Reuters via The Korea Times, citing CNBC"
+      }
+    ],
+    "טקסט": "**לא אומת מול מקור ראשוני. שעת הפרסום המקורית של CNBC אינה ידועה.**\n\nReuters ב-The Korea Times מדווחת כי לפי CNBC, דירקטוריון NVIDIA אינו שוקל להחזיר את Jensen Huang לתפקיד המנכ״ל. CNBC מצוטטת כמסתמכת על אדם הבקיא בנושא.\n\nהפרסום ב-The Korea Times מתוארך ל-17.11.2026 בשעה 03:10 בקוריאה, 16.11 בשעה 20:10 בישראל. זו שעת הפרסום החוזר, לא שעת הדיווח המקורי של CNBC.\n\nזהו דיווח על עמדה המיוחסת לדירקטוריון, לא אישור עצמאי של הטענה או הודעה רשמית של NVIDIA. הדיווח אינו קובע שהתקיימה הצבעה או שהוחלט על איסור קבוע על חזרה.",
+    "טקסט_en": "**Not verified against a primary source. The original CNBC publication time is unknown.**\n\nReuters via The Korea Times says CNBC reported that NVIDIA's board is not considering bringing Jensen Huang back as CEO. CNBC is cited as relying on a person familiar with the matter.\n\nThe Korea Times item is dated November 17, 2026 at 03:10 in Korea, November 16 at 20:10 in Israel. This is the republication time, not the original CNBC report time.\n\nThis reports a position attributed to the board, not independent confirmation of the claim or an official NVIDIA announcement. It does not establish that a vote took place or that a permanent ban on a return was decided.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "be5fd0c2d5fb4c3ca1e5d0b438bbc3a7ac20894b6f400fda568816e1e091c351"
+      }
+    },
+    "summary": "דיווח המיוחס ל-CNBC ולמקור אנונימי; לא הודעה רשמית של NVIDIA.",
+    "summary_en": "A claim attributed to CNBC and an anonymous source, not an official NVIDIA announcement."
+  },
+  {
+    "מזהה": "n-1953",
+    "category": "micro",
+    "חברה": "Fox Corporation (FOXA)",
+    "חברה_en": "Fox Corporation (FOXA)",
+    "symbols": [
+      "FOXA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 20:20",
+    "הועלה": "2026-11-16 20:20",
+    "כותרת": "Fox Corporation (FOXA): FOX News Media תערוך את טקס הדלקת עץ חג המולד ב-20 בנובמבר",
+    "כותרת_en": "Fox Corporation (FOXA): FOX News Media sets Christmas tree-lighting special for November 20",
+    "summary": "הוכרז משדר חג ב-FOX News Channel, עם הופעה מתוכננת של Melania Trump.",
+    "summary_en": "FOX News Channel announces a holiday special with a scheduled appearance by Melania Trump.",
+    "קישור": "https://www.prnewswire.com/news-releases/fox-news-media-to-present-seventh-annual-all-american-christmas-tree-lighting-on-friday-november-20-302940835.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/fox-news-media-to-present-seventh-annual-all-american-christmas-tree-lighting-on-friday-november-20-302940835.html",
+        "label": "FOX News Media announcement via PR Newswire",
+        "label_en": "FOX News Media announcement via PR Newswire"
+      },
+      {
+        "url": "https://www.foxcorporation.com/",
+        "label": "Fox Corporation: company portfolio",
+        "label_en": "Fox Corporation: company portfolio"
+      }
+    ],
+    "טקסט": "16.11.2026, 13:13 בשעון מזרח ארה״ב, 20:13 בישראל.\n\nFOX News Media, הנכללת בפעילות Fox Corporation, הודיעה כי תציג את טקס All-American Christmas Tree Lighting השביעי ביום שישי, 20 בנובמבר, ב-17:00 בשעון מזרח ארה״ב, במסגרת מהדורה מיוחדת של The Five. בישראל המועד הוא חצות שבין שישי לשבת, 21 בנובמבר. הטקס יתקיים ב-FOX Square מחוץ למטה הרשת בניו יורק, בחסות Ace Hardware.\n\nלפי ההודעה, Melania Trump צפויה להשתתף ולפגוש ילדים, Phil Wickham יופיע בשידור חי, ו-Franklin Graham ו-Jonathan Roumie יישאו ברכה. המשדר המלא יהיה זמין ב-FOX Nation לאחר שידורו ב-FOX News Channel. אלה תוכניות שהרשת הודיעה עליהן, לא תיאור של אירוע שכבר התקיים.\n\nהרשת הודיעה גם על שיתוף פעולה בתקופת החגים עם Armed Services YMCA לתמיכה בחיילים ובמשפחותיהם. בפרסום לא נמסרו תנאים כספיים של החסות או השותפות, או תחזית הכנסות.",
+    "טקסט_en": "November 16, 2026 at 13:13 US Eastern time, 20:13 in Israel.\n\nFOX News Media, part of Fox Corporation, announced its seventh All-American Christmas Tree Lighting for Friday, November 20 at 5 PM US Eastern during a special edition of The Five. In Israel that is midnight at the start of Saturday, November 21. The ceremony will take place on FOX Square outside the network's New York headquarters, sponsored by Ace Hardware.\n\nThe announcement says Melania Trump is scheduled to attend and meet children, Phil Wickham will perform live, and Franklin Graham and Jonathan Roumie will offer a blessing. The full special will be available on FOX Nation after airing on FOX News Channel. These are announced plans, not an account of an event that has already occurred.\n\nThe network also announced a holiday partnership with Armed Services YMCA supporting service members and their families. The release gives no financial terms for the sponsorship or partnership, or revenue guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2813fef3b4280318b4fa69b10581d03141130ce49844288830fbbb815038d732"
+      }
+    }
   }
 ]
