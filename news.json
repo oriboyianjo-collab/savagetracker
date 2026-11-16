@@ -47140,5 +47140,92 @@
         "source_hash": "1b745bcdeb5796275c79a1c86c2ea8e2f0efd6b0a50f4d4b2bbbf2ddadcc1b74"
       }
     }
+  },
+  {
+    "מזהה": "n-1763",
+    "category": "micro",
+    "חברה": "SR",
+    "symbols": [
+      "SR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:09",
+    "הועלה": "2026-11-16 11:09",
+    "כותרת": "פורסם באיחור | 12 בנובמבר | Spire (SR): הדיבידנד הרבעוני יעלה ב-4.8% ל-0.865 דולר למניה",
+    "כותרת_en": "Published late | November 12 | Spire (SR): quarterly dividend raised 4.8% to $0.865 per share",
+    "קישור": "https://investors.spireenergy.com/news/news-details/2026/Spire-Increases-Common-Stock-Dividend/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.spireenergy.com/news/news-details/2026/Spire-Increases-Common-Stock-Dividend/default.aspx",
+        "label": "Spire: הודעת החברה מ-12 בנובמבר על העלאת הדיבידנד",
+        "label_en": "Spire: November 12 company dividend increase announcement"
+      }
+    ],
+    "טקסט": "12.11.2026 | הודעת Spire; שעת הפרסום המקורית לא אומתה.\n\nדירקטוריון Spire אישר פה אחד העלאה של הדיבידנד השנתי המחושב למניה רגילה מ-3.30 ל-3.46 דולר. השיעור הרבעוני החדש הוא 0.865 דולר למניה, עלייה של 4.8% לפי הודעת החברה.\n\nהתשלום נקבע ל-5 בינואר 2027, לבעלי מניות רשומים ב-11 בדצמבר 2026. **זהו תשלום עתידי שהוכרז, לא דיבידנד שכבר שולם.** הסכום 3.46 דולר הוא שיעור שנתי, ולא התשלום הרבעוני הקרוב. תאריך אקס-דיבידנד לא נקבע כאן.\n\nלפי Spire, שנת 2027 תהיה השנה ה-24 ברציפות של העלאת הדיבידנד על בסיס שנתי מחושב. זהו עדכון חלוקת הון נפרד מתוצאות כספיות או מתחזית רווח; אין בהודעה אישור להעלאת תעריפי גז לצרכנים.",
+    "טקסט_en": "November 12, 2026 | Spire company announcement; original publication time was not verified.\n\nSpire's board unanimously approved an increase in the annualized common-stock dividend from $3.30 to $3.46 per share. The new quarterly rate is $0.865 per share, a 4.8% increase according to the company.\n\nPayment is scheduled for January 5, 2027, to shareholders of record on December 11, 2026. **This is a declared future payment, not a dividend already paid.** The $3.46 figure is an annualized rate, not the upcoming quarterly payment. No ex-dividend date is established here.\n\nSpire says 2027 will mark its 24th consecutive year of annualized common-stock dividend increases. This is a capital-return announcement separate from financial results or an earnings outlook; it does not approve higher customer gas rates.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0ceef64e712735f57a627c34a5683056d34575c303a8e4714dc710f6b27ee149"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1764",
+    "category": "micro",
+    "חברה": "EXPE",
+    "symbols": [
+      "EXPE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:09",
+    "הועלה": "2026-11-16 11:09",
+    "כותרת": "פורסם באיחור | Expedia (EXPE): לפי Skift, החברה אישרה חדירת סייבר דרך ספק צד שלישי; היקף החשיפה לא אושר",
+    "כותרת_en": "Published late | Expedia (EXPE): Skift reports company confirmation of third-party cyber intrusion; exposure scale unconfirmed",
+    "קישור": "https://skift.com/2026/11/12/expedia-confirms-cyberattack-through-third-party-vendor/",
+    "מקורות": [
+      {
+        "url": "https://skift.com/2026/11/12/expedia-confirms-cyberattack-through-third-party-vendor/",
+        "label": "Skift: הדיווח המקורי מ-12 בנובמבר בארה״ב; פתיח ותקציר גלויים, כתבה מלאה מוגבלת למנויים",
+        "label_en": "Skift: original November 12 U.S. report; visible lead and summary, full article subscriber-restricted"
+      }
+    ],
+    "טקסט": "**לא מאומת מול מקור ראשוני**\n13.11.2026, 03:53 בישראל | דיווח Skift שפורסם ב-12 בנובמבר, 20:53 EST. הפתיח והתקציר הגלויים נקראו; גוף הכתבה המלא מוגבל למנויים.\n\nלפי Skift, Expedia אישרה כי תוקפים חדרו למערכותיה דרך ספק צד שלישי של פלטפורמת נתונים שנפרץ, במסגרת מתקפת שרשרת אספקה שפגעה במספר חברות. העיתון מייחס לחברה הודעה על הכלת האירוע עם גילויו, חקירה בעזרת מומחי סייבר חיצוניים והמשך שימוש בטוח בפלטפורמות לנוסעים ולשותפים. אלה דברי החברה כפי שדווחו, לא אימות עצמאי להשלמת החקירה או להיעדר סיכון.\n\nהיקף החשיפה, סוגי המידע ומספר האנשים שהושפעו לא אושרו בדיווח. טענות קבוצת סחיטה על כמויות עצומות של רשומות אינן נתונים שאישרה Expedia. אין כאן אישור למספר נפגעים, לסכום כופר או לתשלום שבוצע.\n\nSkift מציין בנפרד מחקרי אבטחה על תקיפה הקשורה ל-Qubole, ספק עבר של Expedia, אך אומר ש-Expedia לא אישרה קשר בין האירועים ושהחוקרים לא זיהו אותה בפומבי כלקוחה שנפגעה באותה תקיפה. **אין בסיס לייחס כאן את החדירה לספק מזוהה או לקבוע ששני הדיווחים מתארים בוודאות אותו אירוע.**\n\nהדיווח אינו מכמת עלות, פגיעה בהכנסות או השבתת שירות. אישור על חדירה דרך ספק אינו מאמת כל טענה של גורמי הסחיטה על המידע שנגנב.",
+    "טקסט_en": "**Not verified against a primary source**\nNovember 13, 2026, 03:53 Israel time | Skift report published November 12 at 20:53 EST. The visible lead and summary were read; the full article is subscriber-restricted.\n\nSkift says Expedia confirmed attackers reached its systems through a compromised third-party data platform provider, in a supply-chain attack affecting multiple companies. It attributes to Expedia statements that the issue was contained upon discovery, outside cybersecurity experts are investigating, and its platforms remain safe for travelers and partners. These are company statements as reported, not independent verification that the investigation is complete or risk is absent.\n\nThe exposure scale, data types and number of affected people were not confirmed in the report. An extortion group's claims about huge record counts are not figures confirmed by Expedia. No affected-person total, ransom amount or completed payment is established here.\n\nSkift separately discusses security research on an attack involving Qubole, a former Expedia vendor, but says Expedia did not confirm a connection and researchers have not publicly identified it as an affected customer in that attack. **This does not establish a named vendor as the route into Expedia or prove the two reports concern the same incident.**\n\nThe report does not quantify costs, lost revenue or a service outage. Confirmation of a vendor-mediated intrusion does not validate every extortion claim about stolen data.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2a596e9ecb51b671f09342854d09371aecc8c552a0d76095617cb59c7fb96cb7"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1765",
+    "category": "macro",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:09",
+    "הועלה": "2026-11-16 11:09",
+    "כותרת": "לפי CBS/AFP: איראן מתנה גישת סבא״א לאתרים גרעיניים שנפגעו במילוי תנאיה ובסיום קבוע של המלחמה",
+    "כותרת_en": "CBS/AFP: Iran conditions IAEA access to damaged nuclear sites on its demands and a permanent end to the war",
+    "קישור": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+    "מקורות": [
+      {
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+        "label": "CBS/AFP: דיווח בבלוג החי מ-16 בנובמבר על דברי גריבאבאדי ביום ראשון בלילה",
+        "label_en": "CBS/AFP: November 16 live report on Gharibabadi’s late-Sunday remarks"
+      }
+    ],
+    "טקסט": "**לא מאומת מול מקור ראשוני**\n16.11.2026 | דיווח CBS המיוחס ל-AFP על ריאיון טלוויזיוני של סגן שר החוץ האיראני כאזם גריבאבאדי ביום ראשון בלילה, 15 בנובמבר. שעת הריאיון ושעת הרשומה המדויקת לא אומתו; שעת עדכון כותרת הבלוג אינה שעת האירוע.\n\nלפי הדיווח, גריבאבאדי אמר שאיראן לא תעניק לסבא״א גישה למתקנים שנפגעו עד שיתמלאו תנאיה ושהמלחמה תסתיים באופן קבוע. זו הצהרה על תנאי איראן להמשך הגישה, לא הודעה שסוכם מתווה בדיקות או שפקחים הורשו לחזור.\n\nCBS/AFP מציינים שפקחי סבא״א ביקרו בתחנת בושהר בספטמבר, אך לא קיבלו גישה לאתרים אחרים שנפגעו בתקיפות, ובהם נתנז, פורדו ואיספהאן. ביקור בבושהר אינו מוכיח שניתנה גישה לאתרים אלה.\n\nהדברים מוסיפים את עמדתו המוצהרת של בכיר איראני למחלוקת על הפיקוח. הם אינם אישור לגילוי נשק גרעיני, להסטת חומר, להסכם חדש או לפתיחת האתרים מחדש. לא אומתו כאן הנוסח המלא של הריאיון או רשימה מלאה של תנאי איראן. אין בדיווח זה נתוני זרימת נפט או הוכחה לשינוי במחירו.",
+    "טקסט_en": "**Not verified against a primary source**\nNovember 16, 2026 | A CBS report attributed to AFP on Iranian Deputy Foreign Minister Kazem Gharibabadi's televised remarks late Sunday, November 15. The interview time and exact live-entry time were not verified; the blog-header update time is not the event time.\n\nAccording to the report, Gharibabadi said Iran would not grant the IAEA access to damaged facilities until Iran's conditions were met and the war had permanently ended. This states Iran's conditions for access, not an agreed inspection arrangement or permission for inspectors to return.\n\nCBS/AFP say IAEA inspectors visited the Bushehr power plant in September but have not gained access to other sites hit by strikes, including Natanz, Fordow and Isfahan. A Bushehr visit does not establish access to those sites.\n\nThe remarks add an Iranian official's stated position to the inspection dispute. They do not confirm a discovered nuclear weapon, diverted material, a new agreement or reopened sites. The full interview and a complete list of Iran's conditions were not verified here. This report provides no oil-flow data or proof of an oil-price effect.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dea36d900c79903517eaf759a5fd6b1395a9940c1f2d0640ce9a5f5008e49dd9"
+      }
+    }
   }
 ]
