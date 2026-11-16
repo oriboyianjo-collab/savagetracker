@@ -45809,5 +45809,75 @@
         "source_hash": "7899217b313de60c9b0d162f19d533237673355e85ef108847f29c0482b9c675"
       }
     }
+  },
+  {
+    "מזהה": "n-1724",
+    "category": "micro",
+    "חברה": "Abbott",
+    "חברה_en": "Abbott",
+    "symbols": [
+      "ABT"
+    ],
+    "sectors": [
+      "health-care"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:20",
+    "הועלה": "2026-11-16 09:20",
+    "כותרת": "פורסם באיחור | הודעת 21 באוקטובר | Abbott (ABT) מתכננת לפצל את עסקי התזונה לחברה ציבורית עצמאית עד סוף 2027",
+    "כותרת_en": "Published late | October 21 announcement | Abbott (ABT) plans to separate Nutrition into an independent public company by end-2027",
+    "summary": "המהלך מתוכנן באמצעות חלוקת מניות לבעלי מניות אבוט, וכפוף לאישורים. 8.5 מיליארד דולר הם המכירות השנתיות של העסק, לא שווי עסקה.",
+    "summary_en": "The planned share distribution to Abbott shareholders remains subject to approvals. The $8.5 billion figure is annual business sales, not a transaction value.",
+    "טקסט": "אבוט הודיעה ב-21 באוקטובר 2026 על כוונתה לפצל את עסקי התזונה הגלובליים לחברה ציבורית עצמאית, באמצעות חלוקת מניות לבעלי מניות אבוט. החברה מצפה להשלים את המהלך עד סוף 2027, בכפוף לאישורים רגולטוריים, לכניסת מסמך רישום Form 10 לתוקף ולאישור סופי של הדירקטוריון. זו הודעה על תוכנית לפיצול, לא על השלמתו.\n\nלפי ההודעה, לעסקי התזונה מכירות שנתיות של כ-8.5 מיליארד דולר, כ-16 אלף עובדים ו-14 אתרי ייצור. בין המותגים Similac, PediaSure, Pedialyte, Glucerna ו-Ensure. נתון המכירות מתאר את היקף העסק, לא תמורה שתשולם לאבוט. דניאל סלבדורי מיועד לעמוד בראש החברה החדשה.\n\nאבוט מתכוונת שהפיצול יהיה פטור ממס פדרלי בארה\"ב; זו כוונה לגבי מבנה העסקה, לא קביעה לגבי המס של כל בעל מניות. עד להשלמת הפיצול, עסקי התזונה ימשיכו לפעול כחלק מאבוט.\n\n**המקור מציין את 21 באוקטובר ללא שעה; שעת ההודעה המקורית בישראל לא אומתה.**",
+    "טקסט_en": "Abbott announced on October 21, 2026 that it intends to separate its global Nutrition business into an independent, publicly traded company through a share distribution to Abbott shareholders. It expects completion by the end of 2027, subject to regulatory approvals, an effective Form 10 registration statement and final board approval. This announces a planned separation, not a completed transaction.\n\nAccording to the release, Nutrition has about $8.5 billion in annual sales, around 16,000 employees and 14 manufacturing sites. Its brands include Similac, PediaSure, Pedialyte, Glucerna and Ensure. The sales figure describes the business, not proceeds to be paid to Abbott. Daniel Salvadori is set to lead the new company.\n\nAbbott intends the separation to be tax-free for US federal income tax purposes. This is an intended transaction structure, not a determination of each shareholder's tax treatment. Nutrition will continue operating within Abbott until the separation is completed.\n\n**The source gives October 21 without a time; the original announcement time in Israel was not verified.**",
+    "קישור": "https://abbott.mediaroom.com/2026-10-21-Abbott-announces-its-intention-to-separate-its-global-Nutrition-business-into-an-independent%2C-publicly-traded-company",
+    "מקורות": [
+      {
+        "url": "https://abbott.mediaroom.com/2026-10-21-Abbott-announces-its-intention-to-separate-its-global-Nutrition-business-into-an-independent%2C-publicly-traded-company",
+        "label": "אבוט: ההודעה המקורית על כוונת הפיצול, 21 באוקטובר",
+        "label_en": "Abbott: original October 21 separation intention announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "12f1476d8fb180c9a43f861d2af9df246899cd8c109b5fed36ed8121fe529699"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1725",
+    "category": "micro",
+    "חברה": "Comfort Systems USA",
+    "חברה_en": "Comfort Systems USA",
+    "symbols": [
+      "FIX"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:20",
+    "הועלה": "2026-11-16 09:20",
+    "כותרת": "פורסם באיחור | הודעת 22 באוקטובר | Comfort Systems USA (FIX): ביל ג׳ורג׳ יפרוש מתפקיד סמנכ\"ל הכספים לאחר הדוח השנתי ל-2026",
+    "כותרת_en": "Published late | October 22 announcement | Comfort Systems USA (FIX) CFO Bill George to retire after the 2026 annual report filing",
+    "summary": "ג׳ולי שאף מיועדת להחליפו עם פינוי התפקיד. לא נמסר יום פרישה קבוע, וההודעה אינה אומרת שהמעבר כבר נכנס לתוקף.",
+    "summary_en": "Julie Shaeff is set to succeed him when he vacates the role. No fixed retirement date was given, and the notice does not say the transition has already taken effect.",
+    "טקסט": "קומפורט סיסטמס USA הודיעה ב-22 באוקטובר 2026 כי סמנכ\"ל הכספים ביל ג׳ורג׳ יפרוש לאחר הגשת הדוח השנתי Form 10-K לשנה שתסתיים ב-31 בדצמבר 2026. ג׳ולי שאף, כיום סגנית נשיא בכירה וחשבת ראשית, תמונה ל-Executive Vice President ולסמנכ\"לית הכספים עם פינוי התפקיד על ידו.\n\nג׳ורג׳ נמנה עם מייסדי החברה ב-1997 ומשמש סמנכ\"ל כספים מאז מאי 2005. שאף משמשת חשבת ראשית מאז מאי 2005. החברה מציגה את המהלך כחלק מתוכנית הירושה הניהולית שלה.\n\n**לא פורסם יום פרישה קבוע, ואין בהודעה אישור שהמעבר כבר בוצע. המקור מציין את 22 באוקטובר ללא שעה; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "Comfort Systems USA announced on October 22, 2026 that CFO Bill George will retire after the company files its Form 10-K annual report for the year ending December 31, 2026. Julie Shaeff, currently Senior Vice President and Chief Accounting Officer, will become Executive Vice President and CFO when he vacates the role.\n\nGeorge helped found the company in 1997 and has been CFO since May 2005. Shaeff has been Chief Accounting Officer since May 2005. The company describes the move as part of its succession plan.\n\n**No fixed retirement day was disclosed, and the announcement does not confirm the transition has already occurred. The source gives October 22 without a time; the original publication time in Israel was not verified.**",
+    "קישור": "https://comfortsystemsusa.gcs-web.com/news-releases/news-release-details/comfort-systems-announces-2027-leadership-transition",
+    "מקורות": [
+      {
+        "url": "https://comfortsystemsusa.gcs-web.com/news-releases/news-release-details/comfort-systems-announces-2027-leadership-transition",
+        "label": "קומפורט סיסטמס: הודעת חילופי ההנהלה המקורית, 22 באוקטובר",
+        "label_en": "Comfort Systems: original October 22 leadership transition release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "608c51ff5da2ea0b9586ba5d2b2fb8e7c7385ea6ebc867d88ac450570317bcba"
+      }
+    }
   }
 ]
