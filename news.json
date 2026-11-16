@@ -53225,5 +53225,36 @@
         "source_hash": "7d0065348d1b28b1a3c99ff4356cdb1c56f54205d757fcf8d611fa0ff7b82ced"
       }
     }
+  },
+  {
+    "מזהה": "n-1959",
+    "category": "macro",
+    "חברה": "",
+    "חברה_en": "",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 21:34",
+    "הועלה": "2026-11-16 21:34",
+    "כותרת": "Fox: רוזוולט הגיעה ביום ראשון לאזור אחריות CENTCOM; הדיווח אינו אישור לתוכנית תקיפה",
+    "כותרת_en": "Fox reports Roosevelt arrived in CENTCOM's region on Sunday, not confirmation of strike plans",
+    "summary": "דיווח משני המייחס את המידע לגורם אמריקאי לא מזוהה; לא אומת מול הודעת הצבא.",
+    "summary_en": "Secondary report citing an unnamed US official; not verified against a military announcement.",
+    "קישור": "https://www.foxnews.com/politics/third-us-aircraft-carrier-arrives-middle-east-iran-rules-out-un-nuclear-inspections",
+    "מקורות": [
+      {
+        "url": "https://www.foxnews.com/politics/third-us-aircraft-carrier-arrives-middle-east-iran-rules-out-un-nuclear-inspections",
+        "label": "Fox News: report on Sunday carrier arrival",
+        "label_en": "Fox News: report on Sunday carrier arrival"
+      }
+    ],
+    "טקסט": "**פורסם באיחור. לא אומת מול מקור ראשוני.**\n\nמדובר בדיווח על יום ראשון, 15.11.2026, לא על הגעה חדשה היום. כתבת Fox News פורסמה ביום שני, 16.11.2026, בשעה 12:08 בחוף המזרחי של ארה״ב, 19:08 בישראל. שעת הפרסום המדויקת של הדיווח המקורי מיום ראשון לא אומתה.\n\nלפי הכתבה, נושאת המטוסים רוזוולט נכנסה ביום ראשון לאזור האחריות של פיקוד המרכז האמריקאי, CENTCOM. Fox מצטטת פוסט של ברק רביד מיום ראשון, שבו יוחס המידע לגורם אמריקאי לא מזוהה. לפי אותו דיווח, באזור היו בעקבות זאת שלוש קבוצות תקיפה של נושאות מטוסים אמריקאיות.\n\nהדיווח נסמך על גורם לא מזוהה; לא אומת אישור פומבי של הצבא להגעה. Fox מציינת שהפנטגון הפנה אותה ל-CENTCOM, שלא השיב מייד לבקשת התגובה שלה ביום שני.\n\nאזור האחריות של CENTCOM רחב. הדיווח אינו קובע מיקום מדויק, אינו מאשר תוכנית תקיפה חדשה ואינו מוכיח שההגעה משנה את המשימה המבצעית או מצביעה בפני עצמה על הסלמה חדשה.",
+    "טקסט_en": "**Published late. Not verified against a primary source.**\n\nThis concerns Sunday, November 15, 2026, not a new arrival today. The Fox News article was published Monday, November 16, 2026 at 12:08 EST, or 19:08 Israel time. The exact publication time of Sunday's original report was not verified.\n\nAccording to the article, the Roosevelt aircraft carrier entered the area overseen by US Central Command, CENTCOM, on Sunday. Fox quotes a Sunday post by Barak Ravid attributing the information to an unnamed US official. According to that report, the arrival brought the number of US aircraft-carrier strike groups in the region to three.\n\nThe report relies on an unnamed official; public military confirmation of the arrival was not verified. Fox says the Pentagon referred it to CENTCOM, which did not immediately answer its Monday request for comment.\n\nCENTCOM's area of responsibility is broad. The report does not establish a precise location, confirm new strike plans or prove that the arrival changes the operational mission or itself signals a new escalation.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c25601ca56834e3da4f6d5dd948e61c3a3f2aedafafb44a100ff098ad3ffe2ca"
+      }
+    }
   }
 ]
