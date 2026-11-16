@@ -52396,5 +52396,129 @@
         "source_hash": "f46ba9c5b29e89809e7731a9ae6ed418bf9e0b543014587752200fa6c7023366"
       }
     }
+  },
+  {
+    "מזהה": "n-1933",
+    "category": "micro",
+    "חברה": "CVS Health (CVS)",
+    "חברה_en": "CVS Health (CVS)",
+    "symbols": [
+      "CVS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:15",
+    "הועלה": "2026-11-16 18:15",
+    "כותרת": "לפי Investing.com, RBC הפחיתה יעד ל-CVS Health (CVS) ל-108 דולר מ-113; Outperform נשאר",
+    "כותרת_en": "Investing.com says RBC cut CVS Health (CVS) target to $108 from $113; Outperform retained",
+    "קישור": "https://www.investing.com/news/analyst-ratings/rbc-cuts-cvs-health-stock-price-target-on-separation-costs-93CH-5030032",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/analyst-ratings/rbc-cuts-cvs-health-stock-price-target-on-separation-costs-93CH-5030032",
+        "label": "Investing.com: דיווח משני; דוח הבנק לא נקרא",
+        "label_en": "Investing.com: secondary report; bank note not reviewed"
+      }
+    ],
+    "טקסט": "כתבת Investing.com מ-16.11.2026 מציגה 09:02, **אך אזור הזמן של חותמת הפרסום לא אומת.** אין כאן המרה לשעון ישראל על בסיס הנחה.\n\n**לא מאומת מול המקור הראשוני:** הכתבה המלאה נקראה; דוח RBC עצמו לא נקרא. לפי הדיווח, RBC Capital הפחיתה את מחיר היעד למניית CVS Health מ-113 ל-108 דולר והותירה דירוג Outperform. זו הפחתת מחיר יעד, לא הורדת דירוג.\n\nהכתבה מייחסת את העדכון להנחות ראשוניות על עלויות ואובדן סינרגיות במסגרת הפיצול המתוכנן, לאחר עדכון מודל סכום-החלקים. אלה הנחות האנליסט, לא עלות סופית שאישרה CVS או תחזית חדשה של החברה. הפיצול עצמו כבר סוקר בפיד בנפרד; אין כאן הודעה על השלמתו.\n\nמחיר היעד אינו הבטחת תשואה. נתוני אפסייד ומחיר מניה רגעי שמופיעים בכתבה לא מועתקים כאילו הם עדכניים לעת הקריאה.",
+    "טקסט_en": "The Investing.com article is dated November 16, 2026 and displays 09:02, **but the publication timestamp's timezone was not verified.** No Israel-time conversion is inferred.\n\n**Not verified against the primary source:** the full article was read; RBC's own note was not. The report says RBC Capital cut its CVS Health price target from $113 to $108 and kept an Outperform rating. This is a price-target reduction, not a rating downgrade.\n\nThe article attributes the change to initial assumptions about separation costs and dis-synergies after a sum-of-the-parts model update. These are analyst assumptions, not a final cost confirmed by CVS or new company guidance. The planned separation was already covered separately in the feed; this is not a completion announcement.\n\nA price target does not promise a return. The article's snapshot share price and implied upside are not copied as if current at reading time.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2e78d40c4603d375546b82c6a9e3316af48e607a1f2a72b07c5885c066cae1c8"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1934",
+    "category": "micro",
+    "חברה": "Arthur J. Gallagher (AJG)",
+    "חברה_en": "Arthur J. Gallagher (AJG)",
+    "symbols": [
+      "AJG"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:15",
+    "הועלה": "2026-11-16 18:15",
+    "כותרת": "לפי MarketBeat, Morgan Stanley העלתה יעד ל-Arthur J. Gallagher (AJG) ל-325 דולר מ-295; Overweight נשאר",
+    "כותרת_en": "MarketBeat says Morgan Stanley raised Arthur J. Gallagher (AJG) target to $325 from $295; Overweight retained",
+    "קישור": "https://www.marketbeat.com/instant-alerts/analyst-arthur-j-gallagher-co-nyse-ajg-stock-gets-price-target-increase-from-morgan-stanley-2026-11-16/",
+    "מקורות": [
+      {
+        "url": "https://www.marketbeat.com/instant-alerts/analyst-arthur-j-gallagher-co-nyse-ajg-stock-gets-price-target-increase-from-morgan-stanley-2026-11-16/",
+        "label": "MarketBeat: דיווח משני; דוח הבנק לא נקרא",
+        "label_en": "MarketBeat: secondary report; bank note not reviewed"
+      }
+    ],
+    "טקסט": "16.11.2026, 15:18:39 UTC, 17:18:39 בישראל, לפי חותמת הפרסום המובנית בכתבת MarketBeat. **שעת הפצת דוח הבנק המקורי אינה ידועה.**\n\n**לא מאומת מול המקור הראשוני:** הכתבה המלאה נקראה, אך דוח Morgan Stanley עצמו לא נקרא. MarketBeat, המפנה לדיווח Benzinga, מדווחת שהבנק העלה את מחיר היעד ל-Arthur J. Gallagher מ-295 ל-325 דולר והותיר דירוג Overweight.\n\nזהו שינוי במחיר היעד, לא העלאת דירוג ולא תחזית הכנסות חדשה של חברת תיווך הביטוח וניהול הסיכונים. סיכום דירוגי האנליסטים ונתוני המסחר הרגעיים שבכתבה אינם אותה פעולה של Morgan Stanley, ואינם מוצגים כאן כהמלצה אישית או כתשואה מובטחת.",
+    "טקסט_en": "November 16, 2026 at 15:18:39 UTC, 17:18:39 in Israel, according to MarketBeat's embedded publication timestamp. **The original bank note's distribution time is unknown.**\n\n**Not verified against the primary source:** the full article was read, but Morgan Stanley's own note was not. MarketBeat, citing Benzinga, reports that the bank raised its Arthur J. Gallagher price target from $295 to $325 and maintained Overweight.\n\nThis is a target change, not a rating upgrade or new company revenue guidance. The article's analyst-consensus summary and snapshot trading figures are separate from this Morgan Stanley action and are not presented as personal advice or guaranteed returns.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "556b80483c75f10afe199c42b3f5f0a0e614a619d379538edbd6bf0226617e0f"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1935",
+    "category": "micro",
+    "חברה": "Cummins (CMI)",
+    "חברה_en": "Cummins (CMI)",
+    "symbols": [
+      "CMI"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:15",
+    "הועלה": "2026-11-16 18:15",
+    "כותרת": "לפי MarketBeat, Morgan Stanley הפחיתה יעד ל-Cummins (CMI) ל-588 דולר מ-761; Overweight נשאר",
+    "כותרת_en": "MarketBeat says Morgan Stanley cut Cummins (CMI) target to $588 from $761; Overweight retained",
+    "קישור": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-cummins-nyse-cmi-stock-price-2026-11-16/",
+    "מקורות": [
+      {
+        "url": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-cummins-nyse-cmi-stock-price-2026-11-16/",
+        "label": "MarketBeat: דיווח משני; דוח הבנק לא נקרא",
+        "label_en": "MarketBeat: secondary report; bank note not reviewed"
+      }
+    ],
+    "טקסט": "16.11.2026, 15:18:35 UTC, 17:18:35 בישראל, לפי חותמת הפרסום המובנית בכתבת MarketBeat. **שעת הפצת דוח הבנק המקורי אינה ידועה.**\n\n**לא מאומת מול המקור הראשוני:** הכתבה המלאה נקראה, אך דוח Morgan Stanley עצמו לא נקרא. לפי MarketBeat, המצטטת את Benzinga, הבנק הפחית את מחיר היעד למניית Cummins מ-761 ל-588 דולר והותיר דירוג Overweight.\n\nלמרות הכותרת השלילית של אתר המקור, הפעולה המתוארת היא הפחתת יעד ולא הורדת דירוג. אין זו הפחתה חדשה של תחזית Cummins עצמה. סיכום תוצאות הרבעון שמופיע בהמשך הכתבה הוא רקע, לא פרסום תוצאות חדש מהיום, ואינו העדכון המרכזי כאן.",
+    "טקסט_en": "November 16, 2026 at 15:18:35 UTC, 17:18:35 in Israel, according to MarketBeat's embedded publication timestamp. **The original bank note's distribution time is unknown.**\n\n**Not verified against the primary source:** the full article was read, but Morgan Stanley's own note was not. MarketBeat, citing Benzinga, says the bank lowered its Cummins target from $761 to $588 and maintained Overweight.\n\nDespite the source website's negative headline, the reported action is a target reduction, not a rating downgrade. It is not a new reduction in Cummins' own guidance. The quarterly-results summary later in the article is background, not a new results release today or this item's main update.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2676981df84d66c91bdf47618ea74546fa97da2147447bc5dc0a91edc74721b0"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1936",
+    "category": "micro",
+    "חברה": "Allstate (ALL)",
+    "חברה_en": "Allstate (ALL)",
+    "symbols": [
+      "ALL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:15",
+    "הועלה": "2026-11-16 18:15",
+    "כותרת": "פורסם באיחור: לפי TheFly, Morgan Stanley העלתה יעד ל-Allstate (ALL) ל-275 דולר מ-260; Equal Weight נשאר",
+    "כותרת_en": "Published late: TheFly says Morgan Stanley raised Allstate (ALL) target to $275 from $260; Equal Weight retained",
+    "קישור": "https://www.tipranks.com/news/the-fly/allstate-price-target-raised-to-275-from-260-at-morgan-stanley-thefly-news",
+    "מקורות": [
+      {
+        "url": "https://www.tipranks.com/news/the-fly/allstate-price-target-raised-to-275-from-260-at-morgan-stanley-thefly-news",
+        "label": "TheFly / TipRanks: דיווח משני; דוח הבנק לא נקרא",
+        "label_en": "TheFly / TipRanks: secondary report; bank note not reviewed"
+      }
+    ],
+    "טקסט": "16.11.2026, 15:08:13 UTC, 17:08:13 בישראל, לפי חותמת הפרסום המובנית ב-TipRanks. **שעת הפצת דוח הבנק המקורי אינה ידועה.**\n\n**לא מאומת מול המקור הראשוני:** דיווח TheFly המלא, המופיע ב-TipRanks, נקרא; דוח Morgan Stanley עצמו לא נקרא. לפי הדיווח, הבנק העלה את יעד המחיר למניית Allstate מ-260 ל-275 דולר והותיר דירוג Equal Weight.\n\nTheFly מייחסת את העדכון לסקירת ענף ביטוח הרכוש והתאונות בצפון אמריקה: תוצאות הרבעון השלישי היו חיוביות באופן רחב, אך הבנק תיאר מגמה חלשה יותר לקראת 2027 והמשך התרככות במחזור הענפי. זו הערכת אנליסט לענף, לא תחזית כספית חדשה שאישרה Allstate.\n\nהעלאת היעד אינה העלאת דירוג ואינה מבטיחה תשואה. הכרזת הדיבידנד של Allstate שכבר פורסמה בפיד היא אירוע נפרד.",
+    "טקסט_en": "November 16, 2026 at 15:08:13 UTC, 17:08:13 in Israel, according to TipRanks' embedded publication timestamp. **The original bank note's distribution time is unknown.**\n\n**Not verified against the primary source:** the full TheFly report carried by TipRanks was read; Morgan Stanley's own note was not. The report says the bank raised its Allstate target from $260 to $275 and maintained Equal Weight.\n\nTheFly attributes the update to a North American property-and-casualty insurance review. Third-quarter earnings were broadly solid, but the bank described a weaker trend into 2027 and further softening in the industry cycle. This is an analyst's sector assessment, not new financial guidance confirmed by Allstate.\n\nThe target increase is not a rating upgrade and does not guarantee a return. Allstate's dividend announcement already covered in the feed is a separate event.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "008bc096600d23ce2385a4cd421eb25615eff4aca1915f6bb61f1d930215980f"
+      }
+    }
   }
 ]
