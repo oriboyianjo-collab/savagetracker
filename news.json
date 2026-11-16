@@ -45226,5 +45226,56 @@
         "source_hash": "ca9131ebd9672a6cda5edbd7aaf239ebce0ba1a873a29242044dc7903504a994"
       }
     }
+  },
+  {
+    "מזהה": "n-1710",
+    "category": "macro",
+    "חברה": "סין / כלכלה",
+    "חברה_en": "China / economy",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 04:08",
+    "הועלה": "2026-11-16 04:08",
+    "כותרת": "סין: התעשייה צמחה ב-4.8% והקמעונאות ב-0.4% באוקטובר; ההשקעות בינואר-אוקטובר ירדו ב-8.1%",
+    "כותרת_en": "China: industrial output rises 4.8% and retail sales 0.4% in October; January-October investment falls 8.1%",
+    "summary": "לפי הלשכה לסטטיסטיקה בסין (NBS): צמיחה שנתית בתעשייה ובמכירות הקמעונאיות באוקטובר, לצד ירידה מצטברת בהשקעות ובפעילות הנדל״ן. שיעור האבטלה העירונית בסקר ירד ל-5.1%.",
+    "summary_en": "NBS: annual growth in October industrial output and retail sales alongside year-to-date declines in investment and property activity. Surveyed urban unemployment falls to 5.1%.",
+    "טקסט": "16.11.2026 | פרסום אוקטובר של הלשכה הלאומית לסטטיסטיקה של סין, NBS. העמודים הרשמיים מציגים 10:00 ללא ציון מפורש של אזור זמן; שעת הפרסום המקורית בישראל לא אומתה. השעה מעל הכותרת היא מועד ההעלאה לאפליקציה.\n\nהערך המוסף בתעשייה במפעלים שמעל סף הגודל הסטטיסטי עלה באוקטובר ב-4.8% לעומת אוקטובר אשתקד, במונחים ריאליים, וב-0.21% לעומת ספטמבר. בינואר-אוקטובר הסתכמה העלייה השנתית המצטברת בתעשייה ב-5.3%. הנתון החודשי והנתון המצטבר מתייחסים לתקופות שונות.\n\nהמכירות הקמעונאיות של מוצרי צריכה עלו באוקטובר ב-0.4% לעומת שנה קודם וב-0.02% לעומת החודש הקודם. בינואר-אוקטובר הן עלו ב-1.0% לעומת התקופה המקבילה. אלה שיעורי שינוי נומינליים, לא מנוכי מחירים; אין להשוותם לצמיחה הריאלית בתעשייה כאילו הם אותו מדד.\n\nההשקעה בנכסים קבועים, ללא משקי בית חקלאיים, ירדה בינואר-אוקטובר ב-8.1% לעומת התקופה המקבילה, על בסיס בר-השוואה. ההשקעה הפרטית ירדה ב-11.4% וההשקעה בתשתיות ב-5.1%. אלה נתונים מצטברים מתחילת השנה, לא ירידות באוקטובר לבדו.\n\nבנדל״ן, ההשקעה בפיתוח ירדה בינואר-אוקטובר ב-21.6%, ושטח הנכסים המסחריים החדשים שנמכרו ירד ב-13.7%. המונח הסטטיסטי כולל דירות, משרדים ושטחי מסחר, לא נכסים עסקיים בלבד. בתת-הקבוצה למגורים ירד שטח המכירות ב-14.2%. אלה נתוני פעילות והשקעה, נפרדים ממדדי מחירי הדירות לפי קבוצות ערים שפורסמו מוקדם יותר.\n\nשיעור האבטלה העירונית הארצי על פי הסקר היה באוקטובר 5.1%, ירידה של 0.1 נקודת אחוז מספטמבר. מדובר בשיעור האבטלה הנסקר באזורים עירוניים, לא במדד אבטלה לכל האוכלוסייה.",
+    "טקסט_en": "November 16, 2026 | NBS October economic release. The official pages display 10:00 without an explicit timezone; the original Israel publication time was not verified. The time above the headline is the app upload time.\n\nValue added at industrial enterprises above the designated size rose 4.8% in October from a year earlier in real terms, and 0.21% from September. January-October industrial output rose 5.3% from the same period a year earlier. The monthly and cumulative figures cover different periods.\n\nRetail sales of consumer goods rose 0.4% in October from a year earlier and 0.02% from the previous month. January-October sales rose 1.0% from the same period a year earlier. These are nominal, not inflation-adjusted rates; they are not the same measure as real industrial growth.\n\nFixed-asset investment excluding rural households fell 8.1% in January-October from the same period a year earlier on a comparable basis. Private investment fell 11.4% and infrastructure investment 5.1%. These are year-to-date figures, not declines in October alone.\n\nProperty development investment fell 21.6% in January-October, while sales floor area of newly built commercial property fell 13.7%. The statistical category includes housing, offices and business premises, not business property alone. Residential sales floor area fell 14.2%. These are activity and investment figures, separate from the city-tier housing-price indices released earlier.\n\nNationwide surveyed urban unemployment was 5.1% in October, down 0.1 percentage point from September. This is surveyed unemployment in urban areas, not an unemployment measure covering the entire population.",
+    "קישור": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html",
+    "מקורות": [
+      {
+        "label": "NBS: הסקירה הרשמית לכלכלת אוקטובר",
+        "label_en": "NBS: official October economic overview",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html"
+      },
+      {
+        "label": "NBS: נתוני התעשייה וההגדרות",
+        "label_en": "NBS: industrial output and definitions",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965842.html"
+      },
+      {
+        "label": "NBS: מכירות קמעונאיות באוקטובר ובינואר-אוקטובר",
+        "label_en": "NBS: October and January-October retail sales",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html"
+      },
+      {
+        "label": "NBS: השקעות בנכסים קבועים בינואר-אוקטובר",
+        "label_en": "NBS: January-October fixed-asset investment",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965841.html"
+      },
+      {
+        "label": "NBS: פיתוח ומכירות נדל״ן בינואר-אוקטובר",
+        "label_en": "NBS: January-October property development and sales",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965840.html"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "95b0b6a3500570cc98726b422b23aa749c381c08e1a2d70a1375a4593f846fb8"
+      }
+    }
   }
 ]
