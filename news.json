@@ -45704,5 +45704,110 @@
         "source_hash": "15b3b96ed34decce84ac78ea84fc9ad4b927a8a4c915039e6526773e59264cbc"
       }
     }
+  },
+  {
+    "מזהה": "n-1721",
+    "category": "micro",
+    "חברה": "Microsoft",
+    "חברה_en": "Microsoft",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:14",
+    "הועלה": "2026-11-16 09:14",
+    "כותרת": "עדכון שותפים מ-11 בנובמבר | מיקרוסופט משנה מחירי ענן בחמישה מטבעות מ-1 בינואר 2027",
+    "כותרת_en": "November 11 partner notice | Microsoft changes cloud prices in five currencies from January 1, 2027",
+    "summary": "המחיר ברופי הודי יעלה ב-15.7% ובדולר ניו זילנדי ב-10%; בדולר אוסטרלי יירד ב-4%. אלה התאמות במטבעות מקומיים, לא העלאה עולמית בדולר.",
+    "summary_en": "Indian-rupee prices rise 15.7% and New Zealand-dollar prices rise 10%; Australian-dollar prices fall 4%. These are local-currency adjustments, not a global US-dollar increase.",
+    "טקסט": "מיקרוסופט פרסמה בעדכון השותפים מ-11 בנובמבר 2026 התאמות שנתיות למחירי הענן המסחרי במטבעות מקומיים, שייכנסו לתוקף ב-1 בינואר 2027. החברה מסבירה שהן נועדו להתאים את התמחור המקומי לרמות המחיר העולמיות, במסגרת מעבר לעדכון שנתי בכל ינואר שהוכרז ביולי.\n\nמחירי הענן ברופי הודי יעלו ב-15.7%, ובדולר ניו זילנדי ב-10%. בדולר אוסטרלי הם יירדו ב-4%, בקרונה נורווגית ב-5.9% וביואן סיני בעד 8.5%. מיקרוסופט מציינת ששיעורי השינוי במוצרים בודדים עשויים לסטות מעט בשל חישוב ועיגול מחירים.\n\nביואן סיני ההתאמה חלה על שירותי הענן הגלובליים של מיקרוסופט ועל Microsoft Cloud שמפעילה 21Vianet, **אך לא על Azure שמפעילה 21Vianet**. בתוכנה מקומית, מחיר ברופי הודי יעלה בעד 20% ובדולר ניו זילנדי ב-10%; בשלושת המטבעות האחרים לא מצוינת התאמה לתוכנה מקומית.\n\nזהו שינוי אזורי לפי מטבע התמחור, לא העלאת מחיר עולמית אחידה ולא גידול מוכר בהכנסות. **העדכון מציין את 11 בנובמבר ללא שעה; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In its November 11, 2026 partner notice, Microsoft set annual local-currency adjustments to commercial cloud prices, effective January 1, 2027. The company says the changes align local pricing more closely with global levels, under the move announced in July to one local-currency review each January.\n\nCloud prices rise 15.7% in Indian rupees and 10% in New Zealand dollars. They fall 4% in Australian dollars, 5.9% in Norwegian kroner and up to 8.5% in Chinese yuan. Microsoft says individual SKU changes may vary slightly because of pricing calculations and rounding.\n\nFor Chinese yuan, the change applies to Microsoft global cloud services and Microsoft Cloud operated by 21Vianet, **but excludes Microsoft Azure operated by 21Vianet**. On-premises prices rise by up to 20% in Indian rupees and 10% in New Zealand dollars; no on-premises adjustment is listed for the other three currencies.\n\nThese are regional changes by pricing currency, not a uniform global price increase or recognized revenue growth. **The notice gives November 11 without a time; the original publication time in Israel was not verified.**",
+    "קישור": "https://learn.microsoft.com/en-gb/partner-center/announcements/2026-november",
+    "מקורות": [
+      {
+        "url": "https://learn.microsoft.com/en-gb/partner-center/announcements/2026-november",
+        "label": "Microsoft Learn: עדכון מחירי מטבע מקומי, 11 בנובמבר",
+        "label_en": "Microsoft Learn: November 11 local-currency pricing notice"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0b815593686bca4c376a3e7834a5113bb24e983583ac755c7b4ce493c88c4e3c"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1722",
+    "category": "micro",
+    "חברה": "Visa",
+    "חברה_en": "Visa",
+    "symbols": [
+      "V"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:14",
+    "הועלה": "2026-11-16 09:14",
+    "כותרת": "ויזה וסמסונג משיקות תשלומי QR ב-Samsung Wallet באסיה-פסיפיק; אוסטרליה וסינגפור תחילה",
+    "כותרת_en": "Visa and Samsung launch Samsung Wallet QR payments in Asia Pacific; Australia and Singapore first",
+    "summary": "השירות מיועד למשתמשי Galaxy עם כרטיסי ויזה אצל בתי עסק משתתפים. הרחבה לשווקים נוספים צפויה ברבעונים הקרובים.",
+    "summary_en": "The service is for Galaxy users with Visa cards at participating merchants. Further market launches are expected over the coming quarters.",
+    "טקסט": "ויזה וסמסונג הודיעו ב-16 בנובמבר 2026 על השקת Visa Scan to Pay ב-Samsung Wallet באסיה-פסיפיק. אוסטרליה וסינגפור הן השווקים הראשונים שבהם השירות עולה לאוויר, והחברות צופות השקות נוספות ברבעונים הקרובים.\n\nלפי ההודעה, משתמשי Galaxy עם כרטיסי ויזה יוכלו לסרוק קודי QR של בתי עסק משתתפים ולאשר תשלום דרך הארנק, לרבות בנסיעות לחו\"ל. הזמינות תלויה בארנק, בשוק וברשת קבלת התשלומים; אין כאן הודעה שכל משתמש או כל בית עסק בעולם כבר נתמכים. לא פורסמו תנאים כספיים.\n\n**חותמת המפיץ היא 16 בנובמבר, 10:17 CST. פירוש אזור הזמן והשעה המקבילה בישראל לא אומתו.**",
+    "טקסט_en": "Visa and Samsung announced the launch of Visa Scan to Pay in Samsung Wallet across Asia Pacific on November 16, 2026. Australia and Singapore are the first live markets, with further launches expected over the next few quarters.\n\nAccording to the release, Galaxy users with Visa cards can scan participating merchants' QR codes and authorize payment through the wallet, including while traveling abroad. Availability depends on the wallet, market and acceptance network; this is not confirmation that every user or merchant worldwide is supported. Financial terms were not disclosed.\n\n**The distributor timestamp is November 16, 10:17 CST. The timezone meaning and corresponding Israel time were not verified.**",
+    "קישור": "https://www.prnewswire.com/apac/news-releases/visa-and-samsung-bring-scan-to-pay-to-mobile-devices-across-asia-pacific-with-samsung-wallet-302939851.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/apac/news-releases/visa-and-samsung-bring-scan-to-pay-to-mobile-devices-across-asia-pacific-with-samsung-wallet-302939851.html",
+        "label": "הודעת ויזה המקורית דרך PR Newswire",
+        "label_en": "Original Visa announcement via PR Newswire"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5a7da24d6b28e4fa83fbe3939e1ba03c82176f3a3da4499cdf29169e918c1134"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1723",
+    "category": "micro",
+    "חברה": "Mastercard",
+    "חברה_en": "Mastercard",
+    "symbols": [
+      "MA"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:14",
+    "הועלה": "2026-11-16 09:14",
+    "כותרת": "מאמבו ומאסטרקארד מרחיבות שיתוף פעולה לתשלומים חוצי גבולות באסיה-פסיפיק",
+    "כותרת_en": "Mambu and Mastercard expand cross-border payments collaboration into Asia Pacific",
+    "summary": "החיבור המתוכנן בין Mambu Intelligent Core ל-Mastercard Move נועד לאפשר לבנקים להוסיף שירותי תשלום בינלאומיים. אין אישור לפריסה אצל כל לקוחות מאמבו.",
+    "summary_en": "The planned connection between Mambu Intelligent Core and Mastercard Move is intended to let banks add international payment services. It does not confirm deployment to every Mambu customer.",
+    "טקסט": "מאמבו ומאסטרקארד הודיעו על הרחבת שיתוף הפעולה ביניהן לאסיה-פסיפיק. לפי הודעת מאמבו, היא תחבר את Mastercard Move לפלטפורמת Intelligent Core שלה, כדי לאפשר למוסדות פיננסיים להציע תשלומים חוצי גבולות לעסקים קטנים ובינוניים וללקוחות פרטיים.\n\nהחיבור המוכן מראש נועד לצמצם את מורכבות ההטמעה בתוך שירותי בנקאות דיגיטלית. זהו תיאור של אינטגרציה מתוכננת, לא אישור שכל הבנקים הלקוחות כבר השיקו אותה. לא נמסרו שווי ההסכם, מספר הבנקים שיצטרפו או מועד השלמה.\n\nחותמת הפרסום של GlobeNewswire היא 15 בנובמבר 2026 בשעה 20:00 לפי שעון מזרח ארה\"ב, כלומר 16 בנובמבר ב-03:00 בישראל. תאריך ההודעה בגוף המקור הוא 15 בנובמבר.",
+    "טקסט_en": "Mambu and Mastercard announced an expansion of their collaboration into Asia Pacific. According to Mambu's release, it will connect Mastercard Move to its Intelligent Core platform so financial institutions can offer cross-border payments to small and medium-sized businesses and retail customers.\n\nThe pre-built connection is intended to reduce integration complexity within digital banking services. This describes a planned integration, not confirmation that every client bank has launched it. The release does not disclose contract value, the number of banks joining or a completion date.\n\nThe GlobeNewswire publication timestamp is November 15, 2026 at 20:00 US Eastern, which is November 16 at 03:00 Israel time. The source body is dated November 15.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3403132/0/en/mambu-and-mastercard-expand-cross-border-payment-capabilities-for-banks-across-apac.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3403132/0/en/mambu-and-mastercard-expand-cross-border-payment-capabilities-for-banks-across-apac.html",
+        "label": "הודעת מאמבו המקורית דרך GlobeNewswire",
+        "label_en": "Original Mambu announcement via GlobeNewswire"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7899217b313de60c9b0d162f19d533237673355e85ef108847f29c0482b9c675"
+      }
+    }
   }
 ]
