@@ -47708,5 +47708,157 @@
         "source_hash": "ce30cd482ea513fe4eebd71e50738b5e28a8c71e730537ce0b60f1d72b5289c0"
       }
     }
+  },
+  {
+    "מזהה": "n-1781",
+    "category": "micro",
+    "חברה": "SPGI",
+    "symbols": [
+      "SPGI"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:36",
+    "הועלה": "2026-11-16 13:36",
+    "כותרת": "פורסם באיחור | S&P Global (SPGI) השלימה את רכישת OpenZeppelin בתחום אבטחת הבלוקצ׳יין",
+    "כותרת_en": "Published late | S&P Global (SPGI) completed its acquisition of blockchain security company OpenZeppelin",
+    "קישור": "https://press.spglobal.com/2026-10-26-S-P-Global-Completes-Acquisition-of-OpenZeppelin",
+    "מקורות": [
+      {
+        "url": "https://press.spglobal.com/2026-10-26-S-P-Global-Completes-Acquisition-of-OpenZeppelin",
+        "label": "S&P Global: הודעת השלמת הרכישה, 26 באוקטובר",
+        "label_en": "S&P Global: October 26 acquisition completion announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת S&P Global מ-26.10.2026 נקראה במלואה. שעת פרסום המקור בישראל לא אומתה. זו השלמת עסקה שעליה הוכרז לראשונה ב-17 בספטמבר, לא רכישה חדשה שהושלמה היום.\n\nS&P Global הודיעה שהשלימה את רכישת OpenZeppelin, המספקת בדיקות אבטחה ופיתוח לתשתיות בלוקצ׳יין וחוזים חכמים. הרכישה מרחיבה את יכולות הערכת הסיכונים הטכנולוגיים של הקבוצה בשווקים פיננסיים המבוססים על בלוקצ׳יין.\n\nOpenZeppelin תמשיך כיחידה עסקית בשמה, בהובלת המייסד Demian Brener, שידווח לנשיא S&P Global Ratings. לפי ההודעה, ספריית OpenZeppelin Contracts תישאר בקוד פתוח, חינמית ומתוחזקת לציבור.\n\nהתנאים הכספיים לא פורסמו. S&P Global אומרת שהעסקה אינה צפויה להשפיע מהותית על תוצאותיה הכספיות. נתוני השימוש ההיסטוריים בספרייה אינם מחיר הרכישה, הכנסות החברה או נכסים בניהולה.",
+    "טקסט_en": "Published late | S&P Global's October 26, 2026 announcement was read in full. The source publication time in Israel was not verified. This is completion of a deal first announced on September 17, not a new acquisition completed today.\n\nS&P Global announced it had completed the acquisition of OpenZeppelin, which provides security assessments and development for blockchain infrastructure and smart contracts. The acquisition expands the group's technology-risk assessment capabilities in onchain financial markets.\n\nOpenZeppelin will continue as its own business unit under its existing name, led by founder Demian Brener, reporting to the president of S&P Global Ratings. The company says the OpenZeppelin Contracts library will remain open source, free and publicly maintained.\n\nFinancial terms were not disclosed. S&P Global says the transaction is not expected to materially affect its financial results. Historical library usage figures are not the acquisition price, revenue or assets under management.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "672d2d41ded1b5599dc3628c1f525039ab526c5b516a9ce841d1a6e10e6d6ae4"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1782",
+    "category": "micro",
+    "חברה": "NEM",
+    "symbols": [
+      "NEM",
+      "B"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:36",
+    "הועלה": "2026-11-16 13:36",
+    "כותרת": "פורסם באיחור | Newmont (NEM) ו-Barrick (B) הסכימו להרחיב את נכסי המיזם בנבאדה; תמורה מתוכננת של 1.95 מיליארד דולר",
+    "כותרת_en": "Published late | Newmont (NEM) and Barrick (B) agreed to expand Nevada JV assets, with $1.95 billion consideration planned",
+    "קישור": "https://investors.newmont.com/investors/news-release/news-details/2026/Newmont-and-Barrick-Reach-Agreement-Regarding-Nevada-Gold-Mines-Joint-Venture/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.newmont.com/investors/news-release/news-details/2026/Newmont-and-Barrick-Reach-Agreement-Regarding-Nevada-Gold-Mines-Joint-Venture/default.aspx",
+        "label": "Newmont: הסכם מיזם Nevada Gold Mines, 10 באוגוסט",
+        "label_en": "Newmont: August 10 Nevada Gold Mines JV agreement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת Newmont מ-10.8.2026 נקראה במלואה. שעת פרסום המקור בישראל לא אומתה. אין כאן הודעה על הסכם חדש מהיום.\n\nNewmont ו-Barrick הגיעו להסכם שלפיו נכסים שלא נכללו קודם במיזם Nevada Gold Mines יוכנסו למיזם: Fourmile של Barrick, וכן פיתוחי Fiberline ו-Mike של Newmont. ההסכם מסיים את כל המחלוקות הפתוחות בין הצדדים הנוגעות למיזם וכולל הוראות ממשל משופרות.\n\nההסכם קובע תמורה של 1.95 מיליארד דולר מ-Newmont ל-Barrick בגין הכנסת הנכסים. ההודעה מתארת העברת נכסים ותמורה עתידיות; היא אינה מוכיחה שהתשלום וההעברות כבר הושלמו.\n\nNewmont נתנה את הסכמתה להנפקה המתוכננת של נכסי הזהב הצפון-אמריקאיים של Barrick. זו הסכמה לתוכנית, לא אישור שההנפקה בוצעה, תומחרה או קיבלה את כל האישורים הנדרשים.",
+    "טקסט_en": "Published late | Newmont's August 10, 2026 announcement was read in full. The original publication time in Israel was not verified. This is not a new agreement announced today.\n\nNewmont and Barrick reached an agreement under which previously excluded properties will be contributed to the Nevada Gold Mines joint venture: Barrick's Fourmile and Newmont's Fiberline and Mike developments. The agreement concludes all outstanding disputes between the parties concerning the JV and includes enhanced governance provisions.\n\nThe agreement provides for $1.95 billion in consideration from Newmont to Barrick for the property contributions. The announcement describes prospective contributions and consideration; it does not establish that the transfers or payment have been completed.\n\nNewmont provided consent to Barrick's proposed IPO of its North American gold assets. Consent to a proposal does not mean the IPO has been completed, priced or obtained every required approval.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "709e70cfa9612ef438632685908b81ba32711afd911b426d6d325268e096f43a"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1783",
+    "category": "micro",
+    "חברה": "NVT",
+    "symbols": [
+      "NVT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:36",
+    "הועלה": "2026-11-16 13:36",
+    "כותרת": "פורסם באיחור | nVent Electric (NVT) שכרה אתר ייצור באריזונה; תחילת ייצור מתוכננת לאמצע 2027",
+    "כותרת_en": "Published late | nVent Electric (NVT) leased an Arizona manufacturing site, with production planned for mid-2027",
+    "קישור": "https://investors.nvent.com/press-releases/press-release-details/2026/nVent-Expands-Engineered-Buildings-Manufacturing-Capacity-with-New-U-S--Production-Facility/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.nvent.com/press-releases/press-release-details/2026/nVent-Expands-Engineered-Buildings-Manufacturing-Capacity-with-New-U-S--Production-Facility/default.aspx",
+        "label": "nVent: אתר ייצור חדש בגודייר, 27 באוקטובר",
+        "label_en": "nVent: October 27 Goodyear production facility announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת nVent מ-27.10.2026 נקראה במלואה. שעת פרסום המקור בישראל לא אומתה. זו תוכנית הרחבת ייצור שפורסמה אז, לא פתיחת מפעל היום.\n\nnVent הודיעה ששכרה שטח ייצור של כ-400 אלף רגל רבועה בגודייר, אריזונה. האתר נועד להרחיב ייצור מבנים הנדסיים, ובהם מבני חשמל מוכנים מראש, לפרויקטי תשתית של חברות חשמל, מרכזי נתונים ותעשייה.\n\nהחברה צופה שייצור יתחיל באמצע 2027, ושהאתר יעסיק יותר מ-200 עובדים לאחר שיפעל במלואו. אלה יעדי חברה, לא אישור שהאתר כבר מייצר או שכל המשרות אוישו. סכום השקעה ותוספת תפוקה או הכנסות לא נמסרו בהודעה.\n\nקשור לפריט על רכישת Maverick Power שהועלה ב-16.11 בשעה 12:38: זהו אתר ייצור שכור נוסף, ולא שלב השלמה נוסף באותה רכישה. שני האירועים נוגעים להרחבת תשתיות החשמל, אך אין לחבר את סכומי הרכישה להשקעה באתר.",
+    "טקסט_en": "Published late | nVent's October 27, 2026 announcement was read in full. The original publication time in Israel was not verified. This is the expansion plan announced then, not a factory opening today.\n\nnVent announced a lease for approximately 400,000 square feet of manufacturing space in Goodyear, Arizona. The site is intended to expand production of engineered buildings, including prefabricated electrical houses, for utilities, data centers, industrial and other infrastructure projects.\n\nThe company expects production to start in mid-2027 and more than 200 employees once the site is fully operational. These are company targets, not confirmation that production has begun or all jobs have been filled. The release did not disclose an investment amount or added output or revenue.\n\nRelated to the Maverick Power acquisition item uploaded November 16 at 12:38: this is a separate leased manufacturing site, not another closing stage of that acquisition. Both concern power infrastructure expansion, but the acquisition consideration is not investment in this site.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8829b3e4954e10904fbd651b9bfdd7ef00115ad4084c0ece58fdc75537deed45"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1784",
+    "category": "micro",
+    "חברה": "EEFT",
+    "symbols": [
+      "EEFT",
+      "SAN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:36",
+    "הועלה": "2026-11-16 13:36",
+    "כותרת": "Euronet (EEFT) ו-Getnet של Santander (SAN) הודיעו על שילוב החזרי מע״מ במסופי תשלום בספרד",
+    "כותרת_en": "Euronet (EEFT) and Santander (SAN) Getnet announce VAT refund integration in Spanish payment terminals",
+    "קישור": "https://www.stocktitan.net/news/EEFT/euronet-and-santander-group-s-getnet-partner-to-integrate-tax-free-6ldzubffud96.html",
+    "מקורות": [
+      {
+        "url": "https://www.stocktitan.net/news/EEFT/euronet-and-santander-group-s-getnet-partner-to-integrate-tax-free-6ldzubffud96.html",
+        "label": "הודעת Euronet ב-GlobeNewswire, דרך StockTitan",
+        "label_en": "Euronet GlobeNewswire release via StockTitan"
+      }
+    ],
+    "טקסט": "16.11.2026, 12:00 בישראל (05:00 EST) | שעת הפצת ההודעה כפי שמוצגת ב-StockTitan. **לא מאומת מול מקור ראשוני.** נוסח הודעת Euronet בהפצת GlobeNewswire נקרא במלואו ב-StockTitan; אתר החברה לא אומת ישירות.\n\nEuronet הודיעה על שותפות עם Getnet, פלטפורמת התשלומים של קבוצת Santander, לשילוב שירותי Tax Free במסופי התשלום של סוחרים בספרד. המערכת נועדה לאפשר קבלת תשלום והנפקה והדפסה של מסמכי החזר מע״מ באותו מכשיר, באמצעות יישום מבוסס Android.\n\nלפי ההודעה, המסוף מזהה זכאות אפשרית לפי המדינה המשויכת לכרטיס התשלום ומנחה את צוות החנות בתהליך. זיהוי אפשרות לזכאות אינו אישור אוטומטי שכל קונה זכאי או שהחזר המס כבר שולם.\n\nלא נמסרו תמורה כספית, הכנסות צפויות, מספר מסופים שכבר הופעלו או מועד פריסה מלא. נתוני פעילות Getnet לשנת 2025 הם רקע על החברה, ולא היקף העסקה החדשה או התחייבות להכנסות Euronet.",
+    "טקסט_en": "November 16, 2026, 12:00 Israel time (05:00 EST) | Release distribution time displayed by StockTitan. **Not verified against a primary source.** The complete Euronet GlobeNewswire release was read via StockTitan; the company website was not checked directly.\n\nEuronet announced a partnership with Santander Group's payments platform Getnet to integrate Tax Free services into payment terminals for merchants in Spain. An Android-based terminal application is intended to combine payment acceptance with issuing and printing VAT refund documents on one device.\n\nAccording to the release, the terminal identifies potential eligibility from the country associated with a payment card and guides store staff through the process. Potential eligibility is not automatic confirmation that every shopper qualifies or that a refund has already been paid.\n\nThe release did not disclose financial consideration, expected revenue, the number of terminals already activated or a complete rollout date. Getnet's 2025 operating figures are company background, not the size of the new partnership or committed Euronet revenue.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "52adbcd6d1390bc915f04adddcab9353beced226bff0d3fa864ce98f6b0461f6"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1785",
+    "category": "micro",
+    "חברה": "META",
+    "symbols": [
+      "META"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:36",
+    "הועלה": "2026-11-16 13:36",
+    "כותרת": "Meta (META): לפי dpa, ארגוני מו״לים בגרמניה דרשו התחייבות משפטית לוותר על שינוי תנאי השימוש",
+    "כותרת_en": "Meta (META): dpa reports German publisher groups demand a binding pledge to abandon terms changes",
+    "קישור": "https://www.handelsblatt.com/unternehmen/dienstleister/journalismus-verlegerverbaende-mahnen-meta-wegen-nutzungsbedingungen-ab/100270185.html",
+    "מקורות": [
+      {
+        "url": "https://www.handelsblatt.com/unternehmen/dienstleister/journalismus-verlegerverbaende-mahnen-meta-wegen-nutzungsbedingungen-ab/100270185.html",
+        "label": "dpa דרך Handelsblatt: התראה משפטית של ארגוני המו״לים",
+        "label_en": "dpa via Handelsblatt: publisher groups legal notice"
+      }
+    ],
+    "טקסט": "16.11.2026 | דיווח dpa דרך Handelsblatt נקרא במלואו. **לא מאומת מול מקור ראשוני. הדף מציג 11:02 ללא אזור זמן מאומת, ולכן שעת הפרסום בישראל לא אומתה.**\n\nלפי הדיווח, ארגוני המו״לים הגרמניים BDZV ו-MVFP שלחו ל-Meta התראה משפטית רשמית ודרשו התחייבות להימנע משינויי תנאי השימוש השנויים במחלוקת. השינויים הושהו ללא מועד חדש, אך לא נמשכו סופית; הארגונים מבקשים התחייבות מחייבת לוותר עליהם.\n\nלטענת הארגונים, הנוסח היה מאפשר שימוש אוטומטי גם בתוכן מאתרי מו״לים שמחוץ לפלטפורמות החברה. הם דורשים גם שמו״לים המתנגדים לשימוש בתוכן לא ייפגעו בחשיפה בפייסבוק ובאינסטגרם. אלה טענות ודרישות הארגונים, לא ממצאי בית משפט.\n\nקשור לידיעות הקודמות על השהיית התנאים ועל חקירת התחרות בבריטניה. החדש הוא דרישת התחייבות משפטית מצד ארגוני המו״לים בגרמניה, לא חזרה של התנאים לתוקף. אין בדיווח אישור להגשת תביעה לבית משפט, פסק דין, קנס או פתיחת חקירת DMA חדשה בידי הנציבות האירופית.",
+    "טקסט_en": "November 16, 2026 | The complete dpa report via Handelsblatt was read. **Not verified against a primary source. The page displays 11:02 without a verified timezone, so the publication time in Israel was not verified.**\n\nThe report says German publisher groups BDZV and MVFP sent Meta a formal legal warning demanding a binding undertaking to refrain from disputed terms changes. The changes were suspended indefinitely but not permanently withdrawn; the groups want a legally binding commitment to abandon them.\n\nThe groups allege the proposed wording would permit automated use of publishers' content outside Meta's platforms. They also demand that publishers objecting to content use not be disadvantaged on Facebook and Instagram. These are the groups' allegations and demands, not court findings.\n\nRelated to the earlier stories on the suspended terms and the UK competition investigation. The new step is the German publisher groups' demand for a binding undertaking, not reinstatement of the terms. The report does not establish a filed court lawsuit, judgment, fine or new European Commission DMA investigation.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c74babcd48c262b86ed1b57b0f3ae7d18fcf39ae60728d78b0d812d29bb0c0f5"
+      }
+    }
   }
 ]
