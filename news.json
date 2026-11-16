@@ -45199,7 +45199,7 @@
     "symbols": [],
     "sectors": [],
     "tags_version": 1,
-    "תאריך": "2026-11-16",
+    "תאריך": "2026-11-16 03:40",
     "הועלה": "2026-11-16 03:40",
     "כותרת": "סין: הירידות השנתיות במחירי הדיור התמתנו באוקטובר; מחירי דירות חדשות בערי הדרג הראשון נותרו ללא שינוי חודשי",
     "כותרת_en": "China: annual housing-price declines narrow in October; first-tier new-home prices flat month on month",
@@ -45223,7 +45223,7 @@
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "353ee057a27884adc6b186867f51cb0cd907080bd4951d89090a16a672fc95e0"
+        "source_hash": "ca9131ebd9672a6cda5edbd7aaf239ebce0ba1a873a29242044dc7903504a994"
       }
     }
   }
