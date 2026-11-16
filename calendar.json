@@ -4393,5 +4393,30 @@
         "source_hash": "c453dae256be06e4986e272914dc555b1a66f9efcdd141b4e824ccddc311a41f"
       }
     }
+  },
+  {
+    "מזהה": "c-0188",
+    "תאריך": "2026-11-16",
+    "מדינה": "US",
+    "אירוע": "סקר החברות של קליבלנד: ציפיות CPI ל-12 חודשים",
+    "אירוע_en": "Cleveland firms survey: 12-month CPI inflation expectations",
+    "תקופה": "רבעון רביעי 2026",
+    "תקופה_en": "Fourth quarter 2026",
+    "חשיבות": 2,
+    "בפועל": "3.5%",
+    "צפי": "",
+    "קודם": "3.3%",
+    "מקור": "https://www.clevelandfed.org/indicators-and-data/survey-of-firms-inflation-expectations",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.clevelandfed.org/indicators-and-data/survey-of-firms-inflation-expectations",
+      "https://www.forexfactory.com/calendar/909-us-cleveland-fed-inflation-expectations"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-16",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a0cb1a604263bb4db5919777d54920f0a771c386b5603940d3392c9113e77e54"
+      }
+    }
   }
 ]
