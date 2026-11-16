@@ -49085,5 +49085,35 @@
         "source_hash": "23413cd1be7f34862ceab91242bca6ace3b48040dc73c7b00d5a9258b2bfd4a4"
       }
     }
+  },
+  {
+    "מזהה": "n-1826",
+    "category": "micro",
+    "חברה": "WING",
+    "symbols": [
+      "WING"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:38",
+    "הועלה": "2026-11-16 14:38",
+    "כותרת": "Wingstop הכריזה על Sizzlin' Sichuan לזמן מוגבל בארה\"ב: גישה לחברי מועדון מ-20 בנובמבר והשקה רחבה מ-24 בנובמבר",
+    "כותרת_en": "Wingstop announces limited-time US Sizzlin' Sichuan flavor: member access November 20, wider launch November 24",
+    "קישור": "https://www.prnewswire.com/news-releases/wingstop-brings-the-buzz-this-holiday-season-with-new-sizzlin-sichuan-flavor-302939102.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/wingstop-brings-the-buzz-this-holiday-season-with-new-sizzlin-sichuan-flavor-302939102.html",
+        "label": "Wingstop דרך PR Newswire: הודעת ההשקה מ-16 בנובמבר",
+        "label_en": "Wingstop via PR Newswire: November 16 launch announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 07:30 ET, 14:30 בישראל לפי חישוב אזורי הזמן. הודעת Wingstop המקורית המלאה דרך PR Newswire נקראה. זו הכרזה היום על זמינות עתידית, לא מוצר שכבר הושק היום בכל הסניפים.\n\nWingstop הכריזה על Sizzlin' Sichuan, טעם עונתי לזמן מוגבל המשלב פלפל סצ'ואן, ג'ינג'ר חריף, סויה ושום. לפי החברה, הוא יוצע בארה\"ב בסניפים משתתפים וכל עוד המלאי זמין.\n\nחברי Club Wingstop יקבלו גישה מוקדמת החל מיום שישי, 20 בנובמבר 2026. ההרחבה לתפריטים ברחבי ארה\"ב מתוכננת ליום שלישי, 24 בנובמבר. אין בהודעה התחייבות לזמינות בכל מסעדה בעולם או בישראל.\n\nהטעם מיועד לכנפיים רגילות וללא עצם, טנדרס וכריכי עוף. החברה מציינת גם אפשרות להזמינו במסגרת Watch Party Bundle, שמחירו מתחיל ב-7 דולר לאדם; זהו מחיר התחלתי שמופיע בהודעה, לא מחיר סופי שנבדק בהזמנה מסוימת.\n\nלא נמסרו תחזית מכירות, היקף הזמנות או שינוי בהנחיות הכספיות עקב ההשקה. משך המבצע מוגדר כזמן מוגבל וכל עוד המלאי זמין, ללא תאריך סיום מדויק בהודעה.",
+    "טקסט_en": "November 16, 2026 at 07:30 ET, or 14:30 Israel time by timezone calculation. Wingstop's complete original release carried by PR Newswire was read. This is today's announcement of future availability, not a product already launched at every location today.\n\nWingstop announced Sizzlin' Sichuan, a limited-time seasonal flavor combining Sichuan peppercorns, spicy ginger, soy and garlic. The company says it will be available at participating US locations while supplies last.\n\nClub Wingstop members receive early access from Friday, November 20, 2026. The wider US menu launch is planned for Tuesday, November 24. The release does not promise availability at every restaurant worldwide or in Israel.\n\nThe flavor is intended for classic and boneless wings, tenders and chicken sandwiches. The company also includes it in the Watch Party Bundle, starting at $7 per person. That is the release's advertised starting price, not a verified final price for a particular order.\n\nNo sales forecast, order volume or change in financial guidance tied to the launch was disclosed. Availability is described as limited-time and while supplies last, with no exact end date stated.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c3cc59e358cb3d4a6f7c25948daf47991b50d820ddb42b3d9608749802ba4474"
+      }
+    }
   }
 ]
