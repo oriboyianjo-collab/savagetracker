@@ -49530,5 +49530,65 @@
         "source_hash": "fe5b4678c5610867f8a64c7a2c11423f33316e54f0f779d61c4bc304f8b34c33"
       }
     }
+  },
+  {
+    "מזהה": "n-1841",
+    "category": "micro",
+    "חברה": "WFRD",
+    "symbols": [
+      "WFRD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:11",
+    "הועלה": "2026-11-16 15:11",
+    "כותרת": "לפי StreetInsider, Weatherford זכתה בחוזה MPD לקידוחי מים עמוקים של Constellation בברזיל על Amaralina Star",
+    "כותרת_en": "StreetInsider: Weatherford wins Constellation deepwater MPD contract in Brazil aboard Amaralina Star",
+    "קישור": "https://www.streetinsider.com/Corporate+News/Weatherford+wins+deepwater+MPD+contract+with+Constellation+in+Brazil/27348694.html",
+    "מקורות": [
+      {
+        "url": "https://www.streetinsider.com/Corporate+News/Weatherford+wins+deepwater+MPD+contract+with+Constellation+in+Brazil/27348694.html",
+        "label": "StreetInsider: דיווח חוזה Weatherford מ-16 בנובמבר",
+        "label_en": "StreetInsider: November 16 Weatherford contract report"
+      }
+    ],
+    "טקסט": "16.11.2026, 08:00 EST, שהם 15:00 בישראל לפי חישוב America/New_York ל-Asia/Jerusalem. **לא מאומת מול מקור ראשוני: פרטי החוזה מבוססים על כתבת StreetInsider המצטטת הודעת חברה; נוסח ההודעה המקורי לא אומת כאן ישירות.**\n\nלפי הדיווח, Constellation Oil Services העניקה ל-Weatherford חוזה לטכנולוגיה ולציוד קידוח בלחץ מנוהל (MPD) במסגרת קמפיין חיפוש במים עמוקים בברזיל. העבודה מתייחסת לאוניית הקידוח Amaralina Star, לא לחוזה הישן על כלי שיט אחר.\n\nהדיווח מתאר זכייה אחת הכוללת תקופת השכרת ציוד ראשונית של 12 חודשים, מכירת מערכת MPD המיועדת למסירה בתוך 12 חודשים, והסכם שירותי המשך לשנתיים. אין לחבר את התקופות אוטומטית למשך חוזה כולל של ארבע שנים, משום שלא מפורט כיצד הן חופפות או מתי כל רכיב מתחיל.\n\nלפי הכתבה, הזכייה מגיעה לאחר חוזה MPD נפרד ממאי 2026. התמיכה התפעולית לחוזה החדש תינתן ממרכז Managed Pressure Wells של Weatherford ביוסטון. עצם הזכייה אינה אישור שהמערכת כבר נמסרה או שהכנסות מלוא החוזה כבר הוכרו.\n\nלא נמסרו שווי החוזה, נפח קידוחים מובטח, שיעור רווח או תאריך התחלה מדויק. הצגת ברזיל כשוק צמיחה היא דברי הנהלת Weatherford המצוטטים, ולא תחזית כספית חדשה שניתנה בכתבה.",
+    "טקסט_en": "November 16, 2026 at 08:00 EST, equivalent to 15:00 in Israel by America/New_York to Asia/Jerusalem timezone calculation. **Not verified against a primary source: the contract details come from a StreetInsider article citing a company release; the original release text has not been directly verified here.**\n\nThe report says Constellation Oil Services awarded Weatherford a contract for managed pressure drilling (MPD) technology and equipment for a deepwater exploration campaign in Brazil. It concerns the Amaralina Star drillship, not an older award for another vessel.\n\nIt describes a single award comprising an initial 12-month equipment rental, sale of an MPD system for delivery within 12 months, and a two-year aftermarket services agreement. Those periods should not automatically be added into a four-year overall contract because their overlap and individual starting dates are not specified.\n\nThe article says the award follows a separate May 2026 MPD contract. Operations will be supported by Weatherford's Managed Pressure Wells Center of Excellence in Houston. An award does not establish that the system has already been delivered or that all associated revenue has been recognized.\n\nNo contract value, guaranteed drilling volume, margin or exact start date was provided. Management's description of Brazil as a growth market is a quoted company view, not new financial guidance in the article.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a0167d688ce062f269d1308ad5e20016f33db09aea59f271c559dc23b2baabd6"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1842",
+    "category": "micro",
+    "חברה": "APTV",
+    "symbols": [
+      "APTV"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:11",
+    "הועלה": "2026-11-16 15:11",
+    "כותרת": "לפי TARSBOT, נחתם הסכם להרחבת שיתוף הפעולה עם Aptiv; יעד פריסת 100 רובוטים עד סוף 2026, לא פריסה שהושלמה",
+    "כותרת_en": "TARSBOT says it signed expanded Aptiv collaboration; 100-robot deployment targeted by end-2026, not yet completed",
+    "קישור": "https://www.prnewswire.com/news-releases/tarsbot-and-aptiv-deepen-strategic-collaboration-on-embodied-ai-302939149.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/tarsbot-and-aptiv-deepen-strategic-collaboration-on-embodied-ai-302939149.html",
+        "label": "TARS דרך PR Newswire: הודעת שיתוף פעולה עם Aptiv",
+        "label_en": "TARS via PR Newswire: Aptiv collaboration announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 08:00 ET, שהם 15:00 בישראל לפי חישוב America/New_York ל-Asia/Jerusalem. ההודעה הופצה ב-PR Newswire ומציינת את TARS כמקור; אלה דברי השותפה TARSBOT, לא הודעת Aptiv עצמאית שאומתה כאן.\n\nלפי ההודעה, TARSBOT ו-Aptiv חתמו במהלך תערוכת CIIE בשנגחאי על הסכם להעמקת שיתוף הפעולה ב-AI מגולם ברובוטים. Aptiv מצפה להשלים פריסה של 100 רובוטים תעשייתיים מסדרת A עד סוף השנה. בהתייחס לתאריך הודעת נובמבר 2026, מדובר ביעד לסוף 2026, לא באישור שכבר הושלם.\n\nההודעה אומרת שהאצווה הראשונה כבר פועלת בקווי ייצור במפעל חכם של Aptiv. היעד של 100 הרובוטים אמור לכסות שמונה קטגוריות תהליכי ייצור ו-33 תרחישי יישום, ובהם הרכבה גמישה, בדיקות מתואמות וניהול ייצור. לא נמסר מספר הרובוטים המדויק שכבר נכנסו לפעילות.\n\nבנפרד, מוצרים של Aptiv, ובהם פלטפורמות מחשוב עתיר ביצועים ופתרונות חלוקת חשמל חכמה, מיועדים להשתלב ברובוטי TARSBOT. הצדדים מתכננים ייצור המוני ב-2026. זהו ניסוח עתידי של השותפה; אין להסיק שכבר הושלם ייצור המוני או שנמסר היקף הזמנות מסוים.\n\nהמספר 1,000 מתאר יעד צי רחב יותר בשיתוף התמיכה של מחוז Jiading בשנגחאי, ולא מספר רובוטים שהותקנו בפועל. ההודעה אינה מפרטת שווי הסכם, הכנסות צפויות, מחיר לרובוט או לוח מסירות מלא. היא מתארת הסכם ויישום מדורג, לא פריסה מלאה שכבר הושלמה.",
+    "טקסט_en": "November 16, 2026 at 08:00 ET, equivalent to 15:00 in Israel by America/New_York to Asia/Jerusalem timezone calculation. The PR Newswire release lists TARS as its source; these are partner TARSBOT's statements, not a separately verified Aptiv announcement.\n\nThe release says TARSBOT and Aptiv signed an agreement at Shanghai's CIIE to deepen their embodied-AI collaboration. Aptiv expects to complete deployment of 100 A-Series industrial robots by year-end. In the context of the November 2026 announcement, that is an end-2026 target, not confirmation it has already been completed.\n\nThe partner says the first batch is already operating in real production-line environments at an Aptiv smart factory. The 100-robot target covers eight manufacturing-process categories and 33 application scenarios, including flexible assembly, coordinated inspection and production management. No exact count of robots already operating was given.\n\nSeparately, Aptiv products including high-performance computing platforms and intelligent power distribution are intended to be incorporated into TARSBOT robots. The parties plan mass production in 2026. That is prospective partner wording, not proof mass production is complete or that a particular order volume has been placed.\n\nA 1,000-unit figure describes a wider fleet target supported by Shanghai's Jiading district, not an installed robot count. No agreement value, expected revenue, robot price or complete delivery schedule was disclosed. The release describes an agreement and staged implementation, not a fully completed rollout.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e0279fb8d671cd60a207f1e5e50148e9d0fde125ce0b60c24c78662079511169"
+      }
+    }
   }
 ]
