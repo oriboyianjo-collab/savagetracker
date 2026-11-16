@@ -48572,5 +48572,97 @@
         "source_hash": "a88c4b0050a6e5f1584dffffdbf2bf32f493b47b35734c32fd780240d65551d9"
       }
     }
+  },
+  {
+    "מזהה": "n-1810",
+    "category": "micro",
+    "חברה": "FDX",
+    "symbols": [
+      "FDX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:16",
+    "הועלה": "2026-11-16 14:16",
+    "כותרת": "פורסם באיחור | FedEx ו-Stripe הודיעו על שיתוף פעולה למימון עסקים קטנים ותשלומים; פתרון ראשון מתוכנן לתחילת 2027",
+    "כותרת_en": "Published late | FedEx and Stripe announce SMB financing and payments collaboration; first solution planned for early 2027",
+    "קישור": "https://stripe.com/newsroom/news/fedex-and-stripe",
+    "מקורות": [
+      {
+        "url": "https://stripe.com/newsroom/news/fedex-and-stripe",
+        "label": "Stripe: הודעת שיתוף הפעולה עם FedEx מ-6 באוקטובר",
+        "label_en": "Stripe: October 6 FedEx collaboration release"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 6.10.2026, ללא שעת מקור בעמוד שנבדק. הודעת Stripe המלאה נקראה; אין זו הכרזה חדשה מ-16 בנובמבר.\n\nFedEx Dataworks ו-Stripe הודיעו על שיתוף פעולה ארוך טווח שישלב נתונים תפעוליים מרשת המשלוחים עם התשתית הפיננסית של Stripe. הפתרון המשותף הראשון מתוכנן לתחילת 2027, ולא תואר כמוצר שכבר זמין לכל לקוח.\n\nהחברות מתכננות להשתמש במדדים כמו פעילות משלוחים, תנועת מלאי וביצועי אספקה כדי לסייע לניתוח מימון של Stripe Capital לעסקים קטנים ובינוניים. זו תוכנית להרחבת הגישה למימון, לא אישור שכבר ניתנו הלוואות או שכל עסק זכאי לקבלן.\n\nבנוסף, FedEx הודיעה שתתחיל להשתמש ב-Stripe כאפשרות לעיבוד תשלומים ולהוסיף יותר מ-50 שיטות תשלום בקופות התשלום שלה. לא נמסר סכום ההסכם, היקף אשראי מחייב או הכנסות צפויות. נתון הרקע על יותר מ-2 טריליון דולר במסחר שעובר ברשת FedEx אינו שווי העסקה או סכום המימון.",
+    "טקסט_en": "Published late | October 6, 2026; no original time was shown on the page checked. Stripe's complete release was read. This is not a new November 16 announcement.\n\nFedEx Dataworks and Stripe announced a long-term collaboration combining operational signals from the delivery network with Stripe's financial infrastructure. The first joint solution is planned for early 2027, not described as already available to every customer.\n\nThe companies intend to use signals such as shipping activity, inventory movement and fulfillment performance to inform Stripe Capital financing analysis for small and medium-sized businesses. This is a plan to expand financing access, not confirmation that loans have already been made or every business qualifies.\n\nFedEx also said it will begin using Stripe as a payment-processing option and add more than 50 payment methods to its checkouts. No agreement value, committed credit volume or expected revenue was disclosed. The background figure of more than $2 trillion of commerce moving through FedEx's network is not the deal value or financing amount.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1098dc05057cea42254b888f53ea613a033b23c644f48e8ce453dfd8e3ce3490"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1811",
+    "category": "micro",
+    "חברה": "HUM",
+    "symbols": [
+      "HUM",
+      "EVH"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:16",
+    "הועלה": "2026-11-16 14:16",
+    "כותרת": "פורסם באיחור | Humana ו-Evolent השיקו עם רשת American Oncology מודל לצמצום אישורים מוקדמים בשמונה מדינות בארה\"ב",
+    "כותרת_en": "Published late | Humana and Evolent launch an American Oncology Network model to reduce prior authorization across eight US states",
+    "קישור": "https://www.aoncology.com/2026/11/10/new-oncology-model-from-humana-evolent-and-american-oncology-network-eliminates-prior-authorization-burden/",
+    "מקורות": [
+      {
+        "url": "https://www.aoncology.com/2026/11/10/new-oncology-model-from-humana-evolent-and-american-oncology-network-eliminates-prior-authorization-burden/",
+        "label": "American Oncology Network: הודעת המודל האונקולוגי",
+        "label_en": "American Oncology Network: oncology model release"
+      }
+    ],
+    "טקסט": "פורסם באיחור | קיימת אי-התאמה במקור: כותרת העמוד מתוארכת 10.11.2026, אך גוף ההודעה נושא תאריך 11.11.2026. ההודעה המלאה נקראה; אין לקבע אחד מהם כשעת השקה חדשה היום.\n\nHumana, Evolent ו-American Oncology Network הודיעו על מודל חדש לטיפול בסרטן, שכבר החל בפריסה ראשונית במרפאות AON בשמונה מדינות בארה\"ב. AON כאן היא רשת האונקולוגיה, לא חברת הביטוח הנסחרת Aon.\n\nלפי המודל, מרפאות משתתפות שמפגינות עמידה בתקני איכות וטיפול מבוסס ראיות לא יצטרכו להגיש בקשות לאישור מוקדם מסורתי עבור רוב הטיפולים התרופתיים נגד סרטן. הביטול מותנה בעמידה בתנאים ומוגבל למסגרת המשתתפת; הוא אינו חל אוטומטית על כל תרופה, כל רופא או כל מבוטחי Humana בארה\"ב.\n\nEvolent תומכת במסלולים קליניים, שיפור איכות ודיווח על ביצועי המרפאות. המודל כולל שימוש בנתוני רשומות רפואיות, תזכורות וניתוח נתונים לתמיכה בהחלטות טיפול. מטרות לשיפור זמינות הטיפול ולהפחתת עלויות אינן תוצאות חיסכון מוכחות. לא נמסרו סכום חוזה, מספר מבוטחים במודל או חיסכון כמותי.",
+    "טקסט_en": "Published late | The source has a date conflict: the page header says November 10, 2026, while the release body is dated November 11, 2026. The complete release was read; neither is treated as a new launch today.\n\nHumana, Evolent and American Oncology Network announced a new cancer-care model already initially rolled out at AON clinics across eight US states. AON here means the oncology network, not the listed insurance company Aon.\n\nParticipating practices that demonstrate adherence to quality and evidence-based treatment standards will no longer need traditional prior authorization requests for most anticancer drug therapies. Removal is conditional and limited to participating practices; it does not automatically cover every drug, every provider or all Humana members nationwide.\n\nEvolent supports clinical pathways, quality improvement and provider-performance reporting. The model uses health-record data, reminders and analytics to support treatment decisions. Goals of faster access and lower costs are not proven savings results. No contract value, participating-member count or quantified savings was disclosed.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "53acdb9995190f100eb5d1a2bd96be1d8471f8f247041d5fb8d19c18066461b3"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1812",
+    "category": "micro",
+    "חברה": "SOLV",
+    "symbols": [
+      "SOLV",
+      "MMM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:16",
+    "הועלה": "2026-11-16 14:16",
+    "כותרת": "פורסם באיחור | Solventum ו-3M תיקנו הסכם אספקה לתקופה חדשה של 2027–2036, עם התחייבויות קיבולת ורכישות מינימום למוצרים מוגדרים",
+    "כותרת_en": "Published late | Solventum and 3M amend supply agreement for a new 2027–2036 term, with capacity and minimum-purchase commitments for specified products",
+    "קישור": "https://investors.solventum.com/financials/sec-filings/content/0001964738-26-000056/a101-3mmsaamendmentfinalfo.htm",
+    "מקורות": [
+      {
+        "url": "https://investors.solventum.com/financials/sec-filings/content/0001964738-26-000056/a101-3mmsaamendmentfinalfo.htm",
+        "label": "Solventum: נספח 10.1, תיקון להסכם האספקה",
+        "label_en": "Solventum: Exhibit 10.1, supply agreement amendment"
+      }
+    ],
+    "טקסט": "פורסם באיחור | תיקון שנחתם ב-26.10.2026 ופורסם כנספח לדיווח Solventum מ-5.11.2026. הנספח המלא באתר קשרי המשקיעים נקרא; לא מדובר בהסכם חדש שנחתם היום.\n\nSolventum, כרוכשת, ו-3M, כספקית, תיקנו את הסכם האספקה הראשי שלהן. התקופה החדשה מתחילה ב-1 בינואר 2027 ומסתיימת ב-31 בדצמבר 2036, אלא אם ההסכם יסתיים מוקדם לפי תנאיו.\n\nעבור מוצרים המוגדרים Tier A נקבעו התחייבות קיבולת של הספקית וחובת רכישה שנתית מינימלית של Solventum, בכפוף לנוסח ולחריגים. אם הרכישות נמוכות מהמינימום, עשוי לחול תשלום ההפרש. אלה התחייבויות למוצרים מסוימים, לא התחייבות לרכוש את כל צורכי Solventum מ-3M.\n\nהמסמך קובע במפורש שככלל אין זה הסכם בלעדיות, תפוקה או מלוא דרישות הרוכשת, אלא אם נקבע אחרת בהסכם או בהסכם משנה. אין בנספח שווי עסקה כולל מאומת או בסיס להצגת כל מכירות 3M כהכנסה מובטחת עד 2036. גם תקופת ההסכם אינה הוכחה להזמנות שכבר בוצעו לכל השנים.",
+    "טקסט_en": "Published late | The amendment was signed October 26, 2026 and published as an exhibit to Solventum's November 5, 2026 filing. The complete exhibit on the investor-relations site was read. This is not a new agreement signed today.\n\nSolventum, as purchaser, and 3M, as supplier, amended their master supply agreement. A new term begins January 1, 2027 and ends December 31, 2036 unless terminated earlier under the agreement.\n\nSpecified Tier A products carry supplier-capacity commitments and annual minimum-purchase obligations for Solventum, subject to the terms and exceptions. Purchases below the minimum may require payment of the shortfall. These obligations cover defined products, not all Solventum purchasing needs.\n\nThe document expressly says the agreement is generally not an exclusive-dealing, outputs or requirements contract unless otherwise provided in the agreement or a sub-agreement. The exhibit does not establish a verified total deal value or guaranteed revenue for all 3M sales through 2036. Its term is not evidence that orders for every year have already been placed.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "68233505cf81c078c92db3ace0a497061260fa25220e00b02f1bf1c6ae34c84b"
+      }
+    }
   }
 ]
