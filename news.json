@@ -52520,5 +52520,132 @@
         "source_hash": "008bc096600d23ce2385a4cd421eb25615eff4aca1915f6bb61f1d930215980f"
       }
     }
+  },
+  {
+    "מזהה": "n-1937",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:24",
+    "הועלה": "2026-11-16 18:24",
+    "כותרת": "NVIDIA (NVDA) הציגה פלטפורמת ארונות Vera CPU; זמינות חומרה צפויה בתחילת 2027",
+    "כותרת_en": "NVIDIA (NVDA) introduces Vera CPU rack platform; hardware expected in early 2027",
+    "קישור": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+    "מקורות": [
+      {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+        "label": "NVIDIA Newsroom: Vera CPU platform",
+        "label_en": "NVIDIA Newsroom: Vera CPU platform"
+      }
+    ],
+    "טקסט": "הודעת NVIDIA מ-16.11.2026. **שעת הפרסום המקורית אינה ידועה.**\n\nNVIDIA הציגה פלטפורמת HPC המשלבת 192 מעבדי Vera עם רשת Quantum-X800 InfiniBand. לפי החברה, הארון כולל כ-300 טרה-בייט זיכרון ופטה-בייט אחסון; כל מעבד כולל 88 ליבות Olympus ו-176 נימים.\n\nארונות Vera CPU צפויים להיות זמינים דרך Dell Technologies, HPE, Lenovo ו-Supermicro בתחילת 2027, לא זמינים מסחרית כבר היום לפי ההודעה. לעומת זאת, ערכת NVIDIA HPC SDK 26.11 מתוארת כזמינה כעת. החברה מציגה גם בטא ציבורית של מהדר Fortran חדש.\n\nמרכז האקלים הגרמני DKRZ בחר במעבדי Vera למחשב HLRE-5, שייבנה בידי Bull וצפוי להיות זמין בתחילת 2028. זו בחירה למערכת עתידית, לא הודעה שהמערכת כבר פועלת.\n\nנתוני הביצועים מיוחסים לבדיקות NVIDIA: פי 1.9 ביצועים ופי 2.4 ביצועים לוואט במבחן OpenFOAM מסוים; במודל מזג האוויר WRF מופיעים יעדים של פי 1.6 ביצועים ופי 2 יעילות אנרגטית. אין אלה תוצאות עצמאיות או הבטחה להכפלת הביצועים בכל עומס עבודה. ההודעה אינה מפרסמת מחיר מערכת או היקף כספי מאומת של הזמנות.",
+    "טקסט_en": "NVIDIA announcement dated November 16, 2026. **The original publication time is unknown.**\n\nNVIDIA introduced an HPC platform combining 192 Vera CPUs with Quantum-X800 InfiniBand networking. The company says the rack includes about 300TB of memory and 1PB of storage; each CPU has 88 Olympus cores and 176 threads.\n\nVera CPU racks are expected from Dell Technologies, HPE, Lenovo and Supermicro in early 2027, not described as commercially available today. NVIDIA HPC SDK 26.11, by contrast, is described as available now. The company is also introducing a public beta of a new Fortran compiler.\n\nGermany's DKRZ climate computing center selected Vera CPUs for its HLRE-5 supercomputer, to be built by Bull and expected in early 2028. This is a selection for a future system, not an announcement that the system is operating.\n\nPerformance claims come from NVIDIA's tests: 1.9-times performance and 2.4-times performance per watt on a specific OpenFOAM benchmark, with projected 1.6-times performance and 2-times energy efficiency for the WRF weather model. These are not independent results or a promise to double every workload's performance. No system price or verified monetary order value was disclosed.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2fc5cc248a4db4522163fc841e14ed081c07a5ef7a8757e9e3b1d74635bb796a"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1938",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:24",
+    "הועלה": "2026-11-16 18:24",
+    "כותרת": "NVIDIA (NVDA) השיקה את Nemotron for Science עם מאגר כימיה פתוח ומתכוני אימון לסוכני מחקר",
+    "כותרת_en": "NVIDIA (NVDA) introduces Nemotron for Science with open chemistry data and research-agent training recipes",
+    "קישור": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+    "מקורות": [
+      {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+        "label": "NVIDIA Newsroom: Nemotron for Science",
+        "label_en": "NVIDIA Newsroom: Nemotron for Science"
+      }
+    ],
+    "טקסט": "הודעת NVIDIA מ-16.11.2026. **שעת הפרסום המקורית אינה ידועה.**\n\nNVIDIA הציגה את Nemotron for Science: שילוב של המודל הפתוח Nemotron 3.5 Super VL, הערכות מדעיות, מאגר נתוני כימיה ומתכוני אימון המשך שנועדו לעזור לחוקרים לבנות סוכני AI למשימות מדעיות.\n\nמאגר LitmusBench v0.2 כולל לפי החברה כמעט 50 אלף שאלות לאימון ולהערכת הסקה בכימיה, בין היתר על תכונות מולקולריות ונתוני גילוי תרופות. החברה אומרת שהמודל והמאגר זמינים כעת ב-Hugging Face, ושהמודל הותאם גם להרצה מקומית במערכת DGX Spark עם 128 גיגה-בייט זיכרון. הזמינות מיוחסת להודעת החברה; קובצי ההורדה עצמם לא נבדקו בנפרד.\n\nההודעה מתארת שימוש של חברות ומוסדות מחקר, ובהם Argonne, במודלים לתכנון ניסויים, ניתוח מידע כימי ותכנון מועמדים טיפוליים. אלה כלי מחקר ושימושים מדווחים, לא תרופות שאושרו, הוכחת תועלת קלינית או אישור שהסוכנים יכולים לנהל מעבדה ללא פיקוח.\n\nתוצאות הבנצ׳מרק ודוגמאות הלקוחות בהודעה הן טענות NVIDIA ושותפיה, לא בדיקה עצמאית כאן. אין בסיס להחיל שיפור במשימה ניסויית מסוימת על כל תחומי המדע. זהו פרסום נפרד מפלטפורמת Vera CPU ומשיתוף הפעולה הקוונטי עם IBM ו-Fermilab.",
+    "טקסט_en": "NVIDIA announcement dated November 16, 2026. **The original publication time is unknown.**\n\nNVIDIA introduced Nemotron for Science, combining the Nemotron 3.5 Super VL open model, scientific evaluations, chemistry data and post-training recipes intended to help researchers build AI agents for scientific tasks.\n\nThe company says LitmusBench v0.2 contains nearly 50,000 questions for training and evaluating chemistry reasoning, including molecular properties and drug-discovery data. NVIDIA says the model and dataset are available now on Hugging Face, and the model was optimized for local use on a 128GB DGX Spark system. Availability is attributed to the company announcement; the download files were not separately checked.\n\nThe release describes companies and research institutions, including Argonne, using the models for experiment planning, chemical-information analysis and therapeutic-candidate design. These are research tools and reported uses, not approved medicines, demonstrated clinical benefit or confirmation that agents can run a laboratory without supervision.\n\nThe release's benchmark results and customer examples are NVIDIA and partner claims, not an independent test here. An improvement on a particular experimental task cannot be generalized to all science. This is separate from the Vera CPU platform and the IBM/Fermilab quantum collaboration.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ad29ff4e8806d736df64bb34948035a0870677e8cb4f054f8017bf42961c435e"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1939",
+    "category": "micro",
+    "חברה": "CNH Industrial (CNH)",
+    "חברה_en": "CNH Industrial (CNH)",
+    "symbols": [
+      "CNH"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:24",
+    "הועלה": "2026-11-16 18:24",
+    "כותרת": "CNH Industrial (CNH): Kurt Coffey יכהן כיו״ר AEM ב-2027, החל מ-1 בינואר",
+    "כותרת_en": "CNH Industrial (CNH): Kurt Coffey to chair AEM in 2027, starting January 1",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3403867/0/en/cnh-s-kurt-coffey-named-2027-chair-of-association-of-equipment-manufacturers.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3403867/0/en/cnh-s-kurt-coffey-named-2027-chair-of-association-of-equipment-manufacturers.html",
+        "label": "CNH Industrial via GlobeNewswire",
+        "label_en": "CNH Industrial via GlobeNewswire"
+      }
+    ],
+    "טקסט": "16.11.2026, 11:00 בשעון מזרח ארה״ב, 18:00 בישראל.\n\nCNH הודיעה כי Kurt Coffey, סגן נשיא לשיווק עסקי החקלאות של CNH בצפון אמריקה, נבחר לכהן ב-2027 כיו״ר איגוד יצרני הציוד AEM. כהונתו תתחיל ב-1 בינואר 2027.\n\nCoffey מכהן כעת כסגן יו״ר AEM וחבר בדירקטוריון האיגוד ובדירקטוריון מגזר החקלאות שלו. לפי ההודעה, בתפקיד החדש יעזור להנחות את אסטרטגיית האיגוד ולתאם סדרי עדיפויות משותפים ליצרני ציוד.\n\nזהו מינוי באיגוד תעשייתי, לא מינוי למנכ״ל או ליו״ר CNH, לא הודעה על עזיבתו את החברה ולא כהונה שכבר החלה היום. ההודעה אינה מפרסמת שווי חוזה, הזמנה מסחרית חדשה או שינוי בתחזית הכספית של CNH.",
+    "טקסט_en": "November 16, 2026 at 11:00 US Eastern time, 18:00 in Israel.\n\nCNH said Kurt Coffey, vice president of North America CNH Agriculture Marketing, was named 2027 chair of the Association of Equipment Manufacturers, or AEM. His term begins January 1, 2027.\n\nCoffey currently serves as AEM vice chair and on both its board of directors and agriculture-sector board. The release says he will help guide the association's strategy and shared equipment-industry priorities.\n\nThis is an industry-association appointment, not a new CNH CEO or board chair, a departure from the company or a term that started today. The announcement discloses no contract value, new commercial order or change to CNH's financial guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f81ded5aca83c1015d16153ec4ffacd90ae99092afec0f34d8e6acb3acafdc27"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1940",
+    "category": "macro",
+    "חברה": "ארהב",
+    "חברה_en": "United States",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:24",
+    "הועלה": "2026-11-16 18:24",
+    "כותרת": "ארהב: מלאי הנפט ברזרבה האסטרטגית עמד על 276.4 מיליון חביות ב-13 בנובמבר, רמה הנמוכה מאז 1982",
+    "כותרת_en": "US Strategic Petroleum Reserve held 276.4 million barrels on November 13, lowest since 1982",
+    "קישור": "https://www.spr.doe.gov/dir/dir.html",
+    "מקורות": [
+      {
+        "url": "https://www.spr.doe.gov/dir/dir.html",
+        "label": "DOE: SPR inventory, November 13, 2026",
+        "label_en": "DOE: SPR inventory, November 13, 2026"
+      },
+      {
+        "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCSSTUS1&f=W",
+        "label": "EIA: historical weekly SPR stocks, thousand barrels",
+        "label_en": "EIA: historical weekly SPR stocks, thousand barrels"
+      }
+    ],
+    "טקסט": "לפי טבלת המלאי הרשמית של משרד האנרגיה האמריקאי, נכון ל-13.11.2026 היו ברזרבת הנפט האסטרטגית, SPR, כ-276.4 מיליון חביות. **מועד הפרסום המקורי של הטבלה, תאריך ושעה, אינו ידוע. 13 בנובמבר הוא תאריך המלאי ולא תאריך פרסום מאומת.**\n\nבהשוואה לסדרה השבועית ההיסטורית של EIA, זו רמת מלאי הנמוכה מאז 1982: התצפית האחרונה בסדרה מתחת ל-276.4 מיליון הייתה ב-27.8.1982, 272.603 מיליון חביות; ב-24.9.1982 נרשמו 276.833 מיליון. בכל התצפיות המוצגות מ-1983 ואילך המלאי גבוה מ-276.4 מיליון.\n\nחשוב להבחין בין המקורות והתקופות: הנתון העדכני של משרד האנרגיה הוא ל-13 בנובמבר. בעת הבדיקה, סדרת EIA הציגה נתון אחרון לשבוע שהסתיים ב-6 בנובמבר, 279.535 מיליון חביות, שפורסם ב-12 בנובמבר. אין כאן טענה ש-EIA כבר פרסמה את נתון השבוע שהסתיים ב-13 בנובמבר.\n\n276.4 מיליון הוא מלאי קיים, לא היקף שחרור חדש, לא קצב הפקה או משיכה יומי ולא הודעה על הרשאה חדשה למכירת נפט. הטבלה מציגה בנפרד תנועות חודשיות; אין לתאר אותן כירידה שבועית.",
+    "טקסט_en": "The US Department of Energy's official inventory table shows approximately 276.4 million barrels in the Strategic Petroleum Reserve as of November 13, 2026. **The table's original publication date and time are unknown. November 13 is the inventory observation date, not a verified publication date.**\n\nCompared with EIA's historical weekly series, this is the lowest stock level since 1982. The last observation below 276.4 million barrels was August 27, 1982, at 272.603 million; September 24, 1982 showed 276.833 million. All displayed observations from 1983 onward exceed 276.4 million.\n\nThe sources and periods differ: DOE's current inventory is dated November 13. At verification, EIA's series showed its latest observation for the week ended November 6, at 279.535 million barrels, released November 12. This is not a claim that EIA has already released the week ended November 13.\n\nThe 276.4 million figure is an inventory level, not a new release volume, a daily production or withdrawal rate, or a new authorization to sell oil. The table separately reports monthly movements, which should not be described as a weekly drawdown.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8509bcb063d405d1f0465f8f2ca6ad0d9eb70fd00a7cdeac8de818859822144d"
+      }
+    }
   }
 ]
