@@ -53127,5 +53127,38 @@
         "source_hash": "fa421899bd7ed9125919e4b123337c34df3cc75a88d97845f5c0fc22d54bd96a"
       }
     }
+  },
+  {
+    "מזהה": "n-1956",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 20:42",
+    "הועלה": "2026-11-16 20:42",
+    "כותרת": "NVIDIA (NVDA): Sam Altman מביע אמפתיה ל-Jensen Huang, אך נמנע מעמדה על חזרתו למנכ״ל",
+    "כותרת_en": "NVIDIA (NVDA): Sam Altman voices empathy for Jensen Huang, says he does not know enough to judge a CEO return",
+    "summary": "בריאיון ל-Semafor אמר Altman שאינו יודע מספיק כדי להשיב אם Huang צריך לחזור.",
+    "summary_en": "In a Semafor interview, Altman said he did not know enough to say whether Huang should return.",
+    "קישור": "https://www.semafor.com/article/11/16/2026/altman-says-he-has-personal-empathy-for-jensen-huang",
+    "מקורות": [
+      {
+        "url": "https://www.semafor.com/article/11/16/2026/altman-says-he-has-personal-empathy-for-jensen-huang",
+        "label": "Semafor: interview with Sam Altman",
+        "label_en": "Semafor: interview with Sam Altman"
+      }
+    ],
+    "טקסט": "**פורסם באיחור. שעת הפרסום הראשונה של הגרסה הנוכחית אינה ידועה.**\n\nכתבת Semafor מציגה עדכון מ-16.11.2026 בשעה 13:24 בשעון מזרח ארה״ב, 20:24 בישראל. זהו מועד העדכון המוצג, לא מועד מאומת של הדברים עצמם.\n\nמנכ״ל OpenAI, Sam Altman, אמר בריאיון בכנס Silicon Valley & The World שיש לו אמפתיה אישית חזקה ל-Jensen Huang ושהוא היה גיבור עבורו במשך שנים. עם זאת, כשנשאל אם Huang צריך לחזור לתפקיד מנכ״ל NVIDIA, השיב שאינו חושב שהוא יודע מספיק כדי לענות. זו אינה תמיכה בהחזרתו לתפקיד.\n\nAltman אמר שקשה לדמיין את NVIDIA בלי Huang, אך תיאר אותה כחברה עצומה ואמר שאנשים עדיין סומכים על התחייבויותיה כמשקיעה. אלה דבריו של Altman, לא ערבות עצמאית להתחייבויות החברה או החלטה של דירקטוריון NVIDIA.\n\nהדברים נוגעים לדיון על חזרה אפשרית של Huang, בנפרד מהדיווח המיוחס ל-CNBC על כך שהדירקטוריון אינו שוקל להחזירו. הריאיון אינו מודיע על מינוי או על שינוי בעמדת הדירקטוריון.",
+    "טקסט_en": "**Published late. The first publication time of the current version is unknown.**\n\nThe Semafor article shows an update on November 16, 2026 at 13:24 US Eastern time, 20:24 in Israel. This is the displayed update time, not a verified time for the remarks themselves.\n\nOpenAI CEO Sam Altman said in an interview at Silicon Valley & The World that he has strong personal empathy for Jensen Huang and that Huang has long been a hero of his. However, asked whether Huang should return as NVIDIA CEO, Altman said he did not think he knew enough to answer. This is not an endorsement of reinstatement.\n\nAltman said it is hard to imagine NVIDIA without Huang, but described it as a huge company and said people still trust its guarantees as an investor. These are Altman's comments, not an independent guarantee of the company's commitments or an NVIDIA board decision.\n\nThe comments concern the debate over a possible Huang return, separately from the CNBC-attributed report that the board is not considering bringing him back. The interview announces no appointment or change in the board's position.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "974bf0ebaaada1c9a8a810dd480d133a8e6098563e4ddbff45dc186e1ace8c9c"
+      }
+    }
   }
 ]
