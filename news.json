@@ -48977,5 +48977,113 @@
         "source_hash": "d76646e0202a9ce3aa55e5227058e25c66cd247f0499a563bcaeede0e25acfab"
       }
     }
+  },
+  {
+    "מזהה": "n-1823",
+    "category": "micro",
+    "חברה": "SYNA",
+    "symbols": [
+      "SYNA",
+      "GOOGL",
+      "GOOG",
+      "ARM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:37",
+    "הועלה": "2026-11-16 14:37",
+    "כותרת": "פורסם באיחור | Synaptics השיקה את Astra SR200 והרחיבה עם Google את Coralboard; גרסת SL זמינה דרך DigiKey",
+    "כותרת_en": "Published late | Synaptics launches Astra SR200 and expands Coralboard with Google; SL available through DigiKey",
+    "קישור": "https://investor.synaptics.com/news-releases/news-release-details/synaptics-launches-xmcutm-era-astrar-sr200-series-multimodal",
+    "מקורות": [
+      {
+        "url": "https://investor.synaptics.com/news-releases/news-release-details/synaptics-launches-xmcutm-era-astrar-sr200-series-multimodal",
+        "label": "Synaptics: השקת משפחת Astra SR200 מ-20 באוקטובר",
+        "label_en": "Synaptics: October 20 Astra SR200 family launch"
+      },
+      {
+        "url": "https://investor.synaptics.com/news-releases/news-release-details/synaptics-and-google-research-expand-coralboardtm-ecosystem",
+        "label": "Synaptics: זמינות Coralboard SL והצגת SR",
+        "label_en": "Synaptics: Coralboard SL availability and SR introduction"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 20.10.2026. שתי הודעות Synaptics המקוריות על Astra SR200 ועל Coralboard נקראו במלואן. שעת הפרסום המקורית לא צוינה בנוסחים שנבדקו. אלה השקת מוצרים והרחבת ערכות פיתוח מאוקטובר, לא הכרזה חדשה מ-16 בנובמבר.\n\nSynaptics השיקה את משפחת Astra SR200, שהיא מכנה xMCU: מעבדים ל-AI רב-אופני בקצה, עם עיבוד מקומי של ראייה, קול וחישה. המשפחה משלבת את מנוע Torq ואת Coral NPU של Google Research, ליבות Arm Cortex-M85 ו-Cortex-M52 וזיכרון DRAM מותאם משולב.\n\nהחברה הציגה שלושה קווים תואמי פינים: SR210 עם יעד של 200 GOPS, SR230 עם 300 GOPS ו-SR250 עם 400 GOPS. אלה מפרטי ביצועים של החברה, לא תוצאות בנצ'מרק בלתי תלויות ולא הוכחה שכל דגם כבר נשלח בייצור המוני. יעדי ההסמכה PSA Level 3 ו-CC EAL4+ אינם אישור שההסמכות כבר הושגו.\n\nבהודעה הנלווית, Synaptics ו-Google Research הודיעו ש-Coralboard SL עוברת מזמינות מוגבלת לזמינות כללית וניתנת להזמנה דרך DigiKey החל מ-20 באוקטובר. היא מבוססת על Astra SL2619 עם Torq/Coral NPU של 1 TOPS. זהו שלב הזמינות שאושר בהודעה; מלאי נוכחי ומחיר לא נבדקו.\n\nבנוסף הוצגה Coralboard SR המבוססת על SR250, עם כלי הפיתוח הפתוחים Torq. הצגת SR אינה הוכחה לזמינות כללית זהה ל-SL. לא נמסרו הכנסות, היקף הזמנות או תמורה כספית מההשקה ומהשיתוף; אין כאן עדכון על עסקת מיזוג.",
+    "טקסט_en": "Published late | October 20, 2026. Both complete Synaptics original releases on Astra SR200 and Coralboard were read. The texts checked provide no original publication time. These are October product and developer-platform announcements, not new November 16 launches.\n\nSynaptics launched Astra SR200, a family it calls xMCUs for multimodal Edge AI, with local vision, voice and sensing processing. It combines the Torq engine and Google Research's Coral NPU, Arm Cortex-M85 and Cortex-M52 cores and integrated custom DRAM.\n\nThe company introduced three pin-compatible lines: SR210 targeting 200 GOPS, SR230 at 300 GOPS and SR250 at 400 GOPS. These are company performance specifications, not independent benchmarks or proof that every model is already shipping at mass-production scale. PSA Level 3 and CC EAL4+ certification targets do not establish that certification has already been obtained.\n\nIn the companion release, Synaptics and Google Research said Coralboard SL moves from a limited run to general availability and is available to order through DigiKey from October 20. It uses Astra SL2619 with a 1 TOPS Torq/Coral NPU. That is the availability stage stated in the announcement; current inventory and pricing were not checked.\n\nThe companies also introduced the SR250-based Coralboard SR with the open Torq developer tools. Introducing SR does not establish the same general-availability status as SL. No launch revenue, order volume or financial consideration was disclosed. This is not a merger update.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "30c5e4cb0ef9cd47c8b909a7ecdacc515a95fd6fc209ca4d9b5bf5f7b2a8d590"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1824",
+    "category": "micro",
+    "חברה": "SBAC",
+    "symbols": [
+      "SBAC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:37",
+    "הועלה": "2026-11-16 14:37",
+    "כותרת": "פורסם באיחור | לפי דיווחים, SBA Communications חתמה על מסגרת הלוואה לא מובטחת של 2 מיליארד דולר למימון מחדש ולמשיכות עתידיות",
+    "כותרת_en": "Published late | Reports: SBA Communications signs $2 billion unsecured term-loan facility for refinancing and future draws",
+    "קישור": "https://www.minichart.com.sg/2026/11/09/sba-communications-prices-2-0-billion-unsecured-term-loan-repays-1-165-billion-tower-securities/",
+    "מקורות": [
+      {
+        "url": "https://www.minichart.com.sg/2026/11/09/sba-communications-prices-2-0-billion-unsecured-term-loan-repays-1-165-billion-tower-securities/",
+        "label": "Minichart: תנאי הלוואת SBA מ-9 בנובמבר",
+        "label_en": "Minichart: November 9 SBA loan terms report"
+      },
+      {
+        "url": "https://dealroom.co/news/170726-sba-communications-strikes-2b-unsecured-term-loan-to-refinance-tower-deb/",
+        "label": "Dealroom: דיווח 9 בנובמבר על מסגרת SBA",
+        "label_en": "Dealroom: November 9 SBA facility report"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 9.11.2026, 22:02 בסינגפור, 16:02 בישראל לפי חישוב אזורי הזמן. דיווחי Minichart ו-Dealroom המלאים נקראו. **לא מאומת מול מקור ראשוני: הסכם האשראי והדיווח המקורי של SBA לא נקראו; הפרטים מיוחסים לדיווחים המשניים.**\n\nלפי הדיווחים, SBA Communications חתמה ב-6 בנובמבר על הסכם הלוואה בכירה לא מובטחת בהיקף כולל של 2 מיליארד דולר. מתוכו 1.165 מיליארד דולר נמשכו במועד הסגירה, ועוד 835 מיליון דולר הם התחייבויות למשיכה נדחית, הזמינות עד 6 במאי 2027. אין להציג את כל המסגרת כאילו כבר נמשכה.\n\nהמשיכה הראשונית מיועדת לפירעון מלוא קרן איגרות Secured Tower Revenue Securities מסדרה 2021-1C בסך 1.165 מיליארד דולר. Minichart מתאר פירעון מלא, בעוד Dealroom מצטט את כוונת השימוש בתמורה; לא נבדק כאן אישור ראשוני נפרד להשלמת הפירעון. החלפת חוב מובטח בחוב לא מובטח אינה כשלעצמה הפחתה נטו של סך החוב.\n\nלפי הסיקור, מועד הפירעון של ההלוואות הוא 6 בנובמבר 2029, ללא הפחתת קרן תקופתית. הריבית תלויה בדירוג ועשויה להיות SOFR בתוספת 0.750%–1.375%, או ריבית בסיס בתוספת 0%–0.375%. התחייבויות המשיכה שטרם נוצלו נושאות עמלה שנתית של 0.08%–0.20%.\n\nהיתרה עשויה לשמש למטרות תאגידיות כלליות, לרבות רכישות והון חוזר, בכפוף לתנאים. זו מסגרת מימון וחוב, לא הודעה על רכישה מסוימת שכבר הושלמה ולא הכנסה תפעולית חדשה.",
+    "טקסט_en": "Published late | November 9, 2026 at 22:02 Singapore time, or 16:02 Israel time by timezone calculation. Complete Minichart and Dealroom reports were read. **Not verified against a primary source: SBA's original credit agreement and filing were not read; details are attributed to the secondary reports.**\n\nThe reports say SBA Communications entered a $2 billion senior unsecured term-loan agreement on November 6. Of that, $1.165 billion was drawn at closing and $835 million consists of delayed-draw commitments available through May 6, 2027. The entire facility must not be described as already drawn.\n\nInitial proceeds are intended to repay the entire $1.165 billion principal of Secured Tower Revenue Securities, Series 2021-1C. Minichart describes full repayment, while Dealroom quotes the intended use of proceeds; a separate primary confirmation of completed repayment was not checked. Replacing secured debt with unsecured debt does not itself reduce total debt on a net basis.\n\nThe reports give a November 6, 2029 maturity with no scheduled amortization. Ratings-based interest can be SOFR plus 0.750%–1.375%, or a base rate plus 0%–0.375%. Unused delayed-draw commitments carry an annual 0.08%–0.20% ticking fee.\n\nRemaining proceeds may support general corporate purposes, including acquisitions and working capital, subject to conditions. This is debt financing, not an announcement of a specific completed acquisition or new operating revenue.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9093535507db19f2dc65cb8ff5259ac4ab1cca06fad1289a79aca0c01e50db70"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1825",
+    "category": "micro",
+    "חברה": "VMC",
+    "symbols": [
+      "VMC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:37",
+    "הועלה": "2026-11-16 14:37",
+    "כותרת": "פורסם באיחור | לפי דיווחים, צו בטיחות במכרה Lexington של Vulcan חייב הרחקת עובדים מסכנת נפילה; דווח על טיפול ללא נפגעים",
+    "כותרת_en": "Published late | Reports: Vulcan Lexington Quarry safety order removed workers from fall hazards; corrective action and no injuries reported",
+    "קישור": "https://kalkinemedia.com/us/news/announcements/vulcan-materials-subsidiary-calmat-co-receives-msha-imminent-danger-order-at-lexington-quarry",
+    "מקורות": [
+      {
+        "url": "https://kalkinemedia.com/us/news/announcements/vulcan-materials-subsidiary-calmat-co-receives-msha-imminent-danger-order-at-lexington-quarry",
+        "label": "Kalkine: דיווח 30 באוקטובר על צו הבטיחות",
+        "label_en": "Kalkine: October 30 safety-order report"
+      },
+      {
+        "url": "https://www.investing.com/news/sec-filings/vulcan-materials-reports-mine-safety-order-at-california-quarry-no-injuries-93CH-4988861",
+        "label": "Investing.com: סיקור בסיוע AI ובבדיקת עורך",
+        "label_en": "Investing.com: AI-assisted, editor-reviewed coverage"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 30.10.2026, 13:53 בחוף המערבי בארה\"ב, 22:53 בישראל לפי חישוב אזורי הזמן. כתבות Kalkine ו-Investing.com המלאות נקראו. **לא מאומת מול מקור ראשוני: צו MSHA והדיווח המקורי של Vulcan לא נקראו. Investing.com מציין שהכתבה נוצרה בסיוע AI ונבדקה בידי עורך; הפרטים כאן מיוחסים לדיווחים ולא לבדיקה ישירה של הצו.**\n\nלפי Kalkine, חברת Calmat, חברה בת של Vulcan Materials, קיבלה ב-27 באוקטובר 2026 צו סכנה מיידית של MSHA במחצבת Lexington בלוס גאטוס, קליפורניה. הדיווח מציין שהגילוי פורסם ב-30 באוקטובר. תאריך האירוע מיוחס במפורש ל-Kalkine, ולא הוסק מהאזכור היחסי של יום שלישי בכתבה האחרת.\n\nהצו, לפי הדיווחים, ניתן מכוח סעיף 107(a) לחוק בטיחות המכרות ונועד להרחיק עובדים שהיו חשופים לסכנת נפילה בזמן עבודות תחזוקה. לפי תיאור החברה המובא בסיקור, לא היו נפגעים והיא נקטה פעולות תיקון כדי להגן על העובדים ולסיים את הצו.\n\nזהו תיאור של אירוע בטיחות ושל הטיפול שדווח בו, לא קביעה שכל המחצבה הושבתה או שהוכרז אירוע נפגעים. הכתבות שנקראו אינן מספקות סכום קנס, השפעה כספית מאומתת או משך הפסקת ייצור, ואין להשלים פרטים אלה מהשערה.\n\nהסיקור מתייחס לאירוע מאוקטובר; מצב בטיחות נוכחי ל-16 בנובמבר לא אומת. נתוני תוצאות, מחיר מניה ושווי הוגן שהוצמדו לכתבת Investing.com אינם חלק מאימות אירוע הבטיחות כאן.",
+    "טקסט_en": "Published late | October 30, 2026 at 13:53 US Pacific time, or 22:53 Israel time by timezone calculation. Complete Kalkine and Investing.com articles were read. **Not verified against a primary source: the MSHA order and Vulcan's original filing were not read. Investing.com says its article was AI-assisted and editor-reviewed; details here are attributed to the reports, not a direct review of the order.**\n\nKalkine reports that Calmat, a Vulcan Materials subsidiary, received an MSHA imminent-danger order on October 27, 2026 at Lexington Quarry in Los Gatos, California, disclosed on October 30. The incident date is explicitly attributed to Kalkine, not inferred from the other article's relative reference to Tuesday.\n\nThe reports say the order was issued under section 107(a) of the mine safety law to remove workers exposed to fall hazards during maintenance. According to the company's account carried by the coverage, no injuries occurred and corrective action was taken to protect personnel and terminate the order.\n\nThis describes a safety incident and its reported remedy, not a finding that the entire quarry shut down or that injuries occurred. The articles read give no fine amount, verified financial impact or production-interruption duration. Those details are not supplied by inference.\n\nThe reports concern an October event; current November 16 safety conditions were not verified. Earnings, stock-price and fair-value content appended to Investing.com's article is not part of verification of this safety incident.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "23413cd1be7f34862ceab91242bca6ace3b48040dc73c7b00d5a9258b2bfd4a4"
+      }
+    }
   }
 ]
