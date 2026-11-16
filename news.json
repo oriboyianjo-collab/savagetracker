@@ -47593,5 +47593,36 @@
         "source_hash": "dd847f5a309b7e390ce9d6e7bbc6f7573b9a8523ab416e8b4d84b800c72619d8"
       }
     }
+  },
+  {
+    "מזהה": "n-1777",
+    "category": "micro",
+    "חברה": "PONY",
+    "symbols": [
+      "PONY",
+      "TM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 12:40",
+    "הועלה": "2026-11-16 12:40",
+    "כותרת": "Pony.ai (PONY) ו-Toyota (TM) השיקו שירות מסחרי ללא נהג עם רובוטקסי bZ4X בגואנגג׳ואו",
+    "כותרת_en": "Pony.ai (PONY) and Toyota (TM) launch fully driverless commercial bZ4X robotaxi service in Guangzhou",
+    "קישור": "https://prnewswire.com/apac/news-releases/ponyai-and-toyota-launch-fully-driverless-commercial-services-with-gen-7-bz4x-robotaxi-302939914.html",
+    "מקורות": [
+      {
+        "url": "https://prnewswire.com/apac/news-releases/ponyai-and-toyota-launch-fully-driverless-commercial-services-with-gen-7-bz4x-robotaxi-302939914.html",
+        "label": "Pony.ai דרך PRNewswire: הודעת השקת השירות מ-16 בנובמבר",
+        "label_en": "Pony.ai via PRNewswire: November 16 service launch announcement"
+      }
+    ],
+    "טקסט": "16.11.2026 | הודעת החברות. שעת הפרסום המקורית בישראל לא אומתה: העמוד מציג 12:00 CST בלי לפרש את אזור הזמן.\n\nPony.ai ו-Toyota הודיעו שרובוטקסי bZ4X מדור 7 הצטרף לצי המסחרי ללא נהג של Pony.ai בגואנגג׳ואו שבסין. לפי ההודעה, נוסעים בעיר יכולים להזמין את הדגם בכל שעות היממה דרך PonyPilot או המיני-יישומים של החברה בפלטפורמות שותפות, ובהן WeChat ו-Alipay.\n\nהחידוש הוא תחילת השירות המסחרי של הדגם בעיר, מעבר לייצור ולבדיקות. הרכב הראשון בייצור סדרתי ירד מפס הייצור בפברואר 2026; שיתוף הפעולה בין החברות החל ב-2019. אלה שלבים קודמים, לא אירועים חדשים היום.\n\nהחברות פועלות לקראת פריסה מתוכננת של כ-1,000 רכבי bZ4X בערים מרכזיות בסין, ובודקות את הדגם ונערכות לפריסה גם בערים נוספות. כ-1,000 הוא יעד רב-עירוני, לא מספר כלי הרכב שכבר פועלים בגואנגג׳ואו. ההודעה אינה מפרטת את גודל הצי הנוכחי של הדגם, תעריפי נסיעה, הכנסות או רווחיות שהושגה.\n\nההשקעה של יותר ממיליארד יואן במיזם משותף עם Toyota Motor China ו-GAC Toyota מתוארת כרקע מ-2023, לא כהשקעה חדשה שהוכרזה היום.",
+    "טקסט_en": "November 16, 2026 | Company announcement. The original publication time in Israel was not verified: the page displays 12:00 CST without expanding the time-zone abbreviation.\n\nPony.ai and Toyota announced that their Gen-7 bZ4X robotaxi has joined Pony.ai's fully driverless commercial fleet in Guangzhou, China. According to the announcement, passengers in the city can hail the model around the clock through PonyPilot or the company's mini-programs on partner platforms including WeChat and Alipay.\n\nThe new stage is commercial service for this model in the city, beyond production and testing. The first mass-produced vehicle rolled off the line in February 2026, while the companies' collaboration began in 2019. Those are earlier milestones, not new events today.\n\nThe companies are working toward planned deployment of around 1,000 bZ4X robotaxis across major Chinese cities and are testing the model and preparing for deployment elsewhere. Around 1,000 is a multi-city target, not the number already operating in Guangzhou. The announcement does not disclose the model's current fleet size, fares, revenue or achieved profitability.\n\nThe investment of more than RMB1 billion in a joint venture with Toyota Motor China and GAC Toyota is described as 2023 background, not a new investment announced today.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "afc5455524a2ca290c32b217931bd7522ec55771718d096fb918e55a7571d2cd"
+      }
+    }
   }
 ]
