@@ -47498,5 +47498,35 @@
         "source_hash": "3bcb869f5ff3ac154005226492e65edc681c8c9fbd79746a74c745a992b2a56f"
       }
     }
+  },
+  {
+    "מזהה": "n-1774",
+    "category": "micro",
+    "חברה": "DTE",
+    "symbols": [
+      "DTE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:55",
+    "הועלה": "2026-11-16 11:55",
+    "כותרת": "פורסם באיחור | 28 באוקטובר | DTE Energy (DTE): פארק Fish Creek הסולארי, בהשקעה של 268 מיליון דולר ובהספק 132 מגה-ואט, החל לפעול",
+    "כותרת_en": "Published late | October 28 | DTE Energy (DTE): $268 million, 132-MW Fish Creek Solar Park begins operation",
+    "קישור": "https://www.dteenergy.com/us/en/newsroom/2026/DTE-Energys-new-Fish-Creek-Solar-Park-adds-enough-clean-Michigan-made-energy-to-power-30000-homes.html",
+    "מקורות": [
+      {
+        "url": "https://www.dteenergy.com/us/en/newsroom/2026/DTE-Energys-new-Fish-Creek-Solar-Park-adds-enough-clean-Michigan-made-energy-to-power-30000-homes.html",
+        "label": "DTE Energy: הודעת ההפעלה של Fish Creek מ-28 באוקטובר",
+        "label_en": "DTE Energy: October 28 Fish Creek operational announcement"
+      }
+    ],
+    "טקסט": "28.10.2026 | הודעת DTE Energy המקורית נקראה במלואה. **שעת ההודעה המקורית בישראל לא אומתה.** פורסם באיחור.\n\nDTE Energy הודיעה כי פארק Fish Creek הסולארי, סמוך ל-Sheridan במישיגן, החל לפעול. הפרויקט הוא בהספק של 132 מגה-ואט ובהשקעה של 268 מיליון דולר. **השלב המדווח הוא הפעלה של מתקן ייצור, לא הצעת פרויקט, תחילת בנייה או רכישת קרקע.**\n\nלפי החברה, הפרויקט מומן במלואו בידי לקוחות המשתתפים מרצונם בתוכנית MIGreenPower. DTE מציגה זאת כתוספת ייצור ללא העלאת עלויות ללקוחות; זהו תיאור החברה של מימון הפרויקט, לא קביעה שכל חשבונות החשמל הוקפאו או שכל בקשת תעריף אחרת בוטלה. ההודעה אינה מפרסמת חוזה לקוח חדש, מחיר מכירת חשמל או תרומה כספית לרווח.\n\nהחברה משווה את תפוקת הפארק לצריכת חשמל של כ-30 אלף בתים. זו השוואת תפוקה של DTE, לא ספירת בתים חדשים שחוברו ולא אספקה רציפה של 132 מגה-ואט בכל שעה. אין כאן נתון קיבולת אגירה או התחייבות לייצור בשעות הלילה.\n\nDTE צופה עשרות מיליוני דולרים בהכנסות מס מקומיות. זהו אומדן עתידי, לא הכנסות שכבר נגבו. ההודעה כוללת גם תוכנית רחבה להוספת 15 גיגה-ואט של אנרגיה מתחדשת עד 2042; היעד הזה אינו הספק שכבר הופעל ואינו מתווסף להספק Fish Creek כייצור נוכחי.",
+    "טקסט_en": "October 28, 2026 | DTE Energy's original announcement was read in full. **Original announcement time in Israel not verified.** Published late.\n\nDTE Energy announced that its Fish Creek Solar Park near Sheridan, Michigan, is operational. The project has 132 megawatts of capacity and represents a $268 million development. **The reported stage is operation of a generating facility, not a proposed project, construction start or land purchase.**\n\nThe company says the project was fully funded by customers voluntarily participating in MIGreenPower. DTE describes this as adding generation without raising customer costs; that is the company's description of project funding, not a finding that all electricity bills are frozen or every other rate request has been withdrawn. The release announces no new customer contract, electricity sale price or earnings contribution.\n\nDTE compares the park's energy generation with the consumption of approximately 30,000 homes. This is a company output equivalence, not a count of newly connected homes or continuous delivery of 132 megawatts every hour. No storage capacity or commitment to nighttime generation is supplied.\n\nDTE expects tens of millions of dollars in local tax revenue. That is a forward estimate, not taxes already collected. The release also mentions a wider plan to add 15 gigawatts of renewables by 2042; that target is not operating capacity and cannot be added to Fish Creek as current generation.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2935010c52da8c1cb56b249713a72d7be8a5efcaf04dc901bcd9794088a8ebc1"
+      }
+    }
   }
 ]
