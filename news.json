@@ -47016,5 +47016,39 @@
         "source_hash": "7db3a939a327b5cacb71ac65179d320e0cf888a41953e19f29b3bd989ff71b35"
       }
     }
+  },
+  {
+    "מזהה": "n-1759",
+    "category": "macro",
+    "תאריך": "2026-11-16 10:50",
+    "הועלה": "2026-11-16 10:50",
+    "חברה": "ECB",
+    "חברה_en": "ECB",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "כותרת": "וויצ׳יץ׳ (ECB): סיכוני AI וחוב ממשלתי בולטים; האשראי הפרטי דורש מעקב וחיזוק הגנות",
+    "כותרת_en": "ECB’s Vujcic: AI and sovereign debt risks stand out; private credit needs monitoring and stronger safeguards",
+    "טקסט": "16.11.2026 | הנוסח הרשמי המלא של נאום בוריס וויצ׳יץ׳, סגן נשיא ECB, ב-Euro Finance Week. בלוח הרשמי נקבעה פתיחה ב-09:30 CET, שהן 10:30 בישראל; זו שעת האירוע המתוכננת, לא שעת העלאת הטקסט שאומתה בנפרד.\n\nוויצ׳יץ׳ אומר שאירופה זקוקה ליותר מימון מבוסס שוק, אך הרחבת התיווך החוץ-בנקאי חייבת להיות מלווה בהגנות כלל-מערכתיות חזקות יותר. הוא מצביע במיוחד על סיכוני בינה מלאכותית וחוב ממשלתי: תמחור גבוה וריכוז חשיפות, מימון AI בחוב ובמבנים אטומים, תלות בספקי טכנולוגיה מעטים וסיכוני סייבר ותפעול.\n\nלדבריו, שינוי חד בציפיות ל-AI עלול לגרור הפסדי שווי, פדיונות מקרנות ומכירות כפויות; מינוף וקשרים בין קרנות, בנקים וחברות ביטוח עלולים להגביר זעזועים. **סיכוני האשראי הפרטי נראים כרגע מוכלים, אך צמיחתו המהירה מחייבת מעקב צמוד.** אין זו קביעה שאין סיכון או שכבר התרחש משבר אשראי.\n\nהוא קורא לשמור על כריות ההון הבנקאיות, שלדבריו אינן נראות כמגבלה מחייבת על האשראי. בחוץ-בנקאי הוא מציע להתאים תנאי פדיון לנזילות הנכסים, לחזק כריות נזילות בקרנות כספיות ולבחון מגבלות מינוף ודרישות ביטחונות לקרנות גידור, לצד פיקוח ושיתוף מידע טובים יותר. אלה עמדות והצעות בנאום, לא כללים חדשים שנכנסו לתוקף.\n\nבמישור המאקרו הוא מתאר כלכלה עמידה למרות הלם האנרגיה: עליית מחירי האנרגיה עלולה להוסיף לאינפלציה, בעוד פגיעה באמון ועלויות מימון גבוהות יותר עשויות לרסן חלק מהלחץ דרך האטת הצמיחה. לדבריו, השכר עדיין אינו מגיב באופן מהותי בשלב זה. **אין בנאום החלטת ריבית חדשה או התחייבות למסלול העלאות או הפחתות.**",
+    "טקסט_en": "November 16, 2026 | Full official text of ECB Vice-President Boris Vujcic's Euro Finance Week speech. The official calendar scheduled the opening for 09:30 CET, or 10:30 Israel time. This is the scheduled event time, not a separately verified text-upload time.\n\nVujcic says Europe needs more market-based finance, but a larger role for non-banks must come with stronger system-wide safeguards. He singles out AI and sovereign debt risks: stretched valuations and concentrated exposures, debt and opaque structures funding AI, reliance on a few technology providers, and cyber and operational vulnerabilities.\n\nHe warns that an abrupt reassessment of AI expectations could cause valuation losses, fund redemptions and forced asset sales. Leverage and links among funds, banks and insurers could amplify shocks. **Private credit risks currently appear contained, but its rapid growth warrants close monitoring.** This is not a claim that risk is absent or that a credit crisis has already occurred.\n\nHe calls for bank capital buffers to be preserved, saying they do not appear to be a binding constraint on lending. For non-banks, he advocates aligning redemption terms with asset liquidity, strengthening money-market-fund liquidity buffers, and considering hedge-fund leverage limits and collateral requirements, alongside better supervision and information-sharing. These are views and proposals in a speech, not newly effective rules.\n\nOn the economy, he describes resilience despite the energy shock. Higher energy prices may add to inflation, while weaker confidence and higher borrowing costs could partly offset the pressure by weighing on growth. He says wages are not showing a material response at this stage. **The speech contains no new interest-rate decision or commitment to a path of hikes or cuts.**",
+    "קישור": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+    "מקורות": [
+      {
+        "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+        "label": "ECB: הנוסח הרשמי המלא של נאום וויצ׳יץ׳, 16 בנובמבר",
+        "label_en": "ECB: full official Vujcic speech, November 16"
+      },
+      {
+        "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+        "label": "ECB: לוח רשמי ושעת האירוע המתוכננת",
+        "label_en": "ECB: official calendar and scheduled event time"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7c0950f009b80010dc6110c61ec535d9fbf127856356e62f8212f3cffb22a737"
+      }
+    }
   }
 ]
