@@ -48912,5 +48912,35 @@
         "source_hash": "59805c3c1d6f2ce7eadafecd3318ed638eacbcac6e65321878a6a2af99437b53"
       }
     }
+  },
+  {
+    "מזהה": "n-1821",
+    "category": "micro",
+    "חברה": "TSN",
+    "symbols": [
+      "TSN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:28",
+    "הועלה": "2026-11-16 14:28",
+    "כותרת": "לפי Reuters, Tyson צופה ירידה של 3.5%–5.5% במכירות בשנת הכספים 2027, לעומת ירידה של 1% בקונצנזוס",
+    "כותרת_en": "Reuters: Tyson forecasts fiscal 2027 sales decline of 3.5%–5.5%, versus 1% consensus decline",
+    "קישור": "https://www.boursorama.com/bourse/actualites/tyson-foods-prevoit-une-baisse-de-son-chiffre-d-affaires-annuel-plus-forte-que-prevu-bfc22a60b4e4b9b7b857555628baedba",
+    "מקורות": [
+      {
+        "url": "https://www.boursorama.com/bourse/actualites/tyson-foods-prevoit-une-baisse-de-son-chiffre-d-affaires-annuel-plus-forte-que-prevu-bfc22a60b4e4b9b7b857555628baedba",
+        "label": "Reuters דרך Boursorama: תחזית Tyson, בתרגום אוטומטי לצרפתית",
+        "label_en": "Reuters via Boursorama: Tyson outlook, automated French translation"
+      }
+    ],
+    "טקסט": "16.11.2026, 13:08 בפריז, 14:08 בישראל לפי חישוב אזורי הזמן. כתבת Reuters המלאה המופיעה ב-Boursorama נקראה. **לא מאומת מול מקור ראשוני: הודעת התוצאות המקורית של Tyson לא נקראה. העמוד מציין שזהו תרגום אוטומטי לצרפתית של Reuters, שעשוי לכלול טעויות או חוסר בהקשר. המספרים כאן מיוחסים לדיווח.**\n\nלפי Reuters, Tyson Foods צופה ירידה של 3.5%–5.5% במכירות בשנת הכספים 2027, לעומת ציפיית אנליסטים לירידה של כ-1% לפי נתוני LSEG המובאים בכתבה. זו תחזית לשנה הבאה, לא ירידה שכבר נרשמה במכירות השנתיות ולא שינוי להנחיות שנת 2026.\n\nהדיווח קושר את התחזית למחסור בבקר בארה\"ב, לשינוי ברשת מפעלי הבקר ולתחזית פחות חיובית בתחומי העוף והחזיר. ירידת נפחי הבקר צפויה ללחוץ על המכירות. החברה פועלת בשוק שבו עלות רכישת הבקר עלתה מהר יותר מההכנסות ממכירת בשר, לפי הכתבה.\n\nאין בדיווח שנקרא יעד מכירות כספי מלא ל-2027, ואין כאן קביעה מאומתת לגבי תחזית רווח חדשה. כותרת על ירידה בטרום המסחר ממקור אחר לא אומתה ולכן אינה מוצגת כנתון חי.",
+    "טקסט_en": "November 16, 2026 at 13:08 Paris time, or 14:08 Israel time by timezone calculation. The complete Reuters article carried by Boursorama was read. **Not verified against a primary source: Tyson's original results release was not read. The page says this is Reuters' automated French translation, which may contain errors or omit context. The figures below are attributed to that report.**\n\nReuters reports that Tyson Foods forecasts fiscal 2027 sales falling 3.5%–5.5%, compared with an approximately 1% decline expected by analysts in LSEG data cited by the article. This is a forecast for the coming fiscal year, not an annual sales decline already recorded or a change to fiscal 2026 guidance.\n\nThe report links the outlook to the US cattle shortage, restructuring of the beef plant network and a less favorable outlook for chicken and pork. Lower beef volumes are expected to weigh on sales. According to the article, cattle procurement costs have risen faster than revenue from beef sales.\n\nThe article read does not provide a complete dollar sales target for 2027, and no newly verified profit forecast is asserted here. A separate premarket-decline headline was not verified and is not presented as a live quote.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a089cfdaf94bfb532133e0035f3544af9aab68c8829862b67918fc3ade404fde"
+      }
+    }
   }
 ]
