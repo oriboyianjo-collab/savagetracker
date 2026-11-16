@@ -6708,7 +6708,7 @@ function validateUniversalReportIndex(data){
   const plain=x=>x!==null && typeof x==='object' && !Array.isArray(x) && Object.getPrototypeOf(x)===Object.prototype;
   const iso=s=>{if(typeof s!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(s))return false;const d=new Date(s+'T00:00:00Z');return Number.isFinite(d.getTime())&&d.toISOString().slice(0,10)===s;};
   const exact=(o,keys)=>plain(o)&&Object.keys(o).sort().join('|')===keys.slice().sort().join('|');
-  if(!exact(data,['schema_version','inventory_sha256','as_of','symbols'])||data.schema_version!==1||data.inventory_sha256!=='4c9fdc1ad463bddf2fdfabcfa78bd5d35ef3dee05cfea3c89c0441c5bb7a46a6'||!iso(data.as_of)||data.as_of>new Date().toISOString().slice(0,10)||!plain(data.symbols)||Object.keys(data.symbols).length>6315)fail();
+  if(!exact(data,['schema_version','inventory_sha256','as_of','symbols'])||data.schema_version!==1||data.inventory_sha256!=='c17c10642864e2255eb55dd3f819daf40e34b894c87b6cf877c06afb41e3c083'||!iso(data.as_of)||data.as_of>new Date().toISOString().slice(0,10)||!plain(data.symbols)||Object.keys(data.symbols).length>6315)fail();
   const out={};
   for(const [sym,row] of Object.entries(data.symbols)){
     if(!/^[A-Z0-9][A-Z0-9.\-]{0,31}$/.test(sym)||['__proto__','constructor','prototype'].includes(sym)||!exact(row,['cik','reports','ledger'])||!/^\d{10}$/.test(row.cik)||/^0+$/.test(row.cik)||!plain(row.reports)||!Array.isArray(row.ledger)||!row.ledger.length||row.ledger.length>200)fail();
@@ -6718,7 +6718,7 @@ function validateUniversalReportIndex(data){
       for(const [period,url] of Object.entries(periods)){
         if(!/^(FY|Q[1-4])$/.test(period)||typeof url!=='string')fail();
         let u;try{u=new URL(url);}catch(e){fail();}
-        if(u.protocol!=='https:'||u.hostname!=='www.sec.gov'||u.port||u.username||u.password||u.search||u.hash||u.href!==url||!new RegExp('^/Archives/edgar/data/'+numericCik+'/\\d{18}/[A-Za-z0-9][A-Za-z0-9_.-]*\\.html?$').test(u.pathname))fail();
+        if(u.protocol!=='https:'||u.hostname!=='www.sec.gov'||u.port||u.username||u.password||u.search||u.hash||u.href!==url||!new RegExp('^/Archives/edgar/data/(?:'+numericCik+(numericCik==='2115436'?'|34088':'')+')/\\d{18}/[A-Za-z0-9][A-Za-z0-9_.-]*\\.html?$').test(u.pathname))fail();
         const slot=year+'-'+period;if(flat.has(slot))fail();flat.set(slot,url);
       }
     }
@@ -6770,7 +6770,7 @@ function loadUniversalReportSymbol(sym){
 }
 function validateUniversalReportManifest(data){
   const plain=x=>x!==null&&typeof x==='object'&&!Array.isArray(x)&&Object.getPrototypeOf(x)===Object.prototype;
-  if(!plain(data)||Object.keys(data).sort().join('|')!=='as_of|inventory_sha256|schema_version|symbols'||data.schema_version!==1||data.inventory_sha256!=='4c9fdc1ad463bddf2fdfabcfa78bd5d35ef3dee05cfea3c89c0441c5bb7a46a6'||!/^\d{4}-\d{2}-\d{2}$/.test(data.as_of)||new Date(data.as_of+'T00:00:00Z').toISOString().slice(0,10)!==data.as_of||data.as_of>new Date().toISOString().slice(0,10)||!plain(data.symbols)||Object.keys(data.symbols).length>6315)throw new Error('Invalid report manifest');
+  if(!plain(data)||Object.keys(data).sort().join('|')!=='as_of|inventory_sha256|schema_version|symbols'||data.schema_version!==1||data.inventory_sha256!=='c17c10642864e2255eb55dd3f819daf40e34b894c87b6cf877c06afb41e3c083'||!/^\d{4}-\d{2}-\d{2}$/.test(data.as_of)||new Date(data.as_of+'T00:00:00Z').toISOString().slice(0,10)!==data.as_of||data.as_of>new Date().toISOString().slice(0,10)||!plain(data.symbols)||Object.keys(data.symbols).length>6315)throw new Error('Invalid report manifest');
   for(const [sym,row]of Object.entries(data.symbols)){
     if(!/^[A-Z0-9][A-Z0-9.\-]{0,31}$/.test(sym)||!plain(row)||Object.keys(row).sort().join('|')!=='cik|sha256'||!/^\d{10}$/.test(row.cik)||/^0+$/.test(row.cik)||!/^[a-f0-9]{64}$/.test(row.sha256))throw new Error('Invalid report manifest entry');
   }

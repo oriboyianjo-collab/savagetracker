@@ -3,7 +3,7 @@
 No network without --live. Offline runs use --replay-cache of retained captures.
 
   python3 -m universal.cli --inventory inventory.json --state DIR --result out.json \
-      --as-of 2026-11-15 --pass-id universe-20261115-6315-v1 --generation 1 \
+      --as-of 2026-11-15 --pass-id universe-20261116-6315-connect-v1 --generation 1 \
       [--deadline-seconds 540] [--max-issuers 40] [--live --cache DIR | --replay-cache DIR ...] \
       [--log run.jsonl] [--prior PATH]
 
@@ -42,7 +42,7 @@ def main(argv=None):
     p.add_argument('--generation', type=int, help='controller generation; must match prior when both set')
     p.add_argument('--deadline-seconds', type=float, default=None)
     p.add_argument('--max-issuers', type=int, default=None)
-    p.add_argument('--max-pages', type=int, default=8)
+    p.add_argument('--max-pages', type=int, default=64)
     p.add_argument('--max-documents-per-issuer', type=int, default=90)
     p.add_argument('--live', action='store_true', help='opt-in real SEC requests via GlobalSecTransport')
     p.add_argument('--cache', help='raw response cache dir for --live')

@@ -62,14 +62,14 @@ def _statements(end, q4_release=False):
     return income + balance + cf
 
 
-def doc_regular(cik10, name, form, fy, period, end, symbol=None, transform=None, bad_cik=None):
+def doc_regular(cik10, name, form, fy, period, end, symbol=None, transform=None, bad_cik=None, amended=False):
     m = MONTHS[end.month - 1]
     phrase = 'fiscal year' if period == 'FY' else 'quarterly period'
     kind = 'ANNUAL' if period == 'FY' else 'QUARTERLY'
     cover = ('UNITED STATES SECURITIES AND EXCHANGE COMMISSION FORM %s %s REPORT '
              'For the %s ended %s %d, %d. %s Commission file 001-00001'
              % (form, kind, phrase, m, end.day, end.year, name))
-    dei = _dei_hidden(bad_cik or cik10, form, fy, period, end, symbol=symbol, transform=transform)
+    dei = _dei_hidden(bad_cik or cik10, form, fy, period, end, amended=amended, symbol=symbol, transform=transform)
     return ('<html><body>%s<p>%s</p>%s</body></html>' % (dei, cover, _statements(end))).encode()
 
 

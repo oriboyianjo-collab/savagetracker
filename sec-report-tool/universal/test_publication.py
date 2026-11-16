@@ -16,7 +16,25 @@ class PublicationTests(unittest.TestCase):
     def test_noncalendar_year(self):r=self.linked();idx,_=self.check();self.assertEqual(idx['symbols'][r['symbol']]['reports']['2027'],r['reports']['2027'])
     def test_project_only_public_evidence(self):r=self.linked();r['reason']='private reason must not publish';idx,st=self.check();self.assertNotIn('private',json.dumps(idx)+json.dumps(st));self.assertNotIn('decision',json.dumps(idx))
     def test_existing_companies_are_in_processing_scope(self):self.assertTrue(all(not x['existing']for x in self.inv['rows']));self.assertEqual(sum(x.get('previously_present',False)for x in self.inv['rows']),312)
-    def test_hold_preserved(self):x=next(x for x in self.rows if x['status']=='held');x['status']='pending';self.assertRaises(ValueError,self.check)
+    def test_no_preserved_constraint_holds_remain(self):self.assertFalse([x['symbol']for x in self.inv['rows']if x.get('hold_reason')])
+    def test_security_class_shares_parent_reports(self):
+        r=self.linked();par=r['symbol'];child=next((x for x in self.inv['rows'] if x.get('parent_symbol')),None);self.assertIsNotNone(child)
+        child=dict(child);child['parent_symbol']=par
+        self.inv['rows']=[child if x['symbol']==child['symbol'] else x for x in self.inv['rows']]
+        c=next(x for x in self.rows if x['symbol']==child['symbol']);c.update(status='held',reason_code='HOLD_SECURITY_CLASS')
+        import publication
+        old=publication.INVENTORY_SHA;raw=json.dumps(self.inv).encode();publication.INVENTORY_SHA=hashlib.sha256(raw).hexdigest();self.result['inventory_sha256']=publication.INVENTORY_SHA
+        try:idx,st=project(self.inv,raw,self.result)
+        finally:publication.INVENTORY_SHA=old
+        self.assertEqual(idx['symbols'][child['symbol']],idx['symbols'][par]);srow=next(x for x in st['rows']if x['symbol']==child['symbol']);self.assertEqual(srow['linked_slots'],1);self.assertEqual(srow['status'],'held')
+    def test_parent_mapping_not_applied_to_other_holds(self):
+        r=self.linked();c=next(x for x in self.rows if x['symbol']!=r['symbol']);c.update(status='held',reason_code='IDENTITY_NAME_MISMATCH');idx,_=self.check();self.assertNotIn(c['symbol'],idx['symbols'])
+    def test_prior_from_superseded_pass_is_ignored(self):r=self.linked();old,_=self.check();old=dict(old,inventory_sha256='0'*64);self.rows[self.i]['status']='held';idx,_=self.check(old);self.assertFalse(idx['symbols'])
+    def test_predecessor_cik_urls(self):
+        from publication import url_ok
+        url_ok('https://www.sec.gov/Archives/edgar/data/34088/000003408826000093/xom-20260630.htm','0002115436')
+        self.assertRaises(ValueError,url_ok,'https://www.sec.gov/Archives/edgar/data/34088/000003408826000093/xom-20260630.htm','0000000123')
+        self.assertRaises(ValueError,url_ok,'https://www.sec.gov/Archives/edgar/data/12345/000003408826000093/x.htm','0002115436')
     def test_missing_row(self):self.rows.pop();self.assertRaises(ValueError,self.check)
     def test_duplicate_row(self):self.rows[-1]=self.rows[0];self.assertRaises(ValueError,self.check)
     def test_rank_mismatch(self):self.rows[-1]['rank']=1;self.assertRaises(ValueError,self.check)

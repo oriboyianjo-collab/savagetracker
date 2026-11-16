@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('fs'),vm=require('vm'),assert=require('assert'),crypto=require('crypto');
 const src=fs.readFileSync(__dirname+'/universal-consumer-insert.js','utf8');
-const ih='4c9fdc1ad463bddf2fdfabcfa78bd5d35ef3dee05cfea3c89c0441c5bb7a46a6';
+const ih='c17c10642864e2255eb55dd3f819daf40e34b894c87b6cf877c06afb41e3c083';
 const url='https://www.sec.gov/Archives/edgar/data/123/000119312526000001/report.htm';
 const shard={schema_version:1,inventory_sha256:ih,as_of:'2026-11-15',symbols:{ABC:{cik:'0000000123',reports:{2027:{Q1:url}},ledger:[{slot:'2027-Q1',url,body_sha256:'a'.repeat(64),period_end:'2026-10-01',filing_date:'2026-11-01'}]}}};
 const bytes=Buffer.from(JSON.stringify(shard)+'\n');const hash=crypto.createHash('sha256').update(bytes).digest('hex');

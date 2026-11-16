@@ -4,7 +4,7 @@ Candidate integration. Do not deploy or dispatch until combined core qualificati
 
 ## Scope
 
-Frozen inventory: 6,315 exact app symbols, hash `4c9fdc1ad463bddf2fdfabcfa78bd5d35ef3dee05cfea3c89c0441c5bb7a46a6`. Cutoff: 2026-11-15. Existing company connections are in scope for verified per-slot EDGAR replacement. If no report qualifies, the original link remains. No financial values, unrelated data, or UI layout changes.
+Frozen inventory: 6,315 exact app symbols, hash `c17c10642864e2255eb55dd3f819daf40e34b894c87b6cf877c06afb41e3c083`. Cutoff: 2026-11-15. Existing company connections are in scope for verified per-slot EDGAR replacement. If no report qualifies, the original link remains. No financial values, unrelated data, or UI layout changes.
 
 39 inventory holds remain: two explicit exclusions, 15 reserved pending scope clarification, and 22 other pre-existing holds. The core additionally holds 461 name-classified securities (143 warrants, 132 debt notes, 77 rights, 62 preferred securities, 47 units). These conservative name rules can hold legitimate partnership units. The 500 held rows are accounted for, not certified source failures. At most 5,815 symbols proceed to issuer discovery; this is not a promise of 5,815 connections.
 
@@ -31,7 +31,7 @@ Raw filing bodies, free-form parser diagnostics, and raw execution logs are not 
 
 ## Launch and completion
 
-Initial dispatch uses fixed pass ID `universe-20261115-6315-replace-v1`, generation `0`. Preflight rejects a stale, duplicate, stopped, or complete pass before any SEC requests. Every successful generated-output commit advances one generation. Continuation is dispatched only after that commit reaches main. A crash before the commit restarts from the last committed generation and resume shards.
+Initial dispatch uses fixed pass ID `universe-20261116-6315-connect-v1`, generation `0`. Preflight rejects a stale, duplicate, stopped, or complete pass before any SEC requests. Every successful generated-output commit advances one generation. Continuation is dispatched only after that commit reaches main. A crash before the commit restarts from the last committed generation and resume shards.
 
 No automatic access reset is permitted. SEC denial, challenge, or rate-limit state stops continuation and remains stopped. Unexpected failure and no logical progress do not produce an unbounded retry loop. The pass has a finite batch cap. Explicit unsupported/held rows remain accounted for rather than becoming guessed connections.
 

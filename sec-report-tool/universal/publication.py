@@ -9,7 +9,9 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit
 
-INVENTORY_SHA = '4c9fdc1ad463bddf2fdfabcfa78bd5d35ef3dee05cfea3c89c0441c5bb7a46a6'
+INVENTORY_SHA = 'c17c10642864e2255eb55dd3f819daf40e34b894c87b6cf877c06afb41e3c083'
+# Successor registrant -> predecessor CIKs whose native filings it may link (core.PREDECESSOR_CIKS).
+PREDECESSOR_CIKS = {2115436: (34088,)}
 STATUSES = {'existing_preserved', 'connected', 'partial_validated', 'held', 'unsupported', 'pending'}
 PUBLISH = {'connected', 'partial_validated'}
 
@@ -24,7 +26,8 @@ def day(s):
 def url_ok(url,cik):
     if not isinstance(url,str):raise ValueError('invalid URL')
     p=urlsplit(url)
-    if p.scheme!='https' or p.netloc!='www.sec.gov' or p.query or p.fragment or not re.fullmatch(r'/Archives/edgar/data/'+str(int(cik))+r'/\d{18}/[A-Za-z0-9][A-Za-z0-9_.-]*\.html?',p.path):raise ValueError('wrong issuer/native SEC URL')
+    ciks='|'.join(str(c) for c in (int(cik),)+tuple(PREDECESSOR_CIKS.get(int(cik),())))
+    if p.scheme!='https' or p.netloc!='www.sec.gov' or p.query or p.fragment or not re.fullmatch(r'/Archives/edgar/data/(?:'+ciks+r')/\d{18}/[A-Za-z0-9][A-Za-z0-9_.-]*\.html?',p.path):raise ValueError('wrong issuer/native SEC URL')
 
 def validate_symbol(row,as_of):
     cik=row.get('cik')
@@ -73,10 +76,19 @@ def project(inventory,inventory_bytes,result,prior=None):
         allowed_codes=set('OK EXISTING_PRESERVED HOLD_EXPLICIT HOLD_SECURITY_CLASS IDENTITY_NOT_IN_TICKER_MAP IDENTITY_AMBIGUOUS_TICKER IDENTITY_CIK_MISMATCH IDENTITY_TICKER_NOT_IN_ROOT IDENTITY_NAME_MISMATCH SUBMISSIONS_PAGE_BUDGET SUBMISSIONS_METADATA_CONFLICT UNSAFE_ARCHIVE_PAGE AMENDMENT_REQUIRES_REVIEW AMENDMENT_FLAG_CONFLICT VERSION_CONFLICT_DUPLICATE_PERIOD NO_VALIDATED_REPORTS UNRESOLVED_IN_SCOPE_FILINGS UNSUPPORTED_NO_PERIODIC_FORMS UNSUPPORTED_NO_IN_SCOPE_FILINGS PENDING_NOT_ATTEMPTED PENDING_DEADLINE PENDING_ACCESS_HELD OTHER'.split())
         statuses.append({'symbol':s,'rank':row['rank'],'status':status,'reason_code':code if code in allowed_codes else 'OTHER','linked_slots':len(symbols[s]['ledger'])if s in symbols else 0,'available_slots':sorted(e['slot']for e in symbols[s]['ledger'])if s in symbols else [],'missing_q4_for_validated_annuals':sorted(y+'-Q4'for y,periods in row.get('reports',{}).items()if 'FY'in periods and 'Q4'not in periods)if row.get('profile')=='domestic'else [],'unresolved_count':len(row.get('unresolved_slots',[])),'foreign_quarters_unsupported':row.get('profile')in {'foreign_annual','foreign_annual_only'},'historical_coverage_verified':False})
     if seen!=set(expected):raise ValueError('missing inventory symbols')
+    # Security classes (warrants, units, rights, preferred, notes) of an issuer whose common
+    # stock is in the inventory share that issuer's validated reports.
+    by_symbol={x['symbol']:x for x in statuses}
+    for s,source in expected.items():
+        par=source.get('parent_symbol')
+        if par and s not in symbols and par in symbols and by_symbol[s]['reason_code']=='HOLD_SECURITY_CLASS':
+            symbols[s]=json.loads(json.dumps(symbols[par]))
+            by_symbol[s].update({'linked_slots':len(symbols[s]['ledger']),'available_slots':sorted(e['slot']for e in symbols[s]['ledger']),'parent_symbol':par})
     counts=dict(Counter(x['status'] for x in statuses))
     if bool(result.get('complete_pass'))!=(counts.get('pending',0)==0):raise ValueError('false complete-pass marker')
     if prior:
-        if prior.get('inventory_sha256')!=ih or prior.get('as_of')!=as_of:raise ValueError('prior publication scope mismatch')
+        if prior.get('inventory_sha256')!=ih or prior.get('as_of')!=as_of:prior=None  # a previous pass/inventory is superseded wholesale
+    if prior:
         for s,old in prior.get('symbols',{}).items():
             if s not in symbols:raise ValueError('last-good symbol would disappear')
             new=symbols[s]

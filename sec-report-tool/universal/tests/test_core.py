@@ -343,22 +343,39 @@ class TestAmendmentsAndVersions(unittest.TestCase):
         self.assertEqual(row['status'], 'connected', row.get('reason'))
         self.assertTrue(any(le['decision'] == 'non_superseding_tagging_only' for le in row['ledger']))
 
-    def test_any_other_amendment_holds_issuer(self):
+    def _amend(self, amended):
         b = Builder(self.sec).standard()
         a = synth.fil(b.cik10, 51, '10-K/A', '2026-04-01', '2025-12-31', 'amend10k.htm')
-        body = synth.doc_regular(b.cik10, b.name, '10-K/A', '2025', 'FY', date(2025, 12, 31),
-                                 symbol='TEST')
-        # explicit full-restatement wording must NOT auto-replace either (v1 conservative)
-        body = body.replace(b'<p>UNITED', b'<p>This Form 10-K/A amends and restates the original report in its entirety.</p><p>UNITED')
         b.filings.append(a)
-        b.docs[id(a)] = body
+        b.docs[id(a)] = synth.doc_regular(b.cik10, b.name, '10-K/A', '2025', 'FY', date(2025, 12, 31),
+                                          symbol='TEST', amended=amended)
         b.commit()
         r = run_batch(inventory([inv_row('TEST', 'Test Corp', 1)]), None, self.replay, as_of=AS_OF)
-        row = r['rows'][0]
-        self.assertEqual(row['status'], 'held')
-        self.assertEqual(row['reason'], 'amendment_requires_review')
-        # original validated links retained in the row for reference; consumer skips held
-        self.assertGreater(row['linked_slots'], 0)
+        return r['rows'][0]
+
+    def test_unqualified_amendment_keeps_original_and_issuer(self):
+        # AmendmentFlag not declared true -> amendment is not superseding; never holds the issuer.
+        row = self._amend(False)
+        self.assertEqual(row['status'], 'connected', row.get('reason'))
+        self.assertEqual(row['linked_slots'], 10)
+        self.assertTrue(row['reports']['2025']['FY'].endswith('/test-20251231.htm'))
+
+    def test_validated_amendment_replaces_original_slot(self):
+        row = self._amend(True)
+        self.assertEqual(row['status'], 'connected', row.get('reason'))
+        self.assertEqual(row['linked_slots'], 10)
+        self.assertTrue(row['reports']['2025']['FY'].endswith('/amend10k.htm'))
+        self.assertEqual(sum(1 for le in row['ledger'] if le['slot'] == '2025-FY'), 1)
+
+    def test_non_tagging_8ka_does_not_hold(self):
+        b = Builder(self.sec).standard()
+        a = synth.fil(b.cik10, 52, '8-K/A', '2026-03-01', '2026-01-27', 'amend8k.htm')
+        b.filings.append(a)
+        b.docs[id(a)] = b'<html><body><p>Amended Item 2.02 results with new figures.</p></body></html>'
+        b.commit()
+        row = run_batch(inventory([inv_row('TEST', 'Test Corp', 1)]), None, self.replay, as_of=AS_OF)['rows'][0]
+        self.assertEqual(row['status'], 'connected', row.get('reason'))
+        self.assertEqual(row['linked_slots'], 10)
 
     def test_version_conflict_holds(self):
         self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp')])
@@ -610,3 +627,168 @@ class TestBudgetFailClosed(unittest.TestCase):
         self.assertEqual(len(tagging), 1, row2['ledger'])
         self.assertIsNone(tagging[0]['slot'], 'tagging-only amendment keeps slot null through projection')
         self.assertEqual(row2['linked_slots'], 10, row2['reports'].keys())
+
+
+class TestRecognitionRules(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.replay, self.sec = make_sec(self.tmp)
+
+    def test_split_balance_and_day_first_dates(self):
+        from universal.core import statements
+        from universal.sechtml import Document
+        end = date(2022, 12, 31)
+        body = ('<html><body>'
+                '<table><tr><td>Year ended 31 December 2022</td></tr><tr><td>Total net sales</td><td>21,173</td></tr>'
+                '<tr><td>Net income</td><td>5,624</td></tr></table>'
+                '<table><tr><td>As at 31 December 2022</td></tr><tr><td>Total assets</td><td>36,300</td></tr></table>'
+                '<table><tr><td>Equity and liabilities</td></tr><tr><td>Total liabilities</td><td>27,500</td></tr></table>'
+                '<table><tr><td>Year ended 31 December 2022</td></tr><tr><td>Net cash provided by operating activities</td><td>8,486</td></tr>'
+                '<tr><td>Cash flows from investing activities</td><td>(1,000)</td></tr>'
+                '<tr><td>Cash flows from financing activities</td><td>(2,000)</td></tr></table>'
+                '</body></html>').encode()
+        proof = statements(Document(body), end)
+        self.assertIn('balance', proof)
+
+    def test_assets_table_alone_is_not_a_balance_sheet(self):
+        from universal.core import statements
+        from universal.sechtml import Document
+        body = ('<html><body><table><tr><td>Year ended 31 December 2022</td></tr><tr><td>Total net sales</td><td>1</td></tr>'
+                '<tr><td>Net income</td><td>1</td></tr></table>'
+                '<table><tr><td>As at 31 December 2022</td></tr><tr><td>Total assets</td><td>36,300</td></tr></table>'
+                '</body></html>').encode()
+        with self.assertRaises(ValueError):
+            statements(Document(body), date(2022, 12, 31))
+
+    def test_compact_name_match_and_alias_scope(self):
+        from universal.core import names_match, IDENTITY_ALIASES, PREDECESSOR_CIKS
+        self.assertTrue(names_match('JP Morgan Chase & Co.', 'JPMORGAN CHASE & CO'))
+        self.assertFalse(names_match('JP Morgan Chase & Co.', 'MORGAN STANLEY'))
+        self.assertEqual(IDENTITY_ALIASES, {'GE': 40545})
+        self.assertEqual(PREDECESSOR_CIKS, {2115436: (34088,)})
+
+    def test_beneficial_unit_certificates_are_equity(self):
+        from universal.core import security_class_hold
+        self.assertIsNone(security_class_hold({'symbol': 'GHI', 'name': 'Greystone Housing Impact Investors LP Beneficial Unit Certificates'}))
+        self.assertTrue(security_class_hold({'symbol': 'ABCU', 'name': 'ABC Acquisition Corp - Unit'}))
+
+
+    def test_cash_generated_and_net_cash_from_operations(self):
+        from universal.core import statements
+        from universal.sechtml import Document
+        end = date(2024, 12, 28)
+        aapl = ('<html><body><table><tr><td>Years Ended December 28, 2024</td></tr>'
+                '<tr><td>Total net sales</td><td>100</td></tr><tr><td>Net income</td><td>20</td></tr></table>'
+                '<table><tr><td>December 28, 2024</td></tr><tr><td>Total assets</td><td>50</td></tr>'
+                '<tr><td>Total liabilities</td><td>30</td></tr></table>'
+                '<table><tr><td>Three Months Ended December 28, 2024</td></tr>'
+                '<tr><td>Cash generated by operating activities</td><td>29</td></tr>'
+                '<tr><td>Cash generated by investing activities</td><td>9</td></tr>'
+                '<tr><td>Cash used in financing activities</td><td>(39)</td></tr></table></body></html>')
+        self.assertIn('cash_flow', statements(Document(aapl.encode()), end))
+        end = date(2020, 3, 31)
+        msft = ('<html><body><table><tr><td>Three Months Ended March 31, 2020</td></tr>'
+                '<tr><td>Total revenue</td><td>35</td></tr><tr><td>Net income</td><td>10</td></tr></table>'
+                '<table><tr><td>March 31, 2020</td></tr><tr><td>Total assets</td><td>50</td></tr>'
+                '<tr><td>Total liabilities</td><td>30</td></tr></table>'
+                '<table><tr><td>Three Months Ended March 31, 2020</td></tr>'
+                '<tr><td>Net cash from operations</td><td>17</td></tr>'
+                '<tr><td>Net cash used in financing</td><td>(14)</td></tr>'
+                '<tr><td>Net cash from (used in) investing</td><td>51</td></tr></table></body></html>')
+        self.assertIn('cash_flow', statements(Document(msft.encode()), end))
+
+    def test_net_income_including_noncontrolling_interests(self):
+        from universal.core import statements
+        from universal.sechtml import Document
+        end = date(2020, 3, 31)
+        body = ('<html><body><table><tr><td>Three Months Ended March 31, 2020</td></tr>'
+                '<tr><td>Sales and other operating revenue</td><td>55134</td></tr>'
+                '<tr><td>Net income (loss) including noncontrolling interests</td><td>(770)</td></tr></table>'
+                '<table><tr><td>March 31, 2020</td></tr><tr><td>Total assets</td><td>50</td></tr>'
+                '<tr><td>Total liabilities</td><td>30</td></tr></table>'
+                '<table><tr><td>Three Months Ended March 31, 2020</td></tr>'
+                '<tr><td>Net cash provided by operating activities</td><td>6</td></tr>'
+                '<tr><td>Cash flows from investing activities</td><td>(1)</td></tr>'
+                '<tr><td>Cash flows from financing activities</td><td>(2)</td></tr></table></body></html>')
+        self.assertIn('income', statements(Document(body.encode()), end))
+
+    def test_fiscal_period_must_be_consistent_with_period_end(self):
+        from universal.core import _fiscal_period_consistent
+        from datetime import date
+        self.assertTrue(_fiscal_period_consistent(2020, 'Q1', date(2020, 3, 31)))
+        self.assertTrue(_fiscal_period_consistent(2020, 'FY', date(2020, 12, 31)))
+        self.assertTrue(_fiscal_period_consistent(2020, 'Q1', date(2019, 12, 28)))  # Apple-style Sep FY
+        self.assertTrue(_fiscal_period_consistent(2027, 'Q1', date(2026, 9, 30)))  # Microsoft-style Jun FY
+        self.assertFalse(_fiscal_period_consistent(2019, 'Q3', date(2020, 3, 31)))  # GE 2020 Q1 mistag
+        self.assertTrue(_fiscal_period_consistent(2025, 'FY', date(2026, 1, 3)))  # 53-week
+
+    def test_inconsistent_dei_is_not_published_on_a_wrong_slot(self):
+        self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp')])
+        b = Builder(self.sec)
+        # Period ended 31 March 2020 tagged as 2019 Q3 (real GE 10-Q typo).
+        body = synth.doc_regular(b.cik10, b.name, '10-Q', '2019', 'Q3', date(2020, 3, 31), symbol='TEST')
+        b.filings.append(synth.fil(b.cik10, 1, '10-Q', '2020-04-29', '2020-03-31', 'ge-wrong.htm'))
+        b.docs[id(b.filings[-1])] = body
+        b.commit()
+        row = run_batch(inventory([inv_row('TEST', 'Test Corp', 1)]), None, self.replay, as_of=AS_OF)['rows'][0]
+        self.assertNotIn('2019-Q3', [le.get('slot') for le in row['ledger']])
+        self.assertFalse((row.get('reports') or {}).get('2019', {}).get('Q3'))
+
+    def test_cover_may_insert_commission_file_between_ended_and_date(self):
+        self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp')])
+        b = Builder(self.sec)
+        body = synth.doc_regular(b.cik10, b.name, '10-Q', '2020', 'Q1', date(2020, 3, 31), symbol='TEST')
+        body = body.replace(b'For the quarterly period ended March 31, 2020',
+                            b'For the quarterly period ended Commission file March 31, 2020 number 1-5805')
+        b.filings.append(synth.fil(b.cik10, 1, '10-Q', '2020-04-29', '2020-03-31', 'jpm.htm'))
+        b.docs[id(b.filings[-1])] = body
+        b.commit()
+        row = run_batch(inventory([inv_row('TEST', 'Test Corp', 1)]), None, self.replay, as_of=AS_OF)['rows'][0]
+        self.assertEqual(row['reports']['2020']['Q1'].endswith('/jpm.htm'), True, row)
+
+class TestAliases(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.replay, self.sec = make_sec(self.tmp)
+
+    def test_alias_requires_pinned_cik(self):
+        import universal.core as core
+        self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp')])
+        Builder(self.sec).standard()
+        row = inv_row('TEST', 'Totally Different Name Inc', 1)
+        r = run_batch(inventory([row]), None, self.replay, as_of=AS_OF)['rows'][0]
+        self.assertEqual(r['status'], 'held')
+        old = dict(core.IDENTITY_ALIASES)
+        try:
+            core.IDENTITY_ALIASES['TEST'] = 999  # wrong CIK: alias must not apply
+            r = run_batch(inventory([row]), None, self.replay, as_of=AS_OF)['rows'][0]
+            self.assertEqual(r['status'], 'held')
+            core.IDENTITY_ALIASES['TEST'] = Builder.CIK
+            r = run_batch(inventory([row]), None, self.replay, as_of=AS_OF)['rows'][0]
+            self.assertEqual(r['status'], 'connected', r.get('reason'))
+        finally:
+            core.IDENTITY_ALIASES.clear(); core.IDENTITY_ALIASES.update(old)
+
+    def test_cover_may_list_note_tickers_beside_the_issuer(self):
+        self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp')])
+        b = Builder(self.sec)
+        body = synth.doc_regular(b.cik10, b.name, '10-K', '2025', 'FY', date(2025, 12, 31), symbol='TEST')
+        body = body.replace(b'>TEST</ix:nonnumeric>', b'>TEST</ix:nonnumeric>'
+                            b'<ix:nonnumeric name="dei:TradingSymbol">TEST26</ix:nonnumeric>'
+                            b'<ix:nonnumeric name="dei:TradingSymbol">&#8212;</ix:nonnumeric>', 1)
+        b.filings.append(synth.fil(b.cik10, 1, '10-K', '2026-02-09', '2025-12-31', 't.htm'))
+        b.docs[id(b.filings[-1])] = body
+        b.commit()
+        row = run_batch(inventory([inv_row('TEST', 'Test Corp', 1)]), None, self.replay, as_of=AS_OF)['rows'][0]
+        self.assertEqual(row['status'], 'connected', row.get('reason'))
+        self.assertEqual(row['linked_slots'], 1)
+
+    def test_foreign_trading_symbol_still_rejected(self):
+        self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp')])
+        b = Builder(self.sec)
+        body = synth.doc_regular(b.cik10, b.name, '10-K', '2025', 'FY', date(2025, 12, 31), symbol='OTHER')
+        b.filings.append(synth.fil(b.cik10, 1, '10-K', '2026-02-09', '2025-12-31', 't.htm'))
+        b.docs[id(b.filings[-1])] = body
+        b.commit()
+        row = run_batch(inventory([inv_row('TEST', 'Test Corp', 1)]), None, self.replay, as_of=AS_OF)['rows'][0]
+        self.assertEqual(row['status'], 'held')

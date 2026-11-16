@@ -29,7 +29,7 @@ class Combined(unittest.TestCase):
    self.assertTrue(r0['checkpoints']);m=dehydrate(r0,Path(t,'state'));prior=hydrate(m,Path(t,'state'))
    self.assertEqual(prior['checkpoints'][sym]['ledger'],r0['checkpoints'][sym]['ledger'])
    c=preflight(None,PASS_ID,0);c,cont=checkpoint(c,r0,1);self.assertTrue(cont)
-   i,status=project(inv,raw,r0);self.assertEqual(status['summary']['held'],500);self.assertNotIn(sym,i['symbols'])
+   i,status=project(inv,raw,r0);self.assertEqual(status['summary']['held'],460);self.assertNotIn(sym,i['symbols'])
    oldurls={e['url']for e in prior['checkpoints'][sym]['ledger']};calls_before=len(tr.calls)
    r1=run_batch(inv,prior,tr,as_of='2026-11-15',pass_id=PASS_ID,generation=1,max_issuers=1)
    target=next(r for r in r1['rows']if r['symbol']==sym);self.assertEqual(target['status'],'connected',target.get('reason'));self.assertEqual(target['linked_slots'],10);self.assertEqual(len(target['ledger']),11)

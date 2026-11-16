@@ -6,7 +6,7 @@ from resume_shards import dehydrate,hydrate
 class ResumeShardTests(unittest.TestCase):
     def sample(self):
         inv=json.loads(Path(__file__).with_name('universe.json').read_text())
-        return {'schema_version':1,'inventory_sha256':INVENTORY_SHA,'pass_id':'universe-20261115-6315-replace-v1','generation':0,'as_of':'2026-11-15','complete_pass':False,'access_held':False,'rows':[{'symbol':x['symbol'],'rank':x['rank'],'status':'held'if x.get('hold_reason')else'pending','reason_code':'HOLD_EXPLICIT'if x.get('hold_reason')else'PENDING_NOT_ATTEMPTED','reports':{},'ledger':[]}for x in inv['rows']]}
+        return {'schema_version':1,'inventory_sha256':INVENTORY_SHA,'pass_id':'universe-20261116-6315-connect-v1','generation':0,'as_of':'2026-11-15','complete_pass':False,'access_held':False,'rows':[{'symbol':x['symbol'],'rank':x['rank'],'status':'held'if x.get('hold_reason')else'pending','reason_code':'HOLD_EXPLICIT'if x.get('hold_reason')else'PENDING_NOT_ATTEMPTED','reports':{},'ledger':[]}for x in inv['rows']]}
     def test_full_universe_roundtrip(self):
         x=self.sample()
         with tempfile.TemporaryDirectory()as t:

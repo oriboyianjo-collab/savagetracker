@@ -1,0 +1,641 @@
+{
+ "purpose": "Curated REPORT_PDFS values for the 39 formerly preserved_constraint symbols, saved before universal EDGAR links replace them slot by slot (Ori-approved 2026-11-16). index.html REPORT_PDFS is unchanged; universal overrides win per slot.",
+ "source": "index.html const REPORT_PDFS @ 1c0874a",
+ "symbols": [
+  "AAPL",
+  "BRK-A",
+  "CRWD",
+  "DELL",
+  "GEV",
+  "BHP",
+  "MCD",
+  "ABT",
+  "ARM",
+  "APH",
+  "NEE",
+  "ADI",
+  "UNP",
+  "PFE",
+  "COP",
+  "SCHW",
+  "SONY",
+  "ACN",
+  "TJX",
+  "SCCO",
+  "UL",
+  "VRTX",
+  "RIO",
+  "BTI",
+  "MRVL",
+  "SYK",
+  "PDD",
+  "PH",
+  "MFG",
+  "CME",
+  "KB",
+  "CLS",
+  "MAT",
+  "URG",
+  "HTT",
+  "TRVG",
+  "NC",
+  "BKTI",
+  "INO"
+ ],
+ "missing_from_REPORT_PDFS": [
+  "BRK-A",
+  "SONY",
+  "ACN",
+  "TJX",
+  "SCCO",
+  "UL",
+  "VRTX",
+  "RIO",
+  "BTI",
+  "SYK",
+  "PDD",
+  "PH",
+  "MFG",
+  "CME",
+  "KB",
+  "MAT",
+  "URG",
+  "HTT",
+  "TRVG",
+  "NC",
+  "BKTI",
+  "INO"
+ ],
+ "report_pdfs": {
+  "AAPL": {
+   "2021": {
+    "Q1": "https://s2.q4cdn.com/470004039/files/doc_financials/2021/q1/_10-Q-Q1-2021-(As-Filed).pdf",
+    "Q2": "https://s2.q4cdn.com/470004039/files/doc_financials/2021/q2/_10-Q-Q2-2021-(As-Filed).pdf",
+    "Q3": "https://s2.q4cdn.com/470004039/files/doc_financials/2021/q3/_10-Q-Q3-2021-(As-Filed).pdf",
+    "Q4": "https://www.apple.com/newsroom/2021/10/apple-reports-fourth-quarter-results/",
+    "FY": "https://s2.q4cdn.com/470004039/files/doc_financials/2021/q4/_10-K-2021-(As-Filed).pdf"
+   },
+   "2022": {
+    "Q1": "https://s2.q4cdn.com/470004039/files/doc_financials/2022/q1/_10-Q-Q1-2022-(As-Filed).pdf",
+    "Q2": "https://s2.q4cdn.com/470004039/files/doc_financials/2022/q2/_10-Q-Q2-2022-(As-Filed).pdf",
+    "Q3": "https://s2.q4cdn.com/470004039/files/doc_financials/2022/q3/_10-Q-Q3-2022-(As-Filed).pdf",
+    "Q4": "https://www.apple.com/newsroom/2022/10/apple-reports-fourth-quarter-results/",
+    "FY": "https://s2.q4cdn.com/470004039/files/doc_financials/2022/q4/_10-K-2022-(As-Filed).pdf"
+   },
+   "2023": {
+    "FY": "https://s2.q4cdn.com/470004039/files/doc_earnings/2023/q4/filing/_10-K-Q4-2023-As-Filed.pdf",
+    "Q1": "https://www.apple.com/newsroom/pdfs/FY23_Q1_Consolidated_Financial_Statements.pdf",
+    "Q2": "https://www.apple.com/newsroom/pdfs/FY23_Q2_Consolidated_Financial_Statements.pdf",
+    "Q3": "https://www.apple.com/newsroom/pdfs/fy2023-q3/FY23_Q3_Consolidated_Financial_Statements.pdf",
+    "Q4": "https://www.apple.com/newsroom/pdfs/fy2023-q4/FY23_Q4_Consolidated_Financial_Statements.pdf"
+   },
+   "2024": {
+    "FY": "https://s2.q4cdn.com/470004039/files/doc_earnings/2024/q4/filing/10-Q4-2024-As-Filed.pdf",
+    "Q1": "https://www.apple.com/newsroom/pdfs/fy2024-q1/FY24_Q1_Consolidated_Financial_Statements.pdf",
+    "Q2": "https://www.apple.com/newsroom/pdfs/fy2024-q2/FY24_Q2_Consolidated_Financial_Statements.pdf",
+    "Q3": "https://www.apple.com/newsroom/pdfs/fy2024-q3/FY24_Q3_Consolidated_Financial_Statements.pdf",
+    "Q4": "https://www.apple.com/newsroom/pdfs/fy2024-q4/FY24_Q4_Consolidated_Financial_Statements.pdf"
+   },
+   "2025": {
+    "FY": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "Q1": "https://www.apple.com/newsroom/pdfs/fy2025-q1/FY25_Q1_Consolidated_Financial_Statements.pdf",
+    "Q2": "https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf",
+    "Q3": "https://www.apple.com/newsroom/pdfs/fy2025-q3/FY25_Q3_Consolidated_Financial_Statements.pdf",
+    "Q4": "https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf"
+   },
+   "2026": {
+    "FY": "https://s2.q4cdn.com/470004039/files/doc_earnings/2026/q4/filing/10K-Q4-2026-as-filed.pdf",
+    "Q1": "https://www.apple.com/newsroom/pdfs/fy2026-q1/FY26_Q1_Consolidated_Financial_Statements.pdf",
+    "Q2": "https://www.apple.com/newsroom/pdfs/fy2026q2/FY26_Q2_Consolidated_Financial_Statements.pdf",
+    "Q3": "https://www.apple.com/newsroom/pdfs/fy2026q3/FY26_Q3_Consolidated_Financial_Statements.pdf",
+    "Q4": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf"
+   }
+  },
+  "CRWD": {
+   "2021": {
+    "Q1": "https://ir.crowdstrike.com/static-files/7eb0fff9-cdd4-4f2c-8333-1857fa17827e",
+    "Q2": "https://ir.crowdstrike.com/static-files/02bb479d-a897-4822-bb54-bea2b65aa1ad",
+    "Q3": "https://ir.crowdstrike.com/static-files/fb6ad1ac-415a-44a9-842a-aab97f186a7a",
+    "Q4": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2021",
+    "FY": "https://ir.crowdstrike.com/static-files/38912da5-0627-495a-b30f-ccf5d9c03f69"
+   },
+   "2022": {
+    "Q2": "https://ir.crowdstrike.com/static-files/2eced3ce-10f9-4064-a1e3-a8ee587f55c2",
+    "Q3": "https://ir.crowdstrike.com/static-files/f9e7e6de-cecb-4cbd-909c-4c8541432df4",
+    "Q4": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2022",
+    "FY": "https://ir.crowdstrike.com/static-files/653437ea-9083-4fa3-abb2-aaf817c6add8"
+   },
+   "2023": {
+    "Q1": "https://ir.crowdstrike.com/static-files/16e70c7f-349c-4c02-99d1-9f9896928ec8",
+    "Q2": "https://ir.crowdstrike.com/static-files/0b18c561-542d-49e0-9119-e5bd1d862f95",
+    "Q3": "https://ir.crowdstrike.com/static-files/12552489-29a3-407a-96c4-5c93e5e5b2d7",
+    "Q4": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2023",
+    "FY": "https://ir.crowdstrike.com/static-files/d25a040f-b44a-4160-ab8c-ea9ebd59047e"
+   },
+   "2024": {
+    "Q1": "https://ir.crowdstrike.com/static-files/3d870b63-c874-40e3-b997-adb225dd7ff8",
+    "Q2": "https://ir.crowdstrike.com/static-files/10b3e7b7-ecee-4275-9134-76fc76539e2d",
+    "Q3": "https://ir.crowdstrike.com/static-files/8a6d7723-221d-46f9-85b3-6a45fc128c63",
+    "Q4": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2024",
+    "FY": "https://ir.crowdstrike.com/static-files/b0ff20ba-dc01-4d32-871f-c441cd50af31"
+   },
+   "2025": {
+    "Q1": "https://ir.crowdstrike.com/static-files/103dc51f-1120-4d02-90eb-c69f555ae3cc",
+    "Q2": "https://ir.crowdstrike.com/static-files/fd6d4b22-9d2d-4e32-a3c6-e1f103248037",
+    "Q3": "https://ir.crowdstrike.com/static-files/d44c5ff3-498f-46b0-9e86-af340914c2d9",
+    "Q4": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2025",
+    "FY": "https://ir.crowdstrike.com/static-files/26d52307-1e24-44b7-bbc9-498b534480e2"
+   },
+   "2026": {
+    "Q1": "https://ir.crowdstrike.com/static-files/df97b784-4bed-4e85-b279-86215f6ee9ec",
+    "Q2": "https://ir.crowdstrike.com/static-files/45cda0ae-d078-4402-9cd4-6404c2661063",
+    "Q3": "https://ir.crowdstrike.com/static-files/0931da23-c41e-40b4-8da7-44724088e0c8",
+    "Q4": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2026",
+    "FY": "https://ir.crowdstrike.com/static-files/717b7579-e6fc-4864-af98-9523d5d4fecb"
+   },
+   "2027": {
+    "Q1": "https://ir.crowdstrike.com/static-files/57ccf214-5349-45de-bac1-644b5d2ae0a5",
+    "Q2": "https://ir.crowdstrike.com/static-files/3d341eea-18f8-4d1e-8f20-95b0c157a450"
+   }
+  },
+  "DELL": {
+   "2021": {
+    "Q1": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-20-000034/0001571996-20-000034.pdf",
+    "Q2": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-20-000045/0001571996-20-000045.pdf",
+    "Q3": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-20-000051/0001571996-20-000051.pdf",
+    "Q4": "https://investors.delltechnologies.com/news-events/press-releases/detail/330/future-of-work-solutions-fuel-dell-technologies-record-fiscal-year-2021-financial-results",
+    "FY": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-21-000007/0001571996-21-000007.pdf"
+   },
+   "2022": {
+    "Q1": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-21-000026/0001571996-21-000026.pdf",
+    "Q2": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-21-000040/0001571996-21-000040.pdf",
+    "Q3": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-21-000063/0001571996-21-000063.pdf",
+    "Q4": "https://investors.delltechnologies.com/news-events/press-releases/detail/271/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2022-financial-results",
+    "FY": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-22-000009/0001571996-22-000009.pdf"
+   },
+   "2023": {
+    "Q1": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-22-000021/0001571996-22-000021.pdf",
+    "Q2": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-22-000031/0001571996-22-000031.pdf",
+    "Q3": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-22-000044/0001571996-22-000044.pdf",
+    "Q4": "https://investors.delltechnologies.com/news-events/press-releases/detail/224/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2023-financial-results",
+    "FY": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-23-000007/0001571996-23-000007.pdf"
+   },
+   "2024": {
+    "Q1": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-23-000019/0001571996-23-000019.pdf",
+    "Q2": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-23-000032/0001571996-23-000032.pdf",
+    "Q3": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-23-000046/0001571996-23-000046.pdf",
+    "Q4": "https://investors.delltechnologies.com/news-events/press-releases/detail/165/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2024-financial-results",
+    "FY": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-24-000036/0001571996-24-000036.pdf"
+   },
+   "2025": {
+    "Q1": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-24-000062/0001571996-24-000062.pdf",
+    "Q2": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-24-000090/0001571996-24-000090.pdf",
+    "Q3": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-24-000143/0001571996-24-000143.pdf",
+    "Q4": "https://investors.delltechnologies.com/news-events/press-releases/detail/126/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2025-financial-results",
+    "FY": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-25-000034/0001571996-25-000034.pdf"
+   },
+   "2026": {
+    "FY": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000008/0001571996-26-000008.pdf",
+    "Q1": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-25-000063/0001571996-25-000063.pdf",
+    "Q2": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-25-000102/0001571996-25-000102.pdf",
+    "Q3": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-25-000127/0001571996-25-000127.pdf",
+    "Q4": "https://investors.delltechnologies.com/news-events/press-releases/detail/93/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2026-results"
+   },
+   "2027": {
+    "Q1": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000030/0001571996-26-000030.pdf",
+    "Q2": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000046/0001571996-26-000046.pdf"
+   }
+  },
+  "GEV": {
+   "2024": {
+    "Q1": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_10q_04302024.pdf",
+    "Q2": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_10q_07242024.pdf",
+    "Q4": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_pressrelease_01222025.pdf",
+    "FY": "https://www.gevernova.com/sites/default/files/2025-04/gevernova_2024_form10-k.pdf"
+   },
+   "2025": {
+    "Q1": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_10q_04232025.pdf",
+    "Q2": "https://www.gevernova.com/sites/default/files/gev_webcast_10q_07232025.pdf",
+    "Q3": "https://www.gevernova.com/sites/default/files/gev_webcast_10q_10222025.pdf",
+    "Q4": "https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_01282026.pdf",
+    "FY": "https://www.gevernova.com/sites/default/files/gevernova_2025_form10-k.pdf"
+   },
+   "2026": {
+    "Q1": "https://www.gevernova.com/sites/default/files/gev_webcast_10-q_04222026.pdf",
+    "Q2": "https://www.gevernova.com/sites/default/files/gev_webcast_10q_07222026.pdf",
+    "Q3": "https://www.gevernova.com/sites/default/files/gev_webcast_10q_10282026.pdf"
+   }
+  },
+  "BHP": {
+   "2021": {
+    "Q2": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2021/210216_bhpresultsforthehalfyearended31december2020.pdf",
+    "Q4": "https://www.bhp.com/news/media-centre/releases/2021/08/bhp-results-for-the-year-ended-30-june-2021",
+    "FY": "https://www.bhp.com/-/media/documents/investors/annual-reports/2021/bhpform20f2021.pdf"
+   },
+   "2022": {
+    "Q2": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2022/220215_bhphalfyearresultsfortheperiodended31dec2021.pdf",
+    "Q4": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2022/220816_bhpresultsfortheyearended30june2022.pdf",
+    "FY": "https://www.bhp.com/-/media/documents/investors/annual-reports/2022/bhpform20f2022.pdf"
+   },
+   "2023": {
+    "Q2": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2023/230221_bhpresultsforthehalfyearended31december2022.pdf",
+    "Q4": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2023/230822_bhpresultsfortheyearended30june2023.pdf",
+    "FY": "https://www.bhp.com/-/media/documents/investors/annual-reports/2023/bhpform20f2023.pdf"
+   },
+   "2024": {
+    "Q2": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2024/240220_bhpresultsforthehalfyearended31dec2023_exchangerelease.pdf",
+    "Q4": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2024/240827_bhpresultsfortheyearended30june2024.pdf",
+    "FY": "https://www.bhp.com/-/media/documents/investors/annual-reports/2024/bhpform20f2024.pdf"
+   },
+   "2025": {
+    "Q2": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2025/250218_bhpresultsforthehalfyearended31dec2024_exchangerelease.pdf",
+    "Q4": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2025/250819_bhpresultsfortheyearended30june2025.pdf",
+    "FY": "https://www.bhp.com/-/media/documents/investors/annual-reports/2025/bhpform20f2025.pdf"
+   },
+   "2026": {
+    "Q2": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2026/260217_bhpresultsforthehalfyearended31dec2025_exchangerelease.pdf",
+    "Q4": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2026/260818_bhpresultsfortheyearended30june2026_exchangerelease.pdf",
+    "FY": "https://www.bhp.com/-/media/documents/investors/annual-reports/2026/260818_bhpannualreport2026.pdf"
+   }
+  },
+  "MCD": {
+   "2021": {
+    "Q4": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Q4%20Earnings%20Release%20-%2099.1.pdf",
+    "FY": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%202021%20Annual%20Report.pdf"
+   },
+   "2022": {
+    "Q4": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Q4%202022%20Earnings%20Release%2099.1.pdf",
+    "FY": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD_2023_Annual_Report.pdf"
+   },
+   "2023": {
+    "Q4": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Exhibit%2099.1%20-%20Q4-23.pdf",
+    "FY": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/2023%20Annual%20Report_vf.pdf"
+   },
+   "2024": {
+    "Q4": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD-Q4-24-Earnings-Release.pdf",
+    "FY": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/McD%20-%202024%20Annual%20Report%20to%20Shareholders.pdf"
+   },
+   "2025": {
+    "Q4": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%20Q4-25%20-%20Exhibit%2099.1%20-%20vF.pdf",
+    "FY": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%202025%20Annual%20Report.pdf"
+   }
+  },
+  "ABT": {
+   "2021": {
+    "Q2": "https://www.abbottinvestor.com/static-files/7dd8d9ca-9a5f-4b9d-bb2e-5ee0df30ed57",
+    "Q3": "https://www.abbottinvestor.com/static-files/fd08ee38-d30e-4ef3-a043-b0aba96cfbf0",
+    "Q4": "https://www.abbottinvestor.com/static-files/10115277-ad57-4ef1-8f13-834bb3abaf5a",
+    "FY": "https://www.abbottinvestor.com/static-files/32990836-f7b4-4edf-b627-fe16f04d3d56"
+   },
+   "2022": {
+    "Q1": "https://www.abbottinvestor.com/static-files/56ddf33e-b389-41b3-96f0-6002ea3b3968",
+    "Q2": "https://www.abbottinvestor.com/static-files/54aecec3-2e52-4823-9b59-2a2347c4632d",
+    "Q3": "https://www.abbottinvestor.com/static-files/ac7eac63-8d56-4549-bdd9-4e1f57d62f8e",
+    "Q4": "https://www.abbottinvestor.com/static-files/d502f92e-e4ec-49de-96ce-3a96c2513f54",
+    "FY": "https://www.abbottinvestor.com/static-files/a3873280-78ae-4d1d-90cb-7ab0b92249a4"
+   },
+   "2023": {
+    "Q1": "https://www.abbottinvestor.com/static-files/d5656ba7-1c19-4fed-8ad4-210b1b734f5f",
+    "Q2": "https://www.abbottinvestor.com/static-files/8889dd45-68ea-45d4-a988-40468c3c18c9",
+    "Q3": "https://www.abbottinvestor.com/static-files/38e141be-f0a2-4704-b5a1-14f40d85cbd9",
+    "Q4": "https://www.abbottinvestor.com/static-files/d62c72af-f479-4d79-9746-8934204a6587",
+    "FY": "https://www.abbottinvestor.com/static-files/5e99eb33-444e-4519-9f8e-6588dc1ed407"
+   },
+   "2024": {
+    "Q1": "https://www.abbottinvestor.com/static-files/eafadcf4-87a3-42aa-a601-f42f3dffffc6",
+    "Q2": "https://www.abbottinvestor.com/static-files/7058355f-067a-40d8-895c-05424c331df9",
+    "Q3": "https://www.abbottinvestor.com/static-files/199496f2-7356-40d7-a134-6e7970145f0d",
+    "Q4": "https://www.abbottinvestor.com/static-files/3dcb47ba-03c7-45df-88c0-5ca586292984",
+    "FY": "https://www.abbottinvestor.com/static-files/2b75fde0-1c65-4b0e-b0b6-ea78d31cb652"
+   },
+   "2025": {
+    "Q1": "https://www.abbottinvestor.com/static-files/02444f67-cc10-4044-bc5e-695ffcb4900e",
+    "Q2": "https://www.abbottinvestor.com/static-files/a4f1060d-024a-49f8-a6d7-acf1b63cd5fb",
+    "Q3": "https://www.abbottinvestor.com/static-files/b51724fd-bc6d-46fe-9380-03c67c03e7a8",
+    "Q4": "https://www.abbottinvestor.com/static-files/e7102a55-9033-47da-a653-0cebb2a1fcdd",
+    "FY": "https://www.abbottinvestor.com/static-files/2cec64ee-cb9c-4880-a582-bdb7af1ad810"
+   },
+   "2026": {
+    "Q1": "https://www.abbottinvestor.com/static-files/d5f8b41b-05ee-4cb4-8df8-2e6a00480b30",
+    "Q2": "https://www.abbottinvestor.com/static-files/bdc9a7bc-fedd-4e5d-ae98-392609e14120",
+    "Q3": "https://www.abbottinvestor.com/static-files/47469637-64da-49f8-9907-06acb5a09c54"
+   }
+  },
+  "ARM": {
+   "2024": {
+    "Q2": "https://investors.arm.com/static-files/bf24c7a3-d2c0-47bd-bf72-73f686a5d62f",
+    "Q3": "https://investors.arm.com/static-files/4404a89a-d033-419e-aa0f-d7b15d40e11f",
+    "Q4": "https://investors.arm.com/static-files/0c5f0128-b149-4196-9ef6-3c618ec2782b",
+    "FY": "https://investors.arm.com/static-files/dcdd6629-24bb-40ef-ba55-8aca1362205a"
+   },
+   "2025": {
+    "Q1": "https://investors.arm.com/static-files/559eabc5-4dce-4cfe-bfaf-bb19735eeb40",
+    "Q2": "https://investors.arm.com/static-files/973ad21a-3efd-43ed-8d6b-39734e4db461",
+    "Q3": "https://investors.arm.com/static-files/78833268-a105-4ed5-86d3-fcfc474afeac",
+    "Q4": "https://investors.arm.com/static-files/a9baed37-2c28-4ac3-83b0-c11387d02bb2",
+    "FY": "https://investors.arm.com/static-files/9be77c9d-75ee-4639-bfe4-17efd23c56b5"
+   },
+   "2026": {
+    "Q1": "https://investors.arm.com/static-files/782b1548-b3de-4cc2-8b25-7f949d9bbea6",
+    "Q2": "https://investors.arm.com/static-files/59959491-1724-4f1d-bc6f-9186652b8a8b",
+    "Q3": "https://investors.arm.com/static-files/759b8233-bfab-4d24-822c-b517e447e809",
+    "Q4": "https://investors.arm.com/static-files/344cbcfe-e28b-48ab-b272-c856e0756a91",
+    "FY": "https://investors.arm.com/static-files/0b97f8e1-ac58-4b25-84d8-9df66807ab19"
+   },
+   "2027": {
+    "Q1": "https://investors.arm.com/static-files/d8db20bd-7b96-486a-b99b-23315627d1ec",
+    "Q2": "https://investors.arm.com/static-files/0b5baa2e-fc47-4d05-b724-e49de7bd4356"
+   }
+  },
+  "APH": {
+   "2021": {
+    "Q1": "https://s21.q4cdn.com/564806605/files/doc_financials/2021/q1/APH-10Q-1st_Quarter_2021.pdf",
+    "Q2": "https://s21.q4cdn.com/564806605/files/doc_financials/2021/q2/138be50b-25f4-4a1e-93fe-32a31611467b.pdf",
+    "Q3": "https://s21.q4cdn.com/564806605/files/doc_financials/2021/q3/d02055e5-2458-4731-af73-436e5e6d5d2e.pdf",
+    "Q4": "https://s21.q4cdn.com/564806605/files/doc_financials/2021/q4/2022_01_26-PR-4Q-2021-Results.pdf",
+    "FY": "https://s21.q4cdn.com/564806605/files/doc_financials/2021/q4/52ed93f8-c816-4fae-b14b-9cef5a8b38f6.pdf"
+   },
+   "2022": {
+    "Q1": "https://s21.q4cdn.com/564806605/files/doc_financials/2022/q1/8799312e-2131-4167-82f6-f33e84f03640.pdf",
+    "Q2": "https://s21.q4cdn.com/564806605/files/doc_financials/2022/q2/b943740a-b7e4-49c2-9017-f5d913fa25cc.pdf",
+    "Q3": "https://s21.q4cdn.com/564806605/files/doc_financials/2022/q3/debc2f3b-d862-42bb-8597-0312cde4570b.pdf",
+    "Q4": "https://s21.q4cdn.com/564806605/files/doc_financials/2022/q4/2023_01_25-PR-4Q-2022-Results.pdf",
+    "FY": "https://s21.q4cdn.com/564806605/files/doc_financials/2022/q4/3e2d0c84-9959-4898-a0f4-6fd995439fbd.pdf"
+   },
+   "2023": {
+    "Q1": "https://s21.q4cdn.com/564806605/files/doc_financials/2023/q1/bc200a17-1b4c-48c1-8295-196cd4a1d9e7.pdf",
+    "Q2": "https://s21.q4cdn.com/564806605/files/doc_financials/2023/q2/8aa0f5bb-09b3-43ff-a213-b8a3e146f3c1.pdf",
+    "Q3": "https://s21.q4cdn.com/564806605/files/doc_financials/2023/q3/58dc2808-ab99-4bcb-b6aa-a8f4456821ca.pdf",
+    "Q4": "https://s21.q4cdn.com/564806605/files/doc_financials/2023/q4/2024_01_24-PR-4Q-2023-Results.pdf",
+    "FY": "https://s21.q4cdn.com/564806605/files/doc_financials/2023/q4/aph-10k-2023.pdf"
+   },
+   "2024": {
+    "Q1": "https://s21.q4cdn.com/564806605/files/doc_financials/2024/q1/c3c29ac7-2e29-4cf7-a46b-62d7bfcf56ee.pdf",
+    "Q2": "https://s21.q4cdn.com/564806605/files/doc_financials/2024/q2/dbfe5b27-f530-4ea7-a3b5-578284f7b159.pdf",
+    "Q3": "https://s21.q4cdn.com/564806605/files/doc_financials/2024/q3/1b6ffda5-9fbf-497b-90e7-37042dc8dbea.pdf",
+    "Q4": "https://s21.q4cdn.com/564806605/files/doc_financials/2024/q4/2025_01_22-PR-4Q-2024-Results.pdf",
+    "FY": "https://s21.q4cdn.com/564806605/files/doc_financials/2024/q4/20a89124-360f-43ff-aee9-5f24486ff591.pdf"
+   },
+   "2025": {
+    "Q1": "https://s21.q4cdn.com/564806605/files/doc_financials/2025/q1/1668719d-7490-4d84-85bc-f197bfa3a369.pdf",
+    "Q2": "https://s21.q4cdn.com/564806605/files/doc_financials/2025/q2/10Q-AMPHENOL.pdf",
+    "Q3": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000820313/88b7bc0a-6639-4044-8ef0-cdc935b39a3d.pdf",
+    "Q4": "https://s21.q4cdn.com/564806605/files/doc_financials/2025/q4/Press-Release-Q4-2025.pdf",
+    "FY": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000820313/3cb9a2a7-73c4-4e97-ba56-cfa3209c9056.pdf"
+   },
+   "2026": {
+    "Q1": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000820313/35078886-234c-45f7-a8dc-4a3c68bc3a24.pdf",
+    "Q2": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000820313/a255ac4d-59db-4c95-a174-069e68a4025e.pdf",
+    "Q3": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000820313/43207d1b-1934-446a-b445-61098f6016c8.pdf"
+   }
+  },
+  "NEE": {
+   "2021": {
+    "Q4": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2021/Q4/NEEQ42021_vF.pdf"
+   },
+   "2022": {
+    "Q4": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2022/Q4/2023-0125_NEEQ42022News%20Release%20Final.pdf"
+   },
+   "2023": {
+    "Q4": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/news-and-events/events-and-presentations/2024/01-25-24/2024-0125%20NEEQ42023News%20Release%20Final.pdf"
+   },
+   "2024": {
+    "Q4": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/news-and-events/events-and-presentations/2025/2025-0124%20NEEQ42024News%20Release%20vFinal.pdf",
+    "FY": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/investor-materials/shareholder-resources/2025/2024%20NEE%2010K.pdf"
+   },
+   "2025": {
+    "Q4": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf",
+    "FY": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/NEE%202025%2010-K.pdf"
+   }
+  },
+  "ADI": {
+   "2021": {
+    "Q1": "https://investor.analog.com/static-files/4bd9d36b-14fa-4da4-a299-ddf40c262271",
+    "Q2": "https://analogdevices.gcs-web.com/static-files/f5e0587d-beb5-4f96-a4e7-46cad915e0c9",
+    "Q3": "https://investor.analog.com/static-files/5f28b67f-c612-474e-ae2b-0f6a32eb4c64",
+    "Q4": "https://investor.analog.com/static-files/1e0fa376-3f47-4bae-8a03-f5591d60ddbe",
+    "FY": "https://investor.analog.com/static-files/1667134e-5d78-4409-a783-5fcc274bf79c"
+   },
+   "2022": {
+    "Q1": "https://investor.analog.com/static-files/efae2f15-f359-4651-9146-822c0004a9de",
+    "Q2": "https://investor.analog.com/static-files/dc746836-b87c-4618-a97d-df8c68d92bd5",
+    "Q3": "https://investor.analog.com/static-files/3432d115-a350-4363-98d0-1eb2178c5301",
+    "Q4": "https://investor.analog.com/static-files/710d49bb-ca25-4c23-beb2-8ed630b8e2c0",
+    "FY": "https://investor.analog.com/static-files/190e4b9e-7899-4c91-bb7b-434ed34c049a"
+   },
+   "2023": {
+    "Q1": "https://investor.analog.com/static-files/669275e9-8731-4df3-ac94-360e30988f1f",
+    "Q2": "https://investor.analog.com/static-files/f587988e-b799-43ff-9995-a5e184b11487",
+    "Q3": "https://investor.analog.com/static-files/3bb9ac62-7e66-4a50-9c45-6e3699b4ab81",
+    "Q4": "https://investor.analog.com/static-files/01536d94-aa80-4d26-9761-b6ae3d11ab8e",
+    "FY": "https://investor.analog.com/static-files/edf7581c-c069-49c3-b8f2-6a24f362b1a2"
+   },
+   "2024": {
+    "Q1": "https://investor.analog.com/static-files/e5eaa893-9731-4960-8b6b-4d7141d04469",
+    "Q2": "https://investor.analog.com/static-files/eae93bcc-fd3a-446f-9525-4f7537dbbe84",
+    "Q3": "https://investor.analog.com/static-files/83efd100-6e56-4a08-9a6e-069e55b03e64",
+    "Q4": "https://investor.analog.com/static-files/3eed8bbc-284e-4e2c-a91c-250e7857a5f3",
+    "FY": "https://investor.analog.com/static-files/8551c272-296e-43fd-bf8c-130c712fa6cf"
+   },
+   "2025": {
+    "Q1": "https://investor.analog.com/static-files/e1647992-e402-4bb3-b5ff-e80b88330b33",
+    "Q2": "https://investor.analog.com/static-files/172725e7-51e8-4c1c-9116-ebc107aba002",
+    "Q3": "https://investor.analog.com/static-files/57861415-1474-40eb-b76a-4b138afd0791",
+    "Q4": "https://investor.analog.com/static-files/3362df04-da3f-4c85-8523-9e9690375790",
+    "FY": "https://investor.analog.com/static-files/fd29fcea-caa6-460f-8d7d-909e25b10935"
+   },
+   "2026": {
+    "Q1": "https://investor.analog.com/static-files/c11794cb-2753-4900-8663-be7b32a6a306",
+    "Q2": "https://investor.analog.com/static-files/f8b4d945-6385-400d-a93c-dce7bda80c46",
+    "Q3": "https://investor.analog.com/static-files/4c652382-cb7c-4418-a71f-45af25c7584b"
+   }
+  },
+  "UNP": {
+   "2021": {
+    "Q4": "https://www.up.com/press-releases/financial/4q21-earnings-nr210120"
+   },
+   "2022": {
+    "Q4": "https://www.up.com/press-releases/financial/4q22-yearend-earnings-nr-230124"
+   },
+   "2023": {
+    "Q4": "https://www.up.com/press-releases/financial/4q23-earnings-release-nr-240125"
+   },
+   "2024": {
+    "Q4": "https://www.up.com/press-releases/financial/4q24-earnings-announcement-nr-250123"
+   },
+   "2025": {
+    "Q4": "https://www.up.com/press-releases/financial/4q25-earnings-announcement-260127",
+    "FY": "https://investor.unionpacific.com/static-files/a2cb1cb7-48df-4487-bac5-fa0ba9cdbd03"
+   },
+   "2026": {
+    "Q3": "https://investor.unionpacific.com/static-files/e4fc32be-e8b3-405a-8642-84f094b08b95"
+   }
+  },
+  "PFE": {
+   "2021": {
+    "Q1": "https://s206.q4cdn.com/795948973/files/doc_financials/2021/q1/Pfizer-10-Q.pdf",
+    "Q2": "https://s206.q4cdn.com/795948973/files/doc_financials/2021/q2/Pfizer-10-Q-1.pdf",
+    "Q3": "https://s206.q4cdn.com/795948973/files/doc_financials/2021/q3/Pfizer-10-Q.pdf",
+    "Q4": "https://s206.q4cdn.com/795948973/files/doc_financials/2021/q4/Q4-2021-PFE-Earnings-Release.pdf",
+    "FY": "https://s206.q4cdn.com/795948973/files/doc_financials/2021/ar/PFE-2021-Form-10K-FINAL.pdf"
+   },
+   "2022": {
+    "Q1": "https://s206.q4cdn.com/795948973/files/doc_financials/2022/q1/beda9c7c-6125-427b-94d1-33dadbd88a5d.pdf",
+    "Q2": "https://s206.q4cdn.com/795948973/files/doc_financials/2022/q2/Pfizer-10-Q.pdf",
+    "Q3": "https://s206.q4cdn.com/795948973/files/doc_financials/2022/q3/05c570ca-2592-481c-adfc-0d98e644db88.pdf",
+    "Q4": "https://s206.q4cdn.com/795948973/files/doc_financials/2022/q4/Q4-2022-PFE-Earnings-Release.pdf",
+    "FY": "https://s206.q4cdn.com/795948973/files/doc_financials/2022/ar/PFE-2022-Form-10K-FINAL-(without-Exhibits).pdf"
+   },
+   "2023": {
+    "Q1": "https://s206.q4cdn.com/795948973/files/doc_financials/2023/q1/4b5a2227-c4e1-48c5-9544-b38b89703529.pdf",
+    "Q2": "https://s206.q4cdn.com/795948973/files/doc_financials/2023/q2/c7518e4a-3aaf-4987-ae85-27460d0f526c.pdf",
+    "Q3": "https://s206.q4cdn.com/795948973/files/doc_financials/2023/q3/b155cecd-6169-4e3e-ab25-1e27ebf09a75.pdf",
+    "Q4": "https://s206.q4cdn.com/795948973/files/doc_financials/2023/q4/Q4-2023-PFE-Earnings-Release.pdf",
+    "FY": "https://s206.q4cdn.com/795948973/files/doc_financials/2023/ar/2023-10k.pdf"
+   },
+   "2024": {
+    "Q1": "https://s206.q4cdn.com/795948973/files/doc_financials/2024/q1/Form-10-Q.pdf",
+    "Q2": "https://s206.q4cdn.com/795948973/files/doc_financials/2024/q2/10-Q.pdf",
+    "Q3": "https://s206.q4cdn.com/795948973/files/doc_financials/2024/q3/d75e0656-52a6-49db-a07f-94348b65f41a.pdf",
+    "Q4": "https://s206.q4cdn.com/795948973/files/doc_financials/2024/q4/Q4-2024-PFE-Earnings-Release-Final.pdf",
+    "FY": "https://s206.q4cdn.com/795948973/files/doc_financials/2024/ar/10K_Final.pdf"
+   },
+   "2025": {
+    "Q1": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q1/6be0bc09-ff03-4e04-9b54-13ceb601b05e.pdf",
+    "Q2": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q2/Form-10-Q.pdf",
+    "Q3": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q3/029df2a4-9496-4b4c-8b86-dbc5eff1479a.pdf",
+    "Q4": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf",
+    "FY": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/ar/10-K-without-Exhibits.pdf"
+   },
+   "2026": {
+    "Q1": "https://s206.q4cdn.com/795948973/files/doc_financials/2026/q1/Form-10Q.pdf",
+    "Q2": "https://s206.q4cdn.com/795948973/files/doc_financials/2026/q2/9bb0f822-9cdf-4929-9d46-67541520998a.pdf",
+    "Q3": "https://s206.q4cdn.com/795948973/files/content_files/Form-10-Q.pdf"
+   }
+  },
+  "COP": {
+   "2021": {
+    "Q4": "https://static.conocophillips.com/files/resources/4q21-earnings-release.pdf"
+   },
+   "2022": {
+    "Q4": "https://static.conocophillips.com/files/resources/4q22-earnings-release.pdf"
+   },
+   "2023": {
+    "Q4": "https://static.conocophillips.com/files/resources/4q23-earnings-release.pdf"
+   },
+   "2024": {
+    "Q4": "https://static.conocophillips.com/files/resources/4q24-earnings-release.pdf"
+   },
+   "2025": {
+    "Q4": "https://static.conocophillips.com/files/resources/4q25_earnings_release-final.pdf"
+   }
+  },
+  "SCHW": {
+   "2021": {
+    "Q4": "https://pressroom.aboutschwab.com/press-releases/press-release/2022/Schwab-Reports-Record-Quarterly-and-Full-Year-Earnings-Per-Share/default.aspx"
+   },
+   "2022": {
+    "Q4": "https://pressroom.aboutschwab.com/press-releases/press-release/2023/Schwab-Reports-Record-Full-year-Earnings-Per-Share/default.aspx"
+   },
+   "2023": {
+    "Q4": "https://pressroom.aboutschwab.com/press-releases/press-release/2024/Schwab-Reports-Fourth-Quarter-and-Full-Year-Results/default.aspx"
+   },
+   "2024": {
+    "Q4": "https://pressroom.aboutschwab.com/press-releases/press-release/2025/Schwab-Reports-Fourth-Quarter-and-Full-Year-Results/default.aspx"
+   },
+   "2025": {
+    "Q4": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Schwab-Reports-Record-4Q-and-Full-Year-2025-Results/default.aspx"
+   }
+  },
+  "MRVL": {
+   "2021": {
+    "Q1": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001058057-20-000030/0001058057-20-000030.pdf",
+    "Q2": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001058057-20-000046/0001058057-20-000046.pdf",
+    "Q3": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001058057-20-000061/0001058057-20-000061.pdf",
+    "Q4": "https://investor.marvell.com/_assets/_c8b5c7be7627f26c20be25056bbe4c06/marvell/news/2021-03-03_Marvell_Technology_Group_Ltd_Reports_Fourth_292.pdf",
+    "FY": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001058057-21-000009/0001058057-21-000009.pdf"
+   },
+   "2022": {
+    "Q1": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-21-000010/0001835632-21-000010.pdf",
+    "Q2": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-21-000022/0001835632-21-000022.pdf",
+    "Q3": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-21-000032/0001835632-21-000032.pdf",
+    "Q4": "https://investor.marvell.com/_assets/_c8b5c7be7627f26c20be25056bbe4c06/marvell/news/2022-03-03_Marvell_Technology_Inc_Reports_Fourth_Quarter_and__236.pdf",
+    "FY": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-22-000016/0001835632-22-000016.pdf"
+   },
+   "2023": {
+    "Q1": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-22-000028/0001835632-22-000028.pdf",
+    "Q2": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-22-000041/0001835632-22-000041.pdf",
+    "Q3": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-22-000053/0001835632-22-000053.pdf",
+    "Q4": "https://investor.marvell.com/_assets/_c8b5c7be7627f26c20be25056bbe4c06/marvell/news/2023-03-02_Marvell_Technology_Inc_Reports_Fourth_Quarter_and__187.pdf",
+    "FY": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-23-000013/0001835632-23-000013.pdf"
+   },
+   "2024": {
+    "Q1": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-23-000029/0001835632-23-000029.pdf",
+    "Q2": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-23-000038/0001835632-23-000038.pdf",
+    "Q3": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-23-000046/0001835632-23-000046.pdf",
+    "Q4": "https://investor.marvell.com/_assets/_c8b5c7be7627f26c20be25056bbe4c06/marvell/news/2024-03-07_Marvell_Technology_Inc_Reports_Fourth_Quarter_and__151.pdf",
+    "FY": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-24-000009/0001835632-24-000009.pdf"
+   },
+   "2025": {
+    "Q1": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-24-000063/0001835632-24-000063.pdf",
+    "Q2": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-24-000142/0001835632-24-000142.pdf",
+    "Q3": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-24-000200/0001835632-24-000200.pdf",
+    "Q4": "https://investor.marvell.com/_assets/_c8b5c7be7627f26c20be25056bbe4c06/marvell/news/2025-03-05_Marvell_Technology_Inc_Reports_Fourth_Quarter_and__109.pdf",
+    "FY": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-25-000057/0001835632-25-000057.pdf"
+   },
+   "2026": {
+    "Q1": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-25-000117/0001835632-25-000117.pdf",
+    "Q2": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-25-000189/0001835632-25-000189.pdf",
+    "Q3": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-25-000197/0001835632-25-000197.pdf",
+    "Q4": "https://investor.marvell.com/_assets/_c8b5c7be7627f26c20be25056bbe4c06/marvell/news/2026-03-05_Marvell_Technology_Inc_Reports_Fourth_Quarter_and__1011.pdf",
+    "FY": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-26-000011/0001835632-26-000011.pdf"
+   },
+   "2027": {
+    "Q1": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-26-000019/0001835632-26-000019.pdf",
+    "Q2": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-26-000025/0001835632-26-000025.pdf"
+   }
+  },
+  "CLS": {
+   "2021": {
+    "Q1": "https://corporate.celestica.com/static-files/ef547d4a-e772-49b3-a3f6-2cb6a6ea1d3d",
+    "Q2": "https://corporate.celestica.com/static-files/f3239823-9f8e-42b7-8b14-5df1b2eb4af8",
+    "Q3": "https://corporate.celestica.com/static-files/22f268c9-ef20-4116-a402-5817b71f857c",
+    "Q4": "https://corporate.celestica.com/static-files/3f60b22a-2855-4f03-af72-d5cad654e719",
+    "FY": "https://corporate.celestica.com/static-files/a5499faf-3b96-4fd3-910b-f12bb6677ce6"
+   },
+   "2022": {
+    "Q1": "https://corporate.celestica.com/static-files/f6a50b25-dc22-4d2d-a430-15d2d7d1cb39",
+    "Q2": "https://corporate.celestica.com/static-files/d3e00d5e-c53a-4c31-80d6-5f7956053c9e",
+    "Q3": "https://corporate.celestica.com/static-files/e452d83b-0266-4ff8-91a6-ec4d5f084bc5",
+    "Q4": "https://corporate.celestica.com/static-files/c104663f-dc5c-466a-95ec-82ed9b462837",
+    "FY": "https://corporate.celestica.com/static-files/c655a234-70b6-4624-a584-a2acc4ca7ef2"
+   },
+   "2023": {
+    "Q1": "https://corporate.celestica.com/static-files/c3b09a20-ab64-4c57-9dcb-f64cc3224f65",
+    "Q2": "https://corporate.celestica.com/static-files/7df2b9bf-39f1-456b-8d6d-27ab3532868b",
+    "Q3": "https://corporate.celestica.com/static-files/9ba17665-dc83-4d01-8488-f8663da81153",
+    "Q4": "https://corporate.celestica.com/static-files/dd38c10b-77b9-44ce-9511-b667daf56007",
+    "FY": "https://corporate.celestica.com/static-files/a8750a3b-ffec-481c-b267-ad0b136c5c83"
+   },
+   "2024": {
+    "Q1": "https://corporate.celestica.com/static-files/e5734a8b-faa0-4b9c-9a7f-3d5992421970",
+    "Q2": "https://corporate.celestica.com/static-files/237c1c22-1387-442a-8e5b-fad2983c9812",
+    "Q3": "https://corporate.celestica.com/static-files/8d4fca96-5553-48f0-be2b-91d0ebb6be4d",
+    "Q4": "https://corporate.celestica.com/static-files/5b09944a-0739-4b0e-9424-7a17d8aab0f5",
+    "FY": "https://corporate.celestica.com/static-files/b8a8f952-5a3c-4c68-90e2-8200efff6767"
+   },
+   "2025": {
+    "Q1": "https://corporate.celestica.com/static-files/baa5c78a-c016-4b24-9b3b-77c88ac760bf",
+    "Q2": "https://corporate.celestica.com/static-files/81a55b41-af06-458e-8717-ef846bb13af1",
+    "Q3": "https://corporate.celestica.com/static-files/1414b63e-f1dd-47f1-9cc1-64182ac304dc",
+    "Q4": "https://corporate.celestica.com/static-files/3f82636d-2990-46aa-af30-3b7ddbc66b60",
+    "FY": "https://corporate.celestica.com/static-files/cc0291ba-3471-4423-9354-7660cd0ba43d"
+   },
+   "2026": {
+    "Q1": "https://corporate.celestica.com/static-files/23a97c27-ab47-4874-a8cd-504607c15400",
+    "Q2": "https://corporate.celestica.com/static-files/f0878ea5-97d0-47ed-a5aa-245e413df552",
+    "Q3": "https://corporate.celestica.com/static-files/bdde0cc9-6dae-49fc-adc7-a73c7d084f1c"
+   }
+  }
+ }
+}

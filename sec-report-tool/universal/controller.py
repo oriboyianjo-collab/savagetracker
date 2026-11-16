@@ -6,7 +6,7 @@ try:
 except ImportError:
     from publication import atomic,INVENTORY_SHA
 
-PASS_ID='universe-20261115-6315-replace-v1'
+PASS_ID='universe-20261116-6315-connect-v1'
 MAX_BATCHES=7000
 
 def preflight(control,pass_id,generation):

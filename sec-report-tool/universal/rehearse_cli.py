@@ -9,7 +9,7 @@ from universal.publication import atomic
 inv=json.load(open('universal/universe.json'));row=next(r for r in inv['rows']if not r.get('hold_reason')and not security_class_hold(r))
 with tempfile.TemporaryDirectory()as t:
  Path(t+'/cache').mkdir();tr=ReplayTransport([t+'/cache']);sec=synth.FakeSEC(tr);sec.add_ticker_map([(1000001,row['symbol'],row['name'])]);Builder(sec,ticker=row['symbol'],name=row['name']).standard()
- base=[sys.executable,'-m','universal.cli','--inventory','universal/universe.json','--as-of','2026-11-15','--pass-id','universe-20261115-6315-replace-v1','--max-issuers','1','--replay-cache',t+'/cache']
+ base=[sys.executable,'-m','universal.cli','--inventory','universal/universe.json','--as-of','2026-11-15','--pass-id','universe-20261116-6315-connect-v1','--max-issuers','1','--replay-cache',t+'/cache']
  a=subprocess.run(base+['--state',t+'/state0','--result',t+'/r0.json','--generation','0','--max-documents-per-issuer','5'],capture_output=True,text=True);assert a.returncode==1,(a.returncode,a.stderr)
  r0=json.load(open(t+'/r0.json'));assert r0['checkpoints'] and next(r for r in r0['rows']if r['symbol']==row['symbol'])['status']=='pending'
  atomic(t+'/prior.json',hydrate(dehydrate(r0,t+'/shards'),t+'/shards'))
