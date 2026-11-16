@@ -46779,5 +46779,72 @@
         "source_hash": "9dfcc5c2fb1320b3ecbb536b9d472a54eabfd9dec84720bc08bfadb75fed0700"
       }
     }
+  },
+  {
+    "מזהה": "n-1752",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:22",
+    "הועלה": "2026-11-16 10:22",
+    "חברה": "Dynatrace",
+    "חברה_en": "Dynatrace",
+    "symbols": [
+      "DT"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 1 באוקטובר | Dynatrace (DT) השלימה את רכישת Arize להרחבת ניטור והערכת מערכות AI",
+    "כותרת_en": "Published late | October 1 | Dynatrace (DT) completes Arize acquisition to expand AI observability and evaluation",
+    "טקסט": "1.10.2026 | הודעת החברה פורסמה ב-16:05 שעון החוף המזרחי בארה\"ב, 23:05 בישראל.\n\nDynatrace הודיעה שהשלימה את רכישת Arize, ספקית כלים לניטור ולהערכת מודלים וסוכני AI. מדובר בהשלמת עסקה, לא רק בהסכם לרכישה עתידית.\n\nלפי החברה, השילוב נועד לחבר בין בדיקת יישומי AI לפני השקתם לבין ניטור ההתנהגות, הביצועים, העלויות והאמינות שלהם לאחר הכניסה לשימוש. יכולות ההערכה של Arize מיועדות להשלים את פלטפורמת הניטור של Dynatrace לאורך מחזור הפיתוח וההפעלה.\n\n**השלמת הרכישה אינה השלמת שילוב המוצרים.** בהודעת 1 באוקטובר נאמר שיכולות Arize ישולבו ב-Dynatrace לאורך זמן, וש-Arize תמשיך לתמוך ב-Phoenix, הפלטפורמה שלה בקוד פתוח, וב-AX, הפלטפורמה לארגונים.\n\nהיכולת לזהות תקלות מוקדם יותר ולפתור אותן מהר יותר היא תועלת צפויה לפי החברה, לא תוצאה שנמדדה ואומתה כאן באופן עצמאי. הודעת ההשלמה אינה מפרטת מחיר עסקה או תרומה כספית. העדכון מתייחס להודעה ההיסטורית, ולא קובע מהו מצב שילוב המוצרים כיום.",
+    "טקסט_en": "October 1, 2026 | The company announcement was published at 16:05 US Eastern time, 23:05 in Israel.\n\nDynatrace announced that it completed its acquisition of Arize, a provider of AI model and agent observability and evaluation tools. This is a completed acquisition, not only an agreement for a future purchase.\n\nThe company says the combination is intended to connect testing AI applications before launch with monitoring their behavior, performance, cost and reliability in production. Arize's evaluation capabilities are intended to complement Dynatrace's observability platform across development and operations.\n\n**Closing the acquisition does not mean product integration is complete.** The October 1 announcement said Arize capabilities would be integrated into Dynatrace over time and that Arize would continue supporting Phoenix, its open-source platform, and AX, its enterprise platform.\n\nEarlier issue detection and faster resolution are expected benefits described by the company, not outcomes independently measured and verified here. The closing announcement does not state a transaction price or financial contribution. This update concerns the historical announcement and does not establish the current state of product integration.",
+    "קישור": "https://ir.dynatrace.com/news-events/press-releases/detail/439/dynatrace-completes-acquisition-of-arize-extending-ai-observability-across-the-full-development-lifecycle",
+    "מקורות": [
+      {
+        "url": "https://ir.dynatrace.com/news-events/press-releases/detail/439/dynatrace-completes-acquisition-of-arize-extending-ai-observability-across-the-full-development-lifecycle",
+        "label": "Dynatrace: הודעת השלמת רכישת Arize, 1 באוקטובר",
+        "label_en": "Dynatrace: Arize acquisition closing announcement, October 1"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3f42717289994d652f22ec15527a06485e1d47763fcd53136c95ddc7e2aaf61f"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1753",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:22",
+    "הועלה": "2026-11-16 10:22",
+    "חברה": "Dynatrace",
+    "חברה_en": "Dynatrace",
+    "symbols": [
+      "CRWD",
+      "DT"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 2 בנובמבר | CrowdStrike (CRWD) ו-Dynatrace (DT) השיקו שלושה חיבורים בין אבטחה לניטור",
+    "כותרת_en": "Published late | November 2 | CrowdStrike (CRWD) and Dynatrace (DT) launch three security and observability integrations",
+    "טקסט": "2.11.2026 | הודעת החברות פורסמה ב-08:05 שעון החוף המזרחי בארה\"ב, 15:05 בישראל.\n\nCrowdStrike ו-Dynatrace הודיעו על שותפות אסטרטגית ועל שלושה חיבורים בין פלטפורמת Falcon לבין כלי הניטור וניהול הלוגים של Dynatrace. לפי ההודעה, שלושת החיבורים היו זמינים כבר ביום הפרסום, ולא הוצגו רק כמפת דרכים עתידית.\n\nהחיבור הראשון מאפשר חיפוש מתוך Falcon בנתוני הניטור והלוגים של Dynatrace בלי לשכפל את הנתונים. השני משלב מידע מאבטחת תחנות קצה של CrowdStrike עם לוגים ונתוני יישומים ותשתיות של Dynatrace לצורך חקירת תקלות ואירועי אבטחה. השלישי משתמש ב-Bindplane של Dynatrace כדי לנתב לוגים ונתוני ניטור בין הפלטפורמות.\n\nהחברות מסרו גם שהן מטמיעות זו את הטכנולוגיה של זו בסביבותיהן הפנימיות.\n\n**חיסכון בעלויות וקיצור זמני חקירה הם טענות החברות, לא תוצאות לקוח שאומתו כאן באופן עצמאי.** ההודעה אינה מפרטת שווי חוזה, הזמנה או תרומה להכנסות. היא גם אינה מוכיחה שכל לקוח יכול להחליף מערכת SIEM קיימת ללא עבודת הטמעה נוספת. הזמינות מתייחסת למועד ההודעה ב-2 בנובמבר; תנאי שימוש נוכחיים לא נבדקו מחדש כאן.",
+    "טקסט_en": "November 2, 2026 | The companies' announcement was published at 08:05 US Eastern time, 15:05 in Israel.\n\nCrowdStrike and Dynatrace announced a strategic partnership and three integrations connecting the Falcon platform with Dynatrace observability and log management tools. According to the announcement, all three integrations were available that day, rather than being only a future roadmap.\n\nThe first enables federated search from Falcon across Dynatrace observability and log telemetry without duplicating the data. The second combines CrowdStrike endpoint security telemetry with Dynatrace logs and application and infrastructure insights to investigate outages and security incidents. The third uses Bindplane by Dynatrace to route logs and telemetry between the platforms.\n\nThe companies also said they were deploying each other's technologies in their own environments.\n\n**Lower costs and faster investigations are company claims, not customer outcomes independently verified here.** The announcement does not disclose a contract value, order or revenue contribution. It also does not demonstrate that every customer can replace an existing SIEM system without further implementation work. Availability refers to the November 2 announcement; current usage terms were not rechecked here.",
+    "קישור": "https://ir.dynatrace.com/news-events/press-releases/detail/444/crowdstrike-and-dynatrace-join-forces-to-disrupt-legacy-siem-and-observability",
+    "מקורות": [
+      {
+        "url": "https://ir.dynatrace.com/news-events/press-releases/detail/444/crowdstrike-and-dynatrace-join-forces-to-disrupt-legacy-siem-and-observability",
+        "label": "Dynatrace: הודעה משותפת עם CrowdStrike, 2 בנובמבר",
+        "label_en": "Dynatrace: joint announcement with CrowdStrike, November 2"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "aeb306e477f1957a936d277e5f30ef52a94f6d1cc624ae2b15669fb920a77492"
+      }
+    }
   }
 ]
