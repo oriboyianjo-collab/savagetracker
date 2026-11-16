@@ -50206,5 +50206,95 @@
         "source_hash": "3076e7f325836e295f331dfff300cff28c2c79265ff2f6f4bbc3b1e8f607c5a4"
       }
     }
+  },
+  {
+    "מזהה": "n-1863",
+    "category": "micro",
+    "חברה": "NVDA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:38",
+    "הועלה": "2026-11-16 15:38",
+    "כותרת": "Lambda הודיעה על פריסת רשת CPO המחברת יותר מ-10,000 מעבדי Blackwell Ultra בקוויבק",
+    "כותרת_en": "Lambda announces CPO network deployment connecting more than 10,000 Blackwell Ultra GPUs in Quebec",
+    "קישור": "https://www.businesswire.com/news/home/20261116930878/en/Lambda-Announces-Worlds-First-Large-Scale-CPO-Deployment-of-NVIDIA-Photonics-Switches",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261116930878/en/Lambda-Announces-Worlds-First-Large-Scale-CPO-Deployment-of-NVIDIA-Photonics-Switches",
+        "label": "Lambda דרך Business Wire: פריסת CPO מ-16 בנובמבר",
+        "label_en": "Lambda via Business Wire: November 16 CPO deployment"
+      }
+    ],
+    "טקסט": "16.11.2026 לפי הודעת Lambda, ללא שעת פרסום מאומתת. ספקית הענן הודיעה שפרסה בקמפוס בקוויבק רשת אופטיקה משולבת במארז השבב (CPO), המחברת יותר מ-10,000 מעבדי NVIDIA Blackwell Ultra באמצעות מתגי NVIDIA Photonics. מדובר בפריסה שעליה הודיעה החברה, לא רק בתוכנית עתידית.\n\nהמתגים כוללים 144 חיבורים של 800Gb/s, קירור נוזלי ו-18 מקורות אור חיצוניים נשלפים. לפי בדיקות החברה, תפוקת הרשת הייתה זהה לזו של אופטיקה נשלפת רגילה, אך השיהוי היה נמוך יותר: פער של 3.8% ברמת הארון ועד 10.1% ברמת קבוצת הארונות שנבדקה. טמפרטורת האופטיקה החציונית הייתה 36 מעלות לעומת 51 מעלות.\n\nאלה תוצאות וטענות מסחריות של Lambda ו-NVIDIA, לא מדידה עצמאית. גם הטענה לאמינות גבוהה עד פי 15 מיוחסת לחברות ואינה מבטיחה שיפור כזה בכל סביבת לקוח. CPO מקרבת את מנועי האור לשבב המתג ומקצרת את המסלול החשמלי, במקום להמיר את האות בחזית המתג.\n\nLambda מתארת בקמפוס קיבולת חשמל מובטחת של 142 מגה-ואט, כמעט כולה ממקורות מתחדשים. זהו תיאור תשתית קיימת בהודעה, לא הודעה על זכייה חדשה בחוזה בנייה או תוספת של 142 מגה-ואט מהיום. לא נמסר שווי כספי לפריסת הרשת.",
+    "טקסט_en": "November 16, 2026 according to Lambda's release, without a verified publication time. The cloud provider announced deployment of co-packaged optics (CPO) networking at its Quebec campus, connecting more than 10,000 NVIDIA Blackwell Ultra GPUs with NVIDIA Photonics switches. This is an announced deployment, not merely a future plan.\n\nThe switches have 144 ports at 800Gb/s, liquid cooling and 18 removable external light sources. In the company's tests, throughput matched conventional pluggable optics, while latency was lower: the gap ranged from 3.8% at rack level to 10.1% at the tested pod level. Median optics temperature was 36 degrees Celsius versus 51 degrees.\n\nThese are Lambda and NVIDIA test results and commercial claims, not independent measurements. The claim of up to 15 times higher reliability is also company-attributed and does not guarantee that gain in every customer environment. CPO places optical engines beside the switch chip and shortens the electrical path rather than converting signals at the switch front panel.\n\nLambda describes 142 MW of secured power capacity at the campus, almost entirely renewable. This describes infrastructure in the release, not a newly awarded construction contract or 142 MW added today. No financial value for the networking deployment was disclosed.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8911dcc5337e37ca47140adee2d38cfc9b2934c5685406850c38278eed37e961"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1864",
+    "category": "micro",
+    "חברה": "SMTC",
+    "symbols": [
+      "SMTC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:38",
+    "הועלה": "2026-11-16 15:38",
+    "כותרת": "לפי The Fly, TD Cowen הוריד מחיר יעד ל-Semtech ל-145 דולר מ-215 דולר והותיר המלצת Buy",
+    "כותרת_en": "The Fly: TD Cowen cuts Semtech target to $145 from $215, maintains Buy",
+    "קישור": "https://www.tipranks.com/news/the-fly/semtech-price-target-lowered-to-145-from-215-at-td-cowen-thefly-news",
+    "מקורות": [
+      {
+        "url": "https://www.tipranks.com/news/the-fly/semtech-price-target-lowered-to-145-from-215-at-td-cowen-thefly-news",
+        "label": "The Fly דרך TipRanks: עדכון יעד Semtech",
+        "label_en": "The Fly via TipRanks: Semtech target update"
+      }
+    ],
+    "טקסט": "16.11.2026. לפי The Fly ב-TipRanks, האנליסט Sean O’Loughlin מבית TD Cowen הוריד את מחיר היעד ל-Semtech (SMTC) ל-145 דולר מ-215 דולר והותיר המלצת Buy. מטא-נתוני הדף מציגים 13:01:27 UTC, שהם 15:01:27 בישראל; השעה אינה מוצגת בגוף הידיעה.\n\n**לא מאומת מול מקור ראשוני: זהו דיווח The Fly על עבודת האנליסט; דוח המחקר המקורי של TD Cowen לא אומת כאן.** לפי הדיווח, העדכון נעשה כחלק מסקירה מקדימה לעונת הדוחות בקבוצת מחשוב ושבבים, לא בעקבות תוצאות כספיות חדשות שמפרסמת החברה בידיעה הזאת.\n\nהאנליסט אומר שמניות רשתות מסוימות משקפות הפחתות משמעותיות לאומדני 2028, אך שלדעתו רקע ביקוש חזק מקשה לצפות להפחתה מהותית באומדני השוק בטווח הקרוב. אלו הערכות האנליסט, לא הנחיית הנהלה. הורדת מחיר יעד לצד Buy אינה הורדת ההמלצה ל-Sell, ומחיר היעד אינו מחיר שוק או תשואה מובטחת.",
+    "טקסט_en": "November 16, 2026. The Fly on TipRanks reports TD Cowen analyst Sean O’Loughlin lowered Semtech's (SMTC) price target to $145 from $215 while maintaining Buy. Page metadata shows 13:01:27 UTC, equivalent to 15:01:27 in Israel; the time is not displayed in the article body.\n\n**Not verified against a primary source: this is The Fly's account of the analyst's research; TD Cowen's original note has not been verified here.** The report describes target changes in an off-cycle compute-semiconductor earnings preview, not new company financial results released in this item.\n\nThe analyst says some networking stocks appear to price material cuts to 2028 estimates, but believes a strong demand backdrop makes large near-term consensus cuts hard to see. These are analyst views, not management guidance. Lowering a target while retaining Buy is not a downgrade to Sell, and a price target is not a market price or guaranteed return.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1058a3b5291e803161233b6a807865446884726e1eb6aa7b196a5a7c6321215c"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1865",
+    "category": "micro",
+    "חברה": "BB",
+    "symbols": [
+      "BB"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:38",
+    "הועלה": "2026-11-16 15:38",
+    "כותרת": "בראיון ל-FOX Business, מנכ״ל BlackBerry תיאר את המיקוד ב-QNX ובתקשורת מאובטחת",
+    "כותרת_en": "BlackBerry CEO describes QNX and secure-communications focus in FOX Business interview",
+    "קישור": "https://www.fox29.com/news/blackberry-boss-shares-how-phone-brand-reinvented-itself-new-era",
+    "מקורות": [
+      {
+        "url": "https://www.fox29.com/news/blackberry-boss-shares-how-phone-brand-reinvented-itself-new-era",
+        "label": "FOX Business דרך FOX 29: ראיון עם John Giamatteo",
+        "label_en": "FOX Business via FOX 29: John Giamatteo interview"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הכתבה פורסמה ב-16.11.2026 בשעה 06:59 שעון החוף המזרחי בארה״ב, שהם 13:59 בישראל. בראיון ל-FOX Business תיאר מנכ״ל BlackBerry, John Giamatteo, את המעבר ממכשירי טלפון לתוכנה למכוניות ולמערכות משובצות, לצד תקשורת מאובטחת לממשלות ולארגונים קריטיים.\n\nלדבריו, המיקוד הניהולי הוא בצמצום מספר התחומים וביצוע טוב יותר בתחומים שנבחרו. הכתבה מציינת ש-QNX משמשת ביותר מ-275 מיליון כלי רכב, וכי 18 ממדינות ה-G20 משתמשות בצורה כלשהי של טכנולוגיית התקשורת המאובטחת של החברה. אלו נתוני שימוש המובאים בכתבה, לא הודעה על 275 מיליון התקנות חדשות או 18 חוזים שנחתמו היום.\n\nהכתבה חוזרת גם על תוצאות הרבעון השני של שנת הכספים 2027: הכנסות של 163.3 מיליון דולר, EBITDA מתואם של 47 מיליון דולר והכנסות QNX של 80.3 מיליון דולר. אלה תוצאות קודמות שהובאו כהקשר לראיון, לא דוח חדש שהתפרסם בכתבה.\n\nGiamatteo סיפר שהוא עוקב מדי יום אחר מדדי ביצוע, ושניסיונו בהונג קונג ובטוקיו הרחיב את היכרותו עם שווקים אחרים. זוהי כתבת ראיון ופרופיל; אין בה הודעה על עסקה חדשה, שינוי תחזית או המלצת השקעה.",
+    "טקסט_en": "Published late | The article was published November 16, 2026 at 06:59 Eastern time, equivalent to 13:59 in Israel. In a FOX Business interview, BlackBerry CEO John Giamatteo described the shift from phones to software for cars and embedded systems, alongside secure communications for governments and critical organizations.\n\nHe described a management focus on doing fewer things well. The article says QNX is used in more than 275 million vehicles and that 18 G20 countries use some form of BlackBerry secure-communications technology. These are usage figures cited in the article, not 275 million new installations or 18 contracts signed today.\n\nThe article also revisits fiscal 2027 second-quarter results: revenue of $163.3 million, adjusted EBITDA of $47 million and QNX revenue of $80.3 million. These are previously reported results used as interview context, not a new financial release in this article.\n\nGiamatteo said he reviews performance indicators daily and described how working in Hong Kong and Tokyo broadened his understanding of other markets. This is an interview and profile, with no announcement of a new deal, guidance change or investment recommendation.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f8131b24b9ec0625f40d8b42eac1b0a4c61aa138a7b947a72838a874f25c05c7"
+      }
+    }
   }
 ]
