@@ -51731,5 +51731,36 @@
         "source_hash": "d7159684c569f9a43c00ee613d50e3bf61a6f9accd2202c173e4a63baeab5567"
       }
     }
+  },
+  {
+    "מזהה": "n-1912",
+    "category": "micro",
+    "חברה": "Hormel Foods (HRL)",
+    "חברה_en": "Hormel Foods (HRL)",
+    "symbols": [
+      "HRL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:06",
+    "הועלה": "2026-11-16 17:06",
+    "כותרת": "Hormel Foods מינתה את Patty Gonzalez לסגנית נשיא Emerging Brands, האחראית ל-Applegate ול-Columbus",
+    "כותרת_en": "Hormel Foods names Patty Gonzalez VP, Emerging Brands, overseeing Applegate and Columbus",
+    "קישור": "https://www.prnewswire.com/news-releases/hormel-foods-names-patty-gonzalez-vice-president-emerging-brands-302940567.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/hormel-foods-names-patty-gonzalez-vice-president-emerging-brands-302940567.html",
+        "label": "Hormel Foods: הודעת המינוי דרך PRNewswire",
+        "label_en": "Hormel Foods: appointment announcement via PRNewswire"
+      }
+    ],
+    "טקסט": "16.11.2026, 10:00 בשעון מזרח ארה״ב, 17:00 בישראל.\n\nHormel Foods הודיעה כי Patty Gonzalez מונתה לסגנית נשיא Emerging Brands. בתפקידה היא תנהל את הפעילות ותפקח על המותגים Applegate ו-Columbus, עם אחריות לצמיחה, חיזוק המותגים, חדשנות וביצועים עסקיים ארוכי טווח.\n\nGonzalez מצטרפת מ-PIM Brands, שבה כיהנה לאחרונה כסגנית נשיא בכירה לשיווק בתחום הממתקים. קודם לכן עבדה יותר מ-15 שנה ב-Mondelēz ובקודמתה Kraft Foods בתפקידי מכירות, תכנון מסחרי, ניהול מותגים וניהול כללי. בין המותגים שניהלה היו OREO, Ritz, Triscuit ו-BelVita.\n\nזהו מינוי הנהלה ב-Hormel, לא רכישה של המותגים, פיצול עסקי או שינוי בתחזית הכספית. יעדי הצמיחה והחדשנות מתארים את אחריות התפקיד, ולא הבטחה לתוצאות עתידיות.",
+    "טקסט_en": "November 16, 2026 at 10:00 US Eastern time, 17:00 in Israel.\n\nHormel Foods said Patty Gonzalez has been named vice president, Emerging Brands. She will lead the business and oversee Applegate and Columbus, with responsibility for growth, brand equity, innovation and long-term business performance.\n\nGonzalez joins from PIM Brands, where she most recently served as senior vice president of marketing, confections. Previously, she spent more than 15 years at Mondelēz and predecessor Kraft Foods in sales, commercial planning, brand management and general management. Brands she led included OREO, Ritz, Triscuit and BelVita.\n\nThis is a Hormel leadership appointment, not a brand acquisition, business spinoff or financial-guidance change. Growth and innovation describe the role's responsibilities, not guaranteed future results.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "59f73dc1e2e5e203dccbfe957190a695bdf5bcf6931375e7e086dc270adefdd2"
+      }
+    }
   }
 ]
