@@ -52018,5 +52018,67 @@
         "source_hash": "aa7081fc4adcd3b275bc1f95d18e4d744f022b6fcc84853103c2a90b9f90b18b"
       }
     }
+  },
+  {
+    "מזהה": "n-1921",
+    "category": "micro",
+    "חברה": "L3Harris (LHX)",
+    "חברה_en": "L3Harris (LHX)",
+    "symbols": [
+      "LHX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:22",
+    "הועלה": "2026-11-16 17:22",
+    "כותרת": "פורסם באיחור: L3Harris הודיעה על השלמת ניסויי FleetLink במשחתת של הצי האמריקאי",
+    "כותרת_en": "Published late: L3Harris reports completion of FleetLink testing aboard a US Navy destroyer",
+    "קישור": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-demonstrates-maritime-interoperability-fleetlink",
+    "מקורות": [
+      {
+        "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-demonstrates-maritime-interoperability-fleetlink",
+        "label": "L3Harris: הודעת החברה המקורית מ-12 בנובמבר",
+        "label_en": "L3Harris: original company announcement dated November 12"
+      }
+    ],
+    "טקסט": "הודעת המקור: 12.11.2026; שעת פרסום לא נמסרה. כתבת המשך מ-16 בנובמבר אינה מועד ההודעה המקורית.\n\nL3Harris הודיעה שהשלימה ניסויים מבצעיים של מערכת התקשורת FleetLink על גבי משחתת אמריקאית מסדרת Arleigh Burke. המערכת המודולרית משלבת מכשירי רדיו וצורות גל של החברה, ומיועדת להחליף מערכות תקשורת ותיקות ולשלב במהירות מידע ממקורות שונים.\n\nלפי החברה, המערכת תומכת בחילופי מידע מאובטחים בין פלטפורמות ימיות באמצעות יכולת הצפנה מוסמכת NSA. אלה פרטי הודעת החברה; דוח ניסוי עצמאי של הצי לא נבדק.\n\nFleetLink פותחה במסגרת חוזה Scalable, Modular, Radio Cluster משנת 2023, וכוללת תצורות ארבעה ערוצי HF, ארבעה ערוצים רב-תחומיים ותצורה רב-תחומית לצוללות. זו אבן דרך בניסוי מערכת קיימת, לא הודעה על זכייה בחוזה חדש, הזמנת ייצור חדשה או פריסה בכל הצי. ההודעה אינה מוסרת סכום חוזה או לוח פריסה.",
+    "טקסט_en": "Original announcement: November 12, 2026; no publication time was provided. A November 16 follow-up article is not the original announcement date.\n\nL3Harris said it completed US Navy operational testing of its FleetLink communications system aboard an Arleigh Burke-class destroyer. The modular system combines company radios and waveforms to replace legacy communications systems and integrate data rapidly from multiple sources.\n\nThe company says FleetLink supports secure information exchange across maritime platforms using NSA-certified cryptographic capability. These details are from the company announcement; an independent Navy test report was not reviewed.\n\nFleetLink was developed under the 2023 Scalable, Modular, Radio Cluster contract. It includes four-channel HF, four-channel multiband and submarine multiband configurations. This is a testing milestone for an existing system, not a new contract award, production order or fleet-wide deployment announcement. The release gives no contract value or fielding schedule.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4b3076f6f8effbdee766d7c750a7d2ad823608474f0d4fa0516e1ab48ce0bc90"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1922",
+    "category": "micro",
+    "חברה": "Charter Communications (CHTR)",
+    "חברה_en": "Charter Communications (CHTR)",
+    "symbols": [
+      "CHTR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:22",
+    "הועלה": "2026-11-16 17:22",
+    "כותרת": "לפי סקירת TradingView, יעד האנליסטים הממוצע ל-Charter ירד מ-177.33 ל-176.25 דולר",
+    "כותרת_en": "TradingView recap reports Charter average analyst target falls from $177.33 to $176.25",
+    "קישור": "https://www.tradingview.com/news/tradingview:d903ffd7f1b95:0-weekly-recap-savings-and-debt-cutting-overhaul-and-subsidiary-note-tenders/",
+    "מקורות": [
+      {
+        "url": "https://www.tradingview.com/news/tradingview:d903ffd7f1b95:0-weekly-recap-savings-and-debt-cutting-overhaul-and-subsidiary-note-tenders/",
+        "label": "TradingView: סקירה שבועית, מקור משני לנתון קונצנזוס",
+        "label_en": "TradingView: weekly recap, secondary consensus figure"
+      }
+    ],
+    "טקסט": "סקירת TradingView מ-16.11.2026 על השבוע הקודם; שעת הפרסום המקורית לא הוצגה.\n\n**לא מאומת מול מקור ראשוני.**\n\nמה חדש: לפי הסקירה, מחיר היעד הממוצע ל-12 חודשים למניית Charter ירד מ-177.33 ל-176.25 דולר. הדירוג המסכם נשאר Hold, עם שישה דירוגי קנייה, שישה החזקה ושישה מכירה. זהו נתון קונצנזוס שמציגה TradingView, לא שינוי יעד של בנק מסוים. מסמכי המחקר המרכיבים אותו לא נקראו ולא אומתו בנפרד.\n\nבהמשך לידיעה מ-6 בנובמבר על יעד החיסכון השנתי של 2 מיליארד דולר ולידיעה מ-10 בנובמבר על הצעות הרכש לאג״ח: שני הנושאים חוזרים בסקירה כרקע, ואינם מוצגים כאן כהכרזות חדשות. טענת הסקירה על פוטנציאל עלייה מתייחסת למחיר סגירה מ-6 בנובמבר, לא למחיר נוכחי, ולכן לא אומצה כנתון שוק חי.\n\nמחיר יעד ממוצע אינו תחזית של Charter, מחיר מסחר או תשואה מובטחת.",
+    "טקסט_en": "TradingView recap dated November 16, 2026, covering the previous week; the original publication time was not shown.\n\n**Not verified against a primary source.**\n\nWhat is new: the recap says Charter's average 12-month analyst price target fell from $177.33 to $176.25. The overall rating remained Hold, with six Buy, six Hold and six Sell ratings. This is a TradingView consensus figure, not a named bank's target change. The underlying research notes were not read or separately verified.\n\nRelated to the November 6 item on the $2 billion annual savings target and the November 10 item on bond tender offers: those developments reappear in the recap as background and are not presented here as new announcements. Its potential-upside comparison uses the November 6 closing price, not a current quote, and was not adopted as live market data.\n\nAn average target is not Charter guidance, a trading price or a guaranteed return.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9e158df135107c180455eeedcb4f0ec0a6620aa54ce9c677857551ca8ca00efb"
+      }
+    }
   }
 ]
