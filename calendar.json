@@ -4345,5 +4345,23 @@
         "source_hash": "52b70622696fa1547057b8486219b7b9e46be389b607c3d5d117769c521f814c"
       }
     }
+  },
+  {
+    "מזהה": "c-0186",
+    "תאריך": "2026-11-19",
+    "שעה": "17:30",
+    "מדינה": "US",
+    "אירוע": "מלאי גז טבעי שבועי (EIA)",
+    "אירוע_en": "Weekly natural gas inventories (EIA)",
+    "תקופה": "שבועי",
+    "תקופה_en": "Weekly",
+    "חשיבות": 1,
+    "מקור": "https://ir.eia.gov/ngs/schedule.html",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "40bcf9ee12026c9a40694926842c29ddebace5b7e3cd8ea06f60b833efa9414a"
+      }
+    }
   }
 ]
