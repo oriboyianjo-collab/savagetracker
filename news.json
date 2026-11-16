@@ -51250,5 +51250,98 @@
         "source_hash": "4a3b9cca6ad7a7f2781c080c1ab3a2188a47f59f1d8705a31ffda6caf7ef5bde"
       }
     }
+  },
+  {
+    "מזהה": "n-1897",
+    "category": "micro",
+    "חברה": "AMD (AMD)",
+    "חברה_en": "AMD (AMD)",
+    "symbols": [
+      "AMD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:37",
+    "הועלה": "2026-11-16 16:37",
+    "כותרת": "AMD השלימה את רכישת World Labs; פיי-פיי לי מצטרפת כסגנית נשיא בכירה ומדענית ראשית",
+    "כותרת_en": "AMD completes World Labs acquisition; Fei-Fei Li joins as EVP and chief scientist",
+    "קישור": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
+    "מקורות": [
+      {
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
+        "label": "AMD (AMD): ההודעה המקורית מ-16 בנובמבר",
+        "label_en": "AMD (AMD): original November 16 announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:05 בחוף המזרחי של ארה״ב, 16:05 בישראל.\n\nAMD הודיעה שהשלימה את רכישת World Labs, המפתחת מודלי AI ליצירה ולסימולציה של סביבות תלת-ממד אינטראקטיביות וכן טכנולוגיה ללמידה ולסימולציה ברובוטיקה.\n\nד״ר Fei-Fei Li מצטרפת ל-AMD כסגנית נשיא בכירה ומדענית ראשית ותדווח ישירות ליו״ר ולמנכ״לית Lisa Su. צוות World Labs ימשיך במחקר מודלי בסיס, לצד עבודה עם מהנדסי AMD לשילוב תובנות מהמודלים בפיתוח חומרה, תוכנה ומערכות עתידיות.\n\n**החברה מדווחת על השלמת רכישה, לא רק חתימה או שיחות.** בהודעה לא נמסרו שווי העסקה, מבנה התמורה, תרומה צפויה להכנסות או שינוי בתחזית הכספית. מטרות שילוב המחקר בתשתיות AI עתידיות אינן הוכחה שכבר הושק מוצר משותף או התקבלו הזמנות חדשות.\n\nזהו אירוע נפרד מעסקת Taalas שסוקרה קודם לכן; אין להעביר לעסקה הזו את שוויה או את תנאיה של עסקה אחרת.",
+    "טקסט_en": "November 16, 2026 at 09:05 US Eastern time, 16:05 in Israel.\n\nAMD announced completion of its acquisition of World Labs, which develops AI models for creating and simulating interactive 3D environments and technology for robotic learning and simulation.\n\nDr. Fei-Fei Li joins AMD as executive vice president and chief scientist, reporting directly to chair and CEO Lisa Su. The World Labs team will continue foundational model research while working with AMD engineers to apply model insights to future hardware, software and systems.\n\n**The company reports a completed acquisition, not merely a signed agreement or talks.** The announcement discloses no deal value, consideration structure, expected revenue contribution or change to financial guidance. Plans to apply research to future AI infrastructure do not establish that a joint product has launched or new orders have been won.\n\nThis is separate from the previously covered Taalas transaction. That transaction's value and terms must not be attributed to this acquisition.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "90d21c7eb560e39aa0ab2bbd5c10a21aee33bc979bd5dedd92f217fb5ce05a61"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1898",
+    "category": "micro",
+    "חברה": "Best Buy (BBY)",
+    "חברה_en": "Best Buy (BBY)",
+    "symbols": [
+      "BBY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:37",
+    "הועלה": "2026-11-16 16:37",
+    "כותרת": "Circana: Best Buy מצטרפת ל-Gateway לשיתוף נתוני מכירות ותובנות עם ספקים",
+    "כותרת_en": "Circana says Best Buy joins Gateway to share sales data and insights with suppliers",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3403616/0/en/best-buy-joins-circana-s-gateway-program-giving-suppliers-a-clearer-view-of-performance.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3403616/0/en/best-buy-joins-circana-s-gateway-program-giving-suppliers-a-clearer-view-of-performance.html",
+        "label": "Best Buy (BBY): ההודעה המקורית מ-16 בנובמבר",
+        "label_en": "Best Buy (BBY): original November 16 announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:05 בחוף המזרחי של ארה״ב, 16:05 בישראל.\n\nCircana הודיעה ש-Best Buy מצטרפת לתוכנית שיתוף הפעולה הקמעונאית Gateway. לפי הודעת הספקית, Best Buy Gateway ישלב נתוני צד ראשון של הרשת עם כלי הניתוח ו-AI של Circana, על בסיס Liquid Data ו-Liquid AI.\n\nהמערכת מיועדת לאפשר לספקי Best Buy להבין ביצועי מכירות והתנהגות לקוחות, לזהות הזדמנויות ולתכנן יחד עם הרשת. בהודעה מובאים גם דברי מנהל המסחור הראשי של Best Buy, Blake Hampton, על המטרה לשפר הבנה משותפת של הלקוחות.\n\n**זהו עדכון שותפות וניתוח נתונים מטעם Circana, לא דיווח על צמיחה שכבר נמדדה במכירות Best Buy.** לא פורסמו שווי חוזה, הכנסות צפויות, היקף השקעה או שינוי בתחזית הכספית של הרשת. השפעת הכלים על תוצאות מסחריות היא יעד מוצהר, לא תוצאה שהוכחה בפרסום הזה.",
+    "טקסט_en": "November 16, 2026 at 09:05 US Eastern time, 16:05 in Israel.\n\nCircana announced that Best Buy is joining its Gateway collaborative retail program. The supplier says Best Buy Gateway will combine the retailer's first-party data with Circana analytics and AI tools built on Liquid Data and Liquid AI.\n\nThe system is intended to help Best Buy suppliers understand sales performance and customer behavior, identify opportunities and plan with the retailer. The release also quotes Best Buy chief merchandising officer Blake Hampton on the goal of improving their shared understanding of customers.\n\n**This is a supplier-issued partnership and analytics update, not reported, measured growth in Best Buy sales.** No contract value, expected revenue, investment amount or change to Best Buy financial guidance was disclosed. Better commercial performance is a stated aim, not an outcome demonstrated by this release.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e17a201f3c61473faa5b37d16d5a349f9d7c74202723eb83513bc66fad4df858"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1899",
+    "category": "micro",
+    "חברה": "Lantheus (LNTH)",
+    "חברה_en": "Lantheus (LNTH)",
+    "symbols": [
+      "LNTH"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:37",
+    "הועלה": "2026-11-16 16:37",
+    "כותרת": "Lantheus פרסמה נתוני שני ניסויי Phase 3 ל-TAUKLARIFY: חמשת הקוראים עמדו ביעדי הרגישות והסגוליות",
+    "כותרת_en": "Lantheus publishes two Phase 3 TAUKLARIFY studies: all five readers met sensitivity and specificity criteria",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3403601/0/en/lantheus-presents-data-from-two-pivotal-phase-3-studies-of-tauklarify-florquinitau-f-18-injection-pet-imaging-in-early-alzheimer-s-disease.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3403601/0/en/lantheus-presents-data-from-two-pivotal-phase-3-studies-of-tauklarify-florquinitau-f-18-injection-pet-imaging-in-early-alzheimer-s-disease.html",
+        "label": "Lantheus (LNTH): ההודעה המקורית מ-16 בנובמבר",
+        "label_en": "Lantheus (LNTH): original November 16 announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:00 בחוף המזרחי של ארה״ב, 16:00 בישראל.\n\nLantheus פרסמה תוצאות משני ניסויי Phase 3 שבחנו את ביצועי הדמיית PET באמצעות TAUKLARIFY ‏(florquinitau F 18, המכונה גם MK-6240) לזיהוי פתולוגיית סבכי טאו במבוגרים עם פגיעה קוגניטיבית הנבדקים בחשד לאלצהיימר. בשני המחקרים כל חמשת הקוראים הבלתי תלויים עמדו ביעדים המשותפים שנקבעו מראש לרגישות ולסגוליות.\n\nנותחו 617 סריקות שמקורן בשלושה מחקרים פרוספקטיביים קיימים. ב-CE-20-01 ‏(279 סריקות) טווח הרגישות בין הקוראים היה 79.9%–88.5% והסגוליות 97.9%–99.3%. ב-CE-23-01 ‏(338 סריקות) הטווחים היו 68.2%–82.4% ו-93.5%–99.4%, בהתאמה. ערכי ההסכמה בין קוראים, Fleiss kappa, היו 0.92 ו-0.86.\n\n**תקן הייחוס היה קליני ורדיולוגי, לא בדיקה נוירופתולוגית אישית לכל משתתף.** הוא סיווג נבדקים עם פגיעה קוגניטיבית ו-PET חיובי לעמילואיד כבעלי פתולוגיית טאו, ונבדקים תואמי גיל תקינים קוגניטיבית ושליליים לעמילואיד כחסרי פתולוגיית טאו, על בסיס מסגרת שהוגדרה מראש ונתמכה בספרות פתולוגית.\n\nהחברה מדווחת על ניתוח בטיחות מאוגד ב-1,734 משתתפים: תופעות הלוואי השכיחות שצוינו כללו כאב ראש 0.7%, בחילה 0.2%, וסחרחורת, תגובות באתר הזרקה ואי-נוחות בטנית 0.1% כל אחת. אלה נתוני החברה ולא הוכחה להיעדר סיכון.\n\n**הסריקה אינה אבחון עצמאי ודאי לאלצהיימר:** תוצאה שלילית אינה שוללת בהכרח פתולוגיית טאו וחיובית אינה מאשרת אותה בהכרח; במצב של אי-ודאות נדרשת הערכה נוספת. הבטיחות והיעילות לטאופתיות שאינן אלצהיימר לא הוכחו. זהו פרסום נתונים, לא הודעת אישור FDA חדשה, טיפול שהוכח כמאט מחלה או תוצאות כספיות חדשות.\n\nהעדכון מתייחס לנתונים שפורסמו בהודעת החברה. אין בו קביעה שהופעה מתוכננת בכנס כבר הסתיימה.",
+    "טקסט_en": "November 16, 2026 at 09:00 US Eastern time, 16:00 in Israel.\n\nLantheus published results from two pivotal Phase 3 studies evaluating TAUKLARIFY (florquinitau F 18, also known as MK-6240) PET imaging for tau neurofibrillary tangle pathology in adults with cognitive impairment being evaluated for Alzheimer's disease. All five independent readers met the prespecified co-primary sensitivity and specificity criteria in both studies.\n\nThe studies evaluated 617 scans drawn from three existing prospective studies. CE-20-01 (279 scans) showed reader sensitivity of 79.9%-88.5% and specificity of 97.9%-99.3%. CE-23-01 (338 scans) showed sensitivity of 68.2%-82.4% and specificity of 93.5%-99.4%. Inter-reader Fleiss kappa values were 0.92 and 0.86.\n\n**The reference standard was clinical and radiological, not individual neuropathological testing for every participant.** It classified cognitively impaired, amyloid-PET-positive individuals as having tau pathology and age-matched, cognitively normal, amyloid-negative individuals as not having it, using a prospectively defined framework informed by neuropathological evidence.\n\nThe company reports a pooled safety analysis of 1,734 participants. Reported events included headache at 0.7%, nausea at 0.2%, and dizziness, injection-site reactions and abdominal discomfort at 0.1% each. These are company-reported findings, not proof of no risk.\n\n**The scan is not a definitive standalone Alzheimer's diagnosis:** a negative scan does not necessarily exclude tau pathology and a positive scan does not necessarily confirm it; further evaluation may be needed when uncertainty remains. Safety and effectiveness for non-Alzheimer's tauopathies have not been established. This is a data release, not a new FDA approval, a demonstrated disease-slowing treatment or new financial results.\n\nThis update concerns data published in the company announcement. It does not establish that a scheduled conference appearance has already concluded.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2c89afca2f44314708a600baf2233c85d2254f45968ce7ff3db973a7c8c7172a"
+      }
+    }
   }
 ]
