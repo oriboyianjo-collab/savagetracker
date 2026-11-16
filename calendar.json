@@ -3280,20 +3280,21 @@
     "מדינה": "US",
     "אירוע": "סקר הייצור של האמפייר סטייט",
     "חשיבות": 1,
-    "מקור": "https://www.newyorkfed.org/research/calendars/nationalecon_cal",
-    "הערה": "מועד לפי לוח המקור; צפי וקודם לא אומתו. ללא נתון בפועל.",
+    "מקור": "https://www.newyorkfed.org/survey/empire/empiresurvey_overview",
+    "הערה": "נובמבר: מדד אזורי של תנאי העסקים; התשובות נאספו ב-2–9 בנובמבר. מקור בפועל: הפד של ניו יורק. צפי וקודם לא אומתו.",
     "שעה": "15:30",
     "תקופה": "נובמבר · חודשי",
     "מזהה": "c-0129",
     "אירוע_en": "Empire State manufacturing survey",
     "תקופה_en": "November · monthly",
-    "הערה_en": "Timing per the source calendar; estimate and prior not verified. No actual figure.",
+    "הערה_en": "November regional business conditions index; responses collected November 2-9. Actual: New York Fed. Forecast and prior not verified.",
     "_translation": {
       "en": {
-        "source_hash": "9b0a9147e89de855834f5504a9e87c3df83b4758509553660f8eeb52b080ac8c",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "ca52b7940ad734a4d27bfb4e48b004827c8b1d5c6dfc8dca1c56a0d0bd5aa454"
       }
-    }
+    },
+    "בפועל": "7.8"
   },
   {
     "תאריך": "2026-11-16",
