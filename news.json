@@ -47363,5 +47363,35 @@
         "source_hash": "7904a499fab1e46a0fc786de3367f25f6768a5fc205ef7b4201f8e43d2ca383c"
       }
     }
+  },
+  {
+    "מזהה": "n-1770",
+    "category": "micro",
+    "חברה": "MSFT",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:39",
+    "הועלה": "2026-11-16 11:39",
+    "כותרת": "Microsoft (MSFT): שירותי Azure ו-Microsoft 365 אושרו לתמיכה במידע NATO RESTRICTED; כל פריסה עדיין נדרשת להסמכה",
+    "כותרת_en": "Microsoft (MSFT): Azure and Microsoft 365 services approved for NATO RESTRICTED workloads; deployments still require accreditation",
+    "קישור": "https://news.microsoft.com/source/emea/features/microsoft-approved-to-support-nato-restricted-workloads-across-cloud-and-ai-infrastructure-and-productivity-services/",
+    "מקורות": [
+      {
+        "url": "https://news.microsoft.com/source/emea/features/microsoft-approved-to-support-nato-restricted-workloads-across-cloud-and-ai-infrastructure-and-productivity-services/",
+        "label": "Microsoft: הודעת החברה על אישור NATO RESTRICTED",
+        "label_en": "Microsoft: company announcement of NATO RESTRICTED approval"
+      }
+    ],
+    "טקסט": "16.11.2026 | הודעת Microsoft. נתוני הפרסום המובנים בעמוד מציינים 11:04 בישראל (09:04 UTC); זו שעת פרסום העמוד, לא שעה מאומתת של מתן האישור.\n\nMicrosoft הודיעה ששירותי תשתית הענן וה-AI שלה ושירותי הפרודוקטיביות אושרו לתמיכה בעומסי עבודה ברמת NATO RESTRICTED, באמצעות שירותים מאושרים ב-Azure וב-Microsoft 365. האישור ניתן בידי רשויות הביטחון הלאומי של ספרד לאחר ביקורות אבטחה ובדיקת דרישות לאומיות והנחיית D32 של נאט״ו, ונמסר רשמית לוועדת המדיניות הדיגיטלית של הברית.\n\nלפי החברה, כל המדינות החברות בנאט״ו יכולות להסתמך על הבסיס שנבדק במסגרת תכנון מערכותיהן, עם 23 אזורי Azure שכבר קיימים במדינות החברות. **זהו בסיס שירותים שנבדק מראש לצורכי אבטחה והסמכה, לא הסמכה אוטומטית של כל פריסה, חוזה רכש או אישור לכל רמות הסיווג.** ארגונים עדיין נדרשים לפנות לרשות המתאימה להסמכת המערכת שלהם.\n\nהאישור כולל שירותי אבטחה לזהות וגישה, הגנת מידע ומניעת דלף, הצפנה וניהול מפתחות, הגנת איומים וניהול תאימות. Microsoft מציעה ארכיטקטורת ייחוס לסביבת NR, תיעוד בקרות הממופה ל-D32 וכלי ניטור תאימות כדי לסייע בהכנה להסמכה.\n\nהחברה מתארת את עצמה כספקית הראשונה ששירותי התשתית והפרודוקטיביות שלה יחד קיבלו אישור כזה; זו טענת Microsoft, לא השוואת שוק שאומתה בנפרד. אין בהודעה שווי עסקה, הכנסה חדשה, מעבר שבוצע של מערכות נאט״ו לענן או הפעלה של 23 אזורים חדשים.",
+    "טקסט_en": "November 16, 2026 | Microsoft announcement. The page's structured publication data shows 11:04 Israel time (09:04 UTC); this is the page publication time, not a verified time when approval was granted.\n\nMicrosoft said its cloud and AI infrastructure and productivity services were approved to support NATO RESTRICTED workloads through approved Azure and Microsoft 365 services. Spanish national security authorities granted the approval after security audits and assessment against national requirements and NATO's D32 directive. It was formally reported to NATO's Digital Policy Committee.\n\nThe company says all NATO member nations can build on this assessed foundation when designing their systems, supported by 23 Azure regions already present in member countries. **This is a pre-assessed service foundation for security and accreditation, not automatic accreditation of every deployment, a procurement contract or approval for all classification levels.** Organizations still need accreditation of their systems from the appropriate authority.\n\nThe approval includes security services for identity and access, information protection and data-loss prevention, encryption and key management, threat protection and compliance management. Microsoft offers an NR landing-zone reference architecture, security evidence mapped to D32 and continuous compliance monitoring to help prepare for accreditation.\n\nMicrosoft describes itself as the first provider with its infrastructure and productivity services jointly approved in this way; that is a company claim, not a separately verified market comparison. The release supplies no deal value, new revenue, completed NATO cloud migration or activation of 23 new regions.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f90159368f891ef51c21bbda6483c3f8353aa6e69b38266cacb9daa7455a1e4c"
+      }
+    }
   }
 ]
