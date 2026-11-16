@@ -53455,5 +53455,38 @@
         "source_hash": "71e2319d88c241083a7801c1a9061c0044370a97b24fc7aec7456f6ffc571511"
       }
     }
+  },
+  {
+    "מזהה": "n-1966",
+    "category": "company",
+    "חברה": "Pool Corporation (POOL)",
+    "חברה_en": "Pool Corporation (POOL)",
+    "symbols": [
+      "POOL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 23:19",
+    "הועלה": "2026-11-16 23:19",
+    "כותרת": "Pool Corporation (POOL): הסכם לרכישת Team Horner, עם 18 מרכזי הפצה; סגירה צפויה ברבעון הראשון של 2027",
+    "כותרת_en": "Pool Corporation (POOL): agrees to acquire Team Horner with 18 distribution centers; closing expected in Q1 2027",
+    "summary": "העסקה טרם הושלמה וכפופה לתנאי סגירה ואישורים רגולטוריים; המחיר לא פורסם.",
+    "summary_en": "Deal is not completed and remains subject to regulatory and other closing conditions; no price disclosed.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3404111/10055/en/pool-corporation-to-acquire-team-horner.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3404111/10055/en/pool-corporation-to-acquire-team-horner.html",
+        "label": "Pool Corporation / GlobeNewswire: Team Horner acquisition agreement",
+        "label_en": "Pool Corporation / GlobeNewswire: Team Horner acquisition agreement"
+      }
+    ],
+    "טקסט": "פורסם ב-16.11.2026 בשעה 16:05 בחוף המזרחי של ארה״ב, 23:05 בישראל.\n\nחברת Pool Corporation (POOL) חתמה על הסכם מחייב לרכישת Team Horner Group, מפיצה ויצרנית של מוצרי בריכות שמרכזה בפורט לודרדייל, פלורידה. פעילות ההפצה HornerXpress מפעילה 18 מרכזי מכירה: 17 בפלורידה ואחד בניו יורק.\n\nלפי החברה, העסקה צפויה להרחיב את רשת ההפצה בפלורידה ואת הקשרים עם קבלני בריכות, בונים וסוחרים. היא מתכוונת לממן את הרכישה באמצעות מזומנים והלוואות במסגרת האשראי המתחדשת שלה. מחיר הרכישה לא פורסם בהודעה.\n\nלקבוצת Team Horner יש גם את AquaCal AutoPilot, יצרנית משאבות חום ומערכות כלור ממלח לבריכות וספא, ושלושה מפעלי בריכות פיברגלס בצרפת. חברת POOLCORP אומרת שהיא בוחנת את ההזדמנויות ארוכות הטווח לעסקים אלה; אין כאן הכרזה על מכירה שלהם.\n\nהצדדים צופים השלמה ברבעון הראשון של 2027, בכפוף לאישורים רגולטוריים ולתנאי סגירה מקובלים נוספים. זו חתימה על הסכם, לא רכישה שהושלמה; אין ודאות שתיסגר במועד או בכלל.",
+    "טקסט_en": "Published November 16, 2026 at 16:05 ET, or 23:05 Israel time.\n\nPool Corporation (POOL) signed a definitive agreement to acquire Team Horner Group, a swimming-pool products distributor and manufacturer based in Fort Lauderdale, Florida. Its HornerXpress distribution business operates 18 sales centers: 17 in Florida and one in New York.\n\nPOOLCORP says the deal is expected to expand its Florida distribution network and relationships with pool contractors, builders and dealers. It expects to fund the acquisition with cash on hand and borrowings under its revolving credit facility. The release does not disclose the purchase price.\n\nTeam Horner also owns AquaCal AutoPilot, a maker of pool and spa heat pumps and salt chlorine generators, and three fiberglass pool manufacturing plants in France. POOLCORP says it is evaluating long-term opportunities for these businesses; this is not an announced sale of them.\n\nThe parties expect completion in the first quarter of 2027, subject to regulatory and other customary closing conditions. This is an agreement, not a completed acquisition, and closing on that schedule or at all is not assured.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "548b60c0edccc113ad6494f2a8ba96bc09867a3b615b73ba2373895e907664cb"
+      }
+    }
   }
 ]
