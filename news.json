@@ -52080,5 +52080,72 @@
         "source_hash": "9e158df135107c180455eeedcb4f0ec0a6620aa54ce9c677857551ca8ca00efb"
       }
     }
+  },
+  {
+    "מזהה": "n-1923",
+    "category": "micro",
+    "חברה": "Coca-Cola Europacific Partners (CCEP)",
+    "חברה_en": "Coca-Cola Europacific Partners (CCEP)",
+    "symbols": [
+      "CCEP"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:27",
+    "הועלה": "2026-11-16 17:27",
+    "כותרת": "CCEP: הדירקטורית Laurence Debroux מועמדת לדירקטוריון הפיקוח של Philips ב-2027",
+    "כותרת_en": "CCEP director Laurence Debroux nominated for Philips supervisory board in 2027",
+    "קישור": "https://www.cocacolaep.com/investors/regulatory-filings-and-news/regulatory-filings/director-declaration/",
+    "מקורות": [
+      {
+        "url": "https://www.cocacolaep.com/investors/regulatory-filings-and-news/regulatory-filings/director-declaration/",
+        "label": "CCEP: הודעה רגולטורית מקורית",
+        "label_en": "CCEP: original regulatory announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, לפי הודעת CCEP; שעת פרסום לא הוצגה.\n\nCoca-Cola Europacific Partners הודיעה כי Laurence Debroux, דירקטורית בלתי תלויה ולא-ביצועית בחברה, הוצעה למינוי כחברה בדירקטוריון הפיקוח של Royal Philips באספת בעלי המניות השנתית של Philips ב-2027.\n\nאם בעלי המניות יאשרו את מינויה, היא תמונה גם ליו״ר ועדת הביקורת של Philips, בתוקף מסיום האספה. מדובר במועמדות עתידית ומותנית, לא במינוי שכבר נכנס לתוקף היום.\n\nזו הודעה על תפקיד נוסף של דירקטורית CCEP. היא אינה מודיעה על עזיבתה את CCEP, על שינוי בהנהלתה או על עסקה מסחרית בין שתי החברות.",
+    "טקסט_en": "November 16, 2026, according to CCEP's announcement; no publication time was shown.\n\nCoca-Cola Europacific Partners said Laurence Debroux, an independent non-executive director of the company, has been nominated to join Royal Philips' supervisory board at Philips' 2027 annual general meeting.\n\nSubject to appointment by shareholders, she will also become chair of Philips' audit committee, effective at the close of that meeting. This is a future, conditional nomination, not an appointment that took effect today.\n\nThe notice concerns an additional role for a CCEP director. It does not announce her departure from CCEP, a change in CCEP management or a commercial transaction between the companies.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2e3f20599ce9da1ea61dc4f8b37f2d2bc55a65a2b2bf1f190da5f2dccee71262"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1924",
+    "category": "micro",
+    "חברה": "Deere (DE)",
+    "חברה_en": "Deere (DE)",
+    "symbols": [
+      "DE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:27",
+    "הועלה": "2026-11-16 17:27",
+    "כותרת": "לפי פרסומי ענף, John Deere השיקה את JD, עוזר AI חינמי לנתוני חווה ומיכון",
+    "כותרת_en": "Trade publications report John Deere launches JD, a free AI assistant for farm and machine data",
+    "קישור": "https://www.agrarheute.com/technik/traktoren/john-deere-startet-kostenlose-ki-jd-wertet-traktor-betriebsdaten-643971",
+    "מקורות": [
+      {
+        "url": "https://www.agrarheute.com/technik/traktoren/john-deere-startet-kostenlose-ki-jd-wertet-traktor-betriebsdaten-643971",
+        "label": "agrarheute: דיווח ענפי משני על ההשקה",
+        "label_en": "agrarheute: secondary trade report on the launch"
+      },
+      {
+        "url": "https://landscapermagazine.com/john-deere-launches-jd-ai-assistant/",
+        "label": "The Landscaper: דיווח ענפי נוסף על JD",
+        "label_en": "The Landscaper: additional trade report on JD"
+      }
+    ],
+    "טקסט": "16.11.2026. agrarheute מציג 15:30 ללא אזור זמן מפורש; לא הוסקה ממנו שעת פרסום בישראל.\n\n**לא מאומת מול מקור ראשוני.**\n\nלפי agrarheute ו-The Landscaper, John Deere השיקה את JD, עוזר AI חינמי שמאפשר לשאול בשפה טבעית על נתוני שדות, מכונות ותפעול. הפרסומים מציינים זמינות מ-16 בנובמבר ב-Operations Center בדפדפן וביישומים ניידים; agrarheute מציין גם את Equipment Mobile.\n\nהכלי מתואר כמסייע בניתוח נתוני עבר, כגון צריכת דלק וביצועי מכונות, ובהגעה למידע ממדריכים. לפי הכתבה הגרמנית, הוא אינו שולט בטרקטורים ואינו משנה הגדרות מכונה. שילוב עתידי במסכי G5 בתא הנהג מתוכנן ללא מועד שהוצג בכתבה.\n\nשני הפרסומים נקראו במלואם, אך הודעת John Deere המקורית לא נמצאה ולא נקראה. טענות לשיפור בקבלת החלטות או ביעילות הן תיאור יכולות ומטרות, לא חיסכון כספי או עליית יבול שנמדדו ואומתו כאן. אין במקורות כימות של הכנסה חדשה לחברה מההשקה החינמית.",
+    "טקסט_en": "November 16, 2026. agrarheute displays 15:30 without an explicit timezone; no Israel publication time was inferred from it.\n\n**Not verified against a primary source.**\n\nAccording to agrarheute and The Landscaper, John Deere launched JD, a free AI assistant for natural-language questions about field, machine and operational data. The publications describe availability from November 16 in Operations Center on the web and mobile apps; agrarheute also names Equipment Mobile.\n\nThe assistant is described as helping analyse historical information such as fuel use and machine performance and find information in manuals. The German article says it cannot control tractors or change equipment settings. Future integration into in-cab G5 displays is planned without a date given in the article.\n\nBoth publications were read in full, but John Deere's original announcement was not found or read. Claims about better decisions or efficiency describe capabilities and aims, not savings or yield improvements measured and verified here. The sources do not quantify new company revenue from the free launch.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "56dab8cf7d79402c016f5151a238b0a08036f320178e5702e7b86a4d0f5f6c1c"
+      }
+    }
   }
 ]
