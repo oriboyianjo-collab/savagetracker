@@ -48019,5 +48019,100 @@
         "source_hash": "7fe360ed8ac6a53ca1e7ea12e89258aa8e64f12509d0b9dbeaae284dbcf71669"
       }
     }
+  },
+  {
+    "מזהה": "n-1791",
+    "category": "micro",
+    "חברה": "NOK",
+    "symbols": [
+      "NOK"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:46",
+    "הועלה": "2026-11-16 13:46",
+    "כותרת": "Nokia (NOK) ושותפותיה הקימו את AI Gigafactory Northern; מתכוונות להתמודד במכרז אירופי",
+    "כותרת_en": "Nokia (NOK) and partners form AI Gigafactory Northern; intend to bid in European tender",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3403172/0/en/european-technology-leaders-form-ai-gigafactory-northern-consortium-to-build-trusted-sustainable-ai-infrastructure.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3403172/0/en/european-technology-leaders-form-ai-gigafactory-northern-consortium-to-build-trusted-sustainable-ai-infrastructure.html",
+        "label": "הודעת Nokia דרך GlobeNewswire: הקמת הקונסורציום",
+        "label_en": "Nokia release via GlobeNewswire: consortium formation"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:00 בישראל (02:00 ET) | הודעת Nokia דרך GlobeNewswire נקראה במלואה.\n\nNokia, Nscale, Skeleton, Telia ו-Verda הודיעו על הקמת AI Gigafactory Northern, קונסורציום המתכנן תשתית AI מבוזרת במספר אתרים באזור הנורדי והבלטי. השותפות מתכוונות להגיש הצעה להקמה ולהפעלה במסגרת מכרז הקונסורציומים של EuroHPC. ההקמה והכוונה להתמודד הן החדשות, לא זכייה שכבר הושגה.\n\nהמודל המתוכנן מחבר אתרים באואולו שבפינלנד, אירו שבאסטוניה וולמיירה שבלטביה, וכן אתר בשוודיה שמיקומו טרם נקבע. הוא אמור לשלב מחשוב AI, שירותי ענן, קישוריות ואנרגיה דלת פחמן. Nokia אמורה לתרום תשתיות רשת וקישוריות בין האתרים; יתר השותפות תורמות יכולות ענן, מחשוב, תפעול ומערכות הספק.\n\nאין בהודעה אישור שהמתקנים נבנו או הופעלו, תקציב מחייב לקונסורציום או הכנסה שהוזמנה ל-Nokia. יעד גיוס ההשקעות האירופי של 30 מיליארד אירו המוזכר כרקע אינו מענק שניתן לקונסורציום או ל-Nokia. ההודעה נפרדת מהסכם רישוי הפטנטים עם ASUS שכבר סוקר.",
+    "טקסט_en": "November 16, 2026, 09:00 Israel time (02:00 ET) | The complete Nokia release via GlobeNewswire was read.\n\nNokia, Nscale, Skeleton, Telia and Verda announced the formation of AI Gigafactory Northern, a consortium planning distributed AI infrastructure across Nordic and Baltic sites. The partners intend to bid to build and operate it under the EuroHPC call for AI Gigafactory consortia. Formation and the intended bid are the developments, not an awarded tender.\n\nThe planned model links sites in Oulu, Finland; Iru, Estonia; and Valmiera, Latvia, plus a Swedish site whose location has not been determined. It is intended to combine AI computing, cloud services, connectivity and decarbonised energy. Nokia is to contribute network infrastructure and inter-site connectivity, while the other partners bring cloud, computing, operations and power-system capabilities.\n\nThe release does not confirm that facilities have been built or commissioned, a committed consortium budget or booked Nokia revenue. The European EUR30 billion AI investment mobilisation target cited as background is not a grant awarded to this consortium or Nokia. This is separate from the previously covered ASUS patent licence agreement.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7dbc14f0f9b68f313c0cafde0a42927728228da6d1cf37ae95617833346e0670"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1792",
+    "category": "micro",
+    "חברה": "CNO",
+    "symbols": [
+      "CNO"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:46",
+    "הועלה": "2026-11-16 13:46",
+    "כותרת": "פורסם באיחור | CNO (CNO) השלימה ביטוח משנה פנימי לכ-270 מיליון דולר ברזרבות Colonial Penn",
+    "כותרת_en": "Published late | CNO (CNO) completed internal reinsurance of about $270 million in Colonial Penn reserves",
+    "קישור": "https://ir.cnoinc.com/news-releases/news-release-details/cno-financial-group-reports-third-quarter-2026-results",
+    "מקורות": [
+      {
+        "url": "https://ir.cnoinc.com/news-releases/news-release-details/cno-financial-group-reports-third-quarter-2026-results",
+        "label": "CNO: הודעת 29 באוקטובר, סעיף עסקת ביטוח המשנה",
+        "label_en": "CNO: October 29 release, reinsurance transaction disclosure"
+      }
+    ],
+    "טקסט": "פורסם באיחור | CNO דיווחה בהודעתה מ-29.10.2026 כי העסקה נסגרה ב-1.10.2026. סעיף העסקה במקור החברה נקרא ישירות; שעת הפרסום המקורית בישראל לא אומתה.\n\nCNO Financial הודיעה שהשלימה עסקת ביטוח משנה שלישית עם חברה קשורה בברמודה הנמצאת בבעלותה המלאה. העסקה מבטחת מחדש כ-270 מיליון דולר ברזרבות סטטוטוריות של פוליסות ביטוח חיים קיימות מסוג graded benefit של Colonial Penn.\n\n270 מיליון הדולר הם היקף הרזרבות הרלוונטיות, לא תמורה במזומן, הכנסה חדשה או סכום שחרור הון שהחברה כימתה לעסקה זו. מכיוון שהצד הנגדי הוא חברה בבעלות מלאה, אין להציג זאת כמכירת העסק לצד חיצוני או כהוצאת מלוא הסיכון מקבוצת CNO.",
+    "טקסט_en": "Published late | CNO disclosed in its October 29, 2026 release that the transaction closed on October 1, 2026. The transaction paragraph was read directly in the company source; its original publication time in Israel was not verified.\n\nCNO Financial said it completed a third reinsurance transaction with its wholly owned Bermuda affiliate. The transaction reinsures approximately $270 million of inforce graded benefit life statutory reserves from Colonial Penn.\n\nThe $270 million measures the relevant statutory reserves, not cash consideration, new revenue or a quantified capital release from this transaction. Because the counterparty is wholly owned, this is not presented as a sale to an external buyer or the removal of all the risk from the CNO group.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5a323c0b7c8d71765ae81c784ee92db805fb1820febc6efc9a97533468ce0c21"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1793",
+    "category": "micro",
+    "חברה": "GW",
+    "symbols": [
+      "GW"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:46",
+    "הועלה": "2026-11-16 13:46",
+    "כותרת": "פורסם באיחור | Guidewire (GW): Pibit הודיעה שהצטרפה ל-PartnerConnect ומפתחת חיבור ל-PolicyCenter",
+    "כותרת_en": "Published late | Guidewire (GW): Pibit says it joined PartnerConnect and is developing a PolicyCenter integration",
+    "קישור": "https://pibit.ai/integrations/guidewire",
+    "מקורות": [
+      {
+        "url": "https://pibit.ai/integrations/guidewire",
+        "label": "Pibit: שותפות טכנולוגית וחיבור ל-Guidewire בפיתוח",
+        "label_en": "Pibit: technology partnership and Guidewire integration in development"
+      },
+      {
+        "url": "https://www.marketpressrelease.com/Pibit-Joins-Guidewire-PartnerConnect-Putting-Risk-Ranked-Submissions-in-PolicyCenter-1794742905.html",
+        "label": "MarketPressRelease: הודעה עם שורת תאריך 13 בנובמבר",
+        "label_en": "MarketPressRelease: release with November 13 dateline"
+      }
+    ],
+    "טקסט": "פורסם באיחור | עמוד Pibit המקורי נקרא במלואו ואינו מציג תאריך פרסום. הודעה המיוחסת ל-Pibit באתר MarketPressRelease נושאת כותרת תאריך 15.11.2026 ושורת מקום ותאריך בגוף מ-13.11.2026; אין להסיק מכך שעת פרסום מאומתת בישראל.\n\nPibit אומרת שהצטרפה לתוכנית Guidewire PartnerConnect כשותפה טכנולוגית ושהיא נמצאת ב-Guidewire Marketplace. עמוד החברה מסמן במפורש את החיבור ל-PolicyCenter כ-In development: מדובר בפיתוח, לא באישור שהאינטגרציה הושקה לשימוש כללי או הותקנה אצל לקוח.\n\nהחיבור המתוכנן אמור להפעיל קליטה, חילוץ מידע, מחקר וניתוח סיכונים על בקשות ביטוח וחידושים, ולהחזיר את המידע לרשומות העבודה ב-PolicyCenter. לפי Pibit, הוא יתבסס על Guidewire App Events ו-Cloud APIs, עם אימות דרך Guidewire Hub. החברה מפנה לקוחות לשיחה על לוחות זמנים לפי סביבת PolicyCenter שלהם.\n\nזהו עדכון שותפות ופיתוח המיוחס ל-Pibit. לא אומתו חוזה לקוח, שווי עסקה, הכנסה ל-Guidewire או הסמכת מוצר סופית. נתוני השיפור השיווקיים בהודעה אינם מוצגים כמבחן ביצועים עצמאי.",
+    "טקסט_en": "Published late | Pibit's original page was read in full and has no publication date. A release attributed to Pibit on MarketPressRelease has a November 15, 2026 date header and a November 13 dateline in its body; this does not establish a verified publication time in Israel.\n\nPibit says it joined Guidewire PartnerConnect as a Technology Partner and is on the Guidewire Marketplace. Its own page explicitly labels the PolicyCenter integration \"In development\": this is development work, not confirmation of general availability or a customer installation.\n\nThe planned integration is intended to run intake, extraction, research and risk analysis on insurance submissions and renewals, returning the results to PolicyCenter jobs. Pibit says it uses Guidewire App Events and Cloud APIs, authenticated through Guidewire Hub, and asks customers to discuss timelines for their PolicyCenter setup.\n\nThis is a partnership and development update attributed to Pibit. No customer contract, deal value, Guidewire revenue or final product certification was verified. Promotional improvement figures in the release are not presented as an independent performance test.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5896b4021958e667d9171c631ab6f8517d175ab440001c84662380c616724737"
+      }
+    }
   }
 ]
