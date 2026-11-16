@@ -51762,5 +51762,75 @@
         "source_hash": "59f73dc1e2e5e203dccbfe957190a695bdf5bcf6931375e7e086dc270adefdd2"
       }
     }
+  },
+  {
+    "מזהה": "n-1913",
+    "category": "micro",
+    "חברה": "Hasbro (HAS)",
+    "חברה_en": "Hasbro (HAS)",
+    "symbols": [
+      "HAS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:09",
+    "הועלה": "2026-11-16 17:09",
+    "כותרת": "לפי MarketBeat, Roth Capital העלתה את יעד Hasbro מ-125 ל-136 דולר ושמרה Buy",
+    "כותרת_en": "MarketBeat reports Roth Capital raises Hasbro target from $125 to $136, maintains Buy",
+    "קישור": "https://www.marketbeat.com/instant-alerts/analyst-hasbros-has-buy-rating-reaffirmed-at-roth-capital-2026-11-16/",
+    "מקורות": [
+      {
+        "url": "https://www.marketbeat.com/instant-alerts/analyst-hasbros-has-buy-rating-reaffirmed-at-roth-capital-2026-11-16/",
+        "label": "MarketBeat: דיווח משני המצטט Benzinga, לא מזכר Roth",
+        "label_en": "MarketBeat: secondary report citing Benzinga, not the Roth note"
+      }
+    ],
+    "טקסט": "16.11.2026. חותמת הפרסום בנתוני העמוד של MarketBeat היא 14:36:42 UTC, שהם 16:36:42 בישראל; שעת ההפצה הראשונה של מזכר האנליסט אינה מאומתת.\n\n**לא מאומת מול מקור ראשוני.** לפי MarketBeat, המצטטת את Benzinga, Roth Capital חזרה על המלצת Buy למניית Hasbro והעלתה את מחיר היעד מ-125 ל-136 דולר במזכר שפורסם ביום שני. מזכר Roth המקורי לא נקרא.\n\nזהו שינוי במחיר היעד לצד דירוג ללא שינוי, לא העלאה חדשה של הדירוג, לא מחיר המניה בשוק ולא תחזית רשמית של Hasbro. הדיווח שנקרא אינו מספק נימוק מפורט של Roth לשינוי, ולכן לא יוחס לה נימוק שאינו מופיע בו.\n\nנתוני מסחר, אחוזי אפסייד, המלצות של גופים אחרים ונתוני דוחות היסטוריים שבכתבת הרקע לא נבדקו כנתוני שוק חיים ואינם מוצגים כאן כעדכון חדש. אין זו המלצת השקעה אישית.",
+    "טקסט_en": "November 16, 2026. MarketBeat's page metadata is timestamped 14:36:42 UTC, 16:36:42 in Israel. The analyst note's first-distribution time is not verified.\n\n**Not verified against a primary source.** MarketBeat, citing Benzinga, reports that Roth Capital reiterated Buy on Hasbro and raised its price target from $125 to $136 in a note issued Monday. The original Roth note was not read.\n\nThis is a price-target increase with an unchanged rating, not a new rating upgrade, a current share price or official Hasbro guidance. The report read does not give a detailed Roth rationale, so none is attributed to the firm here.\n\nTrading prices, implied upside, other firms' ratings and historical earnings in the article's background were not verified as live market data and are not presented as new updates here. This is not personal investment advice.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "76cc951660bcf8c10aef9b26a665e442e24b021ec0c72d0bea494fcd66c84ed2"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1914",
+    "category": "macro",
+    "חברה": "Zelle / Solana",
+    "חברה_en": "Zelle / Solana",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:09",
+    "הועלה": "2026-11-16 17:09",
+    "כותרת": "פורסם באיחור | דיווחים: Zelle בחרה ב-Solana להתרחבות בינלאומית והציגה העברה ניסיונית חסויה",
+    "כותרת_en": "Published late | Reports: Zelle selects Solana for international expansion and demonstrates a confidential test transfer",
+    "קישור": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments",
+    "מקורות": [
+      {
+        "url": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments",
+        "label": "Cointelegraph: דיווח על התוכניות, מקור משני",
+        "label_en": "Cointelegraph: secondary report on the plans"
+      },
+      {
+        "url": "https://cryptobriefing.com/zelle-confidential-transfer-solana-zelleusd/",
+        "label": "CryptoBriefing: דיווח משני על הדגמת רשת הבדיקה",
+        "label_en": "CryptoBriefing: secondary report on the test-network demo"
+      },
+      {
+        "url": "https://www.zelle.com/press-releases/zelle-heads-to-india-unveils-zelleusdsm-stablecoin-other-markets",
+        "label": "Zelle: הודעת 11 ביוני לרקע בלבד, לא אישור להכרזה החדשה",
+        "label_en": "Zelle: June 11 background only, not confirmation of the new announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 16.11.2026. דיווח CryptoBriefing פורסם ב-07:39 EST, שהם 14:39 בישראל; שעת ההכרזה המקורית אינה מאומתת.\n\n**ההכרזה החדשה לא מאומתת מול מקור ראשוני.** לפי Cointelegraph ו-CryptoBriefing, Zelle הציגה בכנס Breakpoint תוכניות לשימוש ב-Solana במסגרת תשלומים בינלאומיים באמצעות המטבע הצמוד לדולר ZelleUSD (ZLUSD), לצד הדגמה של העברה חסויה. ההקלטה והודעת השותפות המקורית לא נקראו.\n\nCointelegraph מתאר בחירה ב-Solana כתשתית להתרחבות עתידית. CryptoBriefing מדווח על הדגמה בסכום של 1.25 מיליון דולר על רשת בדיקה (devnet/testnet), שבה סכום ההעברה הוסתר מהציבור. **הדגמה ברשת בדיקה אינה הפעלה של שירות העברות בינלאומי חי ללקוחות או העברה מאומתת של כספי לקוחות.** לא אומת תאריך השקה חדש או יישום מסחרי של מנגנון הפרטיות.\n\nלרקע בלבד, בהודעה ראשונית מ-11 ביוני Zelle כבר הכריזה על הודו כיעד הבינלאומי הראשון, עם זמינות ראשונית צפויה לפני סוף 2026, ועל ZelleUSD לתמיכה עתידית בשווקים אחרים. ההודעה הישנה אינה מאמתת את בחירת Solana או את פרטי ההדגמה החדשה.\n\nאין כאן אישור לזמינות השירות כיום, המלצה לרכישת מטבע, הבטחת תשואה או טענה לעליית מחיר SOL בעקבות הדיווחים.",
+    "טקסט_en": "Published late | November 16, 2026. CryptoBriefing's report is timestamped 07:39 EST, 14:39 in Israel. The original announcement time is not verified.\n\n**The new announcement is not verified against a primary source.** Cointelegraph and CryptoBriefing report that Zelle presented plans at Breakpoint to use Solana for international payments involving its dollar-backed ZelleUSD (ZLUSD), alongside a confidential-transfer demonstration. The original partnership announcement and presentation recording were not reviewed.\n\nCointelegraph describes Solana's selection as infrastructure for future expansion. CryptoBriefing reports a $1.25 million demonstration on a devnet/testnet, with the amount hidden from public view. **A test-network demonstration is not a live international service for customers or a verified transfer of customer funds.** No new launch date or production deployment of the privacy mechanism was verified.\n\nFor background only, Zelle's June 11 primary announcement had already named India as its first international destination, with initial availability expected before the end of 2026, and introduced ZelleUSD for future capabilities in other markets. That older announcement does not confirm the Solana selection or details of the new demonstration.\n\nThis does not confirm present service availability, recommend a token purchase, promise returns or claim a SOL price move caused by the reports.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "df8bb52b9dadd6518bd1ad5916ef16e6da2ef2e7ecbb59014ea24242d90a38c9"
+      }
+    }
   }
 ]
