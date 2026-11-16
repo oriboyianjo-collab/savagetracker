@@ -53061,5 +53061,38 @@
         "source_hash": "2813fef3b4280318b4fa69b10581d03141130ce49844288830fbbb815038d732"
       }
     }
+  },
+  {
+    "מזהה": "n-1954",
+    "category": "micro",
+    "חברה": "Texas Instruments (TXN)",
+    "חברה_en": "Texas Instruments (TXN)",
+    "symbols": [
+      "TXN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 20:34",
+    "הועלה": "2026-11-16 20:34",
+    "כותרת": "Texas Instruments (TXN): המנכ״ל Haviv Ilan ישתתף בכנס UBS ב-1 בדצמבר",
+    "כותרת_en": "Texas Instruments (TXN): CEO Haviv Ilan to speak at UBS conference on December 1",
+    "summary": "הוכרזה השתתפות עתידית בכנס הטכנולוגיה וה-AI, עם שידור אודיו חי.",
+    "summary_en": "A future Technology and AI Conference appearance is announced, with a live audio webcast.",
+    "קישור": "https://www.prnewswire.com/news-releases/ti-ceo-haviv-ilan-to-speak-at-ubs-investor-conference-302940811.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/ti-ceo-haviv-ilan-to-speak-at-ubs-investor-conference-302940811.html",
+        "label": "Texas Instruments announcement via PR Newswire",
+        "label_en": "Texas Instruments announcement via PR Newswire"
+      }
+    ],
+    "טקסט": "16.11.2026, 13:26 בשעון מזרח ארה״ב, 20:26 בישראל.\n\nTexas Instruments הודיעה כי היו״ר, הנשיא והמנכ״ל Haviv Ilan יופיע בכנס UBS Global Technology and AI Conference בסקוטסדייל, אריזונה, ביום שלישי, 1 בדצמבר 2026, בשעה 10:15 בשעון ההר, 19:15 בישראל.\n\nלפי ההודעה, Ilan ישיב לשאלות אנליסטים ומשקיעים וידון בצפי העסקי ובאסטרטגיה של החברה בשווקי השבבים האנלוגיים והעיבוד המשובץ. שידור אודיו חי יהיה זמין באזור קשרי המשקיעים באתר החברה, ולאחר הדברים יועלה שידור חוזר.\n\nזו הודעה על השתתפות עתידית בכנס. היא אינה תמליל של דברים שכבר נאמרו ואינה מוסרת תחזית כספית חדשה.",
+    "טקסט_en": "November 16, 2026 at 13:26 US Eastern time, 20:26 in Israel.\n\nTexas Instruments announced that Chairman, President and CEO Haviv Ilan will speak at the UBS Global Technology and AI Conference in Scottsdale, Arizona, on Tuesday, December 1, 2026 at 10:15 a.m. Mountain time, 19:15 in Israel.\n\nThe announcement says Ilan will take questions from analysts and investors and discuss TI's business outlook and strategy in analog and embedded-processing markets. A live audio webcast will be available through the investor-relations section of the company's website, with an archived replay after his remarks.\n\nThis announces a future conference appearance. It is not a transcript of remarks already delivered and provides no new financial guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "924362914401a517ec9c4644b87682afd8d58b33aa62374c94abf20918ae783a"
+      }
+    }
   }
 ]
