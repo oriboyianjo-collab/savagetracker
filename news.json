@@ -53256,5 +53256,36 @@
         "source_hash": "c25601ca56834e3da4f6d5dd948e61c3a3f2aedafafb44a100ff098ad3ffe2ca"
       }
     }
+  },
+  {
+    "מזהה": "n-1960",
+    "category": "macro",
+    "חברה": "",
+    "חברה_en": "",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 21:40",
+    "הועלה": "2026-11-16 21:40",
+    "כותרת": "לפי AFP, זלנסקי אומר שרוסיה מקבלת עשרות טילים בחודש מצפון קוריאה וקורא לאירופה לספק נשק נוסף",
+    "כותרת_en": "AFP: Zelensky says Russia receives dozens of missiles a month from North Korea, urges Europe to send more weapons",
+    "summary": "טענה המיוחסת לנשיא אוקראינה, לא אימות עצמאי של המשלוחים או הודעה על חבילת סיוע חדשה.",
+    "summary_en": "An attributed presidential claim, not independent verification of deliveries or a new aid package.",
+    "קישור": "https://www.koreatimes.co.kr/world/20261117/zelensky-says-russia-receiving-more-ballistic-missiles-from-n-korea",
+    "מקורות": [
+      {
+        "url": "https://www.koreatimes.co.kr/world/20261117/zelensky-says-russia-receiving-more-ballistic-missiles-from-n-korea",
+        "label": "The Korea Times / AFP: Zelensky missile remarks",
+        "label_en": "The Korea Times / AFP: Zelensky missile remarks"
+      }
+    ],
+    "טקסט": "**לא אומת מול מקור ראשוני. שעת הפרסום הראשונה של AFP אינה ידועה.**\n\nהעיתון הקוריאני (The Korea Times) פרסם את דיווח AFP ב-17.11.2026 בשעה 04:03 בקוריאה, 16.11.2026 בשעה 21:03 בישראל. זהו זמן הפרסום בעיתון, לא זמן מאומת לפרסום הראשון בסוכנות.\n\nלפי הדיווח, נשיא אוקראינה וולודימיר זלנסקי אמר ביום שני שרוסיה מקבלת מצפון קוריאה יותר טילים בליסטיים, בהיקף של עשרות טילים בחודש. הוא קרא לבעלות ברית באירופה לשלוח נשק נוסף כדי לאפשר לאוקראינה להגיב בתנאים שווים.\n\nזלנסקי אמר שלאירופה יש טילים שיכולים לבצע תקיפות אפקטיביות. זו קריאה לסיוע וטענה של הנשיא על אספקה לרוסיה, לא אישור עצמאי לכמות המשלוחים או לקצב גידולם.\n\nהדיווח אינו מציג התחייבות אירופית חדשה להעברת נשק, סכום סיוע, כמות טילים שהובטחה לאוקראינה או לוח זמנים למסירה. אין בו הסכם חדש או אימות מודיעיני נפרד של הטענה.",
+    "טקסט_en": "**Not verified against a primary source. AFP's first publication time is unknown.**\n\nThe Korea Times published the AFP report on November 17, 2026 at 04:03 Korea time, equivalent to November 16 at 21:03 Israel time. This is the newspaper's publication time, not a verified first-release time at the agency.\n\nAccording to the report, Ukrainian President Volodymyr Zelensky said Monday that Russia was receiving more ballistic missiles from North Korea, amounting to dozens of missiles a month. He urged European allies to send more weapons so Ukraine could respond on equal terms.\n\nZelensky said Europe had missiles capable of effective strikes. This is an appeal for support and the president's claim about supply to Russia, not independent confirmation of delivery volumes or their rate of growth.\n\nThe report discloses no new European commitment to supply weapons, aid amount, missile quantity promised to Ukraine or delivery timetable. It contains no new agreement or separate intelligence verification of the claim.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d81f897836edbaafd78978fba639a9445bab113425fb2d28a3c0c261911b1c34"
+      }
+    }
   }
 ]
