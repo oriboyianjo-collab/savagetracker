@@ -51027,5 +51027,98 @@
         "source_hash": "b1db4aee502a29e8ff3e562d7696d387da952221949661cecb46704138d3c197"
       }
     }
+  },
+  {
+    "מזהה": "n-1890",
+    "category": "micro",
+    "חברה": "Caterpillar (CAT)",
+    "חברה_en": "Caterpillar (CAT)",
+    "symbols": [
+      "CAT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:21",
+    "הועלה": "2026-11-16 16:21",
+    "כותרת": "Caterpillar תוסיף התרעה ומיתון התנגשות כציוד תקני ברוב מכונות הבנייה החדשות לאורך 2027",
+    "כותרת_en": "Caterpillar to make collision warning and mitigation standard on most new construction machines through 2027",
+    "קישור": "https://www.prnewswire.com/news-releases/caterpillar-makes-advanced-safety-technologies-standard-on-construction-equipment-302940477.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/caterpillar-makes-advanced-safety-technologies-standard-on-construction-equipment-302940477.html",
+        "label": "Caterpillar (CAT): הודעת החברה מ-16 בנובמבר",
+        "label_en": "Caterpillar (CAT): November 16 company release"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:15 בחוף המזרחי של ארה״ב, 16:15 בישראל.\n\nCaterpillar הודיעה שטכנולוגיות להתרעה על התנגשות ולמיתון התנגשות יהפכו לציוד תקני ברוב מכונות הבנייה החדשות שלה לאורך 2027. עד כה היכולות הוצעו כאפשרות בדגמים ובתצורות מסוימים.\n\nלפי החברה, בהתאם לתצורת המכונה המערכות מסוגלות לספק התרעות חזותיות וקוליות ובמצבים מסוימים לבצע פעולות להפחתת הסיכוי או חומרת ההתנגשות. בדגמים נתמכים מערכת המיתון יכולה לסייע במניעת תנועה או בבלימה אוטומטית. VisionLink יאפשר ללקוחות לבחון סרטונים ותובנות על אירועי כמעט-תאונה לצורכי החלטות בטיחות והדרכת מפעילים.\n\n**ההכרזה מתייחסת לרוב המכונות החדשות במהלך 2027, לא לכל צי המכונות הקיים ולא לזמינות מיידית בכל דגם.** אלה אמצעי סיוע למפעיל, לא התחייבות למניעת כל תאונה או הודעה על מכונות אוטונומיות. החברה לא מסרה בהודעה אומדן הכנסות, השפעה על המחיר או שינוי בתחזית כספית.",
+    "טקסט_en": "November 16, 2026 at 09:15 US Eastern time, 16:15 in Israel.\n\nCaterpillar announced that collision warning and collision mitigation technologies will become standard on the majority of its new construction machines throughout 2027. The capabilities were previously optional on selected models and configurations.\n\nDepending on machine configuration, the company says the systems can provide visual and audible warnings and, in certain situations, initiate actions to reduce collision likelihood or severity. On supported machines, mitigation can help inhibit movement or apply automatic braking. Customers will be able to review near-miss videos and fleet insights in VisionLink to inform safety decisions and operator coaching.\n\n**The announcement covers most new machines through 2027, not the entire installed fleet or immediate availability on every model.** These are operator-assist technologies, not a guarantee against all accidents or an autonomous-machine announcement. The release provides no revenue estimate, pricing impact or change to financial guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a60c60a076ea0afb32be75abb6626150024449da348f2559e4deb14bb4ad8470"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1891",
+    "category": "micro",
+    "חברה": "GoDaddy (GDDY)",
+    "חברה_en": "GoDaddy (GDDY)",
+    "symbols": [
+      "GDDY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:21",
+    "הועלה": "2026-11-16 16:21",
+    "כותרת": "GoDaddy הציגה Airo AI Builder לבניית אתרים ויישומי רשת בשיחה; זמינות ותשלומים משתנים לפי שוק",
+    "כותרת_en": "GoDaddy introduces Airo AI Builder for conversational website and web-app creation; commerce varies by market",
+    "קישור": "https://www.prnewswire.com/news-releases/new-godaddy-airo-ai-builder-lets-small-businesses-turn-ideas-into-websites-and-apps-302940437.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/new-godaddy-airo-ai-builder-lets-small-businesses-turn-ideas-into-websites-and-apps-302940437.html",
+        "label": "GoDaddy (GDDY): הודעת החברה מ-16 בנובמבר",
+        "label_en": "GoDaddy (GDDY): November 16 company release"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:12 בחוף המזרחי של ארה״ב, 16:12 בישראל.\n\nGoDaddy הציגה את Airo AI Builder, המאפשר לפי החברה לבנות ולשנות אתרים, יישומי רשת וחנויות באמצעות הנחיות טקסט או קול, ללא ניסיון בכתיבת קוד. החברה מציינת חיבורים ליותר מ-90 כלים, בהם Slack, Notion ו-HubSpot, סביבת תצוגה מקדימה, בסיס נתונים ואפשרות להוריד את הקוד.\n\nלפי הודעת החברה, המוצר זמין ביותר מ-150 מדינות עם תמיכה בריבוי שפות. ניתן להתחיל בחינם ותוכניות בתשלום מתחילות ב-9.99 דולר לחודש, עם מדרגות נוספות למכסות אתרים, קרדיטים וחיבורים. זהו מחיר פתיחה לפי ההודעה, לא בדיקת מחיר סופי מקומי הכולל מסים.\n\n**חנות מלאה ותשלומי GoDaddy אינם זמינים באותה מתכונת בכל העולם.** החברה אומרת שחוויית החנות המלאה, לרבות עגלה, תשלום, משלוח וכלי מס, נתמכת כעת בארה״ב ובקנדה. בשווקים נתמכים אחרים אפשר לחבר Stripe לתשלומים על שירותים או פיקדונות, בכפוף לזמינות המקומית.\n\nGoDaddy אומרת שסך Airo עבר ברבעון השלישי קצב הזמנות שנתי של 100 מיליון דולר. זהו נתון של Airo, לא הכנסות שנתיות מוכרות של Builder בלבד. ניתוח יותר מ-100 אלף פרויקטים בתקופת בטא של שישה שבועות מתאר מדגם שימוש של החברה, לא מספר מנויים משלמים או תחזית חדשה.",
+    "טקסט_en": "November 16, 2026 at 09:12 US Eastern time, 16:12 in Israel.\n\nGoDaddy introduced Airo AI Builder, which it says lets users build and update websites, web apps and stores through written or voice prompts without coding experience. It cites connectors to more than 90 tools, including Slack, Notion and HubSpot, plus preview environments, a database backend and downloadable code.\n\nThe company says the product is available in more than 150 countries with multilingual support. Users can start free, with paid plans starting at $9.99 monthly and higher tiers for additional site, credit and connector allowances. This is the release's advertised starting price, not a locally verified final price including taxes.\n\n**Full online-store functionality and GoDaddy Payments are not offered identically worldwide.** The company says its complete store experience, including cart, checkout, shipping and sales-tax tools, is currently supported in the US and Canada. In other supported markets, Stripe can be connected for service payments or deposits, subject to local availability.\n\nGoDaddy says Airo exceeded a $100 million annualized bookings run rate in the third quarter. That is an Airo metric, not recognized annual revenue from Builder alone. Its analysis of more than 100,000 projects during a six-week beta describes a company usage sample, not paying-subscriber numbers or new financial guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9698dbd4539af5e237ee78fb2950f6bad3c617421948ce7ad1eee150f0f22e22"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1892",
+    "category": "micro",
+    "חברה": "Oracle (ORCL)",
+    "חברה_en": "Oracle (ORCL)",
+    "symbols": [
+      "ORCL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:21",
+    "הועלה": "2026-11-16 16:21",
+    "כותרת": "Oracle: Shore תרחיב את מערכת הרשומה הרפואית; ההסכם נחתם בפברואר וההטמעה צפויה עד דצמבר 2027",
+    "כותרת_en": "Oracle says Shore will expand its EHR platform; agreement signed in February, implementation expected by December 2027",
+    "קישור": "https://www.prnewswire.com/news-releases/new-jersey-based-shore-medical-center-and-shore-physicians-group-select-oracle-healths-new-ai-powered-ehr-to-create-a-more-connected-experience-for-patients-and-care-teams-302940524.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/new-jersey-based-shore-medical-center-and-shore-physicians-group-select-oracle-healths-new-ai-powered-ehr-to-create-a-more-connected-experience-for-patients-and-care-teams-302940524.html",
+        "label": "Oracle (ORCL): הודעת החברה מ-16 בנובמבר",
+        "label_en": "Oracle (ORCL): November 16 company release"
+      }
+    ],
+    "טקסט": "16.11.2026, 09:12 בחוף המזרחי של ארה״ב, 16:12 בישראל.\n\nOracle הודיעה ש-Shore Medical Center ו-Shore Physicians Group בניו ג׳רזי ירחיבו את הקשר הקיים עם Oracle Health ויאמצו מערכת רשומה רפואית אלקטרונית מאוחדת עם יכולות AI. הפרויקט נועד לחבר את בית החולים, מרפאות הקהילה, שיקום חוץ, טיפול דחוף ותחומי מומחיות.\n\n**לפי ההודעה, ההסכם נחתם בפברואר 2026; זו אינה חתימה חדשה היום.** Shore מצפה להשלים את ההטמעה עד דצמבר 2027, ולכן אין להציג את הפרויקט ככבר הושלם או הופעל בכל הארגון.\n\nהתוכנית כוללת הרחבת שימוש בסוכני AI להכנת טיוטות תיעוד לבדיקת קלינאים, פקודות קוליות, פורטל מטופלים מאוחד ו-Oracle Health Patient Accounting. מטרות הפחתת עומס מנהלי, תיאום טיפול ושיפור חוויית המטופל הן ציפיות הצדדים, לא תוצאות קליניות מדודות שפורסמו בהודעה.\n\nShore הוא לקוח קיים של Oracle Health. ההודעה לא מוסרת שווי חוזה, סכום הזמנות או הכנסות צפויות, ולא מכריזה על שינוי בתחזית הכספית של Oracle.",
+    "טקסט_en": "November 16, 2026 at 09:12 US Eastern time, 16:12 in Israel.\n\nOracle said New Jersey's Shore Medical Center and Shore Physicians Group will expand their existing Oracle Health relationship and adopt a unified AI-powered electronic health record. The project is intended to connect the hospital, primary and specialty care, outpatient rehabilitation and urgent care.\n\n**The release says the agreement was signed in February 2026, not newly signed today.** Shore expects implementation to finish by December 2027, so the project is not being described as completed or live throughout the organization.\n\nPlans include broader use of AI agents that draft documentation for clinician review, voice commands, a unified patient portal and Oracle Health Patient Accounting. Reduced administrative burden, better coordination and improved patient experience are the parties' aims, not measured clinical outcomes reported in this release.\n\nShore is an existing Oracle Health customer. The announcement discloses no contract value, bookings amount or expected revenue and announces no change to Oracle's financial guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "43d317ae6f864c66fc1fa8d3f1a6ce6daf4a54d0c2eb153f16a52a8cbc8f1437"
+      }
+    }
   }
 ]
