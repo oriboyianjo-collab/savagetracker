@@ -47050,5 +47050,65 @@
         "source_hash": "7c0950f009b80010dc6110c61ec535d9fbf127856356e62f8212f3cffb22a737"
       }
     }
+  },
+  {
+    "מזהה": "n-1760",
+    "category": "micro",
+    "חברה": "DINO",
+    "symbols": [
+      "DINO"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:02",
+    "הועלה": "2026-11-16 11:02",
+    "כותרת": "פורסם באיחור | 28 באוקטובר | HF Sinclair (DINO): סטיב לדבטר ימונה למנכ״ל ולנשיא ב-1 בינואר 2027",
+    "כותרת_en": "Published late | October 28 | HF Sinclair (DINO): Steve Ledbetter to become CEO and president on January 1, 2027",
+    "קישור": "https://www.hfsinclair.com/investor-relations/press-releases/Press-Release-Details/2026/HF-Sinclair-Appoints-Steve-Ledbetter-as-Chief-Executive-Officer-and-President/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://www.hfsinclair.com/investor-relations/press-releases/Press-Release-Details/2026/HF-Sinclair-Appoints-Steve-Ledbetter-as-Chief-Executive-Officer-and-President/default.aspx",
+        "label": "HF Sinclair: הודעת החברה מ-28 באוקטובר על חילופי המנכ״ל",
+        "label_en": "HF Sinclair: October 28 company CEO succession announcement"
+      }
+    ],
+    "טקסט": "28.10.2026 | הודעת HF Sinclair; שעת הפרסום המקורית לא אומתה.\n\nHF Sinclair הודיעה שסטיב לדבטר, הנשיא ומנהל התפעול הראשי שלה, ימונה למנכ״ל ולנשיא החל מ-1 בינואר 2027. הוא יחליף את פרנקלין מאיירס, שימשיך כמנכ״ל עד המעבר. **זהו מינוי עתידי שהוכרז באוקטובר, לא חילופי מנכ״ל שבוצעו היום.**\n\nלאחר המעבר מאיירס יישאר נושא משרה ויו״ר ביצועי עד השלמת התוכנית להפרדת מגזר Lubricants & Specialties, ויסייע בנושאים אסטרטגיים הקשורים לה. תוכנית ההפרדה כבר הוכרזה קודם; ההודעה אינה מאשרת שהפיצול הושלם או קובעת כאן את תנאיו.\n\nהדירקטוריון מתכנן גם להרחיב את מספר חבריו ולמנות את לדבטר לדירקטור בהמשך. המינוי לדירקטוריון לא מתואר כמינוי שכבר בוצע. לדבטר מכהן כנשיא וכמנהל תפעול מאז יולי 2026 והצטרף לחברה במרץ 2023.\n\nזהו עדכון על הנהלת החברה ותכנון הירושה. ההודעה אינה כוללת תחזית כספית חדשה או כימות השפעה על הרווחים.",
+    "טקסט_en": "October 28, 2026 | HF Sinclair company announcement; original publication time was not verified.\n\nHF Sinclair announced that Steve Ledbetter, its president and chief operating officer, will become CEO and president effective January 1, 2027. He will succeed Franklin Myers, who will remain CEO through the transition. **This is a future appointment announced in October, not a CEO change completed today.**\n\nAfter the transition, Myers will remain an officer and executive chairperson until completion of the planned separation of the Lubricants & Specialties segment, advising on related strategic matters. The separation plan was previously announced; this release does not confirm a completed spin-off or establish its terms here.\n\nThe board also plans to expand and appoint Ledbetter as a director at a later date. That board appointment is not described as already completed. Ledbetter has been president and COO since July 2026 and joined the company in March 2023.\n\nThis is a leadership and succession update. The release contains no new financial outlook or quantified earnings impact.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "28ef2fe25e0e91aee1a4f97a4a83d7e5399486ed594d73761efd993c3a5b4035"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1761",
+    "category": "micro",
+    "חברה": "BAX",
+    "symbols": [
+      "BAX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:02",
+    "הועלה": "2026-11-16 11:02",
+    "כותרת": "פורסם באיחור | 29 בספטמבר | Baxter (BAX): מכתב אזהרה של FDA על הפרות ייצור משמעותיות במפעל Round Lake",
+    "כותרת_en": "Published late | September 29 | Baxter (BAX): FDA warning letter cites significant manufacturing violations at Round Lake",
+    "קישור": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/baxter-international-inc-733231-09292026",
+    "מקורות": [
+      {
+        "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/baxter-international-inc-733231-09292026",
+        "label": "FDA: מכתב אזהרה לבקסטר מ-29 בספטמבר 2026",
+        "label_en": "FDA: September 29, 2026 warning letter to Baxter"
+      }
+    ],
+    "טקסט": "29.9.2026 | תאריך מכתב האזהרה של FDA; מועד העלאתו לאתר הרשות לא אומת ממקור ראשוני. אין זה מכתב חדש מ-16 בנובמבר.\n\nFDA תיאר הפרות משמעותיות של כללי ייצור נאותים, CGMP, בייצור תרופות להזרקה במפעל Baxter Healthcare ב-Round Lake, אילינוי, לאחר ביקורת מ-23 במרץ עד 2 באפריל 2026. בין הממצאים: הפרדה לא מספקת וממצאי זיהום צולב הקשורים לאנטיביוטיקות מסוג צפלוספורינים; ליקויים באימות תהליכים אספטיים ובניטור סביבתי; בדיקה חזותית לא מספקת לחלקיקים; וחקירות לקויות של דליפות וכשלי סטריליות.\n\nהרשות מסרה שבחנה את תשובת החברה מ-23 באפריל לממצאי הביקורת וקיבלה גם התכתבויות נוספות, אך מצאה שמענים שתוארו במכתב אינם מספקים. **אין לפרש זאת כקביעה שהחברה לא השיבה מעולם או שלא נעשו פעולות תיקון מאז.** המצב העדכני של תיקון הליקויים או סגירת המכתב לא אומת כאן.\n\nFDA דרש תשובה כתובה בתוך 15 ימי עסקים מקבלת המכתב ותוכניות תיקון והערכות עצמאיות. המכתב מזהיר שאי-תיקון עלול להביא לתפיסה, צו מניעה או עיכוב אישורים ובקשות. אלה צעדים מותנים אפשריים, לא הודעה שהוטלו בפועל. אין במכתב כימות של פגיעה בהכנסות או של קנס.\n\nהמכתב מזכיר גם ריקול מוסכם לאחר פניית FDA ביולי 2026; אין לתאר אזכור היסטורי זה כריקול חדש שהוכרז עם פרסום המכתב. אין להסיק שהמפעל נסגר או שכל מוצרי החברה נאסרו לשיווק.",
+    "טקסט_en": "September 29, 2026 | Date of the FDA warning letter; its website posting date was not verified from a primary source. This is not a new November 16 letter.\n\nFDA described significant current good manufacturing practice, or CGMP, violations in injectable-drug manufacturing at Baxter Healthcare's Round Lake, Illinois facility, following a March 23-April 2, 2026 inspection. Findings included inadequate separation and cross-contamination involving cephalosporin antibiotics; deficient aseptic-process validation and environmental monitoring; inadequate visual inspection for particles; and weak investigations of leaking units and sterility failures.\n\nThe agency said it reviewed the company's April 23 response to inspection findings and received subsequent correspondence, but found responses described in the letter inadequate. **This does not establish that the company never responded or that no corrective work occurred later.** The current remediation or letter-closeout status has not been verified here.\n\nFDA required a written response within 15 business days of receipt, along with remediation plans and independent assessments. The letter warns that failure to correct violations could lead to seizure, injunction or withholding of approvals and applications. These are conditional possible actions, not an announcement that they were imposed. The letter does not quantify a revenue loss or fine.\n\nIt also discusses an agreed recall after FDA contact in July 2026; that historical reference is not a new recall announced with the letter's publication. It does not establish a plant closure or a marketing ban on all company products.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1b88be6dcfad7409b946763bdaab525df1582f860449cd2e00abe73a88068b0d"
+      }
+    }
   }
 ]
