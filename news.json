@@ -50691,5 +50691,95 @@
         "source_hash": "820964cca956520f1a9e5799ed6d5ffe924df500940e69f278d5736f653884bb"
       }
     }
+  },
+  {
+    "מזהה": "n-1879",
+    "category": "micro",
+    "חברה": "TSLA",
+    "symbols": [
+      "TSLA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:05",
+    "הועלה": "2026-11-16 16:05",
+    "כותרת": "לפי FAZ, Tesla מתכננת להשקיע כ-3 מיליארד אירו בהרחבת גרינהיידה; תחילת ייצור במבנה החדש מתוכננת ל-2029",
+    "כותרת_en": "FAZ: Tesla plans about EUR3 billion for Gruenheide expansion; new-building production targeted for 2029",
+    "קישור": "https://www.faz.net/aktuell/wirtschaft/unternehmen/tesla-investiert-drei-milliarden-euro-in-gigafactory-gruenheide-accg-201687612.html",
+    "מקורות": [
+      {
+        "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/tesla-investiert-drei-milliarden-euro-in-gigafactory-gruenheide-accg-201687612.html",
+        "label": "FAZ: השקעת Tesla ותנאי הרחבת המפעל",
+        "label_en": "FAZ: Tesla investment and factory expansion plans"
+      }
+    ],
+    "טקסט": "16.11.2026. FAZ מציג פרסום ב-14:45 בשעון המקומי; תגית הזמן בעמוד היא 13:45:03 UTC, שהם 15:45:03 בישראל.\n\n**לא מאומת מול מקור ראשוני.** לפי FAZ, Tesla מסרה שהיא מתכננת להשקיע בשלב ראשון כ-3 מיליארד אירו בהרחבת Gigafactory Berlin-Brandenburg בגרינהיידה. העיתון מצטט את מנהל המפעל André Thierig ומתאר מבנה ייצור חדש שבו אמורים בעתיד לייצר רכבי Cybercab, עם יעד קיבולת של עד מיליון כלי רכב.\n\nלפי הדיווח, בקשת ההיתר לבניינים החדשים תוגש עד סוף השנה. תחילת הבנייה מתוכננת למחצית הראשונה של 2027 והייצור במתקנים החדשים ל-2029. הכרה קודמת באפשרות העקרונית לאשר את ההרחבה אינה אישור סופי לכל המבנים החדשים. אלה לוח זמנים ויעדי קיבולת, לא תפוקה שכבר הושגה.\n\nהמספר הכולל של משרות חדשות לא נמסר. העיתון מביא גם את חששות Grüne Liga מפגיעה במי התהום עקב עבודות היסודות; Tesla אומרת שניתן להסתפק בכמויות המים המובטחות בחוזים באמצעות מיחזור מים. שלושה מיליארד האירו הם ההשקעה המתוכננת בשלב המתואר, לא הכנסות או רווח חזויים.",
+    "טקסט_en": "November 16, 2026. FAZ displays publication at 14:45 local time; the page's time tag is 13:45:03 UTC, equivalent to 15:45:03 in Israel.\n\n**Not verified against a primary source.** FAZ reports that Tesla said it plans an initial investment of about EUR3 billion to expand Gigafactory Berlin-Brandenburg in Gruenheide. The newspaper quotes plant manager Andre Thierig and describes a new production building intended for future Cybercab manufacturing, targeting capacity of up to one million vehicles.\n\nThe report says the permit application for the new buildings will be filed by year-end. Construction is planned for the first half of 2027 and production in the new facilities for 2029. Earlier approval in principle for the overall expansion does not equal final approval for every new building. These are planned dates and capacity targets, not achieved output.\n\nThe total number of new jobs was not disclosed. FAZ also quotes Gruene Liga's groundwater concerns about foundation works; Tesla says water recycling would keep the expansion within contracted supply volumes. The EUR3 billion is planned investment in the described step, not forecast sales or profit.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1b36c5660e48f8292b5f8b0fd64ee55926c97d9e44895e265b6712af9e66c6ba"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1880",
+    "category": "micro",
+    "חברה": "IESC",
+    "symbols": [
+      "IESC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:05",
+    "הועלה": "2026-11-16 16:05",
+    "כותרת": "פורסם באיחור | IES Holdings תפרסם דוחות לרבעון הרביעי ולשנת הכספים 2026 לפני פתיחת המסחר ב-20 בנובמבר",
+    "כותרת_en": "Published late | IES Holdings to release fiscal Q4 and full-year 2026 results before the November 20 market open",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3403399/0/en/ies-holdings-announces-fiscal-2026-fourth-quarter-and-year-end-results-earnings-release-schedule.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3403399/0/en/ies-holdings-announces-fiscal-2026-fourth-quarter-and-year-end-results-earnings-release-schedule.html",
+        "label": "IES Holdings דרך GlobeNewswire: מועד פרסום הדוחות",
+        "label_en": "IES Holdings via GlobeNewswire: earnings release schedule"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת החברה מ-16.11.2026 בשעה 07:30 שעון החוף המזרחי בארה״ב, 14:30 בישראל.\n\nIES Holdings הודיעה שתפרסם את תוצאות הרבעון הרביעי ושנת הכספים 2026 לפני פתיחת המסחר ביום שישי, 20 בנובמבר 2026. החברה לא מסרה בהודעה שעת פרסום מדויקת.\n\nIES מתכננת ומתקינה מערכות חשמל וטכנולוגיה, מספקת פתרונות תשתית ועוסקת בהנדסה, ייצור והקמה של מבני פלדה, בין היתר למרכזי נתונים, דיור ומתקנים מסחריים ותעשייתיים. זהו עדכון למועד פרסום דוחות בלבד; ההודעה אינה כוללת את תוצאות הרבעון או תחזית חדשה.",
+    "טקסט_en": "Published late | Company announcement dated November 16, 2026 at 07:30 Eastern, equivalent to 14:30 in Israel.\n\nIES Holdings said it will release fiscal 2026 fourth-quarter and full-year results before the market opens on Friday, November 20, 2026. The announcement does not specify an exact release time.\n\nIES designs and installs electrical and technology systems, supplies infrastructure solutions, and provides structural-steel engineering, fabrication and erection for markets including data centers, housing, and commercial and industrial facilities. This is an earnings-date announcement only; it does not contain the quarter's results or new guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a3a88a54a6bc747b5fc44bfb113934f7b1bb9568214a780266c46079089a3eb4"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1881",
+    "category": "micro",
+    "חברה": "ICE",
+    "symbols": [
+      "ICE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:05",
+    "הועלה": "2026-11-16 16:05",
+    "כותרת": "לפי TechFlow, ICE בוחנת הפיכה למאמתת ברשת Solana; אין הודעה על הפעלת מאמת",
+    "כותרת_en": "TechFlow: ICE is considering becoming a Solana validator; no validator launch announced",
+    "קישור": "https://www.techflowpost.com/en-US/newsletter/144935",
+    "מקורות": [
+      {
+        "url": "https://www.techflowpost.com/en-US/newsletter/144935",
+        "label": "TechFlow: דברים המיוחסים לנשיאת ICE Clear Europe",
+        "label_en": "TechFlow: remarks attributed to ICE Clear Europe president"
+      }
+    ],
+    "טקסט": "16.11.2026. מטא-נתוני TechFlow מציגים פרסום ב-13:20:55 UTC, שהם 15:20:55 בישראל; בגוף העמוד השעה מופיעה ללא אזור זמן.\n\n**לא מאומת מול מקור ראשוני.** TechFlow מייחסת ל-Hester Serafini, נשיאת ICE Clear Europe, דברים שלפיהם ICE בוחנת אם תוכל להפוך למאמתת ברשת Solana. הכתבה מפנה לסרטון בחשבון Solana. ייחוס הדברים ותיאורם כאן מבוססים על דיווח TechFlow.\n\nלפי אותה ידיעה, Serafini אמרה גם שמערכת המסחר האלטרנטיבית של NYSE מוכנה לקבל טוקנים שהונפקו על Solana וש-ICE Digital Trust כבר תומכת ברשת. הדיווח אינו מפרט אישור רגולטורי, מועד תחילת מסחר, עלות או הסכם מסחרי חדש.\n\nבחינת תפקיד של מאמתת אינה החלטה להפעיל מאמת, ואמירה על מוכנות טכנולוגית אינה אישור לכך שמסחר במניות מטובנות כבר החל. אין בדיווח הודעה ש-ICE רכשה מטבעות SOL או הקצתה לכך סכום.",
+    "טקסט_en": "November 16, 2026. TechFlow metadata shows publication at 13:20:55 UTC, equivalent to 15:20:55 in Israel; the article body displays its time without a timezone.\n\n**Not verified against a primary source.** TechFlow attributes remarks to Hester Serafini, president of ICE Clear Europe, saying ICE is considering whether it could become a Solana validator. The article links to a video on Solana's account. The attribution and account of the remarks here are based on TechFlow's report.\n\nThe same item says Serafini described the NYSE alternative trading system as ready to accept tokens minted on Solana and said ICE Digital Trust already supports the network. It does not specify regulatory approval, a trading-start date, a price or a new commercial agreement.\n\nConsidering a validator role is not a decision to operate one, and a statement of technical readiness does not establish that tokenized-equity trading has begun. The item does not announce ICE purchases of SOL or an allocation for them.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "028948c757a8c6fc1dbaf3df002cc81c617bd4e8af5d410442c9015d06ca6e0c"
+      }
+    }
   }
 ]
