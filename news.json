@@ -52770,5 +52770,41 @@
         "source_hash": "a72c6b087be8422f96d9a17d5dd7c1392a3cfd904810d5cde9515e2b9983528f"
       }
     }
+  },
+  {
+    "מזהה": "n-1945",
+    "category": "micro",
+    "חברה": "Teledyne Technologies (TDY)",
+    "חברה_en": "Teledyne Technologies (TDY)",
+    "symbols": [
+      "TDY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:26",
+    "הועלה": "2026-11-16 19:26",
+    "כותרת": "Teledyne Technologies (TDY): חטיבת LeCroy השיקה את Xena Z2244 לבדיקת קישוריות UALink בתשתיות AI",
+    "כותרת_en": "Teledyne Technologies (TDY): LeCroy launches Xena Z2244 for UALink testing in AI infrastructure",
+    "קישור": "https://www.prnewswire.com/news-releases/teledyne-lecroy-introduces-ultra-accelerator-link-validation-system-for-ai-and-hpc-scale-up-infrastructure-302940669.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/teledyne-lecroy-introduces-ultra-accelerator-link-validation-system-for-ai-and-hpc-scale-up-infrastructure-302940669.html",
+        "label": "Teledyne LeCroy via PR Newswire",
+        "label_en": "Teledyne LeCroy via PR Newswire"
+      },
+      {
+        "url": "https://www.teledynelecroy.com/protocolanalyzer/xena-z2244",
+        "label": "Teledyne LeCroy: Xena Z2244 product specifications",
+        "label_en": "Teledyne LeCroy: Xena Z2244 product specifications"
+      }
+    ],
+    "טקסט": "הודעת Teledyne LeCroy מ-16.11.2026, 12:15 בשעון מזרח ארה״ב, 19:15 בישראל.\n\nTeledyne LeCroy, יחידה עסקית של Teledyne Technologies, הציגה את Xena Z2244, מחולל תעבורה והזרקת שגיאות לבדיקת מימושי UALink בתשתיות AI ומחשוב עתיר ביצועים. זהו ציוד בדיקה לקישוריות בין מאיצים, לא מאיץ AI חדש או מערכת ייצור של לקוח.\n\nלפי ההודעה ודף המוצר, המערכת תומכת בממשקי SerDes של 224G ו-112G וביצירת תעבורה בקצב של עד 800 גיגה-ביט לשנייה לכל התקן. היא נועדה לבדיקות תאימות בין רכיבים, איתור צווארי בקבוק ובחינת תגובות לשגיאות לפני פריסה. אלה מפרטי ספק, לא בדיקת ביצועים עצמאית כאן.\n\nהחברה אומרת שהמוצר זמין לרכישה; יש לפנות אליה לפרטי תצורה וזמינות אזורית. הדגמה משותפת עם Cadence מתוכננת ל-SC26 בשיקגו ב-17–19 בנובמבר, ולכן אינה מוצגת כאירוע שכבר התקיים היום.\n\nלא נמסרו מחיר, היקף הזמנות, שמות לקוחות מאמצים או תרומה להכנסות. שיתוף הפעולה עם Cadence מתייחס לפיתוח המוצר ולהדגמה, ולא מעיד כשלעצמו על חוזה מכירה חדש.",
+    "טקסט_en": "Teledyne LeCroy announcement dated November 16, 2026 at 12:15 US Eastern time, 19:15 in Israel.\n\nTeledyne LeCroy, a business unit of Teledyne Technologies, introduced Xena Z2244, a traffic-generation and error-injection system for validating UALink implementations in AI and high-performance computing infrastructure. It is interconnect test equipment, not a new AI accelerator or a customer's production deployment.\n\nThe release and product page say it supports 224G and 112G SerDes interfaces and wire-speed traffic generation up to 800 gigabits per second per device. It is designed for interoperability testing, bottleneck detection and checking responses to faults before deployment. These are vendor specifications, not independent performance tests here.\n\nThe company says the product is available for purchase, with configuration details and regional availability obtained from the vendor. A joint demonstration with Cadence is planned for SC26 in Chicago on November 17-19, not described as an event already completed today.\n\nNo price, order value, adopting customers or revenue contribution was disclosed. The Cadence collaboration concerns product development and demonstration and does not, by itself, establish a new sales contract.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f5fc3ba6606ada9ea2b57d659528d83c2c0b3d3dba70936322f1dfc7351495cc"
+      }
+    }
   }
 ]
