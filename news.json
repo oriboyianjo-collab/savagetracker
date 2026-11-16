@@ -53389,5 +53389,38 @@
         "source_hash": "98347dd415e5b75311715fa1a86ed384344972147ee2082b04aada34c14c5efa"
       }
     }
+  },
+  {
+    "מזהה": "n-1964",
+    "category": "company",
+    "חברה": "Amazon (AMZN)",
+    "חברה_en": "Amazon (AMZN)",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 22:37",
+    "הועלה": "2026-11-16 22:37",
+    "כותרת": "Amazon (AMZN): אולפני MGM הכריזו שרוברט פטינסון יהיה ג׳יימס בונד הבא",
+    "כותרת_en": "Amazon (AMZN): MGM Studios names Robert Pattinson as the next James Bond",
+    "summary": "הכרזת ליהוק לסרט הבא בבימוי דני וילנב; לא נמסרו מועד הפקה, תאריך יציאה או תנאי חוזה.",
+    "summary_en": "Casting announcement for the next film directed by Denis Villeneuve; no production date, release date or contract terms disclosed.",
+    "קישור": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film",
+    "מקורות": [
+      {
+        "url": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film",
+        "label": "Amazon: Robert Pattinson cast as James Bond",
+        "label_en": "Amazon: Robert Pattinson cast as James Bond"
+      }
+    ],
+    "טקסט": "**פורסם באיחור.**\n\n16.11.2026 | הודעת Amazon הרשמית נושאת חותמת פרסום של 15:00:15 UTC, 17:00:15 בישראל. זו הכרזה מוקדמת יותר היום, לא הודעה חדשה בשעת ההעלאה לאפליקציה.\n\nאולפני Amazon MGM הודיעו כי רוברט פטינסון יגלם את ג׳יימס בונד בסרט הבא. דני וילנב יביים מתסריט של סטיבן נייט; איימי פסקל ודייוויד היימן יפיקו, וטניה לפואנט תהיה מפיקה בפועל.\n\nהודעת החברה כוללת התייחסויות של פטינסון, וילנב ומייק הופקינס, ראש Prime Video ואולפני Amazon MGM, ומאשרת את הליהוק. היא אינה מוסרת מועד לתחילת ההפקה, תאריך יציאה, תקציב או תחזית הכנסות.\n\nאורך חוזהו של פטינסון ותנאיו לא נמסרו בהודעת החברה. אין כאן אישור לחוזה לשלושה סרטים או לכך שהפקת הסרט כבר החלה.",
+    "טקסט_en": "**Published late.**\n\nNovember 16, 2026 | Amazon's official announcement carries a publication timestamp of 15:00:15 UTC, or 17:00:15 Israel time. This was announced earlier today, not newly announced at the app upload time.\n\nAmazon MGM Studios said Robert Pattinson will play James Bond in the next film. Denis Villeneuve will direct from a script by Steven Knight; Amy Pascal and David Heyman will produce, with Tanya Lapointe executive producing.\n\nThe company announcement includes statements from Pattinson, Villeneuve and Mike Hopkins, head of Prime Video and Amazon MGM Studios, confirming the casting. It discloses no production start date, release date, budget or revenue forecast.\n\nPattinson's contract length and terms were not disclosed in the company announcement. This does not confirm a three-film contract or that production of the film has begun.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4349302b7d76ce882dd9358494a928ce6e11506123fa5122cedf5793c2b8d0a0"
+      }
+    }
   }
 ]
