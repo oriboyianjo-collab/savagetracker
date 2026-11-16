@@ -47563,5 +47563,35 @@
         "source_hash": "de069d30a4ce44a3d8e25a6c1fc25fd7388ef4c999bb3a3ec244a51f271d285a"
       }
     }
+  },
+  {
+    "מזהה": "n-1776",
+    "category": "micro",
+    "חברה": "NVT",
+    "symbols": [
+      "NVT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 12:38",
+    "הועלה": "2026-11-16 12:38",
+    "כותרת": "פורסם באיחור | nVent Electric (NVT) השלימה את רכישת Maverick Power תמורת 1.75 מיליארד דולר, ועוד עד 550 מיליון דולר מותנים",
+    "כותרת_en": "Published late | nVent Electric (NVT) completed Maverick Power acquisition for $1.75 billion plus up to $550 million contingent",
+    "קישור": "https://investors.nvent.com/press-releases/press-release-details/2026/nVent-Completes-Acquisition-of-Maverick-Power/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.nvent.com/press-releases/press-release-details/2026/nVent-Completes-Acquisition-of-Maverick-Power/default.aspx",
+        "label": "nVent: הודעת השלמת הרכישה מ-1 באוקטובר 2026",
+        "label_en": "nVent: October 1, 2026 acquisition completion announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת החברה מ-1.10.2026, לא עסקה חדשה שהושלמה היום. שעת פרסום המקור בישראל לא אומתה.\n\nnVent הודיעה שהשלימה את רכישת Maverick Power, יצרנית פתרונות חלוקת חשמל ותשתית למרכזי נתונים, תמורת מחיר רכישה של 1.75 מיליארד דולר, בכפוף להתאמות המקובלות בעסקאות כאלה.\n\nהתנאים כוללים גם תמורה נוספת אפשרית של עד 550 מיליון דולר במזומן, התלויה בהשגת מדדי ביצוע מסוימים ב-2027 וב-2028. זו אינה תמורה מובטחת: ההודעה אינה אומרת ש-2.3 מיליארד דולר שולמו במלואם או שהמדדים כבר הושגו.\n\nההודעה מאשרת מעבר מכוונת רכישה להשלמת העסקה. לפי nVent, הרכישה מוסיפה לפורטפוליו שלה פלטפורמת חלוקת חשמל ומשלימה את פתרונותיה למרכזי נתונים. Maverick, שמרכזה במקיני שבטקסס, מעסיקה כ-900 עובדים בטקסס ובאריזונה. מדובר בתיאור יכולות החברה הנרכשת, לא בחוזה לקוח חדש או בתחזית להכנסות נוספות שכבר מומשה.",
+    "טקסט_en": "Published late | Company announcement dated October 1, 2026, not a new acquisition completed today. The source's original publication time in Israel was not verified.\n\nnVent announced that it completed the acquisition of Maverick Power, a manufacturer of engineered power distribution and infrastructure solutions for data centers, for a purchase price of $1.75 billion, subject to customary adjustments.\n\nThe terms also include potential additional cash consideration of up to $550 million, contingent on achieving certain performance metrics in 2027 and 2028. This is not guaranteed consideration: the announcement does not say that $2.3 billion was paid in full or that the metrics have already been achieved.\n\nThe announcement confirms completion rather than merely an intention to acquire. According to nVent, the acquisition adds a power distribution platform and complements its data-center offerings. McKinney, Texas-based Maverick has approximately 900 employees in Texas and Arizona. This describes the acquired company's capabilities, not a new customer contract or incremental revenue already realized.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dd847f5a309b7e390ce9d6e7bbc6f7573b9a8523ab416e8b4d84b800c72619d8"
+      }
+    }
   }
 ]
