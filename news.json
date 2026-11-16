@@ -53587,5 +53587,38 @@
         "source_hash": "173bcaa75bcdfd8dad443f3504ddedb0090f7078303d3e0d24a63b4a6ee6e969"
       }
     }
+  },
+  {
+    "מזהה": "n-1970",
+    "category": "company",
+    "חברה": "BlackLine (BL)",
+    "חברה_en": "BlackLine (BL)",
+    "symbols": [
+      "BL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 23:34",
+    "הועלה": "2026-11-16 23:34",
+    "כותרת": "BlackLine (BL): מוצריה ו-Verity AI זמינים כעת ב-Claude Marketplace של Anthropic",
+    "כותרת_en": "BlackLine (BL): products and Verity AI now available on Anthropic Claude Marketplace",
+    "summary": "לקוחות זכאים יוכלו להפנות חלק מההוצאה שכבר התחייבו לה מול Anthropic לרכישת מוצרי BlackLine.",
+    "summary_en": "Eligible customers can apply part of committed Anthropic spend to BlackLine products.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3404156/0/en/blackline-is-now-available-on-anthropic-s-claude-marketplace.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3404156/0/en/blackline-is-now-available-on-anthropic-s-claude-marketplace.html",
+        "label": "BlackLine / GlobeNewswire: Claude Marketplace availability",
+        "label_en": "BlackLine / GlobeNewswire: Claude Marketplace availability"
+      }
+    ],
+    "טקסט": "פורסם ב-16.11.2026 בשעה 16:30 בחוף המזרחי של ארה״ב, 23:30 בישראל.\n\nחברת BlackLine (BL) הודיעה שמוצריה ויכולות Verity AI זמינים כעת ב-Claude Marketplace של Anthropic. לפי ההודעה, לקוחות Anthropic זכאים יכולים להפנות חלק מההוצאה שכבר התחייבו לה מול Anthropic ישירות למוצרי BlackLine. לקוחות בעלי התחייבות הוצאה מתבקשים לפנות לצוות החשבון שלהם ב-Anthropic.\n\nלפי החברה, Verity AI משלבת את יכולות ההסקה של Claude עם נתונים והקשר חשבונאי של BlackLine כדי להפעיל סוכני AI עבור צוותי כספים. החברה מתארת בקרת מדיניות, מעקב אחר פעילות הסוכנים ופיקוח אנושי באמצעות Finance Control Console, לצד מסלול רכש דרך זירת המסחר. אלה תיאורי יכולות של החברה, לא בדיקת אבטחה או ביצועים עצמאית.\n\nהעדכון הוא על זמינות ומסלול רכישה למוצרים קיימים. הוא אינו מעיד כשלעצמו על לקוחות חדשים, הכנסה שכבר הוכרה או עסקה בלעדית בין החברות.",
+    "טקסט_en": "Published November 16, 2026 at 16:30 ET, or 23:30 Israel time.\n\nBlackLine (BL) announced that its products and Verity AI capabilities are now available on Anthropic's Claude Marketplace. According to the release, eligible Anthropic customers can apply a portion of their committed Anthropic spend directly to BlackLine products. Customers with a spend commitment are directed to their Anthropic account team.\n\nBlackLine says Verity AI combines Claude's reasoning with BlackLine financial data and accounting context to power AI agents for finance teams. It describes policy controls, agent-activity visibility and human oversight through its Finance Control Console, alongside a marketplace procurement path. These are company descriptions, not independent security or performance tests.\n\nThe update concerns availability and a purchasing route for existing products. It does not by itself establish new customers, recognized revenue or an exclusive deal between the companies.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1e2b801d041635e3b1ef74e9b38fb67c36ee157605453496b14ca5ad0317922c"
+      }
+    }
   }
 ]
