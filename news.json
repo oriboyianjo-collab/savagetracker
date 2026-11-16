@@ -50871,5 +50871,68 @@
         "source_hash": "9129c1f167d4085623d0b7c23152e2dc7bdae6bfc0e6eff1d96375946d26abb3"
       }
     }
+  },
+  {
+    "מזהה": "n-1885",
+    "category": "macro",
+    "חברה": "ארה״ב / סין / רוסיה",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:15",
+    "הועלה": "2026-11-16 16:15",
+    "כותרת": "אושקוב ל-Vedomosti: נוסח הודעה משותפת לפסגת טראמפ–שי–פוטין עדיין בדיונים; ייתכן שלא יוסכם",
+    "כותרת_en": "Ushakov tells Vedomosti a joint statement for Trump-Xi-Putin summit remains under negotiation and may not be agreed",
+    "קישור": "https://www.vedomosti.ru/politics/news/2026/11/16/1259578-ushakov-soobschil",
+    "מקורות": [
+      {
+        "url": "https://www.vedomosti.ru/politics/news/2026/11/16/1259578-ushakov-soobschil",
+        "label": "Vedomosti: דברי אושקוב על המשא ומתן לנוסח משותף",
+        "label_en": "Vedomosti: Ushakov on negotiations over a joint statement"
+      },
+      {
+        "url": "https://www.mfa.gov.cn/eng/xw/wsrc/202611/t20261116_12059663.html",
+        "label": "משרד החוץ הסיני: אישור מועד ומיקום המפגש המתוכנן",
+        "label_en": "Chinese Foreign Ministry: planned meeting date and city"
+      }
+    ],
+    "טקסט": "16.11.2026. תגית הזמן בעמוד Vedomosti מציגה 17:00 בשעון UTC+3, שהם 16:00 בישראל.\n\nיועץ נשיא רוסיה יורי אושקוב אמר ל-Vedomosti שסדר היום ונוסח ההודעה המשותפת האפשרית לאחר פגישת פוטין, שי וטראמפ עדיין נמצאים בעבודה דיפלומטית ובדיונים. לדבריו, רוסיה העבירה לסין את הצעותיה לנוסח והצדדים ממתינים לתשובת ארה״ב.\n\nאושקוב אמר שהוא מקווה שיושג נוסח מוסכם, אך אם לא תהיה הסכמה כל מנהיג עשוי למסור את הערכתו בנפרד. זו אינה הודעה שהושג הסכם משותף או שנוסח כבר אושר בידי שלוש המדינות.\n\n**התוספת לעדכוני הפסגה הקודמים היא מצב הדיונים על ההודעה, לא עצם קיום הפגישה המתוכננת.** משרד החוץ הסיני אישר בנפרד שהמפגש יתקיים ב-19 בנובמבר בשנזן. לא נמסרים כאן שעה או אתר מדויק לפגישה, ואין הסכם סחר, שינוי סנקציות או תוצאה מדינית שהוכרזו בדיווח הזה.",
+    "טקסט_en": "November 16, 2026. Vedomosti's page time tag shows 17:00 at UTC+3, equivalent to 16:00 in Israel.\n\nRussian presidential aide Yury Ushakov told Vedomosti that the agenda and the text of a possible joint statement following the Putin-Xi-Trump meeting remain under diplomatic discussion. He said Russia had sent its proposed wording to China and the parties were awaiting the US response.\n\nUshakov said he hoped a common text could be agreed, but otherwise each leader could give a separate assessment. This is not an announcement that a joint agreement has been reached or wording approved by all three countries.\n\n**The addition to previous summit updates is the status of statement negotiations, not a new announcement of the planned meeting itself.** China's Foreign Ministry separately confirmed the November 19 Shenzhen meeting. No exact time or venue is supplied here, and this report announces no trade agreement, sanctions change or diplomatic outcome.",
+    "חברה_en": "US / China / Russia",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "62c6f12d9a704bddefef1ae954661b514f8ca073669883e35aeaf5204bd3ee7c"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1886",
+    "category": "macro",
+    "חברה": "ארה״ב / FAA",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 16:15",
+    "הועלה": "2026-11-16 16:15",
+    "כותרת": "פורסם באיחור | דאפי: רשת תקשורת חדשה ל-FAA תלויה במימון נוסף; AT&T, Verizon ו-Lumen הוזכרו כערוכות לביצוע",
+    "כותרת_en": "Published late | Duffy says new FAA telecom network needs additional funding; names AT&T, Verizon and Lumen as ready",
+    "קישור": "https://www.transportation.gov/briefing-room/icymi-trumps-transportation-secretary-sean-p-duffy-provides-update-across-sunday",
+    "מקורות": [
+      {
+        "url": "https://www.transportation.gov/briefing-room/icymi-trumps-transportation-secretary-sean-p-duffy-provides-update-across-sunday",
+        "label": "משרד התחבורה האמריקאי: דברי דאפי מ-15 בנובמבר על מימון הרשת",
+        "label_en": "US DOT: Duffy November 15 remarks on network funding"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת משרד התחבורה האמריקאי מ-15.11.2026. שעת הפרסום המקורית לא נמסרה במקור. העדכון מובא כעת כהשלמה לדיווחים על השבתת ההמראות והחקירה, לא כאירוע השבתה חדש.\n\nשר התחבורה שון דאפי אמר בריאיונות יום ראשון כי ל-FAA דרושים מימון נוסף וארכיטקטורת תקשורת חדשה. לפי התמלול הרשמי, הוא ציין את AT&T, Verizon ו-Lumen כחברות הערוכות לעבודה, ואמר שאם המימון יינתן ניתן יהיה להתחיל בבנייה, עם יעד מוכנות בסוף 2028 או בתחילת 2029.\n\n**זו תוכנית מותנית במימון והערכה של השר, לא הודעה על הענקת חוזה חדש לאחת החברות.** לא פורסמו בדברים האלה חלוקת עבודה, סכום חוזה לכל ספק, התחייבות הכנסה או מועד השלמה מובטח.\n\nדאפי הבחין בין התוכנית הזו לבין 12.5 מיליארד דולר שכבר הוקצו למודרניזציה: לדבריו, הכסף הקיים מיועד בין היתר למכ״מים, מכשירי קשר וציוד נוסף, ולא מממן רשת תקשורת חדשה ותוכנה חדשה להפרדת מטוסים. הסכום הזה אינו תקציב חדש שהוענק היום לספקיות התקשורת.\n\nמשרד התחבורה אומר שחקירת נתבים ועבודות ההתקנה נמשכת ושבשלב זה אין אינדיקציה למתקפת סייבר. אלה עמדת המשרד ודברי השר, לא ממצא סופי שמכריע אחריות או מבטיח שלא יהיו שיבושים נוספים.",
+    "טקסט_en": "Published late | US Transportation Department statement dated November 15, 2026. The source does not give an original publication time. This adds to prior coverage of the ground stop and investigation, rather than announcing another shutdown.\n\nTransportation Secretary Sean Duffy said in Sunday interviews that the FAA needs additional funding and a new telecom architecture. In the official excerpts he named AT&T, Verizon and Lumen as ready to work and said construction could begin if funding were provided, targeting readiness by late 2028 or early 2029.\n\n**This is a funding-dependent plan and the secretary's estimate, not the award of a new contract to any of those companies.** The remarks disclose no allocation of work, supplier-specific contract value, committed revenue or guaranteed completion date.\n\nDuffy distinguished that plan from the $12.5 billion already allocated to modernization. He said the existing funding is designated for radar, radios and other equipment, rather than a new telecom network and new software to separate aircraft. That amount is not a new telecom-carrier budget awarded today.\n\nThe department says investigation of routers and installation work continues and that there is currently no indication of a cyberattack. These are the department's position and the secretary's remarks, not final findings determining liability or a guarantee against further disruption.",
+    "חברה_en": "US / FAA",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a57622c2f52e542ab095c4525dd465bc53146c1d83fb1da8b1e27ec6c85d38d0"
+      }
+    }
   }
 ]
