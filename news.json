@@ -46391,5 +46391,118 @@
         "source_hash": "7d1fb31ee082e0f884924b1c0bbb8f55674d4f9bf4aead7f1ad1cff5a1c32a61"
       }
     }
+  },
+  {
+    "מזהה": "n-1740",
+    "category": "micro",
+    "תאריך": "2026-11-16 09:57",
+    "הועלה": "2026-11-16 09:57",
+    "כותרת": "NVIDIA (NVDA), Amazon (AMZN) ו-Microsoft (MSFT): לפי Reuters בשם WSJ, הממשל מתכנן לבחור יותר מ-24 חברות כאלופות AI לאומיות",
+    "כותרת_en": "NVIDIA (NVDA), Amazon (AMZN) and Microsoft (MSFT): Reuters citing WSJ says US plans to name more than 24 AI national champions",
+    "טקסט": "**לא מאומת מול מקור ראשוני.** בדיווח Reuters הנושא תאריך 15 בנובמבר 2026 ופורסם ב-Investing.com, נמסר בשם Wall Street Journal ואנשים המעורים בתוכניות כי הממשל האמריקאי מתכנן להגדיר יותר משני תריסרים של חברות בינה מלאכותית כ\"אלופות לאומיות\". בין השמות שהוזכרו: NVIDIA, Amazon, Microsoft, OpenAI ו-Anthropic.\n\nלפי הדיווח, מטרת התוכנית היא לסייע לחברות להתרחב מחוץ לארה\"ב ולהתחרות בחברות סיניות. **זו תוכנית מדווחת, לא הודעה רשמית על בחירה שהושלמה או על תמיכה שכבר הוענקה. Reuters ציינה שלא הצליחה לאמת מיד את הדיווח.**\n\nדיווח Reuters אינו מפרט רשימה מלאה, קריטריונים לבחירה, תנאי מימון או מועד כניסה לתוקף. אין כאן אישור להלוואה, לחוזה או להכנסה נוספת אצל חברה מסוימת.\n\n**עמוד הסינדיקציה מציג 15 בנובמבר, 23:17, ועדכון 23:18 ללא אזור זמן מזוהה; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "**Not verified against a primary source.** A Reuters report datelined November 15, 2026, carried by Investing.com, cites the Wall Street Journal and people familiar with the plans as saying the US administration plans to designate more than two dozen artificial intelligence companies as \"national champions.\" Named firms include NVIDIA, Amazon, Microsoft, OpenAI and Anthropic.\n\nThe reported aim is to help the companies expand overseas and compete with Chinese rivals. **This is a reported plan, not an official announcement that selection is complete or support has already been awarded. Reuters said it could not immediately verify the report.**\n\nThe Reuters report does not give the full roster, selection criteria, financing terms or an effective date. It does not establish a loan, contract or additional revenue for any particular company.\n\n**The syndication page shows November 15 at 23:17, updated at 23:18, without an identified timezone; the original publication time in Israel was not verified.**",
+    "קישור": "https://www.investing.com/news/stock-market-news/trump-administration-to-name-nvidia-other-ai-firms-as-us-national-champions-wsj-reports-5028349",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/stock-market-news/trump-administration-to-name-nvidia-other-ai-firms-as-us-national-champions-wsj-reports-5028349",
+        "label": "Reuters דרך Investing.com: תוכנית מדווחת; Reuters לא אימתה אותה",
+        "label_en": "Reuters via Investing.com: reported plan, not independently verified by Reuters"
+      }
+    ],
+    "חברה": "NVIDIA / Amazon / Microsoft",
+    "חברה_en": "NVIDIA / Amazon / Microsoft",
+    "symbols": [
+      "NVDA",
+      "AMZN",
+      "MSFT"
+    ],
+    "sectors": [
+      "information-technology",
+      "consumer-discretionary"
+    ],
+    "tags_version": 1,
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "44204830d9e2b61f2aedc71b32e1d99eaafbe738e9e4f606c5e1fa814ae99ff7"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1741",
+    "category": "macro",
+    "תאריך": "2026-11-16 09:57",
+    "הועלה": "2026-11-16 09:57",
+    "כותרת": "פורסם באיחור | 14 בנובמבר | סבא\"א: אי-יציבות ברשת החשמל הביאה להפחתות הספק בחלק מהיחידות הגרעיניות באוקראינה",
+    "כותרת_en": "Published late | November 14 | IAEA says grid instability reduced output at some Ukrainian nuclear units",
+    "טקסט": "בהודעה מ-14 בנובמבר 2026, סבא\"א מסרה שפעילות צבאית ואי-יציבות ברשת החשמל באוקראינה הביאו השבוע למספר הפחתות הספק בחלק מהיחידות הפעילות בתחנות הגרעיניות. צוות הסוכנות בצ'ורנוביל דיווח שתנודות ברשת הפעילו אוטומטית גנרטורי דיזל לשעת חירום במספר מתקנים באזור.\n\nהסוכנות סקרה גם את אובדן החשמל החיצוני בזפוריז'יה ב-8 בנובמבר, שנמשך יותר מ-12 שעות. **זהו אירוע קודם, לא ניתוק חדש שהתרחש ב-14 בנובמבר.** לפי הסוכנות, שנאי גיבוי שתוקן במסגרת הפסקת אש מקומית נהרס שוב בפעילות צבאית.\n\nרפאל גרוסי הזהיר מהשפעת הפגיעה ברשת על הבטיחות הגרעינית עם התקרבות החורף וקרא להפסיק פעילות צבאית נגד תשתיות חשמל הקשורות לבטיחות. ההודעה אינה מכמתת את הפחתת ייצור החשמל הארצית ואינה מדווחת על התכה גרעינית או על פליטת קרינה.\n\n**המקור מציין 14 בנובמבר ללא שעת פרסום מדויקת; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In a November 14, 2026 statement, the IAEA said military activity and instability in Ukraine's electrical grid had caused several power reductions at some operating nuclear plant units during the week. Its team at Chornobyl reported that grid fluctuations automatically activated emergency diesel generators at several facilities in the exclusion zone.\n\nThe agency also reviewed the loss of external power at Zaporizhzhya on November 8, which lasted more than 12 hours. **That was an earlier event, not a new disconnection on November 14.** The agency said a backup transformer repaired under a local ceasefire had again been destroyed by military activity.\n\nRafael Grossi warned about the grid damage's impact on nuclear safety as winter approaches and called for a halt to military activity against electrical infrastructure related to nuclear safety. The statement does not quantify a nationwide electricity-production loss or report a nuclear meltdown or radiation release.\n\n**The source gives November 14 without an exact publication time; the original publication time in Israel was not verified.**",
+    "קישור": "https://www.iaea.org/newscenter/pressreleases/update-375-iaea-director-general-statement-on-situation-in-ukraine",
+    "מקורות": [
+      {
+        "url": "https://www.iaea.org/newscenter/pressreleases/update-375-iaea-director-general-statement-on-situation-in-ukraine",
+        "label": "סבא\"א: עדכון 375, 14 בנובמבר",
+        "label_en": "IAEA: Update 375, November 14"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e96e3de1faab090e05d7d1b60d1222d276225bc2bf7e4e8a8820c5197c689b74"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1742",
+    "category": "macro",
+    "תאריך": "2026-11-16 09:57",
+    "הועלה": "2026-11-16 09:57",
+    "כותרת": "פורסם באיחור | 14 בנובמבר | Naftogaz דיווחה על שריפה במתקן במחוז פולטבה לאחר תקיפת רחפנים",
+    "כותרת_en": "Published late | November 14 | Naftogaz reports fire at Poltava facility after drone attack",
+    "טקסט": "בהודעה מ-14 בנובמבר 2026, Naftogaz מסרה שכוחות רוסיים תקפו ברחפנים מתקן של הקבוצה במחוז פולטבה בשעות אחר הצהריים וגרמו לשריפה גדולה. לפי החברה, לא נפגעו עובדים.\n\nצוותים מקצועיים פעלו במקום. החברה מסרה שהיקף הנזק וההפסדים יוערך כאשר המצב הביטחוני יאפשר זאת. **ההודעה אינה מכמתת אובדן תפוקה או פגיעה באספקת גז, ואינה מאשרת השבתה מלאה או מועד חזרה לפעילות.** אין להסיק מהשריפה לבדה שינוי במחירי האנרגיה.\n\nזהו מתקן במחוז פולטבה ואירוע שדווח ב-14 בנובמבר, לא התקיפה במחוז דניפרופטרובסק שעליה דיווחה החברה ב-11 בנובמבר. תיאור התקיפה והאש מיוחס לחברה; לא נקבע כאן אומדן נזק עצמאי.\n\n**המקור מציג 14 בנובמבר בשעה 16:09 ללא אזור זמן מזוהה; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In a November 14, 2026 statement, Naftogaz said Russian forces used drones to attack a group facility in Poltava Region that afternoon, causing a major fire. The company said no employees were injured.\n\nSpecialist teams were on site. The company said the extent of damage and losses would be assessed when security conditions allowed. **The statement does not quantify lost output or gas-supply disruption, or confirm a full shutdown or a restart date.** The fire alone does not establish a change in energy prices.\n\nThis concerns a Poltava Region facility and an event reported on November 14, not the Dnipropetrovsk Region attack the company reported on November 11. The attack and fire account is attributed to the company; no independent damage estimate is established here.\n\n**The source shows November 14 at 16:09 without an identified timezone; the original publication time in Israel was not verified.**",
+    "קישור": "https://www.naftogaz.com/en/news/russia-attacks-naftogaz-facility-in-poltava-region",
+    "מקורות": [
+      {
+        "url": "https://www.naftogaz.com/en/news/russia-attacks-naftogaz-facility-in-poltava-region",
+        "label": "Naftogaz: הודעת פולטבה המקורית, 14 בנובמבר",
+        "label_en": "Naftogaz: original November 14 Poltava statement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b05c4ca173aad29b4a585eedc066d760b00f9a779cea864f4a18cc494c7d325d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1743",
+    "category": "macro",
+    "תאריך": "2026-11-16 09:57",
+    "הועלה": "2026-11-16 09:57",
+    "כותרת": "פורסם באיחור | נאום 13 בנובמבר בארה\"ב | ג'פרסון: מסלול האינפלציה הוא האות החשוב יותר לקביעת המדיניות",
+    "כותרת_en": "Published late | November 13 US speech | Jefferson says inflation trajectory is the more important policy signal",
+    "טקסט": "בנאום מ-13 בנובמבר 2026 ב-UC San Diego, סגן יו\"ר הפד פיליפ ג'פרסון אמר שהפעילות הכלכלית ושוק העבודה נותרו יציבים, בעוד לחצי המחירים נמשכים. לדבריו, מסלול האינפלציה מספק את האות החשוב יותר לקביעת מדיניות הריבית. **הוא לא התחייב להעלאה מסוימת, לגודלה או למועדה.** התאמות נוספות תלויות במגמות הנתונים, בתחזית ובמאזן הסיכונים.\n\nג'פרסון אמר שאימוץ AI עשוי להגדיל את כושר הייצור באופן ניכר אך הדרגתי, בעוד הציפיות לשיפור העתידי כבר מגבירות ביקוש, השקעות ולחצי מחירים. לדבריו, עדיין מוקדם לבודד את תרומת AI לעלייה בפריון המצטבר; העיתוי והעוצמה של הרווחים העתידיים אינם ודאיים.\n\nזהו תוכן נאום שכבר פורסם, לא החלטת ריבית של הוועדה. לוח הפד מציג מועד נאום של 19:00 בחוף המזרחי בארה\"ב ב-13 בנובמבר, כלומר 02:00 בשבת 14 בנובמבר בישראל. **זהו מועד האירוע בלוח, לא שעת פרסום מאומתת של טקסט הנאום; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In a November 13, 2026 speech at UC San Diego, Fed Vice Chair Philip Jefferson said economic activity and labor-market conditions remained broadly solid while price pressures persisted. He said the inflation trajectory was the more important signal for determining monetary policy. **He did not commit to a particular hike, size or date.** Further adjustments depend on data trends, the outlook and the balance of risks.\n\nJefferson said AI adoption could lift productive capacity substantially but gradually, while expectations of future gains were already increasing demand, investment and price pressures. He said it remained too early to isolate AI's contribution to aggregate productivity growth; the magnitude and timing of future gains were uncertain.\n\nThis is the content of a published speech, not a committee rate decision. The Fed calendar lists the speech for 19:00 US Eastern Time on November 13, equivalent to 02:00 on Saturday, November 14 in Israel. **That is the scheduled event time, not a verified publication time for the speech text; the original publication time in Israel was not verified.**",
+    "קישור": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+    "מקורות": [
+      {
+        "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+        "label": "הפד: טקסט נאום ג'פרסון המקורי, 13 בנובמבר",
+        "label_en": "Fed: original Jefferson speech text, November 13"
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+        "label": "הפד: לוח נובמבר, מועד האירוע המתוכנן",
+        "label_en": "Fed: November calendar, scheduled event time"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0cc050d6094da0103fe682f791b9fc014fb61d77f7da24bd68f71d72e621346e"
+      }
+    }
   }
 ]
