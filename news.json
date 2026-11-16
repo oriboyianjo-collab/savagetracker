@@ -47110,5 +47110,35 @@
         "source_hash": "1b88be6dcfad7409b946763bdaab525df1582f860449cd2e00abe73a88068b0d"
       }
     }
+  },
+  {
+    "מזהה": "n-1762",
+    "category": "micro",
+    "חברה": "CYTK",
+    "symbols": [
+      "CYTK"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 11:05",
+    "הועלה": "2026-11-16 11:05",
+    "כותרת": "Cytokinetics (CYTK): FDA אישר הוספת נתוני MAPLE-HCM לעלון MYQORZO, בהשוואה ישירה למטופרולול",
+    "כותרת_en": "Cytokinetics (CYTK): FDA approves adding head-to-head MAPLE-HCM data versus metoprolol to MYQORZO label",
+    "קישור": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Announces-Prescribing-Information-for-MYQORZO-aficamten-Expanded-to-Include-Data-from-Phase-3-MAPLE-HCM/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Announces-Prescribing-Information-for-MYQORZO-aficamten-Expanded-to-Include-Data-from-Phase-3-MAPLE-HCM/default.aspx",
+        "label": "Cytokinetics: הודעת החברה המלאה מ-16 בנובמבר",
+        "label_en": "Cytokinetics: full November 16 company announcement"
+      }
+    ],
+    "טקסט": "16.11.2026 | הודעת Cytokinetics; שעת הפרסום המקורית לא אומתה בעמוד החברה.\n\nCytokinetics הודיעה כי FDA אישר בקשה משלימה, sNDA, לעדכון העלון האמריקאי של MYQORZO (aficamten) ולהוספת נתוני ניסוי MAPLE-HCM בשלב 3. הניסוי השווה את התרופה לחוסם הבטא מטופרולול, כל אחד כטיפול יחיד, במבוגרים עם קרדיומיופתיה היפרטרופית חסימתית תסמינית, oHCM.\n\n**זהו אישור לעדכון עלון של תרופה שכבר אושרה, לא אישור תרופה ראשוני או התוויה חדשה.** לפי החברה, MYQORZO אושרה בארה״ב בדצמבר 2025 לשיפור היכולת התפקודית והתסמינים במבוגרים עם oHCM תסמינית.\n\nלפי הודעת החברה, MAPLE-HCM עמד ביעד הראשי של שינוי בצריכת חמצן מרבית, pVO2, מהבסיס עד שבוע 24, עם יתרון לעומת מטופרולול; גם חמישה מתוך שישה יעדים משניים השתפרו באופן מובהק. אלה נתוני הניסוי שנוספו לעלון, ולא תוצאות ניסוי חדש שפורסמו כאן לראשונה. החברה מתארת אותו כמעכב המיוזין הלבבי היחיד שעלונו האמריקאי כולל השוואת יעילות לחוסם בטא.\n\nאזהרת המסגרת בעלון נשארת מהותית: התרופה עלולה להפחית את מקטע הפליטה ולגרום לאי-ספיקת לב עקב פגיעה בתפקוד הסיסטולי. נדרשות בדיקות אקו לפני הטיפול ובמהלכו, והתרופה זמינה בארה״ב רק במסגרת תוכנית REMS מוגבלת. אין להסיק מהשוואת היעילות שהתרופה מתאימה לכל חולה או נעדרת סיכון.\n\nבנפרד, החברה עדיין מתכננת להגיש ברבעון הרביעי של 2026 בקשה משלימה לטיפול במחלה הלא-חסימתית, nHCM. זו תוכנית הגשה עתידית, לא התוויה שאושרה בעדכון הנוכחי. ההודעה אינה כוללת שינוי תחזית מכירות או השפעה כספית מכומתת.",
+    "טקסט_en": "November 16, 2026 | Cytokinetics company announcement; the original release time was not verified on the company page.\n\nCytokinetics said FDA approved a supplemental New Drug Application, or sNDA, updating the U.S. MYQORZO (aficamten) label to include Phase 3 MAPLE-HCM data. The trial compared the medicine with the beta-blocker metoprolol, each as monotherapy, in adults with symptomatic obstructive hypertrophic cardiomyopathy, or oHCM.\n\n**This approves a label update for an already approved medicine, not an initial drug approval or a new indication.** The company says MYQORZO was approved in the U.S. in December 2025 to improve functional capacity and symptoms in adults with symptomatic oHCM.\n\nAccording to the announcement, MAPLE-HCM met its primary endpoint of change in peak oxygen uptake, pVO2, from baseline to Week 24, favoring MYQORZO over metoprolol; five of six secondary endpoints also improved significantly. These are trial results being added to the label, not a newly reported trial here. The company describes MYQORZO as the only cardiac myosin inhibitor with a U.S. label comparing effectiveness against a beta-blocker.\n\nThe boxed warning remains important: the medicine can reduce left ventricular ejection fraction and cause heart failure due to systolic dysfunction. Echocardiograms are required before and during treatment, and U.S. access is restricted through a REMS program. The efficacy comparison does not establish suitability for every patient or absence of risk.\n\nSeparately, the company still plans to submit an sNDA for non-obstructive HCM, or nHCM, in Q4 2026. That is a future filing plan, not an indication approved in this update. The release provides no revised sales outlook or quantified financial impact.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1b745bcdeb5796275c79a1c86c2ea8e2f0efd6b0a50f4d4b2bbbf2ddadcc1b74"
+      }
+    }
   }
 ]
