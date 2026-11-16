@@ -49590,5 +49590,35 @@
         "source_hash": "e0279fb8d671cd60a207f1e5e50148e9d0fde125ce0b60c24c78662079511169"
       }
     }
+  },
+  {
+    "מזהה": "n-1843",
+    "category": "micro",
+    "חברה": "CMG",
+    "symbols": [
+      "CMG"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:14",
+    "הועלה": "2026-11-16 15:14",
+    "כותרת": "Chipotle הכריזה על קפוצ'ון \"Sneak It In\" ב-53 דולר; המכירה המוגבלת בארה\"ב ובקנדה תחל ב-18 בנובמבר",
+    "כותרת_en": "Chipotle announces $53 Sneak It In hoodie; limited US and Canada sale starts November 18",
+    "קישור": "https://www.prnewswire.com/news-releases/chipotle-debuts-the-sneak-it-in-hoodie-designed-to-discreetly-bring-burritos-to-the-movies-302936051.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/chipotle-debuts-the-sneak-it-in-hoodie-designed-to-discreetly-bring-burritos-to-the-movies-302936051.html",
+        "label": "Chipotle דרך PR Newswire: הכרזת הקפוצ'ון ותנאי המכירה",
+        "label_en": "Chipotle via PR Newswire: hoodie announcement and sale terms"
+      }
+    ],
+    "טקסט": "16.11.2026, 07:53 ET, שהם 14:53 בישראל לפי חישוב America/New_York ל-Asia/Jerusalem. Chipotle הכריזה על פריט לבוש ממותג במהדורה מוגבלת בשם \"Sneak It In\", הכולל כיס פנימי מבודד למנה וכיס נפרד למפיות. אלה מאפייני המוצר לפי הודעת החברה, לא מבחן עצמאי לשמירת חום.\n\nלפי ההודעה, המכירה תחל ב-18 בנובמבר בשעה 09:00 לפי שעון האוקיינוס השקט (America/Los_Angeles), שהם 19:00 בישראל באותו יום. המחיר המוצהר הוא 53 דולר ארה\"ב, עם משלוח חינם, במכירה בלעדית באתר ChipotleGoods.com בארה\"ב ובקנדה וכל עוד המלאי זמין. אין בהכרזה אישור למלאי זמין כבר היום או למשלוח לישראל.\n\nהמוצר מתוכנן בגזרת יוניסקס רחבה ובשלושה צבעים: שחור, חום ואפור. כל קפוצ'ון יכלול לפי החברה כרטיס למנה ללא תשלום נוסף, שתוקפו עד 31 בדצמבר 2027 ובכפוף לתנאים שעל הכרטיס. ההודעה אינה מציגה התחייבות לכמות יחידות שתימכר או תחזית הכנסות.\n\nבנפרד, חברי Chipotle Rewards בארה\"ב יכולים להשתתף בהגרלת קפוצ'ון בין 16 ל-22 בנובמבר באמצעות המרת 10 נקודות לכניסה, עד 20 כניסות. התנאים המלאים כוללים גם דרך כניסה חינמית; זו הגרלה, לא הבטחה לקבלת פריט תמורת נקודות.\n\nהמיתוג מתייחס להכנסת אוכל לקולנוע. זו אינה הרשאה של בתי קולנוע להכניס אוכל מבחוץ ואינה משנה את מדיניות המקום.",
+    "טקסט_en": "November 16, 2026 at 07:53 ET, equivalent to 14:53 in Israel by America/New_York to Asia/Jerusalem timezone calculation. Chipotle announced a limited-edition branded Sneak It In hoodie with a hidden insulated entrée pocket and a separate napkin pocket. Those are company-described features, not independently tested heat-retention performance.\n\nThe announcement says sales start November 18 at 09:00 Pacific time (America/Los_Angeles), equivalent to 19:00 in Israel that day. The stated price is US$53 with free shipping, exclusively through ChipotleGoods.com in the United States and Canada while supplies last. This does not confirm stock is available today or shipping to Israel.\n\nThe hoodie is designed with an oversized unisex fit in black, brown and gray. Each comes with a free entrée card expiring December 31, 2027, subject to its printed terms. No committed unit volume or revenue forecast was disclosed.\n\nSeparately, US Chipotle Rewards members can enter a hoodie sweepstakes from November 16 through November 22 by exchanging 10 points per entry, up to 20 entries. The full terms also provide a free entry method. This is a sweepstakes, not a guaranteed item in exchange for points.\n\nThe branding refers to bringing food into a cinema. It is not permission from cinemas to bring outside food or a change to venue rules.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5d2231762189abd6e0668fd970b7f6744a335e4f388a28a92bcf3cdc63f4bdda"
+      }
+    }
   }
 ]
