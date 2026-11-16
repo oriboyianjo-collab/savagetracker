@@ -53287,5 +53287,38 @@
         "source_hash": "d81f897836edbaafd78978fba639a9445bab113425fb2d28a3c0c261911b1c34"
       }
     }
+  },
+  {
+    "מזהה": "n-1961",
+    "category": "company",
+    "חברה": "HII (HII)",
+    "חברה_en": "HII (HII)",
+    "symbols": [
+      "HII"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 22:05",
+    "הועלה": "2026-11-16 22:05",
+    "כותרת": "Huntington Ingalls Industries (HII): עדכון חוזה לצי האמריקאי מוסיף 82 כלים תת-ימיים מסוג Lionfish",
+    "כותרת_en": "Huntington Ingalls Industries (HII): updated US Navy contract adds 82 Lionfish undersea vehicles",
+    "summary": "הסך שהוזמן עולה ל-175 כלים; מעל 347 מיליון דולר הם השווי הפוטנציאלי של ייצור לחמש שנים, לא מחיר התוספת.",
+    "summary_en": "Ordered total reaches 175; more than $347 million is the potential five-year production value, not the price of the additional vehicles.",
+    "קישור": "https://www.hii.com/news/hii-is-awarded-contract-for-production-of-additional-us-navy-lionfish-unmanned-undersea-vehicles/",
+    "מקורות": [
+      {
+        "url": "https://www.hii.com/news/hii-is-awarded-contract-for-production-of-additional-us-navy-lionfish-unmanned-undersea-vehicles/",
+        "label": "HII: updated Lionfish production contract",
+        "label_en": "HII: updated Lionfish production contract"
+      }
+    ],
+    "טקסט": "**שעת הפרסום הראשונה המדויקת אינה ידועה.**\n\n16.11.2026 | ברשימת ההפצה של GlobeNewswire צוין 15:00 בחוף המזרחי של ארה״ב, 22:00 בישראל. זהו מועד ברשימת ההפצה; דף החברה מציין תאריך בלבד ואינו מאמת שעת פרסום ראשונה.\n\nלפי הודעת החברה, Huntington Ingalls Industries (HII) קיבלה עדכון לחוזה עם הצי האמריקאי לבניית 82 כלים תת-ימיים בלתי מאוישים קטנים מסוג Lionfish.\n\nבצירוף ההזמנות הקודמות, העדכון מביא את הסך ל-175 כלים שהחברה תבנה, תבדוק ותמסור, עם אפשרות להגדלה ל-200. מספרים אלה מתארים את אותה תוכנית: אין לחבר את 82 הכלים שוב ל-175 או להציג 200 כהזמנה מחייבת שכבר ניתנה.\n\nלפי HII, השווי הפוטנציאלי הכולל של הייצור לחמש שנים עולה על 347 מיליון דולר. הסכום אינו מוצג כמחיר 82 הכלים הנוספים, כסכום שכבר שולם או כהכנסה שכבר הוכרה; לא נמסר בנפרד שווי העדכון הנוכחי.\n\nהחברה מסרה כי עד 21.10.2026 כבר מסרה לצי 50 כלי Lionfish. זו נקודת מצב קודמת הנכללת בתוכנית, לא הודעה ש-50 כלים נוספים נמסרו היום.\n\nהכלי מבוסס על פלטפורמת REMUS 300 ונועד, לפי החברה, למשימות ובהן נגד מוקשים, מודיעין ותצפית, לוחמה נגד צוללות ולוחמה אלקטרונית. יכולות ייעודיות והזמנה לייצור אינן אישור לפריסה מבצעית חדשה או לתוצאות מבצעיות.",
+    "טקסט_en": "**The exact first publication time is unknown.**\n\nNovember 16, 2026 | GlobeNewswire's distribution listing shows 15:00 ET, or 22:00 Israel time. This is a distribution-listing timestamp; the issuer page gives only a date and does not establish the first publication time.\n\nHuntington Ingalls Industries (HII) says it received an updated US Navy contract to build an additional 82 Lionfish small unmanned undersea vehicles.\n\nIncluding previously ordered quantities, the update brings the total to 175 vehicles to build, test and deliver, with potential to scale to 200. These figures describe the same program: the 82 must not be added again to 175, and 200 is not an already firm order.\n\nHII says the five-year production program has total potential contract value exceeding $347 million. That is not presented as the price of the additional 82 vehicles, cash already paid or revenue already recognized. The current update's value was not separately disclosed.\n\nThe company says it had delivered 50 Lionfish vehicles to the Navy as of October 21, 2026. That is a prior delivery milestone within the program, not an announcement that another 50 were delivered today.\n\nBased on the REMUS 300 platform, Lionfish is designed for missions including mine countermeasures, intelligence, surveillance and reconnaissance, anti-submarine warfare and electronic warfare, according to the company. Intended capabilities and a production order do not confirm a new operational deployment or operational results.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c28814dab5f01367aecd583141c1ea63dd3b5a5809b40840f580fde39b8b539f"
+      }
+    }
   }
 ]
