@@ -53094,5 +53094,38 @@
         "source_hash": "924362914401a517ec9c4644b87682afd8d58b33aa62374c94abf20918ae783a"
       }
     }
+  },
+  {
+    "מזהה": "n-1955",
+    "category": "micro",
+    "חברה": "JPMorgan Chase (JPM)",
+    "חברה_en": "JPMorgan Chase (JPM)",
+    "symbols": [
+      "JPM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 20:36",
+    "הועלה": "2026-11-16 20:36",
+    "כותרת": "JPMorgan Chase (JPM): לפי Plaid, שיבוש בחיבורי Chase משפיע על הוספת חיבורים וקריאות API",
+    "כותרת_en": "JPMorgan Chase (JPM): Plaid reports Chase connection disruption affecting item adds and API calls",
+    "summary": "דף הסטטוס של Plaid מציג תקלה חלקית בחיבורי Chase, בבדיקה וללא הודעת פתרון.",
+    "summary_en": "Plaid lists a partial outage affecting Chase connections, under investigation with no resolution notice.",
+    "קישור": "https://status.plaid.com/incidents/01M7JEKB8MRJTMF1SKMY8D776V",
+    "מקורות": [
+      {
+        "url": "https://status.plaid.com/incidents/01M7JEKB8MRJTMF1SKMY8D776V",
+        "label": "Plaid Status: Service Disruption Impacting Chase connections",
+        "label_en": "Plaid Status: Service Disruption Impacting Chase connections"
+      }
+    ],
+    "טקסט": "**פורסם באיחור.**\n\nהודעת Plaid פורסמה ב-16.11.2026 בשעה 17:11 בישראל, לפי חותמת הזמן של דף התקרית. בבדיקה ב-20:33 בישראל הסטטוס עדיין היה Investigating / Partial outage.\n\nבדף הסטטוס הרשמי שלה, Plaid מדווחת על שיבוש בחיבורי Chase המשפיע על הוספת חיבורים חדשים ועל קריאות API דרך Plaid. החברה כותבת כי Chase חווה השבתה המשפיעה על כלל הערוצים ומקבלי הנתונים; זהו תיאור של Plaid, לא אישור עצמאי שכל מוצרי הבנק מושבתים.\n\nPlaid מציינת שתעדכן כאשר Chase תפתור את הבעיה. בדף לא נמסרו סיבה, מספר לקוחות מושפעים או מועד משוער לפתרון, ולא הופיעה הודעת פתרון בעת הבדיקה. אין בפרסום הזה בסיס לקבוע שכל הבנקים או רשתות התשלומים מושבתים, או שמדובר במתקפת סייבר.",
+    "טקסט_en": "**Published late.**\n\nPlaid posted the incident on November 16, 2026 at 17:11 Israel time, according to the incident page timestamp. At the 20:33 Israel-time check, the status remained Investigating / Partial outage.\n\nOn its official status page, Plaid reports a disruption affecting Chase connections, including item adds and API calls through Plaid. It says Chase is experiencing downtime affecting all channels and data recipients. That is Plaid's description, not independent confirmation that every bank product is unavailable.\n\nPlaid says it will update when Chase resolves the issue. The page gives no cause, affected-customer count or estimated resolution time, and displayed no resolution notice at the time checked. This report does not establish that all banks or payment networks are down, or that a cyberattack occurred.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fa421899bd7ed9125919e4b123337c34df3cc75a88d97845f5c0fc22d54bd96a"
+      }
+    }
   }
 ]
