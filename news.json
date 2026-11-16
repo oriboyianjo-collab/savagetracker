@@ -49901,5 +49901,186 @@
         "source_hash": "349ea5e33bbde5901337455944ac94e089c02b818caeae6b6aad6c5e21041cd8"
       }
     }
+  },
+  {
+    "מזהה": "n-1853",
+    "category": "micro",
+    "חברה": "TSLA",
+    "symbols": [
+      "TSLA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:29",
+    "הועלה": "2026-11-16 15:29",
+    "כותרת": "RDW אישר עדכון למערכת הסיוע TAD של Tesla עם HW4 ומעלה; הליך אישור כלל-אירופי עדיין נמשך",
+    "כותרת_en": "RDW approves Tesla TAD assistance-system update for HW4 and newer; EU-wide approval process remains ongoing",
+    "קישור": "https://www.rdw.nl/en/news/2026/tesla-driver-assistance-system-receives-update",
+    "מקורות": [
+      {
+        "url": "https://www.rdw.nl/en/news/2026/tesla-driver-assistance-system-receives-update",
+        "label": "RDW: פירוט אישור עדכון TAD מ-16 בנובמבר",
+        "label_en": "RDW: November 16 TAD update approval details"
+      }
+    ],
+    "טקסט": "16.11.2026 לפי הודעת רשות הרכב ההולנדית RDW, ללא שעת פרסום מאומתת. הרשות הודיעה שבחנה ואישרה שינויים במערכת Tesla Assisted Driving לרכבים עם חומרת HW4 ומעלה המצוידים במערכת. זהו עדכון להיתר הקיים, לא אישור לנהיגה ללא נהג או אישור חדש לכל האיחוד האירופי.\n\nהשינויים כוללים התרעות מוקדמות יותר ו-full strike לנהג שאינו קשוב בזמן תמרון, אמצעים נוספים למניעת שימוש לרעה, חיווי לגבי שינויי מהירות והצורך להשאיר ידיים על ההגה במהירות העולה על 130 קמ״ש. RDW אומרת שבדקה את השינויים במסלול ניסוי ובכבישים ציבוריים ולא מצאה השפעות שליליות או לא מכוונות על פעולת המערכת והתנהגות הרכב; זו תוצאת הבדיקה המתוארת, לא הבטחה לאפס תאונות.\n\nTesla קובעת מתי העדכון יופץ באוויר. RDW הודיעה למדינות שאימצו את היתר הסוג: בלגיה, דנמרק, אסטוניה, פינלנד, קרואטיה, לטביה, ליטא, סלובניה, סלובקיה וצ׳כיה.\n\nהרשות מדגישה שזה אינו היתר סוג רגיל: הליך סעיף 39 לתקנה 2018/858 והבחינה בוועדת TCMV לקבלת אישור בכל האיחוד עדיין נמשכים. לא נמסר בהודעה מועד להשלמתם או אישור לשיווק פונקציה חדשה בכל אירופה.",
+    "טקסט_en": "November 16, 2026 according to Dutch vehicle authority RDW, without a verified publication time. RDW says it assessed and approved changes to Tesla Assisted Driving for equipped vehicles with HW4 or newer. This extends an existing approval; it is not driverless-operation approval or new approval throughout the European Union.\n\nChanges include earlier warnings and a full strike when a driver is inattentive during a maneuver, additional misuse prevention, speed-function indications and a hands-on-wheel requirement above 130 km/h. RDW says its test-track and public-road checks found no adverse or unintended effects on system operation or vehicle behavior. That describes the authority's assessment, not a guarantee of zero crashes.\n\nTesla determines when the over-the-air update becomes available. RDW informed countries that adopted the type approval: Belgium, Denmark, Estonia, Finland, Croatia, Latvia, Lithuania, Slovenia, Slovakia and the Czech Republic.\n\nRDW stresses this is not regular type approval. The Article 39 process under Regulation 2018/858 and TCMV consideration for EU-wide approval remain ongoing. No completion date or authorization to market a new function across Europe was announced.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "38547efbcffe94f56f310ea8dea8fbcf6ebb7cded52c01d68a83762e2b875019"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1854",
+    "category": "micro",
+    "חברה": "BDC",
+    "symbols": [
+      "BDC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:29",
+    "הועלה": "2026-11-16 15:29",
+    "כותרת": "פורסם באיחור | Belden דיווחה ב-29 באוקטובר על הסכם חתום לאספקת מכלולי סיבים ב-100 מיליון דולר ב-2027",
+    "כותרת_en": "Published late | Belden reported October 29 a signed $100 million fiber-assemblies supply agreement for 2027",
+    "קישור": "https://investor.belden.com/news/news-details/2026/Belden-Reports-Record-Third-Quarter-2026-Results-and-Announces-100-Million-Data-Center-Agreement-for-2027/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investor.belden.com/news/news-details/2026/Belden-Reports-Record-Third-Quarter-2026-Results-and-Announces-100-Million-Data-Center-Agreement-for-2027/default.aspx",
+        "label": "Belden: ההודעה המקורית מ-29 באוקטובר, סעיף הסכם מרכז הנתונים",
+        "label_en": "Belden: October 29 original release, data-center agreement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 29.10.2026 לפי הודעת Belden; אין שעת פרסום מקורית מאומתת. החברה הודיעה שהגיעה להסכם חתום לאספקת מכלולי סיבים בהיקף 100 מיליון דולר ללקוח מרכזי בתחום מרכזי הנתונים בארה״ב במהלך 2027.\n\nשם הלקוח לא נמסר. הסכום הוא היקף ההסכם שעליו דיווחה החברה, לא הכנסות שכבר הוכרו ברבעון הנוכחי או אישור שכל המוצרים סופקו. אין בהודעה חלוקה רבעונית של האספקה או תנאי ביטול מפורטים.\n\nהמנכ״ל Ashish Chand אמר שבעקבות ההסכם החברה צופה צמיחה של יותר מ-50% בפעילות מרכזי הנתונים בשנה הבאה, כלומר 2027. זו ציפיית הנהלה לאותה פעילות, לא שיעור צמיחה שכבר הושג ולא תחזית לכלל הכנסות Belden. ההסכם הוזכר בתוך הודעת התוצאות, אך מדובר גם בהודעה עסקית על אספקה עתידית.",
+    "טקסט_en": "Published late | October 29, 2026 according to Belden's release; no original publication time is verified. Belden announced a signed agreement to supply $100 million of fiber assemblies to a major US data-center customer in 2027.\n\nThe customer was not named. The amount is the agreement value reported by the company, not revenue already recognized in the current quarter or confirmation that all products have shipped. No quarterly delivery split or detailed cancellation terms were disclosed.\n\nCEO Ashish Chand said the company now expects its data-center business to grow more than 50% next year, meaning 2027. That is management's expectation for that business, not achieved growth or a forecast for all Belden revenue. The agreement was disclosed within a results release and is also a business announcement about future supply.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6ef5627fc94b602adca703c8f5ab85c328568f901c6fd9dc526743a4f1fa1c58"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1855",
+    "category": "micro",
+    "חברה": "AN",
+    "symbols": [
+      "AN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:29",
+    "הועלה": "2026-11-16 15:29",
+    "כותרת": "פורסם באיחור | AutoNation הודיעה ב-30 באוקטובר על הרשאת רכישה עצמית נוספת של מיליארד דולר",
+    "כותרת_en": "Published late | AutoNation announced October 30 an additional $1 billion share-repurchase authorization",
+    "קישור": "https://newsroom.autonation.com/autonation-news/autonation-news-details/2026/AutoNation-Reports-Third-Quarter-2026-Results/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://newsroom.autonation.com/autonation-news/autonation-news-details/2026/AutoNation-Reports-Third-Quarter-2026-Results/default.aspx",
+        "label": "AutoNation: הודעת 30 באוקטובר, הקצאת הון ורכישה עצמית",
+        "label_en": "AutoNation: October 30 release, capital allocation and repurchases"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 30.10.2026 לפי הודעת AutoNation, ללא שעת פרסום מקורית מאומתת. החברה דיווחה שהדירקטוריון אישר באוקטובר הרשאה נוספת לרכישה עצמית של עד מיליארד דולר במניות רגילות.\n\nזו מסגרת הרשאה, לא דיווח על רכישה נוספת של מיליארד דולר שכבר בוצעה. נכון ל-28 באוקטובר נותרו בתוכנית 1.4 מיליארד דולר זמינים לרכישה עצמית. יתרה זו היא נתון לאותו מועד ואין להוסיף אליה שוב את מלוא ההרשאה החדשה כאילו לא נכללה בה.\n\nבנפרד, החברה דיווחה שעד 28 באוקטובר רכשה מתחילת 2026 כ-3.4 מיליון מניות בעלות כוללת של 668 מיליון דולר. זהו ביצוע היסטורי לתאריך שנמסר, לא רכישות חדשות ב-16 בנובמבר ולא מלוא יתרת ההרשאה.\n\nהמידע פורסם במסגרת הודעת התוצאות לרבעון השלישי. לא נמסרו כאן התחייבות לנצל את מלוא המסגרת או לוח זמנים מחייב לרכישות העתידיות.",
+    "טקסט_en": "Published late | October 30, 2026 according to AutoNation's release, without a verified original publication time. The company reported that its board authorized up to an additional $1 billion of common-stock repurchases in October.\n\nThis is an authorization, not an additional $1 billion of already completed purchases. As of October 28, $1.4 billion remained available under the program. That balance is dated and should not have the full new authorization added again as if it were excluded.\n\nSeparately, AutoNation said it had repurchased approximately 3.4 million shares for $668 million year-to-date through October 28, 2026. That is historical execution through the stated date, not new November 16 purchases or the full remaining authorization.\n\nThe information appeared in its third-quarter results release. No commitment to use the entire authorization or binding timetable for future purchases was disclosed here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1e63400289237ba32f8d4c2c3602dcc6a5942069701d3a15faa4249dc73c24d8"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1856",
+    "category": "micro",
+    "חברה": "GXO",
+    "symbols": [
+      "GXO"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:29",
+    "הועלה": "2026-11-16 15:29",
+    "כותרת": "לפי Robotics & Automation News, GXO ו-Apptronik הרחיבו הסכם לקראת עד 1,000 רובוטי Apollo, בכפוף לעמידה במדדים",
+    "כותרת_en": "Robotics & Automation News: GXO and Apptronik expand agreement toward up to 1,000 Apollo robots, subject to performance conditions",
+    "קישור": "https://roboticsandautomationnews.com/2026/11/16/gxo-and-apptronik-plan-rollout-of-up-to-1000-humanoid-robots/107200/",
+    "מקורות": [
+      {
+        "url": "https://roboticsandautomationnews.com/2026/11/16/gxo-and-apptronik-plan-rollout-of-up-to-1000-humanoid-robots/107200/",
+        "label": "Robotics & Automation News: הסכם GXO ו-Apptronik מ-16 בנובמבר",
+        "label_en": "Robotics & Automation News: November 16 GXO-Apptronik agreement report"
+      }
+    ],
+    "טקסט": "16.11.2026 לפי Robotics & Automation News, ללא שעת פרסום מאומתת. **לא מאומת מול מקור ראשוני: הדיווח על ההסכם מבוסס על כתבת האתר המצטטת את שתי החברות; הודעת ההסכם המקורית לא אומתה כאן ישירות.**\n\nלפי הכתבה, GXO ו-Apptronik חתמו על הסכם להרחבת פיתוח וניסויים של רובוט Apollo בפעילות מחסנים, עם מסגרת מסחרית צפויה של Robotics-as-a-Service. הניסויים ב-2027 יבחנו בטיחות, אבטחה, דרישות טכניות ומדדי תפוקה בפעולות כגון ליקוט, העברת ארגזים, אריזה ומיון.\n\nבכפוף להצלחת הפריסות ולעמידה במדדי ביצועים, בטיחות ותפעול מוסכמים, הצדדים מתכוונים להתקדם לפריסה עולמית של עד 1,000 רובוטים במהלך ארבע שנים, עם פריסה ראשונית בצפון אמריקה בסוף 2027. זהו יעד מותנה, לא 1,000 רובוטים שכבר הותקנו ולא התחייבות רכישה בלתי מותנית לכמות הזאת.\n\nהכתבה אומרת שהשותפות החלה ב-2024 ושהחברות כבר בדקו יותר מ-50 משימות במתקן ההדרכה Robot Park. לא נמסרו מחיר שירות, היקף הכנסות צפוי או חיסכון כספי מאומת מההרחבה.",
+    "טקסט_en": "November 16, 2026 according to Robotics & Automation News, without a verified publication time. **Not verified against a primary source: the agreement details come from the site's article quoting both companies; the original agreement announcement has not been directly verified here.**\n\nThe article says GXO and Apptronik signed an agreement expanding Apollo development and trials in warehouse operations, with an expected Robotics-as-a-Service commercial framework. Trials in 2027 will assess safety, security, technical requirements and productivity in picking, case and tote movement, packing and sortation.\n\nSubject to successful deployments and agreed performance, safety and operational KPIs, the companies intend to progress toward up to 1,000 robots globally over four years, starting in North America in late 2027. This is a conditional target, not 1,000 installed robots or an unconditional purchase commitment for that quantity.\n\nThe article says the partnership began in 2024 and the companies have evaluated more than 50 tasks at Apptronik's Robot Park training facility. No service price, expected revenue value or verified financial savings from the expansion were disclosed.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8481c13b947a32ee6a435904928a805e33692ee8d6c4b6ae6065797fc207546a"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1857",
+    "category": "micro",
+    "חברה": "GEHC",
+    "symbols": [
+      "GEHC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:29",
+    "הועלה": "2026-11-16 15:29",
+    "כותרת": "GE HealthCare מרחיבה שיתופי פעולה עם שבעה מוסדות להערכת מערכת CT סופרת פוטונים Photonova Spectra",
+    "כותרת_en": "GE HealthCare expands seven-institution collaborations to evaluate Photonova Spectra photon-counting CT",
+    "קישור": "https://www.businesswire.com/news/home/20261116791842/en/GE-HealthCare-expands-global-collaborations-to-help-define-the-future-of-photon-counting-CT-with-Photonova-Spectra",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261116791842/en/GE-HealthCare-expands-global-collaborations-to-help-define-the-future-of-photon-counting-CT-with-Photonova-Spectra",
+        "label": "GE HealthCare דרך Business Wire: שיתופי הפעולה ב-Photonova Spectra",
+        "label_en": "GE HealthCare via Business Wire: Photonova Spectra collaborations"
+      }
+    ],
+    "טקסט": "16.11.2026 לפי הודעת GE HealthCare, ללא שעת פרסום מאומתת. החברה הודיעה על הרחבת רשת שיתופי הפעולה הקליניים והמחקריים של Photonova Spectra, מערכת CT לספירת פוטונים המבוססת על טכנולוגיית הגלאים Deep Silicon.\n\nהרשת כוללת שבעה מוסדות בשלוש יבשות: Keio בטוקיו, Monzino במילאנו, בית החולים האוניברסיטאי בציריך, אוניברסיטת ויסקונסין-מדיסון, Stanford Medicine, UZ Brussel ו-Rigshospitalet בקופנהגן. חלק מהקשרים הם חדשים, מחודשים או מורחבים; אין כאן שבע הזמנות מסחריות חדשות בהכרח.\n\nהמחקרים וההערכות יעסקו בין היתר בדימות לב וכלי דם, איכות תמונה, ביצועים ספקטרליים, דימות במינון קרינה נמוך ויעילות תהליכי עבודה. אלו מטרות הערכה ומחקר, לא תוצאות ניסוי השוואתי שהוכיחו כבר יתרון בכל המצבים הקליניים.\n\nלפי החברה, הפעילות באה לאחר CE Mark, אישור FDA במסלול 510(k) ואישור רגולטורי ביפן. ההודעה היא על שלב שיתוף הפעולה וההערכה, לא הודעה שאישור FDA חדש התקבל היום. החברה מציינת שהמערכת אינה זמינה למכירה בכל האזורים. לא נמסרו שווי הסכמים או מספר מערכות שנמכרו.",
+    "טקסט_en": "November 16, 2026 according to GE HealthCare's release, without a verified publication time. The company announced an expanded clinical and research collaboration network for Photonova Spectra, its photon-counting CT system using Deep Silicon detector technology.\n\nThe seven-institution, three-continent network includes Keio in Tokyo, Monzino in Milan, University Hospital Zurich, the University of Wisconsin-Madison, Stanford Medicine, UZ Brussel and Rigshospitalet in Copenhagen. Relationships include new, renewed and expanded work; this does not necessarily mean seven new commercial orders.\n\nEvaluations cover cardiovascular imaging, image quality, spectral performance, low-dose imaging and workflow efficiency. These are research and evaluation aims, not completed comparative trials already proving superiority in every clinical setting.\n\nThe company says this follows CE marking, US FDA 510(k) clearance and Japanese regulatory approval. The announcement concerns collaboration and evaluation, not a new FDA clearance granted today. The company notes the system is not available for sale in all regions. No agreement values or unit-sales counts were disclosed.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f2406c229ac5f1e5eca9229781547c59300253498f28cd6096ddc5d28905a524"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1858",
+    "category": "micro",
+    "חברה": "HZN",
+    "symbols": [
+      "HZN",
+      "NWE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:29",
+    "הועלה": "2026-11-16 15:29",
+    "כותרת": "S&P העלתה את דירוגי NorthWestern Energy Group ו-NorthWestern Corp ל-BBB+ בעקבות השלמת המיזוג; תחזית יציבה",
+    "כותרת_en": "S&P upgrades NorthWestern Energy Group and NorthWestern Corp to BBB+ after merger close; outlook stable",
+    "קישור": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3660778",
+    "מקורות": [
+      {
+        "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3660778",
+        "label": "S&P Global Ratings: פעולות הדירוג מ-16 בנובמבר",
+        "label_en": "S&P Global Ratings: November 16 rating actions"
+      }
+    ],
+    "טקסט": "16.11.2026 לפי הודעת S&P Global Ratings, ללא שעת פרסום מאומתת. סוכנות הדירוג העלתה את דירוג המנפיק של NorthWestern Energy Group ושל NorthWestern Corp ל-BBB+ מ-BBB, עם תחזית יציבה, בעקבות השלמת המיזוג עם Bright Horizon Energy, לשעבר Black Hills.\n\nS&P רואה בשתי החברות חברות ליבה של הקבוצה. בנפרד, דירוג החוב הבכיר המובטח של NorthWestern Corp הועלה ל-A מ-A-, ודירוג ההחלמה 1+ נותר ללא שינוי. דירוג המנפיק של NorthWestern Energy Public Service נותר BBB, ולא הועלה ל-BBB+.\n\nהתחזית היציבה כוללת ציפייה של S&P ליחס FFO לחוב קבוצתי של כ-13% החל מ-2027 ולכרית פיננסית קטנה מול סף ההורדה שלה. אלה הערכות הסוכנות, לא התחייבות שהיחס יושג. היא מצביעה גם על חשיפה לשריפות, סיכוני רגולציה וביצוע, לצד אפשרויות לצמיחה בביקוש ממרכזי נתונים.\n\nזוהי פעולת דירוג אשראי נפרדת מהודעת השלמת המיזוג. דירוג ותחזית אינם המלצת קנייה למניה או הבטחה שלא תהיה הורדת דירוג בעתיד.",
+    "טקסט_en": "November 16, 2026 according to S&P Global Ratings, without a verified publication time. S&P raised NorthWestern Energy Group and NorthWestern Corp issuer ratings to BBB+ from BBB, with stable outlooks, following the merger with Bright Horizon Energy, formerly Black Hills.\n\nS&P views both companies as core group entities. Separately, NorthWestern Corp's senior secured debt rating rose to A from A-, with the 1+ recovery rating unchanged. NorthWestern Energy Public Service's issuer rating remained BBB, not BBB+.\n\nThe stable outlook includes S&P's expectation of consolidated FFO to debt around 13% beginning in 2027 with minimal cushion against its downgrade threshold. These are agency expectations, not guaranteed ratios. It also cites wildfire exposure and regulatory and execution risks alongside potential data-center demand growth.\n\nThis is a credit-rating action distinct from the merger-completion announcement. A rating and outlook are not a stock-buy recommendation or assurance that no future downgrade will occur.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "64c3f7e898d067a82b024aac8c7c49b665419c1bb269b203a4cb772993b848d7"
+      }
+    }
   }
 ]
