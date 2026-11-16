@@ -3347,18 +3347,22 @@
     "מדינה": "US",
     "אירוע": "שערי חליפין שבועיים (H.10) - הפד",
     "חשיבות": 1,
-    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-    "הערה": "לוח הפד16:15ET=23:15ישראל; אין צפי או קודם יחיד.",
+    "מקור": "https://www.federalreserve.gov/releases/h10/current/",
+    "הערה": "פרסום H.10 הרשמי מ-16 בנובמבר כולל שערים יומיים ל-9–13 בנובמבר, לא שערי שוק ליום הפרסום. ב-11 בנובמבר מסומן ND: אין נתון, לא אפס. כיוון הציטוט הוא יחידות מטבע לדולר ארה״ב, למעט המטבעות המסומנים בכוכבית שבהם הציטוט הפוך. אין נתון בפועל יחיד או צפי יחיד לכל הסדרות, ואין לזהות את מדד הדולר הרחב עם DXY. רישום הלוח הקודם: לוח הפד 16:15ET=23:15 ישראל; אין צפי או קודם יחיד.",
     "שעה": "23:15",
     "מזהה": "c-0133",
     "אירוע_en": "Weekly foreign exchange rates (H.10) - Fed",
-    "הערה_en": "Fed schedule 16:15 ET = 23:15 Israel; no single estimate or prior.",
+    "הערה_en": "Official H.10 release dated November 16 contains daily rates for November 9-13, not market rates for the release day. November 11 is marked ND: no data, not zero. Quotations are currency units per U.S. dollar except asterisk-marked currencies, which use the reverse direction. No single actual or forecast covers all series; the broad dollar index is not DXY. Previous calendar entry: Fed schedule 16:15 ET = 23:15 Israel; no single estimate or prior.",
     "_translation": {
       "en": {
-        "source_hash": "1909c3663b97f633367a980dd751849aaf645e1c216bf612a7e0e7bebecfb684",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "a3489466cefb1b3943306d113f041d4bf950af31bada19c5318d229ff173493b"
       }
-    }
+    },
+    "בפועל": "פורסם · נתוני 9–13.11",
+    "בפועל_en": "Published · Nov 9-13 data",
+    "תקופה": "פרסום 16.11.2026; תצפיות 9–13.11",
+    "תקופה_en": "Nov 16, 2026 release; Nov 9-13 observations"
   },
   {
     "תאריך": "2026-11-16",
