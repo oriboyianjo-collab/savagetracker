@@ -45566,5 +45566,38 @@
         "source_hash": "0bab6523dca729ea800970d35da6e911922daf2357a843a4d86b06086f1a2e6b"
       }
     }
+  },
+  {
+    "מזהה": "n-1717",
+    "category": "macro",
+    "חברה": "דרום קוריאה / שוק המניות",
+    "חברה_en": "South Korea / stock market",
+    "symbols": [],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 08:50",
+    "הועלה": "2026-11-16 08:50",
+    "כותרת": "לפי Yonhap, קוספי סגר בירידה של 3.59% ב-16 בנובמבר; SK hynix ירדה ב-7.89%",
+    "כותרת_en": "Yonhap: KOSPI closes down 3.59% on November 16; SK hynix falls 7.89%",
+    "summary": "תוצאת הסגירה המדווחת, 5,100.5 נקודות, מעדכנת את תמונת הבוקר שכבר פורסמה. לפי הסוכנות, זרים מכרו מניות בנטו של 1.38 טריליון וון. נתוני הבורסה הראשוניים לא אומתו ישירות.",
+    "summary_en": "The reported close of 5,100.5 updates the morning snapshot already published. Yonhap reports net foreign stock sales of 1.38 trillion won. The exchange's primary data were not directly verified.",
+    "טקסט": "יום שני, 16 בנובמבר 2026 | תוצאת סגירה לפי Yonhap. העמוד מציג 15:45 ללא ציון מפורש של אזור זמן. **שעת הפרסום בישראל לא אומתה; השעה מעל הכותרת היא מועד ההעלאה לאפליקציה.**\n\n**לא מאומת מול מקור ראשוני:** נתוני המדד, המניות וזרימות המשקיעים מיוחסים ל-Yonhap; נתוני הבורסה המקוריים לא אומתו ישירות. אלה נתוני יום המסחר שהסתיים לפי הכתבה, לא ציטוטים חיים.\n\nלפי גוף הכתבה, מדד קוספי סגר ב-5,100.5 נקודות, ירידה של 190.03 נקודות או 3.59%, ביום המסחר השלישי ברציפות של ירידות. **מה חדש:** זו תוצאת הסגירה המדווחת ל-16 בנובמבר, לעומת צילום הביניים ב-11:20 בסיאול שכבר פורסם כאן ובו ירד המדד ב-2.07%. נתון הבוקר נשאר תיעוד היסטורי, לא תוצאת סגירה.\n\nלפי Yonhap, סמסונג אלקטרוניקס ירדה ב-4.47% ו-SK hynix ב-7.89%. מניית Samsung Electro-Mechanics ירדה ב-8.19% ו-SK Square ב-9.71%. משקיעים זרים מכרו מניות בנטו של 1.38 טריליון וון, ומוסדיים בנטו של 451.26 מיליארד וון; משקיעים פרטיים רכשו בנטו של 1.34 טריליון וון. אלה נתוני הזרימות המדווחים, לא הסבר סיבתי שאומת באופן עצמאי.\n\nהסוכנות מייחסת את החולשה לחששות סביב תחום הבינה המלאכותית ומניות הטכנולוגיה. אין כאן אימות עצמאי של גורם יחיד לירידות או הודעה חדשה על הנהלת NVIDIA.",
+    "טקסט_en": "Monday, November 16, 2026 | Closing result reported by Yonhap. The page displays 15:45 without an explicit timezone. **The publication time in Israel was not verified; the time above the headline is the app upload time.**\n\n**Not verified against a primary source:** index, stock and investor-flow figures are attributed to Yonhap; the exchange's original data were not directly verified. These are figures for the completed trading day as reported in the article, not live quotes.\n\nThe article body reports that KOSPI closed at 5,100.5, down 190.03 points or 3.59%, its third consecutive decline. **What is new:** this is the reported November 16 close, compared with the previously published 11:20 Seoul intraday snapshot showing a 2.07% decline. The morning reading remains a historical snapshot, not a closing result.\n\nYonhap reports Samsung Electronics down 4.47% and SK hynix down 7.89%. Samsung Electro-Mechanics fell 8.19% and SK Square lost 9.71%. Foreign investors sold a net 1.38 trillion won of stocks and institutions a net 451.26 billion won, while individuals bought a net 1.34 trillion won. These are reported flows, not an independently verified causal explanation.\n\nThe agency attributes the weakness to concerns around artificial intelligence and technology stocks. This does not independently establish a single cause of the decline or a new NVIDIA management announcement.",
+    "קישור": "https://en.yna.co.kr/view/AEN20261116006151320?section=economy-finance/economy",
+    "מקורות": [
+      {
+        "url": "https://en.yna.co.kr/view/AEN20261116006151320?section=economy-finance/economy",
+        "label": "Yonhap: כתבת הסגירה המלאה מ-16 בנובמבר",
+        "label_en": "Yonhap: full November 16 closing report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "489e4286d2e2da2ade8605c18247b731d3834ea7edbaac414591e9b937d641f4"
+      }
+    }
   }
 ]
