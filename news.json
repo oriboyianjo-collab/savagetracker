@@ -48785,5 +48785,72 @@
         "source_hash": "4d83733770a4dab02fd5a6a4a9dacaa7f3cc35a2d574896ced9113228ca8c165"
       }
     }
+  },
+  {
+    "מזהה": "n-1817",
+    "category": "micro",
+    "חברה": "UBER",
+    "symbols": [
+      "UBER",
+      "AMZN",
+      "MGM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:24",
+    "הועלה": "2026-11-16 14:24",
+    "כותרת": "Zoox זמינה מהיום לנסיעות מתאימות באפליקציית Uber בלאס וגאס; לוס אנג'לס מתוכננת ל-2027",
+    "כותרת_en": "Zoox goes live on Uber for eligible Las Vegas trips; Los Angeles planned for 2027",
+    "קישור": "https://zoox.com/journal/zoox-uber-partnership",
+    "מקורות": [
+      {
+        "url": "https://zoox.com/journal/zoox-uber-partnership",
+        "label": "Zoox: עדכון ההשקה ב-Uber מ-16 בנובמבר",
+        "label_en": "Zoox: November 16 Uber launch update"
+      }
+    ],
+    "טקסט": "16.11.2026 | עדכון Zoox המקורי והמלא נקרא. בעמוד מצוין התאריך אך לא שעת פרסום מקורית.\n\nZoox הודיעה שהחל מהיום נוסעי Uber בלאס וגאס יכולים להיות משויכים לרובוטקסי שלה בנסיעות מתאימות. זהו שלב הפעלה בפועל של השותפות הרב-שנתית שהוכרזה במרץ, לא הודעה חדשה על עצם חתימת ההסכם. השירות ממשיך לפעול גם באפליקציית Zoox.\n\nהחברה מתחילה בצי קטן, עם אפשרות להתרחבות בהמשך. יעדים כוללים אתרי נופש ומתחמים באזור הסטריפ וכן Downtown ו-Arts District. אין להסיק שכל נסיעה בלאס וגאס או כל נוסע Uber זכאים לשירות ללא מגבלה.\n\nZoox ו-Uber הן שותפות הרובוטקסי וההסעות של נכסי MGM Resorts בלאס וגאס. הן עובדות על הכוונה במקום ובאפליקציה ושיפורי תשתית לאיסוף והורדה. לא נמסרו שווי שותפות, מספר כלי רכב או הכנסות צפויות מההשקה.\n\nהשקה משותפת בלוס אנג'לס מתוכננת לשנה הבאה, לאחר פתיחת שירות Zoox באפליקציה שלה בעיר. זהו שלב עתידי, לא שירות שכבר הושק בלוס אנג'לס במסגרת ההודעה.",
+    "טקסט_en": "November 16, 2026 | Zoox's complete original update was read. The page provides a date but no original publication time.\n\nZoox said Uber riders in Las Vegas can be matched with its robotaxis on eligible trips beginning today. This is an operating launch under the multi-year partnership announced in March, not a new announcement that the agreement itself was signed. Service also continues through the Zoox app.\n\nThe launch begins with a small fleet, with potential to expand. Destinations include resorts and venues around the Strip and the Downtown and Arts District areas. This does not establish unrestricted availability for every Las Vegas trip or Uber rider.\n\nZoox and Uber are the robotaxi and rideshare partners of MGM Resorts' Las Vegas properties. They are working on on-property and in-app wayfinding and pickup/drop-off infrastructure. No partnership value, fleet count or expected launch revenue was disclosed.\n\nA joint Los Angeles launch is planned for next year after Zoox opens service there through its own app. That remains a future step, not a Los Angeles launch already completed in this announcement.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f09746f170e72b59528f2aa710c2b064becf9a30166560ff0cfbb92f35641d50"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1818",
+    "category": "micro",
+    "חברה": "GM",
+    "symbols": [
+      "GM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 14:24",
+    "הועלה": "2026-11-16 14:24",
+    "כותרת": "פורסם באיחור | לפי Electrek, GM קוראת לתיקון 67,380 רכבי Cadillac ו-Chevrolet חשמליים בגלל תוכנת בלמים",
+    "כותרת_en": "Published late | Electrek reports GM recall of 67,380 Cadillac and Chevrolet EVs over brake software",
+    "קישור": "https://electrek.co/2026/11/04/gm-recalls-67000-cadillac-chevy-evs-over-brake-software-defect/",
+    "מקורות": [
+      {
+        "url": "https://electrek.co/2026/11/04/gm-recalls-67000-cadillac-chevy-evs-over-brake-software-defect/",
+        "label": "Electrek: דיווח 4 בנובמבר על קריאת GM לתיקון",
+        "label_en": "Electrek: November 4 GM recall report"
+      },
+      {
+        "url": "https://autoinformed.com/loss-of-brake-recalls-cadillac-lyriqs-chevrolet-blazer-evs/",
+        "label": "AutoInformed: דיווח 10 בנובמבר על אותו קמפיין",
+        "label_en": "AutoInformed: November 10 report on the same campaign"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 4.11.2026, 14:15 בחוף המערבי בארה\"ב, 00:15 בישראל ב-5 בנובמבר. כתבת Electrek המלאה נקראה, לצד דיווח AutoInformed מ-10 בנובמבר. **לא מאומת מול מקור ראשוני: מסמך הקמפיין המקורי של GM או NHTSA לא נקרא. הפרטים מיוחסים לדיווחים, לא לבדיקה ישירה של תיק הריקול.**\n\nלפי Electrek, GM דיווחה ב-29 באוקטובר על קריאה לתיקון של 67,380 כלי רכב עקב פגם תוכנה במודול בקרת הבלמים, שעלול לגרום לאובדן זמני של יכולת בלימה בתנאי נהיגה מסוימים. מספר הקמפיין המדווח הוא 26V717, ומספר GM הוא N262570900. זו קריאה קודמת שמסוקרת באיחור, לא הכרזה חדשה מ-16 בנובמבר.\n\nהדיווחים מונים דגמים מסוימים של Cadillac Lyriq משנות דגם 2023–2027, Celestiq מ-2025–2026, Vistiq מ-2026–2027 ו-Chevrolet Blazer EV מ-2024–2027. אין פירוש הדבר שכל רכב מכל דגם ושנה נכלל; נדרשת בדיקה לפי מספר שלדה מול היצרן או הרשות.\n\nלפי הדיווחים, התקלה קשורה לגרסאות מסוימות עם הנעה כפולה ביצועית ולרצף פעולות במהירות נמוכה. התיקון המדווח הוא עדכון תוכנה מרחוק או במוסך ללא תשלום, ומכתבי הודעה לבעלים צפויים ב-14 בדצמבר 2026. אין בכך אישור שכל הרכבים כבר עודכנו.\n\nנתוני תאונות ופגיעות לא נכללים כאן משום שלא אומתו ישירות במסמך הקמפיין. ההודעה אינה מורה שבטוח לנהוג ברכב מסוים או שאינו נכלל בקריאה; בעלי רכב צריכים לבדוק את מספר השלדה וההנחיות העדכניות במקור הרשמי.",
+    "טקסט_en": "Published late | November 4, 2026 at 14:15 US Pacific time, or 00:15 Israel time on November 5. Electrek's complete article was read alongside AutoInformed's November 10 report. **Not verified against a primary source: the original GM or NHTSA campaign document was not read. Details are attributed to these reports, not a direct review of the recall file.**\n\nElectrek reports that GM notified authorities on October 29 of a recall covering 67,380 vehicles over a brake-system control-module software defect that can cause temporary loss of braking under certain driving conditions. The reported campaign is 26V717 and GM number N262570900. This is an earlier recall covered late, not a new November 16 announcement.\n\nThe reports list certain model-year 2023–2027 Cadillac Lyriq, 2025–2026 Celestiq, 2026–2027 Vistiq and 2024–2027 Chevrolet Blazer EV vehicles. This does not mean every vehicle of those models and years is included; owners need a VIN-specific check with the manufacturer or regulator.\n\nThe reports link the issue to certain performance-all-wheel-drive versions and a particular low-speed sequence of events. The reported remedy is a free over-the-air or dealer software update, with owner letters expected December 14, 2026. This is not confirmation that every vehicle has already been updated.\n\nAccident and injury figures are omitted because they were not verified directly in the campaign document. This article does not establish that a particular vehicle is safe to drive or outside the recall; owners should check its VIN and current instructions with the official source.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7cdc3fee1b9326d64296082fd5277e27e61cf023d1fb43a65a73b69805d0ec50"
+      }
+    }
   }
 ]
