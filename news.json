@@ -46059,5 +46059,110 @@
         "source_hash": "bfbef12bfd397d090a3bde665c1d112107899c0c0ef93f3a1d63f99d88c2bf3e"
       }
     }
+  },
+  {
+    "מזהה": "n-1731",
+    "category": "micro",
+    "חברה": "NVIDIA",
+    "חברה_en": "NVIDIA",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:42",
+    "הועלה": "2026-11-16 09:42",
+    "כותרת": "NVIDIA (NVDA): לפי Yonhap Infomax בשם NYT, הצעת הגבלות גישה מרחוק למחשוב AI תמוקד בשבע מדינות, עם החרגה למרכזים קיימים",
+    "כותרת_en": "NVIDIA (NVDA): Yonhap Infomax citing NYT says proposed remote AI-compute curbs would cover seven countries and exempt existing data centers",
+    "summary": "הדיווח מתאר הצעה המוגבלת למשלוחי שבבים עתידיים, לא כלל שנכנס לתוקף. המקור הראשוני לא נבדק.",
+    "summary_en": "The report describes a proposal limited to future chip shipments, not an enacted rule. The primary source was not inspected.",
+    "טקסט": "**לא מאומת מול מקור ראשוני.** דיווח Yonhap Infomax מ-16 בנובמבר 2026 מייחס את המידע ל-New York Times מ-15 בנובמבר. כתבת NYT ומסמך ההצעה של משרד המסחר לא נבדקו כאן. **הדף מציג 10:29 ועדכון 10:31 ללא אזור זמן, ולכן אין המרה לשעת פרסום בישראל.**\n\nלפי הדיווח, משרד המסחר האמריקאי הציע למקד הגבלות על מרכזי נתונים בחו״ל המספקים כוח מחשוב AI לחברות סיניות בשבע מדינות: סינגפור, מלזיה, תאילנד, אינדונזיה, ברזיל, דרום אפריקה ונורווגיה. ההצעה המתוארת תחול רק על משלוחים עתידיים של שבבים מתקדמים; מרכזי נתונים שכבר הוקמו עם טכנולוגיה אמריקאית יוחרגו.\n\n**זו הצעה מדווחת, לא כלל סופי או איסור חדש שנכנס לתוקף.** לא נמסר כאן מועד תחילה מחייב. הדיווח מתאר היקף גאוגרפי מצומצם והחרגת מתקנים קיימים. זה אינו עדכון על הכללת Megaspeed ברשימת הישויות.\n\nהכתבה מתארת קשרים עסקיים של Cantor Fitzgerald, המנוהלת בידי בניו של שר המסחר, עם מפעילי מרכזי נתונים שעשויים להיות מושפעים. היא מדגישה שאין ראיה מאומתת שההשקעות השפיעו על בחינת המדיניות. לפי תגובת משרד המסחר המצוטטת, השר עמד בהתחייבויות האתיקה ואינו דן בענייני המשרד עם בניו. אין כאן ממצא שהוכח ניגוד עניינים או דיווח על הזמנת שבבים חדשה מ-NVIDIA.",
+    "טקסט_en": "**Not verified against a primary source.** The November 16, 2026 Yonhap Infomax report attributes the information to the New York Times on November 15. The NYT article and Commerce proposal document were not inspected here. **The page shows 10:29 and a 10:31 update without a timezone, so no Israel publication-time conversion is given.**\n\nAccording to the report, the US Commerce Department proposed limiting restrictions on overseas data centers supplying AI computing power to Chinese companies to seven countries: Singapore, Malaysia, Thailand, Indonesia, Brazil, South Africa and Norway. The described proposal would apply only to future advanced-chip shipments; data centers already built with US technology would be exempt.\n\n**This is a reported proposal, not a final rule or a new ban in force.** No binding effective date is given here. The report describes a narrower geographical scope and an exemption for existing facilities. This is not an update announcing Megaspeed's addition to the Entity List.\n\nThe article describes business links between Cantor Fitzgerald, run by the Commerce secretary's sons, and data-center operators that could be affected. It explicitly says there is no confirmed evidence the investments influenced the policy review. In the quoted Commerce response, the secretary has complied with ethics commitments and does not discuss department business with his sons. This is not an established conflict-of-interest finding or a new NVIDIA chip order.",
+    "קישור": "https://en.infomaxai.com/news/articleView.html?idxno=148701",
+    "מקורות": [
+      {
+        "url": "https://en.infomaxai.com/news/articleView.html?idxno=148701",
+        "label": "Yonhap Infomax: דיווח מלא המייחס את ההצעה ל-NYT, 16 בנובמבר",
+        "label_en": "Yonhap Infomax: full November 16 report attributing the proposal to NYT"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b73fe7fdeb04f0cac83160d9184d1125155fcd67fb4f1d0c7b82d9a910be9f32"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1732",
+    "category": "micro",
+    "חברה": "Apple",
+    "חברה_en": "Apple",
+    "symbols": [
+      "AAPL"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:42",
+    "הועלה": "2026-11-16 09:42",
+    "כותרת": "Apple (AAPL): לפי Korea Times, KakaoBank השיקה Apple Pay בקוריאה לכרטיסי דביט, כולל mini מגיל 14",
+    "כותרת_en": "Apple (AAPL): Korea Times says KakaoBank launches Apple Pay in Korea for debit cards, including mini from age 14",
+    "summary": "ההשקה מרחיבה את הגישה מעבר ל-Hyundai Card. לא פורסמו הכנסות, מספר משתמשים או כלכלת השותפות.",
+    "summary_en": "The launch expands access beyond Hyundai Card. Revenue, user numbers and partnership economics were not disclosed.",
+    "טקסט": "16 בנובמבר 2026 | כתבת Korea Times פורסמה ב-16:16 KST, 09:16 בישראל. **לא מאומת מול מקור ראשוני.** זהו דיווח משני המייחס את פרטי ההשקה ל-KakaoBank; הודעת הבנק או Apple לא נבדקה כאן ישירות.\n\nלפי הכתבה, KakaoBank השיקה Apple Pay בקוריאה, ולקוחות יכולים לצרף את כרטיסי הדביט שלהם ל-Apple Wallet. גם לקוחות מגיל 14 יכולים לצרף כרטיסי KakaoBank mini. אין בכך לומר שכל כרטיס קוריאני או כל בנק מקומי נתמכים.\n\nהתשלומים זמינים בבתי עסק משתתפים ובקניות מקוונות ובאפליקציות במכשירי Apple המתאימים. לפי הבנק כפי שהוא מצוטט, השימוש מבוסס על מספר חשבון מכשיר מוצפן ולא על שמירת מספר הכרטיס עצמו במכשיר או בשרתי Apple.\n\nהכתבה אומרת שהכניסה מסיימת את מעמד Hyundai Card כמוסד הפיננסי המקומי היחיד שהציע Apple Pay מאז מרץ 2023. זהו צעד הרחבה מסוים בזמינות השירות, לא השקה ראשונה של Apple Pay בקוריאה. לא נמסרו היקף אימוץ, הכנסות ל-Apple, עמלה או התחייבות כספית בין החברות.",
+    "טקסט_en": "November 16, 2026 | The Korea Times article was published at 16:16 KST, 09:16 in Israel. **Not verified against a primary source.** This is a secondary report attributing launch details to KakaoBank; a bank or Apple announcement was not directly inspected here.\n\nAccording to the article, KakaoBank launched Apple Pay in Korea and customers can add its debit cards to Apple Wallet. Customers aged 14 and older can also add KakaoBank mini cards. This does not mean every Korean card or local bank is supported.\n\nPayments are available at participating stores and for online and in-app purchases on compatible Apple devices. The bank says, as quoted, that the service uses an encrypted Device Account Number rather than storing the actual card number on the device or Apple servers.\n\nThe article says the entry ends Hyundai Card's position as the only local financial institution offering Apple Pay since March 2023. This is a specific expansion in access, not Apple Pay's first Korean launch. Adoption, revenue for Apple, fees and financial commitments between the companies were not disclosed.",
+    "קישור": "https://www.koreatimes.co.kr/business/banking-finance/20261116/kakaobank-launches-apple-pay-ending-hyundai-cards-monopoly",
+    "מקורות": [
+      {
+        "url": "https://www.koreatimes.co.kr/business/banking-finance/20261116/kakaobank-launches-apple-pay-ending-hyundai-cards-monopoly",
+        "label": "Korea Times: הכתבה המלאה על השקת KakaoBank, 16 בנובמבר",
+        "label_en": "Korea Times: full November 16 KakaoBank launch report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a1e0a7ee8a75db7b9eb1de983b7d7a7ebff0c0b6be284c4448643e7ee9ebe928"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1733",
+    "category": "micro",
+    "חברה": "EOG Resources",
+    "חברה_en": "EOG Resources",
+    "symbols": [
+      "EOG"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:42",
+    "הועלה": "2026-11-16 09:42",
+    "כותרת": "פורסם באיחור | הודעת 5 בנובמבר | EOG Resources (EOG) העלתה דיבידנד ב-8% ודיווחה על הסכם גז ארוך טווח צמוד JKM",
+    "כותרת_en": "Published late | November 5 announcement | EOG Resources (EOG) raises dividend 8% and reports long-term JKM-linked gas sales deal",
+    "summary": "החברה גם אישרה הרחבה למפעל Janus. הסכם המכירה והאישור אינם הודעה שכל הקיבולת כבר פועלת.",
+    "summary_en": "The company also approved its Janus plant expansion. The sales agreement and approval do not mean all capacity is already operating.",
+    "טקסט": "בהודעת החברה מ-5 בנובמבר 2026, EOG מסרה שהדירקטוריון הכריז על דיבידנד רבעוני של 1.10 דולר למניה, עלייה של 8%. התשלום נקבע ל-29 בינואר 2027, לבעלי מניות רשומים ב-15 בינואר 2027. הקצב השנתי המשתמע הוא 4.40 דולר למניה, לא דיבידנד שנתי שכבר שולם.\n\nבנפרד, החברה אמרה שחתמה על הסכם חדש לטווח ארוך למכירת גז, הצמוד למחירי JKM, עם תחילה עד 2030. לדבריה, ההסכם מגדיל את החשיפה הכוללת שלה בחוזי גז להזנת LNG בשווקים בתמחור פרמיה ליותר ממיליארד רגל מעוקבת ליום עד 2030. **זהו נתון מצרפי בחוזים, לא נפח ההסכם החדש לבדו או אספקה שכבר מתבצעת.** שם הלקוח, מחיר העסקה והנפח הנפרד של ההסכם אינם מפורטים בקטע ההודעה.\n\nהחברה גם אישרה הרחבה של מפעל עיבוד הגז Janus באגן דלאוור. ההודעה אינה מפרטת כאן את תקציב ההרחבה, תוספת הקיבולת או יום ההפעלה. זהו אישור הרחבה, לא הודעה על השלמתה.\n\n**המקור מציין 5 בנובמבר ללא שעת פרסום מדויקת; שעת הפרסום המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In its November 5, 2026 company release, EOG said its board declared a quarterly dividend of $1.10 per share, an 8% increase. Payment is set for January 29, 2027 to shareholders of record on January 15, 2027. The indicated annual rate is $4.40 per share, not an annual dividend already paid.\n\nSeparately, the company said it signed a new long-term gas sales agreement linked to JKM pricing, starting by 2030. It said the deal lifts its aggregate premium-priced exposure across LNG feedgas contracts to more than 1 billion cubic feet per day by 2030. **That is an aggregate contract figure, not the new agreement's volume alone or supply already being delivered.** The customer, deal price and separate agreement volume are not specified in the release section.\n\nEOG also approved expansion of its Janus gas processing plant in the Delaware Basin. The release does not detail the expansion budget, incremental capacity or operating date here. This is an expansion approval, not a completion announcement.\n\n**The source gives November 5 without an exact publication time; the original publication time in Israel was not verified.**",
+    "קישור": "https://investors.eogresources.com/2026-11-05-EOG-Resources-Reports-Third-Quarter-2026-Results-and-Raises-Regular-Dividend-8",
+    "מקורות": [
+      {
+        "url": "https://investors.eogresources.com/2026-11-05-EOG-Resources-Reports-Third-Quarter-2026-Results-and-Raises-Regular-Dividend-8",
+        "label": "EOG: סעיפי הדיבידנד, הסכם הגז והרחבת Janus בהודעת 5 בנובמבר",
+        "label_en": "EOG: dividend, gas agreement and Janus expansion sections of November 5 release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "96ffa3fab2c0bee54e6722462a7daea4be0cfff61dd46af7cc1728d1b2bcf9da"
+      }
+    }
   }
 ]
