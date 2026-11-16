@@ -53749,5 +53749,38 @@
         "source_hash": "8bc8b550c94a50835fe8bf6f52ca16bcf6498983afb233883e79f5899db5d30c"
       }
     }
+  },
+  {
+    "מזהה": "n-1975",
+    "category": "company",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 01:12",
+    "כותרת": "NVIDIA (NVDA) מציגה ערכת DGX Spark למחקר עם עד ארבעה מחשבים מחוברים",
+    "כותרת_en": "NVIDIA (NVDA) introduces DGX Spark research kit with up to four connected systems",
+    "קישור": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+    "מקורות": [
+      {
+        "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "label": "NVIDIA Blog: ערכת DGX Spark HPC Developer Kit",
+        "label_en": "NVIDIA Blog: DGX Spark HPC Developer Kit"
+      }
+    ],
+    "טקסט": "17.11.2026, 01:00 בשעון ישראל. מטא-נתוני הפוסט מציגים 16.11 ב-23:00 UTC.\n\nNVIDIA הציגה בכנס SC26 בשיקגו את DGX Spark HPC Developer Kit, ערכה לחוקרים ולמפתחים המבוססת על עד ארבע מערכות DGX Spark. המערכות מתחברות בטבעת דרך ConnectX-7, ללא צורך במתג רשת נפרד. לפי החברה, תצורה של ארבע מערכות מספקת יחד 512 גיגה-בייט זיכרון ו-20 טרה-בייט אחסון NVMe.\n\nהערכה מיועדת לפיתוח, בדיקה והרצה מקומית של סימולציות ויישומי AI לפני העברה למרכז מחשוב גדול. החברה אומרת שהערכה זמינה למכירה ושהמחשבים והכבלים מוצעים דרך שותפות ייצור ו-NVIDIA Marketplace; רכישה ומלאי מקומי לא נבדקו. הוראות התקנה והרצה של NVIDIA HPC SDK עדיין מוגדרות כעתידיות בקרוב, ולא כתוכנה שכבר סופקה במלואה. לא נמסר מחיר כולל בפוסט.\n\nזהו פרסום נפרד מפלטפורמת Vera וממחקר המחשוב הקוונטי עם IBM ו-Fermilab. העדכון הקודם על Nemotron for Science כבר הזכיר הרצה על DGX Spark יחיד; החידוש כאן הוא ערכת הצבר הרב-מערכתית. נתוני הקיבולת ודוגמאות הביצועים הם תיאור של NVIDIA, לא בדיקת ביצועים עצמאית או הזמנת לקוח בעלת שווי שפורסם.",
+    "טקסט_en": "November 17, 2026, 01:00 Israel time. Post metadata shows November 16 at 23:00 UTC.\n\nNVIDIA introduced the DGX Spark HPC Developer Kit at SC26 in Chicago, a kit for researchers and developers built around up to four DGX Spark systems. The systems connect in a ring through ConnectX-7 without a separate network switch. The company says a four-system configuration provides a combined 512GB of memory and 20TB of NVMe storage.\n\nThe kit is intended for local development, testing and execution of simulations and AI applications before scaling to a larger computing center. NVIDIA says the kit is available for sale, with systems and cables offered through OEM partners and NVIDIA Marketplace; purchasing and local stock were not independently checked. The NVIDIA HPC SDK installation and execution playbook is still described as coming soon, not as a fully delivered software component. The post gives no total kit price.\n\nThis is separate from the Vera platform and quantum-computing research with IBM and Fermilab. The earlier Nemotron for Science item already mentioned running on a single DGX Spark; the new element here is the multi-system cluster kit. Capacity figures and performance examples are NVIDIA descriptions, not independent benchmarks or a customer order with disclosed value.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e1145515c386898cd0f5efbd3e29dcc4befc3d410752ccea8491c375f9a9e7dd"
+      }
+    },
+    "הועלה": "2026-11-17 01:12",
+    "summary": "ערכת מחשוב מקומית עם עד ארבע מערכות ו-512 גיגה-בייט זיכרון במצטבר; הוראות HPC SDK יגיעו בהמשך.",
+    "summary_en": "Local computing kit with up to four systems and 512GB combined memory; the HPC SDK playbook is coming soon."
   }
 ]
