@@ -52147,5 +52147,36 @@
         "source_hash": "56dab8cf7d79402c016f5151a238b0a08036f320178e5702e7b86a4d0f5f6c1c"
       }
     }
+  },
+  {
+    "מזהה": "n-1925",
+    "category": "micro",
+    "חברה": "Duke Energy (DUK)",
+    "חברה_en": "Duke Energy (DUK)",
+    "symbols": [
+      "DUK"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 17:40",
+    "הועלה": "2026-11-16 17:40",
+    "כותרת": "Duke Energy: מאות אתרים, חשבונות ופרסומות מתחזים הוסרו מאז נובמבר 2025",
+    "כותרת_en": "Duke Energy reports hundreds of impersonating sites, accounts and ads removed since November 2025",
+    "קישור": "https://www.prnewswire.com/news-releases/duke-energy-takes-down-hundreds-of-fake-websites-social-media-accounts-and-ads-to-help-protect-customers-302940627.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/duke-energy-takes-down-hundreds-of-fake-websites-social-media-accounts-and-ads-to-help-protect-customers-302940627.html",
+        "label": "Duke Energy: הודעת החברה המקורית דרך PRNewswire",
+        "label_en": "Duke Energy: original company announcement via PRNewswire"
+      }
+    ],
+    "טקסט": "16.11.2026, 10:23 בשעון מזרח ארה״ב, 17:23 בישראל.\n\nDuke Energy הודיעה שהסירה מאות אתרים מזויפים, חשבונות ברשתות חברתיות ופרסומות מקוונות שהתחזו לחברה מאז נובמבר 2025. זהו נתון מצטבר לתקופה, לא מספר הפריטים שהוסרו היום בלבד.\n\nלפי החברה, כלי נתמך AI מסייע לזהות תוכן מתחזה, לרבות מספרי שירות לקוחות ודפי תשלום מזויפים. לאחר זיהוי תוכן חשוד, החברה פועלת עם האתר או הפלטפורמה המארחת להסרתו. אין בהודעה טענה שהכלי מונע כל הונאה או מבצע את כל ההסרות לבדו.\n\nבצפון קרוליינה דווחו לחברה יותר מאלף ניסיונות הונאה מינואר עד ספטמבר 2026. זהו מספר דיווחים על ניסיונות, לא מספר קורבנות מאומת או סכום הפסדים. ההודעה אינה מתארת פריצה למערכות Duke Energy או דליפת נתוני לקוחות.\n\nלקראת יום המודעות להונאות שירותים ב-18 בנובמבר, החברה ושותפיה ממליצים לעצור מול לחץ לפעול מיד, לאמת פניות באמצעות פרטי הקשר שעל החשבון ולדווח על תוכן חשוד. אלה הנחיות הגנה ללקוחות, לא שינוי בתעריפים או בתחזית הכספית.",
+    "טקסט_en": "November 16, 2026 at 10:23 US Eastern time, 17:23 in Israel.\n\nDuke Energy said it has removed hundreds of fake websites, social-media accounts and online ads impersonating the company since November 2025. This is a cumulative figure for that period, not the number removed today alone.\n\nThe company says an AI-supported tool helps identify impersonating content, including fake customer-service numbers and payment pages. After suspected content is found, Duke Energy works with the hosting site or platform to remove it. The announcement does not claim that the tool prevents every scam or performs all takedowns by itself.\n\nCustomers in North Carolina reported more than a thousand scam attempts from January through September 2026. That counts reports of attempts, not verified victims or financial losses. The announcement does not describe a breach of Duke Energy's systems or a customer-data leak.\n\nAhead of Utility Scam Awareness Day on November 18, the company and its partners advise customers to pause under pressure, check contacts against details on their bill and report suspicious content. This is customer-protection guidance, not a change in rates or financial guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "9034b8c60f6f16de281a3df77bb2f91aad8135e052818d965d6b657e8db147d7"
+      }
+    }
   }
 ]
