@@ -50082,5 +50082,129 @@
         "source_hash": "64c3f7e898d067a82b024aac8c7c49b665419c1bb269b203a4cb772993b848d7"
       }
     }
+  },
+  {
+    "מזהה": "n-1859",
+    "category": "macro",
+    "חברה": "",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:35",
+    "הועלה": "2026-11-16 15:35",
+    "כותרת": "אמפייר סטייט בנובמבר: מדד הפעילות ירד ל-7.8 מ-25.5; התעסוקה התחזקה ועליות המחירים התמתנו",
+    "כותרת_en": "November Empire State: activity index falls to 7.8 from 25.5; employment strengthens and price increases moderate",
+    "קישור": "https://www.newyorkfed.org/survey/empire/empiresurvey_overview",
+    "מקורות": [
+      {
+        "url": "https://www.newyorkfed.org/survey/empire/empiresurvey_overview",
+        "label": "הפד של ניו יורק: סקר אמפייר סטייט לנובמבר",
+        "label_en": "New York Fed: November Empire State Manufacturing Survey"
+      },
+      {
+        "url": "https://www.newyorkfed.org/medialibrary/media/survey/empire/empire2026/2026_11_empire-state-manufacturing-survey.pdf",
+        "label": "דוח נובמבר הרשמי: מדדים ותקופת איסוף",
+        "label_en": "Official November report: indexes and collection period"
+      }
+    ],
+    "טקסט": "16.11.2026. הפד של ניו יורק פרסם את סקר אמפייר סטייט לנובמבר: מדד תנאי העסקים הכללי ירד ל-7.8 מ-25.5 באוקטובר, אך נשאר חיובי. לפי הסקר, הפעילות התעשייתית בניו יורק גדלה במתינות לאחר צמיחה חזקה בחודש הקודם. זהו מדד דיפוזיה אזורי, לא שיעור צמיחת התמ״ג או נתון לכל ארה״ב.\n\nמדד ההזמנות החדשות עמד על 3.0 והמשלוחים על 8.8, כך ששניהם עדיין מצביעים על עלייה. מדד העובדים עלה ל-18.1, הרמה הגבוהה מאז יוני 2022, ושבוע העבודה עלה ל-13.5. הזמנות שלא סופקו וזמני אספקה המשיכו לעלות.\n\nמדד המחירים ששולמו ירד ל-45.9 והמחירים שהתקבלו ל-27.2. זה מצביע על התמתנות בקצב העליות, לא על ירידת מחירים בפועל ולא על מדד CPI חדש. מדד התנאים העתידיים עלה ל-28.9 ותוכניות השקעות ההון ל-23.0; אלה ציפיות המשיבים, לא תחזית מחייבת של הפד.\n\nהתשובות נאספו בין 2 ל-9 בנובמבר. הפרסום נקבע ל-08:30 לפי שעון ניו יורק, שהם 15:30 בישראל, והנתון אומת בדף ובדוח הרשמי לאחר מועד זה. לא מובאת כאן תחזית קונצנזוס שלא אומתה.",
+    "טקסט_en": "November 16, 2026. The New York Fed released its November Empire State Manufacturing Survey: the general business conditions index fell to 7.8 from October's 25.5 but remained positive. The survey indicates modest growth in New York manufacturing after strong growth the prior month. This is a regional diffusion index, not GDP growth or a measure for the entire United States.\n\nThe new-orders index was 3.0 and shipments 8.8, both still indicating increases. Employment rose to 18.1, its highest level since June 2022, and the workweek index reached 13.5. Unfilled orders and delivery times continued increasing.\n\nPrices paid fell to 45.9 and prices received to 27.2. That indicates slower price increases, not falling price levels or a new CPI release. Future business conditions rose to 28.9 and capital-spending plans to 23.0. These reflect respondents' expectations, not a binding Federal Reserve forecast.\n\nResponses were collected November 2-9. Release was scheduled for 08:30 New York time, equivalent to 15:30 in Israel, and the figures were verified on the official page and report after that time. No unverified consensus forecast is supplied.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "219c2c14662576d2e2cf87491ca7c1883eacb9d541766ef014b570bfdeae29d6"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1860",
+    "category": "micro",
+    "חברה": "JNJ",
+    "symbols": [
+      "JNJ",
+      "BX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:35",
+    "הועלה": "2026-11-16 15:35",
+    "כותרת": "Johnson & Johnson חתמה על הסכם לרכישת Ollin ב-2.2 מיליארד דולר מראש ועד כ-1.125 מיליארד דולר באבני דרך",
+    "כותרת_en": "Johnson & Johnson signs Ollin acquisition agreement for $2.2 billion upfront and up to about $1.125 billion in milestones",
+    "קישור": "https://www.businesswire.com/news/home/20261116907414/en/Johnson-Johnson-to-acquire-Ollin-Biosciences-and-late-stage-bispecific-antibody-with-best-in-class-potential-in-ophthalmology",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261116907414/en/Johnson-Johnson-to-acquire-Ollin-Biosciences-and-late-stage-bispecific-antibody-with-best-in-class-potential-in-ophthalmology",
+        "label": "Johnson & Johnson דרך Business Wire: הסכם Ollin מ-16 בנובמבר",
+        "label_en": "Johnson & Johnson via Business Wire: November 16 Ollin agreement"
+      }
+    ],
+    "טקסט": "16.11.2026 לפי הודעת Johnson & Johnson, ללא שעת פרסום מאומתת. החברה הודיעה שחתמה על הסכם מחייב לרכישת Ollin Biosciences תמורת 2.2 מיליארד דולר מראש, בתוספת תשלומי אבני דרך רגולטוריות ומסחריות אפשריים של עד כ-1.125 מיליארד דולר.\n\nזהו מעבר ממגעים שדווחו קודם להסכם חתום, אך העסקה עדיין לא הושלמה. הסגירה צפויה לפני סוף 2026, בכפוף לאישורים רגולטוריים ולתנאי סגירה מקובלים. תשלומי אבני הדרך מותנים ואינם כולם תמורה שכבר שולמה.\n\nהרכישה אמורה להוסיף לצנרת את OLN324, נוגדן דו-ספציפי ניסיוני בשלב 3 המכוון ל-VEGF ול-Ang2, בפיתוח למחלות רשתית כגון ניוון מקולרי גילי רטוב ובצקת מקולרית סוכרתית. תיאורים של פוטנציאל ליעילות גבוהה יותר או לריווח טיפולים הם ציפיות החברה, לא אישור שיווק או תוצאה מובטחת למטופל.\n\nבנפרד ובכפוף לסגירת הרכישה, J&J תתקשר בהסדר מימון פיתוח עם Blackstone Life Sciences: Blackstone תשלם ל-J&J סך 750 מיליון דולר על פני מספר שנים למימון מלא של פיתוח שלב 3 של OLN324. בתמורה תהיה זכאית לאבני דרך רגולטוריות ומכירתיות ולתמלוגים חד-ספרתיים. המימון אינו תוספת למחיר שמשולם לבעלי Ollin, ואינו כולו מזומן שכבר התקבל.\n\nהטיפול החשבונאי יימסר עד הסגירה או במועד הסגירה. לא פורסמה בהודעה תחזית תרומה מאושרת לרווח למניה.",
+    "טקסט_en": "November 16, 2026 according to Johnson & Johnson's release, without a verified publication time. J&J announced a definitive agreement to acquire Ollin Biosciences for $2.2 billion upfront plus potential regulatory and commercial milestones of up to approximately $1.125 billion.\n\nThis advances the earlier reported talks to a signed agreement, but the acquisition has not closed. Closing is expected before the end of 2026, subject to regulatory approvals and customary conditions. Milestones are conditional, not all consideration already paid.\n\nThe acquisition would add OLN324, an investigational Phase 3 bispecific antibody targeting VEGF and Ang2, being developed for retinal diseases including wet age-related macular degeneration and diabetic macular edema. Claims of potentially better disease control or longer intervals between treatment are company expectations, not marketing approval or guaranteed patient outcomes.\n\nSeparately and contingent on acquisition close, J&J will enter a development-funding arrangement with Blackstone Life Sciences. Blackstone will pay J&J $750 million over multiple years to fully fund OLN324 Phase 3 development, in exchange for eligibility for regulatory and sales milestones and single-digit royalties. This funding is not additional consideration paid to Ollin holders or cash already fully received.\n\nAccounting treatment will be communicated on or before closing. No confirmed earnings-per-share contribution forecast was disclosed in the release.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "01996b15b903ed485366327bd3d87f97808e4736024fdb9daaa1ae608a674d08"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1861",
+    "category": "micro",
+    "חברה": "CRDO",
+    "symbols": [
+      "CRDO"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:35",
+    "הועלה": "2026-11-16 15:35",
+    "כותרת": "לפי The Fly, TD Cowen הוריד מחיר יעד ל-Credo ל-175 דולר מ-300 דולר והותיר המלצת Buy",
+    "כותרת_en": "The Fly: TD Cowen cuts Credo target to $175 from $300, maintains Buy",
+    "קישור": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-175-from-300-at-td-cowen-thefly-news",
+    "מקורות": [
+      {
+        "url": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-175-from-300-at-td-cowen-thefly-news",
+        "label": "The Fly דרך TipRanks: עדכון יעד Credo",
+        "label_en": "The Fly via TipRanks: Credo target update"
+      }
+    ],
+    "טקסט": "16.11.2026. לפי The Fly ב-TipRanks, האנליסט Sean O’Loughlin מבית TD Cowen הוריד את מחיר היעד ל-Credo (CRDO) ל-175 דולר מ-300 דולר והותיר המלצת Buy. מטא-נתוני הדף מציגים 13:01:57 UTC, שהם 15:01:57 בישראל; השעה אינה מוצגת בגוף הידיעה.\n\n**לא מאומת מול מקור ראשוני: זהו דיווח The Fly על עבודת האנליסט; דוח המחקר המקורי של TD Cowen לא אומת כאן.** לפי הדיווח, העדכון נעשה כחלק מסקירה מקדימה לעונת הדוחות בקבוצת מחשוב ושבבים, לא בעקבות תוצאות כספיות חדשות שמפרסמת החברה בידיעה הזאת.\n\nהאנליסט אומר שמניות רשתות מסוימות משקפות הפחתות משמעותיות לאומדני 2028, אך שלדעתו רקע ביקוש חזק מקשה לצפות להפחתה מהותית באומדני השוק בטווח הקרוב. אלו הערכות האנליסט, לא הנחיית הנהלה. הורדת מחיר יעד לצד Buy אינה הורדת ההמלצה ל-Sell, ומחיר היעד אינו מחיר שוק או תשואה מובטחת.",
+    "טקסט_en": "November 16, 2026. The Fly on TipRanks reports TD Cowen analyst Sean O’Loughlin lowered Credo's (CRDO) price target to $175 from $300 while maintaining Buy. Page metadata shows 13:01:57 UTC, equivalent to 15:01:57 in Israel; the time is not displayed in the article body.\n\n**Not verified against a primary source: this is The Fly's account of the analyst's research; TD Cowen's original note has not been verified here.** The report describes target changes in an off-cycle compute-semiconductor earnings preview, not new company financial results released in this item.\n\nThe analyst says some networking stocks appear to price material cuts to 2028 estimates, but believes a strong demand backdrop makes large near-term consensus cuts hard to see. These are analyst views, not management guidance. Lowering a target while retaining Buy is not a downgrade to Sell, and a price target is not a market price or guaranteed return.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6eaf0d7fa13423b0e0fe9bb3911eee8a7aebb6811bf1b088583c708a05cc424a"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1862",
+    "category": "micro",
+    "חברה": "CIEN",
+    "symbols": [
+      "CIEN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:35",
+    "הועלה": "2026-11-16 15:35",
+    "כותרת": "לפי The Fly, TD Cowen הוריד מחיר יעד ל-Ciena ל-375 דולר מ-400 דולר והותיר המלצת Buy",
+    "כותרת_en": "The Fly: TD Cowen cuts Ciena target to $375 from $400, maintains Buy",
+    "קישור": "https://www.tipranks.com/news/the-fly/ciena-price-target-lowered-to-375-from-400-at-td-cowen-thefly-news",
+    "מקורות": [
+      {
+        "url": "https://www.tipranks.com/news/the-fly/ciena-price-target-lowered-to-375-from-400-at-td-cowen-thefly-news",
+        "label": "The Fly דרך TipRanks: עדכון יעד Ciena",
+        "label_en": "The Fly via TipRanks: Ciena target update"
+      }
+    ],
+    "טקסט": "16.11.2026. לפי The Fly ב-TipRanks, האנליסט Sean O’Loughlin מבית TD Cowen הוריד את מחיר היעד ל-Ciena (CIEN) ל-375 דולר מ-400 דולר והותיר המלצת Buy. מטא-נתוני הדף מציגים 13:02:18 UTC, שהם 15:02:18 בישראל; השעה אינה מוצגת בגוף הידיעה.\n\n**לא מאומת מול מקור ראשוני: זהו דיווח The Fly על עבודת האנליסט; דוח המחקר המקורי של TD Cowen לא אומת כאן.** לפי הדיווח, העדכון נעשה כחלק מסקירה מקדימה לעונת הדוחות בקבוצת מחשוב ושבבים, לא בעקבות תוצאות כספיות חדשות שמפרסמת החברה בידיעה הזאת.\n\nהאנליסט אומר שמניות רשתות מסוימות משקפות הפחתות משמעותיות לאומדני 2028, אך שלדעתו רקע ביקוש חזק מקשה לצפות להפחתה מהותית באומדני השוק בטווח הקרוב. אלו הערכות האנליסט, לא הנחיית הנהלה. הורדת מחיר יעד לצד Buy אינה הורדת ההמלצה ל-Sell, ומחיר היעד אינו מחיר שוק או תשואה מובטחת.",
+    "טקסט_en": "November 16, 2026. The Fly on TipRanks reports TD Cowen analyst Sean O’Loughlin lowered Ciena's (CIEN) price target to $375 from $400 while maintaining Buy. Page metadata shows 13:02:18 UTC, equivalent to 15:02:18 in Israel; the time is not displayed in the article body.\n\n**Not verified against a primary source: this is The Fly's account of the analyst's research; TD Cowen's original note has not been verified here.** The report describes target changes in an off-cycle compute-semiconductor earnings preview, not new company financial results released in this item.\n\nThe analyst says some networking stocks appear to price material cuts to 2028 estimates, but believes a strong demand backdrop makes large near-term consensus cuts hard to see. These are analyst views, not management guidance. Lowering a target while retaining Buy is not a downgrade to Sell, and a price target is not a market price or guaranteed return.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3076e7f325836e295f331dfff300cff28c2c79265ff2f6f4bbc3b1e8f607c5a4"
+      }
+    }
   }
 ]
