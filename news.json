@@ -50447,5 +50447,99 @@
         "source_hash": "2256b22cd3f50fbe0a987586d1694ebf3866640898c4fc0dfa1370000cbce96a"
       }
     }
+  },
+  {
+    "מזהה": "n-1871",
+    "category": "micro",
+    "חברה": "BHF",
+    "symbols": [
+      "BHF",
+      "BHFAP",
+      "BHFAO",
+      "BHFAN",
+      "BHFAM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:45",
+    "הועלה": "2026-11-16 15:45",
+    "כותרת": "Brighthouse הכריזה על חלוקות לארבע סדרות מניות בכורה ופיקדון, לתשלום ב-28 בדצמבר",
+    "כותרת_en": "Brighthouse declares four preferred and depositary-share distributions payable December 28",
+    "קישור": "https://www.businesswire.com/news/home/20261116620901/en/Brighthouse-Financial-Announces-Preferred-Stock-Dividends-and-Related-Depositary-Share-Distributions",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261116620901/en/Brighthouse-Financial-Announces-Preferred-Stock-Dividends-and-Related-Depositary-Share-Distributions",
+        "label": "Brighthouse דרך Business Wire: חלוקות מניות בכורה",
+        "label_en": "Brighthouse via Business Wire: preferred distributions"
+      }
+    ],
+    "טקסט": "16.11.2026 לפי הודעת Brighthouse Financial, ללא שעת פרסום מאומתת. החברה הכריזה על חלוקות רבעוניות לארבע סדרות של מניות פיקדון המייצגות מניות בכורה לא-מצטברות. התשלום נקבע ל-28 בדצמבר 2026 לבעלי מניות רשומים ב-10 בדצמבר.\n\nלכל מניית פיקדון: סדרה A, בסימול BHFAP, תקבל 0.4125 דולר; סדרה B, BHFAO, תקבל 0.421875 דולר; סדרה C, BHFAN, תקבל 0.3359375 דולר; וסדרה D, BHFAM, תקבל 0.2890625 דולר.\n\nכל מניית פיקדון מייצגת 1/1,000 ממניית בכורה. לכן הדיבידנדים למניית הבכורה המלאה הם בהתאמה 412.50, 421.875, 335.9375 ו-289.0625 דולר, ואין לבלבל בינם לבין הסכום למניית הפיקדון הנסחרת. אלו חלוקות למכשירי הבכורה והפיקדון המסוימים, לא דיבידנד למניה הרגילה BHF. ההכרזה אינה קובעת את תשואת השוק במחיר המסחר הנוכחי או מבטיחה הכרזות עתידיות.",
+    "טקסט_en": "November 16, 2026 according to Brighthouse Financial's release, without a verified publication time. The company declared quarterly distributions for four depositary-share series representing non-cumulative preferred stock. Payment is scheduled for December 28, 2026 to holders of record December 10.\n\nPer depositary share: Series A, BHFAP, will receive $0.4125; Series B, BHFAO, $0.421875; Series C, BHFAN, $0.3359375; and Series D, BHFAM, $0.2890625.\n\nEach depositary share represents 1/1,000 of a preferred share. The corresponding dividends per full preferred share are $412.50, $421.875, $335.9375 and $289.0625, respectively, and should not be confused with amounts per traded depositary share. These distributions apply to the specified preferred and depositary securities, not BHF common stock. The announcement does not establish a yield at today's market price or guarantee future declarations.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8d0679f3aff9a74be613f42373a3e06fb597d94d94b3e8059e6327c1c1526a93"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1872",
+    "category": "micro",
+    "חברה": "ALL",
+    "symbols": [
+      "ALL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:45",
+    "הועלה": "2026-11-16 15:45",
+    "כותרת": "פורסם באיחור | Allstate אישרה דיבידנד רבעוני של 1.08 דולר, לתשלום ב-4 בינואר",
+    "כותרת_en": "Published late | Allstate approves $1.08 quarterly dividend payable January 4",
+    "קישור": "https://www.allstatenewsroom.com/news/allstate-announces-quarterly-dividend-payable-jan-4-2027/",
+    "מקורות": [
+      {
+        "url": "https://www.allstatenewsroom.com/news/allstate-announces-quarterly-dividend-payable-jan-4-2027/",
+        "label": "Allstate: הודעת דיבידנד מ-12 בנובמבר",
+        "label_en": "Allstate: November 12 dividend announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת Allstate מ-12.11.2026, ללא שעת פרסום מאומתת. דירקטוריון החברה אישר דיבידנד רבעוני במזומן של 1.08 דולר לכל מניה רגילה שבמחזור.\n\nהתשלום נקבע ל-4 בינואר 2027 לבעלי מניות רשומים בתום יום העסקים ב-30 בנובמבר 2026. זהו תשלום שהוכרז לעתיד, לא מזומן שכבר שולם היום.\n\nההודעה אינה קובעת תשואת השקעה במחיר המניה הנוכחי ואינה מבטיחה שכל דיבידנד עתידי יהיה באותו סכום. בהודעת החברה נמסרו מועד הרישום ומועד התשלום, ללא מועד אקס.",
+    "טקסט_en": "Published late | Allstate's November 12, 2026 release, without a verified publication time, says its board approved a quarterly cash dividend of $1.08 on each outstanding common share.\n\nPayment is scheduled for January 4, 2027 to stockholders of record at the close of business November 30, 2026. This is a declared future payment, not cash already paid today.\n\nThe release does not establish an investment yield at the current share price or guarantee the same amount for every future dividend. The company provides record and payment dates but does not state an ex-dividend date in this release.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "395fcf92c6584021b3e468fb783531e230d40ef349bbf3664cec2297a462b9ff"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1873",
+    "category": "micro",
+    "חברה": "HONA",
+    "symbols": [
+      "HONA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:45",
+    "הועלה": "2026-11-16 15:45",
+    "כותרת": "פורסם באיחור | Honeywell Aerospace הכריזה ב-28 באוקטובר על דיבידנד ראשון של 0.40 דולר",
+    "כותרת_en": "Published late | Honeywell Aerospace declared first $0.40 quarterly dividend October 28",
+    "קישור": "https://www.prnewswire.com/news-releases/honeywell-aerospace-declares-first-quarterly-cash-dividend-302921801.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/honeywell-aerospace-declares-first-quarterly-cash-dividend-302921801.html",
+        "label": "Honeywell Aerospace דרך PR Newswire: דיבידנד ראשון",
+        "label_en": "Honeywell Aerospace via PR Newswire: first dividend"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת Honeywell Aerospace פורסמה ב-28.10.2026 בשעה 16:05 שעון החוף המזרחי בארה״ב, שהם 22:05 בישראל. דירקטוריון החברה הכריז על הדיבידנד הרבעוני הראשון שלה: 0.40 דולר למניה רגילה.\n\nהתשלום נקבע ל-4 בדצמבר 2026 לבעלי מניות רשומים בתום יום העסקים ב-13 בנובמבר. מועד הרישום כבר עבר בעת פרסום עדכון זה; אין לראות בו הזמנה לרכוש כעת מניות כדי לקבל את התשלום הזה.\n\nהחברה קושרת את ההכרזה להפיכתה לחברה עצמאית לאחר הפיצול מ-Honeywell Technologies ב-29 ביוני 2026. המנכ״ל Jim Currier תיאר שילוב של השקעה בצמיחה, הקצאת הון והחזר לבעלי מניות. אלו דברי הנהלה, לא הבטחה לדיבידנדים עתידיים. 0.40 דולר הוא הסכום הרבעוני שהוכרז, לא תשואה ולא היסטוריה של ארבעה תשלומים בשנה שכבר בוצעו.",
+    "טקסט_en": "Published late | Honeywell Aerospace's release was published October 28, 2026 at 16:05 Eastern, equivalent to 22:05 in Israel. Its board declared the company's first quarterly cash dividend of $0.40 per common share.\n\nPayment is scheduled for December 4, 2026 to shareholders of record at the close of business November 13. The record date has already passed at the time of this update; this should not be read as an invitation to buy now to receive that payment.\n\nThe company links the declaration to becoming independent after its June 29, 2026 separation from Honeywell Technologies. CEO Jim Currier described investment in growth, capital allocation and shareholder returns. Those are management statements, not a guarantee of future dividends. The $0.40 figure is the declared quarterly amount, not a yield or a completed history of four annual payments.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "549b6dc87212384fd90107286475c53fc4642942cdcc910d4e6700506e533807"
+      }
+    }
   }
 ]
