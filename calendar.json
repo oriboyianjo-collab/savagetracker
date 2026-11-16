@@ -3302,17 +3302,23 @@
     "אירוע": "סקר גישה לאשראי - SCE",
     "חשיבות": 1,
     "מקור": "https://www.newyorkfed.org/research/calendars/nationalecon_cal",
-    "הערה": "מועד לפי לוח המקור; צפי וקודם לא אומתו. ללא נתון בפועל.",
+    "הערה": "אוקטובר מול יוני. הגשה: מי שביקשו אשראי ב-12 החודשים האחרונים. דחייה: מבין המגישים, מי שלפחות בקשה אחת שלהם נדחתה במלואה.\nSource: Survey of Consumer Expectations, © 2013-26 Federal Reserve Bank of New York (FRBNY). The SCE data are available without charge at www.newyorkfed.org and may be used subject to license terms posted there. FRBNY disclaims any responsibility for this analysis and interpretation of Survey of Consumer Expectations data.",
     "שעה": "18:00",
     "מזהה": "c-0130",
     "אירוע_en": "SCE Credit Access Survey",
-    "הערה_en": "Timing per the source calendar; estimate and prior not verified. No actual figure.",
+    "הערה_en": "October vs June. Appl.: respondents who applied for credit in the past 12 months. Rej.: among applicants, those with at least one application fully rejected.\nSource: Survey of Consumer Expectations, © 2013-26 Federal Reserve Bank of New York (FRBNY). The SCE data are available without charge at www.newyorkfed.org and may be used subject to license terms posted there. FRBNY disclaims any responsibility for this analysis and interpretation of Survey of Consumer Expectations data.",
     "_translation": {
       "en": {
-        "source_hash": "3c43f8fb91d82f5038ad698b2c5560e0f492ac9d784a2d90d85eb3deff822227",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "d4d78b27aedbc2ceff49499ea86bc2e267bfdace986159e4ebf49a8b59a0f21a"
       }
-    }
+    },
+    "תקופה": "אוקטובר 2026",
+    "תקופה_en": "October 2026",
+    "קודם": "הגשה 46.1% | דחייה 16.1%",
+    "קודם_en": "Appl. 46.1% | Rej. 16.1%",
+    "בפועל": "הגשה 42.1% | דחייה 18.3%",
+    "בפועל_en": "Appl. 42.1% | Rej. 18.3%"
   },
   {
     "תאריך": "2026-11-16",
