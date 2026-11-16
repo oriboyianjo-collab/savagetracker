@@ -46884,5 +46884,71 @@
         "source_hash": "05d83eee6627ab57c03c7f74491279649a3f2a2900c1594b6c78241ae454044c"
       }
     }
+  },
+  {
+    "מזהה": "n-1755",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:30",
+    "הועלה": "2026-11-16 10:30",
+    "חברה": "Citi",
+    "חברה_en": "Citi",
+    "symbols": [
+      "C"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 13 באוגוסט | Citi (C) חתמה על הסכם לרכישת Kard בתחום ההטבות והמסחר",
+    "כותרת_en": "Published late | August 13 | Citi (C) signs agreement to acquire rewards and commerce platform Kard",
+    "טקסט": "13.8.2026 | הודעת החברה המקורית; שעת הפרסום אינה ידועה.\n\nעסקי כרטיסי האשראי הצרכניים של Citi בארה\"ב הודיעו על הסכם לרכישת Kard Financial, המפעילה פלטפורמה להצעות מותאמות אישית, הטבות במימון בתי עסק וחיבור בין מוסדות פיננסיים לסוחרים על בסיס נתוני עסקאות.\n\nלפי Citi, הרכישה המתוכננת נועדה לשלב את הטכנולוגיה, העובדים וקשרי המותגים של Kard עם פעילות הכרטיסים והתשלומים שלה, כדי להרחיב תגמולים והצעות ללקוחות וערוצי שיווק לבתי עסק. אלה יעדי העסקה, לא תוצאות שילוב שכבר הושגו.\n\n**ההודעה מתארת הסכם לרכישה, לא השלמת עסקה.** ההשלמה כפופה לתנאי סגירה מקובלים, ועד אז שתי החברות אמורות לפעול בנפרד. לא אומתה כאן הודעת השלמה מאוחרת יותר.\n\nתנאי העסקה לא פורסמו, ו-Citi ציינה במפורש שאינם מהותיים לתוצאותיה הכספיות. לכן אין כאן בסיס לכמת תמורה, תוספת הכנסות, רווח או השפעה מהותית על הקבוצה. העדכון הוא על מהלך אסטרטגי היסטורי בפעילות הכרטיסים, לא על עסקה חדשה בנובמבר.",
+    "טקסט_en": "August 13, 2026 | Original company announcement; publication hour unknown.\n\nCiti's U.S. Consumer Cards business announced an agreement to acquire Kard Financial, which operates a platform for personalized offers, merchant-funded rewards and connections between financial institutions and merchants using transaction data.\n\nCiti says the proposed acquisition is intended to combine Kard's technology, talent and brand relationships with its cards and payments business to expand customer rewards and offers and merchant marketing opportunities. These are the transaction's aims, not integration outcomes already achieved.\n\n**The announcement describes an acquisition agreement, not a completed transaction.** Closing is subject to customary conditions, and the two companies are to remain independent until then. No later closing announcement was verified here.\n\nThe terms were not disclosed, and Citi explicitly said they are not material to its financial results. There is therefore no basis here to quantify the price, additional revenue, profit or a material group-wide impact. This is a historical strategic move in the cards business, not a new November deal.",
+    "קישור": "https://www.citigroup.com/global/news/press-release/2026/citi-expands-customer-engagement-commerce-media-capabilities-kard-addition",
+    "מקורות": [
+      {
+        "url": "https://www.citigroup.com/global/news/press-release/2026/citi-expands-customer-engagement-commerce-media-capabilities-kard-addition",
+        "label": "Citi: הודעת ההסכם לרכישת Kard, 13 באוגוסט",
+        "label_en": "Citi: Kard acquisition agreement announcement, August 13"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1b2f46d29fdc2bc5d040f56dcf0dd9ac03041f237b5fd4dc9e3e9101dc0995a0"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1756",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:30",
+    "הועלה": "2026-11-16 10:30",
+    "חברה": "Halliburton",
+    "חברה_en": "Halliburton",
+    "symbols": [
+      "HAL"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 11 בנובמבר | דיווח: Halliburton (HAL) נבחרה לשירותי בארות בפרויקט הגיאותרמי Vector בנבאדה",
+    "כותרת_en": "Published late | November 11 | Report: Halliburton (HAL) selected for well services at Nevada geothermal Project Vector",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\n11.11.2026 | דיווח מלא של World Oil; שעת הפרסום המקורית אינה ידועה.\n\nלפי World Oil, Sage Geosystems בחרה ב-Halliburton לספק שירותי מלט וגירוי מאגר בפרויקט Vector, מערכת גיאותרמית משופרת בשתי בארות באתר תחנת הכוח Blue Mountain של Ormat בנבאדה.\n\nהיקף השירותים המתואר כולל תכנון, בדיקות והזרקת מלט לשמירת תקינות הבאר והפרדה בין שכבות, וכן מודלים של תת-הקרקע, תכנון נוזלים, כמויות שלבי ההזרקה, לוחות שאיבה וביצוע בשטח לצורך גירוי המאגר. Sage אמורה להוביל את תכנון והטמעת הטכנולוגיה שלה ואת שילוב הנדסת תת-הקרקע עם תפעול הבארות.\n\nהמערכת מתוכננת לספק חום גיאותרמי לתחנה הקיימת, שתמיר אותו לחשמל. מטרת הפרויקט היא להדגים שאפשר לחזור על הטכנולוגיה ולהרחיב אותה לקנה מידה מסחרי.\n\n**בחירת ספק השירותים אינה אישור שהפרויקט הושלם, החל לייצר חשמל או הוכיח ביצועים מסחריים.** הדיווח אינו מפרט שווי הזמנה, תרומה כספית ל-Halliburton או הספק ייצור שאומת בפועל. יעדי אמינות, צמצום אובדן מים ואנרגיה וחשמל רציף הם יעדי הטכנולוגיה, לא תוצאות תפעוליות מאומתות של Vector.",
+    "טקסט_en": "**Not verified against a primary source**\nNovember 11, 2026 | Full World Oil report; original publication hour unknown.\n\nAccording to World Oil, Sage Geosystems selected Halliburton to provide cementing and stimulation services for Project Vector, a two-well enhanced geothermal system at Ormat's Blue Mountain power plant in Nevada.\n\nThe described scope includes cement design, testing and pumping for well integrity and zonal isolation, plus subsurface modeling, fluid-system design, stage volumes, pumping schedules and field execution for reservoir stimulation. Sage is to lead the design and implementation of its technology and the integration of subsurface engineering with well operations.\n\nThe system is intended to deliver geothermal heat to the existing plant for conversion into electricity. The project aims to demonstrate that the technology can be repeated and scaled commercially.\n\n**Selecting a service provider does not confirm that the project is complete, generating electricity or has demonstrated commercial performance.** The report does not state an order value, Halliburton financial contribution or verified operating generation capacity. Reliability, lower water and energy losses and continuous power are technology aims, not verified Vector operating results.",
+    "קישור": "https://www.worldoil.com/news/2026/11/11/halliburton-to-support-sage-geosystems-nevada-egs-project/",
+    "מקורות": [
+      {
+        "url": "https://www.worldoil.com/news/2026/11/11/halliburton-to-support-sage-geosystems-nevada-egs-project/",
+        "label": "World Oil: דיווח על בחירת Halliburton, 11 בנובמבר",
+        "label_en": "World Oil: report on Halliburton selection, November 11"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6911dfd4e9a9f46441cfcf01795acefa124873cfaea98c8023295c2d13fb5adb"
+      }
+    }
   }
 ]
