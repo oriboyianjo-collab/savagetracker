@@ -47624,5 +47624,29 @@
         "source_hash": "afc5455524a2ca290c32b217931bd7522ec55771718d096fb918e55a7571d2cd"
       }
     }
+  },
+  {
+    "מזהה": "n-1778",
+    "category": "macro",
+    "תאריך": "2026-11-16 12:41",
+    "הועלה": "2026-11-16 12:41",
+    "כותרת": "פורסם באיחור | ארה״ב ותשע שותפות חתמו על הצהרת סן פרנסיסקו להגנת שרשראות האספקה של AI",
+    "כותרת_en": "Published late | US and nine partners sign San Francisco Declaration on AI supply-chain security",
+    "קישור": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity",
+    "מקורות": [
+      {
+        "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity",
+        "label": "מחלקת המדינה האמריקאית: ההודעה והנוסח המלא מ-15 בנובמבר",
+        "label_en": "US State Department: November 15 announcement and full declaration"
+      }
+    ],
+    "טקסט": "פורסם באיחור | ההודעה הרשמית והחתימה מתוארכות ל-15.11.2026. שעת פרסום המקור בישראל לא אומתה.\n\nמחלקת המדינה האמריקאית הודיעה שארה״ב ותשע משתתפות ב-Pax Silica חתמו על הצהרת סן פרנסיסקו במסגרת מפגש שכינס תת-מזכיר המדינה לעניינים כלכליים ג׳ייקוב הלברג. לצד ארה״ב, ההצהרה פורסמה בידי ממשלות אוסטרליה, הודו, ישראל, יפן, דרום קוריאה, קטאר, סינגפור, איחוד האמירויות ובריטניה.\n\nהמסמך קובע הבנה משותפת של טכנולוגיות רגישות ותשתיות חיוניות לשרשראות האספקה של בינה מתקדמת: בין היתר ציוד, תוכנה, חומרים וידע, וכן נמלים, תחבורה, תקשורת, לוגיסטיקה, אנרגיה ופלטפורמות דיגיטליות. המשתתפות מצהירות שהגנתן היא מאמץ משותף ומדגישות גיוון ספקים וצמצום תלות עודפת.\n\nההצהרה מביעה כוונה להקים קבוצות עבודה; ההודעה מונה חמש קבוצות מוצעות בתחומי מדיניות חדשנות, אימוץ בינה מתקדמת, שיתוף פעולה בשרשראות אספקה, מרכזי ביטחון לשרשראות אספקה וחוסן. אלה צעדי המשך מתוכננים, לא הוכחה שקבוצות כבר פועלות או שנחתמו השקעות ועסקאות רכש.\n\nהחידוש הוא חתימת מסגרת רב-צדדית מוגדרת. הנוסח שנבדק אינו מפרסם רשימת יצוא משותפת שהושלמה, איסור יצוא חדש או החלטת רישוי שנכנסה לתוקף. עשר הממשלות המנויות כאן הן משתתפות ההצהרה הזו, לא בהכרח כל החברות ביוזמת Pax Silica הרחבה.",
+    "טקסט_en": "Published late | The official announcement and signing are dated November 15, 2026. The source's original publication time in Israel was not verified.\n\nThe US State Department announced that the United States and nine Pax Silica participants signed the San Francisco Declaration at a retreat convened by Under Secretary for Economic Affairs Jacob Helberg. Alongside the US, the declaration was released by the governments of Australia, India, Israel, Japan, South Korea, Qatar, Singapore, the United Arab Emirates and the United Kingdom.\n\nThe text sets out a common understanding of sensitive technologies and critical infrastructure underpinning advanced-AI supply chains. These include equipment, software, materials and knowledge, as well as ports, transport, communications, logistics, energy and digital platforms. Participants describe their protection as a shared endeavor and emphasize diversification and reducing excessive dependencies.\n\nThe declaration resolves to establish working groups. The announcement lists five proposed groups covering innovation policy, advanced-AI adoption, supply-chain cooperation, supply-chain security hubs and resilience. These are planned next steps, not evidence that the groups already operate or that investments and procurement contracts have been signed.\n\nThe new stage is the signing of a defined multilateral framework. The text reviewed does not publish a completed joint export-control list, a new export ban or a licensing decision already in force. The ten governments named here participate in this declaration, not necessarily the entire wider Pax Silica initiative.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4b9b41df53cbba3807f5c5ebdd695bce5934a0bfe1c187234ec539390605287f"
+      }
+    }
   }
 ]
