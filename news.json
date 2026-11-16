@@ -52806,5 +52806,34 @@
         "source_hash": "f5fc3ba6606ada9ea2b57d659528d83c2c0b3d3dba70936322f1dfc7351495cc"
       }
     }
+  },
+  {
+    "מזהה": "n-1946",
+    "category": "macro",
+    "חברה": "ארהב וקנדה",
+    "חברה_en": "United States and Canada",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:39",
+    "הועלה": "2026-11-16 19:39",
+    "כותרת": "Fitch: התחזית האזורית לריבונויות בצפון אמריקה מידרדרת בשל סיכונים פיסקליים בארהב; לא הורדת דירוג",
+    "כותרת_en": "Fitch: North American sovereign sector outlook deteriorates on US fiscal risks; not a rating downgrade",
+    "קישור": "https://www.fitchratings.com/research/sovereigns/north-american-sovereign-outlook-deteriorating-on-us-fiscal-risks-16-11-2026",
+    "מקורות": [
+      {
+        "url": "https://www.fitchratings.com/research/sovereigns/north-american-sovereign-outlook-deteriorating-on-us-fiscal-risks-16-11-2026",
+        "label": "Fitch Ratings: non-rating action commentary, November 16",
+        "label_en": "Fitch Ratings: non-rating action commentary, November 16"
+      }
+    ],
+    "טקסט": "פרסום Fitch מ-16.11.2026, 12:30 בשעון מזרח ארה״ב, 19:30 בישראל.\n\nFitch העניקה תחזית אזורית של \"הידרדרות\" לריבונויות בצפון אמריקה, בשל סיכונים פיסקליים משמעותיים בארהב. הסוכנות מצביעה על ממשל מפוצל, סבירות גבוהה יותר להשבתות ממשל וסיכון לעימותים סביב תקרת החוב.\n\n**הפרסום מסומן במפורש כפרשנות שאינה פעולת דירוג. זו תחזית אזורית, לא הורדת דירוג האשראי של ארהב או קנדה ולא הודעה על העברת תחזית הדירוג הלאומית שלהן ל-Negative.**\n\nלפי הערכת Fitch, הרוב הדמוקרטי בשני בתי הקונגרס צפוי להגביר פיקוח על מדיניות הממשל. הסוכנות צופה צמיחה אמריקאית עמידה, לצד תנאי מימון הדוקים שיכבידו בין היתר על הדיור; היא צופה גירעון של הממשלה הכללית בשיעור 7.6% מהתוצר ויחס חוב לתוצר של 121%. אלה תחזיות הסוכנות, לא נתוני ביצוע חדשים.\n\nבקנדה Fitch צופה צמיחה של 1.5% ב-2027 לעומת 1% ב-2026, עם סיכוני ירידה עקב מתיחות הסחר עם ארהב. היא צופה גירעון בסיסי של הממשלה הכללית סביב 2% מהתוצר ועלייה ביחס החוב הגולמי לתוצר ל-93%. לא נמסרה בפרשנות טענה מאומתת לתגובת שוק.",
+    "טקסט_en": "Fitch publication dated November 16, 2026 at 12:30 US Eastern time, 19:30 in Israel.\n\nFitch assigned a deteriorating regional outlook to North American sovereigns, citing significant US fiscal risks. It pointed to divided government, a greater likelihood of government shutdowns and the risk of debt-ceiling brinkmanship.\n\n**The publication is explicitly labeled non-rating action commentary. This is a regional sector outlook, not a downgrade of the United States or Canada's sovereign credit ratings, or an announcement that their individual rating Outlooks have been changed to Negative.**\n\nFitch expects Democratic majorities in both houses of Congress to increase oversight of the administration's policies. It forecasts resilient US growth but tight financing conditions weighing on sectors including housing, a general government deficit of 7.6% of GDP and a debt-to-GDP ratio rising to 121%. These are the agency's forecasts, not newly reported outcomes.\n\nFor Canada, Fitch forecasts growth of 1.5% in 2027 versus 1% in 2026, with downside risks from US trade tensions. It expects an underlying general government deficit around 2% of GDP and gross government debt rising to 93% of GDP. The commentary does not establish a market reaction.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "569f5715c94569ba1d426b119f30bd47522ba05b51f1d8d43149f3c8be3faf85"
+      }
+    }
   }
 ]
