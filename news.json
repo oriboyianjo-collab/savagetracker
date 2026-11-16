@@ -53194,5 +53194,36 @@
         "source_hash": "cbd7977cbb23ad2642b995b3624157d75af48f1b355f636652e0fcf59b281e38"
       }
     }
+  },
+  {
+    "מזהה": "n-1958",
+    "category": "macro",
+    "חברה": "",
+    "חברה_en": "",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 21:32",
+    "הועלה": "2026-11-16 21:32",
+    "כותרת": "נתוני Ramp לאוקטובר: 56.8% מהעסקים במדגם שילמו על AI; פער גדול בהוצאה לעובד",
+    "כותרת_en": "Ramp October data: 56.8% of sampled businesses paid for AI, with a wide spending gap per employee",
+    "summary": "ההוצאה החציונית לעובד בקרב חברות משלמות הייתה 16.32 דולר; אין מדובר בכלל העסקים בארה״ב.",
+    "summary_en": "Median-firm spending among AI-paying firms was $16.32 per employee, not a measure of all US businesses.",
+    "קישור": "https://ramp.com/data/ai-index",
+    "מקורות": [
+      {
+        "url": "https://ramp.com/data/ai-index",
+        "label": "Ramp AI Index: October 2026 data and methodology",
+        "label_en": "Ramp AI Index: October 2026 data and methodology"
+      }
+    ],
+    "טקסט": "**שעת הפרסום הראשונה של נתוני אוקטובר אינה ידועה.**\n\nנתוני אוקטובר 2026, לא הודעה על תוצאות נובמבר.\n\nלפי Ramp AI Index, שיעור העסקים במדגם עם תשלום מזוהה על מוצר או שירות AI הגיע באוקטובר ל-56.8%, לעומת 55.8% בספטמבר. המדגם מבוסס על יותר מ-85 אלף עסקים אמריקאיים ב-Ramp ועל נתוני כרטיסים עסקיים ותשלום חשבונות. זהו מדד של לקוחות הפלטפורמה, לא נתון רשמי או אומדן מייצג של כלל העסקים בארה״ב.\n\nבקרב חברות ששילמו על AI, ההוצאה החודשית לעובד בחברה החציונית הייתה 16.32 דולר. בקבוצת 10% העליונים החציון בתוך הקבוצה היה 800.84 דולר לעובד, ובקבוצת 1% העליונים 10,199.20 דולר. אלה חציונים בתוך קבוצות שונות, לא ממוצעים של כלל החברות או סכומים שמשלם כל עובד.\n\nחלקו של AI בהוצאות העסקיות, ללא שכר, ירד מ-5.68% בספטמבר ל-5.43% באוקטובר. שימוש בכלים חינמיים או דרך חשבונות אישיים עשוי שלא להופיע בעסקאות Ramp, וההערכות עשויות להתעדכן. הנתונים מצביעים על פיזור רחב בהוצאה הנמדדת, לא על תקציב מחייב או תחזית הכנסות לספק AI מסוים.",
+    "טקסט_en": "**The first publication time of the October data is unknown.**\n\nThese are October 2026 data, not November results.\n\nAccording to Ramp AI Index, the share of sampled businesses with an observed payment for an AI product or service reached 56.8% in October, versus 55.8% in September. The sample uses more than 85,000 US businesses on Ramp and corporate card and bill-pay data. It measures platform customers, not an official statistic or a representative estimate of all US businesses.\n\nAmong firms paying for AI, the median firm spent $16.32 per employee per month. The median within the top 10% group was $800.84 per employee, and within the top 1% group it was $10,199.20. These are medians within different groups, not averages across all firms or amounts paid by every employee.\n\nAI's share of business spending, excluding payroll, fell from 5.68% in September to 5.43% in October. Free tools or use through personal accounts may not appear in Ramp transactions, and estimates can be revised. The figures show a wide distribution of observed spending, not committed budgets or revenue guidance for any particular AI provider.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7d0065348d1b28b1a3c99ff4356cdb1c56f54205d757fcf8d611fa0ff7b82ced"
+      }
+    }
   }
 ]
