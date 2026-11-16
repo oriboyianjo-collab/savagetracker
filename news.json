@@ -53013,12 +53013,12 @@
         "label_en": "Reuters via The Korea Times, citing CNBC"
       }
     ],
-    "טקסט": "**לא אומת מול מקור ראשוני. שעת הפרסום המקורית של CNBC אינה ידועה.**\n\nReuters ב-The Korea Times מדווחת כי לפי CNBC, דירקטוריון NVIDIA אינו שוקל להחזיר את Jensen Huang לתפקיד המנכ״ל. CNBC מצוטטת כמסתמכת על אדם הבקיא בנושא.\n\nהפרסום ב-The Korea Times מתוארך ל-17.11.2026 בשעה 03:10 בקוריאה, 16.11 בשעה 20:10 בישראל. זו שעת הפרסום החוזר, לא שעת הדיווח המקורי של CNBC.\n\nזהו דיווח על עמדה המיוחסת לדירקטוריון, לא אישור עצמאי של הטענה או הודעה רשמית של NVIDIA. הדיווח אינו קובע שהתקיימה הצבעה או שהוחלט על איסור קבוע על חזרה.",
-    "טקסט_en": "**Not verified against a primary source. The original CNBC publication time is unknown.**\n\nReuters via The Korea Times says CNBC reported that NVIDIA's board is not considering bringing Jensen Huang back as CEO. CNBC is cited as relying on a person familiar with the matter.\n\nThe Korea Times item is dated November 17, 2026 at 03:10 in Korea, November 16 at 20:10 in Israel. This is the republication time, not the original CNBC report time.\n\nThis reports a position attributed to the board, not independent confirmation of the claim or an official NVIDIA announcement. It does not establish that a vote took place or that a permanent ban on a return was decided.",
+    "טקסט": "**פורסם באיחור.**\n\n**לא אומת מול מקור ראשוני. שעת הפרסום המקורית של CNBC אינה ידועה.**\n\nReuters ב-The Korea Times מדווחת כי לפי CNBC, דירקטוריון NVIDIA אינו שוקל להחזיר את Jensen Huang לתפקיד המנכ״ל. CNBC מצוטטת כמסתמכת על אדם הבקיא בנושא.\n\nהפרסום ב-The Korea Times מתוארך ל-17.11.2026 בשעה 03:10 בקוריאה, 16.11 בשעה 20:10 בישראל. זו שעת הפרסום החוזר, לא שעת הדיווח המקורי של CNBC.\n\nזהו דיווח על עמדה המיוחסת לדירקטוריון, לא אישור עצמאי של הטענה או הודעה רשמית של NVIDIA. הדיווח אינו קובע שהתקיימה הצבעה או שהוחלט על איסור קבוע על חזרה.",
+    "טקסט_en": "**Published late.**\n\n**Not verified against a primary source. The original CNBC publication time is unknown.**\n\nReuters via The Korea Times says CNBC reported that NVIDIA's board is not considering bringing Jensen Huang back as CEO. CNBC is cited as relying on a person familiar with the matter.\n\nThe Korea Times item is dated November 17, 2026 at 03:10 in Korea, November 16 at 20:10 in Israel. This is the republication time, not the original CNBC report time.\n\nThis reports a position attributed to the board, not independent confirmation of the claim or an official NVIDIA announcement. It does not establish that a vote took place or that a permanent ban on a return was decided.",
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "be5fd0c2d5fb4c3ca1e5d0b438bbc3a7ac20894b6f400fda568816e1e091c351"
+        "source_hash": "6d725c526e082b7e78cc424d36f5bfa64e961ff826219679db2333dce397c419"
       }
     },
     "summary": "דיווח המיוחס ל-CNBC ולמקור אנונימי; לא הודעה רשמית של NVIDIA.",
