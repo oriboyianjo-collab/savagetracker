@@ -46669,5 +46669,82 @@
         "source_hash": "122d0bba9e87d61eb2a645a555290e9883d7862813e409835d0caf09b4a0a89e"
       }
     }
+  },
+  {
+    "מזהה": "n-1749",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:09",
+    "הועלה": "2026-11-16 10:09",
+    "חברה": "Allegro MicroSystems",
+    "חברה_en": "Allegro MicroSystems",
+    "symbols": [
+      "ALGM"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 5 בנובמבר | Allegro MicroSystems (ALGM) הציגה רכיבי כוח וחישה למערכות סיוע לנהיגה ב-12 ו-48 וולט",
+    "כותרת_en": "Published late | November 5 | Allegro MicroSystems (ALGM) introduces power and sensing components for 12V and 48V driver-assistance systems",
+    "טקסט": "הודעת החברה המקורית מ-5 בנובמבר 2026: Allegro MicroSystems הציגה סל רכיבי כוח וחישה למערכות סיוע מתקדמות לנהיגה (ADAS), עם יישומים בהיגוי ובבלימה. הסל כולל את דרייברי השער AMD89106 ו-AMD89186, חיישן המומנט ההשראותי A17810 ושבב ניהול ההספק ל-48 וולט A81481.\n\nלפי החברה, שני הדרייברים חולקים תצורת מעגל ומפת אוגרים תואמות, כדי לאפשר שימוש חוזר בתכנון ובתוכנה במעבר מ-12 ל-48 וולט. חיישן המומנט פועל ללא מגנטים, ושבב ניהול ההספק משלב רכיבים ואבחון בטיחות במארז יחיד. **הפחתה של עד 50% בעלות רשימת הרכיבים (BOM) היא טענת החברה לגבי פתרון ניהול ההספק, לא חיסכון מוכח לכל לקוח או רווח כספי שכבר נרשם.**\n\nהחברה הפנתה לקבלת דגימות ותמיכה בהערכה. **זו הכרזה על מוצרים, לא הודעה על זכייה אצל יצרנית רכב, הזמנת רכש, ייצור סדרתי או הכנסה חדשה.** אימוץ מסחרי והביצועים בפועל עדיין תלויים בהערכת הלקוחות ובפיתוח. תערוכת electronica במינכן, שהוזכרה בהודעה לתאריכים 10–13 בנובמבר, כבר הסתיימה.\n\nהמקור מציג תאריך אך לא שעת פרסום מדויקת; שעת הפרסום המקורית בישראל לא אומתה.",
+    "טקסט_en": "Allegro MicroSystems' original November 5, 2026 announcement introduces a power and sensing portfolio for advanced driver assistance systems (ADAS), including steering and braking applications. The portfolio includes AMD89106 and AMD89186 gate drivers, the A17810 inductive torque sensor and the A81481 48V power-management IC.\n\nThe company says the two gate drivers have compatible circuit-board footprints and register maps to support reuse of designs and software when moving from 12V to 48V. The torque sensor does not require magnets, while the power-management IC integrates components and safety diagnostics in one device. **Up to 50% lower bill-of-materials (BOM) cost is a company claim about the power-management solution, not proven savings for every customer or financial profit already recorded.**\n\nThe company points to samples and evaluation support. **This is a product announcement, not an automaker design win, purchase order, series-production award or new revenue announcement.** Commercial adoption and actual performance still depend on customer evaluation and development. The electronica event in Munich mentioned for November 10-13 has already ended.\n\nThe source gives a date but no exact publication time; the original publication time in Israel was not verified.",
+    "קישור": "https://www.allegromicro.com/en/about-allegro/newsroom/press-releases/2026/48v-power-and-precision-sensing-solutions-for-adas",
+    "מקורות": [
+      {
+        "url": "https://www.allegromicro.com/en/about-allegro/newsroom/press-releases/2026/48v-power-and-precision-sensing-solutions-for-adas",
+        "label": "Allegro MicroSystems: הודעת סל הרכיבים המקורית, 5 בנובמבר",
+        "label_en": "Allegro MicroSystems: original component portfolio announcement, November 5"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "584a5a3345d548a53f8c0cb0f6c04a76c2371ecd9dfea42262c41cb2c73e8618"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1750",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:09",
+    "הועלה": "2026-11-16 10:09",
+    "חברה": "The Brink's Company / NCR Atleos",
+    "חברה_en": "The Brink's Company / NCR Atleos",
+    "symbols": [
+      "BCO",
+      "NATL"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 8 באוקטובר | Brink's (BCO): ה-CMA הסכימה לבחון פתרון במכירת NoteMachine ו-TestLink UK בעסקת NCR Atleos (NATL)",
+    "כותרת_en": "Published late | October 8 | Brink's (BCO): CMA agrees to consider NoteMachine and TestLink UK remedy for NCR Atleos (NATL) deal",
+    "טקסט": "8.10.2026 | הודעת Brink's פורסמה ב-05:09 שעון החוף המזרחי בארה\"ב, 12:09 בישראל.\n\nBrink's דיווחה שה-CMA הבריטית קיבלה עקרונית לבחינה את הפתרון שהציעה לרכישת NCR Atleos: מכירת NoteMachine בבריטניה ופעילות TestLink בבריטניה. NoteMachine מספקת שירותי כספומטים וניהול מזומנים, ו-TestLink מספקת חלקי חילוף לכספומטים.\n\nלפי ה-CMA, שתי החברות יחד מפעילות יותר ממחצית הכספומטים בבריטניה, והעסקה עלולה לפגוע בתחרות בהפעלה ובתחזוקה. הרשות מצאה בסיס להאמין שההתחייבויות עשויות לתת מענה לחששות, והודיעה שתבחן אותן בפירוט, תבקש משוב מצדדים שלישיים ותבחן קונים אפשריים.\n\n**קבלה עקרונית אינה אישור סופי לעסקה ואינה השלמת הרכישה או מכירת הנכסים.** בדף התיק הרשמי שנבדק ב-16 בנובמבר התיק עדיין מסומן כפתוח, והשלב המהותי האחרון המוצג הוא החלטת 8 באוקטובר לבחון את ההתחייבויות; לא מוצג שם אישור סופי.\n\nבהודעת אוקטובר החברה צפתה השלמה בתחילת הרבעון הראשון של 2027, וחזרה על יעד סינרגיות עלות בקצב שנתי של 200 מיליון דולר בתוך שלוש שנים מההשלמה. **אלה צפי ויעד של החברה מתאריך ההודעה, לא השלמה או חיסכון שכבר הושגו.**",
+    "טקסט_en": "October 8, 2026 | Brink's announcement was published at 05:09 US Eastern time, 12:09 in Israel.\n\nBrink's said the UK Competition and Markets Authority (CMA) accepted in principle for consideration its proposed remedy for the acquisition of NCR Atleos: selling NoteMachine in the UK and the UK business of TestLink. NoteMachine provides ATM and cash-management services, while TestLink supplies ATM spare parts.\n\nThe CMA says the two companies together operate over half of UK ATMs and the deal could reduce competition in ATM operation and maintenance. The regulator found reasonable grounds to believe the undertakings might address its concerns and said it would examine them in detail, seek third-party feedback and consider potential buyers.\n\n**Acceptance in principle is not final merger clearance, completion of the acquisition or completion of the asset sales.** The official case page checked on November 16 still labels the case open. The latest substantive stage shown is the October 8 decision to consider undertakings; it does not show final clearance.\n\nIn the October announcement, the company expected closing early in the first quarter of 2027 and reiterated a target of $200 million in annual run-rate cost synergies within three years of closing. **Those are company expectations and a target as of that announcement, not closing or savings already achieved.**",
+    "קישור": "https://investors.brinks.com/news-releases/news-release-details/brinks-receives-cma-acceptance-principle-proposed-remedy/",
+    "מקורות": [
+      {
+        "url": "https://investors.brinks.com/news-releases/news-release-details/brinks-receives-cma-acceptance-principle-proposed-remedy/",
+        "label": "Brink's: הודעת הפתרון המוצע, 8 באוקטובר",
+        "label_en": "Brink's: proposed remedy announcement, October 8"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/cma-considers-proposals-to-address-concerns-over-cash-machine-deal",
+        "label": "CMA: הודעת בחינת ההתחייבויות, 8 באוקטובר",
+        "label_en": "CMA: undertakings consideration announcement, October 8"
+      },
+      {
+        "url": "https://www.gov.uk/cma-cases/the-brinks-company-slash-ncr-atleos-corporation-merger-inquiry",
+        "label": "CMA: דף התיק הרשמי, נבדק ב-16 בנובמבר",
+        "label_en": "CMA: official case page, checked November 16"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e738d0db923f8d9dbcd8dd4e419f2e4b7dc6870776899590604fd385818079c7"
+      }
+    }
   }
 ]
