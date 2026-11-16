@@ -3777,17 +3777,27 @@
     "חשיבות": 1,
     "תקופה": "שבועי",
     "מקור": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-    "הערה": "פרסום DOL ביום חמישי 19.11 בשעה 08:30EST=15:30 בישראל (סדרה שבועית קבועה; לוח NYFed מציין 19.11). צפי טרם אומת. הקודם לפרסום זה הוא נתון 12.11 שטרם פורסם; לא נרשם קודם. אין נתון בפועל.",
+    "הערה": "קודם: שבוע שהסתיים ב-7.11, לפי DOL מ-12.11; עשוי להתעדכן.",
     "אירוע_en": "Weekly jobless claims",
     "תקופה_en": "Weekly",
-    "הערה_en": "DOL release Thursday Nov 19 at 08:30 EST = 15:30 Israel (standing weekly series; the NY Fed calendar lists Nov 19). Estimate not yet verified. The prior for this release is the Nov 12 figure, not yet published; no prior recorded. No actual figure.",
+    "הערה_en": "Prior: week ended November 7, per DOL November 12; subject to revision.",
     "מזהה": "c-0158",
     "_translation": {
       "en": {
-        "source_hash": "4de4cb0d7279d207c78541619cf267248e1be5bcd10de832b67d19f07457dcae",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "9fdf9a475dfc0e7855779d1249ee6fcac4a67b0f16d57731b8a771c8e57a2ca5"
       }
-    }
+    },
+    "היסטוריית_נתונים": [
+      {
+        "תאריך_עדכון": "2026-11-16",
+        "הערה": "פרסום DOL ביום חמישי 19.11 בשעה 08:30EST=15:30 בישראל (סדרה שבועית קבועה; לוח NYFed מציין 19.11). צפי טרם אומת. הקודם לפרסום זה הוא נתון 12.11 שטרם פורסם; לא נרשם קודם. אין נתון בפועל.",
+        "הערה_en": "DOL release Thursday Nov 19 at 08:30 EST = 15:30 Israel (standing weekly series; the NY Fed calendar lists Nov 19). Estimate not yet verified. The prior for this release is the Nov 12 figure, not yet published; no prior recorded. No actual figure.",
+        "קודם": null
+      }
+    ],
+    "קודם": "200K",
+    "מקור_קודם": "https://www.dol.gov/ui/data.pdf"
   },
   {
     "תאריך": "2026-11-19",
@@ -3797,17 +3807,27 @@
     "חשיבות": 1,
     "תקופה": "שבועי",
     "מקור": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-    "הערה": "פרסום DOL ביום חמישי 19.11 בשעה 08:30EST=15:30 בישראל (סדרה שבועית קבועה; לוח NYFed מציין 19.11). צפי טרם אומת. הקודם לפרסום זה הוא נתון 12.11 שטרם פורסם; לא נרשם קודם. אין נתון בפועל.",
+    "הערה": "קודם: שבוע שהסתיים ב-31.10, לפי DOL מ-12.11; עשוי להתעדכן.",
     "אירוע_en": "Continuing jobless claims",
     "תקופה_en": "Weekly",
-    "הערה_en": "DOL release Thursday Nov 19 at 08:30 EST = 15:30 Israel (standing weekly series; the NY Fed calendar lists Nov 19). Estimate not yet verified. The prior for this release is the Nov 12 figure, not yet published; no prior recorded. No actual figure.",
+    "הערה_en": "Prior: week ended October 31, per DOL November 12; subject to revision.",
     "מזהה": "c-0159",
     "_translation": {
       "en": {
-        "source_hash": "9eced89121b9b0febb1960e67948d04b3d03a75165fac8e9f34f91b8217d92ca",
-        "schema_version": 1
+        "schema_version": 1,
+        "source_hash": "6c68f4e762e85753671b722c11cd2846e48f087bac33ec9c862ad30a05d980d6"
       }
-    }
+    },
+    "היסטוריית_נתונים": [
+      {
+        "תאריך_עדכון": "2026-11-16",
+        "הערה": "פרסום DOL ביום חמישי 19.11 בשעה 08:30EST=15:30 בישראל (סדרה שבועית קבועה; לוח NYFed מציין 19.11). צפי טרם אומת. הקודם לפרסום זה הוא נתון 12.11 שטרם פורסם; לא נרשם קודם. אין נתון בפועל.",
+        "הערה_en": "DOL release Thursday Nov 19 at 08:30 EST = 15:30 Israel (standing weekly series; the NY Fed calendar lists Nov 19). Estimate not yet verified. The prior for this release is the Nov 12 figure, not yet published; no prior recorded. No actual figure.",
+        "קודם": null
+      }
+    ],
+    "קודם": "1.697M",
+    "מקור_קודם": "https://www.dol.gov/ui/data.pdf"
   },
   {
     "תאריך": "2026-11-19",
@@ -4279,6 +4299,50 @@
       "en": {
         "schema_version": 1,
         "source_hash": "de7fef71c63421f8472951bec1902f79ffaa03609688a7f988c57fa4198b4b5e"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0184",
+    "תאריך": "2026-11-18",
+    "שעה": "17:30",
+    "מדינה": "US",
+    "אירוע": "מלאי נפט גולמי שבועי (EIA)",
+    "תקופה": "שבוע שהסתיים ב-13.11.2026",
+    "חשיבות": 1,
+    "מקור": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+    "הערה": "לוח EIA; צפי לא אומת.",
+    "אירוע_en": "Weekly crude oil inventories (EIA)",
+    "תקופה_en": "Week ended November 13, 2026",
+    "הערה_en": "EIA schedule; no verified forecast.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5e343f948ce22040b1b02bfb7f93ac633369651f405433374cbd73b814450ddf"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0185",
+    "תאריך": "2026-11-18",
+    "שעה": "21:00",
+    "מדינה": "US",
+    "אירוע": "פרסום פרוטוקול ישיבת FOMC",
+    "תקופה": "ישיבת 27-28 באוקטובר 2026",
+    "חשיבות": 3,
+    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "הערה": "מועד הפרסום לפי הפד; השעה לפי Forex Factory. פרוטוקול, לא החלטת ריבית חדשה.",
+    "אירוע_en": "FOMC meeting minutes release",
+    "תקופה_en": "October 27-28, 2026 meeting",
+    "הערה_en": "Release date per the Fed; time per Forex Factory. Minutes, not a new rate decision.",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "https://www.forexfactory.com/calendar?week=nov16.2026"
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "52b70622696fa1547057b8486219b7b9e46be389b607c3d5d117769c521f814c"
       }
     }
   }
