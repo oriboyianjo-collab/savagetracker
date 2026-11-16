@@ -49775,5 +49775,95 @@
         "source_hash": "ccff3dac946b0085b3fbf15a3069dcfc7ab24b4cd6042621466eb4e332477bc1"
       }
     }
+  },
+  {
+    "מזהה": "n-1849",
+    "category": "micro",
+    "חברה": "ADP",
+    "symbols": [
+      "ADP"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:24",
+    "הועלה": "2026-11-16 15:24",
+    "כותרת": "ADP תציג בכנס המשקיעים של Nasdaq בלונדון ב-8 בדצמבר",
+    "כותרת_en": "ADP to present at Nasdaq Investor Conference in London on December 8",
+    "קישור": "https://www.prnewswire.com/news-releases/adp-to-present-at-upcoming-investor-conference-302939068.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/adp-to-present-at-upcoming-investor-conference-302939068.html",
+        "label": "ADP דרך PR Newswire: הודעת ההשתתפות בכנס",
+        "label_en": "ADP via PR Newswire: investor conference announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 08:00 ET, שהם 15:00 בישראל. ADP הודיעה שתציג בכנס המשקיעים של Nasdaq בלונדון ביום שלישי, 8 בדצמבר 2026, בשעה 04:00 לפי שעון החוף המזרחי בארה״ב, 09:00 GMT בלונדון ו-11:00 בישראל.\n\nלפי הודעת החברה, קישורים לשידור החי ולהקלטה יהיו זמינים באתר קשרי המשקיעים שלה. זו הודעה על אירוע עתידי, לא שידור שכבר החל או דוח כספי חדש. לא נמסרו בהודעה שם המציג, תחזית פיננסית חדשה או פירוט עסקאות.",
+    "טקסט_en": "November 16, 2026 at 08:00 ET, equivalent to 15:00 in Israel. ADP announced it will present at the Nasdaq Investor Conference in London on Tuesday, December 8, 2026 at 04:00 US Eastern time, 09:00 GMT in London and 11:00 in Israel.\n\nThe company says links to the live webcast and an archived replay will be available on its investor-relations website. This announces a future event, not a webcast already underway or new financial results. The release does not name the presenter or provide new financial guidance or transaction details.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b2bff155a8676133272cc18912c4df7f1b5e078135216e2d1235f7bd2aba66a3"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1850",
+    "category": "micro",
+    "חברה": "BRKR",
+    "symbols": [
+      "BRKR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:24",
+    "הועלה": "2026-11-16 15:24",
+    "כותרת": "פורסם באיחור | Bruker הכריזה על דיבידנד רבעוני של 5 סנט למניה רגילה, לתשלום ב-7 בינואר 2027",
+    "כותרת_en": "Published late | Bruker declares $0.05 quarterly common dividend payable January 7, 2027",
+    "קישור": "https://www.stocktitan.net/sec-filings/BRKR/8-k-bruker-corp-reports-material-event-919df485e6e3.html",
+    "מקורות": [
+      {
+        "url": "https://www.stocktitan.net/sec-filings/BRKR/8-k-bruker-corp-reports-material-event-919df485e6e3.html",
+        "label": "טקסט טופס 8-K של Bruker, סעיף 8.01, דרך StockTitan",
+        "label_en": "Bruker 8-K text, Item 8.01, via StockTitan"
+      }
+    ],
+    "טקסט": "פורסם באיחור | לפי טקסט טופס 8-K של Bruker המוצג ב-StockTitan, הדירקטוריון הכריז ב-12 בנובמבר 2026 על דיבידנד רבעוני במזומן בסך 0.05 דולר למניה רגילה. התשלום מתוכנן ל-7 בינואר 2027 לבעלי מניות רשומים בתום 21 בדצמבר 2026.\n\nלפי עמוד ההגשה, המסמך התקבל ב-EDGAR ב-16 בנובמבר בשעה 07:00 EST, שהם 14:00 בישראל. תאריך החלטת הדירקטוריון אינו כשלעצמו הוכחה לפרסום ציבורי ב-12 בנובמבר. המקור שנקרא כאן הוא נוסח ההגשה המלא במראה StockTitan, לא רק התקציר האוטומטי שמופיע מעליו.\n\nמדובר בדיבידנד למניה הרגילה BRKR, לא לדיבידנד על מניות הבכורה BRKRP. לא נמסר בסעיף זה תאריך אקס, ואין כאן טענה שהדיבידנד הועלה לעומת הרבעון הקודם.",
+    "טקסט_en": "Published late | Bruker's 8-K text displayed by StockTitan says the board declared a quarterly cash dividend of $0.05 per common share on November 12, 2026. Payment is scheduled for January 7, 2027 to holders of record at the close of business on December 21, 2026.\n\nThe filing page reports EDGAR acceptance on November 16 at 07:00 EST, equivalent to 14:00 in Israel. The board-decision date alone does not establish public publication on November 12. The source read here is the full filing text mirrored by StockTitan, not only its automated summary.\n\nThis is a BRKR common-stock dividend, not a BRKRP preferred-stock dividend. The section does not give an ex-dividend date, and no increase over the prior quarter is asserted.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ea58aec065e1ef3edfb26c3038b8949af11ef2f6da0b63b93b2860cc4587189f"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1851",
+    "category": "micro",
+    "חברה": "NFLX",
+    "symbols": [
+      "NFLX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:24",
+    "הועלה": "2026-11-16 15:24",
+    "כותרת": "לפי The Verge המצטטת את Bloomberg, Netflix משהה תוכניות לפתיחת עשרות אתרי Netflix House נוספים",
+    "כותרת_en": "The Verge, citing Bloomberg: Netflix pauses plans for dozens of additional Netflix House locations",
+    "קישור": "https://www.theverge.com/streaming/1034092/netflix-is-reportedly-pausing-new-netflix-houses",
+    "מקורות": [
+      {
+        "url": "https://www.theverge.com/streaming/1034092/netflix-is-reportedly-pausing-new-netflix-houses",
+        "label": "The Verge: דיווח על השהיית תוכניות Netflix House",
+        "label_en": "The Verge: report on paused Netflix House expansion plans"
+      }
+    ],
+    "טקסט": "16.11.2026, 12:55 UTC, שהם 14:55 בישראל. **לא מאומת מול מקור ראשוני: The Verge מייחסת ל-Bloomberg דיווח שלפיו Netflix משהה תוכניות לפתוח עשרות אתרי Netflix House נוספים. הכתבה המקורית של Bloomberg והודעת אישור מהחברה לא אומתו כאן.**\n\nלפי הסיכום של The Verge, האתרים האינטראקטיביים בפילדלפיה ובדאלאס כבר נפתחו, ואתר שלישי בלאס וגאס מתוכנן לשנה הבאה, כלומר 2027. ההשהיה המדווחת מתייחסת לתוכניות התרחבות נוספות, ולא נאמר בה שהאתרים שכבר נפתחו נסגרים או שאתר לאס וגאס בוטל.\n\nהכתבה מתארת אפשרות למעבר ממיקומים פרבריים הנשענים על ביקורים חוזרים למיקומים מרכזיים יותר עם תנועת תיירים רבה. זו אפשרות מדווחת, לא שינוי פריסה שהחברה אישרה או שכבר יושם. לא נמסרו סכום הפחתה בהשקעות, פיטורים, לוח חידוש התוכנית או שינוי בתחזית הכנסות.",
+    "טקסט_en": "November 16, 2026 at 12:55 UTC, equivalent to 14:55 in Israel. **Not verified against a primary source: The Verge attributes to Bloomberg a report that Netflix is pausing plans for dozens of additional Netflix House locations. The original Bloomberg article and a company confirmation have not been verified here.**\n\nThe Verge's summary says interactive locations in Philadelphia and Dallas have already opened, with a third in Las Vegas planned for next year, meaning 2027. The reported pause concerns further expansion plans. It does not say existing locations are closing or the Las Vegas site has been canceled.\n\nThe article describes a possible shift from suburban locations aimed at repeat customers toward more central spaces with greater tourist traffic. This is a reported possibility, not a company-confirmed or implemented location strategy. No capital-spending reduction, layoffs, restart timetable or revenue-guidance change is disclosed.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b10ae86bc2c681d80a98f3d7b1ce002fdaf338dd8e60ac29899bf5807bbb946f"
+      }
+    }
   }
 ]
