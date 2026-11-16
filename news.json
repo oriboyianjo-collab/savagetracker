@@ -48179,5 +48179,128 @@
         "source_hash": "1b149a64da67330dd5a7d40324dcf99ab44c0a2ed836e37fb17c94209893707e"
       }
     }
+  },
+  {
+    "מזהה": "n-1796",
+    "category": "micro",
+    "חברה": "SPGI",
+    "symbols": [
+      "SPGI"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:58",
+    "הועלה": "2026-11-16 13:58",
+    "כותרת": "פורסם באיחור | S&P Global (SPGI): מיזוהו בחרה ב-CLM Pro להרחבת ניהול לקוחות ו-KYC לשווקים נוספים",
+    "כותרת_en": "Published late | S&P Global (SPGI): Mizuho selects CLM Pro to expand client lifecycle management and KYC across more markets",
+    "קישור": "https://press.spglobal.com/2026-11-12-S-P-Global-Market-Intelligence-Expands-Strategic-Partnership-with-Mizuho-to-Modernize-Global-Client-Lifecycle-Management",
+    "מקורות": [
+      {
+        "url": "https://press.spglobal.com/2026-11-12-S-P-Global-Market-Intelligence-Expands-Strategic-Partnership-with-Mizuho-to-Modernize-Global-Client-Lifecycle-Management",
+        "label": "S&P Global: הרחבת השותפות עם מיזוהו",
+        "label_en": "S&P Global: expanded Mizuho partnership"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת S&P Global מ-12.11.2026 נקראה במלואה. שעת פרסום המקור בישראל לא אומתה.\n\nS&P Global Market Intelligence הודיעה שמיזוהו בחרה בפלטפורמת CLM Pro להרחבת ניהול מחזור חיי הלקוח ותהליכי הכרת הלקוח (KYC) בפעילותה העולמית. ההרחבה נשענת על שותפות קיימת בארה״ב ובקנדה, והפריסה המתוכננת כוללת את דרום אמריקה, אירופה ואסיה-פסיפיק.\n\nהפלטפורמה משלבת תהליכי עבודה הניתנים להתאמה, מאגרי מידע, גישה לרשת גלובלית ואפשרות לשירותים מנוהלים. לפי החברות, המטרה היא לחבר קליטת לקוחות וניהול שוטף תוך התחשבות בדרישות מקומיות. זהו יעד תפעולי מתוכנן, לא אישור רגולטורי או הוכחה שהפריסה העולמית כבר הושלמה.\n\nלא נמסרו מחיר חוזה, הכנסות צפויות לספקית או לוח זמנים מלא לפריסה. נתון נכסי מיזוהו של כ-2 טריליון דולר המופיע כרקע בהודעה אינו שווי העסקה. ההרחבה נפרדת מרכישת OpenZeppelin של S&P Global שכבר סוקרה.",
+    "טקסט_en": "Published late | The complete November 12, 2026 S&P Global release was read. Its publication time in Israel was not verified.\n\nS&P Global Market Intelligence said Mizuho selected CLM Pro to expand client lifecycle management and Know Your Customer processes across its global operations. The expansion builds on an existing U.S. and Canadian partnership, with a planned rollout across South America, Europe and Asia-Pacific.\n\nThe platform combines configurable workflows, datasets, access to a global network and optional managed services. The companies say the aim is to connect client onboarding and ongoing management while addressing local requirements. This is a planned operating goal, not regulatory approval or proof that the global rollout is complete.\n\nNo contract price, expected vendor revenue or full rollout timetable was disclosed. The approximately $2 trillion of Mizuho assets cited as background is not the deal value. This expansion is separate from S&P Global's previously covered OpenZeppelin acquisition.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0cc9f0a52604caf0ea7d86d092fdbd85a30c63c9aab28eecaa252cc433e3a540"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1797",
+    "category": "micro",
+    "חברה": "CTAS",
+    "symbols": [
+      "CTAS",
+      "UNF"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:58",
+    "הועלה": "2026-11-16 13:58",
+    "כותרת": "פורסם באיחור | Cintas (CTAS) ו-UniFirst (UNF): דיווח על פגישה מתוכננת עם ה-FTC בשלב מתקדם של בדיקת העסקה",
+    "כותרת_en": "Published late | Cintas (CTAS) and UniFirst (UNF): report of planned FTC meeting at advanced stage of deal review",
+    "קישור": "https://uniform.news/report-says-the-ftc-will-soon-hold-a-last-rites-meeting-with-cintas-and-unifirst-and-the-deal-spread-widens/",
+    "מקורות": [
+      {
+        "url": "https://uniform.news/report-says-the-ftc-will-soon-hold-a-last-rites-meeting-with-cintas-and-unifirst-and-the-deal-spread-widens/",
+        "label": "Uniform.News בעקבות Seeking Alpha: דיווח על פגישה מתוכננת",
+        "label_en": "Uniform.News citing Seeking Alpha: reported planned meeting"
+      }
+    ],
+    "טקסט": "פורסם באיחור | כתבת Uniform.News מ-13.11.2026 נקראה במלואה. היא מסתמכת על דיווח Seeking Alpha מאותו יום. **לא מאומת מול מקור ראשוני: לא נקראו הודעה של ה-FTC או של החברות המאשרות את הפגישה. המקור הוא דיווח משני נגזר, לא אישור עצמאי נוסף. שעת המקור בישראל לא אומתה.**\n\nלפי הדיווח המצוטט, ה-FTC צפויה לקיים בקרוב פגישה המכונה \"last rites\" עם Cintas ו-UniFirst, במסגרת בדיקת רכישת UniFirst המתוכננת בידי Cintas. הכתבה מתארת זאת כהזדמנות מתקדמת של הצדדים להציג את טיעוניהם בפני הנהגת הרשות לפני החלטה אפשרית על פנייה לבית משפט.\n\nזהו דיווח על שלב מתוכנן בבדיקה, לא אישור שהפגישה התקיימה, שתביעה הוגשה או שהרשות הכריעה לחסום או לאשר את העסקה. הכתבה אומרת שהחברות לא הגיבו בפומבי על הפגישה נכון למועד הדיווח.\n\nהחדש הוא הפגישה המדווחת, בנפרד מהדיווחים הקודמים על כוונת הרשות לתבוע ומהתחייבות הצדדים שלא לסגור לפני 11 בדצמבר אלא אם הבדיקה תסתיים קודם. מרווח העסקה המתואר בכתבה מתייחס ליום הדיווח ואינו ציטוט שוק עדכני.",
+    "טקסט_en": "Published late | The complete November 13, 2026 Uniform.News article was read. It relies on a Seeking Alpha report from the same day. **Not verified against a primary source: no FTC or company statement confirming the meeting was read. This is a derivative secondary report, not additional independent confirmation. Its publication time in Israel was not verified.**\n\nAccording to the cited report, the FTC will soon hold a so-called \"last rites\" meeting with Cintas and UniFirst as it reviews Cintas's planned acquisition of UniFirst. The article describes this as an advanced-stage opportunity for the parties to make their case to agency leadership before a possible decision to go to court.\n\nThis is a report of a planned review step, not confirmation that the meeting occurred, that a lawsuit was filed or that the agency decided to block or approve the deal. The article says the companies had not commented publicly on the meeting at the time of the report.\n\nThe development is the reported meeting, separate from earlier reports of the agency's intention to sue and the parties' agreement not to close before December 11 unless the investigation ended sooner. The deal spread described in the article relates to its report date, not a current market quote.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "044c27850d825978444ffc218bc9c637561d938a4be810d34fa1f3bca73cc342"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1798",
+    "category": "micro",
+    "חברה": "WM",
+    "symbols": [
+      "WM",
+      "PCT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:58",
+    "הועלה": "2026-11-16 13:58",
+    "כותרת": "WM (WM): לפי Resource Recycling, נחתם חוזה לשלוש שנים לאספקת פסולת פוליפרופילן ל-PureCycle",
+    "כותרת_en": "WM (WM): Resource Recycling reports three-year polypropylene feedstock contract with PureCycle",
+    "קישור": "https://resource-recycling.com/plastics/2026/11/16/purecycle-wm-sign-rare-3-year-bales-contract/",
+    "מקורות": [
+      {
+        "url": "https://resource-recycling.com/plastics/2026/11/16/purecycle-wm-sign-rare-3-year-bales-contract/",
+        "label": "Resource Recycling: ראיון עם מנכ״ל PureCycle על חוזה WM",
+        "label_en": "Resource Recycling: PureCycle CEO interview on WM contract"
+      }
+    ],
+    "טקסט": "16.11.2026 | כתבת Resource Recycling נקראה במלואה. שעת המקור בישראל לא אומתה. **לא מאומת מול מקור ראשוני: החוזה והודעת חברה מקורית לא נקראו; הפרטים מיוחסים לכתבה ולמנכ״ל PureCycle. WM לא הגיבה עד פרסום הכתבה.**\n\nלפי הדיווח, PureCycle התקשרה עם WM בחוזה לשלוש שנים לקבלת חומר גלם למיחזור, שנכנס לתוקף החודש. ההיקף הוא כ-50 משאיות, או כ-2 מיליון ליברות של חבילות פוליפרופילן (PP), בחודש. החומר מיועד למתקן המיון המשני של PureCycle בדנוור שבפנסילבניה, לא בעיר דנוור בקולורדו.\n\nמנכ״ל PureCycle, Dustin Olson, אמר שהאספקה תגיע מאתרי WM המאפשרים הובלה יעילה וחסכונית למתקן. תנאי המחיר חסויים; האמירה הכללית שהמחיר יתאם מגמות שוק אינה נוסחת מחיר חוזית שנבדקה ישירות.\n\nהחוזה מרחיב יחסי עבודה קיימים בין החברות. תקוות המנכ״ל להתרחבות עתידית למאות משאיות אינן מוצגות כהתחייבות אספקה שכבר נחתמה. לא אומתו שווי כספי של החוזה, הכנסות מוכרות או רווחיות מההתקשרות.",
+    "טקסט_en": "November 16, 2026 | The complete Resource Recycling article was read. Its publication time in Israel was not verified. **Not verified against a primary source: the contract and an original company release were not read; details are attributed to the article and PureCycle's CEO. WM had not commented by publication.**\n\nThe report says PureCycle signed a three-year recycling feedstock contract with WM that took effect this month. The volume is about 50 truckloads, or 2 million pounds of polypropylene bales, per month. The material is destined for PureCycle's secondary sorting facility in Denver, Pennsylvania, not Denver, Colorado.\n\nPureCycle CEO Dustin Olson said supplies would come from WM sites offering efficient and cost-effective transport to the facility. Pricing terms are confidential; his general statement that prices correlate with market trends is not a directly verified contractual pricing formula.\n\nThe contract expands an existing working relationship. The CEO's hope that volumes could grow to hundreds of truckloads is not a signed supply commitment. No contract value, recognized revenue or profitability from the agreement was verified.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4c8bc6f095a298754b94046f12c3ad75fe87c2ecbef0fac0ea649ca978a8debf"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1800",
+    "category": "micro",
+    "חברה": "MRNA",
+    "symbols": [
+      "MRNA",
+      "MRK"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:58",
+    "הועלה": "2026-11-16 13:58",
+    "כותרת": "פורסם באיחור | Moderna (MRNA) נערכת לייצור ולאספקה מסחרית אפשרית של intismeran ב-2027, בכפוף לאישור",
+    "כותרת_en": "Published late | Moderna (MRNA) prepares for potential intismeran commercial supply in 2027, subject to approval",
+    "קישור": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-outlines-next-phase-of-growth-at-analyst-day-1250432",
+    "מקורות": [
+      {
+        "url": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-outlines-next-phase-of-growth-at-analyst-day-1250432",
+        "label": "הודעת Moderna: היערכות ייצור ומסחור ביום האנליסטים",
+        "label_en": "Moderna release: Analyst Day manufacturing and commercial readiness"
+      }
+    ],
+    "טקסט": "פורסם באיחור | הודעת Moderna המקורית מ-12.11.2026 נקראה במלואה. שעת פרסום המקור בישראל לא אומתה לצורך פריט זה.\n\nModerna מסרה כי המתקן במרלבורו, מסצ׳וסטס, צפוי להפוך ב-2027 לאתר האספקה העולמי של intismeran, הטיפול האישי הניסיוני שהיא מפתחת עם Merck. המתקן החל לספק חומר למחקרים בספטמבר 2025, לפי החברה, ונערך להשקה מסחרית אפשרית בכפוף לאישורים רגולטוריים.\n\nהחברה מתכננת הרחבת קיבולת בשלבים באמצעות יחידות ייצור מודולריות, עם פוטנציאל לספק בעתיד עשרות אלפי מטופלים בשנה. זו יכולת פוטנציאלית ותוכנית הרחבה, לא מספר מטופלים מסחריים שכבר טופלו או הזמנות שהתקבלו.\n\nModerna ו-Merck נערכות לקידום משותף של הטיפול בארה״ב, כש-Merck אמורה להוביל את המסחור מחוץ לארה״ב. ההודעה מדגישה ש-intismeran אינו מאושר בידי ה-FDA ושבטיחותו ויעילותו טרם נקבעו לצורך אישור שיווק. אין כאן אישור השקה מובטח ב-2027 או הוכחה שכבר הוגשה בקשה.\n\nהחידוש כאן הוא היערכות הייצור והמסחור שתוארה ביום האנליסטים, בנפרד מתנאי האשראי שכבר סוקרו. תוצאות המלנומה הקודמות והעלאת תחזית ההכנסות שפורסמה ב-6 בנובמבר אינן מוצגות כחדשות קליניות או פיננסיות חדשות מה-15 בנובמבר.",
+    "טקסט_en": "Published late | The complete original November 12, 2026 Moderna release was read. Its original publication time in Israel was not verified for this item.\n\nModerna said its Marlborough, Massachusetts facility is expected to become the global supply site for intismeran in 2027. The individualized therapy is being developed with Merck and remains investigational. According to the company, the facility began supplying clinical study material in September 2025 and is preparing to support a potential commercial launch, subject to regulatory approvals.\n\nThe company plans staged capacity expansion using modular production units, with potential to supply tens of thousands of patients annually. This is potential capacity and an expansion plan, not a count of commercial patients already treated or orders received.\n\nModerna and Merck are preparing to co-promote the therapy in the United States, with Merck leading commercialization elsewhere. The release states that intismeran is not FDA-approved and that its safety and effectiveness have not been established for marketing approval. This is not a guaranteed 2027 launch or evidence that an application has already been filed.\n\nThe development here is the manufacturing and commercial readiness described at Analyst Day, separate from the previously covered credit terms. Earlier melanoma results and the revenue outlook increase disclosed on November 6 are not presented as new November 15 clinical or financial developments.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "499416376b12b1e896b413067f725b57fefb2e3f6922230f3fd26b443693bbcf"
+      }
+    }
   }
 ]
