@@ -52364,5 +52364,37 @@
         "source_hash": "9ad65412cd6e936b8dbc14c619aa23774f414530e245d9bf5c541b58f0b88b66"
       }
     }
+  },
+  {
+    "מזהה": "n-1932",
+    "category": "micro",
+    "חברה": "IBM (IBM) / NVIDIA (NVDA)",
+    "חברה_en": "IBM (IBM) / NVIDIA (NVDA)",
+    "symbols": [
+      "IBM",
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 18:06",
+    "הועלה": "2026-11-16 18:06",
+    "כותרת": "IBM (IBM) ו-NVIDIA (NVDA) מתכננות עם Fermilab פלטפורמת מחקר למחשוב קוונטי מודולרי",
+    "כותרת_en": "IBM (IBM) and NVIDIA (NVDA) plan modular quantum research platform with Fermilab",
+    "קישור": "https://www.prnewswire.com/news-releases/ibm-fermilab-and-nvidia-announce-plans-for-new-co-design-platform-to-accelerate-the-development-of-next-generation-modular-quantum-computers-302940668.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/ibm-fermilab-and-nvidia-announce-plans-for-new-co-design-platform-to-accelerate-the-development-of-next-generation-modular-quantum-computers-302940668.html",
+        "label": "IBM: הודעת החברה המקורית דרך PRNewswire",
+        "label_en": "IBM: original company announcement via PRNewswire"
+      }
+    ],
+    "טקסט": "16.11.2026, 11:00 בשעון מזרח ארה״ב, 18:00 בישראל.\n\nIBM הודיעה על תוכניות לשיתוף פעולה עם NVIDIA ו-Fermilab לפיתוח משותף של פלטפורמה לחקר מחשבים קוונטיים מודולריים. התכנון הוא להציב מערכות NVIDIA DGX B200 לצד מחשבים קוונטיים של IBM, לרבות מערכות עם מעבד Nighthawk, ולחקור כיצד להרחיב יחד משאבי מחשוב קוונטיים וקלאסיים.\n\nזהו תכנון לפלטפורמת מחקר, לא הודעה שהמערכת כבר נפרסה, לא השקה מסחרית של מחשב עמיד לשגיאות ולא חוזה עם שווי כספי שפורסם. המחקר המוצע כולל בעיות בפיזיקת חלקיקים ובפיזיקה גרעינית.\n\nבנפרד, IBM ו-NVIDIA מתארות עבודה עם Pasqal וקהילת הקוד הפתוח על QRMI, ממשק לניהול משאבים קוונטיים המשתלב ביכולות HRES של מתזמן Slurm. המטרה היא להקצות ולנהל זמן מעבדים קוונטיים בתוך תהליכי HPC, בלי להציג זאת כהתקנה שבוצעה כבר בכל מרכז מחשוב.\n\nההודעה מציגה גם מחקר של IBM, RIKEN ו-NVIDIA על צבר הברזל-גופרית Fe4S4: מעגלים על 72 קיוביטים וחמישה מיליון דגימות. לפי החברה, הדיוק השתפר פי 79 לעומת ריצות קודמות של אותו ניסוי. זהו שיפור במדד דיוק ניסויי מסוים, לא האצה פי 79 של כל חישוב ולא הוכחה ליתרון קוונטי כללי על השיטות הקלאסיות הטובות ביותר. המאמר המחקרי עצמו לא נבדק בנפרד; תיאור התוצאות מיוחס להודעת IBM.",
+    "טקסט_en": "November 16, 2026 at 11:00 US Eastern time, 18:00 in Israel.\n\nIBM announced plans to collaborate with NVIDIA and Fermilab on a co-design platform for modular quantum computing research. The plan would co-locate NVIDIA DGX B200 systems with IBM quantum computers, including Nighthawk-powered systems, to explore how quantum and classical computing resources can scale together.\n\nThis is a planned research platform, not an announcement that the system is already deployed, a commercial launch of a fault-tolerant computer or a contract with a disclosed monetary value. Proposed research includes high-energy and nuclear physics problems.\n\nSeparately, IBM and NVIDIA describe work with Pasqal and the open-source community on QRMI, a quantum resource management interface integrated with the HRES capabilities of the Slurm scheduler. It is intended to allocate and manage quantum-processor time within HPC workflows, not establish that every computing center has installed it.\n\nThe release also describes IBM, RIKEN and NVIDIA research on the Fe4S4 iron-sulfur cluster using 72-qubit circuits and five million samples. The company reports a 79-fold accuracy improvement over earlier runs of the same experiment. This is a specific experimental accuracy measure, not 79-times faster computation in general or proof of a general quantum advantage over leading classical methods. The research paper was not separately reviewed; the results are attributed to IBM's announcement.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f46ba9c5b29e89809e7731a9ae6ed418bf9e0b543014587752200fa6c7023366"
+      }
+    }
   }
 ]
