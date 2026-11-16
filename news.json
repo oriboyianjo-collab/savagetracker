@@ -53719,5 +53719,35 @@
         "source_hash": "9663a424c26480d438f79b22245eeca9b9eae95fb53546abb7d942585551d7f5"
       }
     }
+  },
+  {
+    "מזהה": "n-1974",
+    "category": "macro",
+    "חברה": "",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 00:45",
+    "הועלה": "2026-11-17 00:45",
+    "כותרת": "קרן המטבע: התקדמות בשיחות עם אוקראינה; גישה לכ-1.6 מיליארד דולר עדיין מותנית בהסכמות ובאישור",
+    "כותרת_en": "IMF: progress in Ukraine talks; access to about $1.6 billion remains conditional on agreement and approval",
+    "summary": "פער מימון מוערך של 32–34 מיליארד דולר ב-2027; הקרן צופה התכווצות של 0.5% השנה ושל 1% בשנה הבאה.",
+    "summary_en": "Estimated 2027 financing gap of $32-34 billion; IMF projects contractions of 0.5% this year and 1% next year.",
+    "קישור": "https://www.imf.org/en/news/articles/2026/11/16/pr26366-ukraine-imf-staff-authorities-second-third-review-eff-arrangement",
+    "מקורות": [
+      {
+        "url": "https://www.imf.org/en/news/articles/2026/11/16/pr26366-ukraine-imf-staff-authorities-second-third-review-eff-arrangement",
+        "label": "קרן המטבע הבינלאומית: הודעה 26/366",
+        "label_en": "IMF: press release 26/366"
+      }
+    ],
+    "טקסט": "**הודעת קרן המטבע הבינלאומית מתוארכת ל-16.11.2026; שעת הפרסום המקורית אינה מופיעה.**\n\nקרן המטבע מדווחת על התקדמות בשיחות עם אוקראינה במסגרת הסקירה השנייה והשלישית של תוכנית המימון המורחבת. השיחות יימשכו באופן מקוון במטרה להגיע להסכם ברמת הצוות. לאחר השגת הבטחות מימון, הסקירה תוכל לעבור לאישור דירקטוריון הקרן, שיאפשר גישה לכ-1.6 מיליארד דולר. אין כאן הסכם צוות שהושלם, אישור דירקטוריון, העברת כסף או אישור שכל המימון הובטח.\n\nצוות הקרן מעריך שפער המימון הנותר הוא 32–34 מיליארד דולר ב-2027 ו-17 מיליארד דולר ב-2028. אלה צורכי מימון שטרם כוסו, לא סיוע שכבר אושר, ואין להוסיף את סכום הגישה האפשרית כאילו הוא חבילת סיוע נוספת שכבר הועברה.\n\nתחזית הצמיחה עודכנה כלפי מטה: התכווצות של 0.5% ב-2026 ושל 1% ב-2027. הקרן קושרת את ההרעה במצב הביטחוני, בתקיפות גוברות על תשתיות כלכליות ובהנחת העבודה שהמלחמה תימשך לאורך 2027. זו הנחת תחזית, לא מידע שמבטיח את משך המלחמה.\n\nלפי הקרן, ביצועי התוכנית השתפרו מאז הסקירה הראשונה, אך נדרשת המשכיות ברפורמות, הכנסות נוספות ותמיכת תורמים. היא מציינת לחץ כבד על משק האנרגיה וסיכוני אשראי גוברים, לצד מערכת בנקאות שנותרה נזילה, רווחית ובעלת הון מספק. אין בהודעה אישור להסכם שלום, למימון שיקום מובטח או לתגובה מסוימת של שוקי המניות והמטבע.",
+    "טקסט_en": "**The IMF release is dated November 16, 2026; its original publication time is not shown.**\n\nThe IMF reports progress in discussions with Ukraine on the second and third reviews of its Extended Fund Facility arrangement. Talks will continue virtually with the goal of reaching staff-level agreement. After financing assurances are secured, the review could go to the IMF Executive Board for approval, which would enable access to about $1.6 billion. This is not a completed staff-level agreement, board approval, a disbursement or confirmation that all financing has been secured.\n\nIMF staff estimate a residual financing gap of $32-34 billion in 2027 and $17 billion in 2028. These are financing needs still to be covered, not aid already approved. The potential access amount should not be added as though it were another aid package already paid.\n\nThe growth outlook was revised down to contractions of 0.5% in 2026 and 1% in 2027. The IMF links the deterioration to the security situation, increasing attacks on economic infrastructure and the assumption that the war continues through 2027. That is a forecast assumption, not information guaranteeing how long the war will last.\n\nThe IMF says program performance has improved since the first review, but continued reforms, additional revenues and donor support are needed. It highlights severe energy-sector stress and growing credit risks, while describing the banking sector as liquid, profitable and well-capitalized. The release does not confirm a peace agreement, guaranteed reconstruction financing or a particular stock-market or currency response.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8bc8b550c94a50835fe8bf6f52ca16bcf6498983afb233883e79f5899db5d30c"
+      }
+    }
   }
 ]
