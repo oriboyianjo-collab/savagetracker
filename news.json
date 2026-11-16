@@ -50296,5 +50296,156 @@
         "source_hash": "f8131b24b9ec0625f40d8b42eac1b0a4c61aa138a7b947a72838a874f25c05c7"
       }
     }
+  },
+  {
+    "מזהה": "n-1866",
+    "category": "micro",
+    "חברה": "VRT",
+    "symbols": [
+      "VRT",
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:41",
+    "הועלה": "2026-11-16 15:41",
+    "כותרת": "Vertiv הציגה את מעבדת ATLAS לבדיקת תשתיות AI עם NVIDIA לפני הגעת דורות המחשוב הבאים",
+    "כותרת_en": "Vertiv presents ATLAS Lab for AI infrastructure testing with NVIDIA ahead of next-generation compute",
+    "קישור": "https://www.prnewswire.com/news-releases/vertiv-atlas-proves-ai-infrastructure-ahead-of-silicon-302940434.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/vertiv-atlas-proves-ai-infrastructure-ahead-of-silicon-302940434.html",
+        "label": "Vertiv דרך PR Newswire: מעבדת ATLAS",
+        "label_en": "Vertiv via PR Newswire: ATLAS Lab"
+      }
+    ],
+    "טקסט": "הודעת החברה פורסמה ב-16.11.2026 ב-08:30 שעון החוף המזרחי בארה״ב, 15:30 בישראל. Vertiv תיארה את מעבדת ATLAS לבדיקת מערכות חשמל, קירור ובקרה לתשתיות AI בשיתוף פעולה הנדסי עם NVIDIA. טקס הפתיחה והמפגשים הטכניים התקיימו כבר ב-6 בנובמבר; ההודעה מתפרסמת היום.\n\nהמעבדה משלבת הדמיית עומסי עבודה, מודלים דיגיטליים ובדיקות פיזיות כדי לדמות את התנהגות ההספק והחום של מערכות NVIDIA נוכחיות ועתידיות, עוד לפני זמינות מסחרית של מערכות ייצור. היא משתמשת בין היתר ב-DSX, בספריות Omniverse ובכלי סימולציה ונכסים דיגיטליים של NVIDIA.\n\nהמטרה המוצהרת היא לאתר בעיות שילוב ברמת קבוצת ארונות לפני הקמה באתר לקוח, וליצור תכנון ייחוס שניתן להרחיב. טענות לקיצור זמן הפריסה ולהפחתת סיכונים הן יעדי החברות, לא התחייבות להכנסה או להחזר השקעה. בהודעה לא נמסרו שווי הזמנה חדשה, לקוח שרכש מערכת או תוצאות כספיות חדשות.",
+    "טקסט_en": "The company release was published November 16, 2026 at 08:30 Eastern, equivalent to 15:30 in Israel. Vertiv described its ATLAS Lab for system-level testing of AI power, cooling and controls infrastructure, in engineering collaboration with NVIDIA. The ribbon-cutting and technical sessions took place November 6; the release is being published today.\n\nThe lab combines workload emulation, digital modeling and physical testing to reproduce the power and heat behavior of current and future NVIDIA architectures before production systems are commercially available. It uses technologies including DSX, Omniverse libraries and NVIDIA simulation tools and digital assets.\n\nThe stated objective is to find pod-level integration issues before a customer site is built and create a reference design that can scale. Faster deployment and lower risk are company objectives, not guaranteed revenue or investment returns. The release does not disclose a new order value, a customer purchase or new financial results.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0cfe973efd57da60991049f89a61321249a272cca712f49e030ad2040091d03c"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1867",
+    "category": "micro",
+    "חברה": "MTN",
+    "symbols": [
+      "MTN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:41",
+    "הועלה": "2026-11-16 15:41",
+    "כותרת": "Oasis פרסמה מצגת לקראת מאבק ההצבעה ב-Vail Resorts; Chapek ו-Hudson הם מועמדים, לא דירקטורים שמונו",
+    "כותרת_en": "Oasis publishes presentation ahead of Vail Resorts vote; Chapek and Hudson are nominees, not appointed directors",
+    "קישור": "https://www.prnewswire.com/news-releases/oasis-management-publishes-presentation-highlighting-the-need-for-shareholder-led-change-at-vail-resorts-302939818.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/oasis-management-publishes-presentation-highlighting-the-need-for-shareholder-led-change-at-vail-resorts-302939818.html",
+        "label": "Oasis דרך PR Newswire: מצגת לבעלי מניות Vail",
+        "label_en": "Oasis via PR Newswire: Vail shareholder presentation"
+      }
+    ],
+    "טקסט": "16.11.2026, 08:30 שעון החוף המזרחי בארה״ב, 15:30 בישראל. Oasis Management פרסמה מצגת משקיעים במסגרת הקמפיין שלה לשינוי בדירקטוריון Vail Resorts. לפי ההודעה, הקרנות שהיא מנהלת מחזיקות בכ-9.6% מהמניות הרגילות של החברה. זהו הנתון שמסרה Oasis, לא דיווח על רכישה של 9.6% מהחברה היום.\n\nOasis מבקשת לבחור ב-Robert Chapek וב-M. Ashton Hudson באספה השנתית המתוכננת ל-14 בדצמבר 2026. מדובר במועמדים ובהמלצת הצבעה של בעלת מניות אקטיביסטית, לא במינוי שבוצע או בתוצאת הצבעה שכבר התקבלה.\n\nOasis טוענת שהמועמדים יוסיפו מומחיות, דחיפות ואחריותיות. אלו עמדות של צד למאבק הצבעה, ולא קביעה עצמאית על ביצועי ההנהלה. ההודעה מציינת שמסמכי ה-proxy הסופיים הוגשו ב-2 בנובמבר; המצגת שפורסמה היום היא השלב החדש בקמפיין.",
+    "טקסט_en": "November 16, 2026 at 08:30 Eastern, equivalent to 15:30 in Israel. Oasis Management released an investor presentation in its campaign for board change at Vail Resorts. The release says funds it manages own approximately 9.6% of the company's common stock. That is Oasis's stated holding, not a purchase of 9.6% announced as occurring today.\n\nOasis is seeking the election of Robert Chapek and M. Ashton Hudson at the annual meeting scheduled for December 14, 2026. These are nominees and an activist shareholder's voting recommendation, not completed appointments or a vote already decided.\n\nOasis argues its nominees would add expertise, urgency and accountability. These are views of a party to a proxy contest, not an independent finding about management performance. The release says the definitive proxy materials were filed November 2; today's new step is the presentation.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ab7d71c4863aec44b37ebc02331e3fd5f14ee78c44277c74a3bac88bd5f79457"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1868",
+    "category": "micro",
+    "חברה": "AMKR",
+    "symbols": [
+      "AMKR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:41",
+    "הועלה": "2026-11-16 15:41",
+    "כותרת": "Amkor תציג בכנס UBS ב-1 בדצמבר ובכנס Nasdaq בלונדון ב-9 בדצמבר",
+    "כותרת_en": "Amkor to present at UBS December 1 and Nasdaq London conference December 9",
+    "קישור": "https://www.businesswire.com/news/home/20261115038098/en/Amkor-Technology-to-Present-at-Upcoming-Conferences",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261115038098/en/Amkor-Technology-to-Present-at-Upcoming-Conferences",
+        "label": "Amkor דרך Business Wire: כנסים קרובים",
+        "label_en": "Amkor via Business Wire: upcoming conferences"
+      }
+    ],
+    "טקסט": "הודעת Amkor מ-16.11.2026, ללא שעת פרסום מאומתת. חברת אריזת ובדיקת השבבים הודיעה שתשתתף בשני כנסי משקיעים בדצמבר. בכנס UBS Global Technology and AI בסקוטסדייל, אריזונה, ההצגה נקבעה ליום שלישי, 1 בדצמבר, בשעה 15:35 MST, שהם 00:35 בישראל ב-2 בדצמבר.\n\nבכנס Nasdaq בלונדון, ההצגה נקבעה ליום רביעי, 9 בדצמבר, בשעה 08:30 GMT, שהם 10:30 בישראל באותו יום. החברה מסרה ששידורים חיים והקלטות יהיו זמינים באתר קשרי המשקיעים שלה, ושההנהלה תיפגש גם עם משקיעים בנפרד ובקבוצות קטנות.\n\nזהו עדכון על השתתפות בכנסים, לא פרסום תוצאות כספיות, תחזית חדשה או הודעה על לקוח או חוזה חדש.",
+    "טקסט_en": "Amkor's November 16, 2026 release, without a verified publication time, announces two December investor-conference appearances. The semiconductor packaging and test company will present at the UBS Global Technology and AI Conference in Scottsdale, Arizona on Tuesday, December 1 at 15:35 MST, equivalent to 00:35 in Israel on December 2.\n\nIts Nasdaq Investor Conference presentation in London is scheduled for Wednesday, December 9 at 08:30 GMT, equivalent to 10:30 in Israel that day. Amkor says live webcasts and replays will be available on its investor-relations website, with management also holding one-on-one and small-group investor meetings.\n\nThis is a conference-participation announcement, not new financial results, guidance or a customer or contract announcement.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b772182fadbf974fc2edb1b7c2223c6e08d63c9fc6f800292935dfea5afc82ca"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1869",
+    "category": "micro",
+    "חברה": "WDAY",
+    "symbols": [
+      "WDAY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:41",
+    "הועלה": "2026-11-16 15:41",
+    "כותרת": "Workday מציגה זמינות של Travel Agent שנבנה עם Spotnana לחיבור הזמנת נסיעות וניהול הוצאות",
+    "כותרת_en": "Workday describes generally available Travel Agent built with Spotnana to connect bookings and expenses",
+    "קישור": "https://blog.workday.com/en-us/travel-agent-blog.html",
+    "מקורות": [
+      {
+        "url": "https://blog.workday.com/en-us/travel-agent-blog.html",
+        "label": "Workday: Travel Agent וזמינות כללית",
+        "label_en": "Workday: Travel Agent and general availability"
+      }
+    ],
+    "טקסט": "פורסם באיחור | פרסום Workday מתוארך ל-12 בנובמבר 2026, ללא שעת פרסום מאומתת; ב-16 בנובמבר הופיע גם סיקור של Business Travel News. Workday הודיעה על זמינות כללית של Travel Agent, שנבנה עם Spotnana כדי לחבר הזמנת נסיעות, שינויים והוצאות במערכת אחת.\n\nלפי החברה, המשתמש יכול לתאר נסיעה בשפה טבעית, לקבל אפשרויות בהתאם למדיניות הארגון ולנהל הזמנות ושינויים. קבלות מתווספות אוטומטית להוצאות. אלה יכולות המוצר ותיאורי החברה, לא הבטחה שכל תהליך בכל ארגון יתבצע ללא בדיקה או אישור אנושי.\n\nהחברה מפרידה בין המוצר הזמין לבין הרחבות המתוכננות עד סוף השנה, ובהן תשובות על מדיניות והוצאות, הצעת מסלול מלאה, הזמנות לקבוצה ושילוב רכבות והתראות שיבושים. אין להציג את כל ההרחבות ככבר זמינות. בהודעה לא נמסרו הכנסות מהמוצר או תחזית כספית חדשה.",
+    "טקסט_en": "Published late | Workday's post is dated November 12, 2026, without a verified publication time; Business Travel News also covered the offering November 16. Workday announced general availability of Travel Agent, built with Spotnana to connect travel booking, changes and expenses in one system.\n\nAccording to the company, users can describe a trip in natural language, receive options checked against company policy and manage bookings and changes. Receipts feed automatically into expenses. These are company product descriptions, not a promise that every organization's workflow requires no human review or approval.\n\nWorkday distinguishes the available product from additions planned by year-end, including policy and expense answers, a full-itinerary proposal, group booking, rail and disruption alerts. Those additions should not all be treated as already available. The post does not disclose product revenue or new financial guidance.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "347d7e857b239dc24fe4f6473d1f7ae12a25e088416a1d14fedb3b81a78d9d4e"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1870",
+    "category": "micro",
+    "חברה": "MDT",
+    "symbols": [
+      "MDT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 15:41",
+    "הועלה": "2026-11-16 15:41",
+    "כותרת": "פורסם באיחור | Medtronic הודיעה ב-9 בנובמבר על השקה מדורגת של Aristotle Mini לאחר אישור FDA מאוגוסט",
+    "כותרת_en": "Published late | Medtronic announced phased Aristotle Mini launch November 9 following August FDA clearance",
+    "קישור": "https://news.medtronic.com/Medtronic-expands-cSDH-treatment-options-with-FDA-clearance-of-Aristotle-R-Mini-Guidewire",
+    "מקורות": [
+      {
+        "url": "https://news.medtronic.com/Medtronic-expands-cSDH-treatment-options-with-FDA-clearance-of-Aristotle-R-Mini-Guidewire",
+        "label": "Medtronic: השקת Aristotle Mini מ-9 בנובמבר",
+        "label_en": "Medtronic: November 9 Aristotle Mini launch"
+      }
+    ],
+    "טקסט": "פורסם באיחור | 9.11.2026 לפי הודעת Medtronic, ללא שעת פרסום מאומתת. החברה הודיעה על השקת Aristotle Mini Guidewire לאחר קבלת אישור 510(k) מה-FDA באוגוסט 2026. מועד ההודעה על ההשקה אינו מועד מתן האישור, ואין מדובר באישור חדש מהיום.\n\nהאביזר הוא תיל מוליך בעל פרופיל נמוך, שנועד לסייע בגישה לכלי דם קטנים ומרוחקים במוח. הוא תואם לעבודה עם מיקרו-קטטרים בעלי קוטר פנימי של 0.013 אינץ׳ ומשלים מערכות כגון Marathon, Apollo והחומר האמבולי הנוזלי Onyx. החברה מציינת שימוש אפשרי בהליכי אמבוליזציה של עורק קרום המוח האמצעי ובהליכים נוירו-וסקולריים אחרים.\n\nMedtronic מתכננת השקה מסחרית מדורגת והרחבת זמינות לאחר ניסיון ראשוני של רופאים. יתרונות הגישה והשליטה מתוארים על ידי החברה ואינם הבטחה לתוצאת טיפול. לא נמסרו בהודעה מחיר, תחזית מכירות או תרומה צפויה להכנסות.",
+    "טקסט_en": "Published late | November 9, 2026 according to Medtronic's release, without a verified publication time. The company announced the Aristotle Mini Guidewire launch after FDA 510(k) clearance in August 2026. The launch announcement date is not the clearance date, and this is not new clearance granted today.\n\nThe low-profile guidewire is designed to help access smaller, more distal brain vessels. It is compatible with 0.013-inch inner-diameter microcatheter workflows and complements technologies including Marathon, Apollo and the Onyx liquid embolic system. Medtronic describes potential use in middle meningeal artery embolization and other neurovascular procedures.\n\nMedtronic plans a phased commercial launch, with wider availability after initial physician experience. Navigation and control benefits are company descriptions, not guaranteed treatment outcomes. The release provides no price, sales forecast or expected revenue contribution.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2256b22cd3f50fbe0a987586d1694ebf3866640898c4fc0dfa1370000cbce96a"
+      }
+    }
   }
 ]
