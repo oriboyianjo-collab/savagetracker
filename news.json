@@ -47860,5 +47860,73 @@
         "source_hash": "c74babcd48c262b86ed1b57b0f3ae7d18fcf39ae60728d78b0d812d29bb0c0f5"
       }
     }
+  },
+  {
+    "מזהה": "n-1786",
+    "category": "micro",
+    "חברה": "HZN",
+    "symbols": [
+      "HZN",
+      "BKH",
+      "NWE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:39",
+    "הועלה": "2026-11-16 13:39",
+    "כותרת": "פורסם באיחור | Black Hills (BKH) ו-NorthWestern Energy (NWE) השלימו את המיזוג; מעבר לסימול HZN ב-16 בנובמבר",
+    "כותרת_en": "Published late | Black Hills (BKH) and NorthWestern Energy (NWE) completed merger; HZN symbol transition effective November 16",
+    "קישור": "https://www.nasdaqtrader.com/TraderNews.aspx?id=eca2026-815",
+    "מקורות": [
+      {
+        "url": "https://www.nasdaqtrader.com/TraderNews.aspx?id=eca2026-815",
+        "label": "Nasdaq Trader: הודעת הפעולה התאגידית NWE",
+        "label_en": "Nasdaq Trader: NWE corporate action notice"
+      },
+      {
+        "url": "https://infomemo.theocc.com/infomemos?date=202611&lastModifiedDate=11%2F13%2F2026+14%3A47%3A59&number=60216++++++++++",
+        "label": "OCC: מזכר 60216, אישור השלמת המיזוג והתאמת האופציות",
+        "label_en": "OCC: memo 60216 on completed merger and options adjustment"
+      }
+    ],
+    "טקסט": "פורסם באיחור | מזכר OCC מ-13.11.2026 והודעת Nasdaq Trader נקראו במלואם. שעת פרסום המקורות בישראל לא אומתה. המיזוג הושלם ב-13 בנובמבר; שינויי המסחר והתאמת האופציות חלים ב-16 בנובמבר.\n\nOCC מציינת שהמיזוג בין NorthWestern Energy ל-Black Hills אושר והושלם ב-13 בנובמבר. החברה המאוחדת נקראת Bright Horizon Energy ומיועדת להיסחר תחת הסימול HZN ב-NYSE החל מ-16 בנובמבר לפי מסמכי הפעולה התאגידית. אין כאן בדיקה של עסקת מסחר שכבר בוצעה היום או של מחיר הפתיחה.\n\nלפי Nasdaq, יום המסחר האחרון במניית NWE היה 13 בנובמבר, והשעייתה לצורך הפעולה חלה ב-16 בנובמבר. כל מניית NWE מזכה ב-0.98 מניית Bright Horizon Energy. מזכר OCC מתאר התאמת חוזי אופציות קיימים כך שהתמורה לחוזה רגיל היא 98 מניות HZN; HZN1 הוא סימול האופציה המותאמת, לא סימול מניית החברה.\n\nקשור לידיעה הקודמת על אישור המיזוג במונטנה ב-10 בנובמבר. החדש כאן הוא אישור ההשלמה ומעבר הסימולים, ולא אישור רגולטורי נוסף. הודעת Nasdaq נושאת כותרת תאריך 11 בנובמבר אך מפנה בגופה ל-13 בנובמבר; לצורך קביעת ההשלמה נעשה שימוש גם באישור המפורש במזכר OCC. סכום העסקה ונתוני לקוחות שלא אומתו במקורות אלה אינם מוצגים.",
+    "טקסט_en": "Published late | The November 13, 2026 OCC memo and Nasdaq Trader notice were read in full. Their original publication times in Israel were not verified. The merger closed November 13; trading changes and options adjustments are effective November 16.\n\nOCC states that the NorthWestern Energy and Black Hills merger was approved and consummated November 13. The combined company is named Bright Horizon Energy and is scheduled to trade as HZN on the NYSE from November 16 in the corporate-action documents. This is not verification of a trade already executed today or of the opening price.\n\nNasdaq lists November 13 as NWE's last trading date and November 16 as the marketplace suspension date for the action. Each NWE share converts into 0.98 Bright Horizon Energy share. The OCC memo describes adjustments to existing options, with 98 HZN shares deliverable per standard contract; HZN1 is the adjusted option symbol, not the company's stock ticker.\n\nRelated to the earlier story on Montana's November 10 merger approval. The new development is confirmation of completion and the ticker transition, not another regulatory approval. The Nasdaq notice has a November 11 heading but refers to November 13 in its body; the explicit OCC confirmation was also used to establish completion. Deal value and customer figures not verified in these sources are not included.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dd5625789afbb9641f71d474b7164856e235306c0517d882722106f414f70c03"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1787",
+    "category": "micro",
+    "חברה": "BBY",
+    "symbols": [
+      "BBY",
+      "UBER"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 13:39",
+    "הועלה": "2026-11-16 13:39",
+    "כותרת": "Best Buy (BBY) ו-Uber (UBER): שותפות למשלוחי אלקטרוניקה לפי דרישה בקנדה, עם בלעדיות לשנה באפליקציות צד שלישי",
+    "כותרת_en": "Best Buy (BBY) and Uber (UBER) partner on Canadian on-demand electronics delivery, with one-year third-party app exclusivity",
+    "קישור": "https://www.newswire.ca/news-releases/best-buy-canada-and-uber-eats-partner-for-on-demand-electronics-delivery-across-canada-875392762.html",
+    "מקורות": [
+      {
+        "url": "https://www.newswire.ca/news-releases/best-buy-canada-and-uber-eats-partner-for-on-demand-electronics-delivery-across-canada-875392762.html",
+        "label": "Uber Canada ו-Best Buy: הודעה משותפת ב-CNW",
+        "label_en": "Uber Canada and Best Buy: joint CNW announcement"
+      }
+    ],
+    "טקסט": "16.11.2026, 13:05 בישראל (06:05 ET) | הודעת החברות ב-CNW נקראה במלואה.\n\nUber ו-Best Buy הודיעו על שותפות המכניסה את Best Buy Canada לאפליקציית Uber Eats למשלוחי מוצרי אלקטרוניקה לפי דרישה. לפי ההודעה, ניתן יהיה להזמין ממעט פחות מ-300 מיקומים ברחבי קנדה, ובהם מוצרים כמו מחשבים ניידים, אוזניות, טאבלטים ואביזרי משחקים.\n\nUber Eats תהיה אפליקציית המשלוחים החיצונית הבלעדית של Best Buy Canada בשנה הראשונה. הבלעדיות אינה מתוארת כוויתור על ערוצי הקנייה והמשלוח העצמאיים של Best Buy, שהשותפות משלימה אותם.\n\nBest Buy מציינת זמן משלוח אפשרי של כ-30 דקות למוצרים זכאים; אין זו הבטחה שכל הזמנה או כתובת יכוסו בזמן זה. חברי Uber One עשויים לקבל דמי משלוח של אפס בהזמנות זכאיות עם מינימום קנייה ובכפוף לתנאים.\n\nלא נמסרו תמורה כספית, יעד הכנסות או נפח הזמנות מחייב. ההודעה היא על שירות קמעונאי בקנדה, לא הרחבה זהה שאושרה בכל מדינה שבה פועלות החברות.",
+    "טקסט_en": "November 16, 2026, 13:05 Israel time (06:05 ET) | The complete company announcement on CNW was read.\n\nUber and Best Buy announced a partnership bringing Best Buy Canada to Uber Eats for on-demand electronics delivery. The release says customers will be able to order from just under 300 locations across Canada, with products including laptops, headphones, tablets and gaming accessories.\n\nUber Eats will be Best Buy Canada's exclusive third-party delivery app for the first year. This is not described as abandoning Best Buy's own shopping and delivery channels, which the partnership complements.\n\nBest Buy says eligible products can arrive in as little as 30 minutes, subject to availability and conditions; this does not guarantee that time for every order or address. Uber One members may receive a zero delivery fee on eligible orders meeting a minimum purchase, subject to terms.\n\nNo financial consideration, revenue target or committed order volume was disclosed. This is a Canadian retail service announcement, not an identical rollout confirmed for every country where the companies operate.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "12262d2fbde20883942308b2d2a10dcd104746579fa73e8694f73951518a40ea"
+      }
+    }
   }
 ]
