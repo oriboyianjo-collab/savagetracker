@@ -52710,5 +52710,65 @@
         "source_hash": "1e5fc0fa2d46b8b670b257fcd0945d3ad1ab4e20804017f4cfcb4c24a79145f4"
       }
     }
+  },
+  {
+    "מזהה": "n-1943",
+    "category": "micro",
+    "חברה": "Alphabet (GOOGL)",
+    "חברה_en": "Alphabet (GOOGL)",
+    "symbols": [
+      "GOOGL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:14",
+    "הועלה": "2026-11-16 19:14",
+    "כותרת": "Alphabet (GOOGL): Google הציגה את Ask AdMob וכלי סוכנים; רוב היכולות עדיין בניסוי או מתוכננות",
+    "כותרת_en": "Alphabet (GOOGL): Google introduces Ask AdMob and agent tools; most capabilities remain in testing or planned",
+    "קישור": "https://blog.google/products/publisher-connections/new-google-admob-tools/",
+    "מקורות": [
+      {
+        "url": "https://blog.google/products/publisher-connections/new-google-admob-tools/",
+        "label": "Google Blog: AdMob AI tools",
+        "label_en": "Google Blog: AdMob AI tools"
+      }
+    ],
+    "טקסט": "הודעת Google מ-16.11.2026; חותמת הפרסום ב-RSS הרשמי: 17:00 UTC, 19:00 בישראל.\n\nGoogle הציגה את Ask AdMob, סוכן שיחה מבוסס Gemini בתוך חשבון AdMob, שנועד לסייע למפתחי אפליקציות לזהות תקלות בהגדרות ובשילוב SDK, לבחון הזדמנויות הכנסה וליצור כללי בטיחות מותג בשפה טבעית.\n\nאין מדובר בזמינות מלאה היום: Google אומרת שתתחיל לבדוק את יכולות Ask AdMob בחודשים הקרובים. יכולות מתקדמות לפעולה בשם המשתמש מתוכננות להמשך 2027; המשתמש אמור לבדוק ולאשר כל המלצה לפני יישומה.\n\nבנפרד, Google אומרת שכישורי סוכן (agent skills) זמינים כבר כעת לביצוע משימות קוד כגון מעבר ל-Google Mobile Ads Next-Gen SDK, בדיקת שילוב SDK והוספת פורמטי פרסום. שרת MCP של AdMob נמצא בבדיקה מוקדמת, עם הרחבה למפתחים נוספים בתחילת 2027; הוא נועד לחבר סביבת פיתוח לנתוני חשבון, יחידות מודעה והגדרות mediation.\n\nטענות לזיהוי הזדמנויות ולהגדלת הכנסה הן תיאור מטרות ויכולות מצד Google, לא התחייבות לתשואה או נתון שיפור מאומת לכל מפתח. הפוסט אינו מפרט תמחור או רשימת מדינות וזכאות מלאה.",
+    "טקסט_en": "Google announcement dated November 16, 2026; official RSS publication timestamp: 17:00 UTC, 19:00 in Israel.\n\nGoogle introduced Ask AdMob, a Gemini-powered conversational agent within an AdMob account, intended to help app developers identify setup and SDK integration issues, assess revenue opportunities and create brand-safety rules in natural language.\n\nThis is not general availability today. Google says testing of Ask AdMob capabilities will begin over the next few months. More advanced features that act on a user's behalf are planned for later in 2027, with users reviewing and approving every recommendation before application.\n\nSeparately, Google says agent skills are available today for coding tasks such as migrating to the Google Mobile Ads Next-Gen SDK, validating SDK integration and adding ad formats. The AdMob MCP server is in early testing, with expansion to more developers in early 2027; it is intended to connect development environments to account data, ad units and mediation settings.\n\nRevenue-opportunity and growth claims describe Google's intended benefits, not guaranteed returns or independently verified gains for every developer. The post does not specify pricing or a complete country and eligibility list.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d7749b1bdb3f8333ae530e51d8d620ae83fe5040317986df100fccd93087f2ce"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1944",
+    "category": "macro",
+    "חברה": "Federal Reserve",
+    "חברה_en": "Federal Reserve",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 19:14",
+    "הועלה": "2026-11-16 19:14",
+    "כותרת": "וורש: הפד בוחן תרחישי AI לפריון ותעסוקה, לא תחזיות או החלטת ריבית",
+    "כותרת_en": "Warsh: Fed studies AI productivity and employment scenarios, not forecasts or a rate decision",
+    "קישור": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+    "מקורות": [
+      {
+        "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+        "label": "Federal Reserve: Warsh opening remarks",
+        "label_en": "Federal Reserve: Warsh opening remarks"
+      }
+    ],
+    "טקסט": "נאום רשמי של יו״ר הפד Kevin Warsh בכנס כוח המשימה לפריון ותעסוקה בסן פרנסיסקו, 16.11.2026. **שעת הפרסום המקורית של הטקסט לא אומתה.**\n\nוורש אמר שאימוץ נרחב של טכנולוגיית בינה מתקדמת עשוי להשפיע במידה משמעותית על הכלכלה ועל המדיניות המוניטרית בהמשך. השאלות המרכזיות מבחינתו הן גודל ההשפעה, היקפה ועיתויה; הוא לא הכריז על שינוי ריבית או על מסלול ריבית חדש.\n\nהוא הציג טווח תרחישים המחושבים במסגרת עבודת צוות הפד. בתרחיש חיובי, עלייה בפריון מעלה את הצמיחה לאורך זמן, עם רווחים רחבים לעובדים ולבעלי ההון ותעסוקה קרובה למלאה. בתרחיש אחר, הצמיחה עולה אך החלפת עובדים באוטומציה וחיכוכים בשוק העבודה מעלים את האבטלה מעבר לרמה התואמת תעסוקה מלאה.\n\nבתרחיש של אכזבה טכנולוגית לאחר השקעות גדולות ועליות בשוק המניות, התשואות הצפויות ושווי המניות עלולים לרדת, עם האטה ועלייה ניכרת יותר באבטלה. **וורש הדגיש במפורש שאלה תרחישים להמחשה, לא תחזיות; הוא לא חזה כאן מיתון או קבע שזהו התרחיש הסביר ביותר.**\n\nוורש הדגיש גם אחריות ושיקול דעת אנושיים, ופגיעוּת אפשרית של תשתיות קריטיות. הנאום עוסק בהיערכות ובהבנת השפעות הטכנולוגיה, לא בהחלטת מדיניות חדשה או בתגובת שוק שאומתה.",
+    "טקסט_en": "Official remarks by Fed Chairman Kevin Warsh at the Productivity and Jobs Task Force Conference in San Francisco, November 16, 2026. **The text's original publication time has not been verified.**\n\nWarsh said widespread adoption of advanced intelligence technology could significantly affect the economy, with monetary-policy implications further ahead. His central questions concern the magnitude, scope and timing of the effects. He announced no interest-rate change or new rate path.\n\nHe outlined a range of scenarios being evaluated by Fed staff. In a positive case, higher productivity raises growth persistently, with broadly shared gains for labor and capital and near-full employment. In another, growth rises but automation-driven job displacement and labor-market frictions push unemployment above levels consistent with full employment.\n\nIf the technology disappoints after substantial investment and equity-market gains, expected returns and stock valuations could fall, bringing a slowdown and a more notable unemployment increase. **Warsh explicitly described these as illustrative scenarios, not forecasts. He did not predict a recession or identify this as the most likely outcome.**\n\nHe also stressed human responsibility and judgment, and potential vulnerabilities in critical infrastructure. The remarks concern preparedness and understanding technology's effects, not a new policy decision or a verified market reaction.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a72c6b087be8422f96d9a17d5dd7c1392a3cfd904810d5cde9515e2b9983528f"
+      }
+    }
   }
 ]
