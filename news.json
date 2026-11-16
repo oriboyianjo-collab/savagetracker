@@ -46846,5 +46846,43 @@
         "source_hash": "aeb306e477f1957a936d277e5f30ef52a94f6d1cc624ae2b15669fb920a77492"
       }
     }
+  },
+  {
+    "מזהה": "n-1754",
+    "category": "micro",
+    "תאריך": "2026-11-16 10:25",
+    "הועלה": "2026-11-16 10:25",
+    "חברה": "Cboe",
+    "חברה_en": "Cboe",
+    "symbols": [
+      "CBOE"
+    ],
+    "sectors": [
+      "financials"
+    ],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | 12 בנובמבר | דיווח: Cboe (CBOE) מציעה עד 1.25 מיליון דולר לחברי סליקה נבחרים תמורת מוכנות תפעולית",
+    "כותרת_en": "Published late | November 12 | Report: Cboe (CBOE) offers selected clearing members up to $1.25 million for operational readiness",
+    "טקסט": "**לא מאומת מול מקור ראשוני**\nהדיווחים מתייחסים להודעה רגולטורית מתאריך 12.11.2026, על בקשה שהוגשה ב-4 בנובמבר. שעת הפרסום המקורית אינה ידועה. הדיווחים המלאים פורסמו ב-DaveFinances ב-13 בנובמבר וב-The MidPoint ב-16 בנובמבר.\n\nלפי הדיווחים, Cboe Clear U.S. אימצה תוכנית תמריצים חד-פעמיים לחברי סליקה מסוג ברוקר-דילר, שנבחרו להשתתף ועומדים בדרישות מוכנות לסליקת עסקאות של עושי שוק או חשבונות נוסטרו של ברוקרים בחוזי ניירות ערך.\n\nהמדרגה הגבוהה היא 1.25 מיליון דולר למשתתף כשיר שהשלים את הדרישות עד פתיחת המסחר הרגיל ב-16 בנובמבר. מדרגות מאוחרות יותר הן 750 אלף דולר עד 25 בנובמבר, או 500 אלף דולר עד 30 בנובמבר, בהתאם למועד השלמת הדרישות. אלו מדרגות חלופיות לתשלום חד-פעמי, לא סכומים מצטברים ולא תמורה לכל חוזה שנסלק.\n\nההשתתפות אינה פתוחה אוטומטית לכל חברה: לפי הדיווחים, הודעת כוונה נדרשה עד 11 בנובמבר והבחירה נשארת בידי המסלקה. הדרישות כוללות חברות מתאימה ובמצב תקין, מסמכים, חיבור ובדיקות התאמה, הפעלת חשבונות ועמידה בדרישת קרן הערבות.\n\n**זהו תמריץ למוכנות, לא אישור שמסחר במוצרים התחיל ולא הוכחה שהכסף שולם.** הדיווחים אינם מזהים כמה חברות נבחרו או השלימו את התנאים. כניסה מיידית לתוקף של בקשת שינוי כללים אינה כשלעצמה אישור להשקת מסחר. התוכנית אינה מבטיחה גישה לכל משקיע, נזילות או הצלחה מסחרית.",
+    "טקסט_en": "**Not verified against a primary source**\nThe reports concern a regulatory notice dated November 12, 2026, for a filing submitted November 4. The original publication hour is unknown. The full reports appeared in DaveFinances on November 13 and The MidPoint on November 16.\n\nAccording to the reports, Cboe Clear U.S. adopted a one-time incentive program for selected broker-dealer clearing members that meet readiness requirements to clear market-maker or broker-dealer proprietary-account transactions in Securities Contracts.\n\nThe highest tier is $1.25 million for an eligible participant meeting the requirements by the open of regular trading on November 16. Later tiers are $750,000 by November 25 or $500,000 by November 30, depending on when the requirements are completed. These are alternative tiers for a one-time payment, not cumulative amounts or payments for each contract cleared.\n\nParticipation is not automatically open to every firm: the reports say notice of intent was due by November 11 and the clearinghouse retains selection discretion. Requirements include appropriate membership in good standing, documentation, connectivity and conformance testing, account activation and the minimum guaranty fund requirement.\n\n**This is an incentive for readiness, not confirmation that product trading started or evidence that payments were made.** The reports do not identify how many firms were selected or met the conditions. Immediate effectiveness of a rule-change filing does not itself confirm a trading launch. The program does not guarantee access for every investor, liquidity or commercial success.",
+    "קישור": "https://themidpointnews.com/news/cboe-clear-us-broker-dealer-clearing-incentives/",
+    "מקורות": [
+      {
+        "url": "https://themidpointnews.com/news/cboe-clear-us-broker-dealer-clearing-incentives/",
+        "label": "The MidPoint: דיווח מ-16 בנובמבר על תוכנית המוכנות",
+        "label_en": "The MidPoint: November 16 report on the readiness program"
+      },
+      {
+        "url": "https://davefinances.com/cboe-offers-clearing-firms-1-25-million-for-early-readiness/",
+        "label": "DaveFinances: דיווח מ-13 בנובמבר על מדרגות התמריץ ותנאי ההשתתפות",
+        "label_en": "DaveFinances: November 13 report on incentive tiers and eligibility"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "05d83eee6627ab57c03c7f74491279649a3f2a2900c1594b6c78241ae454044c"
+      }
+    }
   }
 ]
