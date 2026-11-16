@@ -45599,5 +45599,110 @@
         "source_hash": "489e4286d2e2da2ade8605c18247b731d3834ea7edbaac414591e9b937d641f4"
       }
     }
+  },
+  {
+    "מזהה": "n-1718",
+    "category": "micro",
+    "חברה": "CoreWeave",
+    "חברה_en": "CoreWeave",
+    "symbols": [
+      "CRWV"
+    ],
+    "sectors": [
+      "information-technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:09",
+    "הועלה": "2026-11-16 09:09",
+    "כותרת": "הודעת 9 בנובמבר | קורוויב: הסכם רב-שנתי לאימון מודלי הנהיגה של Wayve",
+    "כותרת_en": "November 9 announcement | CoreWeave: multi-year agreement to train Wayve driving models",
+    "summary": "החברה הודיעה ש-Wayve תאמן מודלי נהיגה על הענן שלה עם מעבדי Blackwell. היקף כספי לא פורסם.",
+    "summary_en": "The company announced that Wayve will train driving models on its cloud using Blackwell GPUs. Financial terms were not disclosed.",
+    "טקסט": "בהודעה הנושאת תאריך 9 בנובמבר 2026 מסרה קורוויב על הסכם רב-שנתי עם Wayve לאימון מודלי נהיגה אוטונומית על CoreWeave Cloud, באמצעות מעבדי Blackwell של אנבידיה. התשתית מיועדת לאימון, הערכה וסימולציה; לפי ההודעה, Wayve כבר השתמשה ב-Weights & Biases ומרחיבה את השימוש לענן קורוויב.\n\nלא נמסרו שווי ההסכם, מספר המעבדים או הכנסה צפויה. זהו הסכם תשתית למודלי נהיגה, לא אישור רגולטורי לנהיגה אוטונומית או הודעה על שירות מסחרי שכבר הושק.\n\n**תאריך ההודעה הגלוי הוא 9 בנובמבר; מטא-נתוני העמוד מציגים 11 בנובמבר. שעת ההודעה המקורית בישראל לא אומתה.**",
+    "טקסט_en": "In an announcement dated November 9, 2026, CoreWeave disclosed a multi-year agreement with Wayve to train autonomous-driving models on CoreWeave Cloud using NVIDIA Blackwell GPUs. The infrastructure supports training, evaluation and simulation. According to the release, Wayve had already used Weights & Biases and is expanding into CoreWeave Cloud.\n\nThe release does not disclose contract value, GPU count or expected revenue. This is a model-training infrastructure agreement, not regulatory approval for autonomous driving or confirmation that a commercial service has launched.\n\n**The visible announcement date is November 9; page metadata displays November 11. The original announcement time in Israel was not verified.**",
+    "קישור": "https://www.coreweave.com/news/coreweave-to-power-wayves-ai-driver-training-in-multi-year-agreement",
+    "מקורות": [
+      {
+        "url": "https://www.coreweave.com/news/coreweave-to-power-wayves-ai-driver-training-in-multi-year-agreement",
+        "label": "קורוויב: ההודעה המקורית על הסכם Wayve",
+        "label_en": "CoreWeave: original Wayve agreement announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a9729689f5d4a4fb963e9bb4cf5967b7a9a8ceba5f770d6a1f19254cd96d440d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1719",
+    "category": "micro",
+    "חברה": "Albertsons",
+    "חברה_en": "Albertsons",
+    "symbols": [
+      "ACI"
+    ],
+    "sectors": [
+      "consumer-staples"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:09",
+    "הועלה": "2026-11-16 09:09",
+    "כותרת": "הודעת 10 בנובמבר | אלברטסונס ממנה את אנדרו מאריי לסמנכ\"ל הכספים, החל מ-17 בינואר 2027",
+    "כותרת_en": "November 10 announcement | Albertsons names Andrew Murray CFO, effective January 17, 2027",
+    "summary": "מאריי יחליף את ממלא המקום קודי פרדו, שיישאר בחברה כסמנכ\"ל בכיר לגזברות, קשרי משקיעים וניהול סיכונים.",
+    "summary_en": "Murray will succeed interim CFO Cody Perdue, who will remain with the company as SVP of Treasury, Investor Relations and Risk Management.",
+    "טקסט": "אלברטסונס הודיעה ב-10 בנובמבר 2026 כי אנדרו מאריי יצטרף כסמנכ\"ל הכספים ב-17 בינואר 2027. הוא יחליף את קודי פרדו, שמכהן כממלא מקום מאז 30 בספטמבר 2026 וימשיך בתפקידו כסמנכ\"ל בכיר לגזברות, קשרי משקיעים וניהול סיכונים.\n\nלפי הודעת החברה, מאריי מכהן כסמנכ\"ל הכספים של קבוצת Fonterra וצפוי לעבור מניו זילנד לבויסי לפני ינואר. זהו מינוי עתידי, לא כניסה לתפקיד ביום פרסום הידיעה כאן.\n\n**המקור מציין את 10 בנובמבר ללא שעה; שעת ההודעה המקורית בישראל לא אומתה.**",
+    "טקסט_en": "Albertsons announced on November 10, 2026 that Andrew Murray will join as Chief Financial Officer on January 17, 2027. He will succeed Cody Perdue, interim CFO since September 30, 2026, who will continue as Senior Vice President of Treasury, Investor Relations and Risk Management.\n\nAccording to the company, Murray is Group CFO of Fonterra and will relocate from New Zealand to Boise before January. This is a future appointment, not a role beginning on the date this item was uploaded.\n\n**The source gives November 10 without a time; the original announcement time in Israel was not verified.**",
+    "קישור": "https://www.albertsonscompanies.com/newsroom/press-releases/news-details/2026/Albertsons-Companies-Names-Andrew-Murray-Chief-Financial-Officer/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://www.albertsonscompanies.com/newsroom/press-releases/news-details/2026/Albertsons-Companies-Names-Andrew-Murray-Chief-Financial-Officer/default.aspx",
+        "label": "אלברטסונס: הודעת המינוי המקורית",
+        "label_en": "Albertsons: original appointment announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c1b0a9b0d69c41eaaabe091ed1310276024aeb996da2d15a2f2c0334575650d3"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1720",
+    "category": "micro",
+    "חברה": "Johnson Controls",
+    "חברה_en": "Johnson Controls",
+    "symbols": [
+      "JCI"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 09:09",
+    "הועלה": "2026-11-16 09:09",
+    "כותרת": "הודעת 11 בנובמבר | ג׳ונסון קונטרולס וארמדה החלו ייצור רציף של מרכזי נתונים מודולריים בדבלין",
+    "כותרת_en": "November 11 announcement | Johnson Controls and Armada begin continuous modular data-center production in Dublin",
+    "summary": "היחידה האירופית הראשונה הושלמה עבור Fossefall. היעד המשותף של לפחות 500 מגוואט ב-2027 אינו מכירות חתומות או קיבולת נוכחית בדבלין.",
+    "summary_en": "The first European-built unit was completed for Fossefall. The joint target of at least 500 MW in 2027 is not contracted sales or current Dublin capacity.",
+    "טקסט": "ג׳ונסון קונטרולס וארמדה הודיעו ב-11 בנובמבר 2026 על תחילת ייצור רציף באתר Galleon Forge Two בתוך מפעל ג׳ונסון קונטרולס בדבלין. יחידת Leviathan האירופית הראשונה הושלמה ומיועדת ל-Fossefall בנורווגיה. היחידות משלבות תשתית מחשוב ותוכנה של ארמדה עם מערכות ניהול חום ויכולות ייצור של ג׳ונסון קונטרולס.\n\nלפי ההודעה, Fossefall הזמינה חמש יחידות בהספק מצטבר של יותר מ-9 מגוואט, עם מסירה מתוכננת עד הרבעון הראשון של 2027. בנפרד, החברות מכוונות לקיבולת של לפחות 500 מגוואט ב-2027 במסגרת פעילות הייצור המשותפת. זהו יעד, לא היקף מכירות חתומות ולא הקיבולת הנוכחית של האתר בדבלין.\n\nהאתר בדבלין משתרע על 90 אלף רגל רבועה ונתמך בכ-700 עובדי ג׳ונסון קונטרולס; ההודעה אינה אומרת שכולם גיוסים חדשים. לא פורסמו תנאים כספיים.\n\n**המקור מציין את 11 בנובמבר ללא שעה; שעת ההודעה המקורית בישראל לא אומתה.**",
+    "טקסט_en": "Johnson Controls and Armada announced on November 11, 2026 that continuous production had begun at Galleon Forge Two inside a Johnson Controls facility in Dublin. The first European-built Leviathan unit was completed for Fossefall in Norway. The units combine Armada computing infrastructure and software with Johnson Controls thermal-management technology and manufacturing capabilities.\n\nAccording to the release, Fossefall placed an initial order for five units totaling more than 9 MW, with delivery scheduled by the first quarter of 2027. Separately, the companies target at least 500 MW of capacity in 2027 across their joint manufacturing operations. This is a target, not contracted sales or current Dublin capacity.\n\nThe Dublin site spans 90,000 square feet and is supported by about 700 Johnson Controls workers; the release does not say they are all new hires. Financial terms were not disclosed.\n\n**The source gives November 11 without a time; the original announcement time in Israel was not verified.**",
+    "קישור": "https://www.johnsoncontrols.com/media-center/news/press-releases/2026/11/11/armada-and-johnson-controls-launch-galleon-forge-two-in-dublin",
+    "מקורות": [
+      {
+        "url": "https://www.johnsoncontrols.com/media-center/news/press-releases/2026/11/11/armada-and-johnson-controls-launch-galleon-forge-two-in-dublin",
+        "label": "ג׳ונסון קונטרולס: הודעת הייצור והזמנת Fossefall",
+        "label_en": "Johnson Controls: production and Fossefall order announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "15b3b96ed34decce84ac78ea84fc9ad4b927a8a4c915039e6526773e59264cbc"
+      }
+    }
   }
 ]
