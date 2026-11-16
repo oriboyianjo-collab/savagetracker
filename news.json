@@ -53353,5 +53353,41 @@
         "source_hash": "83ffb2adc9dd755f5f286a3848eb173f027526ac2e4fac5c70a8810402b2047d"
       }
     }
+  },
+  {
+    "מזהה": "n-1963",
+    "category": "macro",
+    "חברה": "",
+    "חברה_en": "",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 22:14",
+    "הועלה": "2026-11-16 22:14",
+    "כותרת": "סקר IIE לסתיו 2026: מספר הסטודנטים הבינלאומיים החדשים ירד ב-15% במוסדות שהשיבו",
+    "כותרת_en": "IIE Fall 2026 survey: new international student enrollment fell 15% at responding institutions",
+    "summary": "809 מוסדות דיווחו על ירידה של 9% בסך הסטודנטים הבינלאומיים; זהו מדגם, לא מפקד מלא או נתון תעסוקה.",
+    "summary_en": "809 institutions reported a 9% fall in total international students; this is a subset, not a full census or jobs statistic.",
+    "קישור": "https://opendoorsdata.org/wp-content/uploads/2026/11/IIE_Fall-Snapshot_2026_Key-Findings_2026.pdf",
+    "מקורות": [
+      {
+        "url": "https://opendoorsdata.org/wp-content/uploads/2026/11/IIE_Fall-Snapshot_2026_Key-Findings_2026.pdf",
+        "label": "IIE: Fall 2026 Snapshot key findings",
+        "label_en": "IIE: Fall 2026 Snapshot key findings"
+      },
+      {
+        "url": "https://opendoorsdata.org/press/",
+        "label": "Open Doors: release information",
+        "label_en": "Open Doors: release information"
+      }
+    ],
+    "טקסט": "**שעת הפרסום הראשונה של סקר הסתיו לא אומתה.**\n\nדף Open Doors מציין כי ממצאי פרסום 2026 יצאו ב-16.11.2026 בשעה 09:30 בחוף המזרחי של ארה״ב, 16:30 בישראל. הדף מקשר גם לסקר הסתיו, אך אין בכך אימות נפרד לשעת הופעתו הראשונה.\n\nסקר הסתיו של המכון לחינוך בינלאומי (IIE) ושותפיו כולל תשובות מ-809 מוסדות להשכלה גבוהה בארה״ב על שנת הלימודים 2026/27. במוסדות שהשיבו, מספר הסטודנטים הבינלאומיים החדשים ירד ב-15%, וסך הסטודנטים הבינלאומיים, כולל משתתפים בהכשרה מעשית אופציונלית (OPT), ירד ב-9%.\n\nלפי הסקר, מספר הסטודנטים הבינלאומיים לתואר ראשון ירד ב-3%, לתארים מתקדמים ב-15%, וב-OPT ב-6%. חדשים הם תת-קבוצה של כלל הנרשמים, לא ירידה נוספת שיש לחבר ל-9%.\n\nבקרב מוסדות שדיווחו על ירידות, 88% ציינו את תהליך בקשת הוויזה, 70% מגבלות נסיעה, 60% לימודים במדינות אחרות ו-45% עלויות. ניתן היה לציין כמה גורמים: אלה שיעורי מוסדות המשיבים, לא שיעורי סטודנטים או הוכחה לחלקו הסיבתי של כל גורם.\n\nהסקר הוא תת-קבוצה של כמעט 3,000 המוסדות הנסקרים ב-Open Doors. אין לבלבל אותו עם הדוח השנתי Open Doors 2026, המתייחס ל-2025/26. התמונה המלאה של 2026/27 תיבחן ב-Open Doors 2027. אין זה נתון רשמי על תעסוקה, הגירה או כלל הסטודנטים בארה״ב.",
+    "טקסט_en": "**The Fall Snapshot's first publication time was not verified.**\n\nThe Open Doors press page says the 2026 findings were released November 16, 2026 at 09:30 EST, or 16:30 Israel time. It also links to the Fall Snapshot, but this does not independently establish when that survey first appeared.\n\nThe Institute of International Education and its partners' Fall Snapshot includes responses from 809 US higher education institutions about the 2026/27 academic year. At responding institutions, new international student enrollment fell 15%, while total international student numbers, including Optional Practical Training (OPT), fell 9%.\n\nInternational undergraduate numbers fell 3%, graduate numbers 15% and OPT participation 6%. New enrollments are a subset of the total, not another decline to add to the 9%.\n\nAmong institutions reporting declines, 88% cited the visa application process, 70% travel restrictions, 60% enrollment in other countries and 45% costs. Institutions could name multiple factors. These are shares of responding institutions, not shares of students or proof of each factor's causal contribution.\n\nThe Snapshot is a subset of the nearly 3,000 institutions surveyed by Open Doors. It must not be confused with the annual Open Doors 2026 report, which covers 2025/26. The full 2026/27 picture will be analyzed in Open Doors 2027. This is not an official employment, immigration or all-US-student statistic.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "98347dd415e5b75311715fa1a86ed384344972147ee2082b04aada34c14c5efa"
+      }
+    }
   }
 ]
