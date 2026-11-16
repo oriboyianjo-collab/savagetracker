@@ -45521,5 +45521,50 @@
         "source_hash": "b8da7d721c50be2bf70beb02fb58ecda6842d27ff104aa3385776e1092d51319"
       }
     }
+  },
+  {
+    "מזהה": "n-1716",
+    "category": "micro",
+    "חברה": "Samsung SDI",
+    "חברה_en": "Samsung SDI",
+    "symbols": [
+      "KS006400"
+    ],
+    "sectors": [
+      "industrials"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-16 07:50",
+    "הועלה": "2026-11-16 07:50",
+    "כותרת": "Samsung SDI (KS006400): חוזה לאספקת סוללות אגירה בהיקף 16 גיגה-ואט שעה ל-Jupiter Power בארה\"ב",
+    "כותרת_en": "Samsung SDI (KS006400): 16 GWh US storage battery supply deal with Jupiter Power",
+    "summary": "החברה-הבת האמריקאית חתמה על הסכם לסוללות ליתיום-ברזל-פוספט שייוצרו באינדיאנה, לאספקה במשך שלוש שנים החל מ-2029. ההיקף המצטבר של כ-27 גיגה-ואט שעה כולל חוזה קודם, ואינו כולו הזמנה חדשה.",
+    "summary_en": "The US subsidiary signed an agreement for Indiana-made lithium iron phosphate batteries, for delivery over three years starting in 2029. The approximately 27 GWh cumulative total includes an earlier contract, rather than being entirely new orders.",
+    "טקסט": "החברה Samsung SDI הודיעה ב-16 בנובמבר כי החברה-הבת האמריקאית שלה חתמה עם Jupiter Power על הסכם לאספקת סוללות ליתיום-ברזל-פוספט (LFP) בהיקף 16 גיגה-ואט שעה. הסוללות מיועדות לפרויקטי אגירת חשמל גדולים בארה\"ב וייוצרו באינדיאנה. האספקה מתוכננת לשלוש שנים החל מ-2029; אין כאן הודעה שכל הסוללות כבר סופקו.\n\n**מה חדש:** חוזה האספקה של 16 גיגה-ואט שעה. הנתון המצטבר של כ-27 גיגה-ואט שעה שהחברה מציינת כולל עסקה קודמת עם Jupiter Power. החברה מתארת את שווי העסקה כאומדן של כמה טריליוני וון, ולא מוסרת מחיר מדויק. לא מדובר בהכנסה שכבר הוכרה.\n\nהלקוחה היא מפתחת ומפעילת אגירת החשמל Jupiter Power, הנתמכת בידי GIP, חלק מ-BlackRock. אין זו הזמנה ישירה של BlackRock. העסקה מרחיבה את פעילות סוללות האגירה מתוצרת מקומית בארה\"ב; ההודעה אינה קובעת שספק מתחרה איבד הזמנה.\n\nהמקור הראשוני הוא הודעת Samsung SDI מ-16 בנובמבר 2026. **שעת הפרסום המקורית אינה מצוינת בעמוד.**",
+    "טקסט_en": "Samsung SDI announced on November 16 that its US subsidiary signed an agreement with Jupiter Power to supply 16 GWh of lithium iron phosphate (LFP) batteries. The batteries are intended for large-scale US energy storage projects and will be produced in Indiana. Deliveries are scheduled over three years starting in 2029; this is not an announcement that all batteries have already been delivered.\n\n**What is new:** the 16 GWh supply contract. The approximately 27 GWh cumulative total cited by the company includes an earlier deal with Jupiter Power. The company describes the value as an estimate of several trillion won, without giving an exact price. This is not revenue already recognized.\n\nThe customer is storage developer and operator Jupiter Power, backed by GIP, part of BlackRock. This is not a direct BlackRock order. The deal expands US-made storage battery activity; the announcement does not establish that a competing supplier lost an order.\n\nThe primary source is Samsung SDI's announcement dated November 16, 2026. **The page does not state the original publication time.**",
+    "קישור": "https://www.samsungsdi.com/sdi-now/sdi-news/5102.html",
+    "מקורות": [
+      {
+        "url": "https://www.samsungsdi.com/sdi-now/sdi-news/5102.html",
+        "label": "Samsung SDI: הודעת החוזה הרשמית",
+        "label_en": "Samsung SDI: official contract announcement"
+      },
+      {
+        "url": "https://www.koreatimes.co.kr/business/companies/20261116/samsung-sdi-secures-16-gwh-us-battery-supply-deal-with-jupiter-power",
+        "label": "Korea Times: דיווח על העסקה",
+        "label_en": "Korea Times: reporting on the deal"
+      },
+      {
+        "url": "https://ir.gsifn.io/samsungsdi/ir3_stock_listing.html?koreng=2",
+        "label": "מידע המניות המקושר מאתר Samsung SDI: סימול המניה הרגילה",
+        "label_en": "Share information linked by Samsung SDI: common share ticker"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0bab6523dca729ea800970d35da6e911922daf2357a843a4d86b06086f1a2e6b"
+      }
+    }
   }
 ]
