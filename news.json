@@ -59261,5 +59261,36 @@
         "source_hash": "d58ab6866d0453c83eefe9dfd3ebef8f011269a083051f37f28df4b0701ef78c"
       }
     }
+  },
+  {
+    "מזהה": "n-2133",
+    "category": "macro",
+    "חברה": "Global economy",
+    "חברה_en": "Global economy",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:34",
+    "הועלה": "2026-11-17 11:34",
+    "כותרת": "סקר DIHK לעסקים גרמניים בחו\"ל: מאזן התחזית הכלכלית עלה ממינוס 11 לפלוס 8; אירופה עדיין שלילית",
+    "כותרת_en": "DIHK survey of German businesses abroad: economic-outlook balance rises from -11 to +8; EU still negative",
+    "summary": "דוח AHK World Business Outlook לסתיו 2026 של DIHK פורסם ב-17 בנובמבר ונקרא במלואו. שעת הפרסום המדויקת לא אומתה. הסקר נערך באוקטובר בקרב כמעט 3,500 עסקים גרמניים הפעילים בחו\"ל; הוא מודד את הערכותיהם לגבי אתרי הפעילות מחוץ לגרמניה, לא את כלל החברות או משקי הבית בעולם.",
+    "summary_en": "DIHK's full original AHK World Business Outlook autumn 2026 report, published November 17, was read. The exact publication clock was not verified. The October survey covered nearly 3,500 German businesses operating abroad. It measures their assessments of overseas locations, not all companies or households worldwide.",
+    "טקסט": "דוח AHK World Business Outlook לסתיו 2026 של DIHK פורסם ב-17 בנובמבר ונקרא במלואו. שעת הפרסום המדויקת לא אומתה. הסקר נערך באוקטובר בקרב כמעט 3,500 עסקים גרמניים הפעילים בחו\"ל; הוא מודד את הערכותיהם לגבי אתרי הפעילות מחוץ לגרמניה, לא את כלל החברות או משקי הבית בעולם.\n\nמאזן הציפיות לכלכלה המקומית ב-12 החודשים הבאים עלה ממינוס 11 באביב לפלוס 8 נקודות: 28% צופים שיפור לעומת 20% הצופים הרעה. זהו פער באחוזי התשובות, לא צמיחה של 8% בתוצר ולא נתון תפוקה בפועל.\n\nמאזן הערכת המצב העסקי עלה מ-26 ל-38, מאזן הציפיות העסקיות מ-28 ל-41, כוונות ההשקעה מ-9 ל-18 וכוונות התעסוקה מ-15 ל-23 נקודות. אלה הערכות וכוונות, לא אישור שההשקעות או הגיוסים בוצעו.\n\nהפערים האזוריים נותרו גדולים: מאזן התחזית הכלכלית בצפון אמריקה הוא פלוס 20, באסיה-פסיפיק ללא סין פלוס 22, בסין רבתי אפס ובאיחוד האירופי מינוס 5. DIHK מזהירה שההתאוששות שברירית; 44% ציינו את הסביבה הכלכלית-פוליטית כסיכון, 42% ביקוש חלש, 35% מחירי אנרגיה ו-32% שיבושים בשרשרת האספקה. מותר היה לציין יותר מסיכון אחד ולכן אין לחבר את האחוזים ל-100%.\n\nזהו סקר פעילות בינלאומית חדש, לא עדכון לנתון התוצר או לסקר DIHK המקומי מ-5 בנובמבר, שנערך במדגם אחר וכבר סוקר. לא אומתה תגובת שוק לדוח.",
+    "טקסט_en": "DIHK's full original AHK World Business Outlook autumn 2026 report, published November 17, was read. The exact publication clock was not verified. The October survey covered nearly 3,500 German businesses operating abroad. It measures their assessments of overseas locations, not all companies or households worldwide.\n\nThe balance of expectations for local economic conditions over the next 12 months rose from minus 11 in spring to plus 8 points: 28% expect improvement and 20% expect deterioration. This is a difference between response shares, not 8% GDP growth or an actual output reading.\n\nThe business-condition balance rose from 26 to 38, business expectations from 28 to 41, investment intentions from 9 to 18 and hiring intentions from 15 to 23 points. These are assessments and intentions, not confirmation that investment or hiring has occurred.\n\nRegional gaps remain substantial. The economic-outlook balance is plus 20 in North America, plus 22 in Asia-Pacific excluding China, zero in Greater China and minus 5 in the EU. DIHK calls the recovery fragile. Economic-policy conditions were cited as a risk by 44%, weak demand by 42%, energy prices by 35% and supply disruption by 32%. Multiple responses were allowed, so the percentages should not be added to 100%.\n\nThis is a new international-business survey, not a GDP update or the November 5 domestic DIHK survey, which used a different sample and was already covered. No market reaction to this report was verified.",
+    "קישור": "https://www.dihk.de/de/newsroom/ahk-world-business-outlook-herbst-2026-192960",
+    "מקורות": [
+      {
+        "url": "https://www.dihk.de/de/newsroom/ahk-world-business-outlook-herbst-2026-192960",
+        "label": "DIHK: דוח הסקר המקורי לסתיו 2026",
+        "label_en": "DIHK: original autumn 2026 survey report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8638535541d879d7961f19487af48d8dc131f8e50d58e4748aca036866d2d24d"
+      }
+    }
   }
 ]
