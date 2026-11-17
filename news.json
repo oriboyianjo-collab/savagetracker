@@ -57985,5 +57985,109 @@
         "source_hash": "83d942456ea65b5317769ff198aea91866b5d321451448741c29b82b2a3882f8"
       }
     }
+  },
+  {
+    "מזהה": "n-2096",
+    "category": "micro",
+    "חברה": "Aon (AON)",
+    "חברה_en": "Aon (AON)",
+    "symbols": [
+      "AON"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:39",
+    "הועלה": "2026-11-17 10:39",
+    "כותרת": "פורסם באיחור | Aon (AON): לפי עותק הדיווח, משכה הלוואות של 4 מיליארד דולר למימון חלק מרכישת USI",
+    "כותרת_en": "Published late | Aon (AON): filing copy shows $4 billion term-loan draw to fund part of USI acquisition",
+    "summary": "**לא מאומת מול מקור ראשוני:** עותק מלא של דיווח Aon מ-16 בנובמבר 2026, שכבר נקלט ב-StockTitan, נקרא ישירות, לרבות סעיף 2.03. המסמך לא אומת מחדש מול שרת החברה או הרגולטור. זהו פירוט מימון נוסף לעסקת USI שכבר סוקרה, לא רכישה נוספת. שעת הפרסום הראשונה של הפרט לא אומתה.",
+    "summary_en": "**Not verified against a primary source:** A previously captured full copy of Aon's November 16, 2026 filing hosted by StockTitan was read directly, including Item 2.03. It was not reauthenticated against the company or regulator server. This adds financing detail to the previously covered USI transaction, not another acquisition. The detail's first publication clock was not verified.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** עותק מלא של דיווח Aon מ-16 בנובמבר 2026, שכבר נקלט ב-StockTitan, נקרא ישירות, לרבות סעיף 2.03. המסמך לא אומת מחדש מול שרת החברה או הרגולטור. זהו פירוט מימון נוסף לעסקת USI שכבר סוקרה, לא רכישה נוספת. שעת הפרסום הראשונה של הפרט לא אומתה.\n\nלפי נוסח הדיווח, Aon North America משכה ב-16 בנובמבר במלואן שתי הלוואות לא מובטחות במסגרת משיכה נדחית, בסך כולל של 4 מיליארד דולר. המסגרות כוללות 2 מיליארד דולר לתקופה של שנתיים ועוד 2 מיליארד דולר לתקופה של שלוש שנים.\n\nהכסף נועד לתשלום חלק מרכיב המזומן בעסקת USI ולהוצאות נלוות. אין לפרש את ה-4 מיליארד כמחיר הרכישה הכולל של 17 מיליארד דולר או להוסיף אותם שוב למחיר העסקה. הסכם האשראי עצמו תואר כמסגרת שנחשפה קודם; החידוש הוא המשיכה בפועל בעת ההשלמה.\n\nהשלמת רכישת USI, תפקידו החדש של Michael Sicard ויעד הסינרגיות של 395 מיליון דולר ב-EBITDA מתואם כבר סוקרו בנפרד. יעד הסינרגיות אינו חיסכון שכבר מומש, והמשיכה אינה הכנסה תפעולית.",
+    "טקסט_en": "**Not verified against a primary source:** A previously captured full copy of Aon's November 16, 2026 filing hosted by StockTitan was read directly, including Item 2.03. It was not reauthenticated against the company or regulator server. This adds financing detail to the previously covered USI transaction, not another acquisition. The detail's first publication clock was not verified.\n\nThe filing text says Aon North America fully drew two unsecured delayed-draw term loans on November 16, totalling $4 billion. They comprise a two-year $2 billion facility and a three-year $2 billion facility.\n\nThe proceeds funded part of the USI cash consideration and related fees and expenses. The $4 billion is neither the full $17 billion acquisition price nor an amount to add again to that price. The credit agreement was previously disclosed; the increment is the actual draw at closing.\n\nThe USI closing, Michael Sicard's new role and the $395 million net adjusted EBITDA synergy target were covered separately. The target is not savings already achieved, and the loan draw is not operating revenue.",
+    "קישור": "https://www.stocktitan.net/sec-filings/AON/8-k-aon-plc-reports-material-event-493747032623.html",
+    "מקורות": [
+      {
+        "url": "https://www.stocktitan.net/sec-filings/AON/8-k-aon-plc-reports-material-event-493747032623.html",
+        "label": "StockTitan: עותק דיווח Aon שנקלט קודם, סעיף 2.03",
+        "label_en": "StockTitan: previously captured Aon filing copy, Item 2.03"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7a59bcac015a4aea8ea10c134dbc35d3ff577898972292e0b9ce5087a14e83a6"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2097",
+    "category": "micro",
+    "חברה": "Viper Energy (VNOM)",
+    "חברה_en": "Viper Energy (VNOM)",
+    "symbols": [
+      "VNOM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:39",
+    "הועלה": "2026-11-17 10:39",
+    "כותרת": "פורסם באיחור | Viper Energy (VNOM): לפי DataTooza, רכישת Buckhorn הושלמה ב-13 בנובמבר; נרשמו מניות למכירה אפשרית של המוכרים",
+    "כותרת_en": "Published late | Viper Energy (VNOM): DataTooza reports Buckhorn closed November 13; seller shares registered for potential resale",
+    "summary": "**לא מאומת מול מקור ראשוני:** דיווח DataTooza המלא מ-17 בנובמבר 2026 נקרא. הוא מתאר מסמכי חברה שהוגשו ב-16 בנובמבר, אך המסמכים המקוריים לא נקראו ישירות. השעות המוצגות אינן כוללות אזור זמן שאומת כאן.",
+    "summary_en": "**Not verified against a primary source:** The full November 17, 2026 DataTooza report was reviewed. It describes company documents filed November 16, but the originals were not directly read. Its displayed clocks have no time zone verified here.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** דיווח DataTooza המלא מ-17 בנובמבר 2026 נקרא. הוא מתאר מסמכי חברה שהוגשו ב-16 בנובמבר, אך המסמכים המקוריים לא נקראו ישירות. השעות המוצגות אינן כוללות אזור זמן שאומת כאן.\n\nלפי הדיווח, Viper Energy Partners השלימה ב-13 בנובמבר את רכישת זכויות המינרלים והתמלוגים מישויות Buckhorn ו-Shedhorn. התמורה כללה כ-280 מיליון דולר במזומן, בכפוף להתאמות מקובלות, ו-1,844,165 מניות Class A. זהו עדכון השלמה לעסקה שתוארה קודם כממתינה, ולא רכישת McElroy הנפרדת.\n\nהכתבה מתארת רישום למכירה חוזרת אפשרית של עד 1,844,165 המניות ששולמו למוכרים. רישום אינו אישור שכל המניות נמכרו בפועל, אינו הנפקת מזומן נוספת לחברה ואינו אומר שהמוכרים מחויבים למכור כעת.\n\nלפי הדיווח, Viper לא תקבל את תמורת מכירת המניות בידי בעלי המניות המוכרים. מחיר שוק שמופיע ברקע אינו מחיר עסקה מובטח או הכנסה שהתקבלה. תנאי הרישום וההשלמה מיוחסים לסיקור המשני, לא לאימות עצמאי של כל נספחי החברה.",
+    "טקסט_en": "**Not verified against a primary source:** The full November 17, 2026 DataTooza report was reviewed. It describes company documents filed November 16, but the originals were not directly read. Its displayed clocks have no time zone verified here.\n\nAccording to the report, Viper Energy Partners completed its acquisition of mineral and royalty interests from Buckhorn and Shedhorn entities on November 13. Consideration included approximately $280 million in cash, subject to customary adjustments, and 1,844,165 Class A shares. This updates a previously pending deal, not the separate McElroy acquisition.\n\nThe article describes registration for potential resale of up to the 1,844,165 shares issued to sellers. Registration does not establish that all shares were actually sold, create another cash issuance for Viper or require sellers to sell now.\n\nThe report says Viper will receive no proceeds from selling stockholders' share sales. A market price supplied as background is not a guaranteed transaction price or received revenue. Registration and closing details remain attributed to secondary coverage, not independent verification of every company exhibit.",
+    "קישור": "https://www.datatooza.com/article/20261117061212249552ef3cecd7_80",
+    "מקורות": [
+      {
+        "url": "https://www.datatooza.com/article/20261117061212249552ef3cecd7_80",
+        "label": "DataTooza: דיווח משני מלא על ההשלמה והרישום",
+        "label_en": "DataTooza: full secondary report on closing and resale registration"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "22caa7cb3ec4ddc5c4c7b4ede3bd9a1e7b322c7e41238f8940d39d31046fccb6"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2098",
+    "category": "micro",
+    "חברה": "HP (HPQ)",
+    "חברה_en": "HP (HPQ)",
+    "symbols": [
+      "HPQ"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:39",
+    "הועלה": "2026-11-17 10:39",
+    "כותרת": "HP (HPQ): לפי TCT, זמינות MJF 1200 נבחרת בינואר 2027 וכללית באפריל; לא השקה מלאה כעת",
+    "כותרת_en": "HP (HPQ): TCT reports selected MJF 1200 availability in January 2027 and general rollout in April",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת TCT המלאה מ-17 בנובמבר 2026 נקראה, לצד הודעת HP קודמת מ-14 באפריל. ההודעה המקורית העדכנית מ-Formnext לא נקראה ישירות. שעת 08:00 המוצגת בכתבה אינה כוללת אזור זמן שאומת כאן.",
+    "summary_en": "**Not verified against a primary source:** The full November 17, 2026 TCT article was reviewed alongside HP's earlier April 14 release. The latest original Formnext announcement was not directly read. The article's displayed 08:00 clock has no time zone verified here.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת TCT המלאה מ-17 בנובמבר 2026 נקראה, לצד הודעת HP קודמת מ-14 באפריל. ההודעה המקורית העדכנית מ-Formnext לא נקראה ישירות. שעת 08:00 המוצגת בכתבה אינה כוללת אזור זמן שאומת כאן.\n\nלפי TCT, לקוחות נבחרים יתחילו לקבל את מדפסת Multi Jet Fusion 1200 בינואר 2027 וזמינות כללית תחל באפריל 2027. אין כאן זמינות כללית נוכחית. המדפסת עצמה הוצגה כבר באפריל, והודעת HP אז צפתה זמינות בתחילת 2027; החידוש המדווח הוא פירוט שלבי הפריסה.\n\nTCT מתארת גם מצב High Productivity ל-Jet Fusion 5600, עם צפי לזמינות בתחילת 2027 וטענת HP לשיפור תפוקה של 20%. זהו שיפור שמיוחס לספק, לא תוצאה של בדיקה עצמאית. Dual Tone מתואר כעדכון קושחה מתוכנן לאביב 2027, בעוד הודעת אפריל צפתה זמינות בסוף 2026; יש להבחין בין לוחות הזמנים ולא להציג את התכונה כזמינה כעת.\n\nשיתופי פעולה עם DyeMansion ו-Xometry ומפת דרכים לשימושי AI הם חלק מהסיקור. אין בכתבה סכום חוזה או אומדן מאומת להכנסות HP, ואין להציג פיתוחי AI שנבחנים כפריסה מסחרית מלאה. פרטי הזמינות העתידיים עשויים להשתנות.",
+    "טקסט_en": "**Not verified against a primary source:** The full November 17, 2026 TCT article was reviewed alongside HP's earlier April 14 release. The latest original Formnext announcement was not directly read. The article's displayed 08:00 clock has no time zone verified here.\n\nTCT says selected customers will start receiving the Multi Jet Fusion 1200 in January 2027, with general availability in April 2027. This is not current general availability. HP introduced the printer in April and then expected early-2027 availability; the reported increment is the staged rollout detail.\n\nTCT also describes High Productivity mode for Jet Fusion 5600, expected in early 2027, with HP claiming 20% more output. That is a vendor claim, not an independent test result. Dual Tone is described as a firmware update planned for spring 2027, whereas April's release expected late 2026. The schedules must be distinguished rather than treating the feature as available now.\n\nDyeMansion and Xometry collaborations and an AI roadmap are also covered. No contract amount or verified HP revenue increment is provided, and AI capabilities under exploration are not full commercial deployments. Future availability may change.",
+    "קישור": "https://www.tctmagazine.com/hp-to-make-mjf-1200-machine-available-from-early-2027/",
+    "מקורות": [
+      {
+        "url": "https://www.tctmagazine.com/hp-to-make-mjf-1200-machine-available-from-early-2027/",
+        "label": "TCT: סיקור Formnext המלא מ-17 בנובמבר",
+        "label_en": "TCT: full November 17 Formnext coverage"
+      },
+      {
+        "url": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-introduces-mjf-1200-3d-printer.html",
+        "label": "HP: הודעת 14 באפריל, רקע ותכנון קודם",
+        "label_en": "HP: April 14 release, background and earlier schedule"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1bb2c1989163e8ffc46ea65f2459de128844714546b231821d51a0621960b3ed"
+      }
+    }
   }
 ]
