@@ -57518,5 +57518,104 @@
         "source_hash": "86f2334abe9bdd1d390880f94ebee7a415cf8162d4404255f821f58ad18b022c"
       }
     }
+  },
+  {
+    "מזהה": "n-2082",
+    "category": "micro",
+    "חברה": "VF Corporation (VFC)",
+    "חברה_en": "VF Corporation (VFC)",
+    "symbols": [
+      "VFC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:27",
+    "הועלה": "2026-11-17 10:27",
+    "כותרת": "VF Corporation (VFC): פרסמה תחזית ראשונית ל-FY2028: הכנסות של לפחות 9.8 מיליארד דולר ורווח תפעולי מתואם של לפחות 850 מיליון",
+    "כותרת_en": "VF Corporation (VFC): issues initial FY2028 outlook: at least $9.8 billion revenue and $850 million adjusted operating income",
+    "summary": "בהודעת החברה מ-17 בנובמבר 2026 לקראת השתתפותה בכנס J.P. Morgan, VF פרסמה תחזית ראשונית לשנת הכספים 2028 ואישרה מחדש את תחזית FY2027. ההודעה המקורית נקראה במלואה; שעת הפרסום לא אומתה, ושעת הכנס אינה משמשת כאן כשעת פרסום.",
+    "summary_en": "In its November 17, 2026 company release ahead of a J.P. Morgan conference appearance, VF issued initial fiscal 2028 guidance and reaffirmed fiscal 2027 guidance. The full original release was reviewed; its publication clock was not verified, and the event time is not treated as the release time.",
+    "טקסט": "בהודעת החברה מ-17 בנובמבר 2026 לקראת השתתפותה בכנס J.P. Morgan, VF פרסמה תחזית ראשונית לשנת הכספים 2028 ואישרה מחדש את תחזית FY2027. ההודעה המקורית נקראה במלואה; שעת הפרסום לא אומתה, ושעת הכנס אינה משמשת כאן כשעת פרסום.\n\nל-FY2028 החברה צופה הכנסות של 9.8 מיליארד דולר ומעלה ורווח תפעולי מתואם של 850 מיליון דולר ומעלה. אלה יעדים עתידיים, לא תוצאות שכבר הושגו. הרווח המתואם אינו מדד GAAP, והחברה אינה מספקת התאמה מספרית צופה פני עתיד בטענה שקשה לחזות רכיבים מסוימים ללא מאמץ בלתי סביר.\n\nל-FY2027 אושרה מחדש תחזית צמיחת הכנסות של 2% ומעלה במטבע קבוע, רווחיות תפעולית מתואמת של כ-8% ויחס מינוף בסוף השנה של 2.6 עד 2.9. השוואת ההכנסות מנטרלת את Dickies בשנת הבסיס וכוללת שבוע 53 ב-FY2027, ולכן אינה זהה לצמיחה מדווחת ללא התאמות.\n\nהחברה צופה תזרים חופשי מנורמל שיהיה יציב עד גבוה לעומת בסיס של 405 מיליון דולר, ותזרים חופשי בפועל של לפחות 515 מיליון דולר. הנרמול מנטרל השפעה נטו של 100 מיליון דולר מסיום תכנית פנסיה בשנת הבסיס וכל השפעה נטו של החזרי מכסים ב-FY2027. אין להשוות את שני מדדי התזרים כאילו הם אותו מדד.",
+    "טקסט_en": "In its November 17, 2026 company release ahead of a J.P. Morgan conference appearance, VF issued initial fiscal 2028 guidance and reaffirmed fiscal 2027 guidance. The full original release was reviewed; its publication clock was not verified, and the event time is not treated as the release time.\n\nFor FY2028, VF expects revenue of at least $9.8 billion and adjusted operating income of at least $850 million. These are future targets, not achieved results. Adjusted operating income is non-GAAP; VF does not provide a forward reconciliation because it says certain items cannot reasonably be forecast without unreasonable effort.\n\nFor FY2027, it reaffirmed constant-currency revenue growth of at least 2%, adjusted operating margin of approximately 8% and year-end leverage of 2.6 to 2.9 times. The revenue comparison excludes Dickies from the prior year and includes FY2027's 53rd week, so it is not unadjusted reported growth.\n\nVF expects normalized free cash flow flat to higher versus a $405 million prior-year base, and actual free cash flow of at least $515 million. Normalization excludes a $100 million net pension-termination impact in the base year and any net tariff-refund impact in FY2027. The two cash-flow measures should not be treated as identical.",
+    "קישור": "https://www.businesswire.com/news/home/20261117543394/en/VF-Corporation-Participates-in-a-Fireside-Chat-at-J.P.-Morgans-8th-Annual-Global-Luxury-Brands-Conference",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261117543394/en/VF-Corporation-Participates-in-a-Fireside-Chat-at-J.P.-Morgans-8th-Annual-Global-Luxury-Brands-Conference",
+        "label": "VF Corporation: הודעת החברה המקורית",
+        "label_en": "VF Corporation: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "be935226daa9183df05ad97368c32255c1b74cd4a726e642597b8ab720779698"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2083",
+    "category": "micro",
+    "חברה": "Digital Realty (DLR)",
+    "חברה_en": "Digital Realty (DLR)",
+    "symbols": [
+      "DLR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:27",
+    "הועלה": "2026-11-17 10:27",
+    "כותרת": "Digital Realty (DLR): חיבור חשמל ייעודי של 110 קילו-וולט לקמפוס בפרנקפורט נכנס לפעילות; ההרחבה נותרה בתכנון",
+    "כותרת_en": "Digital Realty (DLR): brings dedicated 110 kV Frankfurt power connection online; campus expansion remains planned",
+    "summary": "Digital Realty הודיעה ב-17 בנובמבר 2026 בשעה 03:00 ET, 10:00 בישראל, שחיבור החשמל הייעודי ל-Digital Park Fechenheim בפרנקפורט פעיל כעת. הודעת החברה המקורית נקראה במלואה.",
+    "summary_en": "Digital Realty announced at 03:00 ET on November 17, 2026, equivalent to 10:00 in Israel, that its dedicated power connection to Digital Park Fechenheim in Frankfurt is operational. The full original company release was reviewed.",
+    "טקסט": "Digital Realty הודיעה ב-17 בנובמבר 2026 בשעה 03:00 ET, 10:00 בישראל, שחיבור החשמל הייעודי ל-Digital Park Fechenheim בפרנקפורט פעיל כעת. הודעת החברה המקורית נקראה במלואה.\n\nהחיבור התת-קרקעי, בבעלות החברה, משתרע על כ-16 קילומטר מתחנת Karben לקמפוס ומתוכנן לקיבולת חיבור לרשת של עד 300 MVA. ההקמה וההרצה ארכו כ-20 חודשים, בהשקעה שהחברה מתארת כסכום תלת-ספרתי במיליוני אירו, ללא סכום מדויק.\n\nיש להפריד בין חיבור החשמל הפעיל לבין מלוא הקמפוס המתוכנן: בתום ההקמה הקמפוס אמור לכלול 11 מרכזי נתונים ועד 200 מגה-ואט של קיבולת IT. שלושה מרכזים פעילים כיום, והרביעי מתוכנן להיפתח ב-2027. אין כאן הודעה שכל 11 המרכזים או מלוא 200 המגה-ואט כבר פעילים.\n\n300 MVA של קיבולת חיבור לרשת אינם מוצגים כ-300 מגה-ואט של קיבולת IT. ההודעה אינה מפרסמת חוזה לקוח חדש, היקף שטח שהושכר או תוספת הכנסות. זהו פרויקט בפרנקפורט, נפרד ממעבדת החברה בסינגפור שסוקרה קודם.",
+    "טקסט_en": "Digital Realty announced at 03:00 ET on November 17, 2026, equivalent to 10:00 in Israel, that its dedicated power connection to Digital Park Fechenheim in Frankfurt is operational. The full original company release was reviewed.\n\nThe company-owned underground connection runs approximately 16 kilometres from Karben substation to the campus and is designed for up to 300 MVA of grid-connection capacity. Construction and commissioning took about 20 months. Digital Realty describes its investment as a triple-digit million-euro amount without giving an exact figure.\n\nThe operating power connection must be separated from the planned full campus: at full build-out, the site is intended to contain 11 data centres and up to 200 MW of IT capacity. Three data centres are operating; a fourth is scheduled for 2027. The release does not say all 11 facilities or the full 200 MW are already online.\n\nThe 300 MVA grid-connection rating is not presented as 300 MW of IT capacity. No new customer contract, leased-space amount or revenue increment was disclosed. This Frankfurt project is separate from the previously covered Singapore innovation lab.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/17/3404295/0/en/digital-realty-supports-growth-at-digital-park-fechenheim-with-dedicated-110-kv-power-connection-now-online.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/17/3404295/0/en/digital-realty-supports-growth-at-digital-park-fechenheim-with-dedicated-110-kv-power-connection-now-online.html",
+        "label": "Digital Realty: הודעת החברה המקורית",
+        "label_en": "Digital Realty: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2d918ed13baa08ee3e86c59160020fce60db4d2aa3f81e5b216430ff36c2634c"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2084",
+    "category": "micro",
+    "חברה": "FTI Consulting (FCN)",
+    "חברה_en": "FTI Consulting (FCN)",
+    "symbols": [
+      "FCN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:27",
+    "הועלה": "2026-11-17 10:27",
+    "כותרת": "פורסם באיחור | FTI Consulting (FCN): מינתה את Farid Zahran ל-Senior Managing Director להובלת AI וטרנספורמציה דיגיטלית במזרח התיכון",
+    "כותרת_en": "Published late | FTI Consulting (FCN): appoints Farid Zahran as Senior Managing Director for Middle East AI and digital transformation",
+    "summary": "בהודעת החברה המקורית מ-16 בנובמבר 2026, שנקראה במלואה, FTI Consulting הודיעה על מינוי Farid Zahran ל-Senior Managing Director בפרקטיקת הטרנספורמציה שלה במזרח התיכון, להובלת תחומי AI וטרנספורמציה דיגיטלית. שעת פרסום מקורית לא אומתה.",
+    "summary_en": "FTI Consulting's full original November 16, 2026 release announces Farid Zahran's appointment as a Senior Managing Director in its Middle East Transformation practice, leading AI and Digital Transformation. The original publication clock was not verified.",
+    "טקסט": "בהודעת החברה המקורית מ-16 בנובמבר 2026, שנקראה במלואה, FTI Consulting הודיעה על מינוי Farid Zahran ל-Senior Managing Director בפרקטיקת הטרנספורמציה שלה במזרח התיכון, להובלת תחומי AI וטרנספורמציה דיגיטלית. שעת פרסום מקורית לא אומתה.\n\nZahran ייעץ לגופים ממשלתיים ולארגונים באזור בנושאי אסטרטגיה, מודלי הפעלה, ממשל נתונים, פלטפורמות ארגוניות וחוויית לקוח. לפי החברה, עבודתו תכלול מגזר ציבורי, אנרגיה, תשתיות, תקשורת ושירותים פיננסיים.\n\nהחברה מייחסת לו יותר מ-15 שנות ניסיון באסטרטגיה וטרנספורמציה במדינות המפרץ. מדובר במינוי לתפקיד בכיר אזורי, לא מינוי למנכ\"ל FTI או החלפת ההנהלה הגלובלית.\n\nלא פורסמו שכר, סכום חוזה, לקוחות חדשים או תחזית הכנסות. המטרות לשיפור יכולות הייעוץ ולהשגת ערך ללקוחות אינן נתוני חיסכון או רווח שכבר נמדדו.",
+    "טקסט_en": "FTI Consulting's full original November 16, 2026 release announces Farid Zahran's appointment as a Senior Managing Director in its Middle East Transformation practice, leading AI and Digital Transformation. The original publication clock was not verified.\n\nZahran will advise government bodies and regional organisations on strategy, operating models, data governance, enterprise platforms and customer experience. The company says his work will cover the public sector, energy, utilities, telecommunications and financial services.\n\nFTI credits him with more than 15 years of strategy and transformation experience across the Gulf. This is a senior regional appointment, not appointment as FTI's chief executive or a change of global leadership.\n\nCompensation, contract value, new customers and a revenue forecast were not disclosed. Goals of improving advisory capabilities and customer value are not measured savings or earnings already achieved.",
+    "קישור": "https://fticonsulting.gcs-web.com/news-releases/news-release-details/fti-consulting-appoints-farid-zahran-senior-managing-director",
+    "מקורות": [
+      {
+        "url": "https://fticonsulting.gcs-web.com/news-releases/news-release-details/fti-consulting-appoints-farid-zahran-senior-managing-director",
+        "label": "FTI Consulting: הודעת החברה המקורית",
+        "label_en": "FTI Consulting: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "39140ef1df39c2ac2f9a38ddb7a62a4453122b9fb8477142675209154af6ef8c"
+      }
+    }
   }
 ]
