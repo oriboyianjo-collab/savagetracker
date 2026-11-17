@@ -4545,7 +4545,7 @@ function wlDayView(it, q){
   let pct = q && q.prev ? (q.price/q.prev-1)*100 : null, extO = q && q.ext;
   if(q && q.idx && !q.ext && !q.hlt && q.pdc>0 && q.ts && Date.now()-q.ts < 6*3600e3 && isVixSym(it.q) && extAny()){   // v235: VIX streaming live outside the regular session
     const p2 = iclGet(String(it.q).toUpperCase(), q.date, q.pdc);
-    if(p2){ pct = (q.pdc/p2-1)*100; extO = {kind:'now', chg:q.price-q.pdc, pct:(q.price/q.pdc-1)*100}; }   // pill = yesterday's session change off the exact previous_day_closing; line below = live change vs it
+    if(p2){ pct = (q.price/q.pdc-1)*100; extO = null; }   // v299: no trading phases for VIX - pill = live change off the exact previous_day_closing, no session line (approved Ori Nov17)
   }
   return {pct, extO};
 }
