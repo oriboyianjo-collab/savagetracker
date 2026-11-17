@@ -56789,5 +56789,49 @@
         "source_hash": "21f31b4f567b66682ccce919cd442686b732bdb5e56b054d4d5ab0ca55724fec"
       }
     }
+  },
+  {
+    "מזהה": "n-2061",
+    "category": "micro",
+    "חברה": "Chevron (CVX)",
+    "חברה_en": "Chevron (CVX)",
+    "symbols": [
+      "CVX",
+      "BX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:55",
+    "הועלה": "2026-11-17 09:55",
+    "כותרת": "פורסם באיחור | Chevron (CVX): לפי Reuters המצטטת את FT, מתקרבת לרכישת שליטה ב-Beacon Offshore לפי שווי עסק של כ-5 מיליארד דולר",
+    "כותרת_en": "Published late | Chevron (CVX): Reuters cites FT report of nearing Beacon Offshore majority deal at roughly $5 billion business valuation",
+    "summary": "**לא מאומת מול מקור ראשוני:** לא נקראו הסכם רכישה או אישור חברה. כתבת Reuters המלאה מ-16 בנובמבר נקראה דרך Investing.com והיא מייחסת את הדיווח ל-Financial Times. ב-FT נבדקו כותרת ותאריך, לא הכתבה המלאה. דיווח מלא נוסף של TheFly מצטט את FT ומציג 16 בנובמבר 20:30:25 UTC, 22:30:25 בישראל; זו שעת ההפצה של TheFly, לא הוכחה לשעת המקור הראשונה.",
+    "summary_en": "**Not verified against a primary source:** No acquisition agreement or issuer confirmation was read. The full November 16 Reuters article was reviewed through Investing.com and attributes the report to the Financial Times. FT's headline and date, not its full article, were checked. A full TheFly report also cites FT and is timestamped November 16 at 20:30:25 UTC, 22:30:25 in Israel; that is TheFly's distribution time, not proof of the original first-publication time.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** לא נקראו הסכם רכישה או אישור חברה. כתבת Reuters המלאה מ-16 בנובמבר נקראה דרך Investing.com והיא מייחסת את הדיווח ל-Financial Times. ב-FT נבדקו כותרת ותאריך, לא הכתבה המלאה. דיווח מלא נוסף של TheFly מצטט את FT ומציג 16 בנובמבר 20:30:25 UTC, 22:30:25 בישראל; זו שעת ההפצה של TheFly, לא הוכחה לשעת המקור הראשונה.\n\nלפי הדיווח, Chevron מתקרבת לעסקה לרכישת החזקת רוב ב-Beacon Offshore Energy, חברת נפט הנתמכת בידי Blackstone. העסקה האפשרית עשויה לשקף שווי עסק של כ-5 מיליארד דולר. אין לפרש זאת אוטומטית כמחיר המזומן עבור החזקת הרוב או כ-5 מיליארד דולר שכבר שולמו.\n\nלפי FT כפי שמצטטת Reuters, Chevron הקדימה מציעות מתחרות במרוץ אחר Beacon, השולטת בכ-70 רישיונות מים עמוקים על שטח ברוטו של כ-400 אלף אקר במפרץ מקסיקו. אלו רישיונות ושטח מתוארים בדיווח, לא תפוקה חדשה שכבר נוספה ל-Chevron.\n\nChevron סירבה להגיב ו-Beacon לא השיבה מיד לבקשת תגובה. אין בכתבת Reuters אישור להסכם חתום, להשלמת העסקה או לתאריך השלמה מחייב. זו התפתחות מדווחת מ-16 בנובמבר, לא הכרזת רכישה סופית חדשה מהיום.",
+    "טקסט_en": "**Not verified against a primary source:** No acquisition agreement or issuer confirmation was read. The full November 16 Reuters article was reviewed through Investing.com and attributes the report to the Financial Times. FT's headline and date, not its full article, were checked. A full TheFly report also cites FT and is timestamped November 16 at 20:30:25 UTC, 22:30:25 in Israel; that is TheFly's distribution time, not proof of the original first-publication time.\n\nAccording to the report, Chevron is nearing a deal to buy a majority stake in Blackstone-backed oil producer Beacon Offshore Energy. The potential transaction could value the business at roughly $5 billion. That should not automatically be treated as the cash price for the majority stake or $5 billion already paid.\n\nFT, as cited by Reuters, says Chevron has moved ahead of rival bidders for Beacon, which controls about 70 deepwater leases covering roughly 400,000 gross acres in the Gulf of Mexico. These are reported leases and acreage, not new production already added to Chevron.\n\nChevron declined comment and Beacon did not immediately respond. The Reuters article does not confirm a signed agreement, closing or binding completion date. This is a reported November 16 development, not a new final acquisition announcement today.",
+    "קישור": "https://www.investing.com/news/stock-market-news/chevron-to-buy-blackstonebacked-oil-producer-for-5-billion-ft-reports-5030814",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/stock-market-news/chevron-to-buy-blackstonebacked-oil-producer-for-5-billion-ft-reports-5030814",
+        "label": "Reuters דרך Investing.com: דיווח מלא המצטט FT",
+        "label_en": "Reuters via Investing.com: full report citing FT"
+      },
+      {
+        "url": "https://www.tipranks.com/news/the-fly/chevron-near-deal-for-beacon-offshore-valuing-company-at-5b-ft-says-thefly-news",
+        "label": "TheFly: נוסח מלא וחותמת זמן הפצה",
+        "label_en": "TheFly: full text and distribution timestamp"
+      },
+      {
+        "url": "https://www.ft.com/stream/50947485-d526-4e6b-adb1-08bec39a2a73",
+        "label": "Financial Times: כותרת ותאריך בלבד",
+        "label_en": "Financial Times: headline and date only"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "30dc4a4c836166c52bb3a4f4552d85a06896e6e5fe60cdb9604542c0e076cdef"
+      }
+    }
   }
 ]
