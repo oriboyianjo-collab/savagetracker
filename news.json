@@ -57069,5 +57069,71 @@
         "source_hash": "2edc171010c8204e6e7291a601ea6d7b17b38321369e41f8b081dc4cc3f7f52d"
       }
     }
+  },
+  {
+    "מזהה": "n-2069",
+    "category": "micro",
+    "חברה": "Meta (META)",
+    "חברה_en": "Meta (META)",
+    "symbols": [
+      "META"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:07",
+    "הועלה": "2026-11-17 10:07",
+    "כותרת": "פורסם באיחור | Meta (META): נוסח החלטת הפרטיות באיטליה מפרט אפשרות מותנית לסיום ההליך בתשלום מחצית הקנס; אין אישור לתשלום",
+    "כותרת_en": "Published late | Meta (META): Italian privacy decision details conditional half-fine resolution option; no payment confirmed",
+    "summary": "עדכון לפריט n-1672 על קנס 805 מיליון האירו, לא קנס חדש. המקור הראשוני נבדק ישירות: החלטת Garante מספר 815 מ-13 בנובמבר 2026, מסמך 10321455, לרבות סעיפי חישוב הסכום וההוראות המסיימות. השעה המדויקת שבה פורסם נוסח ההחלטה לא אומתה. זהו פירוט של החלטה היסטורית, לא הסדר תשלום חדש שהוכרז היום.",
+    "summary_en": "Update to n-1672 about the €805 million fine, not a new fine. The primary source was reviewed directly: Garante decision 815 of November 13, 2026, document 10321455, including the fine-calculation sections and operative closing provisions. The exact publication time of the full decision was not verified. This explains a historical decision, not a new payment settlement announced today.",
+    "טקסט": "עדכון לפריט n-1672 על קנס 805 מיליון האירו, לא קנס חדש. המקור הראשוני נבדק ישירות: החלטת Garante מספר 815 מ-13 בנובמבר 2026, מסמך 10321455, לרבות סעיפי חישוב הסכום וההוראות המסיימות. השעה המדויקת שבה פורסם נוסח ההחלטה לא אומתה. זהו פירוט של החלטה היסטורית, לא הסדר תשלום חדש שהוכרז היום.\n\nההחלטה משאירה ל-Meta Platforms Ireland אפשרות לסיים את המחלוקת באמצעות עמידה בהוראות הרשות ותשלום מחצית הקנס בתוך פרק הזמן הקבוע להגשת ערעור. מחצית מ-805 מיליון היא 402.5 מיליון אירו, בחישוב אריתמטי. אין בכך קביעה שהרשות הפחיתה אוטומטית את הקנס, ש-Meta בחרה במסלול הזה, שהושגה פשרה או שהכסף שולם.\n\nהמסמך גם מפרט שבסיס החישוב נקבע ל-700 מיליון אירו, והאיזון בין נסיבות מקלות ומחמירות הביא לסכום של 805 מיליון. אלו מרכיבי אותו קנס, לא שני קנסות מצטברים. לפי ההחלטה, בהיעדר סיום ההליך במסלול הקבוע, תשלום הסכום נדרש בתוך 60 יום ממסירת ההחלטה. תאריך המסירה בפועל לא נבדק, ולכן לא נקבע כאן מועד אחרון קלנדרי לתשלום או לערעור.\n\nבנפרד מהתשלום, ההחלטה קובעת תיקון מנגנון ההסכמה לתכונת הצעות הגלריה ב-Facebook למשתמשי Android באיטליה. מועדי 60 ו-90 הימים המפורטים בהחלטה נספרים ממסירתה, ולא בהכרח ממועד פרסום ההודעה לעיתונות. אין כאן אימות שהשינויים כבר בוצעו או שההליך נסגר.",
+    "טקסט_en": "Update to n-1672 about the €805 million fine, not a new fine. The primary source was reviewed directly: Garante decision 815 of November 13, 2026, document 10321455, including the fine-calculation sections and operative closing provisions. The exact publication time of the full decision was not verified. This explains a historical decision, not a new payment settlement announced today.\n\nThe decision preserves Meta Platforms Ireland's option to resolve the dispute by complying with the authority's orders and paying half the fine within the period prescribed for bringing an appeal. Half of €805 million is €402.5 million by arithmetic. This does not mean the fine was automatically reduced, Meta chose this route, a settlement was reached or money was paid.\n\nThe document also explains that the starting fine was €700 million and that the balance of mitigating and aggravating circumstances took it to €805 million. These are components of the same fine, not two cumulative fines. Without resolution under the prescribed route, the decision requires payment within 60 days of notification. The actual notification date was not checked, so no calendar payment or appeal deadline is asserted here.\n\nSeparate from payment, the decision orders changes to the consent mechanism for Facebook's gallery-suggestions feature for Android users in Italy. The decision's specified 60- and 90-day periods run from notification, not necessarily from the press-release date. This does not verify that the changes have been made or the proceedings closed.",
+    "קישור": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321455",
+    "מקורות": [
+      {
+        "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321455",
+        "label": "Garante: החלטה 815, מסמך ראשוני 10321455",
+        "label_en": "Garante: decision 815, primary document 10321455"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "69841751b5e9e6eedf87ee81f46b955f43f261aabecd5c7215cd2ec2677eb5a5"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2070",
+    "category": "micro",
+    "חברה": "StandardAero (SARO)",
+    "חברה_en": "StandardAero (SARO)",
+    "symbols": [
+      "SARO"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:07",
+    "הועלה": "2026-11-17 10:07",
+    "כותרת": "פורסם באיחור | StandardAero (SARO): חתמה על ASR של 350 מיליון דולר ועל תוספת הלוואת Term B של 600 מיליון; הרחבת האשראי המתגלגל עדיין מבוקשת",
+    "כותרת_en": "Published late | StandardAero (SARO): signs $350 million ASR and $600 million incremental Term B; revolving-credit expansion still sought",
+    "summary": "עדכון לשלב ביצוע חדש לעומת הכוונה שתוארה ב-n-0232, לא הרשאת רכישה עצמית חדשה. נוסח דוח החברה מ-16 בנובמבר 2026, כפי שפורסם באתר קשרי המשקיעים שלה, נקרא במלואו מהעותק שנלכד. האירוע המוקדם המדווח הוא 13 בנובמבר; שעת הפרסום לא אומתה.",
+    "summary_en": "Update on a new execution stage versus the intention reported in n-0232, not a new repurchase authorization. The full text of the November 16, 2026 company report published on its investor-relations site was reviewed from the captured copy. The earliest reported event is November 13; publication time was not verified.",
+    "טקסט": "עדכון לשלב ביצוע חדש לעומת הכוונה שתוארה ב-n-0232, לא הרשאת רכישה עצמית חדשה. נוסח דוח החברה מ-16 בנובמבר 2026, כפי שפורסם באתר קשרי המשקיעים שלה, נקרא במלואו מהעותק שנלכד. האירוע המוקדם המדווח הוא 13 בנובמבר; שעת הפרסום לא אומתה.\n\nStandardAero דיווחה שב-13 בנובמבר חתמה על הסכם ASR עם Morgan Stanley לרכישה מואצת של מניות בסך 350 מיליון דולר, במסגרת ההרשאה הקיימת של מיליארד דולר. בניגוד לפרסום הקודם על כוונה להתקשר, הדוח כעת מתאר הסכם שנחתם. אין להוסיף 350 מיליון לסכום ההרשאה כאילו מדובר בתוכנית חדשה ונפרדת.\n\nלפי הדוח, ב-13 בנובמבר חברות בנות התקשרו גם בתיקון אשראי המספק תוספת הלוואת Term B מובטחת של 600 מיליון דולר: 434.7 מיליון ללווה האמריקאי ו-165.3 מיליון ללווה הקנדי. התנאים זהים לאלה של קבוצות הלוואות Term B הקיימות בהתאמה. השימושים המותרים כוללים פירעון אשראי מתגלגל, מימון רכישה עצמית, הון חוזר ומטרות כלליות; אין לייחס את כל 600 המיליון לרכישת המניות בלבד.\n\nנוסח הדוח קובע תשלום מקדים של 350 מיליון דולר ומסירה ראשונית של כ-80% מהמניות הצפויות ב-16 בנובמבר, בלשון עתיד. הוא אינו מאשר כאן שהעברת המזומן והמסירה כבר הושלמו. מספר המניות הסופי ייקבע לפי מנגנון מחיר ממוצע משוקלל והתאמות, והסגירה הסופית צפויה עד הרבעון הראשון של 2027 לכל המאוחר, בכפוף לאפשרות הקדמה.\n\nבנפרד, ב-16 בנובמבר החברה הודיעה שהיא מבקשת להאריך את האשראי המתגלגל בעד 18 חודשים ולהוסיף התחייבויות של עד 250 מיליון דולר. התיקון השני תלוי בהסכמות ובתנאי שוק ואינו מתואר כהסכם שכבר נחתם. נספחי ההסכמים לא נבדקו בנפרד.",
+    "טקסט_en": "Update on a new execution stage versus the intention reported in n-0232, not a new repurchase authorization. The full text of the November 16, 2026 company report published on its investor-relations site was reviewed from the captured copy. The earliest reported event is November 13; publication time was not verified.\n\nStandardAero reported signing a $350 million accelerated share repurchase agreement with Morgan Stanley on November 13 under its existing $1 billion authorization. Unlike the earlier announcement of an intention to enter an ASR, this report describes a signed agreement. The $350 million should not be added to the authorization as a separate new program.\n\nThe report also says subsidiaries entered a credit amendment on November 13 providing $600 million of incremental secured Term B financing: $434.7 million for the U.S. borrower and $165.3 million for the Canadian borrower. The loans have the same terms as the respective existing Term B classes. Permitted uses include repaying revolving borrowings, funding repurchases, working capital and general purposes; the entire $600 million is not earmarked solely for buybacks.\n\nThe report describes a $350 million upfront payment and initial delivery of about 80% of the expected shares on November 16 in forward-looking language. It does not itself confirm here that the payment and delivery have occurred. Final shares depend on the volume-weighted-average-price mechanism and adjustments; final settlement is expected no later than the first quarter of 2027, with possible acceleration.\n\nSeparately, on November 16 the company announced it was seeking to extend its revolving facility by up to 18 months and add up to $250 million of commitments. That second amendment depends on consents and market conditions and is not described as already signed. Agreement exhibits were not separately reviewed.",
+    "קישור": "https://ir.standardaero.com/sec-filings/content/0001193125-26-461999/d187540d8k.htm",
+    "מקורות": [
+      {
+        "url": "https://ir.standardaero.com/sec-filings/content/0001193125-26-461999/d187540d8k.htm",
+        "label": "StandardAero: דוח חברה מ-16 בנובמבר, נוסח שנלכד מאתר IR",
+        "label_en": "StandardAero: November 16 report captured from issuer IR site"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1688991e3b91ae41f6eff9717f7e2523ce4dab093b532bc7fd7a9280e8636c4e"
+      }
+    }
   }
 ]
