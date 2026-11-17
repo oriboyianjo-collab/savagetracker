@@ -59292,5 +59292,107 @@
         "source_hash": "8638535541d879d7961f19487af48d8dc131f8e50d58e4748aca036866d2d24d"
       }
     }
+  },
+  {
+    "מזהה": "n-2134",
+    "category": "micro",
+    "חברה": "Ingredion (INGR)",
+    "חברה_en": "Ingredion (INGR)",
+    "symbols": [
+      "INGR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:37",
+    "הועלה": "2026-11-17 11:37",
+    "כותרת": "פורסם באיחור | Ingredion (INGR): Levi & Korsinsky פרסם הודעת בדיקה פרטית בעקבות דוח הרבעון השלישי",
+    "כותרת_en": "Published late | Ingredion (INGR): Levi & Korsinsky announces private investigation following third-quarter report",
+    "summary": "הודעת משרד עורכי הדין Levi & Korsinsky המקורית דרך PR Newswire מ-9 בנובמבר 2026 בשעה 17:35 ET נקראה במלואה. בישראל זו 00:35 ב-10 בנובמבר. זו ידיעה על הודעת בדיקה פרטית היסטורית, לא תביעה חדשה או צעד של רשות שפורסם היום.",
+    "summary_en": "The full original Levi & Korsinsky PR Newswire announcement dated November 9, 2026 at 17:35 ET was read. This converts to 00:35 on November 10 in Israel. This concerns a historical private-investigation notice, not a new lawsuit or regulatory action announced today.",
+    "טקסט": "הודעת משרד עורכי הדין Levi & Korsinsky המקורית דרך PR Newswire מ-9 בנובמבר 2026 בשעה 17:35 ET נקראה במלואה. בישראל זו 00:35 ב-10 בנובמבר. זו ידיעה על הודעת בדיקה פרטית היסטורית, לא תביעה חדשה או צעד של רשות שפורסם היום.\n\nמשרד עורכי הדין הודיע שהוא בודק הפרות אפשריות של דיני ניירות ערך בשם משקיעים שנפגעו, בעקבות תוצאות הרבעון השלישי של Ingredion. הוא טוען שדיווחים לפני התוצאות עשויים להיות רלוונטיים לבדיקה. אלה טענות וחשדות של המשרד, לא ממצא משפטי שהחברה הטעתה משקיעים.\n\nההודעה מסומנת כפרסום של עורכי דין ופונה למשקיעים לצורכי גיוס פניות. היא אינה מזהה מספר תיק, תובענה ייצוגית שהוגשה, חקירת SEC או DOJ, פשרה או זכאות ודאית לפיצוי.\n\nהדוח והורדת התחזית של Ingredion כבר סוקרו בנפרד. אין כאן עדכון לתוצאות או בדיקה מחדש של תחזית הרווח. המספרים וההשוואות לתחזיות אנליסטים שבפרסום המשרד לא אומצו כאן כתוצאות פיננסיות שאומתו באופן עצמאי.",
+    "טקסט_en": "The full original Levi & Korsinsky PR Newswire announcement dated November 9, 2026 at 17:35 ET was read. This converts to 00:35 on November 10 in Israel. This concerns a historical private-investigation notice, not a new lawsuit or regulatory action announced today.\n\nThe law firm said it was investigating potential securities-law violations on behalf of investors who suffered losses after Ingredion's third-quarter report. It alleges that pre-results statements may be relevant to its inquiry. These are the firm's suspicions and allegations, not a legal finding that the company misled investors.\n\nThe notice is marked attorney advertising and solicits investor contacts. It identifies no filed class-action case number, SEC or DOJ investigation, settlement or guaranteed compensation entitlement.\n\nIngredion's results and guidance reduction were covered separately. This does not update the results or reassess the earnings outlook. The law firm's financial figures and analyst-consensus comparisons are not adopted here as independently verified financial results.",
+    "קישור": "https://www.prnewswire.com/news-releases/ingredion-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-ingredion-ingr-302933774.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/ingredion-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-ingredion-ingr-302933774.html",
+        "label": "Levi & Korsinsky: הודעת משרד עורכי הדין המקורית",
+        "label_en": "Levi & Korsinsky: original law-firm announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d18a2a6ed71c46c61e38962a830672f2d9ae50a70f91d3211a97d18f5926d2e8"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2135",
+    "category": "macro",
+    "חברה": "US freight",
+    "חברה_en": "US freight",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "כותרת": "פורסם באיחור | Cass לאוקטובר: משלוחים עלו ב-5.9% בשנה, הוצאות הובלה ב-26.5%",
+    "כותרת_en": "Published late | October Cass indexes: shipments rise 5.9% year over year, freight spending 26.5%",
+    "summary": "דוח Cass המקורי לאוקטובר 2026 נקרא במלואו. סיקור FreightWaves מ-16 בנובמבר מזהה אותו כדוח שפורסם ביום שני. שעת הפרסום המדויקת לא אומתה. הנתונים מבוססים על חשבונות הובלה שמשלמת Cass עבור לקוחותיה, לא מפקד מלא של כל פעילות המשק.",
+    "summary_en": "The full original October 2026 Cass report was read. FreightWaves' November 16 coverage identifies it as a Monday release. The exact publication clock was not verified. The data comes from freight bills Cass pays for its customers, not a census of the entire economy.",
+    "טקסט": "דוח Cass המקורי לאוקטובר 2026 נקרא במלואו. סיקור FreightWaves מ-16 בנובמבר מזהה אותו כדוח שפורסם ביום שני. שעת הפרסום המדויקת לא אומתה. הנתונים מבוססים על חשבונות הובלה שמשלמת Cass עבור לקוחותיה, לא מפקד מלא של כל פעילות המשק.\n\nמדד המשלוחים עלה ב-5.9% לעומת אוקטובר אשתקד לרמה של 1.056. לעומת ספטמבר הוא ירד ב-0.6% ללא ניכוי עונתיות, אך עלה ב-1.7% לאחר ניכוי עונתיות. אין סתירה בין שתי ההשוואות, ואין להציג את הירידה הלא-מנוכה כנתון מנוכה. מול אוקטובר לפני שנתיים המדד עדיין נמוך ב-2.3%.\n\nמדד הוצאות ההובלה עלה ב-26.5% בשנה לרמה של 4.010, וב-2.9% בחודש בניכוי עונתיות. זהו סך הוצאות ההובלה, המושפע גם מדלק ותעריפים, לא עלייה זהה בכמות המטען. מדד תעריפי truckload linehaul עלה ב-9.9% בשנה וב-0.9% בחודש לרמה של 156.2; הוא כולל תעריפי ספוט וחוזים ואינו מדד דלק.\n\nCass מציינת תמיכה מביקוש קמעונאי ותעשייתי, חידוש מלאים והחזרי מכסי IEEPA, אך גם סיכונים מאינפלציה, ריבית והאופי הזמני של ההחזרים. עלייה אפשרית של 3% במשלוחים ו-24% בהוצאות בנובמבר מבוססת על עונתיות רגילה; זו תחזית מותנית, לא נתוני נובמבר שכבר פורסמו. הנתונים אינם תוצאות של חברת הובלה בודדת.",
+    "טקסט_en": "The full original October 2026 Cass report was read. FreightWaves' November 16 coverage identifies it as a Monday release. The exact publication clock was not verified. The data comes from freight bills Cass pays for its customers, not a census of the entire economy.\n\nThe shipments index rose 5.9% year over year to 1.056. It fell 0.6% from September without seasonal adjustment but rose 1.7% seasonally adjusted. Those comparisons are not contradictory, and the unadjusted decline should not be called seasonally adjusted. Shipments remained 2.3% below October two years earlier.\n\nThe expenditures index rose 26.5% year over year to 4.010 and 2.9% month over month seasonally adjusted. This measures total freight spending, affected by fuel and rates as well as volumes, not an identical increase in cargo quantities. The truckload linehaul index rose 9.9% year over year and 0.9% month over month to 156.2. It covers spot and contract rates and is not a fuel-price index.\n\nCass cites retail and industrial demand, inventory rebuilding and IEEPA tariff refunds as support, while warning about inflation, interest rates and the temporary nature of refunds. Potential November gains of 3% for shipments and 24% for expenditures assume normal seasonality. They are conditional forecasts, not November readings already released. The indexes are not results for any individual carrier.",
+    "קישור": "https://www.cassinfo.com/freight-audit-payment/cass-transportation-indexes/october-2026",
+    "מקורות": [
+      {
+        "url": "https://www.cassinfo.com/freight-audit-payment/cass-transportation-indexes/october-2026",
+        "label": "Cass: דוח אוקטובר המקורי",
+        "label_en": "Cass: original October report"
+      },
+      {
+        "url": "https://www.freightwaves.com/news/october-tl-rates-surge-as-shipment-counts-extend-positive-streak",
+        "label": "FreightWaves: סיקור מ-16 בנובמבר",
+        "label_en": "FreightWaves: November 16 coverage"
+      }
+    ],
+    "תאריך": "2026-11-17 11:37",
+    "הועלה": "2026-11-17 11:37",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c33ef86a9bfc45770dbfcb4bd014ffb6b6943cca6769fc0c86a9376698da9b8d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2136",
+    "category": "micro",
+    "חברה": "Knight-Swift Transportation (KNX)",
+    "חברה_en": "Knight-Swift Transportation (KNX)",
+    "symbols": [
+      "KNX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:37",
+    "הועלה": "2026-11-17 11:37",
+    "כותרת": "פורסם באיחור | Knight-Swift Transportation (KNX): לפי FreightWaves, מכוונת להעלאות תעריף דו-ספרתיות לפחות בעונת המכרזים",
+    "כותרת_en": "Published late | Knight-Swift Transportation (KNX): FreightWaves reports target of at least double-digit rate increases in bid season",
+    "summary": "כתבת FreightWaves המלאה מ-16 בנובמבר 2026 נקראה. הפרטים הספציפיים על Knight-Swift לא אומתו מול הקלטת שיחת החברה או מקור מקורי שלה. שעת הפרסום המדויקת לא אומתה; עמוד משני מאוחר יותר אינו שיחת חברה חדשה.",
+    "summary_en": "The full November 16, 2026 FreightWaves article was read. The Knight-Swift-specific details were not verified against a company recording or original company source. The exact publication clock was not verified; a later secondary page is not a new company call.",
+    "טקסט": "כתבת FreightWaves המלאה מ-16 בנובמבר 2026 נקראה. הפרטים הספציפיים על Knight-Swift לא אומתו מול הקלטת שיחת החברה או מקור מקורי שלה. שעת הפרסום המדויקת לא אומתה; עמוד משני מאוחר יותר אינו שיחת חברה חדשה.\n\nלפי הכתבה, Knight-Swift מכוונת להעלאות תעריף של לפחות שיעור דו-ספרתי בעונת המכרזים שהחלה מוקדם יותר בנובמבר. זהו יעד לתעריפים, לא העלאה שכבר נחתמה בכל החוזים, לא שיעור גידול בהכנסות ולא תחזית EPS.\n\nהכתבה אומרת שכ-70% מצי המטען המלא של החברה פועל בהסדרים שאינם dedicated. אין פירוש הדבר ש-70% מכל פעילות החברה הם שוק ספוט. היא גם מתארת העברת יחידות להסדרים לא-חוזיים מוקדם יותר השנה לשם הגדלת החשיפה להזדמנויות בשוק.\n\nבנפרד, הכתבה חוזרת לדברי החברה בשיחת הרבעון השלישי בחודש שעבר על שיעור דחיית הובלות גבוה פי שניים עד שלושה מהממוצע בענף ועל תעריפים גבוהים מהממוצע בעבודה מזדמנת. אלה דברים היסטוריים, לא נתונים תפעוליים חדשים שנמדדו היום.\n\nנתוני Cass לאוקטובר בכתבה הם מדדי ענף ולא תוצאות Knight-Swift. אין להסיק מעלייה של 9.9% במדד תעריפי ההובלה על הכנסותיה, רווחיותה או כל חוזה בודד של החברה.",
+    "טקסט_en": "The full November 16, 2026 FreightWaves article was read. The Knight-Swift-specific details were not verified against a company recording or original company source. The exact publication clock was not verified; a later secondary page is not a new company call.\n\nFreightWaves reports that Knight-Swift is targeting at least double-digit rate increases in the bid season that began earlier in November. This is a rate target, not an increase already signed across all contracts, a revenue-growth figure or EPS guidance.\n\nThe article says about 70% of the company's truckload fleet operates under non-dedicated arrangements. That does not mean 70% of the whole company is spot-market business. It also describes moving units into non-contractual arrangements earlier this year to increase exposure to market opportunities.\n\nSeparately, the article recalls last month's third-quarter call, when the company described internal tender rejections running two to three times the industry average and above-market rates on transactional business. Those are historical remarks, not new operating measurements taken today.\n\nThe article's October Cass figures are industry indexes, not Knight-Swift results. A 9.9% increase in the linehaul rate index does not establish the company's revenue, profitability or pricing on any particular contract.",
+    "קישור": "https://www.freightwaves.com/news/october-tl-rates-surge-as-shipment-counts-extend-positive-streak",
+    "מקורות": [
+      {
+        "url": "https://www.freightwaves.com/news/october-tl-rates-surge-as-shipment-counts-extend-positive-streak",
+        "label": "FreightWaves: סיקור משני, פרטי החברה לא אומתו מול מקור מקורי",
+        "label_en": "FreightWaves: secondary report, company details not verified against original"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5826ab4cd44e19a02461aa0d98dd3e7875f25a63351072f48e5578432ff6de7f"
+      }
+    }
   }
 ]
