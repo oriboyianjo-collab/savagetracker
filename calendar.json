@@ -4566,5 +4566,85 @@
       "source_hash": "0ab3f68b7605c3a5de458e3f1eb31ad7fe6e25043f2d5d91833ee0e129c0b559"
     }
   }
-}
+},
+  {
+    "מזהה": "c-0197",
+    "תאריך": "2026-11-18",
+    "שעה": "20:35",
+    "מדינה": "US",
+    "אירוע": "באר: נאום בנושא השקעות בפיתוח קהילתי",
+    "אירוע_en": "Barr: speech on community development investments",
+    "חשיבות": 2,
+    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ca200992130fb161942a7478a32c6b6625474b2c0c5b24abbb81309456cc7c2a"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0198",
+    "תאריך": "2026-11-19",
+    "שעה": "16:25",
+    "מדינה": "US",
+    "אירוע": "ג׳פרסון: דיון בנושא זעזועים כלכליים",
+    "אירוע_en": "Jefferson: discussion on economic shocks",
+    "חשיבות": 2,
+    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a62350855edf16d96bf8327da6a498e317a032f3c292bd9a544297bd156d04fd"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0199",
+    "תאריך": "2026-11-19",
+    "שעה": "21:15",
+    "מדינה": "US",
+    "אירוע": "באר: דיון בנושא בינה מלאכותית",
+    "אירוע_en": "Barr: discussion on artificial intelligence",
+    "חשיבות": 2,
+    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1a2ef3738f1b7bca8481e472f15194b361a6f34a0682f61a76c5d70f54b73582"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0200",
+    "תאריך": "2026-11-20",
+    "שעה": "15:25",
+    "מדינה": "US",
+    "אירוע": "וולר: דברי פתיחה",
+    "אירוע_en": "Waller: welcoming remarks",
+    "חשיבות": 2,
+    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "3854a08032f06eb59c81e58bc18875a1d8491ee0ea5625b47ba0c665436030ff"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0201",
+    "תאריך": "2026-11-20",
+    "שעה": "19:15",
+    "מדינה": "US",
+    "אירוע": "קוק: נאום על כלכלת ארה\"ב בהקשר העולמי",
+    "אירוע_en": "Cook: speech on the U.S. economy in global context",
+    "חשיבות": 2,
+    "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "cb649cbb20b5754f846b7a51951e69165d3a3c73123fc5abb8f3b262b4ed126c"
+      }
+    }
+  }
 ]
