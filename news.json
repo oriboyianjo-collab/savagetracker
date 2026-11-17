@@ -57617,5 +57617,203 @@
         "source_hash": "39140ef1df39c2ac2f9a38ddb7a62a4453122b9fb8477142675209154af6ef8c"
       }
     }
+  },
+  {
+    "מזהה": "n-2085",
+    "category": "micro",
+    "חברה": "Costco (COST)",
+    "חברה_en": "Costco (COST)",
+    "symbols": [
+      "COST"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:32",
+    "הועלה": "2026-11-17 10:32",
+    "כותרת": "פורסם באיחור | Costco (COST): Fitch אישרה דירוג AA עם תחזית יציבה; תחזיות התזרים הן הערכות הסוכנות",
+    "כותרת_en": "Published late | Costco (COST): Fitch affirms AA rating with stable outlook; cash-flow forecasts are agency estimates",
+    "summary": "Fitch פרסמה ב-16 בנובמבר 2026 בשעה 09:50 ET, 16:50 בישראל, אישור מחדש לדירוג המנפיק ארוך הטווח ולאיגרות החוב הלא מובטחות של Costco ברמה AA, עם תחזית יציבה. דוח סוכנות הדירוג המקורי נקרא במלואו. אין זו העלאת דירוג או הורדת דירוג.",
+    "summary_en": "Fitch's original November 16, 2026 report, published at 09:50 ET or 16:50 in Israel, affirms Costco's long-term issuer default and unsecured-note ratings at AA with a stable outlook. The full rating-agency report was reviewed. This is neither an upgrade nor a downgrade.",
+    "טקסט": "Fitch פרסמה ב-16 בנובמבר 2026 בשעה 09:50 ET, 16:50 בישראל, אישור מחדש לדירוג המנפיק ארוך הטווח ולאיגרות החוב הלא מובטחות של Costco ברמה AA, עם תחזית יציבה. דוח סוכנות הדירוג המקורי נקרא במלואו. אין זו העלאת דירוג או הורדת דירוג.\n\nהסוכנות מייחסת את הדירוג להיקף הפעילות, למודל החברות בתשלום ולעקביות הביצועית. בתרחיש הדירוג שלה היא צופה תזרים חופשי שנתי של לפחות 3 מיליארד דולר לאחר דיבידנדים רגילים, ולפני דיבידנדים מיוחדים. זו תחזית של Fitch, לא תחזית חדשה שפרסמה הנהלת Costco ולא תזרים שכבר נמדד.\n\nFitch מתייחסת לדיבידנד המיוחד של כ-13.3 מיליארד דולר, 30 דולר למניה, שכבר הוכרז וסוקר בנפרד. הסוכנות מניחה שרובו או כולו ימומן ממזומן קיים; הנחה זו אינה הודעה על הלוואה חדשה, תשלום שכבר בוצע או דיבידנד נוסף.\n\nבדוח מצוין שמינוף EBITDAR מעל 1.5 עלול להביא ללחץ שלילי על הדירוג, בין היתר בעקבות ביצועים חלשים או פעולות לטובת בעלי מניות הממומנות בחוב. זהו סף רגישות בתרחיש הסוכנות, לא קביעה שהסף כבר נחצה או שהורדה הוכרזה.",
+    "טקסט_en": "Fitch's original November 16, 2026 report, published at 09:50 ET or 16:50 in Israel, affirms Costco's long-term issuer default and unsecured-note ratings at AA with a stable outlook. The full rating-agency report was reviewed. This is neither an upgrade nor a downgrade.\n\nFitch cites Costco's scale, paid-membership model and consistent execution. Its rating case projects at least $3 billion in annual free cash flow after regular dividends and before special dividends. That is Fitch's forecast, not new Costco management guidance or cash flow already measured.\n\nThe report discusses the previously announced and separately covered special dividend of approximately $13.3 billion, or $30 per share. Fitch assumes most or all will be funded with existing cash; that assumption is not an announcement of new borrowing, completed payment or another dividend.\n\nFitch identifies EBITDAR leverage above 1.5 times as a potential negative rating factor, including after weaker performance or debt-funded shareholder actions. This is an agency sensitivity threshold, not a finding that it has been breached or that a downgrade has been announced.",
+    "קישור": "https://www.fitchratings.com/research/corporate-finance/fitch-affirms-costco-long-term-idr-at-aa-outlook-stable-16-11-2026",
+    "מקורות": [
+      {
+        "url": "https://www.fitchratings.com/research/corporate-finance/fitch-affirms-costco-long-term-idr-at-aa-outlook-stable-16-11-2026",
+        "label": "Fitch Ratings: דוח אישור הדירוג המקורי",
+        "label_en": "Fitch Ratings: original rating affirmation report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "c6405bd28f85e62943ecd5090abeed75208e2cec052b474b921cd7369e9ae3bc"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2086",
+    "category": "micro",
+    "חברה": "Gartner (IT)",
+    "חברה_en": "Gartner (IT)",
+    "symbols": [
+      "IT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:32",
+    "הועלה": "2026-11-17 10:32",
+    "כותרת": "Gartner (IT): צופה שהוצאות ארגונים על מאבק במידע כוזב יעברו 30 מיליארד דולר ב-2028",
+    "כותרת_en": "Gartner (IT): forecasts enterprise spending against misinformation and disinformation above $30 billion in 2028",
+    "summary": "בעדכון הרשמי מהיום השני של כנס Gartner בקוצ'י, הודו, ב-17 בנובמבר 2026, החברה פרסמה תחזית על הוצאות ארגונים למאבק במידע כוזב. ההודעה המקורית נקראה במלואה; שעת פרסום מדויקת לא אומתה.",
+    "summary_en": "Gartner's official day-two conference update from Kochi, India on November 17, 2026 presents a forecast for enterprise spending against misinformation and disinformation. The full original release was reviewed; an exact publication clock was not verified.",
+    "טקסט": "בעדכון הרשמי מהיום השני של כנס Gartner בקוצ'י, הודו, ב-17 בנובמבר 2026, החברה פרסמה תחזית על הוצאות ארגונים למאבק במידע כוזב. ההודעה המקורית נקראה במלואה; שעת פרסום מדויקת לא אומתה.\n\nלפי תחזית Gartner, עד 2028 הוצאות ארגונים על מאבק במידע שגוי ובדיסאינפורמציה יעברו 30 מיליארד דולר, תוך גריעת 10% מתקציבי שיווק וסייבר. אלו הערכות שוק עתידיות של חברת המחקר, לא הכנסות של Gartner, תוצאה שכבר נמדדה או התחייבות של ארגונים להוציא את הסכום.\n\nהאנליסט Dave Aron הציג מסגרת TrustOps והמליץ על מועצת אמון חוצת-ארגון לתיאום כללים, חינוך, טכנולוגיה ושינוי התנהגותי. אלה המלצות ניהוליות, לא תקנה ממשלתית חדשה או דרישת ציות שנכנסה לתוקף.\n\nדף הכנס כולל גם הפניה נפרדת לתחזית הוצאות IT בהודו. אין להוסיף את המספרים האלה זה לזה או להציג את כל הוצאות ה-IT כהוצאות על מידע כוזב. הדף מתעד עדכוני כנס ולא דוח כספי של החברה.",
+    "טקסט_en": "Gartner's official day-two conference update from Kochi, India on November 17, 2026 presents a forecast for enterprise spending against misinformation and disinformation. The full original release was reviewed; an exact publication clock was not verified.\n\nGartner predicts this spending will exceed $30 billion by 2028, cannibalizing 10% of marketing and cybersecurity budgets. These are the research firm's future market estimates, not Gartner revenue, an already measured outcome or committed corporate expenditure.\n\nAnalyst Dave Aron presented a TrustOps framework and recommended a cross-functional trust council coordinating rules, education, technology and behavioural measures. These are management recommendations, not a new government regulation or effective compliance mandate.\n\nThe conference page separately links to an India IT-spending forecast. Those figures should not be added to this forecast or treated as spending entirely on disinformation. This is a conference update, not Gartner's financial-results release.",
+    "קישור": "https://www.gartner.com/en/newsroom/press-releases/2026-11-17-gartner-it-symposium-xpo-2026-kochi-day-2-highlights",
+    "מקורות": [
+      {
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-17-gartner-it-symposium-xpo-2026-kochi-day-2-highlights",
+        "label": "Gartner: הודעת החברה המקורית",
+        "label_en": "Gartner: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "453e28c9ef12480f240320f1f969a5e6279047bda98308aed5a988e462b0ac95"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2087",
+    "category": "micro",
+    "חברה": "Ulta Beauty (ULTA)",
+    "חברה_en": "Ulta Beauty (ULTA)",
+    "symbols": [
+      "ULTA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:32",
+    "הועלה": "2026-11-17 10:32",
+    "כותרת": "פורסם באיחור | Ulta Beauty (ULTA): WHOOP מתכננת מכירה באתר ובחנויות נבחרות ממרץ 2027, לא השקה שכבר בוצעה",
+    "כותרת_en": "Published late | Ulta Beauty (ULTA): WHOOP plans online and selected-store rollout from March 2027, not an already completed launch",
+    "summary": "הודעת WHOOP המקורית מ-3 בנובמבר 2026, שנקראה במלואה, מתארת שותפות קמעונאית עם Ulta Beauty שתחל במרץ 2027. שעת הפרסום המקורית לא אומתה. סיקור מאוחר יותר אינו הופך את התכנית להשקה שכבר התרחשה.",
+    "summary_en": "WHOOP's full original November 3, 2026 release describes a retail partnership with Ulta Beauty beginning in March 2027. The original publication clock was not verified. Later coverage does not turn this plan into an already completed rollout.",
+    "טקסט": "הודעת WHOOP המקורית מ-3 בנובמבר 2026, שנקראה במלואה, מתארת שותפות קמעונאית עם Ulta Beauty שתחל במרץ 2027. שעת הפרסום המקורית לא אומתה. סיקור מאוחר יותר אינו הופך את התכנית להשקה שכבר התרחשה.\n\nלפי WHOOP, מוצרי WHOOP 5.0 ו-WHOOP MG ומבחר רצועות ואביזרים יימכרו ב-Ulta.com ובחנויות Ulta נבחרות ברחבי ארה\"ב. לא נמסרו מספר חנויות מדויק, מחיר מוצר במסגרת השותפות או סכום הסכם.\n\nהגישה לקהל של 47 מיליון חברי נאמנות של Ulta מתוארת כהזדמנות שיווקית, לא מספר רוכשי WHOOP או משתמשים חדשים שכבר הצטרפו. החברה מתכננת למסור פרטים נוספים לקראת הזמינות.\n\nהשותפות אינה הודעה על רכישת WHOOP בידי Ulta או על מכירת המוצרים כעת בכל חנויות הרשת. טענות בריאות וביצועים של היצרן אינן מוצגות כאן כהוכחה רפואית עצמאית או כתחזית כספית של Ulta.",
+    "טקסט_en": "WHOOP's full original November 3, 2026 release describes a retail partnership with Ulta Beauty beginning in March 2027. The original publication clock was not verified. Later coverage does not turn this plan into an already completed rollout.\n\nWHOOP says WHOOP 5.0, WHOOP MG and a selection of bands and accessories will be sold through Ulta.com and selected Ulta stores across the United States. It gives no exact store count, partnership-specific product price or agreement value.\n\nAccess to Ulta's 47 million loyalty members is described as a marketing opportunity, not a count of WHOOP buyers or acquired users. More launch details are planned closer to availability.\n\nThis is not an acquisition of WHOOP by Ulta or an announcement of current availability at every Ulta store. Manufacturer health and performance claims are not presented here as independently established medical evidence or Ulta financial guidance.",
+    "קישור": "https://www.whoop.com/us/en/press-center/whoop-and-ulta-beauty-partner-to-bring-performance-for-life-to-millions-of-consumers/",
+    "מקורות": [
+      {
+        "url": "https://www.whoop.com/us/en/press-center/whoop-and-ulta-beauty-partner-to-bring-performance-for-life-to-millions-of-consumers/",
+        "label": "WHOOP: הודעת השותפות המקורית מ-3 בנובמבר",
+        "label_en": "WHOOP: original November 3 partnership release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "097eb17254e0ff1e756089e9a3f4c69bf6ea5c6efe130f385d23337eef263293"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2088",
+    "category": "micro",
+    "חברה": "Ulta Beauty (ULTA)",
+    "חברה_en": "Ulta Beauty (ULTA)",
+    "symbols": [
+      "ULTA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:32",
+    "הועלה": "2026-11-17 10:32",
+    "כותרת": "פורסם באיחור | Ulta Beauty (ULTA): Oura הודיעה על מכירת Ring 5 באתר מ-10 בנובמבר ובאלף חנויות החל ב-22 בנובמבר",
+    "כותרת_en": "Published late | Ulta Beauty (ULTA): Oura announced Ring 5 online from November 10 and in 1,000 stores starting November 22",
+    "summary": "הודעת Oura המקורית מ-9 בנובמבר 2026, שנקראה במלואה, מתארת שותפות עם Ulta Beauty למכירת Oura Ring 5. שעת הפרסום המקורית לא אומתה. זהו לוח הזמינות שהוכרז, לא בדיקת מלאי בזמן אמת.",
+    "summary_en": "Oura's full original November 9, 2026 release describes its Ulta Beauty partnership for Oura Ring 5. The original publication clock was not verified. These are announced availability dates, not a live inventory check.",
+    "טקסט": "הודעת Oura המקורית מ-9 בנובמבר 2026, שנקראה במלואה, מתארת שותפות עם Ulta Beauty למכירת Oura Ring 5. שעת הפרסום המקורית לא אומתה. זהו לוח הזמינות שהוכרז, לא בדיקת מלאי בזמן אמת.\n\nלפי ההודעה, המכירה ב-Ulta.com נקבעה להתחיל ב-10 בנובמבר, והמכירה באלף חנויות Ulta נקבעה ל-22 בנובמבר. לכן אין להציג את הפריסה בחנויות כאילו כבר הושלמה ב-17 בנובמבר, או לערבב אותה עם השקת WHOOP המתוכננת למרץ 2027.\n\nלחנויות תוכננו מידות 7 עד 10 בצבעים Gold, Deep Rose, Silver ו-Brushed Silver. מידות 6, 11, 12 ו-13 והצבעים Black ו-Stealth תוכננו למכירה מקוונת בלבד. פרטי ההיצע כפופים להודעת הספק ואינם הבטחת זמינות של פריט מסוים כעת.\n\nלא פורסמו סכום חוזה, מכירות שהושגו או תחזית הכנסות ל-Ulta. Oura מציינת שהטבעת אינה מכשיר רפואי ואינה מיועדת לאבחן, לטפל, לרפא או למנוע מחלות; תיאורי מעקב הבריאות אינם אישור לתוצאות רפואיות.",
+    "טקסט_en": "Oura's full original November 9, 2026 release describes its Ulta Beauty partnership for Oura Ring 5. The original publication clock was not verified. These are announced availability dates, not a live inventory check.\n\nThe release scheduled Ulta.com availability from November 10 and rollout to 1,000 Ulta stores from November 22. In-store deployment therefore should not be presented as completed on November 17 or confused with WHOOP's planned March 2027 launch.\n\nStores were scheduled to carry sizes 7 through 10 in Gold, Deep Rose, Silver and Brushed Silver. Sizes 6, 11, 12 and 13, plus Black and Stealth finishes, were designated online-only. These supplier-announced assortment details do not guarantee any particular item is currently in stock.\n\nNo agreement value, achieved sales or Ulta revenue forecast was disclosed. Oura states the ring is not a medical device and is not intended to diagnose, treat, cure or prevent medical conditions; health-tracking descriptions do not establish medical outcomes.",
+    "קישור": "https://www.businesswire.com/news/home/20261109503630/en/Oura-Ring-5-First-Health-Wearable-Available-at-Ulta-Beauty",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261109503630/en/Oura-Ring-5-First-Health-Wearable-Available-at-Ulta-Beauty",
+        "label": "Oura / Business Wire: הודעת השותפות המקורית מ-9 בנובמבר",
+        "label_en": "Oura / Business Wire: original November 9 partnership release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "645f5c0ca547d451e10db4bde0b8d444e5fcecca1561429a4319dabd02d9b935"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2089",
+    "category": "micro",
+    "חברה": "Essential Utilities (WTRG)",
+    "חברה_en": "Essential Utilities (WTRG)",
+    "symbols": [
+      "WTRG"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:32",
+    "הועלה": "2026-11-17 10:32",
+    "כותרת": "פורסם באיחור | Essential Utilities (WTRG): ברבעון השלישי: הכנסות של 508.3 מיליון דולר ורווח GAAP של 0.36 דולר למניה",
+    "כותרת_en": "Published late | Essential Utilities (WTRG): Q3 revenue reaches $508.3 million with GAAP EPS of $0.36",
+    "summary": "הודעת תוצאות Q3 המקורית מ-3 בנובמבר 2026 נקראה ישירות. אלו תוצאות היסטוריות לרבעון שהסתיים ב-30 בספטמבר, לא דיווח חדש מהיום; שעת הפרסום המדויקת לא אומתה.",
+    "summary_en": "The original November 3, 2026 Q3 release was reviewed directly. These are historical results for the quarter ended September 30, not a new release today; the exact publication clock was not verified.",
+    "טקסט": "הודעת תוצאות Q3 המקורית מ-3 בנובמבר 2026 נקראה ישירות. אלו תוצאות היסטוריות לרבעון שהסתיים ב-30 בספטמבר, לא דיווח חדש מהיום; שעת הפרסום המדויקת לא אומתה.\n\nEssential Utilities דיווחה על הכנסות של 508.3 מיליון דולר לעומת 477.0 מיליון דולר שנה קודם, עלייה של 6.6%. הרווח הנקי לפי GAAP היה 103.8 מיליון דולר, 0.36 דולר למניה, לעומת 92.1 מיליון דולר ו-0.33 דולר למניה. EPS מתואם של 0.38 דולר מנטרל הוצאות הקשורות למיזוג, ואינו זהה לרווח GAAP.\n\nבתשעת החודשים הראשונים החברה השקיעה כ-1.1 מיליארד דולר בתשתיות, מול תכנית של כ-1.7 מיליארד דולר לשנה כולה. ההודעה מבחינה בין תעריפים ותוספות שכבר אושרו לבין בקשות שעדיין ממתינות: 78.5 מיליון דולר של הכנסה שנתית נוספת מוערכת במים וביוב ו-163.2 מיליון דולר מבוקשים בגז בפנסילבניה אינם הכנסות מאושרות או ממומשות.\n\nהסכמי רכישת מערכות בסך מצטבר של כ-290 מיליון דולר תוארו כחתומים, לא כעסקאות שכולן הושלמו. סעיף המיזוג עם American Water משקף את מצב 3 בנובמבר ואינו עדכון אישורים חדש: התפתחויות רגולטוריות מאוחרות יותר סוקרו בנפרד. אין להפוך את ההודעה ההיסטורית לאישור סגירה.",
+    "טקסט_en": "The original November 3, 2026 Q3 release was reviewed directly. These are historical results for the quarter ended September 30, not a new release today; the exact publication clock was not verified.\n\nEssential Utilities reported revenue of $508.3 million versus $477.0 million a year earlier, up 6.6%. GAAP net income was $103.8 million, or $0.36 per share, versus $92.1 million and $0.33. Adjusted EPS of $0.38 excludes merger-related expenses and is not the GAAP measure.\n\nThe company invested approximately $1.1 billion in infrastructure over the first nine months against a full-year plan of approximately $1.7 billion. The release distinguishes awarded rates and surcharges from pending requests: estimated incremental annual water and wastewater revenue of $78.5 million and requested Pennsylvania gas revenue of $163.2 million are not approved or realized revenue.\n\nApproximately $290 million of aggregate system-acquisition agreements were described as signed, not all completed. The American Water merger section reflects November 3 status, not new approvals: later regulatory developments were covered separately. This historical release does not establish a closed merger.",
+    "קישור": "https://www.essential.co/news-releases/news-release-details/essential-utilities-reports-solid-q3-2026-results",
+    "מקורות": [
+      {
+        "url": "https://www.essential.co/news-releases/news-release-details/essential-utilities-reports-solid-q3-2026-results",
+        "label": "Essential Utilities: הודעת החברה המקורית",
+        "label_en": "Essential Utilities: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "75148d2090dd8445a69a3b0c7020df719356179cf145819e5b26c8c51049d1ea"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2090",
+    "category": "micro",
+    "חברה": "Cabot Corporation (CBT)",
+    "חברה_en": "Cabot Corporation (CBT)",
+    "symbols": [
+      "CBT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:32",
+    "הועלה": "2026-11-17 10:32",
+    "כותרת": "פורסם באיחור | Cabot Corporation (CBT): ב-Q4 רווח GAAP למניה עלה ל-1.25 דולר אך הרווח המתואם ירד ל-1.61 דולר",
+    "כותרת_en": "Published late | Cabot Corporation (CBT): Q4 GAAP EPS rises to $1.25 while adjusted EPS falls to $1.61",
+    "summary": "הודעת החברה המקורית מ-2 בנובמבר 2026 נקראה ישירות. אלו תוצאות היסטוריות של Q4 ושנת הכספים שהסתיימו ב-30 בספטמבר, לא דוח שפורסם היום; שעת הפרסום המקורית לא אומתה.",
+    "summary_en": "The original November 2, 2026 company release was reviewed directly. These are historical Q4 and fiscal-year results for periods ended September 30, not a report published today; the original publication clock was not verified.",
+    "טקסט": "הודעת החברה המקורית מ-2 בנובמבר 2026 נקראה ישירות. אלו תוצאות היסטוריות של Q4 ושנת הכספים שהסתיימו ב-30 בספטמבר, לא דוח שפורסם היום; שעת הפרסום המקורית לא אומתה.\n\nהכנסות הרבעון הסתכמו ב-1.009 מיליארד דולר לעומת 899 מיליון דולר שנה קודם. הרווח הנקי המיוחס ל-Cabot עלה מ-43 ל-66 מיליון דולר, והרווח המדולל לפי GAAP עלה מ-0.79 ל-1.25 דולר למניה. במקביל, EPS מתואם ירד מ-1.70 ל-1.61 דולר. אין לתאר את כיוון השינוי במידה אחת כאילו הוא חל גם על האחרת.\n\nבשנת הכספים כולה, ההכנסות היו 3.744 מיליארד דולר לעומת 3.713 מיליארד, EPS לפי GAAP ירד מ-6.02 ל-4.02 דולר ו-EPS מתואם ירד מ-7.25 ל-6.42 דולר. תזרים תפעולי של 421 מיליון דולר הוא נתון שנתי; תזרים הרבעון היה 143 מיליון דולר. הנתונים אינם תזרים חופשי.\n\nהחברה חתמה על הסכם מענק של 50 מיליון דולר עם משרד האנרגיה האמריקאי להרחבת ייצור תוספים מוליכים לסוללות בלואיזיאנה ובטקסס. חתימת ההסכם אינה הוכחה שכל המזומן התקבל. תחזית FY2027 לרווח מתואם של 6.15 עד 6.75 דולר למניה היא תחזית עתידית שאינה לפי GAAP, ולא תוצאה שכבר הושגה.",
+    "טקסט_en": "The original November 2, 2026 company release was reviewed directly. These are historical Q4 and fiscal-year results for periods ended September 30, not a report published today; the original publication clock was not verified.\n\nQuarterly revenue was $1.009 billion versus $899 million a year earlier. Net income attributable to Cabot increased to $66 million from $43 million, and GAAP diluted EPS rose to $1.25 from $0.79. At the same time, adjusted EPS fell to $1.61 from $1.70. The direction of one earnings measure must not be applied to the other.\n\nFor the fiscal year, revenue was $3.744 billion versus $3.713 billion; GAAP EPS fell to $4.02 from $6.02 and adjusted EPS fell to $6.42 from $7.25. Operating cash flow of $421 million is an annual figure; quarterly operating cash flow was $143 million. Neither is free cash flow.\n\nCabot signed a $50 million grant agreement with the U.S. Department of Energy to expand conductive battery-additive production in Louisiana and Texas. Signing does not establish receipt of all the cash. Fiscal 2027 adjusted EPS guidance of $6.15 to $6.75 is a forward-looking non-GAAP forecast, not an achieved result.",
+    "קישור": "https://cabotog.gcs-web.com/news-releases/news-release-details/cabot-corporation-reports-fourth-quarter-and-fiscal-year-2026",
+    "מקורות": [
+      {
+        "url": "https://cabotog.gcs-web.com/news-releases/news-release-details/cabot-corporation-reports-fourth-quarter-and-fiscal-year-2026",
+        "label": "Cabot Corporation: הודעת החברה המקורית",
+        "label_en": "Cabot Corporation: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5f6847697da8425a6a57690752a962538dd92a3d5a38cdb7b110dfb3a50597d2"
+      }
+    }
   }
 ]
