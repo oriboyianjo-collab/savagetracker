@@ -60039,5 +60039,43 @@
         "source_hash": "962e64c27d729910b1e4537be3a50aa1f98e2539cd30a493d666df62302c4bb0"
       }
     }
+  },
+  {
+    "מזהה": "n-2156",
+    "category": "micro",
+    "חברה": "Ford Motor (F)",
+    "חברה_en": "Ford Motor (F)",
+    "symbols": [
+      "F"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:00",
+    "הועלה": "2026-11-17 12:00",
+    "כותרת": "פורסם באיחור | Ford Motor (F): ניתוח Trefis מדגיש הפסד Model e חזוי של כ-4 מיליארד דולר ב-2026; לא חיוב חדש",
+    "כותרת_en": "Published late | Ford Motor (F): Trefis revisits roughly $4 billion 2026 Model e loss outlook; not a new charge",
+    "summary": "**לא אומת מול מקור ראשוני**",
+    "summary_en": "**Not verified against a primary source**",
+    "טקסט": "**לא אומת מול מקור ראשוני**\n\nניתוח Trefis מ-17 בנובמבר 2026 נבדק מול תמליל שיחת 28 באוקטובר המופץ ב-The Motley Fool. תמליל זה הוא מקור משני, ולא נקרא תמליל מקורי באתר Ford. התחזיות מתייחסות לדברי ההנהלה בשיחת אוקטובר, לא להודעה כספית חדשה מהיום; שעת הפרסום המקורית לא אומתה.\n\nבמרכז הניתוח תחזית ההנהלה להפסד של כ-4 מיליארד דולר ביחידת Model e ב-2026. בשיחה הוגדרה תחזית זו ללא שינוי. זהו הפסד תפעולי חזוי לשנה, לא מחיקה חדשה, חיוב חד-פעמי של 4 מיליארד דולר או תזרים מזומנים שלילי שאושר כעת.\n\nלפי המקורות המשניים, Model e רשמה ברבעון השלישי הפסד EBIT של כ-1.1 מיליארד דולר על הכנסות של כ-1.2 מיליארד. ההנהלה צפתה שיפור של כ-40% ב-EBIT של דגמי הדור הראשון ב-2026, אך שמרה על יעד איזון ליחידה רק ב-2029. אלה מדדים ויעדי הנהלה, לא רווח שהושג או תחזית לרווחיות מובטחת.\n\nהתמליל מתאר הוצאות גבוהות יותר ב-2027 ושינוי משמעותי צפוי ברווחיות במחצית הראשונה של 2028, עם הרחבת פעילות Universal EV ו-Ford Energy. השקת Fathom בסוף 2027 היא תוכנית עתידית, לא רכב שכבר הושק. לוחות הזמנים עשויים להשתנות.\n\nתחזית החברה כולה בשיחת אוקטובר הייתה EBIT מתואם של 10.5–11 מיליארד דולר ל-2026; אין להציג אותה כרווח GAAP או להוסיף את הפסד Model e כאילו אינו כלול במבנה התחזית. מסקנות השווי והמלצות ההחזקה של Trefis הן דעה, לא הנחיה חדשה של Ford או המלצת השקעה כאן.",
+    "טקסט_en": "**Not verified against a primary source**\n\nTrefis' November 17, 2026 analysis was checked against the October 28 call transcript distributed by The Motley Fool. That transcript is secondary; an original Ford-hosted transcript was not read. The forecasts concern management's October call remarks, not a new financial announcement today; the original publication clock was not verified.\n\nThe analysis focuses on management's roughly $4 billion 2026 Model e loss outlook. The call described that forecast as unchanged. This is a forecast annual operating loss, not a new impairment, fresh $4 billion one-time charge or newly confirmed cash outflow.\n\nAccording to the secondary sources, Model e recorded a roughly $1.1 billion Q3 EBIT loss on about $1.2 billion revenue. Management expected about a 40% 2026 EBIT improvement for first-generation EVs while retaining a 2029 breakeven target for the unit. These are management measures and targets, not achieved profit or guaranteed profitability.\n\nThe transcript describes higher 2027 expenses and an expected step-change in profitability in the first half of 2028 as Universal EV and Ford Energy ramp. Fathom's planned late-2027 launch is a future milestone, not an already launched vehicle. Timelines may change.\n\nThe October call's company-wide 2026 outlook was $10.5–11 billion adjusted EBIT. It is not GAAP profit, and the Model e loss is not added as though it falls outside the forecast structure. Trefis' valuation and holding conclusions are opinion, not new Ford guidance or an investment recommendation here.",
+    "קישור": "https://www.trefis.com/stock/f/articles/625560/ford-stocks-4-billion-ev-problem/2026-11-17",
+    "מקורות": [
+      {
+        "url": "https://www.trefis.com/stock/f/articles/625560/ford-stocks-4-billion-ev-problem/2026-11-17",
+        "label": "Trefis: ניתוח משני מ-17 בנובמבר",
+        "label_en": "Trefis: secondary November 17 analysis"
+      },
+      {
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/ford-f-q3-2026-earnings-call-transcript/",
+        "label": "The Motley Fool: תמליל משני של שיחת 28 באוקטובר",
+        "label_en": "The Motley Fool: secondary October 28 call transcript"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "dbcce30f305a061719885809679068d3c6ba08049c315581493874892030c0b5"
+      }
+    }
   }
 ]
