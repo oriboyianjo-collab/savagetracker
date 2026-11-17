@@ -60727,5 +60727,76 @@
         "source_hash": "8ca04fbaae669a8a2330316db346de1e86fe32fee7b21811e240ed1fc67128d4"
       }
     }
+  },
+  {
+    "מזהה": "n-2176",
+    "category": "micro",
+    "חברה": "Meta Platforms (META)",
+    "חברה_en": "Meta Platforms (META)",
+    "symbols": [
+      "META"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:24",
+    "הועלה": "2026-11-17 12:24",
+    "כותרת": "פורסם באיחור | Meta Platforms (META): לפי AFP, FDJ United פתחה הליך לסעד זמני להסרת מודעות המתחזות למותגיה; אין פסיקה חדשה",
+    "כותרת_en": "Published late | Meta Platforms (META): AFP reports FDJ United sought interim relief over impersonating gambling ads; no new ruling established",
+    "summary": "**לא מאומת מול מקור ראשוני:** הדיווח המלא של Le Figaro עם AFP מ-16 בנובמבר 2026 ב-19:17 בצרפת, 20:17 בישראל, וכתבת SBC News מ-17 בנובמבר נקראו. מסמכי בית המשפט והטור המקורי של המנכ\"לית לא נקראו. זהו דיווח על הליך שביקשה FDJ United, לא צו שכבר ניתן נגד Meta.",
+    "summary_en": "**Not verified against a primary source:** The full November 16, 2026 Le Figaro/AFP report at 19:17 France time, 20:17 in Israel, and November 17 SBC News article were read. Court documents and the CEO's original op-ed were not read. This reports relief sought by FDJ United, not an order already imposed on Meta.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** הדיווח המלא של Le Figaro עם AFP מ-16 בנובמבר 2026 ב-19:17 בצרפת, 20:17 בישראל, וכתבת SBC News מ-17 בנובמבר נקראו. מסמכי בית המשפט והטור המקורי של המנכ\"לית לא נקראו. זהו דיווח על הליך שביקשה FDJ United, לא צו שכבר ניתן נגד Meta.\n\nלפי AFP, FDJ United אמרה שפתחה הליך מסוג référé לקבלת סעד זמני, כדי להסיר מודעות שלטענתה מעתיקות את מותגיה וסמליה לקידום קזינו מקוון האסור בצרפת. החברה טוענת שחלק מהתכנים שיחזרו גם נקודות מכירה וכותרות עיתונים כדי להטעות משתמשים.\n\nFDJ מייחסת לפלטפורמות Meta פרסום 226 תכנים חדשים שלטענתה היו בלתי חוקיים בין 18 ל-21 במאי, לעיתים זהים או דומים לתכנים שכבר דווחו. זהו ממצא שהחברה טוענת שאספה בתקופה היסטורית, לא מספר הפרות שבית המשפט אימת או 226 מודעות חדשות מאתמול.\n\nAFP אומרת ש-FDJ לא ציינה באיזה בית משפט הוגש ההליך ומתי. לא נמסרו בדיווחים שנקראו החלטה בבקשה, קנס, פיצוי או ממצא לאחריות Meta. ההליך נפרד מתביעת VNLOK ההולנדית ומהתקדים ההיסטורי של Barrière, ואין לייחס פסק דין מהליכים אלה לבקשה הנוכחית.\n\nנתון החשיפה האירופי והקריאה לקואליציה נגד הימורים בלתי חוקיים הם הערכות ועמדות FDJ. הם אינם החלטה רגולטורית חדשה או הוכחה שנפסקה אשמת Meta.",
+    "טקסט_en": "**Not verified against a primary source:** The full November 16, 2026 Le Figaro/AFP report at 19:17 France time, 20:17 in Israel, and November 17 SBC News article were read. Court documents and the CEO's original op-ed were not read. This reports relief sought by FDJ United, not an order already imposed on Meta.\n\nAFP says FDJ United described initiating référé proceedings for interim relief to remove ads allegedly copying its brands and distinctive signs to promote online casinos prohibited in France. FDJ alleges some content also reproduced retail outlets and newspaper front pages to mislead users.\n\nFDJ says it identified 226 new allegedly unlawful pieces of content on Meta platforms between May 18 and 21, often identical or similar to previously reported content. That is the company's claimed historical count, not a court-verified finding or 226 new ads yesterday.\n\nAFP says FDJ did not specify the court or filing date. The reviewed reports establish no decision on this request, fine, compensation or Meta liability finding. The action is distinct from the Dutch VNLOK case and historical Barrière precedent; rulings in those matters are not attributed to this application.\n\nEuropean-exposure figures and calls for an anti-illegal-gambling coalition are FDJ estimates and advocacy, not a fresh regulatory decision or adjudication of Meta wrongdoing.",
+    "קישור": "https://www.lefigaro.fr/societes/fdj-united-porte-plainte-contre-meta-pour-la-diffusion-de-publicites-trompeuses-en-reprenant-a-l-identique-sa-marque-20261116",
+    "מקורות": [
+      {
+        "url": "https://www.lefigaro.fr/societes/fdj-united-porte-plainte-contre-meta-pour-la-diffusion-de-publicites-trompeuses-en-reprenant-a-l-identique-sa-marque-20261116",
+        "label": "Le Figaro עם AFP: דיווח על דברי FDJ והליך מבוקש",
+        "label_en": "Le Figaro with AFP: reported FDJ statements and requested relief"
+      },
+      {
+        "url": "https://sbcnews.co.uk/marketing/2026/11/17/fdj-united-meta-legal/",
+        "label": "SBC News: דיווח ענפי משני",
+        "label_en": "SBC News: secondary industry report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "021e6133787b26a76ac41d99adfd234b613e31db2e72888b1115f0bb2f0ef0a9"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2177",
+    "category": "micro",
+    "חברה": "Trump Media & Technology Group (DJT)",
+    "חברה_en": "Trump Media & Technology Group (DJT)",
+    "symbols": [
+      "DJT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:24",
+    "הועלה": "2026-11-17 12:24",
+    "כותרת": "פורסם באיחור | Trump Media & Technology Group (DJT): לפי דיווח, תובעי Truth API הציעו הגבלות פרסום על עוזרי Trump; אין צו שיפוטי כזה",
+    "כותרת_en": "Published late | Trump Media & Technology Group (DJT): report says Truth API plaintiffs proposed limits on Trump aides posting; no such court order established",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת Morning Honey בשכפול AOL, שעודכנה ב-17 בנובמבר 2026 ב-09:30 UTC, כלומר 11:30 בישראל, נקראה במלואה. מסמך ההליך המקורי ודיווח Newsweek שעליו נשענת הכתבה לא נקראו. ההצעה מיוחסת למסמך שהוגש ב-13 בנובמבר, לא לצו חדש מ-17 בנובמבר.",
+    "summary_en": "**Not verified against a primary source:** The full Morning Honey article syndicated by AOL, updated November 17, 2026 at 09:30 UTC, 11:30 in Israel, was read. The original court document and underlying Newsweek report were not read. The proposal is attributed to a November 13 filing, not a new November 17 order.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת Morning Honey בשכפול AOL, שעודכנה ב-17 בנובמבר 2026 ב-09:30 UTC, כלומר 11:30 בישראל, נקראה במלואה. מסמך ההליך המקורי ודיווח Newsweek שעליו נשענת הכתבה לא נקראו. ההצעה מיוחסת למסמך שהוגש ב-13 בנובמבר, לא לצו חדש מ-17 בנובמבר.\n\nלפי הכתבה, The Intercept ו-Freedom of the Press Foundation הציעו שבית המשפט יגביל את Natalie Harp ואת Dan Scavino מפרסום בחשבון Truth Social של Donald Trump מטעמו, אם לא יגביל ישירות את השימוש של הנשיא בחשבון. זוהי חלופה שמבקשים התובעים, לא מגבלה שהשופט כבר הטיל.\n\nההליך עוסק ב-Truth API, שירות בתשלום של Trump Media שמאפשר לפי הדיווח גישה מוקדמת לחלק מהפוסטים. התובעים טוענים שהודעות רשמיות שעשויות להזיז שווקים מגיעות כך למנויים לפני העיתונות והציבור. טענתם לחוסר שוויון או לפגיעה חוקתית אינה קביעה שיפוטית.\n\nהממשל מבקש לדחות את התביעה וחולק על הבסיס המשפטי שלה. הכתבה מציינת דיון צפוי בבקשת הדחייה ב-19 בנובמבר בפני השופט J. Paul Oetken בניו יורק. זהו לוח זמנים מדווח שלא אומת מול יומן בית המשפט, ולא דיון שהסתיים או הכרעה שכבר ניתנה.\n\nלא נמסרו צו שמפסיק את השירות, הגבלה בתוקף על העוזרים, פיצוי או השפעה כספית מכומתת על DJT. מחיר שירות המיוחס למקורות משניים אינו מוצג כאן כמחיר מוצר עדכני ומאומת.",
+    "טקסט_en": "**Not verified against a primary source:** The full Morning Honey article syndicated by AOL, updated November 17, 2026 at 09:30 UTC, 11:30 in Israel, was read. The original court document and underlying Newsweek report were not read. The proposal is attributed to a November 13 filing, not a new November 17 order.\n\nThe report says The Intercept and Freedom of the Press Foundation suggested restricting Natalie Harp and Dan Scavino from posting to Donald Trump's Truth Social account on his behalf if the court would not directly limit the president's account use. This is alternative relief plaintiffs seek, not a restriction already imposed by the judge.\n\nThe case concerns Trump Media's paid Truth API service, which reportedly provides earlier access to certain posts. Plaintiffs argue potentially market-moving official announcements reach subscribers ahead of journalists and the public. Their unequal-access and constitutional claims are not court findings.\n\nThe administration seeks dismissal and disputes the legal basis. The article describes a November 19 dismissal-motion hearing expected before Judge J. Paul Oetken in New York. This is reported scheduling not verified against the court calendar, not a completed hearing or ruling.\n\nThe report establishes no service-shutdown order, effective aide-posting ban, damages or quantified DJT financial effect. Service pricing attributed to secondary sources is not presented as a verified current product price.",
+    "קישור": "https://www.aol.com/articles/market-moving-posts-under-fire-092352000.html",
+    "מקורות": [
+      {
+        "url": "https://www.aol.com/articles/market-moving-posts-under-fire-092352000.html",
+        "label": "Morning Honey דרך AOL: דיווח משני על הצעת תובעים",
+        "label_en": "Morning Honey via AOL: secondary plaintiffs-proposal report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7007ab958796596381e6f1bce7833388d0ed901dbded2620faf75e2056b21db1"
+      }
+    }
   }
 ]
