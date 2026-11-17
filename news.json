@@ -60077,5 +60077,287 @@
         "source_hash": "dbcce30f305a061719885809679068d3c6ba08049c315581493874892030c0b5"
       }
     }
+  },
+  {
+    "מזהה": "n-2157",
+    "category": "macro",
+    "חברה": "Global economy",
+    "חברה_en": "Global economy",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:10",
+    "הועלה": "2026-11-17 12:10",
+    "כותרת": "ZEW: סקר נובמבר: ציפיות הכלכלה בגרמניה עלו ל-35.6; המצב הנוכחי עדיין שלילי",
+    "כותרת_en": "ZEW: November survey: German economic expectations rise to 35.6; current conditions remain negative",
+    "summary": "17 בנובמבר 2026. הודעת ZEW המקורית וטבלת סקר נובמבר נקראו. שעת פרסום מדויקת בישראל לא אומתה מתוך המסמך. הסקר נערך ב-9–16 בנובמבר בקרב 194 אנליסטים ומשקיעים מוסדיים, ושאל על ציפיות לששת החודשים הבאים.",
+    "summary_en": "November 17, 2026. ZEW's original press release and November survey table were read. An exact Israel publication clock was not verified from the document. The November 9–16 survey covered 194 analysts and institutional investors and asked about expectations for the next six months.",
+    "טקסט": "17 בנובמבר 2026. הודעת ZEW המקורית וטבלת סקר נובמבר נקראו. שעת פרסום מדויקת בישראל לא אומתה מתוך המסמך. הסקר נערך ב-9–16 בנובמבר בקרב 194 אנליסטים ומשקיעים מוסדיים, ושאל על ציפיות לששת החודשים הבאים.\n\nמדד הציפיות לכלכלת גרמניה עלה ב-7.5 נקודות ל-35.6, לעומת 28.1 באוקטובר. מדד המצב הנוכחי בגרמניה עלה ב-2.7 נקודות למינוס 33.2, לעומת מינוס 35.9. כלומר, הסקר מצביע על שיפור בהערכה, אך מאזן המצב הנוכחי עדיין שלילי.\n\nבגוש האירו מדד הציפיות עלה ב-8.0 נקודות ל-26.5, לעומת 18.5. הערכת המצב הנוכחי בגוש נותרה כמעט ללא שינוי, מינוס 14.7 לעומת מינוס 14.8. מדדים אלה הם מאזנים בין תשובות חיוביות לשליליות, לא אחוזי צמיחת תוצר או נתוני תפוקה בפועל.\n\nלפי הטבלה, 42.1% מהמשיבים צופים שיפור בגרמניה ו-6.5% הרעה, ומכאן מאזן 35.6. בגוש האירו 33.0% צופים שיפור ו-6.5% הרעה. יתר המשיבים אינם צופים שינוי.\n\nנשיא ZEW Achim Wambach מתאר התאוששות איטית, הנתמכת לדעתו בגידול בהזמנות תעשייה ובירידת מחירי הנפט, לצד חששות לגבי קיימות החוב הציבורי. זו פרשנותו לסקר, לא תחזית צמיחה כמותית חדשה או החלטת ריבית. אין כאן השוואה לקונצנזוס שלא אומת במקור.",
+    "טקסט_en": "November 17, 2026. ZEW's original press release and November survey table were read. An exact Israel publication clock was not verified from the document. The November 9–16 survey covered 194 analysts and institutional investors and asked about expectations for the next six months.\n\nGerman economic expectations rose 7.5 points to 35.6 from 28.1 in October. Germany's current-conditions indicator improved 2.7 points to negative 33.2 from negative 35.9. Assessments improved, but the current-conditions balance remains negative.\n\nEuro-area expectations rose 8.0 points to 26.5 from 18.5. The area's current-conditions assessment was almost unchanged at negative 14.7 versus negative 14.8. These are balances of positive and negative responses, not GDP growth percentages or actual production data.\n\nThe table shows 42.1% expecting improvement in Germany and 6.5% deterioration, producing the 35.6 balance. For the euro area, 33.0% expect improvement and 6.5% deterioration. The remaining respondents expect no change.\n\nZEW President Achim Wambach describes a slow recovery, supported in his view by increasing manufacturing orders and falling oil prices, alongside concerns over public-debt sustainability. That is his survey interpretation, not new quantified GDP guidance or an interest-rate decision. No comparison with unverified consensus is asserted.",
+    "קישור": "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/Pressemitteilung_en.pdf",
+    "מקורות": [
+      {
+        "url": "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/Pressemitteilung_en.pdf",
+        "label": "ZEW: הודעת נובמבר המקורית",
+        "label_en": "ZEW: original November press release"
+      },
+      {
+        "url": "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/tab-engl.pdf",
+        "label": "ZEW: טבלת סקר נובמבר המקורית",
+        "label_en": "ZEW: original November survey table"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bae86a214173be66b7329d511f54b1ce0a7136a1b6a4e3e9276440d26ab609a9"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2158",
+    "category": "micro",
+    "חברה": "Alphabet (GOOGL)",
+    "חברה_en": "Alphabet (GOOGL)",
+    "symbols": [
+      "GOOGL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:10",
+    "הועלה": "2026-11-17 12:10",
+    "כותרת": "פורסם באיחור | Alphabet (GOOGL): לפי Quartz ו-Oninvest, תשתתף כמקבלת מימון בשתי עסקאות אג\"ח אנרגיה מתוכננות בהיקף 3 מיליארד דולר",
+    "כותרת_en": "Published late | Alphabet (GOOGL): Quartz and Oninvest report funding-recipient role in proposed $3 billion prepaid-energy bond deals",
+    "summary": "**לא אומת מול מקור ראשוני**",
+    "summary_en": "**Not verified against a primary source**",
+    "טקסט": "**לא אומת מול מקור ראשוני**\n\nדיווחי Quartz ו-Oninvest המלאים נקראו. שניהם מייחסים את המידע ל-Bloomberg ולמסמכי אג\"ח ראשוניים, שלא נקראו ישירות. Quartz מסמנת עדכון מ-16 בנובמבר; Oninvest מציגה 17 בנובמבר 01:54 ללא אזור זמן מאומת. אין להסיק מכך שעת פרסום מדויקת בישראל.\n\nלפי הדיווחים, Alphabet מופיעה כמקבלת המימון בשתי הנפקות אג\"ח לתשלום מראש על אנרגיה בהיקף משותף של 3 מיליארד דולר. המנפיקה המתוכננת היא Southeast Energy Authority, מארגנת העסקאות היא Goldman Sachs, ורוכשת האנרגיה הסופית היא Salt River Project שבאריזונה.\n\nתפקיד מקבלת המימון הוא פיננסי: קבלת כספי האג\"ח מראש והעברת תשלומים תקופתיים התומכים באספקת אנרגיה לחברת החשמל. אין להציג את הסכום כהשקעת הון חדשה של Google בחוות שרתים, כקנייה שלה של חשמל בהיקף זה או כחוב חדש שהנפיקה Alphabet עצמה.\n\nמדובר בעסקאות מתוכננות לפי מסמכים ראשוניים. הדיווחים אינם מאמתים שהן תומחרו או הושלמו, שכספי 3 מיליארד הדולר התקבלו או את תנאיהן הסופיים. דוברי Google ו-Goldman Sachs סירבו להגיב לפי Bloomberg.\n\nQuartz מזכירה בנפרד עסקה קודמת של כ-1.6 מיליארד דולר שתומחרה ב-4 בנובמבר ואת כניסת Alphabet לתפקיד ביוני. אין לחבר עסקאות אלה כאילו כולן גיוס חדש אחד. לא אומתה השפעה כמותית על רווחי Alphabet או חיסכון ללקוחות SRP.",
+    "טקסט_en": "**Not verified against a primary source**\n\nFull Quartz and Oninvest reports were read. Both attribute the information to Bloomberg and preliminary bond documents that were not directly read. Quartz marks an update on November 16; Oninvest displays November 17 at 01:54 without a verified timezone. No exact Israel publication clock is inferred.\n\nThe reports identify Alphabet as funding recipient in two proposed prepaid-energy bond offerings totaling $3 billion. Southeast Energy Authority is the planned issuer, Goldman Sachs is arranging the deals, and Arizona's Salt River Project is the ultimate energy buyer.\n\nThe funding-recipient role is financial: receiving bond proceeds upfront and making periodic payments that support energy deliveries to the utility. The amount is not presented as new Google data-center capital spending, a Google purchase of that much electricity or new bonds issued by Alphabet itself.\n\nThese are proposed deals described in preliminary documents. The reports do not verify pricing, completion, receipt of $3 billion or final terms. Google and Goldman spokespeople declined comment, according to Bloomberg.\n\nQuartz separately mentions a roughly $1.6 billion earlier deal priced November 4 and Alphabet entering the role in June. Those transactions are not combined into one fresh financing. No quantified Alphabet profit impact or SRP customer saving was verified.",
+    "קישור": "https://qz.com/alphabet-prepaid-energy-bonds-3-billion-111626",
+    "מקורות": [
+      {
+        "url": "https://qz.com/alphabet-prepaid-energy-bonds-3-billion-111626",
+        "label": "Quartz: דיווח משני המייחס ל-Bloomberg",
+        "label_en": "Quartz: secondary report attributing Bloomberg"
+      },
+      {
+        "url": "https://en.oninvest.com/article/alphabet-to-participate-in-prepaid-energy-bond-deals-totaling-3-bln",
+        "label": "Oninvest: דיווח משני המייחס ל-Bloomberg",
+        "label_en": "Oninvest: secondary report attributing Bloomberg"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "df826c9c52e845feee825f61be84d16496dff67bd16cbc281ceb717c51a11b13"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2159",
+    "category": "micro",
+    "חברה": "Alphabet / Apple / Amazon / Meta / Microsoft",
+    "חברה_en": "Alphabet / Apple / Amazon / Meta / Microsoft",
+    "symbols": [
+      "GOOGL",
+      "GOOG",
+      "AAPL",
+      "AMZN",
+      "META",
+      "MSFT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:10",
+    "הועלה": "2026-11-17 12:10",
+    "כותרת": "Alphabet (GOOGL), Apple (AAPL), Amazon (AMZN), Meta (META), Microsoft (MSFT): ארגון BEUC קורא לאכיפת DMA מחמירה; לא החלטת רגולטור",
+    "כותרת_en": "Alphabet (GOOGL), Apple (AAPL), Amazon (AMZN), Meta (META), Microsoft (MSFT): BEUC urges tougher DMA enforcement, not a regulator decision",
+    "summary": "ההודעה המקורית של ארגון הצרכנים האירופי BEUC ודף הדוח שלו פורסמו ב-17 בנובמבר 2026 ונקראו במלואם. המסמך המלא המצורף לדוח לא נקרא. שעת הפרסום המקורית לא אומתה.",
+    "summary_en": "BEUC's original November 17, 2026 press release and report landing page were read in full. The report's full attached document was not read. The original publication clock was not verified.",
+    "טקסט": "ההודעה המקורית של ארגון הצרכנים האירופי BEUC ודף הדוח שלו פורסמו ב-17 בנובמבר 2026 ונקראו במלואם. המסמך המלא המצורף לדוח לא נקרא. שעת הפרסום המקורית לא אומתה.\n\nBEUC טוען כי Alphabet, Amazon, Apple, ByteDance, Meta ו-Microsoft עדיין עלולות להפר את חוק השווקים הדיגיטליים של האיחוד האירופי, ומבקש מהנציבות להגביר אכיפה ולהטיל סנקציות מרתיעות כשמוכחת עקיפה של הכללים. זו עמדת ארגון צרכנים, לא קביעה חדשה של הנציבות או בית משפט שהחברות הפרו את הדין.\n\nהפרסום מסכם טענות וראיות אפשריות שהארגון העביר לנציבות מיוני 2025 עד יוני 2026. BEUC מתמקד בממשקים ובהשפעות התנהגותיות שלדעתו מרתיעים בחירת חלופות, ובהתמשכות יישום הוראות הנוגעות למודלים העסקיים של הפלטפורמות.\n\nהדוגמאות שמביא BEUC כוללות העדפה עצמית של שירותי Google בחיפוש; חוויית שימוש עם הפסקות פרסום במסלול הפרסום הפחות מותאם של Meta; סוגיות הכוונת משתמשים, תאימות והפצת אפליקציות חלופית ב-Apple; ובקרת מחירים ב-Amazon. אלה דוגמאות לטענות הארגון ולא ממצאי אכיפה שאומתו כאן מחדש.\n\nאין בהודעה החלטה חדשה על קנס כספי, תשלום יומי שכבר הוטל, צו שינוי מוצר, מועד ציות חדש או תגובת החברות. אין להסיק מהקריאה לסנקציות סכום או השפעה ודאית על ההכנסות.",
+    "טקסט_en": "BEUC's original November 17, 2026 press release and report landing page were read in full. The report's full attached document was not read. The original publication clock was not verified.\n\nThe European Consumer Organisation argues that Alphabet, Amazon, Apple, ByteDance, Meta and Microsoft may still breach the EU Digital Markets Act and urges the Commission to intensify enforcement and impose deterrent penalties when circumvention is established. This is a consumer group's position, not a fresh Commission or court finding that the companies broke the law.\n\nThe publication summarizes potential-breach evidence BEUC submitted to the Commission from June 2025 through June 2026. It focuses on interfaces and behavioral techniques it says discourage alternatives, and delayed implementation of provisions affecting platforms' business models.\n\nBEUC's examples include Google favoring its own services in Search; Meta's ad-break experience for less-personalized ads; Apple issues involving steering, interoperability and alternative app distribution; and Amazon price controls. These are examples of the group's allegations, not enforcement findings independently re-established here.\n\nThe release announces no new monetary fine, daily penalty already imposed, product-change order, compliance deadline or company response. The advocacy for sanctions does not establish an amount or certain revenue impact.",
+    "קישור": "https://www.beuc.eu/press-releases/big-tech-must-give-consumers-real-choice-complying-fully-eu-digital-markets-act",
+    "מקורות": [
+      {
+        "url": "https://www.beuc.eu/press-releases/big-tech-must-give-consumers-real-choice-complying-fully-eu-digital-markets-act",
+        "label": "BEUC: הודעת ארגון הצרכנים המקורית",
+        "label_en": "BEUC: original consumer-organisation release"
+      },
+      {
+        "url": "https://www.beuc.eu/cosmetic-compliance-how-gatekeepers-continue-undermine-compliance-digital-markets-act",
+        "label": "BEUC: דף הדוח ותחום התקופה הנבדקת",
+        "label_en": "BEUC: report landing page and covered period"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a43e11fa4311ac2baf925a439c1b50681eacdcaa22c79a18f98eef7573714db0"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2160",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:10",
+    "הועלה": "2026-11-17 12:10",
+    "כותרת": "NVIDIA (NVDA): הדירקטוריון הקים ועדת פיקוח קבועה לביטחון לאומי ולבקרת יצוא בראשות Suzanne Nora Johnson",
+    "כותרת_en": "NVIDIA (NVDA): board establishes standing national-security and export-control oversight committee chaired by Suzanne Nora Johnson",
+    "summary": "17 בנובמבר 2026, 05:00 שעון ניו יורק, 12:00 בישראל. הודעת NVIDIA המקורית דרך GlobeNewswire נקראה במלואה.",
+    "summary_en": "November 17, 2026 at 05:00 New York time, 12:00 in Israel. NVIDIA's full original GlobeNewswire announcement was read.",
+    "טקסט": "17 בנובמבר 2026, 05:00 שעון ניו יורק, 12:00 בישראל. הודעת NVIDIA המקורית דרך GlobeNewswire נקראה במלואה.\n\nדירקטוריון NVIDIA הקים ועדה קבועה חדשה לפיקוח על מדיניות הביטחון הלאומי, עמידה בבקרת יצוא וניהול סיכוני הסחר הגלובלי. בראש הוועדה תעמוד הדירקטורית Suzanne Nora Johnson, ולצדה הדירקטורים Stephen C. Neal ו-John O. Dabiri.\n\nלפי ההודעה, צוות הביטחון הלאומי וצוות הציות לסחר הגלובלי הקיימים ידווחו ישירות לוועדה ולמנכ\"לית הזמנית Colette Kress בכל הנוגע לפעילות היומיומית. הוועדה תתכנס לפחות אחת לרבעון, לרבות עם ההנהלה ובדיונים נפרדים, ותסתייע במומחים חיצוניים עצמאיים למשפט, ביטחון לאומי וציות לסחר.\n\nהמהלך הוא שינוי במנגנון הפיקוח של הדירקטוריון, לא הודעה על מינוי מנכ\"ל קבוע, השבת Jensen Huang לתפקיד או שינוי כהונתה הזמנית של Kress. הקמת הוועדה אינה כשלעצמה ממצא שהחברה הפרה מגבלות יצוא או אישור שהפרות נשללו.\n\nההודעה אינה מפרטת ממצאי חקירה, קנס, רישיון יצוא חדש, הכנסות משבבים שנמכרו או שינוי בתחזית הכספית. היא מתארת חיזוק פיקוח וקשר עם גורמי ממשל, לא תוצאה רגולטורית שהושגה.",
+    "טקסט_en": "November 17, 2026 at 05:00 New York time, 12:00 in Israel. NVIDIA's full original GlobeNewswire announcement was read.\n\nNVIDIA's board established a new standing committee overseeing national-security policies, export-control compliance and global trade risk management. Director Suzanne Nora Johnson will chair it, joined by directors Stephen C. Neal and John O. Dabiri.\n\nThe release says the existing National Security Team and Global Trade Compliance Team will report directly to the committee and Interim CEO Colette Kress on day-to-day operations. The committee will meet at least quarterly, including with management and in executive session, and retain independent outside legal, national-security and trade-compliance experts.\n\nThis changes board oversight. It does not announce a permanent CEO appointment, Jensen Huang's reinstatement or a change in Kress' interim status. Establishing the committee is not itself a finding that export restrictions were violated or confirmation that violations have been ruled out.\n\nThe announcement gives no investigative findings, fine, new export license, chip-sale revenue or change in financial guidance. It describes stronger oversight and government engagement, not an achieved regulatory outcome.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/17/3404362/0/en/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/17/3404362/0/en/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee.html",
+        "label": "NVIDIA דרך GlobeNewswire: הודעת חברה מקורית",
+        "label_en": "NVIDIA via GlobeNewswire: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "de69f39ac2e3d8576ff5b7b942f58636cc244b849dd47ae8b40aa3b8a721670c"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2161",
+    "category": "micro",
+    "חברה": "BWX Technologies (BWXT)",
+    "חברה_en": "BWX Technologies (BWXT)",
+    "symbols": [
+      "BWXT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:10",
+    "הועלה": "2026-11-17 12:10",
+    "כותרת": "פורסם באיחור | BWX Technologies (BWXT): השלימה הרחבת מפעל בקיימברידג׳ באונטריו בהשקעה של כ-80 מיליון דולר קנדי",
+    "כותרת_en": "Published late | BWX Technologies (BWXT): completes roughly C$80 million Cambridge, Ontario facility expansion",
+    "summary": "הודעת BWXT המקורית מ-12 בנובמבר 2026 נקראה במלואה. שעת הפרסום המקורית לא אומתה. זו השלמה שדווחה ב-12 בנובמבר, לא הכרזה ראשונה על פרויקט חדש היום.",
+    "summary_en": "BWXT's full original November 12, 2026 announcement was read. The original publication clock was not verified. This is completion reported November 12, not the first announcement of a new project today.",
+    "טקסט": "הודעת BWXT המקורית מ-12 בנובמבר 2026 נקראה במלואה. שעת הפרסום המקורית לא אומתה. זו השלמה שדווחה ב-12 בנובמבר, לא הכרזה ראשונה על פרויקט חדש היום.\n\nBWXT השלימה הרחבת מתקן הייצור בקיימברידג׳, אונטריו, בהשקעה של כ-80 מיליון דולר קנדי. ההרחבה הוסיפה 55 אלף רגל רבועה, ציוד ייצור מתקדם והגדלה של 40% בחדר הייצור הנקי הגרעיני המסחרי. הנתון מתייחס לשטח החדר, לא לעלייה מדודה של 40% בהכנסות או בתפוקה הכוללת.\n\nהפרויקט החל ב-2024. החברה אומרת שכבר נוצרו במסגרתו 200 משרות ארוכות טווח, ומכוונת לגייס 200 עובדים נוספים בקיימברידג׳ בשנה הקרובה. המשרות הנוספות הן יעד גיוס עתידי, ואין להציג את כולן כאיוש שהושלם.\n\nהחברה מתארת תמיכה בייצור רכיבים לכורים קיימים ומתקדמים. בניית 48 מחוללי קיטור ל-Pickering וייצור מכל לחץ לכור ה-SMR ב-Darlington הם פרויקטים קיימים שנזכרים כרקע, לא הזמנה חדשה של 48 יחידות במסגרת ההרחבה.\n\nזהו מפעל קנדי ופרויקט נפרד מההשקעה בטנסי שכבר סוקרה. לא פורסמו בהודעה הזמנות חדשות, תוספת הכנסות מחייבת או שינוי בתחזית הרווח. התועלת מעבודות גרעין עתידיות תלויה בפרויקטים, מימון וחוזים.",
+    "טקסט_en": "BWXT's full original November 12, 2026 announcement was read. The original publication clock was not verified. This is completion reported November 12, not the first announcement of a new project today.\n\nBWXT completed expansion of its Cambridge, Ontario manufacturing facility with an approximately C$80 million investment. It added 55,000 square feet, advanced manufacturing equipment and a 40% increase in its commercial nuclear clean-room size. That is floor-space growth, not a measured 40% increase in revenue or overall output.\n\nThe project began in 2024. BWXT says it has already created 200 long-term jobs and targets recruitment of another 200 Cambridge workers over the next year. The additional jobs are a hiring goal, not positions already filled.\n\nThe facility supports components for conventional and advanced reactors. Building 48 Pickering steam generators and a Darlington SMR reactor pressure vessel are existing projects cited as context, not a fresh 48-unit order created by the expansion.\n\nThis Canadian facility is separate from the previously covered Tennessee investment. The release discloses no new order, binding incremental revenue or earnings-guidance change. Benefits from future nuclear work depend on projects, funding and contracts.",
+    "קישור": "https://www.bwxt.com/bwxt-completes-cambridge-facility-expansion-prepares-for-future-nuclear-new-build/",
+    "מקורות": [
+      {
+        "url": "https://www.bwxt.com/bwxt-completes-cambridge-facility-expansion-prepares-for-future-nuclear-new-build/",
+        "label": "BWXT: הודעת השלמת ההרחבה המקורית",
+        "label_en": "BWXT: original expansion-completion release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a366c25753f8f2360908588e9be00a7105bb22bd807557a22d145889c995a9fb"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2162",
+    "category": "micro",
+    "חברה": "Align Technology (ALGN)",
+    "חברה_en": "Align Technology (ALGN)",
+    "symbols": [
+      "ALGN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:10",
+    "הועלה": "2026-11-17 12:10",
+    "כותרת": "פורסם באיחור | Align Technology (ALGN): תוכנית ירושה מ-28 באוקטובר: Jennifer Davis תיכנס לתפקיד הנשיאה והמנכ\"לית ב-31 בדצמבר",
+    "כותרת_en": "Published late | Align Technology (ALGN): October 28 succession plan: Jennifer Davis to become president and CEO December 31",
+    "summary": "הודעת Align המקורית מ-28 באוקטובר 2026 נקראה במלואה. זהו מינוי שהוכרז באוקטובר, לא החלטת דירקטוריון חדשה מ-17 בנובמבר. שעת הפרסום המקורית לא אומתה.",
+    "summary_en": "Align's full original October 28, 2026 announcement was read. The appointment was announced in October, not a fresh November 17 board decision. The original publication clock was not verified.",
+    "טקסט": "הודעת Align המקורית מ-28 באוקטובר 2026 נקראה במלואה. זהו מינוי שהוכרז באוקטובר, לא החלטת דירקטוריון חדשה מ-17 בנובמבר. שעת הפרסום המקורית לא אומתה.\n\nהדירקטוריון מינה את Jennifer L. Davis לנשיאה והמנכ\"לית הבאה, בתוקף מ-31 בדצמבר 2026. לפי ההודעה, ב-2 בנובמבר היא הצטרפה כמנכ\"לית מיועדת וכדירקטורית לצורך חפיפה עם Joseph M. Hogan. מועד הכניסה לדירקטוריון אינו מועד תחילת כהונת המנכ\"לית המלאה.\n\nDavis כיהנה קודם כמנכ\"לית עסקי הבריאות הגלובליים של Procter & Gamble. Hogan, המכהן כנשיא ומנכ\"ל מאז 2015, יסיים את תפקידי ההנהלה במסגרת המעבר. פרישתו מהדירקטוריון מתוכננת בנפרד לאחר ישיבת האסטרטגיה ב-16 ביוני 2027, ולא מיד ביום הכרזת המינוי.\n\nההודעה אינה אישור שהמעבר העתידי כבר הושלם או שינוי חדש בתחזית החברה. נתוני לקוחות, מטופלים והזדמנות שוק המופיעים ברקע אינם זכייה בלקוחות חדשים כתוצאה מהמינוי. תוצאות Q3 פורסמו בהודעה נפרדת ואין לייחס את מספריהן להכרזת הירושה.",
+    "טקסט_en": "Align's full original October 28, 2026 announcement was read. The appointment was announced in October, not a fresh November 17 board decision. The original publication clock was not verified.\n\nThe board appointed Jennifer L. Davis its next president and CEO, effective December 31, 2026. The release says she would join November 2 as CEO-elect and a director, working with Joseph M. Hogan through the transition. The board-entry date is not the date she assumes full CEO duties.\n\nDavis previously led Procter & Gamble's Global Healthcare business. Hogan, president and CEO since 2015, will step down from executive duties in the transition. His board retirement is separately planned after the June 16, 2027 strategy meeting, not immediately on the announcement date.\n\nThe release does not confirm the future transition has already completed or announce new company guidance. Customer, patient and market-opportunity background are not new customer wins caused by the appointment. Q3 results were issued separately and their figures are not attributed to this succession announcement.",
+    "קישור": "https://investor.aligntech.com/news-releases/news-release-details/align-technology-announces-ceo-succession-plan/",
+    "מקורות": [
+      {
+        "url": "https://investor.aligntech.com/news-releases/news-release-details/align-technology-announces-ceo-succession-plan/",
+        "label": "Align Technology: הודעת ירושה מקורית מ-28 באוקטובר",
+        "label_en": "Align Technology: original October 28 succession release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "de5fba905d4504153e30b9d763a578dc528b3697a4e659be4059b2ebe5c17e02"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2163",
+    "category": "micro",
+    "חברה": "Morgan Stanley (MS)",
+    "חברה_en": "Morgan Stanley (MS)",
+    "symbols": [
+      "MS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:10",
+    "הועלה": "2026-11-17 12:10",
+    "כותרת": "Morgan Stanley (MS): השיקה פלטפורמת ETF אקטיביות באירופה עם ארבע קרנות UCITS איריות",
+    "כותרת_en": "Morgan Stanley (MS): launches European active ETF platform with four Ireland-domiciled UCITS funds",
+    "summary": "הודעת Morgan Stanley Investment Management המקורית דרך Business Wire מ-17 בנובמבר 2026 נקראה במלואה. היא מתארת השקה השבוע; שעת הפרסום המדויקת לא אומתה.",
+    "summary_en": "Morgan Stanley Investment Management's full original November 17, 2026 Business Wire release was read. It describes a launch this week; the exact publication clock was not verified.",
+    "טקסט": "הודעת Morgan Stanley Investment Management המקורית דרך Business Wire מ-17 בנובמבר 2026 נקראה במלואה. היא מתארת השקה השבוע; שעת הפרסום המדויקת לא אומתה.\n\nMSIM השיקה באירופה פלטפורמת קרנות סל אקטיביות, עם ארבע קרנות UCITS שמקום מושבן באירלנד: Morgan Stanley AI & Tech Diffusion, Future of Energy, Multipolar World ו-Europe Top Picks. שלוש הראשונות ממוקדות בנושאים גלובליים והרביעית במניות אירופיות. המוצרים משלבים ניתוח יסודי עם ניתוח שיטתי מבוסס כללים.\n\nהקרנות רשומות באוסטריה, צרפת, גרמניה, יוון, איטליה, לוקסמבורג, הולנד, ספרד, שוודיה, שווייץ ובריטניה. אין להסיק מכך זמינות בכל מדינה או לכל משקיע, מסחר בכל בורסה או התאמה אישית לתושב ישראל.\n\nהנתון של יותר מ-18.5 מיליארד דולר נכסים מנוהלים ב-21 מוצרי ETF מתייחס לעסקי הקרנות האמריקאיים הקיימים נכון ל-31 באוקטובר. הוא אינו גיוס חדש לארבע הקרנות באירופה. גם 2.1 טריליון הדולר בנכסים בניהול או פיקוח נכון לסוף ספטמבר מתייחסים ל-MSIM ולחברות הייעוץ שלה, לא לפלטפורמה האירופית החדשה.\n\nלא נמסרו בהודעה היקף כספי ההשקה באירופה או הכנסה חזויה למורגן סטנלי. חשיפה לנושאי AI ואנרגיה אינה התחייבות לתשואה; קרנות סל נושאות סיכון הפסד. אין כאן המלצת קנייה.",
+    "טקסט_en": "Morgan Stanley Investment Management's full original November 17, 2026 Business Wire release was read. It describes a launch this week; the exact publication clock was not verified.\n\nMSIM launched a European active ETF platform with four Ireland-domiciled UCITS funds: Morgan Stanley AI & Tech Diffusion, Future of Energy, Multipolar World and Europe Top Picks. The first three address global themes, while the fourth targets European equities. They combine fundamental insights with systematic rules-based analysis.\n\nThe funds are registered in Austria, France, Germany, Greece, Italy, Luxembourg, the Netherlands, Spain, Sweden, Switzerland and the UK. That does not establish availability in every country or to every investor, trading on every exchange or suitability for an Israeli resident.\n\nMore than $18.5 billion AUM across 21 ETF products describes the existing US ETF business as of October 31, not new inflows into the four European funds. The separate $2.1 trillion in assets under management or supervision at September 30 covers MSIM and its advisory affiliates, not the new European platform.\n\nThe release gives no European launch-funding amount or projected Morgan Stanley revenue. AI and energy exposure is not a return commitment; ETF investments can lose money. No purchase recommendation is made.",
+    "קישור": "https://www.businesswire.com/news/home/20261117183513/en/Morgan-Stanley-Investment-Management-Launches-Active-ETF-Platform-in-Europe",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261117183513/en/Morgan-Stanley-Investment-Management-Launches-Active-ETF-Platform-in-Europe",
+        "label": "MSIM דרך Business Wire: הודעת השקה מקורית",
+        "label_en": "MSIM via Business Wire: original launch release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1d98241bf22f679b7a27dbac276d0e9a42459ab254d43802323f1004b1327769"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2164",
+    "category": "micro",
+    "חברה": "Expedia Group (EXPE)",
+    "חברה_en": "Expedia Group (EXPE)",
+    "symbols": [
+      "EXPE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:10",
+    "הועלה": "2026-11-17 12:10",
+    "כותרת": "פורסם באיחור | Expedia Group (EXPE): מפרטת כלי AI והשוואת מלונות; Reserve Now, Pay Later ב-Vrbo עדיין מתוכנן להמשך",
+    "כותרת_en": "Published late | Expedia Group (EXPE): details hotel-comparison AI tools; Vrbo Reserve Now, Pay Later still coming soon",
+    "summary": "פוסט המוצר המקורי של Expedia Group מ-16 בנובמבר 2026 נקרא במלואו. זהו סיכום של מצגת מוצרי סתיו 2026, לא אישור שכל יכולת הושקה באותו יום או זמינה בכל שוק. שעת הפרסום המקורית לא אומתה.",
+    "summary_en": "Expedia Group's full original November 16, 2026 product blog was read. It recaps the Fall 2026 Product Showcase, not confirmation every feature launched that day or is available in every market. The original publication clock was not verified.",
+    "טקסט": "פוסט המוצר המקורי של Expedia Group מ-16 בנובמבר 2026 נקרא במלואו. זהו סיכום של מצגת מוצרי סתיו 2026, לא אישור שכל יכולת הושקה באותו יום או זמינה בכל שוק. שעת הפרסום המקורית לא אומתה.\n\nהחברה מציגה AI Compare ב-Expedia וב-Hotels.com להשוואת מלונות שנבחרו ולשאלות המשך בשפה טבעית. AI Property Expert מספק תשובות לפי פרטי נכס בשני המותגים, וחיפוש בשפה טבעית מתואר ב-Vrbo וב-Hotels.com.\n\nExpedia מתארת גם חבילות גמישות יותר, למשל טיסה לעיר אחת ולינה באחרת או מלון ורכב רק לחלק מימי הנסיעה, ו-Vrbo מציגה שילוב הנחות זכאיות ב-Stacked Deals. לעומת זאת, Reserve Now, Pay Later ב-Vrbo מסומן במפורש כ-coming soon ורק בנכסים זכאים. אין להציג את האפשרות כמושקת במלואה או כאישור להזמנה חינם וללא תנאי ביטול.\n\nכלים נוספים כוללים Activity Planner להצעות פעילויות, Arrival Experience לריכוז פרטי הגעה, וסוכן קולי מבוסס AI לבקשות נתמכות עם העברה לנציג אנושי יחד עם הקשר השיחה כשצריך.\n\nהטענות שכ-80% משאלות AI Compare עוסקות בדרישות הכרחיות, ושמשפחות המשתמשות במתכנן הפעילות מזמינות פעילות בסבירות כפולה, הן תצפיות החברה. הן אינן מבחן סיבתי עצמאי, גידול מאומת בהכנסות או שיעור הצלחה מובטח. לא נחשפו שווי חוזה, מחירי הכלים או תחזית כספית חדשה.",
+    "טקסט_en": "Expedia Group's full original November 16, 2026 product blog was read. It recaps the Fall 2026 Product Showcase, not confirmation every feature launched that day or is available in every market. The original publication clock was not verified.\n\nAI Compare on Expedia and Hotels.com compares shortlisted hotels and accepts natural-language follow-up questions. AI Property Expert provides property-specific answers on those brands; natural-language search is described for Vrbo and Hotels.com.\n\nExpedia also describes more flexible packages, such as flying into one city and staying in another or booking a hotel or car for only part of a trip. Vrbo's Stacked Deals combine eligible offers. In contrast, Vrbo Reserve Now, Pay Later is explicitly coming soon and only for eligible properties. It is not presented as fully launched, free travel or a booking without cancellation conditions.\n\nOther tools include Activity Planner recommendations, an Arrival Experience consolidating practical arrival information, and an AI Voice Agent for supported requests with contextual handoff to human support when needed.\n\nClaims that nearly 80% of AI Compare questions concern must-haves and that families using Activity Planner are twice as likely to book an activity are company observations. They are not an independent causal test, verified revenue increase or guaranteed success rate. No contract value, tool pricing or new financial guidance was disclosed.",
+    "קישור": "https://partner.expediagroup.com/en-us/resources/blog/fall-2026-product-releases",
+    "מקורות": [
+      {
+        "url": "https://partner.expediagroup.com/en-us/resources/blog/fall-2026-product-releases",
+        "label": "Expedia Group: פוסט מוצר מקורי",
+        "label_en": "Expedia Group: original product blog"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e05d0777c6d116ba8b513011094640c0078bf1664acaadb3238315a18ab657f6"
+      }
+    }
   }
 ]
