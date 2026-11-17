@@ -57033,5 +57033,41 @@
         "source_hash": "850208941ff372f214b3c10a99c8651a267fe01aaead6e0bd15e769ba2eecc5d"
       }
     }
+  },
+  {
+    "מזהה": "n-2068",
+    "category": "macro",
+    "תאריך": "2026-11-17 10:05",
+    "הועלה": "2026-11-17 10:05",
+    "כותרת": "פורסם באיחור | טראמפ אומר שעשוי לפגוש את קים ג'ונג און בסין; אין פגישה מאושרת",
+    "כותרת_en": "Published late | Trump says he may meet Kim Jong-un in China; no meeting confirmed",
+    "summary": "**לא מאומת מול מקור ממשלתי ראשוני:** דברי טראמפ נקראו בדיווחי Yonhap המקוריים ובעותק המלא ב-The Korea Times; תמליל או סרטון הבית הלבן לא נבדקו. The Korea Times מציגה 17 בנובמבר 01:00 בקוריאה, כלומר 16 בנובמבר 18:00 בישראל. עותק Yonhap מוקדם יותר מציג 17 בנובמבר 00:02, ללא אזור זמן מפורש בעמוד שנקרא. הדיווח אינו חדש מהבוקר בישראל.",
+    "summary_en": "**Not verified against a primary government source:** Trump's comments were reviewed in Yonhap's original reports and the full Korea Times distribution; a White House transcript or recording was not checked. The Korea Times shows November 17 at 01:00 in Korea, November 16 at 18:00 in Israel. An earlier Yonhap version shows November 17 at 00:02 without an explicit timezone on the reviewed page. This is not new reporting from this morning in Israel.",
+    "טקסט": "**לא מאומת מול מקור ממשלתי ראשוני:** דברי טראמפ נקראו בדיווחי Yonhap המקוריים ובעותק המלא ב-The Korea Times; תמליל או סרטון הבית הלבן לא נבדקו. The Korea Times מציגה 17 בנובמבר 01:00 בקוריאה, כלומר 16 בנובמבר 18:00 בישראל. עותק Yonhap מוקדם יותר מציג 17 בנובמבר 00:02, ללא אזור זמן מפורש בעמוד שנקרא. הדיווח אינו חדש מהבוקר בישראל.\n\nלפי Yonhap, טראמפ אמר לכתבים לפני יציאתו מהבית הלבן לנסיעתו לאסיה שהוא עשוי לפגוש גם את מנהיג קוריאה הצפונית קים ג'ונג און במהלך ביקורו בסין. בדיווח המעודכן הוסיף: קים עשוי להגיע, הוא אינו יודע, והדבר תלוי בנשיא סין שי ג'ינפינג.\n\nזו אפשרות שטראמפ העלה, לא פגישה שאושרה, הזמנה שהתקבלה או הודעה שקים יגיע. Yonhap מציינת שבשבוע שעבר בכיר בבית הלבן אמר שלא תוכננה פגישה עם קים בנסיעה, ואילו טראמפ לא שלל אותה כעת.\n\nהעדכון נפרד מהמפגש המתוכנן של טראמפ, שי ופוטין ב-19 בנובמבר בשולי APEC בשנזן, שסוקר קודם. התוספת היא אפשרות למגע עם קים, לא שינוי מאומת במועד או בהרכב המפגש המשולש. אין בדיווח הסכם גרעין, הקלה בסנקציות, ויתור מדיני או תוצאה של שיחות שכבר התקיימו.",
+    "טקסט_en": "**Not verified against a primary government source:** Trump's comments were reviewed in Yonhap's original reports and the full Korea Times distribution; a White House transcript or recording was not checked. The Korea Times shows November 17 at 01:00 in Korea, November 16 at 18:00 in Israel. An earlier Yonhap version shows November 17 at 00:02 without an explicit timezone on the reviewed page. This is not new reporting from this morning in Israel.\n\nAccording to Yonhap, Trump told reporters before leaving the White House for Asia that he may also meet North Korean leader Kim Jong-un during his visit to China. The updated report adds that Trump said Kim may come, that he did not know, and that it was up to Chinese President Xi Jinping.\n\nThis is a possibility raised by Trump, not a confirmed meeting, accepted invitation or announcement that Kim will attend. Yonhap notes that a White House official said last week that no meeting with Kim was planned during the trip, while Trump has now left the possibility open.\n\nThe update is separate from the previously covered Trump-Xi-Putin meeting planned for November 19 on the sidelines of APEC in Shenzhen. The addition is a possible engagement with Kim, not a verified change to the trilateral meeting's date or participants. The report contains no nuclear agreement, sanctions relief, diplomatic concession or outcome from talks already held.",
+    "קישור": "https://en.yna.co.kr/view/AEN20261116010051315",
+    "מקורות": [
+      {
+        "url": "https://en.yna.co.kr/view/AEN20261116010051315",
+        "label": "Yonhap: דיווח מקורי מעודכן, דברי טראמפ",
+        "label_en": "Yonhap: updated original reporting on Trump's remarks"
+      },
+      {
+        "url": "https://en.yna.co.kr/view/AEN20261116010000315",
+        "label": "Yonhap: גרסה מוקדמת",
+        "label_en": "Yonhap: earlier version"
+      },
+      {
+        "url": "https://www.koreatimes.co.kr/world/20261117/trump-says-he-may-meet-with-kim-jong-un-while-in-china",
+        "label": "The Korea Times: עותק Yonhap עם זמן KST מפורש",
+        "label_en": "The Korea Times: Yonhap distribution with explicit KST time"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2edc171010c8204e6e7291a601ea6d7b17b38321369e41f8b081dc4cc3f7f52d"
+      }
+    }
   }
 ]
