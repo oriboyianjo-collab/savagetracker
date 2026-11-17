@@ -7716,11 +7716,13 @@ async function alSync(){   // merge what the service worker found (periodic sync
   await alCachePut({lang:I18n.language, prefs:pnPayload(), hold:S.hold, watch:S.watch, muted:alP.muted, seen:alSeen.keys.slice(-800), init:alSeen.init, pending:[]});
   alSave(); alBadge(); }
 async function alNotify(it){
+  const title = (window.AlertsCore && AlertsCore.notifyText) ? AlertsCore.notifyText(it.title, I18n.language) : (it.title||'');
+  const body = (window.AlertsCore && AlertsCore.notifyText) ? AlertsCore.notifyText(it.body||'', I18n.language) : (it.body||'');
   if(alSN){ if(!alP.on || alSNPerm()!=='granted') return;
-    try{ alSN.notify(it.title, it.body||'', alScope()+'?al='+encodeURIComponent(it.kind||'')+'&s='+encodeURIComponent(it.sym||'')+'&k='+encodeURIComponent(it.key||''), it.key||''); }catch(e){} return; }
+    try{ alSN.notify(title, body, alScope()+'?al='+encodeURIComponent(it.kind||'')+'&s='+encodeURIComponent(it.sym||'')+'&k='+encodeURIComponent(it.key||''), it.key||''); }catch(e){} return; }
   if(!(alP.on && 'Notification' in window && Notification.permission==='granted')) return;
   try{ const reg = await navigator.serviceWorker.ready;
-    await reg.showNotification(it.title, {body:it.body||'', icon:'icon-192.png', badge:'badge-mono-96.png', tag:it.key, lang:I18n.language, dir:I18n.language==='en'?'ltr':'rtl',
+    await reg.showNotification(title, {body, icon:'icon-192.png', badge:'badge-mono-96.png', tag:it.key, lang:I18n.language, dir:I18n.language==='en'?'ltr':'rtl',
       data:{url: reg.scope+'?al='+encodeURIComponent(it.kind)+'&s='+encodeURIComponent(it.sym||'')+'&k='+encodeURIComponent(it.key)}}); }catch(e){} }
 function alAdd(items){ const fresh = items.filter(it=>!alSeen.keys.includes(it.key)); if(!fresh.length) return;
   fresh.forEach(it=>{ alSeen.keys.push(it.key); alList.unshift({key:it.key, kind:it.kind, sym:it.sym, title:it.title, body:it.body, t:Date.now(), read:false}); });
@@ -7894,7 +7896,7 @@ I18n.bind(()=>{INST_RANGES[0][1]=I18n.p("ui-0373","יום");INST_RANGES[1][1]=I1
   b.addEventListener('click', e=>{ e.stopPropagation(); v=!v; try{ localStorage.setItem(K, v?'1':'0'); }catch(_){} ap(v); });
   top.addEventListener('click', e=>{ if(v && !e.target.closest('button')){ v=false; try{ localStorage.setItem(K,'0'); }catch(_){} ap(false); } }); })();
 </script>
-<script src="alerts-core.js?v=270"></script>
+<script src="alerts-core.js?v=271"></script>
 <style>
 .al-row{display:flex;justify-content:space-between;align-items:center;cursor:pointer;gap:10px}
 .al-row h4{margin:0}.al-sub{font-size:.78rem;color:var(--muted);margin-top:3px}.al-chev{color:var(--primary);font-size:1.5rem;line-height:1}

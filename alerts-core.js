@@ -80,5 +80,15 @@
     });
     return out;
   }
-  g.AlertsCore = {SECTORS,newsSelection,taggedSymbols,newsSectors,matchNews,newsCategory,detect, newsSyms, ilDate, H, newestNews};
+  // Invisible RTL marks so Android notification text that starts in English still renders as a Hebrew sentence.
+  // RLM (U+200F) sets the paragraph direction; RLE..PDF (U+202B..U+202C) wraps the text so the first Latin letter cannot flip it back to LTR.
+  // Idempotent: already-marked strings are left unchanged. English notifications are left as-is.
+  const RLM='\u200F', RLE='\u202B', PDF='\u202C';
+  function notifyText(s, lang){
+    s = s==null ? '' : String(s);
+    if(lang==='en' || !s) return s;
+    if(s.charAt(0)===RLM || s.charAt(0)===RLE) return s;
+    return RLM+RLE+s+PDF;
+  }
+  g.AlertsCore = {SECTORS,newsSelection,taggedSymbols,newsSectors,matchNews,newsCategory,detect, newsSyms, ilDate, H, newestNews, notifyText};
 })(typeof self!=='undefined' ? self : globalThis);
