@@ -1,0 +1,56 @@
+name: financials
+# Finance-tab figures from official SEC companyfacts -> financials/*.json.
+# Public US-listed companies only (mcap-rank / SEC ticker map). Never reads
+# portfolio or watchlist data. Free: GitHub Actions on a public repo, built-in
+# GITHUB_TOKEN, no secrets. Optional repo variable SEC_UA = "SavageTracker you@email".
+# Does not touch reports / news / calendar, or the universal-edgar-reports output.
+# This workflow is inert until it is pushed; do not dispatch it from here.
+on:
+  schedule:
+    - cron: '40 6 * * *'       # morning UTC: previous US day's filings
+    - cron: '15 22 * * 1-5'    # weekday evening UTC, after the US close
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Optional: comma-separated tickers to test (e.g. AAPL,MSFT) – progress is not recorded'
+        required: false
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: financials-json
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: build financials
+        env:
+          SEC_UA: ${{ vars.SEC_UA != '' && vars.SEC_UA || 'SavageTracker Savtra12@gmail.com' }}
+          ONLY: ${{ github.event.inputs.only }}
+        run: |
+          set -e
+          if [ -n "$ONLY" ]; then
+            python3 sec-report-tool/financials/build_financials.py --only "$ONLY" --out-dir /tmp/financials-test --state /tmp/financials-test-progress.json --budget-min 20
+            ls /tmp/financials-test | head
+            exit 0
+          fi
+          python3 sec-report-tool/financials/build_financials.py --budget-min 55
+      - name: commit
+        if: github.event.inputs.only == ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add financials/*.json
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "financials update"
+          # Rebase/retry so this cannot fail a race with universal-edgar-reports commits.
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X ours origin main && git push && break
+            sleep 8
+          done
