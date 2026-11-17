@@ -1,0 +1,71 @@
+name: universal-edgar-watchdog
+
+# Hourly, GitHub-only, free. Restarts the approved universal EDGAR pass ONLY when
+# its chain broke by a crash (no run active, pass not complete, not stopped).
+# It never restarts a real SEC access hold: any stopped pass (403/429/block page,
+# fatal, no_progress, batch_cap) has stopped=true / stop_code set and is left alone.
+# It makes no SEC requests itself.
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: universal-edgar-watchdog
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          sparse-checkout: report-pass-control.json
+          sparse-checkout-cone-mode: false
+      - name: Resume only a crashed, unfinished, unstopped pass
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          wf=universal-edgar-reports.yml
+          read -r pass gen complete stopped stop_code < <(python3 - <<'PY'
+          import json
+          c=json.load(open('report-pass-control.json'))
+          print(c['pass_id'], int(c['generation']), str(bool(c.get('complete'))).lower(),
+                str(bool(c.get('stopped'))).lower(), c.get('stop_code') or 'null')
+          PY
+          )
+          echo "pass=$pass generation=$gen complete=$complete stopped=$stopped stop_code=$stop_code"
+          if [ "$complete" != false ] || [ "$stopped" != false ] || [ "$stop_code" != null ]; then
+            echo 'Pass is complete or stopped (possible SEC access hold). Not restarting.'; exit 0
+          fi
+          [[ "$gen" =~ ^[0-9]{1,5}$ ]]
+          active=0
+          for st in queued in_progress waiting pending requested; do
+            n=$(gh run list -R "$REPO" -w "$wf" -s "$st" -L 20 --json databaseId -q 'length')
+            active=$((active + n))
+          done
+          if [ "$active" -gt 0 ]; then echo "A run is already active ($active). Nothing to do."; exit 0; fi
+          # Quiet window: the chain dispatches its next run at the end of each run, so wait
+          # until the latest run finished more than 10 minutes ago before treating it as broken.
+          last=$(gh run list -R "$REPO" -w "$wf" -L 1 --json updatedAt -q '.[0].updatedAt // ""')
+          if [ -n "$last" ]; then
+            age=$(( $(date -u +%s) - $(date -u -d "$last" +%s) ))
+            if [ "$age" -lt 600 ]; then echo "Latest run ended ${age}s ago. Waiting for the chain."; exit 0; fi
+          fi
+          # Do not loop on a deterministic crash: after 3 failed runs at this same generation, stand down.
+          title="universal-edgar-reports $pass gen $gen"
+          fails=$(gh run list -R "$REPO" -w "$wf" -L 30 --json displayTitle,conclusion \
+            -q "[.[] | select(.displayTitle == \"$title\" and .conclusion == \"failure\")] | length")
+          if [ "$fails" -ge 3 ]; then echo "Generation $gen already failed $fails times. Needs review; not restarting."; exit 0; fi
+          echo "Chain is broken with no active run. Resuming $pass at generation $gen."
+          gh workflow run "$wf" -R "$REPO" --ref main -f pass_id="$pass" -f generation="$gen"

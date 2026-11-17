@@ -23,6 +23,9 @@ and the SEC.gov Internet Security Policy). This client:
   may continue with later documents or issuers. A challenge/block page still stops.
 - An official HTTP 404/410 (document does not exist) is not an access hold:
   DocumentNotFound is raised and the pass continues with other documents.
+- A truncated or corrupt official response body (incomplete read, gzip stream
+  ended early, bad gzip/zlib data) is not an access hold: it is not cached,
+  DocumentIncomplete is raised and the pass continues with other documents.
 - On 5xx or network errors: at most 2 polite backoff retries, then a persistent stop.
 - Caches raw response bodies by URL hash with sha256 evidence. Extracted text is
   never persisted as an artifact; retained bytes are the raw response only.
@@ -32,17 +35,19 @@ User-Agent string only.
 """
 import fcntl
 import gzip
+import http.client
 import json
 import os
 import re
 import time
 import urllib.error
 import urllib.request
+import zlib
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from .core import AccessHeld, DocumentExceedsSizeBudget, DocumentNotFound
+from .core import AccessHeld, DocumentExceedsSizeBudget, DocumentIncomplete, DocumentNotFound
 
 SEC_USER_AGENT = 'SavageTracker Savtra12@gmail.com'
 MIN_INTERVAL_SEC = 1.0
@@ -221,8 +226,17 @@ class GlobalSecTransport:
                     status = response.status
                     final = response.geturl()
                     headers = {k.lower(): v for k, v in response.headers.items()} if getattr(response, 'headers', None) else {}
-                    raw = response.read(MAX_BODY + 1)
-                    body = _decode(raw, headers.get('content-encoding', ''))
+                    try:
+                        raw = response.read(MAX_BODY + 1)
+                        body = _decode(raw, headers.get('content-encoding', ''))
+                    except _CORRUPT_BODY_ERRORS as e:
+                        if status in {403, 429}:
+                            self._block(url, status, b'', 'HTTP %s; persistent stop per fair-access policy, no circumvention' % status)
+                        # Truncated/corrupt body of an answered request: per-document failure,
+                        # not an access hold and not retried. Never cached.
+                        self._log(event='incomplete_body', url=url, status=status,
+                                  error=type(e).__name__, attempt=attempts)
+                        raise DocumentIncomplete(url=url, detail=type(e).__name__)
             except urllib.error.HTTPError as e:
                 raw = e.read(MAX_BODY + 1) if e.fp else b''
                 try:
@@ -288,6 +302,11 @@ class GlobalSecTransport:
         self.stop_reason = reason
         self._log(event='stopped', url=url, status=status, reason=reason, retry=False)
         raise AccessHeld(reason)
+
+
+# Errors meaning the answered response body is truncated or corrupt. gzip.BadGzipFile
+# is an OSError subclass, so it must be caught here before the network-error handler.
+_CORRUPT_BODY_ERRORS = (EOFError, gzip.BadGzipFile, zlib.error, http.client.IncompleteRead)
 
 
 def _decode(raw, encoding):

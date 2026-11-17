@@ -6,7 +6,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from universal.core import run_batch, AccessHeld, DocumentExceedsSizeBudget, DocumentNotFound
+from universal.core import run_batch, AccessHeld, DocumentExceedsSizeBudget, DocumentIncomplete, DocumentNotFound
 from universal.replay import ReplayTransport
 from universal.tests import synth
 
@@ -550,6 +550,48 @@ class TestBatchSemantics(unittest.TestCase):
         self.assertEqual(by['AAPL']['status'], 'existing_preserved')
         self.assertTrue(any(url.endswith('/test-20241231.htm') for url in wrapped.hits))
         self.assertTrue(any(url.endswith('/june-20250630.htm') for url in wrapped.hits))
+
+
+    def test_truncated_document_continues_pass(self):
+        class Truncated:
+            def __init__(self, inner):
+                self.inner = inner
+                self.hits = []
+
+            def get(self, url):
+                self.hits.append(url)
+                if url.endswith('/test-20241231.htm'):
+                    raise DocumentIncomplete(url=url, detail='EOFError')
+                return self.inner.get(url)
+
+        wrapped = Truncated(self.replay)
+        r = run_batch(self.inv, None, wrapped, as_of=AS_OF)
+        self.assertFalse(r['access_held'], r.get('access_hold_reason'))
+        by = {row['symbol']: row for row in r['rows']}
+        self.assertEqual(by['TEST']['status'], 'partial_validated', by['TEST'])
+        self.assertNotIn('FY', by['TEST']['reports'].get('2024', {}))
+        self.assertEqual(by['JUNE']['status'], 'connected', by['JUNE'])
+        self.assertTrue(any(url.endswith('/june-20250630.htm') for url in wrapped.hits))
+
+    def test_truncated_submissions_holds_issuer_only(self):
+        class Truncated:
+            def __init__(self, inner):
+                self.inner = inner
+
+            def get(self, url):
+                if 'data.sec.gov/submissions/' in url and not hasattr(self, 'tripped'):
+                    self.tripped = url
+                    raise DocumentIncomplete(url=url, detail='EOFError')
+                return self.inner.get(url)
+
+        wrapped = Truncated(self.replay)
+        r = run_batch(self.inv, None, wrapped, as_of=AS_OF)
+        self.assertFalse(r['access_held'], r.get('access_hold_reason'))
+        self.assertTrue(hasattr(wrapped, 'tripped'))
+        by = {row['symbol']: row for row in r['rows']}
+        self.assertEqual(by['TEST']['status'], 'held', by['TEST'])
+        self.assertEqual(by['TEST']['reason_code'], 'DOCUMENT_INCOMPLETE')
+        self.assertEqual(by['JUNE']['status'], 'connected', by['JUNE'])
 
 
 if __name__ == '__main__':

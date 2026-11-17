@@ -1,4 +1,5 @@
 name: universal-edgar-reports
+run-name: universal-edgar-reports ${{ inputs.pass_id }} gen ${{ inputs.generation }}
 
 on:
   workflow_dispatch:

@@ -9,7 +9,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from unittest import mock
 
-from universal.core import AccessHeld, DocumentExceedsSizeBudget, DocumentNotFound
+import gzip
+import http.client
+
+from universal.core import AccessHeld, DocumentExceedsSizeBudget, DocumentIncomplete, DocumentNotFound
 from universal.transport import GlobalSecTransport, sec_url, STOP_NAME
 
 DOC = 'https://www.sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm'
@@ -140,6 +143,60 @@ class TestTransport(unittest.TestCase):
         self.assertFalse((Path(tmp) / 'state' / STOP_NAME).exists())
         self.assertIsNone(t.stop_reason)
         t.get(SUBS)
+
+    def _corrupt_case(self, response_for_doc):
+        tmp = tempfile.mkdtemp()
+        calls = []
+
+        def opener(req, timeout=30):
+            calls.append(req.full_url)
+            if req.full_url == DOC:
+                return response_for_doc()
+            return FakeResponse(body=b'{"cik":1035267}', final=req.full_url)
+
+        t, _ = make(tmp, opener)
+        with self.assertRaises(DocumentIncomplete):
+            t.get(DOC)
+        # one request, no retry, no persistent stop, nothing cached, pass continues
+        self.assertEqual(calls.count(DOC), 1)
+        self.assertFalse((Path(tmp) / 'state' / STOP_NAME).exists())
+        self.assertIsNone(t.stop_reason)
+        self.assertEqual(list((Path(tmp) / 'cache').glob('*.json')), [])
+        body, _ = t.get(SUBS)
+        self.assertEqual(body, b'{"cik":1035267}')
+
+    def test_truncated_gzip_is_document_failure_not_access_hold(self):
+        full = gzip.compress(b'<html>' + b'x' * 5000 + b'</html>')
+        self._corrupt_case(lambda: FakeResponse(body=full[:len(full) // 2], final=DOC,
+                                                headers={'Content-Encoding': 'gzip'}))
+
+    def test_bad_gzip_is_document_failure_not_access_hold(self):
+        self._corrupt_case(lambda: FakeResponse(body=b'not gzip at all', final=DOC,
+                                                headers={'Content-Encoding': 'gzip'}))
+
+    def test_corrupt_deflate_data_is_document_failure(self):
+        full = gzip.compress(b'<html>' + b'y' * 5000 + b'</html>')
+        broken = full[:10] + b'\xff' * 40 + full[50:]
+        self._corrupt_case(lambda: FakeResponse(body=broken, final=DOC,
+                                                headers={'Content-Encoding': 'gzip'}))
+
+    def test_incomplete_read_is_document_failure(self):
+        class Short(FakeResponse):
+            def read(self, n=-1):
+                raise http.client.IncompleteRead(b'<html>part', 1000)
+        self._corrupt_case(lambda: Short(final=DOC))
+
+    def test_403_still_stops_after_corrupt_body_handling(self):
+        tmp = tempfile.mkdtemp()
+
+        def opener(req, timeout=30):
+            raise urllib.error.HTTPError(DOC, 429, 'Too Many', {'Content-Encoding': 'gzip'},
+                                         io.BytesIO(b'truncated-not-gzip'))
+
+        t, _ = make(tmp, opener)
+        with self.assertRaises(AccessHeld):
+            t.get(DOC)
+        self.assertTrue((Path(tmp) / 'state' / STOP_NAME).exists())
 
     def test_403_persistent_stop_and_no_autoresume(self):
         tmp = tempfile.mkdtemp()

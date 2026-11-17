@@ -42,7 +42,7 @@ REASON_CODES = (
     'NO_VALIDATED_REPORTS', 'UNRESOLVED_IN_SCOPE_FILINGS',
     'UNSUPPORTED_NO_PERIODIC_FORMS', 'UNSUPPORTED_NO_IN_SCOPE_FILINGS',
     'PENDING_NOT_ATTEMPTED', 'PENDING_DEADLINE', 'PENDING_ACCESS_HELD',
-    'DOCUMENT_EXCEEDS_SIZE_BUDGET', 'DOCUMENT_NOT_FOUND', 'OTHER',
+    'DOCUMENT_EXCEEDS_SIZE_BUDGET', 'DOCUMENT_NOT_FOUND', 'DOCUMENT_INCOMPLETE', 'OTHER',
 )
 _REASON_MAP = {
     'identity_not_in_sec_ticker_map': 'IDENTITY_NOT_IN_TICKER_MAP',
@@ -64,6 +64,7 @@ _REASON_MAP = {
     'access_held': 'PENDING_ACCESS_HELD',
     'document_exceeds_size_budget': 'DOCUMENT_EXCEEDS_SIZE_BUDGET',
     'document_not_found': 'DOCUMENT_NOT_FOUND',
+    'document_incomplete': 'DOCUMENT_INCOMPLETE',
 }
 
 
@@ -200,6 +201,19 @@ class DocumentNotFound(ValueError):
         super().__init__('document_not_found')
         self.url = url
         self.status = status
+
+
+class DocumentIncomplete(ValueError):
+    """Official sec.gov response body arrived truncated or corrupt (incomplete read,
+    gzip stream ended early, bad gzip/zlib data).
+
+    This is not an access hold: the document is skipped and the pass may continue,
+    exactly like DocumentNotFound. 403/429/block pages still stop fail-closed.
+    """
+    def __init__(self, url=None, detail=None):
+        super().__init__('document_incomplete')
+        self.url = url
+        self.detail = detail
 
 
 class IssuerHold(Exception):
@@ -660,6 +674,8 @@ class Connector:
                 raise IssuerHold('document_exceeds_size_budget')
             except DocumentNotFound:
                 raise IssuerHold('document_not_found')
+            except DocumentIncomplete:
+                raise IssuerHold('document_incomplete')
             regular = [r for r in filings if 'error_row' not in r and r['form'].rstrip('/A') in REGULAR_FORMS and not r['form'].endswith('/A')]
             amendments = [r for r in filings if 'error_row' not in r and r['form'].endswith('/A')]
             q4cands = [r for r in filings if 'error_row' not in r and r['form'] == '8-K']
