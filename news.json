@@ -54468,4 +54468,121 @@
       }
     }
   }
+,
+{
+  "מזהה": "n-1994",
+  "category": "micro",
+  "חברה": "NVIDIA (NVDA)",
+  "חברה_en": "NVIDIA (NVDA)",
+  "symbols": [
+    "NVDA"
+  ],
+  "sectors": [
+    "technology"
+  ],
+  "tags_version": 1,
+  "תאריך": "2026-11-17 00:33",
+  "הועלה": "2026-11-17 09:04",
+  "כותרת": "פורסם באיחור | NVIDIA (NVDA): לפי דיווחים, היועץ המשפטי Tim Teter הסכים לראיון סגור בקונגרס ב-2 בדצמבר",
+  "כותרת_en": "Published late | NVIDIA (NVDA): reports say general counsel Tim Teter agreed to a closed-door congressional interview on December 2",
+  "summary": "התקדמות מבקשת הופעה להסכמה למועד, לפי דיווחים המצטטים דובר חברה. הראיון בפני שלוש ועדות בבית הנבחרים עוד לא התקיים; אין קביעה על הפרת חוק.",
+  "summary_en": "A move from a request to an agreed date, according to reports citing a company spokesperson. The interview before three House committees has not taken place; there is no finding of a legal violation.",
+  "קישור": "https://www.politico.com/news/2026/11/16/nvidia-top-lawyer-testify-congress-01168851",
+  "מקורות": [
+    {
+      "url": "https://www.politico.com/news/2026/11/16/nvidia-top-lawyer-testify-congress-01168851",
+      "label": "POLITICO: הסכמת טטר, בשם דובר NVIDIA",
+      "label_en": "POLITICO: Teter agreement, citing an NVIDIA spokesperson"
+    },
+    {
+      "url": "https://punchbowl.news/article/tech/nvidia-gen-counsel-testimony/",
+      "label": "Punchbowl: הסכמה להופעה סגורה ומתומללת ב-2 בדצמבר",
+      "label_en": "Punchbowl: agreement to closed-door, transcribed December 2 appearance"
+    },
+    {
+      "url": "https://news.bloomberglaw.com/artificial-intelligence/nvidias-teter-to-testify-dec-2-before-house-panels-punchbowl",
+      "label": "Bloomberg Law: דיווח מוקדם מ-16 בנובמבר, 22:33 UTC",
+      "label_en": "Bloomberg Law: earlier report, November 16 at 22:33 UTC"
+    },
+    {
+      "url": "https://chinaselectcommittee.house.gov/media/press-releases/chairmen-moolenaar-mast-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress",
+      "label": "הוועדה לסין: בקשת ההופעה מ-12 בנובמבר, לא אישור ההסכמה",
+      "label_en": "China committee: November 12 appearance request, not confirmation of acceptance"
+    }
+  ],
+  "טקסט": "**לא מאומת מול מקור ראשוני**\n\nפורסם באיחור. Bloomberg Law דיווחה על ההסכמה כבר ב-16 בנובמבר ב-22:33 UTC, כלומר 17 בנובמבר ב-00:33 בישראל, בשם Punchbowl ודובר החברה. POLITICO פרסמה אישור מדובר NVIDIA ב-16 בנובמבר ב-20:13 EST, 03:13 בישראל. לא אותרה הודעת חברה או ועדה ראשונית המאשרת את ההסכמה עצמה.\n\nלפי POLITICO ו-Punchbowl, היועץ המשפטי של NVIDIA, טים טטר (Tim Teter), הסכים להופיע ב-2 בדצמבר בפני שלוש ועדות בבית הנבחרים: חוץ, מודיעין והוועדה המיוחדת לסין. Punchbowl מתארת את ההופעה כסגורה ומתומללת. השינוי החדשותי הוא ההסכמה להופיע במועד מסוים, ולא בקשת ההופעה הקודמת.\n\nהוועדה לסין אישרה במקור ראשוני כי שלושת יושבי הראש שלחו ב-12 בנובמבר מכתבים המבקשים את הופעת טטר ואחרים. לפי POLITICO, המכתב לטטר כלל איום בזימון מחייב אם לא יסכים לראיון מרצון. הרקע הוא בדיקת הקונגרס סביב הסטת שבבים מתקדמים לסין ו-Megaspeed.\n\nהראיון הוא אירוע עתידי, לא עדות שכבר נמסרה ולא הכרעה בטענות. אין בדיווח הודעה שזימון מחייב לטטר כבר הוצא, ממצא של הפרת חוק או החלטה חדשה על מגבלות יצוא.",
+  "טקסט_en": "**Not verified against a primary source**\n\nPublished late. Bloomberg Law reported the agreement on November 16 at 22:33 UTC, November 17 at 00:33 in Israel, citing Punchbowl and a company spokesperson. POLITICO published confirmation from an NVIDIA spokesperson on November 16 at 20:13 EST, 03:13 in Israel. No direct company or committee statement confirming the acceptance itself was located.\n\nAccording to POLITICO and Punchbowl, NVIDIA general counsel Tim Teter agreed to appear on December 2 before three House panels: Foreign Affairs, Intelligence and the Select Committee on China. Punchbowl describes the appearance as closed-door and transcribed. The news is agreement to appear on a specific date, rather than the earlier request to appear.\n\nThe China committee confirmed in a primary-source November 12 release that the three chairs sent letters requesting appearances by Teter and others. According to POLITICO, the Teter letter threatened a subpoena if he did not agree to a voluntary interview. The backdrop is congressional scrutiny of advanced-chip diversion to China and Megaspeed.\n\nThe interview is a future event, not testimony already delivered or a finding on the allegations. The reports do not announce that a compulsory subpoena for Teter has been issued, establish a legal violation or announce a new export restriction.",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "182b4c72eab89c469dfc7456b2d622fec538bebc1b02d06efb83008f6282455a"
+    }
+  }
+},
+{
+  "מזהה": "n-1995",
+  "category": "micro",
+  "חברה": "Eli Lilly (LLY)",
+  "חברה_en": "Eli Lilly (LLY)",
+  "symbols": [
+    "LLY"
+  ],
+  "sectors": [
+    "healthcare"
+  ],
+  "tags_version": 1,
+  "תאריך": "2026-11-16 23:00",
+  "הועלה": "2026-11-17 09:05",
+  "כותרת": "פורסם באיחור | Eli Lilly (LLY): הסכם מחקר ורישוי אונקולוגי עם Stipple Bio, עם אבני דרך מותנות של עד 5.9 מיליארד דולר",
+  "כותרת_en": "Published late | Eli Lilly (LLY): oncology research and licensing deal with Stipple Bio includes up to $5.9 billion in conditional milestones",
+  "summary": "Stipple תקבל מקדמה והשקעה במניות בסכומים שלא נמסרו; Lilly תקבל זכויות עולמיות בלעדיות למוצרים מהשיתוף. תקרת אבני הדרך אינה תשלום שכבר בוצע או מחיר רכישה.",
+  "summary_en": "Stipple will receive an undisclosed upfront payment and equity investment; Lilly gets exclusive worldwide rights to collaboration products. The milestone ceiling is not money already paid or an acquisition price.",
+  "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3404075/0/en/stipple-bio-announces-multi-target-multi-modality-oncology-research-collaboration-with-lilly.html",
+  "מקורות": [
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/11/16/3404075/0/en/stipple-bio-announces-multi-target-multi-modality-oncology-research-collaboration-with-lilly.html",
+      "label": "Stipple Bio: הודעת ההסכם המקורית והמלאה, 16 בנובמבר",
+      "label_en": "Stipple Bio: full original agreement announcement, November 16"
+    }
+  ],
+  "טקסט": "פורסם באיחור. Stipple Bio פרסמה את ההודעה המקורית ב-16 בנובמבר 2026 ב-16:00 ET, כלומר 23:00 בישראל. זהו הסכם שהוכרז אתמול, לא הודעת עסקה חדשה מהבוקר.\n\nלפי הודעת Stipple, החברה חתמה עם Eli Lilly על שיתוף פעולה מחקרי והסכם רישוי באונקולוגיה, למספר מטרות טיפוליות ושיטות טיפול. פלטפורמת Pointillist של Stipple תשמש לזיהוי קושרים לאפיטופים על פני תאי גידול, שישולבו בטכנולוגיות האונקולוגיה של Lilly. Lilly תקבל זכויות עולמיות בלעדיות לפיתוח ולמסחור מוצרים שינבעו מהשיתוף.\n\nStipple תקבל תשלום מראש והשקעה במניותיה; סכומי שני הרכיבים לא נמסרו. בנוסף היא עשויה לקבל תשלומי אבני דרך מצטברים של עד 5.9 מיליארד דולר, בכפוף להישגים במחקר, בפיתוח ובמסחור, ותמלוגים מדורגים ממכירות אם יפותחו טיפולים ש-Lilly תמסחר בהצלחה. הסכום של 5.9 מיליארד דולר הוא תקרה מותנית, לא תשלום שכבר הועבר, לא מקדמה ולא מחיר רכישה של Stipple.\n\nההודעה אינה מדווחת על אישור תרופה או תוצאות ניסוי חדשות. STP-100, שלגביו Stipple מציינת תכנון לתחילת ניסוי שלב 1 בתחילת 2027, מתואר במסגרת הצנרת העצמאית שלה; אין להציגו כמוצר שכבר פותח או אושר במסגרת ההסכם.",
+  "טקסט_en": "Published late. Stipple Bio issued the original announcement on November 16, 2026 at 16:00 ET, 23:00 in Israel. This is an agreement announced yesterday, not a new deal announcement this morning.\n\nAccording to Stipple, it signed a multi-target, multi-modality oncology research collaboration and license agreement with Eli Lilly. Stipple's Pointillist platform will identify tumor-specific cell-surface epitope binders for combination with Lilly's oncology technologies. Lilly receives exclusive worldwide rights to develop and commercialize products arising from the collaboration.\n\nStipple will receive an upfront payment and an equity investment, neither quantified in the release. It may also receive aggregate milestone payments of up to $5.9 billion, conditional on research, development and commercialization achievements, plus tiered sales royalties if Lilly successfully commercializes therapies. The $5.9 billion figure is a conditional ceiling, not money already paid, an upfront payment or an acquisition price for Stipple.\n\nThe release does not announce a drug approval or new trial results. STP-100, for which Stipple plans a Phase 1 trial in early 2027, is described as part of its own pipeline; it should not be presented as a product already developed or approved under this agreement.",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "5b158d8130cdb8b862904652964279a524ec5ec1b0978c0582effa9b6f14fcbe"
+    }
+  }
+},
+{
+  "מזהה": "n-1996",
+  "category": "macro",
+  "חברה": "בריטניה",
+  "חברה_en": "United Kingdom",
+  "symbols": [],
+  "sectors": [],
+  "tags_version": 1,
+  "תאריך": "2026-11-17 09:00",
+  "הועלה": "2026-11-17 09:07",
+  "כותרת": "בריטניה: האבטלה ביולי–ספטמבר 4.6%, אך מספר השכירים ירד באומדן אוקטובר והשכר הרגיל האט ל-3.5%",
+  "כותרת_en": "UK: July–September unemployment at 4.6%, but October payroll estimate falls and regular pay growth slows to 3.5%",
+  "summary": "ONS מציג תמונה מעורבת: ירידה באבטלה מושפעת בחלקה מהחלפת מדגם; מספר השכירים באומדן אוקטובר ירד ב-34 אלף בחודש. אין כאן החלטת ריבית או תחזית של הבנק המרכזי.",
+  "summary_en": "ONS reports a mixed picture: sample rotation partly explains lower unemployment; provisional October payrolls fell by 34,000 on the month. This is not a rate decision or central bank forecast.",
+  "קישור": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026",
+  "מקורות": [
+    {
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026",
+      "label": "ONS: דוח שוק העבודה המלא, 17 בנובמבר 2026",
+      "label_en": "ONS: full labour market overview, November 17, 2026"
+    }
+  ],
+  "טקסט": "לשכת הסטטיסטיקה הבריטית ONS פרסמה ב-17 בנובמבר את דוח שוק העבודה לנובמבר. שיעור האבטלה לגילי 16 ומעלה היה 4.6% ביולי–ספטמבר 2026, ירידה של 0.3 נקודת אחוז לעומת הרבעון הקודם וגם לעומת שנה קודם. שיעור התעסוקה לגילי 16–64 היה 75.4%, עלייה של 0.3 נקודת אחוז ברבעון.\n\nעם זאת, ONS מזהיר כי התנועות בתעסוקה ובאבטלה משקפות בחלקן החלפה של קבוצות במדגם סקר כוח האדם: לקבוצה שיצאה מהסקר היו שיעור תעסוקה נמוך יותר ואבטלה גבוהה יותר. לכן אין לקרוא את השיפור בכותרת כראיה חד-משמעית להתחזקות השוק. ONS ממליץ לבחון את הסקר לצד מדדים נוספים ולהיזהר ממסקנות על בסיס שינויים קצרי טווח.\n\nבנתוני השכירים המינהליים PAYE, האומדן הראשוני לאוקטובר ירד ב-34 אלף לעומת ספטמבר וב-95 אלף לעומת שנה קודם, ל-30.2 מיליון. זהו אומדן זמני שעשוי להתעדכן, והוא אינו אותו מדד כמו סקר התעסוקה הרבעוני. מספר המשרות הפנויות באוגוסט–אוקטובר הוערך ב-690 אלף, ירידה של 22 אלף לעומת מאי–יולי.\n\nצמיחת השכר הנומינלי הממוצע בבריטניה הגדולה ביולי–ספטמבר הייתה 3.5% בשנה ללא בונוסים, לעומת 3.7% בתקופת שלושת החודשים הקודמת; כולל בונוסים היא הייתה 3.6%, לעומת 3.8%. ONS מציין כי ההאטה בשכר הרגיל נבעה מירידה בצמיחת השכר במגזר הציבורי, עם התמתנות השפעת עיתוי הסכמי השכר. אלה נתונים בפועל לפי ONS, לא תחזיות; לא הוצמדו להם צפי שוק או מסקנה על החלטת הריבית הבאה.",
+  "טקסט_en": "The Office for National Statistics released its November UK labour market report on November 17. The unemployment rate for people aged 16 and over was 4.6% in July–September 2026, down 0.3 percentage points both on the previous quarter and a year earlier. The employment rate for people aged 16–64 was 75.4%, up 0.3 percentage points on the quarter.\n\nHowever, ONS cautions that employment and unemployment movements partly reflect rotation of Labour Force Survey groups: the group leaving the survey had lower employment and higher unemployment. The headline improvement is therefore not clear-cut evidence of a stronger labour market. ONS recommends reading the survey alongside other indicators and taking care with short-term changes.\n\nIn administrative PAYE payroll data, the provisional October estimate fell by 34,000 from September and by 95,000 from a year earlier, to 30.2 million. This early estimate is subject to revision and is not the same measure as the quarterly employment survey. Vacancies in August–October were estimated at 690,000, down 22,000 from May–July.\n\nAnnual nominal average earnings growth in Great Britain was 3.5% excluding bonuses in July–September, versus 3.7% in the previous three-month period; including bonuses it was 3.6%, versus 3.8%. ONS attributes the regular-pay slowdown to lower public-sector wage growth as the impact of pay-award timing fades. These are ONS data, not forecasts; no market consensus figures or conclusion about the next rate decision have been added.",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "11e4fbc1f86ff72c7a98981567c3b044a38ea5bb06964102d895a068f20d0ad0"
+    }
+  }
+}
 ]
