@@ -60798,5 +60798,104 @@
         "source_hash": "7007ab958796596381e6f1bce7833388d0ed901dbded2620faf75e2056b21db1"
       }
     }
+  },
+  {
+    "מזהה": "n-2178",
+    "category": "micro",
+    "חברה": "Citizens Financial Group (CFG)",
+    "חברה_en": "Citizens Financial Group (CFG)",
+    "symbols": [
+      "CFG"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:35",
+    "הועלה": "2026-11-17 12:35",
+    "כותרת": "פורסם באיחור | Citizens Financial Group (CFG): הכריזה ב-28 באוקטובר על דיבידנדים לשש סדרות בכורה, לתשלום ב-6 בינואר 2027",
+    "כותרת_en": "Published late | Citizens Financial Group (CFG): October 28 declaration covers six preferred series, payable January 6, 2027",
+    "summary": "הודעת Citizens Financial Group המקורית דרך Business Wire, בשכפול Times Online מ-28 באוקטובר 2026 ב-16:10 EDT, כלומר 22:10 בישראל, נקראה במלואה. הדירקטוריון הכריז על דיבידנדים רבעוניים לשש סדרות בכורה, לא על דיבידנד חדש למניה הרגילה היום.",
+    "summary_en": "Citizens Financial Group's full original Business Wire release, reproduced by Times Online October 28, 2026 at 16:10 EDT, 22:10 in Israel, was read. The board declared quarterly dividends on six preferred series, not a fresh common-share dividend today.",
+    "טקסט": "הודעת Citizens Financial Group המקורית דרך Business Wire, בשכפול Times Online מ-28 באוקטובר 2026 ב-16:10 EDT, כלומר 22:10 בישראל, נקראה במלואה. הדירקטוריון הכריז על דיבידנדים רבעוניים לשש סדרות בכורה, לא על דיבידנד חדש למניה הרגילה היום.\n\nהתשלום מתוכנן ל-6 בינואר 2027, לבעלי מניות בכורה הרשומים בסיום המסחר ב-22 בדצמבר 2026. זהו תאריך קובע ולא תאריך אקס שאומת בנפרד; ההכרזה אינה אישור שכבר שולם מזומן.\n\nהסכומים בדולרים למניית בכורה מלאה הם: סדרה B - 18.64436222; סדרה C - 19.03791778; סדרה E - 12.50; סדרה H - 18.4375; סדרה I - 16.25; סדרה J - 29.250.\n\nרק בסדרות E, H ו-I ההודעה מפרטת גם סכום למניית פיקדון המייצגת 1/40 ממניית בכורה: E - 0.3125 דולר; H - 0.46093750 דולר; I - 0.40625 דולר. אין להחיל את סכומי מניית הבכורה המלאה על מניית פיקדון, ואין להמציא יחס פיקדון לסדרות האחרות.\n\nהסדרות בהודעה הן B/C/E/H/I/J, לא F או G. סוגי הריבית כוללים קבועה-למשתנה, קבועה וקבועה עם איפוס; שיעורי הקופון בשם הסדרות אינם בהכרח תשואת השוק או שיעור התשלום השנתי הנוכחי. ההודעה אינה כוללת פדיון, רכישה חוזרת או שינוי תחזית כספית.",
+    "טקסט_en": "Citizens Financial Group's full original Business Wire release, reproduced by Times Online October 28, 2026 at 16:10 EDT, 22:10 in Israel, was read. The board declared quarterly dividends on six preferred series, not a fresh common-share dividend today.\n\nPayment is scheduled January 6, 2027 to preferred holders of record at the December 22, 2026 close. This is the record date, not a separately verified ex-dividend date; declaration does not mean cash has been paid.\n\nDollar amounts per full preferred share are: Series B $18.64436222; C $19.03791778; E $12.50; H $18.4375; I $16.25; and J $29.250.\n\nOnly E, H and I also have explicit depositary-share amounts, each depositary share representing 1/40 of a preferred share: E $0.3125; H $0.46093750; I $0.40625. Full preferred-share amounts must not be applied to depositary units, and no depositary ratio is invented for the other series.\n\nThe six series are B/C/E/H/I/J, not F or G. They include fixed-to-floating, fixed-rate and fixed-reset structures; coupon labels are not necessarily current market yields or current annual payment rates. The release announces no redemption, buyback or financial-guidance change.",
+    "קישור": "http://business.times-online.com/observerreporter/article/bizwire-2026-10-28-citizens-financial-group-inc-declares-dividends-on-preferred-stock",
+    "מקורות": [
+      {
+        "url": "http://business.times-online.com/observerreporter/article/bizwire-2026-10-28-citizens-financial-group-inc-declares-dividends-on-preferred-stock",
+        "label": "Citizens דרך Business Wire/Times Online: הודעת חברה מקורית",
+        "label_en": "Citizens via Business Wire/Times Online: original company release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "19dcf8c583058fd55005ff29d34299fc68da9113a5a0ff61b30c88481f4b3620"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2179",
+    "category": "micro",
+    "חברה": "Assurant (AIZ)",
+    "חברה_en": "Assurant (AIZ)",
+    "symbols": [
+      "AIZ"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:35",
+    "הועלה": "2026-11-17 12:35",
+    "כותרת": "פורסם באיחור | Assurant (AIZ): לפי MarketBeat, Morgan Stanley העלתה יעד מ-330 ל-360 דולר ושמרה Overweight",
+    "כותרת_en": "Published late | Assurant (AIZ): MarketBeat reports Morgan Stanley raised target to $360 from $330, retaining Overweight",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת MarketBeat המלאה מ-16 בנובמבר 2026 נקראה. היא מייחסת את הפעולה ל-Benzinga, ולא נקרא דוח Morgan Stanley המקורי. שעת הפרסום לא אומתה. הפעולה מיוחסת ליום שני, 16 בנובמבר, לא ליום שלישי.",
+    "summary_en": "**Not verified against a primary source:** MarketBeat's full November 16, 2026 article was read. It attributes the action to Benzinga; Morgan Stanley's original report was not read. Publication time was not verified. The action is attributed to Monday, November 16, not Tuesday.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת MarketBeat המלאה מ-16 בנובמבר 2026 נקראה. היא מייחסת את הפעולה ל-Benzinga, ולא נקרא דוח Morgan Stanley המקורי. שעת הפרסום לא אומתה. הפעולה מיוחסת ליום שני, 16 בנובמבר, לא ליום שלישי.\n\nלפי האתר, Morgan Stanley העלתה את יעד המחיר ל-Assurant מ-330 ל-360 דולר ושמרה על דירוג Overweight. זו העלאת יעד לצד דירוג שנותר ללא שינוי, לא שדרוג חדש מ-Hold או ל-Buy. הכתבה אינה מספקת נימוק מפורט מטעם Morgan Stanley לשינוי.\n\nאין להתייחס ליעד כהבטחת תשואה או למחיר שוק חי. האפסייד שהאתר מחשב נשען על מחיר הייחוס ההיסטורי שלו ולא אומת מול מסחר נוכחי, ולכן אינו מוצג כאן כפער עדכני. תוצאות 3 בנובמבר, יעדים קודמים של גופים אחרים והחזקות מוסדיות המצורפים לכתבה הם רקע, לא הודעות חברה חדשות מאותו יום.",
+    "טקסט_en": "**Not verified against a primary source:** MarketBeat's full November 16, 2026 article was read. It attributes the action to Benzinga; Morgan Stanley's original report was not read. Publication time was not verified. The action is attributed to Monday, November 16, not Tuesday.\n\nThe site says Morgan Stanley raised its Assurant price target to $360 from $330 while keeping Overweight. This is a target increase with an unchanged rating, not a fresh upgrade from Hold or to Buy. No detailed Morgan Stanley rationale is provided.\n\nThe target is neither a return guarantee nor a live market price. The site's upside calculation uses its historical reference quote and was not checked against current trading, so it is not presented as a current gap. November 3 results, other firms' older targets and institutional holdings attached to the article are background, not fresh same-day company announcements.",
+    "קישור": "https://www.marketbeat.com/instant-alerts/analyst-assurant-nyse-aiz-stock-price-target-raised-at-morgan-stanley-2026-11-16/",
+    "מקורות": [
+      {
+        "url": "https://www.marketbeat.com/instant-alerts/analyst-assurant-nyse-aiz-stock-price-target-raised-at-morgan-stanley-2026-11-16/",
+        "label": "MarketBeat: דיווח משני המיוחס ל-Benzinga",
+        "label_en": "MarketBeat: secondary report attributed to Benzinga"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b09e23b9f43ed2e30dc64fe3de6d53a3d7b28d7c714424094fdfc85cd3b11ae9"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2180",
+    "category": "micro",
+    "חברה": "Simpson Manufacturing (SSD)",
+    "חברה_en": "Simpson Manufacturing (SSD)",
+    "symbols": [
+      "SSD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:35",
+    "הועלה": "2026-11-17 12:35",
+    "כותרת": "פורסם באיחור | Simpson Manufacturing (SSD): הודיעה ב-11 בנובמבר על השתתפות בכנס Stephens ב-18 בנובמבר; המצגת מתוכננת ל-21:15 בישראל",
+    "כותרת_en": "Published late | Simpson Manufacturing (SSD): November 11 announcement schedules Stephens conference presentation for November 18 at 21:15 Israel time",
+    "summary": "הודעת Simpson Manufacturing המקורית מ-11 בנובמבר 2026 ב-09:00 ET, כלומר 16:00 בישראל, נקראה במלואה. זהו מועד ההכרזה ההיסטורי, לא הודעה ראשונה מ-17 בנובמבר או מצגת שכבר התקיימה.",
+    "summary_en": "Simpson Manufacturing's full original November 11, 2026 release at 09:00 ET, 16:00 in Israel, was read. That is the historical announcement date, not a first November 17 notice or a completed presentation.",
+    "טקסט": "הודעת Simpson Manufacturing המקורית מ-11 בנובמבר 2026 ב-09:00 ET, כלומר 16:00 בישראל, נקראה במלואה. זהו מועד ההכרזה ההיסטורי, לא הודעה ראשונה מ-17 בנובמבר או מצגת שכבר התקיימה.\n\nהמנכ\"ל Mike Olosky וסמנכ\"ל הכספים Matt Dunn מתכננים להשתתף בכנס Stephens Annual Investment Conference ביום רביעי, 18 בנובמבר 2026, בנאשוויל, טנסי. המצגת נקבעה ל-13:15 שעון מרכז ארה\"ב, כלומר 21:15 בישראל, לצד פגישות משקיעים לאורך היום.\n\nלפי החברה, המצגת תשודר באתר קשרי המשקיעים ושידור חוזר יהיה זמין ל-90 יום לאחר האירוע. אלו פרטי תוכנית שפורסמה, לא אימות שהשידור העתידי פעיל או שהמצגת נמסרה. ההודעה אינה כוללת תוצאות כספיות חדשות, תחזית, חוזה או התחייבות למסירת מידע מהותי בכנס. לא בוצע כאן שינוי בלוח האירועים הכלכלי.",
+    "טקסט_en": "Simpson Manufacturing's full original November 11, 2026 release at 09:00 ET, 16:00 in Israel, was read. That is the historical announcement date, not a first November 17 notice or a completed presentation.\n\nCEO Mike Olosky and CFO Matt Dunn plan to attend the Stephens Annual Investment Conference Wednesday, November 18, 2026 in Nashville, Tennessee. The presentation is scheduled at 13:15 US Central time, 21:15 in Israel, with investor meetings throughout the day.\n\nThe company says its investor-relations site will host a live webcast and a replay for 90 days afterward. These are announced plans, not verification the future stream is active or the presentation has occurred. The release gives no new financial results, guidance, contract or promise of material conference disclosures. No economic-calendar entry was changed here.",
+    "קישור": "https://www.prnewswire.com/news-releases/simpson-manufacturing-co-inc-announces-participation-at-the-stephens-annual-investment-conference-302933640.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/simpson-manufacturing-co-inc-announces-participation-at-the-stephens-annual-investment-conference-302933640.html",
+        "label": "Simpson Manufacturing דרך PR Newswire: הודעה מקורית",
+        "label_en": "Simpson Manufacturing via PR Newswire: original announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2e45e3de9715e275ae8213f710f6833790458e8fc68214b4fee36e9355baa4f2"
+      }
+    }
   }
 ]
