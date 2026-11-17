@@ -167,7 +167,7 @@ function shardRevenue(shard, rowDate) {
     if (!best || v.e > best.e || (v.e === best.e && v.d < best.d)) best = { ...v, fy: y, q };
   }
   if (!best) return null;
-  return { r: best.r, tag: (shard.tags || {}).r || '', cur: shard.cur || 'USD', acc: best.a, form: best.f, end: best.e, label: best.q + ' FY' + best.fy, cik: shard.cik };
+  return { r: best.r, pr: best.f === '8-K' || best.src === 'pr', tag: (shard.tags || {}).r || '', cur: shard.cur || 'USD', acc: best.a, form: best.f, end: best.e, label: best.q + ' FY' + best.fy, cik: shard.cik };
 }
 // Money text ("3.45–3.60B", "$950M", "1.2 מיליארד") -> number; a range gives its midpoint.
 function moneyNum(v) {
@@ -190,7 +190,7 @@ function applyRevenue(row, rev) {
   if (has(row['הכנסות_בפועל']) || !revenuePlausible(row, rev)) return false;
   row['הכנסות_בפועל'] = money(rev.r);
   row['מטבע_הכנסות'] = rev.cur;
-  row['בסיס_בפועל_הכנסות'] = (rev.tag === 'Revenues' ? 'GAAP total revenue' : 'GAAP revenue (SEC tag ' + (rev.tag || 'unknown') + ')') + ' – SEC XBRL, ' + rev.label;
+  row['בסיס_בפועל_הכנסות'] = (rev.tag === 'Revenues' ? 'GAAP total revenue' : 'GAAP revenue (SEC tag ' + (rev.tag || 'unknown') + ')') + (rev.pr ? ' – SEC 8-K press release, ' : ' – SEC XBRL, ') + rev.label;
   if (rev.acc && rev.cik) row['מקור_הכנסות_בפועל'] = `https://www.sec.gov/Archives/edgar/data/${+rev.cik}/${rev.acc.replace(/-/g, '')}/${rev.acc}-index.htm`;
   if (!has(row['השוואה_הכנסות']) && rev.tag === 'Revenues' && /^Analyst consensus \(Alpha Vantage\)/.test(String(row['בסיס_צפי_הכנסות'] || ''))) { row['השוואה_הכנסות'] = 'כן'; row['השוואה_הכנסות_en'] = 'Yes'; }
   return true;
