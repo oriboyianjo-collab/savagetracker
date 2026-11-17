@@ -53834,5 +53834,36 @@
         "source_hash": "7a0633dea33f71c15f855defd42e361fdb2faf5cb8d15c8d875b6b0eea9f2a3e"
       }
     }
+  },
+  {
+    "מזהה": "n-1978",
+    "category": "macro",
+    "תאריך": "2026-11-17 02:38",
+    "הועלה": "2026-11-17 02:38",
+    "כותרת": "פרוטוקול RBA: הרוב תמך בהעלאת נובמבר בגלל סיכוני אינפלציה; המיעוט העדיף להמתין להשפעת ההידוק",
+    "כותרת_en": "RBA minutes: majority backed November hike over inflation risks; minority preferred waiting for tightening to work",
+    "summary": "פרוטוקול חדש לישיבת 2–3 בנובמבר, לא החלטת ריבית חדשה: מחלוקת על מידת הריסון ועל סיכוני ההאטה.",
+    "summary_en": "New minutes of the November 2–3 meeting, not a new rate decision: disagreement over restraint and downside growth risks.",
+    "קישור": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-11-03.html",
+    "מקורות": [
+      {
+        "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-11-03.html",
+        "label": "RBA: הפרוטוקול המלא של ישיבת 2–3 בנובמבר",
+        "label_en": "RBA: full minutes of the November 2–3 meeting"
+      },
+      {
+        "url": "https://www.rba.gov.au/",
+        "label": "RBA: מועד פרסום הפרוטוקול, 17 בנובמבר 11:30 AEDT",
+        "label_en": "RBA: minutes publication time, November 17 at 11:30 AEDT"
+      }
+    ],
+    "טקסט": "17.11.2026, 02:30 בשעון ישראל, לפי מועד הפרסום באתר RBA: 11:30 AEDT. הפרוטוקול מתייחס לישיבה שנערכה ב-2–3 בנובמבר.\n\nהפרוטוקול החדש מפרט מדוע רוב חברי הבנק המרכזי של אוסטרליה תמכו בהעלאת הריבית בנובמבר: תחזית האינפלציה הורעה, הסיכונים נותרו מוטים כלפי מעלה ולא היה ברור שהריבית הקיימת מרסנת מספיק. התומכים בהעלאה סברו שהסיכון להשארת המדיניות לא מרסנת מספיק גדול כעת מהסיכון להידוק יתר. זו עמדת הרוב באותה ישיבה, לא הבטחה להעלאה נוספת.\n\nהמיעוט העדיף להותיר את הריבית ללא שינוי כדי לאפשר זמן להערכת השפעת ההעלאות שכבר בוצעו, בהיקף מצטבר של נקודת אחוז מוקדם יותר ב-2026. חברי המיעוט נתנו משקל רב יותר לסיכון להאטה חדה ולעלייה באבטלה. הפרוטוקול מתאר תנאים פיננסיים מרסנים, אך גם סימנים מעורבים המקשים לקבוע עד כמה.\n\nההחלטה עצמה כבר סוקרה ב-3 בנובמבר: העלאה של 0.25 נקודת אחוז ל-4.85%, ברוב של שישה מול שלושה שתמכו בהשארת 4.60%. החידוש היום הוא פרסום הנימוקים והחלופות שנדונו, לא העלאת ריבית חדשה או נתון אינפלציה חדש. כל החברים הסכימו להמשיך לבחון את הנתונים, התחזית והסיכונים ולפעול להשבת האינפלציה ליעד; אין בפרוטוקול מסלול ריבית מובטח.",
+    "טקסט_en": "November 17, 2026, 02:30 Israel time, based on the RBA website publication time of 11:30 AEDT. The minutes cover the November 2–3 meeting.\n\nThe newly released minutes explain why a majority of Australia's central-bank board backed the November rate increase: the inflation outlook had deteriorated, risks remained tilted upward, and the existing rate was not clearly restrictive enough. Members backing the hike judged the risk of leaving policy insufficiently restrictive to outweigh the risk of overtightening at that meeting. This was the majority's assessment then, not a promise of another increase.\n\nThe minority preferred leaving the rate unchanged to allow more time to assess the cumulative one percentage point of tightening delivered earlier in 2026. Those members placed greater weight on the risk of a sharper slowdown and higher unemployment. The minutes describe restrictive financial conditions but mixed signals that made the degree of restraint difficult to judge.\n\nThe decision itself was already covered on November 3: a 0.25-percentage-point increase to 4.85%, with six members in favor and three preferring to retain 4.60%. Today's new element is publication of the reasoning and alternatives, not a new rate increase or inflation reading. All members agreed to remain attentive to data, the outlook and risks and to act to return inflation to target; the minutes do not promise a rate path.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "214730f1d34af86a3fd5f96980f0843c2f7e539ed6dbc044d6bba900e384f8a3"
+      }
+    }
   }
 ]
