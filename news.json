@@ -58797,5 +58797,76 @@
         "source_hash": "63e85102193e5aba3af2b75a542a89c05f7d0611ac0a51fdccdd75617986a678"
       }
     }
+  },
+  {
+    "מזהה": "n-2120",
+    "category": "micro",
+    "חברה": "Five Below (FIVE)",
+    "חברה_en": "Five Below (FIVE)",
+    "symbols": [
+      "FIVE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:08",
+    "הועלה": "2026-11-17 11:08",
+    "כותרת": "פורסם באיחור | Five Below (FIVE): לפי TheFly ו-Investing.com, Stifel החלה לסקר בהמלצת Hold ויעד של 235 דולר",
+    "כותרת_en": "Published late | Five Below (FIVE): TheFly and Investing.com report Stifel initiates Hold with $235 target",
+    "summary": "**לא מאומת מול מקור ראשוני:** דוח Stifel המקורי לא נקרא. דיווחי TheFly דרך TipRanks ו-Investing.com שנקראו במלואם מציינים שהאנליסט Michael Montani החל לסקר את Five Below בהמלצת Hold ויעד מחיר של 235 דולר.",
+    "summary_en": "**Not verified against a primary source:** Stifel's original research note was not read. Full reports from TheFly via TipRanks and Investing.com state that analyst Michael Montani initiated Five Below coverage at Hold with a $235 price target.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** דוח Stifel המקורי לא נקרא. דיווחי TheFly דרך TipRanks ו-Investing.com שנקראו במלואם מציינים שהאנליסט Michael Montani החל לסקר את Five Below בהמלצת Hold ויעד מחיר של 235 דולר.\n\nTheFly פורסם ב-16 בנובמבר 2026 ב-22:30:49 UTC, שהם 00:30:49 בישראל ב-17 בנובמבר. Investing.com מייחסת את ההחלטה לדוח שפורסם ביום שני, 16 בנובמבר. זו אינה החלטת דירוג חדשה שהתקבלה בשעת העלאת הידיעה.\n\nלפי Investing.com, Stifel מכירה בפוטנציאל פתיחת החנויות וביכולת החברה לזהות מגמות צרכניות, אך חוששת מהיכולת לשמר צמיחה שתלויה במגמות, כאשר תקופות ההשוואה הופכות מאתגרות יותר. זו הערכת האנליסט, לא תחזית חדשה של החברה או הוכחה להאטה שכבר התממשה.\n\nזו התחלת סיקור ולא הורדת המלצה מהמלצה קודמת. יעד מחיר אינו מחיר מניה עדכני, הבטחת תשואה או המלצת השקעה מטעם האפליקציה.",
+    "טקסט_en": "**Not verified against a primary source:** Stifel's original research note was not read. Full reports from TheFly via TipRanks and Investing.com state that analyst Michael Montani initiated Five Below coverage at Hold with a $235 price target.\n\nTheFly published November 16, 2026 at 22:30:49 UTC, equivalent to November 17 at 00:30:49 in Israel. Investing.com attributes the action to a report released Monday, November 16. This is not a new rating decision made at the time this item is posted.\n\nAccording to Investing.com, Stifel recognizes room for store expansion and the retailer's ability to identify consumer trends, but questions the durability of trend-driven growth as comparisons become tougher. This is an analyst view, not new company guidance or proof of an already-realized slowdown.\n\nThis is an initiation, not a downgrade from a prior rating. A price target is not a live share price, promised return or an investment recommendation from this app.",
+    "קישור": "https://www.tipranks.com/news/the-fly/five-below-initiated-with-a-hold-at-stifel-thefly-news",
+    "מקורות": [
+      {
+        "url": "https://www.tipranks.com/news/the-fly/five-below-initiated-with-a-hold-at-stifel-thefly-news",
+        "label": "TheFly דרך TipRanks: דיווח מלא",
+        "label_en": "TheFly via TipRanks: full report"
+      },
+      {
+        "url": "https://uk.investing.com/news/stock-market-news/stifel-initiates-five-below-stock-with-hold-rating-on-trend-concerns-93CH-4986695",
+        "label": "Investing.com: דיווח מלא; דוח Stifel לא נקרא",
+        "label_en": "Investing.com: full report; Stifel note not read"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "672afa22b2dc6e46b335f303d50a49ec0816a5e30585eebd1c56352ddfbcab12"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2121",
+    "category": "micro",
+    "חברה": "Smurfit Westrock (SW)",
+    "חברה_en": "Smurfit Westrock (SW)",
+    "symbols": [
+      "SW"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:08",
+    "הועלה": "2026-11-17 11:08",
+    "כותרת": "פורסם באיחור | Smurfit Westrock (SW): Pomerantz הודיעה שהיא בודקת טענות בשם משקיעים; לא הוכרז על תביעה שהוגשה",
+    "כותרת_en": "Published late | Smurfit Westrock (SW): Pomerantz announces investor-claims investigation; no filed lawsuit established",
+    "summary": "הודעת Pomerantz LLP מ-16 בנובמבר 2026 דרך ACCESS Newswire נקראה במלואה. העמוד מציג 17:45 בלי אזור זמן מפורש בטקסט שנקרא; אין כאן המרה לשעת ישראל על בסיס הנחה.",
+    "summary_en": "Pomerantz LLP's November 16, 2026 announcement through ACCESS Newswire was read in full. The page displays 17:45 without an explicit time zone in the reviewed text; no assumed conversion to Israel time is used here.",
+    "טקסט": "הודעת Pomerantz LLP מ-16 בנובמבר 2026 דרך ACCESS Newswire נקראה במלואה. העמוד מציג 17:45 בלי אזור זמן מפורש בטקסט שנקרא; אין כאן המרה לשעת ישראל על בסיס הנחה.\n\nמשרד עורכי הדין הודיע שהוא בודק טענות בשם משקיעי Smurfit Westrock, ובוחן אם החברה או נושאי משרה ומנהלים בה היו מעורבים בהונאת ניירות ערך או בפעילות עסקית בלתי חוקית. אלה חשדות שהמשרד מציג, לא ממצא שהוכח.\n\nההודעה מפנה לדוחות ולתגובת המניה ב-28 באוקטובר 2026 כרקע לבדיקה. עצם פרסום ההודעה בנובמבר אינו הופך את תוצאות אוקטובר או את שינוי התחזית המתואר בה לאירוע חדש. נתוני הרקע הפיננסיים לא נבדקו כאן מחדש מול הודעת החברה ולכן אינם מוצגים כממצאים עצמאיים.\n\nזו הודעת משרד עורכי דין המסומנת כפרסומת משפטית, לא חקירת SEC או משרד המשפטים, לא קביעה של בית משפט ולא אישור שהוגשה תביעה או אושרה תובענה ייצוגית. קישור שיווקי להצטרפות אינו מוכיח שלב דיוני כזה. הבדיקה הזו נפרדת מהדיווחים על בדיקת מחירי קרטון גלי בידי משרד המשפטים.",
+    "טקסט_en": "Pomerantz LLP's November 16, 2026 announcement through ACCESS Newswire was read in full. The page displays 17:45 without an explicit time zone in the reviewed text; no assumed conversion to Israel time is used here.\n\nThe law firm says it is investigating claims on behalf of Smurfit Westrock investors and examining whether the company or certain officers or directors engaged in securities fraud or other unlawful business practices. These are allegations raised by the firm, not proven findings.\n\nThe notice cites October 28, 2026 results and the share-price reaction as background. Its November publication does not make those results or the described outlook change a new event. The underlying financial figures were not rechecked against the company release here and are not presented as independent findings.\n\nThis is a law-firm notice labeled attorney advertising, not an SEC or Justice Department investigation, a court finding, or evidence that a lawsuit has been filed or a class certified. A promotional participation link does not establish such a procedural step. This notice is separate from reports about the Justice Department's containerboard-pricing investigation.",
+    "קישור": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-1252251",
+    "מקורות": [
+      {
+        "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-1252251",
+        "label": "Pomerantz דרך ACCESS Newswire: הודעת המשרד המקורית, פרסומת משפטית",
+        "label_en": "Pomerantz via ACCESS Newswire: original law-firm notice, attorney advertising"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "86c46a040069448e3acccf8c18dd66f1850de0520fe4dc2ab9fa434b9677c225"
+      }
+    }
   }
 ]
