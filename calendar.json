@@ -4424,4 +4424,147 @@
       }
     }
   }
-    ]
+    ,
+{
+  "מזהה": "c-0189",
+  "תאריך": "2026-11-17",
+  "שעה": "16:10",
+  "מדינה": "US",
+  "אירוע": "וולר: נאום בנושא תשלומים",
+  "חשיבות": 2,
+  "מקור": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+  "אירוע_en": "Waller: speech on payments",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "73c817d536cf44ac1f51b1181e069c5b7f88a4f3ab33d9124ba5df0240801d5a"
+    }
+  }
+},
+{
+  "מזהה": "c-0190",
+  "תאריך": "2026-11-17",
+  "שעה": "17:00",
+  "מדינה": "US",
+  "אירוע": "מדד שוק הדיור NAHB/Wells Fargo",
+  "חשיבות": 2,
+  "תקופה": "נובמבר · חודשי",
+  "מקור": "https://www.nahb.org/news-and-economics/housing-economics/indices/nahb-wells-fargo-housing-market-index-release-dates",
+  "אירוע_en": "NAHB/Wells Fargo Housing Market Index",
+  "תקופה_en": "November · monthly",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "9d4e6a2cfbedbb636b40488eee76caa43906b4dd41ea2f51a943560779fad1ee"
+    }
+  }
+},
+{
+  "מזהה": "c-0191",
+  "תאריך": "2026-11-18",
+  "שעה": "17:00",
+  "מדינה": "US",
+  "אירוע": "נתוני כלכלת הפנאי בטבע - ארה\"ב והמדינות",
+  "אירוע_en": "Outdoor recreation economic statistics - U.S. and states",
+  "תקופה": "2025",
+  "תקופה_en": "2025",
+  "חשיבות": 1,
+  "מקור": "https://www.bea.gov/news/schedule",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "7387920aeda5806bd6ef2fa3fb751fcf638079c759cc1a0c48c08d92307ad401"
+    }
+  }
+},
+{
+  "מזהה": "c-0192",
+  "תאריך": "2026-11-18",
+  "שעה": "17:00",
+  "מדינה": "US",
+  "אירוע": "פציעות ומחלות במקום העבודה לפי דיווחי מעסיקים",
+  "אירוע_en": "Employer-reported workplace injuries and illnesses",
+  "תקופה": "2025 · שנתי",
+  "תקופה_en": "2025 · annual",
+  "חשיבות": 1,
+  "מקור": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "1616bc1272c3c1e6411592742dd4c4b81f6b76927903eaed272137f1dfe6c3be"
+    }
+  }
+},
+{
+  "מזהה": "c-0193",
+  "תאריך": "2026-11-19",
+  "שעה": "17:00",
+  "מדינה": "US",
+  "אירוע": "דוח מקדים על ענפי השירותים",
+  "אירוע_en": "Advance Services Report",
+  "תקופה": "רבעון שלישי 2026",
+  "תקופה_en": "Third quarter 2026",
+  "חשיבות": 1,
+  "מקור": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "1042621654abdcf4a6847031e3d21d90ad0d3b950fab9bd309ebcaae73ffdd5a"
+    }
+  }
+},
+{
+  "מזהה": "c-0194",
+  "תאריך": "2026-11-20",
+  "שעה": "15:30",
+  "מדינה": "US",
+  "אירוע": "פעילות חברות רב-לאומיות אמריקאיות",
+  "אירוע_en": "Activities of U.S. multinational enterprises",
+  "תקופה": "2024",
+  "תקופה_en": "2024",
+  "חשיבות": 1,
+  "מקור": "https://www.bea.gov/news/schedule",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "434240c7b7e1388bf54a6e27431045036a5f763538c5d5564047e97cdc704711"
+    }
+  }
+},
+{
+  "מזהה": "c-0195",
+  "תאריך": "2026-11-20",
+  "שעה": "17:00",
+  "מדינה": "US",
+  "אירוע": "תעסוקה ואבטלה לפי מדינה בארה\"ב",
+  "אירוע_en": "State employment and unemployment",
+  "תקופה": "אוקטובר · חודשי",
+  "תקופה_en": "October · monthly",
+  "חשיבות": 1,
+  "מקור": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "95df2828ab50cdb92e9d4f6f730fc0e400919713e323808e8f9092ee0598057a"
+    }
+  }
+},
+{
+  "מזהה": "c-0196",
+  "תאריך": "2026-11-20",
+  "שעה": "17:00",
+  "מדינה": "US",
+  "אירוע": "פריון כלל גורמי הייצור בענפים עיקריים",
+  "אירוע_en": "Total factor productivity for major industries",
+  "תקופה": "2025 · שנתי",
+  "תקופה_en": "2025 · annual",
+  "חשיבות": 1,
+  "מקור": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+  "_translation": {
+    "en": {
+      "schema_version": 1,
+      "source_hash": "0ab3f68b7605c3a5de458e3f1eb31ad7fe6e25043f2d5d91833ee0e129c0b559"
+    }
+  }
+}
+]
