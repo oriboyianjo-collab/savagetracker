@@ -140,3 +140,15 @@ English aliases: eps_est_basis, eps_basis, eps_currency, eps_comparable, eps_exp
 `שווי_שוק` (aliases: market_cap, marketCap, mcap) is the company's market cap in **USD**. It's used for the "שווי שוק ↓" sort in the reports tab and is shown on the row while that sort is on.
 Accepted formats: `170B`, `$1.2T`, `950M`, `170 מיליארד`, `3.9 טריליון`, `800 מיליון`, or a plain number (`170000000000`).
 If it's empty, the app takes the market cap from CNBC quote data (cached on the phone for 24h). If no source has it, the row shows "שווי לא ידוע" and sorts last. Never invent or estimate a value; leave it empty.
+
+## Earnings board – automatic updates (reports.json)
+`.github/workflows/earnings-board.yml` + `scripts/earnings-board.cjs` keep the News-tab earnings board current:
+- 07:00 / 19:00 Israel: Alpha Vantage calendar (new rows `r-NNNN`, dates, timing, EPS estimates, upcoming date moves with
+  `תאריך_מקורי` / `היסטוריית_מועד`), reported EPS (same street basis as the estimate) and revenue estimates for a short
+  S&P 500 / Nasdaq 100 priority list. Personal free key in secret `ALPHAVANTAGE_KEY` (<= 25 calls/day).
+- Hourly on weekdays: SEC 8-K Item 2.02 check (release confirmed, time, SEC link) and GAAP revenue from `financials/` shards
+  (filled only when close to the stored consensus).
+- Never writes `הערה` / `הערה_en`. Past rows are only filled with missing actuals, never moved. Every changed row gets a fresh
+  `source_hash` (only when its English was already current).
+- `scripts/push-news.cjs` queues only report rows that can raise a new alert (new results, or a row moved onto today/tomorrow).
+Tests: `node tests/earnings-board-regressions.mjs`.

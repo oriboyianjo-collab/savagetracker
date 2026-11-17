@@ -15,7 +15,32 @@ if (!key && process.env.PUSH_NEWS_KEY_FILE) { try { key = fs.readFileSync(proces
 const git = (...a) => { try { return execFileSync('git', a, { encoding: 'utf8', maxBuffer: 64e6, stdio: ['ignore', 'pipe', 'ignore'] }); } catch (e) { return null; } };
 const show = (sha, f) => { if (!sha || /^0+$/.test(sha)) return null; const t = git('show', sha + ':' + f); if (t == null) return null; try { return JSON.parse(t); } catch (e) { return null; } };
 
-(async () => {
+// Every queued report row costs the Worker KV list/read operations (free plan: 1,000 lists/day), so only rows that can raise a
+// NEW alert are sent: results that just appeared (released today or in the last 3 days, as detect() alerts on), and an existing
+// row without results whose date moved onto today/tomorrow. Brand-new calendar rows are not queued (the app shows them). Estimate tweaks, SEC time/link
+// confirmations, notes and backfills of older rows are published on the site but not queued. Biggest companies first, capped.
+const has_ = (v) => v != null && String(v).trim() !== '';
+const pubOf = (x) => has_(x['בפועל_EPS']) || has_(x['הכנסות_בפועל']);
+function alertReports(r0, r1, now = Date.now(), cap = 120) {
+  const ilDay = (off) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Jerusalem' }).format(new Date(now + off * 864e5));
+  const today = ilDay(0), tmr = ilDay(1), old = ilDay(-3);
+  const byId = new Map(), byKey = new Map(), k = (x) => x['סימול'] + '|' + x['תאריך'];
+  for (const x of r0) { if (x['מזהה']) byId.set(x['מזהה'], x); byKey.set(k(x), x); }
+  let rank = {}; try { (JSON.parse(fs.readFileSync(require('path').join(__dirname, '..', 'mcap-rank.json'), 'utf8')).ranked || []).forEach((z, i) => { rank[z[0]] = i + 1; }); } catch (e) {}
+  const out = r1.filter((x) => {
+    const p = (x['מזהה'] && byId.get(x['מזהה'])) || byKey.get(k(x));
+    if (p && JSON.stringify(p) === JSON.stringify(x)) return false;
+    const d = String(x['תאריך'] || '').slice(0, 10);
+    if (pubOf(x)) return !(p && pubOf(p)) && d >= old && d <= today;
+    return (d === today || d === tmr) && !!p && String(p['תאריך'] || '').slice(0, 10) !== d;   // an existing row moved onto today/tomorrow
+  });
+  out.sort((a, b) => (rank[a['סימול']] || 1e9) - (rank[b['סימול']] || 1e9));
+  if (out.length > cap) warn('reports: ' + out.length + ' alert-worthy rows, sending the ' + cap + ' biggest companies');
+  return out.slice(0, cap);
+}
+module.exports = { alertReports };
+
+if (require.main === module) (async () => {
   if (!key)throw new Error('PUSH_NEWS_KEY missing; nothing queued');
   const after = arg('after') || 'HEAD', before = arg('before');
   let news = [], reports = [];
@@ -25,10 +50,8 @@ const show = (sha, f) => { if (!sha || /^0+$/.test(sha)) return null; const t = 
     // Full original records preserve IDs, versions and verified translations. Accepted intents persist beyond the newest-80 ingestion window.
     if (Array.isArray(n)) news = globalThis.AlertsCore.newestNews(n);
     const r1 = show(after, 'reports.json'), r0 = show(before, 'reports.json');
-    if (Array.isArray(r1) && Array.isArray(r0)) {   // only rows that are new or changed since the previous commit
-      const k = (x) => x['סימול'] + '|' + x['תאריך'], old = new Map(r0.map((x) => [k(x), JSON.stringify(x)]));
-      reports = r1.filter((x) => old.get(k(x)) !== JSON.stringify(x)).slice(0, 400);
-    }
+    if (Array.isArray(r1) && Array.isArray(r0)) reports = alertReports(r0, r1);   // only rows whose change can raise a new alert
+
   }
   if (!news.length && !reports.length) { console.log('push-news: nothing to send'); return; }
   const commit=git('rev-parse',after)?.trim();if(!commit)throw new Error('Exact commit unavailable');

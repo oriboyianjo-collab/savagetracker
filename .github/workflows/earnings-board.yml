@@ -1,0 +1,84 @@
+name: earnings-board
+# Keeps the News-tab earnings board (reports.json) up to date without manual work.
+#  - 07:00 / 19:00 Israel: Alpha Vantage calendar (dates, timing, EPS estimates, date moves) + reported EPS and
+#    revenue estimates for a short priority list. Free personal key in secret ALPHAVANTAGE_KEY (<=25 calls/day, 12 per run).
+#  - Every hour on weekdays: SEC 8-K Item 2.02 check for rows dated yesterday..tomorrow (release confirmed, time, link),
+#    and GAAP revenue actuals from the financials/ shards.
+# SEC fair access: UA "SavageTracker Savtra12@gmail.com", <=2 req/s, official endpoints only, stop on 403/429.
+# Shares the sec-edgar-shared concurrency group so it never sends SEC requests alongside the EDGAR report pass, and skips
+# the SEC step while the financials / 8-K jobs run. Never writes notes (הערה / הערה_en); never touches news/calendar.
+# Commits only on a real change. push-news queues only rows that can raise a new alert (new results).
+on:
+  schedule:
+    - cron: '0 5 * * *'       # 07:00 Israel (winter) – calendar + priority actuals + SEC
+    - cron: '0 17 * * *'      # 19:00 Israel (winter) – calendar + priority actuals + SEC
+    - cron: '25 * * * 1-5'    # hourly on US weekdays – SEC detector + shard revenue only
+  workflow_dispatch:
+    inputs:
+      av:
+        description: 'Also call Alpha Vantage this run (uses up to 12 of the 25 daily calls)'
+        type: boolean
+        default: true
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: sec-edgar-shared
+  cancel-in-progress: false
+  queue: max
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: restore run state (AV call counter, SEC pause)
+        uses: actions/cache/restore@v4
+        with:
+          path: /tmp/earnings-board/state.json
+          key: earnings-board-state-${{ github.run_id }}
+          restore-keys: earnings-board-state-
+      - name: decide steps
+        id: mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SCHEDULE: ${{ github.event.schedule }}
+          EVENT: ${{ github.event_name }}
+          AV_INPUT: ${{ github.event.inputs.av }}
+        run: |
+          flags="--sec"
+          if [ "$SCHEDULE" = "0 5 * * *" ] || [ "$SCHEDULE" = "0 17 * * *" ] || { [ "$EVENT" = "workflow_dispatch" ] && [ "$AV_INPUT" = "true" ]; }; then flags="--av $flags"; fi
+          # Keep the combined SEC rate <= 2 req/s: skip SEC requests while another SEC job outside this group is running.
+          busy=$(gh run list -R "$GITHUB_REPOSITORY" --status in_progress --json workflowName,databaseId --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID}) | .workflowName" | grep -Ei '^(financials|.*8-?k.*|.*fast.*)$' || true)
+          if [ -n "$busy" ]; then echo "::notice::SEC step skipped this run, busy: $busy"; flags="${flags/--sec/}"; fi
+          echo "flags=$flags" >> "$GITHUB_OUTPUT"
+      - name: update board
+        env:
+          ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
+        run: node scripts/earnings-board.cjs ${{ steps.mode.outputs.flags }}
+      - name: save run state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: /tmp/earnings-board/state.json
+          key: earnings-board-state-${{ github.run_id }}
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- reports.json; then echo "nothing to commit"; exit 0; fi
+          msg="earnings-board: $(node -e "const s=require('/tmp/earnings-board/summary.json');console.log((s.added||0)+' new, '+(s.changed-(s.added||0))+' updated, '+(s.epsFilled||0)+' EPS, '+(s.revFilled||0)+' revenue, '+(s.secApplied||0)+' SEC confirmations')")"
+          git add reports.json && git commit -q -m "$msg"
+          # News bots push often: on a race, re-apply the same fetched data to the newest main (no network), never force.
+          for i in 1 2 3 4 5; do
+            git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+            git fetch -q origin main && git reset -q --hard origin/main
+            node scripts/earnings-board.cjs --apply-only
+            if git diff --quiet -- reports.json; then echo "already up to date"; exit 0; fi
+            git add reports.json && git commit -q -m "$msg"
+          done
+          echo "::error::push failed after 5 attempts"; exit 1
