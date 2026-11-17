@@ -60595,5 +60595,71 @@
         "source_hash": "4f75c9a9bcf9a74c1a943301b46d00c1b27890144d455f29fbc8f020282424ec"
       }
     }
+  },
+  {
+    "מזהה": "n-2172",
+    "category": "micro",
+    "חברה": "MasTec (MTZ)",
+    "חברה_en": "MasTec (MTZ)",
+    "symbols": [
+      "MTZ"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:21",
+    "הועלה": "2026-11-17 12:21",
+    "כותרת": "פורסם באיחור | MasTec (MTZ): לפי Defense World, Guggenheim הורידה יעד מ-518 ל-335 דולר ושמרה Buy",
+    "כותרת_en": "Published late | MasTec (MTZ): Defense World reports Guggenheim cut target to $335 from $518 while retaining Buy",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת Defense World המלאה מ-17 בנובמבר 2026 נקראה; היא מייחסת את המידע ל-Benzinga ולא נקרא דוח Guggenheim המקורי. שעת פרסום הכתבה לא אומתה. פעולת האנליסט מיוחסת ליום שני בבוקר, 16 בנובמבר, ולא להחלטה חדשה ביום שלישי.",
+    "summary_en": "**Not verified against a primary source:** Defense World's full November 17, 2026 article was read. It attributes the information to Benzinga; Guggenheim's original report was not read. The article's clock was not verified. The analyst action is attributed to Monday morning, November 16, not a new Tuesday decision.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת Defense World המלאה מ-17 בנובמבר 2026 נקראה; היא מייחסת את המידע ל-Benzinga ולא נקרא דוח Guggenheim המקורי. שעת פרסום הכתבה לא אומתה. פעולת האנליסט מיוחסת ליום שני בבוקר, 16 בנובמבר, ולא להחלטה חדשה ביום שלישי.\n\nלפי האתר, Guggenheim הורידה את יעד המחיר ל-MasTec מ-518 ל-335 דולר ושמרה על דירוג Buy. מדובר בהפחתת יעד למרות דירוג חיובי שנותר ללא שינוי, לא הורדת דירוג ל-Hold או Sell. הכתבה אינה מציגה נימוק מפורט של Guggenheim לשינוי.\n\nהיעד הוא הערכת אנליסט, לא מחיר שהחברה מתחייבת אליו או מחיר מסחר נוכחי. אין להסיק מהכתבה שהחברה עדכנה תחזית הכנסות, הפסידה חוזה או הכריזה על רכישה חדשה. נתוני מסחר, תוצאות אוקטובר ועסקת נושא המשרה שמופיעים בה הם רקע היסטורי ולא חדשות נוספות שמאומתות כאן לאותו יום.\n\nהדיווח המשני כולל מחיר מסחר ויעדי גופים אחרים בסדרי גודל שונים. הם אינם בסיס לתשואה צפויה או המלצת קנייה, ולא מוצג כאן פער מהמחיר הנוכחי בלי אימות שוק עצמאי.",
+    "טקסט_en": "**Not verified against a primary source:** Defense World's full November 17, 2026 article was read. It attributes the information to Benzinga; Guggenheim's original report was not read. The article's clock was not verified. The analyst action is attributed to Monday morning, November 16, not a new Tuesday decision.\n\nThe site says Guggenheim cut its MasTec price target to $335 from $518 while maintaining Buy. This is a lower target despite an unchanged positive rating, not a downgrade to Hold or Sell. The article provides no detailed Guggenheim rationale.\n\nThe target is an analyst estimate, not a company price commitment or live quote. The article does not establish a company-guidance change, lost contract or fresh acquisition announcement. Its trading data, October results and insider transaction are historical background, not additional same-day news independently verified here.\n\nThe secondary report contains a trading price and other firms' targets at differing levels. They are not used to infer expected returns or a purchase recommendation, and no gap to a current share price is calculated without independent market verification.",
+    "קישור": "https://www.defenseworld.net/2026/11/17/mastec-nysemtz-given-new-335-00-price-target-at-guggenheim.html",
+    "מקורות": [
+      {
+        "url": "https://www.defenseworld.net/2026/11/17/mastec-nysemtz-given-new-335-00-price-target-at-guggenheim.html",
+        "label": "Defense World: דיווח משני המיוחס ל-Benzinga",
+        "label_en": "Defense World: secondary report attributed to Benzinga"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ddc6e0c7f8f9e097d9e496ebaf9baa1c4b500f7e5ed6b39719710e2215c73423"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2173",
+    "category": "micro",
+    "חברה": "F5 (FFIV)",
+    "חברה_en": "F5 (FFIV)",
+    "symbols": [
+      "FFIV"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:21",
+    "הועלה": "2026-11-17 12:21",
+    "כותרת": "פורסם באיחור | F5 (FFIV): משרד Bronstein פרסם בדיקת טענות אפשריות עבור בעלי מניות; אין בהודעה אישור לתביעה שהוגשה",
+    "כותרת_en": "Published late | F5 (FFIV): Bronstein advertises investigation of potential shareholder claims; release does not establish a filed lawsuit",
+    "summary": "הודעת משרד עורכי הדין Bronstein, Gewirtz & Grossman דרך ACCESS Newswire, בשכפול Stockhouse מ-15 בנובמבר 2026, נקראה במלואה. שעת הפרסום המקורית לא אומתה. זו הודעה ופרסומת מטעם המשרד, לא הודעה של F5 או קביעה של בית משפט.",
+    "summary_en": "The full Bronstein, Gewirtz & Grossman law-firm release through ACCESS Newswire, reproduced by Stockhouse November 15, 2026, was read. The original clock was not verified. This is the firm's announcement and attorney advertisement, not an F5 statement or court finding.",
+    "טקסט": "הודעת משרד עורכי הדין Bronstein, Gewirtz & Grossman דרך ACCESS Newswire, בשכפול Stockhouse מ-15 בנובמבר 2026, נקראה במלואה. שעת הפרסום המקורית לא אומתה. זו הודעה ופרסומת מטעם המשרד, לא הודעה של F5 או קביעה של בית משפט.\n\nהמשרד אומר שהוא בוחן טענות אפשריות עבור רוכשי מניות F5 בשאלה אם החברה ונושאי משרה או דירקטורים היו מעורבים בהתנהלות לא תקינה. הוא פונה למי שרכשו לפני 28 באוקטובר 2024 וממשיכים להחזיק. זהו תנאי הפנייה של המשרד, לא תקופת תביעה שאושרה בבית משפט או מועד אחרון להגשת בקשת תובע מוביל.\n\nההודעה שנקראה אינה מספקת מספר תיק, תלונה שהוגשה, סכום פיצוי, ממצא חקירה או הכרעה באחריות. אין להפוך את המילה investigation לחקירה ממשלתית או לקבוע שהחברה ביצעה עבירה. גם כתובת קישור הכוללת את המילה lawsuit אינה כשלעצמה הוכחה להגשת תביעה.\n\nהמשרד מתאר ייצוג על בסיס שכר טרחה מותנה ומבקש פניות ממשקיעים. אין בכך הבטחת השבה, סיכוי הצלחה מוכח או המלצה לפנות אליו. פרטי הקשר והטענות השיווקיות אינם מוצגים כאן כהמלצה משפטית.",
+    "טקסט_en": "The full Bronstein, Gewirtz & Grossman law-firm release through ACCESS Newswire, reproduced by Stockhouse November 15, 2026, was read. The original clock was not verified. This is the firm's announcement and attorney advertisement, not an F5 statement or court finding.\n\nThe firm says it is investigating potential purchaser claims concerning whether F5 and certain officers or directors engaged in corporate wrongdoing. It solicits investors who bought before October 28, 2024 and continue to hold. That is the firm's solicitation criterion, not a court-approved class period or lead-plaintiff deadline.\n\nThe release reviewed provides no case number, filed complaint, damages amount, investigative finding or liability ruling. Its investigation is not represented as a government probe or proof of misconduct. A link containing the word lawsuit does not itself establish that a lawsuit has been filed.\n\nThe firm describes contingency-fee representation and seeks investor contacts. This is not a recovery guarantee, proven likelihood of success or recommendation to contact the firm. Contact details and promotional claims are not presented as legal advice.",
+    "קישור": "https://stockhouse.com/news/press-releases/2026/11/15/bronstein-gewirtz-grossman-llc-announces-an-investigation-against-f5-inc-ffiv",
+    "מקורות": [
+      {
+        "url": "https://stockhouse.com/news/press-releases/2026/11/15/bronstein-gewirtz-grossman-llc-announces-an-investigation-against-f5-inc-ffiv",
+        "label": "Bronstein דרך ACCESS/Stockhouse: הודעת משרד ופרסומת עורכי דין",
+        "label_en": "Bronstein via ACCESS/Stockhouse: law-firm release and attorney advertising"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2b9dd69a641b4f49c25f1e400007163eb22e79bb02879ed56c51b2d143bc7464"
+      }
+    }
   }
 ]
