@@ -56914,5 +56914,48 @@
         "source_hash": "8f1a41e6cb73defec2540c8d84fb7c1afd495a5556015cfada2b1baf71f5f2d1"
       }
     }
+  },
+  {
+    "מזהה": "n-2064",
+    "category": "micro",
+    "חברה": "Tyson Foods (TSN)",
+    "חברה_en": "Tyson Foods (TSN)",
+    "symbols": [
+      "TSN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:58",
+    "הועלה": "2026-11-17 09:58",
+    "כותרת": "פורסם באיחור | Tyson Foods (TSN): JPMorgan מורידה המלצה מ-Overweight ל-Neutral ומעלה יעד מחיר מ-63 ל-65 דולר",
+    "כותרת_en": "Published late | Tyson Foods (TSN): JPMorgan cuts rating to Neutral from Overweight while raising price target to $65 from $63",
+    "summary": "**לא מאומת מול מקור ראשוני:** מסמך JPMorgan המקורי לא נקרא. כתבת Investing.com המלאה נקראה ודיווחי Rallies ו-Goldesel מאשרים את שינוי ההמלצה ואת יעדי המחיר. Goldesel נושאת חותמת 17 בנובמבר 06:58:14 UTC, כלומר 08:58:14 בישראל; Investing.com נושאת חותמת 07:07:05 UTC, כלומר 09:07:05 בישראל. אלה זמני הפצת הכתבות שאומתו, לא הוכחה לשעת מסמך הברוקר המקורי.",
+    "summary_en": "**Not verified against a primary source:** JPMorgan's original note was not read. The full Investing.com article was reviewed, and Rallies and Goldesel corroborate the rating change and price targets. Goldesel is timestamped November 17 at 06:58:14 UTC, 08:58:14 in Israel; Investing.com is timestamped 07:07:05 UTC, 09:07:05 in Israel. These are verified article-distribution times, not proof of the original broker note's issue time.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** מסמך JPMorgan המקורי לא נקרא. כתבת Investing.com המלאה נקראה ודיווחי Rallies ו-Goldesel מאשרים את שינוי ההמלצה ואת יעדי המחיר. Goldesel נושאת חותמת 17 בנובמבר 06:58:14 UTC, כלומר 08:58:14 בישראל; Investing.com נושאת חותמת 07:07:05 UTC, כלומר 09:07:05 בישראל. אלה זמני הפצת הכתבות שאומתו, לא הוכחה לשעת מסמך הברוקר המקורי.\n\nלפי הדיווחים, JPMorgan הורידה את המלצתה על Tyson Foods מ-Overweight ל-Neutral, לצד העלאת יעד מחיר מ-63 ל-65 דולר. העלאת יעד והורדת המלצה יכולות להופיע יחד: יעד המחיר הוא אומדן נקודתי והדירוג משקף את הערכת ההשקעה לאחר שינוי במחיר המניה.\n\nלפי Investing.com, האנליסט Thomas Palmer הסביר שההתאוששות במחיר המניה משקפת טוב יותר את היסודות העסקיים. הוא הצביע על עלייה של כ-9% לאחר הדוחות ועל עלייה של 23% בחודשיים. אלו נתונים המיוחסים לדיווח על הערכת הברוקר, לא ציטוט מחיר מניה חי ולא שינוי מהבוקר בשוק שטרם נפתח.\n\nהעדכון כאן מתייחס לשינוי המלצת האנליסט בלבד. נתוני ההכנסות והציפיות בקצה כתבת Investing.com אינם תואמים לדיווחים אחרים שנבדקו, ולכן אינם מועתקים לכאן כנתוני דוח חדשים. אין בעדכון שינוי מאומת בתחזית רשמית של Tyson Foods, והמלצת Neutral אינה התחייבות למחיר או לתשואה.",
+    "טקסט_en": "**Not verified against a primary source:** JPMorgan's original note was not read. The full Investing.com article was reviewed, and Rallies and Goldesel corroborate the rating change and price targets. Goldesel is timestamped November 17 at 06:58:14 UTC, 08:58:14 in Israel; Investing.com is timestamped 07:07:05 UTC, 09:07:05 in Israel. These are verified article-distribution times, not proof of the original broker note's issue time.\n\nAccording to the reports, JPMorgan downgraded Tyson Foods to Neutral from Overweight while raising its price target to $65 from $63. A higher target and lower rating can coexist: the target is a point estimate, while the rating reflects an investment assessment after changes in the share price.\n\nInvesting.com says analyst Thomas Palmer believes the share-price recovery better reflects business fundamentals. He cited a roughly 9% gain after earnings and a 23% rise over two months. These figures are attributed to reporting on the broker's assessment, not a live stock quote or a move this morning before the market opens.\n\nThis update concerns only the analyst-rating change. Revenue and expectations figures in the appended Investing.com earnings background conflict with other reviewed reporting and are not copied here as new earnings data. No verified change to Tyson Foods' official guidance is asserted, and a Neutral rating is not a promise of price or return.",
+    "קישור": "https://www.investing.com/news/analyst-ratings/jpmorgan-downgrades-tyson-stock-rating-to-neutral-on-valuation-93CH-5031819",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-downgrades-tyson-stock-rating-to-neutral-on-valuation-93CH-5031819",
+        "label": "Investing.com: דיווח שינוי המלצה; רקע דוחות לא מועתק",
+        "label_en": "Investing.com: rating-change report; earnings background excluded"
+      },
+      {
+        "url": "https://rallies.ai/news/jpmorgan-cuts-tyson-foods-to-neutral-from-overweight-raises-target-to-65-79df7504a3524c2d",
+        "label": "Rallies: אימות שינוי המלצה ויעד",
+        "label_en": "Rallies: rating and target corroboration"
+      },
+      {
+        "url": "https://goldesel.de/aktien/news/tyson-foods-a-aktie-jpmorgan-stuft-auf-neutral-ab-und-hebt-kursziel-auf-65-us-dollar",
+        "label": "Goldesel: דיווח נוסף וחותמת זמן UTC",
+        "label_en": "Goldesel: additional report and UTC timestamp"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ff15461b8fa42bc999f9be07dc586ba54c596958d805aae3475e70df806880cb"
+      }
+    }
   }
 ]
