@@ -53957,5 +53957,38 @@
         "source_hash": "5dacea0b7992c65cfb8e7f60e6c4e89c42b028dd37f55be50170de199f530ab7"
       }
     }
+  },
+  {
+    "מזהה": "n-1982",
+    "category": "company",
+    "חברה": "Walt Disney (DIS)",
+    "חברה_en": "Walt Disney (DIS)",
+    "symbols": [
+      "DIS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 04:46",
+    "הועלה": "2026-11-17 04:46",
+    "כותרת": "פורסם באיחור | Walt Disney (DIS): בכורת The Remarried Empress קבעה שיא למקור מקומי ב-Disney+ וב-Hulu",
+    "כותרת_en": "Published late | Walt Disney (DIS): The Remarried Empress sets a local-original premiere record on Disney+ and Hulu",
+    "summary": "הודעת חברה מ-6 בנובמבר על שלושת ימי הצפייה הראשונים, לא שיא חדש מהיום או נתון מנויים והכנסות.",
+    "summary_en": "A November 6 company announcement covering the first three days of viewing, not a new record today or a subscriber or revenue figure.",
+    "קישור": "https://thewaltdisneycompany.com/news/remarried-empress-most-viewed-local-original-premiere/",
+    "מקורות": [
+      {
+        "url": "https://thewaltdisneycompany.com/news/remarried-empress-most-viewed-local-original-premiere/",
+        "label": "Disney: הודעת השיא המקורית מ-6 בנובמבר",
+        "label_en": "Disney: original November 6 record announcement"
+      }
+    ],
+    "טקסט": "פורסם באיחור. ההודעה המקורית פורסמה ב-6.11.2026 בשעה 21:02 בשעון ישראל, לפי חותמת הפרסום בעמוד Disney. זהו הישג קודם, לא הכרזה חדשה מ-17 בנובמבר.\n\nDisney הודיעה כי The Remarried Empress הייתה לבכורת המקור המקומי הנצפית ביותר אי פעם ב-Disney+ וב-Hulu בעולם, על בסיס שלושת ימי הצפייה הראשונים לאחר השקתה ב-3 בנובמבר. לפי החברה, זו גם בכורת התוכן הקוריאני המדורגת ראשונה ביותר מ-50 שווקים, ובהם ארה\"ב, בריטניה, צרפת, ספרד, גרמניה, מקסיקו וקנדה.\n\nהשיא מוגבל לבכורות של הפקות מקור מקומיות ולחלון של שלושה ימים. אין כאן קביעה שזו הסדרה הנצפית ביותר בכל תולדות Disney, נתון על כלל שעות הצפייה לאורך חיי הסדרה או מספר מנויים חדשים. החברה לא מסרה בהודעה מספר צפיות מוחלט, הכנסות מהסדרה או השפעה כספית מדודה. זהו מדד הצלחה תפעולי שעליו דיווחה החברה, ללא אימות עצמאי כאן.",
+    "טקסט_en": "Published late. The original announcement was published on November 6, 2026, at 21:02 Israel time, according to the Disney page's publication timestamp. This is a previous milestone, not a new November 17 announcement.\n\nDisney said The Remarried Empress became the most-viewed local-original premiere of all time on Disney+ and Hulu globally, based on the first three days of viewing after its November 3 launch. The company also said it ranked as the number-one Korean-title premiere in more than 50 markets, including the US, UK, France, Spain, Germany, Mexico and Canada.\n\nThe record is limited to local-original premieres and a three-day window. It does not establish that this is Disney's most-watched series ever, measure lifetime viewing or count new subscribers. The announcement did not provide an absolute view count, revenue from the series or a measured financial effect. This is an operating milestone reported by the company, without independent verification here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "47a466381b1a2ab1d904b688172c4d008e4559037465d08c7de9f41579870bd2"
+      }
+    }
   }
 ]
