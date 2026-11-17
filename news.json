@@ -53990,5 +53990,104 @@
         "source_hash": "47a466381b1a2ab1d904b688172c4d008e4559037465d08c7de9f41579870bd2"
       }
     }
+  },
+  {
+    "מזהה": "n-1983",
+    "category": "company",
+    "חברה": "S&P Global (SPGI)",
+    "חברה_en": "S&P Global (SPGI)",
+    "symbols": [
+      "SPGI"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 06:11",
+    "הועלה": "2026-11-17 06:11",
+    "כותרת": "פורסם באיחור | S&P Global (SPGI): תימחרה הנפקת אג\"ח בכירות בסך 2 מיליארד דולר בשלוש סדרות",
+    "כותרת_en": "Published late | S&P Global (SPGI): prices $2 billion of senior notes in three series",
+    "summary": "הסגירה צפויה סביב 18 בנובמבר וכפופה לתנאים; זהו שלב תמחור, לא אישור שהכסף כבר התקבל.",
+    "summary_en": "Closing is expected around November 18, subject to conditions; pricing does not mean the proceeds have already been received.",
+    "קישור": "https://www.prnewswire.com/news-releases/sp-global-announces-pricing-of-public-offering-of-750-000-000-senior-notes-due-2031--600-000-000-senior-notes-due-2034-and-650-000-000-senior-notes-due-2036--302941155.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/sp-global-announces-pricing-of-public-offering-of-750-000-000-senior-notes-due-2031--600-000-000-senior-notes-due-2034-and-650-000-000-senior-notes-due-2036--302941155.html",
+        "label": "הודעת החברה המלאה ב-PR Newswire",
+        "label_en": "Full company release on PR Newswire"
+      }
+    ],
+    "טקסט": "פורסם באיחור. 17.11.2026, 01:31 בשעון ישראל (16 בנובמבר, 18:31 בחוף המזרחי בארה\"ב), לפי הודעת החברה.\n\nS&P Global הודיעה שתימחרה הנפקה לציבור של אג\"ח בכירות בהיקף קרן כולל של 2 מיליארד דולר: 750 מיליון דולר לפירעון ב-2031, בריבית נקובה של 5.600%; 600 מיליון דולר ל-2034, בריבית 5.800%; ו-650 מיליון דולר ל-2036, בריבית 6.000%.\n\nמחירי ההנפקה הם בהתאמה 99.841%, 99.927% ו-99.985% מהקרן, והתשואות לפדיון הן 5.635%, 5.814% ו-6.001%. הריבית הנקובה אינה זהה לתשואה לפדיון. אלה התחייבויות לא מובטחות בבטוחות של החברה, בערבות החברה הבת Standard & Poor's Financial Services LLC.\n\nהשלמת המכירה צפויה בסביבות 18 בנובמבר, בכפוף לתנאי סגירה מקובלים. החברה מתכוונת להשתמש בתמורה נטו לצרכים תאגידיים כלליים, שעשויים לכלול רכישות, מיחזור חוב, השקעות הון או רכישה עצמית של מניות. אין זו התחייבות לעסקת רכישה או לרכישה עצמית מסוימת, ואין כאן אישור שההנפקה נסגרה או שהתמורה כבר התקבלה.",
+    "טקסט_en": "Published late. November 17, 2026, 01:31 Israel time (November 16, 18:31 US Eastern time), according to the company release.\n\nS&P Global said it priced a public offering of senior notes with $2 billion in aggregate principal: $750 million due 2031 with a 5.600% coupon; $600 million due 2034 with a 5.800% coupon; and $650 million due 2036 with a 6.000% coupon.\n\nThe respective issue prices are 99.841%, 99.927% and 99.985% of principal, with yields to maturity of 5.635%, 5.814% and 6.001%. Coupons are not the same as yields to maturity. The notes are unsecured company obligations, guaranteed by subsidiary Standard & Poor's Financial Services LLC.\n\nThe sale is expected to close around November 18, subject to customary conditions. Net proceeds are intended for general corporate purposes, which may include acquisitions, debt refinancing, capital spending or share repurchases. This is not a commitment to any particular acquisition or buyback, nor confirmation that the offering has closed or proceeds have been received.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8e7b1db169b914a4c1360e8766223eeae66d5c28be28e5b5672c38271265e99f"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1984",
+    "category": "company",
+    "חברה": "M&T Bank (MTB)",
+    "חברה_en": "M&T Bank (MTB)",
+    "symbols": [
+      "MTB"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 06:11",
+    "הועלה": "2026-11-17 06:11",
+    "כותרת": "פורסם באיחור | M&T Bank (MTB): העלתה את הדיבידנד הרבעוני ב-20% ל-1.80 דולר למניה",
+    "כותרת_en": "Published late | M&T Bank (MTB): raises quarterly dividend 20% to $1.80 a share",
+    "summary": "עלייה של 0.30 דולר לעומת הרבעון השלישי; התשלום נקבע ל-31 בדצמבר לבעלי מניות הרשומים ב-1 בדצמבר.",
+    "summary_en": "Up $0.30 from the third-quarter dividend; payment is set for December 31 to holders of record on December 1.",
+    "קישור": "https://www.prnewswire.com/news-releases/mt-bank-corporation-announces-increased-common-stock-dividend-302941131.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/mt-bank-corporation-announces-increased-common-stock-dividend-302941131.html",
+        "label": "הודעת החברה המלאה ב-PR Newswire",
+        "label_en": "Full company release on PR Newswire"
+      }
+    ],
+    "טקסט": "פורסם באיחור. 17.11.2026, 00:49 בשעון ישראל (16 בנובמבר, 17:49 בחוף המזרחי בארה\"ב), לפי הודעת החברה.\n\nM&T Bank הכריזה על דיבידנד רבעוני במזומן של 1.80 דולר למניה רגילה. זו עלייה של 0.30 דולר, או 20%, מהדיבידנד הקודם בסך 1.50 דולר ששולם ברבעון השלישי של 2026.\n\nהתשלום נקבע ל-31 בדצמבר 2026, לבעלי מניות שיהיו רשומים בתום יום העסקים של 1 בדצמבר 2026. אלה תאריך התשלום והתאריך הקובע, ולא קביעה שתאריך האקס הוא 1 בדצמבר.\n\nהחידוש הוא העלאת החלוקה לבעלי המניות, לא דיווח על רווחים חדשים או רכישה עצמית. ההכרזה אינה מבטיחה שכל הדיבידנדים העתידיים יהיו באותו סכום, ולא מחושבת כאן תשואת דיבידנד לפי מחיר מניה.",
+    "טקסט_en": "Published late. November 17, 2026, 00:49 Israel time (November 16, 17:49 US Eastern time), according to the company release.\n\nM&T Bank declared a quarterly cash dividend of $1.80 per common share. That is an increase of $0.30, or 20%, from the previous $1.50 dividend paid in the third quarter of 2026.\n\nPayment is set for December 31, 2026, to shareholders of record at the close of business on December 1, 2026. These are the payment and record dates; the release does not establish December 1 as the ex-dividend date.\n\nThe new development is a larger shareholder distribution, not new earnings or a share buyback. The declaration does not guarantee that all future dividends will remain at this level, and no price-based dividend yield is calculated here.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5e67db4cda463e3a9165a0c013d76c9b122f3361c1829a41b3669bdc63fb6e6c"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1985",
+    "category": "company",
+    "חברה": "Biogen (BIIB)",
+    "חברה_en": "Biogen (BIIB)",
+    "symbols": [
+      "BIIB"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 06:11",
+    "הועלה": "2026-11-17 06:11",
+    "כותרת": "פורסם באיחור | Biogen (BIIB): נתוני המשך של חמש שנים ל-LEQEMBI מצביעים על האטת הידרדרות; ההשוואה לבקרה חיצונית",
+    "כותרת_en": "Published late | Biogen (BIIB): five-year LEQEMBI extension data suggest slower decline; comparison uses external controls",
+    "summary": "Eisai ו-Biogen הציגו נתוני המשך ב-CTAD; אין זו השוואת פלצבו אקראית רציפה של חמש שנים או אישור תרופה חדש.",
+    "summary_en": "Eisai and Biogen presented extension data at CTAD; this is not a continuous five-year randomized placebo comparison or a new drug approval.",
+    "קישור": "https://www.prnewswire.com/news-releases/new-five-year-lecanemab-data-from-clarity-ad-study-long-term-extension-presented-at-ctad-2026-302941089.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/new-five-year-lecanemab-data-from-clarity-ad-study-long-term-extension-presented-at-ctad-2026-302941089.html",
+        "label": "הודעת החברה המלאה ב-PR Newswire",
+        "label_en": "Full company release on PR Newswire"
+      }
+    ],
+    "טקסט": "פורסם באיחור. 17.11.2026, 01:00 בשעון ישראל (16 בנובמבר, 18:00 בחוף המזרחי בארה\"ב), לפי הודעת Eisai ו-Biogen.\n\nהחברות הציגו ב-CTAD נתוני המשך של חמש שנים לטיפול ב-lecanemab, המשווק כ-LEQEMBI, באלצהיימר מוקדם. 351 מטופלים קיבלו טיפול רציף במשך חמש שנים. הניסוי המקורי כלל 1,795 משתתפים והקצאה אקראית לפלצבו במשך 18 חודשים; התוצאות לטווח הארוך נבדקו בהארכה ובהשוואה לנתוני מהלך מחלה מקבוצות חיצוניות, לא מול פלצבו אקראי שנמשך חמש שנים.\n\nלפי החברות, הפער בשינוי במדד CDR-SB לאחר חמש שנים היה 2.05 נקודות לטובת הטיפול לעומת נתוני ADNI, ו-2.54 נקודות לעומת BioFINDER. קבוצות אלה אינן זהות לאוכלוסיית הניסוי, ולכן אי אפשר לפרש את ההשוואה כאילו הוכיחה באותה רמת ודאות השפעה סיבתית של חמש שנות טיפול.\n\nבתת-קבוצה עם רמות tau נמוכות בתחילת הדרך, 66% לא הידרדרו במדד CDR-SB ו-62% השתפרו. אלה נתוני תת-קבוצה, לא שיעורי הצלחה בכל המטופלים ולא ריפוי מאלצהיימר. בהודעה מצוין גם ששימשו נתוני קבוצת בקרה להשלמת ערכים חסרים בהערכת ההתקדמות.\n\nהחברות דיווחו שלא זוהו ממצאי בטיחות חדשים, אך הסיכון להפרעות דימות הקשורות לעמילואיד נשאר: ARIA-E, בצקת או תפליט, נצפתה אצל 13.5% בשנת הטיפול הראשונה ובשיעורים נמוכים יותר במרווחי השנים הבאות. אין להשוות תקופות מעקב שונות כאילו היו זהות או להסיק שהסיכון נעלם. זהו עדכון נתונים מטעם החברות, לא אישור רגולטורי חדש, הרחבת התוויה או הוכחה לתועלת לכל מטופל.",
+    "טקסט_en": "Published late. November 17, 2026, 01:00 Israel time (November 16, 18:00 US Eastern time), according to the Eisai and Biogen release.\n\nThe companies presented five-year extension data at CTAD for lecanemab, marketed as LEQEMBI, in early Alzheimer's disease. A total of 351 patients received five years of continuous treatment. The original trial randomized 1,795 participants to treatment or placebo for 18 months; long-term results came from an extension and comparisons with external natural-history datasets, not a randomized placebo arm maintained for five years.\n\nThe companies reported five-year differences in CDR-SB change of 2.05 points in favor of treatment versus ADNI data and 2.54 points versus BioFINDER. Those cohorts are not identical to the trial population, so these comparisons cannot establish a five-year causal effect with the same certainty as a randomized trial.\n\nIn a subgroup with low tau at baseline, 66% showed no decline on CDR-SB and 62% improved. These are subgroup findings, not success rates for all patients or a cure for Alzheimer's. The release also notes that control-group data were used to impute missing values in the progression assessment.\n\nThe companies reported no new safety findings, but amyloid-related imaging abnormality risks remain: ARIA-E, edema or effusion, occurred in 13.5% during the first treatment year, with lower rates in later yearly intervals. Different follow-up periods should not be treated as identical, nor does this mean risk disappeared. This is a company-reported data update, not a new regulatory approval, expanded indication or proof of benefit for every patient.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f2b4fc0da4b6cb9dd9a187e339510bcfd470d1a5b2e9da9be58db656a627738f"
+      }
+    }
   }
 ]
