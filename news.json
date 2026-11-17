@@ -53808,5 +53808,31 @@
         "source_hash": "f18d09666c094aeeb991e402b6526b94b0ba472318d8de69963d67388da5ee4f"
       }
     }
+  },
+  {
+    "מזהה": "n-1977",
+    "category": "macro",
+    "תאריך": "2026-11-17 02:33",
+    "הועלה": "2026-11-17 02:33",
+    "כותרת": "עדכון תאריך מקור ל-BIS: אותו עמוד מציג כעת 16 בנובמבר במקום 15 בנובמבר",
+    "כותרת_en": "BIS source-date update: the same page now displays November 16 instead of November 15",
+    "summary": "עדכון לדיווח מ-16 בנובמבר על כלל הגישה מרחוק: אין כאן כלל שני או אימות חדש למועד התחילה.",
+    "summary_en": "Update to the November 16 remote-access-rule report: not a second rule or new verification of its effective date.",
+    "קישור": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "מקורות": [
+      {
+        "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "label": "BIS: אותו עמוד מקור, עם התאריך הנוכחי 16 בנובמבר",
+        "label_en": "BIS: the same source page, now dated November 16"
+      }
+    ],
+    "טקסט": "עדכון תאריך המקור לדיווח מ-16 בנובמבר על כלל הגישה מרחוק למחשוב מתקדם. אותו עמוד BIS מציג כעת תאריך הודעה של 16.11.2026, בעוד שבגרסה שנקראה קודם הוצג 15.11.2026.\n\n**שעת הפרסום המקורית ומועד שינוי התאריך אינם ידועים.** גם הסיבה לשינוי אינה ידועה. מדובר באותו עמוד ובאותה משפחת כלל, לא בהודעה על כלל שני או בכלל חדש שאותר באיחור. מועד התחילה המשפטי נותר לא מאומת; ההסתייגויות בדיווח הקודם אינן משתנות.",
+    "טקסט_en": "Source-date update to the November 16 report on the remote-access rule for advanced computing. The same BIS page now displays an announcement date of November 16, 2026, while the version read earlier displayed November 15, 2026.\n\n**The original publication time and the time of the date change are unknown.** The reason for the change is also unknown. This is the same page and rule family, not an announcement of a second rule or a newly discovered late rule. The legal effective date remains unverified; the earlier report's caveats are unchanged.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7a0633dea33f71c15f855defd42e361fdb2faf5cb8d15c8d875b6b0eea9f2a3e"
+      }
+    }
   }
 ]
