@@ -4542,12 +4542,12 @@ let wlSortMenu = null;
 // sorting is only a view: L.items keeps the manual order; ties/missing values keep manual order (stable on live updates); edit mode always shows manual
 // v236: one daily-change value drives both the visible pill and the daily-change sort.
 function wlDayView(it, q){
-  let pct = q && q.prev ? (q.price/q.prev-1)*100 : null, extO = q && q.ext;
+  let pct = q && q.prev ? (q.price/q.prev-1)*100 : null, extO = q && q.ext, disp = null;
   if(q && q.idx && !q.ext && !q.hlt && q.pdc>0 && q.ts && Date.now()-q.ts < 6*3600e3 && isVixSym(it.q) && extAny()){   // v235: VIX streaming live outside the regular session
     const p2 = iclGet(String(it.q).toUpperCase(), q.date, q.pdc);
-    if(p2){ pct = (q.price/q.pdc-1)*100; extO = null; }   // v299: no trading phases for VIX - pill = live change off the exact previous_day_closing, no session line (approved Ori Nov17)
+    if(p2){ pct = (q.pdc/p2-1)*100; extO = null; disp = (q.price/q.pdc-1)*100; }   // v300: pill DISPLAYS live change (approved Nov17 structure, no session line) while pct keeps v235 session-change semantics for sorting
   }
-  return {pct, extO};
+  return {pct, extO, disp};
 }
 function wlSorted(its, ed, so){ so = so || {k:'manual', dir:-1}; if(ed || so.k==='manual') return its; const val = it=>{ const q = iq(it); if(!q) return null; const usd = v => v==null ? null : convertCur(v,it.cur,'USD');   // compare ₪ and $ in one currency
     return so.k==='price' ? usd(q.ext ? q.ext.price : q.price) : so.k==='cap' ? usd(q.mcap||null) : (()=>{ const p = wlDayView(it, q).pct; return p==null ? null : p/100; })(); };
@@ -4580,10 +4580,10 @@ function wlFlashPrices(before){
 }
 function wlNameLabel(name){const chars=Array.from(String(name||''));return chars.length>18?chars.slice(0,17).join('').trimEnd()+'…':chars.join('');}
 function wlRowHtml(it, i, n){ const q = iq(it), c = instCache[it.q+'|1D'], pts = c ? withLive(it, '1D', c.pts) : null, up = q && q.prev ? q.price >= q.prev : true;
-  const {pct, extO} = wlDayView(it, q);
+  const {pct, extO, disp} = wlDayView(it, q);
   return `<div class="wr wgrid" role="button" tabindex="0" data-ws="${esc(it.sym)}"${it.type==='crypto' ? ' data-continuous="true"' : ''}>${it.fx ? `<span class="fxfl" aria-hidden="true">${it.fl}</span>` : logoHtml(it.sym)}<div class="pc-n"><div class="psym"><span class="ltr">${esc(it.sym)}</span></div><div class="pname" title="${esc(it.n)}" aria-label="${esc(it.n)}">${esc(wlNameLabel(it.n))}</div>${it.fx && staleTag(q) ? `<div class="pname" style="font-size:.72rem;white-space:normal">${esc(staleTag(q))}</div>` : ''}</div>`+
     `<div class="pcol pc-s wl-live">${watchSparkHtml(it)}</div><div class="pcol pc-m wl-live num">${capT(q && q.mcap, it.cur)}</div>`+
-    `<div class="pcol pc-d wl-live"><b class="num ${cls(pct)}">${pct!=null ? fmtPct(pct) : '—'}</b>${it.y && q && q.prev ? `<small class="ybp ${cls(pct)}">${chgInst(it, q.price, q.prev).sub}</small>` : ''}${it.type==='crypto' ? '' : extLineHtml(q && (q.hlt ? {halt:q.hlt} : extO))}<div class="pcol pc-p wl-live"><span class="wl-p v num" data-wl-price="${q ? ((it.fx||it.y) ? q.price : (q.ext ? q.ext.price : q.price)) : ''}">${q ? ((it.fx||it.y) ? fmtInst(it, q.price) : fmtPrice(q.ext ? q.ext.price : q.price, it.cur)) : '—'}</span></div></div>`+
+    `<div class="pcol pc-d wl-live"><b class="num ${cls(disp!=null?disp:pct)}">${(disp!=null?disp:pct)!=null ? fmtPct(disp!=null?disp:pct) : '—'}</b>${it.y && q && q.prev ? `<small class="ybp ${cls(pct)}">${chgInst(it, q.price, q.prev).sub}</small>` : ''}${it.type==='crypto' ? '' : extLineHtml(q && (q.hlt ? {halt:q.hlt} : extO))}<div class="pcol pc-p wl-live"><span class="wl-p v num" data-wl-price="${q ? ((it.fx||it.y) ? q.price : (q.ext ? q.ext.price : q.price)) : ''}">${q ? ((it.fx||it.y) ? fmtInst(it, q.price) : fmtPrice(q.ext ? q.ext.price : q.price, it.cur)) : '—'}</span></div></div>`+
     `${I18n.p("ui-0550","<div class=\"wl-ed\" style=\"grid-column:3/-1\"><button data-wm=\"up\" aria-label=\"הזזה למעלה\" ")}${i===0?'disabled':''}${I18n.p("ui-0551",">▲</button><button data-wm=\"down\" aria-label=\"הזזה למטה\" ")}${i===n-1?'disabled':''}${I18n.p("ui-0552",">▼</button><button data-wm=\"del\" class=\"del\" aria-label=\"הסרה מהרשימה\">✕</button></div></div>")}`; }
 // v112: lists are horizontal tabs at the top; only the active list renders, without the old collapsible header
 function wlTabsHtml(){ const cur = wlCur().id;
