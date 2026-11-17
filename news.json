@@ -61491,5 +61491,104 @@
       }
     }
   },
-  {"מזהה":"n-2210","category":"micro","חברה":"Alphabet (GOOGL)","חברה_en":"Alphabet (GOOGL)","symbols":["GOOGL"],"sectors":[],"tags_version":1,"תאריך":"2026-11-17 13:24","הועלה":"2026-11-17 13:24","כותרת":"פורסם באיחור | Alphabet (GOOGL): שופט העלה חששות לגבי אישור הסכם מרכז הנתונים של Google בווירג׳יניה; טרם ניתן פסק דין","כותרת_en":"Published late | Alphabet (GOOGL): judge questions approval of Google Virginia data-center agreement; no ruling yet","summary":"**לא מאומת מול מקור ראשוני: תיק בית המשפט והפרוטוקול לא נבדקו.** דיווח WDBJ המלא מ-16 בנובמבר 2026 פורסם ב-18:45 EST, כלומר ב-01:45 בישראל ב-17 בנובמבר. מדובר בדיווח על דיון, לא בפסק דין המבטל את ההסכם.","summary_en":"**Not verified against a primary source: the court docket and hearing transcript were not reviewed.** WDBJ's full November 16, 2026 report was published at 18:45 EST, equivalent to 01:45 in Israel on November 17. This reports a hearing, not a judgment voiding the agreement.","טקסט":"**לא מאומת מול מקור ראשוני: תיק בית המשפט והפרוטוקול לא נבדקו.** דיווח WDBJ המלא מ-16 בנובמבר 2026 פורסם ב-18:45 EST, כלומר ב-01:45 בישראל ב-17 בנובמבר. מדובר בדיווח על דיון, לא בפסק דין המבטל את ההסכם.\n\nלפי התחנה המקומית, השופט Michael Doucette העלה חששות בנוגע לאופן שבו Botetourt County בווירג׳יניה אישר הסכם עם Google להקמת מרכז נתונים. תושב סמוך מבקש לבטל את ההסכם וטוען שהמחוז דן בו בדלתיים סגורות ולא סיפק גילוי מספיק לפני ההצבעה הפומבית.\n\nהמחוז דוחה את הטענות ואומר שלא פעל שלא כדין. הדיון נמשך כשש שעות, וכל צד הציג עדים וטיעונים. דברי השופט על מחלוקת בפרשנות חובת הגילוי אינם כשלעצמם קביעה שהמחוז הפר את החוק.\n\nלפי הדיווח, כל צד רשאי להגיש מסמך בן עשרה עמודים עד יום שישי, 20 בנובמבר. השופט אמר שהוא מקווה לפרסם החלטה עד יום שני, 23 בנובמבר; זהו יעד שהביע, לא התחייבות או החלטה שכבר פורסמה.\n\nעצירת היתרים חדשים או ביטול ההסכם מתוארים כתוצאות אפשריות רק אם תיקבע הפרה. לא דווח שכבר הוטל צו עצירה. ההסכם כולל מימון רכבי חירום ותשתיות, וחלק מהעבודה כבר החל; אין בדיווח סכום הפסד או שינוי בתחזית Alphabet.","טקסט_en":"**Not verified against a primary source: the court docket and hearing transcript were not reviewed.** WDBJ's full November 16, 2026 report was published at 18:45 EST, equivalent to 01:45 in Israel on November 17. This reports a hearing, not a judgment voiding the agreement.\n\nThe local station reports that Judge Michael Doucette raised concerns over how Virginia's Botetourt County approved an agreement with Google for a data center. A nearby resident seeks to void the agreement, alleging closed-door discussions and inadequate disclosure before the public vote.\n\nThe county disputes wrongdoing. The hearing lasted about six hours, with witnesses and legal arguments from both sides. The judge's concerns over interpretation of disclosure requirements do not themselves establish a legal violation.\n\nAccording to the report, each side may submit a ten-page brief by Friday, November 20. The judge said he hopes to issue an opinion by Monday, November 23. That is an expressed aim, not a guaranteed deadline or a decision already issued.\n\nA pause on new permits or reversal of the agreement are described as potential consequences only if a violation is found. No stop order is reported as already imposed. The agreement provides emergency-vehicle and infrastructure funding, and some work has begun; the report does not quantify an Alphabet loss or guidance change.","קישור":"https://www.wdbj7.com/2026/11/16/judge-questions-how-botetourt-county-approved-google-data-center-deal/","מקורות":[{"url":"https://www.wdbj7.com/2026/11/16/judge-questions-how-botetourt-county-approved-google-data-center-deal/","label":"WDBJ: דיווח מקומי מלא מהדיון; תיק בית המשפט לא נבדק","label_en":"WDBJ: full local hearing report; court docket not reviewed"}],"_translation":{"en":{"schema_version":1,"source_hash":"494d2bc321aa7358a2836506669877ab2785800e3a4abc5c0f8dfe8dc7ac4459"}}}
+  {"מזהה":"n-2210","category":"micro","חברה":"Alphabet (GOOGL)","חברה_en":"Alphabet (GOOGL)","symbols":["GOOGL"],"sectors":[],"tags_version":1,"תאריך":"2026-11-17 13:24","הועלה":"2026-11-17 13:24","כותרת":"פורסם באיחור | Alphabet (GOOGL): שופט העלה חששות לגבי אישור הסכם מרכז הנתונים של Google בווירג׳יניה; טרם ניתן פסק דין","כותרת_en":"Published late | Alphabet (GOOGL): judge questions approval of Google Virginia data-center agreement; no ruling yet","summary":"**לא מאומת מול מקור ראשוני: תיק בית המשפט והפרוטוקול לא נבדקו.** דיווח WDBJ המלא מ-16 בנובמבר 2026 פורסם ב-18:45 EST, כלומר ב-01:45 בישראל ב-17 בנובמבר. מדובר בדיווח על דיון, לא בפסק דין המבטל את ההסכם.","summary_en":"**Not verified against a primary source: the court docket and hearing transcript were not reviewed.** WDBJ's full November 16, 2026 report was published at 18:45 EST, equivalent to 01:45 in Israel on November 17. This reports a hearing, not a judgment voiding the agreement.","טקסט":"**לא מאומת מול מקור ראשוני: תיק בית המשפט והפרוטוקול לא נבדקו.** דיווח WDBJ המלא מ-16 בנובמבר 2026 פורסם ב-18:45 EST, כלומר ב-01:45 בישראל ב-17 בנובמבר. מדובר בדיווח על דיון, לא בפסק דין המבטל את ההסכם.\n\nלפי התחנה המקומית, השופט Michael Doucette העלה חששות בנוגע לאופן שבו Botetourt County בווירג׳יניה אישר הסכם עם Google להקמת מרכז נתונים. תושב סמוך מבקש לבטל את ההסכם וטוען שהמחוז דן בו בדלתיים סגורות ולא סיפק גילוי מספיק לפני ההצבעה הפומבית.\n\nהמחוז דוחה את הטענות ואומר שלא פעל שלא כדין. הדיון נמשך כשש שעות, וכל צד הציג עדים וטיעונים. דברי השופט על מחלוקת בפרשנות חובת הגילוי אינם כשלעצמם קביעה שהמחוז הפר את החוק.\n\nלפי הדיווח, כל צד רשאי להגיש מסמך בן עשרה עמודים עד יום שישי, 20 בנובמבר. השופט אמר שהוא מקווה לפרסם החלטה עד יום שני, 23 בנובמבר; זהו יעד שהביע, לא התחייבות או החלטה שכבר פורסמה.\n\nעצירת היתרים חדשים או ביטול ההסכם מתוארים כתוצאות אפשריות רק אם תיקבע הפרה. לא דווח שכבר הוטל צו עצירה. ההסכם כולל מימון רכבי חירום ותשתיות, וחלק מהעבודה כבר החל; אין בדיווח סכום הפסד או שינוי בתחזית Alphabet.","טקסט_en":"**Not verified against a primary source: the court docket and hearing transcript were not reviewed.** WDBJ's full November 16, 2026 report was published at 18:45 EST, equivalent to 01:45 in Israel on November 17. This reports a hearing, not a judgment voiding the agreement.\n\nThe local station reports that Judge Michael Doucette raised concerns over how Virginia's Botetourt County approved an agreement with Google for a data center. A nearby resident seeks to void the agreement, alleging closed-door discussions and inadequate disclosure before the public vote.\n\nThe county disputes wrongdoing. The hearing lasted about six hours, with witnesses and legal arguments from both sides. The judge's concerns over interpretation of disclosure requirements do not themselves establish a legal violation.\n\nAccording to the report, each side may submit a ten-page brief by Friday, November 20. The judge said he hopes to issue an opinion by Monday, November 23. That is an expressed aim, not a guaranteed deadline or a decision already issued.\n\nA pause on new permits or reversal of the agreement are described as potential consequences only if a violation is found. No stop order is reported as already imposed. The agreement provides emergency-vehicle and infrastructure funding, and some work has begun; the report does not quantify an Alphabet loss or guidance change.","קישור":"https://www.wdbj7.com/2026/11/16/judge-questions-how-botetourt-county-approved-google-data-center-deal/","מקורות":[{"url":"https://www.wdbj7.com/2026/11/16/judge-questions-how-botetourt-county-approved-google-data-center-deal/","label":"WDBJ: דיווח מקומי מלא מהדיון; תיק בית המשפט לא נבדק","label_en":"WDBJ: full local hearing report; court docket not reviewed"}],"_translation":{"en":{"schema_version":1,"source_hash":"494d2bc321aa7358a2836506669877ab2785800e3a4abc5c0f8dfe8dc7ac4459"}}},
+  {
+    "מזהה": "n-2211",
+    "category": "micro",
+    "חברה": "Amazon (AMZN)",
+    "חברה_en": "Amazon (AMZN)",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 13:29",
+    "הועלה": "2026-11-17 13:29",
+    "כותרת": "פורסם באיחור | Amazon (AMZN): AWS הוסיפה ניהול והחלפה מתוזמנת של סודות עבור Auth0, Okta ו-Palo Alto Networks",
+    "כותרת_en": "Published late | Amazon (AMZN): AWS adds managed external secrets for Auth0, Okta and Palo Alto Networks",
+    "summary": "הודעת AWS המקורית מ-16 בנובמבר 2026 נקראה במלואה. שעת הפרסום המדויקת לא אומתה. השירות מוסיף תמיכה בניהול סודות חיצוניים עבור Auth0, Okta ו-Palo Alto Networks, לא רכישה של החברות או הודעה על פריצה.",
+    "summary_en": "AWS's full original November 16, 2026 announcement was read. The exact publication clock was not verified. Secrets Manager adds managed external secrets support for Auth0, Okta and Palo Alto Networks, not an acquisition or breach announcement.",
+    "טקסט": "הודעת AWS המקורית מ-16 בנובמבר 2026 נקראה במלואה. שעת הפרסום המדויקת לא אומתה. השירות מוסיף תמיכה בניהול סודות חיצוניים עבור Auth0, Okta ו-Palo Alto Networks, לא רכישה של החברות או הודעה על פריצה.\n\nלפי AWS, לקוחות יכולים להגדיר לוח זמנים להחלפת פרטי הזדהות דרך הקונסולה או API. Secrets Manager מחליף את הפרט ושומר את הערך העדכני בלי צורך בפונקציית Lambda ייעודית להחלפה.\n\nב-Auth0 נתמכים מסלולי החלפה עצמית או בסיוע יישום מנהל בעל הרשאות מתאימות. ב-Okta ההחלפה נעשית בסיוע מנהל עם מפתח JWT נפרד, והערך החדש מאומת לפני ביטול הישן. ב-Palo Alto Networks המפתח הקיים מאשר את החלפתו.\n\nלפי החברה, יישומים שכבר קוראים את הפרטים מתוך Secrets Manager מקבלים את הערך המוחלף ללא שינוי קוד או פריסה חדשה. אין בכך אמירה שכל יישום חיצוני כבר מחובר לשירות או שאין צורך בהגדרת הרשאות.\n\nהתוספות זמינות באותם אזורי AWS שבהם נתמך managed external secrets, לא בהכרח בכל אזור AWS. זו הרחבת מוצר; אין בהודעה נתוני אימוץ, הכנסה צפויה או הבטחה למניעת כל גישה לא מורשית.",
+    "טקסט_en": "AWS's full original November 16, 2026 announcement was read. The exact publication clock was not verified. Secrets Manager adds managed external secrets support for Auth0, Okta and Palo Alto Networks, not an acquisition or breach announcement.\n\nAWS says customers can set a credential-rotation schedule through its console or API. Secrets Manager rotates the credential and stores the current value without a custom rotation Lambda function.\n\nAuth0 supports self-rotation or administrator-assisted rotation using a suitably authorized management application. Okta uses administrator-assisted rotation with a separate JWT key and validates the replacement before disabling the old secret. For Palo Alto Networks, the current API key authorizes its replacement.\n\nAccording to AWS, applications already retrieving credentials from Secrets Manager receive the rotated value without a code change or deployment. This does not mean every external application is already connected or that permissions need no setup.\n\nAvailability covers AWS Regions where managed external secrets is supported, not necessarily every AWS Region. This is a product extension with no adoption figures, revenue forecast or guarantee against all unauthorized access.",
+    "קישור": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-managed-external-secrets-auth0-okta-palo-alto/",
+    "מקורות": [
+      {
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-managed-external-secrets-auth0-okta-palo-alto/",
+        "label": "AWS: הודעת מוצר מקורית מלאה",
+        "label_en": "AWS: full original product announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "111b4f595221ab66dca3cf138054f9e6e9b927edbdadd276a44401a2c5e04da0"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2212",
+    "category": "micro",
+    "חברה": "Associated Banc-Corp (ASB)",
+    "חברה_en": "Associated Banc-Corp (ASB)",
+    "symbols": [
+      "ASB"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 13:29",
+    "הועלה": "2026-11-17 13:29",
+    "כותרת": "פורסם באיחור | Associated Banc-Corp (ASB): Associated Bank קיבל הכרת Chicago Top Workplace לשנת 2026",
+    "כותרת_en": "Published late | Associated Banc-Corp (ASB): Associated Bank receives 2026 Chicago Top Workplace recognition",
+    "summary": "הודעת Associated Bank המקורית מ-16 בנובמבר 2026 נקראה במלואה. שעת הפרסום המדויקת לא אומתה. הבנק הודיע שקיבל הכרת Chicago Top Workplace לשנת 2026 מ-Energage בשיתוף Chicago Tribune.",
+    "summary_en": "Associated Bank's full original November 16, 2026 release was read. The exact publication clock was not verified. The bank announced 2026 Chicago Top Workplace recognition from Energage in partnership with the Chicago Tribune.",
+    "טקסט": "הודעת Associated Bank המקורית מ-16 בנובמבר 2026 נקראה במלואה. שעת הפרסום המדויקת לא אומתה. הבנק הודיע שקיבל הכרת Chicago Top Workplace לשנת 2026 מ-Energage בשיתוף Chicago Tribune.\n\nלדברי הבנק, זו הפעם השישית שבה זכה בהכרת שיקגו. בנפרד, זו ההכרה האזורית השישית שלו בשנת 2026, לצד Madison, Minnesota, St. Louis, Northeast Wisconsin ו-Southeast Wisconsin. אין לערבב בין שש זכיות שיקגו לאורך השנים לשישה פרסים אזוריים בשנה אחת.\n\nלפי תיאור התוכנית בהודעה, הדירוג מבוסס על משוב עובדים חסוי והשוואה לארגונים בגודל דומה. הבנק מתאר דרישת השתתפות של לפחות 35% מכוח העבודה בתוכנית; אין בהודעה שיעור השתתפות או ציון מדויק של הבנק עצמו.\n\nזהו פרס סביבת עבודה, לא דירוג אשראי, מדד שביעות רצון לקוחות או הוכחה עצמאית לשיפור ברווחיות. ההודעה אינה כוללת שינוי בתחזית הכספית או החלטת השקעה חדשה.",
+    "טקסט_en": "Associated Bank's full original November 16, 2026 release was read. The exact publication clock was not verified. The bank announced 2026 Chicago Top Workplace recognition from Energage in partnership with the Chicago Tribune.\n\nThe bank says this is its sixth Chicago recognition over time. Separately, it is the bank's sixth regional recognition in 2026, alongside Madison, Minnesota, St. Louis, Northeast Wisconsin and Southeast Wisconsin. Six Chicago awards over the years should not be confused with six regional awards in one year.\n\nThe release describes rankings based on confidential employee feedback and comparison with similarly sized organizations. It cites a program participation requirement of at least 35% of a workforce, but does not disclose the bank's own participation rate or exact score.\n\nThis is workplace recognition, not a credit rating, customer-satisfaction measure or independent evidence of improved profitability. The release does not change financial guidance or announce a new investment decision.",
+    "קישור": "https://newsroom.associatedbank.com/releases/associated-bank-recognized-as-a-chicago-workplace-2026",
+    "מקורות": [
+      {
+        "url": "https://newsroom.associatedbank.com/releases/associated-bank-recognized-as-a-chicago-workplace-2026",
+        "label": "Associated Bank: הודעה מקורית מלאה",
+        "label_en": "Associated Bank: full original release"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7d9ec0275eba486a474337b9d9512af1d55bc52f3cffa60393fba81cde8ef3c6"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2213",
+    "category": "micro",
+    "חברה": "Core & Main (CNM)",
+    "חברה_en": "Core & Main (CNM)",
+    "symbols": [
+      "CNM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 13:29",
+    "הועלה": "2026-11-17 13:29",
+    "כותרת": "פורסם באיחור | Core & Main (CNM): תוצאות Q3 ראשוניות והורדת הקצה העליון של תחזית EBITDA מתואם לשנת 2026",
+    "כותרת_en": "Published late | Core & Main (CNM): preliminary Q3 results and lower upper end of fiscal 2026 adjusted EBITDA outlook",
+    "summary": "הודעת Core & Main המקורית מ-10 בנובמבר 2026 נקראה בחלקי התוצאות הראשוניות, התחזית והרכישות העצמיות. שעת הפרסום המדויקת לא אומתה. אלה אומדנים לא מבוקרים לרבעון שהסתיים ב-1 בנובמבר, לא תוצאות סופיות חדשות מ-16 או 17 בנובמבר.",
+    "summary_en": "Core & Main's original November 10, 2026 release was read in its preliminary-results, outlook and repurchase sections. The exact publication clock was not verified. These are unaudited estimates for the quarter ended November 1, not fresh final results on November 16 or 17.",
+    "טקסט": "הודעת Core & Main המקורית מ-10 בנובמבר 2026 נקראה בחלקי התוצאות הראשוניות, התחזית והרכישות העצמיות. שעת הפרסום המדויקת לא אומתה. אלה אומדנים לא מבוקרים לרבעון שהסתיים ב-1 בנובמבר, לא תוצאות סופיות חדשות מ-16 או 17 בנובמבר.\n\nהחברה העריכה מכירות רבעוניות של 2.12–2.13 מיליארד דולר לעומת 2.062 מיליארד שנה קודם, רווח נקי של 128–140 מיליון דולר לעומת 143 מיליון, ו-Adjusted EBITDA שאינו GAAP של 267–275 מיליון דולר לעומת 274 מיליון.\n\nתחזית המכירות לשנת הכספים 2026 נותרה 7.8–7.9 מיליארד דולר. תחזית Adjusted EBITDA צומצמה ל-950–960 מיליון דולר מ-950–980 מיליון: הקצה התחתון ללא שינוי והקצה העליון ירד ב-20 מיליון, לא קיצוץ של 20 מיליון בכל הטווח.\n\nהחברה ייחסה לחץ על EBITDA לעלויות הובלה ולהשקעה בסניפים חדשים. ביקוש עירוני יציב ותרומת רכישות קוזזו בחלקם בחולשה בפיתוח מגרשי מגורים ובפעילות מסחרית קלה. אלה הסברי החברה למצב בתקופת ההודעה, לא עדכון תחזית מחודש מהיום.\n\nCore & Main דיווחה גם על רכישות עצמיות של 171 מיליון דולר ברבעון וכ-428 מיליון מתחילת השנה, ועל כ-240 מיליון שנותרו בהרשאה. יתרת הרשאה אינה רכישה שכבר בוצעה. התוצאות הסופיות תוכננו לפרסום ב-8 בדצמבר; האומדנים כפופים לסגירת הרבעון ולשינויים ואינם תחליף לדוחות GAAP מלאים. ידיעה זו אינה מפרסמת מחדש את רכישת KTI שכבר סוקרה.",
+    "טקסט_en": "Core & Main's original November 10, 2026 release was read in its preliminary-results, outlook and repurchase sections. The exact publication clock was not verified. These are unaudited estimates for the quarter ended November 1, not fresh final results on November 16 or 17.\n\nThe company estimated quarterly sales of $2.12 billion-$2.13 billion versus $2.062 billion a year earlier, net income of $128 million-$140 million versus $143 million, and non-GAAP adjusted EBITDA of $267 million-$275 million versus $274 million.\n\nFiscal 2026 sales guidance remained $7.8 billion-$7.9 billion. Adjusted EBITDA guidance narrowed to $950 million-$960 million from $950 million-$980 million. The lower end stayed unchanged and the upper end fell $20 million; the entire range was not reduced by $20 million.\n\nThe company attributed EBITDA pressure to transportation costs and greenfield investment. Stable municipal demand and acquisition contributions were partly offset by softer residential lot development and light-commercial activity. These are company explanations as of that release, not guidance renewed today.\n\nCore & Main also reported $171 million of quarterly share repurchases and about $428 million year to date, with about $240 million of authorization remaining. Remaining authorization is not an already completed purchase. Full results were scheduled for December 8; estimates remain subject to quarter-end close and revision and do not replace full GAAP statements. This item does not republish the already covered KTI acquisition.",
+    "קישור": "https://ir.coreandmain.com/news/news-details/2026/Core--Main-Announces-Preliminary-Third-Quarter-Fiscal-2026-Results-Updated-Fiscal-2026-Outlook-Multiple-Acquisitions-and-Record-Share-Repurchases/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://ir.coreandmain.com/news/news-details/2026/Core--Main-Announces-Preliminary-Third-Quarter-Fiscal-2026-Results-Updated-Fiscal-2026-Outlook-Multiple-Acquisitions-and-Record-Share-Repurchases/default.aspx",
+        "label": "Core & Main: הודעה מקורית, חלקי תוצאות ראשוניות ותחזית",
+        "label_en": "Core & Main: original preliminary-results and outlook sections"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "03acbb59564431aeaff13a01aa8926ab4d6a0a6f1b06796f1c3717bb2530e577"
+      }
+    }
+  }
 ]
