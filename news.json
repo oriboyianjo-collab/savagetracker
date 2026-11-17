@@ -61212,5 +61212,76 @@
         "source_hash": "eee852ed76777cfca46216fcbf0c5fbd9edb74a09e99fc23f2ac33765df64936"
       }
     }
+  },
+  {
+    "מזהה": "n-2193",
+    "category": "micro",
+    "חברה": "BJ's Wholesale Club (BJ)",
+    "חברה_en": "BJ's Wholesale Club (BJ)",
+    "symbols": [
+      "BJ"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:55",
+    "הועלה": "2026-11-17 12:55",
+    "כותרת": "פורסם באיחור | BJ's Wholesale Club (BJ): לפי Investing.com, Stifel החלה סיקור ב-Hold עם יעד של 105 דולר",
+    "כותרת_en": "Published late | BJ's Wholesale Club (BJ): Investing.com reports Stifel starts coverage at Hold with a $105 target",
+    "summary": "דיווח Investing.com באיטלקית מ-17 בנובמבר 2026 נקרא במלואו ומייחס את תחילת הסיקור ליום שני, 16 בנובמבר. השעה 07:18 מוצגת ללא אזור זמן מאומת; אין להסיק ממנה שעת פרסום ראשונה בישראל.",
+    "summary_en": "The full Italian-language Investing.com report dated November 17, 2026 was read. It attributes the initiation to Monday, November 16. Its displayed 07:18 clock has no verified timezone, so no exact first-publication time in Israel is inferred.",
+    "טקסט": "דיווח Investing.com באיטלקית מ-17 בנובמבר 2026 נקרא במלואו ומייחס את תחילת הסיקור ליום שני, 16 בנובמבר. השעה 07:18 מוצגת ללא אזור זמן מאומת; אין להסיק ממנה שעת פרסום ראשונה בישראל.\n\n**זהו דיווח משני שנוצר ותורגם בסיוע AI ונבדק בידי עורך; מסמך המחקר המקורי של Stifel לא נבדק.** לפי הדיווח, Stifel החלה לסקר את BJ's Wholesale Club בדירוג Hold וביעד של 105 דולר. זו תחילת סיקור, לא הורדת דירוג או יעד קודם.\n\nהכתבה מייחסת לבנק עמדה שהביקוש החוזר למזון והכנסות מדמי חבר תומכים בעסק, אך נקודות החוזק משתקפות במידה רבה בתמחור. תחזיות הרווח למניה המיוחסות ל-Stifel לשנים הפיסקליות 2026 ו-2027 הן 4.70 ו-5.10 דולר, בהתאמה. אלה אומדני הבנק ולא תחזית חדשה של BJ's.\n\nיעד 105 דולר אינו מחיר מסחר חי או הבטחת תשואה. נתוני מחיר, קונצנזוס ו-Fair Value של הפלטפורמה לא משמשים כאן כהערכת שווי עצמאית. הדיווח אינו תוצאות הרבעון השלישי ואינו משנה את מועד הדוח המתוכנן בנפרד.",
+    "טקסט_en": "The full Italian-language Investing.com report dated November 17, 2026 was read. It attributes the initiation to Monday, November 16. Its displayed 07:18 clock has no verified timezone, so no exact first-publication time in Israel is inferred.\n\n**This is secondary reporting, generated and translated with AI support and reviewed by an editor; Stifel's original research note was not reviewed.** The report says Stifel initiated BJ's Wholesale Club at Hold with a $105 target. This is a coverage initiation, not a downgrade or a cut from a previous target.\n\nThe article attributes to the bank a view that recurring food demand and membership-fee income support the business, but strengths are largely reflected in valuation. It reports Stifel EPS estimates of $4.70 and $5.10 for fiscal 2026 and 2027, respectively. These are bank estimates, not new BJ's guidance.\n\nThe $105 target is neither a live quote nor a guaranteed return. Platform price, consensus and Fair Value data are not used as an independent valuation here. This report is not third-quarter results and does not change the separately scheduled earnings date.",
+    "קישור": "https://it.investing.com/news/analyst-ratings/bjs-wholesale-avviata-con-hold-da-stifel-e-target-a-105-93CH-3652297",
+    "מקורות": [
+      {
+        "url": "https://it.investing.com/news/analyst-ratings/bjs-wholesale-avviata-con-hold-da-stifel-e-target-a-105-93CH-3652297",
+        "label": "Investing.com באיטלקית: דיווח משני מלא על תחילת סיקור",
+        "label_en": "Investing.com in Italian: full secondary initiation report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6d0e8403f9e2396111324e41d196bf2983d6703dfa885a20d890a15d8a7a86d1"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2194",
+    "category": "micro",
+    "חברה": "Church & Dwight (CHD)",
+    "חברה_en": "Church & Dwight (CHD)",
+    "symbols": [
+      "CHD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:55",
+    "הועלה": "2026-11-17 12:55",
+    "כותרת": "פורסם באיחור | Church & Dwight (CHD): מתכננת השקה בהודו בתחילת 2027 עם Sawariya, תחילה בערוצים מקוונים",
+    "כותרת_en": "Published late | Church & Dwight (CHD): plans early-2027 India launch with Sawariya, starting online",
+    "summary": "כתבת Mint המקורית המבוססת על ראיונות עם מנהלים פורסמה ב-17 בנובמבר 2026 ב-06:00 בהודו, כלומר 02:30 בישראל, ונקראה במלואה. גם ראיון נפרד ב-Moneycontrol מאותו יום נקרא. אין מדובר בהשקה ארצית שכבר הושלמה בשעת העלאת הידיעה.",
+    "summary_en": "The full original Mint article based on executive interviews was published November 17, 2026 at 06:00 in India, equivalent to 02:30 in Israel. A separate same-day Moneycontrol interview was also read. This is not a nationwide launch already completed when this item is posted.",
+    "טקסט": "כתבת Mint המקורית המבוססת על ראיונות עם מנהלים פורסמה ב-17 בנובמבר 2026 ב-06:00 בהודו, כלומר 02:30 בישראל, ונקראה במלואה. גם ראיון נפרד ב-Moneycontrol מאותו יום נקרא. אין מדובר בהשקה ארצית שכבר הושלמה בשעת העלאת הידיעה.\n\nלפי סגן נשיא Church & Dwight, Arun Hiranandani, בראיון ל-Mint, החברה מתכננת להשיק לפחות ארבעה מוצרים בהודו עד פברואר 2027, תחילה במסחר מקוון ובמשלוחים מהירים. המותגים שנמנו כוללים Hero, TheraBreath ו-Batiste. Sawariya תנהל את המכירות וההפצה, ובהמשך מתוכננת התרחבות לקמעונאות פיזית.\n\nMoneycontrol מייחסת למנהל האזורי Anup Awasthi שאיפה להפוך את הודו לאחד משלושת השווקים הגדולים של החברה באסיה בתוך כחמש שנים, ותוכנית רחבה יותר להכנסת שמונה מותגים בהדרגה. זו שאיפת הנהלה לטווח ארוך, לא התחייבות להכנסות או טענה ששמונה מותגים כבר הושקו. Toppik כבר נמכרה באינטרנט בהודו לפי אותו ראיון.\n\nזו הרחבת פעילות מסחרית מתוכננת, לא הנוכחות הראשונה של החברה במדינה: Moneycontrol מציינת משרד בהודו מ-2022, ו-Mint מתארת צוות קיים בנאבי מומבאי. לא נמסרו סכום השקעה מחייב, יעד מכירות כספי להודו או תרומה כמותית מעודכנת לתחזית הקבוצה. הראיונות הם המקור לדברי המנהלים, ולא הודעה מקורית באתר יחסי המשקיעים.",
+    "טקסט_en": "The full original Mint article based on executive interviews was published November 17, 2026 at 06:00 in India, equivalent to 02:30 in Israel. A separate same-day Moneycontrol interview was also read. This is not a nationwide launch already completed when this item is posted.\n\nChurch & Dwight senior vice president Arun Hiranandani told Mint the company plans to launch at least four products in India by February 2027, initially through e-commerce and quick commerce. Named brands include Hero, TheraBreath and Batiste. Sawariya will manage sales and distribution, with physical retail planned later.\n\nMoneycontrol attributes to regional director Anup Awasthi an ambition for India to become one of the company's three largest Asian markets within about five years, plus a broader plan to introduce eight brands in phases. That is a long-term management ambition, not committed revenue or a statement that eight brands have launched. The same interview says Toppik is already sold online in India.\n\nThis is planned commercial expansion, not the company's first presence in the country. Moneycontrol says an India office opened in 2022, while Mint describes an existing Navi Mumbai team. No binding investment amount, India revenue target or updated quantified contribution to group guidance was disclosed. The interviews support the executive remarks; they are not an original investor-relations release.",
+    "קישור": "https://www.livemint.com/companies/news/church-dwight-india-launch-premium-products-online-customers-11794828579954.html",
+    "מקורות": [
+      {
+        "url": "https://www.livemint.com/companies/news/church-dwight-india-launch-premium-products-online-customers-11794828579954.html",
+        "label": "Mint: כתבה מקורית מלאה המבוססת על ראיונות עם מנהלים",
+        "label_en": "Mint: full original executive-interview article"
+      },
+      {
+        "url": "https://www.moneycontrol.com/news/business/us-consumer-goods-maker-church-dwight-enters-india-targets-top-three-position-in-asia-14081857.html",
+        "label": "Moneycontrol: ראיון נפרד מלא על התוכנית והשאיפות",
+        "label_en": "Moneycontrol: full separate interview on plans and ambitions"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "653e0c8da21f4bb2b87f32945fc0d323dbf38cfec0a076811831d9199ebcfcb3"
+      }
+    }
   }
 ]
