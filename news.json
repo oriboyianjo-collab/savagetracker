@@ -58698,5 +58698,104 @@
         "source_hash": "897ae4453f7bd566efc45846997140ef517f5e0b565c6b93630582e5368eb21d"
       }
     }
+  },
+  {
+    "מזהה": "n-2117",
+    "category": "micro",
+    "חברה": "Amazon (AMZN)",
+    "חברה_en": "Amazon (AMZN)",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:04",
+    "הועלה": "2026-11-17 11:04",
+    "כותרת": "Amazon (AMZN): מתכננת השקעה נוספת של 7 מיליארד דולר באנרגיה מתחדשת בהודו עד 2030",
+    "כותרת_en": "Amazon (AMZN): plans an additional $7 billion in Indian renewable energy by 2030",
+    "summary": "הודעת Amazon המקורית מ-17 בנובמבר 2026 נקראה במלואה. שעת הפרסום המקורית המדויקת לא אומתה.",
+    "summary_en": "Amazon's full original November 17, 2026 announcement was reviewed. The exact original publication clock was not verified.",
+    "טקסט": "הודעת Amazon המקורית מ-17 בנובמבר 2026 נקראה במלואה. שעת הפרסום המקורית המדויקת לא אומתה.\n\nAmazon הודיעה על תוכנית להשקיע עוד 7 מיליארד דולר בפרויקטי אנרגיה מתחדשת בהודו עד 2030, בנוסף ל-4 מיליארד דולר שכבר הותקשרו במדינה. זו תוכנית השקעה עתידית, לא הוצאה שכבר בוצעה כעת או הכנסה של ספק מזוהה.\n\nבנוסף תוארו ארבעה פרויקטי רוח ושמש בהיקף מצטבר של 934 מגה-ואט: חוות רוח של 234 מגה-ואט ופרויקט משולב של 200 מגה-ואט בקרנטקה, 300 מגה-ואט סולארי במדהיה פרדש ו-200 מגה-ואט סולארי ברג'סטאן. החברה אומרת שהפרויקטים מוסדרים בהסכמי רכישת חשמל והם חלק מ-4 מיליארד הדולר הקיימים, לא התחייבות נוספת מעבר ל-7 מיליארד הדולר החדשים.\n\nלפי Amazon, תיק הפרויקטים הקיים בהודו צפוי להגיע ליותר מ-2 גיגה-ואט לאחר הפעלה, כמות חשמל המקבילה לצריכה השנתית של יותר מ-3.5 מיליון משקי בית הודיים. 934 מגה-ואט הם סכום ארבעת הפרויקטים, לא יותר מ-2 גיגה-ואט בפני עצמם. אין בהודעה אישור שכל הקיבולת כבר פעילה או מסופקת ישירות לבתי מגורים.",
+    "טקסט_en": "Amazon's full original November 17, 2026 announcement was reviewed. The exact original publication clock was not verified.\n\nAmazon announced plans to invest an additional $7 billion in Indian renewable-energy projects by 2030, on top of $4 billion already contracted in the country. This is future planned investment, not spending already completed now or revenue for an identified supplier.\n\nIt also described four wind and solar projects totaling 934MW: a 234MW wind farm and 200MW combined project in Karnataka, 300MW of solar in Madhya Pradesh and 200MW of solar in Rajasthan. Amazon says the projects are secured by power-purchase agreements and are part of the existing $4 billion portfolio, not another commitment added on top of the new $7 billion.\n\nAmazon says its existing India portfolio will exceed 2GW once operational, generating electricity equivalent to the annual needs of more than 3.5 million Indian households. The four projects total 934MW, not more than 2GW on their own. The release does not establish that all capacity is already operating or supplying homes directly.",
+    "קישור": "https://www.aboutamazon.com/news/sustainability/amazon-investment-india-renewable-energy",
+    "מקורות": [
+      {
+        "url": "https://www.aboutamazon.com/news/sustainability/amazon-investment-india-renewable-energy",
+        "label": "Amazon: הודעת החברה המקורית",
+        "label_en": "Amazon: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8626751bf4580eb929f7016478c0ec3bd4aa5b4ce823be1ddc34061d6f660f8a"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2118",
+    "category": "micro",
+    "חברה": "Amazon (AMZN)",
+    "חברה_en": "Amazon (AMZN)",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:04",
+    "הועלה": "2026-11-17 11:04",
+    "כותרת": "Amazon (AMZN): קבעה יעד להפחתת עצימות הפחמן של החשמל ב-65% עד 2030, לא ירידה מוחלטת זהה בפליטות",
+    "כותרת_en": "Amazon (AMZN): sets 65% electricity carbon-intensity reduction goal for 2030, not the same absolute-emissions cut",
+    "summary": "הודעת Amazon המקורית מ-17 בנובמבר 2026 נקראה במלואה. שעת הפרסום המקורית המדויקת לא אומתה.",
+    "summary_en": "Amazon's full original November 17, 2026 release was reviewed. The exact original publication clock was not verified.",
+    "טקסט": "הודעת Amazon המקורית מ-17 בנובמבר 2026 נקראה במלואה. שעת הפרסום המקורית המדויקת לא אומתה.\n\nAmazon קבעה יעד ביניים להפחית עד 2030 את עצימות הפחמן של החשמל המשמש את פעילותה העולמית ב-65% לעומת 2019. המדד הוא פליטות שוות-ערך לפחמן דו-חמצני לכל מגה-ואט-שעה של חשמל, ולא סכום כל הפליטות של הקבוצה.\n\nלכן אין לפרש את היעד כהבטחה להפחתה מוחלטת של 65% בפליטות Amazon: אם צריכת החשמל גדלה, עצימות נמוכה יותר ליחידת חשמל אינה קובעת לבדה מה יקרה לסך הפליטות. זהו יעד עתידי, לא תוצאה שהושגה או החלפה של יעד נטו-אפס ל-2040.\n\nהחברה אומרת שהמתודולוגיה מבוססת על מסלול הנטו-אפס של סוכנות האנרגיה הבינלאומית ונבדקה עם אנשי אקדמיה. ההודעה היא תיאור החברה, לא אישור שהסוכנות אישרה את ביצועי Amazon. תיק של יותר מ-700 פרויקטים ויותר מ-40 גיגה-ואט כולל קיבולת שטרם הושלמה; אין להציגו כולו כקיבולת פעילה. תוכנית ההשקעה בהודו שדווחה בנפרד תומכת ביעד ואינה השקעה נוספת שנייה באותו סכום.",
+    "טקסט_en": "Amazon's full original November 17, 2026 release was reviewed. The exact original publication clock was not verified.\n\nAmazon set an interim goal to reduce the carbon intensity of electricity used in its global operations by 65% by 2030 versus 2019. The metric is carbon-dioxide-equivalent emissions per megawatt-hour of electricity, not the group's total emissions.\n\nThis is therefore not a promise to cut Amazon's absolute emissions by 65%. With rising electricity demand, lower emissions per unit do not alone determine total emissions. It is a future target, not an achieved result or a replacement for its 2040 net-zero goal.\n\nAmazon says the methodology is based on the International Energy Agency's net-zero pathway and was reviewed with academics. This is the company's account, not confirmation that the agency certified Amazon's performance. Its portfolio of more than 700 projects and over 40GW includes capacity not yet completed and is not all operating capacity. The separately reported India investment plan supports this goal rather than representing a second investment of the same amount.",
+    "קישור": "https://www.aboutamazon.com/news/sustainability/amazon-carbon-intensity-goal-electricity-emissions",
+    "מקורות": [
+      {
+        "url": "https://www.aboutamazon.com/news/sustainability/amazon-carbon-intensity-goal-electricity-emissions",
+        "label": "Amazon: הודעת החברה המקורית",
+        "label_en": "Amazon: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "be1cef7cd3ce2bde80c955e6bbbdb7c9e5aa938114d51cffbdda52efc43fba83"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2119",
+    "category": "micro",
+    "חברה": "Meta (META)",
+    "חברה_en": "Meta (META)",
+    "symbols": [
+      "META"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:04",
+    "הועלה": "2026-11-17 11:04",
+    "כותרת": "פורסם באיחור | Meta (META): לפי Reuters, שינתה המלצות Instagram בהודו לצמצום תוכן מיני מרומז ואלים",
+    "כותרת_en": "Published late | Meta (META): Reuters reports India-specific Instagram recommendation changes to reduce suggestive and violent content",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת Reuters המלאה בעותק Deccan Chronicle מ-17 בנובמבר 2026 נקראה; הודעת Meta המקורית והנחיית משרד הטכנולוגיה ההודי לא נקראו. העותק מציג 13:21 לפי שעון הודו, 09:51 בישראל; זו שעת הכתבה, לא שעת הודעת Meta הראשונה.",
+    "summary_en": "**Not verified against a primary source:** The full Reuters article carried by Deccan Chronicle dated November 17, 2026 was reviewed; Meta's original announcement and the Indian ministry advisory were not read. The copy displays 13:21 in India, equivalent to 09:51 in Israel; this is the article clock, not Meta’s first-announcement time.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת Reuters המלאה בעותק Deccan Chronicle מ-17 בנובמבר 2026 נקראה; הודעת Meta המקורית והנחיית משרד הטכנולוגיה ההודי לא נקראו. העותק מציג 13:21 לפי שעון הודו, 09:51 בישראל; זו שעת הכתבה, לא שעת הודעת Meta הראשונה.\n\nלפי הדיווח, Meta אמרה ששינתה את מערכות ההמלצה של Instagram בהודו כדי להציג פחות תוכן מיני מרומז ואלים. השינוי נוגע להמלצות מחשבונות שהמשתמשים אינם עוקבים אחריהם, ולא לאיסור גורף על כל התוכן הזה או הסרתו מכל החשבונות.\n\nהכתבה מציינת שב-10 באוקטובר ביקש משרד הטכנולוגיה מהחברה לבחון מערכות דירוג והמלצה כדי להימנע מהגברה בלתי מידתית של תוכן מטעה, מניפולטיבי או חסר הקשר. Meta לא קשרה במפורש את שינויי המוצר להנחיה. אין כאן קנס, פסק דין או אישור רגולטורי שהבעיה נפתרה.\n\nMeta טוענת ששיעור הדיווחים על תוכן מומלץ בהודו ירד לכמחצית מרמתו לפני שנה, אך לא מסרה מספרים בסיסיים. זו טענת החברה שלא אומתה עצמאית, ולא הוכחה שמספר כל ההפרות או החשיפות לתוכן אלים ירד במחצית.",
+    "טקסט_en": "**Not verified against a primary source:** The full Reuters article carried by Deccan Chronicle dated November 17, 2026 was reviewed; Meta's original announcement and the Indian ministry advisory were not read. The copy displays 13:21 in India, equivalent to 09:51 in Israel; this is the article clock, not Meta’s first-announcement time.\n\nAccording to Reuters, Meta said it changed Instagram's recommendation systems in India to show less sexually suggestive and violent material. The changes concern recommendations from accounts users do not follow, not a blanket prohibition or removal of all such content from every account.\n\nThe article says India's technology ministry asked Meta on October 10 to review ranking and recommendation systems to avoid disproportionate amplification of misleading, manipulated or out-of-context material. Meta did not explicitly link its changes to that advisory. No fine, court ruling or regulatory confirmation that the issue is solved is reported.\n\nMeta claims people in India report recommended content about half as often as a year earlier, without providing underlying figures. This is an independently unverified company claim, not proof that all violations or exposure to violent content fell by half.",
+    "קישור": "https://www.deccanchronicle.com/technology/meta-says-it-tuned-instagram-to-curb-suggestive-violent-content-in-india-2005153",
+    "מקורות": [
+      {
+        "url": "https://www.deccanchronicle.com/technology/meta-says-it-tuned-instagram-to-curb-suggestive-violent-content-in-india-2005153",
+        "label": "Reuters דרך Deccan Chronicle: סיקור מלא; הודעת Meta לא נקראה",
+        "label_en": "Reuters via Deccan Chronicle: full coverage; Meta announcement not read"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "63e85102193e5aba3af2b75a542a89c05f7d0611ac0a51fdccdd75617986a678"
+      }
+    }
   }
 ]
