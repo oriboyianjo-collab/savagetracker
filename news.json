@@ -56751,5 +56751,43 @@
         "source_hash": "7666a9c3f1b7c61f54be7e8e61a61756cc144d4d8492df4e221c8e0b65516b0f"
       }
     }
+  },
+  {
+    "מזהה": "n-2060",
+    "category": "micro",
+    "חברה": "Kroger (KR)",
+    "חברה_en": "Kroger (KR)",
+    "symbols": [
+      "KR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:54",
+    "הועלה": "2026-11-17 09:54",
+    "כותרת": "פורסם באיחור | Kroger (KR): לפי TheFly ו-Investing.com, Stifel החלה סיקור בדירוג Buy ויעד של 80 דולר",
+    "כותרת_en": "Published late | Kroger (KR): TheFly and Investing.com report Stifel starts coverage at Buy with $80 target",
+    "summary": "**לא מאומת מול מקור ראשוני:** דוח Stifel המקורי לא נקרא ישירות. דיווחים מלאים של TheFly דרך TipRanks ושל Investing.com מציינים שהברוקר החל לסקר את Kroger בדירוג Buy ובמחיר יעד של 80 דולר.",
+    "summary_en": "**Not verified against a primary source:** The original Stifel report was not read directly. Full reports from TheFly via TipRanks and Investing.com both state that the broker initiated Kroger coverage at Buy with an $80 price target.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** דוח Stifel המקורי לא נקרא ישירות. דיווחים מלאים של TheFly דרך TipRanks ושל Investing.com מציינים שהברוקר החל לסקר את Kroger בדירוג Buy ובמחיר יעד של 80 דולר.\n\nTheFly פרסמה ב-16 בנובמבר בשעה 22:30:43 UTC, 17 בנובמבר 00:30:43 בישראל. כתבת Investing.com מ-17 בנובמבר מתארת במפורש דוח שפורסם ביום שני. זהו סיקור של פעולת אנליסט קודמת, לא הכרזה חדשה של Kroger בשעת העלאת הפריט.\n\nלפי Investing.com, המלצת Stifel נשענת על הערכתה לתוכנית השיפור והביצוע של הנהלת Kroger, תמחור תחרותי, חיסכון בעלויות ויוזמות רווח נוספות. מדובר בתזה של הברוקר, לא התחייבות שהשיפור יושג. תוכניות השקעה וחיסכון קיימות שמסוכמות בנימוקי ההמלצה אינן מוצגות כהוצאה חדשה שאושרה היום.\n\nמחיר היעד הוא חוות דעת אנליסט, לא מחיר מובטח, יעד הנהלה או תחזית רווח חדשה של החברה.",
+    "טקסט_en": "**Not verified against a primary source:** The original Stifel report was not read directly. Full reports from TheFly via TipRanks and Investing.com both state that the broker initiated Kroger coverage at Buy with an $80 price target.\n\nTheFly published November 16 at 22:30:43 UTC, November 17 at 00:30:43 in Israel. Investing.com's November 17 article explicitly describes a report released Monday. This covers an earlier analyst action, not a new Kroger announcement at the time the item is posted.\n\nAccording to Investing.com, Stifel's recommendation rests on its view of management's turnaround execution, competitive pricing, cost savings and alternative-profit initiatives. This is a broker thesis, not a commitment that improvement will occur. Existing investment and savings plans summarized in its reasoning are not presented as new spending approved today.\n\nThe target is an analyst opinion, not a guaranteed price, management target or new company earnings outlook.",
+    "קישור": "https://www.tipranks.com/news/the-fly/kroger-initiated-with-a-buy-at-stifel-thefly-news",
+    "מקורות": [
+      {
+        "url": "https://www.tipranks.com/news/the-fly/kroger-initiated-with-a-buy-at-stifel-thefly-news",
+        "label": "TheFly דרך TipRanks: דיווח מלא וחותמת זמן",
+        "label_en": "TheFly via TipRanks: full report and timestamp"
+      },
+      {
+        "url": "https://www.investing.com/news/analyst-ratings/stifel-initiates-kroger-stock-with-buy-rating-on-turnaround-plan-93CH-5031724",
+        "label": "Investing.com: דיווח מלא על נימוקי הסיקור",
+        "label_en": "Investing.com: full report on coverage rationale"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "21f31b4f567b66682ccce919cd442686b732bdb5e56b054d4d5ab0ca55724fec"
+      }
+    }
   }
 ]
