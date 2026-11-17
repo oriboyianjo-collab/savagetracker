@@ -59874,5 +59874,104 @@
         "source_hash": "eaec8310ad345a9cda987e6db40774a2b4a7331666d3e27144da31783717bef0"
       }
     }
+  },
+  {
+    "מזהה": "n-2151",
+    "category": "micro",
+    "חברה": "GXO Logistics (GXO)",
+    "חברה_en": "GXO Logistics (GXO)",
+    "symbols": [
+      "GXO"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:57",
+    "הועלה": "2026-11-17 11:57",
+    "כותרת": "פורסם באיחור | GXO Logistics (GXO): לפי The Conveyor, מערכת ניהול עבודה מיועדת לחיסכון שנתי של 70–90 מיליון דולר עד 2030",
+    "כותרת_en": "Published late | GXO Logistics (GXO): The Conveyor reports labor-system plan targets $70–90 million annual savings by 2030",
+    "summary": "**לא אומת מול מקור ראשוני**",
+    "summary_en": "**Not verified against a primary source**",
+    "טקסט": "**לא אומת מול מקור ראשוני**\n\nהכתבה המלאה של The Conveyor, המסומנת בגוף העמוד כ-16 בנובמבר 2026, נקראה. מצגת יום המשקיעים המקורית לא נקראה ישירות. תאריך מעטפת חיפוש של 17 בנובמבר אינו הופך את היעדים להודעה חדשה מהיום; שעת הפרסום לא אומתה.\n\nלפי הכתבה, GXO צופה שמערכת ניהול עבודה אחידה תחסוך 70–90 מיליון דולר בשנה עד 2030. הפריסה המתוכננת היא לכ-80 אתרים ב-2027 וליותר מ-300 עד 2030, לאחר פיילוטים שהחלו בספטמבר בארה\"ב, בריטניה, הולנד, פולין וספרד. אלה תוכניות וחיסכון חזוי, לא סכום שכבר נחסך או מערכת שכבר מותקנת בכל האתרים.\n\nהמערכת נועדה לקשר בין שעות עבודה בתשלום לבין משימות שנרשמו במערכות המחסן, להשוות ביצוע בפועל לצפוי ולסייע למנהלים לזהות זמני אי-פעילות. לפי הכתבה, התוכנית מכסה הוצאות עבודה של כ-5 מיליארד דולר והחברה צופה יעילות גבוהה ב-5%–15% באתרים שישתמשו בה לעומת אתרים ללא המערכת. זו השוואת יעילות חזויה, לא צמיחת הכנסות מובטחת.\n\nהכתבה מדווחת בנפרד על יעד חיסכון שנתי של 50–70 מיליון דולר מאוטומציה, טכנולוגיות משלימות ו-AI במחסנים עד 2030. אין להציגו כחיסכון נוסף שכבר הושג או לערבבו עם יעד מערכת ניהול העבודה.\n\nזהו פירוט תפעולי נפרד מהיעדים הכספיים של יום המשקיעים שכבר סוקרו ומהסכם הרובוטיקה הנפרד. אין כאן שינוי חדש בהנחיות 2027, הוכחה להפרת חוקי מכסות עובדים או קנס נגד GXO. הדיון הרגולטורי בכתבה אינו ממצא אכיפה בעניינה.",
+    "טקסט_en": "**Not verified against a primary source**\n\nThe Conveyor's full article, dated November 16, 2026 in its body, was read. The original Investor Day presentation was not directly read. A November 17 search wrapper does not turn these targets into a new announcement today; the publication clock was not verified.\n\nThe article says GXO expects a standardized labor management system to save $70–90 million annually by 2030. Planned deployment is about 80 sites in 2027 and more than 300 by 2030, following pilots started in September in the US, UK, Netherlands, Poland and Spain. These are plans and forecast savings, not money already saved or a system installed everywhere.\n\nThe system is intended to connect paid labor hours with warehouse-recorded tasks, compare actual with expected performance and help managers identify inactive time. The article says the strategy covers roughly $5 billion of labor spending and GXO expects sites using it to be 5%–15% more efficient than sites without it. This is an expected efficiency comparison, not guaranteed revenue growth.\n\nSeparately, the article reports a $50–70 million annual savings target from automation, add-on technology and warehouse AI by 2030. That is not additional savings already achieved and should not be mixed with the labor-system target.\n\nThis adds operational detail to the previously covered Investor Day financial targets and is separate from the robotics agreement. It is not a new 2027 guidance change, evidence of a warehouse-quota law violation or a fine against GXO. The article's regulatory discussion is not an enforcement finding against the company.",
+    "קישור": "https://www.theconveyor.co/p/gxo-labor-management-system-savings",
+    "מקורות": [
+      {
+        "url": "https://www.theconveyor.co/p/gxo-labor-management-system-savings",
+        "label": "The Conveyor: ניתוח משני של תוכניות החברה",
+        "label_en": "The Conveyor: secondary analysis of company plans"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ba2079f6c5ab4002c1b1c2e5dd5d4da044014132d46610a69915732652d98cdc"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2152",
+    "category": "micro",
+    "חברה": "Lantheus (LNTH)",
+    "חברה_en": "Lantheus (LNTH)",
+    "symbols": [
+      "LNTH"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:57",
+    "הועלה": "2026-11-17 11:57",
+    "כותרת": "פורסם באיחור | Lantheus (LNTH): לפי Bullished, קרנות Pentwater דיווחו על החזקה פסיבית של 3.9 מיליון מניות, כ-6%",
+    "כותרת_en": "Published late | Lantheus (LNTH): Bullished reports Pentwater funds disclose passive 3.9 million-share stake, about 6%",
+    "summary": "**לא אומת מול מקור ראשוני**",
+    "summary_en": "**Not verified against a primary source**",
+    "טקסט": "**לא אומת מול מקור ראשוני**\n\nהדיווח המלא של Bullished מ-16 בנובמבר 2026 נקרא. מסמך הבעלות המקורי לא נקרא. לפי הכתבה, ההחזקה מדווחת ל-30 בספטמבר; אין להסיק שהמניות נרכשו כולן ביום פרסום הכתבה או שהכמות עדיין זהה היום. שעת הפרסום המקורית לא אומתה.\n\nלפי הדיווח, קרנות המנוהלות בידי Pentwater Capital Management החזיקו 3.9 מיליון מניות Lantheus, המייצגות כ-6% ממניותיה הרגילות. Pentwater ו-Matthew Halbower דיווחו במשותף על אותה החזקה ועל כוח הצבעה משותף. אין לחבר את הדיווחים ל-7.8 מיליון מניות או ל-12%: מדובר באותן מניות שבידי הקרנות.\n\nחישוב ה-6% נשען על מכנה היסטורי של 65,299,875 מניות שהיו במחזור ב-1 בספטמבר, לפי הכתבה. אין כאן אימות מחדש של אחוז ההחזקה לפי מספר המניות העדכני ביותר.\n\nהדיווח מתאר החזקה במהלך העסקים הרגיל וללא מטרה או השפעה של שינוי שליטה. זהו סיווג פסיבי מדווח, לא רכישה של Lantheus, הצעת השתלטות, מינוי לדירקטוריון או הודעה על קמפיין אקטיביסטי. לא נמסרו מחיר קנייה, עלות כוללת או כוונה לעסקה חדשה. נתוני מחקר רפואי ורקע עסקי הנלווים לכתבה אינם פעולות בעלות חדשות.",
+    "טקסט_en": "**Not verified against a primary source**\n\nBullished's full November 16, 2026 report was read. The original ownership document was not read. The article dates the holding to September 30; it does not show all shares were bought on the article date or that the position is unchanged today. The original publication clock was not verified.\n\nThe report says funds advised by Pentwater Capital Management held 3.9 million Lantheus shares, representing about 6% of common stock. Pentwater and Matthew Halbower jointly reported the same holding and shared voting power. These are not separate positions to add into 7.8 million shares or 12%: the funds hold the same shares being reported.\n\nThe stated 6% uses a historical denominator of 65,299,875 shares outstanding on September 1, according to the article. It is not a fresh ownership calculation using the latest share count.\n\nThe report describes securities held in the ordinary course without a purpose or effect of influencing control. This is reported passive ownership, not an acquisition of Lantheus, a takeover bid, board appointment or announced activist campaign. No purchase price, total cost or intention for a new transaction was provided. Clinical-study and business background in the article are not new ownership actions.",
+    "קישור": "https://www.bullished.co/pentwater-funds-hold-3-9-million-lantheus-shares-in-a-passive-6-position-d005ff8e/",
+    "מקורות": [
+      {
+        "url": "https://www.bullished.co/pentwater-funds-hold-3-9-million-lantheus-shares-in-a-passive-6-position-d005ff8e/",
+        "label": "Bullished: דיווח משני על החזקה פסיבית",
+        "label_en": "Bullished: secondary passive-ownership report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "288a300de96a74b987941185ef408f41aad8d82c111ca00d79b55a0ce3c05ab2"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2153",
+    "category": "micro",
+    "חברה": "Newmont (NEM)",
+    "חברה_en": "Newmont (NEM)",
+    "symbols": [
+      "NEM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:57",
+    "הועלה": "2026-11-17 11:57",
+    "כותרת": "פורסם באיחור | Newmont (NEM): לפי MarketBeat, Banco Santander דיווח על החזקה חדשה של 291,075 מניות ברבעון השלישי",
+    "כותרת_en": "Published late | Newmont (NEM): MarketBeat reports Banco Santander disclosed new 291,075-share Q3 position",
+    "summary": "**לא אומת מול מקור ראשוני**",
+    "summary_en": "**Not verified against a primary source**",
+    "טקסט": "**לא אומת מול מקור ראשוני**\n\nדיווח MarketBeat המלא מ-17 בנובמבר 2026 נקרא. מטא-נתוני העמוד מציגים 08:17:30 UTC, כלומר 10:17:30 בישראל; השעה אינה מוצגת בגוף הכתבה. מסמך האחזקות המקורי לא נקרא, ולכן הנתונים מיוחסים ל-MarketBeat ולא לבדיקה ישירה של המסמך.\n\nלפי הדיווח, Banco Santander רכש פוזיציה חדשה של 291,075 מניות Newmont במהלך הרבעון השלישי, בשווי מדווח של כ-33.573 מיליון דולר. תאריך הכתבה אינו תאריך קנייה, והשווי המדווח אינו בהכרח עלות הרכישה או שווי ההחזקה היום.\n\nהדיווח אינו מספק מועדי עסקאות, מחיר קנייה ממוצע, נימוק השקעה או אישור שההחזקה נשארה ללא שינוי אחרי תקופת הדיווח. זו החזקה במניות בשוק, לא הזרמת 33.573 מיליון דולר ל-Newmont, חוזה מסחרי, רכישת שליטה או תוכנית רכישה עצמית של החברה.\n\nנתוני התוצאות מאוקטובר, הדיבידנד, מכירות בעלי העניין והמלצות אנליסטים ישנות המופיעים בהמשך הכתבה הם רקע נפרד ואינם מוצגים כאירועים חדשים מ-17 בנובמבר. אין כאן המלצת השקעה או קביעה שהדיווח גרם לתנועת המניה.",
+    "טקסט_en": "**Not verified against a primary source**\n\nMarketBeat's full November 17, 2026 report was read. Page metadata gives 08:17:30 UTC, equivalent to 10:17:30 in Israel; the clock is not displayed in the article body. The original holdings document was not read, so the figures are attributed to MarketBeat rather than direct document verification.\n\nThe report says Banco Santander acquired a new position of 291,075 Newmont shares during the third quarter, with a reported value of approximately $33.573 million. The article date is not a purchase date, and the reported value is not necessarily acquisition cost or today's position value.\n\nThe report gives no transaction dates, average purchase price, investment rationale or confirmation the holding remained unchanged after the reporting period. This is stock ownership, not $33.573 million injected into Newmont, a commercial contract, control acquisition or company buyback.\n\nOctober results, dividend figures, insider sales and earlier analyst ratings later in the article are separate background and are not presented as fresh November 17 events. No investment recommendation or claim that the disclosure caused a share-price move is made.",
+    "קישור": "https://www.marketbeat.com/instant-alerts/filing-newmont-corporation-nem-shares-newly-bought-by-banco-santander-sa-2026-11-17/",
+    "מקורות": [
+      {
+        "url": "https://www.marketbeat.com/instant-alerts/filing-newmont-corporation-nem-shares-newly-bought-by-banco-santander-sa-2026-11-17/",
+        "label": "MarketBeat: דיווח משני על החזקה רבעונית",
+        "label_en": "MarketBeat: secondary quarterly-holdings report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4810248b3f54537574f2720f1422e1af37a81d5658a8a8232f35be8f5bd54b1f"
+      }
+    }
   }
 ]
