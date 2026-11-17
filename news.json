@@ -60359,5 +60359,104 @@
         "source_hash": "e05d0777c6d116ba8b513011094640c0078bf1664acaadb3238315a18ab657f6"
       }
     }
+  },
+  {
+    "מזהה": "n-2165",
+    "category": "micro",
+    "חברה": "KeyCorp (KEY)",
+    "חברה_en": "KeyCorp (KEY)",
+    "symbols": [
+      "KEY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:12",
+    "הועלה": "2026-11-17 12:12",
+    "כותרת": "פורסם באיחור | KeyCorp (KEY): מתכננת לפדות ב-15 בדצמבר את כל מניות הבכורה מסדרה E, בעלות העדפת פירוק של 500 מיליון דולר",
+    "כותרת_en": "Published late | KeyCorp (KEY): plans December 15 redemption of all Series E preferred stock with $500 million liquidation preference",
+    "summary": "הודעת KeyCorp המקורית מ-13 בנובמבר 2026, 16:27 ET, כלומר 23:27 בישראל, נקראה במלואה. זו הודעה על כוונת פדיון עתידי, לא פדיון שכבר הושלם.",
+    "summary_en": "KeyCorp's full original November 13, 2026 release at 16:27 ET, 23:27 in Israel, was read. This is notice of intended future redemption, not a completed redemption.",
+    "טקסט": "הודעת KeyCorp המקורית מ-13 בנובמבר 2026, 16:27 ET, כלומר 23:27 בישראל, נקראה במלואה. זו הודעה על כוונת פדיון עתידי, לא פדיון שכבר הושלם.\n\nKeyCorp מסרה הודעת פדיון לכל 20 מיליון מניות הפיקדון המייצגות את מניות הבכורה מסדרה E, ל-15 בדצמבר 2026. כל מניית פיקדון מייצגת 1/40 ממניית בכורה; לכן מדובר ב-500 אלף מניות בכורה ובהעדפת פירוק כוללת של 500 מיליון דולר, לא ב-20 מיליון מניות בכורה מלאות או מניות רגילות.\n\nמחיר הפדיון הוא 1,015.3125 דולר למניית בכורה, שהם 25.3828125 דולר למניית פיקדון. הוא כולל העדפת פירוק של 1,000 דולר ו-25 דולר בהתאמה, בתוספת דיבידנדים וחלוקות שנצברו וטרם שולמו עד מועד הפדיון. 500 מיליון הדולר הם העדפת הפירוק, לא מלוא תשלום המזומן הכולל את התוספת.\n\nהמניות מוחזקות ברישום אלקטרוני דרך DTC, והפדיון יבוצע לפי נהליו עם Computershare כסוכן. לאחר הפדיון המניות לא יהיו עוד במחזור, זכויותיהן יסתיימו למעט הזכות לקבל את תמורת הפדיון והן יימחקו מהמסחר בניו יורק.\n\nאין מדובר ברכישה חוזרת של מניות KEY הרגילות, בהחזר אג\"ח או בדיבידנד הרגיל של 0.205 דולר שכבר סוקר בנפרד. אין כאן אישור שהמזומן כבר שולם או שהמחיקה מהמסחר כבר התרחשה.",
+    "טקסט_en": "KeyCorp's full original November 13, 2026 release at 16:27 ET, 23:27 in Israel, was read. This is notice of intended future redemption, not a completed redemption.\n\nKeyCorp provided notice to redeem all 20 million depositary shares representing its Series E preferred stock on December 15, 2026. Each depositary share represents 1/40 of a preferred share, equivalent to 500,000 preferred shares with an aggregate $500 million liquidation preference, not 20 million full preferred or common shares.\n\nThe redemption price is $1,015.3125 per preferred share, or $25.3828125 per depositary share. It includes the respective $1,000 and $25 liquidation preferences plus accumulated unpaid dividends and distributions through redemption. The $500 million is liquidation preference, not total cash consideration including that addition.\n\nThe stock is held in book-entry form through DTC and will be redeemed under its procedures, with Computershare as agent. Upon redemption it will cease to be outstanding, rights will end except the right to redemption payment, and the stock will be delisted from the NYSE.\n\nThis is not a repurchase of common KEY shares, bond repayment or the separately covered $0.205 common dividend. It does not confirm cash has already been paid or delisting has already occurred.",
+    "קישור": "https://www.prnewswire.com/news-releases/keycorp-provides-notice-of-redemption-of-series-e-preferred-stock-302939351.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/keycorp-provides-notice-of-redemption-of-series-e-preferred-stock-302939351.html",
+        "label": "KeyCorp דרך PR Newswire: הודעת פדיון מקורית",
+        "label_en": "KeyCorp via PR Newswire: original redemption notice"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "774a96b411408b17add3c32087ab55eaf757a0cb23f6bab3db6f433f1b6e5539"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2166",
+    "category": "micro",
+    "חברה": "KeyCorp (KEY)",
+    "חברה_en": "KeyCorp (KEY)",
+    "symbols": [
+      "KEY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:12",
+    "הועלה": "2026-11-17 12:12",
+    "כותרת": "פורסם באיחור | KeyCorp (KEY): סקר KeyBanc: חברות תוכנה שמוצר הליבה שלהן AI מדווחות על צמיחה מהירה יותר, אך רווחיות חלשה יותר",
+    "כותרת_en": "Published late | KeyCorp (KEY): KeyBanc survey: AI-native software firms report faster growth but weaker profitability",
+    "summary": "הודעת KeyBanc Capital Markets המקורית, ששוכפלה ב-FT Company Announcements ב-13 בנובמבר 2026, 20:04 GMT, כלומר 22:04 בישראל, נקראה במלואה. מדובר בסקר ה-AI x Software Benchmark ה-17, לשעבר SaaS Survey. מסמך השקפים המלא לא נבדק; גודל המדגם אינו מפורט בהודעה, ואין לאמת ממועד השכפול שזה היה הפרסום הראשון של המחקר.",
+    "summary_en": "KeyBanc Capital Markets' full original release syndicated by FT Company Announcements November 13, 2026 at 20:04 GMT, 22:04 in Israel, was read. It concerns the 17th AI x Software Benchmark, formerly the SaaS Survey. The full slide deck was not reviewed; sample size is absent from the release, and the syndication clock does not establish first publication of the research.",
+    "טקסט": "הודעת KeyBanc Capital Markets המקורית, ששוכפלה ב-FT Company Announcements ב-13 בנובמבר 2026, 20:04 GMT, כלומר 22:04 בישראל, נקראה במלואה. מדובר בסקר ה-AI x Software Benchmark ה-17, לשעבר SaaS Survey. מסמך השקפים המלא לא נבדק; גודל המדגם אינו מפורט בהודעה, ואין לאמת ממועד השכפול שזה היה הפרסום הראשון של המחקר.\n\nחברות שמוצר הליבה שלהן AI דיווחו על חציון צמיחת ARR של 34% ב-2025, לעומת 22% בחברות שמשלבות AI במוצרים ו-9% בחברות שעדיין מפתחות AI ללקוחות. במקביל, חציון שולי EBITDA היה שלילי ב-12% בקבוצה הראשונה לעומת שלילי ב-1% בשנייה, ו-ARR לעובד עמד על 117 אלף דולר לעומת 201 אלף דולר. אלה דיווחי משתתפים על 2025, לא תוצאות KeyCorp.\n\nמשתתפי הסקר צופים צמיחה של 128% ב-ARR שמקורו ב-AI ב-2026, עד כ-12% מסך ה-ARR, וצמיחה כוללת חציונית של 23% ב-2026 ו-40% ב-2027 לעומת 24% ב-2025. המספרים העתידיים הם תחזיות ותוכניות המשתתפים, לא הכנסות שכבר התממשו, תחזית רשמית של KeyCorp או הבטחה לכל ענף התוכנה.\n\n44% דיווחו שהוצאות ה-AI חורגות מהתקציב מתחילת השנה, ו-24% חורגים ביותר מ-20%. 92% אומרים ש-AI מקצר מחזורי פיתוח ו-91% משתמשים בו פנימית בהנדסה. הסקר מבוסס על דיווח עצמי ואינו מוכיח סיבתיות בין AI לצמיחה, פיטורים או תשואה למשקיעים.\n\nזהו פרסום מחקרי של יחידת בנקאות ההשקעות על תוכנה פרטית, לא שינוי בדירוג מניה, רכישה או חוזה ל-KeyCorp. התוצאות אינן בהכרח מייצגות חברות ציבוריות או את כל שוק התוכנה.",
+    "טקסט_en": "KeyBanc Capital Markets' full original release syndicated by FT Company Announcements November 13, 2026 at 20:04 GMT, 22:04 in Israel, was read. It concerns the 17th AI x Software Benchmark, formerly the SaaS Survey. The full slide deck was not reviewed; sample size is absent from the release, and the syndication clock does not establish first publication of the research.\n\nCompanies selling AI as their core product reported 34% median ARR growth for 2025, versus 22% for embedded-AI firms and 9% for those still developing customer-facing AI. Median EBITDA margin was negative 12% for core AI and negative 1% for embedded AI, while ARR per employee was $117,000 versus $201,000. These are respondents' reported 2025 figures, not KeyCorp results.\n\nParticipants project 128% growth in AI-driven ARR in 2026, reaching about 12% of total ARR. Overall median ARR growth is projected at 23% in 2026 and 40% in 2027 versus 24% in 2025. Forward figures are participant expectations and plans, not realized revenue, official KeyCorp guidance or a promise for the software industry.\n\nForty-four percent report year-to-date AI spending above budget, with 24% more than 20% above. Ninety-two percent say AI shortens development cycles and 91% use it internally in engineering. Self-reported survey results do not prove AI causes growth, job cuts or investor returns.\n\nThis is an investment-bank unit's research publication about private software companies, not a stock-rating change, acquisition or KeyCorp contract. Findings do not necessarily represent public companies or the entire software market.",
+    "קישור": "https://markets.ft.com/data/announce/detail?dockey=600-202611131504PR_NEWS_USPRX____CL97483-1",
+    "מקורות": [
+      {
+        "url": "https://markets.ft.com/data/announce/detail?dockey=600-202611131504PR_NEWS_USPRX____CL97483-1",
+        "label": "KeyBanc: הודעה מקורית בשכפול FT Company Announcements",
+        "label_en": "KeyBanc: original release syndicated by FT Company Announcements"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "da2e55fb5ffbdf34f2a96ef600d9863d0677d29915fc4932aeb8443dd07b5363"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2167",
+    "category": "micro",
+    "חברה": "First Financial Bankshares (FFIN)",
+    "חברה_en": "First Financial Bankshares (FFIN)",
+    "symbols": [
+      "FFIN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:12",
+    "הועלה": "2026-11-17 12:12",
+    "כותרת": "פורסם באיחור | First Financial Bankshares (FFIN): לפי InsiderTrades, הדירקטור Michael Denny קנה 3,245 מניות ב-29 באוקטובר בכ-99.8 אלף דולר",
+    "כותרת_en": "Published late | First Financial Bankshares (FFIN): InsiderTrades reports director Michael Denny bought 3,245 shares October 29 for about $99,800",
+    "summary": "**לא מאומת מול מקור ראשוני:** נקרא דיווח InsiderTrades מ-31 באוקטובר 2026, ולא מסמך העסקה המקורי. שעת הפרסום לא אומתה. העסקה המיוחסת לדירקטור היא מ-29 באוקטובר, לא רכישה מ-17 בנובמבר.",
+    "summary_en": "**Not verified against a primary source:** The October 31, 2026 InsiderTrades article was read, not the original transaction document. Its publication clock was not verified. The reported director transaction dates to October 29, not November 17.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** נקרא דיווח InsiderTrades מ-31 באוקטובר 2026, ולא מסמך העסקה המקורי. שעת הפרסום לא אומתה. העסקה המיוחסת לדירקטור היא מ-29 באוקטובר, לא רכישה מ-17 בנובמבר.\n\nלפי האתר, הדירקטור Michael Denny קנה 3,245 מניות First Financial Bankshares במחיר ממוצע של 30.76 דולר למניה ובסכום כולל של 99,816.20 דולר. לאחר העסקה הוחזקו ישירות 9,745 מניות, גידול של 49.92% בהחזקתו הישירה, ולא רכישה של 9,745 מניות חדשות.\n\nזהו דיווח משני על עסקת נושא משרה. מסמך העסקה, אופן הביצוע וההקשר המלא לא נבדקו עצמאית, ואין להסיק שהאחזקה לא השתנתה מאז. המחירים והשווי שבכתבה היסטוריים, לא ציטוט מסחר נוכחי.\n\nהדיווח אינו רכישה חוזרת של החברה, הזרמת הון אליה, קניית שליטה או המלצת השקעה. הסקירות הישנות של תוצאות, מוסדיים ואנליסטים שהאתר מצרף כרקע אינן מוצגות כאן כאירועים חדשים מאותו יום.",
+    "טקסט_en": "**Not verified against a primary source:** The October 31, 2026 InsiderTrades article was read, not the original transaction document. Its publication clock was not verified. The reported director transaction dates to October 29, not November 17.\n\nThe site says director Michael Denny bought 3,245 First Financial Bankshares shares at an average $30.76, for $99,816.20. Reported direct ownership afterward was 9,745 shares, a 49.92% increase in his direct stake, not 9,745 newly purchased shares.\n\nThis is secondary reporting of a director transaction. The original document, execution method and full context were not independently reviewed, and ownership may have changed since. Prices and valuations in the article are historical, not current market quotes.\n\nIt is not a corporate buyback, capital injection, acquisition of control or investment recommendation. Older results, institutional holdings and analyst commentary appended as background are not represented here as new same-day events.",
+    "קישור": "https://www.insidertrades.com/alerts/nasdaq-ffin-insider-buying-and-selling-2026-10-31/",
+    "מקורות": [
+      {
+        "url": "https://www.insidertrades.com/alerts/nasdaq-ffin-insider-buying-and-selling-2026-10-31/",
+        "label": "InsiderTrades: דיווח משני על עסקת דירקטור",
+        "label_en": "InsiderTrades: secondary director-transaction report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a7b14e0bb2c98444a2945dcade1e5f8fefab669eeaf0bd9708e8ce884f545e86"
+      }
+    }
   }
 ]
