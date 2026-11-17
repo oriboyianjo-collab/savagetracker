@@ -58396,5 +58396,43 @@
         "source_hash": "3f8f683ace97f9cdeb40767411d9553cfbe36a6c849c596794eaf5b28bbb93f6"
       }
     }
+  },
+  {
+    "מזהה": "n-2108",
+    "category": "micro",
+    "חברה": "APi Group (APG)",
+    "חברה_en": "APi Group (APG)",
+    "symbols": [
+      "APG"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:50",
+    "הועלה": "2026-11-17 10:50",
+    "כותרת": "APi Group (APG): פתחה הצעת אג\"ח בכירות של 500 מיליון אירו לפירעון אשראי מתגלגל ולצרכים כלליים",
+    "כותרת_en": "APi Group (APG): launches €500 million senior-notes offering to repay revolving borrowings and for general purposes",
+    "summary": "הודעת APi Group המלאה בהפצת Business Wire נקראה. עותק Morningstar מציין 17 בנובמבר 2026 בשעה 08:30 ללא אזור זמן מפורש; בגוף הודעת המקור שנקרא לא מופיע תאריך מדויק. מועד הפרסום הראשון המדויק לא אומת.",
+    "summary_en": "The full APi Group release distributed by Business Wire was reviewed. Morningstar's copy displays November 17, 2026 at 08:30 without an explicit timezone; the original release body reviewed does not show an exact date. The precise first-publication time was not verified.",
+    "טקסט": "הודעת APi Group המלאה בהפצת Business Wire נקראה. עותק Morningstar מציין 17 בנובמבר 2026 בשעה 08:30 ללא אזור זמן מפורש; בגוף הודעת המקור שנקרא לא מופיע תאריך מדויק. מועד הפרסום הראשון המדויק לא אומת.\n\nAPi Group הודיעה על פתיחת הצעה של אג\"ח בכירות לא מובטחות בהיקף של 500 מיליון אירו, בכפוף לתנאי שוק ותנאים מקובלים. המנפיקה היא החברה-הבת APi Group DE, והערבות תהיה של החברה-האם וחברות-בת מסוימות על בסיס בכיר ולא מובטח.\n\nהתמורה נטו מיועדת לפירעון יתרות אשראי תחת מסגרת האשראי המתגלגלת ולצרכים תאגידיים כלליים. זהו חוב הנקוב באירו, לא הצעת מניות או גיוס של 500 מיליון דולר. אין לצרף אליו אוטומטית הצעות דולריות קודמות של החברה.\n\nההודעה אינה מוסרת קופון, מחיר סופי או מועד פירעון סופי, ואינה מאשרת שההצעה תומחרה או נסגרה. החברה מציינת שאין ודאות להשלמה או לתנאיה. ההצעה מיועדת למשקיעים מוסדיים כשירים ולמשקיעים מתאימים מחוץ לארה\"ב, ולא כהצעה לציבור קמעונאי.",
+    "טקסט_en": "The full APi Group release distributed by Business Wire was reviewed. Morningstar's copy displays November 17, 2026 at 08:30 without an explicit timezone; the original release body reviewed does not show an exact date. The precise first-publication time was not verified.\n\nAPi Group announced the launch of a €500 million senior unsecured notes offering, subject to market and customary conditions. Wholly owned subsidiary APi Group DE is the issuer, with senior unsecured guarantees from the parent and certain subsidiaries.\n\nNet proceeds are intended to repay outstanding revolving-credit borrowings and for general corporate purposes. This is euro-denominated debt, not an equity offering or a $500 million raise. It is not automatically combined with previous dollar-denominated offerings.\n\nThe release does not provide a coupon, final price or final maturity and does not confirm pricing or closing. The company says completion and terms are not assured. The offering is directed to qualified institutional buyers and eligible offshore investors, not offered broadly to retail investors.",
+    "קישור": "https://www.businesswire.com/news/home/20261109190566/en/APi-Group-Announces-Launch-of-%E2%82%AC500-Million-Senior-Notes-Offering",
+    "מקורות": [
+      {
+        "url": "https://www.businesswire.com/news/home/20261109190566/en/APi-Group-Announces-Launch-of-%E2%82%AC500-Million-Senior-Notes-Offering",
+        "label": "Business Wire: הודעת החברה המלאה",
+        "label_en": "Business Wire: full company announcement"
+      },
+      {
+        "url": "https://www.morningstar.com/news/business-wire/20261109190566/api-group-announces-launch-of-500-million-senior-notes-offering",
+        "label": "Morningstar: עותק ההודעה ותאריך הפרסום המוצג",
+        "label_en": "Morningstar: release copy and displayed publication date"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "df9b05f3a1d0e0eabf3f2b26536065e909604139d40e9a9128b49f70a06b4f2a"
+      }
+    }
   }
 ]
