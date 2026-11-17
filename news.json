@@ -54089,5 +54089,99 @@
         "source_hash": "f2b4fc0da4b6cb9dd9a187e339510bcfd470d1a5b2e9da9be58db656a627738f"
       }
     }
+  },
+  {
+    "מזהה": "n-1986",
+    "category": "company",
+    "חברה": "Roche (RHHBY)",
+    "חברה_en": "Roche (RHHBY)",
+    "symbols": [
+      "RHHBY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 06:15",
+    "הועלה": "2026-11-17 06:15",
+    "כותרת": "פורסם באיחור | Roche (RHHBY): ה-FDA אישר Wilserdly בשילוב everolimus לסרטן שד מתקדם עם מוטציית ESR1",
+    "כותרת_en": "Published late | Roche (RHHBY): FDA approves Wilserdly with everolimus for ESR1-mutated advanced breast cancer",
+    "summary": "האישור מוגבל לאוכלוסיית ER+/HER2- מסוימת; חציון הישרדות ללא התקדמות של 10 לעומת 5.5 חודשים, ללא נתוני הישרדות כוללת בשלים.",
+    "summary_en": "Approval covers a defined ER+/HER2- population; median progression-free survival was 10 versus 5.5 months, with overall-survival data still immature.",
+    "קישור": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-combination-everolimus-er-positive-her2-negative-esr1-mutated-locally",
+    "מקורות": [
+      {
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-combination-everolimus-er-positive-her2-negative-esr1-mutated-locally",
+        "label": "FDA: האישור, ההתוויות, היעילות והבטיחות",
+        "label_en": "FDA: approval, indication, efficacy and safety"
+      },
+      {
+        "url": "https://www.roche.com/media/releases/med-cor-2026-11-16b",
+        "label": "Roche: ההודעה המקורית המלאה",
+        "label_en": "Roche: full original announcement"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3404197/0/en/fda-approves-roche-s-wilserdly-giredestrant-a-next-generation-oral-serd-for-er-positive-esr1-mutated-advanced-breast-cancer.html",
+        "label": "GlobeNewswire: הודעת Roche וחותמת ההפצה",
+        "label_en": "GlobeNewswire: Roche release and distribution timestamp"
+      }
+    ],
+    "טקסט": "פורסם באיחור. הודעת Roche הופצה ב-17.11.2026 בשעה 00:15 בשעון ישראל (16 בנובמבר, 17:15 בחוף המזרחי בארה\"ב). ה-FDA מאשר בעמודו שההחלטה התקבלה ב-16 בנובמבר; שעת ההחלטה עצמה אינה מצוינת.\n\nה-FDA אישר giredestrant, בשם המסחרי Wilserdly, בשילוב everolimus, למבוגרים עם סרטן שד מתקדם מקומית או גרורתי, חיובי ל-ER, שלילי ל-HER2 ובעל מוטציית ESR1 לפי בדיקה מאושרת. האישור מיועד למחלה שחזרה במהלך טיפול אנדוקריני משלים או לאחריו, או התקדמה לאחר משטר אנדוקריני אחד לפחות בשלב הגרורתי. אין זה אישור לכל סוגי סרטן השד או לטיפול בתרופה לבדה.\n\nבמחקר evERA האקראי והפתוח נכללו 373 מטופלים, מהם 207 עם מוטציית ESR1. באוכלוסייה עם המוטציה, חציון ההישרדות ללא התקדמות היה 10 חודשים בשילוב החדש לעומת 5.5 חודשים בטיפול אנדוקריני לבחירת הרופא עם everolimus. יחס הסיכונים להתקדמות או למוות היה 0.38. זהו מדד יחסי, לא שיעור ריפוי של 62%; נתוני ההישרדות הכוללת עדיין לא היו בשלים.\n\nתופעות לוואי שכיחות כללו דלקת בפה, פריחה, עייפות, שלשול, כאבי שריר ושלד, דלקת ריאות לא זיהומית ובחילה. בעלון קיימות אזהרות להאטת קצב הלב ולפגיעה בעובר. האישור אינו מבטל סיכונים או מבטיח תועלת לכל מטופל.\n\nבנפרד, בקשת Roche לטיפול משלים בסרטן שד מוקדם עדיין בבדיקה, עם יעד החלטה ל-30 בנובמבר. האישור הנוכחי אינו אישור אותה התוויה. שיתוף משרד הבריאות הישראלי בסקירה במסגרת Project Orbis אינו אישור שהתרופה אושרה בישראל.",
+    "טקסט_en": "Published late. Roche's announcement was distributed on November 17, 2026, at 00:15 Israel time (November 16, 17:15 US Eastern time). The FDA confirms a November 16 decision; the decision's exact time is not stated.\n\nThe FDA approved giredestrant, branded Wilserdly, with everolimus for adults with ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic breast cancer, identified by an authorized test. The indication covers disease recurring during or after adjuvant endocrine therapy, or progressing on at least one endocrine-based regimen in the metastatic setting. It does not cover every breast-cancer type or use of Wilserdly alone.\n\nThe randomized, open-label evERA trial enrolled 373 patients, including 207 with ESR1 mutations. In the mutation-positive population, median progression-free survival was 10 months with the new combination versus 5.5 months with physician-selected endocrine therapy plus everolimus. The progression-or-death hazard ratio was 0.38. That is a relative measure, not a 62% cure rate; overall-survival data were still immature.\n\nCommon adverse reactions included mouth inflammation, rash, fatigue, diarrhea, musculoskeletal pain, pneumonitis and nausea. The prescribing information warns about slow heart rate and embryo-fetal toxicity. Approval does not remove risks or guarantee benefit for every patient.\n\nSeparately, Roche's application for adjuvant treatment in early-stage breast cancer remains under review, with a November 30 target decision date. This approval does not cover that indication. Israel's participation in the Project Orbis review does not establish Israeli approval.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a923afb55a068e3f9689adefc9178d25f95f8a7a89a72075cb9f92ce35d73836"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1987",
+    "category": "macro",
+    "חברה": "Backpack",
+    "חברה_en": "Backpack",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 06:15",
+    "הועלה": "2026-11-17 06:15",
+    "כותרת": "פורסם באיחור | Backpack הודיעה על אישורי CFTC לבורסת נגזרים וסליקה בארה\"ב; אין מועד פתיחת מסחר מאומת",
+    "כותרת_en": "Published late | Backpack announces CFTC exchange and clearing approvals; trading start date not verified",
+    "summary": "מרשם הרגולטור מציג אישור DCM ל-TLD Markets מ-16 בנובמבר ורישום DCO ל-TLD Clearing מ-13 בנובמבר.",
+    "summary_en": "The regulator lists a November 16 DCM designation for TLD Markets and November 13 DCO registration for TLD Clearing.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/16/3404185/0/en/backpack-receives-landmark-cftc-approval-to-establish-first-ever-blockchain-based-derivatives-exchange-in-the-united-states-with-global-unified-liquidity.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/16/3404185/0/en/backpack-receives-landmark-cftc-approval-to-establish-first-ever-blockchain-based-derivatives-exchange-in-the-united-states-with-global-unified-liquidity.html",
+        "label": "Backpack: הודעת החברה המלאה",
+        "label_en": "Backpack: full company announcement"
+      },
+      {
+        "url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizations",
+        "label": "CFTC: מרשם בורסות DCM",
+        "label_en": "CFTC: DCM registry"
+      },
+      {
+        "url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/ClearingOrganizations/60669",
+        "label": "CFTC: רישום Backpack Clearing",
+        "label_en": "CFTC: Backpack Clearing registration"
+      },
+      {
+        "url": "https://www.cftc.gov/media/14926/TLD%20Clearing%2C%20Inc.%20-%20DCO%20Registration%20Order%20%2811-13-2026%29/download",
+        "label": "CFTC: צו הסליקה ותנאיו מ-13 בנובמבר",
+        "label_en": "CFTC: November 13 clearing order and terms"
+      },
+      {
+        "url": "https://www.cftc.gov/filings/documents/2026/orgdcmtldexhibitu260423.pdf",
+        "label": "CFTC: מסמך TLD Markets בשם Backpack Exchange",
+        "label_en": "CFTC: TLD Markets filing as Backpack Exchange"
+      }
+    ],
+    "טקסט": "פורסם באיחור. הודעת Backpack הופצה ב-16.11.2026 בשעה 23:58 בשעון ישראל (16:58 בחוף המזרחי בארה\"ב). מועדי האישורים הרגולטוריים נפרדים ממועד הודעת החברה.\n\nBackpack הודיעה שקיבלה אישורים אמריקאיים לפעילות בורסת נגזרים וסליקה. במרשם ה-CFTC מופיעה TLD Markets, הפועלת בשם Backpack Exchange, כ-Designated Contract Market החל מ-16 בנובמבר. TLD Clearing, בשם Backpack Clearing, רשומה כ-Derivatives Clearing Organization מ-13 בנובמבר, בהתאם לצו הרישום של הרגולטור.\n\nצו הסליקה מאפשר סליקת חוזים עתידיים על בסיס ביטחונות חלקיים, וכן חוזים עתידיים, אופציות על חוזים ועסקאות swap בביטחונות מלאים, בכפוף לתנאי הצו. אין לקרוא את הרישום כאישור גורף לכל מוצר קריפטו או לכל תנאי מסחר שהחברה עשויה להציע.\n\nלפי החברה, התשתית תאפשר למשתמשים בארה\"ב מסחר ממונף בחוזי קריפטו תמידיים לאורך כל היממה, שימוש בפיאט ובקריפטו כביטחונות, cross-margin וספר פקודות גלובלי משותף. אלה תיאור החברה ותוכניות המוצר; לא נבדק כאן שכל אחד מהמאפיינים כבר פעיל ללקוחות בארה\"ב.\n\nההודעה אינה מציינת מועד פתיחת מסחר בארה\"ב. אין כאן אישור שהשירות כבר הושק, הבטחה להגנת הקרן או אימות עצמאי לטענת החברה שמדובר בפלטפורמה הראשונה מסוגה בעולם.",
+    "טקסט_en": "Published late. Backpack's announcement was distributed on November 16, 2026, at 23:58 Israel time (16:58 US Eastern time). The regulatory approval dates are separate from the company announcement.\n\nBackpack announced US approvals for derivatives exchange and clearing operations. The CFTC registry lists TLD Markets, doing business as Backpack Exchange, as a Designated Contract Market from November 16. TLD Clearing, doing business as Backpack Clearing, is registered as a Derivatives Clearing Organization from November 13 under the regulator's registration order.\n\nThe clearing order permits margined futures, as well as fully collateralized futures, options on futures and swaps, subject to its terms. Registration should not be read as blanket approval for every crypto product or trading condition the company might offer.\n\nThe company says its infrastructure will enable US users to trade leveraged crypto perpetual futures around the clock, use fiat and crypto collateral, cross-margin positions and access a unified global order book. These are the company's product descriptions and plans; not every feature has been verified as live for US customers.\n\nThe announcement gives no US trading start date. This does not establish that the service has launched, guarantee principal protection or independently verify the company's first-of-its-kind claim.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ebe121fb397b45ad338104694012f4fc1174b5cede72fd6a2a2f79227d912463"
+      }
+    }
   }
 ]
