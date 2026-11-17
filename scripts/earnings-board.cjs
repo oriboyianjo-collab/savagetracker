@@ -16,7 +16,7 @@ require(path.join(ROOT, 'content-language.js'));
 const CL = globalThis.ContentLanguage;
 
 const UA = 'SavageTracker Savtra12@gmail.com';
-const SEC_INTERVAL_MS = 600;            // ~1.67 req/s, under the 2 req/s project rule
+const SEC_INTERVAL_MS = 1000;           // 1 req/s: financials-fast may use the other 1 req/s of the 2 req/s project budget
 const AV_INTERVAL_MS = 1500;            // AV free key: max 1 request per second
 const AV_PER_RUN = 12;                  // 2 scheduled runs/day x 12 = 24 <= 25/day
 const AV_ACTUALS_MAX = 8;
@@ -269,6 +269,16 @@ function avClient(key, state, today) {
   };
 }
 
+// The full financials build runs at 2 req/s outside our concurrency group: never send SEC requests next to it.
+async function otherSecJobBusy() {
+  const tok = process.env.GITHUB_TOKEN, repo = process.env.GITHUB_REPOSITORY; if (!tok || !repo) return false;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${repo}/actions/runs?status=in_progress&per_page=50`, { headers: { Authorization: 'Bearer ' + tok, Accept: 'application/vnd.github+json' }, signal: AbortSignal.timeout(15000) });
+    if (!r.ok) return false; const j = await r.json();
+    return (j.workflow_runs || []).some((w) => String(w.id) !== String(process.env.GITHUB_RUN_ID) && /^financials$/i.test(w.name || ''));
+  } catch (e) { return false; }
+}
+
 // ---------- main ----------
 async function main() {
   const argv = process.argv.slice(2), flag = (f) => argv.includes('--' + f), opt = (f, d) => { const i = argv.indexOf('--' + f); return i >= 0 ? argv[i + 1] : d; };
@@ -330,9 +340,10 @@ async function main() {
     else {
       const sec = secClient(state);
       const want = rows.filter((r) => { const d = String(r['תאריך']); return d >= addDays(today, -1) && d <= addDays(today, 1) && !secConfirmed(r); }).sort(byRank);
-      let tickers = null;
+      let tickers = null, n = 0;
       try {
         for (const r of want) {
+          if (n++ % 40 === 0 && await otherSecJobBusy()) { warnings.push('SEC step paused: the financials (2 req/s) job started'); break; }
           const s = symKey(r['סימול']); if (fetched.sec[s] !== undefined) continue;
           let cik = (shard(s) || {}).cik;
           if (!cik) {

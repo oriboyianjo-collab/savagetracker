@@ -4,7 +4,7 @@ name: earnings-board
 #    revenue estimates for a short priority list. Free personal key in secret ALPHAVANTAGE_KEY (<=25 calls/day, 12 per run).
 #  - Every hour on weekdays: SEC 8-K Item 2.02 check for rows dated yesterday..tomorrow (release confirmed, time, link),
 #    and GAAP revenue actuals from the financials/ shards.
-# SEC fair access: UA "SavageTracker Savtra12@gmail.com", <=2 req/s, official endpoints only, stop on 403/429.
+# SEC fair access: UA "SavageTracker Savtra12@gmail.com", 1 req/s here (<=2 req/s overall), official endpoints only, stop on 403/429.
 # Shares the sec-edgar-shared concurrency group so it never sends SEC requests alongside the EDGAR report pass, and skips
 # the SEC step while the financials / 8-K jobs run. Never writes notes (הערה / הערה_en); never touches news/calendar.
 # Commits only on a real change. push-news queues only rows that can raise a new alert (new results).
@@ -51,13 +51,15 @@ jobs:
         run: |
           flags="--sec"
           if [ "$SCHEDULE" = "0 5 * * *" ] || [ "$SCHEDULE" = "0 17 * * *" ] || { [ "$EVENT" = "workflow_dispatch" ] && [ "$AV_INPUT" = "true" ]; }; then flags="--av $flags"; fi
-          # Keep the combined SEC rate <= 2 req/s: skip SEC requests while another SEC job outside this group is running.
-          busy=$(gh run list -R "$GITHUB_REPOSITORY" --status in_progress --json workflowName,databaseId --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID}) | .workflowName" | grep -Ei '^(financials|.*8-?k.*|.*fast.*)$' || true)
+          # Keep the combined SEC rate <= 2 req/s: this job uses 1 req/s (financials-fast uses the other 1 req/s);
+          # skip SEC requests while the full financials build (2 req/s, outside this group) runs. Rechecked inside the script.
+          busy=$(gh run list -R "$GITHUB_REPOSITORY" --status in_progress --json workflowName,databaseId --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID}) | .workflowName" | grep -Ei '^financials$' || true)
           if [ -n "$busy" ]; then echo "::notice::SEC step skipped this run, busy: $busy"; flags="${flags/--sec/}"; fi
           echo "flags=$flags" >> "$GITHUB_OUTPUT"
       - name: update board
         env:
           ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/earnings-board.cjs ${{ steps.mode.outputs.flags }}
       - name: save run state
         if: always()
