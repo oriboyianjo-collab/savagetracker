@@ -31,7 +31,7 @@ const sw = read('sw.js');
 const html = read('index.html');
 ok('sw alShow prefixes through notifyText', sw.includes('alNotifyText(it.title, it.lang)') && sw.includes('alNotifyText(it.body||\'\', it.lang)'));
 ok('page alNotify prefixes through notifyText', html.includes('AlertsCore.notifyText(it.title, I18n.language)') && html.includes("AlertsCore.notifyText(it.body||'', I18n.language)"));
-ok('sw cache bumped and alerts-core query matches', sw.includes("const CACHE = 'portfolio-shell-v322'") && sw.includes('alerts-core.js?v=271') && html.includes('alerts-core.js?v=271') && !sw.includes('alerts-core.js?v=270') && !html.includes('alerts-core.js?v=270'));
+ok('sw cache bumped and alerts-core query matches', sw.includes("const CACHE = 'portfolio-shell-v323'") && sw.includes('alerts-core.js?v=271') && html.includes('alerts-core.js?v=271') && !sw.includes('alerts-core.js?v=270') && !html.includes('alerts-core.js?v=270'));
 
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all notify-dir checks passed');

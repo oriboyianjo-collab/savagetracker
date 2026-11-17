@@ -1042,7 +1042,7 @@ body:has(#sheet.open[data-approved-size]) #sheetBg, .ib-bg.approved-fee-info{bac
 .pn-mode-wrap{max-width:55%;width:170px;display:block;position:relative;flex:none}.pn-mode-wrap #pnMode{margin:0;flex-direction:row;justify-content:space-between;min-height:44px}.pn-mode-wrap #pnModeMenu{top:100%;inset-inline-end:auto;left:0;right:auto;width:190px;min-width:190px;max-width:calc(100vw - 32px);margin-top:6px}html[dir=ltr] .pn-mode-wrap #pnModeMenu{left:auto;right:0}</style>
 <link rel="stylesheet" href="chart-tools.css?v=267">
 
-<style>.pos-toolbar{display:flex;align-items:center;gap:12px;margin:8px 0 6px;min-width:0}.pos-toolbar .pos-sort{margin:0;flex:0 0 auto}.pos-toolbar .heat-sum{margin:0;flex:0 0 auto}.pos-toolbar:has(>#posSort[hidden]):has(>#heatSum[hidden]):not(:has(>#btnPerfTop)){display:none}#btnPerfTop{display:flex;align-items:center;gap:6px;font:inherit;font-size:.76rem;font-weight:700;padding:7px 12px;min-height:36px;border-radius:12px;border:1px solid var(--border);background:var(--card);color:var(--text);cursor:pointer;flex:0 0 auto;margin:0;margin-inline-start:auto}#btnPerfTop:active{opacity:.8}</style><style>.fin-sort{margin:0;flex:0 0 auto}.fin-sort>.wl-to{width:130px;display:block}.fin-sort .wl-pick{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:8px;min-height:36px;padding:7px 10px;background:var(--card);margin:0;width:100%}.fin-sort .wl-pick i{font-style:normal}.fin-sort .wl-pm{min-width:120px;text-align:start}.fin-note{font-size:.68rem;color:var(--muted);margin:0 2px 8px}.fin-h{direction:ltr;display:grid;grid-template-columns:40px minmax(0,1fr) 44px 52px 54px;column-gap:7px;padding:2px 10px 6px;font-size:.66rem;font-weight:600;color:var(--muted)}.fin-h .pcol{text-align:center;direction:ltr;white-space:nowrap}.fin-r{direction:ltr;display:grid;grid-template-columns:40px minmax(0,1fr) 44px 52px 54px;align-items:center;column-gap:7px;padding:9px 10px;background:var(--card);border:1px solid var(--border);border-radius:14px;cursor:pointer}.fin-r:active{opacity:.85}.fin-r .pcol{text-align:center;direction:ltr;white-space:nowrap;font-variant-numeric:tabular-nums}.fin-more{display:block;margin:10px auto 4px}.fin-dhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.fin-dhead .rpl-row{flex:0 0 100%;display:flex;justify-content:flex-start}.fin-dhead .fin-dp{margin-inline-start:auto;text-align:left;direction:ltr}.fin-tpl .fin-tpl-grid{display:grid;gap:3px;direction:rtl;text-align:right}html[lang="en"] .fin-tpl .fin-tpl-grid{direction:ltr;text-align:left}
+<style>.pos-toolbar{display:flex;align-items:center;gap:12px;margin:8px 0 6px;min-width:0}.pos-toolbar .pos-sort{margin:0;flex:0 0 auto}.pos-toolbar .heat-sum{margin:0;flex:0 0 auto}.pos-toolbar{position:relative;z-index:25}.pos-toolbar:has(>#posSort[hidden]):has(>#heatSum[hidden]):not(:has(#btnPerfTop)){display:none}.port-tools{display:flex;align-items:center;gap:6px;margin-inline-start:auto;flex:0 0 auto}#positionsCard{overflow:visible}#btnPerfTop{display:flex;align-items:center;gap:6px;font:inherit;font-size:.76rem;font-weight:700;padding:7px 12px;min-height:36px;border-radius:12px;border:1px solid var(--border);background:var(--card);color:var(--text);cursor:pointer;flex:0 0 auto;margin:0}#btnPerfTop:active{opacity:.8}.port-switch{position:relative;display:block;flex:0 0 auto}.port-switch .wl-pick{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:space-between;width:auto;max-width:9.5em;min-height:20px;height:20px;padding:0 7px;gap:4px;font-size:.62rem;font-weight:700;border-radius:99px;margin:0;background:var(--card)}.port-switch .wl-pick span{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.port-switch .wl-pick svg{width:10px;height:10px;flex:none}.port-switch .wl-pm{inset-inline-end:0;inset-inline-start:auto;top:calc(100% + 4px);z-index:40;min-width:230px;width:max-content;max-width:min(280px,calc(100vw - 24px));max-height:min(360px,70vh)}.al-switch{display:block;width:100%;position:relative}.al-switch .wl-pick{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:space-between;width:100%;min-height:36px;height:auto;padding:7px 10px;gap:8px;border-radius:12px;font-size:.85rem;margin:0;background:var(--card)}.al-switch .wl-pm{inset-inline:0;min-width:0;width:100%;z-index:40;max-height:min(360px,70vh)}.wl-pm .port-sep{height:1px;background:var(--border);margin:4px 6px}.ptag{display:inline-block;font-size:.62rem;padding:1px 6px;border-radius:99px;background:rgba(99,102,241,.16);color:#4338ca;margin-inline-start:4px;font-weight:700;vertical-align:middle}html.dark .ptag{color:#c4b5fd;background:rgba(99,102,241,.16)}#perfPortLbl{font-size:.72rem;font-weight:700;color:var(--muted);margin-inline-start:6px;white-space:nowrap}</style><style>.fin-sort{margin:0;flex:0 0 auto}.fin-sort>.wl-to{width:130px;display:block}.fin-sort .wl-pick{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:8px;min-height:36px;padding:7px 10px;background:var(--card);margin:0;width:100%}.fin-sort .wl-pick i{font-style:normal}.fin-sort .wl-pm{min-width:120px;text-align:start}.fin-note{font-size:.68rem;color:var(--muted);margin:0 2px 8px}.fin-h{direction:ltr;display:grid;grid-template-columns:40px minmax(0,1fr) 44px 52px 54px;column-gap:7px;padding:2px 10px 6px;font-size:.66rem;font-weight:600;color:var(--muted)}.fin-h .pcol{text-align:center;direction:ltr;white-space:nowrap}.fin-r{direction:ltr;display:grid;grid-template-columns:40px minmax(0,1fr) 44px 52px 54px;align-items:center;column-gap:7px;padding:9px 10px;background:var(--card);border:1px solid var(--border);border-radius:14px;cursor:pointer}.fin-r:active{opacity:.85}.fin-r .pcol{text-align:center;direction:ltr;white-space:nowrap;font-variant-numeric:tabular-nums}.fin-more{display:block;margin:10px auto 4px}.fin-dhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.fin-dhead .rpl-row{flex:0 0 100%;display:flex;justify-content:flex-start}.fin-dhead .fin-dp{margin-inline-start:auto;text-align:left;direction:ltr}.fin-tpl .fin-tpl-grid{display:grid;gap:3px;direction:rtl;text-align:right}html[lang="en"] .fin-tpl .fin-tpl-grid{direction:ltr;text-align:left}
 .fin-tpl .rpt-label{color:var(--muted);font-size:.66rem;margin-bottom:8px}
 .fin-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) minmax(0,1fr);column-gap:6px;row-gap:5px;direction:rtl;text-align:right;align-items:baseline;font-size:.84rem}
 html[lang="en"] .fin-grid{direction:ltr;text-align:left}
@@ -1194,11 +1194,11 @@ body:not(.kb-on):has(#tab-watch.on){padding-bottom:calc(var(--nav-h) + var(--saf
     </div>
     <div id="splitSug"></div>
     <div class="card" id="cashCard"><h2 id="cashHead"><span class="logo" style="--lc:#0f766e" aria-hidden="true"><span>₪$</span></span><span>מזומן</span> <small id="fxSmall"></small><span class="chev" id="cashChev" aria-hidden="true"></span></h2><div class="cash-row" id="cashRow"></div></div>
-    <div class="card" id="positionsCard"><div class="h2row"><h2>פוזיציות <small id="posCount"></small></h2><div class="viewtgl" id="posView" role="group" aria-label="תצוגת פוזיציות"><button data-view="compact">☰ מקוצר</button><button data-view="full">▦ מלא</button><button data-view="heat">🔥 מפת חום</button></div></div><div class="pos-toolbar"><div class="pos-sort" id="posSort" hidden></div><div class="heat-sum" id="heatSum" hidden></div><button type="button" id="btnPerfTop" aria-label="מעבר למסך הביצועים" title="ביצועי התיק">📊 ביצועים</button></div><div class="pos-cols pgrid" id="posCols" aria-hidden="true" hidden><span class="hlg"></span><span class="pc-n">נייר</span><span class="pcol pc-s">גרף</span><span class="pcol pc-w" title="אחוז מהתיק">% בתיק</span><span class="pcol pc-m" title="שווי פוזיציה">שווי</span><span class="pcol pc-v" title="שווי פוזיציה">שווי</span><span class="pcol pc-p">מחיר</span><span class="pcol pc-d" id="posColD"><span>יומי</span></span></div><div class="heat-map pos-heat" id="heatMap" role="list" aria-label="מפת חום – גודל לפי אחוז מהתיק, צבע לפי השינוי היומי" hidden></div><div class="pos-list" id="posList"></div><div id="closedWrap"></div></div>
+    <div class="card" id="positionsCard"><div class="h2row"><h2>פוזיציות <small id="posCount"></small></h2><div class="viewtgl" id="posView" role="group" aria-label="תצוגת פוזיציות"><button data-view="compact">☰ מקוצר</button><button data-view="full">▦ מלא</button><button data-view="heat">🔥 מפת חום</button></div></div><div class="pos-toolbar"><div class="pos-sort" id="posSort" hidden></div><div class="heat-sum" id="heatSum" hidden></div><div class="port-tools" id="portTools"><span class="wl-to port-switch"><button type="button" class="wl-pick" id="portPick" aria-haspopup="listbox" aria-expanded="false" aria-label="בחירת תיק"><span id="psName">התיק הראשי</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="wl-pm" id="portMenu" role="listbox" aria-label="בחירת תיק" hidden></div></span><button type="button" id="btnPerfTop" aria-label="מעבר למסך הביצועים" title="ביצועי התיק">📊 ביצועים</button></div></div><div class="pos-cols pgrid" id="posCols" aria-hidden="true" hidden><span class="hlg"></span><span class="pc-n">נייר</span><span class="pcol pc-s">גרף</span><span class="pcol pc-w" title="אחוז מהתיק">% בתיק</span><span class="pcol pc-m" title="שווי פוזיציה">שווי</span><span class="pcol pc-v" title="שווי פוזיציה">שווי</span><span class="pcol pc-p">מחיר</span><span class="pcol pc-d" id="posColD"><span>יומי</span></span></div><div class="heat-map pos-heat" id="heatMap" role="list" aria-label="מפת חום – גודל לפי אחוז מהתיק, צבע לפי השינוי היומי" hidden></div><div class="pos-list" id="posList"></div><div id="closedWrap"></div></div>
   </section>
   <section class="tab" id="tab-perf">
     <div class="card">
-      <h2><span>ביצועי התיק <button type="button" class="ib" data-ib-for="perfNote" data-ib-t="איך מחושבת התשואה" aria-label="הסבר: איך מחושבת התשואה" aria-haspopup="dialog">i</button></span> <small id="perfSrc"></small></h2>
+      <h2><span>ביצועי התיק <button type="button" class="ib" data-ib-for="perfNote" data-ib-t="איך מחושבת התשואה" aria-label="הסבר: איך מחושבת התשואה" aria-haspopup="dialog">i</button></span> <small id="perfPortLbl"></small> <small id="perfSrc"></small></h2>
       <div class="ret-method-wrap"><div class="ret-method-head">שיטת תשואה <small>לכל התיק והטווחים</small></div><div class="seg ret-method" role="group" aria-label="שיטת חישוב תשואה"><button data-method="IRR" onclick="setReturnMethod('IRR')">IRR <small>משוקלל כסף</small></button><button class="on" data-method="TWR" onclick="setReturnMethod('TWR')">TWR יומי <small>משוקלל זמן</small></button></div><p class="ret-method-note"></p></div><div class="hstats pstats" id="hStats"></div>
       <div class="ytd" id="perfYtd"></div>
       <div class="ctrls"><div class="seg sm" id="perfRange"><button data-v="1W">שבוע</button><button data-v="1M">חודש</button><button data-v="3M">3 ח׳</button><button data-v="YTD" class="on">YTD</button><button data-v="1Y">שנה</button><button data-v="ALL">הכול</button></div></div>
@@ -1828,6 +1828,356 @@ try{
   }
 }catch(e){ console.warn('ccxi->aglt migration failed', e); }
 try{ if(markSplitDupes(state.txs)) localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){ console.warn('split check failed', e); }   // repairs portfolios imported before v18
+// Multi-portfolio books. Data stays on this device only.
+const PORTS_KEY = 'portfolioTracker.ports.v1';
+const PORTS_BAK = 'portfolioTracker.preMulti.v1';
+const PORT_ALL = '__all__';
+function portNameMain(){ return I18n.p('ui-1502','התיק הראשי'); }
+function portNameAll(){ return I18n.p('ui-1503','כל התיקים יחד'); }
+function portNameN(n){ return I18n.p('ui-1504','תיק')+' '+n; }
+function isAllView(){ return ports && ports.activeId===PORT_ALL; }
+function bookFields(s){
+  return {
+    txs: Array.isArray(s.txs) ? s.txs.map(t=>{ const x=Object.assign({}, t); delete x._pid; return x; }) : [],
+    hiddenClosed: Array.isArray(s.hiddenClosed) ? s.hiddenClosed.slice() : [],
+    removedSymbols: Array.isArray(s.removedSymbols) ? s.removedSymbols.slice() : [],
+    importMap: (s.importMap && typeof s.importMap==='object') ? Object.assign({}, s.importMap) : {}
+  };
+}
+function sanitizeBook(b, i){
+  const id = (b && typeof b.id==='string' && b.id && b.id!==PORT_ALL) ? b.id : ('p-'+uid());
+  const name = (b && String(b.name||'').trim()) ? String(b.name).trim().slice(0,40) : portNameN((i||0)+1);
+  return Object.assign({id, name}, bookFields(b||{}));
+}
+function portsTemplate(s){
+  const id = 'p-main';
+  return {version:1, books:[Object.assign({id, name:portNameMain()}, bookFields(s||defaultState()))], activeId:id, alertId:id};
+}
+function backupOldPortKeys(){
+  try{
+    if(localStorage.getItem(PORTS_BAK)) return;
+    const keys = {};
+    [KEY, OLD_KEY].forEach(k=>{ const v=localStorage.getItem(k); if(v!=null) keys[k]=v; });
+    localStorage.setItem(PORTS_BAK, JSON.stringify({at:new Date().toISOString(), keys}));
+  }catch(e){}
+}
+function loadPorts(){
+  try{
+    const raw = localStorage.getItem(PORTS_KEY);
+    if(raw){
+      const p = JSON.parse(raw);
+      if(p && Array.isArray(p.books) && p.books.length){
+        const books = p.books.map((b,i)=>sanitizeBook(b,i));
+        const ids = new Set(books.map(b=>b.id));
+        let activeId = ids.has(p.activeId) || p.activeId===PORT_ALL ? p.activeId : books[0].id;
+        let alertId = ids.has(p.alertId) || p.alertId===PORT_ALL ? p.alertId : books[0].id;
+        return {version:1, books, activeId, alertId};
+      }
+    }
+  }catch(e){ console.warn('ports load', e); }
+  backupOldPortKeys();
+  const p = portsTemplate(state);
+  try{ localStorage.setItem(PORTS_KEY, JSON.stringify(p)); }catch(e){}
+  return p;
+}
+function persistPorts(){
+  if(!ports) return;
+  try{ localStorage.setItem(PORTS_KEY, JSON.stringify({version:1, books:ports.books.map((b,i)=>sanitizeBook(b,i)), activeId:ports.activeId, alertId:ports.alertId})); }catch(e){}
+}
+function withBookTxs(txs, fn){
+  const prev = state.txs;
+  state.txs = txs;
+  try{ return fn(); }
+  finally{ state.txs = prev; }
+}
+function flushActiveFromState(){
+  if(!ports || isAllView()) return;
+  const b = ports.books.find(x=>x.id===ports.activeId);
+  if(!b) return;
+  Object.assign(b, bookFields(state));
+}
+function applyActiveToState(){
+  if(!ports) return;
+  if(isAllView()){
+    const txs=[], hiddenClosed=[], removedSymbols=[], importMap={};
+    ports.books.forEach(b=>{
+      (b.txs||[]).forEach(t=> txs.push(Object.assign({}, t, {_pid:b.id})));
+      (b.hiddenClosed||[]).forEach(s=>{ if(!hiddenClosed.includes(s)) hiddenClosed.push(s); });
+      (b.removedSymbols||[]).forEach(s=>{ if(!removedSymbols.includes(s)) removedSymbols.push(s); });
+      Object.assign(importMap, b.importMap||{});
+    });
+    state.txs = txs; state.hiddenClosed = hiddenClosed; state.removedSymbols = removedSymbols; state.importMap = importMap;
+    return;
+  }
+  const b = ports.books.find(x=>x.id===ports.activeId) || ports.books[0];
+  ports.activeId = b.id;
+  const f = bookFields(b);
+  state.txs = f.txs; state.hiddenClosed = f.hiddenClosed; state.removedSymbols = f.removedSymbols; state.importMap = f.importMap;
+}
+function allBookTxs(){ return ports.books.flatMap(b=>b.txs||[]); }
+function alertTxs(){
+  if(!ports) return state.txs;
+  if(ports.alertId===PORT_ALL) return allBookTxs();
+  const b = ports.books.find(x=>x.id===ports.alertId);
+  return (b && b.txs) || [];
+}
+function activePortName(){
+  if(isAllView()) return portNameAll();
+  const b = ports.books.find(x=>x.id===ports.activeId);
+  return (b && b.name) || portNameMain();
+}
+function alertPortName(){
+  if(ports.alertId===PORT_ALL) return portNameAll();
+  const b = ports.books.find(x=>x.id===ports.alertId);
+  return (b && b.name) || portNameMain();
+}
+function bookEquity(id){
+  const txs = id===PORT_ALL ? allBookTxs() : ((ports.books.find(x=>x.id===id)||{}).txs||[]);
+  try{ return withBookTxs(txs, ()=> hdrVals(computeAll()).eq); }catch(e){ return null; }
+}
+function fmtPortVal(v){
+  const c = dispCur();
+  if(v==null) return '—';
+  try{ return fmtMoney(v, c, 0); }catch(e){ return '—'; }
+}
+function portTagsFor(sym){
+  if(!isAllView()) return [];
+  return ports.books.filter(b=>{
+    try{
+      return withBookTxs(b.txs||[], ()=>{
+        const P = computeLedger().pos[sym];
+        return P && Math.abs(P.qty)>1e-9;
+      });
+    }catch(e){ return false; }
+  }).map(b=>b.name);
+}
+function portPtags(sym){
+  return portTagsFor(sym).map(n=>`<span class="ptag">${esc(n)}</span>`).join('');
+}
+let portMenuOpen = false, alPortMenuOpen = false;
+function closePortMenus(except){
+  if(except!=='port') portMenuOpen = false;
+  if(except!=='alerts') alPortMenuOpen = false;
+  const pm = $('portMenu'); if(pm && except!=='port') pm.hidden = true;
+  const pb = $('portPick'); if(pb && except!=='port') pb.setAttribute('aria-expanded','false');
+  const am = $('alPortMenu'); if(am && except!=='alerts') am.hidden = true;
+  const ab = $('alPortPick'); if(ab && except!=='alerts') ab.setAttribute('aria-expanded','false');
+}
+function portMenuRows(selId){
+  const rows = [];
+  const allV = fmtPortVal(bookEquity(PORT_ALL));
+  const allOn = selId===PORT_ALL;
+  rows.push(`<button type="button" role="option" data-port="${PORT_ALL}" class="${allOn?'on':''}" aria-selected="${allOn}"><span>📚 ${esc(portNameAll())}</span><small class="num">${esc(allV)}${allOn?' ✓':''}</small></button>`);
+  ports.books.forEach(b=>{
+    const on = selId===b.id;
+    rows.push(`<button type="button" role="option" data-port="${esc(b.id)}" class="${on?'on':''}" aria-selected="${on}"><span>💼 ${esc(b.name)}</span><small class="num">${esc(fmtPortVal(bookEquity(b.id)))}${on?' ✓':''}</small></button>`);
+  });
+  rows.push('<div class="port-sep"></div>');
+  rows.push(`<button type="button" data-port-act="add"><span>＋ ${I18n.p('ui-1505','תיק חדש')}</span></button>`);
+  rows.push(`<button type="button" data-port-act="rename"><span>${I18n.p('ui-1506','שינוי שם')}</span></button>`);
+  rows.push(`<button type="button" data-port-act="delete"><span>${I18n.p('ui-1507','מחיקה')}</span></button>`);
+  return rows.join('');
+}
+function renderPortSwitch(){
+  const nameEl = $('psName'); if(nameEl) nameEl.textContent = activePortName();
+  const pick = $('portPick'); if(pick){ pick.setAttribute('aria-expanded', portMenuOpen?'true':'false'); pick.setAttribute('aria-label', I18n.p('ui-1508','בחירת תיק')); }
+  const menu = $('portMenu'); if(menu){ menu.innerHTML = portMenuRows(ports.activeId); menu.hidden = !portMenuOpen; }
+  renderPerfPortLbl();
+}
+function renderPerfPortLbl(){
+  const el = $('perfPortLbl'); if(!el) return;
+  el.textContent = activePortName()+' · '+(typeof methodName==='function' ? methodName() : 'TWR');
+}
+function alPortPickerHtml(){
+  return `<div class="set-sec" id="alPortSec"><h4>${I18n.p('ui-1509','תיק להתראות')}</h4>
+    <span class="wl-to al-switch">
+      <button type="button" class="wl-pick" id="alPortPick" aria-haspopup="listbox" aria-expanded="${alPortMenuOpen?'true':'false'}" aria-label="${I18n.p('ui-1508','בחירת תיק')}"><span id="alPortName">${esc(alertPortName())}</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+      <div class="wl-pm" id="alPortMenu" role="listbox" aria-label="${I18n.p('ui-1509','תיק להתראות')}" ${alPortMenuOpen?'':'hidden'}>${portMenuRows(ports.alertId)}</div>
+    </span>
+    <div class="al-note">${I18n.p('ui-1510','ההתראות לפי המניות שבתיק שנבחר כאן. רשימת המעקב נשארת משותפת.')}</div>
+  </div>`;
+}
+function portNamePrompt(title, initial){
+  return new Promise(resolve=>{
+    const previous=document.activeElement, d=document.createElement('dialog');
+    d.id='portNameDialog'; d.className='wl-name-dialog'; d.dir=I18n.language==='en'?'ltr':'rtl';
+    d.setAttribute('aria-labelledby','portNameTitle');
+    d.innerHTML=`<form method="dialog"><h3 id="portNameTitle">${esc(title)}</h3><input id="portNameInput" type="text" maxlength="40" autocomplete="off" aria-labelledby="portNameTitle"><div class="wl-name-actions"><button type="button" class="btn btn-light" data-portname-cancel>${I18n.language==='en'?'Cancel':'ביטול'}</button><button type="submit" value="ok" class="btn btn-primary">${I18n.language==='en'?'Confirm':'אישור'}</button></div></form>`;
+    const input=d.querySelector('input'); input.value=initial||'';
+    d.querySelector('[data-portname-cancel]').onclick=()=>d.close('cancel');
+    d.addEventListener('close',()=>{ const value=d.returnValue==='ok'?input.value.trim():''; backLayerDiscard(d); d.remove(); previous?.focus?.(); resolve(value); },{once:true});
+    document.body.appendChild(d); d.showModal(); input.focus(); input.select(); backLayerSync();
+  });
+}
+function switchPort(id, opt){
+  if(!ports) return;
+  if(!(id===PORT_ALL || ports.books.some(b=>b.id===id))) return;
+  if(id===ports.activeId){ closePortMenus(); return; }
+  flushActiveFromState();
+  ports.activeId = id;
+  applyActiveToState();
+  persistPorts();
+  if(!isAllView()){ try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){} }
+  closePortMenus();
+  lastEquity = null;
+  if(typeof returnPerfSignature!=='undefined') returnPerfSignature='';
+  if(!(opt&&opt.silent)) { try{ renderAll(); }catch(e){ console.warn(e); } }
+}
+async function addPort(){
+  closePortMenus();
+  const name = await portNamePrompt(I18n.p('ui-1511','שם התיק החדש'), portNameN(ports.books.length+1));
+  if(!name) return;
+  flushActiveFromState();
+  const b = Object.assign({id:uid(), name:name.slice(0,40)}, bookFields({}));
+  ports.books.push(b);
+  ports.activeId = b.id;
+  applyActiveToState();
+  persistPorts();
+  try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){}
+  lastEquity = null; if(typeof returnPerfSignature!=='undefined') returnPerfSignature='';
+  renderAll();
+  toast(I18n.p('ui-1512','התיק נוסף ✓'));
+}
+async function renamePort(){
+  closePortMenus();
+  if(isAllView()){ toast(I18n.p('ui-1513','בחרו תיק כדי לשנות שם או למחוק')); return; }
+  const b = ports.books.find(x=>x.id===ports.activeId); if(!b) return;
+  const name = await portNamePrompt(I18n.p('ui-1514','שינוי שם התיק'), b.name);
+  if(!name || name===b.name) return;
+  b.name = name.slice(0,40);
+  persistPorts();
+  renderPortSwitch();
+  if(alView==='set') try{ alRender(); }catch(e){}
+  toast(I18n.p('ui-1515','השם עודכן ✓'));
+}
+function deletePort(){
+  closePortMenus();
+  if(isAllView()){ toast(I18n.p('ui-1513','בחרו תיק כדי לשנות שם או למחוק')); return; }
+  if(ports.books.length<=1){ toast(I18n.p('ui-1516','לא ניתן למחוק את התיק האחרון')); return; }
+  const b = ports.books.find(x=>x.id===ports.activeId); if(!b) return;
+  if(!confirm(`${I18n.p('ui-1517','למחוק את התיק "')}${b.name}${I18n.p('ui-1518','"? העסקאות של התיק יימחקו מהמכשיר.')}`)) return;
+  const idx = ports.books.findIndex(x=>x.id===b.id);
+  const alertWas = ports.alertId===b.id;
+  ports.books.splice(idx,1);
+  ports.activeId = ports.books[Math.max(0, idx-1)].id;
+  if(alertWas || (ports.alertId!==PORT_ALL && !ports.books.some(x=>x.id===ports.alertId))) ports.alertId = ports.activeId;
+  applyActiveToState();
+  persistPorts();
+  try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){}
+  lastEquity = null; if(typeof returnPerfSignature!=='undefined') returnPerfSignature='';
+  renderAll();
+  if(alertWas) try{ alPushSoon(); alSync(); }catch(e){}
+  toast(I18n.p('ui-1519','התיק נמחק'));
+}
+function setAlertPort(id){
+  if(!(id===PORT_ALL || ports.books.some(b=>b.id===id))) return;
+  if(ports.alertId===id){ closePortMenus(); return; }
+  ports.alertId = id;
+  persistPorts();
+  closePortMenus();
+  try{ alRender(); }catch(e){}
+  try{ alPushSoon(); alSync(); }catch(e){}
+}
+function handlePortMenuClick(e, kind){
+  const act = e.target.closest('[data-port-act]');
+  if(act){
+    const a = act.dataset.portAct;
+    if(a==='add') addPort();
+    else if(a==='rename') renamePort();
+    else if(a==='delete') deletePort();
+    return true;
+  }
+  const opt = e.target.closest('[data-port]');
+  if(!opt) return false;
+  if(kind==='alerts') setAlertPort(opt.dataset.port);
+  else switchPort(opt.dataset.port);
+  return true;
+}
+function bindPortSwitch(){
+  const wrap = $('portTools'); if(!wrap || wrap.dataset.portBound) return;
+  wrap.dataset.portBound = '1';
+  wrap.addEventListener('click', e=>{
+    if(e.target.closest('#btnPerfTop')) return;
+    e.stopPropagation();
+    if(e.target.closest('#portPick')){ const open = !portMenuOpen; closePortMenus(); portMenuOpen = open; renderPortSwitch(); backLayerSync(); return; }
+    if(handlePortMenuClick(e, 'view')) return;
+  });
+}
+function bindAlPortSwitch(){
+  const sec = $('alPortSec'); if(!sec || sec.dataset.portBound) return;
+  sec.dataset.portBound = '1';
+  sec.addEventListener('click', e=>{
+    e.stopPropagation();
+    if(e.target.closest('#alPortPick')){ const open = !alPortMenuOpen; closePortMenus(); alPortMenuOpen = open; const b=$('alPortPick'), m=$('alPortMenu'); if(b) b.setAttribute('aria-expanded', open?'true':'false'); if(m){ m.hidden = !open; m.innerHTML = portMenuRows(ports.alertId); } backLayerSync(); return; }
+    if(handlePortMenuClick(e, 'alerts')) return;
+  });
+}
+function exportPayload(){
+  flushActiveFromState();
+  const real = ports.books.find(x=>x.id===ports.activeId) || ports.books[0];
+  const assets = Object.assign({}, state.assets);
+  return {
+    app:'portfolio-tracker', version:3, exported:new Date().toISOString(),
+    watchlists:wlData, market:mktCfg, commodities:comCfg,
+    settings:state.settings, fx:state.fx, quotes:state.quotes,
+    manual:state.manual, manualCurrency:state.manualCurrency||{},
+    assets,
+    hiddenClosed:real.hiddenClosed||[], removedSymbols:real.removedSymbols||[], importMap:real.importMap||{},
+    txs:real.txs||[],
+    ports:{version:1, books:ports.books.map((b,i)=>sanitizeBook(b,i)), activeId:ports.activeId, alertId:ports.alertId}
+  };
+}
+function importPayload(j, opt){
+  if(!j || typeof j!=='object') throw new Error('format');
+  const fxKeep = state.fx;
+  let nextBooks, activeId, alertId, ns = defaultState();
+  if(j.ports && Array.isArray(j.ports.books) && j.ports.books.length){
+    nextBooks = j.ports.books.map((b,i)=>sanitizeBook(b,i));
+    const ids = new Set(nextBooks.map(b=>b.id));
+    activeId = ids.has(j.ports.activeId) || j.ports.activeId===PORT_ALL ? j.ports.activeId : nextBooks[0].id;
+    alertId = ids.has(j.ports.alertId) || j.ports.alertId===PORT_ALL ? j.ports.alertId : nextBooks[0].id;
+    const nTx = nextBooks.reduce((a,b)=>a+(b.txs||[]).length,0);
+    if(!(opt&&opt.force) && !confirm(`${I18n.p('ui-1059','לייבא ')}${nTx}${I18n.p('ui-1060',' עסקאות? הנתונים הנוכחיים יוחלפו.')}`)) return false;
+    ns.settings = mergeSettings(j.settings);
+    ns.quotes = j.quotes||{};
+    ns.manual = j.manual||{};
+    ns.manualCurrency = j.manualCurrency||{};
+    ns.assets = j.assets||{};
+    if(j.fx&&j.fx.rate) ns.fx = j.fx;
+  }else{
+    if(Array.isArray(j.txs)){
+      ns.txs = j.txs.filter(t=>t && TX_LABELS[t.type] && /^\d{4}-\d{2}-\d{2}$/.test(t.date)).map(t=>Object.assign({}, t, {id:t.id||uid(), ts:t.ts||Date.now()}));
+      ns.assets = j.assets||{}; ns.manual=j.manual||{}; ns.manualCurrency=j.manualCurrency||{};
+      ns.settings = mergeSettings(j.settings); ns.quotes = j.quotes||{};
+      ns.hiddenClosed = Array.isArray(j.hiddenClosed) ? j.hiddenClosed : [];
+      ns.removedSymbols = Array.isArray(j.removedSymbols) ? j.removedSymbols : [];
+      ns.importMap = (j.importMap && typeof j.importMap==='object') ? j.importMap : {};
+      if(j.fx&&j.fx.rate) ns.fx = j.fx;
+    }else if(Array.isArray(j.holdings) || Array.isArray(j)){
+      migrateHoldings(ns, Array.isArray(j)? j : j.holdings); if(j.fx&&j.fx.rate) ns.fx = j.fx;
+    }else throw new Error('format');
+    if(!(opt&&opt.force) && !confirm(`${I18n.p('ui-1059','לייבא ')}${ns.txs.length}${I18n.p('ui-1060',' עסקאות? הנתונים הנוכחיים יוחלפו.')}`)) return false;
+    nextBooks = [Object.assign({id:'p-main', name:portNameMain()}, bookFields(ns))];
+    activeId = 'p-main'; alertId = 'p-main';
+  }
+  if(!ns.fx.rate) ns.fx = fxKeep;
+  state = ns;
+  ports = {version:1, books:nextBooks, activeId, alertId};
+  applyActiveToState();
+  persistPorts();
+  try{ localStorage.setItem(KEY, JSON.stringify(Object.assign({}, state, isAllView()?{txs:(ports.books[0]||{}).txs||[]}:{}))); }catch(e){}
+  importExtras(j);
+  lastEquity = null; if(typeof returnPerfSignature!=='undefined') returnPerfSignature='';
+  return true;
+}
+function resetAllPorts(keep, fx){
+  ports = portsTemplate(defaultState());
+  if(keep) ports.alertId = ports.activeId;
+  persistPorts();
+}
+var ports = loadPorts();
+applyActiveToState();
+
 setTimeout(()=>{ try{ if(closeFractions()){ save(); renderAll(); } }catch(e){ console.warn('fraction check failed', e); } }, 0);   // closes leftover split fractions in existing portfolios (v21), after init
 let hist = (()=>{ try{ const h = JSON.parse(localStorage.getItem(HIST_KEY)||'{}')||{}; delete h['.IXIC']; return h; }catch(e){ return {}; } })();   // v48: Nasdaq benchmark is .NDX; drop the old Composite cache
 const VIEW_KEY = 'portfolioTracker.posView';
@@ -1897,7 +2247,18 @@ function fracCandidates(txs){
 function closeFractions(){ const add = fracCandidates(state.txs); if(add.length) state.txs.push(...add); return add.length; }
 function markSplitDupes(txs){ const m = splitDupes(txs); let ch = false;
   txs.forEach(t=>{ if(t.type!=='split') return; const r = m.get(t) || null; if((t.dupSkip||null)!==r){ ch = true; if(r) t.dupSkip = r; else delete t.dupSkip; } }); return ch; }
-function save(){ try{ markSplitDupes(state.txs); closeFractions(); localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){ toast(I18n.p("ui-0110","שגיאה בשמירה בדפדפן")); } }
+function save(){ try{
+    if(!isAllView()){ markSplitDupes(state.txs); closeFractions(); }
+    flushActiveFromState();
+    persistPorts();
+    if(isAllView()){
+      const prev = JSON.parse(localStorage.getItem(KEY)||'{}')||{};
+      const snap = Object.assign({}, state, {txs: prev.txs||[], hiddenClosed: prev.hiddenClosed||[], removedSymbols: prev.removedSymbols||[], importMap: prev.importMap||{}});
+      localStorage.setItem(KEY, JSON.stringify(snap));
+    } else {
+      localStorage.setItem(KEY, JSON.stringify(state));
+    }
+  }catch(e){ console.warn('save failed', e); toast(I18n.p("ui-0110","שגיאה בשמירה בדפדפן")); } }
 function saveHist(){ try{ localStorage.setItem(HIST_KEY, JSON.stringify(hist)); }catch(e){ /* quota: drop cache */ hist = {}; try{ localStorage.removeItem(HIST_KEY); }catch(_){} } }
 
 function assetOf(sym){ return state.assets[sym] || {name:'', type: CRYPTO_IDS[sym]?'crypto':(isTaIndex(sym)?'index':'stock'), currency: isTaseSec(sym)||isTaIndex(sym)?'ILS':'USD'}; }
@@ -2619,7 +2980,7 @@ async function buildPerformance(){
 // ====================== refresh & live polling ======================
 let refreshing = false, manualWaiting = false, backoff = 0, pollTimer = null, lastPoll = 0, lastEquity=null,lastEquityCurrency=null,pollReady=false;
 const shownPrice = {};   // sym -> last displayed price (for green/red flash)
-function trackedSymbols(){ return [...new Set(state.txs.flatMap(t=>[t.symbol, t.toSymbol]).filter(Boolean))]; }
+function trackedSymbols(){ const txs = (ports && ports.books) ? ports.books.flatMap(b=>b.txs||[]) : state.txs; return [...new Set(txs.flatMap(t=>[t.symbol, t.toSymbol]).filter(Boolean))]; }
 function openSymbols(){ const L = computeLedger(); return Object.values(L.pos).filter(p=>Math.abs(p.qty)>1e-9).map(p=>p.sym); }
 function applyQuotes(res, syms){
   const now = Date.now(); let errors = 0;
@@ -2703,6 +3064,7 @@ function renderAll(){
   if(!currencyLoading) queueMicrotask(()=>ensureCurrencyData());
   if(!taxReferenceWork)queueMicrotask(()=>ensureTaxReferences());
   const S = computeAll();
+  renderPortSwitch(); bindPortSwitch();
   renderHeader(S); renderPortfolio(S); renderTxList(); renderIdx(); renderHeat(S);
   if(ui.tab==='perf') renderPerf(S); else if(ui.tab==='portfolio') renderMini(S);
   updatePosSheet(S);
@@ -2942,13 +3304,14 @@ function renderPortfolio(S){
   $('posCols').hidden = !S.positions.length; $('posColD').firstChild.textContent = showU ? I18n.p("ui-0181","יומי / מעלות") : I18n.p("ui-0182","יומי");
   if(!S.positions.length){
     $('posList').innerHTML = state.txs.length ? I18n.p("ui-0183","<div class=\"empty\">אין פוזיציות פתוחות</div>") :
-      `${I18n.p("ui-0184","<div class=\"empty\"><div class=\"big\">💼</div><div>התיק ריק. מתחילים בהפקדת מזומן ואז קנייה.</div>\n       <div class=\"btn-row\" style=\"margin-top:12px\"><button class=\"btn btn-primary\" data-new=\"deposit\">⬇️ הפקדה</button><button class=\"btn btn-light\" data-new=\"buy\">🛒 קנייה</button></div></div>")}`;
+      (isAllView() ? `<div class="empty"><div class="big">📚</div><div>${I18n.p("ui-1520","אין פוזיציות בתיקים. בחרו תיק כדי להוסיף עסקה.")}</div></div>` :
+      `${I18n.p("ui-0184","<div class=\"empty\"><div class=\"big\">💼</div><div>התיק ריק. מתחילים בהפקדת מזומן ואז קנייה.</div>\n       <div class=\"btn-row\" style=\"margin-top:12px\"><button class=\"btn btn-primary\" data-new=\"deposit\">⬇️ הפקדה</button><button class=\"btn btn-light\" data-new=\"buy\">🛒 קנייה</button></div></div>")}`);
   } else if(posView()==='compact'){
     // compact: one slim row per holding (value + daily change); tap expands the details inline, state kept in ui.expanded
     $('posList').innerHTML = S.positions.map(p=>{
       const cur = p.cur, F = cardFields(p), f = (k, tag='b')=>`<${tag} data-f="${k}" class="${F[k][1]}">${F[k][0]}</${tag}>`, open = ui.expanded.has(p.sym), short = p.qty < 0;
       shownPrice[p.sym] = p.price;
-      const tag = short ? I18n.p("ui-0185","<span class=\"tag short\">שורט</span>") : p.manual ? I18n.p("ui-0186","<span class=\"tag manual\">ידני</span>") : p.est ? I18n.p("ui-0187","<span class=\"tag err\">אין מחיר</span>") : '';
+      const tag = (short ? I18n.p("ui-0185","<span class=\"tag short\">שורט</span>") : p.manual ? I18n.p("ui-0186","<span class=\"tag manual\">ידני</span>") : p.est ? I18n.p("ui-0187","<span class=\"tag err\">אין מחיר</span>") : '') + portPtags(p.sym);
       return `<div class="pcard pc${open?' open':''}" data-sym="${esc(p.sym)}">
         <button class="pc-h pgrid" data-ctoggle aria-expanded="${open}">
           ${logoHtml(p.sym)}
@@ -2967,6 +3330,7 @@ function renderPortfolio(S){
       const tags = [];   // v63: asset type moved to the details line (keeps the name column one tag-free line)
       if(short) tags.push(I18n.p("ui-0188","<span class=\"tag short\">שורט</span>"));
       if(p.manual) tags.push(I18n.p("ui-0189","<span class=\"tag manual\">מחיר ידני</span>")); else if(p.est) tags.push(I18n.p("ui-0190","<span class=\"tag err\">אין מחיר</span>"));
+      if(isAllView()) portTagsFor(p.sym).forEach(n=>tags.push(`<span class="ptag">${esc(n)}</span>`));
       shownPrice[p.sym] = p.price;
       const f = k=>`<b data-f="${k}" class="${F[k][1]}">${F[k][0]}</b>`;
       return `<div class="pcard full-inline${ui.expanded.has(p.sym)?' open':''}" data-sym="${esc(p.sym)}"><button class="full-inline-head" data-ctoggle aria-expanded="${ui.expanded.has(p.sym)}">
@@ -3371,6 +3735,7 @@ function updatePerfLive(S){
 }
 async function renderPerf(S){
   S = S || computeAll();
+  renderPerfPortLbl();
   renderAlloc(S); renderPL(S); renderBenchUI();
   // Keep every Performance panel; only the dated return method and its labels change.
   const pct = true;
@@ -5226,6 +5591,13 @@ function openFracZero(t, backSym){
   $('fzDel').onclick = ()=>{ (state.fracDismiss || (state.fracDismiss = {}))[t.ikey] = Date.now(); state.txs = state.txs.filter(x=>x.id!==t.id); save(); closeSheet(); renderAll(); toast(I18n.p("ui-0802","הסגירה בוטלה")); if(backSym) openPosition(backSym); };
 }
 function openTxForm(type, preset, editId, backSym, after){
+  if(isAllView()){
+    if(editId){
+      const cur = state.txs.find(x=>x.id===editId);
+      if(cur && cur._pid && ports.books.some(b=>b.id===cur._pid)){ switchPort(cur._pid); }
+      else { toast(I18n.p("ui-1521","בחרו תיק כדי לערוך או להוסיף עסקה")); return; }
+    } else { toast(I18n.p("ui-1521","בחרו תיק כדי לערוך או להוסיף עסקה")); return; }
+  }
   const t = editId ? state.txs.find(x=>x.id===editId) : null;
   if(t && t.type==='taxacct') return openTaxAcct(t, backSym);
   if(t && t.type==='sharebonus') return openShareBonus(t, backSym);
@@ -5657,7 +6029,7 @@ ${I18n.p("ui-1033","\n    <div class=\"set-sec al-row\" id=\"alRow\" role=\"butt
   if($('setRefresh')) $('setRefresh').onchange = e=>{ state.settings.refreshSec = num(e.target.value)||0; save(); backoff = 0; schedulePoll(); };
   try{ if(alView){ alView = 'list'; alClose(); alClose(); } alBadge(); }catch(e){}
   $('btnExport').onclick = exportData; $('btnImport').onclick = ()=>$('fileImport').click();
-  $('btnBank').onclick = ()=>$('fileBank').click();
+  $('btnBank').onclick = ()=>{ if(isAllView()){ toast(I18n.p('ui-1522','בחרו תיק כדי לייבא קובץ מהבנק')); return; } $('fileBank').click(); };
   $('btnReset').onclick = openDeleteAll;
   if(deferredInstall){ $('installSec').style.display=''; $('btnInstall').onclick = async()=>{ deferredInstall.prompt(); try{ await deferredInstall.userChoice; }catch(e){} deferredInstall=null; $('installSec').style.display='none'; }; }
 }
@@ -5687,15 +6059,16 @@ function openDeleteAll(){
   go.onclick = ()=>{
     if(word.value.trim()!=='מחק') return;
     const keep = !$('delSettings').checked ? state.settings : null, fx = state.fx;
-    [KEY, HIST_KEY, OLD_KEY].forEach(k=>{ try{ localStorage.removeItem(k); }catch(e){} });   // OLD_KEY too, so v1 data can't be re-migrated
+    [KEY, HIST_KEY, OLD_KEY, PORTS_KEY].forEach(k=>{ try{ localStorage.removeItem(k); }catch(e){} });   // OLD_KEY too, so v1 data can't be re-migrated
     state = defaultState(); if(keep) state.settings = keep; if(fx && fx.rate) state.fx = fx;     // FX rate isn't portfolio data
     hist = {}; lastEquity = null; Object.keys(shownPrice).forEach(k=>delete shownPrice[k]); ui.showHiddenClosed = false;
+    resetAllPorts(keep, fx); applyActiveToState();
     save(); closeSheet(); setTab('portfolio'); renderAll();
     toast(keep ? I18n.p("ui-1056","התיק נמחק · ההגדרות נשמרו") : I18n.p("ui-1057","התיק וההגדרות נמחקו"));
   };
 }
 function exportData(){
-  const data = {app:'portfolio-tracker', version:2, exported:new Date().toISOString(), watchlists:wlData, market:mktCfg, commodities:comCfg, txs:state.txs, assets:state.assets, manual:state.manual,manualCurrency:state.manualCurrency||{},settings:state.settings, fx:state.fx, quotes:state.quotes, hiddenClosed:state.hiddenClosed||[], removedSymbols:state.removedSymbols||[], importMap:state.importMap||{}};
+  const data = exportPayload();
   const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'});
   const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `portfolio-backup-${today()}.json`;
   document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href), 3000);
@@ -5704,15 +6077,9 @@ function exportData(){
 $('fileImport').addEventListener('change', async e=>{
   const file = e.target.files[0]; e.target.value=''; if(!file) return;
   try{
-    const j = JSON.parse(await file.text()), ns = defaultState();
-    if(Array.isArray(j.txs)){
-      ns.txs = j.txs.filter(t=>t && TX_LABELS[t.type] && /^\d{4}-\d{2}-\d{2}$/.test(t.date)).map(t=>Object.assign({}, t, {id:t.id||uid(), ts:t.ts||Date.now()}));
-      ns.assets = j.assets||{}; ns.manual=j.manual||{};ns.manualCurrency=j.manualCurrency||{}; ns.settings = mergeSettings(j.settings); ns.quotes = j.quotes||{}; ns.hiddenClosed = Array.isArray(j.hiddenClosed) ? j.hiddenClosed : []; ns.removedSymbols = Array.isArray(j.removedSymbols) ? j.removedSymbols : []; ns.importMap = (j.importMap && typeof j.importMap==='object') ? j.importMap : {}; if(j.fx&&j.fx.rate) ns.fx = j.fx;
-    } else if(Array.isArray(j.holdings) || Array.isArray(j)){ migrateHoldings(ns, Array.isArray(j)? j : j.holdings); if(j.fx&&j.fx.rate) ns.fx = j.fx; }
-    else throw new Error('format');
-    if(!confirm(`${I18n.p("ui-1059","לייבא ")}${ns.txs.length}${I18n.p("ui-1060"," עסקאות? הנתונים הנוכחיים יוחלפו.")}`)) return;
-    if(!ns.fx.rate) ns.fx = state.fx;
-    state = ns; save(); importExtras(j); renderAll(); if(ui.tab==='settings') renderSettings(); toast(I18n.p("ui-1061","הגיבוי יובא ✓")); refreshPrices(true);
+    const j = JSON.parse(await file.text());
+    if(!importPayload(j)) return;
+    save(); renderAll(); if(ui.tab==='settings') renderSettings(); toast(I18n.p("ui-1061","הגיבוי יובא ✓")); refreshPrices(true);
   }catch(err){ console.warn(err); toast(I18n.p("ui-1062","קובץ לא תקין – לא ניתן לייבא")); }
 });
 
@@ -6168,6 +6535,7 @@ function bankSecs(){
   return Object.values(secs);
 }
 $('fileBank').addEventListener('change', async e=>{
+  if(isAllView()){ e.target.value=''; toast(I18n.p('ui-1522','בחרו תיק כדי לייבא קובץ מהבנק')); return; }
   const file = e.target.files[0]; e.target.value = ''; if(!file) return;
   toast(I18n.p("ui-1112","קורא את הקובץ…"));
   try{
@@ -7249,8 +7617,10 @@ $('splitSug').addEventListener('click', splitSugClick);
 $('posSort').addEventListener('click', e=>{ e.stopPropagation(); if(e.target.closest('[data-possortmenu]')){ posSortMenu = !posSortMenu; renderSortBar(computeAll().positions.length); return; } const b = e.target.closest('[data-sort]'); if(!b) return; const cur = effSort();
   const d = cur.k===b.dataset.sort ? (cur.d==='desc' ? 'asc' : 'desc') : 'desc';
   try{ localStorage.setItem(SORT_KEY, `${b.dataset.sort}:${d}`); }catch(_){} posSortMenu = false; renderPortfolio(computeAll()); });
-document.addEventListener('click', e=>{ if(posSortMenu && !e.target.closest('#posSort')){ posSortMenu = false; renderSortBar(computeAll().positions.length); } });
-document.addEventListener('keydown', e=>{ if(e.key==='Escape' && posSortMenu){ posSortMenu = false; renderSortBar(computeAll().positions.length); $('posSort').querySelector('[data-possortmenu]')?.focus(); } });
+document.addEventListener('click', e=>{ if(posSortMenu && !e.target.closest('#posSort')){ posSortMenu = false; renderSortBar(computeAll().positions.length); }
+  if((portMenuOpen && !e.target.closest('#portTools')) || (alPortMenuOpen && !e.target.closest('#alPortSec'))){ closePortMenus(); renderPortSwitch(); const b=$('alPortPick'),m=$('alPortMenu'); if(b) b.setAttribute('aria-expanded','false'); if(m) m.hidden=true; }
+});
+document.addEventListener('keydown', e=>{ if(e.key==='Escape' && posSortMenu){ posSortMenu = false; renderSortBar(computeAll().positions.length); $('posSort').querySelector('[data-possortmenu]')?.focus(); } if(e.key==='Escape' && (portMenuOpen||alPortMenuOpen)){ closePortMenus(); renderPortSwitch(); } });
 $('btnPerfTop').addEventListener('click', ()=>setTab('perf'));   // portfolio-toolbar performance shortcut: opens the same existing performance screen as the bottom-nav button
 $('posList').addEventListener('pointerdown', ()=>{ listTouch = true; });
 ['pointerup','pointercancel'].forEach(ev=>document.addEventListener(ev, ()=>{ if(!listTouch) return; listTouch = false; if(sortPending) setTimeout(()=>{ if(sortPending && !listTouch) reorderCards(sortPending); }, 250); }));
@@ -7517,7 +7887,7 @@ refreshPrices(true).then(()=>{ pollReady = true; schedulePoll(); });          //
 setInterval(ySync, 1500); ySync();                                                 // v174: live US ticks over WebSocket (CNBC polling keeps running underneath)
 setInterval(()=>{ if(!document.hidden){ updateAges(); renderLiveStatus(); if(!pollTimer && !refreshing) schedulePoll(); } }, 20000);
 setInterval(()=>{if(document.visibilityState==='visible')ensureTaxReferences()},60000);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')ensureTaxReferences()});
-window.__portfolio = {etfEstimate,etfLiveW,get etfTracking(){const d=etfData[etfUi.sel];return d?{fund:etfUi.sel,asOf:d.asOf,...etfEstimate(etfUi.sel,d,etfItems(d))}:null;},get night(){ return {src:NIGHT.src, worker:{ok:NW.ok, polls:NW.polls, applied:NW.applied, fails:NW.fails}, relay:{ok:NR.ok, polls:NR.polls, applied:NR.applied, fails:NR.fails, lastAt:NR.lastAt}}; }, get yws(){ return {state:YWS.ws ? YWS.ws.readyState : -1, msgs:YWS.msgs, ticks:YWS.ticks, applied:YWS.applied, flushes:YWS.flushes, flushMs:YWS.flushMs, flushMax:YWS.flushMax, opens:YWS.opens, closes:YWS.closes, fails:YWS.fails, lastMsg:YWS.lastMsg, lastTick:YWS.lastTick, subs:[...YWS.subs.keys()], gap:yGap, err:YWS.lastErr}; }, yDecode, yApply, yLast, refresh:(...a)=>refreshPrices(...a), get state(){ return state; }, openPosition:(...a)=>openPosition(...a), openTxForm:(...a)=>openTxForm(...a), lotsTM:(tx)=>taxModel(tx||state.txs), commission:(...a)=>commission(...a), inferFees:(...a)=>inferFees(...a), get mkt(){ return {cfg:mktCfg, q:mq, bars:instCache}; }, get wl(){ return wlData; }, mktTick, squarify, heatColor, spark(){ return spk; }, spkRun, setTheme, idx(){ return idxData; }, idxApply, sinceStart(){ const V = hdrVals(computeAll()); return {pct: V.plPct!=null ? fmtPct(V.plPct) : '—', amt: fmtSigned(V.pl, V.c, 0), cls: cls(V.pl)}; }, chartData(){ const d = L=>L && L.series && L.series.data ? L.series.data().map(x=>[x.time, x.value]) : null; return {mini:d(miniLive), perf:d(perfLive)}; }, livePatch, usSession, marketState, pollDelayMs, priceOf, fracCandidates, closeFractions, scanHeldSplits, detectSplits, parseRatio, bankClassify, get splitSug(){ return splitSug; }, _bankPair(out, mode){ const sv = IMP; IMP = {mode:mode||'merge'}; try{ bankPairAdj(out); } finally{ IMP = sv; } return out; }, taxModel, loadTaxData, settleDate, taxFx, cpiKnown, loadSecDir, matchUSName, localSearch, detectSplits, get refreshing(){ return refreshing; }, commission, updatePosSheet, computeAll, computeLedger, buildPerformance, refreshPrices, marketState, pollDelayMs, get backoff(){ return backoff; }, livePatch};
+window.__portfolio = {get ports(){ return ports; }, PORT_ALL, isAllView, switchPort, addPort, renamePort, deletePort, setAlertPort, activePortName, alertPortName, alSyms, exportPayload, importPayload, applyActiveToState, flushActiveFromState, bookEquity, portTagsFor, PORTS_KEY, PORTS_BAK, persistPorts, renderAll, save, etfEstimate,etfLiveW,get etfTracking(){const d=etfData[etfUi.sel];return d?{fund:etfUi.sel,asOf:d.asOf,...etfEstimate(etfUi.sel,d,etfItems(d))}:null;},get night(){ return {src:NIGHT.src, worker:{ok:NW.ok, polls:NW.polls, applied:NW.applied, fails:NW.fails}, relay:{ok:NR.ok, polls:NR.polls, applied:NR.applied, fails:NR.fails, lastAt:NR.lastAt}}; }, get yws(){ return {state:YWS.ws ? YWS.ws.readyState : -1, msgs:YWS.msgs, ticks:YWS.ticks, applied:YWS.applied, flushes:YWS.flushes, flushMs:YWS.flushMs, flushMax:YWS.flushMax, opens:YWS.opens, closes:YWS.closes, fails:YWS.fails, lastMsg:YWS.lastMsg, lastTick:YWS.lastTick, subs:[...YWS.subs.keys()], gap:yGap, err:YWS.lastErr}; }, yDecode, yApply, yLast, refresh:(...a)=>refreshPrices(...a), get state(){ return state; }, openPosition:(...a)=>openPosition(...a), openTxForm:(...a)=>openTxForm(...a), lotsTM:(tx)=>taxModel(tx||state.txs), commission:(...a)=>commission(...a), inferFees:(...a)=>inferFees(...a), get mkt(){ return {cfg:mktCfg, q:mq, bars:instCache}; }, get wl(){ return wlData; }, mktTick, squarify, heatColor, spark(){ return spk; }, spkRun, setTheme, idx(){ return idxData; }, idxApply, sinceStart(){ const V = hdrVals(computeAll()); return {pct: V.plPct!=null ? fmtPct(V.plPct) : '—', amt: fmtSigned(V.pl, V.c, 0), cls: cls(V.pl)}; }, chartData(){ const d = L=>L && L.series && L.series.data ? L.series.data().map(x=>[x.time, x.value]) : null; return {mini:d(miniLive), perf:d(perfLive)}; }, livePatch, usSession, marketState, pollDelayMs, priceOf, fracCandidates, closeFractions, scanHeldSplits, detectSplits, parseRatio, bankClassify, get splitSug(){ return splitSug; }, _bankPair(out, mode){ const sv = IMP; IMP = {mode:mode||'merge'}; try{ bankPairAdj(out); } finally{ IMP = sv; } return out; }, taxModel, loadTaxData, settleDate, taxFx, cpiKnown, loadSecDir, matchUSName, localSearch, detectSplits, get refreshing(){ return refreshing; }, commission, updatePosSheet, computeAll, computeLedger, buildPerformance, refreshPrices, marketState, pollDelayMs, get backoff(){ return backoff; }, livePatch};
 // Transient controls are navigation layers, not screen changes. backLayers itself is created with NAV, before session restore.
 function backLayerDiscard(root){for(const [key,v]of backLayers)if(root?.contains(v.el)){backLayers.delete(key);for(let i=NAV.length-1;i>=0;i--)if(NAV[i].t==='layer'&&NAV[i].key===key)NAV.splice(i,1)}}
 function backLayerVisible(el){if(!el?.isConnected||el.closest('[hidden]'))return false;const sheet=el.closest('.sheet');if(sheet&&!sheet.classList.contains('open'))return false;const tab=el.closest('section.tab');return (!tab||tab.classList.contains('on'))&&getComputedStyle(el).display!=='none'&&el.getClientRects().length>0;}
@@ -7551,7 +7921,9 @@ function backLayerSync(){const found=new Map(),add=(key,el,close)=>{if(backLayer
  add('watch-picker',$('wlToMenu'),()=>{$('wlToMenu').hidden=true;$('wlToBtn').setAttribute('aria-expanded','false')});
  add('watch-sort',$('wlSortPick'),()=>{wlSortMenu=null;drawWatchSort()});
  add('watch-menu',document.querySelector('#wlTabs .wl-menu'),()=>{wlMenu=null;drawWatch()});
- add('position-sort',document.querySelector('#posSort .wl-pm'),()=>{posSortMenu=false;renderSortBar(computeAll().positions.length)});
+ add('portfolio-switch',document.querySelector('#portMenu'),()=>{portMenuOpen=false;renderPortSwitch()});
+  add('alerts-portfolio',document.querySelector('#alPortMenu'),()=>{alPortMenuOpen=false;const b=$('alPortPick'),m=$('alPortMenu');if(b)b.setAttribute('aria-expanded','false');if(m)m.hidden=true;});
+  add('position-sort',document.querySelector('#posSort .wl-pm'),()=>{posSortMenu=false;renderSortBar(computeAll().positions.length)});
  add('transaction-year',document.querySelector('#txHistBar .wl-pm'),()=>{ui.txYearMenu=false;renderTxList()});
  add('finance-sort',$('finSortMenu'),()=>{$('finSortMenu').hidden=true;$('finSortBtn').setAttribute('aria-expanded','false')});
  add('etf-sort',document.querySelector('#etfSortWrap .wl-menu'),()=>{etfSortMenu=false;drawEtf()});
@@ -7695,7 +8067,7 @@ function pnModeToggle(){const m=$('pnModeMenu'),b=$('pnMode');if(!m||!b)return;i
 function pnRender(){const section=[...document.querySelectorAll('#alertsCard .set-sec')].find(x=>x.querySelector('[data-al="newsHold"]'));if(!section)return;section.innerHTML=pnHtml();section.querySelectorAll('[data-pn-fold]').forEach(el=>el.addEventListener('toggle',()=>{el.open?pnOpen.add(el.dataset.pnFold):pnOpen.delete(el.dataset.pnFold);}));const input=$('pnStockSearch');if(input)attachAutocomplete(input,$('pnStockAc'),m=>{if(!pnStockAllowed(m))return;const n=pnPrefs();if(!n.symbols.includes(m.sym))n.symbols.push(m.sym);pnChanged();},pnStockAllowed,true);}
 async function pnChanged(){pnPrefs().legacy=false;alSave();alRender();await alSwallowNews();alPushSoon();alSync();}
 function alSyms(){ let hold = [], watch = [];
-  try{ hold = computeAll().positions.filter(p=>Math.abs(p.qty)>1e-9).map(p=>p.sym); }catch(e){}
+  try{ hold = withBookTxs(alertTxs(), ()=> computeAll().positions.filter(p=>Math.abs(p.qty)>1e-9).map(p=>p.sym)); }catch(e){}
   try{ wlData.lists.forEach(l=>l.items.forEach(i=>{ if(!watch.includes(i.sym)) watch.push(i.sym); })); }catch(e){}
   return {hold, watch: watch.filter(s=>!hold.includes(s))}; }
 async function alCacheGet(){ try{ const r = await (await caches.open(AL_CACHE)).match(AL_CFG); return r ? await r.json() : null; }catch(e){ return null; } }
@@ -7808,11 +8180,11 @@ function alRender(){ const c = $('alertsCard'); if(!c || !alView) return;
       ${alList.length?`${I18n.p("ui-1456","<button class=\"btn btn-light btn-block\" id=\"alClear\" style=\"margin-top:10px\">🗑️ ניקוי הרשימה</button>")}`:''}</div>`;
   } else {
     const S = alSyms(), syms = S.hold.concat(S.watch), n = alUnread(), perm = alSN ? alSNPerm() : 'Notification' in window ? Notification.permission : 'unsupported';
-    c.innerHTML = bar(I18n.p("ui-1457","🔔 התראות")) + `${I18n.p("ui-1487","\n      <div class=\"set-sec al-row\" id=\"alToList\" role=\"button\" tabindex=\"0\"><div><h4>📬 רשימת ההתראות</h4><div class=\"al-sub\">")}${alList[0] ? I18n.p("ui-1459","אחרונה: ")+esc(alList[0].title) : I18n.p("ui-1460","עדיין אין התראות")}</div></div><span class="al-chev">‹</span>${I18n.p("ui-1488","</div>\n      <div class=\"set-sec\"><label class=\"al-li\"><div><b>הפעלת התראות</b><small>")}${alSN ? (perm==='granted' ? I18n.p("ui-1461","התראות דרך האפליקציה פעילות") : perm==='denied' ? I18n.p("ui-1462","⚠️ ההרשאה חסומה – אפשרו התראות בהגדרות האפליקציה") : I18n.p("ui-1463","התראות דרך האפליקציה (מבקש הרשאה)")) : perm==='denied' ? I18n.p("ui-1464","⚠️ ההרשאה חסומה בדפדפן – רק רשימה באפליקציה") : perm==='unsupported' ? I18n.p("ui-1465","צריך את גרסת האפליקציה 1.2 ומעלה") : I18n.p("ui-1466","התראות למכשיר (מבקש הרשאה)")}</small></div>${alTg('on', alP.on)}${I18n.p("ui-1489","</label></div>\n      <div class=\"set-sec\"><h4>📰 חדשות</h4>")}${alLi(I18n.p("ui-1467","על המניות שלי"),'', 'newsHold', alP.newsAll || alP.newsMacro)}${alLi(I18n.p("ui-1468","על רשימת המעקב"),'', 'newsWatch', alP.newsAll || alP.newsMacro)}${alLi(I18n.p("ui-1469","חדשות מאקרו בלבד"), '', 'newsMacro')}${alLi(I18n.p("ui-1470","כל חדשה שעולה"), '', 'newsAll')}${I18n.p("ui-1490","</div>\n      <div class=\"set-sec\"><h4>📊 דוחות כספיים</h4>")}${alLi(I18n.p("ui-1471","יום לפני הדוח"),'', 'repBefore')}${alLi(I18n.p("ui-1472","בבוקר יום הדוח"),'', 'repMorning')}${alLi(I18n.p("ui-1473","דוח פורסם"),'', 'repPub')}${I18n.p("ui-1491","</div>\n      <div class=\"set-sec\"><h4>📈 תנועת מחיר יומית</h4>")}${alLi(I18n.p("ui-1474","התראה כשמניה זזה מעל הסף"), '', 'pxOn')}${I18n.p("ui-1492","\n        <div class=\"al-li\"><div>סף ברירת מחדל</div><input class=\"al-pct\" id=\"alPxDef\" inputmode=\"decimal\" value=\"")}${num(alP.pxDef)||''}" placeholder="%" ${alP.on?'':'disabled'}></div></div>
+    c.innerHTML = bar(I18n.p("ui-1457","🔔 התראות")) + alPortPickerHtml() + `${I18n.p("ui-1487","\n      <div class=\"set-sec al-row\" id=\"alToList\" role=\"button\" tabindex=\"0\"><div><h4>📬 רשימת ההתראות</h4><div class=\"al-sub\">")}${alList[0] ? I18n.p("ui-1459","אחרונה: ")+esc(alList[0].title) : I18n.p("ui-1460","עדיין אין התראות")}</div></div><span class="al-chev">‹</span>${I18n.p("ui-1488","</div>\n      <div class=\"set-sec\"><label class=\"al-li\"><div><b>הפעלת התראות</b><small>")}${alSN ? (perm==='granted' ? I18n.p("ui-1461","התראות דרך האפליקציה פעילות") : perm==='denied' ? I18n.p("ui-1462","⚠️ ההרשאה חסומה – אפשרו התראות בהגדרות האפליקציה") : I18n.p("ui-1463","התראות דרך האפליקציה (מבקש הרשאה)")) : perm==='denied' ? I18n.p("ui-1464","⚠️ ההרשאה חסומה בדפדפן – רק רשימה באפליקציה") : perm==='unsupported' ? I18n.p("ui-1465","צריך את גרסת האפליקציה 1.2 ומעלה") : I18n.p("ui-1466","התראות למכשיר (מבקש הרשאה)")}</small></div>${alTg('on', alP.on)}${I18n.p("ui-1489","</label></div>\n      <div class=\"set-sec\"><h4>📰 חדשות</h4>")}${alLi(I18n.p("ui-1467","על המניות שלי"),'', 'newsHold', alP.newsAll || alP.newsMacro)}${alLi(I18n.p("ui-1468","על רשימת המעקב"),'', 'newsWatch', alP.newsAll || alP.newsMacro)}${alLi(I18n.p("ui-1469","חדשות מאקרו בלבד"), '', 'newsMacro')}${alLi(I18n.p("ui-1470","כל חדשה שעולה"), '', 'newsAll')}${I18n.p("ui-1490","</div>\n      <div class=\"set-sec\"><h4>📊 דוחות כספיים</h4>")}${alLi(I18n.p("ui-1471","יום לפני הדוח"),'', 'repBefore')}${alLi(I18n.p("ui-1472","בבוקר יום הדוח"),'', 'repMorning')}${alLi(I18n.p("ui-1473","דוח פורסם"),'', 'repPub')}${I18n.p("ui-1491","</div>\n      <div class=\"set-sec\"><h4>📈 תנועת מחיר יומית</h4>")}${alLi(I18n.p("ui-1474","התראה כשמניה זזה מעל הסף"), '', 'pxOn')}${I18n.p("ui-1492","\n        <div class=\"al-li\"><div>סף ברירת מחדל</div><input class=\"al-pct\" id=\"alPxDef\" inputmode=\"decimal\" value=\"")}${num(alP.pxDef)||''}" placeholder="%" ${alP.on?'':'disabled'}></div></div>
       <details class="set-sec al-stock-fold" ${alertStockOpen?'open':''}${I18n.p("ui-1493","><summary><b>לפי מניה <small>")}${syms.length}${I18n.p("ui-1494"," ניירות</small></b><span class=\"fold-show\">הרחבה ▾</span><span class=\"fold-hide\">כיווץ ▴</span></summary>")}${syms.length ? `${I18n.p("ui-1475","<div class=\"al-note\">מתג = התראות למניה (חדשות, דוחות, מחיר). אחוז ריק = סף ברירת המחדל.</div>")}` + syms.map(s=>`<div class="al-li"><span class="al-sym">${esc(s)}</span><input class="al-pct" data-px="${esc(s)}" inputmode="decimal" value="${num(alP.px[s])!=null?num(alP.px[s]):''}" placeholder="${num(alP.pxDef)||'—'}%" ${alP.on?'':'disabled'}>${`<input type="checkbox" class="al-tg" data-mute="${esc(s)}" ${alP.muted.includes(s)?'':'checked'} ${alP.on?'':'disabled'} aria-label="${esc(s)}">`}</div>`).join('') : I18n.p("ui-1476","<div class=\"al-note\">אין עדיין מניות בתיק או ברשימת המעקב.</div>")}</details>
       ${alSN ? `${I18n.p("ui-1481","<div class=\"set-sec\"><button class=\"btn btn-light btn-block\" id=\"alTest\">🔔 שליחת התראת בדיקה</button><button class=\"btn btn-light btn-block\" id=\"alSys\" style=\"margin-top:8px\">⚙️ הגדרות התראות במערכת</button></div>\n      <div class=\"al-note\">ℹ️ ")}${perm==='granted' ? I18n.p("ui-1477","התראות דרך האפליקציה פעילות") : I18n.p("ui-1478","התראות דרך האפליקציה")} – ${alFcmOk ? I18n.p("ui-1479","✓ מחובר להתראות מיידיות: חדשות ודוחות מגיעים תוך שניות, גם כשהאפליקציה סגורה. כגיבוי, בדיקה ברקע גם כל ~15 דקות.") : I18n.p("ui-1480","חדשות ודוחות נבדקים ברקע בערך כל 15 דקות, גם כשהאפליקציה סגורה (אנדרואיד עשוי לעכב במצב חיסכון בסוללה).")}${I18n.p("ui-1482"," התראות מחיר נבדקות רק כשהאפליקציה פתוחה.</div>")}` : `${I18n.p("ui-1485","<div class=\"al-note\">ℹ️ הבדיקה רצה כשהאפליקציה פתוחה, וגם ברקע כשהדפדפן מאפשר (אנדרואיד, אפליקציה מותקנת – לא בזמן קבוע). ")}${alPushOk ? I18n.p("ui-1483","✓ מחובר לשרת ההתראות – התראות מגיעות גם כשהאפליקציה סגורה (חדשות ודוחות).") : I18n.p("ui-1484","שרת התראות (Cloudflare) עוד לא פעיל – ההתראות לא מובטחות כשהאפליקציה סגורה.")}${I18n.p("ui-1486"," התראות מחיר נבדקות רק כשהאפליקציה פתוחה.</div>")}`}`;
   }
-  if(alView!=='list'){pnRender();pnLayout();}
+  if(alView!=='list'){pnRender();pnLayout();bindAlPortSwitch();}
   $('alBack').onclick = ()=>{ navDrop('alerts'); alClose(); }; }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-pn-remove]');if(!b)return;pnPrefs().symbols=pnPrefs().symbols.filter(x=>x!==b.dataset.pnRemove);pnChanged();});
 var alFocus = null, alDeep = false, alNewsTick = 0, alRepTick = 0, newsAt = 0, repAt = 0;
