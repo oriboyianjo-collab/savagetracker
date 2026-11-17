@@ -54481,7 +54481,7 @@
     "technology"
   ],
   "tags_version": 1,
-  "תאריך": "2026-11-17 00:33",
+  "תאריך": "2026-11-17 09:08",
   "הועלה": "2026-11-17 09:04",
   "כותרת": "פורסם באיחור | NVIDIA (NVDA): לפי דיווחים, היועץ המשפטי Tim Teter הסכים לראיון סגור בקונגרס ב-2 בדצמבר",
   "כותרת_en": "Published late | NVIDIA (NVDA): reports say general counsel Tim Teter agreed to a closed-door congressional interview on December 2",
@@ -54515,7 +54515,7 @@
   "_translation": {
     "en": {
       "schema_version": 1,
-      "source_hash": "182b4c72eab89c469dfc7456b2d622fec538bebc1b02d06efb83008f6282455a"
+      "source_hash": "0b1f17b1cf4572fb1568df6069487b90fdc0b8f430271a71003307830bdba006"
     }
   }
 },
@@ -54531,7 +54531,7 @@
     "healthcare"
   ],
   "tags_version": 1,
-  "תאריך": "2026-11-16 23:00",
+  "תאריך": "2026-11-17 09:08",
   "הועלה": "2026-11-17 09:05",
   "כותרת": "פורסם באיחור | Eli Lilly (LLY): הסכם מחקר ורישוי אונקולוגי עם Stipple Bio, עם אבני דרך מותנות של עד 5.9 מיליארד דולר",
   "כותרת_en": "Published late | Eli Lilly (LLY): oncology research and licensing deal with Stipple Bio includes up to $5.9 billion in conditional milestones",
@@ -54550,7 +54550,7 @@
   "_translation": {
     "en": {
       "schema_version": 1,
-      "source_hash": "5b158d8130cdb8b862904652964279a524ec5ec1b0978c0582effa9b6f14fcbe"
+      "source_hash": "e61565f314ec1647dc517773f4c788887858f175963b9138814d80f92baed744"
     }
   }
 },
@@ -54562,7 +54562,7 @@
   "symbols": [],
   "sectors": [],
   "tags_version": 1,
-  "תאריך": "2026-11-17 09:00",
+  "תאריך": "2026-11-17 09:08",
   "הועלה": "2026-11-17 09:07",
   "כותרת": "בריטניה: האבטלה ביולי–ספטמבר 4.6%, אך מספר השכירים ירד באומדן אוקטובר והשכר הרגיל האט ל-3.5%",
   "כותרת_en": "UK: July–September unemployment at 4.6%, but October payroll estimate falls and regular pay growth slows to 3.5%",
@@ -54581,7 +54581,7 @@
   "_translation": {
     "en": {
       "schema_version": 1,
-      "source_hash": "11e4fbc1f86ff72c7a98981567c3b044a38ea5bb06964102d895a068f20d0ad0"
+      "source_hash": "5ed8e966119bbe035ecb39ba5e5715078f01da16c7621058d0ea0a9067915888"
     }
   }
 }
