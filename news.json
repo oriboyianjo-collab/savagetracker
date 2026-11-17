@@ -54183,5 +54183,43 @@
         "source_hash": "ebe121fb397b45ad338104694012f4fc1174b5cede72fd6a2a2f79227d912463"
       }
     }
+  },
+  {
+    "מזהה": "n-1988",
+    "category": "company",
+    "חברה": "Telesat (TSAT)",
+    "חברה_en": "Telesat (TSAT)",
+    "symbols": [
+      "TSAT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 06:19",
+    "הועלה": "2026-11-17 06:19",
+    "כותרת": "פורסם באיחור | Telesat (TSAT): הסדר הקפאת אכיפה עם נושי GEO עד 18 בינואר; מועדי הפירעון בדצמבר לא השתנו",
+    "כותרת_en": "Published late | Telesat (TSAT): GEO lender enforcement standstill runs through January 18; December maturities unchanged",
+    "summary": "נושים המשתתפים בהסדר לא ינקטו צעדי אכיפה בתקופה שנקבעה. תשלומי הריבית נמשכים, ועדיין לא הושג פתרון לחוב העומד לפירעון.",
+    "summary_en": "Participating lenders will refrain from enforcement during the agreed period. Interest payments continue, and the upcoming debt maturities remain unresolved.",
+    "קישור": "https://www.telesat.com/press/press-releases/telesat-enters-into-standstill-arrangement-with-geo-lenders-allowing-telesat-additional-time-to-address-upcoming-maturities/",
+    "מקורות": [
+      {
+        "url": "https://www.telesat.com/press/press-releases/telesat-enters-into-standstill-arrangement-with-geo-lenders-allowing-telesat-additional-time-to-address-upcoming-maturities/",
+        "label": "Telesat: ההודעה המקורית ותנאי ההקפאה",
+        "label_en": "Telesat: original announcement and standstill terms"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/17/3404245/0/en/telesat-enters-into-standstill-arrangement-with-geo-lenders-allowing-telesat-additional-time-to-address-upcoming-maturities.html",
+        "label": "GlobeNewswire: הודעת החברה וחותמת הפרסום",
+        "label_en": "GlobeNewswire: company release and publication timestamp"
+      }
+    ],
+    "טקסט": "פורסם באיחור. הודעת Telesat פורסמה ב-17.11.2026 בשעה 03:00 בשעון ישראל (16 בנובמבר, 20:00 בחוף המזרחי בארה\"ב).\n\nTelesat הודיעה על הסדרי הקפאת אכיפה עם ועדה אד-הוק של מחזיקי הלוואות לזמן קצוב, אג\"ח מובטחות ואג\"ח לא מובטחות של Telesat GEO. לפי ההסדרים, המלווים המשתתפים לא ינקטו צעדי אכיפה עד 18 בינואר 2027, כולל אותו יום. החברה תמשיך לשלם ריבית בתקופת ההקפאה.\n\nההלוואות וחלק מהאג\"ח המובטחות עומדות לפירעון ב-6 בדצמבר 2026. ההודעה אינה משנה את מועד הפירעון הזה: היא מעניקה זמן נוסף לניסיון להגיע לפתרון מוסכם ומקפיאה צעדי אכיפה מצד הנושים המשתתפים. אין בה דיווח על הארכת חוב מוסכמת, מימון מחדש שהושלם, מחיקת חוב או הליך חדלות פירעון.\n\nהאירוע מהותי לסיכון המימון של החברה לקראת מועד הפירעון הקרוב, אך הסדר ההקפאה אינו פתרון סופי. החברה הודיעה שתמשיך במגעים בתום לב. ההודעה אינה מפרטת את סכום החוב המכוסה, את שיעור הנושים המשתתפים או תנאים נוספים; אין להסיק ממנה שכל הנושים מחויבים בהסדר או שהושג הסדר לחוב.",
+    "טקסט_en": "Published late. Telesat's announcement was published on November 17, 2026, at 03:00 Israel time (November 16, 20:00 US Eastern time).\n\nTelesat announced standstill arrangements with an ad-hoc committee of holders of Telesat GEO's term loans, secured notes and unsecured notes. Under the arrangements, participating lenders will take no enforcement action through and including January 18, 2027. The company will continue making interest payments during the standstill period.\n\nThe term loans and certain secured notes mature on December 6, 2026. The announcement does not change that maturity date: it gives the company more time to seek a consensual resolution while participating creditors refrain from enforcement. It does not report an agreed maturity extension, completed refinancing, debt forgiveness or an insolvency proceeding.\n\nThis is a material financing-risk development ahead of the near-term maturities, but the standstill is not a final debt solution. The company says it will continue good-faith discussions. The announcement does not state the debt amount covered, the participating-creditor percentage or additional terms; it does not establish that every creditor is bound or that a debt agreement has been reached.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "777834b98526e343476349a1ea7e240a5dc972cb90ac8810f2523ebb4d96788c"
+      }
+    }
   }
 ]
