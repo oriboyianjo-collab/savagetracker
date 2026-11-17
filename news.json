@@ -56995,5 +56995,43 @@
         "source_hash": "b5cf11f5e0ca7db4c59a36f081ed5d5c9657f589f4cbb00d93d31b360c6280f0"
       }
     }
+  },
+  {
+    "מזהה": "n-2067",
+    "category": "micro",
+    "חברה": "Microsoft (MSFT)",
+    "חברה_en": "Microsoft (MSFT)",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:04",
+    "הועלה": "2026-11-17 10:04",
+    "כותרת": "פורסם באיחור | Microsoft (MSFT): MIT תובעת בטקסס בטענה שמאיץ ההצפנה Adams Bridge מפר פטנט שלה",
+    "כותרת_en": "Published late | Microsoft (MSFT): MIT sues in Texas, alleging Adams Bridge cryptography accelerator infringes its patent",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתב התביעה ורישום בית המשפט לא נקראו. דיווח Reuters המלא מאת Blake Brittain נקרא דרך Schwab, וכן הפצתו בפורטוגזית ב-Valor. Schwab מציגה 16 בנובמבר ב-12:00 שעון החוף המזרחי, כלומר 19:00 בישראל. מדובר בדיווח מאתמול על תביעה שהוגשה ביום שישי, לא בהכרעה שיפוטית מהיום.",
+    "summary_en": "**Not verified against a primary source:** The complaint and court docket were not read. Blake Brittain's full Reuters report was reviewed through Schwab, along with its Portuguese distribution by Valor. Schwab shows November 16 at 12:00 p.m. Eastern, 19:00 in Israel. This is yesterday's reporting on a lawsuit filed Friday, not a judicial ruling today.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתב התביעה ורישום בית המשפט לא נקראו. דיווח Reuters המלא מאת Blake Brittain נקרא דרך Schwab, וכן הפצתו בפורטוגזית ב-Valor. Schwab מציגה 16 בנובמבר ב-12:00 שעון החוף המזרחי, כלומר 19:00 בישראל. מדובר בדיווח מאתמול על תביעה שהוגשה ביום שישי, לא בהכרעה שיפוטית מהיום.\n\nלפי Reuters, המכון הטכנולוגי של מסצ'וסטס, MIT, הגיש תביעה נגד Microsoft בבית המשפט הפדרלי במחוז המזרחי של טקסס, בטענה שחומרת Adams Bridge Accelerator המשמשת במרכזי הנתונים של החברה מפרה פטנט שלו בטכנולוגיית הצפנה. מספר התיק המדווח הוא 2:26-cv-01029.\n\nMIT טוען בתביעה שהטכנולוגיה המוגנת משמשת להתגוננות מפני איומי אבטחה ממחשבים קוונטיים, וכי הטכנולוגיה של Microsoft פועלת באותו אופן כהמצאותיו המוגנות. אלו טענות התובע כפי שדווחו, לא קביעה שהתרחשה הפרה או שמערכות Microsoft אינן בטוחות.\n\nלפי Reuters, MIT מבקש פיצויים כספיים בסכום שלא צוין. דוברי Microsoft לא השיבו מיד לבקשת תגובה ביום שני. אין בדיווח פסק דין, צו להפסקת שימוש במוצר, סכום פיצוי שנפסק או הוכחה שנגרמה הפרעה תפעולית למרכזי הנתונים.",
+    "טקסט_en": "**Not verified against a primary source:** The complaint and court docket were not read. Blake Brittain's full Reuters report was reviewed through Schwab, along with its Portuguese distribution by Valor. Schwab shows November 16 at 12:00 p.m. Eastern, 19:00 in Israel. This is yesterday's reporting on a lawsuit filed Friday, not a judicial ruling today.\n\nAccording to Reuters, the Massachusetts Institute of Technology sued Microsoft in the U.S. District Court for the Eastern District of Texas, alleging that Adams Bridge Accelerator hardware used in Microsoft's data centers infringes an MIT cryptography patent. The reported case number is 2:26-cv-01029.\n\nMIT alleges that its patented technology helps defend against cybersecurity threats from quantum computers and that Microsoft's technology works in the same way as its patented innovations. These are the plaintiff's allegations as reported, not a finding of infringement or a conclusion that Microsoft's systems are insecure.\n\nReuters says MIT seeks an unspecified amount of monetary damages. Microsoft spokespeople did not immediately respond to a request for comment on Monday. The report contains no judgment, product-use injunction, damages award or evidence of operational disruption at the data centers.",
+    "קישור": "https://www.schwab.wallst.com/schwab/Prospect/research/stocks/news.asp?doc=3200-nL6N46X122-4&symbol=MSFT",
+    "מקורות": [
+      {
+        "url": "https://www.schwab.wallst.com/schwab/Prospect/research/stocks/news.asp?doc=3200-nL6N46X122-4&symbol=MSFT",
+        "label": "Reuters דרך Schwab: דיווח מלא, זמן ET ומספר תיק",
+        "label_en": "Reuters via Schwab: full report, Eastern time and case number"
+      },
+      {
+        "url": "https://valor.globo.com/empresas/noticia/2026/11/16/mit-processa-microsoft-por-violao-de-patente-relacionada-tecnologia-de-data-centers.ghtml",
+        "label": "Reuters דרך Valor: נוסח מלא בפורטוגזית",
+        "label_en": "Reuters via Valor: full Portuguese text"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "850208941ff372f214b3c10a99c8651a267fe01aaead6e0bd15e769ba2eecc5d"
+      }
+    }
   }
 ]
