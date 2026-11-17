@@ -54584,5 +54584,151 @@
       "source_hash": "5ed8e966119bbe035ecb39ba5e5715078f01da16c7621058d0ea0a9067915888"
     }
   }
-}
+},
+  {
+    "מזהה": "n-1997",
+    "category": "micro",
+    "חברה": "ExxonMobil (XOM)",
+    "חברה_en": "ExxonMobil (XOM)",
+    "symbols": [
+      "XOM"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:18",
+    "הועלה": "2026-11-17 09:18",
+    "כותרת": "פורסם באיחור | ExxonMobil (XOM): החלה הפקת הנפט ב-Uaru בגיאנה; הקיבולת המותקנת הכוללת עלתה ל-1.1 מיליון חביות ביום",
+    "כותרת_en": "Published late | ExxonMobil (XOM): oil production starts at Guyana Uaru; total installed capacity rises to 1.1 million barrels per day",
+    "summary": "תחילת הפקה בפיתוח החמישי בבלוק Stabroek, לא Longtail. הגעה לקיבולת של 250 אלף חביות ביום ב-Uaru צפויה ברבעון הראשון של 2027, לא נתון תפוקה שכבר הושג.",
+    "summary_en": "Production begins at the fifth Stabroek development, not Longtail. Uaru is expected to reach 250,000 barrels per day in Q1 2027; that is not an output rate already achieved.",
+    "קישור": "https://corporate.exxonmobil.com/news/news-releases/2026/1116-exxonmobil-starts-production-at-uaru",
+    "מקורות": [
+      {
+        "url": "https://corporate.exxonmobil.com/news/news-releases/2026/1116-exxonmobil-starts-production-at-uaru",
+        "label": "ExxonMobil: הודעת תחילת ההפקה המקורית, 16 בנובמבר",
+        "label_en": "ExxonMobil: original production-start announcement, November 16"
+      }
+    ],
+    "טקסט": "פורסם באיחור. ExxonMobil הודיעה במקור ראשוני מ-16 בנובמבר 2026 על תחילת הפקת הנפט ב-Uaru, הפיתוח החמישי בבלוק Stabroek מול חופי גיאנה. שעת הפרסום המדויקת לא אומתה.\n\nאוניית ההפקה, האחסון והפריקה Errea Wittu החלה לפעול ומצטרפת לארבע אוניות ההפקה הקיימות. לפי החברה, בכך עלתה קיבולת ההפקה המותקנת בגיאנה ל-1.1 מיליון חביות ביום. זהו נתון קיבולת, לא דיווח על תפוקה יומית בפועל בהיקף זה.\n\nהחברה מצפה ש-Uaru יגיע לקיבולת ההפקה הראשונית שלו, 250 אלף חביות ביום, ברבעון הראשון של 2027. לאונייה נפח אחסון של שני מיליון חביות. תחילת ההפקה היא אבן הדרך שהושגה; יעד קצב ההפקה לרבעון הבא עדיין עתידי.\n\nזהו פרויקט נפרד מ-Longtail, שלגביו כבר סוקרו החלטת ההשקעה וחוזי SBM Offshore. ExxonMobil Guyana מפעילה את בלוק Stabroek ומחזיקה בו 45%; Hess Guyana מחזיקה 30% ו-CNOOC Guyana מחזיקה 25%.",
+    "טקסט_en": "Published late. In a primary-source announcement dated November 16, 2026, ExxonMobil reported the start of oil production at Uaru, the fifth development in Guyana's offshore Stabroek block. The exact publication time was not verified.\n\nThe Errea Wittu floating production, storage and offloading vessel has begun operating alongside the four existing FPSOs. The company says this raises Guyana's installed production capacity to 1.1 million barrels per day. That is a capacity figure, not reported actual daily production at that level.\n\nExxonMobil expects Uaru to reach its initial production capacity of 250,000 barrels per day in the first quarter of 2027. The vessel has storage capacity of two million barrels. Production startup is the completed milestone; next quarter's production-rate target remains forward-looking.\n\nUaru is separate from Longtail, whose investment decision and SBM Offshore contracts were previously covered. ExxonMobil Guyana operates Stabroek with a 45% interest; Hess Guyana holds 30% and CNOOC Guyana 25%.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ac05a3df85bfc070db35e5ecad12e9cea9fd0f2d13bd934a36045ba67c38b909"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1998",
+    "category": "micro",
+    "חברה": "Digital Realty (DLR)",
+    "חברה_en": "Digital Realty (DLR)",
+    "symbols": [
+      "DLR"
+    ],
+    "sectors": [
+      "real_estate"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:18",
+    "הועלה": "2026-11-17 09:18",
+    "כותרת": "פורסם באיחור | Digital Realty (DLR): פתחה בסינגפור מעבדת DRIL לבדיקת תשתיות AI בתוך מתקן SIN11",
+    "כותרת_en": "Published late | Digital Realty (DLR): opens Singapore DRIL for AI infrastructure testing inside SIN11",
+    "summary": "סביבת בדיקות בתוך מרכז נתונים פעיל, עם ארונות בקיבולת 150 קילוואט ומעלה וקירור נוזלי; לא פתיחה של מרכז הנתונים המתוכנן ב-Jurong Island.",
+    "summary_en": "A testing environment inside a live data center, with racks supporting 150 kW and above and liquid cooling; not the opening of the planned Jurong Island data center.",
+    "קישור": "https://www.globenewswire.com/news-release/2026/11/17/3404269/0/en/digital-realty-innovation-lab-dril-launches-in-singapore-enabling-asia-pacific-enterprises-to-validate-and-scale-ai-ready-infrastructure.html",
+    "מקורות": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/11/17/3404269/0/en/digital-realty-innovation-lab-dril-launches-in-singapore-enabling-asia-pacific-enterprises-to-validate-and-scale-ai-ready-infrastructure.html",
+        "label": "Digital Realty: הודעת הפתיחה המקורית והמלאה, 17 בנובמבר",
+        "label_en": "Digital Realty: full original opening announcement, November 17"
+      }
+    ],
+    "טקסט": "Digital Realty הודיעה ב-17 בנובמבר ב-01:15 ET, 08:15 בישראל, על פתיחת Digital Realty Innovation Lab בסינגפור, בתוך מתקן SIN11 הקיים. המעבדה מאפשרת לארגונים באסיה–פסיפיק לבדוק ולאמת שילוב של תשתיות AI ממספר ספקים לפני פריסה רחבה.\n\nלפי החברה, המעבדה כוללת ארונות בקירור נוזלי התומכים בצפיפות הספק של 150 קילוואט ומעלה, תצורות קירור נוזל–נוזל ונוזל–אוויר, תשתית חשמל ותקשורת יתירה וניטור משולב. זוהי סביבת בדיקות במרכז נתונים פעיל, לא הודעה על חוזה לקוח, הכנסות חדשות או קיבולת מסחרית שהושכרה.\n\nהאתר בסינגפור מצטרף למעבדות DRIL קיימות, ובהן סאו פאולו שכבר סוקרה. אין לבלבל את הפתיחה עם פרויקט Jurong Island: ההקצאה הזמנית של 50 מגה-ואט לפרויקט מרכז הנתונים שם ניתנה באוגוסט 2026 והיא הקשר קודם, לא אישור או פתיחה חדשים מהיום.",
+    "טקסט_en": "Digital Realty announced on November 17 at 01:15 ET, 08:15 in Israel, the opening of its Digital Realty Innovation Lab in Singapore inside the existing SIN11 facility. The lab lets Asia-Pacific enterprises test and validate integrated, multi-vendor AI infrastructure before wider deployment.\n\nThe company says the lab has liquid-cooled racks supporting power densities of 150 kW and above, liquid-to-liquid and liquid-to-air cooling configurations, redundant power and connectivity, and integrated monitoring. This is a testing environment inside a live data center, not a new customer contract, revenue announcement or leased commercial-capacity disclosure.\n\nSingapore joins existing DRIL locations, including the previously covered São Paulo lab. The opening should not be confused with the planned Jurong Island data center: the provisional 50 MW allocation for that project was awarded in August 2026 and is prior context, not a new approval or opening today.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "86b58a89e5dfe0d9374a1529a1b4fb37624a04d905e74ea87e52438d36f160fb"
+      }
+    }
+  },
+  {
+    "מזהה": "n-1999",
+    "category": "micro",
+    "חברה": "DoorDash (DASH) / Instacart (CART)",
+    "חברה_en": "DoorDash (DASH) / Instacart (CART)",
+    "symbols": [
+      "DASH",
+      "CART"
+    ],
+    "sectors": [
+      "consumer_discretionary"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:18",
+    "הועלה": "2026-11-17 09:18",
+    "כותרת": "פורסם באיחור | DoorDash (DASH) ו-Instacart (CART): לפי Reuters, משרד המשפטים האמריקאי יבדוק את המיזוג המוצע",
+    "כותרת_en": "Published late | DoorDash (DASH) and Instacart (CART): Reuters says US Justice Department will review proposed merger",
+    "summary": "החידוש הוא זהות הרשות שתבחן את העסקה, לא הסכם רכישה חדש, אישור, תביעה לחסימת המיזוג או השלמת העסקה. הדיווח נשען על שני מקורות המכירים את הנושא.",
+    "summary_en": "The new development is which agency will review the deal, not a new acquisition agreement, clearance, blocking lawsuit or completed transaction. Reuters cites two people familiar with the matter.",
+    "קישור": "https://www.investing.com/news/stock-market-news/exclusivedoordashinstacart-merger-to-be-reviewed-by-doj-sources-say-5031159",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/stock-market-news/exclusivedoordashinstacart-merger-to-be-reviewed-by-doj-sources-say-5031159",
+        "label": "Reuters באמצעות Investing.com: הדיווח המלא מ-16 בנובמבר",
+        "label_en": "Reuters via Investing.com: full November 16 report"
+      },
+      {
+        "url": "https://news.bloomberglaw.com/antitrust/justice-department-to-review-doordash-instacart-deal",
+        "label": "Bloomberg News: דיווח מקביל, 16 בנובמבר ב-23:07 UTC",
+        "label_en": "Bloomberg News: parallel report, November 16 at 23:07 UTC"
+      }
+    ],
+    "טקסט": "**לא מאומת מול מקור ראשוני**\n\nפורסם באיחור. Reuters דיווחה ב-16 בנובמבר כי משרד המשפטים האמריקאי יבחן את רכישת Instacart המוצעת בידי DoorDash, מפי שני מקורות המכירים את הנושא. Bloomberg News פרסמה דיווח מקביל ב-16 בנובמבר ב-23:07 UTC, 17 בנובמבר ב-01:07 בישראל. לא אותרה הודעה רשמית המאשרת את הקצאת הבדיקה.\n\nלפי הדיווחים, משרד המשפטים יוביל את בדיקת ההגבלים העסקיים של העסקה, במקום ה-FTC. ההסכם לרכישת Instacart בכ-17 מיליארד דולר כבר הוכרז באוקטובר וסוקר בנפרד; החידוש כעת הוא זהות הרשות הבודקת, לא חתימת הסכם רכישה חדש.\n\nReuters מציינת שדובר משרד המשפטים מסר הצהרה כללית על תחרות ויוקר המחיה אך סירב להתייחס לעסקה עצמה, ושתי החברות לא הגיבו מיד לפנייתה. בדיקת מיזוג אינה אישור ואינה קביעה שנעברה עבירה. אין בדיווח הודעה על תביעה לחסימת העסקה, תנאי פשרה מוסכמים או השלמת הרכישה.",
+    "טקסט_en": "**Not verified against a primary source**\n\nPublished late. Reuters reported on November 16 that the US Justice Department would review DoorDash's proposed acquisition of Instacart, citing two people familiar with the matter. Bloomberg News published a parallel report on November 16 at 23:07 UTC, November 17 at 01:07 in Israel. No official statement confirming assignment of the review was located.\n\nAccording to the reports, the Justice Department will lead the antitrust review rather than the Federal Trade Commission. The roughly $17 billion Instacart acquisition agreement was announced in October and covered separately; the new development is the reviewing agency, not a newly signed acquisition agreement.\n\nReuters says a DOJ spokesperson made a general statement about competition and affordability but declined to address the transaction specifically, while the two companies did not immediately respond to its requests for comment. A merger review is neither clearance nor a finding of wrongdoing. The report does not announce a lawsuit to block the deal, agreed remedies or completion of the acquisition.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "db58f4cfc0b375577658da27ddfe55ebbc927a38c255ff5725b43378deb025b5"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2000",
+    "category": "micro",
+    "חברה": "Broadridge (BR)",
+    "חברה_en": "Broadridge (BR)",
+    "symbols": [
+      "BR"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:18",
+    "הועלה": "2026-11-17 09:18",
+    "כותרת": "Broadridge (BR): סקר AI בפעילות פוסט-טרייד מצא ש-91% מהמשיבים רוצים יותר דיוק ופחות טעויות",
+    "כותרת_en": "Broadridge (BR): post-trade AI survey finds 91% of respondents want greater accuracy and fewer errors",
+    "summary": "דוח עם ValueExchange, ISSA ו-DeepSee מבוסס על כ-205 תשובות מסקר ברבעון השני של 2026 וראיונות. אלה דיווחי משיבים וציפיות, לא מדדי ביצוע או הכנסות של Broadridge.",
+    "summary_en": "The report with ValueExchange, ISSA and DeepSee draws on about 205 Q2 2026 survey responses and interviews. These are respondents' experiences and expectations, not Broadridge operating or revenue metrics.",
+    "קישור": "https://www.prnewswire.com/news-releases/91-of-capital-markets-respondents-want-ai-to-deliver-greater-accuracy-and-fewer-errors-302941361.html",
+    "מקורות": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/91-of-capital-markets-respondents-want-ai-to-deliver-greater-accuracy-and-fewer-errors-302941361.html",
+        "label": "Broadridge: הודעת הדוח המקורית והמלאה, 17 בנובמבר",
+        "label_en": "Broadridge: full original report announcement, November 17"
+      }
+    ],
+    "טקסט": "Broadridge פרסמה ב-17 בנובמבר ב-02:00 ET, 09:00 בישראל, את הדוח AI in the Real World 2026 על שימוש בבינה מלאכותית בפעילות פוסט-טרייד, עם ValueExchange, איגוד ISSA ו-DeepSee.\n\nלפי הסקר, 91% מהמשיבים רוצים שספקי AI ישפרו דיוק ויפחיתו טעויות תפעוליות, 85% רוצים עיבוד מהיר יותר ו-80% זיהוי וטיפול יזום בבעיות. 49% דיווחו על שימוש בבינה מלאכותית יוצרת בסביבת ייצור, לעומת 11% ב-AI סוכני. 78% אמרו שלכל היותר עשירית ממקרי השימוש שלהם פועלים באופן אוטונומי.\n\nהמחקר מבוסס על כ-205 תשובות לסקר עולמי שנערך ברבעון השני של 2026 ועל ראיונות עם משתתפי שוק, והופק עם ISSA במימון Broadridge ו-DeepSee. אלה חוויות וציפיות שדיווחו המשיבים, לא שיפור מדוד של 91% בדיוק, לא שיעור הטמעה בכלל השוק ולא תוצאות עסקיות של Broadridge. גם הממצא שלפיו 61% צופים שיבוש בינוני עד קריטי אם AI יוסר הוא תשובה לתרחיש היפותטי, לא דיווח על תקלה שהתרחשה.",
+    "טקסט_en": "Broadridge released AI in the Real World 2026 on November 17 at 02:00 ET, 09:00 in Israel, with ValueExchange, ISSA and DeepSee. The report examines AI use in post-trade operations.\n\nThe survey found that 91% of respondents want AI providers to improve accuracy and reduce operational errors, 85% want faster processing and 80% want proactive issue resolution. Some 49% reported generative AI in production, compared with 11% for agentic AI. A total of 78% said no more than one in ten of their AI use cases operates autonomously.\n\nThe research draws on approximately 205 responses to a global survey conducted in Q2 2026, plus interviews with market participants. It was produced with ISSA and sponsored by Broadridge and DeepSee. The figures reflect respondents' reported experiences and expectations, not a measured 91% accuracy improvement, market-wide adoption rates or Broadridge business results. The finding that 61% expect moderate to critical disruption if AI were removed is a hypothetical assessment, not a reported outage.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "6176d775853ba36e9fa6dc5c3234d2134654c36ff0114d8d8a77220e8e436a40"
+      }
+    }
+  }
 ]
