@@ -5500,6 +5500,9 @@ function updatePosSheet(S){
   if(box.querySelectorAll('[data-k]').length !== rows.length) box.innerHTML = posKvHtml(p);
   else rows.forEach(([k,l,v,c])=>{ const el = box.querySelector(`[data-k="${k}"]`); if(!el) return; if(k==='ext'){ const label = el.parentElement.querySelector('span'); if(label && label.textContent!==l) label.textContent = l; } if(el.textContent!==v) el.textContent = v; const cn = c==='nonum'?'':'num '+c; if(el.className.replace(/ ?flash-(up|down)/g,'')!==cn) el.className = cn; });
   const info = $('posInfo'), ih = posInfoHtml(p); if(info && info.innerHTML!==ih) info.innerHTML = ih;
+  const pl = $('posLots'); if(pl){ const lh = lotsHtml(p.sym, p.cur); if(pl.innerHTML!==lh) pl.innerHTML = lh; }   // privacy toggle / data change while the card is open: held lots follow the current mask state
+  const stx = $('symTx'); if(stx){ const sh = symTxHtml(p.sym); if(stx.innerHTML!==sh) stx.innerHTML = sh; }   // same for the per-symbol trade list (container keeps its delegated click handler)
+  const L2 = posLive; if(L2 && L2.avgLine){ const av = !hidden(); if(L2.avgVis!==av){ try{ L2.avgLine.applyOptions({axisLabelVisible:av}); }catch(e){} L2.avgVis = av; } }   // chart avg-cost axis label follows the mask state, no chart redraw
   if(sheetPrice!=null && p.price!=null && Math.abs(p.price-sheetPrice)>1e-9){ const dir = p.price-sheetPrice;
     flash(box.querySelector('[data-k="price"]'), dir); if(!hidden()) flash(box.querySelector('[data-k="mv"]'), dir*(p.qty<0?-1:1)); }
   sheetPrice = p.price;
@@ -5553,9 +5556,10 @@ async function drawPosIntraday(sym, seq){   // v172: the 1D (יום) option – 
   ChartTools.context(el, it, '1D', iv, cnd?'candle':'line'); ChartTools.volume(el, ChartTools.barRows(raw, 'intraday', off), 'CNBC');
   if(q && q.prev) s.createPriceLine({price:q.prev, color:'#94a3b8', lineWidth:1, lineStyle:2, axisLabelVisible:false, title:I18n.p("ux-0610","סגירה")});
   const P = computeLedger().pos[sym];
-  if(P && Math.abs(P.qty)>1e-9 && P.avg){ s.createPriceLine({price:convertCur(P.avg, P.cur, cur), color:'#f59e0b', lineWidth:1, lineStyle:2, axisLabelVisible:!hidden(), title:P.qty<0?I18n.p("ux-0611","מחיר שורט"):I18n.p("ux-0612","עלות")}); }
+  let avgLine = null;
+  if(P && Math.abs(P.qty)>1e-9 && P.avg){ avgLine = s.createPriceLine({price:convertCur(P.avg, P.cur, cur), color:'#f59e0b', lineWidth:1, lineStyle:2, axisLabelVisible:!hidden(), title:P.qty<0?I18n.p("ux-0611","מחיר שורט"):I18n.p("ux-0612","עלות")}); }
   const mks = ChartTools.tradeMarkers(s, sym, iv), lb = data[data.length-1];
-  posLive = {sym, series:s, candle:cnd, intra:true, hcur:cur, bar:Object.assign({}, lb), base:q && q.prev, baseDate:null, ytd:false, day:true};
+  posLive = {sym, series:s, candle:cnd, intra:true, hcur:cur, bar:Object.assign({}, lb), base:q && q.prev, baseDate:null, ytd:false, day:true, avgLine, avgVis:!hidden()};
   renderPosRchg(q && q.price!=null ? q.price : raw[raw.length-1][1]); updatePosLive();
   posChart.timeScale().fitContent();
 }
@@ -5579,11 +5583,12 @@ async function drawPosChart(sym){
   else { s = posChart.addAreaSeries({lineColor:chartTheme().line, topColor:'rgba(37,99,235,.25)', bottomColor:'rgba(37,99,235,.02)', lineWidth:2}); s.setData(bars.map(b=>({time:b[0], value:b[4]}))); }
   ChartTools.context(el,secInst({sym,type:assetOf(sym)?.type||'stock',currency:h.cur}),ui.posRange,'1D',ui.posStyle);ChartTools.volume(el,ChartTools.barRows(bars,'daily'),h.source||'');
   const P = computeLedger().pos[sym];
-  if(P && Math.abs(P.qty)>1e-9 && P.avg){ s.createPriceLine({price:convertCur(P.avg, P.cur, h.cur), color:'#94a3b8', lineWidth:1, lineStyle:2, axisLabelVisible:!hidden(), title:P.qty<0?I18n.p("ux-0613","מחיר שורט"):I18n.p("ux-0614","עלות")}); }
+  let avgLine = null;
+  if(P && Math.abs(P.qty)>1e-9 && P.avg){ avgLine = s.createPriceLine({price:convertCur(P.avg, P.cur, h.cur), color:'#94a3b8', lineWidth:1, lineStyle:2, axisLabelVisible:!hidden(), title:P.qty<0?I18n.p("ux-0613","מחיר שורט"):I18n.p("ux-0614","עלות")}); }
   const mks=ChartTools.tradeMarkers(s,sym,'1D');
   // change over the range: YTD = vs the 31/12 close of last year; other ranges = vs the last close before the range (else its first close)
   const baseBar = hAdj.filter(b=>b[0] < from).pop() || bars[0];
-  const lb = bars[bars.length-1]; posLive = {sym, series:s, candle: ui.posStyle==='candle' && h.ohlc, hcur:h.cur, bar:{time:lb[0], open:lb[1], high:lb[2], low:lb[3], close:lb[4]}, base:baseBar[4], baseDate:baseBar[0], ytd};
+  const lb = bars[bars.length-1]; posLive = {sym, series:s, candle: ui.posStyle==='candle' && h.ohlc, hcur:h.cur, bar:{time:lb[0], open:lb[1], high:lb[2], low:lb[3], close:lb[4]}, base:baseBar[4], baseDate:baseBar[0], ytd, avgLine, avgVis:!hidden()};
   renderPosRchg(lb[4]); updatePosLive();   // live quote right away
   posChart.timeScale().fitContent();
   posNoteX = '';
