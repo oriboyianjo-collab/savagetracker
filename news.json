@@ -54257,5 +54257,71 @@
         "source_hash": "d75d6725c7216c948a68d363d180ac8051906c8e6fef1004f5cedc93e1f5babe"
       }
     }
+  },
+  {
+    "מזהה": "n-1990",
+    "category": "macro",
+    "חברה": "ארה\"ב - סקירת בוקר",
+    "חברה_en": "US - Morning preview",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 07:47",
+    "הועלה": "2026-11-17 07:47",
+    "כותרת": "בוקר וול סטריט | שלישי 17 בנובמבר: מכירות קמעונאיות, ייצור תעשייתי ודוברי הפד",
+    "כותרת_en": "Wall Street morning | Tuesday, November 17: retail sales, industrial production and Fed speakers",
+    "summary": "המוקד ב-15:30 וב-16:15 שעון ישראל; תחזיות מול נתון קודם, לוח דוברים וההבדל בין רכיבי המכירות.",
+    "summary_en": "Focus on 15:30 and 16:15 Israel time; forecasts versus prior readings, Fed speakers and the distinction between retail-sales measures.",
+    "קישור": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-11-13/upcoming.htm",
+    "מקורות": [
+      {
+        "url": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-11-13/upcoming.htm",
+        "label": "TD/Bloomberg: תחזיות ונתונים קודמים, 13 בנובמבר",
+        "label_en": "TD/Bloomberg: November 13 forecasts and prior readings"
+      },
+      {
+        "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
+        "label": "Census: מועדי המכירות הקמעונאיות והמלאים",
+        "label_en": "Census: advance retail sales and inventory schedules"
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+        "label": "הפד: ייצור תעשייתי, וולר ופרוטוקול הישיבה",
+        "label_en": "Fed: industrial production, Waller and meeting minutes"
+      },
+      {
+        "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+        "label": "BLS: לוח מחירי היבוא והיצוא",
+        "label_en": "BLS: import and export price schedule"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/retail-sales-and-oil-inventories-among-economic-data-due-tuesday-93CH-5030728",
+        "label": "Investing: תחזיות נוספות בסקירת 16 בנובמבר",
+        "label_en": "Investing: additional forecasts in November 16 preview"
+      },
+      {
+        "url": "https://www.nahb.org/news-and-economics/housing-economics/indices/nahb-wells-fargo-housing-market-index-release-dates",
+        "label": "NAHB: מועד מדד אמון הקבלנים",
+        "label_en": "NAHB: builder-confidence release schedule"
+      },
+      {
+        "url": "https://www.brookings.edu/events/strengthening-the-resilience-and-liquidity-of-the-us-treasury-market/",
+        "label": "Brookings: הופעת בת' האמק",
+        "label_en": "Brookings: Beth Hammack appearance"
+      },
+      {
+        "url": "https://www.wrightson.com/fedspeak-database",
+        "label": "Wrightson: לוח דוברי הפד",
+        "label_en": "Wrightson: Fed-speaker schedule"
+      }
+    ],
+    "טקסט": "בוקר וול סטריט, יום שלישי 17 בנובמבר 2026. כל השעות להלן בשעון ישראל. לוחות הפרסום נבדקו הבוקר; פער השעות מול ניו יורק היום הוא שבע שעות.\n\n15:30 | מכירות קמעונאיות בארה\"ב לאוקטובר. קונצנזוס Bloomberg בטבלת TD Economics מ-13 בנובמבר: עלייה חודשית של 0.2%, לעומת 0.8% בחודש הקודם. ללא רכב ודלק: 0.3% לעומת 0.2%. אלה תחזיות מאותו פרסום, לא תוצאות ולא הבטחה שזה הקונצנזוס העדכני ביותר ברגע הקריאה.\n\nלהבחין בין הסדרות: המכירות ללא רכב בלבד אינן המכירות ללא רכב ודלק. בסקירת Investing מ-16 בנובמבר, התחזית ללא רכב היא 0.4% לעומת 0.9%; לקבוצת הבקרה התחזית 0.4% לעומת 0.1%. קבוצת הבקרה מוציאה גם חומרי בנייה ושירותי מזון. הנתונים הקודמים עשויים להתעדכן בפרסום היום. מכירות קמעונאיות נמדדות בכסף ואינן מנוכות לשינויי מחירים, ולכן כותרת חלשה או חזקה לבדה אינה מדד נקי לכמות הצריכה.\n\n15:30 | מחירי היבוא והיצוא לאוקטובר. מועד הפרסום מאושר בלוח BLS. תחזיות בסקירת Investing מ-16 בנובמבר: מחירי יבוא 0.7% בחודש לעומת 1.1%; מחירי יצוא 0.3% לעומת 2.2%. אין לערבב את השינויים החודשיים האלה עם שיעורים שנתיים.\n\n16:15 | ייצור תעשייתי וניצולת כושר הייצור לאוקטובר. לפי אותה טבלת Bloomberg/TD: ייצור תעשייתי 0.1% בחודש לעומת 0.7%; ניצולת 76.8% לעומת 76.9%. מועד 09:15 בניו יורק מאושר בלוח הפד. הייצור הוא מדד תפוקה, ואילו הניצולת היא רמת השימוש בכושר הייצור, לא שיעור צמיחה חודשי.\n\n17:00 | מלאים עסקיים לספטמבר: תחזית Bloomberg/TD לעלייה חודשית של 0.5% לעומת 0.4%. במקביל, מדד אמון הקבלנים NAHB לנובמבר: 29 נקודות לעומת 29. אלה תקופות דיווח שונות; NAHB הוא מדד סנטימנט, לא נתון התחלות בנייה.\n\nדוברי הפד: 14:30 אלברטו מוסלם בארגנטינה, לפי לוח TD/Wrightson; 16:10 כריסטופר וולר על תשלומים, לפי לוח מועצת הפד; 16:30 בת' האמק על חוסן ונזילות שוק אג\"ח האוצר, לפי Brookings; 21:25 ג'ון ויליאמס בשיחה, לפי TD/Wrightson. שעות דוברים עשויות להשתנות. נושא תשלומים או מבנה שוק אינו כשלעצמו איתות ריבית חדש.\n\nמה לבחון: הרכב המכירות והתיקונים לחודש הקודם, ולא רק הכותרת; האם תפוקת התעשייה מאשרת או סותרת את תמונת הביקוש; ובדברי הפד, הבחנה בין התייחסות למדיניות מוניטרית לבין נושאי הכנס. אין כאן תחזית לכיוון השוק או תמונת מחירים חיה.\n\nמבט למחר בלבד: פרוטוקול ישיבת הפד מ-27–28 באוקטובר מופיע בלוח הרשמי ליום רביעי 18 בנובמבר, ב-21:00 ישראל, ולא להיום.",
+    "טקסט_en": "Wall Street morning, Tuesday, November 17, 2026. All times below are Israel time. Release schedules were checked this morning; Israel is seven hours ahead of New York today.\n\n15:30 | October US retail sales. The Bloomberg consensus in TD Economics' November 13 table is +0.2% month over month, versus +0.8% previously. Excluding autos and gasoline: +0.3% versus +0.2%. These are forecasts from that publication, not results or a claim that they are the latest consensus at the moment of reading.\n\nKeep the series separate: ex-autos is not ex-autos-and-gasoline. Investing's November 16 preview lists ex-autos at +0.4% versus +0.9%, and the control group at +0.4% versus +0.1%. The control group also excludes building materials and food services. Prior readings may be revised today. Retail sales are measured in dollars and are not adjusted for price changes, so the headline alone is not a clean measure of consumption volumes.\n\n15:30 | October import and export prices. The BLS calendar confirms the release time. Forecasts in Investing's November 16 preview: import prices +0.7% month over month versus +1.1%; export prices +0.3% versus +2.2%. These monthly changes should not be confused with annual rates.\n\n16:15 | October industrial production and capacity utilization. The same Bloomberg/TD table lists production at +0.1% month over month versus +0.7%, and utilization at 76.8% versus 76.9%. The Fed confirms the 09:15 New York release time. Production measures output; utilization is a level of capacity use, not a monthly growth rate.\n\n17:00 | September business inventories: Bloomberg/TD forecast +0.5% month over month versus +0.4%. At the same time, November NAHB builder confidence: 29 points versus 29. The reference periods differ, and NAHB measures sentiment, not housing starts.\n\nFed speakers: 14:30 Alberto Musalem in Argentina, per TD/Wrightson; 16:10 Christopher Waller on payments, per the Federal Reserve Board; 16:30 Beth Hammack on Treasury-market resilience and liquidity, per Brookings; 21:25 John Williams in a fireside chat, per TD/Wrightson. Speaker schedules can change. A payments or market-structure topic is not itself a new interest-rate signal.\n\nWhat to watch: the composition of retail sales and revisions to the prior month, not just the headline; whether industrial output supports or contradicts the demand picture; and whether Fed speakers address monetary policy rather than only the conference topic. This is not a market-direction forecast or a live price snapshot.\n\nLooking ahead, not today's event: the official Fed calendar schedules minutes of the October 27-28 meeting for Wednesday, November 18, at 21:00 Israel time.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4e3f62a58421801a864d267b8acbd20fc13b9de8614439f6de1867dfa0c19852"
+      }
+    }
   }
 ]
