@@ -60458,5 +60458,104 @@
         "source_hash": "a7b14e0bb2c98444a2945dcade1e5f8fefab669eeaf0bd9708e8ce884f545e86"
       }
     }
+  },
+  {
+    "מזהה": "n-2168",
+    "category": "micro",
+    "חברה": "Watsco (WSO)",
+    "חברה_en": "Watsco (WSO)",
+    "symbols": [
+      "WSO"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:14",
+    "הועלה": "2026-11-17 12:14",
+    "כותרת": "פורסם באיחור | Watsco (WSO): לפי MarketBeat, Morgan Stanley העלתה יעד מ-330 ל-340 דולר עם Equal Weight; המניה ירדה מתחת לממוצע 50 יום",
+    "כותרת_en": "Published late | Watsco (WSO): MarketBeat reports Morgan Stanley target raised to $340 from $330 with Equal Weight; shares crossed below 50-day average",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת MarketBeat המלאה מ-17 בנובמבר 2026 נקראה, אך לא דוח Morgan Stanley המקורי או נתוני מסחר עצמאיים. שעת פרסום הכתבה לא אומתה; פעולת האנליסט והמסחר מתוארכים ליום שני, 16 בנובמבר, לא למסחר אמריקאי שכבר התקיים ביום שלישי.",
+    "summary_en": "**Not verified against a primary source:** MarketBeat's full November 17, 2026 article was read, not Morgan Stanley's original report or independently checked trading data. The article clock was not verified. The analyst action and trading refer to Monday, November 16, not US trading already completed on Tuesday.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת MarketBeat המלאה מ-17 בנובמבר 2026 נקראה, אך לא דוח Morgan Stanley המקורי או נתוני מסחר עצמאיים. שעת פרסום הכתבה לא אומתה; פעולת האנליסט והמסחר מתוארכים ליום שני, 16 בנובמבר, לא למסחר אמריקאי שכבר התקיים ביום שלישי.\n\nלפי האתר, Morgan Stanley העלתה את יעד המחיר ל-Watsco מ-330 ל-340 דולר ושמרה על Equal Weight. זו העלאת יעד, לא שדרוג ל-Buy. לא מוצג בכתבה נימוק מפורט לשינוי, ולכן אין לייחס אותו להזמנה חדשה, שיפור תחזית החברה או גורם מסוים שלא צוין.\n\nבאותה כתבה דווח שהמניה ירדה מתחת לממוצע 50 יום של 305.61 דולר, נגעה ב-294.80 דולר ונסחרה לאחרונה ב-296.2340 דולר במחזור של 531,284 מניות. אלה נתוני המסחר ההיסטוריים שהאתר מייחס ליום שני, לא מחיר חי או רמת תמיכה מובטחת.\n\nחציית ממוצע נע היא תצפית טכנית, לא הודעת חברה או הוכחה שהמגמה תימשך. יעד האנליסט הוא הערכה שאינה מחייבת. תוצאות אוקטובר, דיבידנד ששולם באוקטובר והחזקות מוסדיות שהכתבה מצרפת כרקע אינם מוצגים כאן כאירועים חדשים באותו יום.",
+    "טקסט_en": "**Not verified against a primary source:** MarketBeat's full November 17, 2026 article was read, not Morgan Stanley's original report or independently checked trading data. The article clock was not verified. The analyst action and trading refer to Monday, November 16, not US trading already completed on Tuesday.\n\nThe site says Morgan Stanley raised its Watsco price target to $340 from $330 while retaining Equal Weight. This is a target increase, not an upgrade to Buy. The article gives no detailed rationale, so no new order, company-guidance improvement or unstated driver is attributed to it.\n\nThe same article says shares crossed below the $305.61 50-day moving average, touched $294.80 and last traded at $296.2340 on 531,284 shares. These are the site's historical Monday-session figures, not a live quote or guaranteed support level.\n\nA moving-average crossing is a technical observation, not a company announcement or proof a trend will continue. An analyst target is an uncertain estimate. October results, the October-paid dividend and institutional holdings appended as background are not presented as fresh same-day events.",
+    "קישור": "https://www.marketbeat.com/instant-alerts/price-watsco-nyse-wso-stock-price-crosses-below-50-day-moving-average-heres-what-happened-2026-11-17/",
+    "מקורות": [
+      {
+        "url": "https://www.marketbeat.com/instant-alerts/price-watsco-nyse-wso-stock-price-crosses-below-50-day-moving-average-heres-what-happened-2026-11-17/",
+        "label": "MarketBeat: דיווח משני על יעד ומסחר",
+        "label_en": "MarketBeat: secondary analyst-target and trading report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ee21a18d4aacb277716d619bec0d01ef1f1e2a07debf96ed6ea2663a4c8ac2e8"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2169",
+    "category": "micro",
+    "חברה": "Emerson Electric (EMR)",
+    "חברה_en": "Emerson Electric (EMR)",
+    "symbols": [
+      "EMR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:14",
+    "הועלה": "2026-11-17 12:14",
+    "כותרת": "פורסם באיחור | Emerson Electric (EMR): לפי Simply Wall St, קונצנזוס 2027 עומד על הכנסות של כ-19.9 מיליארד דולר ו-EPS סטטוטורי של 5.72 דולר",
+    "כותרת_en": "Published late | Emerson Electric (EMR): Simply Wall St puts 2027 consensus near $19.9 billion revenue and $5.72 statutory EPS",
+    "summary": "**לא מאומת מול מקור ראשוני:** ניתוח Simply Wall St המלא מ-7 בנובמבר 2026, 13:17 UTC, כלומר 15:17 בישראל, נקרא. אלו אומדני קונצנזוס שאסף האתר לאחר הדוחות, לא תחזית חדשה של Emerson ולא תוצאות שפורסמו לראשונה ב-7 בנובמבר.",
+    "summary_en": "**Not verified against a primary source:** Simply Wall St's full November 7, 2026 analysis at 13:17 UTC, 15:17 in Israel, was read. These are the site's post-results consensus estimates, not new Emerson guidance or results first released November 7.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** ניתוח Simply Wall St המלא מ-7 בנובמבר 2026, 13:17 UTC, כלומר 15:17 בישראל, נקרא. אלו אומדני קונצנזוס שאסף האתר לאחר הדוחות, לא תחזית חדשה של Emerson ולא תוצאות שפורסמו לראשונה ב-7 בנובמבר.\n\nלפי האתר, 22 אנליסטים צופים הכנסות של כ-19.9 מיליארד דולר ב-2027 ורווח סטטוטורי למניה של 5.72 דולר. לפני הדוחות הקונצנזוס שהאתר מציג היה כ-20.0 מיליארד דולר ו-5.67 דולר בהתאמה. הכתבה מתארת את ההערכות ככמעט ללא שינוי, אף שהמספרים המעוגלים משקפים עדכון קטן; אין להציג אותם כזהים לחלוטין או כשינוי חד.\n\nיעד המחיר הממוצע המוצג נותר 182 דולר, עם טווח של 104 עד 208 דולר. אלה יעדי אנליסטים שנאספו באתר, לא יעד שהחברה קבעה, התחייבות למחיר או המלצת קנייה עצמאית.\n\nה-EPS הסטטוטורי של 5.72 דולר הוא אומדן האנליסטים, ואין להחליפו בתחזית GAAP של החברה או לסווגו כרווח מתואם ללא בסיס. תוצאות השנה שכבר פורסמו, לרבות EPS של 4.79 דולר, הן רק הרקע לניתוח. אין כאן דוח רווח חדש, תוספת הכנסות שהושגה או אישור שתחזית 2027 תתממש.",
+    "טקסט_en": "**Not verified against a primary source:** Simply Wall St's full November 7, 2026 analysis at 13:17 UTC, 15:17 in Israel, was read. These are the site's post-results consensus estimates, not new Emerson guidance or results first released November 7.\n\nThe site says 22 analysts forecast about $19.9 billion revenue and $5.72 statutory EPS in 2027, compared with approximately $20.0 billion and $5.67 before results. The article characterizes expectations as largely unchanged, although its rounded figures show a small update. They are not represented as precisely identical or a major revision.\n\nIts mean price target remains $182, with a $104–208 range. These are analyst targets collected by the site, not a company-set objective, price commitment or independent Buy recommendation.\n\nThe $5.72 statutory EPS is an analyst estimate, not interchangeable with the company's GAAP guidance or an adjusted EPS figure without support. Previously issued full-year results, including $4.79 EPS, are background to this analysis. This is not a fresh earnings report, achieved incremental revenue or confirmation that 2027 estimates will be met.",
+    "קישור": "https://simplywall.st/stocks/us/capital-goods/nyse-emr/emerson-electric/news/earnings-update-emerson-electric-co-nyseemr-just-reported-it",
+    "מקורות": [
+      {
+        "url": "https://simplywall.st/stocks/us/capital-goods/nyse-emr/emerson-electric/news/earnings-update-emerson-electric-co-nyseemr-just-reported-it",
+        "label": "Simply Wall St: ניתוח קונצנזוס משני מ-7 בנובמבר",
+        "label_en": "Simply Wall St: secondary November 7 consensus analysis"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4c2b5bb10280908c0f439a0b3809e9235a7d8b18a63688898d1993f2f97f13d3"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2170",
+    "category": "micro",
+    "חברה": "Verizon (VZ)",
+    "חברה_en": "Verizon (VZ)",
+    "symbols": [
+      "VZ"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:14",
+    "הועלה": "2026-11-17 12:14",
+    "כותרת": "פורסם באיחור | Verizon (VZ): ניתוח Simply Wall St טוען לערך גבוה יותר לפי DCF; תרחישי שור ודוב נשענים על הנחות שונות",
+    "כותרת_en": "Published late | Verizon (VZ): Simply Wall St DCF opinion argues for higher value; bull and bear narratives use different assumptions",
+    "summary": "**לא מאומת מול מקור ראשוני:** מאמר הדעה המלא של Simply Wall St מ-16 בנובמבר 2026, 22:14 UTC, כלומר 17 בנובמבר ב-00:14 בישראל, נקרא. זו הערכת שווי באתר המבוססת על נתונים היסטוריים ותחזיות, לא העלאת יעד של ברוקר או תחזית חדשה מ-Verizon.",
+    "summary_en": "**Not verified against a primary source:** Simply Wall St's full opinion article dated November 16, 2026 at 22:14 UTC, November 17 at 00:14 in Israel, was read. It is a valuation view based on historical data and forecasts, not a broker target upgrade or fresh Verizon guidance.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** מאמר הדעה המלא של Simply Wall St מ-16 בנובמבר 2026, 22:14 UTC, כלומר 17 בנובמבר ב-00:14 בישראל, נקרא. זו הערכת שווי באתר המבוססת על נתונים היסטוריים ותחזיות, לא העלאת יעד של ברוקר או תחזית חדשה מ-Verizon.\n\nהמאמר טוען שמודל היוון תזרים המזומנים שלו מצביע על ערך פנימי הגבוה משמעותית ממחיר הייחוס של 46.36 דולר. הוא משתמש בתזרים חופשי של כ-18.6 מיליארד דולר ב-12 החודשים האחרונים ובהנחות צמיחה עתידית, הוצאות הון והתייעלות. לא פורסמו בגוף שנקרא תוצאת DCF מספרית מלאה או כל ההנחות הנדרשות לשחזור עצמאי.\n\nלצד ה-DCF מוצגים תרחישים נפרדים: נרטיב שורי של כ-10% תמחור חסר ונרטיב דובי של כ-5% תמחור יתר. אין לייחס את ה-10% כתוצאת ה-DCF עצמו או להציג את שני התרחישים כאומדן אחד ודאי.\n\nקיצוץ הוצאות, אוטומציית רשת מבוססת AI, סיבים ותחרות עתידית משמשים הנחות לתזה. אין כאן הודעה מקורית על תוכנית חדשה, חוזה חדש או חיסכון שכבר הושג. אזכור הסכם Google בתוך ציטוט נרטיב אינו אימות עצמאי של חוזה, והמספר אינו מוצג כאן כחדשה מאומתת.\n\n46.36 דולר הוא מחיר הייחוס ההיסטורי של המאמר, לא מחיר מסחר חי. הערכת שווי רגישה לתזרים, ריבית והנחות; היא אינה הבטחת תשואה או המלצה אישית.",
+    "טקסט_en": "**Not verified against a primary source:** Simply Wall St's full opinion article dated November 16, 2026 at 22:14 UTC, November 17 at 00:14 in Israel, was read. It is a valuation view based on historical data and forecasts, not a broker target upgrade or fresh Verizon guidance.\n\nThe article argues its discounted-cash-flow model indicates intrinsic value meaningfully above its $46.36 reference share price. It uses approximately $18.6 billion trailing-twelve-month free cash flow and assumptions about growth, capital spending and efficiency. The body reviewed gives neither a full numerical DCF result nor all assumptions needed for independent replication.\n\nSeparate narratives describe a roughly 10% undervalued bull case and a roughly 5% overvalued bear case. The 10% is not represented as the DCF output, nor are those alternative cases combined into a single certain estimate.\n\nCost cuts, AI-driven network automation, fiber and future competition are thesis assumptions. This is not an original announcement of a new plan, contract or achieved saving. A Google agreement cited within a narrative quotation is not independently verified contract evidence; its amount is not presented here as confirmed news.\n\nThe $46.36 is the article's historical reference price, not a live quote. Valuations depend on cash flow, interest rates and assumptions; they are neither a return guarantee nor personal advice.",
+    "קישור": "https://simplywall.st/stocks/us/telecom/nyse-vz/verizon-communications/news/verizon-vz-stock-looks-undervalued-as-cash-flow-supports-mor/amp",
+    "מקורות": [
+      {
+        "url": "https://simplywall.st/stocks/us/telecom/nyse-vz/verizon-communications/news/verizon-vz-stock-looks-undervalued-as-cash-flow-supports-mor/amp",
+        "label": "Simply Wall St: מאמר דעה והערכת שווי",
+        "label_en": "Simply Wall St: valuation opinion and narratives"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "99948237454f6f400b491b0b5f55b5319da73e83fddf1737d530dccc34d44182"
+      }
+    }
   }
 ]
