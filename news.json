@@ -60557,5 +60557,43 @@
         "source_hash": "99948237454f6f400b491b0b5f55b5319da73e83fddf1737d530dccc34d44182"
       }
     }
+  },
+  {
+    "מזהה": "n-2171",
+    "category": "micro",
+    "חברה": "NVIDIA (NVDA)",
+    "חברה_en": "NVIDIA (NVDA)",
+    "symbols": [
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 12:19",
+    "הועלה": "2026-11-17 12:19",
+    "כותרת": "פורסם באיחור | NVIDIA (NVDA): לפי דיווחי תקשורת, תג השיוך של Huang ב-X הוסר ו-Musk הציע להשיב את הסימון הכחול; אין החלטת מנכ\"ל חדשה",
+    "כותרת_en": "Published late | NVIDIA (NVDA): media report Huang lost X affiliation badge and Musk offered a free blue check; no new CEO decision established",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבות India Today ו-Hindustan Times מ-17 בנובמבר 2026 נקראו במלואן, אך פרופיל X והפוסטים המקוריים לא נבדקו. India Today מסמנת פרסום ב-14:25 שעון הודו, 10:55 בישראל; Hindustan Times מסמנת עדכון ב-14:42:29 בהודו, 11:12:29 בישראל. זמני הכתבות אינם אימות למועד שינוי הפרופיל עצמו.",
+    "summary_en": "**Not verified against a primary source:** Full November 17, 2026 India Today and Hindustan Times articles were read, but the original X profile and posts were not checked. India Today displays 14:25 India time, 10:55 in Israel; Hindustan Times displays an update at 14:42:29 India time, 11:12:29 in Israel. Article timestamps do not establish when the profile itself changed.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבות India Today ו-Hindustan Times מ-17 בנובמבר 2026 נקראו במלואן, אך פרופיל X והפוסטים המקוריים לא נבדקו. India Today מסמנת פרסום ב-14:25 שעון הודו, 10:55 בישראל; Hindustan Times מסמנת עדכון ב-14:42:29 בהודו, 11:12:29 בישראל. זמני הכתבות אינם אימות למועד שינוי הפרופיל עצמו.\n\nלפי שני כלי התקשורת, משתמשים שיתפו צילומי מסך שבהם נעלמו מהחשבון המיוחס ל-Jensen Huang הסימון הכחול ותג השיוך הארגוני ל-NVIDIA. Hindustan Times מתארת גם שינוי הביוגרפיה ל-Founder of NVIDIA. אלה תיאורים עיתונאיים של פרופיל ברשת חברתית, לא הודעת חברה עצמאית שנבדקה.\n\nהכתבות מייחסות ל-Elon Musk תגובה שלפיה ישיב את הסימון הכחול ללא תשלום. מדובר בהצעה או כוונה המיוחסת לו, לא אישור שהסימון כבר הוחזר, שהשיוך הארגוני חודש או שהתקבלה החלטת העסקה.\n\nאין להסיק מצילומי הפרופיל מי ביצע את השינוי, מה הייתה הסיבה או שהדירקטוריון קיבל החלטה חדשה על תפקיד מנכ\"ל, חזרה לתפקיד או הפרת יצוא. גם מחיר, תנאי מנוי וזכויות השימוש ב-X לא נבדקו כאן. הידיעה מוגבלת לדיווח התקשורתי על שינוי סמלי בפרופיל ולתגובה המיוחסת ל-Musk, ולא מחליפה את הודעות הממשל התאגידי המקוריות.",
+    "טקסט_en": "**Not verified against a primary source:** Full November 17, 2026 India Today and Hindustan Times articles were read, but the original X profile and posts were not checked. India Today displays 14:25 India time, 10:55 in Israel; Hindustan Times displays an update at 14:42:29 India time, 11:12:29 in Israel. Article timestamps do not establish when the profile itself changed.\n\nBoth outlets report that users shared screenshots showing the blue checkmark and NVIDIA corporate affiliation badge missing from the account attributed to Jensen Huang. Hindustan Times also describes the bio changing to Founder of NVIDIA. These are journalistic descriptions of a social profile, not an independently checked company announcement.\n\nThe articles attribute to Elon Musk a response offering to restore the blue check for free. That is an attributed offer or intention, not confirmation the check has returned, corporate affiliation has resumed or an employment decision has been made.\n\nThe profile images do not establish who made the change, why, or any fresh board decision on a CEO role, reinstatement or export violation. X pricing, subscription terms and account rights were not checked here. This item is limited to media reporting about symbolic profile changes and the attributed Musk response, not a replacement for original corporate-governance announcements.",
+    "קישור": "https://www.indiatoday.in/technology/news/story/jensen-huang-lost-blue-tick-on-x-elon-musk-now-offers-it-for-free-3040652-2026-11-17",
+    "מקורות": [
+      {
+        "url": "https://www.indiatoday.in/technology/news/story/jensen-huang-lost-blue-tick-on-x-elon-musk-now-offers-it-for-free-3040652-2026-11-17",
+        "label": "India Today: דיווח משני על פרופיל X ותגובת Musk",
+        "label_en": "India Today: secondary X-profile and Musk-response report"
+      },
+      {
+        "url": "https://www.hindustantimes.com/trending/jensen-huang-s-x-account-loses-blue-tick-after-nvidia-exit-elon-musk-offers-free-restoration-101794906309301.html",
+        "label": "Hindustan Times: דיווח משני נוסף",
+        "label_en": "Hindustan Times: additional secondary report"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4f75c9a9bcf9a74c1a943301b46d00c1b27890144d455f29fbc8f020282424ec"
+      }
+    }
   }
 ]
