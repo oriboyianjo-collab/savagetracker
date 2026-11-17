@@ -56424,5 +56424,332 @@
         "source_hash": "e1efff1a132e9fa9ab586915d56dd327a16aba97c36fb0e74bf81597ad5822fd"
       }
     }
+  },
+  {
+    "מזהה": "n-2051",
+    "category": "micro",
+    "חברה": "Bright Horizon Energy (HZN)",
+    "חברה_en": "Bright Horizon Energy (HZN)",
+    "symbols": [
+      "HZN",
+      "NWE",
+      "BKH"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:52",
+    "הועלה": "2026-11-17 09:52",
+    "כותרת": "פורסם באיחור | Bright Horizon Energy (HZN): לפי Daily Montanan, הוגשה עתירה נגד אישור מונטנה למיזוג; אין כאן פסק דין המבטל את העסקה",
+    "כותרת_en": "Published late | Bright Horizon Energy (HZN): Daily Montanan reports petition challenging Montana merger approval; no ruling undoing the deal",
+    "summary": "**לא מאומת מול מקור ראשוני משפטי:** העתירה עצמה לא נקראה ישירות. הכתבה המלאה של Daily Montanan, מאת Keila Szpaller, פורסמה ב-16 בנובמבר בשעה 23:48:09 UTC, 17 בנובמבר 01:48:09 בישראל.",
+    "summary_en": "**Not verified against a primary legal source:** The petition itself was not read directly. Keila Szpaller's full Daily Montanan article was published November 16 at 23:48:09 UTC, November 17 at 01:48:09 in Israel.",
+    "טקסט": "**לא מאומת מול מקור ראשוני משפטי:** העתירה עצמה לא נקראה ישירות. הכתבה המלאה של Daily Montanan, מאת Keila Szpaller, פורסמה ב-16 בנובמבר בשעה 23:48:09 UTC, 17 בנובמבר 01:48:09 בישראל.\n\nלפי הכתבה, 350 Montana ו-Montana Farmers Union הגישו ב-16 בנובמבר עתירה לבית המשפט המחוזי ב-Lewis and Clark County נגד צו נציבות השירותים הציבוריים של מונטנה שאישר את מיזוג NorthWestern Energy ו-Black Hills. העותרות טוענות שסגירת חלק מדיון הנציבות לציבור הפרה את חוקת המדינה ושסיכוני המיזוג לא נבחנו כראוי. אלה טענות העותרות, לא קביעות בית משפט.\n\nהסעדים המבוקשים כוללים ביטול הצו במידה שהוא מתיר את השלמת המיזוג, עצירת העסקה ומניעת העברת זכויות מסוימות בתחנת Colstrip. אין בדיווח פסק דין, צו עיכוב שהתקבל או אישור שהמיזוג בוטל. הנציבות מסרה שטרם הומצאה לה העתירה; החברה סירבה להגיב להליך תלוי ועומד.\n\nזהו סיכון משפטי חדש ונפרד מהשלמת המיזוג ומעבר המסחר ל-HZN שכבר סוקרו. טענת עורכת הדין שהליך הבחינה עדיין פתוח אינה מוצגת כאן כקביעה המבטלת את ההשלמה שעליה דיווחו מסמכי הפעולה התאגידית.",
+    "טקסט_en": "**Not verified against a primary legal source:** The petition itself was not read directly. Keila Szpaller's full Daily Montanan article was published November 16 at 23:48:09 UTC, November 17 at 01:48:09 in Israel.\n\nAccording to the article, 350 Montana and Montana Farmers Union filed a November 16 petition in Lewis and Clark County District Court challenging the Montana Public Service Commission order approving the NorthWestern Energy-Black Hills merger. They allege that closing part of the commission's meeting violated the state constitution and that merger risks were not properly assessed. These are petitioners' allegations, not court findings.\n\nRequested relief includes voiding the order to the extent it authorizes consummation, stopping the transaction and restricting certain Colstrip ownership transfers. The report does not identify a judgment, granted stay or cancellation of the merger. The commission said it had not been served; the company declined comment on pending litigation.\n\nThis is a separate legal-risk development from the merger completion and HZN trading transition already reported. Counsel's argument that review remains open is not presented as a ruling reversing the completion described in corporate-action documents.",
+    "קישור": "https://dailymontanan.com/2026/11/16/merger-of-northwestern-energy-black-hills-lands-in-court/",
+    "מקורות": [
+      {
+        "url": "https://dailymontanan.com/2026/11/16/merger-of-northwestern-energy-black-hills-lands-in-court/",
+        "label": "Daily Montanan: דיווח מלא על העתירה",
+        "label_en": "Daily Montanan: full report on the petition"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "89470062d1e48910148b10d32dbde1b13ffcc813a920ae11e69b51584c1ae726"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2052",
+    "category": "micro",
+    "חברה": "SharkNinja (SN)",
+    "חברה_en": "SharkNinja (SN)",
+    "symbols": [
+      "SN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:52",
+    "הועלה": "2026-11-17 09:52",
+    "כותרת": "פורסם באיחור | SharkNinja (SN): דיווחים: Stifel החלה סיקור בדירוג Buy; מקורות חלוקים על מחיר היעד",
+    "כותרת_en": "Published late | SharkNinja (SN): reports say Stifel starts coverage at Buy; sources disagree on price target",
+    "summary": "**לא מאומת מול מקור ראשוני:** דוח Stifel המקורי לא נקרא. Investing.com ו-TheFly דרך TipRanks מדווחות שתיהן על תחילת סיקור SharkNinja בדירוג Buy, אך חלוקות על מחיר היעד: Investing.com מציינת 256 דולר, ואילו TheFly מציינת 255 דולר. אף אחד מהסכומים אינו מוצג כאן כמחיר יעד מוסכם או כנתון שאומת מול הברוקר.",
+    "summary_en": "**Not verified against a primary source:** The original Stifel report was not read. Investing.com and TheFly via TipRanks both report initiation of SharkNinja coverage at Buy, but disagree on the price target: Investing.com states $256 while TheFly states $255. Neither figure is presented here as an agreed target or as verified with the broker.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** דוח Stifel המקורי לא נקרא. Investing.com ו-TheFly דרך TipRanks מדווחות שתיהן על תחילת סיקור SharkNinja בדירוג Buy, אך חלוקות על מחיר היעד: Investing.com מציינת 256 דולר, ואילו TheFly מציינת 255 דולר. אף אחד מהסכומים אינו מוצג כאן כמחיר יעד מוסכם או כנתון שאומת מול הברוקר.\n\nTheFly פרסמה ב-16 בנובמבר בשעה 22:20:16 UTC, 17 בנובמבר 00:20:16 בישראל. פתיח StreetInsider מתאריך 16 בנובמבר בשעה 16:55 EST, 23:55 בישראל, מציין אף הוא התחלת סיקור Buy בידי Michael Montani, אך מחיר היעד אינו גלוי בפתיח שנקרא. אין להציג זאת כפעולת דירוג חדשה שהתרחשה בשעת העלאת הפריט.\n\nדירוג ומחיר יעד של אנליסט הם חוות דעת, לא התחייבות למחיר השוק או תחזית של SharkNinja. אומדני צמיחה, רווח למניה והשפעת כלי AI שמופיעים בכתבת Investing.com מיוחסים למודל האנליסט, ואינם מוצגים כהנחיות חדשות של החברה.",
+    "טקסט_en": "**Not verified against a primary source:** The original Stifel report was not read. Investing.com and TheFly via TipRanks both report initiation of SharkNinja coverage at Buy, but disagree on the price target: Investing.com states $256 while TheFly states $255. Neither figure is presented here as an agreed target or as verified with the broker.\n\nTheFly published on November 16 at 22:20:16 UTC, November 17 at 00:20:16 in Israel. A StreetInsider opening dated November 16 at 16:55 EST, 23:55 in Israel, also identifies Michael Montani's Buy initiation, but does not expose a target in the text reviewed. This is not a rating action newly taking place at the time this item is posted.\n\nAn analyst rating and target are opinions, not a promise of a market price or SharkNinja guidance. Growth, EPS and AI-tool impact estimates in the Investing.com report belong to the analyst's model and are not presented as new company guidance.",
+    "קישור": "https://www.investing.com/news/analyst-ratings/stifel-initiates-sharkninja-stock-coverage-with-buy-rating-93CH-5031714",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/analyst-ratings/stifel-initiates-sharkninja-stock-coverage-with-buy-rating-93CH-5031714",
+        "label": "Investing.com: דיווח מלא, יעד 256 דולר",
+        "label_en": "Investing.com: full report, $256 target"
+      },
+      {
+        "url": "https://www.tipranks.com/news/the-fly/sharkninja-initiated-with-a-buy-at-stifel-thefly-news",
+        "label": "TheFly דרך TipRanks: דיווח מלא, יעד 255 דולר",
+        "label_en": "TheFly via TipRanks: full report, $255 target"
+      },
+      {
+        "url": "https://www.streetinsider.com/New+Coverage/Stifel+Starts+SharkNinja+%28SN%29+at+Buy/27356628.html",
+        "label": "StreetInsider: פתיח ושעת הפרסום",
+        "label_en": "StreetInsider: opening and publication time"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b3936df08550baeff6699665bfbed6479c2b7ea175c207a7340ae0d00fa6f083"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2053",
+    "category": "micro",
+    "חברה": "Mondelez International (MDLZ)",
+    "חברה_en": "Mondelez International (MDLZ)",
+    "symbols": [
+      "MDLZ"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:52",
+    "הועלה": "2026-11-17 09:52",
+    "כותרת": "Mondelez International (MDLZ): דיווחים על הצעת Princes לרכישת פעילות לחמים חלופיים וחטיפי דגנים בצרפת לפי שווי פעילות של 80 מיליון אירו",
+    "כותרת_en": "Mondelez International (MDLZ): reports describe Princes proposal for French bread-substitute and cereal-bar operations at €80 million enterprise value",
+    "summary": "**לא מאומת מול מקור ראשוני:** הודעת הרוכשת המקורית והסכם העסקה לא נקראו ישירות. סיכום Reuters בצרפתית דרך Boursorama פורסם ב-17 בנובמבר בשעה 08:13:58 בצרפת, 09:13:58 בישראל. Sharecast פרסמה דיווח מלא נוסף בהמשך הבוקר.",
+    "summary_en": "**Not verified against a primary source:** The buyer's original announcement and transaction agreement were not read directly. Reuters' French summary through Boursorama was published November 17 at 08:13:58 in France, 09:13:58 in Israel. Sharecast published a further full report later in the morning.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** הודעת הרוכשת המקורית והסכם העסקה לא נקראו ישירות. סיכום Reuters בצרפתית דרך Boursorama פורסם ב-17 בנובמבר בשעה 08:13:58 בצרפת, 09:13:58 בישראל. Sharecast פרסמה דיווח מלא נוסף בהמשך הבוקר.\n\nלפי Reuters, קבוצת Princes הציגה הצעה לרכישת הפעילות הצרפתית של Mondelez International בתחום תחליפי הלחם וחטיפי הדגנים. שווי הפעילות המדווח הוא 80 מיליון אירו על בסיס נקי ממזומן ומחוב, כולל התחייבויות חכירה לפי IFRS 16. הפעילות כוללת את Heudebert, Pelletier, Cracotte ו-Grany ושלושה אתרי ייצור בצרפת. מחיר הרכישה אמור להיות משולם במזומן ממקורות קיימים.\n\nReuters מתארת הצעה ו-Sharecast מתארת הסכמה לרכישה; אף אחד מהנוסחים שנקראו אינו מאשר שהעברת הפעילות הושלמה. אין להחליף את שווי הפעילות בסכום נטו שכבר התקבל ב-Mondelez או להציג את כל הסכום כהכנסה מוכרת. לא אומתו כאן תנאי הסגירה המלאים או מועד השלמה מחייב.",
+    "טקסט_en": "**Not verified against a primary source:** The buyer's original announcement and transaction agreement were not read directly. Reuters' French summary through Boursorama was published November 17 at 08:13:58 in France, 09:13:58 in Israel. Sharecast published a further full report later in the morning.\n\nAccording to Reuters, Princes Group proposed acquiring Mondelez International's French bread-substitute and cereal-bar operations. Reported enterprise value is €80 million on a cash-free, debt-free basis, including IFRS 16 lease liabilities. The operations include Heudebert, Pelletier, Cracotte and Grany and three French production sites. The purchase price is to be paid in cash from existing resources.\n\nReuters describes a proposal and Sharecast an agreed acquisition; neither text reviewed confirms completion of the transfer. Enterprise value should not be substituted for net proceeds already received by Mondelez or treated entirely as recognized revenue. Full closing conditions and a binding completion date were not verified here.",
+    "קישור": "https://www.boursorama.com/bourse/actualites/resume-proposition-du-groupe-princes-visant-a-acquerir-les-activites-francaises-de-mondelez-international-dans-les-categories-des-substituts-de-pain-et-des-barres-de-cereales-afc6aac9834138c4c71cad37006797b4",
+    "מקורות": [
+      {
+        "url": "https://www.boursorama.com/bourse/actualites/resume-proposition-du-groupe-princes-visant-a-acquerir-les-activites-francaises-de-mondelez-international-dans-les-categories-des-substituts-de-pain-et-des-barres-de-cereales-afc6aac9834138c4c71cad37006797b4",
+        "label": "Reuters דרך Boursorama: סיכום מלא וחותמת זמן",
+        "label_en": "Reuters via Boursorama: full summary and timestamp"
+      },
+      {
+        "url": "https://www.sharecast.com/news/m-a/princes-buys-mondel275z-france-brands-for-euro80m--24199300.html",
+        "label": "Sharecast: דיווח מלא על ההסכמה",
+        "label_en": "Sharecast: full report on the agreement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "155378faa0ad0b558f56b7f11a74943d3d9b61b4e4430870ad69242e62bf0b89"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2054",
+    "category": "micro",
+    "חברה": "CNH Industrial (CNH)",
+    "חברה_en": "CNH Industrial (CNH)",
+    "symbols": [
+      "CNH"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:52",
+    "הועלה": "2026-11-17 09:52",
+    "כותרת": "פורסם באיחור | CNH Industrial (CNH): החלה בנובמבר בהקמת מפעל טרקטורים בהודו; שלב ראשון צפוי באמצע 2028",
+    "כותרת_en": "Published late | CNH Industrial (CNH): November groundbreaking in India targets first-phase production in mid-2028",
+    "summary": "**לא מאומת מול מקור ראשוני:** הודעת CNH המקורית לא נקראה ישירות. דיווח PTI המלא דרך The Week פורסם ב-12 בנובמבר בשעה 17:49 בהודו, 14:19 בישראל. כתבת BW Auto World מ-16 בנובמבר מתארת את אותו אירוע, לא התחלת בנייה חדשה ב-17 בנובמבר.",
+    "summary_en": "**Not verified against a primary source:** CNH's original announcement was not read directly. The full PTI report through The Week was published November 12 at 17:49 in India, 14:19 in Israel. BW Auto World's November 16 article describes the same event, not a new November 17 groundbreaking.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** הודעת CNH המקורית לא נקראה ישירות. דיווח PTI המלא דרך The Week פורסם ב-12 בנובמבר בשעה 17:49 בהודו, 14:19 בישראל. כתבת BW Auto World מ-16 בנובמבר מתארת את אותו אירוע, לא התחלת בנייה חדשה ב-17 בנובמבר.\n\nלפי PTI, CNH Industrial החלה ב-12 בנובמבר בהקמת מפעל חדש בשטח 100 אקר באזור YEIDA במדינת Uttar Pradesh בהודו. הקיבולת המתוכננת בהיקף מלא היא 100 אלף טרקטורים בשנה, ושלב הייצור הראשון צפוי להתחיל באמצע 2028. זו קיבולת עתידית מתוכננת, לא תפוקה שכבר קיימת היום.\n\nהמפעל אמור להשלים את הפעילות הקיימת ב-Greater Noida וב-Pune ולשרת את השוק המקומי והיצוא. החברה מתארת שימוש עתידי ברובוטיקה, אוטומציה ובקרת איכות מבוססת AI. PTI מציינת שהחברה לא מסרה בהודעה את גודל ההשקעה; BW מדווחת בנפרד על יותר מ-200 מיליון דולר למפעל, ציוד, פיתוח מוצרים ולוקליזציה. הסכום הזה מיוחס לדיווח BW ולא מוצג כאן כסכום שאומת מהודעת חברה או כהוצאה שכבר הושלמה.",
+    "טקסט_en": "**Not verified against a primary source:** CNH's original announcement was not read directly. The full PTI report through The Week was published November 12 at 17:49 in India, 14:19 in Israel. BW Auto World's November 16 article describes the same event, not a new November 17 groundbreaking.\n\nAccording to PTI, CNH Industrial broke ground November 12 on a 100-acre plant in the YEIDA area of Uttar Pradesh, India. Planned full-scale capacity is 100,000 tractors annually, with the first production phase expected in mid-2028. This is planned future capacity, not output already available today.\n\nThe plant is to complement existing Greater Noida and Pune operations and serve domestic and export markets. CNH describes future use of robotics, automation and AI-powered quality control. PTI states that the company did not disclose investment size in its announcement; BW separately reports more than $200 million covering the plant, equipment, product development and localization. That amount is attributed to BW, not presented as verified from an issuer announcement or as spending already completed.",
+    "קישור": "https://www.theweek.in/wire-updates/business/2026/11/12/cnh-india-breaks-ground-on-new-tractor-plant-in-up-1st-phase-to-operational-by-mid-2028.html",
+    "מקורות": [
+      {
+        "url": "https://www.theweek.in/wire-updates/business/2026/11/12/cnh-india-breaks-ground-on-new-tractor-plant-in-up-1st-phase-to-operational-by-mid-2028.html",
+        "label": "PTI דרך The Week: דיווח מלא מ-12 בנובמבר",
+        "label_en": "PTI via The Week: full November 12 report"
+      },
+      {
+        "url": "https://bwautoworld.com/article/cnh-to-invest-over-200-million-in-new-uttar-pradesh-plant-expanding-india-s-tractor-capacity-633777",
+        "label": "BW Auto World: דיווח מלא על ההשקעה המתוכננת",
+        "label_en": "BW Auto World: full report on planned investment"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1ecc476920eeb729af4fd090a20dabbba56c9e2fc9625afb989bb4ae8c0ab116"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2055",
+    "category": "micro",
+    "חברה": "Wells Fargo (WFC)",
+    "חברה_en": "Wells Fargo (WFC)",
+    "symbols": [
+      "WFC"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:52",
+    "הועלה": "2026-11-17 09:52",
+    "כותרת": "פורסם באיחור | Wells Fargo (WFC): הכריזה ב-13 בנובמבר על דיבידנדים לשש סדרות בכורה, לתשלום ב-15 בדצמבר",
+    "כותרת_en": "Published late | Wells Fargo (WFC): November 13 declaration covers six preferred series, payable December 15",
+    "summary": "Wells Fargo הכריזה ב-13 בנובמבר על דיבידנדים רבעוניים לשש סדרות מניות בכורה, לתשלום ב-15 בדצמבר 2026 לבעלי זכאות רשומים בתום 30 בנובמבר. זו הודעה קודמת, לא הכרזת דיבידנד חדשה ב-17 בנובמבר. שעת הפרסום המקורית המדויקת אינה מצוינת במקור שנקרא.",
+    "summary_en": "Wells Fargo declared quarterly dividends on six preferred-stock series on November 13, payable December 15, 2026 to holders of record at the November 30 close. This is the earlier announcement, not a new November 17 dividend declaration. A precise original publication time is not provided in the source reviewed.",
+    "טקסט": "Wells Fargo הכריזה ב-13 בנובמבר על דיבידנדים רבעוניים לשש סדרות מניות בכורה, לתשלום ב-15 בדצמבר 2026 לבעלי זכאות רשומים בתום 30 בנובמבר. זו הודעה קודמת, לא הכרזת דיבידנד חדשה ב-17 בנובמבר. שעת הפרסום המקורית המדויקת אינה מצוינת במקור שנקרא.\n\nSeries L: 18.75 דולר לכל מניית בכורה. זהו הסכום למניה המלאה, ולא ליחידת פיקדון של אלפית מניה.\n\nבסדרות הבאות הסכומים הם לכל יחידת פיקדון, המייצגת 1/1,000 ממניית בכורה: Series Y - 0.35156 דולר; Series Z - 0.29688 דולר; Series AA - 0.29375 דולר; Series CC - 0.27344 דולר; Series DD - 0.26563 דולר.\n\nאין כאן דיבידנד של 18.75 דולר למניית WFC הרגילה, ואין לערבב בין סכומים למניית בכורה מלאה לבין סכומים ליחידת פיקדון. 30 בנובמבר הוא התאריך הקובע שציינה החברה, לא תאריך אקס שאומת בנפרד.",
+    "טקסט_en": "Wells Fargo declared quarterly dividends on six preferred-stock series on November 13, payable December 15, 2026 to holders of record at the November 30 close. This is the earlier announcement, not a new November 17 dividend declaration. A precise original publication time is not provided in the source reviewed.\n\nSeries L: $18.75 per full preferred share. This is not an amount for a one-thousandth depositary interest.\n\nFor the following series, amounts are per depositary share representing 1/1,000 of a preferred share: Series Y, $0.35156; Series Z, $0.29688; Series AA, $0.29375; Series CC, $0.27344; Series DD, $0.26563.\n\nThis is not an $18.75 dividend on ordinary WFC common stock, and full preferred-share and depositary-share amounts must not be mixed. November 30 is the company's stated record date, not a separately verified ex-dividend date.",
+    "קישור": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo--Company-Declares-Cash-Dividends-on-Preferred-Stock-416f244bc/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo--Company-Declares-Cash-Dividends-on-Preferred-Stock-416f244bc/default.aspx",
+        "label": "Wells Fargo: הודעת החברה המקורית",
+        "label_en": "Wells Fargo: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "00ef1961caf4b5145b5d81b4ca93c0d01cfbaf3e28e1a606ac1d719edf98aaa5"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2056",
+    "category": "micro",
+    "חברה": "Ally Financial (ALLY)",
+    "חברה_en": "Ally Financial (ALLY)",
+    "symbols": [
+      "ALLY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:52",
+    "הועלה": "2026-11-17 09:52",
+    "כותרת": "פורסם באיחור | Ally Financial (ALLY): סמנכ\"ל הכספים Russ Hutchinson צפוי להציג בכנס J.P. Morgan ב-20 בנובמבר",
+    "כותרת_en": "Published late | Ally Financial (ALLY): CFO Russ Hutchinson is scheduled to present at J.P. Morgan conference on November 20",
+    "summary": "Ally Financial הודיעה ב-10 בנובמבר כי סמנכ\"ל הכספים Russ Hutchinson יציג בכנס J.P. Morgan Financials Conference ביום שישי, 20 בנובמבר 2026, בסביבות 08:00 GMT, כלומר 10:00 בישראל.",
+    "summary_en": "Ally Financial announced November 10 that CFO Russ Hutchinson is scheduled to present at the J.P. Morgan Financials Conference on Friday, November 20, 2026, at approximately 08:00 GMT, 10:00 in Israel.",
+    "טקסט": "Ally Financial הודיעה ב-10 בנובמבר כי סמנכ\"ל הכספים Russ Hutchinson יציג בכנס J.P. Morgan Financials Conference ביום שישי, 20 בנובמבר 2026, בסביבות 08:00 GMT, כלומר 10:00 בישראל.\n\nהחברה מתכננת שידור חי ביום הכנס באזור Events and Presentations באתר קשרי המשקיעים שלה, ובהמשך גם הקלטה לצפייה חוזרת. זו הודעה על השתתפות עתידית בכנס, לא מצגת שכבר התקיימה, פרסום תוצאות או שינוי בתחזית הכספית.\n\nהודעת החברה המקורית נושאת תאריך ללא שעה מדויקת. עותק PRNewswire באתר FT מציג 10 בנובמבר 15:01 GMT, 17:01 בישראל; זו שעת עותק ההפצה שנבדק, ולא הוכחה נפרדת לשעת הפרסום הראשונה באתר החברה.",
+    "טקסט_en": "Ally Financial announced November 10 that CFO Russ Hutchinson is scheduled to present at the J.P. Morgan Financials Conference on Friday, November 20, 2026, at approximately 08:00 GMT, 10:00 in Israel.\n\nA live webcast is planned for the conference day under Events and Presentations on Ally's investor-relations website, with a replay to follow. This is a future conference appearance, not a presentation already delivered, an earnings release or a financial-guidance change.\n\nThe original issuer announcement gives a date without a precise time. A PRNewswire copy on FT shows November 10 at 15:01 GMT, 17:01 in Israel; that is the reviewed distribution-copy timestamp, not separate proof of the first publication time on the company's site.",
+    "קישור": "https://media.ally.com/2026-11-10-Ally-Financial-to-present-at-the-J-P-Morgan-Financials-Conference",
+    "מקורות": [
+      {
+        "url": "https://media.ally.com/2026-11-10-Ally-Financial-to-present-at-the-J-P-Morgan-Financials-Conference",
+        "label": "Ally Financial: הודעת החברה המקורית",
+        "label_en": "Ally Financial: original company announcement"
+      },
+      {
+        "url": "https://markets.ft.com/data/announce/detail?dockey=600-202611101001PR_NEWS_USPRX____DE92762-1",
+        "label": "PRNewswire דרך FT: עותק הפצה ושעה",
+        "label_en": "PRNewswire via FT: distribution copy and timestamp"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "88728b97c48bfbde111b404644d2d69ca79749e02f1d5dcc98e953717d328d4e"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2057",
+    "category": "micro",
+    "חברה": "ESAB Corporation (ESAB)",
+    "חברה_en": "ESAB Corporation (ESAB)",
+    "symbols": [
+      "ESAB"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:52",
+    "הועלה": "2026-11-17 09:52",
+    "כותרת": "פורסם באיחור | ESAB Corporation (ESAB): דוח 4 בנובמבר הציג מכירות רבעוניות של כ-825 מיליון דולר והפחתת תחזית רווח ל-2026",
+    "כותרת_en": "Published late | ESAB Corporation (ESAB): November 4 report showed about $825 million quarterly sales and lower 2026 earnings outlook",
+    "summary": "ESAB Corporation פרסמה ב-4 בנובמבר את תוצאות הרבעון השלישי של 2026: מכירות של 824.521 מיליון דולר, כ-825 מיליון בעיגול, עלייה של 13.3% בדיווח. הצמיחה האורגנית במדד Core הייתה 2.3%. הרווח החשבונאי מפעילות נמשכת המיוחס לחברה היה כ-41 מיליון דולר, או 0.61 דולר למניה מדוללת; בנפרד, Core adjusted net income היה כ-83 מיליון דולר, או 1.30 דולר למניה. Core adjusted EBITDA היה כ-156 מיליון דולר.",
+    "summary_en": "ESAB Corporation published third-quarter 2026 results on November 4: sales were $824.521 million, about $825 million rounded, up 13.3% as reported. Core organic growth was 2.3%. GAAP income from continuing operations attributable to ESAB was about $41 million, or $0.61 diluted EPS; separately, Core adjusted net income was about $83 million, or $1.30 per share. Core adjusted EBITDA was about $156 million.",
+    "טקסט": "ESAB Corporation פרסמה ב-4 בנובמבר את תוצאות הרבעון השלישי של 2026: מכירות של 824.521 מיליון דולר, כ-825 מיליון בעיגול, עלייה של 13.3% בדיווח. הצמיחה האורגנית במדד Core הייתה 2.3%. הרווח החשבונאי מפעילות נמשכת המיוחס לחברה היה כ-41 מיליון דולר, או 0.61 דולר למניה מדוללת; בנפרד, Core adjusted net income היה כ-83 מיליון דולר, או 1.30 דולר למניה. Core adjusted EBITDA היה כ-156 מיליון דולר.\n\nבהודעה זו הופחתה תחזית 2026 לצמיחה אורגנית Core של 1.6%–2.0%, לעומת 2%–4%; Core adjusted EBITDA של 603–607 מיליון דולר, לעומת 615–625 מיליון; ו-Core adjusted EPS של 5.28–5.33 דולר, לעומת 5.40–5.50 דולר. תחזית צמיחת המכירות הכוללת במדד Core הייתה 13.1%–13.3%, כולל תרומת רכישות של כ-9.5% ומטבע של כ-2%, לא צמיחה אורגנית של 13%.\n\nמדדי Core המתואמים אינם GAAP ומוציאים את רוסיה; ה-EPS המתואם מחושב גם בהנחת המרת מניות בכורה חובה להמרה מתחילת התקופה. אין לערבב אותו עם EPS חשבונאי. אלה תוצאות ותחזית שניתנו ב-4 בנובמבר, לא הפחתה חדשה ב-17 בנובמבר או אימות נפרד שהתחזית לא השתנתה מאז. שעת הפרסום המדויקת אינה מצוינת במקור.",
+    "טקסט_en": "ESAB Corporation published third-quarter 2026 results on November 4: sales were $824.521 million, about $825 million rounded, up 13.3% as reported. Core organic growth was 2.3%. GAAP income from continuing operations attributable to ESAB was about $41 million, or $0.61 diluted EPS; separately, Core adjusted net income was about $83 million, or $1.30 per share. Core adjusted EBITDA was about $156 million.\n\nThat announcement reduced the 2026 outlook to Core organic sales growth of 1.6%-2.0% from 2%-4%; Core adjusted EBITDA of $603-$607 million from $615-$625 million; and Core adjusted EPS of $5.28-$5.33 from $5.40-$5.50. Total Core sales growth guidance was 13.1%-13.3%, including about 9.5% from acquisitions and 2% from currency, not 13% organic growth.\n\nAdjusted Core measures are non-GAAP and exclude Russia; adjusted EPS also assumes mandatory convertible preferred shares converted at the start of the period. It should not be mixed with GAAP EPS. These are results and guidance issued November 4, not a new November 17 cut or a separate verification that the outlook has remained unchanged since. A precise publication time is not provided in the source.",
+    "קישור": "https://investors.esabcorporation.com/news/news-details/2026/ESAB-Corporation-Announces-Third-Quarter-2026-Results/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://investors.esabcorporation.com/news/news-details/2026/ESAB-Corporation-Announces-Third-Quarter-2026-Results/default.aspx",
+        "label": "ESAB Corporation: הודעת החברה המקורית",
+        "label_en": "ESAB Corporation: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "46aa766873eee51e44e4606257e9dd86acfabb6d25bfb33f881fba1e577059da"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2058",
+    "category": "micro",
+    "חברה": "Emerson (EMR)",
+    "חברה_en": "Emerson (EMR)",
+    "symbols": [
+      "EMR"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:52",
+    "הועלה": "2026-11-17 09:52",
+    "כותרת": "פורסם באיחור | Emerson (EMR): דוח 4 בנובמבר הציג מכירות שנתיות של 18.982 מיליארד דולר ותחזית ראשונית ל-2027",
+    "כותרת_en": "Published late | Emerson (EMR): November 4 report showed $18.982 billion annual sales and initial 2027 outlook",
+    "summary": "Emerson פרסמה ב-4 בנובמבר בשעה 06:55 EST, 13:55 בישראל, את תוצאות הרבעון הרביעי ושנת הכספים שהסתיימה ב-30 בספטמבר 2026. המכירות השנתיות היו 18.982 מיליארד דולר, עלייה של 5%; EPS חשבונאי מפעילות נמשכת היה 4.79 דולר ו-EPS מתואם 6.59 דולר. ברבעון הרביעי המכירות היו 5.201 מיליארד דולר, עלייה של 7%, עם EPS חשבונאי 1.33 דולר ומתואם 1.86 דולר.",
+    "summary_en": "Emerson reported fourth-quarter and fiscal-year results on November 4 at 06:55 EST, 13:55 in Israel, for the year ended September 30, 2026. Annual sales were $18.982 billion, up 5%; continuing-operations GAAP EPS was $4.79 and adjusted EPS $6.59. Fourth-quarter sales were $5.201 billion, up 7%, with GAAP EPS of $1.33 and adjusted EPS of $1.86.",
+    "טקסט": "Emerson פרסמה ב-4 בנובמבר בשעה 06:55 EST, 13:55 בישראל, את תוצאות הרבעון הרביעי ושנת הכספים שהסתיימה ב-30 בספטמבר 2026. המכירות השנתיות היו 18.982 מיליארד דולר, עלייה של 5%; EPS חשבונאי מפעילות נמשכת היה 4.79 דולר ו-EPS מתואם 6.59 דולר. ברבעון הרביעי המכירות היו 5.201 מיליארד דולר, עלייה של 7%, עם EPS חשבונאי 1.33 דולר ומתואם 1.86 דולר.\n\nהתחזית הראשונית ל-2027 שניתנה באותה הודעה הייתה לצמיחת מכירות מדווחת ובסיסית של כ-5%, EPS חשבונאי של כ-5.70 דולר ומתואם של כ-7.25 דולר, ותזרים מזומנים חופשי שנתי של 3.8–3.9 מיליארד דולר. התוכנית מניחה רכישות עצמיות של כ-2.5 מיליארד דולר ודיבידנדים של כ-1.3 מיליארד דולר; אלה סכומים מתוכננים, לא רכישות שכבר הושלמו.\n\nEmerson גם הכריזה בהודעה על העלאת דיבידנד רבעוני ב-7% ל-0.595 דולר למניה, לתשלום ב-10 בדצמבר לבעלי מניות רשומים ב-13 בנובמבר. התאריך הקובע כבר חלף ואינו מוצג כתאריך אקס שאומת בנפרד.\n\nהנתונים מוצגים על בסיס פעילות נמשכת. underlying sales מוציאות השפעות מטבע ורכישות או מכירות משמעותיות; EPS מתואם אינו GAAP. זו תחזית היסטורית ראשונית מ-4 בנובמבר, לא עדכון חדש היום או אימות שהתחזית נותרה ללא שינוי. אין כאן אימות להנפקת אג\"ח או לנתון צבר שלא מופיעים בפרטים שסוכמו.",
+    "טקסט_en": "Emerson reported fourth-quarter and fiscal-year results on November 4 at 06:55 EST, 13:55 in Israel, for the year ended September 30, 2026. Annual sales were $18.982 billion, up 5%; continuing-operations GAAP EPS was $4.79 and adjusted EPS $6.59. Fourth-quarter sales were $5.201 billion, up 7%, with GAAP EPS of $1.33 and adjusted EPS of $1.86.\n\nThe initial 2027 outlook issued in that release called for about 5% reported and underlying sales growth, about $5.70 GAAP EPS, about $7.25 adjusted EPS and annual free cash flow of $3.8-$3.9 billion. Its framework assumes about $2.5 billion of share repurchases and $1.3 billion of dividends; these are planned amounts, not repurchases already completed.\n\nEmerson also declared a 7% quarterly dividend increase to $0.595 per share, payable December 10 to holders of record November 13. That record date has already passed and is not presented as a separately verified ex-dividend date.\n\nResults are on a continuing-operations basis. Underlying sales exclude currency and significant acquisitions or divestitures; adjusted EPS is non-GAAP. This is the historical initial November 4 outlook, not a new update today or verification that guidance remains unchanged. No bond issuance or backlog figure outside the summarized details is verified here.",
+    "קישור": "https://ir.emerson.com/news-events/press-releases/detail/649/emerson-reports-fourth-quarter-and-full-year-2026-results-provides-initial-2027-outlook",
+    "מקורות": [
+      {
+        "url": "https://ir.emerson.com/news-events/press-releases/detail/649/emerson-reports-fourth-quarter-and-full-year-2026-results-provides-initial-2027-outlook",
+        "label": "Emerson: הודעת החברה המקורית",
+        "label_en": "Emerson: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7899bb64bdc18bd1b4c757aea5b987b7e3692e4056ac856d70feaa1ac0dcda02"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2059",
+    "category": "micro",
+    "חברה": "Wells Fargo (WFC)",
+    "חברה_en": "Wells Fargo (WFC)",
+    "symbols": [
+      "WFC",
+      "JPM",
+      "BAC",
+      "FCNCA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:52",
+    "הועלה": "2026-11-17 09:52",
+    "כותרת": "פורסם באיחור | Wells Fargo (WFC): לפי Reuters, עמלות משיכת היתר בענף עלו ל-1.6 מיליארד דולר ברבעון השלישי; נתוני הבנקים נמדדים מול בסיסים שונים",
+    "כותרת_en": "Published late | Wells Fargo (WFC): Reuters reports industry overdraft fees reached $1.6 billion in Q3; bank comparisons use different bases",
+    "summary": "**לא מאומת מול מקור ראשוני:** נתוני הבנקים הגולמיים לא נבדקו ישירות. הכתבה המלאה של Reuters מ-13 בנובמבר מציגה חישובים של הסוכנות שלדבריה אושרו בידי KBRA Financial Intelligence. שעת הפרסום המוצגת ב-Investing.com אינה מזוהה כאן עם אזור זמן מאומת, ולכן אינה מוצגת כשעת ישראל. זו כתבת 13 בנובמבר, לא נתון חדש שפורסם היום.",
+    "summary_en": "**Not verified against a primary source:** Raw bank data were not checked directly. The full November 13 Reuters article presents the agency's calculations, which it says were confirmed by KBRA Financial Intelligence. The Investing.com display time is not assigned a verified timezone here and is not presented as Israel time. This is the November 13 report, not a new data release today.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** נתוני הבנקים הגולמיים לא נבדקו ישירות. הכתבה המלאה של Reuters מ-13 בנובמבר מציגה חישובים של הסוכנות שלדבריה אושרו בידי KBRA Financial Intelligence. שעת הפרסום המוצגת ב-Investing.com אינה מזוהה כאן עם אזור זמן מאומת, ולכן אינה מוצגת כשעת ישראל. זו כתבת 13 בנובמבר, לא נתון חדש שפורסם היום.\n\nלפי Reuters, בנקים בארה\"ב גבו ברבעון השלישי 1.6 מיליארד דולר בעמלות משיכת יתר, עלייה של 9.4% לעומת הרבעון הקודם ושיא רבעוני של ארבע שנים. בנפרד, JPMorgan Chase ו-Wells Fargo גבו יחד 590 מיליון דולר, לא 590 מיליון כל אחד.\n\nההשוואות לבנקים הבודדים הן לעומת הרבעון הראשון של 2025, לא לעומת הרבעון השני של 2026: JPMorgan עלתה ב-32%, Wells Fargo ב-17%, Bank of America ב-49% לסכום של 55 מיליון דולר, ו-First Citizens ב-200%. אין לערבב את הבסיס הזה עם העלייה הענפית הרבעונית של 9.4%.\n\nדוברי JPMorgan ו-Wells Fargo אמרו כל אחד שכ-75% מהעסקאות היוצרות משיכת יתר אינן מחויבות בעמלה. חשש כלכלנים שהעלייה עלולה להקדים בעיות אשראי הוא פרשנות על סיכון, לא הוכחה שכבר חלה הרעה באשראי הצרכני או קשר סיבתי מוכח לשינויי הפיקוח.",
+    "טקסט_en": "**Not verified against a primary source:** Raw bank data were not checked directly. The full November 13 Reuters article presents the agency's calculations, which it says were confirmed by KBRA Financial Intelligence. The Investing.com display time is not assigned a verified timezone here and is not presented as Israel time. This is the November 13 report, not a new data release today.\n\nAccording to Reuters, US banks collected $1.6 billion in third-quarter overdraft fees, up 9.4% from the preceding quarter and the highest quarterly amount in four years. Separately, JPMorgan Chase and Wells Fargo collected a combined $590 million, not $590 million each.\n\nIndividual-bank comparisons use the first quarter of 2025, not the second quarter of 2026: JPMorgan rose 32%, Wells Fargo 17%, Bank of America 49% to $55 million, and First Citizens 200%. That comparison base must not be mixed with the industry's 9.4% quarter-on-quarter increase.\n\nJPMorgan and Wells Fargo spokespeople each said about 75% of overdrawing transactions carry no fee. Economists' concern that higher overdrafts may precede credit problems is a risk interpretation, not proof that consumer credit has already deteriorated or a demonstrated causal link to supervisory changes.",
+    "קישור": "https://www.investing.com/news/economy-news/us-bank-overdraft-fees-jump-9-to-fouryear-high-datashows-5024653",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/economy-news/us-bank-overdraft-fees-jump-9-to-fouryear-high-datashows-5024653",
+        "label": "Reuters דרך Investing.com: דיווח מלא והשוואות",
+        "label_en": "Reuters via Investing.com: full report and comparisons"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7666a9c3f1b7c61f54be7e8e61a61756cc144d4d8492df4e221c8e0b65516b0f"
+      }
+    }
   }
 ]
