@@ -1,0 +1,82 @@
+name: financials-fast
+# 8-K Item 2.02 "fast layer" for the Finance tab: when a covered company files
+# an earnings release, its GAAP revenue / operating income / net income (and
+# D&A when shown for the quarter) are read from the EX-99 press release and
+# added to financials/<SYM>.json as {"f":"8-K","src":"pr"}. The record is
+# replaced automatically by financials.yml once the 10-Q / 10-K XBRL arrives.
+# Fail safe: nothing is written unless the release's prior-year column matches
+# the company's existing SEC XBRL figures.
+#
+# Official sec.gov only, User-Agent "SavageTracker Savtra12@gmail.com",
+# 1 request/second (the universal reports run uses the other 1/s of the
+# 2/s budget), HTTP 403/429 stops the run with no retry.
+# Free: public repo, built-in GITHUB_TOKEN, no secrets. Commits only on change.
+# Never reads portfolio or watchlist data; does not touch reports / news / calendar.
+on:
+  schedule:
+    - cron: '7,37 * * * 1-5'   # every 30 minutes on weekdays (UTC)
+    - cron: '25 9 * * 2-6'     # daily catch-up from the EDGAR daily index (previous US weekday)
+  workflow_dispatch:
+    inputs:
+      accession:
+        description: 'Optional: one filing as CIK:ACCESSION:YYYY-MM-DD'
+        required: false
+        default: ''
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: financials-json        # shared with financials.yml (same files, never both at once)
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install --quiet beautifulsoup4==4.12.3 lxml==5.3.0
+      - name: restore scan state
+        uses: actions/cache/restore@v4
+        with:
+          path: .fast-layer-state.json
+          key: fast-layer-state-${{ github.run_id }}
+          restore-keys: fast-layer-state-
+      - name: scan 8-K Item 2.02
+        env:
+          SEC_UA: ${{ vars.SEC_UA != '' && vars.SEC_UA || 'SavageTracker Savtra12@gmail.com' }}
+          ACCESSION: ${{ github.event.inputs.accession }}
+          CATCHUP: ${{ github.event.schedule == '25 9 * * 2-6' && '2' || '0' }}
+        run: |
+          set -e
+          if [ -n "$ACCESSION" ]; then
+            python3 sec-report-tool/financials/fast_layer.py --accession "$ACCESSION"
+          else
+            python3 sec-report-tool/financials/fast_layer.py --catchup "$CATCHUP" --budget-min 20
+          fi
+      - name: save scan state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .fast-layer-state.json
+          key: fast-layer-state-${{ github.run_id }}
+      - name: commit
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add financials/*.json
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "financials: 8-K press-release quarter(s)"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then echo "pushed=1" >> "$GITHUB_OUTPUT"; break; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+      - name: publish
+        if: steps.commit.outputs.pushed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages-queued.yml --ref main

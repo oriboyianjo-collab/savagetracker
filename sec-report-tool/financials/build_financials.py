@@ -23,6 +23,7 @@ ROOT = DIR.parents[1]  # repo root (sec-report-tool/financials/../..)
 sys.path.insert(0, str(DIR))
 from extract import extract_financials, FORMS, ANNUAL_FORMS
 from transport import AccessHeld, SEC_USER_AGENT, SecTransport
+from fast_layer import merge_press_records
 
 TICKERS_URL = 'https://www.sec.gov/files/company_tickers_exchange.json'
 FACTS_URL = 'https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json'
@@ -163,6 +164,12 @@ def build_one(transport: SecTransport, cik: str, symbols: list):
 def write_shards(out_dir: Path, shards: dict):
     for sym, shard in shards.items():
         path = out_dir / (sym + '.json')
+        # keep an 8-K press-release quarter (fast layer) until XBRL has it
+        try:
+            old = json.loads(path.read_text())
+        except (OSError, ValueError):
+            old = None
+        shard = merge_press_records(old, shard)
         _atomic_write(path, json.dumps(shard, separators=(',', ':')))
 
 
