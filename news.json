@@ -56876,5 +56876,43 @@
         "source_hash": "81ea7fe0cb81c24c8de33034d72b32cc431dca1454ca7258258dcdcd7f346b93"
       }
     }
+  },
+  {
+    "מזהה": "n-2063",
+    "category": "micro",
+    "חברה": "Royal Caribbean (RCL)",
+    "חברה_en": "Royal Caribbean (RCL)",
+    "symbols": [
+      "RCL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:56",
+    "הועלה": "2026-11-17 09:56",
+    "כותרת": "פורסם באיחור | Royal Caribbean (RCL): ACCC פרסמה אישור לפטור מהודעת מיזוג בעסקת Sandals; עסקת 50% בכ-3 מיליארד דולר הוכרזה בספטמבר",
+    "כותרת_en": "Published late | Royal Caribbean (RCL): ACCC publishes notification-waiver approval for Sandals deal; 50% investment of about $3 billion was announced in September",
+    "summary": "המקור הראשוני של ACCC נבדק ישירות: בתיק WA-45037 מסומנים סוג Waiver, החלטה Approved ותאריך פרסום החלטה 12 בנובמבר 2026. לא מוצגת שעה מדויקת. זהו עדכון רגולטורי היסטורי מ-12 בנובמבר, לא אישור חדש מהיום ולא הכרזה חדשה על העסקה.",
+    "summary_en": "The ACCC's primary register was reviewed directly. Case WA-45037 shows type Waiver, determination Approved and a determination publication date of November 12, 2026. No precise publication time is shown. This is a historical November 12 regulatory update, not a new approval today or a new transaction announcement.",
+    "טקסט": "המקור הראשוני של ACCC נבדק ישירות: בתיק WA-45037 מסומנים סוג Waiver, החלטה Approved ותאריך פרסום החלטה 12 בנובמבר 2026. לא מוצגת שעה מדויקת. זהו עדכון רגולטורי היסטורי מ-12 בנובמבר, לא אישור חדש מהיום ולא הכרזה חדשה על העסקה.\n\nהרישום מתייחס לרכישת 50% מהפעילות המלונאית ופעילות המכירות והשיווק של עסקי Sandals באמצעות Bracknell S. de R.L., המכונה Atlas JVCo. בקשת הפטור הוגשה ב-20 באוקטובר. האירוע המוגדר ברישום הוא פרסום החלטת פטור מהודעת מיזוג; אין לתארו כאישור גורף מכל הרשויות, כהשלמת העסקה או כהעברת כל מניות Sandals.\n\nכרקע נפרד, הודעת החברה המקורית, הנושאת תאריך 22 בספטמבר ונקראה ישירות, הודיעה על חתימת הסכם להשקעת Royal Caribbean בהחזקת הון של 50% ב-Sandals ו-Beaches Resorts תמורת כ-3 מיליארד דולר. בהודעה צוין מימון חוב מחויב מ-Morgan Stanley וצפי להשלמה בתחילת 2027, בכפוף לאישורים ולתנאי סגירה מקובלים. אלו תנאי ההכרזה מספטמבר, לא תנאים חדשים שאושרו היום.\n\nהודעת ספטמבר גם צפתה תרומה לרווח בשנה הבאה; זו תחזית החברה במועד ההודעה, לא רווח שכבר נרשם. רישום ACCC שנבדק אינו מאשר שהעסקה הושלמה או שכל התנאים האחרים התקיימו. לא נבדק נוסח נספח ההחלטה עצמו, ולכן אין כאן טענה לתנאים משפטיים נוספים שאינם מוצגים ברישום.",
+    "טקסט_en": "The ACCC's primary register was reviewed directly. Case WA-45037 shows type Waiver, determination Approved and a determination publication date of November 12, 2026. No precise publication time is shown. This is a historical November 12 regulatory update, not a new approval today or a new transaction announcement.\n\nThe register describes a proposed acquisition of 50% of the hotel business and sales and marketing operations comprising the Sandals Resorts business through Bracknell S. de R.L., called Atlas JVCo. The waiver application was filed on October 20. The listed event is publication of a notification-waiver determination. It should not be described as blanket approval from all authorities, completion of the acquisition or transfer of all Sandals shares.\n\nAs separate background, the original issuer release, dated September 22 and reviewed directly, announced a signed agreement for Royal Caribbean to acquire a 50% equity interest in Sandals and Beaches Resorts for approximately $3 billion. The release cited committed debt financing from Morgan Stanley and expected closing in early 2027, subject to customary approvals and closing conditions. These are the September announcement's terms, not new terms approved today.\n\nThe September release also expected earnings accretion the following year. That was a company forecast at the time, not profit already recorded. The reviewed ACCC register does not confirm closing or satisfaction of all other conditions. The attached determination document itself was not read, so no additional legal conditions absent from the register are asserted here.",
+    "קישור": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register/royal-caribbean-cruises-%E2%80%93-sandals-resorts-international",
+    "מקורות": [
+      {
+        "url": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register/royal-caribbean-cruises-%E2%80%93-sandals-resorts-international",
+        "label": "ACCC: רישום ראשוני, החלטת פטור מ-12 בנובמבר",
+        "label_en": "ACCC: primary register, November 12 waiver determination"
+      },
+      {
+        "url": "https://www.rclinvestor.com/content/uploads/2026/09/09222026-Royal-Caribbean-Group-and-Sandals-Resorts-Announce-Landmark-Partnership-to-Accelerate-Their-Leading-Vacation-Experiences.pdf",
+        "label": "Royal Caribbean: הודעה מקורית מספטמבר, רקע תנאי העסקה",
+        "label_en": "Royal Caribbean: original September release, background transaction terms"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "8f1a41e6cb73defec2540c8d84fb7c1afd495a5556015cfada2b1baf71f5f2d1"
+      }
+    }
   }
 ]
