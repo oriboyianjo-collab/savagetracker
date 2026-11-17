@@ -58287,5 +58287,71 @@
         "source_hash": "563bb68a71c6d238862952fd14f663b153e52cbcff09d0998a97446648ada601"
       }
     }
+  },
+  {
+    "מזהה": "n-2105",
+    "category": "micro",
+    "חברה": "Autodesk (ADSK)",
+    "חברה_en": "Autodesk (ADSK)",
+    "symbols": [
+      "ADSK"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:48",
+    "הועלה": "2026-11-17 10:48",
+    "כותרת": "פורסם באיחור | Autodesk (ADSK): פתחה בטא ציבורית לאפשרויות זיכרון מוגדל, GPU ותור עדיפות ב-Automation API עבור Revit",
+    "כותרת_en": "Published late | Autodesk (ADSK): opens public beta of High Memory, GPU and Priority Pass for Revit Automation API jobs",
+    "summary": "הפרסום המקורי של Autodesk Platform Services נקרא במלואו. התאריך הגלוי ותחילת הבטא הם 16 בנובמבר 2026; שעת הפרסום המקורית המדויקת לא אומתה.",
+    "summary_en": "Autodesk Platform Services' full original post was reviewed. The visible date and public-beta start are November 16, 2026; the exact original publication clock was not verified.",
+    "טקסט": "הפרסום המקורי של Autodesk Platform Services נקרא במלואו. התאריך הגלוי ותחילת הבטא הם 16 בנובמבר 2026; שעת הפרסום המקורית המדויקת לא אומתה.\n\nAutodesk הוסיפה לבטא הציבורית של Automation API שלוש אפשרויות לבחירה לכל משימה: זיכרון של 64GB במקום 32GB, מכונת NVIDIA GPU עם 64GB, ו-Priority Pass לקדימות בתור. High Memory ו-GPU נתמכים כעת רק ב-Revit; קדימות זמינה תחילה ב-Revit ותמיכה במנועים נוספים מתוכננת בהמשך. זו אינה השקה מלאה בכל מוצרי Autodesk.\n\nלפי בדיקות הבטא הפרטית של החברה, ייצוא גיליונות ותצוגות כבדות במודלים גדולים היה מהיר פי 1.7 עד 2.1 ב-GPU לעומת מכונות רגילות. אלה נתוני ספק בעומסים מסוימים, לא שיפור מובטח לכל משימה; לייצוא קל או דו-ממדי התועלת עשויה להיות קטנה או אפסית. קדימות בתור אינה מבטיחה זמן השלמה.\n\nבבטא, משימות הזיכרון המוגדל וה-GPU מחויבות בתעריף הקיים ללא תוספת על המכונה, ו-Priority Pass ללא תשלום נוסף. לשחרור המלא, המתוכנן לתחילת 2027, צפוי תמחור גבוה יותר שטרם נקבע סופית. קיימות מגבלות מקביליות וקיבולת בטא, ולכן זמני ההמתנה עשויים להתארך. החברה עשויה להריץ עותק GPU נוסף למדידה ללא חיוב מצדה, אך הורדה נוספת של הקלט עלולה ליצור עלות אצל ספק אחסון הנתונים.",
+    "טקסט_en": "Autodesk Platform Services' full original post was reviewed. The visible date and public-beta start are November 16, 2026; the exact original publication clock was not verified.\n\nAutodesk added three per-job choices to Automation API's public beta: 64GB rather than 32GB memory, an NVIDIA GPU machine with 64GB, and Priority Pass for queue precedence. High Memory and GPU currently support Revit only; Priority Pass starts with Revit, with other engines planned later. This is not a full release across Autodesk products.\n\nThe company's private-beta tests found heavy sheet and view exports from large models ran 1.7 to 2.1 times faster on GPU than standard machines. These are vendor results for specific workloads, not a guaranteed gain for every job; light or 2D exports may see little or no benefit. Queue precedence does not guarantee a completion time.\n\nDuring beta, High Memory and GPU jobs use the existing work-item rate without a machine premium, and Priority Pass has no extra charge. Full release, planned for early 2027, is expected to bring higher pricing that is not final. Concurrency and beta-capacity limits apply, so waits may be longer. Autodesk may run an additional GPU-job copy for benchmarking without charging for it, but downloading inputs again may incur charges from the customer's storage provider.",
+    "קישור": "https://aps.autodesk.com/blog/introducing-high-memory-gpu-and-priority-pass-automation-api",
+    "מקורות": [
+      {
+        "url": "https://aps.autodesk.com/blog/introducing-high-memory-gpu-and-priority-pass-automation-api",
+        "label": "Autodesk: הודעת החברה המקורית",
+        "label_en": "Autodesk: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4ce94837083a577b49da307c226ac05e8f47cc3edd46dfeee1d725b8a7b6d717"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2106",
+    "category": "micro",
+    "חברה": "Kyndryl (KD)",
+    "חברה_en": "Kyndryl (KD)",
+    "symbols": [
+      "KD"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:48",
+    "הועלה": "2026-11-17 10:48",
+    "כותרת": "פורסם באיחור | Kyndryl (KD): הודיעה ב-12 בנובמבר על שיתוף פעולה עם ALS להערכת מודרניזציה ומעבר לענן",
+    "כותרת_en": "Published late | Kyndryl (KD): announced November 12 collaboration with ALS to assess modernization and cloud transition",
+    "summary": "הודעת Kyndryl המקורית בספרדית מ-12 בנובמבר 2026 נקראה במלואה. שעת הפרסום המקורית המדויקת לא אומתה. הסיקור מ-17 בנובמבר אינו עסקה חדשה מתאריך זה.",
+    "summary_en": "Kyndryl's full original Spanish announcement dated November 12, 2026 was reviewed. The exact original publication clock was not verified. November 17 coverage is not a new transaction dated that day.",
+    "טקסט": "הודעת Kyndryl המקורית בספרדית מ-12 בנובמבר 2026 נקראה במלואה. שעת הפרסום המקורית המדויקת לא אומתה. הסיקור מ-17 בנובמבר אינו עסקה חדשה מתאריך זה.\n\nKyndryl ו-ALS, ספקית שירותי בדיקות, פיקוח ואימות, הודיעו על שיתוף פעולה להערכת האפשרויות למודרניזציה של סביבת הטכנולוגיה של ALS. באמצעות Kyndryl Consult הן מפתחות מפת דרכים לענן ולמודלים תפעוליים, לצורך שיפור יכולת ההתרחבות, החוסן והגמישות של המערכות.\n\nהעבודה כוללת סקירת יישומים, תלות בין מערכות, סיכונים ושיקולי הגירה, וכן אומדן עומסי עבודה, מחזור חיי נתונים ואופטימיזציה של אחסון. אלה שלבי הערכה ותכנון, לא הודעה שכל מערכות ALS הועברו לענן או שכלי AI הוטמעו בהיקף מלא.\n\nלא נמסרו שווי חוזה, משך התקשרות, ספק ענן מסוים שנבחר, יעד חיסכון כספי או לוח זמנים מחייב לסיום ההגירה. האפשרות לאפשר שימוש רחב יותר ב-AI היא יעד של העבודה, לא תוצאת ביצועים מוכחת.",
+    "טקסט_en": "Kyndryl's full original Spanish announcement dated November 12, 2026 was reviewed. The exact original publication clock was not verified. November 17 coverage is not a new transaction dated that day.\n\nKyndryl and ALS, a testing, inspection and verification services provider, announced a collaboration to assess modernization opportunities in ALS's technology environment. Through Kyndryl Consult, they are developing a roadmap covering cloud capabilities and operating models to support scalability, resilience and flexibility.\n\nWork includes application assessment, system dependencies, risks and migration considerations, plus workload sizing, data-lifecycle scenarios and storage optimization. These are assessment and planning activities, not an announcement that all ALS systems have migrated or AI tools are fully deployed.\n\nNo contract value, duration, selected hyperscaler, financial savings target or binding migration-completion schedule was disclosed. Enabling broader AI adoption is an aim of the work, not a proven performance result.",
+    "קישור": "https://www.kyndryl.com/es/es/about-us/news/2026/11/als-modernizacion-cloud",
+    "מקורות": [
+      {
+        "url": "https://www.kyndryl.com/es/es/about-us/news/2026/11/als-modernizacion-cloud",
+        "label": "Kyndryl: הודעת החברה המקורית",
+        "label_en": "Kyndryl: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "88d34f6184f652ee30c56acbc10b4e5ff148b683d3eec35fb7b772dfef0f829a"
+      }
+    }
   }
 ]
