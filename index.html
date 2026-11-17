@@ -1172,6 +1172,11 @@ body.watch-near-full section.tab{padding-top:.5px!important}
 body.watch-near-full header.top,body.overlay-logo-safe header.top{padding-bottom:0!important}
 body.watch-near-full header.top .hcard,body.overlay-logo-safe header.top .hcard{padding-bottom:0!important}
 body:not(.kb-on):has(#tab-watch.on){padding-bottom:calc(var(--nav-h) + var(--safe-b) - 2.4px)}
+</style><style id="approved-fixed-header-order">
+/* approved 2026-11-17: keep the header physical order fixed across languages - logo right, controls left (as in Hebrew); icons and text themselves unchanged */
+html[lang=en] .hcard{grid-template-columns:minmax(0,1fr) auto}
+html[lang=en] .hcard>.top-row{grid-column:2}
+html[lang=en] .hcard>.hctl{grid-column:1}
 </style></head>
 <body><dialog id="wlOrderDialog" aria-labelledby="wlOrderTitle"><h3 id="wlOrderTitle">סדר הרשימות</h3><p>גררו את הידית כדי לשנות את סדר הרשימות</p><div id="wlOrderRows"></div><div class="wl-orderactions"><button type="button" id="wlOrderSave">שמירה</button><button type="button" id="wlOrderCancel">ביטול</button></div></dialog>
 <header class="top">
