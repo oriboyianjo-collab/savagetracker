@@ -59465,5 +59465,76 @@
         "source_hash": "a30a7f8fd3638d4a31aff3940e0d02b8b0b01fa02e1996ecdf222e8ad817141c"
       }
     }
+  },
+  {
+    "מזהה": "n-2139",
+    "category": "micro",
+    "חברה": "RTX (RTX)",
+    "חברה_en": "RTX (RTX)",
+    "symbols": [
+      "RTX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:45",
+    "הועלה": "2026-11-17 11:45",
+    "כותרת": "פורסם באיחור | RTX (RTX): לפי סיקור ועותק הודעה, Raytheon קיבלה שינוי חוזה של 42.1 מיליון דולר למערכות לוחמה אלקטרונית",
+    "כותרת_en": "Published late | RTX (RTX): report and announcement copy describe $42.1 million Raytheon jammer contract modification",
+    "summary": "**לא אומת מול מקור ראשוני**",
+    "summary_en": "**Not verified against a primary source**",
+    "טקסט": "**לא אומת מול מקור ראשוני**\n\nכתבת Military + Aerospace Electronics מ-17 בנובמבר נקראה במלואה, לצד עותק ב-Forth של הודעת החוזים מ-13 בנובמבר 2026. שרת המקור הממשלתי והודעת חברה מקורית לא אומתו. התאריך המוקדם בעותק הוא של הודעת החוזים, לא זכייה חדשה ב-17 בנובמבר; שעת הפרסום המקורית המדויקת לא אומתה.\n\nלפי המקורות, Raytheon, עסק של RTX, קיבלה שינוי חוזה בסך 42,121,481 דולר כדי להסב את דרישת הייצור של Lot Five במערכת Next Generation Jammer Mid-Band לתצורה מורחבת. המקור אומר במפורש שאין הגדלה בכמות המערכות באותה אצווה.\n\nהעבודה כוללת ייצור, שילוב, בדיקות, אספקה ותמיכה, והשלמתה צפויה במאי 2029. זהו מועד צפוי, לא השלמה שכבר התרחשה או הכרה מיידית של כל הסכום כהכנסה. המקור מציין שימוש בכספי רכש של הצי ובכספי שיתוף פעולה זרים.\n\nאין כאן חוזה חדש של 192 מיליון דולר: נתון זה בכתבה מתייחס לחוזה פיתוח נפרד מאוקטובר 2024. לא נמסרו בכתבה התדרים הנוספים המדויקים או מספר יחידות חדש.",
+    "טקסט_en": "**Not verified against a primary source**\n\nThe full November 17 Military + Aerospace Electronics article was read alongside Forth's copy of the November 13, 2026 contracts announcement. The original government server and an original company release were not verified. The earlier date belongs to the copied contract announcement, not a new November 17 award; the exact original publication clock was not verified.\n\nThe sources describe a $42,121,481 modification awarded to Raytheon, an RTX business, to convert the Lot Five production requirement for the Next Generation Jammer Mid-Band system to an extended configuration. The text expressly says the number of systems in that lot does not increase.\n\nWork includes manufacturing, integration, testing, delivery and support, with completion expected in May 2029. That is an expected date, not work already completed or immediate recognition of the entire amount as revenue. The report cites Navy procurement and foreign cooperative-project funding.\n\nIt is not a new $192 million award: that figure refers to a separate October 2024 development contract. The article does not identify the precise additional frequency coverage or a new unit count.",
+    "קישור": "https://www.militaryaerospace.com/power/article/55419233/raytheon-receives-421-million-navy-contract-modification-for-extended-frequency-jammer",
+    "מקורות": [
+      {
+        "url": "https://www.militaryaerospace.com/power/article/55419233/raytheon-receives-421-million-navy-contract-modification-for-extended-frequency-jammer",
+        "label": "Military + Aerospace Electronics: סיקור משני",
+        "label_en": "Military + Aerospace Electronics: secondary report"
+      },
+      {
+        "url": "https://www.forth.news/lists/dod/Ch1hwbCXjPx2Y3iAvjHvg",
+        "label": "Forth: עותק צד שלישי של הודעת חוזים מ-13 בנובמבר",
+        "label_en": "Forth: third-party copy of November 13 contracts announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "fc3c9645f28191082e18d9d4b0393aabeea70e7cea97ae9e5f995733e5c6cc16"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2140",
+    "category": "micro",
+    "חברה": "GE Vernova (GEV)",
+    "חברה_en": "GE Vernova (GEV)",
+    "symbols": [
+      "GEV"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:45",
+    "הועלה": "2026-11-17 11:45",
+    "כותרת": "GE Vernova (GEV): השיקה מתקן מיתוג קומפקטי ללא SF6, זמין להזמנה כעת",
+    "כותרת_en": "GE Vernova (GEV): launches SF6-free compact switchgear, available to order now",
+    "summary": "הודעת GE Vernova המקורית מ-17 בנובמבר 2026 נקראה במלואה. שעת הפרסום המדויקת לא אומתה.",
+    "summary_en": "GE Vernova's full original November 17, 2026 release was read. The exact publication clock was not verified.",
+    "טקסט": "הודעת GE Vernova המקורית מ-17 בנובמבר 2026 נקראה במלואה. שעת הפרסום המדויקת לא אומתה.\n\nהחברה השיקה את HYpact-145g, מתקן מיתוג קומפקטי לרשתות מתח גבוה, בדירוג 145 קילו-וולט ו-40 קילו-אמפר. הוא הוצג בכנס בקלן, גרמניה, וזמין להזמנה כעת. הייצור מתוכנן למפעל החברה בקאסל; ההודעה אינה מאשרת שכבר נמסרו יחידות ללקוחות.\n\nהמערכת משלבת רכיבים מבודדי גז ואוויר ומשתמשת בתערובת g3 של פחמן דו-חמצני, חמצן וכמות קטנה של fluoronitrile, במקום גז SF6. לכן ללא SF6 אינו זהה לללא גז, ללא תרכובות פלואור או לאפס פליטות.\n\nלפי GE Vernova, התכנון מצמצם את השטח הנדרש ב-50% לפחות לעומת תחנת משנה קונבנציונלית בבידוד אוויר. זו טענת תכנון של החברה עם בסיס השוואה מסוים, לא בדיקת ביצועים עצמאית או הפחתה של 50% בצריכת החשמל. מוצעים גם שנאי מדידה דיגיטליים בעלי הספק נמוך כאפשרות.\n\nהמוצר מרחיב את תיק GRiDEA של החברה. לא נחשפו הזמנת לקוח, מספר יחידות מחייב, מחיר, הכנסות צפויות או שינוי בתחזית הפיננסית.",
+    "טקסט_en": "GE Vernova's full original November 17, 2026 release was read. The exact publication clock was not verified.\n\nThe company launched HYpact-145g compact high-voltage switchgear rated at 145 kV and 40 kA. It was unveiled at a conference in Cologne, Germany, and is available to order now. Manufacturing is planned for the company's Kassel facility; the release does not confirm customer deliveries have already occurred.\n\nThe hybrid system combines gas- and air-insulated components and uses g3, a mixture of carbon dioxide, oxygen and a small amount of fluoronitrile, instead of SF6. SF6-free therefore does not mean gas-free, free of fluorinated compounds or zero emissions.\n\nGE Vernova says the design requires at least 50% less space than a conventional air-insulated substation. This is the company's design claim against a specific comparator, not an independent performance test or a 50% reduction in electricity consumption. Optional low-power digital instrument transformers are also offered.\n\nThe product expands the company's GRiDEA portfolio. No customer order, committed unit count, price, revenue forecast or change to financial guidance was disclosed.",
+    "קישור": "https://www.gevernova.com/news/press-releases/ge-vernova-launches-sf6-free-compact-switchgear-space-constrained-high-voltage",
+    "מקורות": [
+      {
+        "url": "https://www.gevernova.com/news/press-releases/ge-vernova-launches-sf6-free-compact-switchgear-space-constrained-high-voltage",
+        "label": "GE Vernova: הודעה מקורית",
+        "label_en": "GE Vernova: original announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "4df6dc9af75a1bc4d0e1fe3da6637fe314e24400b4b715f856d3230f04a6662a"
+      }
+    }
   }
 ]
