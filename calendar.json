@@ -4646,5 +4646,92 @@
         "source_hash": "cb649cbb20b5754f846b7a51951e69165d3a3c73123fc5abb8f3b262b4ed126c"
       }
     }
+  },
+  {
+    "מזהה": "c-0202",
+    "תאריך": "2026-11-17",
+    "שעה": "12:05",
+    "מדינה": "DE",
+    "אירוע": "ZEW: ציפיות כלכליות בגרמניה",
+    "אירוע_en": "ZEW: German economic expectations",
+    "תקופה": "נובמבר 2026",
+    "תקופה_en": "November 2026",
+    "חשיבות": 2,
+    "בפועל": "35.6",
+    "צפי": "",
+    "קודם": "28.1",
+    "מקור": "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/tab-engl.pdf",
+    "מקורות_בדיקה_עדכנית": [
+      "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/Pressemitteilung_en.pdf",
+      "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/tab-engl.pdf",
+      "https://www.zew.de/en/press/latest-press-releases/2026-release-dates-for-zew-indicator-of-economic-sentiment-fixed"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-17",
+    "הערה": "מקור: הודעת ZEW וטבלת נובמבר. סקר 194 אנליסטים ומשקיעים מוסדיים ב-9–16 בנובמבר. מאזן תשובות, לא שיעור צמיחה. השעה היא מועד הפרסום המתוכנן בהודעת לוח ZEW: 11:05 פרנקפורט, 12:05 ישראל. הנתונים כבר היו זמינים לפני שעה זו; שעת ההפצה המדויקת בפועל לא אומתה. אין צפי מאומת במקור ולא הומצא קונצנזוס.",
+    "הערה_en": "Source: ZEW November release and survey table. Survey of 194 analysts and institutional investors conducted November 9–16. Response balance, not a growth rate. Time is the scheduled release in ZEW's published calendar: 11:05 Frankfurt, 12:05 Israel. Data were already available before that time; exact actual dissemination time was not verified. No source-verified consensus estimate is supplied.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "bde624573e370661a4366fc904eb535bf978ea466bb2188183b1d037c5ab89e7"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0203",
+    "תאריך": "2026-11-17",
+    "שעה": "12:05",
+    "מדינה": "DE",
+    "אירוע": "ZEW: מצב כלכלי נוכחי בגרמניה",
+    "אירוע_en": "ZEW: German current economic conditions",
+    "תקופה": "נובמבר 2026",
+    "תקופה_en": "November 2026",
+    "חשיבות": 2,
+    "בפועל": "-33.2",
+    "צפי": "",
+    "קודם": "-35.9",
+    "מקור": "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/tab-engl.pdf",
+    "מקורות_בדיקה_עדכנית": [
+      "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/Pressemitteilung_en.pdf",
+      "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/tab-engl.pdf",
+      "https://www.zew.de/en/press/latest-press-releases/2026-release-dates-for-zew-indicator-of-economic-sentiment-fixed"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-17",
+    "הערה": "מקור: הודעת ZEW וטבלת נובמבר. סקר 194 אנליסטים ומשקיעים מוסדיים ב-9–16 בנובמבר. מאזן תשובות, לא שיעור צמיחה. השעה היא מועד הפרסום המתוכנן בהודעת לוח ZEW: 11:05 פרנקפורט, 12:05 ישראל. הנתונים כבר היו זמינים לפני שעה זו; שעת ההפצה המדויקת בפועל לא אומתה. אין צפי מאומת במקור ולא הומצא קונצנזוס.",
+    "הערה_en": "Source: ZEW November release and survey table. Survey of 194 analysts and institutional investors conducted November 9–16. Response balance, not a growth rate. Time is the scheduled release in ZEW's published calendar: 11:05 Frankfurt, 12:05 Israel. Data were already available before that time; exact actual dissemination time was not verified. No source-verified consensus estimate is supplied.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "0132132e1752a59af77c9e487ae5d1e8e367c1cc5243eaae9bf6bbf542dccd3b"
+      }
+    }
+  },
+  {
+    "מזהה": "c-0204",
+    "תאריך": "2026-11-17",
+    "שעה": "12:05",
+    "מדינה": "EU",
+    "אירוע": "ZEW: ציפיות כלכליות בגוש האירו",
+    "אירוע_en": "ZEW: euro-area economic expectations",
+    "תקופה": "נובמבר 2026",
+    "תקופה_en": "November 2026",
+    "חשיבות": 2,
+    "בפועל": "26.5",
+    "צפי": "",
+    "קודם": "18.5",
+    "מקור": "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/tab-engl.pdf",
+    "מקורות_בדיקה_עדכנית": [
+      "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/Pressemitteilung_en.pdf",
+      "https://survey4.zew.de/fdl/download/public/2026-11-17_1100/tab-engl.pdf",
+      "https://www.zew.de/en/press/latest-press-releases/2026-release-dates-for-zew-indicator-of-economic-sentiment-fixed"
+    ],
+    "תאריך_בדיקה_עדכנית": "2026-11-17",
+    "הערה": "מקור: הודעת ZEW וטבלת נובמבר. סקר 194 אנליסטים ומשקיעים מוסדיים ב-9–16 בנובמבר. מאזן תשובות, לא שיעור צמיחה. השעה היא מועד הפרסום המתוכנן בהודעת לוח ZEW: 11:05 פרנקפורט, 12:05 ישראל. הנתונים כבר היו זמינים לפני שעה זו; שעת ההפצה המדויקת בפועל לא אומתה. אין צפי מאומת במקור ולא הומצא קונצנזוס.",
+    "הערה_en": "Source: ZEW November release and survey table. Survey of 194 analysts and institutional investors conducted November 9–16. Response balance, not a growth rate. Time is the scheduled release in ZEW's published calendar: 11:05 Frankfurt, 12:05 Israel. Data were already available before that time; exact actual dissemination time was not verified. No source-verified consensus estimate is supplied.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "7a3f0d4cac93a10427849fa68bea9e859c8e028819bcd399b7ff94b876b4b22c"
+      }
+    }
   }
 ]
