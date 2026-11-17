@@ -58992,5 +58992,38 @@
         "source_hash": "ff8b99c1739d6f4c04e55f46aedb3e1adc3a24826ea6098ab4e7492f88e205db"
       }
     }
+  },
+  {
+    "מזהה": "n-2125",
+    "category": "micro",
+    "חברה": "Alphabet (GOOGL)",
+    "חברה_en": "Alphabet (GOOGL)",
+    "symbols": [
+      "GOOGL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:23",
+    "הועלה": "2026-11-17 11:23",
+    "כותרת": "Alphabet (GOOGL): Google מרחיבה ענן ריבוני באירופה; Gemini ל-Dedicated מתוכנן, בקרת מפתחות בתצוגה מקדימה",
+    "כותרת_en": "Alphabet (GOOGL): Google expands European sovereign cloud; Gemini for Dedicated planned, key controls in preview",
+    "summary": "הודעת Google Cloud המקורית מ-17 בנובמבר 2026 נקראה במלואה. החברה הודיעה על הרחבות לענן ריבוני באירופה; שעת הפרסום המדויקת לא אומתה. יש להבחין בין שירותים שכבר זמינים, יכולות בתצוגה מקדימה ותוכניות עתידיות.",
+    "summary_en": "Google Cloud's full original November 17, 2026 announcement was read. It described expansions to sovereign cloud in Europe; the exact publication clock was not verified. Available services, previews and future plans should be kept separate.",
+    "טקסט": "הודעת Google Cloud המקורית מ-17 בנובמבר 2026 נקראה במלואה. החברה הודיעה על הרחבות לענן ריבוני באירופה; שעת הפרסום המדויקת לא אומתה. יש להבחין בין שירותים שכבר זמינים, יכולות בתצוגה מקדימה ותוכניות עתידיות.\n\nמודלי Gemini מיועדים להגיע ל-Google Cloud Dedicated, ענן שמפעיל שותף מקומי על תשתית מבודדת. זו הודעה על זמינות עתידית בסביבה הזו, לא הכרזה שכל מודלי Gemini כבר זמינים בה. מודלים נבחרים כבר מוצעים במסגרות אחרות של Google, ובצרפת S3NS הפכה שירות מנוהל להגשת מודלים והסקה לזמין לכלל הלקוחות בסביבת PREMI3NS, לרבות מודלים פתוחים ומודלים שהלקוחות מביאים.\n\nConfidential External Key Management נמצא בתצוגה מקדימה. לפי Google, לקוחות או שותף מקומי ישלטו במפתחות השורש מחוץ ל-Google Cloud, ופעולות המפתח יבוצעו בסביבת מחשוב חסויה. גם השותפות החדשה עם Telefónica בספרד והרחבת Google Cloud Dedicated לגרמניה עם Thales נמצאות בתצוגה מקדימה, לא בזמינות כללית.\n\nמסגרת Data Boundary לשווייץ זמינה כעת, ואילו מסגרת לדרישות DORA לשירותים פיננסיים באיחוד האירופי מתוכננת. מסגרות בקרה וראיות לביקורת אינן אישור שכל לקוח עומד אוטומטית בחוק. Google אומרת ש-PREMI3NS של S3NS הוסמכה ל-SecNumCloud 3.2 בידי ANSSI; אין להרחיב את ההסמכה הזאת לכל מוצרי Google או לכל מדינות אירופה.\n\nהחברה גם הציגה תוכנית האצה ללא קבלת מניות לסטארט-אפים בתחום הבינה המלאכותית הריבונית. לא פורסמו סכום חוזה חדש, הכנסות מובטחות או התחייבות רכישה מלקוח מזוהה. תיאורי שליטה, ביצועים ועמידות הם טענות ותכנון של הספק, לא בדיקה עצמאית של התוצאות.",
+    "טקסט_en": "Google Cloud's full original November 17, 2026 announcement was read. It described expansions to sovereign cloud in Europe; the exact publication clock was not verified. Available services, previews and future plans should be kept separate.\n\nGemini models are coming to Google Cloud Dedicated, a locally operated partner cloud on isolated infrastructure. This is planned availability in that environment, not a claim that all Gemini models are already available there. Select models are already offered in other Google deployment settings. In France, S3NS has made managed model serving and inference generally available on PREMI3NS, including open models and customer-provided models.\n\nConfidential External Key Management is in preview. Google says customers or a chosen local partner will control root keys outside Google Cloud while key operations run in a confidential-computing environment. The new Telefónica key-control partnership in Spain and the Google Cloud Dedicated expansion to Germany with Thales are also in preview, not generally available.\n\nA Data Boundary framework for Switzerland is available now; a framework for the EU's DORA requirements for financial services is planned. Control frameworks and audit evidence do not automatically certify every customer's legal compliance. Google says S3NS's PREMI3NS has achieved ANSSI SecNumCloud 3.2 qualification; that qualification should not be generalized to all Google products or all European countries.\n\nGoogle also introduced an equity-free sovereign-AI startup accelerator. No new contract amount, guaranteed revenue or purchase commitment from a named customer was disclosed. Control, performance and resilience descriptions are vendor claims and design statements, not independently tested outcomes.",
+    "קישור": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe",
+    "מקורות": [
+      {
+        "url": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe",
+        "label": "Google Cloud: הודעת הספק המקורית",
+        "label_en": "Google Cloud: original vendor announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "cea06f324bf55ae4f1793c7e455f63dca3785a8be52761890592df85b80de0f2"
+      }
+    }
   }
 ]
