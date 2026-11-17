@@ -56147,5 +56147,152 @@
         "source_hash": "0ceab56a91a08189dfd21562be0a8d89c82c0186fb260e6e6d95e655cc02c9b1"
       }
     }
+  },
+  {
+    "מזהה": "n-2043",
+    "category": "micro",
+    "חברה": "GE Vernova (GEV)",
+    "חברה_en": "GE Vernova (GEV)",
+    "symbols": [
+      "GEV"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:42",
+    "הועלה": "2026-11-17 09:42",
+    "כותרת": "פורסם באיחור | GE Vernova (GEV): מתארת מערכת MV-UPS לייצוב הספק במרכזי נתונים של AI; משלוחים ראשונים צפויים באמצע 2027",
+    "כותרת_en": "Published late | GE Vernova (GEV): details MV-UPS power stabilization for AI data centers; first shipments due in mid-2027",
+    "summary": "במאמר חברה מ-16 בנובמבר, GE Vernova מתארת מערכת אל-פסק במתח בינוני, MV-UPS, שנועדה לבודד עומסי מחשוב מתנודות ברשת החשמל ובמקביל למתן שינויים חדים בביקוש של מרכזי נתונים של AI לפני שהם מגיעים לרשת או לייצור מקומי. המשלוחים הראשונים צפויים, לפי החברה, באמצע 2027; אין כאן הודעה שהמערכת כבר סופקה ללקוח מסוים.",
+    "summary_en": "In a November 16 company article, GE Vernova describes a medium-voltage uninterruptible power supply, MV-UPS, intended to isolate computing loads from supply disturbances while buffering rapid changes in AI data-center demand before they reach the grid or on-site generation. The company says first units are due to ship in mid-2027; this is not an announcement of delivery to a named customer.",
+    "טקסט": "במאמר חברה מ-16 בנובמבר, GE Vernova מתארת מערכת אל-פסק במתח בינוני, MV-UPS, שנועדה לבודד עומסי מחשוב מתנודות ברשת החשמל ובמקביל למתן שינויים חדים בביקוש של מרכזי נתונים של AI לפני שהם מגיעים לרשת או לייצור מקומי. המשלוחים הראשונים צפויים, לפי החברה, באמצע 2027; אין כאן הודעה שהמערכת כבר סופקה ללקוח מסוים.\n\nלפי החברה, יחידה אחת יכולה להגן על עד 175 מגה-ואט של עומס מחשוב, פועלת במתח 34.5 קילו-וולט ומגיבה בתוך פחות מ-20 מילי-שניות. המערכת ממירה זרם חילופין לישר ובחזרה, עם סוללות שמספקות או סופגות אנרגיה לפי הצורך.\n\nהנתונים הם מפרטים וטענות של GE Vernova, לא תוצאות בדיקה עצמאית שנקראה כאן. המאמר אינו מודיע על הזמנה חתומה, לקוח חדש או הכנסות מוכרות. תאריך המקור הוא 16 בנובמבר; שעת הפרסום המדויקת אינה מצוינת.",
+    "טקסט_en": "In a November 16 company article, GE Vernova describes a medium-voltage uninterruptible power supply, MV-UPS, intended to isolate computing loads from supply disturbances while buffering rapid changes in AI data-center demand before they reach the grid or on-site generation. The company says first units are due to ship in mid-2027; this is not an announcement of delivery to a named customer.\n\nAccording to GE Vernova, one unit can protect up to 175 MW of computing load, operates at 34.5 kV and responds in less than 20 milliseconds. The system converts AC power to DC and back, with batteries supplying or absorbing energy as needed.\n\nThese are GE Vernova specifications and claims, not independently tested results reviewed here. The article does not announce a signed order, new customer or recognized revenue. The source date is November 16; an exact publication time is not provided.",
+    "קישור": "https://www.gevernova.com/news/articles/how-ge-vernovas-new-technology-managing-power-swings-ai-data-centers",
+    "מקורות": [
+      {
+        "url": "https://www.gevernova.com/news/articles/how-ge-vernovas-new-technology-managing-power-swings-ai-data-centers",
+        "label": "GE Vernova: הודעת החברה המקורית",
+        "label_en": "GE Vernova: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b8029e1480cef7468c9851d16046d32cc66daebb02a7e78e227cbe03e25bbcda"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2044",
+    "category": "micro",
+    "חברה": "JPMorgan Chase (JPM)",
+    "חברה_en": "JPMorgan Chase (JPM)",
+    "symbols": [
+      "JPM"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:42",
+    "הועלה": "2026-11-17 09:42",
+    "כותרת": "פורסם באיחור | JPMorgan Chase (JPM): לפי Banking Dive, ראש חטיבת הכרטיסים Allison Beer תעזוב; טרם פורסם שם המחליף",
+    "כותרת_en": "Published late | JPMorgan Chase (JPM): Banking Dive reports cards chief Allison Beer will leave; successor not yet named",
+    "summary": "**לא מאומת מול מקור ראשוני:** המזכר הפנימי של JPMorgan Chase לא נקרא ישירות. Banking Dive דיווחה ב-16 בנובמבר כי ראתה מזכר לעובדים של נשיא-משותף Troy Rohrbaugh. Bloomberg דיווחה על אותו אירוע כבר ב-14 בנובמבר בשעה 19:25 UTC, 21:25 בישראל; נבדק פתיח הדיווח שלה, לא הטקסט המלא שמאחורי ההגבלה.",
+    "summary_en": "**Not verified against a primary source:** JPMorgan Chase's internal memo was not read directly. Banking Dive reported on November 16 that it had seen a staff memo from co-president Troy Rohrbaugh. Bloomberg had reported the same event on November 14 at 19:25 UTC, 21:25 in Israel; its opening text, not the full restricted article, was checked.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** המזכר הפנימי של JPMorgan Chase לא נקרא ישירות. Banking Dive דיווחה ב-16 בנובמבר כי ראתה מזכר לעובדים של נשיא-משותף Troy Rohrbaugh. Bloomberg דיווחה על אותו אירוע כבר ב-14 בנובמבר בשעה 19:25 UTC, 21:25 בישראל; נבדק פתיח הדיווח שלה, לא הטקסט המלא שמאחורי ההגבלה.\n\nלפי Banking Dive, Allison Beer, מנכ\"לית תחום הכרטיסים והמסחר המקושר, תעזוב לטובת הזדמנות מחוץ לבנק. הבנק מתכנן למנות מחליף בשבועות הקרובים, שידווח ישירות ל-Rohrbaugh. בדיווח לא נקובים מחליף, מעסיק הבא או תאריך עזיבה מדויק.\n\nBeer הצטרפה לבנק ב-2017 ונכנסה לתפקידה הנוכחי ב-2021. זו עזיבה מדווחת של מנהלת תחום, לא עזיבת מנכ\"ל הקבוצה Jamie Dimon, ולא הודעה חדשה שהוכרזה ב-17 בנובמבר.",
+    "טקסט_en": "**Not verified against a primary source:** JPMorgan Chase's internal memo was not read directly. Banking Dive reported on November 16 that it had seen a staff memo from co-president Troy Rohrbaugh. Bloomberg had reported the same event on November 14 at 19:25 UTC, 21:25 in Israel; its opening text, not the full restricted article, was checked.\n\nAccording to Banking Dive, Allison Beer, CEO of card and connected commerce, will leave for an external opportunity. The bank plans to name a successor in the coming weeks, reporting directly to Rohrbaugh. The report does not identify a replacement, next employer or exact departure date.\n\nBeer joined JPMorgan in 2017 and took her current role in 2021. This is a reported departure by a business-unit executive, not group CEO Jamie Dimon, and not an announcement first made on November 17.",
+    "קישור": "https://www.bankingdive.com/news/jpmorgan-chase-cards-chief-allison-beer-to-depart-rohrbaugh/874768/",
+    "מקורות": [
+      {
+        "url": "https://www.bankingdive.com/news/jpmorgan-chase-cards-chief-allison-beer-to-depart-rohrbaugh/874768/",
+        "label": "Banking Dive: דיווח מלא על המזכר",
+        "label_en": "Banking Dive: full report on the memo"
+      },
+      {
+        "url": "https://news.bloomberglaw.com/banking-law/jpmorgan-loses-card-chief-allison-beer-to-external-opportunity",
+        "label": "Bloomberg: פתיח ותאריך הדיווח המוקדם",
+        "label_en": "Bloomberg: opening text and earlier publication time"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "94d2579895da9aee74fcf93ccd5ba9710b4ae39e90106fad02bd459e0ffe9475"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2045",
+    "category": "micro",
+    "חברה": "Citigroup (C)",
+    "חברה_en": "Citigroup (C)",
+    "symbols": [
+      "C"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:42",
+    "הועלה": "2026-11-17 09:42",
+    "כותרת": "Citigroup (C): לפי Reuters, כבר הושלמה יותר ממחצית תוכנית לגיוס כ-100 בנקאים לבנקאות תאגידית",
+    "כותרת_en": "Citigroup (C): Reuters reports more than half of roughly 100 planned corporate-banking hires are complete",
+    "summary": "**לא מאומת מול מקור ראשוני:** הפרטים מיוחסים לראיון Reuters עם Kaleem Rizvi, ראש-משותף עולמי של הבנקאות התאגידית ב-Citigroup, שנקרא במלואו ב-SRN News ובהפצה ב-Investing.com. פרסום SRN המקורי ב-17 בנובמבר בשעה 07:00:14 UTC, 09:00:14 בישראל.",
+    "summary_en": "**Not verified against a primary source:** Details are attributed to Reuters' interview with Kaleem Rizvi, Citigroup's global co-head of corporate banking, read in full through SRN News and Investing.com. SRN's original publication timestamp is November 17 at 07:00:14 UTC, 09:00:14 in Israel.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** הפרטים מיוחסים לראיון Reuters עם Kaleem Rizvi, ראש-משותף עולמי של הבנקאות התאגידית ב-Citigroup, שנקרא במלואו ב-SRN News ובהפצה ב-Investing.com. פרסום SRN המקורי ב-17 בנובמבר בשעה 07:00:14 UTC, 09:00:14 בישראל.\n\nלפי Rizvi, הבנק כבר השלים יותר ממחצית מתוכנית לגיוס כ-100 בנקאים לחטיבת הבנקאות התאגידית הגלובלית. בין העובדים שכבר גויסו יותר מ-40 בנקאים לשירותים תאגידיים חוצי-גבולות. אין לחבר אוטומטית את שתי הכמויות: 40 הבנקאים מתוארים כחלק מהגיוסים, לא כתוספת נפרדת של 40 לתוכנית ה-100.\n\nRizvi העריך כי ההשקעות האסטרטגיות הקשורות ל-AI יימשכו, לצד בחינה חדה יותר של תשואה והוצאה הונית. זו הערכת הבנקאי על ביקוש ומימון, לא התחייבות חתומה להוצאה של לקוח או תחזית הכנסות כמותית חדשה של Citigroup. תוכנית כוח האדם כאן מתייחסת לבנקאות תאגידית, לא לחטיבת ניהול ההון.",
+    "טקסט_en": "**Not verified against a primary source:** Details are attributed to Reuters' interview with Kaleem Rizvi, Citigroup's global co-head of corporate banking, read in full through SRN News and Investing.com. SRN's original publication timestamp is November 17 at 07:00:14 UTC, 09:00:14 in Israel.\n\nAccording to Rizvi, the bank is more than halfway through a plan to hire roughly 100 bankers for global corporate banking. Hires already made include more than 40 bankers for cross-border corporate services. The figures should not be added automatically: the 40 are described as part of hiring already completed, not a separate addition of 40 to the 100-person plan.\n\nRizvi expects strategic AI-related investment to continue, alongside a sharper focus on returns and capital expenditure. This is the banker's view of demand and financing, not a signed customer spending commitment or new quantified Citigroup revenue forecast. This staffing plan concerns corporate banking, not wealth management.",
+    "קישור": "https://srnnews.com/citigroup-boosting-global-corporate-banking-headcount-top-banker-says/",
+    "מקורות": [
+      {
+        "url": "https://srnnews.com/citigroup-boosting-global-corporate-banking-headcount-top-banker-says/",
+        "label": "Reuters דרך SRN News: ראיון מלא וחותמת זמן",
+        "label_en": "Reuters via SRN News: full interview and timestamp"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/citigroup-boosting-global-corporate-banking-headcount-top-banker-says-5031818",
+        "label": "Reuters דרך Investing.com: נוסח מלא",
+        "label_en": "Reuters via Investing.com: full text"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "2b2980e48c5049338135a6bd8c2892cef1298f23df3d3712b03ac6e8c06d8857"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2046",
+    "category": "micro",
+    "חברה": "Citigroup (C)",
+    "חברה_en": "Citigroup (C)",
+    "symbols": [
+      "C"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:42",
+    "הועלה": "2026-11-17 09:42",
+    "כותרת": "פורסם באיחור | Citigroup (C): לפי Bloomberg, ניהול ההון מתמקד בצמיחה אורגנית ובכספי לקוחות בהיקף 5 טריליון דולר המוחזקים אצל מתחרים",
+    "כותרת_en": "Published late | Citigroup (C): Bloomberg reports wealth unit focuses on organic growth and $5 trillion held by clients at rivals",
+    "summary": "**לא מאומת מול מקור ראשוני:** הפרטים מיוחסים לראיון Bloomberg עם Andy Sieg, ראש ניהול ההון של Citigroup. הנוסח המלא נקרא בהפצה ב-The Edge Malaysia; ב-Bloomberg נבדקו הפתיח וחותמת הזמן, 16 בנובמבר 23:00 UTC, כלומר 17 בנובמבר 01:00 בישראל.",
+    "summary_en": "**Not verified against a primary source:** Details are attributed to Bloomberg's interview with Andy Sieg, Citigroup's wealth chief. The full text was read through The Edge Malaysia; Bloomberg's opening and timestamp were checked: November 16 at 23:00 UTC, November 17 at 01:00 in Israel.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** הפרטים מיוחסים לראיון Bloomberg עם Andy Sieg, ראש ניהול ההון של Citigroup. הנוסח המלא נקרא בהפצה ב-The Edge Malaysia; ב-Bloomberg נבדקו הפתיח וחותמת הזמן, 16 בנובמבר 23:00 UTC, כלומר 17 בנובמבר 01:00 בישראל.\n\nלפי הדיווח, Citigroup מבקשת למשוך יתרות עושר של כ-5 טריליון דולר שלקוחותיה הקיימים מחזיקים אצל מתחרים, תוך התמקדות בצמיחה אורגנית ושלילת רכישות גדולות בתחום ניהול ההון. 5 טריליון דולר הם הזדמנות מדווחת בכספי לקוחות המוחזקים במקומות אחרים, לא נכסים שכבר עברו לבנק, הכנסות חדשות או מחיר רכישה.\n\nSieg אמר שהבנק צמצם ופישט את פעילותו וכי הפריסה ומרכזי הרישום הקיימים מתאימים לו. הוא צופה המשך גידול חד-ספרתי גבוה בזרימות חדשות וגידול מדוד במספר הבנקאים באסיה. אלה דברי הנהלה וציפיות, לא תוצאות עתידיות שכבר הושגו. הדיווח עוסק באסטרטגיית ניהול ההון ואינו מודיע על ביטול גורף של כל רכישה אפשרית בכל פעילות הקבוצה.",
+    "טקסט_en": "**Not verified against a primary source:** Details are attributed to Bloomberg's interview with Andy Sieg, Citigroup's wealth chief. The full text was read through The Edge Malaysia; Bloomberg's opening and timestamp were checked: November 16 at 23:00 UTC, November 17 at 01:00 in Israel.\n\nAccording to the report, Citigroup is pursuing about $5 trillion in wealth balances that existing clients hold with rivals, focusing on organic growth while ruling out major wealth acquisitions. The $5 trillion represents a reported opportunity in client money held elsewhere, not assets already transferred to Citi, new revenue or an acquisition price.\n\nSieg said the bank has simplified its business and that its existing footprint and booking centers are appropriate. He expects continued high-single-digit organic growth in new flows and disciplined growth in banker headcount in Asia. These are management comments and expectations, not future results already achieved. The report concerns wealth strategy, not a blanket cancellation of every possible acquisition across the group.",
+    "קישור": "https://theedgemalaysia.com/node/826091",
+    "מקורות": [
+      {
+        "url": "https://theedgemalaysia.com/node/826091",
+        "label": "Bloomberg דרך The Edge Malaysia: נוסח מלא",
+        "label_en": "Bloomberg via The Edge Malaysia: full text"
+      },
+      {
+        "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/citi-rules-out-major-wealth-acquisitions-in-hunt-for-5-trillion",
+        "label": "Bloomberg: פתיח וחותמת זמן מקורית",
+        "label_en": "Bloomberg: opening and original timestamp"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a949c2888c86ce7b5fefc90fbda8be2153657f9a377d25cc6301efc2d7dbca18"
+      }
+    }
   }
 ]
