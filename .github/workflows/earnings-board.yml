@@ -21,7 +21,7 @@ on:
         default: true
 permissions:
   contents: write
-  actions: read
+  actions: write   # bot pushes do not trigger other workflows: dispatch Pages publication and push-news explicitly
 concurrency:
   group: sec-edgar-shared
   cancel-in-progress: false
@@ -67,20 +67,29 @@ jobs:
         with:
           path: /tmp/earnings-board/state.json
           key: earnings-board-state-${{ github.run_id }}
-      - name: commit
+      - name: commit, publish, queue alerts
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if git diff --quiet -- reports.json; then echo "nothing to commit"; exit 0; fi
           msg="earnings-board: $(node -e "const s=require('/tmp/earnings-board/summary.json');console.log((s.added||0)+' new, '+(s.changed-(s.added||0))+' updated, '+(s.epsFilled||0)+' EPS, '+(s.revFilled||0)+' revenue, '+(s.secApplied||0)+' SEC confirmations')")"
           git add reports.json && git commit -q -m "$msg"
+          pushed=""
           # News bots push often: on a race, re-apply the same fetched data to the newest main (no network), never force.
           for i in 1 2 3 4 5; do
-            git push -q origin HEAD:main && exit 0
+            if git push -q origin HEAD:main; then pushed=1; break; fi
             sleep $((i * 5))
             git fetch -q origin main && git reset -q --hard origin/main
             node scripts/earnings-board.cjs --apply-only
             if git diff --quiet -- reports.json; then echo "already up to date"; exit 0; fi
             git add reports.json && git commit -q -m "$msg"
           done
-          echo "::error::push failed after 5 attempts"; exit 1
+          if [ -z "$pushed" ]; then echo "::error::push failed after 5 attempts"; exit 1; fi
+          after=$(git rev-parse HEAD); before=$(git rev-parse HEAD~1)
+          gh workflow run pages-queued.yml --ref main || echo "::warning::could not dispatch Pages publication"
+          # Queue alerts only when this commit has alert-worthy rows (new results / row moved onto today-tomorrow).
+          n=$(node -e "const {execFileSync}=require('child_process');const s=(c)=>JSON.parse(execFileSync('git',['show',c+':reports.json'],{maxBuffer:1e9}));console.log(require('./scripts/push-news.cjs').alertReports(s('$before'),s('$after')).length)")
+          echo "alert-worthy report rows: $n"
+          if [ "$n" -gt 0 ]; then gh workflow run push-news.yml --ref main -f before="$before" -f after="$after" || echo "::warning::could not dispatch push-news"; fi

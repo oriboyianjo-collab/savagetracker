@@ -12,6 +12,14 @@ on:
         description: 'Optional: send a test alert with this title instead (reaches devices that have "כל חדשה שעולה" on)'
         required: false
         default: ''
+      before:
+        description: 'Optional: previous commit (used by earnings-board, whose bot pushes do not trigger push events)'
+        required: false
+        default: ''
+      after:
+        description: 'Optional: commit to queue (with before)'
+        required: false
+        default: ''
 permissions:
   contents: read
 jobs:
@@ -20,12 +28,13 @@ jobs:
     timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
-        with: { ref: "${{ github.sha }}", fetch-depth: 2 }
+        with: { ref: "${{ github.event.inputs.after || github.sha }}", fetch-depth: 2 }
       - name: tell the Worker
         env:
           PUSH_NEWS_KEY: ${{ secrets.PUSH_NEWS_KEY }}
-          BEFORE: ${{ github.event.before }}
+          BEFORE: ${{ github.event.inputs.before || github.event.before }}
+          AFTER: ${{ github.event.inputs.after || github.sha }}
           TEST_TITLE: ${{ github.event.inputs.test_title }}
         run: |
           if [ -n "$BEFORE" ] && ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then git fetch --no-tags --depth=1 origin "$BEFORE" 2>/dev/null || true; fi
-          if [ -n "$TEST_TITLE" ]; then node scripts/push-news.cjs --test "$TEST_TITLE"; else node scripts/push-news.cjs --before "${BEFORE:-HEAD~1}" --after "$GITHUB_SHA"; fi
+          if [ -n "$TEST_TITLE" ]; then node scripts/push-news.cjs --test "$TEST_TITLE"; else node scripts/push-news.cjs --before "${BEFORE:-HEAD~1}" --after "$AFTER"; fi
