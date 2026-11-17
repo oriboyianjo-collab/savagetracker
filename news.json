@@ -58434,5 +58434,104 @@
         "source_hash": "df9b05f3a1d0e0eabf3f2b26536065e909604139d40e9a9128b49f70a06b4f2a"
       }
     }
+  },
+  {
+    "מזהה": "n-2109",
+    "category": "micro",
+    "חברה": "Rambus (RMBS)",
+    "חברה_en": "Rambus (RMBS)",
+    "symbols": [
+      "RMBS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:52",
+    "הועלה": "2026-11-17 10:52",
+    "כותרת": "פורסם באיחור | Rambus (RMBS): לפי Cerbat Gem, דירוג Wall Street Zen ירד מ-Buy ל-Hold ב-14 בנובמבר",
+    "כותרת_en": "Published late | Rambus (RMBS): Wall Street Zen reportedly cut its rating from Buy to Hold on November 14",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת Cerbat Gem המלאה מ-17 בנובמבר 2026 נקראה; פרסום Wall Street Zen המקורי לא נקרא. שעת הדירוג המדויקת לא אומתה.",
+    "summary_en": "**Not verified against a primary source:** The full November 17, 2026 Cerbat Gem article was reviewed; Wall Street Zen's original publication was not read. The exact rating clock was not verified.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת Cerbat Gem המלאה מ-17 בנובמבר 2026 נקראה; פרסום Wall Street Zen המקורי לא נקרא. שעת הדירוג המדויקת לא אומתה.\n\nלפי הכתבה, Wall Street Zen הורידה את דירוג Rambus מ-Buy ל-Hold בשבת, 14 בנובמבר 2026. לא נמסר מחיר יעד חדש בצמוד להורדה. הדירוג אינו הורדת דירוג אשראי, אינו תחזית החברה ואינו החלטה חדשה מתאריך הכתבה.\n\nהכתבה מזכירה גם המלצות ומחירי יעד של גופים אחרים מאוקטובר ומיולי. הם אינם מוצגים כאן כשינויים חדשים או כיעד של Wall Street Zen. נתוני הדוח הרבעוני והחזקות המוסדיים בהמשך המקור הם רקע, לא סיבת הורדה שאומתה בסקירה המקורית.",
+    "טקסט_en": "**Not verified against a primary source:** The full November 17, 2026 Cerbat Gem article was reviewed; Wall Street Zen's original publication was not read. The exact rating clock was not verified.\n\nThe article reports that Wall Street Zen lowered Rambus from Buy to Hold on Saturday, November 14, 2026. No new price target accompanies the downgrade. This is not a credit-rating downgrade, company guidance or a new decision dated the article's publication day.\n\nRecommendations and targets from other firms dated October and July are not presented as new changes or as Wall Street Zen's target. Quarterly results and institutional holdings elsewhere in the source are background, not reasons verified from the original rating report.",
+    "קישור": "https://www.thecerbatgem.com/2026/11/17/rambus-nasdaqrmbs-cut-to-hold-at-wall-street-zen.html",
+    "מקורות": [
+      {
+        "url": "https://www.thecerbatgem.com/2026/11/17/rambus-nasdaqrmbs-cut-to-hold-at-wall-street-zen.html",
+        "label": "Cerbat Gem: מקור משני מלא; דירוג Wall Street Zen המקורי לא נקרא",
+        "label_en": "Cerbat Gem: full secondary article; original Wall Street Zen rating not read"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "d7ff1c4e8b3701620c8d74ce24def3ec09a8d8170512f015756d5ca894be4976"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2110",
+    "category": "micro",
+    "חברה": "T-Mobile US (TMUS)",
+    "חברה_en": "T-Mobile US (TMUS)",
+    "symbols": [
+      "TMUS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:52",
+    "הועלה": "2026-11-17 10:52",
+    "כותרת": "פורסם באיחור | T-Mobile US (TMUS): לפי Adalytica, Argus הפחיתה את מחיר היעד מ-245 ל-220 דולר",
+    "כותרת_en": "Published late | T-Mobile US (TMUS): Argus reportedly reduced its price target from $245 to $220",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת Adalytica המלאה מ-16 בנובמבר 2026 בשעה 11:58 GMT, 13:58 בישראל, נקראה. סקירת Argus המקורית לא נקראה; זהו מועד הכתבה ולא מועד מאומת של החלטת האנליסט.",
+    "summary_en": "**Not verified against a primary source:** The full Adalytica article dated November 16, 2026 at 11:58 GMT, equivalent to 13:58 in Israel, was reviewed. Argus' original note was not read; this is the article's clock, not a verified analyst-decision time.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת Adalytica המלאה מ-16 בנובמבר 2026 בשעה 11:58 GMT, 13:58 בישראל, נקראה. סקירת Argus המקורית לא נקראה; זהו מועד הכתבה ולא מועד מאומת של החלטת האנליסט.\n\nלפי הכתבה, Argus Research הפחיתה את מחיר היעד למניית T-Mobile US מ-245 דולר ל-220 דולר. המקור אינו מציין שינוי דירוג השקעה בצמוד לעדכון, ולכן אין להציג את הפחתת היעד כהורדת המלצה.\n\nהכתבה מפרשת את המהלך כהערכה זהירה יותר של השווי והמרווח לעליית המניה. ללא קריאת הסקירה המקורית אין לייחס את כל פרשנות האתר כנימוק ישיר של Argus. מחיר היעד הוא דעת אנליסט, לא תחזית החברה או מחיר מובטח.\n\nהמקור כולל גם נתוני תוצאות מ-28 באוקטובר ורכישות עצמיות קודמות. הם אינם הכרזה חדשה על רכישה עצמית או דוח רבעוני חדש מתאריך כתבת האנליסט.",
+    "טקסט_en": "**Not verified against a primary source:** The full Adalytica article dated November 16, 2026 at 11:58 GMT, equivalent to 13:58 in Israel, was reviewed. Argus' original note was not read; this is the article's clock, not a verified analyst-decision time.\n\nThe article says Argus Research reduced its T-Mobile US price target from $245 to $220. It does not specify an accompanying investment-rating change, so the target cut is not presented as a recommendation downgrade.\n\nThe site interprets the move as a more cautious valuation and upside assessment. Without the original note, the site's interpretation is not all attributed directly to Argus. A price target is an analyst opinion, not company guidance or a guaranteed price.\n\nThe source also includes October 28 results and earlier share repurchases. These are not a new buyback announcement or a newly released quarterly report dated the analyst article.",
+    "קישור": "https://adalytica.com/news/t-mobile-us-target-cut-220-argus-ce2e928f",
+    "מקורות": [
+      {
+        "url": "https://adalytica.com/news/t-mobile-us-target-cut-220-argus-ce2e928f",
+        "label": "Adalytica: מקור משני מלא; סקירת Argus לא נקראה",
+        "label_en": "Adalytica: full secondary article; Argus note not read"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "1210b442ecd8d96d7e5351478d2d0888770661f31aea88e109ce5f1fa3966f76"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2111",
+    "category": "micro",
+    "חברה": "Teledyne Technologies (TDY)",
+    "חברה_en": "Teledyne Technologies (TDY)",
+    "symbols": [
+      "TDY"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:52",
+    "הועלה": "2026-11-17 10:52",
+    "כותרת": "פורסם באיחור | Teledyne Technologies (TDY): לפי MarketBeat, Weiss Ratings הפחיתה דירוג מ-Buy (B+) ל-Buy (B) ב-13 בנובמבר",
+    "כותרת_en": "Published late | Teledyne Technologies (TDY): Weiss Ratings reportedly reduced its rating from Buy (B+) to Buy (B) on November 13",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת MarketBeat המלאה מ-17 בנובמבר 2026 נקראה; דוח Weiss Ratings המקורי לא נקרא. מועד השינוי מתואר בכתבה כיום שישי, 13 בנובמבר; שעה מדויקת לא אומתה.",
+    "summary_en": "**Not verified against a primary source:** The full November 17, 2026 MarketBeat article was reviewed; Weiss Ratings' original report was not read. It dates the change to Friday, November 13, without a verified exact clock.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת MarketBeat המלאה מ-17 בנובמבר 2026 נקראה; דוח Weiss Ratings המקורי לא נקרא. מועד השינוי מתואר בכתבה כיום שישי, 13 בנובמבר; שעה מדויקת לא אומתה.\n\nלפי הדיווח, Weiss Ratings הפחיתה את דירוג Teledyne Technologies מ-Buy (B+) ל-Buy (B). המלצת Buy נותרה בשמה למרות הירידה בדרגת המשנה. לא פורסם מחיר יעד של Weiss בצמוד לעדכון, ואין כאן הורדת דירוג אשראי.\n\nהכתבה עוסקת גם בחציית ממוצע נע במהלך המסחר ב-16 בנובמבר ובמחירי יעד של בתי השקעות אחרים מאוקטובר ומ-3 בנובמבר. אלה אירועים ונתוני רקע שונים; אין לייחס את תנועת המניה לדירוג ללא ראיה או להציג את יעדי הגופים האחרים כשינויי Weiss.",
+    "טקסט_en": "**Not verified against a primary source:** The full November 17, 2026 MarketBeat article was reviewed; Weiss Ratings' original report was not read. It dates the change to Friday, November 13, without a verified exact clock.\n\nThe report says Weiss Ratings lowered Teledyne Technologies from Buy (B+) to Buy (B). The named recommendation remains Buy despite the lower subgrade. No Weiss price target accompanies this update, and this is not a credit-rating downgrade.\n\nThe article also discusses a moving-average crossing during November 16 trading and other firms' price targets dated October and November 3. Those are separate events and background data. The stock move is not attributed to this rating without evidence, and other firms' targets are not presented as Weiss changes.",
+    "קישור": "https://www.marketbeat.com/instant-alerts/price-teledyne-technologies-nyse-tdy-share-price-crosses-below-two-hundred-day-moving-average-heres-why-2026-11-17/",
+    "מקורות": [
+      {
+        "url": "https://www.marketbeat.com/instant-alerts/price-teledyne-technologies-nyse-tdy-share-price-crosses-below-two-hundred-day-moving-average-heres-why-2026-11-17/",
+        "label": "MarketBeat: כתבה מלאה; דוח Weiss המקורי לא נקרא",
+        "label_en": "MarketBeat: full article; original Weiss report not read"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f701957dc0f242f14e4f601693e6672268e6c8edc79e31b6cd7e099712e21734"
+      }
+    }
   }
 ]
