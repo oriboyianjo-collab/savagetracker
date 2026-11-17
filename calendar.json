@@ -3663,18 +3663,23 @@
     "אירוע": "נתונים ניסיוניים של כלכלת בינת-על",
     "חשיבות": 1,
     "מקור": "https://www.bea.gov/news/schedule",
-    "הערה": "לוח BEA מציג17.11בשעה10:00AM אך אזור הזמן לא אומת עבור פרסום זה; לכן לא מוצגת שעה בישראל. פרסום ניסיוני, לא תמ\"ג שוטף או מדד AI שוטף; אין צפי/קודם יחיד.",
+    "הערה": "פרסום נתונים ניסיוניים לשנת 2024; טרם פורסם הסבר רשמי לתוכן ולשיטת המדידה",
     "תקופה": "2024",
     "מזהה": "c-0149",
     "אירוע_en": "Experimental Super Intelligence Economic Statistics",
     "תקופה_en": "2024",
-    "הערה_en": "The BEA calendar shows Nov 17 at 10:00 AM but the time zone was not verified for this release, so no Israel time is shown. An experimental release, not current GDP or a current AI index; no single estimate/prior.",
+    "הערה_en": "Experimental data release for 2024; an official explanation of the content and measurement method has not yet been published.",
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "f0382d40799972b2db8b69d543d1920028c53a8e50af6ce0bc5fc46c577dee88"
+        "source_hash": "f8b0478984e7b1796a7dcb980d768cdd32aeb1364557836407e6b0ef4c50fc15"
       }
-    }
+    },
+    "שעה": "17:00",
+    "מקורות_בדיקה_עדכנית": [
+      "https://www.bea.gov/news/schedule",
+      "https://bea.gov/news/schedule/ics/online-calendar-subscription.ics"
+    ]
   },
   {
     "תאריך": "2026-11-18",
@@ -4419,4 +4424,4 @@
       }
     }
   }
-]
+    ]
