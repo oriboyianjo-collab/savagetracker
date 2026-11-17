@@ -54332,8 +54332,8 @@
     "symbols": [],
     "sectors": [],
     "tags_version": 1,
-    "תאריך": "2026-11-17 07:49",
-    "הועלה": "2026-11-17 07:49",
+    "תאריך": "2026-11-17 07:50",
+    "הועלה": "2026-11-17 07:50",
     "כותרת": "לפי Yonhap: משלחת IMF מעלה את תחזית צמיחת דרום קוריאה ל-3.9% ב-2026; ללא אימות מול המקור הראשוני",
     "כותרת_en": "Per Yonhap: IMF mission lifts South Korea 2026 growth forecast to 3.9%; not verified against primary source",
     "summary": "תחזית צוות המשלחת גבוהה ב-0.6 נקודת אחוז מתחזית אוקטובר; תחזיות האינפלציה נותרו 2.7% השנה ו-2.3% ב-2027.",
@@ -54371,7 +54371,7 @@
     "_translation": {
       "en": {
         "schema_version": 1,
-        "source_hash": "2dc0641e1e51048dbaa7d996dc1c7272b9e8f7fb02cc7502d866fb64f4f0b7fd"
+        "source_hash": "947e19b1de6dc4982b353bfbc81783ee3d8254cdbef6ff49abac6889e64558d1"
       }
     }
   }
