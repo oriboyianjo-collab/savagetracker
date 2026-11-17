@@ -56957,5 +56957,43 @@
         "source_hash": "ff15461b8fa42bc999f9be07dc586ba54c596958d805aae3475e70df806880cb"
       }
     }
+  },
+  {
+    "מזהה": "n-2066",
+    "category": "micro",
+    "חברה": "Netflix (NFLX)",
+    "חברה_en": "Netflix (NFLX)",
+    "symbols": [
+      "NFLX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:03",
+    "הועלה": "2026-11-17 10:03",
+    "כותרת": "Netflix (NFLX): כוכבי The Blue Road מתארים את הפקת המותחן לקראת הבכורה ב-20 בנובמבר",
+    "כותרת_en": "Netflix (NFLX): The Blue Road stars discuss the thriller ahead of its November 20 premiere",
+    "summary": "The Korea Times פרסם ב-17 בנובמבר ב-16:49 בקוריאה, 09:49 בישראל, כתבה מקורית ממסיבת עיתונאים בסיאול על The Blue Road של Netflix. הכתבה נקראה במלואה. זהו דיווח חדש על דברי היוצרים והשחקנים, לא הכרזה חדשה על מועד הבכורה: Netflix כבר פרסמה את מועד 20 בנובמבר בהודעתה מ-5 בנובמבר, שגם היא נקראה ישירות.",
+    "summary_en": "The Korea Times published an original report from a Seoul press conference about Netflix's The Blue Road on November 17 at 16:49 in Korea, 09:49 in Israel. The full article was reviewed. This is new reporting on comments from the creators and cast, not a newly announced premiere date: Netflix had already given November 20 in its November 5 release, also reviewed directly.",
+    "טקסט": "The Korea Times פרסם ב-17 בנובמבר ב-16:49 בקוריאה, 09:49 בישראל, כתבה מקורית ממסיבת עיתונאים בסיאול על The Blue Road של Netflix. הכתבה נקראה במלואה. זהו דיווח חדש על דברי היוצרים והשחקנים, לא הכרזה חדשה על מועד הבכורה: Netflix כבר פרסמה את מועד 20 בנובמבר בהודעתה מ-5 בנובמבר, שגם היא נקראה ישירות.\n\nהמותחן, בבימוי Han Jun-hee, מצמיד את Son Suk-ku ל-Eita Nagayama בתפקידי בלשים מסיאול ומטוקיו החוצים גבולות בחקירת רציחות. לפי The Korea Times, הבמאי אמר ששתי הדמויות נבנו כגיבורים עצמאיים ולא כתבנית של גיבור ועוזר, וכי היחסים ביניהן מניעים את העלילה.\n\nלפי הכתבה, Son תיאר שינוי במראה, בקול ובטון כדי לבדל את הדמות מתפקידיו הקודמים כחוקר. Nagayama אמר שלמרות עבודה בשתי שפות, הוא ושותפו מצאו שפה משותפת כשחקנים. הדברים מיוחסים לראיונות שפרסם העיתון; תיעוד מסיבת העיתונאים עצמה לא נבדק.\n\nהסדרה צפויה לעלות ל-Netflix ביום שישי, 20 בנובמבר 2026, לפי אישור החברה הקודם. לא פורסמו בכתבה תקציב, תשלום על זכויות, תחזית מנויים, נתוני צפייה או השפעה כספית. אין כאן עסקת תוכן חדשה או נתוני הצלחה שכבר נמדדו.",
+    "טקסט_en": "The Korea Times published an original report from a Seoul press conference about Netflix's The Blue Road on November 17 at 16:49 in Korea, 09:49 in Israel. The full article was reviewed. This is new reporting on comments from the creators and cast, not a newly announced premiere date: Netflix had already given November 20 in its November 5 release, also reviewed directly.\n\nDirected by Han Jun-hee, the thriller pairs Son Suk-ku and Eita Nagayama as Seoul and Tokyo detectives investigating murders across borders. According to The Korea Times, Han said both characters were designed as independent leads rather than a conventional hero-and-helper pairing, with their relationship driving the story.\n\nThe article says Son described changing his appearance, voice and tone to distinguish the character from his earlier investigator roles. Nagayama said he and his co-star found common ground as actors despite working in two languages. These comments are attributed to interviews published by the newspaper; the press-conference recording itself was not reviewed.\n\nThe series is scheduled to premiere on Netflix on Friday, November 20, 2026, as previously confirmed by the company. The article discloses no budget, rights payment, subscriber forecast, viewing figures or financial impact. It is not a new content deal or a report of measured audience success.",
+    "קישור": "https://www.koreatimes.co.kr/entertainment/shows-dramas/20261117/korean-japanese-stars-team-up-for-cross-border-manhunt-in-netflixs-the-blue-road",
+    "מקורות": [
+      {
+        "url": "https://www.koreatimes.co.kr/entertainment/shows-dramas/20261117/korean-japanese-stars-team-up-for-cross-border-manhunt-in-netflixs-the-blue-road",
+        "label": "The Korea Times: דיווח מקורי ממסיבת עיתונאים, 17 בנובמבר",
+        "label_en": "The Korea Times: original press-conference reporting, November 17"
+      },
+      {
+        "url": "https://about.netflix.com/en/news/main-trailer-of-the-blue-road-sees-son-suk-ku-and-eita-nagayama-team-up-on-a-gruesome-cross-border-murder-investigation",
+        "label": "Netflix: אישור קודם למועד הבכורה, 5 בנובמבר",
+        "label_en": "Netflix: earlier premiere-date confirmation, November 5"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "b5cf11f5e0ca7db4c59a36f081ed5d5c9657f589f4cbb00d93d31b360c6280f0"
+      }
+    }
   }
 ]
