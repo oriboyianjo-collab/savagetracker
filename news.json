@@ -59838,5 +59838,41 @@
         "source_hash": "9e94312b7b14e8d85ce6a24eb9ff9d932b4ccb71729777f0f18bad6dcc479904"
       }
     }
+  },
+  {
+    "מזהה": "n-2150",
+    "category": "macro",
+    "חברה": "DTEK",
+    "חברה_en": "DTEK",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:55",
+    "הועלה": "2026-11-17 11:55",
+    "כותרת": "לפי DTEK, תקיפות רוסיות הותירו כ-700 אלף משקי בית ללא חשמל במחוז דניפרופטרובסק",
+    "כותרת_en": "DTEK says Russian strikes leave about 700,000 households without power in Dnipropetrovsk",
+    "summary": "17 בנובמבר 2026. דיווח Reuters המלא דרך Devdiscourse ודיווח LB.ua נקראו ונבדקו מול הודעת DTEK. אזור הזמן של שעות הפרסום המוצגות באתרי החדשות לא אומת, ולכן לא נגזרה מהן שעת פרסום מדויקת בישראל.",
+    "summary_en": "November 17, 2026. The full Reuters report carried by Devdiscourse and the LB.ua report were read and checked against DTEK's statement. The news sites' displayed publication-clock timezones were not verified, so no exact Israel publication time is inferred from them.",
+    "טקסט": "17 בנובמבר 2026. דיווח Reuters המלא דרך Devdiscourse ודיווח LB.ua נקראו ונבדקו מול הודעת DTEK. אזור הזמן של שעות הפרסום המוצגות באתרי החדשות לא אומת, ולכן לא נגזרה מהן שעת פרסום מדויקת בישראל.\n\nלפי DTEK, תקיפות רוסיות בבוקר יום שלישי גרמו נזק משמעותי למתקני אנרגיה במחוז דניפרופטרובסק והותירו כ-700 אלף משקי בית ללא חשמל. המספר מתייחס למשקי בית, לא למספר האנשים שנפגעו ולא למניין הפסקות חשמל בכל אוקראינה.\n\nהאזורים שנמנו הם העיר דניפרו ונפות דניפרובסקי, פבלוהרד, קמיאנסקה וסמאריבקה. LB.ua מדווחת שעובדי החשמל פועלים להשבת האספקה, תוך מתן קדימות לתשתיות קריטיות ובמקומות שבהם מצב הביטחון מאפשר זאת.\n\nלא נמסר מועד מאומת להשלמת התיקונים, שם מתקן מסוים או היקף כושר ייצור שאבד. אין כאן אישור שכל 700 אלף משקי הבית עדיין מנותקים בשעת הקריאה, או חיבור מוכח לתנועת מחירי אנרגיה מסוימת. זהו אירוע אזורי מבוקר 17 בנובמבר, לא שימוש חוזר במספרי הפסקות חשמל ישנים מכלל אוקראינה.",
+    "טקסט_en": "November 17, 2026. The full Reuters report carried by Devdiscourse and the LB.ua report were read and checked against DTEK's statement. The news sites' displayed publication-clock timezones were not verified, so no exact Israel publication time is inferred from them.\n\nDTEK says Russian strikes on Tuesday morning significantly damaged energy facilities in Dnipropetrovsk region and left about 700,000 households without electricity. The figure refers to households, not individual people or an all-Ukraine outage total.\n\nThe affected areas listed are Dnipro city and the Dniprovskyi, Pavlohrad, Kamianske and Samarivka districts. LB.ua reports that power crews are working to restore supply, prioritizing critical infrastructure and working wherever security conditions permit.\n\nNo verified completion time, specific facility name or lost generating capacity was supplied. This does not confirm that all 700,000 households remain disconnected at the time of reading or establish a causal link to a particular energy-price move. It is a regional November 17 morning event, not a recycled historical nationwide outage count.",
+    "קישור": "https://www.devdiscourse.com/article/international/4008138-russian-strikes-cut-power-to-700000-households-in-ukraines-dnipropetrovsk-region-dtek-says",
+    "מקורות": [
+      {
+        "url": "https://www.devdiscourse.com/article/international/4008138-russian-strikes-cut-power-to-700000-households-in-ukraines-dnipropetrovsk-region-dtek-says",
+        "label": "Reuters דרך Devdiscourse: דיווח מלא המייחס ל-DTEK",
+        "label_en": "Reuters via Devdiscourse: full report attributing DTEK"
+      },
+      {
+        "url": "https://lb.ua/society/2026/11/17/781678_dnipropetrovschini_cherez.html",
+        "label": "LB.ua: דיווח מלא על הודעת DTEK והעבודות",
+        "label_en": "LB.ua: full report on DTEK statement and repairs"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "eaec8310ad345a9cda987e6db40774a2b4a7331666d3e27144da31783717bef0"
+      }
+    }
   }
 ]
