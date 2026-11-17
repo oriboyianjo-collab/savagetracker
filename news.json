@@ -56294,5 +56294,135 @@
         "source_hash": "a949c2888c86ce7b5fefc90fbda8be2153657f9a377d25cc6301efc2d7dbca18"
       }
     }
+  },
+  {
+    "מזהה": "n-2047",
+    "category": "macro",
+    "חברה": "The Options Clearing Corporation (OCC)",
+    "חברה_en": "The Options Clearing Corporation (OCC)",
+    "symbols": [],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:44",
+    "הועלה": "2026-11-17 09:44",
+    "כותרת": "פורסם באיחור | The Options Clearing Corporation (OCC): כלל חדש יאפשר קיזוז חוסר ביטחונות יומי בביטחונות שאינם מזומן; היישום מותנה ועתידי",
+    "כותרת_en": "Published late | The Options Clearing Corporation (OCC): rule would allow non-cash collateral against daily margin deficits; operational launch remains conditional",
+    "summary": "Federal Register פרסם ב-17 בנובמבר את SR-OCC-2026-013, שהוגש ב-3 בנובמבר. השינוי קיבל תוקף משפטי מיידי בעת ההגשה, אך אין פירוש הדבר שההליך התפעולי החדש כבר פועל. המקור אינו מספק שעת פרסום מדויקת.",
+    "summary_en": "The Federal Register published SR-OCC-2026-013 on November 17; it was filed on November 3. The rule change became legally effective upon filing, but that does not mean the new operating process is already available. The source does not provide a precise publication time.",
+    "טקסט": "Federal Register פרסם ב-17 בנובמבר את SR-OCC-2026-013, שהוגש ב-3 בנובמבר. השינוי קיבל תוקף משפטי מיידי בעת ההגשה, אך אין פירוש הדבר שההליך התפעולי החדש כבר פועל. המקור אינו מספק שעת פרסום מדויקת.\n\nהשינוי יאפשר לחברי סליקה להפקיד ביטחונות מתאימים שאינם מזומן לאחר קבלת Daily Account Summary ולפני ש-OCC שולחת לבנק הוראת משיכת מזומן בגין חוסר הביטחונות היומי. הביטחונות שיוכרו בזמן יקטינו או יאפסו את סכום המשיכה. יתרה שלא כוסתה עדיין תיגבה במזומן עד מועד הסליקה; אין ביטול של דרישות הביטחונות, דרישות מזומן חובה או הליכי חדלות פירעון.\n\nOCC צופה יישום לאחר כל האישורים הנדרשים ובתוך כ-270 יום מהשקת Ovation כמערכת הרשומות שלה, עם הודעה לפחות שבועיים מראש. היישום מעוכב גם עד השלמת הסמכה לפי כללי CFTC. אלו תנאים ולוח זמנים יחסי, לא תאריך פתיחה קבוע. השינוי אינו מחיל כעת את אותו הליך על חשבונות cross-margining.",
+    "טקסט_en": "The Federal Register published SR-OCC-2026-013 on November 17; it was filed on November 3. The rule change became legally effective upon filing, but that does not mean the new operating process is already available. The source does not provide a precise publication time.\n\nThe change would let clearing members deposit eligible non-cash collateral after receiving a Daily Account Summary and before OCC sends their bank a cash-withdrawal instruction for the daily margin deficit. Collateral recognized in time would reduce or eliminate the cash draw. Any remaining deficit would still be collected in cash by settlement time; margin requirements, mandatory cash requirements and default procedures are not abolished.\n\nOCC expects implementation after all necessary approvals and within approximately 270 days after Ovation launches as its system of record, with at least two weeks' notice. Implementation is also delayed until CFTC certification is completed. These are conditions and a relative timetable, not a fixed opening date. The change does not currently extend the process to cross-margining accounts.",
+    "קישור": "https://www.federalregister.gov/documents/2026/11/17/2026-23327/self-regulatory-organizations-the-options-clearing-corporation-notice-of-filing-and-immediate",
+    "מקורות": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23327/self-regulatory-organizations-the-options-clearing-corporation-notice-of-filing-and-immediate",
+        "label": "Federal Register: הודעת הכלל המקורית",
+        "label_en": "Federal Register: original rule notice"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "18edcfad05ded263b601e03535ede07b071bbd1ab109ffe70659f34b18862d6d"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2048",
+    "category": "micro",
+    "חברה": "Cboe Global Markets (CBOE)",
+    "חברה_en": "Cboe Global Markets (CBOE)",
+    "symbols": [
+      "CBOE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:44",
+    "הועלה": "2026-11-17 09:44",
+    "כותרת": "פורסם באיחור | Cboe Global Markets (CBOE): Cboe Clear U.S. מציגה הפחתת עמלת סליקה ותמריצים מותנים לחברי סליקה",
+    "כותרת_en": "Published late | Cboe Global Markets (CBOE): Cboe Clear U.S. filing cuts clearing fee and sets conditional member incentives",
+    "summary": "ב-Federal Register מ-17 בנובמבר פורסם SR-CCUS-2026-01 של Cboe Clear U.S., שהוגש ב-4 בנובמבר וקיבל תוקף מיידי בעת ההגשה. התיק מפחית את עמלת הסליקה של Securities Contracts מ-0.002 דולר ל-0.001 דולר לחוזה שנסלק. זהו שינוי בעמלת הסליקה המוגדרת, לא הפחתה של כל עמלת מסחר למשקיע. זמן הפרסום המדויק אינו מצוין; העותק הועמד לעיון ציבורי כבר ב-16 בנובמבר.",
+    "summary_en": "The November 17 Federal Register carries Cboe Clear U.S. filing SR-CCUS-2026-01, filed November 4 and effective upon filing. It reduces the clearing fee for Securities Contracts from $0.002 to $0.001 per cleared contract. This concerns the specified clearing fee, not every trading charge paid by an investor. A precise publication time is not provided; the document was already available for public inspection on November 16.",
+    "טקסט": "ב-Federal Register מ-17 בנובמבר פורסם SR-CCUS-2026-01 של Cboe Clear U.S., שהוגש ב-4 בנובמבר וקיבל תוקף מיידי בעת ההגשה. התיק מפחית את עמלת הסליקה של Securities Contracts מ-0.002 דולר ל-0.001 דולר לחוזה שנסלק. זהו שינוי בעמלת הסליקה המוגדרת, לא הפחתה של כל עמלת מסחר למשקיע. זמן הפרסום המדויק אינו מצוין; העותק הועמד לעיון ציבורי כבר ב-16 בנובמבר.\n\nבנוסף נקבעת תוכנית תמרוץ חד-פעמית לחברי סליקה מסוג broker-dealer שנבחרו ועומדים בתנאי חברות, מסמכים, קישוריות, בדיקות והיערכות לסליקת עסקאות עושי שוק או חשבונות PAB. התשלום הוא 1.25 מיליון דולר אם התנאים הושלמו עד פתיחת המסחר הרגיל ב-16 בנובמבר; אחרת 750 אלף דולר עד 25 בנובמבר, או 500 אלף דולר עד 30 בנובמבר, לפי מדרגות הזכאות.\n\nמועד הודעת הכוונה להשתתף היה 11 בנובמבר וכבר חלף. ההודעה אינה מוכיחה שחבר כלשהו זכה בתשלום, ואינה פתיחה חדשה להרשמה היום. התוכנית אינה מוותרת על דרישות הון, קרן ערבות, חברות או ניהול סיכונים; התשלומים אמורים להיות ממקורות החברה.",
+    "טקסט_en": "The November 17 Federal Register carries Cboe Clear U.S. filing SR-CCUS-2026-01, filed November 4 and effective upon filing. It reduces the clearing fee for Securities Contracts from $0.002 to $0.001 per cleared contract. This concerns the specified clearing fee, not every trading charge paid by an investor. A precise publication time is not provided; the document was already available for public inspection on November 16.\n\nIt also creates one-time incentives for selected broker-dealer clearing members that satisfy membership, documentation, connectivity, testing and readiness requirements for clearing Market Maker or PAB transactions. Payment is $1.25 million if requirements were met by the November 16 regular-session opening; otherwise $750,000 by November 25, or $500,000 by November 30, under the applicable tiers.\n\nThe deadline to notify intent to participate was November 11 and has passed. The notice does not prove any member received a payment and is not a new application opening today. It does not waive capital, guaranty-fund, membership or risk-management requirements; payments are to come from corporate resources.",
+    "קישור": "https://www.federalregister.gov/documents/2026/11/17/2026-23335/self-regulatory-organizations-cboe-clear-us-llc-notice-of-filing-and-immediate-effectiveness-of",
+    "מקורות": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23335/self-regulatory-organizations-cboe-clear-us-llc-notice-of-filing-and-immediate-effectiveness-of",
+        "label": "Federal Register: הודעת הכלל המקורית",
+        "label_en": "Federal Register: original rule notice"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f83f8b01570204e9928d68fb4582f88893be766aa853535ca5dd616553c8ca6b"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2049",
+    "category": "micro",
+    "חברה": "Nasdaq (NDAQ)",
+    "חברה_en": "Nasdaq (NDAQ)",
+    "symbols": [
+      "NDAQ"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:44",
+    "הועלה": "2026-11-17 09:44",
+    "כותרת": "פורסם באיחור | Nasdaq (NDAQ): ISE מפחיתה החזר PIM מסוים מ-0.105 ל-0.10 דולר לחוזה; תנאי הזכאות נשארים",
+    "כותרת_en": "Published late | Nasdaq (NDAQ): ISE reduces a specified PIM rebate from $0.105 to $0.10 per contract; eligibility unchanged",
+    "summary": "Federal Register פרסם ב-17 בנובמבר את תיק SR-ISE-2026-59 של Nasdaq ISE, שהוגש ב-2 בנובמבר וקיבל תוקף מיידי. השינוי מפחית החזר במנגנון שיפור המחיר PIM מ-0.105 דולר ל-0.10 דולר לחוזה. אין כאן הפחתת עמלה כללית לכל פקודת אופציות. שעת הפרסום המדויקת אינה מצוינת.",
+    "summary_en": "The Federal Register published Nasdaq ISE filing SR-ISE-2026-59 on November 17. Filed November 2 and immediately effective, it reduces a specified Price Improvement Mechanism rebate from $0.105 to $0.10 per contract. This is not a general fee reduction for every options order. A precise publication time is not given.",
+    "טקסט": "Federal Register פרסם ב-17 בנובמבר את תיק SR-ISE-2026-59 של Nasdaq ISE, שהוגש ב-2 בנובמבר וקיבל תוקף מיידי. השינוי מפחית החזר במנגנון שיפור המחיר PIM מ-0.105 דולר ל-0.10 דולר לחוזה. אין כאן הפחתת עמלה כללית לכל פקודת אופציות. שעת הפרסום המדויקת אינה מצוינת.\n\nההחזר מיועד ל-Electronic Access Members העומדים בסף של יותר מ-0.75% מנפח Priority Customer בפקודות Regular Orders, מחושב כאחוז מנפח הלקוחות המאוחד הרלוונטי ליום בחודש הנתון. ההחזר חל על פקודות Priority Customer רגילות של פחות מ-250 חוזים המוגשות ל-PIM, בכפוף לכללי התוכנית.\n\nהבורסה אינה משנה כאן את תנאי הזכאות, החישוב, התשלום, צירוף הנפחים או ההחרגות. בפרט, ההחזר אינו משולם כאשר עסקת ההצלבה מורכבת משתי פקודות Priority Customer. זהו שינוי ממוקד בהחזר, לא אישור חדש למוצרי מטבעות דיגיטליים ולא שינוי בשעות המסחר.",
+    "טקסט_en": "The Federal Register published Nasdaq ISE filing SR-ISE-2026-59 on November 17. Filed November 2 and immediately effective, it reduces a specified Price Improvement Mechanism rebate from $0.105 to $0.10 per contract. This is not a general fee reduction for every options order. A precise publication time is not given.\n\nThe rebate is for Electronic Access Members exceeding the 0.75% Priority Customer Regular Order volume threshold, calculated as a percentage of the relevant Customer Total Consolidated Volume per day in a given month. It applies to Priority Customer Regular Orders of fewer than 250 contracts submitted to PIM, subject to program rules.\n\nThe filing does not otherwise change eligibility, calculation, payment, aggregation or exclusions. In particular, the rebate is not paid when a crossing transaction consists of two Priority Customer Orders. This is a targeted rebate change, not a new digital-commodity product approval or a trading-hours change.",
+    "קישור": "https://www.federalregister.gov/documents/2026/11/17/2026-23329/self-regulatory-organizations-nasdaq-ise-llc-notice-of-filing-and-immediate-effectiveness-of",
+    "מקורות": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23329/self-regulatory-organizations-nasdaq-ise-llc-notice-of-filing-and-immediate-effectiveness-of",
+        "label": "Federal Register: הודעת הכלל המקורית",
+        "label_en": "Federal Register: original rule notice"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e54e7300b4c7e2980f261aca84fbecde49390b6c7591f555bee4166fcecbffa7"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2050",
+    "category": "micro",
+    "חברה": "Intercontinental Exchange (ICE)",
+    "חברה_en": "Intercontinental Exchange (ICE)",
+    "symbols": [
+      "ICE"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:44",
+    "הועלה": "2026-11-17 09:44",
+    "כותרת": "פורסם באיחור | Intercontinental Exchange (ICE): NYSE מעלה מ-10 ל-15 מיליון מניות את מדרגת הפטור ל-Late D Orders זכאיות",
+    "כותרת_en": "Published late | Intercontinental Exchange (ICE): NYSE raises qualifying Late D Order fee-free tier from 10 million to 15 million shares",
+    "summary": "Federal Register פרסם ב-17 בנובמבר את SR-NYSE-2026-55, שהוגש ב-30 באוקטובר. NYSE קבעה יישום שינוי התמחור ל-2 בנובמבר 2026. אין כאן הפיכת כל פקודות הסגירה לחינמיות ב-17 בנובמבר. שעת הפרסום המדויקת אינה מצוינת.",
+    "summary_en": "The Federal Register published SR-NYSE-2026-55 on November 17; it was filed October 30. NYSE specified implementation of the pricing change on November 2, 2026. This does not make all closing orders free on November 17. A precise publication time is not given.",
+    "טקסט": "Federal Register פרסם ב-17 בנובמבר את SR-NYSE-2026-55, שהוגש ב-30 באוקטובר. NYSE קבעה יישום שינוי התמחור ל-2 בנובמבר 2026. אין כאן הפיכת כל פקודות הסגירה לחינמיות ב-17 בנובמבר. שעת הפרסום המדויקת אינה מצוינת.\n\nהשינוי מעלה מ-10 מיליון ל-15 מיליון מניות בחודש את המדרגה שאינה מחויבת בעמלה עבור Late D Orders של חברים זכאים. הזכאות הקיימת כוללת מחזור יומי ממוצע של לפחות 10,000 מניות שהוזנו ובוצעו בידי Floor broker מסונף. Late D Orders הן פקודות D שהוזנו או שונו לאחרונה בדקה האחרונה שלפני מועד הסגירה המתוכנן.\n\nהחיוב על נפח מעל המדרגה אינו משתנה: 0.0011 דולר למניה לחברים העומדים בספי Adding ADV של לפחות 0.50% מ-Tape A CADV ופעילות סגירה כוללת של לפחות 1.75%; לאחרים 0.0012 דולר. מדובר בתנאים מוגדרים של מכרז הסגירה, לא פטור גורף לכל לקוח, לכל פקודה או לכל כמות.",
+    "טקסט_en": "The Federal Register published SR-NYSE-2026-55 on November 17; it was filed October 30. NYSE specified implementation of the pricing change on November 2, 2026. This does not make all closing orders free on November 17. A precise publication time is not given.\n\nThe change raises the monthly fee-free tier for qualifying members' Late D Orders from 10 million to 15 million shares. Existing eligibility includes at least 10,000 shares of average daily volume entered and executed by an affiliated Floor broker. Late D Orders are D Orders entered or last modified in the final minute before the scheduled close.\n\nRates above the tier are unchanged: $0.0011 per share for members meeting Adding ADV of at least 0.50% of Tape A CADV and total close activity of at least 1.75%; otherwise $0.0012. These are specific closing-auction terms, not a blanket waiver for every customer, order or quantity.",
+    "קישור": "https://www.federalregister.gov/documents/2026/11/17/2026-23336/self-regulatory-organizations-new-york-stock-exchange-llc-notice-of-filing-and-immediate",
+    "מקורות": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23336/self-regulatory-organizations-new-york-stock-exchange-llc-notice-of-filing-and-immediate",
+        "label": "Federal Register: הודעת הכלל המקורית",
+        "label_en": "Federal Register: original rule notice"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "e1efff1a132e9fa9ab586915d56dd327a16aba97c36fb0e74bf81597ad5822fd"
+      }
+    }
   }
 ]
