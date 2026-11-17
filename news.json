@@ -53782,5 +53782,31 @@
     "הועלה": "2026-11-17 01:12",
     "summary": "ערכת מחשוב מקומית עם עד ארבע מערכות ו-512 גיגה-בייט זיכרון במצטבר; הוראות HPC SDK יגיעו בהמשך.",
     "summary_en": "Local computing kit with up to four systems and 512GB combined memory; the HPC SDK playbook is coming soon."
+  },
+  {
+    "מזהה": "n-1976",
+    "category": "macro",
+    "תאריך": "2026-11-17 02:03",
+    "הועלה": "2026-11-17 02:03",
+    "כותרת": "פורסם באיחור | CNN: מודיעין מצביע על תכנון איראני אפשרי לפגיעה בבכירים בוושינגטון; הבית הלבן אומר שאין איום מהימן כעת",
+    "כותרת_en": "Published late | CNN: intelligence indicates possible Iranian planning to target officials in Washington; White House says no credible threat now",
+    "summary": "דיווח המבוסס על שבעה גורמים אנונימיים, לא אישור לתקיפה קרובה; היכולת וההחלטה לפעול שנויות במחלוקת.",
+    "summary_en": "Report based on seven unnamed officials, not confirmation of an imminent attack; capability and a decision to act remain disputed.",
+    "קישור": "https://www.cnn.com/2026/11/16/politics/us-intelligence-iran-dirty-bomb",
+    "מקורות": [
+      {
+        "url": "https://www.cnn.com/2026/11/16/politics/us-intelligence-iran-dirty-bomb",
+        "label": "CNN: הדיווח המקורי המלא",
+        "label_en": "CNN: full original report"
+      }
+    ],
+    "טקסט": "**לא מאומת מול מקור ממשלתי ראשוני: הדיווח המקורי של CNN נקרא במלואו, אך המידע המודיעיני מבוסס על גורמים אנונימיים ולא נבדק עצמאית.**\n17.11.2026, 00:59 בשעון ישראל, לפי מועד הפרסום המקורי ב-CNN. פורסם באיחור.\n\nלפי CNN, המצטטת שבעה גורמים אמריקאיים, מידע מודיעיני חדש מצביע על כך שאיראן מפתחת תוכניות אפשריות לפגיעה בבכירים בממשל טראמפ בוושינגטון באמצעות פצצה רדיולוגית או נשק כימי. הגורמים מתארים הכנת אפשרויות, ולא אינדיקציה לתקיפה קרובה; הם חלוקים בשאלה אם לאיראן היכולת והכוונה להוציא תוכנית כזאת לפועל. אין כאן אישור שהתקבלה החלטה לבצע תקיפה או שתקיפה התרחשה.\n\nדוברת הבית הלבן אמרה ל-CNN כי ארה״ב עוקבת אחר איומים אפשריים, אך נכון לעכשיו אין איומים מהימנים על המולדת האמריקאית. נציגות איראן באו״ם דחתה בתוקף את הטענות הנוגעות לנשק כימי ואמרה ששימוש בו אינו לגיטימי בשום נסיבות; לפי CNN, תגובתה לא התייחסה במפורש לטענה על פצצה רדיולוגית. משרד ראש המודיעין הלאומי סירב להגיב לכתבה.\n\nקשור לעדכון מ-3 בנובמבר על האזהרה הישראלית השנויה במחלוקת בנוגע לנשק כימי באזור. החידוש כאן הוא דיווח CNN על תכנון אפשרי נגד בכירים בתוך וושינגטון ועל דיוני היערכות אמריקאיים. זהו סיכון מדווח להסלמה, לא התרעה רשמית לציבור, לא תקיפה מאומתת ולא הוכחה לשינוי במחירי הנפט או במצב הורמוז. פצצה רדיולוגית אינה פצצת ביקוע גרעיני.",
+    "טקסט_en": "**Not verified against a primary government source: CNN's full original report was read, but the intelligence is attributed to unnamed officials and was not independently checked.**\nNovember 17, 2026, 00:59 Israel time, based on CNN's original publication time. Published late.\n\nCNN, citing seven US officials, reports that new intelligence indicates Iran is developing potential plans to target senior Trump administration officials in Washington with a dirty bomb or chemical weapon. Sources describe developing options rather than an indication of an imminent attack; officials debate whether Iran has the capability and intention to execute such a plan. This does not confirm a decision to carry out an attack or that an attack occurred.\n\nA White House spokesperson told CNN that the US monitors potential threats, but there are currently no credible threats to the homeland. Iran's UN mission categorically rejected the chemical-weapons allegations and said their use is illegitimate under any circumstances; CNN says the response did not explicitly address the dirty-bomb allegation. The Office of the Director of National Intelligence declined to comment.\n\nRelated to the November 3 item on the disputed Israeli warning about chemical weapons in the region. The new element is CNN's report of potential planning against officials inside Washington and US contingency discussions. This is a reported escalation risk, not an official public alert, a confirmed attack or evidence of a change in oil prices or conditions in Hormuz. A dirty bomb is not a nuclear-fission bomb.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "f18d09666c094aeeb991e402b6526b94b0ba472318d8de69963d67388da5ee4f"
+      }
+    }
   }
 ]
