@@ -58868,5 +58868,43 @@
         "source_hash": "86c46a040069448e3acccf8c18dd66f1850de0520fe4dc2ab9fa434b9677c225"
       }
     }
+  },
+  {
+    "מזהה": "n-2122",
+    "category": "micro",
+    "חברה": "Kimberly-Clark (KMB)",
+    "חברה_en": "Kimberly-Clark (KMB)",
+    "symbols": [
+      "KMB"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:09",
+    "הועלה": "2026-11-17 11:09",
+    "כותרת": "פורסם באיחור | Kimberly-Clark (KMB): לפי Investing.com, JPMorgan חידשה סיקור ב-Neutral עם יעד של 113 דולר לדצמבר 2027",
+    "כותרת_en": "Published late | Kimberly-Clark (KMB): Investing.com reports JPMorgan resumes Neutral with $113 December 2027 target",
+    "summary": "**לא מאומת מול מקור ראשוני:** דוח JPMorgan המקורי לא נקרא. כתבת Investing.com המלאה מ-17 בנובמבר 2026 מציינת שהבנק חידש את סיקור Kimberly-Clark בהמלצת Neutral וביעד של 113 דולר לדצמבר 2027, לאחר תקופת הגבלה שבה המניה הוגדרה Not Rated.",
+    "summary_en": "**Not verified against a primary source:** JPMorgan's original research note was not read. The full November 17, 2026 Investing.com report says the bank resumed Kimberly-Clark coverage at Neutral with a $113 December 2027 price target after a restriction period during which the stock was Not Rated.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** דוח JPMorgan המקורי לא נקרא. כתבת Investing.com המלאה מ-17 בנובמבר 2026 מציינת שהבנק חידש את סיקור Kimberly-Clark בהמלצת Neutral וביעד של 113 דולר לדצמבר 2027, לאחר תקופת הגבלה שבה המניה הוגדרה Not Rated.\n\nלפני ההגבלה ההמלצה היתה גם היא Neutral, אך יעד המחיר היה 129 דולר לדצמבר 2026. לכן אין להציג את האירוע כהורדת המלצה מ-Neutral, וגם השוואת 129 ל-113 דולר אינה השוואה בין יעדים לאותו אופק זמן.\n\nלפי הכתבה, המודל עודכן לאחר דוחות הרבעון השלישי והשלמת רכישת Kenvue. השלמת הרכישה היא אירוע קודם, לא עסקה חדשה שהושלמה כעת. הנימוקים והתחזיות שבכתבה הם הערכות האנליסט ולא תחזית חדשה של החברה.\n\nפתיחת StreetInsider מציגה חידוש סיקור בידי Andrea Teixeira והמלצת Neutral ב-17 בנובמבר בשעה 03:06 EST, כלומר 10:06 בישראל. היא אינה חושפת את יעד המחיר, ולכן 113 דולר ואופק דצמבר 2027 נשענים על Investing.com. יעד מחיר אינו מחיר מסחר עדכני או הבטחת תשואה.",
+    "טקסט_en": "**Not verified against a primary source:** JPMorgan's original research note was not read. The full November 17, 2026 Investing.com report says the bank resumed Kimberly-Clark coverage at Neutral with a $113 December 2027 price target after a restriction period during which the stock was Not Rated.\n\nBefore the restriction, the rating was also Neutral, but the target was $129 for December 2026. This should not be described as a downgrade from Neutral, and the $129-to-$113 comparison is not between targets with the same time horizon.\n\nAccording to the report, the model was updated after third-quarter results and the Kenvue acquisition closing. That closing is an earlier event, not a new transaction completed now. The rationale and forecasts in the article are analyst estimates, not new company guidance.\n\nStreetInsider's opening identifies Andrea Teixeira's Neutral coverage resumption on November 17 at 03:06 EST, equivalent to 10:06 in Israel. It does not expose the price target, so the $113 figure and December 2027 horizon rely on Investing.com. A target is not a live trading price or a promised return.",
+    "קישור": "https://in.investing.com/news/stock-market-news/jpmorgan-resumes-kimberly-clark-stock-coverage-with-neutral-rating-93CH-5708937",
+    "מקורות": [
+      {
+        "url": "https://in.investing.com/news/stock-market-news/jpmorgan-resumes-kimberly-clark-stock-coverage-with-neutral-rating-93CH-5708937",
+        "label": "Investing.com: דיווח מלא; דוח הבנק לא נקרא",
+        "label_en": "Investing.com: full report; bank note not read"
+      },
+      {
+        "url": "https://www.streetinsider.com/Analyst+Comments/JPMorgan+Resumes+Kimberly+Clark+%28KMB%29+at+Neutral/27358349.html",
+        "label": "StreetInsider: פתיחה בלבד, אינה חושפת יעד מחיר",
+        "label_en": "StreetInsider: opening only, target not exposed"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "98715796905a4cf1b3f7be6162b2aed1e0bcd0210145888c9b2c4b58f2880b4b"
+      }
+    }
   }
 ]
