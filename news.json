@@ -58254,5 +58254,38 @@
         "source_hash": "f819388d7cdd7908e428f629557929a68c5a8652fd89e0660c23f19648942969"
       }
     }
+  },
+  {
+    "מזהה": "n-2104",
+    "category": "micro",
+    "חברה": "Celestica (CLS)",
+    "חברה_en": "Celestica (CLS)",
+    "symbols": [
+      "CLS"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:46",
+    "הועלה": "2026-11-17 10:46",
+    "כותרת": "פורסם באיחור | Celestica (CLS): לפי Tech-Critter, מרחיבה את מרכז התכנון בפנאנג ומתכננת מעבדת AI בהספק של עד 10 מגה-ואט",
+    "כותרת_en": "Published late | Celestica (CLS): Tech-Critter reports Penang design-center expansion and planned AI-lab power capacity of 10MW",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת Tech-Critter המלאה מ-16 בנובמבר 2026 נקראה. הודעת Celestica מקורית לא נקראה; שעת הפרסום ומועד ביצוע ההרחבה המדויק לא אומתו.",
+    "summary_en": "**Not verified against a primary source:** The full November 16, 2026 Tech-Critter article was reviewed. An original Celestica announcement was not read; the publication clock and exact expansion implementation date were not verified.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת Tech-Critter המלאה מ-16 בנובמבר 2026 נקראה. הודעת Celestica מקורית לא נקראה; שעת הפרסום ומועד ביצוע ההרחבה המדויק לא אומתו.\n\nלפי הכתבה, Celestica מרחיבה את מרכז התכנון של חטיבת Hardware Platform Solutions בפנאנג שבמלזיה. המרכז נפתח ב-2023, פועל בשטח של 50 אלף רגל רבועה ומעסיק כעת 210 עובדים בתחומי הנדסת חומרה ותוכנה. זה אינו אישור שכל השטח או כל כוח האדם נוספו כעת.\n\nהחברה מתכננת, לפי הדיווח, להרחיב את קיבולת החשמל של מעבדת ה-AI בפנאנג ל-10 מגה-ואט ולגייס מהנדסים נוספים במלזיה. זו תוכנית להגדלת מעבדת פיתוח ובדיקות, לא חיבור חשמל שכבר הופעל, הספק ייצור מסחרי חדש או חוזה לקוח בהיקף של 10 מגה-ואט. לא נמסרו מועד הפעלה מחייב, סכום השקעה או מספר משרות חדש מדויק.\n\nהכתבה מייחסת לצוות יכולות תכנון מקצה לקצה, כולל מתגי 1.6Tbps, ארכיטקטורת מערכות, חשמל וקירור, תוכנה ואימות מוצרים. היא מציינת 18 מוצרים שתוכננו בשלוש שנים ו-18 פטנטים אמריקאיים ב-2026. אלה נתוני הפעילות המדווחים, לא הכנסות או הזמנות חדשות.",
+    "טקסט_en": "**Not verified against a primary source:** The full November 16, 2026 Tech-Critter article was reviewed. An original Celestica announcement was not read; the publication clock and exact expansion implementation date were not verified.\n\nThe article says Celestica is expanding its Hardware Platform Solutions Design Center in Penang, Malaysia. The center opened in 2023, occupies 50,000 square feet and now has 210 hardware and software engineering employees. This does not establish that all the space or staff were newly added.\n\nAccording to the report, Celestica plans to expand its Penang AI laboratory's power capacity to 10MW and hire more engineers in Malaysia. This is a planned development and testing laboratory expansion, not an already energized power connection, newly operating commercial production capacity or a 10MW customer contract. No committed activation date, investment amount or exact new hiring total is given.\n\nThe article credits the team with end-to-end design capabilities spanning 1.6Tbps switches, system architecture, power and cooling, software and product validation. It reports 18 products designed over three years and 18 US patents in 2026. Those are reported operating metrics, not new revenue or orders.",
+    "קישור": "https://www.tech-critter.com/celestica-penang-hps-design-center-expansion/",
+    "מקורות": [
+      {
+        "url": "https://www.tech-critter.com/celestica-penang-hps-design-center-expansion/",
+        "label": "Tech-Critter: כתבה מלאה מ-16 בנובמבר; מקור החברה לא נקרא",
+        "label_en": "Tech-Critter: full November 16 article; original company source not read"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "563bb68a71c6d238862952fd14f663b153e52cbcff09d0998a97446648ada601"
+      }
+    }
   }
 ]
