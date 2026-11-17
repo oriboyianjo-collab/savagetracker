@@ -55494,5 +55494,120 @@
         "source_hash": "52dfabf9bb2423bcbb45478013e6f17f1f796b583b0052261f7162eb28838cb5"
       }
     }
+  },
+  {
+    "מזהה": "n-2024",
+    "category": "micro",
+    "חברה": "Advanced Micro Devices (AMD) / NVIDIA (NVDA)",
+    "חברה_en": "Advanced Micro Devices (AMD) / NVIDIA (NVDA)",
+    "symbols": [
+      "AMD",
+      "NVDA"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:26",
+    "הועלה": "2026-11-17 09:26",
+    "כותרת": "פורסם באיחור | Advanced Micro Devices (AMD): Inference Stack הגישה תביעות פטנטים נפרדות נגדה ונגד NVIDIA (NVDA)",
+    "כותרת_en": "Published late | Advanced Micro Devices (AMD): Inference Stack files separate patent suits against it and NVIDIA (NVDA)",
+    "summary": "Inference Stack הגישה ב-13 בנובמבר שתי תביעות פטנטים נפרדות בבית המשפט הפדרלי במערב טקסס, מחוז Midland-Odessa: תיק 7:26-cv-00453 נגד Advanced Micro Devices ותיק 7:26-cv-00454 נגד NVIDIA. כתבי התביעה המקוריים נושאים חותמת הגשה מאותו יום ומתייחסים לשני פטנטים אמריקאיים, 11,003,985 ו-11,068,394, הנוגעים לחומרה לחישוב רשתות עצביות.",
+    "summary_en": "Inference Stack filed two separate patent infringement suits on November 13 in the Midland-Odessa Division of the U.S. District Court for the Western District of Texas: case 7:26-cv-00453 against Advanced Micro Devices and case 7:26-cv-00454 against NVIDIA. The original complaints bear that filing date and assert U.S. patents 11,003,985 and 11,068,394 concerning neural-network computing hardware.",
+    "טקסט": "Inference Stack הגישה ב-13 בנובמבר שתי תביעות פטנטים נפרדות בבית המשפט הפדרלי במערב טקסס, מחוז Midland-Odessa: תיק 7:26-cv-00453 נגד Advanced Micro Devices ותיק 7:26-cv-00454 נגד NVIDIA. כתבי התביעה המקוריים נושאים חותמת הגשה מאותו יום ומתייחסים לשני פטנטים אמריקאיים, 11,003,985 ו-11,068,394, הנוגעים לחומרה לחישוב רשתות עצביות.\n\nהתובעת טוענת שהיא בעלת רישיון בלעדי לפטנטים שמקורם במחקר של ETRI בקוריאה, ושמוצרי שתי החברות מפרים אותם. היא מבקשת פיצויים, תמלוגים, צו מניעה קבוע ומשפט בפני חבר מושבעים. אלה טענות וסעדים מבוקשים בכתבי תביעה, לא פסק דין, פיצוי שנפסק או איסור שכבר הוטל על מכירת המוצרים.\n\nהניתוח של Patent Litigator פורסם ב-16 בנובמבר, ללא שעת פרסום מדויקת. דיווח Yonhap מ-17 בנובמבר הוא סיקור מאוחר יותר של אותן הגשות, לא תביעה חדשה שהוגשה היום. אין בכתבי התביעה לבדם הוכחה שהפטנטים תקפים או שהתרחשה הפרה.",
+    "טקסט_en": "Inference Stack filed two separate patent infringement suits on November 13 in the Midland-Odessa Division of the U.S. District Court for the Western District of Texas: case 7:26-cv-00453 against Advanced Micro Devices and case 7:26-cv-00454 against NVIDIA. The original complaints bear that filing date and assert U.S. patents 11,003,985 and 11,068,394 concerning neural-network computing hardware.\n\nThe plaintiff claims exclusive licensing rights to patents arising from ETRI research in South Korea and alleges that products from both companies infringe them. It seeks damages, royalties, a permanent injunction and a jury trial. These are allegations and requested remedies in complaints, not a judgment, awarded damages or an existing product-sales ban.\n\nPatent Litigator published its analysis on November 16 without a precise publication time. The November 17 Yonhap story is later reporting on the same filings, not a suit filed today. The complaints alone do not establish patent validity or infringement.",
+    "קישור": "https://storage.courtlistener.com/recap/gov.uscourts.txwd.1172945415/gov.uscourts.txwd.1172945415.1.0.pdf",
+    "מקורות": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.txwd.1172945415/gov.uscourts.txwd.1172945415.1.0.pdf",
+        "label": "כתב התביעה המקורי נגד AMD, חותמת 13 בנובמבר",
+        "label_en": "Original complaint against AMD, filed November 13"
+      },
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.txwd.1172945416/gov.uscourts.txwd.1172945416.1.0.pdf",
+        "label": "כתב התביעה המקורי נגד NVIDIA, חותמת 13 בנובמבר",
+        "label_en": "Original complaint against NVIDIA, filed November 13"
+      },
+      {
+        "url": "https://patentlitigator.com/analysis/inference-stack-v-amd-and-nvidia-neural-network-hardware-patents-wdtx/",
+        "label": "Patent Litigator: ניתוח מ-16 בנובמבר",
+        "label_en": "Patent Litigator: November 16 analysis"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "17d55a8a3e54e7938e98e44d78e3d3798e5bbfe7176ecfe5014a0b0d0b2b4622"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2025",
+    "category": "micro",
+    "חברה": "Microsoft (MSFT)",
+    "חברה_en": "Microsoft (MSFT)",
+    "symbols": [
+      "MSFT"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:26",
+    "הועלה": "2026-11-17 09:26",
+    "כותרת": "פורסם באיחור | Microsoft (MSFT): עיריית Rockford אישרה שהחברה בוחנת אתר למרכז נתונים; אין עדיין תוכניות מפורטות",
+    "כותרת_en": "Published late | Microsoft (MSFT): Rockford city confirms site evaluation; detailed plans not yet available",
+    "summary": "עיריית Rockford באילינוי הודיעה ב-13 בנובמבר כי Microsoft היא החברה הבוחנת קרקע בשליטת Monarch בדרום העיר לצורך הקמת מרכז נתונים אפשרי. העירייה מדגישה שהאתר עדיין נבחן ושטרם קיימות תוכניות פיתוח מפורטות זמינות.",
+    "summary_en": "The City of Rockford, Illinois announced on November 13 that Microsoft is evaluating Monarch-controlled property in south Rockford for potential data center development. The city stresses that the site is still being evaluated and detailed development plans are not yet available.",
+    "טקסט": "עיריית Rockford באילינוי הודיעה ב-13 בנובמבר כי Microsoft היא החברה הבוחנת קרקע בשליטת Monarch בדרום העיר לצורך הקמת מרכז נתונים אפשרי. העירייה מדגישה שהאתר עדיין נבחן ושטרם קיימות תוכניות פיתוח מפורטות זמינות.\n\nלפי העירייה, Microsoft מתכננת מפגשים פתוחים עם התושבים בחודשים הקרובים, במועדים שיפורסמו בהמשך. השימוע העירוני שנקבע ל-17 בנובמבר עוסק בכללי העיר למרכזי נתונים, לא באישור הפרויקט המסוים של Microsoft או מיקומו.\n\nזהו אישור רשמי לזהות החברה שבוחנת את האתר, לא התחייבות להשקעה או אישור בנייה. אין בהודעת העירייה אישור לאספקת חשמל מובטחת או להספק של 1.4 ג׳יגה-ואט. המקור מציין תאריך פרסום ללא שעה מדויקת.",
+    "טקסט_en": "The City of Rockford, Illinois announced on November 13 that Microsoft is evaluating Monarch-controlled property in south Rockford for potential data center development. The city stresses that the site is still being evaluated and detailed development plans are not yet available.\n\nAccording to the city, Microsoft plans community open houses in the coming months, with dates to be announced. The November 17 zoning hearing concerns the city's proposed data center regulations, not approval of Microsoft's specific project or location.\n\nThis is official confirmation of the company evaluating the site, not an investment commitment or building approval. The city announcement does not confirm secured power or a 1.4-gigawatt capacity. It gives a publication date without a precise time.",
+    "קישור": "https://www.rockfordil.gov/m/NewsFlash/Home/Detail/242",
+    "מקורות": [
+      {
+        "url": "https://www.rockfordil.gov/m/NewsFlash/Home/Detail/242",
+        "label": "עיריית Rockford: הודעה רשמית מ-13 בנובמבר",
+        "label_en": "City of Rockford: official November 13 announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "83edc06e1964cbaeda68bb2d5d9ac0024925ec2d053ba81e53bf664878602790"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2026",
+    "category": "micro",
+    "חברה": "Amazon (AMZN)",
+    "חברה_en": "Amazon (AMZN)",
+    "symbols": [
+      "AMZN"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 09:26",
+    "הועלה": "2026-11-17 09:26",
+    "כותרת": "פורסם באיחור | לא מאומת מול מקור ראשוני | Amazon (AMZN): לפי Economic Times, Bharti במגעים מתקדמים לשותפות עם Amazon Leo בהודו",
+    "כותרת_en": "Published late | Not verified against a primary source | Amazon (AMZN): Economic Times reports advanced Bharti talks on Amazon Leo partnership in India",
+    "summary": "**לא מאומת מול מקור ראשוני.** Economic Times דיווח ב-17 בנובמבר ב-05:30 בהודו, 02:00 בישראל, כי קבוצת Bharti מנהלת מגעים מתקדמים לשותפות אפשרית עם Amazon Leo בהודו. הדיווח מבוסס על אנשים הבקיאים בפרטים; תנאי ההסכם טרם סוכמו, ו-Bharti Enterprises, Bharti Airtel ו-Amazon לא השיבו לבקשת תגובה.",
+    "summary_en": "**Not verified against a primary source.** Economic Times reported on November 17 at 05:30 in India, 02:00 in Israel, that Bharti Group is in advanced talks on a potential Amazon Leo partnership in India. It cites people aware of the details; final terms have not been settled, and Bharti Enterprises, Bharti Airtel and Amazon did not respond to requests for comment.",
+    "טקסט": "**לא מאומת מול מקור ראשוני.** Economic Times דיווח ב-17 בנובמבר ב-05:30 בהודו, 02:00 בישראל, כי קבוצת Bharti מנהלת מגעים מתקדמים לשותפות אפשרית עם Amazon Leo בהודו. הדיווח מבוסס על אנשים הבקיאים בפרטים; תנאי ההסכם טרם סוכמו, ו-Bharti Enterprises, Bharti Airtel ו-Amazon לא השיבו לבקשת תגובה.\n\nלפי אותם מקורות, Bharti עשויה לנהל תשתיות מקומיות כגון תחנות קרקע. הכתבה מדווחת ש-Amazon ביקשה אישור לקיבולת של 3 טרה-ביט לשנייה בהודו. זו בקשת קיבולת מדווחת, לא אישור שניתן או שירות שכבר הושק.\n\nהאתר הרשמי של Amazon מאשר ש-Amazon Leo, לשעבר Project Kuiper, היא רשת הלוויינים של Amazon, אך אינו מאשר את המגעים עם Bharti. אין כאן הסכם חתום, בלעדיות, אישור רגולטורי או סכום השקעה מוסכם.",
+    "טקסט_en": "**Not verified against a primary source.** Economic Times reported on November 17 at 05:30 in India, 02:00 in Israel, that Bharti Group is in advanced talks on a potential Amazon Leo partnership in India. It cites people aware of the details; final terms have not been settled, and Bharti Enterprises, Bharti Airtel and Amazon did not respond to requests for comment.\n\nThose sources say Bharti could manage local infrastructure such as gateways. The story reports that Amazon sought approval for 3 terabits per second of capacity in India. This is a reported capacity application, not granted approval or a service already launched.\n\nAmazon's official website confirms that Amazon Leo, formerly Project Kuiper, is Amazon's satellite network, but it does not confirm the Bharti talks. This is not a signed agreement, exclusivity arrangement, regulatory clearance or agreed investment amount.",
+    "קישור": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/et-exclusive-bharti-group-in-advanced-talks-with-amazon-leo-for-india-satcom-partnership/articleshow/135901062.cms",
+    "מקורות": [
+      {
+        "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/et-exclusive-bharti-group-in-advanced-talks-with-amazon-leo-for-india-satcom-partnership/articleshow/135901062.cms",
+        "label": "Economic Times: דיווח מקורי על מגעים, לא הסכם",
+        "label_en": "Economic Times: original talks report, not an agreement"
+      },
+      {
+        "url": "https://www.aboutamazon.com/what-we-do/devices-services/amazon-leo",
+        "label": "Amazon: זהות Amazon Leo בלבד, לא אישור למגעים",
+        "label_en": "Amazon: Amazon Leo identity only, not confirmation of talks"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "082cf163b0ff9c6fdfee92e9006d0e4d4aa11345fbcdbfccb54490077e638ccb"
+      }
+    }
   }
 ]
