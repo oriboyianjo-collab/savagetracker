@@ -57914,5 +57914,76 @@
         "source_hash": "e6dbabd30ef1ae10244398e1cb19b706481e9984c7f097fbb0e61b238006ee1e"
       }
     }
+  },
+  {
+    "מזהה": "n-2094",
+    "category": "micro",
+    "חברה": "Atmos Energy (ATO)",
+    "חברה_en": "Atmos Energy (ATO)",
+    "symbols": [
+      "ATO"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:37",
+    "הועלה": "2026-11-17 10:37",
+    "כותרת": "פורסם באיחור | Atmos Energy (ATO): דיווחה על EPS שנתי של 8.49 דולר ב-FY2026; תחזית FY2027 של 9.05 עד 9.25 דולר",
+    "כותרת_en": "Published late | Atmos Energy (ATO): reports FY2026 diluted EPS of $8.49; guides FY2027 to $9.05-$9.25",
+    "summary": "הודעת Atmos Energy המקורית מ-4 בנובמבר 2026 נקראה ישירות. מדובר בתוצאות שנת הכספים שהסתיימה ב-30 בספטמבר ובתחזית שנמסרה אז, לא בפרסום חדש מהיום. שעת הפרסום המקורית לא אומתה.",
+    "summary_en": "Atmos Energy's original November 4, 2026 release was reviewed directly. It reports the fiscal year ended September 30 and guidance issued at that time, not a new announcement today. The original publication clock was not verified.",
+    "טקסט": "הודעת Atmos Energy המקורית מ-4 בנובמבר 2026 נקראה ישירות. מדובר בתוצאות שנת הכספים שהסתיימה ב-30 בספטמבר ובתחזית שנמסרה אז, לא בפרסום חדש מהיום. שעת הפרסום המקורית לא אומתה.\n\nהחברה דיווחה על רווח מדולל של 8.49 דולר למניה ורווח נקי של כ-1.4 מיליארד דולר בשנת הכספים 2026. זהו EPS שנתי, לא רווח הרבעון הרביעי לבדו. הערך השנתי כאן נשען על הודעת החברה, ולא על נתון סותר בסיקור משני.\n\nהוצאות ההון השנתיות היו 4.2 מיליארד דולר, יותר מ-85% מהן לבטיחות ולאמינות. החברה הציגה הון עצמי בשיעור 60% ממבנה ההון ונזילות זמינה של 3.8 מיליארד דולר; נזילות אינה זהה ליתרת מזומן. היא דיווחה על יישום תוצאות רגולטוריות בהיקף הכנסה שנתית של 395.4 מיליון דולר, ולא על תקבול מזומן חד-פעמי באותו סכום.\n\nל-FY2027 נמסרה תחזית רווח מדולל של 9.05 עד 9.25 דולר למניה ותכנית השקעות הון של כ-4.5 מיליארד דולר. אלו יעדים עתידיים, לא תוצאות שהושגו. הדירקטוריון הכריז על דיבידנד רבעוני של 1.09 דולר למניה; ההודעה מציינת קצב שנתי של 4.36 דולר, לא תשלום רבעוני של 4.36 דולר.",
+    "טקסט_en": "Atmos Energy's original November 4, 2026 release was reviewed directly. It reports the fiscal year ended September 30 and guidance issued at that time, not a new announcement today. The original publication clock was not verified.\n\nAtmos reported fiscal 2026 diluted EPS of $8.49 and net income of approximately $1.4 billion. That EPS is annual, not fourth-quarter earnings alone. The annual figure here follows the company release rather than a conflicting secondary report.\n\nAnnual capital expenditure was $4.2 billion, more than 85% directed to safety and reliability. Atmos reported 60% equity capitalization and $3.8 billion of available liquidity; liquidity is not the same as cash on hand. It reported implementing $395.4 million in annualized regulatory outcomes, not receiving a one-time cash payment of that amount.\n\nFor FY2027, guidance called for diluted EPS of $9.05 to $9.25 and approximately $4.5 billion in capital expenditure. These are future targets, not achieved results. The board declared a quarterly dividend of $1.09 per share; the release gives an indicated annual rate of $4.36, not a $4.36 quarterly payment.",
+    "קישור": "https://www.investors.atmosenergy.com/news/news-details/2026/Atmos-Energy-Corporation-Reports-Earnings-for-Fiscal-2026-Initiates-Fiscal-2027-Guidance/default.aspx",
+    "מקורות": [
+      {
+        "url": "https://www.investors.atmosenergy.com/news/news-details/2026/Atmos-Energy-Corporation-Reports-Earnings-for-Fiscal-2026-Initiates-Fiscal-2027-Guidance/default.aspx",
+        "label": "Atmos Energy: הודעת החברה המקורית",
+        "label_en": "Atmos Energy: original company announcement"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "a91b1aae7240f0e3f1f04d189081b433e6dd679b26b65fb83bcf180cbade7db5"
+      }
+    }
+  },
+  {
+    "מזהה": "n-2095",
+    "category": "micro",
+    "חברה": "Comfort Systems USA (FIX)",
+    "חברה_en": "Comfort Systems USA (FIX)",
+    "symbols": [
+      "FIX"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 10:37",
+    "הועלה": "2026-11-17 10:37",
+    "כותרת": "פורסם באיחור | Comfort Systems USA (FIX): לפי Investing.com, KeyBanc הפחיתה יעד מחיר מ-2,125 ל-1,979 דולר ושמרה Overweight",
+    "כותרת_en": "Published late | Comfort Systems USA (FIX): Investing.com reports KeyBanc cut target to $1,979 from $2,125, keeping Overweight",
+    "summary": "**לא מאומת מול מקור ראשוני:** כתבת Investing.com המלאה מ-26 באוקטובר 2026 נקראה, אך מסמך KeyBanc המקורי לא נבדק ישירות. זהו סיקור היסטורי של שינוי יעד מחיר, לא פעולה חדשה מהיום. השעה המוצגת בכתבה אינה כוללת אזור זמן שאומת כאן.",
+    "summary_en": "**Not verified against a primary source:** The full October 26, 2026 Investing.com article was reviewed, but the original KeyBanc note was not directly checked. This is historical coverage of a target change, not a new action today. The displayed publication clock has no time zone verified here.",
+    "טקסט": "**לא מאומת מול מקור ראשוני:** כתבת Investing.com המלאה מ-26 באוקטובר 2026 נקראה, אך מסמך KeyBanc המקורי לא נבדק ישירות. זהו סיקור היסטורי של שינוי יעד מחיר, לא פעולה חדשה מהיום. השעה המוצגת בכתבה אינה כוללת אזור זמן שאומת כאן.\n\nלפי הכתבה, KeyBanc הפחיתה את יעד המחיר על Comfort Systems USA מ-2,125 ל-1,979 דולר, תוך שמירה על המלצת Overweight. זהו יעד של ברוקר, לא מחיר שהחברה התחייבה אליו או הבטחת תשואה.\n\nהסיקור מייחס לברוקר חשש לרווחיות הרבעון השלישי על רקע עיתוי סיום פרויקטים ועלויות רכיבי ציוד, לצד הערכה חיובית יותר להזמנות ולתזרים. אלו נימוקים המיוחסים למחקר, לא אישור עצמאי לכל נתוני הרקע בכתבה.\n\nקיימת בכתבה טעות בזיהוי התפקיד של Bill George. הודעת החברה שכבר סוקרה מגדירה אותו כסמנכ\"ל כספים, לא כמנכ\"ל, ומציגה את Julie Shaeff כיורשתו העתידית בתפקיד הכספי. אין להציג את שינוי יעד המחיר כהודעה על החלפת מנכ\"ל או על מעבר שכבר הושלם.",
+    "טקסט_en": "**Not verified against a primary source:** The full October 26, 2026 Investing.com article was reviewed, but the original KeyBanc note was not directly checked. This is historical coverage of a target change, not a new action today. The displayed publication clock has no time zone verified here.\n\nThe article says KeyBanc lowered its Comfort Systems USA price target to $1,979 from $2,125 while maintaining Overweight. This is a broker target, not a company-committed price or guaranteed return.\n\nIt attributes margin concerns to project-closeout timing and equipment-component costs, alongside a more positive assessment of bookings and cash flow. These are reported research arguments, not independent confirmation of every background figure in the article.\n\nThe article misidentifies Bill George's role. The previously covered company announcement identifies him as chief financial officer, not chief executive, and describes Julie Shaeff as his future successor in the finance role. The target change must not be presented as an announcement of a CEO replacement or a completed transition.",
+    "קישור": "https://www.investing.com/news/analyst-ratings/keybanc-cuts-comfort-systems-usa-stock-price-target-on-margin-miss-93CH-4973229",
+    "מקורות": [
+      {
+        "url": "https://www.investing.com/news/analyst-ratings/keybanc-cuts-comfort-systems-usa-stock-price-target-on-margin-miss-93CH-4973229",
+        "label": "Investing.com: סיקור מלא; מסמך KeyBanc לא נבדק",
+        "label_en": "Investing.com: full coverage; KeyBanc note not reviewed"
+      },
+      {
+        "url": "https://comfortsystemsusa.gcs-web.com/news-releases/news-release-details/comfort-systems-announces-2027-leadership-transition",
+        "label": "Comfort Systems: הודעת תפקידי הכספים, רקע שנבדק בפריט 1725",
+        "label_en": "Comfort Systems: finance leadership release, background reviewed in item 1725"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "83d942456ea65b5317769ff198aea91866b5d321451448741c29b82b2a3882f8"
+      }
+    }
   }
 ]
