@@ -58954,5 +58954,43 @@
         "source_hash": "31055cf7c9616ea03690fe65325803a90bfc6cd0b1312c9974e23d4f26f9c570"
       }
     }
+  },
+  {
+    "מזהה": "n-2124",
+    "category": "micro",
+    "חברה": "Invesco (IVZ)",
+    "חברה_en": "Invesco (IVZ)",
+    "symbols": [
+      "IVZ"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 11:13",
+    "הועלה": "2026-11-17 11:13",
+    "כותרת": "Invesco (IVZ): עמוד Superstate מציג יחידות IROXX על Ethereum; זו קרן כספית בטוקנים, לא מטבע יציב חדש",
+    "כותרת_en": "Invesco (IVZ): Superstate lists IROXX shares on Ethereum; a tokenized money market fund, not a new stablecoin",
+    "summary": "עמוד IROXX המקורי של Superstate נקרא במלואו. הוא מציג את Invesco Advisers כמנהל ההשקעות ואת Superstate כגורם רישום משני, ומונה 80,008 יחידות IROXX ברשת Ethereum בשווי מוצג של 80,008 דולר. The Defiant דיווחה ב-17 בנובמבר 2026 על תחילת הנפקת יחידות הקרן כטוקנים; שעת פרסום הכתבה המדויקת לא אומתה.",
+    "summary_en": "Superstate's full original IROXX page was read. It identifies Invesco Advisers as investment manager and Superstate as sub-transfer agent and lists 80,008 IROXX shares on Ethereum with a displayed value of $80,008. The Defiant reported on November 17, 2026 that the fund had begun issuing tokenized shares; the article's exact publication clock was not verified.",
+    "טקסט": "עמוד IROXX המקורי של Superstate נקרא במלואו. הוא מציג את Invesco Advisers כמנהל ההשקעות ואת Superstate כגורם רישום משני, ומונה 80,008 יחידות IROXX ברשת Ethereum בשווי מוצג של 80,008 דולר. The Defiant דיווחה ב-17 בנובמבר 2026 על תחילת הנפקת יחידות הקרן כטוקנים; שעת פרסום הכתבה המדויקת לא אומתה.\n\nהמוצר הוא Invesco Stablecoin Reserves Onchain Fund, קרן כספית באג\"ח ממשלת ארה\"ב לטווח קצר, שהבעלות ביחידותיה מיוצגת בטוקנים. אין מדובר בהנפקת מטבע יציב חדש של Invesco או במניה של החברה. יעד שווי נכסי נקי של דולר ליחידה אינו הבטחת קרן או הוכחה שאין סיכון השקעה.\n\nעמוד הפלטפורמה מציג מינימום השקעה של מיליון דולר, דמי הוצאות ברוטו ונטו של 0.36% ו-0.20% בהתאמה, הכנסה המחולקת מדי יום ומסלולי הצטרפות ופדיון בדולר או USDC. הוא מציין נזילות בימי מסחר וחיתוך הוראות ב-17:00 ET, לא הבטחת פדיון מיידי בכל שעה לכל אדם. נתון תשואת שבעה ימים אינו מוצג.\n\nיש הבדל בין כותרת העמוד, המציגה נכסים של 80,000 דולר נכון ל-16 בנובמבר, לבין טבלת Ethereum המציגה 80,008 יחידות. שני נתוני המסך אינם זהים, ולא אומת אם ההבדל נובע ממועד העדכון או מסיבה אחרת. אין בכך הוכחה לזרימה חיצונית של שמונה דולר או לסכום הכנסות של Invesco. לא אומתו זהות משקיע חיצוני או לקוח מנפיק מטבע יציב, והעמוד עדיין מסמן שילובי DeFi כעתידיים.",
+    "טקסט_en": "Superstate's full original IROXX page was read. It identifies Invesco Advisers as investment manager and Superstate as sub-transfer agent and lists 80,008 IROXX shares on Ethereum with a displayed value of $80,008. The Defiant reported on November 17, 2026 that the fund had begun issuing tokenized shares; the article's exact publication clock was not verified.\n\nThe product is the Invesco Stablecoin Reserves Onchain Fund, a money market fund providing access to short-term U.S. government securities, with ownership represented by tokens. It is not a new Invesco-issued stablecoin or Invesco corporate stock. A $1 target net asset value per share is not a capital guarantee or evidence of risk-free investing.\n\nThe platform page shows a $1 million investment minimum, gross and net expense ratios of 0.36% and 0.20%, daily income distributions, and subscriptions and redemptions through USD or USDC. It specifies market-day liquidity and a 5pm ET order cutoff, not instant redemption around the clock for anyone. No seven-day yield is displayed.\n\nThe page header shows $80,000 in assets as of November 16, while its Ethereum table shows 80,008 shares. The two displayed figures differ, and whether this reflects update timing or another cause was not verified. It is not proof of an $8 external inflow or Invesco revenue. No outside investor or stablecoin-issuer customer identity was verified, and the page still lists DeFi integrations as coming soon.",
+    "קישור": "https://superstate.com/assets/iroxx",
+    "מקורות": [
+      {
+        "url": "https://superstate.com/assets/iroxx",
+        "label": "Superstate: עמוד הקרן המקורי, נתוני פלטפורמה",
+        "label_en": "Superstate: original fund page, platform data"
+      },
+      {
+        "url": "https://thedefiant.io/converge/tradfi-and-fintech/invesco-s-stablecoin-reserve-fund-goes-live-on-ethereum",
+        "label": "The Defiant: דיווח קצר מקורי מ-17 בנובמבר",
+        "label_en": "The Defiant: original short report dated November 17"
+      }
+    ],
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "ff8b99c1739d6f4c04e55f46aedb3e1adc3a24826ea6098ab4e7492f88e205db"
+      }
+    }
   }
 ]
