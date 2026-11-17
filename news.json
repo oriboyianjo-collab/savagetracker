@@ -53924,5 +53924,38 @@
         "source_hash": "05fd3c3539211c5e86987ae56d87c961d184218bf5e34dbf43fe1e63c3db0294"
       }
     }
+  },
+  {
+    "מזהה": "n-1981",
+    "category": "company",
+    "חברה": "Alphabet (GOOGL)",
+    "חברה_en": "Alphabet (GOOGL)",
+    "symbols": [
+      "GOOGL"
+    ],
+    "sectors": [],
+    "tags_version": 1,
+    "תאריך": "2026-11-17 03:52",
+    "הועלה": "2026-11-17 03:52",
+    "כותרת": "פורסם באיחור | Alphabet (GOOGL): Google מדווחת על שימוש בסוכני AI לאוטומציה של שלבים בתקיפות סייבר בפועל",
+    "כותרת_en": "Published late | Alphabet (GOOGL): Google reports AI agents automating stages of real cyber intrusions",
+    "summary": "מחקר GTIG ו-Mandiant על פעילות תוקפים ברבעון האחרון, לא הודעה על פריצה חדשה ל-Google.",
+    "summary_en": "GTIG and Mandiant research on threat activity over the past quarter, not an announcement of a new Google breach.",
+    "קישור": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+    "מקורות": [
+      {
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+        "label": "Google Cloud: דוח GTIG המקורי המלא",
+        "label_en": "Google Cloud: full original GTIG report"
+      }
+    ],
+    "טקסט": "פורסם באיחור. 17.11.2026, 00:00 בשעון ישראל, לפי חותמת הפרסום בעמוד Google Cloud.\n\nקבוצת מודיעין האיומים של Google ו-Mandiant פרסמו דוח המתאר כיצד תוקפים משתמשים בסוכני AI ובמערכות מרובות סוכנים כדי להפוך שלבים בתקיפות לאוטומטיים. לפי החוקרים, הם צפו בשימוש בכלים כאלה במהלך חדירות בפועל, וכן בתהליכי גילוי וניצול חולשות ללא התערבות אנושית בחלקים של התהליך. הממצאים מתייחסים לפעילות שנצפתה ברבעון האחרון, לא לתקיפה עולמית חדשה שהחלה כעת.\n\nהדוח מתאר גם גניבת גישה למשאבי ענן ולמודלי AI ומכירתה מחדש, ושימוש במודלים ליצירת תוכן במסגרת מבצעי השפעה. אלה ממצאים והערכות של Google המבוססים על חקירות, מעקב והגנות הפלטפורמה שלה, ולא בדיקה עצמאית כאן. Google אומרת שפעלה להשבתת חשבונות ופרויקטים הקשורים לפעילות זדונית ולשיפור ההגנות.\n\nלצד האצת הפעילות, החוקרים מציינים מגבלות: כלים אוטונומיים עלולים להשאיר עקבות שקל יותר לזהות, ומודלים יכולים להמציא פרטים ולפגוע באמינות הפעולה. אין להסיק שכל תקיפה נעשית ללא אדם או שההגנות נכשלו בכל המקרים. זו הודעת מחקר על שימוש לרעה ב-AI, לא הודעה ש-Google עצמה נפרצה, על השבתת שירות או על נזק כספי חדש לחברה.",
+    "טקסט_en": "Published late. November 17, 2026, 00:00 Israel time, based on the Google Cloud page's publication timestamp.\n\nGoogle Threat Intelligence Group and Mandiant released research describing attackers using AI agents and multi-agent systems to automate stages of cyber intrusions. The researchers say they observed these tools during real intrusions, as well as vulnerability-discovery and exploitation workflows with no human intervention in parts of the process. The findings concern activity observed over the past quarter, not a new worldwide attack that has just begun.\n\nThe report also describes theft and resale of access to cloud and AI-model resources, and model-generated content used in influence operations. These are Google's findings and assessments based on investigations, tracking and platform defenses, not an independent assessment here. Google says it disabled accounts and projects associated with malicious activity and improved defenses.\n\nAlongside faster operations, the researchers note limits: autonomous tools can leave more detectable traces, while models can invent details and reduce reliability. This does not mean every attack runs without people or that defenses failed in every case. This is research on AI misuse, not an announcement that Google itself was breached, that a service was shut down or that the company suffered a new financial loss.",
+    "_translation": {
+      "en": {
+        "schema_version": 1,
+        "source_hash": "5dacea0b7992c65cfb8e7f60e6c4e89c42b028dd37f55be50170de199f530ab7"
+      }
+    }
   }
 ]
