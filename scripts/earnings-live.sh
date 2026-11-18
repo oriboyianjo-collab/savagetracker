@@ -91,7 +91,8 @@ while :; do
   if [ "${FORCE_ONCE:-}" != "1" ] && ! in_window; then log "outside the reporting windows - done"; break; fi
   if held; then log "SEC access held after a 403/429 - stopping"; break; fi
   if [ $(( ($(date +%s) - T0) / 60 )) -ge "$MAX_MIN" ]; then echo "handoff=1" >> "${GITHUB_OUTPUT:-/dev/null}"; log "time limit - handing off to a new run"; break; fi
-  b=$(busy)
+  b=$(busy); w=0
+  while [ -n "$b" ] && [ "$w" -lt 4 ]; do sleep 60; w=$((w + 1)); b=$(busy); done   # short jobs: wait a little first
   if [ -n "$b" ]; then log "skipping this round, busy: $(echo $b)"
   else
     extra=""; acc=""
