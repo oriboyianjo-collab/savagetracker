@@ -163,7 +163,8 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   const again = clone(rows); eb.applyLive(again, feed, { today, cikOf: (s) => ciks[s] });
   ok('live: second pass is a no-op (no churn, no repeat alert)', JSON.stringify(again) === JSON.stringify(rows));
   ok('live: a new actual raises one alert', alertReports(base(), rows, Date.parse('2026-11-17T22:00:00Z')).some((x) => x['מזהה'] === 'r-10'));
-  ok('live: comparison marked "different source" (no surprise computed)', hd['השוואה_EPS'] === 'לא' && /press release/.test(hd['הסבר_EPS_en']));
+  ok('live: press-release EPS is comparable with the consensus (beat/miss % shown)', hd['השוואה_EPS'] === 'כן' && !('הסבר_EPS' in hd));
+  ok('live: revenue within 15% is comparable (beat/miss % shown)', hd['השוואה_הכנסות'] === 'כן');
   // EPS sanity guard
   ok('eps guard: normal miss accepted', eb.epsPlausible(0.4, 1.0) && eb.epsPlausible(1.9, 1.0) && eb.epsPlausible(-0.05, 0.02));
   ok('eps guard: absurd values rejected', !eb.epsPlausible(-3, 2) && !eb.epsPlausible(12, 5) && !eb.epsPlausible(1500, NaN) && !eb.epsPlausible(-0.5, 0.1));

@@ -7372,8 +7372,7 @@ function drawReports(){ const repReset=repEnter; const D = ntData.rep, el = $('r
     const YES = v=>/^(true|yes|1|כן|אומת)$/i.test(String(v).trim()), NO = v=>/^(false|no|0|לא)$/i.test(String(v).trim());
     const cmpOf = (estB, actB, cur, estCur, actCur, flag, why)=>{ const ec0 = (estCur||cur||'').toUpperCase(), ac0 = (actCur||cur||'').toUpperCase();
       if(YES(flag)) return {ok:true}; if(NO(flag)) return {ok:false, why: why || I18n.p("ux-0726","לא ניתן להשוואה")};
-      if(!estB || !actB) return {ok:false, why: why || I18n.p("ux-0727","בסיס לא ידוע – אין השוואה")};
-      if(BN(estB)!==BN(actB)) return {ok:false, why: why || `${I18n.p("ux-0728","בסיס שונה (צפי ")}${BL(estB)}${I18n.p("ux-0729",", בפועל ")}${BL(actB)}${I18n.p("ux-0730",") – אין השוואה")}`};
+      // v327: beat/miss % whenever estimate and actual exist (Ori); only an explicit "not comparable" flag or a currency mismatch blocks it
       if(ec0!==ac0) return {ok:false, why: why || `${I18n.p("ux-0731","מטבע שונה (")}${ec0||'?'} / ${ac0||'?'}${I18n.p("ux-0732",") – אין השוואה")}`};
       return {ok:true}; };
     const E = cmpOf(r.epsEstB, r.epsB, r.epsCur, r.epsEstCur, r.epsActCur, r.epsCmp, r.epsWhy), R = cmpOf(r.revEstB, r.revB, r.revCur, r.revEstCur, r.revActCur, r.revCmp, r.revWhy);
@@ -7420,7 +7419,8 @@ function drawReports(){ const repReset=repEnter; const D = ntData.rep, el = $('r
       else if(/^core למניה רגילה$/i.test(t)) basis = I18n.p("ui-1371","ליבה למניה רגילה");
       const head = (kind ? conflict + kind + rng + un : un.replace(/^ · /, '')) || (conflict ? conflict.replace(/ · $/, '') : '');
       return [head, basis].filter(Boolean).join(' · ') || t; };
-    const tagB = (estB, actB, cur)=>{ const a = BL(estB), b2 = BL(actB), c = String(cur||'').toUpperCase();
+    const tagB = (estB, actB, cur)=>{ const c0 = String(cur||'').toUpperCase(); return c0 && c0!=='USD' ? `<small class="rb">${esc(c0)}</small>` : ''; };   // v327: short card – only a non-USD currency under the estimate
+    const tagBLong = (estB, actB, cur)=>{ const a = BL(estB), b2 = BL(actB), c = String(cur||'').toUpperCase();
       if(!a && !b2) return c && c!=='USD' ? `<small class="rb">${esc(c)}</small>` : '';
       const viewBasis=x=>{for(const k of ['epsEstB','epsB','revEstB','revB'])if(x===BL(r[k]))return r.view[k];return x;};const shortView=x=>I18n.language==='en'?viewBasis(x):shortB(x);const t = a && b2 && BN(a)!==BN(b2) ? `${shortView(a)} → ${shortView(b2)}` : shortView(b2 || a);
       const full = [viewBasis(a), viewBasis(b2)].filter(Boolean).join(' → ') + (c ? ` · ${c}` : '');
@@ -7440,12 +7440,12 @@ function drawReports(){ const repReset=repEnter; const D = ntData.rep, el = $('r
     const bdiR = (x, cls)=>{ const t = String(x||'').trim(); if(!t) return '—'; const s2 = fmtR(t);
       return s2 && s2!==t ? `<bdi${cls?' class="'+cls+'"':''} title="${esc(t)}">${esc(s2)}</bdi>` : `<bdi${cls?' class="'+cls+'"':''}>${esc(t)}</bdi>`; };
     const rngB = (rr, est, act)=>{ const tt = `title="${esc(I18n.p("ui-1373","טווח תחזית החברה: ")+est)}"`, pc = rr ? dnRangePct(est, act) : null;
-      if(!pc) return rr==='above' ? `<em class="rs pos" ${tt}${I18n.p("ui-1374",">ביט · מעל הטווח</em>")}` : rr==='below' ? `<em class="rs neg" ${tt}${I18n.p("ui-1375",">מיס · מתחת לטווח</em>")}` : rr==='within' ? `<em class="rs na" ${tt}${I18n.p("ui-1376",">בתוך הטווח</em>")}` : I18n.p("ui-1377","<em class=\"rs na\">ללא %</em>");
+      if(!pc) return rr==='above' ? `<em class="rs pos" ${tt}${I18n.p("ui-1374",">ביט · מעל הטווח</em>")}` : rr==='below' ? `<em class="rs neg" ${tt}${I18n.p("ui-1375",">מיס · מתחת לטווח</em>")}` : rr==='within' ? `<em class="rs na" ${tt}${I18n.p("ui-1376",">בתוך הטווח</em>")}` : '';
       return `<em class="rs ${pc.z?'na':pc.neg?'neg':'pos'}" ${tt}><bdi>${pc.t}</bdi>${pc.z?'':pc.neg?I18n.p("ui-1378"," מיס"):I18n.p("ui-1379"," ביט")}</em><em class="rs na" ${tt}${I18n.p("ui-1380",">טווח עליון</em>")}`; };   // v231
     const surp = (a, e)=>a!=null && e!=null && e!==0 ? (a-e)/Math.abs(e)*100 : null;
     const sp = (x, ap)=>x==null ? '' : `<em class="rs ${x>=0?'pos':'neg'}"><bdi>${ap?'\u2248':''}${x>=0?'+':''}${Math.abs(x)>=100 ? x.toFixed(0) : x.toFixed(1)}%</bdi> ${x>=0?I18n.p("ui-1381","ביט"):I18n.p("ui-1382","מיס")}</em>`;
     const val = (lbl, est, act, c, x, cm, tg, isRev, rr, isRng, uns)=>{ const vb = v=>{const h=bdiR(v,''), t=String(fmtR(v)||v||''); return /^[~≈+-]?[\d,.]+[BMK]?$/.test(t) && t.length>8 ? h.replace('<bdi', '<bdi style="font-size:'+Math.min(.78,6.1/t.length).toFixed(3)+'rem;white-space:nowrap;overflow-wrap:normal"') : h;}, eb = v=>bdiR(v,'num'), ap = dnApprox(est) || dnApprox(act);
-      return act ? `<span>${lbl}${I18n.p("ui-1385"," בפועל</span><b class=\"num ")}${c}">${vb(act)}${I18n.p("ui-1386","</b><small>צפי ")}${eb(est)}</small>${tg}${cm.ok ? (uns ? I18n.p("ui-1383","<em class=\"rs na\">ללא %</em>") : isRng ? rngB(rr, est, act) : sp(x, ap)) : I18n.p("ui-1384","<em class=\"rs na\">ללא %</em>")}` : `<span>${lbl}${I18n.p("ui-1387"," צפי</span><b class=\"num\">")}${vb(est)}</b>${tg}`; };
+      return act ? `<span>${lbl}${I18n.p("ui-1385"," בפועל</span><b class=\"num ")}${c}">${vb(act)}${I18n.p("ui-1386","</b><small>צפי ")}${eb(est)}</small>${tg}${cm.ok ? (uns ? '' : isRng ? rngB(rr, est, act) : sp(x, ap)) : ''}` : `<span>${lbl}${I18n.p("ui-1387"," צפי</span><b class=\"num\">")}${vb(est)}</b>${tg}`; };
     const whyL = [r.eps && !E.ok ? 'EPS: '+E.why : '', r.rev && !R.ok ? I18n.p("ui-1388","הכנסות: ")+R.why : ''].filter(Boolean);
     const whyHtml = ()=> whyL.length ? ib(whyL.map(x=>`<div>${esc(x)}</div>`).join(''), I18n.p("ui-1389","למה אין השוואה לצפי"), 'warn') : '';
     return `<article class="rrow${(ec||rc) ? ' r-'+(ec||rc) : ''}"${r.symbol ? ` data-rsym="${esc(r.symbol)}" data-rname="${esc(r.view.company)}" data-rdate="${esc(r.d)}" data-rday="${esc(String(r.date||'').slice(0,10))}" role="button" tabindex="0"` : ''}>${r.symbol ? logoHtml(r.symbol) : '<span></span>'}`+

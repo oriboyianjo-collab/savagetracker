@@ -192,7 +192,7 @@ function applyRevenue(row, rev) {
   row['מטבע_הכנסות'] = rev.cur;
   row['בסיס_בפועל_הכנסות'] = (rev.tag === 'Revenues' ? 'GAAP total revenue' : 'GAAP revenue (SEC tag ' + (rev.tag || 'unknown') + ')') + (rev.pr ? ' – SEC 8-K press release, ' : ' – SEC XBRL, ') + rev.label;
   if (rev.acc && rev.cik) row['מקור_הכנסות_בפועל'] = `https://www.sec.gov/Archives/edgar/data/${+rev.cik}/${rev.acc.replace(/-/g, '')}/${rev.acc}-index.htm`;
-  if (!has(row['השוואה_הכנסות']) && rev.tag === 'Revenues' && /^Analyst consensus \(Alpha Vantage\)/.test(String(row['בסיס_צפי_הכנסות'] || ''))) { row['השוואה_הכנסות'] = 'כן'; row['השוואה_הכנסות_en'] = 'Yes'; }
+  if (!has(row['השוואה_הכנסות'])) { row['השוואה_הכנסות'] = 'כן'; row['השוואה_הכנסות_en'] = 'Yes'; }   // passed the 15% check vs the estimate
   return true;
 }
 
@@ -223,7 +223,7 @@ function applyAvActual(row, z) {
 }
 function applyRevEstimate(row, est, fq) {
   if (has(row['צפי_הכנסות']) || !est || !Array.isArray(est.estimates)) return false;
-  const z = est.estimates.find((e) => e.horizon === 'fiscal quarter' && e.date === fq);
+  const z = est.estimates.find((e) => e.horizon === 'fiscal quarter' && e.date === fq) || (est.estimates.filter((e) => e.horizon === 'fiscal quarter' && Math.abs(diffDays(e.date, fq)) <= 7).length === 1 ? est.estimates.find((e) => e.horizon === 'fiscal quarter' && Math.abs(diffDays(e.date, fq)) <= 7) : null);
   const v = z && Number(z.revenue_estimate_average); if (!isFinite(v) || v <= 0) return false;
   row['צפי_הכנסות'] = money(v); row['מטבע_צפי_הכנסות'] = 'USD'; row['בסיס_צפי_הכנסות'] = 'Analyst consensus (Alpha Vantage), total revenue';
   row['מקור_צפי_הכנסות'] = 'Alpha Vantage EARNINGS_ESTIMATES';
@@ -262,11 +262,8 @@ function applyPrEps(row, f) {
   row['מטבע_EPS'] = row['מטבע_EPS'] || f.cur || 'USD';
   row['בסיס_בפועל_EPS'] = p.basis + (f.slot ? ', ' + f.slot : '');
   row['מקור_בפועל_EPS'] = f.url || `https://www.sec.gov/Archives/edgar/data/${+f.cik}/${f.acc.replace(/-/g, '')}/${f.acc}-index.htm`;
-  if (!has(row['השוואה_EPS']) && isFinite(est)) {
-    row['השוואה_EPS'] = 'לא'; row['השוואה_EPS_en'] = 'No';
-    row['הסבר_EPS'] = 'הצפי מאנליסטים והתוצאה מההודעה לעיתונות של החברה; ייתכן בסיס שונה, לכן לא חושבה הפתעה.';
-    row['הסבר_EPS_en'] = "Estimate is the analyst consensus and the actual is from the company's press release; the basis may differ, so no surprise was calculated.";
-  }
+  // Adjusted (or GAAP-only) EPS vs the analyst consensus is the standard beat/miss comparison (Ori, 18.11.2026).
+  if (!has(row['השוואה_EPS']) && isFinite(est)) { row['השוואה_EPS'] = 'כן'; row['השוואה_EPS_en'] = 'Yes'; }
   return true;
 }
 // Foreign private issuer results release on Form 6-K: confirmation + link; the time only when the 6-K was accepted on the
@@ -415,7 +412,9 @@ async function main() {
         try { fetched.earn[s] = JSON.parse(await av.get('EARNINGS', 'symbol=' + encodeURIComponent(s))); tried[r['מזהה']] = (tried[r['מזהה']] || 0) + 1; }
         catch (e) { if (e.limit) { warnings.push(e.message); break; } throw e; }
       }
-      const needRev = rows.filter((r) => !has(r['צפי_הכנסות']) && has(r['רבעון_מסתיים']) && !isPublished(r) && String(r['תאריך']) >= today && String(r['תאריך']) <= addDays(today, 3) && big(r) && !(state.estTried || {})[r['מזהה']]).sort(byRank);
+      // upcoming rows, and rows reported in the last 3 days whose revenue came in without an estimate (so a beat/miss % can show)
+      const needRev = rows.filter((r) => !has(r['צפי_הכנסות']) && has(r['רבעון_מסתיים']) && big(r) && !(state.estTried || {})[r['מזהה']]
+        && ((!isPublished(r) && String(r['תאריך']) >= today && String(r['תאריך']) <= addDays(today, 3)) || (has(r['הכנסות_בפועל']) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today))).sort(byRank);
       state.estTried = state.estTried || {};
       for (const r of needRev) {
         if (av.left() <= 0) break;
@@ -505,6 +504,15 @@ async function main() {
     if (d === today && !(r['מועד'] === 'before' || secConfirmed(r))) continue;
     const rev = shardRevenue(shard(symKey(r['סימול'])), d);
     if (rev && applyRevenue(r, rev)) revFilled++;
+  }
+
+  // 3b) comparisons for actuals the automation filled earlier (press-release EPS was marked "different source")
+  for (const r of rows) {
+    if (prEps(r) && r['השוואה_EPS'] === 'לא' && /press release/.test(String(r['הסבר_EPS_en'] || ''))) {
+      r['השוואה_EPS'] = 'כן'; r['השוואה_EPS_en'] = 'Yes'; delete r['הסבר_EPS']; delete r['הסבר_EPS_en'];
+    }
+    if (has(r['הכנסות_בפועל']) && has(r['צפי_הכנסות']) && !has(r['השוואה_הכנסות']) && /SEC (8-K press release|XBRL)/.test(String(r['בסיס_בפועל_הכנסות'] || ''))
+      && revenuePlausible(r, { r: moneyNum(r['הכנסות_בפועל']), cur: r['מטבע_הכנסות'] || 'USD', tag: 'Revenues' })) { r['השוואה_הכנסות'] = 'כן'; r['השוואה_הכנסות_en'] = 'Yes'; }
   }
 
   // 4) rolling window: only automatic rows without notes and without results, long past
