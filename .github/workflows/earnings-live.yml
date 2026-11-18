@@ -1,0 +1,98 @@
+name: earnings-live
+# Earnings board every 10 minutes in the US reporting windows (Mon-Fri, New York clock, DST-aware):
+#   pre-market 03:00-10:30 ET (about 10:00-17:30 Israel), after-close 15:30-20:30 ET (about 22:30-03:30 Israel).
+# One run loops inside the window (a round every 10 minutes; scheduled runs are only kick-offs, since GitHub often delays
+# or drops scheduled runs) and hands off to a fresh run before the 6-hour job limit. Each round reads the EDGAR "latest 8-K"
+# feed, parses the press release of a new Item 2.02 filing and fills the board row: release confirmed / time / link, EPS
+# and revenue (both sanity-checked against the estimate; GAAP figures verified against the prior-year XBRL quarter).
+# Outside the windows the hourly earnings-board run and the 30-minute financials-fast run cover the same ground.
+# SEC fair access: User-Agent "SavageTracker Savtra12@gmail.com", 1 request/second, official sec.gov endpoints only,
+# never alongside the financials / financials-fast / earnings-board jobs, HTTP 403/429 stops SEC requests for 24 hours.
+# Free (public repo, built-in GITHUB_TOKEN; the Alpha Vantage key is not used here). Commits / Pages / alerts only on a change.
+# Never writes notes (הערה / הערה_en), never reads portfolio data, never touches news / calendar.
+on:
+  schedule:
+    - cron: '3,33 7-14 * * 1-5'    # kick-offs through the pre-market window (UTC; covers EST and EDT)
+    - cron: '3,33 19-23 * * 1-5'   # kick-offs through the after-close window
+    - cron: '3,33 0-1 * * 2-6'     # after-close window, past midnight UTC
+  workflow_dispatch:
+    inputs:
+      accession:
+        description: 'Optional: filings to (re)process first, CIK:ACCESSION:YYYY-MM-DD separated by commas'
+        required: false
+        default: ''
+      once:
+        description: 'Run a single round even outside the windows (testing)'
+        type: boolean
+        default: false
+      handoff:
+        description: 'Internal: continuation of a run that reached the time limit'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  actions: write   # bot pushes trigger nothing: dispatch Pages, push-news and the continuation run explicitly
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - name: one loop at a time
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HANDOFF: ${{ github.event.inputs.handoff }}
+        run: |
+          # A continuation waits for its predecessor to finish; any other run leaves if a loop is already running.
+          for i in $(seq 1 12); do
+            other=$(gh run list -R "$GITHUB_REPOSITORY" -w earnings-live.yml --status in_progress --json databaseId --jq ".[] | select(.databaseId < ${GITHUB_RUN_ID}) | .databaseId" | head -1)
+            [ -z "$other" ] && { echo "go=1" >> "$GITHUB_OUTPUT"; exit 0; }
+            [ "$HANDOFF" = "true" ] || break
+            sleep 25
+          done
+          echo "::notice::earnings-live loop already running (run $other) - nothing to do"
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == '1'
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.go == '1'
+        with: { python-version: '3.12' }
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.go == '1'
+        with: { node-version: '22' }
+      - if: steps.gate.outputs.go == '1'
+        run: pip install --quiet beautifulsoup4==4.12.3 lxml==5.3.0
+      - name: restore state (8-K scan, board, SEC hold)
+        if: steps.gate.outputs.go == '1'
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .fast-layer-state.json
+            /tmp/earnings-live
+          key: earnings-live-state-${{ github.run_id }}
+          restore-keys: earnings-live-state-
+      - name: rounds every 10 minutes
+        id: loop
+        if: steps.gate.outputs.go == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SEC_UA: SavageTracker Savtra12@gmail.com
+          ACCESSION: ${{ github.event.inputs.accession }}
+          FORCE_ONCE: ${{ github.event.inputs.once == 'true' && '1' || '' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/earnings-live.sh
+      - name: save state
+        if: always() && steps.gate.outputs.go == '1'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .fast-layer-state.json
+            /tmp/earnings-live
+          key: earnings-live-state-${{ github.run_id }}
+      - name: hand off to a fresh run (6-hour job limit)
+        if: steps.loop.outputs.handoff == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run earnings-live.yml --ref main -f handoff=true

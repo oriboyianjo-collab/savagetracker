@@ -2,7 +2,7 @@ name: earnings-board
 # Keeps the News-tab earnings board (reports.json) up to date without manual work.
 #  - 07:00 / 19:00 Israel: Alpha Vantage calendar (dates, timing, EPS estimates, date moves) + reported EPS and
 #    revenue estimates for a short priority list. Free personal key in secret ALPHAVANTAGE_KEY (<=25 calls/day, 12 per run).
-#  - Every hour on weekdays: SEC 8-K Item 2.02 check for rows dated yesterday..tomorrow (release confirmed, time, link),
+#  - Every hour on weekdays (outside the 10-minute earnings-live windows; skipped while that loop runs): SEC 8-K Item 2.02 check for rows dated yesterday..tomorrow (release confirmed, time, link),
 #    and GAAP revenue actuals from the financials/ shards.
 # SEC fair access: UA "SavageTracker Savtra12@gmail.com", 1 req/s here (<=2 req/s overall), official endpoints only, stop on 403/429.
 # Shares the sec-edgar-shared concurrency group so it never sends SEC requests alongside the EDGAR report pass, and skips
@@ -52,8 +52,9 @@ jobs:
           flags="--sec"
           if [ "$SCHEDULE" = "0 5 * * *" ] || [ "$SCHEDULE" = "0 17 * * *" ] || { [ "$EVENT" = "workflow_dispatch" ] && [ "$AV_INPUT" = "true" ]; }; then flags="--av $flags"; fi
           # Keep the combined SEC rate <= 2 req/s: this job uses 1 req/s (financials-fast uses the other 1 req/s);
-          # skip SEC requests while the full financials build (2 req/s, outside this group) runs. Rechecked inside the script.
-          busy=$(gh run list -R "$GITHUB_REPOSITORY" --status in_progress --json workflowName,databaseId --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID}) | .workflowName" | grep -Ei '^financials$' || true)
+          # skip SEC requests while the full financials build (2 req/s, outside this group) runs, and while the 10-minute
+          # earnings-live loop (1 req/s, same work in the reporting windows) runs. Rechecked inside the script.
+          busy=$(gh run list -R "$GITHUB_REPOSITORY" --status in_progress --json workflowName,databaseId --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID}) | .workflowName" | grep -Ei '^(financials|earnings-live)$' || true)
           if [ -n "$busy" ]; then echo "::notice::SEC step skipped this run, busy: $busy"; flags="${flags/--sec/}"; fi
           echo "flags=$flags" >> "$GITHUB_OUTPUT"
       - name: update board

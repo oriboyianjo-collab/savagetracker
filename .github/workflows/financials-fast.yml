@@ -12,6 +12,8 @@ name: financials-fast
 # 2/s budget), HTTP 403/429 stops the run with no retry.
 # Free: public repo, built-in GITHUB_TOKEN, no secrets. Commits only on change.
 # Never reads portfolio or watchlist data; does not touch reports / news / calendar.
+# In the US reporting windows the earnings-live loop runs this scan every 10 minutes (and also fills the
+# earnings board); this workflow then steps aside so the two never send SEC requests at the same time.
 on:
   schedule:
     - cron: '7,37 * * * 1-5'   # every 30 minutes on weekdays (UTC)
@@ -33,18 +35,33 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      - name: leave the reporting windows to earnings-live
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # The earnings-live loop runs this same scan every 10 minutes in the US reporting windows (1 req/s).
+          # Never run both at once: the project total stays <= 2 SEC requests/second.
+          live=$(gh run list -R "$GITHUB_REPOSITORY" -w earnings-live.yml --status in_progress --json databaseId --jq 'length')
+          if [ "${live:-0}" -gt 0 ]; then echo "::notice::earnings-live is running - skipped"; exit 0; fi
+          echo "go=1" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == '1'
         with: { ref: main }
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.go == '1'
         with: { python-version: '3.12' }
-      - run: pip install --quiet beautifulsoup4==4.12.3 lxml==5.3.0
+      - if: steps.gate.outputs.go == '1'
+        run: pip install --quiet beautifulsoup4==4.12.3 lxml==5.3.0
       - name: restore scan state
+        if: steps.gate.outputs.go == '1'
         uses: actions/cache/restore@v4
         with:
           path: .fast-layer-state.json
           key: fast-layer-state-${{ github.run_id }}
           restore-keys: fast-layer-state-
       - name: scan 8-K Item 2.02
+        if: steps.gate.outputs.go == '1'
         env:
           SEC_UA: ${{ vars.SEC_UA != '' && vars.SEC_UA || 'SavageTracker Savtra12@gmail.com' }}
           ACCESSION: ${{ github.event.inputs.accession }}
@@ -57,12 +74,13 @@ jobs:
             python3 sec-report-tool/financials/fast_layer.py --catchup "$CATCHUP" --budget-min 20
           fi
       - name: save scan state
-        if: always()
+        if: always() && steps.gate.outputs.go == '1'
         uses: actions/cache/save@v4
         with:
           path: .fast-layer-state.json
           key: fast-layer-state-${{ github.run_id }}
       - name: commit
+        if: steps.gate.outputs.go == '1'
         id: commit
         run: |
           git config user.name "github-actions[bot]"

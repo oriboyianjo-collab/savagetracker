@@ -44,3 +44,12 @@ small "מהודעה לעיתונות" note under the period label.
 python3 sec-report-tool/financials/fast_layer.py --accession 1045810:0001045810-26-000088:2026-11-17
 python3 sec-report-tool/financials/test_fast_layer.py
 ```
+
+## Earnings board (earnings-live)
+
+`fast_layer.py --board-out FILE` also lists every Item 2.02 filing it saw (acceptance time) with the parsed
+release figures for `scripts/earnings-board.cjs --live`: revenue (`r`), GAAP diluted EPS (`eps`, accepted only
+when net income / EPS reproduces the diluted share count of the verified income statement), and the
+company-labelled adjusted / non-GAAP diluted EPS (`adj_eps`, clearly labelled table rows or sentences only;
+`non_gaap` tells whether the release mentions non-GAAP EPS at all). `.github/workflows/earnings-live.yml`
+runs this every 10 minutes in the US reporting windows (see `scripts/earnings-live.sh`).

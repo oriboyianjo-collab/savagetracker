@@ -7,7 +7,7 @@
 //    Fair access: User-Agent "SavageTracker Savtra12@gmail.com", <=2 req/s, stop on 403/429 (no retry, no circumvention).
 //  - financials/<SYM>.json shards already in the repo (built from SEC XBRL / 8-K) -> GAAP revenue actuals.
 // Never writes or changes הערה / הערה_en (Ori writes notes). Never deletes manual rows.
-// Usage: node scripts/earnings-board.cjs [--av] [--sec] [--apply-only] [--state DIR] [--today YYYY-MM-DD]
+// Usage: node scripts/earnings-board.cjs [--av] [--sec] [--live FEED.json] [--apply-only] [--state DIR] [--today YYYY-MM-DD]
 'use strict';
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
@@ -203,7 +203,8 @@ function avQuarter(earn, rowDate, fq) {
     || q.find((z) => z.reportedDate && Math.abs(diffDays(z.reportedDate, rowDate)) <= 3) || null;
 }
 function applyAvActual(row, z) {
-  if (!z || !has(z.reportedEPS) || z.reportedEPS === 'None' || has(row['בפועל_EPS'])) return false;
+  if (!z || !has(z.reportedEPS) || z.reportedEPS === 'None' || (has(row['בפועל_EPS']) && !prEps(row))) return false;
+  const wasPr = prEps(row);
   row['בפועל_EPS'] = epsStr(z.reportedEPS);
   row['מטבע_EPS'] = row['מטבע_EPS'] || 'USD';
   row['בסיס_בפועל_EPS'] = 'Adjusted EPS, street basis (Alpha Vantage)';
@@ -214,7 +215,7 @@ function applyAvActual(row, z) {
   }
   const est = Number(row['צפי_EPS']);
   const same = isFinite(est) && isFinite(avEst) && Math.abs(est - avEst) <= 0.02;
-  if (!has(row['השוואה_EPS']) || /^Alpha Vantage/.test(String(row['מקור_צפי_EPS'] || ''))) {
+  if (!has(row['השוואה_EPS']) || wasPr || /^Alpha Vantage/.test(String(row['מקור_צפי_EPS'] || ''))) {
     if (same) { row['השוואה_EPS'] = 'כן'; row['השוואה_EPS_en'] = 'Yes'; delete row['הסבר_EPS']; delete row['הסבר_EPS_en']; }
     else if (isFinite(est)) { row['השוואה_EPS'] = 'לא'; row['השוואה_EPS_en'] = 'No'; row['הסבר_EPS'] = 'הצפי והתוצאה ממקורות שונים; לא חושבה הפתעה.'; row['הסבר_EPS_en'] = 'Estimate and actual come from different sources; no surprise was calculated.'; }
   }
@@ -228,6 +229,74 @@ function applyRevEstimate(row, est, fq) {
   row['מקור_צפי_הכנסות'] = 'Alpha Vantage EARNINGS_ESTIMATES';
   if (has(z.revenue_estimate_analyst_count)) row['אנליסטים_צפי_הכנסות'] = String(Math.round(+z.revenue_estimate_analyst_count));
   return true;
+}
+
+// ---------- 8-K press release (live, every 10 minutes in the reporting windows) ----------
+// EPS from the company's own release (sec-report-tool/financials/fast_layer.py --board-out). The board's estimate is the analyst
+// consensus, which follows the company's adjusted (non-GAAP) EPS when the company reports one: so the clearly labelled adjusted EPS
+// is used when present, GAAP diluted EPS only when the release has no non-GAAP EPS at all (or the estimate is explicitly GAAP).
+// Anything else stays blank (never guessed); Alpha Vantage's street figure may replace it later (applyAvActual).
+const PR_EPS = /company press release \(SEC 8-K\)/;
+const prEps = (r) => PR_EPS.test(String(r['בסיס_בפועל_EPS'] || ''));
+function epsPlausible(v, est) {
+  if (!isFinite(v) || Math.abs(v) >= 1000) return false;
+  if (!isFinite(est)) return true;
+  const d = Math.abs(v - est);
+  if (Math.sign(v) !== Math.sign(est) && v !== 0 && est !== 0 && d > 0.25 && Math.max(Math.abs(v), Math.abs(est)) > 3 * Math.min(Math.abs(v), Math.abs(est))) return false;
+  return d <= Math.max(0.25, Math.abs(est));      // a miss/beat of up to 100% of the estimate (min ±0.25) is accepted
+}
+function pickPrEps(row, f) {
+  const gaapEst = /\bGAAP\b/i.test(String(row['בסיס_צפי_EPS'] || '')) && !/non[\s-]*GAAP|adjusted|street/i.test(String(row['בסיס_צפי_EPS'] || ''));
+  if (gaapEst) return f.eps != null ? { v: +f.eps, basis: 'GAAP diluted EPS, company press release (SEC 8-K)' } : null;
+  if (f.adj_eps != null) return { v: +f.adj_eps, basis: 'Non-GAAP (adjusted) diluted EPS as labelled by the company, company press release (SEC 8-K)' };
+  if (f.non_gaap === false && f.eps != null) return { v: +f.eps, basis: 'GAAP diluted EPS (company reports no non-GAAP EPS), company press release (SEC 8-K)' };
+  return null;
+}
+function applyPrEps(row, f) {
+  if (has(row['בפועל_EPS'])) return false;
+  const p = pickPrEps(row, f); if (!p) return false;
+  const est = has(row['צפי_EPS']) ? Number(row['צפי_EPS']) : NaN;
+  if (!epsPlausible(p.v, est)) return false;
+  if (has(row['מטבע_EPS']) && String(row['מטבע_EPS']).toUpperCase() !== String(f.cur || 'USD').toUpperCase()) return false;
+  row['בפועל_EPS'] = epsStr(p.v);
+  row['מטבע_EPS'] = row['מטבע_EPS'] || f.cur || 'USD';
+  row['בסיס_בפועל_EPS'] = p.basis + (f.slot ? ', ' + f.slot : '');
+  row['מקור_בפועל_EPS'] = f.url || `https://www.sec.gov/Archives/edgar/data/${+f.cik}/${f.acc.replace(/-/g, '')}/${f.acc}-index.htm`;
+  if (!has(row['השוואה_EPS']) && isFinite(est)) {
+    row['השוואה_EPS'] = 'לא'; row['השוואה_EPS_en'] = 'No';
+    row['הסבר_EPS'] = 'הצפי מאנליסטים והתוצאה מההודעה לעיתונות של החברה; ייתכן בסיס שונה, לכן לא חושבה הפתעה.';
+    row['הסבר_EPS_en'] = "Estimate is the analyst consensus and the actual is from the company's press release; the basis may differ, so no surprise was calculated.";
+  }
+  return true;
+}
+// Applies the live feed: SEC release confirmation/time/link, EPS and revenue from the press release. Returns stats.
+function applyLive(rows, feed, ctx) {
+  const { today, cikOf } = ctx; const st = { secApplied: 0, epsFilled: 0, revFilled: 0 };
+  const byCik = new Map();
+  for (const r of rows) {
+    const d = String(r['תאריך']); if (d < addDays(today, -3) || d > addDays(today, 1)) continue;
+    const cik = cikOf(symKey(r['סימול'])); if (!cik) continue;
+    const k = String(cik).padStart(10, '0'); if (!byCik.has(k)) byCik.set(k, []); byCik.get(k).push(r);
+  }
+  const files = ((feed && feed.filings) || []).filter((f) => f && f.acc && f.cik && f.accepted && /^8-K(\/A)?$/.test(f.form || '8-K'))
+    .sort((a, b) => (a.form === '8-K' ? 0 : 1) - (b.form === '8-K' ? 0 : 1) || String(a.accepted).localeCompare(String(b.accepted)));
+  for (const f of files) {
+    const list = byCik.get(String(f.cik).padStart(10, '0')); if (!list) continue;
+    const iso = new Date(f.accepted).toISOString(); const et = etParts(iso);
+    const cand = list.map((r) => ({ r, dd: diffDays(et.date, String(r['תאריך'])) })).filter((x) => x.dd >= -1 && x.dd <= 1)
+      .sort((a, b) => Math.abs(a.dd) - Math.abs(b.dd));
+    const hit0 = cand.find((x) => x.r['אימות_פרסום_SEC'] === f.acc) || cand.find((x) => !secConfirmed(x.r) && !isPublished(x.r));
+    if (!hit0) continue;
+    const row = hit0.r;
+    if (!secConfirmed(row)) {
+      if (String(row['תאריך']) < addDays(today, -1)) continue;     // older rows: the hourly submissions check owns them
+      if (applySec(row, { acc: f.acc, iso, et, dd: hit0.dd, form: f.form || '8-K' }, { today, cik: f.cik, link: f.url })) st.secApplied++;
+    }
+    if (row['אימות_פרסום_SEC'] !== f.acc) continue;
+    if (applyPrEps(row, f)) st.epsFilled++;
+    if (f.r != null && applyRevenue(row, { r: +f.r, pr: true, tag: f.tag || '', cur: f.cur || 'USD', acc: f.acc, label: f.slot || '', cik: f.cik })) st.revFilled++;
+  }
+  return st;
 }
 
 // ---------- network ----------
@@ -275,7 +344,7 @@ async function otherSecJobBusy() {
   try {
     const r = await fetch(`https://api.github.com/repos/${repo}/actions/runs?status=in_progress&per_page=50`, { headers: { Authorization: 'Bearer ' + tok, Accept: 'application/vnd.github+json' }, signal: AbortSignal.timeout(15000) });
     if (!r.ok) return false; const j = await r.json();
-    return (j.workflow_runs || []).some((w) => String(w.id) !== String(process.env.GITHUB_RUN_ID) && /^financials$/i.test(w.name || ''));
+    return (j.workflow_runs || []).some((w) => String(w.id) !== String(process.env.GITHUB_RUN_ID) && /^(financials|earnings-live)$/i.test(w.name || ''));
   } catch (e) { return false; }
 }
 
@@ -313,7 +382,7 @@ async function main() {
       Object.assign(stats, { calendar: applyCalendar(rows, fetched.cal, { today, names }) });
       const tried = state.avTried || {};
       const released = (r) => { const d = String(r['תאריך']); return d < today || (d === today && (r['מועד'] === 'before' || secConfirmed(r))); };
-      const needEps = rows.filter((r) => !has(r['בפועל_EPS']) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today && released(r) && big(r) && (tried[r['מזהה']] || 0) < 2).sort(byRank);
+      const needEps = rows.filter((r) => (!has(r['בפועל_EPS']) || prEps(r)) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today && released(r) && big(r) && (tried[r['מזהה']] || 0) < 2).sort(byRank);
       for (const r of needEps.slice(0, AV_ACTUALS_MAX)) {
         if (av.left() <= 0) break;
         const s = symKey(r['סימול']); if (fetched.earn[s]) continue;
@@ -343,7 +412,7 @@ async function main() {
       let tickers = null, n = 0;
       try {
         for (const r of want) {
-          if (n++ % 40 === 0 && await otherSecJobBusy()) { warnings.push('SEC step paused: the financials (2 req/s) job started'); break; }
+          if (n++ % 40 === 0 && await otherSecJobBusy()) { warnings.push('SEC step paused: the financials (2 req/s) or earnings-live job is running'); break; }
           const s = symKey(r['סימול']); if (fetched.sec[s] !== undefined) continue;
           let cik = (shard(s) || {}).cik;
           if (!cik) {
@@ -366,6 +435,26 @@ async function main() {
     }
   }
   let secApplied = 0;
+  // 2b) live 8-K feed + press-release figures (earnings-live workflow)
+  let live = null;
+  const liveFile = opt('live', '');
+  if (liveFile && fs.existsSync(liveFile)) {
+    const feed = JSON.parse(fs.readFileSync(liveFile, 'utf8'));
+    const tfile = path.join(stateDir, 'tickers.json');
+    let tick = fs.existsSync(tfile) ? JSON.parse(fs.readFileSync(tfile, 'utf8')) : null;
+    const boardSyms = rows.filter((r) => { const d = String(r['תאריך']); return d >= addDays(today, -3) && d <= addDays(today, 1); }).map((r) => symKey(r['סימול']));
+    const needTick = boardSyms.some((s) => !(shard(s) || {}).cik);
+    if (needTick && !applyOnly && (!tick || tick.day !== today) && !(state.secBlockedUntil && Date.now() < state.secBlockedUntil) && !fs.existsSync(path.join(stateDir, 'sec-hold'))) {
+      try {
+        const sec = secClient(state); const t = await sec.json('https://www.sec.gov/files/company_tickers.json'); stats.sec += sec.count;
+        if (t) { tick = { day: today, m: {} }; for (const v of Object.values(t)) tick.m[symKey(v.ticker)] = String(v.cik_str).padStart(10, '0'); fs.writeFileSync(tfile, JSON.stringify(tick)); }
+      } catch (e) { warnings.push('SEC tickers: ' + e.message); if (e instanceof SecBlocked) { stats.secBlocked = true; fs.writeFileSync(path.join(stateDir, 'sec-hold'), e.message); } }
+    }
+    const tm = (tick && tick.m) || {};
+    const cikOf = (s) => (shard(s) || {}).cik || tm[s] || tm[s.replace(/\./g, '-')] || null;
+    live = applyLive(rows, feed, { today, cikOf });
+    stats.live = live;
+  }
   for (const r of rows) {
     const f = fetched.sec[symKey(r['סימול'])];
     if (!f || !f.hit || secConfirmed(r)) continue;
@@ -401,6 +490,7 @@ async function main() {
     if (b) { const o = JSON.parse(b); for (const k of NOTE_KEYS) { if (k in o) r[k] = o[k]; else delete r[k]; } } else { for (const k of NOTE_KEYS) delete r[k]; added++; }
     await sealRow(r, b ? fresh.get(r) : true); changed++;
   }
+  if (live) { secApplied += live.secApplied; epsFilled += live.epsFilled; revFilled += live.revFilled; }
   Object.assign(stats, { secApplied, epsFilled, revFilled, revEst, pruned, changed, added, rows: keep.length, warnings });
   fs.writeFileSync(cacheFile, JSON.stringify(fetched));
   fs.writeFileSync(stateFile, JSON.stringify(state));
@@ -410,5 +500,5 @@ async function main() {
   for (const w of warnings) console.log('::warning::earnings-board: ' + w);
 }
 
-module.exports = { moneyNum, revenuePlausible, applyCalendar, find202, applySec, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
+module.exports = { applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, applySec, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
 if (require.main === module) main().catch((e) => { console.log('::error::earnings-board: ' + e.message); process.exitCode = 1; });

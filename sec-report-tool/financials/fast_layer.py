@@ -175,7 +175,7 @@ def feed_filings(transport, since: datetime, max_pages=8):
                 continue
             seen.add(acc.group(1))
             filed = re.search(r'Filed:</b>\s*(\d{4}-\d{2}-\d{2})', summ)
-            yield {'cik': cik.group(1), 'acc': acc.group(1),
+            yield {'cik': cik.group(1), 'acc': acc.group(1), 'form': title.split(' - ')[0].strip(),
                    'filed': filed.group(1) if filed else ts.date().isoformat(),
                    'updated': ts.isoformat()}
         if oldest is not None and oldest < since:
@@ -207,8 +207,13 @@ def filing_index(transport, cik, acc):
     url = FILING_IDX.format(cik=int(cik), accnd=acc.replace('-', ''), acc=acc)
     body = transport.get_text(url)
     if not body:
-        return '', []
+        return '', [], None
     items = ' '.join(re.findall(r'Item\s+\d\.\d\d', body))
+    accepted = None
+    m = re.search(r'Accepted</div>\s*<div class="info">(\d{4}-\d\d-\d\d \d\d:\d\d:\d\d)<', body)
+    if m:  # EDGAR shows the acceptance time in US Eastern time
+        from zoneinfo import ZoneInfo
+        accepted = datetime.strptime(m.group(1), '%Y-%m-%d %H:%M:%S').replace(tzinfo=ZoneInfo('America/New_York')).isoformat()
     ex = []
     for row in re.findall(r'<tr[^>]*>(.*?)</tr>', body, re.S):
         cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.S)
@@ -221,13 +226,15 @@ def filing_index(transport, cik, acc):
             if h.startswith('/ix?doc='):
                 h = h[len('/ix?doc='):]
             ex.append('https://www.sec.gov' + h if h.startswith('/') else h)
-    return items, ex
+    return items, ex, accepted
 
 
 # ------------------------------------------------------------------ processing
 
-def process_filing(transport, fin_dir: Path, syms, f, items_known=False, dry=False):
-    """Returns (status, detail). status in ok / same / nopr / skip."""
+def process_filing(transport, fin_dir: Path, syms, f, items_known=False, dry=False, need_parse=False, out=None):
+    """Returns (status, detail). status in ok / same / nopr / skip.
+    out (dict, optional) receives the parsed release for the earnings board:
+    url, e, r, eps / peps (GAAP diluted, verified), adj_eps, non_gaap."""
     shards = {}
     for s in syms:
         p = fin_dir / (s + '.json')
@@ -238,13 +245,16 @@ def process_filing(transport, fin_dir: Path, syms, f, items_known=False, dry=Fal
     if not shards:
         return 'skip', 'no shard'
     base = next(iter(shards.values()))
-    for pmap in base.get('p', {}).values():
-        for rec in pmap.values():
-            if rec.get('a') == f['acc']:
-                return 'same', 'already applied'
+    if not need_parse:
+        for pmap in base.get('p', {}).values():
+            for rec in pmap.values():
+                if rec.get('a') == f['acc']:
+                    return 'same', 'already applied'
     if (base.get('cur') or 'USD') != 'USD':
         return 'skip', 'non-USD shard'
-    items, exhibits = filing_index(transport, f['cik'], f['acc'])
+    items, exhibits, accepted = filing_index(transport, f['cik'], f['acc'])
+    if out is not None and accepted:
+        out['accepted'] = accepted
     if not items_known and 'Item 2.02' not in items:
         return 'skip', 'not 2.02'
     if not exhibits:
@@ -259,8 +269,16 @@ def process_filing(transport, fin_dir: Path, syms, f, items_known=False, dry=Fal
         parsed = press_release.extract(html, quarter_records(base), notes)
         if parsed:
             parsed['url'] = url
+            if out is not None:
+                adj, mentioned = press_release.adjusted_eps(html, parsed['e'], parsed.get('eps'))
+                out.update({'url': url, 'e': parsed['e'], 'r': parsed.get('r'), 'eps': parsed.get('eps'),
+                            'peps': parsed.get('peps'), 'adj_eps': adj, 'non_gaap': mentioned,
+                            'slot': '%s FY%d' % (parsed['slot'][1], int(parsed['slot'][0]) + 1),
+                            'tag': (base.get('tags') or {}).get('r') or '', 'cur': base.get('cur') or 'USD'})
             break
     if not parsed:
+        if out is not None and exhibits:
+            out['url'] = exhibits[0]
         return 'nopr', '; '.join(dict.fromkeys(notes))[:300] or 'no confident GAAP table'
     changed = []
     for s, sh in shards.items():
@@ -271,8 +289,9 @@ def process_filing(transport, fin_dir: Path, syms, f, items_known=False, dry=Fal
             _atomic_write(fin_dir / (s + '.json'), json.dumps(new, separators=(',', ':')))
         changed.append(s)
     y, per = parsed['slot']
-    detail = '%s %s %s e=%s r=%s o=%s n=%s da=%s' % (','.join(syms), per, int(y) + 1, parsed['e'],
-                                                  parsed.get('r'), parsed.get('o'), parsed.get('n'), parsed.get('da'))
+    detail = '%s %s %s e=%s r=%s o=%s n=%s da=%s eps=%s adj=%s' % (
+        ','.join(syms), per, int(y) + 1, parsed['e'], parsed.get('r'), parsed.get('o'), parsed.get('n'),
+        parsed.get('da'), parsed.get('eps'), (out or {}).get('adj_eps'))
     return ('ok' if changed else 'same'), detail
 
 
@@ -286,6 +305,8 @@ def main(argv=None):
     ap.add_argument('--budget-min', type=float, default=20)
     ap.add_argument('--max-filings', type=int, default=150)
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--board-out', default='', help='write every Item 2.02 filing seen (with parsed release '
+                    'figures) as JSON for scripts/earnings-board.cjs --live')
     args = ap.parse_args(argv)
 
     fin_dir = Path(args.fin_dir)
@@ -295,6 +316,9 @@ def main(argv=None):
     except (OSError, ValueError):
         state = {}
     done = state.get('done', {})
+    prs = state.get('pr', {})          # acc -> parsed release figures (board), kept 10 days
+    board = bool(args.board_out)
+    seen_feed = []
     ua = os.environ.get('SEC_UA') or SEC_USER_AGENT
     transport = SecTransport(user_agent=ua, min_interval=1.0)
     universe = load_universe(fin_dir)
@@ -305,8 +329,12 @@ def main(argv=None):
     todo = []
     try:
         if args.accession:
-            cik, acc, filed = args.accession.split(':')
-            todo.append(({'cik': cik.zfill(10), 'acc': acc, 'filed': filed}, False))
+            cik, acc, filed, *acc_at = args.accession.split(':', 3)
+            f = {'cik': cik.zfill(10), 'acc': acc, 'filed': filed}
+            if acc_at:                       # optional acceptance time (ISO); else read from the filing index
+                f['updated'] = acc_at[0]
+            seen_feed.append(f)
+            todo.append((f, False))
         else:
             since = now - timedelta(hours=args.hours)
             if state.get('feed'):
@@ -314,6 +342,7 @@ def main(argv=None):
             since = max(since, now - timedelta(days=3))
             for f in feed_filings(transport, since):
                 todo.append((f, True))
+                seen_feed.append(f)
             for i in range(args.catchup):
                 day = (now - timedelta(days=i + 1)).date()
                 if day.weekday() >= 5:
@@ -327,18 +356,23 @@ def main(argv=None):
     ok = n = 0
     seen = set()
     for f, items_known in todo:
-        if f['acc'] in seen or (f['acc'] in done and not args.accession):
+        if f['acc'] in seen or (f['acc'] in done and not args.accession and not (board and f['acc'] not in prs and f['cik'] in universe)):
             continue
         seen.add(f['acc'])
         syms = universe.get(f['cik'])
         if not syms:
             continue
+        need = board and f['acc'] not in prs
         if n >= args.max_filings or (args.budget_min and time.monotonic() - t0 > args.budget_min * 60):
             _log('budget reached; remaining filings next run')
             break
         n += 1
         try:
-            st, detail = process_filing(transport, fin_dir, syms, f, items_known, args.dry_run)
+            got = {} if board else None
+            st, detail = process_filing(transport, fin_dir, syms, f, items_known, args.dry_run, need_parse=need, out=got)
+            if board and st != 'skip' and (got or st == 'nopr'):
+                prs[f['acc']] = dict(got or {}, filed=f['filed'], cik=f['cik'], accepted=f.get('updated') or (got or {}).get('accepted'),
+                                     form=f.get('form', '8-K'), syms=syms)
         except AccessHeld as e:
             _log('ACCESS HELD at', f['acc'], e)
             break
@@ -354,6 +388,20 @@ def main(argv=None):
             state['feed'] = now.isoformat()
     cutoff = (now - timedelta(days=10)).date().isoformat()
     state['done'] = {a: d for a, d in done.items() if d >= cutoff}
+    state['pr'] = {a: v for a, v in prs.items() if (v.get('filed') or '') >= cutoff}
+    if board:
+        rows = []
+        for f in seen_feed:
+            row = {'cik': f['cik'], 'acc': f['acc'], 'filed': f['filed'], 'accepted': f.get('updated'),
+                   'form': f.get('form', '8-K'), 'syms': universe.get(f['cik'], [])}
+            row.update({k: v for k, v in state['pr'].get(f['acc'], {}).items() if v is not None})
+            rows.append(row)
+        # releases parsed earlier (previous runs) stay available to the board
+        listed = {r['acc'] for r in rows}
+        for a, v in state['pr'].items():
+            if a not in listed and v.get('accepted'):
+                rows.append(dict(v, acc=a))
+        _atomic_write(Path(args.board_out), json.dumps({'generated': now.isoformat(), 'filings': rows}, separators=(',', ':')))
     if not args.dry_run:
         _atomic_write(state_path, json.dumps(state, separators=(',', ':')))
     _log('done: filings checked %d, shards updated %d' % (n, ok))

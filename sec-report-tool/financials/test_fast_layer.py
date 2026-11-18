@@ -122,5 +122,39 @@ class FailSafe(unittest.TestCase):
         self.assertIsNone(got)
 
 
+class EpsFromRelease(unittest.TestCase):
+    """Board EPS: GAAP diluted EPS only from the verified income statement (share count reproduces it);
+    company-labelled adjusted EPS from clearly labelled rows / sentences; anything unclear -> None."""
+
+    def test_nvda_gaap_eps_and_share_row_not_confused(self):
+        html = (DIR / 'fixtures' / 'nvda-q3fy27-pr-slim.html').read_text()
+        got = pr.extract(html, quarter_records(shard()), [])
+        self.assertEqual((got['eps'], got['peps']), (2.7, 1.3))   # not the 24,186 diluted share row
+
+    def test_gaap_eps_needs_consistent_share_count(self):
+        d = {'diluted': [[2.7, 1.3], [24186.0, 24483.0]]}
+        self.assertEqual(pr.gaap_eps(d, 0, 1, 1e6, 65287e6, 31910e6), (2.7, 1.3))
+        self.assertIsNone(pr.gaap_eps({'diluted': [[5.7, 1.3], [24186.0, 24483.0]]}, 0, 1, 1e6, 65287e6, 31910e6))
+        self.assertIsNone(pr.gaap_eps({'basic': [[2.7, 1.3]]}, 0, 1, 1e6, 65287e6, 31910e6))
+
+    def test_adjusted_eps_prose_needs_matching_gaap(self):
+        html = '<p>GAAP and non-GAAP earnings per diluted share were $2.70 and $2.68, respectively.</p>'
+        self.assertEqual(pr.adjusted_eps(html, '2026-10-25', 2.7), (2.68, True))
+        self.assertEqual(pr.adjusted_eps(html, '2026-10-25', 2.5), (None, True))
+
+    def test_adjusted_eps_prose_guidance_and_year_ignored(self):
+        html = ('<p>Non-GAAP net income was $118 million or $1.25 per diluted share, compared to $96 million or '
+                '$0.99 per diluted share for the fourth quarter of fiscal 2025.</p><p>Fiscal 2026 adjusted EPS was $4.36.</p>'
+                '<p>Full-year adjusted EPS guidance of $5.00 to $5.20.</p>')
+        self.assertEqual(pr.adjusted_eps(html, '2026-09-25', 0.86), (1.25, True))
+
+    def test_conflicting_adjusted_values_none(self):
+        html = '<p>Adjusted EPS was $1.10.</p><p>Adjusted EPS was $1.30.</p>'
+        self.assertEqual(pr.adjusted_eps(html, '2026-09-30', 1.0), (None, True))
+
+    def test_no_non_gaap_mention(self):
+        self.assertEqual(pr.adjusted_eps('<p>Diluted EPS was $1.10.</p>', '2026-09-30', 1.1), (None, False))
+
+
 if __name__ == '__main__':
     unittest.main()

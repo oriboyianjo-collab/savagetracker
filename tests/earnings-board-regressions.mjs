@@ -127,5 +127,56 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('flood is capped', alertReports([], many, now).length === 120);
 }
 
+
+// --- live 8-K press release (earnings-live): SEC confirmation + EPS + revenue in one pass ---
+{
+  const base = () => [
+    { 'מזהה': 'r-10', 'חברה': 'Home Depot', 'סימול': 'HD', 'תאריך': '2026-11-17', 'מועד': 'before', 'צפי_EPS': '3.86', 'מטבע_EPS': 'USD', 'בסיס_צפי_EPS': 'Analyst consensus (Alpha Vantage)', 'מקור_צפי_EPS': 'Alpha Vantage EARNINGS_CALENDAR', 'צפי_הכנסות': '42.78B', 'מטבע_צפי_הכנסות': 'USD', 'הערה': 'הערה של אורי', 'הערה_en': "Ori's note" },
+    { 'מזהה': 'r-11', 'חברה': 'NVIDIA', 'סימול': 'NVDA', 'תאריך': '2026-11-17', 'מועד': 'after', 'צפי_EPS': '2.49', 'בסיס_צפי_EPS': 'Analyst consensus (Alpha Vantage)', 'צפי_הכנסות': '108.732B', 'מטבע_צפי_הכנסות': 'USD' },
+    { 'מזהה': 'r-12', 'חברה': 'Gaap Only', 'סימול': 'GAO', 'תאריך': '2026-11-17', 'צפי_EPS': '0.50', 'צפי_הכנסות': '1B', 'מטבע_צפי_הכנסות': 'USD' },
+    { 'מזהה': 'r-13', 'חברה': 'Unclear', 'סימול': 'UNC', 'תאריך': '2026-11-17', 'צפי_EPS': '1.00' },
+    { 'מזהה': 'r-14', 'חברה': 'Absurd', 'סימול': 'ABS', 'תאריך': '2026-11-17', 'צפי_EPS': '2.00', 'צפי_הכנסות': '10B', 'מטבע_צפי_הכנסות': 'USD' },
+    { 'מזהה': 'r-15', 'חברה': 'Far', 'סימול': 'FAR', 'תאריך': '2026-11-25', 'צפי_EPS': '1.00' },
+  ];
+  const ciks = { HD: '0000354950', NVDA: '0001045810', GAO: '0000000001', UNC: '0000000002', ABS: '0000000003', FAR: '0000000004' };
+  const feed = { filings: [
+    { cik: '0000354950', acc: '0000354950-26-000184', form: '8-K', accepted: '2026-11-17T06:18:03-05:00', url: 'https://www.sec.gov/Archives/edgar/data/354950/000035495026000184/hd_exhibit991x11012026.htm', r: 43398000000, eps: 3.72, adj_eps: 3.86, non_gaap: true, slot: 'Q3 FY2026', tag: 'RevenueFromContractWithCustomerExcludingAssessedTax', cur: 'USD' },
+    { cik: '0001045810', acc: '0001045810-26-000088', form: '8-K', accepted: '2026-11-17T16:20:51-05:00', url: 'https://www.sec.gov/x/q3fy27pr.htm', r: 115844000000, eps: 2.7, adj_eps: null, non_gaap: true, slot: 'Q3 FY2027', tag: 'Revenues', cur: 'USD' },
+    { cik: '0000000001', acc: '0000000001-26-000001', form: '8-K', accepted: '2026-11-17T07:00:00-05:00', r: 1.3e9, eps: 0.55, adj_eps: null, non_gaap: false, slot: 'Q3 FY2026', tag: 'Revenues', cur: 'USD' },
+    { cik: '0000000002', acc: '0000000002-26-000001', form: '8-K', accepted: '2026-11-17T07:00:00-05:00', eps: 0.8, adj_eps: null, non_gaap: true },
+    { cik: '0000000003', acc: '0000000003-26-000001', form: '8-K', accepted: '2026-11-17T07:00:00-05:00', r: 10.2e9, eps: -7.5, adj_eps: null, non_gaap: false, tag: 'Revenues', cur: 'USD' },
+    { cik: '0000000004', acc: '0000000004-26-000001', form: '8-K', accepted: '2026-11-17T07:00:00-05:00', eps: 1.0, non_gaap: false },
+  ] };
+  const rows = base(); const st = eb.applyLive(rows, feed, { today, cikOf: (s) => ciks[s] });
+  const [hd, nv, gao, unc, abs, far] = rows;
+  ok('live: SEC confirmation, release time and press-release link', hd['אימות_פרסום_SEC'] === '0000354950-26-000184' && hd.release_time_il === '13:18' && /hd_exhibit991/.test(hd['קישור_לדוח']) && hd['מועד'] === 'before', JSON.stringify(hd));
+  ok('live: company-labelled adjusted EPS fills the board against the analyst consensus', hd['בפועל_EPS'] === '3.86' && /Non-GAAP \(adjusted\)/.test(hd['בסיס_בפועל_EPS']) && /hd_exhibit991/.test(hd['מקור_בפועל_EPS']));
+  ok('live: revenue within 15% of the estimate is filled', hd['הכנסות_בפועל'] === '43.398B' && /8-K press release/.test(hd['בסיס_בפועל_הכנסות']));
+  ok('live: note fields untouched', hd['הערה'] === 'הערה של אורי' && hd['הערה_en'] === "Ori's note");
+  ok('live: non-GAAP company without a clearly labelled adjusted EPS -> EPS left blank (never GAAP as a guess)', !('בפועל_EPS' in nv) && nv['הכנסות_בפועל'] === '115.844B');
+  ok('live: GAAP diluted EPS when the company reports no non-GAAP EPS', gao['בפועל_EPS'] === '0.55' && /^GAAP diluted EPS/.test(gao['בסיס_בפועל_EPS']));
+  ok('live: revenue 30% off the estimate is not filled', !('הכנסות_בפועל' in gao));
+  ok('live: unclear basis -> blank', !('בפועל_EPS' in unc));
+  ok('live: absurd EPS vs estimate (sign flip, >3x) is skipped, revenue still checked', !('בפועל_EPS' in abs) && abs['הכנסות_בפועל'] === '10.2B');
+  ok('live: rows outside ±1 day of the filing are not touched', !('אימות_פרסום_SEC' in far) && !('בפועל_EPS' in far));
+  ok('live: stats', st.secApplied === 5 && st.epsFilled === 2 && st.revFilled === 3, JSON.stringify(st));
+  const again = clone(rows); eb.applyLive(again, feed, { today, cikOf: (s) => ciks[s] });
+  ok('live: second pass is a no-op (no churn, no repeat alert)', JSON.stringify(again) === JSON.stringify(rows));
+  ok('live: a new actual raises one alert', alertReports(base(), rows, Date.parse('2026-11-17T22:00:00Z')).some((x) => x['מזהה'] === 'r-10'));
+  ok('live: comparison marked "different source" (no surprise computed)', hd['השוואה_EPS'] === 'לא' && /press release/.test(hd['הסבר_EPS_en']));
+  // EPS sanity guard
+  ok('eps guard: normal miss accepted', eb.epsPlausible(0.4, 1.0) && eb.epsPlausible(1.9, 1.0) && eb.epsPlausible(-0.05, 0.02));
+  ok('eps guard: absurd values rejected', !eb.epsPlausible(-3, 2) && !eb.epsPlausible(12, 5) && !eb.epsPlausible(1500, NaN) && !eb.epsPlausible(-0.5, 0.1));
+  // the AV street figure may later replace the press-release EPS (same provider as the estimate -> comparable)
+  const z = { fiscalDateEnding: '2026-10-31', reportedDate: '2026-11-17', reportedEPS: '3.86', estimatedEPS: '3.86' };
+  const hd2 = clone(hd); ok('AV street actual replaces the press-release EPS and enables the comparison', eb.applyAvActual(hd2, z) && hd2['השוואה_EPS'] === 'כן' && /Alpha Vantage/.test(hd2['בסיס_בפועל_EPS']) && !('הסבר_EPS' in hd2));
+  const man = { 'בפועל_EPS': '1.00', 'בסיס_בפועל_EPS': 'manual' }; ok('a manual EPS is never replaced', !eb.applyAvActual(man, z) && man['בפועל_EPS'] === '1.00');
+  // a filing already on the row (hourly job confirmed it) still gets its figures
+  const r2 = base()[0]; r2['אימות_פרסום_SEC'] = '0000354950-26-000184'; eb.applyLive([r2], feed, { today, cikOf: (s) => ciks[s] });
+  ok('live: figures fill a row the hourly job already confirmed', r2['בפועל_EPS'] === '3.86');
+  const r3 = base()[0]; r3['אימות_פרסום_SEC'] = '0000354950-26-000999'; eb.applyLive([r3], feed, { today, cikOf: (s) => ciks[s] });
+  ok('live: a row confirmed with a different filing is not filled from this one', !('בפועל_EPS' in r3));
+}
+
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all earnings-board checks passed');

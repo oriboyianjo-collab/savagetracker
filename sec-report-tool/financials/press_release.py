@@ -52,6 +52,14 @@ OPI = re.compile(r'^(total )?operating (income|profit|earnings|loss|income \(los
 NET = re.compile(r'^net (income|earnings|loss|income \(loss\)|\(loss\) income|earnings \(loss\)|\(loss\) earnings|income/\(loss\)|\(loss\)/income)( attributable to .+)?$')
 DA = re.compile(r'^depreciation(,| and| &) (and )?amortization( expense)?$|^depreciation, depletion and amortization$|^depreciation and amortization of property(, plant)? and equipment$')
 LOSS_ONLY = re.compile(r'^(net loss|operating loss|loss from operations)')
+# Per-share rows (values are NOT scaled by the table unit).
+EPS_LAB = re.compile(r'dilut')
+EPS_NOT = re.compile(r'shares|weighted|average|number|outstanding|count|basic and diluted share|dilutive (effect|securities)|anti')
+EPS_AVOID = re.compile(r'continuing|discontinued|before|class [b-z]\b|preferred')
+SHARES_LAB = re.compile(r'(weighted|average|shares).*dilut|dilut.*(shares|weighted)|^diluted$')
+ADJ_EPS = re.compile(r'(non[\s-]*gaap|adjusted|core)\b.*(dilut|per share|eps\b|per diluted)|(dilut|eps\b|per share).*(non[\s-]*gaap|adjusted)')
+ADJ_NOT = re.compile(r'shares|weighted|average|guidance|outlook|basic(?! and dilut)|tax|impact|adjustments?$|excluding|attributable to non')
+NON_GAAP_EPS_TEXT = re.compile(r'non[\s\u2010-\u2013-]*gaap|adjusted\s+(diluted\s+)?(eps|earnings|net\s+income)', re.I)
 
 
 def _cell_texts(tr):
@@ -343,6 +351,9 @@ def extract(html, quarters, notes=None):
         if out.get('o') is not None and abs(out['o']) > max(5 * out['r'], 1e9):
             notes.append('operating income implausible vs revenue')
             continue
+        eps = gaap_eps(d, cur, pri, sc, out.get('n'), out.get('pn'))
+        if eps:
+            out['eps'], out['peps'] = eps
         results.append(out)
     if not results:
         return None
@@ -353,7 +364,122 @@ def extract(html, quarters, notes=None):
         if r['e'] != first['e'] or r['slot'] != first['slot'] or any(abs((r.get(k) or 0) - (first.get(k) or 0)) > best_scale * 1.01 for k in ('r', 'o', 'n')):
             notes.append('conflicting GAAP tables')
             return None
+    if any(r.get('eps') != first.get('eps') for r in results[1:]):
+        first.pop('eps', None)
+        first.pop('peps', None)
     if da_found and da_found[2] == first['e']:
         first['da'] = da_found[0]
         first['pda'] = da_found[1]
     return first
+
+
+def _implied_ok(n, eps, shares):
+    """n / eps must equal the diluted share count (EPS is rounded to cents)."""
+    if not eps or n is None or not shares or shares <= 0:
+        return False
+    implied = n / eps
+    tol = 0.02 + 0.006 / abs(eps)
+    return implied > 0 and abs(implied / shares - 1) <= tol
+
+
+def gaap_eps(d, cur, pri, sc, n, pn):
+    """GAAP diluted EPS (current, prior) from the verified income-statement
+    table. A row is accepted only when net income / EPS reproduces the diluted
+    share count (when the table has one) or the current and prior implied
+    share counts agree; any ambiguity returns None."""
+    if n is None or pn is None:
+        return None
+    shares = None
+    cands = []
+    for lab, rows in d.items():
+        if not EPS_LAB.search(lab):
+            continue
+        for vals in rows:
+            c, p = vals[cur], vals[pri]
+            if c is None or p is None:
+                continue
+            if SHARES_LAB.search(lab) and abs(c) >= 1 and float(c).is_integer() and float(p).is_integer() and abs(c) > 50:
+                if shares is None:
+                    shares = (c * sc, p * sc)
+                continue
+            if EPS_NOT.search(lab) or EPS_AVOID.search(lab) or abs(c) >= 1000 or abs(p) >= 1000:
+                continue
+            cands.append((lab, c, p))
+    good = []
+    for lab, c, p in cands:
+        if shares:
+            ok = _implied_ok(n, c, shares[0]) and _implied_ok(pn, p, shares[1])
+        else:
+            ok = bool(c and p) and n / c > 0 and pn / p > 0 and 0.75 <= (n / c) / (pn / p) <= 1.33
+        if ok:
+            good.append((c, p))
+    vals = {(round(c, 4), round(p, 4)) for c, p in good}
+    if len(vals) != 1:
+        return None
+    return vals.pop()
+
+
+_D = r'\$\s?(\(?\d{1,3}\.\d{2}\)?)'
+PROSE_BOTH = re.compile(r'gaap and (?:non[\s-]*gaap|adjusted) (?:diluted )?(?:earnings|net income|eps)(?: per (?:diluted )?share)?'
+                        r'(?: for the (?:quarter|period))? (?:were|was) ' + _D + r' and ' + _D + r',? respectively', re.I)
+PROSE_ONE = re.compile(r'(?:non[\s-]*gaap|adjusted) (?:diluted )?(?:eps|earnings per (?:diluted )?share|net income per (?:diluted )?share|'
+                       r'(?:net )?earnings per (?:diluted )?share)(?: for the (?:quarter|period))? (?:was|were|of|totaled|came in at) ' + _D + r'(?! (?:to|and|-))', re.I)
+PROSE_NI = re.compile(r'(?:non[\s-]*gaap|adjusted) net (?:income|earnings) (?:was|of|totaled) \$\s?[\d.,]+ (?:million|billion),? or ' + _D + r' per diluted share', re.I)
+PROSE_CTX = re.compile(r'outlook|guidance|expect|anticipat|forecast|full[\s-]+year|year[\s-]+to[\s-]+date|nine[\s-]+months|six[\s-]+months|twelve[\s-]+months|fiscal year|for the year|annual|range', re.I)
+PROSE_SOFT = re.compile(r'fiscal 20\d\d|prior[\s-]+year|last year|a year ago|compared (?:to|with)|versus|vs\.', re.I)
+
+
+def _pnum(t):
+    neg = t.startswith('(')
+    v = float(t.strip('()'))
+    return -v if neg else v
+
+
+def _prose_adjusted(text, gaap=None):
+    vals = set()
+    for sent in re.split(r'(?<=[.;])\s+|\s+[\u2022\u25cf\u25aa]\s*', text):
+        for m in PROSE_BOTH.finditer(sent):
+            g, a = _pnum(m.group(1)), _pnum(m.group(2))
+            if gaap is not None and abs(g - gaap) <= 0.005:
+                vals.add(round(a, 4))
+        if PROSE_CTX.search(sent):
+            continue
+        for rx in (PROSE_ONE, PROSE_NI):
+            for m in rx.finditer(sent):
+                soft = PROSE_SOFT.search(sent)
+                if soft and soft.start() < m.start():
+                    continue
+                vals.add(round(_pnum(m.group(1)), 4))
+    return vals.pop() if len(vals) == 1 else None
+
+
+def adjusted_eps(html, end, gaap=None):
+    """Company-labelled non-GAAP / adjusted diluted EPS for the quarter ending
+    `end` (ISO date), from clearly labelled table rows only. Returns
+    (value or None, non_gaap_mentioned)."""
+    soup = BeautifulSoup(html, 'lxml')
+    text = soup.get_text(' ', strip=True)
+    mentioned = bool(NON_GAAP_EPS_TEXT.search(text))
+    if not mentioned:
+        return None, False
+    found = set()
+    for t in soup.find_all('table'):
+        pt = parse_table(t)
+        if not pt:
+            continue
+        idx = [i for i, (c, k) in enumerate(zip(pt['cols'], pt['kinds'])) if k == 'Q' and c.isoformat() == end]
+        if len(idx) != 1:
+            continue
+        i = idx[0]
+        for lab, rows in pt['data'].items():
+            if not ADJ_EPS.search(lab) or ADJ_NOT.search(lab):
+                continue
+            for vals in rows:
+                v = vals[i]
+                if v is not None and abs(v) < 1000:
+                    found.add(round(v, 4))
+    if len(found) == 1:
+        return found.pop(), True
+    if found:
+        return None, True
+    return _prose_adjusted(text, gaap), True
