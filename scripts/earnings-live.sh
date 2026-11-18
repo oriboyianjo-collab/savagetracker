@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-# Earnings board "live" loop (earnings-live workflow): every 10 minutes inside the US reporting windows
-#   pre-market  03:00-10:30 New York time (about 10:00-17:30 Israel)
-#   after-close 15:30-20:30 New York time (about 22:30-03:30 Israel)
-# on US weekdays, one iteration =
+# Earnings board "live" loop (earnings-live workflow): every 10 minutes on every US trading day from 10:00 Israel time
+# until 02:00 Israel time the following night (fixed in Israel time; NYSE holidays skipped). One iteration =
 #   1. sec-report-tool/financials/fast_layer.py: EDGAR "latest 8-K" feed -> Item 2.02 filings; the EX-99 press release of
 #      covered companies is parsed (GAAP figures verified against the prior-year XBRL quarter) -> financials/<SYM>.json
 #      and a feed file with acceptance time, revenue and EPS for the board.
@@ -20,10 +18,8 @@ MAX_MIN=${MAX_MIN:-340}                 # stay inside the 6-hour job limit, then
 T0=$(date +%s)
 log() { echo "[earnings-live] $(date -u +%H:%M:%SZ) $*"; }
 
-in_window() {   # US weekday and inside one of the two windows (New York clock, DST-aware)
-  local dow hm; dow=$(TZ=America/New_York date +%u); hm=$(TZ=America/New_York date +%H%M); hm=$((10#$hm))
-  [ "$dow" -le 5 ] || return 1
-  { [ "$hm" -ge 300 ] && [ "$hm" -lt 1030 ]; } || { [ "$hm" -ge 1530 ] && [ "$hm" -lt 2030 ]; }
+in_window() {   # every US trading day 10:00 -> 02:00 (next night), Israel time (scripts/earnings-live-window.cjs)
+  node scripts/earnings-live-window.cjs
 }
 held() {        # a 403/429 in the last 24 hours
   [ -f "$STATE/sec-hold" ] || return 1
@@ -88,7 +84,7 @@ iteration() {   # $1 = extra fast_layer args (catch-up), $2 = accessions to (re)
 
 first=1
 while :; do
-  if [ "${FORCE_ONCE:-}" != "1" ] && ! in_window; then log "outside the reporting windows - done"; break; fi
+  if [ "${FORCE_ONCE:-}" != "1" ] && ! in_window; then log "outside the window (US trading days 10:00-02:00 Israel time) - done"; break; fi
   if held; then log "SEC access held after a 403/429 - stopping"; break; fi
   if [ $(( ($(date +%s) - T0) / 60 )) -ge "$MAX_MIN" ]; then echo "handoff=1" >> "${GITHUB_OUTPUT:-/dev/null}"; log "time limit - handing off to a new run"; break; fi
   b=$(busy); w=0
@@ -97,7 +93,7 @@ while :; do
   else
     extra=""; acc=""
     [ "$first" = 1 ] && acc="${ACCESSION:-}"
-    if [ "$first" = 1 ] && [ "$(TZ=America/New_York date +%H)" -lt 11 ] && [ "$(cat "$STATE/catchup-day" 2>/dev/null)" != "$(TZ=America/New_York date +%F)" ]; then
+    if [ "$first" = 1 ] && [ "$(TZ=Asia/Jerusalem date +%H)" -ge 10 ] && [ "$(TZ=Asia/Jerusalem date +%H)" -lt 18 ] && [ "$(cat "$STATE/catchup-day" 2>/dev/null)" != "$(TZ=America/New_York date +%F)" ]; then
       extra="--catchup 2 --budget-min 15 --max-filings 900"; TZ=America/New_York date +%F > "$STATE/catchup-day"    # previous days from the EDGAR daily index, once a day
     fi
     iteration "$extra" "$acc"; first=0

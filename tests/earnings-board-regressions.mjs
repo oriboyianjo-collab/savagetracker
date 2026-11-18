@@ -178,5 +178,20 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('live: a row confirmed with a different filing is not filled from this one', !('בפועל_EPS' in r3));
 }
 
+
+// --- earnings-live window: US trading days 10:00 -> 02:00 Israel time (fixed in Israel time) ---
+{
+  const { inWindow } = require('../scripts/earnings-live-window.cjs');
+  const il = (s) => new Date(s);   // ISO with Israel offset
+  ok('window: Wed 08:37 IL is outside', !inWindow(il('2026-11-18T08:37:00+02:00')));
+  ok('window: Wed 10:00 IL opens', inWindow(il('2026-11-18T10:00:00+02:00')) && !inWindow(il('2026-11-18T09:59:00+02:00')));
+  ok('window: Wed 23:30 and Thu 01:59 IL are inside', inWindow(il('2026-11-18T23:30:00+02:00')) && inWindow(il('2026-11-19T01:59:00+02:00')));
+  ok('window: closes at 02:00 IL', !inWindow(il('2026-11-19T02:00:00+02:00')) && !inWindow(il('2026-11-19T05:00:00+02:00')));
+  ok('window: Friday night runs until Sat 02:00, Saturday/Sunday daytime off', inWindow(il('2026-11-21T01:30:00+02:00')) && !inWindow(il('2026-11-21T12:00:00+02:00')) && !inWindow(il('2026-11-22T12:00:00+02:00')));
+  ok('window: Monday after midnight (Sunday window) is off', !inWindow(il('2026-11-23T01:00:00+02:00')) && inWindow(il('2026-11-23T10:30:00+02:00')));
+  ok('window: NYSE holiday (Thanksgiving) skipped, incl. its night', !inWindow(il('2026-11-26T15:00:00+02:00')) && !inWindow(il('2026-11-27T01:00:00+02:00')) && inWindow(il('2026-11-27T10:00:00+02:00')));
+  ok('window: Israel summer time handled (10:00 IDT)', inWindow(il('2027-06-02T10:05:00+03:00')) && !inWindow(il('2027-06-02T09:55:00+03:00')) && !inWindow(il('2027-06-03T02:05:00+03:00')));
+}
+
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all earnings-board checks passed');

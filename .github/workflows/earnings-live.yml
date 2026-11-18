@@ -1,20 +1,19 @@
 name: earnings-live
-# Earnings board every 10 minutes in the US reporting windows (Mon-Fri, New York clock, DST-aware):
-#   pre-market 03:00-10:30 ET (about 10:00-17:30 Israel), after-close 15:30-20:30 ET (about 22:30-03:30 Israel).
+# Earnings board every 10 minutes on every US trading day from 10:00 Israel time until 02:00 Israel time the following
+# night (one continuous window, fixed in Israel time; NYSE holidays skipped - scripts/earnings-live-window.cjs).
 # One run loops inside the window (a round every 10 minutes; scheduled runs are only kick-offs, since GitHub often delays
 # or drops scheduled runs) and hands off to a fresh run before the 6-hour job limit. Each round reads the EDGAR "latest 8-K"
 # feed, parses the press release of a new Item 2.02 filing and fills the board row: release confirmed / time / link, EPS
 # and revenue (both sanity-checked against the estimate; GAAP figures verified against the prior-year XBRL quarter).
-# Outside the windows the hourly earnings-board run and the 30-minute financials-fast run cover the same ground.
+# Outside the window the hourly earnings-board run and the 30-minute financials-fast run cover the same ground.
 # SEC fair access: User-Agent "SavageTracker Savtra12@gmail.com", 1 request/second, official sec.gov endpoints only,
 # never alongside the financials / financials-fast / earnings-board jobs, HTTP 403/429 stops SEC requests for 24 hours.
 # Free (public repo, built-in GITHUB_TOKEN; the Alpha Vantage key is not used here). Commits / Pages / alerts only on a change.
 # Never writes notes (הערה / הערה_en), never reads portfolio data, never touches news / calendar.
 on:
   schedule:
-    - cron: '3,33 7-14 * * 1-5'    # kick-offs through the pre-market window (UTC; covers EST and EDT)
-    - cron: '3,33 19-23 * * 1-5'   # kick-offs through the after-close window
-    - cron: '3,33 0-1 * * 2-6'     # after-close window, past midnight UTC
+    - cron: '3,33 7-23 * * 1-5'    # kick-offs through the window (UTC; 10:00 Israel = 07/08 UTC, covers summer and winter time)
+    - cron: '3,33 0 * * 2-6'       # 02:00 Israel in winter = 00:00 UTC
   workflow_dispatch:
     inputs:
       accession:
@@ -22,7 +21,7 @@ on:
         required: false
         default: ''
       once:
-        description: 'Run a single round even outside the windows (testing)'
+        description: 'Run a single round even outside the window (testing)'
         type: boolean
         default: false
       handoff:
