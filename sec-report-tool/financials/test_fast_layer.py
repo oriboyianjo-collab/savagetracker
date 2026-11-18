@@ -156,5 +156,41 @@ class EpsFromRelease(unittest.TestCase):
         self.assertEqual(pr.adjusted_eps('<p>Diluted EPS was $1.10.</p>', '2026-09-30', 1.1), (None, False))
 
 
+class DisneyStyle(unittest.TestCase):
+    """No operating-income line in the statement of operations; segment operating income in the summary table;
+    adjusted EPS labelled "excluding certain items" (real DIS Q4 FY26 release)."""
+    Q = [('2025', 'Q4', {'e': '2025-09-27', 'r': 22464000000, 'o': 3480000000, 'n': 1313000000}),
+         ('2025', 'Q3', {'e': '2025-06-28', 'r': 23650000000, 'o': 4575000000, 'n': 5262000000})]
+
+    def test_dis_release(self):
+        html = (DIR / 'fixtures' / 'dis-q4fy26-pr.html').read_text()
+        notes = []
+        got = pr.extract(html, self.Q, notes)
+        self.assertIsNotNone(got, notes)
+        self.assertEqual((got['e'], got['slot']), ('2026-10-03', ('2025', 'Q4')))
+        self.assertEqual((got['r'], got['o'], got['n'], got['eps']), (25947e6, 4970e6, 2612e6, 1.51))
+        self.assertEqual(pr.adjusted_eps(html, got['e'], got['eps']), (1.77, True))
+
+    def test_operating_income_optional_only_with_net_income(self):
+        rows = [SIMPLE_HDR[0], SIMPLE_HDR[1], SIMPLE_HDR[2], ['Revenues', '120', '100', '300', '250'],
+                ['Net income', '12', '10', '30', '25'], ['Other', '1', '1', '1', '1']]
+        html = '<p>(in millions)</p><table>' + ''.join('<tr>' + ''.join('<td>%s</td>' % c for c in r) + '</tr>' for r in rows) + '</table>'
+        q = [('2025', 'Q3', {'e': '2025-10-26', 'r': 100e6, 'o': 20e6, 'n': 10e6})]
+        got = pr.extract(html, q, [])
+        self.assertIsNotNone(got)
+        self.assertNotIn('o', got)
+        q2 = [('2025', 'Q3', {'e': '2025-10-26', 'r': 100e6, 'o': 20e6, 'n': 15e6})]   # net income does not match -> nothing
+        self.assertIsNone(pr.extract(html, q2, []))
+
+
+class SixK(unittest.TestCase):
+    def test_results_detection(self):
+        import fast_layer as fl
+        yes = 'Pony AI Inc. Reports Third Quarter 2026 Unaudited Financial Results. Total revenues were US$25.4 million.'
+        no = "Hafnia's Q3 2026 financial results presentation to be held on 18 November 2026."
+        self.assertTrue(fl.RESULTS_RE.search(yes) and fl.MONEY_RE.search(yes))
+        self.assertFalse(fl.RESULTS_RE.search(no) and fl.MONEY_RE.search(no))
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -35,19 +35,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - name: leave the reporting windows to earnings-live
-        id: gate
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          # The earnings-live loop runs this same scan every 10 minutes in the US reporting windows (1 req/s).
-          # Never run both at once: the project total stays <= 2 SEC requests/second.
-          live=$(gh run list -R "$GITHUB_REPOSITORY" -w earnings-live.yml --status in_progress --json databaseId --jq 'length')
-          if [ "${live:-0}" -gt 0 ]; then echo "::notice::earnings-live is running - skipped"; exit 0; fi
-          echo "go=1" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
-        if: steps.gate.outputs.go == '1'
         with: { ref: main }
+      - name: leave the reporting window to earnings-live
+        id: gate
+        run: |
+          # Inside the window (US trading days 10:00-02:00 Israel) the earnings-live chain runs this same scan every
+          # 10 minutes (1 req/s). Never run both at once: the project total stays <= 2 SEC requests/second.
+          if node scripts/earnings-live-window.cjs; then echo "::notice::earnings-live window - skipped"; exit 0; fi
+          echo "go=1" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.go == '1'
         with: { python-version: '3.12' }

@@ -193,5 +193,37 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('window: Israel summer time handled (10:00 IDT)', inWindow(il('2027-06-02T10:05:00+03:00')) && !inWindow(il('2027-06-02T09:55:00+03:00')) && !inWindow(il('2027-06-03T02:05:00+03:00')));
 }
 
+
+// --- Form 6-K (foreign issuers): confirmation + link + same-day time only, never numbers, never a date move ---
+{
+  const mk = () => [
+    { 'מזהה': 'r-20', 'סימול': 'PONY', 'תאריך': '2026-11-18', 'מועד': 'before', 'הערה': 'n' },
+    { 'מזהה': 'r-21', 'סימול': 'HAFN', 'תאריך': '2026-11-18', 'מועד': 'before', 'צפי_EPS': '0.20' },
+  ];
+  const ciks = { PONY: '0001969302', HAFN: '0001815779' };
+  const feed = { filings: [
+    { cik: '0001969302', acc: '0001104659-26-200001', form: '6-K', results: true, accepted: '2026-11-18T05:31:00-05:00', url: 'https://www.sec.gov/Archives/edgar/data/1969302/x/ex99-1.htm', eps: 9, r: 1e9 },
+    { cik: '0001815779', acc: '0001140361-26-200002', form: '6-K', results: false, accepted: '2026-11-18T06:00:00-05:00' },
+    { cik: '0001815779', acc: '0001140361-26-200003', form: '6-K', results: true, accepted: '2026-11-19T07:00:00-05:00', url: 'https://www.sec.gov/y.htm' },
+  ] };
+  const rows = mk(); eb.applyLive(rows, feed, { today: '2026-11-18', cikOf: (s) => ciks[s] });
+  const [pony, hafn] = rows;
+  ok('6-K results release: confirmation, link and same-day time', pony['אימות_פרסום_SEC'] === '0001104659-26-200001' && /ex99-1/.test(pony['קישור_לדוח']) && pony.release_time_il === '12:31' && pony.release_time_basis === 'sec-6k-acceptance');
+  ok('6-K: no numbers from the release, note untouched', !('בפועל_EPS' in pony) && !('הכנסות_בפועל' in pony) && pony['הערה'] === 'n');
+  ok('6-K that is not a results release is ignored; a next-day 6-K confirms without moving the date or time', hafn['אימות_פרסום_SEC'] === '0001140361-26-200003' && hafn['תאריך'] === '2026-11-18' && !('release_time_il' in hafn) && !('בפועל_EPS' in hafn));
+}
+
+
+// --- DIS: verified press-release total revenue without a revenue estimate; adjusted EPS "excluding certain items" ---
+{
+  const dis = { 'מזהה': 'r-3702', 'סימול': 'DIS', 'תאריך': '2026-11-17', 'מועד': 'before', 'צפי_EPS': '1.67', 'בסיס_צפי_EPS': 'Analyst consensus (Alpha Vantage)', 'אימות_פרסום_SEC': '0001744489-26-000065', 'הערה': 'x' };
+  const f = { cik: '0001744489', acc: '0001744489-26-000065', form: '8-K', accepted: '2026-11-17T06:30:00-05:00', url: 'https://www.sec.gov/z.htm', r: 25947e6, eps: 1.51, adj_eps: 1.77, non_gaap: true, tag: 'Revenues', cur: 'USD', slot: 'Q4 FY2026' };
+  const rows = [dis]; eb.applyLive(rows, { filings: [f] }, { today: '2026-11-18', cikOf: () => '0001744489' });
+  ok('DIS: EPS 1.77 and revenue 25.947B filled, note untouched', dis['בפועל_EPS'] === '1.77' && dis['הכנסות_בפועל'] === '25.947B' && dis['הערה'] === 'x', JSON.stringify(dis));
+  const bank = { 'סימול': 'BNK', 'תאריך': '2026-11-17', 'אימות_פרסום_SEC': 'a-1' };
+  eb.applyLive([bank], { filings: [{ cik: '1', acc: 'a-1', form: '8-K', accepted: '2026-11-17T07:00:00-05:00', r: 5e9, tag: 'RevenuesNetOfInterestExpense' }] }, { today: '2026-11-18', cikOf: () => '1' });
+  ok('no estimate + non-total revenue tag -> revenue stays blank', !('הכנסות_בפועל' in bank));
+}
+
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all earnings-board checks passed');

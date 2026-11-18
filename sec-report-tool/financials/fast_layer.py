@@ -32,7 +32,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from transport import SecTransport, SEC_USER_AGENT, AccessHeld  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
-FEED_URL = ('https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K'
+FEED_URL = ('https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type={form}'
             '&company=&dateb=&owner=include&start={start}&count=100&output=atom')
 DAILY_IDX = 'https://www.sec.gov/Archives/edgar/daily-index/{y}/QTR{q}/form.{ymd}.idx'
 FILING_IDX = 'https://www.sec.gov/Archives/edgar/data/{cik}/{accnd}/{acc}-index.htm'
@@ -147,11 +147,11 @@ def load_universe(fin_dir: Path):
 ENTRY_RE = re.compile(r'<entry>(.*?)</entry>', re.S)
 
 
-def feed_filings(transport, since: datetime, max_pages=8):
-    """Yield dicts(cik, acc, filed, updated) for 8-K entries with Item 2.02."""
+def feed_filings(transport, since: datetime, max_pages=8, form='8-K'):
+    """Yield dicts(cik, acc, filed, updated) for 8-K entries with Item 2.02 (form='6-K': every 6-K entry)."""
     seen = set()
     for page in range(max_pages):
-        body = transport.get_text(FEED_URL.format(start=page * 100))
+        body = transport.get_text(FEED_URL.format(start=page * 100, form=form))
         if not body:
             return
         entries = ENTRY_RE.findall(body)
@@ -161,7 +161,7 @@ def feed_filings(transport, since: datetime, max_pages=8):
         for e in entries:
             title = re.search(r'<title>(.*?)</title>', e, re.S)
             title = htmlmod.unescape(title.group(1)) if title else ''
-            if not title.startswith('8-K'):
+            if not title.startswith(form):
                 continue
             summ = htmlmod.unescape((re.search(r'<summary[^>]*>(.*?)</summary>', e, re.S) or [None, ''])[1] if re.search(r'<summary', e) else '')
             upd = re.search(r'<updated>(.*?)</updated>', e)
@@ -171,7 +171,7 @@ def feed_filings(transport, since: datetime, max_pages=8):
                 continue
             ts = datetime.fromisoformat(upd.group(1))
             oldest = ts if oldest is None or ts < oldest else oldest
-            if 'Item 2.02' not in summ or acc.group(1) in seen:
+            if (form == '8-K' and 'Item 2.02' not in summ) or acc.group(1) in seen:
                 continue
             seen.add(acc.group(1))
             filed = re.search(r'Filed:</b>\s*(\d{4}-\d{2}-\d{2})', summ)
@@ -295,6 +295,28 @@ def process_filing(transport, fin_dir: Path, syms, f, items_known=False, dry=Fal
     return ('ok' if changed else 'same'), detail
 
 
+RESULTS_RE = re.compile(r'(first|second|third|fourth|1st|2nd|3rd|4th|q[1-4]|quarter(?:ly)?|half[\s-]*year|interim|nine[\s-]+months|six[\s-]+months)'
+                        r'[^.]{0,80}(?:financial\s+)?(?:results|earnings)|(?:un)?audited\s+(?:financial\s+)?results|earnings\s+release', re.I)
+MONEY_RE = re.compile(r'(revenues?|net\s+(?:income|loss|profit)|profit|ebitda|earnings\s+per)[^.]{0,100}(?:\$|usd|us\$|rmb|eur|€|£)\s?[\d.,]+'
+                      r'|(revenues?|net\s+(?:income|loss|profit))[^.]{0,100}[\d.,]+\s*(?:million|billion)', re.I)
+
+
+def process_6k(transport, f):
+    """Foreign issuer 6-K on the earnings board: is its EX-99 a results release? Returns the board record.
+    Only the release time and link are used on the board (no SEC prior-year data to verify numbers)."""
+    items, exhibits, accepted = filing_index(transport, f['cik'], f['acc'])
+    rec = {'form': '6-K', 'cik': f['cik'], 'filed': f['filed'], 'accepted': f.get('updated') or accepted, 'syms': [], 'results': False}
+    for url in exhibits[:2]:
+        html = transport.get_text(url)
+        if not html:
+            continue
+        text = re.sub(r'\s+', ' ', htmlmod.unescape(re.sub(r'<[^>]+>', ' ', html)))[:20000]
+        if RESULTS_RE.search(text[:4000]) and MONEY_RE.search(text):
+            rec.update(results=True, url=url)
+            break
+    return rec
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description='8-K Item 2.02 fast layer for financials/*.json')
     ap.add_argument('--fin-dir', default=str(ROOT / 'financials'))
@@ -305,6 +327,7 @@ def main(argv=None):
     ap.add_argument('--budget-min', type=float, default=20)
     ap.add_argument('--max-filings', type=int, default=150)
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--board-ciks', default='', help='JSON list of CIKs on the board today/tomorrow (6-K watch)')
     ap.add_argument('--board-out', default='', help='write every Item 2.02 filing seen (with parsed release '
                     'figures) as JSON for scripts/earnings-board.cjs --live')
     args = ap.parse_args(argv)
@@ -386,6 +409,25 @@ def main(argv=None):
     else:
         if not args.accession and not transport.stopped:
             state['feed'] = now.isoformat()
+    # Foreign private issuers report on Form 6-K: watch it only for companies on the board today/tomorrow.
+    if board and args.board_ciks and not args.accession and not transport.stopped:
+        try:
+            ciks = set(str(c).zfill(10) for c in json.loads(Path(args.board_ciks).read_text()))
+        except (OSError, ValueError):
+            ciks = set()
+        if ciks:
+            since6 = max(now - timedelta(hours=args.hours), datetime.fromisoformat(state['feed6']) - timedelta(minutes=30)) \
+                if state.get('feed6') else now - timedelta(hours=args.hours)
+            try:
+                for f in list(feed_filings(transport, since6, max_pages=3, form='6-K')):
+                    if f['cik'] not in ciks or f['acc'] in prs:
+                        continue
+                    rec = process_6k(transport, f)
+                    prs[f['acc']] = rec
+                    _log('  6-K', f['acc'], f['cik'], 'results release' if rec['results'] else 'not a results release')
+                state['feed6'] = now.isoformat()
+            except AccessHeld as e:
+                _log('ACCESS HELD during 6-K watch:', e)
     cutoff = (now - timedelta(days=10)).date().isoformat()
     state['done'] = {a: d for a, d in done.items() if d >= cutoff}
     state['pr'] = {a: v for a, v in prs.items() if (v.get('filed') or '') >= cutoff}

@@ -48,7 +48,7 @@ def norm_label(s: str) -> str:
 
 
 REV = re.compile(r'^(total )?(net )?(revenues?|sales)(, net)?$|^total (net )?(revenues?|sales)( and other income)?$|^(net )?sales and (other )?(operating )?revenues?$|^total (net )?sales and (other )?(operating )?revenues?$|^revenues?, net$|^(total )?(net )?operating revenues?$')
-OPI = re.compile(r'^(total )?operating (income|profit|earnings|loss|income \(loss\)|\(loss\) income|profit \(loss\)|income/\(loss\)|\(loss\)/income)$|^(income|earnings|loss|income \(loss\)|\(loss\) income|earnings \(loss\)|\(loss\) earnings|income/\(loss\)|\(loss\)/income) from operations$')
+OPI = re.compile(r'^(total )?(segment )?operating (income|profit|earnings|loss|income \(loss\)|\(loss\) income|profit \(loss\)|income/\(loss\)|\(loss\)/income)$|^(income|earnings|loss|income \(loss\)|\(loss\) income|earnings \(loss\)|\(loss\) earnings|income/\(loss\)|\(loss\)/income) from operations$')
 NET = re.compile(r'^net (income|earnings|loss|income \(loss\)|\(loss\) income|earnings \(loss\)|\(loss\) earnings|income/\(loss\)|\(loss\)/income)( attributable to .+)?$')
 DA = re.compile(r'^depreciation(,| and| &) (and )?amortization( expense)?$|^depreciation, depletion and amortization$|^depreciation and amortization of property(, plant)? and equipment$')
 LOSS_ONLY = re.compile(r'^(net loss|operating loss|loss from operations)')
@@ -57,9 +57,9 @@ EPS_LAB = re.compile(r'dilut')
 EPS_NOT = re.compile(r'shares|weighted|average|number|outstanding|count|basic and diluted share|dilutive (effect|securities)|anti')
 EPS_AVOID = re.compile(r'continuing|discontinued|before|class [b-z]\b|preferred')
 SHARES_LAB = re.compile(r'(weighted|average|shares).*dilut|dilut.*(shares|weighted)|^diluted$')
-ADJ_EPS = re.compile(r'(non[\s-]*gaap|adjusted|core)\b.*(dilut|per share|eps\b|per diluted)|(dilut|eps\b|per share).*(non[\s-]*gaap|adjusted)')
-ADJ_NOT = re.compile(r'shares|weighted|average|guidance|outlook|basic(?! and dilut)|tax|impact|adjustments?$|excluding|attributable to non')
-NON_GAAP_EPS_TEXT = re.compile(r'non[\s\u2010-\u2013-]*gaap|adjusted\s+(diluted\s+)?(eps|earnings|net\s+income)', re.I)
+ADJ_EPS = re.compile(r'(non[\s-]*gaap|adjusted|core)\b.*(dilut|per share|eps\b|per diluted)|(dilut|eps\b|per share).*(non[\s-]*gaap|adjusted|excluding certain items)')
+ADJ_NOT = re.compile(r'shares|weighted|average|guidance|outlook|basic(?! and dilut)|tax|impact|adjustments?$|excluding (?!certain items)|attributable to non|53\s*rd|week')
+NON_GAAP_EPS_TEXT = re.compile(r'non[\s\u2010-\u2013-]*gaap|adjusted\s+(diluted\s+)?(eps|earnings|net\s+income)|eps\s+excluding\s+certain\s+items', re.I)
 
 
 def _cell_texts(tr):
@@ -288,6 +288,7 @@ def extract(html, quarters, notes=None):
         notes.append('no XBRL quarterly records to verify against')
         return None
     results = []
+    o_alt = []
     da_found = None
     for pt in candidate_tables(html):
         qc = _qcols(pt['cols'], pt['kinds'])
@@ -310,32 +311,47 @@ def extract(html, quarters, notes=None):
         if _pick(d, REV)[1] is None:
             continue
         ok = True
+        o_missing = False
         for key, rx, prefer, avoid in (
                 ('r', REV, re.compile(r'^total'), None),
-                ('o', OPI, None, None),
-                ('n', NET, re.compile(r'attributable to (?!non)'), re.compile(r'noncontrolling|non-controlling|minority|per share|per unit|available|before|discontinued|continuing'))):
+                ('n', NET, re.compile(r'attributable to (?!non)'), re.compile(r'noncontrolling|non-controlling|minority|per share|per unit|available|before|discontinued|continuing')),
+                ('o', OPI, re.compile(r'^(total )?operating'), None)):
             lab, vals = _pick(d, rx, prefer, avoid)
             if vals is not None and (vals[cur] is None or vals[pri] is None):
                 vals = None
             if vals is None:
-                if key == 'o' and prior_rec.get('o') is None:
-                    continue
                 if key == 'o':
+                    # Operating income is optional when revenue AND net income both matched the SEC prior year
+                    # (e.g. Disney's statement of operations has no operating-income line).
+                    if prior_rec.get('o') is None or out.get('n') is not None:
+                        o_missing = True
+                        continue
                     ok = False
                     notes.append('operating income row not found')
                     break
+                if key == 'n' and out.get('r') is not None:
+                    # no net income here: keep the table only as a source for a verified operating income
+                    out['_no_n'] = True
+                    continue
                 ok = False
                 notes.append('%s row not found' % key)
                 break
             c, p = vals[cur] * sc, vals[pri] * sc
             ref = prior_rec.get(key)
             if ref is None:
+                if key == 'o':
+                    o_missing = True
+                    continue
                 ok = False
                 notes.append('%s: no XBRL prior-year value' % key)
                 break
             if not _close(p, ref, sc):
                 if LOSS_ONLY.match(lab) and _close(-p, ref, sc) and c >= 0 and p >= 0:
                     c, p = -c, -p
+                elif key == 'o' and out.get('n') is not None and not out.get('_no_n'):
+                    o_missing = True           # an operating line that is not the SEC one: dropped, r and n verified
+                    notes.append('o prior-year mismatch dropped (row "%s")' % lab)
+                    continue
                 else:
                     ok = False
                     notes.append('%s prior-year mismatch: parsed %s vs XBRL %s (row "%s")' % (key, p, ref, lab))
@@ -343,6 +359,11 @@ def extract(html, quarters, notes=None):
             out[key] = c
             out['p' + key] = p
             out['rows'][key] = lab
+        if ok and out.pop('_no_n', False):
+            # revenue + operating income verified, no net income: only an operating-income source for another table
+            if out.get('o') is not None:
+                o_alt.append((out['e'], out['o'], out['po'], sc))
+            continue
         if not ok:
             continue
         if out.get('r') is None or out['r'] <= 0:
@@ -364,6 +385,11 @@ def extract(html, quarters, notes=None):
         if r['e'] != first['e'] or r['slot'] != first['slot'] or any(abs((r.get(k) or 0) - (first.get(k) or 0)) > best_scale * 1.01 for k in ('r', 'o', 'n')):
             notes.append('conflicting GAAP tables')
             return None
+    if first.get('o') is None:
+        alts = {round(o) for e, o, po, sc in o_alt if e == first['e']}
+        if len(alts) == 1:     # e.g. "total segment operating income" that matched the SEC prior-year operating income
+            first['o'] = float(alts.pop())
+            first['rows']['o'] = 'verified operating income (other table)'
     if any(r.get('eps') != first.get('eps') for r in results[1:]):
         first.pop('eps', None)
         first.pop('peps', None)

@@ -269,6 +269,21 @@ function applyPrEps(row, f) {
   }
   return true;
 }
+// Foreign private issuer results release on Form 6-K: confirmation + link; the time only when the 6-K was accepted on the
+// board date (6-Ks often follow a home-market release by hours), and the board date is never moved by a 6-K.
+function applySec6k(row, hit, ctx) {
+  const { today, cik, link } = ctx; let changed = false;
+  const index = `https://www.sec.gov/Archives/edgar/data/${+cik}/${hit.acc.replace(/-/g, '')}/${hit.acc}-index.htm`;
+  const set = (k, v) => { if (row[k] !== v) { row[k] = v; changed = true; } };
+  if (hit.dd < 0 || hit.dd > 1) return false;
+  set('אימות_פרסום_SEC', hit.acc);
+  if (hit.dd === 0 && !issuerTimed(row) && (!has(row.release_time_il) || /^(third-party|sec-)/.test(String(row.release_time_basis || '')))) {
+    set('release_time_il', ilClock(hit.iso)); set('release_time_approx', true); set('release_time_basis', 'sec-6k-acceptance');
+    set('release_time_source', index); set('release_time_verified_date', today);
+  }
+  if (!has(row['קישור_לדוח'])) set('קישור_לדוח', link || index);
+  return changed;
+}
 // Applies the live feed: SEC release confirmation/time/link, EPS and revenue from the press release. Returns stats.
 function applyLive(rows, feed, ctx) {
   const { today, cikOf } = ctx; const st = { secApplied: 0, epsFilled: 0, revFilled: 0 };
@@ -278,7 +293,7 @@ function applyLive(rows, feed, ctx) {
     const cik = cikOf(symKey(r['סימול'])); if (!cik) continue;
     const k = String(cik).padStart(10, '0'); if (!byCik.has(k)) byCik.set(k, []); byCik.get(k).push(r);
   }
-  const files = ((feed && feed.filings) || []).filter((f) => f && f.acc && f.cik && f.accepted && /^8-K(\/A)?$/.test(f.form || '8-K'))
+  const files = ((feed && feed.filings) || []).filter((f) => f && f.acc && f.cik && f.accepted && (/^8-K(\/A)?$/.test(f.form || '8-K') || (f.form === '6-K' && f.results === true)))
     .sort((a, b) => (a.form === '8-K' ? 0 : 1) - (b.form === '8-K' ? 0 : 1) || String(a.accepted).localeCompare(String(b.accepted)));
   for (const f of files) {
     const list = byCik.get(String(f.cik).padStart(10, '0')); if (!list) continue;
@@ -290,11 +305,21 @@ function applyLive(rows, feed, ctx) {
     const row = hit0.r;
     if (!secConfirmed(row)) {
       if (String(row['תאריך']) < addDays(today, -1)) continue;     // older rows: the hourly submissions check owns them
+      if (f.form === '6-K') { if (applySec6k(row, { acc: f.acc, iso, et, dd: hit0.dd }, { today, cik: f.cik, link: f.url })) st.secApplied++; continue; }
       if (applySec(row, { acc: f.acc, iso, et, dd: hit0.dd, form: f.form || '8-K' }, { today, cik: f.cik, link: f.url })) st.secApplied++;
     }
-    if (row['אימות_פרסום_SEC'] !== f.acc) continue;
+    if (f.form === '6-K' || row['אימות_פרסום_SEC'] !== f.acc) continue;   // 6-K: release time + link only (numbers from Alpha Vantage)
     if (applyPrEps(row, f)) st.epsFilled++;
-    if (f.r != null && applyRevenue(row, { r: +f.r, pr: true, tag: f.tag || '', cur: f.cur || 'USD', acc: f.acc, label: f.slot || '', cik: f.cik })) st.revFilled++;
+    const rev = { r: +f.r, pr: true, tag: f.tag || '', cur: f.cur || 'USD', acc: f.acc, label: f.slot || '', cik: f.cik };
+    if (f.r != null && applyRevenue(row, rev)) st.revFilled++;
+    // No revenue estimate on the row: a press-release total revenue that matched the SEC prior year under the company's
+    // total "Revenues" tag is still shown (nothing to compare it with, so no beat/miss).
+    else if (f.r != null && f.r > 0 && !has(row['צפי_הכנסות']) && !has(row['הכנסות_בפועל']) && rev.tag === 'Revenues') {
+      row['הכנסות_בפועל'] = money(rev.r); row['מטבע_הכנסות'] = rev.cur;
+      row['בסיס_בפועל_הכנסות'] = 'GAAP total revenue – SEC 8-K press release, ' + rev.label;
+      row['מקור_הכנסות_בפועל'] = `https://www.sec.gov/Archives/edgar/data/${+f.cik}/${f.acc.replace(/-/g, '')}/${f.acc}-index.htm`;
+      st.revFilled++;
+    }
   }
   return st;
 }
@@ -344,7 +369,8 @@ async function otherSecJobBusy() {
   try {
     const r = await fetch(`https://api.github.com/repos/${repo}/actions/runs?status=in_progress&per_page=50`, { headers: { Authorization: 'Bearer ' + tok, Accept: 'application/vnd.github+json' }, signal: AbortSignal.timeout(15000) });
     if (!r.ok) return false; const j = await r.json();
-    return (j.workflow_runs || []).some((w) => String(w.id) !== String(process.env.GITHUB_RUN_ID) && /^(financials|earnings-live)$/i.test(w.name || ''));
+    if (require(path.join(ROOT, 'scripts', 'earnings-live-window.cjs')).inWindow()) return true;   // earnings-live owns the window
+    return (j.workflow_runs || []).some((w) => String(w.id) !== String(process.env.GITHUB_RUN_ID) && /^financials$/i.test(w.name || ''));
   } catch (e) { return false; }
 }
 
@@ -453,6 +479,9 @@ async function main() {
     const tm = (tick && tick.m) || {};
     const cikOf = (s) => (shard(s) || {}).cik || tm[s] || tm[s.replace(/\./g, '-')] || null;
     live = applyLive(rows, feed, { today, cikOf });
+    // CIKs on the board today/tomorrow: the next round watches their Form 6-K (foreign issuers) too
+    const bc = [...new Set(rows.filter((r) => { const d = String(r['תאריך']); return d >= today && d <= addDays(today, 1); }).map((r) => cikOf(symKey(r['סימול']))).filter(Boolean).map((c) => String(c).padStart(10, '0')))];
+    fs.writeFileSync(path.join(stateDir, 'board-ciks.json'), JSON.stringify(bc));
     stats.live = live;
   }
   for (const r of rows) {
@@ -500,5 +529,5 @@ async function main() {
   for (const w of warnings) console.log('::warning::earnings-board: ' + w);
 }
 
-module.exports = { applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, applySec, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
+module.exports = { applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, applySec, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
 if (require.main === module) main().catch((e) => { console.log('::error::earnings-board: ' + e.message); process.exitCode = 1; });

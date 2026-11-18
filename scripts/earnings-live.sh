@@ -14,7 +14,7 @@ set -uo pipefail
 ROOT=$(cd "$(dirname "$0")/.." && pwd); cd "$ROOT"
 STATE=${EARNINGS_LIVE_STATE:-/tmp/earnings-live}; mkdir -p "$STATE/board"
 FEED="$STATE/feed.json"
-MAX_MIN=${MAX_MIN:-340}                 # stay inside the 6-hour job limit, then hand off to a fresh run
+MAX_MIN=${MAX_MIN:-320}                 # stay inside the 6-hour job limit, then hand off to a fresh run
 T0=$(date +%s)
 log() { echo "[earnings-live] $(date -u +%H:%M:%SZ) $*"; }
 
@@ -71,7 +71,7 @@ iteration() {   # $1 = extra fast_layer args (catch-up), $2 = accessions to (re)
     sleep 1
   done
   # shellcheck disable=SC2086
-  [ "$rc" -eq 2 ] || python3 sec-report-tool/financials/fast_layer.py --board-out "$FEED" --budget-min 7 --max-filings 120 $1 || rc=$?
+  [ "$rc" -eq 2 ] || python3 sec-report-tool/financials/fast_layer.py --board-out "$FEED" --board-ciks "$STATE/board/board-ciks.json" --budget-min 7 --max-filings 120 $1 || rc=$?
   if [ "$rc" -eq 2 ]; then date +%s > "$STATE/sec-hold"; echo "::warning::earnings-live: SEC access held (403/429) - no SEC requests from this job for 24 hours"; fi
   [ -f "$FEED" ] || { log "no feed file"; return 0; }
   node scripts/earnings-board.cjs --live "$FEED" --state "$STATE/board" || { echo "::warning::earnings-live: board update failed"; return 0; }
@@ -82,21 +82,37 @@ iteration() {   # $1 = extra fast_layer args (catch-up), $2 = accessions to (re)
   fi
 }
 
+av_tick() {     # Alpha Vantage calendar/actuals run of earnings-board at 07:00 and 19:00 Israel time (GitHub schedules get dropped)
+  [ -n "${GITHUB_REPOSITORY:-}" ] || return 0
+  local h d slot; h=$((10#$(TZ=Asia/Jerusalem date +%H))); d=$(TZ=Asia/Jerusalem date +%F)
+  if [ "$h" -ge 7 ] && [ "$h" -lt 10 ]; then slot=07; elif [ "$h" -ge 19 ] && [ "$h" -lt 22 ]; then slot=19; else return 0; fi
+  [ "$(cat "$STATE/av-$slot" 2>/dev/null)" = "$d" ] && return 0
+  echo "$d" > "$STATE/av-$slot"
+  if gh workflow run earnings-board.yml --ref main -f av=true; then log "dispatched the $slot:00 Alpha Vantage earnings-board run"; else echo "::warning::could not dispatch earnings-board"; fi
+}
+
+# The run never ends on its own: it waits outside the window and hands off to a fresh run before the 6-hour job
+# limit, so the chain does not depend on GitHub's (often dropped) schedules. The workflow gate keeps one chain only.
 first=1
 while :; do
-  if [ "${FORCE_ONCE:-}" != "1" ] && ! in_window; then log "outside the window (US trading days 10:00-02:00 Israel time) - done"; break; fi
-  if held; then log "SEC access held after a 403/429 - stopping"; break; fi
   if [ $(( ($(date +%s) - T0) / 60 )) -ge "$MAX_MIN" ]; then echo "handoff=1" >> "${GITHUB_OUTPUT:-/dev/null}"; log "time limit - handing off to a new run"; break; fi
-  b=$(busy); w=0
-  while [ -n "$b" ] && [ "$w" -lt 4 ]; do sleep 60; w=$((w + 1)); b=$(busy); done   # short jobs: wait a little first
-  if [ -n "$b" ]; then log "skipping this round, busy: $(echo $b)"
-  else
-    extra=""; acc=""
-    [ "$first" = 1 ] && acc="${ACCESSION:-}"
-    if [ "$first" = 1 ] && [ "$(TZ=Asia/Jerusalem date +%H)" -ge 10 ] && [ "$(TZ=Asia/Jerusalem date +%H)" -lt 18 ] && [ "$(cat "$STATE/catchup-day" 2>/dev/null)" != "$(TZ=America/New_York date +%F)" ]; then
-      extra="--catchup 2 --budget-min 15 --max-filings 900"; TZ=America/New_York date +%F > "$STATE/catchup-day"    # previous days from the EDGAR daily index, once a day
+  av_tick
+  if [ "${FORCE_ONCE:-}" = "1" ] || in_window; then
+    if held; then log "SEC access held after a 403/429 - no SEC requests until 24 hours have passed"
+    else
+      b=$(busy); w=0
+      while [ -n "$b" ] && [ "$w" -lt 4 ]; do sleep 60; w=$((w + 1)); b=$(busy); done   # short jobs: wait a little first
+      if [ -n "$b" ]; then log "skipping this round, busy: $(echo $b)"
+      else
+        extra=""; acc=""
+        [ "$first" = 1 ] && acc="${ACCESSION:-}"
+        if [ "$(TZ=Asia/Jerusalem date +%H)" -ge 10 ] && [ "$(TZ=Asia/Jerusalem date +%H)" -lt 18 ] && [ "$(cat "$STATE/catchup-day" 2>/dev/null)" != "$(TZ=Asia/Jerusalem date +%F)" ]; then
+          extra="--catchup 2 --budget-min 15 --max-filings 900"; TZ=Asia/Jerusalem date +%F > "$STATE/catchup-day"    # previous days from the EDGAR daily index, once a day
+        fi
+        iteration "$extra" "$acc"; first=0
+      fi
     fi
-    iteration "$extra" "$acc"; first=0
+  elif [ "$first" = 1 ]; then log "outside the window (US trading days 10:00-02:00 Israel time) - waiting"; first=0
   fi
   [ "${FORCE_ONCE:-}" = "1" ] && break
   # next 10-minute mark (+1 minute so the minute's filings are in the feed)
