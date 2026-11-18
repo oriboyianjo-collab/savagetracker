@@ -307,11 +307,13 @@ function applyLive(rows, feed, ctx) {
     }
     if (f.form === '6-K' || row['אימות_פרסום_SEC'] !== f.acc) continue;   // 6-K: release time + link only (numbers from Alpha Vantage)
     if (applyPrEps(row, f)) st.epsFilled++;
-    const rev = { r: +f.r, pr: true, tag: f.tag || '', cur: f.cur || 'USD', acc: f.acc, label: f.slot || '', cik: f.cik };
+    // r_nv: the SEC prior-year quarter had no revenue (e.g. a Q4 derived from the 10-K), so the release was verified through net
+    // income only; that revenue is shown only next to an estimate (15% check), never on its own.
+    const rev = { r: +f.r, pr: true, tag: f.tag || '', cur: f.cur || 'USD', acc: f.acc, label: (f.slot || '') + (f.r_nv ? ' (net income verified vs SEC prior year)' : ''), cik: f.cik };
     if (f.r != null && applyRevenue(row, rev)) st.revFilled++;
     // No revenue estimate on the row: a press-release total revenue that matched the SEC prior year under the company's
     // total "Revenues" tag is still shown (nothing to compare it with, so no beat/miss).
-    else if (f.r != null && f.r > 0 && !has(row['צפי_הכנסות']) && !has(row['הכנסות_בפועל']) && rev.tag === 'Revenues') {
+    else if (f.r != null && f.r > 0 && !f.r_nv && !has(row['צפי_הכנסות']) && !has(row['הכנסות_בפועל']) && rev.tag === 'Revenues') {
       row['הכנסות_בפועל'] = money(rev.r); row['מטבע_הכנסות'] = rev.cur;
       row['בסיס_בפועל_הכנסות'] = 'GAAP total revenue – SEC 8-K press release, ' + rev.label;
       row['מקור_הכנסות_בפועל'] = `https://www.sec.gov/Archives/edgar/data/${+f.cik}/${f.acc.replace(/-/g, '')}/${f.acc}-index.htm`;

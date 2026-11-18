@@ -202,8 +202,9 @@ def daily_index_8k(transport, day: date):
     return out
 
 
-def filing_index(transport, cik, acc):
-    """Return (items_text, [exhibit urls of EX-99* .htm docs in order])."""
+def filing_index(transport, cik, acc, main_doc=False):
+    """Return (items_text, [exhibit urls of EX-99* .htm docs in order]). main_doc: when the filing has no EX-99
+    .htm exhibit, return its primary document instead (a 6-K that carries the release in its own body)."""
     url = FILING_IDX.format(cik=int(cik), accnd=acc.replace('-', ''), acc=acc)
     body = transport.get_text(url)
     if not body:
@@ -215,17 +216,25 @@ def filing_index(transport, cik, acc):
         from zoneinfo import ZoneInfo
         accepted = datetime.strptime(m.group(1), '%Y-%m-%d %H:%M:%S').replace(tzinfo=ZoneInfo('America/New_York')).isoformat()
     ex = []
+    primary = []
     for row in re.findall(r'<tr[^>]*>(.*?)</tr>', body, re.S):
         cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.S)
         if len(cells) < 4:
             continue
         typ = re.sub(r'<[^>]+>', '', cells[3]).strip().upper()
         href = re.search(r'href="([^"]+)"', cells[2])
-        if typ.startswith('EX-99') and href and re.search(r'\.html?$', href.group(1), re.I):
-            h = href.group(1)
-            if h.startswith('/ix?doc='):
-                h = h[len('/ix?doc='):]
-            ex.append('https://www.sec.gov' + h if h.startswith('/') else h)
+        if not (href and re.search(r'\.html?$', href.group(1), re.I)):
+            continue
+        h = href.group(1)
+        if h.startswith('/ix?doc='):
+            h = h[len('/ix?doc='):]
+        h = 'https://www.sec.gov' + h if h.startswith('/') else h
+        if typ.startswith('EX-99'):
+            ex.append(h)
+        elif typ in ('6-K', '6-K/A') and not primary:
+            primary.append(h)
+    if main_doc and not ex:
+        ex = primary
     return items, ex, accepted
 
 
@@ -262,8 +271,9 @@ def process_filing(transport, fin_dir: Path, syms, f, items_known=False, dry=Fal
     import press_release  # needs beautifulsoup4 + lxml (fast-layer workflow only)
     notes = []
     parsed = None
+    pages = {}
     for url in exhibits[:3]:
-        html = transport.get_text(url)
+        html = pages[url] = transport.get_text(url)
         if not html:
             continue
         parsed = press_release.extract(html, quarter_records(base), notes)
@@ -272,13 +282,28 @@ def process_filing(transport, fin_dir: Path, syms, f, items_known=False, dry=Fal
             if out is not None:
                 adj, mentioned = press_release.adjusted_eps(html, parsed['e'], parsed.get('eps'))
                 out.update({'url': url, 'e': parsed['e'], 'r': parsed.get('r'), 'eps': parsed.get('eps'),
-                            'peps': parsed.get('peps'), 'adj_eps': adj, 'non_gaap': mentioned,
+                            'peps': parsed.get('peps'), 'adj_eps': adj, 'non_gaap': mentioned, 'r_nv': bool(parsed.get('r_nv')),
                             'slot': '%s FY%d' % (parsed['slot'][1], int(parsed['slot'][0]) + 1),
                             'tag': (base.get('tags') or {}).get('r') or '', 'cur': base.get('cur') or 'USD'})
             break
     if not parsed:
         if out is not None and exhibits:
             out['url'] = exhibits[0]
+            # The GAAP check failed (revenue / net income not verifiable), but the company's own labelled adjusted EPS
+            # for the release's current quarter is still usable on the board (its estimate guards apply there).
+            for url in exhibits[:3]:
+                html = pages.get(url)          # already fetched above (no extra SEC request)
+                if not html:
+                    continue
+                end = press_release.current_quarter_end(html)
+                if not end:
+                    continue
+                adj, mentioned = press_release.adjusted_eps(html, end, None)
+                if adj is not None:
+                    out.update({'url': url, 'e': end, 'adj_eps': adj, 'non_gaap': mentioned, 'eps_only': True,
+                                'cur': base.get('cur') or 'USD'})
+                    notes.append('adjusted EPS %s only (quarter ending %s)' % (adj, end))
+                    break
         return 'nopr', '; '.join(dict.fromkeys(notes))[:300] or 'no confident GAAP table'
     changed = []
     for s, sh in shards.items():
@@ -296,7 +321,9 @@ def process_filing(transport, fin_dir: Path, syms, f, items_known=False, dry=Fal
 
 
 RESULTS_RE = re.compile(r'(first|second|third|fourth|1st|2nd|3rd|4th|q[1-4]|quarter(?:ly)?|half[\s-]*year|interim|nine[\s-]+months|six[\s-]+months)'
-                        r'[^.]{0,80}(?:financial\s+)?(?:results|earnings)|(?:un)?audited\s+(?:financial\s+)?results|earnings\s+release', re.I)
+                        r'[^.]{0,80}(?:financial\s+)?(?:results|earnings)|(?:un)?audited\s+(?:financial\s+)?results|earnings\s+release'
+                        r'|results\s+for\s+the\s+[^.]{0,40}?(?:months|quarter|period|half[\s-]*year)'            # "Results for the Nine Months Ended"
+                        r'|reports?\s+(?:q[1-4]|first|second|third|fourth|1st|2nd|3rd|4th)\b[^.]{0,40}?(?:revenues?|sales|results|earnings)', re.I)
 MONEY_RE = re.compile(r'(revenues?|net\s+(?:income|loss|profit)|profit|ebitda|earnings\s+per)[^.]{0,100}(?:\$|usd|us\$|rmb|eur|€|£)\s?[\d.,]+'
                       r'|(revenues?|net\s+(?:income|loss|profit))[^.]{0,100}[\d.,]+\s*(?:million|billion)', re.I)
 
@@ -304,7 +331,7 @@ MONEY_RE = re.compile(r'(revenues?|net\s+(?:income|loss|profit)|profit|ebitda|ea
 def process_6k(transport, f):
     """Foreign issuer 6-K on the earnings board: is its EX-99 a results release? Returns the board record.
     Only the release time and link are used on the board (no SEC prior-year data to verify numbers)."""
-    items, exhibits, accepted = filing_index(transport, f['cik'], f['acc'])
+    items, exhibits, accepted = filing_index(transport, f['cik'], f['acc'], main_doc=True)
     rec = {'form': '6-K', 'cik': f['cik'], 'filed': f['filed'], 'accepted': f.get('updated') or accepted, 'syms': [], 'results': False}
     for url in exhibits[:2]:
         html = transport.get_text(url)

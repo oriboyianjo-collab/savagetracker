@@ -192,5 +192,107 @@ class SixK(unittest.TestCase):
         self.assertFalse(fl.RESULTS_RE.search(no) and fl.MONEY_RE.search(no))
 
 
+def fx(name):
+    return (DIR / 'fixtures' / (name + '.html')).read_text()
+
+
+class FakeSec:
+    """Offline stand-in for SecTransport: a filing index page and the documents it lists."""
+    def __init__(self, docs, index_rows, items='Item 2.02'):
+        self.docs, self.rows, self.items, self.calls = docs, index_rows, items, []
+
+    def get_text(self, url):
+        self.calls.append(url)
+        if url.endswith('-index.htm'):
+            rows = ''.join('<tr><td>%d</td><td>d</td><td><a href="%s">x</a></td><td>%s</td></tr>' % (i, h, t)
+                           for i, (h, t) in enumerate(self.rows, 1))
+            return ('<div class="infoHead">Accepted</div>\n<div class="info">2026-11-18 07:00:00</div>'
+                    '<table>%s</table> %s' % (rows, self.items))
+        return self.docs.get(url.rsplit('/', 1)[-1], '')
+
+
+class Nov18Releases(unittest.TestCase):
+    """Real 8-K / 6-K filings of 18.11.2026 that the live board missed (before-open reporters)."""
+    TGT = [('2025', 'Q3', {'e': '2025-11-01', 'r': 25270000000, 'o': 948000000, 'n': 689000000})]
+    LOW = [('2025', 'Q3', {'e': '2025-10-31', 'r': 20813000000, 'o': 2481000000, 'n': 1616000000})]
+    TJX = [('2026', 'Q3', {'e': '2025-11-01', 'n': 1442000000})]                      # no SEC revenue in the shard
+    BRBR = [('2025', 'Q4', {'e': '2025-09-30', 'o': 102200000, 'n': 59600000, 'x': 'derived'})]   # Q4 derived from the 10-K
+    JJSF = [('2025', 'Q4', {'e': '2025-09-27', 'o': 11467000, 'n': 11381000, 'x': 'derived'})]
+
+    def test_tgt_millions_header_and_change_columns(self):
+        # "(millions, except per share data)" + a "Change" column after each date pair
+        html = fx('tgt-q3fy26-pr')
+        got = pr.extract(html, self.TGT, [])
+        self.assertEqual((got['e'], got['r'], got['n'], got['o'], got['eps']), ('2026-10-31', 27067e6, 1211e6, 1672e6, 2.65))
+        self.assertNotIn('r_nv', got)
+        self.assertEqual(pr.adjusted_eps(html, got['e'], got['eps']), (2.65, True))
+
+    def test_low_percent_of_sales_columns_skipped(self):
+        # "Amount | % Sales" pairs: revenue was read as 100.00 (the % column) before
+        html = fx('low-q3fy26-pr')
+        got = pr.extract(html, self.LOW, [])
+        self.assertEqual((got['r'], got['pr'], got['n'], got['eps']), (22756e6, 20813e6, 1673e6, 2.98))
+        # header "Pre-Tax Earnings | Tax 1 | Net Earnings" is a header (footnote 1), not a data row of 1.0s
+        self.assertEqual(pr.adjusted_eps(html, got['e'], got['eps']), (3.1, True))
+
+    def test_tjx_revenue_fallback_through_net_income(self):
+        html = fx('tjx-q3fy27-pr')
+        got = pr.extract(html, self.TJX, [])
+        self.assertTrue(got['r_nv'])
+        self.assertEqual((got['r'], got['n'], got['pn'], got['eps']), (15952e6, 1543e6, 1442e6, 1.39))
+        self.assertEqual(pr.adjusted_eps(html, got['e'], got['eps']), (1.34, True))
+        wrong = [('2026', 'Q3', {'e': '2025-11-01', 'n': 1500000000})]        # net income does not match -> nothing
+        self.assertIsNone(pr.extract(html, wrong, []))
+
+    def test_brbr_derived_q4_without_revenue(self):
+        html = fx('brbr-q4fy26-pr')
+        got = pr.extract(html, self.BRBR, [])
+        self.assertTrue(got['r_nv'])
+        self.assertEqual((got['e'], got['r'], got['n']), ('2026-09-30', 692e6, 35.6e6))
+        self.assertEqual(pr.adjusted_eps(html, got['e'], got['eps']), (0.22, True))
+
+    def _filing(self, name, sym, quarters):
+        import fast_layer as fl
+        import tempfile
+        d = Path(tempfile.mkdtemp())
+        p = {}
+        for y, per, rec in quarters:
+            p.setdefault(y, {})[per] = dict(rec, f='10-K', a='prior')
+        (d / (sym + '.json')).write_text(json.dumps({'sym': sym, 'cik': '1', 'cur': 'USD', 'p': p}))
+        sec = FakeSec({'ex99.htm': fx(name)}, [('/Archives/edgar/data/1/x/ex99.htm', 'EX-99.1')])
+        out = {}
+        st, detail = fl.process_filing(sec, d, [sym], {'cik': '1', 'acc': 'A', 'filed': '2026-11-18'}, True, dry=True,
+                                       need_parse=True, out=out)
+        return st, detail, out, sec
+
+    def test_jjsf_eps_only_when_gaap_check_fails(self):
+        # no unit statement in the GAAP table -> revenue stays unverified, but the labelled adjusted EPS still goes to the board
+        st, detail, out, sec = self._filing('jjsf-q4fy26-pr', 'JJSF', self.JJSF)
+        self.assertEqual(st, 'nopr')
+        self.assertEqual((out['adj_eps'], out['e'], out.get('eps_only')), (1.39, '2026-09-26', True))
+        self.assertNotIn('r', out)
+        self.assertEqual(len(sec.calls), 2)                     # index + exhibit: no second fetch for the EPS
+        st, detail, out, sec = self._filing('tgt-q3fy26-pr', 'TGT', self.TGT)
+        self.assertEqual((st, out['adj_eps'], out['r'], out['r_nv']), ('ok', 2.65, 27067e6, False))
+
+    def test_6k_results_wording(self):
+        import fast_layer as fl
+        for name in ('iccm-6k-9m2026-ex991', 'pre-6k-q32026-ex991'):
+            sec = FakeSec({'ex99.htm': fx(name)}, [('/Archives/edgar/data/1/x/ex99.htm', 'EX-99.1')], items='')
+            rec = fl.process_6k(sec, {'cik': '1', 'acc': 'A', 'filed': '2026-11-18'})
+            self.assertTrue(rec['results'], name)
+            self.assertTrue(rec['url'].endswith('ex99.htm'))
+        # KNDI: release in the body of the 6-K itself, no EX-99 exhibit
+        sec = FakeSec({'main.htm': fx('kndi-6k-9m2026-main')}, [('/Archives/edgar/data/1/x/main.htm', '6-K')], items='')
+        rec = fl.process_6k(sec, {'cik': '1', 'acc': 'A', 'filed': '2026-11-18'})
+        self.assertTrue(rec['results'])
+        self.assertTrue(rec['url'].endswith('main.htm'))
+        self.assertNotIn('eps', rec)
+        # the 8-K path never reads a main document as a press release
+        self.assertEqual(fl.filing_index(sec, '1', 'A')[1], [])
+        no = "Hafnia's Q3 2026 financial results presentation to be held on 18 November 2026."
+        self.assertFalse(fl.RESULTS_RE.search(no) and fl.MONEY_RE.search(no))
+
+
 if __name__ == '__main__':
     unittest.main()

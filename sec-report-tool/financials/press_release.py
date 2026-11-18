@@ -30,7 +30,7 @@ GROUP_RE = re.compile(
     r'|thirteen[\s-]+weeks?|fourteen[\s-]+weeks?|14[\s-]+weeks?|three[\s-]+month[\s-]+periods?'
     r'|(?P<long>(six|nine|twelve|6|9|12)[\s-]+months?|(twenty|thirty|forty|fifty)[\s-]+\w+[\s-]+weeks?|years?\s+ended|fiscal\s+years?|year[\s-]+to[\s-]+date|ytd|(26|39|40|52|53)[\s-]+weeks?|twenty|thirty|fifty|full[\s-]+year)',
     re.I)
-UNIT_RE = re.compile(r'in\s+(thousands|millions|billions)|\(\s*(000)\s*\'?s?\s*\)|000\'?s?\s+omitted|\$\s*(000)\'?s|(thousands|millions)\s+of\s+(?:u\.?s\.?\s+)?dollars', re.I)
+UNIT_RE = re.compile(r'in\s+(thousands|millions|billions)|\(\s*(thousands|millions|billions)\b(?=\s*[,)])|\(\s*(000)\s*\'?s?\s*\)|000\'?s?\s+omitted|\$\s*(000)\'?s|(thousands|millions)\s+of\s+(?:u\.?s\.?\s+)?dollars', re.I)
 SCALE = {'thousands': 1e3, '000': 1e3, 'millions': 1e6, 'billions': 1e9}
 NON_GAAP = re.compile(r'non[\s-]*gaap|reconciliation|adjusted|pro\s*forma|segment', re.I)
 
@@ -137,6 +137,7 @@ def _is_header_row(r):
         return True
     rest = [c for c in r[1:] if not YEAR_RE.fullmatch(c.strip())]
     text = re.sub(r'\(\s*\d\s*\)', ' ', ' '.join(rest))
+    text = re.sub(r'(?<=[a-z])\s+\d(?![\d.,%])', ' ', text, flags=re.I)     # footnote marker after a word ("Tax 1")
     nums = _numbers([text]) if text.strip() else None
     return not nums or all(v is None for v in nums)
 
@@ -207,6 +208,7 @@ def parse_table(table):
         kinds = ['Q'] * kq + ['L'] * (N - kq)
     else:
         return None
+    layout = _value_layout(hdr, N)
     data = {}
     for r in body:
         lab = norm_label(r[0])
@@ -215,12 +217,31 @@ def parse_table(table):
         nums = _numbers(r[1:])
         if not nums:
             continue
-        if len(nums) > N and re.search(r'change|variance|%|increase|decrease|vs\.?', htext, re.I):
+        if len(nums) > N and layout and len(nums) == len(layout):
+            nums = [v for v, keep in zip(nums, layout) if keep]      # interleaved "% of sales" / "change" columns
+        elif len(nums) > N and re.search(r'change|variance|%|increase|decrease|vs\.?', htext, re.I):
             nums = nums[:N]
         if len(nums) != N:
             continue
         data.setdefault(lab, []).append(nums)
     return {'cols': cols, 'kinds': kinds, 'data': data, 'htext': htext}
+
+
+PCT_COL = re.compile(r'%|percent|change|variance|increase|decrease|\bvs\.?$|^b/\(?w\)?$|basis points|\bbps\b', re.I)
+
+
+def _value_layout(hdr, n):
+    """Column mask (True = amount, False = ratio column) from a header row that interleaves amounts with
+    "% of sales" / "change" columns (e.g. Lowe's "Amount | % Sales", Target's "date | date | Change").
+    Only returned when exactly n amount columns remain; otherwise None (the row lengths decide)."""
+    for r in hdr:
+        for cells in (r[1:], r):
+            if not cells:
+                continue
+            mask = [not PCT_COL.search(c) for c in cells]
+            if sum(mask) == n and not all(mask):
+                return mask
+    return None
 
 
 def _pick(data, rx, prefer=None, avoid=None):
@@ -273,6 +294,23 @@ def candidate_tables(html):
     return out
 
 
+def current_quarter_end(html):
+    """Quarter-end date (ISO) of the release's current three-month column, from its GAAP tables; None if the
+    tables disagree. Used to read the company-labelled adjusted EPS when the GAAP verification failed."""
+    ends = set()
+    for t in BeautifulSoup(html, 'lxml').find_all('table'):
+        pt = parse_table(t)
+        if not pt:
+            continue
+        qc = _qcols(pt['cols'], pt['kinds'])
+        if qc:
+            ends.add(pt['cols'][qc[0]])
+    if not ends:
+        return None
+    latest = max(ends)
+    return latest.isoformat() if all((latest - e).days <= 7 or (latest - e).days >= 60 for e in ends) else None
+
+
 def extract(html, quarters, notes=None):
     """Parse a press release.
 
@@ -282,8 +320,10 @@ def extract(html, quarters, notes=None):
     Returns dict(e, slot=(year, period) of the matched prior-year record,
     r/o/n[/da] current values, pr/po/pn prior values, rows) or None."""
     notes = notes if notes is not None else []
+    # A prior-year quarter without SEC revenue (e.g. a fourth quarter derived from the 10-K) still verifies the
+    # release through net income: its revenue is then taken from the release, flagged 'r_nv' (not verified).
     qs = [(y, per, rec) for y, per, rec in quarters
-          if rec.get('e') and rec.get('r') is not None and rec.get('src') != 'pr']
+          if rec.get('e') and (rec.get('r') is not None or rec.get('n') is not None) and rec.get('src') != 'pr']
     if not qs:
         notes.append('no XBRL quarterly records to verify against')
         return None
@@ -338,6 +378,10 @@ def extract(html, quarters, notes=None):
                 break
             c, p = vals[cur] * sc, vals[pri] * sc
             ref = prior_rec.get(key)
+            if ref is None and key == 'r' and prior_rec.get('n') is not None:
+                out['r'], out['pr'], out['rows']['r'] = c, p, lab
+                out['r_nv'] = True          # accepted only if net income matches the SEC prior year (checked below)
+                continue
             if ref is None:
                 if key == 'o':
                     o_missing = True
@@ -359,6 +403,9 @@ def extract(html, quarters, notes=None):
             out[key] = c
             out['p' + key] = p
             out['rows'][key] = lab
+        if ok and out.get('r_nv') and (out.get('n') is None or out.get('_no_n')):
+            ok = False
+            notes.append('r: no XBRL prior-year revenue and net income not verified')
         if ok and out.pop('_no_n', False):
             # revenue + operating income verified, no net income: only an operating-income source for another table
             if out.get('o') is not None:

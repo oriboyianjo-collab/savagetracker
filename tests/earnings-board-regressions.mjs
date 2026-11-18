@@ -226,5 +226,47 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('no estimate + non-total revenue tag -> revenue stays blank', !('הכנסות_בפועל' in bank));
 }
 
+// --- 18.11.2026 before-open reporters (real filings): EPS no longer depends on the revenue check; revenue verified through
+//     net income only (r_nv) needs an estimate within 15%; 6-K results releases never carry numbers ---
+{
+  const T = '2026-11-18';
+  const tjx = { 'סימול': 'TJX', 'תאריך': T, 'מועד': 'before', 'צפי_EPS': '1.33', 'צפי_הכנסות': '15.855B', 'הערה': 'keep' };
+  const brbr = { 'סימול': 'BRBR', 'תאריך': T, 'מועד': 'before', 'צפי_EPS': '0.21' };
+  const jjsf = { 'סימול': 'JJSF', 'תאריך': T, 'מועד': 'before', 'צפי_EPS': '1.21' };
+  const tgt = { 'סימול': 'TGT', 'תאריך': T, 'מועד': 'before', 'צפי_EPS': '2.04' };
+  const low = { 'סימול': 'LOW', 'תאריך': T, 'מועד': 'before', 'צפי_EPS': '2.86', 'צפי_הכנסות': '22.36B' };
+  const iccm = { 'סימול': 'ICCM', 'תאריך': T, 'מועד': 'before', 'צפי_EPS': '-0.83', 'הערה_en': 'mine' };
+  const kndi = { 'סימול': 'KNDI', 'תאריך': T, 'מועד': 'before' };
+  const ciks = { TJX: '0000109198', BRBR: '0001772016', JJSF: '0000785956', TGT: '0000027419', LOW: '0000060667', ICCM: '0001584371', KNDI: '0001720250' };
+  const u = 'https://www.sec.gov/Archives/edgar/data/1/x/ex99.htm';
+  const feed = { filings: [
+    { cik: ciks.TJX, acc: '0000109198-26-000058', form: '8-K', accepted: '2026-11-18T09:19:28-05:00', url: u, r: 15952e6, eps: 1.39, adj_eps: 1.34, non_gaap: true, r_nv: true, tag: 'SalesRevenueNet', cur: 'USD', slot: 'Q3 FY2027' },
+    { cik: ciks.BRBR, acc: '0001628280-26-074645', form: '8-K', accepted: '2026-11-18T07:01:41-05:00', url: u, r: 692e6, eps: 0.31, adj_eps: 0.22, non_gaap: true, r_nv: true, tag: 'Revenues', cur: 'USD', slot: 'Q4 FY2026' },
+    { cik: ciks.JJSF, acc: '0001437749-26-037473', form: '8-K', accepted: '2026-11-18T07:02:00-05:00', url: u, e: '2026-09-26', adj_eps: 1.39, non_gaap: true, eps_only: true, cur: 'USD' },
+    { cik: ciks.TGT, acc: '0000027419-26-000051', form: '8-K', accepted: '2026-11-18T06:46:59-05:00', url: u, r: 27067e6, eps: 2.65, adj_eps: 2.65, non_gaap: true, r_nv: false, tag: 'RevenueFromContractWithCustomerExcludingAssessedTax', cur: 'USD', slot: 'Q3 FY2026' },
+    { cik: ciks.LOW, acc: '0000060667-26-000126', form: '8-K', accepted: '2026-11-18T08:45:11-05:00', url: u, r: 22756e6, eps: 2.98, adj_eps: 3.1, non_gaap: true, r_nv: false, tag: 'RevenueFromContractWithCustomerExcludingAssessedTax', cur: 'USD', slot: 'Q3 FY2026' },
+    { cik: ciks.ICCM, acc: '0001213900-26-121630', form: '6-K', results: true, accepted: '2026-11-18T08:45:01-05:00', url: u },
+    { cik: ciks.KNDI, acc: '0001213900-26-121585', form: '6-K', results: true, accepted: '2026-11-18T07:00:01-05:00', url: 'https://www.sec.gov/Archives/edgar/data/1720250/x/ea0312570-6k_kandi.htm' },
+  ] };
+  const rows = [tjx, brbr, jjsf, tgt, low, iccm, kndi];
+  const st = eb.applyLive(rows, feed, { today: T, cikOf: (s) => ciks[s] });
+  ok('TJX: adjusted EPS 1.34 + revenue 15.952B (net-income verified, within 15% of 15.855B) with beat/miss, note untouched',
+    tjx['בפועל_EPS'] === '1.34' && tjx['השוואה_EPS'] === 'כן' && tjx['הכנסות_בפועל'] === '15.952B' && tjx['השוואה_הכנסות'] === 'כן' && /net income verified/.test(tjx['בסיס_בפועל_הכנסות']) && tjx['הערה'] === 'keep', JSON.stringify(tjx));
+  ok('BRBR: EPS 0.22 filled; net-income-verified revenue without an estimate stays blank', brbr['בפועל_EPS'] === '0.22' && !('הכנסות_בפועל' in brbr), JSON.stringify(brbr));
+  ok('JJSF: EPS-only record (GAAP check failed) fills adjusted EPS 1.39 with beat/miss, no revenue', jjsf['בפועל_EPS'] === '1.39' && jjsf['השוואה_EPS'] === 'כן' && !('הכנסות_בפועל' in jjsf), JSON.stringify(jjsf));
+  ok('TGT: EPS 2.65 (no revenue estimate, non-total tag -> revenue blank)', tgt['בפועל_EPS'] === '2.65' && !('הכנסות_בפועל' in tgt), JSON.stringify(tgt));
+  ok('LOW: EPS 3.1 and revenue 22.756B (not the 100% column) with beat/miss', low['בפועל_EPS'] === '3.1' && low['הכנסות_בפועל'] === '22.756B' && low['השוואה_הכנסות'] === 'כן', JSON.stringify(low));
+  ok('ICCM / KNDI 6-K: confirmation, link and time only, never numbers; note untouched',
+    iccm['אימות_פרסום_SEC'] === '0001213900-26-121630' && kndi['אימות_פרסום_SEC'] === '0001213900-26-121585' && /kandi/.test(kndi['קישור_לדוח']) && kndi.release_time_il === '14:00'
+    && !('בפועל_EPS' in iccm) && !('בפועל_EPS' in kndi) && !('הכנסות_בפועל' in kndi) && iccm['הערה_en'] === 'mine' && !('הערה' in kndi), JSON.stringify([iccm, kndi]));
+  ok('stats: 7 confirmations, 5 EPS, 2 revenue', st.secApplied === 7 && st.epsFilled === 5 && st.revFilled === 2, JSON.stringify(st));
+  const wild = { 'סימול': 'JJSF', 'תאריך': T, 'צפי_EPS': '1.21' };
+  eb.applyLive([wild], { filings: [{ ...feed.filings[2], adj_eps: 4.9 }] }, { today: T, cikOf: () => ciks.JJSF });
+  ok('EPS-only record still passes the 100% guard (4.90 vs 1.21 rejected)', !('בפועל_EPS' in wild) && wild['אימות_פרסום_SEC'] === '0001437749-26-037473');
+  const far = { 'סימול': 'TJX', 'תאריך': T, 'צפי_EPS': '1.33', 'צפי_הכנסות': '12B' };
+  eb.applyLive([far], { filings: [feed.filings[0]] }, { today: T, cikOf: () => ciks.TJX });
+  ok('net-income-verified revenue 33% off the estimate is rejected', !('הכנסות_בפועל' in far) && far['בפועל_EPS'] === '1.34');
+}
+
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all earnings-board checks passed');
