@@ -59,7 +59,17 @@ EPS_AVOID = re.compile(r'continuing|discontinued|before|class [b-z]\b|preferred'
 SHARES_LAB = re.compile(r'(weighted|average|shares).*dilut|dilut.*(shares|weighted)|^diluted$')
 ADJ_EPS = re.compile(r'(non[\s-]*gaap|adjusted|core)\b.*(dilut|per share|eps\b|per diluted)|(dilut|eps\b|per share).*(non[\s-]*gaap|adjusted|excluding certain items)')
 ADJ_NOT = re.compile(r'shares|weighted|average|guidance|outlook|basic(?! and dilut)|tax|impact|adjustments?$|excluding (?!certain items)|attributable to non|53\s*rd|week')
-NON_GAAP_EPS_TEXT = re.compile(r'non[\s\u2010-\u2013-]*gaap|adjusted\s+(diluted\s+)?(eps|earnings|net\s+income)|eps\s+excluding\s+certain\s+items', re.I)
+# Does the release report a non-GAAP / adjusted EPS? Only per-share wording counts: a release whose only non-GAAP measure is
+# e.g. adjusted EBITDA (UTI) reports GAAP diluted EPS as its EPS.
+_NG = r'(?:non[\s\u2010-\u2013-]*gaap|adjusted|core)'
+NON_GAAP_EPS_TEXT = re.compile(
+    _NG + r'\s+(?:diluted\s+)?(?:eps\b|earnings\s+per|net\s+(?:income|earnings)\s+per|(?:net\s+)?(?:income|earnings)\b(?:[^.;]|\.(?=\d)){0,80}?\bper\s+(?:diluted\s+)?share)'
+    r'|' + _NG + r'\s+(?:net\s+)?(?:income|earnings)\s+per\s+(?:diluted\s+)?share'
+    r'|\b(?:eps|earnings\s+per\s+(?:diluted\s+)?share)\b[^.;]{0,30}?(?:\(\s*)?(?:non[\s\u2010-\u2013-]*gaap|as\s+adjusted)'
+    r'|eps\s+excluding\s+certain\s+items', re.I)
+SUMMARY_Q = re.compile(r'(?:first|second|third|fourth|1st|2nd|3rd|4th)\s+quarter|\bq[1-4]\b|three\s+months|quarter\s+ended', re.I)
+SUMMARY_L = re.compile(r'fiscal\s+year|full[\s-]+year|year\s+ended|twelve\s+months|nine\s+months|six\s+months|year[\s-]+to[\s-]+date|\bytd\b', re.I)
+_MONEY_CELL = re.compile(r'^\s*\$?\s*(\(?-?\d{1,3}\.\d{2}\)?)\s*(?:[,;]|$|\s)')
 
 
 def _cell_texts(tr):
@@ -551,8 +561,44 @@ def adjusted_eps(html, end, gaap=None):
                 v = vals[i]
                 if v is not None and abs(v) < 1000:
                     found.add(round(v, 4))
+    if not found:
+        found = _summary_adjusted(soup)
     if len(found) == 1:
         return found.pop(), True
     if found:
         return None, True
     return _prose_adjusted(text, gaap), True
+
+
+def _summary_adjusted(soup):
+    """Highlights tables without dates, e.g. Woodward's
+         | Fourth Quarter 2026 | Fiscal Year 2026
+         Adjusted EPS 1 | $2.83, +35% | $9.78, +42%
+    Only tables whose header names exactly one quarter column (the current quarter; no prior-year quarter beside it)."""
+    found = set()
+    for t in soup.find_all('table'):
+        if parse_table(t):
+            continue
+        rows = [r for r in (_cell_texts(tr) for tr in t.find_all('tr')) if r]
+        hdr = None
+        for r in rows[:4]:
+            kinds = ['Q' if SUMMARY_Q.search(c) and not SUMMARY_L.search(c) else 'L' if SUMMARY_L.search(c) else None for c in r]
+            if kinds.count('Q') == 1 and all(k for k in kinds if k is not None) and len([k for k in kinds if k]) == len(r):
+                hdr = kinds
+                break
+        if not hdr:
+            continue
+        qi = hdr.index('Q')
+        for r in rows:
+            lab = norm_label(re.sub(r'\s+\d$', '', r[0]))          # "Adjusted EPS 1" (footnote marker)
+            if not ADJ_EPS.search(lab) or ADJ_NOT.search(lab) or re.search(r'guidance|outlook|range|expect', lab):
+                continue
+            vals = r[1:]
+            if len(vals) != len(hdr):
+                continue
+            m = _MONEY_CELL.match(vals[qi])
+            if m and not re.search(r'\d\s*[-–]\s*\$?\d', vals[qi]):     # a range is guidance, not a result
+                v = _pnum(m.group(1).replace('-', '')) * (-1 if m.group(1).startswith('-') else 1)
+                if abs(v) < 1000:
+                    found.add(round(v, 4))
+    return found

@@ -20,6 +20,7 @@ const SEC_INTERVAL_MS = 1000;           // 1 req/s: financials-fast may use the 
 const AV_INTERVAL_MS = 1500;            // AV free key: max 1 request per second
 const AV_PER_RUN = 12;                  // 2 scheduled runs/day x 12 = 24 <= 25/day
 const AV_ACTUALS_MAX = 8;
+const AV_TRIES = 4;                     // counted Alpha Vantage EARNINGS tries per row (only when AV has the quarter)
 const AUTO = 'alphavantage-calendar';
 const NOTE_KEYS = ['הערה', 'הערה_en'];
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -186,13 +187,18 @@ function revenuePlausible(row, rev) {
   if (/^(כן|yes|true)$/i.test(String(row['השוואה_הכנסות'] || '')) && rev.tag !== 'Revenues') return false;
   return true;
 }
+// Revenue is SEC-verified before it gets here (XBRL, or a press release whose prior year matched SEC revenue or net income).
+// With an estimate it must also be within 15% of it (same metric); without one it is still shown after the release (Ori,
+// 19.11.2026), just with no beat/miss.
 function applyRevenue(row, rev) {
-  if (has(row['הכנסות_בפועל']) || !revenuePlausible(row, rev)) return false;
+  if (has(row['הכנסות_בפועל']) || !(rev && rev.r > 0)) return false;
+  const noEst = !(moneyNum(row['צפי_הכנסות']) > 0);
+  if (!noEst && !revenuePlausible(row, rev)) return false;
   row['הכנסות_בפועל'] = money(rev.r);
   row['מטבע_הכנסות'] = rev.cur;
   row['בסיס_בפועל_הכנסות'] = (rev.tag === 'Revenues' ? 'GAAP total revenue' : 'GAAP revenue (SEC tag ' + (rev.tag || 'unknown') + ')') + (rev.pr ? ' – SEC 8-K press release, ' : ' – SEC XBRL, ') + rev.label;
   if (rev.acc && rev.cik) row['מקור_הכנסות_בפועל'] = `https://www.sec.gov/Archives/edgar/data/${+rev.cik}/${rev.acc.replace(/-/g, '')}/${rev.acc}-index.htm`;
-  if (!has(row['השוואה_הכנסות'])) { row['השוואה_הכנסות'] = 'כן'; row['השוואה_הכנסות_en'] = 'Yes'; }   // passed the 15% check vs the estimate
+  if (!noEst && !has(row['השוואה_הכנסות'])) { row['השוואה_הכנסות'] = 'כן'; row['השוואה_הכנסות_en'] = 'Yes'; }   // passed the 15% check vs the estimate
   return true;
 }
 
@@ -238,12 +244,10 @@ function applyRevEstimate(row, est, fq) {
 // Anything else stays blank (never guessed); Alpha Vantage's street figure may replace it later (applyAvActual).
 const PR_EPS = /company press release \(SEC 8-K\)/;
 const prEps = (r) => PR_EPS.test(String(r['בסיס_בפועל_EPS'] || ''));
-function epsPlausible(v, est) {
-  if (!isFinite(v) || Math.abs(v) >= 1000) return false;
-  if (!isFinite(est)) return true;
-  const d = Math.abs(v - est);
-  if (Math.sign(v) !== Math.sign(est) && v !== 0 && est !== 0 && d > 0.25 && Math.max(Math.abs(v), Math.abs(est)) > 3 * Math.min(Math.abs(v), Math.abs(est))) return false;
-  return d <= Math.max(0.25, Math.abs(est));      // a miss/beat of up to 100% of the estimate (min ±0.25) is accepted
+// The EPS reaching here is the company's own labelled adjusted EPS or a verified GAAP diluted EPS: any distance from the
+// estimate is accepted (Ori, 19.11.2026 - no 100% / sign-flip guard); only a per-share figure that is not a number is refused.
+function epsPlausible(v) {
+  return isFinite(v) && Math.abs(v) < 1000;
 }
 function pickPrEps(row, f) {
   const gaapEst = /\bGAAP\b/i.test(String(row['בסיס_צפי_EPS'] || '')) && !/non[\s-]*GAAP|adjusted|street/i.test(String(row['בסיס_צפי_EPS'] || ''));
@@ -256,7 +260,7 @@ function applyPrEps(row, f) {
   if (has(row['בפועל_EPS'])) return false;
   const p = pickPrEps(row, f); if (!p) return false;
   const est = has(row['צפי_EPS']) ? Number(row['צפי_EPS']) : NaN;
-  if (!epsPlausible(p.v, est)) return false;
+  if (!epsPlausible(p.v)) return false;
   if (has(row['מטבע_EPS']) && String(row['מטבע_EPS']).toUpperCase() !== String(f.cur || 'USD').toUpperCase()) return false;
   row['בפועל_EPS'] = epsStr(p.v);
   row['מטבע_EPS'] = row['מטבע_EPS'] || f.cur || 'USD';
@@ -310,7 +314,7 @@ function applyLive(rows, feed, ctx) {
     // r_nv: the SEC prior-year quarter had no revenue (e.g. a Q4 derived from the 10-K), so the release was verified through net
     // income only; that revenue is shown only next to an estimate (15% check), never on its own.
     const rev = { r: +f.r, pr: true, tag: f.tag || '', cur: f.cur || 'USD', acc: f.acc, label: (f.slot || '') + (f.r_nv ? ' (net income verified vs SEC prior year)' : ''), cik: f.cik };
-    if (f.r != null && applyRevenue(row, rev)) st.revFilled++;
+    if (f.r != null && applyRevenue(row, rev)) st.revFilled++;   // no estimate: shown without beat/miss (any SEC revenue tag)
     // No revenue estimate on the row: a press-release total revenue that matched the SEC prior year under the company's
     // total "Revenues" tag is still shown (nothing to compare it with, so no beat/miss).
     else if (f.r != null && f.r > 0 && !f.r_nv && !has(row['צפי_הכנסות']) && !has(row['הכנסות_בפועל']) && rev.tag === 'Revenues') {
@@ -407,16 +411,23 @@ async function main() {
       Object.assign(stats, { calendar: applyCalendar(rows, fetched.cal, { today, names }) });
       const tried = state.avTried || {};
       const released = (r) => { const d = String(r['תאריך']); return d < today || (d === today && (r['מועד'] === 'before' || secConfirmed(r))); };
-      const needEps = rows.filter((r) => (!has(r['בפועל_EPS']) || prEps(r)) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today && released(r) && big(r) && (tried[r['מזהה']] || 0) < 2).sort(byRank);
+      // A try counts only when Alpha Vantage already has the reported quarter (it often posts it a day later), so a row is
+      // asked again on every run for 3 days until then, at most 4 counted tries.
+      const needEps = rows.filter((r) => (!has(r['בפועל_EPS']) || prEps(r)) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today && released(r) && big(r) && (tried[r['מזהה']] || 0) < AV_TRIES).sort(byRank);
       for (const r of needEps.slice(0, AV_ACTUALS_MAX)) {
         if (av.left() <= 0) break;
         const s = symKey(r['סימול']); if (fetched.earn[s]) continue;
-        try { fetched.earn[s] = JSON.parse(await av.get('EARNINGS', 'symbol=' + encodeURIComponent(s))); tried[r['מזהה']] = (tried[r['מזהה']] || 0) + 1; }
+        try {
+          fetched.earn[s] = JSON.parse(await av.get('EARNINGS', 'symbol=' + encodeURIComponent(s)));
+          const z = avQuarter(fetched.earn[s], String(r['תאריך']), r['רבעון_מסתיים']);
+          if (z && has(z.reportedEPS) && z.reportedEPS !== 'None') tried[r['מזהה']] = (tried[r['מזהה']] || 0) + 1;
+        }
         catch (e) { if (e.limit) { warnings.push(e.message); break; } throw e; }
       }
       // upcoming rows, and rows reported in the last 3 days whose revenue came in without an estimate (so a beat/miss % can show)
       const needRev = rows.filter((r) => !has(r['צפי_הכנסות']) && has(r['רבעון_מסתיים']) && big(r) && !(state.estTried || {})[r['מזהה']]
-        && ((!isPublished(r) && String(r['תאריך']) >= today && String(r['תאריך']) <= addDays(today, 3)) || (has(r['הכנסות_בפועל']) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today))).sort(byRank);
+        && ((!isPublished(r) && String(r['תאריך']) >= today && String(r['תאריך']) <= addDays(today, 3))
+          || ((isPublished(r) || released(r)) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today))).sort(byRank);
       state.estTried = state.estTried || {};
       for (const r of needRev) {
         if (av.left() <= 0) break;

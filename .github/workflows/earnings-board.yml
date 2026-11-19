@@ -51,6 +51,13 @@ jobs:
         run: |
           flags="--sec"
           if [ "$SCHEDULE" = "0 5 * * *" ] || [ "$SCHEDULE" = "0 17 * * *" ] || { [ "$EVENT" = "workflow_dispatch" ] && [ "$AV_INPUT" = "true" ]; }; then flags="--av $flags"; fi
+          # GitHub sometimes delivers a scheduled run hours late (05:00 UTC arrived at 13:34 UTC on 18.11.2026): such a run
+          # would spend the day's 25 Alpha Vantage calls before the 19:00 run, so a scheduled run more than 90 minutes late skips AV.
+          if [ "$EVENT" = "schedule" ] && { [ "$SCHEDULE" = "0 5 * * *" ] || [ "$SCHEDULE" = "0 17 * * *" ]; }; then
+            due=$(( $(echo "$SCHEDULE" | awk '{print $2}') * 60 ))
+            now=$(( 10#$(date -u +%H) * 60 + 10#$(date -u +%M) )); late=$(( (now - due + 1440) % 1440 ))
+            if [ "$late" -gt 90 ]; then echo "::notice::scheduled run $late minutes late - Alpha Vantage part skipped"; flags="${flags/--av /}"; fi
+          fi
           # Keep the combined SEC rate <= 2 req/s: this job uses 1 req/s (financials-fast uses the other 1 req/s);
           # skip SEC requests while the full financials build (2 req/s, outside this group) runs, and while the 10-minute
           # earnings-live loop (1 req/s, same work in the reporting windows) runs. Rechecked inside the script.

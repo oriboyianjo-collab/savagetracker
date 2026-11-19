@@ -294,5 +294,49 @@ class Nov18Releases(unittest.TestCase):
         self.assertFalse(fl.RESULTS_RE.search(no) and fl.MONEY_RE.search(no))
 
 
+class Nov18AfterClose(unittest.TestCase):
+    """Real 18.11.2026 after-close releases with gaps on the board (fixed 19.11.2026)."""
+    PANW = [('2026', 'Q1', {'e': '2025-10-31', 'r': 2474000000, 'o': 309000000, 'n': 334000000})]
+    WWD = [('2025', 'Q4', {'e': '2025-09-30', 'r': 995264000, 'n': 137623000, 'x': 'derived'})]
+    UTI = [('2025', 'Q4', {'e': '2025-09-30', 'r': 222442000, 'o': 24986000, 'n': 18756000, 'x': 'derived'})]
+
+    def test_panw_adjusted_eps(self):
+        html = fx('panw-q1fy27-pr')
+        got = pr.extract(html, self.PANW, [])
+        self.assertEqual((got['e'], got['r'], got['eps']), ('2026-10-31', 3445e6, 0.57))
+        self.assertEqual(pr.adjusted_eps(html, got['e'], got['eps']), (1.05, True))
+
+    def test_wwd_summary_table_adjusted_eps(self):
+        # "| Fourth Quarter 2026 | Fiscal Year 2026" / "Adjusted EPS 1 | $2.83, +35% | $9.78, +42%"; the guidance
+        # "Adjusted EPS 3 | $10.20 - $10.70" table has no quarter column and is ignored
+        html = fx('wwd-q4fy26-pr')
+        got = pr.extract(html, self.WWD, [])
+        self.assertEqual((got['r'], got['eps']), (1160198000, 2.74))
+        self.assertEqual(pr.adjusted_eps(html, got['e'], got['eps']), (2.83, True))
+
+    def test_uti_ebitda_only_is_not_non_gaap_eps(self):
+        html = fx('uti-q4fy26-pr')
+        got = pr.extract(html, self.UTI, [])
+        self.assertEqual((got['r'], got['eps']), (235883000, 0.32))
+        self.assertEqual(pr.adjusted_eps(html, got['e'], got['eps']), (None, False))   # -> GAAP diluted EPS on the board
+
+    def test_eps_wording(self):
+        yes = ['Non-GAAP net income per share, diluted $ 1.05', 'Adjusted EPS of $2.83', 'adjusted diluted earnings per share were $1.34',
+               'Non-GAAP net income was $118 million or $1.25 per diluted share', 'EPS excluding certain items', 'EPS (non-GAAP) of $1.10']
+        no = ['Adjusted EBITDA was $40 million', 'This release contains non-GAAP financial measures', 'non-GAAP operating income of $345 million']
+        for t in yes:
+            self.assertTrue(pr.NON_GAAP_EPS_TEXT.search(t), t)
+        for t in no:
+            self.assertFalse(pr.NON_GAAP_EPS_TEXT.search(t), t)
+
+    def test_summary_table_needs_one_quarter_column(self):
+        two = ('<table><tr><td></td><td>Third Quarter 2026</td><td>Third Quarter 2025</td></tr>'
+               '<tr><td>Adjusted EPS</td><td>$1.10</td><td>$0.90</td></tr></table>')
+        self.assertEqual(pr.adjusted_eps(two, '2026-09-30', None), (None, True))
+        one = ('<table><tr><td>Third Quarter 2026</td><td>Nine Months 2026</td></tr>'
+               '<tr><td>Adjusted EPS 1</td><td>$1.10, +22%</td><td>$3.00</td></tr></table>')
+        self.assertEqual(pr.adjusted_eps(one, '2026-09-30', None), (1.1, True))
+
+
 if __name__ == '__main__':
     unittest.main()

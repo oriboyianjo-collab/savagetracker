@@ -70,7 +70,7 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   const rv = eb.shardRevenue(shard, '2026-11-17');
   ok('shard revenue picks the quarter filed around the release', rv && rv.r === 17103000000 && rv.label === 'Q3 FY2026');
   const noEst = { 'סימול': 'A', 'תאריך': '2026-11-17' };
-  ok('no revenue fill without a comparable estimate', eb.applyRevenue(noEst, rv) === false && !('הכנסות_בפועל' in noEst));
+  ok('no estimate: SEC-verified revenue is shown after the release, without beat/miss (Ori 19.11)', eb.applyRevenue(noEst, rv) === true && noEst['הכנסות_בפועל'] === '17.103B' && !('השוואה_הכנסות' in noEst));
   const far = { 'סימול': 'A', 'תאריך': '2026-11-17', 'צפי_הכנסות': '30B' };
   ok('no revenue fill when far from the estimate (component tag)', eb.applyRevenue(far, rv) === false);
   const avRow = { 'סימול': 'A', 'תאריך': '2026-11-17', 'צפי_הכנסות': '16.9B', 'מטבע_צפי_הכנסות': 'USD', 'בסיס_צפי_הכנסות': 'Analyst consensus (Alpha Vantage), total revenue' };
@@ -157,17 +157,17 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('live: GAAP diluted EPS when the company reports no non-GAAP EPS', gao['בפועל_EPS'] === '0.55' && /^GAAP diluted EPS/.test(gao['בסיס_בפועל_EPS']));
   ok('live: revenue 30% off the estimate is not filled', !('הכנסות_בפועל' in gao));
   ok('live: unclear basis -> blank', !('בפועל_EPS' in unc));
-  ok('live: absurd EPS vs estimate (sign flip, >3x) is skipped, revenue still checked', !('בפועל_EPS' in abs) && abs['הכנסות_בפועל'] === '10.2B');
+  ok('live: EPS far from the estimate (sign flip, >3x) is shown anyway (no 100% guard, Ori 19.11); revenue still checked', abs['בפועל_EPS'] === '-7.5' && abs['הכנסות_בפועל'] === '10.2B');
   ok('live: rows outside ±1 day of the filing are not touched', !('אימות_פרסום_SEC' in far) && !('בפועל_EPS' in far));
-  ok('live: stats', st.secApplied === 5 && st.epsFilled === 2 && st.revFilled === 3, JSON.stringify(st));
+  ok('live: stats', st.secApplied === 5 && st.epsFilled === 3 && st.revFilled === 3, JSON.stringify(st));
   const again = clone(rows); eb.applyLive(again, feed, { today, cikOf: (s) => ciks[s] });
   ok('live: second pass is a no-op (no churn, no repeat alert)', JSON.stringify(again) === JSON.stringify(rows));
   ok('live: a new actual raises one alert', alertReports(base(), rows, Date.parse('2026-11-17T22:00:00Z')).some((x) => x['מזהה'] === 'r-10'));
   ok('live: press-release EPS is comparable with the consensus (beat/miss % shown)', hd['השוואה_EPS'] === 'כן' && !('הסבר_EPS' in hd));
   ok('live: revenue within 15% is comparable (beat/miss % shown)', hd['השוואה_הכנסות'] === 'כן');
   // EPS sanity guard
-  ok('eps guard: normal miss accepted', eb.epsPlausible(0.4, 1.0) && eb.epsPlausible(1.9, 1.0) && eb.epsPlausible(-0.05, 0.02));
-  ok('eps guard: absurd values rejected', !eb.epsPlausible(-3, 2) && !eb.epsPlausible(12, 5) && !eb.epsPlausible(1500, NaN) && !eb.epsPlausible(-0.5, 0.1));
+  ok('eps: any distance from the estimate accepted', eb.epsPlausible(0.4) && eb.epsPlausible(1.9) && eb.epsPlausible(-3) && eb.epsPlausible(12) && eb.epsPlausible(-0.5));
+  ok('eps: non-numbers / per-share figures >= 1000 rejected', !eb.epsPlausible(1500) && !eb.epsPlausible(NaN));
   // the AV street figure may later replace the press-release EPS (same provider as the estimate -> comparable)
   const z = { fiscalDateEnding: '2026-10-31', reportedDate: '2026-11-17', reportedEPS: '3.86', estimatedEPS: '3.86' };
   const hd2 = clone(hd); ok('AV street actual replaces the press-release EPS and enables the comparison', eb.applyAvActual(hd2, z) && hd2['השוואה_EPS'] === 'כן' && /Alpha Vantage/.test(hd2['בסיס_בפועל_EPS']) && !('הסבר_EPS' in hd2));
@@ -223,7 +223,7 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('DIS: EPS 1.77 and revenue 25.947B filled, note untouched', dis['בפועל_EPS'] === '1.77' && dis['הכנסות_בפועל'] === '25.947B' && dis['הערה'] === 'x', JSON.stringify(dis));
   const bank = { 'סימול': 'BNK', 'תאריך': '2026-11-17', 'אימות_פרסום_SEC': 'a-1' };
   eb.applyLive([bank], { filings: [{ cik: '1', acc: 'a-1', form: '8-K', accepted: '2026-11-17T07:00:00-05:00', r: 5e9, tag: 'RevenuesNetOfInterestExpense' }] }, { today: '2026-11-18', cikOf: () => '1' });
-  ok('no estimate + non-total revenue tag -> revenue stays blank', !('הכנסות_בפועל' in bank));
+  ok('no estimate + non-total revenue tag -> verified revenue shown without beat/miss (Ori 19.11)', bank['הכנסות_בפועל'] === '5B' && !('השוואה_הכנסות' in bank), JSON.stringify(bank));
 }
 
 // --- 18.11.2026 before-open reporters (real filings): EPS no longer depends on the revenue check; revenue verified through
@@ -252,17 +252,17 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   const st = eb.applyLive(rows, feed, { today: T, cikOf: (s) => ciks[s] });
   ok('TJX: adjusted EPS 1.34 + revenue 15.952B (net-income verified, within 15% of 15.855B) with beat/miss, note untouched',
     tjx['בפועל_EPS'] === '1.34' && tjx['השוואה_EPS'] === 'כן' && tjx['הכנסות_בפועל'] === '15.952B' && tjx['השוואה_הכנסות'] === 'כן' && /net income verified/.test(tjx['בסיס_בפועל_הכנסות']) && tjx['הערה'] === 'keep', JSON.stringify(tjx));
-  ok('BRBR: EPS 0.22 filled; net-income-verified revenue without an estimate stays blank', brbr['בפועל_EPS'] === '0.22' && !('הכנסות_בפועל' in brbr), JSON.stringify(brbr));
+  ok('BRBR: EPS 0.22; net-income-verified revenue 692M shown without an estimate (no beat/miss)', brbr['בפועל_EPS'] === '0.22' && brbr['הכנסות_בפועל'] === '692M' && !('השוואה_הכנסות' in brbr), JSON.stringify(brbr));
   ok('JJSF: EPS-only record (GAAP check failed) fills adjusted EPS 1.39 with beat/miss, no revenue', jjsf['בפועל_EPS'] === '1.39' && jjsf['השוואה_EPS'] === 'כן' && !('הכנסות_בפועל' in jjsf), JSON.stringify(jjsf));
-  ok('TGT: EPS 2.65 (no revenue estimate, non-total tag -> revenue blank)', tgt['בפועל_EPS'] === '2.65' && !('הכנסות_בפועל' in tgt), JSON.stringify(tgt));
+  ok('TGT: EPS 2.65 and revenue 27.067B without an estimate (no beat/miss)', tgt['בפועל_EPS'] === '2.65' && tgt['הכנסות_בפועל'] === '27.067B' && !('השוואה_הכנסות' in tgt), JSON.stringify(tgt));
   ok('LOW: EPS 3.1 and revenue 22.756B (not the 100% column) with beat/miss', low['בפועל_EPS'] === '3.1' && low['הכנסות_בפועל'] === '22.756B' && low['השוואה_הכנסות'] === 'כן', JSON.stringify(low));
   ok('ICCM / KNDI 6-K: confirmation, link and time only, never numbers; note untouched',
     iccm['אימות_פרסום_SEC'] === '0001213900-26-121630' && kndi['אימות_פרסום_SEC'] === '0001213900-26-121585' && /kandi/.test(kndi['קישור_לדוח']) && kndi.release_time_il === '14:00'
     && !('בפועל_EPS' in iccm) && !('בפועל_EPS' in kndi) && !('הכנסות_בפועל' in kndi) && iccm['הערה_en'] === 'mine' && !('הערה' in kndi), JSON.stringify([iccm, kndi]));
-  ok('stats: 7 confirmations, 5 EPS, 2 revenue', st.secApplied === 7 && st.epsFilled === 5 && st.revFilled === 2, JSON.stringify(st));
+  ok('stats: 7 confirmations, 5 EPS, 4 revenue', st.secApplied === 7 && st.epsFilled === 5 && st.revFilled === 4, JSON.stringify(st));
   const wild = { 'סימול': 'JJSF', 'תאריך': T, 'צפי_EPS': '1.21' };
   eb.applyLive([wild], { filings: [{ ...feed.filings[2], adj_eps: 4.9 }] }, { today: T, cikOf: () => ciks.JJSF });
-  ok('EPS-only record still passes the 100% guard (4.90 vs 1.21 rejected)', !('בפועל_EPS' in wild) && wild['אימות_פרסום_SEC'] === '0001437749-26-037473');
+  ok('EPS-only record far from the estimate is shown (4.9 vs 1.21, no 100% guard)', wild['בפועל_EPS'] === '4.9' && wild['השוואה_EPS'] === 'כן');
   const far = { 'סימול': 'TJX', 'תאריך': T, 'צפי_EPS': '1.33', 'צפי_הכנסות': '12B' };
   eb.applyLive([far], { filings: [feed.filings[0]] }, { today: T, cikOf: () => ciks.TJX });
   ok('net-income-verified revenue 33% off the estimate is rejected', !('הכנסות_בפועל' in far) && far['בפועל_EPS'] === '1.34');
@@ -294,6 +294,44 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
     && html.includes('sp(x, ap)') && html.includes('rngB(rr, est, act)'));
   ok('English i18n labels are Analysts and Company', en.includes('"ui-1334":"Analysts"') && en.includes('"ui-1335":"Company"'));
   ok('sw cache bumped to v330 or later', +((sw.match(/const CACHE = 'portfolio-shell-v(\d+)'/)||[])[1]||0) >= 330);
+}
+
+// --- 19.11.2026 gaps (Nov 18 after-close): no 100% EPS guard, actuals without estimates, EPS wording ---
+{
+  const T = '2026-11-18';
+  const mk = (sym, extra) => Object.assign({ 'סימול': sym, 'תאריך': T, 'מועד': 'after' }, extra);
+  const panw = mk('PANW', { 'צפי_EPS': '0.52', 'צפי_הכנסות': '3.308B', 'הערה': 'n' });
+  const wwd = mk('WWD', { 'צפי_EPS': '2.5' });
+  const uti = mk('UTI', { 'צפי_EPS': '0.33' });
+  const snex = mk('SNEX', { 'צפי_EPS': '0.86' });
+  const noest = mk('NOE', {});
+  const ciks = { PANW: '0001327567', WWD: '0000108312', UTI: '0001261654', SNEX: '0000913760', NOE: '0000000099' };
+  const u = 'https://www.sec.gov/Archives/edgar/data/1/x/ex99.htm';
+  const tg = 'RevenueFromContractWithCustomerExcludingAssessedTax';
+  const feed = { filings: [
+    { cik: ciks.PANW, acc: '0001327567-26-000030', form: '8-K', accepted: '2026-11-18T16:37:00-05:00', url: u, r: 3445e6, eps: 0.57, adj_eps: 1.05, non_gaap: true, r_nv: false, tag: tg, cur: 'USD', slot: 'Q1 FY2027' },
+    { cik: ciks.WWD, acc: '0001171843-26-007561', form: '8-K', accepted: '2026-11-18T16:00:00-05:00', url: u, r: 1160198000, eps: 2.74, adj_eps: 2.83, non_gaap: true, r_nv: false, tag: tg, cur: 'USD', slot: 'Q4 FY2026' },
+    { cik: ciks.UTI, acc: '0001261654-26-000021', form: '8-K', accepted: '2026-11-18T16:07:00-05:00', url: u, r: 235883000, eps: 0.32, adj_eps: null, non_gaap: false, r_nv: false, tag: tg, cur: 'USD', slot: 'Q4 FY2026' },
+    { cik: ciks.SNEX, acc: '0000913760-26-000044', form: '8-K', accepted: '2026-11-18T16:25:00-05:00', url: u, r: 37459500000, eps: null, adj_eps: null, non_gaap: true, r_nv: true, tag: tg, cur: 'USD', slot: 'Q4 FY2026' },
+    { cik: ciks.NOE, acc: '0000000099-26-000001', form: '8-K', accepted: '2026-11-18T16:05:00-05:00', url: u, r: 50e6, eps: -0.12, adj_eps: null, non_gaap: false, r_nv: false, tag: 'Revenues', cur: 'USD', slot: 'Q3 FY2026' },
+  ] };
+  const rows = [panw, wwd, uti, snex, noest];
+  eb.applyLive(rows, feed, { today: T, cikOf: (s) => ciks[s] });
+  ok('PANW: adjusted EPS 1.05 vs 0.52 shown with beat/miss (102% off, no guard); revenue 3.445B within 15%; note untouched',
+    panw['בפועל_EPS'] === '1.05' && panw['השוואה_EPS'] === 'כן' && panw['הכנסות_בפועל'] === '3.445B' && panw['השוואה_הכנסות'] === 'כן' && panw['הערה'] === 'n', JSON.stringify(panw));
+  ok('WWD: adjusted EPS 2.83 (summary-table layout) + revenue 1.16B without an estimate', wwd['בפועל_EPS'] === '2.83' && wwd['הכנסות_בפועל'] === '1.16B' && !('השוואה_הכנסות' in wwd), JSON.stringify(wwd));
+  ok('UTI: no non-GAAP EPS (only adjusted EBITDA) -> verified GAAP EPS 0.32 vs 0.33 + revenue 235.883M', uti['בפועל_EPS'] === '0.32' && /^GAAP diluted EPS/.test(uti['בסיס_בפועל_EPS']) && uti['השוואה_EPS'] === 'כן' && uti['הכנסות_בפועל'] === '235.883M', JSON.stringify(uti));
+  ok('SNEX: no EPS in the release -> EPS blank; net-income-verified revenue shown', !('בפועל_EPS' in snex) && snex['הכנסות_בפועל'] === '37.459B', JSON.stringify(snex));
+  ok('no estimates at all: actual EPS and revenue shown, no beat/miss', noest['בפועל_EPS'] === '-0.12' && noest['הכנסות_בפועל'] === '50M' && !('השוואה_EPS' in noest) && !('השוואה_הכנסות' in noest), JSON.stringify(noest));
+  const again = clone(rows); eb.applyLive(again, feed, { today: T, cikOf: (s) => ciks[s] });
+  ok('second pass is a no-op', JSON.stringify(again) === JSON.stringify(rows));
+  // a revenue estimate arriving later turns on the beat/miss for a revenue shown without one
+  const tgt = mk('TGT', { 'צפי_EPS': '2.04' });
+  eb.applyLive([tgt], { filings: [{ cik: '0000027419', acc: 'a-27419', form: '8-K', accepted: '2026-11-18T06:46:59-05:00', url: u, r: 27067e6, eps: 2.65, adj_eps: 2.65, non_gaap: true, tag: tg, cur: 'USD', slot: 'Q3 FY2026' }] }, { today: T, cikOf: () => '0000027419' });
+  ok('TGT revenue shown first without an estimate', tgt['הכנסות_בפועל'] === '27.067B' && !('השוואה_הכנסות' in tgt));
+  tgt['רבעון_מסתיים'] = '2026-10-31';
+  const est = { estimates: [{ horizon: 'fiscal quarter', date: '2026-10-31', revenue_estimate_average: '26800000000', revenue_estimate_analyst_count: '25' }] };
+  ok('a later revenue estimate is accepted for a reported row', eb.applyRevEstimate(tgt, est, '2026-10-31') && tgt['צפי_הכנסות'] === '26.8B');
 }
 
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
