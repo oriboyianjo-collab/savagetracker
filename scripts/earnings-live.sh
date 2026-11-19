@@ -82,10 +82,15 @@ iteration() {   # $1 = extra fast_layer args (catch-up), $2 = accessions to (re)
   fi
 }
 
-av_tick() {     # Alpha Vantage calendar/actuals run of earnings-board at 07:00 and 19:00 Israel time (GitHub schedules get dropped)
+av_slot() { case "$1" in 14) echo 14 ;; 2) echo 02 ;; *) return 1 ;; esac; }   # Israel hour -> Alpha Vantage slot
+
+av_tick() {     # Alpha Vantage calendar/actuals run of earnings-board at 14:00 and 02:00 Israel time (GitHub schedules get dropped)
+  # 14:00 picks up the previous evening's after-close and the morning's pre-market results; 02:00 comes after most after-close
+  # reports. Both fall on the same New York date (one 25-call quota). Only within the slot's own hour, so a chain that starts
+  # later in the day never fires a missed slot (that budget belongs to the next run). Runs every day, outside the SEC window too.
   [ -n "${GITHUB_REPOSITORY:-}" ] || return 0
   local h d slot; h=$((10#$(TZ=Asia/Jerusalem date +%H))); d=$(TZ=Asia/Jerusalem date +%F)
-  if [ "$h" -ge 7 ] && [ "$h" -lt 10 ]; then slot=07; elif [ "$h" -ge 19 ] && [ "$h" -lt 22 ]; then slot=19; else return 0; fi
+  slot=$(av_slot "$h") || return 0
   [ "$(cat "$STATE/av-$slot" 2>/dev/null)" = "$d" ] && return 0
   echo "$d" > "$STATE/av-$slot"
   if gh workflow run earnings-board.yml --ref main -f av=true; then log "dispatched the $slot:00 Alpha Vantage earnings-board run"; else echo "::warning::could not dispatch earnings-board"; fi

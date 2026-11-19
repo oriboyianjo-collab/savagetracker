@@ -3,7 +3,7 @@ name: earnings-live
 # night (one continuous window, fixed in Israel time; NYSE holidays skipped - scripts/earnings-live-window.cjs).
 # Self-chaining: one run is always alive (it waits outside the window) and hands off to a fresh run before the 6-hour job
 # limit, so nothing depends on GitHub's schedules (often dropped here); the schedules below only restart a broken chain.
-# The chain also dispatches the 07:00 / 19:00 Israel Alpha Vantage earnings-board runs; the daily catch-up of the previous
+# The chain also dispatches the 14:00 / 02:00 Israel Alpha Vantage earnings-board runs (every day, in the slot hour only); the daily catch-up of the previous
 # days' 8-Ks runs in its first round after 10:00. Form 6-K (foreign issuers) is watched for companies on the board. Each round reads the EDGAR "latest 8-K"
 # feed, parses the press release of a new Item 2.02 filing and fills the board row: release confirmed / time / link, EPS
 # and revenue (both sanity-checked against the estimate; GAAP figures verified against the prior-year XBRL quarter).

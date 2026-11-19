@@ -338,5 +338,25 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('a later revenue estimate is accepted for a reported row', eb.applyRevEstimate(tgt, est, '2026-10-31') && tgt['צפי_הכנסות'] === '26.8B');
 }
 
+// --- Alpha Vantage at 14:00 / 02:00 Israel (Ori 19.11.2026): slots, backup crons, shared New York-day quota ---
+{
+  const { check } = require('../scripts/av-slot.cjs');
+  const { execFileSync } = require('child_process');
+  const c = (cron, iso) => check(cron, new Date(iso)).ok;
+  ok('winter crons: 12:00 UTC = 14:00 Israel, 00:00 UTC = 02:00 Israel', c('0 12 * * *', '2026-11-19T12:03:00Z') && c('0 0 * * *', '2026-11-20T00:05:00Z'));
+  ok('winter: the summer crons (13:00 / 01:00 Israel) skip Alpha Vantage', !c('0 11 * * *', '2026-11-19T11:02:00Z') && !c('0 23 * * *', '2026-11-19T23:01:00Z'));
+  ok('summer crons: 11:00 UTC = 14:00 Israel, 23:00 UTC = 02:00 Israel; winter ones skip', c('0 11 * * *', '2026-07-01T11:04:00Z') && c('0 23 * * *', '2026-07-02T00:20:00Z') && !c('0 12 * * *', '2026-07-01T12:04:00Z') && !c('0 0 * * *', '2026-07-02T00:20:00Z'));
+  ok('a scheduled run more than 90 minutes late skips Alpha Vantage', !c('0 12 * * *', '2026-11-19T14:00:00Z') && !c('0 0 * * *', '2026-11-20T03:00:00Z') && c('0 12 * * *', '2026-11-19T13:30:00Z'));
+  const slot = (h) => { try { return execFileSync('bash', ['-c', 'eval "$(grep "^av_slot()" scripts/earnings-live.sh)"; av_slot ' + h], { encoding: 'utf8' }).trim(); } catch (e) { return ''; } };
+  ok('earnings-live dispatches only in the 14:00 and 02:00 Israel hours', slot(14) === '14' && slot(2) === '02' && ['7', '19', '13', '15', '1', '3', '0'].every((h) => slot(h) === ''));
+  // 14:00 Israel = 07:00 ET (winter), 02:00 Israel = 19:00 ET of the same New York date: one counter, 12 + 12 <= 25
+  ok('the 14:00 Israel run (morning ET) keeps 12 calls for the 02:00 run; the 02:00 run (evening ET) keeps none',
+    eb.avReserve('2026-11-19T12:00:00Z') === 12 && eb.avReserve('2026-11-20T00:00:00Z') === 0 && eb.avReserve('2026-07-01T11:00:00Z') === 12 && eb.avReserve('2026-07-01T23:00:00Z') === 0);
+  const day = (used, reserve) => eb.avClient('k', { avCalls: { '2026-11-19': used } }, '2026-11-19', reserve).left();
+  ok('quota: fresh New York day -> 12 at 14:00 and 12 at 02:00', day(0, 12) === 12 && day(12, 0) === 12 && day(13, 0) === 12 && day(24, 0) === 1);
+  ok('quota: a morning run after 11 calls already used gets only 2 (the evening run keeps its 12)', day(11, 12) === 2 && day(14, 12) === 0);
+  ok('quota: the counter is per New York date', eb.avClient('k', { avCalls: { '2026-11-18': 25 } }, '2026-11-19', 0).left() === 12);
+}
+
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all earnings-board checks passed');

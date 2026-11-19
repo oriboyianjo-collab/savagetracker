@@ -18,7 +18,8 @@ const CL = globalThis.ContentLanguage;
 const UA = 'SavageTracker Savtra12@gmail.com';
 const SEC_INTERVAL_MS = 1000;           // 1 req/s: financials-fast may use the other 1 req/s of the 2 req/s project budget
 const AV_INTERVAL_MS = 1500;            // AV free key: max 1 request per second
-const AV_PER_RUN = 12;                  // 2 scheduled runs/day x 12 = 24 <= 25/day
+const AV_GAP_H = 3;                     // the scheduled backup and the earnings-live dispatch can both fire: one AV run per slot
+const AV_PER_RUN = 12;                  // 2 runs per New York day (14:00 and 02:00 Israel = morning and evening ET) x 12 = 24 <= 25/day
 const AV_ACTUALS_MAX = 8;
 const AV_TRIES = 4;                     // counted Alpha Vantage EARNINGS tries per row (only when AV has the quarter)
 const AUTO = 'alphavantage-calendar';
@@ -349,12 +350,16 @@ function secClient(state) {
     },
   };
 }
-function avClient(key, state, today) {
+// The 25-call quota resets at midnight New York time, so both daily runs (14:00 Israel = morning ET, 02:00 Israel = evening ET
+// of the same New York date) share one counter keyed by the New York date. A run before 13:00 ET keeps `reserve` calls for
+// the evening run, so an extra or late morning run never starves it.
+function avReserve(nowIso) { return etParts(nowIso).min < 13 * 60 ? AV_PER_RUN : 0; }
+function avClient(key, state, today, reserve = 0) {
   let calls = 0;
   const used = () => (state.avCalls && state.avCalls[today]) || 0;
   return {
     get calls() { return calls; },
-    left: () => Math.max(0, Math.min(AV_PER_RUN - calls, 25 - used())),
+    left: () => Math.max(0, Math.min(AV_PER_RUN - calls, 25 - used() - reserve)),
     async get(fn, params) {
       if (!key) throw new Error('ALPHAVANTAGE_KEY missing');
       if (calls) await sleep(AV_INTERVAL_MS);
@@ -405,9 +410,14 @@ async function main() {
   const warnings = [];
 
   // 1) Alpha Vantage
+  const nowIso = opt('now', new Date().toISOString());
+  const avRecent = state.avLast && Date.parse(nowIso) - Date.parse(state.avLast) < AV_GAP_H * 3600e3;
+  const avOk = (av) => { if (avRecent) { warnings.push('Alpha Vantage part skipped: another Alpha Vantage run at ' + state.avLast); return false; }
+    if (av.left() <= 0) { warnings.push('Alpha Vantage part skipped: no calls left for this run (New York day ' + today + ')'); return false; } return true; };
   if (flag('av') && !applyOnly) {
-    const av = avClient(process.env.ALPHAVANTAGE_KEY || '', state, today);
-    try {
+    const av = avClient(process.env.ALPHAVANTAGE_KEY || '', state, today, avReserve(nowIso));
+    if (avOk(av)) try {
+      state.avLast = nowIso;
       fetched.cal = parseCsv(await av.get('EARNINGS_CALENDAR', 'horizon=3month'));
       if (!fetched.cal.length) warnings.push('empty Alpha Vantage calendar');
       // First apply the calendar so new/moved rows are visible to the priority lists.
@@ -553,5 +563,5 @@ async function main() {
   for (const w of warnings) console.log('::warning::earnings-board: ' + w);
 }
 
-module.exports = { applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, applySec, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
+module.exports = { avClient, avReserve, applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, applySec, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
 if (require.main === module) main().catch((e) => { console.log('::error::earnings-board: ' + e.message); process.exitCode = 1; });
