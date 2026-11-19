@@ -24,7 +24,7 @@ I18n.register({
 "שוק":"Markets","הסבר: מקור הנתונים ושיטת התצוגה":"About data sources and display method","יום":"Day","5 שנים":"5Y","מקסימום":"Max","↺ איפוס לברירת המחדל":"↺ Reset to defaults","סיום עריכה":"Done editing",
 "מקור: CNBC (זמן אמת / מעוכב לפי הנייר). מניות ארה״ב – מסחר רגיל בלבד. תשואות אג״ח: השינוי בנקודות בסיס (נ״ב).":"Source: CNBC (real-time or delayed by security). US stocks: regular session only. Bond yields: change in basis points (bp).",
 "רשימות מעקב":"Watchlists","רשימה חדשה":"New list","אפשרויות עריכת הרשימה":"List editing options","בחירת רשימה":"Select list","מיון":"Sort","מיון רשימת מעקב":"Sort watchlist","קבוצות:":"Groups:",
-"חזרה":"Back","חזרה ←":"← Back","חדשות":"News","רענון חדשות":"Refresh news","סוג תוכן":"Content type","📰 חדשות":"📰 News","📊 דוחות":"📊 Earnings","🗓️ יומן כלכלי":"🗓️ Calendar",
+"חזרה":"Back","חזרה ←":"← Back","חדשות":"News","רענון חדשות":"Refresh news","סוג תוכן":"Content type","📰 חדשות":"📰 News","📊 דוחות":"📊 Earnings","📊 פיננסים":"📊 Financials","🗓️ יומן כלכלי":"🗓️ Calendar",
 "סינון סוג חדשות":"Filter news type","📰 הכל":"📰 All","🏢 מיקרו":"🏢 Companies","🌍 מאקרו":"🌍 Economy","מותאם אישית":"Custom","חיפוש בחדשות":"Search news","ניקוי חיפוש":"Clear search","הרחבת הכל":"Expand all","כיווץ הכל":"Collapse all",
 "חיפוש דוחות":"Search earnings","חיפוש סימול / חברה":"Search ticker / company","סגירת חיפוש":"Close search","סינון ומיון דוחות":"Filter and sort earnings",
 "פיננסים":"Financials","חיפוש":"Search","מיון:":"Sort:","שווי שוק":"Market cap","א-ב":"A-Z","הצג עוד":"Show more","עסקאות":"Activity","רשימת מעקב":"Watchlist","תיק":"Portfolio","סגירת החיפוש":"Close search","✕ סגירה":"✕ Close","ניקוי":"Clear",
