@@ -286,13 +286,14 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('unknown or accounting-only basis has no source label', srcOf('') === '' && srcOf('מתואם') === '' && srcOf('FFO') === '' && srcOf('GAAP') === '' && srcOf('לא ידוע') === '');
   ok('analyst text that mentions not company guidance stays analysts', srcOf('Analyst consensus from dated preview; not company guidance') === 'אנליסטים');
   ok('explicit not-guidance without analyst has no label', srcOf('third party estimate, not company guidance') === '');
-  ok('estimate line appends mid-dot source for EPS and revenue; beat/miss % stays after the estimate',
+  ok('estimate line appends mid-dot source; estimate-only uses a small tag; beat/miss % stays after the estimate',
     html.includes('const srcS = src ? ` · ${esc(src)}` : \'\';')
     && html.includes('${eb(est)}${srcS}</small>${tg}${cm.ok')
     && html.includes('srcOf(r.epsEstB)') && html.includes('srcOf(r.revEstB)')
+    && html.includes('<small class="rb">${esc(src)}</small>')
     && html.includes('sp(x, ap)') && html.includes('rngB(rr, est, act)'));
   ok('English i18n labels are Analysts and Company', en.includes('"ui-1334":"Analysts"') && en.includes('"ui-1335":"Company"'));
-  ok('sw cache bumped to v329', sw.includes("const CACHE = 'portfolio-shell-v329'"));
+  ok('sw cache bumped to v330', sw.includes("const CACHE = 'portfolio-shell-v330'"));
 }
 
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
