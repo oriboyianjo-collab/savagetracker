@@ -270,7 +270,9 @@ html.dark .is-now::before{background:#064e3b;color:#a7f3d0}
 /* v333: article-language segmented control (עב/EN) on the news tools row - matches the ₪/$ header control; switches article text only */
 .news-trow{display:flex;align-items:center;gap:10px;margin:10px 0}
 .news-trow #tnEdit{margin:0}
-.nlang{flex:0 0 auto;display:inline-flex;align-items:center;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:2px;margin-inline-start:auto;direction:ltr}
+.nlang{flex:0 0 auto;display:inline-flex;align-items:center;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:2px;direction:ltr}
+html[dir=ltr] .nlang{margin-left:auto}
+html[dir=rtl] .nlang{margin-right:auto}
 html:not(.dark) .nlang{background:rgba(15,23,42,.05);border-color:var(--border)}
 .nlang button{border:0;background:transparent;color:rgba(255,255,255,.72);font-weight:700;font-size:.84rem;font-family:inherit;line-height:1;padding:8px 14px;min-height:36px;border-radius:999px;cursor:pointer;white-space:nowrap}
 html:not(.dark) .nlang button{color:var(--muted)}
@@ -6835,7 +6837,7 @@ function newsRender(){ const el = $('newsList'), cnt = $('newsCnt'); if(!el) ret
   const ql = q.toLocaleLowerCase(), M = q ? B.filter(o=>[o.title, o.text, o.company, o.date, newsFd(o)].some(v=>String(v||'').toLocaleLowerCase().includes(ql))) : B;
   cnt.hidden = !q; cnt.textContent = q ? (M.length===1 ? I18n.p("ui-1250","תוצאה אחת") : `${M.length}${I18n.p("ui-1251"," תוצאות")}`) : '';
   if(!M.length){ el.innerHTML = `${I18n.p("ui-1252","<div class=\"news-empty\">לא נמצאו חדשות עבור „")}${esc(q)}”</div>`; alReveal(); return; }
-  el.innerHTML = M.map((o,i)=>{ newsBodyItems.set(String(i),{o,q}); return `<article class="news-it" data-ak="${esc(o.ak)}"><details class="news-expand" data-news-body="${i}"><summary style="cursor:pointer;list-style-position:outside"><div class="news-d" style="display:inline-block;margin-bottom:6px">${newsHl(newsFd(o),q)}</div><h3 style="margin:0">${newsHl(o.title||o.company||I18n.p("ui-1253","עדכון"),q)}</h3><div class="news-preview" style="font-weight:400;font-size:13px;line-height:1.65;color:var(--muted);margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${newsBodyHl(newsPreview(o),q)}</div></summary></details></article>`; }).join('');
+  el.innerHTML = M.map((o,i)=>{ newsBodyItems.set(String(i),{o,q}); return `<article class="news-it" dir="${/[\u0590-\u05ff]/.test(o.title||o.text)?'rtl':'ltr'}" data-ak="${esc(o.ak)}"><details class="news-expand" data-news-body="${i}"><summary style="cursor:pointer;list-style-position:outside"><div class="news-d" style="display:inline-block;margin-bottom:6px">${newsHl(newsFd(o),q)}</div><h3 style="margin:0">${newsHl(o.title||o.company||I18n.p("ui-1253","עדכון"),q)}</h3><div class="news-preview" style="font-weight:400;font-size:13px;line-height:1.65;color:var(--muted);margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${newsBodyHl(newsPreview(o),q)}</div></summary></details></article>`; }).join('');
   alReveal();
 }
 // Hidden article bodies are created only when expanded, not for the whole archive.
