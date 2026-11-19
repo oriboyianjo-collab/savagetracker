@@ -268,5 +268,32 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('net-income-verified revenue 33% off the estimate is rejected', !('הכנסות_בפועל' in far) && far['בפועל_EPS'] === '1.34');
 }
 
+// --- card source label: analysts vs company, for EPS and revenue (v329) ---
+{
+  const fs = require('fs');
+  const path = require('path');
+  const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+  const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const en = fs.readFileSync(path.join(root, 'i18n-en.js'), 'utf8');
+  const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
+  const m = html.match(/const srcOf = b0=>\{[\s\S]*?return ''; \};/);
+  ok('srcOf is defined on the earnings card', !!m);
+  const srcOf = new Function('I18n', m[0] + '; return srcOf;')({ p: (_id, d) => d });
+  ok('analyst consensus -> אנליסטים', srcOf('Analyst consensus (Alpha Vantage)') === 'אנליסטים');
+  ok('AV revenue consensus -> אנליסטים', srcOf('Analyst consensus (Alpha Vantage), total revenue') === 'אנליסטים');
+  ok('company guidance range -> חברה', srcOf('Company guidance, Q3 2026 revenue range') === 'חברה');
+  ok('dated company guidance EPS -> חברה', srcOf('Company guidance, Q3 2026 Non-GAAP diluted EPS range') === 'חברה');
+  ok('unknown or accounting-only basis has no source label', srcOf('') === '' && srcOf('מתואם') === '' && srcOf('FFO') === '' && srcOf('GAAP') === '' && srcOf('לא ידוע') === '');
+  ok('analyst text that mentions not company guidance stays analysts', srcOf('Analyst consensus from dated preview; not company guidance') === 'אנליסטים');
+  ok('explicit not-guidance without analyst has no label', srcOf('third party estimate, not company guidance') === '');
+  ok('estimate line appends mid-dot source for EPS and revenue; beat/miss % stays after the estimate',
+    html.includes('const srcS = src ? ` · ${esc(src)}` : \'\';')
+    && html.includes('${eb(est)}${srcS}</small>${tg}${cm.ok')
+    && html.includes('srcOf(r.epsEstB)') && html.includes('srcOf(r.revEstB)')
+    && html.includes('sp(x, ap)') && html.includes('rngB(rr, est, act)'));
+  ok('English i18n labels are Analysts and Company', en.includes('"ui-1334":"Analysts"') && en.includes('"ui-1335":"Company"'));
+  ok('sw cache bumped to v329', sw.includes("const CACHE = 'portfolio-shell-v329'"));
+}
+
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all earnings-board checks passed');
