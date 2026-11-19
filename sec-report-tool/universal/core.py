@@ -42,6 +42,7 @@ REASON_CODES = (
     'NO_VALIDATED_REPORTS', 'UNRESOLVED_IN_SCOPE_FILINGS',
     'UNSUPPORTED_NO_PERIODIC_FORMS', 'UNSUPPORTED_NO_IN_SCOPE_FILINGS',
     'PENDING_NOT_ATTEMPTED', 'PENDING_DEADLINE', 'PENDING_ACCESS_HELD',
+    'PENDING_TRANSIENT_DEFER',
     'DOCUMENT_EXCEEDS_SIZE_BUDGET', 'DOCUMENT_NOT_FOUND', 'DOCUMENT_INCOMPLETE', 'OTHER',
 )
 _REASON_MAP = {
@@ -62,6 +63,7 @@ _REASON_MAP = {
     'no_in_scope_filings': 'UNSUPPORTED_NO_IN_SCOPE_FILINGS',
     'not_attempted_this_batch': 'PENDING_NOT_ATTEMPTED',
     'access_held': 'PENDING_ACCESS_HELD',
+    'transient_defer': 'PENDING_TRANSIENT_DEFER',
     'document_exceeds_size_budget': 'DOCUMENT_EXCEEDS_SIZE_BUDGET',
     'document_not_found': 'DOCUMENT_NOT_FOUND',
     'document_incomplete': 'DOCUMENT_INCOMPLETE',
@@ -178,6 +180,15 @@ def security_class_hold(row):
 
 class AccessHeld(RuntimeError):
     """Transport stopped (403/429/challenge/redirect/unsafe). Never retried by core."""
+
+class TransientDefer(RuntimeError):
+    """SEC server or network was temporarily unavailable after polite retries.
+
+    The current batch ends and saves progress. This is not a persistent access
+    hold: 403/429/redirects/block pages still use AccessHeld. The hourly
+    watchdog may resume the pass; the batch itself does not chain immediately.
+    """
+
 
 
 class DocumentExceedsSizeBudget(ValueError):
@@ -1037,6 +1048,8 @@ def run_batch(inventory, prior, transport, *, as_of, deadline_seconds=None, max_
     out_rows = []
     access_held = False
     hold_reason = None
+    transient_defer = False
+    defer_reason = None
     stop = False
     processed = 0
     checkpoints = checkpoints if prior else {}
@@ -1072,6 +1085,16 @@ def run_batch(inventory, prior, transport, *, as_of, deadline_seconds=None, max_
                                          'reason': 'access_held', 'reports': {}, 'ledger': [],
                                          'unresolved_slots': [], 'linked_slots': 0}))
             conn.log(event='access_held', reason=str(e), symbol=row['symbol'])
+        except TransientDefer as e:
+            transient_defer = True
+            defer_reason = str(e)
+            stop = True
+            if cp:
+                checkpoints[row['symbol']] = cp
+            out_rows.append(_public_row({'symbol': row['symbol'], 'rank': row.get('rank'), 'status': 'pending',
+                                         'reason': 'transient_defer', 'reports': {}, 'ledger': [],
+                                         'unresolved_slots': [], 'linked_slots': 0}))
+            conn.log(event='transient_defer', reason=str(e), symbol=row['symbol'])
         except IssuerBudgetExhausted as e:
             if cp:
                 checkpoints[row['symbol']] = cp
@@ -1103,9 +1126,11 @@ def run_batch(inventory, prior, transport, *, as_of, deadline_seconds=None, max_
         'pass_id': pass_id or str(uuid.uuid4()),
         'batch_id': batch_id or str(uuid.uuid4()),
         'generated_at': datetime.now(timezone.utc).isoformat(),
-        'complete_pass': pending == 0 and not access_held,
+        'complete_pass': pending == 0 and not access_held and not transient_defer,
         'access_held': access_held,
         'access_hold_reason': hold_reason,
+        'transient_defer': transient_defer,
+        'transient_defer_reason': defer_reason,
         'generation': generation,
         'cursor': cursor,
         'processed': processed,

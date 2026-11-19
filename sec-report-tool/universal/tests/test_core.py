@@ -6,7 +6,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from universal.core import run_batch, AccessHeld, DocumentExceedsSizeBudget, DocumentIncomplete, DocumentNotFound
+from universal.core import run_batch, AccessHeld, DocumentExceedsSizeBudget, DocumentIncomplete, DocumentNotFound, TransientDefer
 from universal.replay import ReplayTransport
 from universal.tests import synth
 
@@ -550,6 +550,43 @@ class TestBatchSemantics(unittest.TestCase):
         self.assertFalse(r['complete_pass'])
         self.assertEqual(r['summary']['pending'], 2)
         self.assertEqual(r['summary']['existing_preserved'], 1)
+
+    def test_transient_defer_ends_batch_and_is_resumable(self):
+        calls = {'n': 0}
+
+        class Flaky:
+            def get(self, url):
+                calls['n'] += 1
+                raise TransientDefer('HTTP 504; transient SEC server error, deferred for later resume')
+
+        r1 = run_batch(self.inv, None, Flaky(), as_of=AS_OF, pass_id='p1', generation=1)
+        self.assertTrue(r1['transient_defer'])
+        self.assertFalse(r1['access_held'])
+        self.assertFalse(r1['complete_pass'])
+        self.assertEqual(r1['summary']['pending'], 2)
+        self.assertEqual(r1['summary']['existing_preserved'], 1)
+        by = {row['symbol']: row for row in r1['rows']}
+        self.assertEqual(by['TEST']['status'], 'pending')
+        self.assertEqual(by['TEST']['reason'], 'transient_defer')
+        self.assertEqual(by['TEST']['reason_code'], 'PENDING_TRANSIENT_DEFER')
+        # later issuers are not attempted this batch, and a resume can continue
+        self.assertGreater(calls['n'], 0)
+        first_calls = calls['n']
+
+        class Ok:
+            def __init__(self, inner):
+                self.inner = inner
+
+            def get(self, url):
+                return self.inner.get(url)
+
+        r2 = run_batch(self.inv, r1, Ok(self.replay), as_of=AS_OF, pass_id='p1', generation=2)
+        self.assertFalse(r2['transient_defer'])
+        self.assertFalse(r2['access_held'])
+        self.assertTrue(r2['complete_pass'], r2['summary'])
+        by2 = {row['symbol']: row for row in r2['rows']}
+        self.assertEqual(by2['TEST']['status'], 'connected', by2['TEST'].get('reason'))
+        self.assertEqual(by2['JUNE']['status'], 'connected', by2['JUNE'].get('reason'))
 
     def test_oversize_document_continues_pass(self):
         class SizeLimited:

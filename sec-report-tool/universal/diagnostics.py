@@ -89,7 +89,7 @@ def create(state, log, control, output):
                   'raw_response_retained': False}
     (out / 'stop-metadata.json').write_text(json.dumps(diagnostic, sort_keys=True, indent=2) + '\n')
     events = []
-    allowed = {'cache_hit', 'http_error', 'network_error', 'response', 'stopped'}
+    allowed = {'cache_hit', 'http_error', 'network_error', 'response', 'stopped', 'transient_defer'}
     try:
         with Path(log).open() as fh:
             for line in fh:

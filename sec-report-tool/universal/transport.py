@@ -26,7 +26,11 @@ and the SEC.gov Internet Security Policy). This client:
 - A truncated or corrupt official response body (incomplete read, gzip stream
   ended early, bad gzip/zlib data) is not an access hold: it is not cached,
   DocumentIncomplete is raised and the pass continues with other documents.
-- On 5xx or network errors: at most 2 polite backoff retries, then a persistent stop.
+- On HTTP 502/503/504 or a connection timeout/reset: at most 2 polite backoff
+  retries, then a TransientDefer (the batch saves progress and ends; the pass
+  is not persist-stopped and the hourly watchdog may resume it). No
+  continuation is dispatched from that same run.
+- Other 5xx or unexpected HTTP failures after those retries: a persistent stop.
 - Caches raw response bodies by URL hash with sha256 evidence. Extracted text is
   never persisted as an artifact; retained bytes are the raw response only.
 
@@ -47,7 +51,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from .core import AccessHeld, DocumentExceedsSizeBudget, DocumentIncomplete, DocumentNotFound
+from .core import AccessHeld, DocumentExceedsSizeBudget, DocumentIncomplete, DocumentNotFound, TransientDefer
 
 SEC_USER_AGENT = 'SavageTracker Savtra12@gmail.com'
 MIN_INTERVAL_SEC = 1.0
@@ -259,6 +263,9 @@ class GlobalSecTransport:
                     self.sleep(min(60 * (2 ** (attempts - 1)), 300))
                     self._pace()
                     continue
+                if e.code in {502, 503, 504}:
+                    self._defer(url, e.code,
+                                'HTTP %s; transient SEC server error, deferred for later resume' % e.code)
                 self._block(url, e.code, body, 'HTTP failure; persistent stop, no retry')
             except (urllib.error.URLError, TimeoutError, OSError) as e:
                 self._log(event='network_error', url=url, error=str(e), attempt=attempts)
@@ -266,7 +273,7 @@ class GlobalSecTransport:
                     self.sleep(5 * (3 ** (attempts - 1)))
                     self._pace()
                     continue
-                self._block(url, None, b'', 'network failure; persistent stop: ' + str(e))
+                self._defer(url, None, 'network failure; transient defer: ' + str(e))
             elapsed = max(0.0, self.clock() - started)
             self._log(event='response', url=url, status=status, final_url=final,
                       bytes=len(body), attempt=attempts, elapsed_sec=round(elapsed, 3))
@@ -274,6 +281,13 @@ class GlobalSecTransport:
                 self._block(url, status, body, 'HTTP %s; persistent stop per fair-access policy, no circumvention' % status)
             if status in {404, 410}:
                 raise DocumentNotFound(url=url, status=status)
+            if status in {502, 503, 504}:
+                if attempts < max_attempts:
+                    self.sleep(min(60 * (2 ** (attempts - 1)), 300))
+                    self._pace()
+                    continue
+                self._defer(url, status,
+                            'HTTP %s; transient SEC server error, deferred for later resume' % status)
             if status != 200:
                 self._block(url, status, body, 'non-200 status; persistent stop')
             if final != url:
@@ -290,6 +304,11 @@ class GlobalSecTransport:
                   'kind': 'retained_sec', 'artifact': 'raw_response_body'}
             _atomic(cached, {'hex': body.hex(), 'evidence': ev})
             return body, ev
+
+    def _defer(self, url, status, reason):
+        # End this batch after retries; do not write a persistent stop file.
+        self._log(event='transient_defer', url=url, status=status, reason=reason, retry=False)
+        raise TransientDefer(reason)
 
     def _block(self, url, status, body, reason):
         prefix = (body or b'')[:4096]

@@ -10,7 +10,7 @@ No network without --live. Offline runs use --replay-cache of retained captures.
 Resume: the CLI reads <state>/last-result.json as prior unless --prior is given.
 Continuation gates (inventory hash, as_of, pass_id, generation) fail BEFORE any SEC
 request. Exit codes: 0 complete_pass true; 1 incomplete/pending (normal batch end);
-2 fatal or persistent access hold.
+2 fatal or persistent access hold. A transient_defer is exit 1 (resumable).
 """
 import argparse
 import copy

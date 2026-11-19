@@ -12,7 +12,7 @@ from unittest import mock
 import gzip
 import http.client
 
-from universal.core import AccessHeld, DocumentExceedsSizeBudget, DocumentIncomplete, DocumentNotFound
+from universal.core import AccessHeld, DocumentExceedsSizeBudget, DocumentIncomplete, DocumentNotFound, TransientDefer
 from universal.transport import GlobalSecTransport, sec_url, STOP_NAME
 
 DOC = 'https://www.sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm'
@@ -245,6 +245,56 @@ class TestTransport(unittest.TestCase):
         t, _ = make(tmp, opener)
         body, _ = t.get(DOC)
         self.assertEqual(len(attempts), 2)
+
+    def test_504_after_retries_defers_and_is_resumable(self):
+        tmp = tempfile.mkdtemp()
+        attempts = []
+
+        def opener(req, timeout=30):
+            attempts.append(1)
+            raise urllib.error.HTTPError(DOC, 504, 'Gateway Timeout', {}, io.BytesIO(b''))
+
+        t, _ = make(tmp, opener)
+        with self.assertRaises(TransientDefer) as ctx:
+            t.get(DOC)
+        self.assertIn('504', str(ctx.exception))
+        self.assertEqual(len(attempts), 3)
+        self.assertFalse((Path(tmp) / 'state' / STOP_NAME).exists())
+        # a fresh transport over the same state may try again (not a persistent stop)
+        attempts.clear()
+        t2, _ = make(tmp, opener)
+        with self.assertRaises(TransientDefer):
+            t2.get(DOC)
+        self.assertEqual(len(attempts), 3)
+        self.assertFalse((Path(tmp) / 'state' / STOP_NAME).exists())
+
+    def test_timeout_after_retries_defers_and_is_resumable(self):
+        tmp = tempfile.mkdtemp()
+        attempts = []
+
+        def opener(req, timeout=30):
+            attempts.append(1)
+            raise TimeoutError('timed out')
+
+        t, _ = make(tmp, opener)
+        with self.assertRaises(TransientDefer):
+            t.get(DOC)
+        self.assertEqual(len(attempts), 3)
+        self.assertFalse((Path(tmp) / 'state' / STOP_NAME).exists())
+
+    def test_500_after_retries_still_persistent_stop(self):
+        tmp = tempfile.mkdtemp()
+        attempts = []
+
+        def opener(req, timeout=30):
+            attempts.append(1)
+            raise urllib.error.HTTPError(DOC, 500, 'Internal', {}, io.BytesIO(b''))
+
+        t, _ = make(tmp, opener)
+        with self.assertRaises(AccessHeld):
+            t.get(DOC)
+        self.assertEqual(len(attempts), 3)
+        self.assertTrue((Path(tmp) / 'state' / STOP_NAME).exists())
 
     def test_redirect_stops(self):
         tmp = tempfile.mkdtemp()

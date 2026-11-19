@@ -1,8 +1,9 @@
 name: universal-edgar-watchdog
 
-# Hourly, GitHub-only, free. Restarts the approved universal EDGAR pass ONLY when
-# its chain broke by a crash (no run active, pass not complete, not stopped).
-# It never restarts a real SEC access hold: any stopped pass (403/429/block page,
+# Hourly, GitHub-only, free. Restarts the approved universal EDGAR pass when its
+# chain broke by a crash (no run active, pass not complete, not a hard stop), or
+# when the last batch ended as a transient_defer (502/503/504 or timeout).
+# It never restarts a real SEC access hold: a hard stop (403/429/block page,
 # fatal, no_progress, batch_cap) has stopped=true / stop_code set and is left alone.
 # It makes no SEC requests itself.
 
@@ -28,25 +29,33 @@ jobs:
         with:
           ref: main
           fetch-depth: 1
-          sparse-checkout: report-pass-control.json
+          sparse-checkout: |
+            report-pass-control.json
+            sec-report-tool/universal/controller.py
+            sec-report-tool/universal/publication.py
           sparse-checkout-cone-mode: false
-      - name: Resume only a crashed, unfinished, unstopped pass
+      - name: Resume only a crashed or transiently deferred unfinished pass
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
           wf=universal-edgar-reports.yml
-          read -r pass gen complete stopped stop_code < <(python3 - <<'PY'
-          import json
-          c=json.load(open('report-pass-control.json'))
-          print(c['pass_id'], int(c['generation']), str(bool(c.get('complete'))).lower(),
-                str(bool(c.get('stopped'))).lower(), c.get('stop_code') or 'null')
-          PY
-          )
-          echo "pass=$pass generation=$gen complete=$complete stopped=$stopped stop_code=$stop_code"
-          if [ "$complete" != false ] || [ "$stopped" != false ] || [ "$stop_code" != null ]; then
-            echo 'Pass is complete or stopped (possible SEC access hold). Not restarting.'; exit 0
+          eval "$(python3 sec-report-tool/universal/controller.py --control report-pass-control.json --watchdog-query | python3 -c '
+          import json,sys
+          d=json.load(sys.stdin)
+          def sh(k,v):
+              print("%s=%s" % (k, json.dumps(str(v) if v is not None else "null")))
+          sh("resume", "true" if d.get("resume") else "false")
+          sh("pass", d.get("pass_id") or "")
+          sh("gen", d.get("generation") if d.get("generation") is not None else "")
+          sh("complete", str(bool(d.get("complete"))).lower())
+          sh("stopped", str(bool(d.get("stopped"))).lower())
+          sh("stop_code", d.get("stop_code") or "null")
+          ')"
+          echo "pass=$pass generation=$gen complete=$complete stopped=$stopped stop_code=$stop_code resume=$resume"
+          if [ "$resume" != true ]; then
+            echo 'Pass is complete or hard-stopped (possible SEC access hold). Not restarting.'; exit 0
           fi
           [[ "$gen" =~ ^[0-9]{1,5}$ ]]
           active=0
