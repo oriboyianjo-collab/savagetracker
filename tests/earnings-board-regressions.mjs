@@ -293,7 +293,7 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
     && html.includes('<small class="rb">${esc(src)}</small>')
     && html.includes('sp(x, ap)') && html.includes('rngB(rr, est, act)'));
   ok('English i18n labels are Analysts and Company', en.includes('"ui-1334":"Analysts"') && en.includes('"ui-1335":"Company"'));
-  ok('sw cache bumped to v330', sw.includes("const CACHE = 'portfolio-shell-v330'"));
+  ok('sw cache bumped to v330 or later', +((sw.match(/const CACHE = 'portfolio-shell-v(\d+)'/)||[])[1]||0) >= 330);
 }
 
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
