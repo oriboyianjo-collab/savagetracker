@@ -370,6 +370,20 @@ def exhibit_links(d, base_url):
     return out
 
 
+
+def slot_url(slots, slot, ledger):
+    """URL already bound to a period slot. Prefer the in-memory record; fall back
+    to a matching qualified ledger entry when the slot was created without a url
+    (Q4 path) or rebuilt from an older checkpoint."""
+    url = (slots.get(slot) or {}).get('url')
+    if url:
+        return url
+    for le in ledger:
+        if le.get('slot') == slot and le.get('url') and str(le.get('decision', '')).startswith('qualified'):
+            return le['url']
+    return None
+
+
 class Connector:
     def __init__(self, transport, as_of, deadline_seconds=None, clock=None, logger=None,
                  max_pages=64, max_documents_per_issuer=90):
@@ -717,7 +731,7 @@ class Connector:
                     regular_done.add(r['accessionNumber'])
                     cp['regular_done'] = sorted(regular_done)
                     continue
-                if v['slot'] in slots and slots[v['slot']]['url'] != v['url']:
+                if v['slot'] in slots and slot_url(slots, v['slot'], cp_ledger) != v['url']:
                     raise IssuerHold('version_conflict_duplicate_period')
                 slots[v['slot']] = v
                 le = {k: v[k] for k in ('slot', 'url', 'body_sha256', 'period_end', 'filing_date', 'form', 'decision')}
@@ -821,16 +835,17 @@ class Connector:
                     if fy_year is None or fy_year < HISTORY_START.year:
                         continue  # not the issuer's fiscal year end, or outside 2020+ scope
                     slot = '%s-Q4' % fy_year
-                    if slot in slots and slots[slot]['url'] != q['exhibit_url']:
-                        raise IssuerHold('version_conflict_duplicate_period')
-                    if slot not in slots:
-                        slots[slot] = {'fy_year': fy_year, 'period': 'Q4'}
-                        cp_ledger.append({'slot': slot, 'url': q['exhibit_url'],
-                                          'body_sha256': q['exhibit_sha256'],
-                                          'period_end': end.isoformat(),
-                                          'filing_date': r['filingDate'], 'form': r['form'],
-                                          'decision': 'qualified_q4_earnings_exhibit',
-                                          'accession': r['accessionNumber']})
+                    if slot in slots:
+                        if slot_url(slots, slot, cp_ledger) != q['exhibit_url']:
+                            raise IssuerHold('version_conflict_duplicate_period')
+                        continue
+                    slots[slot] = {'fy_year': fy_year, 'period': 'Q4', 'url': q['exhibit_url']}
+                    cp_ledger.append({'slot': slot, 'url': q['exhibit_url'],
+                                      'body_sha256': q['exhibit_sha256'],
+                                      'period_end': end.isoformat(),
+                                      'filing_date': r['filingDate'], 'form': r['form'],
+                                      'decision': 'qualified_q4_earnings_exhibit',
+                                      'accession': r['accessionNumber']})
             # Explicit coverage indicators: a validated annual year whose Q4 was
             # not linked is never silent. Distinct honest reasons; no extra fetches
             # (candidates come from the already-loaded submissions metadata).

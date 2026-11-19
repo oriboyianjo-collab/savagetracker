@@ -322,6 +322,59 @@ class TestQ4(unittest.TestCase):
         self.assertTrue(any(u.get('slot') == '2025-Q4' and 'not validated' in (u.get('reason') or '')
                             for u in row['unresolved_slots']), row['unresolved_slots'])
 
+    def test_two_q4_candidates_same_url_stays_connected(self):
+        # Two final earnings 8-Ks bind the same Q4 slot and resolve to the same
+        # exhibit URL. The second must not crash or hold; one ledger entry is kept.
+        from universal.core import Connector
+        b = self.base()
+        b.add_q4(2025, '2025-12-31', '2026-01-20')
+        b.add_q4(2025, '2025-12-31', '2026-01-27')
+        b.commit()
+        orig = Connector.qualify_q4
+        seen = []
+        def wrapped(self_conn, ident, row, primary, primary_url, fetch):
+            q = orig(self_conn, ident, row, primary, primary_url, fetch)
+            if q.get('decision') == 'qualified':
+                if seen:
+                    q = dict(q)
+                    q['exhibit_url'] = seen[0]
+                else:
+                    seen.append(q['exhibit_url'])
+            return q
+        Connector.qualify_q4 = wrapped
+        try:
+            r = run_batch(inventory([inv_row('TEST', 'Test Corp', 1)]), None, self.replay, as_of=AS_OF)
+        finally:
+            Connector.qualify_q4 = orig
+        row = r['rows'][0]
+        self.assertEqual(row['status'], 'connected', row.get('reason'))
+        self.assertIn('Q4', row['reports']['2025'])
+        self.assertEqual(sum(1 for le in row['ledger'] if le.get('slot') == '2025-Q4'), 1)
+        self.assertTrue(r['complete_pass'])
+
+    def test_two_q4_candidates_different_url_holds_and_pass_continues(self):
+        # Two final earnings 8-Ks bind the same Q4 slot with different exhibit
+        # URLs. The issuer is held; the KeyError crash must not occur, already
+        # qualified regulars stay, and the rest of the pass continues.
+        b = self.base()
+        b.add_q4(2025, '2025-12-31', '2026-01-20')
+        b.add_q4(2025, '2025-12-31', '2026-01-27')
+        b.commit()
+        self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp'), (1000002, 'JUNE', 'June Corp')])
+        b2 = Builder(self.sec, cik=1000002, ticker='JUNE', name='June Corp')
+        b2.add_regular('10-K', 2025, 'FY', '2025-06-30', '2025-08-12')
+        b2.commit()
+        r = run_batch(inventory([inv_row('TEST', 'Test Corp', 1), inv_row('JUNE', 'June Corp', 2)]),
+                      None, self.replay, as_of=AS_OF)
+        test, june = r['rows']
+        self.assertEqual(test['status'], 'held', test)
+        self.assertEqual(test['reason'], 'version_conflict_duplicate_period')
+        self.assertGreater(test['linked_slots'], 0)
+        self.assertIn('FY', test['reports'].get('2025', {}))
+        self.assertEqual(june['status'], 'connected', june.get('reason'))
+        self.assertTrue(r['complete_pass'])
+        self.assertFalse(r['access_held'])
+
 
 class TestAmendmentsAndVersions(unittest.TestCase):
     def setUp(self):
