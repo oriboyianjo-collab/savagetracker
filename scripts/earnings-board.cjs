@@ -20,7 +20,7 @@ const SEC_INTERVAL_MS = 1000;           // 1 req/s: financials-fast may use the 
 const AV_INTERVAL_MS = 1500;            // AV free key: max 1 request per second
 const AV_GAP_H = 3;                     // the scheduled backup and the earnings-live dispatch can both fire: one AV run per slot
 const AV_PER_RUN = 12;                  // 2 runs per New York day (14:00 and 02:00 Israel = morning and evening ET) x 12 = 24 <= 25/day
-const AV_ACTUALS_MAX = 8;
+const AV_REV_RESERVE = 3;              // calls per run kept for revenue estimates when rows need one
 const AV_TRIES = 4;                     // counted Alpha Vantage EARNINGS tries per row (only when AV has the quarter)
 const AUTO = 'alphavantage-calendar';
 const NOTE_KEYS = ['הערה', 'הערה_en'];
@@ -403,7 +403,6 @@ async function main() {
   const mcap = JSON.parse(fs.readFileSync(path.join(ROOT, 'mcap-rank.json'), 'utf8'));
   const rank = Object.fromEntries((mcap.ranked || []).map((x, i) => [symKey(x[0]), i + 1]));
   const shard = (s) => { const f = path.join(ROOT, 'financials', s.replace(/[^A-Z0-9.\-]/g, '') + '.json'); try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { return null; } };
-  const big = (r) => (Array.isArray(r['מדד']) && r['מדד'].some((x) => /S&P 500|Nasdaq 100|Dow/.test(x))) || (rank[symKey(r['סימול'])] || 1e9) <= 500;
   const byRank = (a, b) => (rank[symKey(a['סימול'])] || 1e9) - (rank[symKey(b['סימול'])] || 1e9);
   const fetched = applyOnly && fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf8')) : { cal: null, earn: {}, est: {}, sec: {} };
   const stats = { today, av: 0, sec: 0 };
@@ -426,9 +425,15 @@ async function main() {
       const released = (r) => { const d = String(r['תאריך']); return d < today || (d === today && (r['מועד'] === 'before' || secConfirmed(r))); };
       // A try counts only when Alpha Vantage already has the reported quarter (it often posts it a day later), so a row is
       // asked again on every run for 3 days until then, at most 4 counted tries.
-      const needEps = rows.filter((r) => (!has(r['בפועל_EPS']) || prEps(r)) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today && released(r) && big(r) && (tried[r['מזהה']] || 0) < AV_TRIES).sort(byRank);
-      for (const r of needEps.slice(0, AV_ACTUALS_MAX)) {
-        if (av.left() <= 0) break;
+      const needEps = rows.filter((r) => (!has(r['בפועל_EPS']) || prEps(r)) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today && released(r) && (tried[r['מזהה']] || 0) < AV_TRIES).sort(byRank);
+      // upcoming rows, and rows reported in the last 3 days whose revenue came in without an estimate (so a beat/miss % can show)
+      const needRev = rows.filter((r) => !has(r['צפי_הכנסות']) && has(r['רבעון_מסתיים']) && !(state.estTried || {})[r['מזהה']]
+        && ((!isPublished(r) && String(r['תאריך']) >= today && String(r['תאריך']) <= addDays(today, 3))
+          || ((isPublished(r) || released(r)) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today))).sort(byRank);
+      // Market-cap order, no fixed cap: EPS actuals use every call of the run except up to AV_REV_RESERVE kept for revenue estimates.
+      const revKeep = Math.min(AV_REV_RESERVE, needRev.length);
+      for (const r of needEps) {
+        if (av.left() <= revKeep) break;
         const s = symKey(r['סימול']); if (fetched.earn[s]) continue;
         try {
           fetched.earn[s] = JSON.parse(await av.get('EARNINGS', 'symbol=' + encodeURIComponent(s)));
@@ -437,10 +442,6 @@ async function main() {
         }
         catch (e) { if (e.limit) { warnings.push(e.message); break; } throw e; }
       }
-      // upcoming rows, and rows reported in the last 3 days whose revenue came in without an estimate (so a beat/miss % can show)
-      const needRev = rows.filter((r) => !has(r['צפי_הכנסות']) && has(r['רבעון_מסתיים']) && big(r) && !(state.estTried || {})[r['מזהה']]
-        && ((!isPublished(r) && String(r['תאריך']) >= today && String(r['תאריך']) <= addDays(today, 3))
-          || ((isPublished(r) || released(r)) && String(r['תאריך']) >= addDays(today, -3) && String(r['תאריך']) <= today))).sort(byRank);
       state.estTried = state.estTried || {};
       for (const r of needRev) {
         if (av.left() <= 0) break;
