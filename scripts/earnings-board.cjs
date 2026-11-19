@@ -194,6 +194,9 @@ function applyRevenue(row, rev) {
   if (has(row['הכנסות_בפועל']) || !(rev && rev.r > 0)) return false;
   const noEst = !(moneyNum(row['צפי_הכנסות']) > 0);
   if (!noEst && !revenuePlausible(row, rev)) return false;
+  // no estimate: a press-release figure (checked against SEC's prior-year quarter) or the plain total `Revenues` XBRL tag only -
+  // other XBRL tags of banks / insurers / miners are often one component (FNF 603M, MARA 14.6M)
+  if (noEst && !rev.pr && rev.tag !== 'Revenues') return false;
   row['הכנסות_בפועל'] = money(rev.r);
   row['מטבע_הכנסות'] = rev.cur;
   row['בסיס_בפועל_הכנסות'] = (rev.tag === 'Revenues' ? 'GAAP total revenue' : 'GAAP revenue (SEC tag ' + (rev.tag || 'unknown') + ')') + (rev.pr ? ' – SEC 8-K press release, ' : ' – SEC XBRL, ') + rev.label;
@@ -314,7 +317,7 @@ function applyLive(rows, feed, ctx) {
     // r_nv: the SEC prior-year quarter had no revenue (e.g. a Q4 derived from the 10-K), so the release was verified through net
     // income only; that revenue is shown only next to an estimate (15% check), never on its own.
     const rev = { r: +f.r, pr: true, tag: f.tag || '', cur: f.cur || 'USD', acc: f.acc, label: (f.slot || '') + (f.r_nv ? ' (net income verified vs SEC prior year)' : ''), cik: f.cik };
-    if (f.r != null && applyRevenue(row, rev)) st.revFilled++;   // no estimate: shown without beat/miss (any SEC revenue tag)
+    if (f.r != null && applyRevenue(row, rev)) st.revFilled++;   // no estimate: shown without beat/miss (verified press-release figure)
     // No revenue estimate on the row: a press-release total revenue that matched the SEC prior year under the company's
     // total "Revenues" tag is still shown (nothing to compare it with, so no beat/miss).
     else if (f.r != null && f.r > 0 && !f.r_nv && !has(row['צפי_הכנסות']) && !has(row['הכנסות_בפועל']) && rev.tag === 'Revenues') {
