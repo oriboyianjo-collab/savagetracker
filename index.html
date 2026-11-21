@@ -5313,7 +5313,7 @@ function detailFinancialProvenance(it,g){
   if(valid){line(tx('נתונים פיננסיים נכון ל־','Financial data as of ')+(verified?p.fiscalPeriod+' '+p.fiscalYear+' · ':'')+date(f.asof),true);line(tx('דוח ','Report ')+'\u2066'+f.k+'\u2069'+tx(' · הוגש ב־',' · Filed ')+date(f.filed));line(tx('חל על הון עצמי למניה ובסיס מכפיל ההון בלבד','Applies to book value per share and the P/B book-value basis only'));line(verified?tx('אומת מול הדוח האחרון שפורסם','Verified against the latest published report'):tx('טרם אומת שזהו הדוח האחרון שפורסם','Not yet verified as the latest published report'),false,!verified)}
   else{line(tx('נתונים פיננסיים: תקופת הדוח לא אומתה','Financial data: report period not verified'),true);line(f?tx('תאריך הדוח אינו תקין - הנתונים התלויים בו אינם מוצגים','Invalid report date - affected report-derived figures are unavailable'):tx('אין כרגע נתוני דוח מאומתים','No verified report data is available'),false,true)}
   if(!document.getElementById('detailFinancialStyles')){const st=document.createElement('style');st.id='detailFinancialStyles';st.textContent='#isDetG>div{min-width:0}#isDetG small{white-space:normal;overflow-wrap:anywhere;max-width:100%}';document.head.append(st)}
-  const add=(c,text)=>{const s=document.createElement('small');s.textContent=text;s.dir='auto';s.style.cssText='display:block;font-size:10px;line-height:1.5;color:var(--muted);margin-top:4px;white-space:normal;overflow-wrap:anywhere;max-width:100%;text-align:start';c.append(s)};
+  const add=(c,text)=>{return;const s=document.createElement('small');s.textContent=text;s.dir='auto';s.style.cssText='display:block;font-size:10px;line-height:1.5;color:var(--muted);margin-top:4px;white-space:normal;overflow-wrap:anywhere;max-width:100%;text-align:start';c.append(s)};
   const cells=[...g.children].filter(c=>c!==n);
   // Array positions follow detRows, whose established order is unchanged.
   for(const c of cells)c.querySelectorAll('.lv').forEach(e=>{const next=e.nextSibling;if(next&&next.nodeType===3)next.textContent=next.textContent.replace(/^\s*·\s*/, '');e.remove()});
@@ -5329,7 +5329,7 @@ function detailFinancialProvenance(it,g){
 
 function drawDet(){ const it = detItem(), g = $('isDetG'); if(!it || !g) return; const q = iq(it); updateCompanyCap(it,q||(sheetSym===it.sym?state.quotes[it.sym]:null));
   g.innerHTML = detRows(it, q).map(([l,v])=>{ if(Array.isArray(v)){ const [val, sub, t] = v, na = val==='--';
-      return `<div class="fx"><span>${l}${t ? ib(t.tip, t.ttl, t.warn?'warn':'') : ''}</span><b class="num${na?' na':''}${l===I18n.p("ui-0665","מכפיל הון (P/B)") && val!==g.dataset.pbv ? ' tick' : ''}">${val}</b>${sub ? `<small>${sub}</small>` : ''}</div>`; }
+      return `<div class="fx"><span>${l}${t ? ib(t.tip, t.ttl, t.warn?'warn':'') : ''}</span><b class="num${na?' na':''}${l===I18n.p("ui-0665","מכפיל הון (P/B)") && val!==g.dataset.pbv ? ' tick' : ''}">${val}</b></div>`; }
     return `<div><span>${l}</span><b class="num${v===DET_DASH||v==='…'?' na':''}">${v}</b></div>`; }).join('');
   detailFinancialProvenance(it,g);
   { const pb = detRows(it, q).find(r=>r[0]===I18n.p("ui-0666","מכפיל הון (P/B)")); g.dataset.pbv = pb ? pb[1][0] : ''; } }
