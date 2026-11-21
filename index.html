@@ -7647,7 +7647,7 @@ document.addEventListener('keydown', e=>{ if(IV.el && !IV.el.hidden && e.key==='
   }, {passive:true});
   document.addEventListener('touchcancel', ()=>{ ok = false; watchReset(); }, {passive:true});
 })();
-document.querySelector('nav.bottom').addEventListener('click', e=>{ const b = e.target.closest('button[data-tab]'); if(b) setTab(b.dataset.tab); });
+document.querySelector('nav.bottom').addEventListener('click', e=>{ const b = e.target.closest('button[data-tab]'); if(b){ if(!navRestoring && $('sheet').classList.contains('open')) closeSheet(); setTab(b.dataset.tab); } });
 // v57: restore the tab after a reload (sessionStorage survives reload, not a fresh launch)
 (()=>{ let t = null, pv = null; try{ t = sessionStorage.getItem(TAB_KEY); pv = sessionStorage.getItem(TAB_KEY+'.prev'); }catch(e){}
   if(!t || t===ui.tab || !document.getElementById('tab-'+t)) return;
