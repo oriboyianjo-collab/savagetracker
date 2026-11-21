@@ -750,6 +750,12 @@ html.ext-sess .pcard .pc-d .xl,html.ext-sess .wr .pc-d .xl{min-height:13px}
 .det-g>div{min-width:0}.det-g>div:nth-child(3n+1){text-align:start}.det-g>div:nth-child(3n+2){text-align:center}.det-g>div:nth-child(3n){text-align:end}
 .det-g span{display:block;font-size:.68rem;color:var(--muted);line-height:1.25;margin-bottom:3px;min-height:1.7em}
 .det-g b{display:block;font-size:.9rem;font-weight:700;direction:ltr;unicode-bidi:isolate;white-space:nowrap;font-variant-numeric:tabular-nums}.det-g>div:nth-child(3n+1) b{text-align:right}.det-g>div:nth-child(3n) b{text-align:left}.det-g>div:nth-child(3n+2) b{text-align:center}.det-g b.na{color:var(--muted);font-weight:600}
+.det-g.det-co{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:0;row-gap:0;padding:2px 14px 6px}
+.det-g.det-co>div:nth-child(n){display:flex;flex-direction:column;align-items:flex-start;text-align:start;padding:10px 0}
+.det-g.det-co>div:nth-child(n+3){border-top:1px solid var(--border)}
+.det-g.det-co>div:nth-child(2n+1){padding-inline-end:12px}.det-g.det-co>div:nth-child(2n){padding-inline-start:14px;border-inline-start:1px solid var(--border)}
+.det-g.det-co>div:nth-child(n)>span{display:flex;align-items:center;min-height:1.3em;margin:0 0 4px;font-size:.72rem}
+.det-g.det-co>div:nth-child(n)>b{margin-top:auto;width:fit-content;max-width:100%;text-align:left;font-size:.98rem}
 
 /* Verified original PDF controls replace the report link; all other card content is unchanged. */
 .report-pick{display:flex;direction:ltr;justify-content:flex-start;gap:6px;margin:0;width:max-content;max-width:100%;position:relative}
@@ -5328,6 +5334,7 @@ function detailFinancialProvenance(it,g){
 }
 
 function drawDet(){ const it = detItem(), g = $('isDetG'); if(!it || !g) return; const q = iq(it); updateCompanyCap(it,q||(sheetSym===it.sym?state.quotes[it.sym]:null));
+  g.classList.toggle('det-co', !!(it.sec && it.type==='stock' && !it.y && !naInfo(it)));   // two-column layout for company cards only (same test as companyCapText); funds keep the 3-column grid
   g.innerHTML = detRows(it, q).map(([l,v])=>{ if(Array.isArray(v)){ const [val, sub, t] = v, na = val==='--';
       return `<div class="fx"><span>${l}${t ? ib(t.tip, t.ttl, t.warn?'warn':'') : ''}</span><b class="num${na?' na':''}${l===I18n.p("ui-0665","מכפיל הון (P/B)") && val!==g.dataset.pbv ? ' tick' : ''}">${val}</b></div>`; }
     return `<div><span>${l}</span><b class="num${v===DET_DASH||v==='…'?' na':''}">${v}</b></div>`; }).join('');
