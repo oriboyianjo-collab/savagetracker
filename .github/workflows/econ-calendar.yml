@@ -1,0 +1,86 @@
+# Official economic calendar updater (calendar.json). Approved by Ori, Nov 22 2026.
+# Official US/EU sources only. Never writes הערה / הערה_en or צפי (stays empty).
+# Official revisions update בפועל / קודם to the revised value (BLS: latest vintage, numeric values only).
+# Optional secrets (job skips that API if missing): BLS_API_KEY, BEA_API_KEY, CENSUS_API_KEY, EIA_API_KEY.
+# User-Agent: SavageTracker Savtra12@gmail.com; 1 request/second; stop on HTTP 403/429, no workaround.
+# Commits only calendar.json. On a push race it resets to the latest main and re-runs on the fresh file,
+# so other automations' commits (and any calendar edits) are never reverted. Never force-pushes.
+name: econ-calendar
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Write calendar.preview.json only (no commit)'
+        type: boolean
+        default: false
+      lookback:
+        description: 'Days back to re-check actuals and revisions'
+        type: string
+        default: '14'
+  schedule:
+    - cron: '0 5 * * *'              # daily full run: 07:00 Israel winter / 08:00 summer
+    - cron: '*/15 12-17 * * 1-5'     # US release window: 14:00–19:45 Israel winter (15:00–20:45 summer)
+    - cron: '5 18,19 * * 1-5'        # 14:00 ET prints (FOMC-style)
+    - cron: '25 20,21 * * 1-5'       # ~16:15 ET Fed H.15 / H.4.1
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: econ-calendar
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main, fetch-depth: 1 }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: poppler-utils (official DOL claims PDF)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: update calendar (merge-safe, calendar.json only)
+        env:
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+          BEA_API_KEY: ${{ secrets.BEA_API_KEY }}
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          DRY: ${{ github.event.inputs.dry_run }}
+          LOOKBACK: ${{ github.event.inputs.lookback }}
+          GH_TOKEN: ${{ github.token }}
+          # Full run (BLS API too) on the daily schedule and manual runs; release-window runs stay light.
+          ECON_FULL: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 5 * * *') && '1' || '0' }}
+        run: |
+          set -euo pipefail
+          lb="${LOOKBACK:-14}"
+          case "$lb" in ''|*[!0-9]*) lb=14;; esac
+          if [ "${DRY:-false}" = "true" ]; then
+            node scripts/econ-calendar.cjs --lookback "$lb" --dry-run --out calendar.preview.json --report econ-report.json > /dev/null
+            node -e 'const r=require("./econ-report.json");console.log(JSON.stringify({added:r.added,filled:r.filled,revised:r.revised,blocked:r.humanSkipped,changes:r.changes.filter(c=>!["מקור","קישור"].includes(c.field))},null,1))'
+            exit 0
+          fi
+          git config user.name "savage-tracker-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5 6; do
+            git fetch -q --depth=1 origin main
+            git reset -q --hard origin/main
+            node scripts/econ-calendar.cjs --lookback "$lb" --report /tmp/econ-report.json > /dev/null
+            node -e 'const r=require("/tmp/econ-report.json");console.log(JSON.stringify({added:r.added,filled:r.filled,revised:r.revised,blocked:r.humanSkipped,changes:r.changes.filter(c=>!["מקור","קישור"].includes(c.field)),skipped:r.skipped},null,1))'
+            # Only calendar.json may change; anything else is a bug -> stop.
+            other="$(git status --porcelain | grep -v ' calendar.json$' || true)"
+            if [ -n "$other" ]; then echo "Unexpected changes: $other" >&2; exit 1; fi
+            if git diff --quiet -- calendar.json; then echo "No calendar.json change"; exit 0; fi
+            node -e 'JSON.parse(require("fs").readFileSync("calendar.json","utf8"))'
+            git add calendar.json
+            git commit -q -m "econ-calendar: official actuals and schedule"
+            if git push origin HEAD:main; then
+              echo "pushed $(git rev-parse --short HEAD)"
+              # Pushes made with the workflow token don't trigger other workflows: publish explicitly.
+              gh workflow run pages-queued.yml --ref main || echo "::warning::could not dispatch Pages publication"
+              exit 0
+            fi
+            echo "push raced with another commit; re-running on the latest main"
+            sleep $((i * 7))
+          done
+          echo "Push failed after retries (no force-push)" >&2
+          exit 1
