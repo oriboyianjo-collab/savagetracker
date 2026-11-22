@@ -6780,39 +6780,44 @@ const NLANG_KEY = 'portfolioTracker.newsLang';
 function newsLang(){ try{ const v = localStorage.getItem(NLANG_KEY); if(v==='he'||v==='en') return v; }catch(_){} return I18n.language; }
 function newsLangCtl(){ const c = $('newsLangSeg'); if(!c) return; c.setAttribute('aria-label', I18n.language==='en' ? 'Article language' : 'שפת הכתבות'); const cur = newsLang(); c.querySelectorAll('[data-nl]').forEach(b=>{ const on = b.dataset.nl===cur; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); }); }
 let newsSeq = 0, newsRequest = null, newsRaw = null, newsLanguage = ''; const NSEEN_KEY = 'portfolioTracker.newsSeen.v1';
-// Revalidate the canonical URL so unchanged responses can reuse the HTTP cache.
-// Keep an existing list on screen while checking. Timeout covers response body too.
-async function loadNews(){ const el = $('newsList'); if(!el) return;
-  if(newsRequest) return newsRequest;
-  const seq = ++newsSeq, tick = ++alNewsTick;
-  newsRequest = (async()=>{ let items = null, err = false, nextRaw = null;
-  const get = async f=>{ const ctrl = new AbortController(), timer = setTimeout(()=>ctrl.abort(),15000);
-    try{ const r = await fetch(f, {cache:'no-cache', signal:ctrl.signal}); if(!r.ok) throw new Error(r.status); return await r.text(); }
-    finally{ clearTimeout(timer); } };
-  try{ const text = await get('news.json');
-    if(text===newsRaw && newsItems.length && newsLanguage===newsLang()){ newsAt = tick; alReveal(); return; }
-    const j = JSON.parse(text); items = Array.isArray(j) ? j : (j && Array.isArray(j.items) ? j.items : []); nextRaw = text;
-  }
-  catch(e){ if(newsItems.length){ newsAt=tick; alReveal(); return; }
-    try{ items = newsFromMd(await get('news.md')); }catch(e2){ err = e instanceof SyntaxError; items = []; } }
-  if(seq !== newsSeq) return;
-  newsAll = [];
-  const rawItems=items.filter(o=>o&&typeof o==='object');
-  const nl = newsLang();
+// v335: first paint uses a derived recent snapshot; the complete archive stays authoritative.
+const NEWS_SNAPSHOT_KEY='portfolioTracker.newsSnapshot.v1';
+let newsArchiveComplete=false,newsLoadState='',newsRecentMeta=null,newsInitialSeen=null;
+function newsSnapshotRead(){try{const s=JSON.parse(localStorage.getItem(NEWS_SNAPSHOT_KEY)||'null');return s?.version===1&&Array.isArray(s.items)&&s.items.length<=50&&/^[a-f0-9]{64}$/.test(s.archive_sha256||'')?s:null;}catch(_){return null;}}
+function newsSnapshotSave(s){try{localStorage.setItem(NEWS_SNAPSHOT_KEY,JSON.stringify({...s,saved_at:Date.now()}));}catch(_){}}
+function newsRecentOf(items){return items.map((o,i)=>({o,i,t:newsTime(newsPick(o,'date')),u:newsTime(newsPick(o,'up'))})).sort((a,b)=>((b.u??b.t??0)-(a.u??a.t??0))||((b.t??-Infinity)-(a.t??-Infinity))||a.i-b.i).slice(0,50).map(x=>x.o);}
+function newsStateText(){return newsLoadState==='cached'?pnText('תצוגה שמורה · בודק עדכונים וטוען ארכיון…','Saved view · checking updates and loading archive…'):newsLoadState==='loading'?pnText('חדשות אחרונות · טוען את הארכיון המלא…','Recent news · loading the complete archive…'):newsLoadState==='offline'?pnText('התצוגה לא עודכנה · הארכיון המלא אינו זמין כרגע','View not updated · complete archive currently unavailable'):'';}
+async function newsApplyItems(items,{complete=false,raw=null,tick=0,seq=newsSeq}={}){
+  const rawItems=items.filter(o=>o&&typeof o==='object'),nl=newsLang();
   if(nl==='en')await ContentLanguage.prepare('news',rawItems);
-  if(seq!==newsSeq)return;
-  const L = rawItems.map((o,i)=>({i,ak:alNewsKey(o),identity:ContentLanguage.originalIdentity('news',o),legacySeen:ContentLanguage.legacyNewsSeenKey(o),title:ContentLanguage.displayText('news',o,'title',nl),date:newsPick(o,'date'),text:ContentLanguage.displayText('news',o,'text',nl),link:newsPick(o,'link'),company:ContentLanguage.displayText('news',o,'company',nl),up:newsPick(o,'up'),raw:o,cat:newsCatOf(o),sources:ContentLanguage.displaySources(o,nl),preview:ContentLanguage.displayText('news',o,'preview',nl),imgs:newsImgs(o)})).filter(o=>o.title||o.text||o.imgs.length);
-  // v66: order by UPLOAD time, not the publish date. The file's order is not reliable (items have been added both at the top and at
-  // the bottom), so: an explicit "הועלה"/"uploaded" time wins; otherwise the time this device first saw the item (remembered in
-  // localStorage – not portfolio data). On a device's very first load the publish date seeds the order.
-  L.forEach(o=>o.t = newsTime(o.date));
-  { let seen = loadJ(NSEEN_KEY); const first = !seen || typeof seen!=='object' || !Object.keys(seen).length, now = Date.now(); if(first) seen = {}; const keep = {};
-    L.forEach((o,i)=>{ const k = o.identity;if(seen[k]==null&&seen[o.legacySeen]!=null)seen[k]=seen[o.legacySeen]; if(seen[k]==null) seen[k] = first ? (o.t || 0) : now; keep[k] = seen[k]; const u = o.up ? newsTime(o.up) : null; o.u = u!=null ? u : keep[k]; });
-    try{ localStorage.setItem(NSEEN_KEY, JSON.stringify(keep)); }catch(e){}
-    L.sort((a,b)=>(b.u - a.u) || ((b.t ?? -Infinity) - (a.t ?? -Infinity)) || a.i - b.i); }
-  newsItems = L; newsRaw = nextRaw; newsLanguage = nl; newsErr = err; newsAt = tick; newsRender();
-  })().finally(()=>{ newsRequest = null; });
-  return newsRequest;
+  if(seq!==newsSeq)return false;
+  if(newsInitialSeen===null){const seen=loadJ(NSEEN_KEY);newsInitialSeen=!seen||typeof seen!=='object'||!Object.keys(seen).length;}
+  const L=rawItems.map((o,i)=>({i,ak:alNewsKey(o),identity:ContentLanguage.originalIdentity('news',o),legacySeen:ContentLanguage.legacyNewsSeenKey(o),title:ContentLanguage.displayText('news',o,'title',nl),date:newsPick(o,'date'),text:ContentLanguage.displayText('news',o,'text',nl),link:newsPick(o,'link'),company:ContentLanguage.displayText('news',o,'company',nl),up:newsPick(o,'up'),raw:o,cat:newsCatOf(o),sources:ContentLanguage.displaySources(o,nl),preview:ContentLanguage.displayText('news',o,'preview',nl),imgs:newsImgs(o)})).filter(o=>o.title||o.text||o.imgs.length);
+  L.forEach(o=>o.t=newsTime(o.date));
+  {let seen=loadJ(NSEEN_KEY);if(!seen||typeof seen!=='object')seen={};const keep={},now=Date.now();L.forEach(o=>{const k=o.identity;if(seen[k]==null&&seen[o.legacySeen]!=null)seen[k]=seen[o.legacySeen];if(seen[k]==null)seen[k]=newsInitialSeen?(o.t||0):now;keep[k]=seen[k];const u=o.up?newsTime(o.up):null;o.u=u!=null?u:keep[k];});try{localStorage.setItem(NSEEN_KEY,JSON.stringify(complete?keep:{...seen,...keep}));}catch(_){}L.sort((a,b)=>(b.u-a.u)||((b.t??-Infinity)-(a.t??-Infinity))||a.i-b.i);}
+  newsItems=L;newsRaw=raw;newsLanguage=nl;newsArchiveComplete=complete;newsErr=false;newsAt=tick;newsRender();return true;
+}
+async function loadNews(){if(!$('newsList'))return;if(newsRequest)return newsRequest;
+  const seq=++newsSeq,tick=++alNewsTick;
+  const get=async(f,timeout=15000)=>{const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),timeout);try{const r=await fetch(f,{cache:'no-cache',signal:ctrl.signal});if(!r.ok)throw new Error(r.status);return await r.text();}finally{clearTimeout(timer);}};
+  newsRequest=(async()=>{
+    // Reuse only validated original records, never a pre-rendered/translated HTML cache.
+    if(newsItems.length&&newsLanguage!==newsLang())await newsApplyItems(newsItems.map(o=>o.raw),{complete:newsArchiveComplete,raw:newsRaw,tick,seq});
+    if(!newsItems.length){const saved=newsSnapshotRead();if(saved){newsLoadState='cached';await newsApplyItems(saved.items,{tick,seq});}}
+    if(!newsArchiveComplete){try{const recent=JSON.parse(await get('news-recent.json',4500));if(recent.version!==1||!Array.isArray(recent.items)||recent.items.length>50||!Number.isInteger(recent.total)||recent.total<recent.items.length||!/^[a-f0-9]{64}$/.test(recent.archive_sha256||''))throw new Error('Invalid recent news snapshot');newsRecentMeta=recent;newsLoadState='loading';await newsApplyItems(recent.items,{tick,seq});newsSnapshotSave(recent);}catch(_){}}
+    // Give recent cards an actual paint before starting archive processing.
+    await new Promise(resolve=>requestAnimationFrame(()=>setTimeout(resolve,0)));
+    try{const text=await get('news.json',60000);if(seq!==newsSeq)return;
+      if(text===newsRaw&&newsArchiveComplete&&newsLanguage===newsLang()){newsLoadState='';newsAt=tick;newsRender();return;}
+      const j=JSON.parse(text),items=Array.isArray(j)?j:j?.items;if(!Array.isArray(items))throw new Error('Invalid news archive');
+      let digest=null;try{digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text)))].map(v=>v.toString(16).padStart(2,'0')).join('');}catch(_){}
+      if(newsRecentMeta&&digest&&newsRecentMeta.archive_sha256!==digest)newsRecentMeta=null;
+      // On an edge-cache generation mismatch, replace the entire view from the canonical
+      // archive. Never concatenate two generations or treat the recent slice as complete.
+      newsLoadState='';await newsApplyItems(items,{complete:true,raw:text,tick,seq});
+      if(digest){newsRecentMeta={version:1,archive_sha256:digest,total:items.length,items:newsRecentOf(items)};newsSnapshotSave(newsRecentMeta);}
+    }catch(e){if(seq!==newsSeq)return;newsLoadState='offline';if(!newsItems.length){try{const items=newsFromMd(await get('news.md',4500));await newsApplyItems(items,{tick,seq});}catch(_){newsErr=e instanceof SyntaxError;}}newsAt=tick;newsRender();}
+  })().finally(()=>{newsRequest=null;if(newsItems.length&&newsLanguage!==newsLang())loadNews();});return newsRequest;
 }
 // v56: search – live filter over title/text/company/date (case-insensitive), every match wrapped in <mark>; text is escaped piece by piece
 let newsItems = [], newsErr = false;
@@ -6836,24 +6841,33 @@ function newsPreview(o){ if(o.preview)return o.preview;const p=String(o.text||''
 function newsSources(o){ const a=o.sources||o['מקורות'];return Array.isArray(a)?a.filter(x=>x&&typeof x==='object'&&/^https?:\/\//i.test(x.url||'')&&String(x.label||'').trim()).map(x=>({url:String(x.url),label:String(x.label),role:String(x.role||'')})):[]; }
 function newsSourceHtml(o){ if(!o.sources?.length)return /^https?:\/\//i.test(o.link)?`<a class="news-l" href="${esc(o.link)}${I18n.p("ui-1245","\" target=\"_blank\" rel=\"noopener\">לפרטים ←</a>")}`:'';
  return I18n.p("ui-1246","<details class=\"news-sources\" style=\"margin-top:12px\"><summary style=\"cursor:pointer;font-weight:700;color:var(--blue)\">מקורות (")+o.sources.length+')</summary>'+o.sources.map(x=>`<div style="margin-top:10px"><a class="news-l" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)} ←</a>${x.role?`<div class="note">${esc(x.role)}</div>`:''}</div>`).join('')+'</details>'; }
-function newsRender(){ const el = $('newsList'), cnt = $('newsCnt'); if(!el) return; const L = newsItems, q = ($('newsQ').value||'').trim(); $('newsQx').hidden = !$('newsQ').value;
-  newsAll = []; newsBodyItems = new Map();
-  if(!L.length){ cnt.hidden = true; el.innerHTML = `<div class="news-empty">${newsErr ? I18n.p("ui-1247","קובץ החדשות (news.json) לא תקין – בדקו פסיקים ומירכאות.") : I18n.p("ui-1248","אין עדיין חדשות.<br><small>מוסיפים פריטים בקובץ news.json באתר GitHub.</small>")}</div>`; alReveal(); return; }
-  const B = newsCat==='personal' ? L.filter(o=>tnMatches(o.raw||{})) : newsCat==='all' ? L : L.filter(o=>o.cat===newsCat); // Independent device-local personal view, never a feed mutation.
-  if(newsCat==='personal'&&!B.length){cnt.hidden=false;const tagged=L.filter(o=>o.raw?.tags_version===1&&(AlertsCore.taggedSymbols(o.raw)?.length||AlertsCore.newsSectors(o.raw).length)).length;cnt.textContent=pnText('0 התאמות · ','0 matches · ')+tagged+pnText(' כתבות מסווגות מתוך ',' tagged articles of ')+L.length;el.innerHTML='<div class="news-empty">'+pnText('אין כתבות מסווגות שתואמות לבחירה. כתבות ללא סיווג נשארות זמינות בהכל, מיקרו ומאקרו.','No tagged articles match this selection. Untagged articles remain in All, Micro and Macro.')+'</div>';alReveal();return;}
-  if(!B.length){ cnt.hidden = true; el.innerHTML = `${I18n.p("ui-1249","<div class=\"news-empty\">אין עדיין חדשות בלשונית זו.</div>")}`; alReveal(); return; }
-  const ql = q.toLocaleLowerCase(), M = q ? B.filter(o=>[o.title, o.text, o.company, o.date, newsFd(o)].some(v=>String(v||'').toLocaleLowerCase().includes(ql))) : B;
-  cnt.hidden = !q; cnt.textContent = q ? (M.length===1 ? I18n.p("ui-1250","תוצאה אחת") : `${M.length}${I18n.p("ui-1251"," תוצאות")}`) : '';
-  if(!M.length){ el.innerHTML = `${I18n.p("ui-1252","<div class=\"news-empty\">לא נמצאו חדשות עבור „")}${esc(q)}”</div>`; alReveal(); return; }
-  el.innerHTML = M.map((o,i)=>{ newsBodyItems.set(String(i),{o,q}); return `<article class="news-it" dir="${/[\u0590-\u05ff]/.test(o.title||o.text)?'rtl':'ltr'}" data-ak="${esc(o.ak)}"><details class="news-expand" data-news-body="${i}"><summary style="cursor:pointer;list-style-position:outside"><div class="news-d" style="display:inline-block;margin-bottom:6px">${newsHl(newsFd(o),q)}</div><h3 style="margin:0">${newsHl(o.title||o.company||I18n.p("ui-1253","עדכון"),q)}</h3><div class="news-preview" style="font-weight:400;font-size:13px;line-height:1.65;color:var(--muted);margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${newsBodyHl(newsPreview(o),q)}</div></summary></details></article>`; }).join('');
-  alReveal();
+let newsRenderVersion=0,newsPage=null,newsMoreObserver=null,newsExpandMode=false;
+function newsAppendBatch(limit=50){const p=newsPage;if(!p||p.version!==newsRenderVersion)return;const start=p.at,end=Math.min(p.at+limit,p.items.length),rows=[];for(let i=p.at;i<end;i++){const o=p.items[i],q=p.q;newsBodyItems.set(String(i),{o,q});rows.push(`<article class="news-it" dir="${/[\u0590-\u05ff]/.test(o.title||o.text)?'rtl':'ltr'}" data-ak="${esc(o.ak)}"><details class="news-expand" data-news-body="${i}"><summary style="cursor:pointer;list-style-position:outside"><div class="news-d" style="display:inline-block;margin-bottom:6px">${newsHl(newsFd(o),q)}</div><h3 style="margin:0">${newsHl(o.title||o.company||I18n.p('ui-1253','עדכון'),q)}</h3><div class="news-preview" style="font-weight:400;font-size:13px;line-height:1.65;color:var(--muted);margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${newsBodyHl(newsPreview(o),q)}</div></summary></details></article>`);}p.sentinel.insertAdjacentHTML('beforebegin',rows.join(''));p.at=end;
+  for(const d of [...$('newsList').querySelectorAll('details.news-expand')].slice(start,end)){const o=newsBodyItems.get(d.dataset.newsBody)?.o;if(newsExpandMode||p.open.has(o?.ak)){newsHydrate(d);d.open=true;if(newsExpandMode)d.querySelectorAll('details').forEach(x=>{x.open=true;});}}
+  if(p.at>=p.items.length){p.sentinel.remove();newsMoreObserver?.disconnect();}
+}
+function newsDrainBatches(version){if(!newsExpandMode||!newsPage||newsPage.version!==version)return;if(newsPage.at>=newsPage.items.length){newsExpandMode=false;return;}newsAppendBatch();requestAnimationFrame(()=>newsDrainBatches(version));}
+function newsEnsureKey(key){const p=newsPage;if(!p)return;const index=p.items.findIndex(o=>o.ak===key);if(index<0||index<p.at)return;const version=p.version;const step=()=>{if(newsPage?.version!==version)return;newsAppendBatch();if(newsPage.at<=index)requestAnimationFrame(step);else alReveal();};requestAnimationFrame(step);}
+function newsRender(){const el=$('newsList'),cnt=$('newsCnt');if(!el)return;const L=newsItems,q=($('newsQ').value||'').trim(),status=newsStateText();$('newsQx').hidden=!$('newsQ').value;
+  const open=new Set([...el.querySelectorAll('details.news-expand[open]')].map(d=>d.closest('article').dataset.ak));
+  newsMoreObserver?.disconnect();newsRenderVersion++;newsAll=[];newsBodyItems=new Map();newsPage=null;
+  const info=text=>{cnt.hidden=!text&&!status;cnt.textContent=[text,status].filter(Boolean).join(' · ');};
+  if(!L.length){info('');el.innerHTML='<div class="news-empty">'+(status?esc(status):newsErr?I18n.p('ui-1247','קובץ החדשות (news.json) לא תקין – בדקו פסיקים ומירכאות.'):I18n.p('ui-1248','אין עדיין חדשות.<br><small>מוסיפים פריטים בקובץ news.json באתר GitHub.</small>'))+'</div>';alReveal();return;}
+  const B=newsCat==='personal'?L.filter(o=>tnMatches(o.raw||{})):newsCat==='all'?L:L.filter(o=>o.cat===newsCat);
+  if(newsCat==='personal'&&!B.length){const tagged=L.filter(o=>o.raw?.tags_version===1&&(AlertsCore.taggedSymbols(o.raw)?.length||AlertsCore.newsSectors(o.raw).length)).length;info(pnText('0 התאמות · ','0 matches · ')+tagged+pnText(' כתבות מסווגות מתוך ',' tagged articles of ')+L.length);el.innerHTML='<div class="news-empty">'+(newsArchiveComplete?pnText('אין כתבות מסווגות שתואמות לבחירה. כתבות ללא סיווג נשארות זמינות בהכל, מיקרו ומאקרו.','No tagged articles match this selection. Untagged articles remain in All, Micro and Macro.'):esc(status||pnText('טוען את הארכיון המלא…','Loading the complete archive…')))+'</div>';alReveal();return;}
+  const ql=q.toLocaleLowerCase(),M=q?B.filter(o=>[o.title,o.text,o.company,o.date,newsFd(o)].some(v=>String(v||'').toLocaleLowerCase().includes(ql))):B;
+  info(q?(M.length===1?I18n.p('ui-1250','תוצאה אחת'):M.length+I18n.p('ui-1251',' תוצאות')):'');
+  if(!M.length){el.innerHTML='<div class="news-empty">'+(!newsArchiveComplete?esc(status||pnText('טוען את הארכיון המלא…','Loading the complete archive…')):q?I18n.p('ui-1252','לא נמצאו חדשות עבור „')+esc(q)+'”':I18n.p('ui-1249','אין עדיין חדשות בלשונית זו.'))+'</div>';alReveal();return;}
+  el.replaceChildren();const sentinel=document.createElement('div');sentinel.setAttribute('aria-hidden','true');sentinel.style.height='1px';el.append(sentinel);newsPage={items:M,q,at:0,sentinel,version:newsRenderVersion,open};newsAppendBatch();
+  if(newsPage.at<M.length){newsMoreObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting))newsAppendBatch();},{rootMargin:'0px 0px 600px 0px'});newsMoreObserver.observe(sentinel);}
+  if(newsExpandMode)requestAnimationFrame(()=>newsDrainBatches(newsRenderVersion));alReveal();
 }
 // Hidden article bodies are created only when expanded, not for the whole archive.
 let newsBodyItems = new Map();
 function newsHydrate(det){ if(!det || det.dataset.loaded==='1') return; const entry = newsBodyItems.get(det.dataset.newsBody); if(!entry) return;
   const {o,q} = entry; det.insertAdjacentHTML('beforeend',`${o.company ? `<span class="news-co">${newsHl(o.company,q)}</span>` : ''}${o.text ? `<div class="news-t">${newsBodyHl(o.text,q)}</div>` : ''}${newsImgHtml(o)}${newsSourceHtml(o)}`); det.dataset.loaded='1'; }
 $('newsList').addEventListener('toggle', e=>{ if(e.target.matches('details.news-expand') && e.target.open) newsHydrate(e.target); }, true);
-function newsSetAll(open){ if(open) $('newsList').querySelectorAll('details.news-expand').forEach(newsHydrate); $('newsList').querySelectorAll('details').forEach(d=>{d.open=open;});}
+function newsSetAll(open){newsExpandMode=open;if(!open)newsPage?.open.clear();if(open){$('newsList').querySelectorAll('details.news-expand').forEach(newsHydrate);requestAnimationFrame(()=>newsDrainBatches(newsRenderVersion));}$('newsList').querySelectorAll('details').forEach(d=>{d.open=open;});}
 $('newsExpandAll').onclick=()=>newsSetAll(true);
 $('newsCollapseAll').onclick=()=>newsSetAll(false);
 $('newsQ').addEventListener('input', newsRender);
@@ -8266,12 +8280,12 @@ function alReveal(){ try{ const f = alFocus; if(!f) return;
     if(newsTab!=='news' || !(newsAt > f.newsMark)) return;
     const again = Date.now()-(f.at||0)<20000;
     if(f.done){ if(again){ const el = [...document.querySelectorAll('#newsList article[data-ak]')].find(n=>n.dataset.ak===f.key); if(el) alShowNews(el); } return; }
-    const item = newsItems.find(o=>o.ak===f.key); if(!item){ f.done = true; return; }
+    const item = newsItems.find(o=>o.ak===f.key); if(!item){ if(!newsArchiveComplete)return; f.done = true; return; }
     const q = ($('newsQ').value||'').trim().toLocaleLowerCase();
     const hiddenCat = newsCat!=='all' && item.cat!==newsCat;
     const hiddenQ = !!q && ![item.title, item.text, item.company, item.date, newsFd(item)].some(v=>String(v||'').toLocaleLowerCase().includes(q));
     if(hiddenCat || hiddenQ){ if((f.relax||0)>3){ f.done = true; return; } f.relax = (f.relax||0)+1; if(hiddenCat){ newsCat = 'all'; try{ sessionStorage.setItem('portfolioTracker.newsCat','all'); }catch(e){} applyNewsCat(); } if(hiddenQ) $('newsQ').value = ''; newsRender(); return; }
-    const el = [...document.querySelectorAll('#newsList article[data-ak]')].find(n=>n.dataset.ak===f.key); if(!el){ f.done = true; return; }
+    const el = [...document.querySelectorAll('#newsList article[data-ak]')].find(n=>n.dataset.ak===f.key); if(!el){ newsEnsureKey(f.key); return; }
     f.at = f.at || Date.now(); alShowNews(el); f.done = true; return; }
   if(f.kind==='rep'){
     if(ui.tab!=='fin' || finTab!=='rep' || !(repAt > f.repMark)) return;

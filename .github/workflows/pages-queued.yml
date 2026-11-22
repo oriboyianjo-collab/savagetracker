@@ -39,6 +39,14 @@ jobs:
           fetch-depth: 1
       - name: Record published revision
         run: git rev-parse HEAD
+      - name: Build recent news display artifact
+        run: |
+          # Derived only from this checkout. A failed optimization must not block news publication.
+          rm -f news-recent.json
+          if ! node scripts/build-news-recent.cjs; then
+            rm -f news-recent.json
+            echo "::warning::Recent news artifact unavailable; clients will use the full archive."
+          fi
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Name this publication package
