@@ -342,6 +342,40 @@ const cat = (id) => CATALOG.find((e) => e.id === id);
   ok('uncatalogued BEA release is not added as an English-only row', !r.candidates.some((c) => /County/.test(c['אירוע'])) && r.skipped.some((x) => x.source === 'bea-uncatalogued'));
   ok('BLS released(): future release is not released yet', bls.released({ date: '2026-12-04', instant: new Date('2026-12-04T13:30:00Z') }, new Date('2026-11-22T19:00:00Z')) === false && bls.released({ date: '2026-11-06', instant: new Date('2026-11-06T13:30:00Z') }, new Date('2026-11-22T19:00:00Z')) === true);
 }
+// Weekly rows ahead of time from official schedules, with Thanksgiving-week shifts.
+{
+  const weekly = require('../scripts/econ-calendar/sources/weekly.cjs');
+  const hol = weekly.federalHolidays(2026);
+  ok('2026 federal holidays include Thanksgiving Nov 26 and Independence Day observed Jul 3', hol.has('2026-11-26') && hol.has('2026-07-03') && hol.has('2026-11-11') && !hol.has('2026-11-27'));
+  const dolHtml = '<p>Publication Schedule: The UI Weekly Claims News Release is published each week on Thursday morning at 8:30am EST.</p><table><tr><td>Release Date</td><td>Release Time</td></tr><tr><td>Wednesday, November 25, 2026</td><td>8:30 AM EST</td></tr></table>';
+  const gasHtml = '<tr><td>November 13, 2026</td><td>Friday</td><td>10:30 a.m.</td><td>Veterans Day</td></tr><tr><td>November 25, 2026</td><td>Wednesday</td><td>12:00 p.m.</td><td>Thanksgiving Day</td></tr>';
+  const oilHtml = '<tr><td>November 6, 2026</td><td>November 12, 2026</td><td>Thursday</td><td>12:00 p.m.</td><td>Veterans Day</td></tr>';
+  ok('DOL exception parsed', JSON.stringify(weekly.parseDolExceptions(dolHtml)) === JSON.stringify([{ date: '2026-11-25', hour: 8, minute: 30 }]));
+  ok('EIA exceptions parsed with time', JSON.stringify(weekly.parseEiaExceptions(gasHtml)) === JSON.stringify([{ date: '2026-11-13', hour: 10, minute: 30 }, { date: '2026-11-25', hour: 12, minute: 0 }]));
+  const pages = { [weekly.DOL_SCHED]: dolHtml, [weekly.GAS_SCHED]: gasHtml, [weekly.OIL_SCHED]: oilHtml };
+  const http = { isBlocked: () => null, getText: async (u) => pages[u] };
+  const { candidates } = await weekly.ingest(http, { from: '2026-11-22', to: '2026-12-04' });
+  const rowsOf = (he) => candidates.filter((c) => c['אירוע'] === he).map((c) => `${c['תאריך']} ${c['שעה']}`);
+  ok('claims: Wed Nov 25 15:30 (Thanksgiving), Thu Dec 3 15:30', JSON.stringify(rowsOf('תביעות אבטלה שבועיות')) === JSON.stringify(['2026-11-25 15:30', '2026-12-03 15:30']), JSON.stringify(rowsOf('תביעות אבטלה שבועיות')));
+  ok('continuing claims on the same dates', JSON.stringify(rowsOf('תביעות אבטלה מתמשכות')) === JSON.stringify(['2026-11-25 15:30', '2026-12-03 15:30']));
+  ok('gas: Wed Nov 25 at 12:00 ET = 19:00 Israel; Thu Dec 3 17:30', JSON.stringify(rowsOf('מלאי גז טבעי שבועי (EIA)')) === JSON.stringify(['2026-11-25 19:00', '2026-12-03 17:30']), JSON.stringify(rowsOf('מלאי גז טבעי שבועי (EIA)')));
+  ok('crude: Wed Nov 25 and Wed Dec 2 at 17:30', JSON.stringify(rowsOf('מלאי נפט גולמי שבועי (EIA)')) === JSON.stringify(['2026-11-25 17:30', '2026-12-02 17:30']));
+  ok('H.15: business days, none on Thanksgiving', JSON.stringify(rowsOf('ריביות נבחרות (H.15) - הפד').map((x) => x.slice(0, 10))) === JSON.stringify(['2026-11-23', '2026-11-24', '2026-11-25', '2026-11-27', '2026-11-30', '2026-12-01', '2026-12-02', '2026-12-03', '2026-12-04']) && rowsOf('ריביות נבחרות (H.15) - הפד').every((x) => x.endsWith('23:15')));
+  ok('H.4.1: Thanksgiving Thursday moves to Fri Nov 27 23:30; Dec 3 normal', JSON.stringify(rowsOf('מאזן הפד וגורמי יתרות (H.4.1)')) === JSON.stringify(['2026-11-27 23:30', '2026-12-03 23:30']));
+  ok('H.8: Fridays Nov 27 and Dec 4 at 23:15', JSON.stringify(rowsOf('נכסים והתחייבויות בנקים מסחריים (H.8)')) === JSON.stringify(['2026-11-27 23:15', '2026-12-04 23:15']));
+  ok('H.8 moves to Thursday when Friday is a holiday (Dec 25 2026 -> Dec 24)', weekly.fedDates('h8', '2026-12-20', '2026-12-26').map((d) => d.date).join() === '2026-12-24');
+  ok('weekly rows carry no actuals, forecasts or notes', candidates.every((c) => !('בפועל' in c) && !('קודם' in c) && !('צפי' in c) && !('הערה' in c)));
+  // Merge: no duplicates of an existing row, and an automation-made row gets the official holiday time.
+  const rows = [
+    { 'מזהה': 'c-0220', 'תאריך': '2026-11-25', 'שעה': '17:30', 'מדינה': 'US', 'אירוע': 'מלאי גז טבעי שבועי (EIA)', 'אירוע_en': 'Weekly natural gas inventories (EIA)', 'מקור': weekly.GAS_SCHED },
+    { 'מזהה': 'c-0221', 'תאריך': '2026-11-27', 'שעה': '23:00', 'מדינה': 'US', 'אירוע': 'נכסים והתחייבויות בנקים מסחריים (H.8)', 'מקור': 'https://www.federalreserve.gov/newsevents/2026-november.htm', 'הערה': 'n' },
+  ];
+  const { rows: next, stats } = merge.applyCandidates(rows, candidates, { addFrom: '2026-11-22' });
+  ok('no duplicate for existing gas / H.8 rows', next.filter((r) => r['אירוע'] === 'מלאי גז טבעי שבועי (EIA)' && r['תאריך'] === '2026-11-25').length === 1 && next.filter((r) => r['תאריך'] === '2026-11-27' && /H\.8/.test(r['אירוע'])).length === 1);
+  ok('gas row from the EIA schedule gets the official 19:00 holiday time', next[0]['שעה'] === '19:00' && stats.changes.some((c) => c.id === 'c-0220' && c.field === 'שעה' && c.reason === 'reschedule'));
+  ok('a row with a note or another source keeps its time', next[1]['שעה'] === '23:00' && next[1]['הערה'] === 'n');
+  ok('added weekly rows have no צפי/הערה/בפועל', next.slice(2).every((r) => !r['צפי'] && !r['הערה'] && !r['בפועל']));
+}
 // --- compact JSON style ---
 {
   const s = merge.stringifyCalendar([{ 'מזהה': 'c-0001', 'תאריך': '2026-11-19' }]);

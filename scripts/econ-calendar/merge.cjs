@@ -77,6 +77,11 @@ function mayWrite(row, field, newValue, meta = {}) {
   const cur = row[field];
   if (isEmpty(cur)) return { ok: true, reason: 'fill' };
   if (valuesEquivalent(cur, newValue)) return { ok: false, reason: 'unchanged' };
+  // Official schedule moved (e.g. holiday time): only on rows that came from the same official schedule page
+  // and carry no human note, and only for the release time.
+  if (field === 'שעה' && meta.scheduleTime && meta.sourceUrl && row['מקור'] === meta.sourceUrl && isEmpty(row['הערה'])) {
+    return { ok: true, reason: 'reschedule' };
+  }
   if (!REVISABLE.has(field)) return { ok: false, reason: 'nonempty' };
 
   const slot = autoSlot(row, field);
@@ -162,6 +167,8 @@ function applyCandidates(rows, candidates, { now = new Date(), addFrom = null } 
         agency: meta.agency,
         previousPublished: prevPub,
         officialRevision: !!meta.officialRevision,
+        scheduleTime: !!meta.scheduleTime,
+        sourceUrl: cand['מקור'],
       });
       if (!ok) {
         if (reason === 'protected') stats.protected++;

@@ -19,6 +19,7 @@ const dol = require('./econ-calendar/sources/dol.cjs');
 const eia = require('./econ-calendar/sources/eia.cjs');
 const fed = require('./econ-calendar/sources/fed.cjs');
 const other = require('./econ-calendar/sources/other.cjs');
+const weekly = require('./econ-calendar/sources/weekly.cjs');
 
 function parseArgs(argv) {
   const a = { dryRun: false, from: null, to: null, lookback: 14, file: 'calendar.json', out: null, commit: false };
@@ -68,6 +69,7 @@ async function collect(http, opts, log) {
     ['regional-fed', other.ingestRegional],
     ['treasury', other.ingestTreasury],
     ['eurostat', other.ingestEurostat],
+    ['weekly-schedule', weekly.ingest],
   ];
   for (const [name, fn] of runners) {
     if (http.isBlocked()) {

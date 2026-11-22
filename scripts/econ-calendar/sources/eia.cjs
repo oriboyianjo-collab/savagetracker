@@ -95,15 +95,7 @@ async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {} 
   const crude = CATALOG.find((e) => e.id === 'eia-crude');
   const gas = CATALOG.find((e) => e.id === 'eia-gas');
 
-  try {
-    const html = await http.getText(OIL_SCHED);
-    const dates = parseScheduleDates(html, dateMin, to);
-    for (const d of dates) out.push(candidate(crude, { date: d.date, time: d.time, url: OIL_SCHED, period: 'שבועי', periodEn: 'Weekly' }));
-  } catch (e) {
-    log(`EIA oil schedule skipped: ${e.message}`);
-    skipped.push({ source: 'eia-oil-sched', reason: e.message });
-    if (e.code === 'HTTP_STOP' || e.code === 'HTTP_BLOCKED') return { candidates: out, skipped };
-  }
+  // Upcoming weekly schedule rows (with official holiday exceptions) come from sources/weekly.cjs.
   try {
     const html = await http.getText(OIL_PAGE);
     const dates = parseOilReleaseDates(html, dateMin, to);
@@ -140,14 +132,6 @@ async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {} 
     if (e.code === 'HTTP_STOP' || e.code === 'HTTP_BLOCKED') return { candidates: out, skipped };
   }
 
-  try {
-    const html = await http.getText(GAS_SCHED);
-    const dates = parseScheduleDates(html, dateMin, to);
-    for (const d of dates) out.push(candidate(gas, { date: d.date, time: d.time || '17:30', url: GAS_SCHED, period: 'שבועי', periodEn: 'Weekly' }));
-  } catch (e) {
-    log(`EIA gas schedule skipped: ${e.message}`);
-    skipped.push({ source: 'eia-gas-sched', reason: e.message });
-  }
   try {
     const html = await http.getText(GAS_PAGE);
     const ch = parseGasChange(html);
