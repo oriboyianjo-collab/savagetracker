@@ -6779,6 +6779,7 @@ function newsFromMd(t){ return t.split(/^\s*---+\s*$/m).map(b=>{ const o = {}, b
 const NLANG_KEY = 'portfolioTracker.newsLang';
 function newsLang(){ try{ const v = localStorage.getItem(NLANG_KEY); if(v==='he'||v==='en') return v; }catch(_){} return I18n.language; }
 function newsLangCtl(){ const c = $('newsLangSeg'); if(!c) return; c.setAttribute('aria-label', I18n.language==='en' ? 'Article language' : 'שפת הכתבות'); const cur = newsLang(); c.querySelectorAll('[data-nl]').forEach(b=>{ const on = b.dataset.nl===cur; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); }); }
+var alNewsTick=0,newsAt=0; // Initialized before restored tabs can start a News request.
 let newsSeq = 0, newsRequest = null, newsRaw = null, newsLanguage = ''; const NSEEN_KEY = 'portfolioTracker.newsSeen.v1';
 // v335: first paint uses a derived recent snapshot; the complete archive stays authoritative.
 const NEWS_SNAPSHOT_KEY='portfolioTracker.newsSnapshot.v1';
@@ -6797,7 +6798,7 @@ async function newsApplyItems(items,{complete=false,raw=null,tick=0,seq=newsSeq}
   {let seen=loadJ(NSEEN_KEY);if(!seen||typeof seen!=='object')seen={};const keep={},now=Date.now();L.forEach(o=>{const k=o.identity;if(seen[k]==null&&seen[o.legacySeen]!=null)seen[k]=seen[o.legacySeen];if(seen[k]==null)seen[k]=newsInitialSeen?(o.t||0):now;keep[k]=seen[k];const u=o.up?newsTime(o.up):null;o.u=u!=null?u:keep[k];});try{localStorage.setItem(NSEEN_KEY,JSON.stringify(complete?keep:{...seen,...keep}));}catch(_){}L.sort((a,b)=>(b.u-a.u)||((b.t??-Infinity)-(a.t??-Infinity))||a.i-b.i);}
   newsItems=L;newsRaw=raw;newsLanguage=nl;newsArchiveComplete=complete;newsErr=false;newsAt=tick;newsRender();return true;
 }
-async function loadNews(){if(!$('newsList'))return;if(newsRequest)return newsRequest;
+async function loadNews(){if(!$('newsList'))return;if(newsRequest){if(alFocus?.kind==='news'&&!alFocus.done){alFocus.newsMark=Math.min(alFocus.newsMark,alNewsTick-1);alReveal();}return newsRequest;}
   const seq=++newsSeq,tick=++alNewsTick;
   const get=async(f,timeout=15000)=>{const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),timeout);try{const r=await fetch(f,{cache:'no-cache',signal:ctrl.signal});if(!r.ok)throw new Error(r.status);return await r.text();}finally{clearTimeout(timer);}};
   newsRequest=(async()=>{
@@ -8266,7 +8267,7 @@ function alRender(){ const c = $('alertsCard'); if(!c || !alView) return;
   if(alView!=='list'){pnRender();pnLayout();bindAlPortSwitch();}
   $('alBack').onclick = ()=>{ navDrop('alerts'); alClose(); }; }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-pn-remove]');if(!b)return;pnPrefs().symbols=pnPrefs().symbols.filter(x=>x!==b.dataset.pnRemove);pnChanged();});
-var alFocus = null, alDeep = false, alNewsTick = 0, alRepTick = 0, newsAt = 0, repAt = 0; function alClearPins(){ document.querySelectorAll('[data-al-pin]').forEach(el=>{ delete el.dataset.alPin; el.classList.remove('al-pin'); }); }
+var alFocus = null, alDeep = false, alRepTick = 0, repAt = 0; function alClearPins(){ document.querySelectorAll('[data-al-pin]').forEach(el=>{ delete el.dataset.alPin; el.classList.remove('al-pin'); }); }
 function alHash(s){ if(window.AlertsCore && typeof AlertsCore.H==='function') return AlertsCore.H(s); let h = 5381; for(let i=0;i<s.length;i++) h = ((h*33) ^ s.charCodeAt(i))>>>0; return h.toString(36); }
 function alNewsKey(o){ const t = String(o && o['כותרת'] || '').trim(); return 'n|'+alHash(t+'|'+(o && (o['הועלה']||o['תאריך']) || '')); }
 function alScroll(el){ const go = ()=>{ if(!el || !el.isConnected) return; const hb = document.querySelector('header.top')?.getBoundingClientRect().bottom || 0; window.scrollTo({top: Math.max(0, el.getBoundingClientRect().top + window.scrollY - hb - 8)}); }; go(); requestAnimationFrame(go); }
