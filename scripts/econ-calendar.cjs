@@ -33,6 +33,7 @@ function parseArgs(argv) {
     else if (x === '--out') a.out = argv[++i];
     else if (x === '--report') a.report = argv[++i];
     else if (x === '--full') a.full = true;
+    else if (x === '--ahead') a.ahead = +argv[++i];
     else if (x === '--light') a.full = false;
   }
   return a;
@@ -110,7 +111,8 @@ async function run(argv = process.argv.slice(2), io = {}) {
   const log = io.log || ((m) => console.error(m));
   const now = io.now || new Date();
   const today = todayIsrael(now);
-  const to = args.to || today;
+  // Schedule rows look ahead (default 10 days) so the coming week is in the calendar; actuals only for past releases.
+  const to = args.to || shiftDate(today, args.ahead != null ? args.ahead : 10);
   const from = args.from || today;
   const lookbackFrom = shiftDate(from, -Math.abs(args.lookback || 14));
   const file = path.resolve(args.file);

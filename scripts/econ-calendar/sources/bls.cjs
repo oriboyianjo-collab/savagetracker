@@ -20,6 +20,12 @@ function neededSeries() {
  * blsSeries.scale converts the raw series unit to persons before formatting, so a 165 (thousand)
  * monthly change is written as "165K", never "0.2K". Percent / rate series are never scaled.
  */
+function released(ev, now) {
+  const t = (now instanceof Date ? now : new Date()).getTime();
+  if (ev.instant instanceof Date) return ev.instant.getTime() <= t;
+  return ev.date < new Date(t).toISOString().slice(0, 10);
+}
+
 function scaleOf(entry) {
   const s = +(entry.blsSeries && entry.blsSeries.scale);
   return Number.isFinite(s) && s > 0 ? s : 1;
@@ -172,20 +178,9 @@ async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {},
     if (!inRange(ev.date, dateMin, to)) continue;
     const matches = matchSummary(ev.summary, 'bls');
     const entries = matches.length ? matches : [];
-    // If no catalog match, still add a generic official BLS schedule row (English title + Hebrew fallback = English)
+    // Uncatalogued BLS releases (regional tables etc.) are not added: they would show as English-only rows.
     if (!entries.length) {
-      out.push({
-        'תאריך': ev.date,
-        'שעה': ev.time,
-        'מדינה': 'US',
-        'אירוע': ev.summary,
-        'אירוע_en': ev.summary,
-        'חשיבות': 1,
-        'מקור': ICS,
-        _sourceUrl: ICS,
-        _aliases: [ev.summary],
-        _meta: { agency: 'bls', series: 'bls-other' },
-      });
+      skipped.push({ source: 'bls-uncatalogued', date: ev.date, reason: ev.summary });
       continue;
     }
     for (const entry of entries) {
@@ -229,7 +224,8 @@ async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {},
   for (const entry of CATALOG) {
     if (entry.agency !== 'bls' || !entry.blsSeries) continue;
     const obs = map[entry.blsSeries.id] || [];
-    const releases = (bySummaryDate.get(entry.blsSummary) || []).filter((r) => inRange(r.date, dateMin, to));
+    // Actuals only for releases that have already happened (schedule rows may look ahead).
+    const releases = (bySummaryDate.get(entry.blsSummary) || []).filter((r) => inRange(r.date, dateMin, to) && released(r, now));
     for (const ev of releases) {
       // Each release only gets the month it covers. No match -> nothing written (never the newest month by default).
       const targetYm = referenceYm(entry, ev.date);
@@ -259,4 +255,4 @@ async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {},
   return { candidates: out, skipped };
 }
 
-module.exports = { ingest, compute, formatSeriesValue, neededSeries, plausible, referenceYm, scaleOf };
+module.exports = { ingest, compute, formatSeriesValue, neededSeries, plausible, referenceYm, scaleOf, released };

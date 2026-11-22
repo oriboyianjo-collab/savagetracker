@@ -44,10 +44,8 @@ function summaryToEntries(summary) {
   if (/Personal Income and Outlays/i.test(s)) {
     return CATALOG.filter((e) => e.agency === 'bea' && /pce|income|spending/i.test(e.id));
   }
-  return [{
-    id: 'bea-other', agency: 'bea', country: 'US', importance: 1,
-    he: s.replace(/\\,/g, ','), en: s.replace(/\\,/g, ','), aliases: [s],
-  }];
+  // Uncatalogued BEA releases are not added (English-only rows; trade is covered by the Census source).
+  return [];
 }
 
 /** Reference period the release covers, from BEA's own title. Ambiguous titles (two months) -> null. */
@@ -117,7 +115,7 @@ function periodLabel(entry, ref) {
   return { period: p.he, periodEn: p.en };
 }
 
-async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {} }) {
+async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {}, now = new Date() }) {
   const out = [];
   const skipped = [];
   const dateMin = lookbackFrom || from;
@@ -128,6 +126,7 @@ async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {} 
     for (const ev of events) {
       if (!inRange(ev.date, dateMin, to)) continue;
       const entries = summaryToEntries(ev.summary);
+      if (!entries.length) skipped.push({ source: 'bea-uncatalogued', date: ev.date, reason: ev.summary });
       for (const entry of entries) {
         out.push(candidate(entry, { date: ev.date, time: ev.time, url: 'https://www.bea.gov/news/schedule' }));
       }
@@ -146,10 +145,11 @@ async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {} 
   }
 
   // Only releases that already happened and carry actuals; fetch each table once.
-  const nowIso = new Date().toISOString().slice(0, 10);
+  // Actuals only for releases that have already happened (schedule rows may look ahead).
+  const nowMs = (now instanceof Date ? now : new Date()).getTime();
   const work = [];
   for (const { ev, entries } of releases) {
-    if (ev.date > (to || nowIso)) continue;
+    if (ev.instant instanceof Date ? ev.instant.getTime() > nowMs : ev.date >= new Date(nowMs).toISOString().slice(0, 10)) continue;
     const ref = refPeriod(ev.summary);
     for (const entry of entries) {
       const spec = SERIES[entry.id];

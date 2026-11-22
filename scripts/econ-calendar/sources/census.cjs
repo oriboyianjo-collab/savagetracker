@@ -85,7 +85,10 @@ async function ingest(http, { from, to, lookbackFrom, keys = {}, log = () => {} 
     const html = await http.getText(STARTS_HTML);
     const starts = parseHousingStarts(html);
     if (starts) {
-      const ev = events.find((e) => /New Residential Construction/i.test(e.title) && inRange(e.date, dateMin, to));
+      // Latest release that already happened (schedule rows may look ahead).
+      const today = require('../time.cjs').todayIsrael();
+      const ev = events.filter((e) => /New Residential Construction/i.test(e.title) && inRange(e.date, dateMin, to) && e.date <= today)
+        .sort((a, b) => b.date.localeCompare(a.date))[0];
       const entry = CATALOG.find((c) => c.id === 'census-housing-starts');
       if (entry && ev) {
         const per = ev.periodYm ? periodFromYm(ev.periodYm) : {};

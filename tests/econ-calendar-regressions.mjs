@@ -326,6 +326,22 @@ const cat = (id) => CATALOG.find((e) => e.id === id);
   const { redact } = require('../scripts/econ-calendar/http.cjs');
   ok('API keys are redacted from logged URLs', redact('https://apps.bea.gov/api/data?UserID=SECRET&method=GetData') === 'https://apps.bea.gov/api/data?UserID=***&method=GetData' && redact('https://x/?api_key=S&a=1') === 'https://x/?api_key=***&a=1');
 }
+// Look-ahead: schedule rows for future releases never get actuals (GDP 2nd estimate must not inherit the advance value).
+{
+  const bea = require('../scripts/econ-calendar/sources/bea.cjs');
+  const ics2 = ['BEGIN:VCALENDAR', 'BEGIN:VEVENT', 'DTSTART:20261125T133000Z', 'SUMMARY:GDP (Second Estimate) and Corporate Profits\\, 3rd Quarter 2026', 'END:VEVENT',
+    'BEGIN:VEVENT', 'DTSTART:20261029T123000Z', 'SUMMARY:GDP (Advance Estimate)\\, 3rd Quarter 2026', 'END:VEVENT',
+    'BEGIN:VEVENT', 'DTSTART:20261202T133000Z', 'SUMMARY:GDP by County and Personal Income by County\\, 2025', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
+  const table = { BEAAPI: { Results: { Data: [{ SeriesCode: 'A191RL', TimePeriod: '2026Q3', DataValue: '3.4' }, { SeriesCode: 'A191RL', TimePeriod: '2026Q2', DataValue: '2.2' }] } } };
+  const http = { isBlocked: () => null, getText: async () => ics2, get: async () => ({ text: () => JSON.stringify(table) }) };
+  const r = await bea.ingest(http, { from: '2026-11-22', to: '2026-12-05', lookbackFrom: '2026-10-25', keys: { BEA_API_KEY: '12345678-abcd-4ef0-9a9a-0123456789ab' }, now: new Date('2026-11-22T19:00:00Z') });
+  const second = r.candidates.filter((c) => c['אירוע'] === 'תמ"ג ריאלי (הערכה שנייה)');
+  ok('future GDP 2nd estimate row is scheduled without an actual', second.length >= 1 && second.every((c) => !('בפועל' in c) && !('קודם' in c)), JSON.stringify(second));
+  const adv = r.candidates.find((c) => c['אירוע'] === 'תמ"ג ריאלי (הערכה ראשונה)' && c['בפועל']);
+  ok('past GDP advance row gets 3.4% / 2.2%', adv && adv['בפועל'] === '3.4%' && adv['קודם'] === '2.2%', JSON.stringify(adv));
+  ok('uncatalogued BEA release is not added as an English-only row', !r.candidates.some((c) => /County/.test(c['אירוע'])) && r.skipped.some((x) => x.source === 'bea-uncatalogued'));
+  ok('BLS released(): future release is not released yet', bls.released({ date: '2026-12-04', instant: new Date('2026-12-04T13:30:00Z') }, new Date('2026-11-22T19:00:00Z')) === false && bls.released({ date: '2026-11-06', instant: new Date('2026-11-06T13:30:00Z') }, new Date('2026-11-22T19:00:00Z')) === true);
+}
 // --- compact JSON style ---
 {
   const s = merge.stringifyCalendar([{ 'מזהה': 'c-0001', 'תאריך': '2026-11-19' }]);
