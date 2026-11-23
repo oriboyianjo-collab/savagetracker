@@ -745,6 +745,16 @@ html.ext-sess .pcard .pc-d .xl,html.ext-sess .wr .pc-d .xl{min-height:13px}
 
 /* v102: details (key stats) grid – 3 columns, label above value, like Webull */
 .det{margin-top:12px;border:1px solid var(--border);border-radius:14px;background:var(--bg-f8fafc);overflow:hidden}
+
+.about{margin-top:12px;border:1px solid var(--border);border-radius:14px;background:var(--bg-f8fafc);overflow:hidden}
+.about[hidden]{display:none}
+.about-t{width:100%;display:flex;align-items:center;min-height:46px;padding:0 14px;color:var(--text);font:inherit;font-weight:800}
+.about-b{padding:12px 14px 14px;border-top:1px solid var(--border)}
+.about-txt{margin:0;font-size:.9rem;line-height:1.45;color:var(--text)}
+.about-more{display:inline-flex;align-items:center;gap:2px;margin-top:8px;padding:6px 0;min-height:32px;border:0;background:none;color:var(--primary-d);font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}
+.about-src{margin:8px 0 0;font-size:.72rem;color:var(--muted);line-height:1.35}
+.about-src a{color:var(--primary-d);text-decoration:none;font-weight:600}
+
 .det-t{width:100%;display:flex;align-items:center;justify-content:space-between;min-height:46px;padding:0 14px;background:none;border:0;color:var(--text);font:inherit;font-weight:800;cursor:pointer}.det-t i{font-style:normal;color:var(--muted)}
 .det-g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:8px;row-gap:14px;padding:12px 14px 16px;border-top:1px solid var(--border)}.det-g[hidden]{display:none}
 .det-g>div{min-width:0}.det-g>div:nth-child(3n+1){text-align:start}.det-g>div:nth-child(3n+2){text-align:center}.det-g>div:nth-child(3n){text-align:end}
@@ -5241,6 +5251,7 @@ function instSheetHtml(it){ const held = it.sec && computeAll().positions.some(p
     ${it.sec&&!israelIndexMeta(it.sym) ? I18n.p("ui-0619","<div class=\"is-trade\"><button class=\"btn btn-primary\" data-istx=\"buy\">🛒 קנייה</button><button class=\"btn btn-light\" data-istx=\"sell\">💰 מכירה</button></div>") : ''}
     <div class="seg sm" id="isRange" style="margin-top:10px">${INST_RANGES.map(([v,l])=>`<button data-v="${v}">${l}</button>`).join('')}</div>${instReturnChoiceHtml(it)}${I18n.p("ui-0623","\n    <details style=\"margin-top:10px\" id=\"isCustom\"><summary style=\"cursor:pointer\">טווח תאריכים לבחירה</summary><div style=\"display:flex;gap:6px;flex-wrap:wrap;margin-top:8px\"><label style=\"flex:1;min-width:140px\">מתאריך<input id=\"isFrom\" type=\"date\" max=\"")}${today()}" value="${addDays(today(),-366)}${I18n.p("ui-0624","\" style=\"width:100%\"></label><label style=\"flex:1;min-width:140px\">עד תאריך<input id=\"isTo\" type=\"date\" max=\"")}${today()}" value="${today()}${I18n.p("ui-0625","\" style=\"width:100%\"></label><button class=\"btn btn-primary btn-sm\" id=\"isApplyDates\" style=\"width:100%;min-height:44px\">הצגת הטווח</button></div><div class=\"note\" id=\"isDateErr\" role=\"status\"></div></details>\n    <div class=\"seg sm ivseg\" id=\"isIv\" aria-label=\"אינטרוול\"></div><div class=\"chart\" id=\"isChart\" style=\"height:280px;margin-top:6px\"><div class=\"chart-msg\" id=\"isMsg\">טוען גרף…</div></div>\n    <div id=\"isCoverage\" class=\"note\" hidden></div><div class=\"inst-stats\" id=\"isStats\"></div>")}${it.sec && it.type!=='crypto'&&!israelIndexMeta(it.sym) ? obHtml(it.sym) : ''}
     ${it.sec && it.type!=='crypto'&&!israelIndexMeta(it.sym) ? detHtml() : ''}
+    ${it.sec && it.type!=='crypto'&&!israelIndexMeta(it.sym) ? aboutCardHtml() : ''}
     ${it.sec ? wlAddHtml(it.sym, it.n, it.type, it.cur) : it.fx ? wlAddHtml(it.sym, it.n, 'fx', '') : ''}
     ${it.stock ? stockFinanceButtonHtml(it.sym) : ''}
     ${held ? `${I18n.p("ui-0620","<div class=\"btn-row\" style=\"margin-top:8px\"><button class=\"btn btn-light\" id=\"isPos\">💼 פתיחת הפוזיציה בתיק</button></div>")}` : ''}
@@ -5249,6 +5260,46 @@ function instSheetHtml(it){ const held = it.sec && computeAll().positions.some(p
 // ---- v102: 'פרטים' – Webull-style key stats (3 columns, label above value). Only CNBC data the app already requests (+ 3M avg volume from the CNBC daily bars); '--' when missing ----
 const DET_KEY = 'portfolioTracker.detOpen.v1'; let detOpen = localStorage.getItem(DET_KEY)!=='0';
 const DET_DASH = '--', av3m = {}, av3mWin = {};
+
+function aboutCardHtml(){ return `<div class="about" id="isAbout" hidden><div class="about-t"><span>🏢 ${I18n.p("ui-1523","על החברה")}</span></div><div class="about-b"><p class="about-txt" id="isAboutTxt"></p><button class="about-more" type="button" id="isAboutMore" hidden></button><p class="about-src" id="isAboutSrc"></p></div></div>`; }
+let aboutOpen = false, aboutData = null, aboutSym = '';
+function aboutSourceHtml(p){
+  const en = I18n.language==='en', form = esc(p.form || '10-K');
+  const date = String(p.filing_date||'').replace(/^(\d{4})-(\d{2})-(\d{2})$/, '$3.$2.$1') || '';
+  const meta = `<bdi dir="ltr">${form}${date ? ' · '+date : ''}</bdi>`;
+  const label = en ? `Source: Annual report ${meta}` : `מקור: דוח שנתי ${meta}`;
+  const url = String(p.url||'');
+  if(!/^https:\/\/(www\.|data\.)?sec\.gov\//i.test(url)) return `<span>${label}</span>`;
+  return `<a href="${esc(url)}" target="_blank" rel="noopener">${label}</a>`;
+}
+function renderAbout(){
+  const box = $('isAbout'); if(!box) return;
+  const en = I18n.language==='en';
+  const title = box.querySelector('.about-t span');
+  if(title) title.textContent = '🏢 ' + I18n.p("ui-1523","על החברה");
+  if(!aboutData){ box.hidden = true; return; }
+  const short = ((en ? aboutData.short_en : (aboutData.short_he || aboutData.short_en)) || '').trim();
+  const full = ((en ? aboutData.full_en : (aboutData.full_he || aboutData.full_en)) || short).trim();
+  if(!short){ box.hidden = true; return; }
+  box.hidden = false;
+  const txt = $('isAboutTxt'), more = $('isAboutMore'), src = $('isAboutSrc');
+  const canMore = !!(full && full !== short);
+  const showFull = aboutOpen && canMore;
+  if(txt) txt.textContent = showFull ? full : short;
+  if(more){ more.hidden = !canMore; more.textContent = showFull ? I18n.p("ui-1525","הצג פחות")+' ▴' : I18n.p("ui-1524","קרא עוד")+' ▾'; more.onclick = ()=>{ aboutOpen = !aboutOpen; renderAbout(); }; }
+  if(src) src.innerHTML = aboutSourceHtml(aboutData);
+}
+function loadAbout(sym){
+  aboutOpen = false; aboutData = null; aboutSym = String(sym||'').toUpperCase();
+  renderAbout();
+  if(!/^[A-Z0-9][A-Z0-9.\-]{0,14}$/.test(aboutSym)) return;
+  fetch('company-profiles/'+encodeURIComponent(aboutSym)+'.json?h='+Math.floor(Date.now()/36e5), {cache:'no-store'})
+    .then(r => r.ok ? r.json() : null)
+    .then(j => { if(aboutSym !== String(sym||'').toUpperCase()) return; aboutData = (j && (j.short_en||j.short_he)) ? j : null; renderAbout(); })
+    .catch(()=>{});
+}
+I18n.bind(()=>{ if($('isAbout')) renderAbout(); });
+
 function detHtml(){ return `<div class="det" id="isDet"><button class="det-t" data-det aria-expanded="${detOpen}${I18n.p("ui-0626","\"><span>📊 פרטים</span><i aria-hidden=\"true\">")}${detOpen?'▴':'▾'}</i></button><div class="det-g" id="isDetG"${detOpen?'':' hidden'}></div></div>`; }
 function detFmtN(v, d){ return v==null || !isFinite(v) ? DET_DASH : v.toLocaleString('en-US', {minimumFractionDigits:d, maximumFractionDigits:d}); }
 function detFmtBig(v){ if(v==null || !isFinite(v) || v<=0) return DET_DASH; const [d,u] = v>=1e12 ? [1e12,'T'] : v>=1e9 ? [1e9,'B'] : v>=1e6 ? [1e6,'M'] : v>=1e3 ? [1e3,'K'] : [1,'']; const x = v/d; return (x>=100 ? x.toFixed(0) : x>=10 ? x.toFixed(1) : x.toFixed(2)) + u; }
@@ -5383,7 +5434,7 @@ async function drawInstChart(){ const S = instSheet; if(!S) return; const it = S
   s.setData(data); ChartTools.tradeMarkers(s,it.sym,S.iv);ChartTools.context(el,it,S.range,S.iv,cnd?'candle':'line');ChartTools.volume(el,ChartTools.barRows(instCache[instKey(it,S.range,S.iv)]?.pts||[],'intraday',intr?off:0),'CNBC'); S.series = s; S.off = intr ? off : 0; S.lastT = data[data.length-1].time;
   const q = iq(it); if(S.range==='1D' && q && q.prev) s.createPriceLine({price:q.prev, color:'#94a3b8', lineWidth:1, lineStyle:2, axisLabelVisible:false, title:I18n.p("ux-0579","סגירה")});
   posChart.timeScale().fitContent(); }
-function openInstSheet(it, range){ openSheet(instSheetHtml(it)); instSheet = {it, range:israelIndexMeta(it.sym)?(range||'1M'):'1D', style:'candle', seq:0}; if(it.sec&&!israelIndexMeta(it.sym)) obMount(it.sym);   // Non-index opens retain daily+candles; Israeli search opens verified daily-history month. v175: the order-book mount had been swallowed by this comment since v172
+function openInstSheet(it, range){ openSheet(instSheetHtml(it)); instSheet = {it, range:israelIndexMeta(it.sym)?(range||'1M'):'1D', style:'candle', seq:0}; if(it.sec&&!israelIndexMeta(it.sym)&&it.type!=='crypto') loadAbout(it.sym); if(it.sec&&!israelIndexMeta(it.sym)) obMount(it.sym);   // Non-index opens retain daily+candles; Israeli search opens verified daily-history month. v175: the order-book mount had been swallowed by this comment since v172
   // v84: buy / sell straight from any instrument screen (search, watchlist, market, news, reports) – pre-filled symbol, currency and live price
   $('sheetBody').querySelectorAll('[data-istx]').forEach(b=>b.onclick = ()=>{ const q = iq(it), bookingCur=isEuSec(it.sym)?'USD':it.cur, pr = q && q.price!=null ? convertCur(q.price,q.cur,bookingCur) : null, ty = b.dataset.istx, h = computeAll().positions.find(p=>p.sym===it.sym);
     openTxForm(ty, {symbol:it.sym, currency:bookingCur, assetType:it.type, date:today(), ...(ty==='sell' && h && h.qty>0 ? {qty:h.qty} : {}), ...(pr!=null ? {price: pr<10 ? Math.round(pr*10000)/10000 : Math.round(pr*100)/100} : {})}, null, null); });
@@ -5846,13 +5897,14 @@ function openPosition(sym){posReturnMode='price';ui.posRange='1D'; ui.posStyle='
     <div class="kv" style="margin-top:10px" id="posKv">${posKvHtml(p)}</div>
     <div class="note" id="posInfo">${posInfoHtml(p)}</div>
     ${assetOf(sym).type!=='crypto' && secInst({sym, type:assetOf(sym).type||'stock', currency:assetOf(sym).currency}).sec ? detHtml() : ''}
+    ${assetOf(sym).type!=='crypto' && secInst({sym, type:assetOf(sym).type||'stock', currency:assetOf(sym).currency}).sec ? aboutCardHtml() : ''}
     <div class="btn-row" style="margin-top:12px">
       <button class="btn btn-primary" data-pact="buy">🛒 ${short?I18n.p("ui-0934","קנייה לכיסוי"):I18n.p("ui-0935","קנייה")}</button>
       <button class="btn btn-light" data-pact="sell">💰 ${short?I18n.p("ui-0936","הגדלת שורט"):I18n.p("ui-0937","מכירה")}</button></div>
     <div id="posSplitSug">${splitSugHtml(sym)}${I18n.p("ui-0944","</div>\n    <div class=\"btn-row\" style=\"margin-top:8px\"><button class=\"btn btn-light\" data-pact=\"manual\">✏️ מחיר ידני")}${num(state.manual[sym])!=null?I18n.p("ui-0938"," (פעיל)"):''}${I18n.p("ui-0945","</button><button class=\"btn btn-light\" data-pact=\"split\">✂️ פיצול / איחוד</button>\n      ")}${!open ? (isHiddenClosed(sym) ? I18n.p("ui-0939","<button class=\"btn btn-light\" data-pact=\"unhide\">↩️ החזרה לרשימה</button>") : I18n.p("ui-0940","<button class=\"btn btn-light\" data-pact=\"hide\">הסר מהרשימה</button>")) : ''}</div>
     ${wlAddHtml(sym, assetOf(sym).name||'', assetOf(sym).type||'stock', assetOf(sym).currency||'USD')}${I18n.p("ui-0946","\n    <div class=\"btn-row\" style=\"margin-top:8px\"><button class=\"btn btn-danger\" data-pact=\"remove\">🗑️ הסר לגמרי</button></div>\n    <div id=\"posLots\">")}${lotsHtml(sym, cur)}${I18n.p("ui-0947","</div>\n    <div class=\"sym-tx\"><h4>העסקאות שלך ב-<span class=\"ltr\">")}${esc(sym)}${I18n.p("ui-0948","</span> <small class=\"muted\" style=\"font-weight:500\">(לחיצה לעריכה או מחיקה)</small></h4><div id=\"symTx\">")}${symTxHtml(sym)}</div></div>`);
   sheetSym = sym; sheetPrice = p.price; obMount(sym);
-  if($('isDetG')){ posDet = secInst({sym, type:assetOf(sym).type||'stock', currency:assetOf(sym).currency}); posDetAt = Date.now(); drawDet(); loadAv3m(posDet); obVolDraw(); if(detOpen){ fundLoad(); } instQuotes([posDet]).then(()=>{ if(sheetSym===sym && posDet) drawDet(); }).catch(()=>{}); }   // v161: same details grid as the instrument sheet (public per-share data only)
+  if($('isDetG')){ posDet = secInst({sym, type:assetOf(sym).type||'stock', currency:assetOf(sym).currency}); posDetAt = Date.now(); drawDet(); loadAv3m(posDet); loadAbout(sym); obVolDraw(); if(detOpen){ fundLoad(); } instQuotes([posDet]).then(()=>{ if(sheetSym===sym && posDet) drawDet(); }).catch(()=>{}); }   // v161: same details grid as the instrument sheet (public per-share data only)
   $('posRange').closest('.ctrls').insertAdjacentHTML('afterend',instReturnChoiceHtml(secInst({sym,type:p.asset.type||'stock',currency:cur})));
   $('isReturnChoice')?.addEventListener('click',e=>{const b=e.target.closest('[data-return-mode]');if(b){posReturnMode=b.dataset.returnMode;if(posLive)renderPosRchg(posLive.bar?.close);posReturnChoiceSync();}if(e.target.closest('#isReturnInfo')){const x=$('isReturnExplanation'),open=x.hidden;x.hidden=!open;$('isReturnInfo').setAttribute('aria-expanded',String(open));}});posReturnChoiceSync();
   const body = $('sheetBody');
