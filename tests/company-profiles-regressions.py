@@ -15,7 +15,7 @@ HERE = ROOT / "scripts" / "company-profiles"
 FIXT = ROOT / "tests" / "fixtures" / "company-profiles"
 sys.path.insert(0, str(HERE))
 
-from extract import extract_profile_text, html_to_text, item_body  # noqa: E402
+from extract import EXTRACTOR_VERSION, extract_profile_text, html_to_text, item_body  # noqa: E402
 from inventory import collect, infer_form, is_annual, is_current, latest_annual  # noqa: E402
 from sec_http import HardStop, SecClient, TransientDefer  # noqa: E402
 
@@ -33,6 +33,31 @@ class ExtractTests(unittest.TestCase):
         self.assertNotIn("Risk Factors", out["short_en"])
         # short stays a few lines, not the whole Item 1
         self.assertLess(len(out["short_en"]), 700)
+
+    def test_skips_toc_and_hidden_ixbrl(self):
+        raw = (FIXT / "aapl-10k-toc-and-item1.html").read_text(encoding="utf-8")
+        out = extract_profile_text(raw, "10-K")
+        self.assertIn("designs, manufactures and markets", out["short_en"])
+        self.assertTrue(out["short_en"].startswith("The Company") or "The Company designs" in out["short_en"])
+        self.assertNotIn("hidden copy should not be used", out["short_en"])
+        self.assertNotIn("Risk Factors", out["short_en"])
+        self.assertGreater(len(out["item_text"]), 300)
+        # The body is the real Item 1, not the one-line TOC stub.
+        self.assertIn("Company Background", out["item_text"])
+        self.assertNotEqual(out["item_text"].strip().splitlines()[0].strip(), "Item 1.")
+
+    def test_skips_toc_and_officer_headings(self):
+        text = (
+            "Item 1. Business\n\n"
+            "• How We Generate Revenues and Profitability 4\n\n"
+            "Information about our Executive Officers 19\n\n"
+            "The Company designs, manufactures and markets smartphones and related services.\n\n"
+            "Item 1A. Risk Factors\n\nMany risks.\n"
+        )
+        out = extract_profile_text(text, "10-K")
+        self.assertIn("designs, manufactures and markets", out["short_en"])
+        self.assertNotIn("Executive Officers", out["short_en"])
+        self.assertNotIn("How We Generate", out["short_en"])
 
     def test_20f_item4(self):
         raw = (FIXT / "sample-20f-item4.html").read_text(encoding="utf-8")
@@ -74,9 +99,12 @@ class InventoryTests(unittest.TestCase):
     def test_is_current_matches_hash_and_skips_empty_stub(self):
         rec = {"url": "https://www.sec.gov/a.htm", "filing_date": "2026-11-03", "form": "10-K", "doc_sha256": "abc"}
         self.assertFalse(is_current(None, rec))
-        self.assertTrue(is_current({"short_en": "Hello", "doc_sha256": "abc"}, rec))
-        self.assertFalse(is_current({"short_en": "Hello", "doc_sha256": "zzz", "url": "x", "filing_date": "x", "form": "10-K"}, rec))
-        self.assertTrue(is_current({"empty": True, "short_en": "", "doc_sha256": "abc"}, rec))
+        self.assertTrue(is_current({"short_en": "Hello", "doc_sha256": "abc", "extractor": EXTRACTOR_VERSION}, rec))
+        # Fills and empty stubs from an older extractor are retried.
+        self.assertFalse(is_current({"short_en": "Hello", "doc_sha256": "abc"}, rec))
+        self.assertFalse(is_current({"empty": True, "short_en": "", "doc_sha256": "abc"}, rec))
+        self.assertFalse(is_current({"short_en": "Hello", "doc_sha256": "zzz", "url": "x", "filing_date": "x", "form": "10-K", "extractor": EXTRACTOR_VERSION}, rec))
+        self.assertTrue(is_current({"empty": True, "short_en": "", "doc_sha256": "abc", "extractor": EXTRACTOR_VERSION}, rec))
 
     def test_collect_from_shards(self):
         with tempfile.TemporaryDirectory() as td:

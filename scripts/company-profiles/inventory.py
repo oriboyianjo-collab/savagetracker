@@ -4,6 +4,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from extract import EXTRACTOR_VERSION
+
 ANNUAL_FORMS = {"10-K", "10-K/A", "20-F", "20-F/A", "40-F", "40-F/A"}
 
 
@@ -110,10 +112,17 @@ def _same_filing(existing: dict, rec: dict) -> bool:
 
 
 def is_current(existing: dict | None, rec: dict) -> bool:
-    """True when we already stored this filing (including a recorded empty extract)."""
+    """True when we already stored this filing with the current extractor.
+
+    Empty stubs and earlier extractor versions are retried once the extractor
+    is bumped, so a table-of-contents miss can be filled later. The same
+    version of a recorded empty extract is not fetched again.
+    """
     if not existing:
         return False
     if not _same_filing(existing, rec):
+        return False
+    if int(existing.get("extractor") or 0) < EXTRACTOR_VERSION:
         return False
     if existing.get("empty"):
         return True

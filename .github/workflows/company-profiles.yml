@@ -95,8 +95,6 @@ jobs:
           echo "code=$code" >> "$GITHUB_OUTPUT"
           if [ "$code" -gt 20 ]; then exit "$code"; fi
           # 0 ok, 10 transient defer (commit + resume), 20 hard stop (commit, do not chain)
-          echo "remaining=$(python3 -c 'import json,sys; print(json.loads(sys.stdin.read()).get("remaining",0))' < <(true))"
-          # The CLI prints one JSON report on stdout as the last line.
           python3 - << 'PY' > "$RUNNER_TEMP/cp-report.env"
           import json, pathlib, os
           # re-read status written by the CLI

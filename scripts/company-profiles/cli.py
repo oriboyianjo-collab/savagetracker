@@ -16,7 +16,7 @@ ROOT = HERE.parents[1]
 if str(HERE) not in sys.path:
     sys.path.insert(0, str(HERE))
 
-from extract import extract_profile_text  # noqa: E402
+from extract import EXTRACTOR_VERSION, extract_profile_text  # noqa: E402
 from sec_http import HardStop, SecClient, TransientDefer  # noqa: E402
 from inventory import collect, is_current, profile_path  # noqa: E402
 from translate import Translator  # noqa: E402
@@ -201,6 +201,7 @@ def main(argv=None):
                     "short_he": "",
                     "full_he": "",
                     "empty": True,
+                    "extractor": EXTRACTOR_VERSION,
                     "extracted_at": now_iso(),
                 })
             continue
@@ -217,6 +218,7 @@ def main(argv=None):
             "full_en": text["full_en"],
             "short_he": short_he,
             "full_he": full_he,
+            "extractor": EXTRACTOR_VERSION,
             "extracted_at": now_iso(),
         }
         if not args.dry_run:
