@@ -2,9 +2,10 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
-from extract import EXTRACTOR_VERSION
+from extract import EXTRACTOR_VERSION, is_boilerplate_text
 
 ANNUAL_FORMS = {"10-K", "10-K/A", "20-F", "20-F/A", "40-F", "40-F/A"}
 
@@ -14,10 +15,11 @@ def infer_form(entry: dict) -> str:
     if form in ANNUAL_FORMS:
         return form
     url = (entry.get("url") or "").lower()
-    if "20-f" in url or "form20-f" in url:
-        return "20-F/A" if "/a" in form or "20-fa" in url or "20-f_a" in url else "20-F"
-    if "40-f" in url or "form40-f" in url:
-        return "40-F"
+    # Donnelley / issuer names often use 20f without a hyphen: d20f.htm, x20f.htm, form20f_2025.htm
+    if re.search(r"20-?f|form20-?f|x20f|_20f|d20f", url):
+        return "20-F/A" if re.search(r"20-?f/?a|20fa|20-?f_a|x20fa", url) or form.endswith("/A") else "20-F"
+    if re.search(r"40-?f|form40-?f|x40f|_40f|d40f", url):
+        return "40-F/A" if re.search(r"40-?f/?a|40fa|x40fa", url) or form.endswith("/A") else "40-F"
     return "10-K"
 
 
@@ -60,7 +62,29 @@ def _variants(sym: str) -> set[str]:
     return {s, s.replace("-", "."), s.replace(".", "-")}
 
 
-def collect(links_dir: Path, rank_path: Path | None = None) -> list[dict]:
+def _pass_form(pass_dir: Path | None, symbol: str, annual: dict) -> str:
+    """Read the form type from report-pass-state when the links shard omitted it."""
+    if not pass_dir or not pass_dir.is_dir():
+        return ""
+    files = list(pass_dir.glob(f"{symbol}.*.json"))
+    if not files:
+        return ""
+    try:
+        data = json.loads(files[0].read_text(encoding="utf-8"))
+    except Exception:
+        return ""
+    row = data.get("row") or data
+    url = (annual.get("url") or "").rstrip("/").lower()
+    slot = annual.get("slot") or ""
+    for e in row.get("ledger") or []:
+        eu = (e.get("url") or "").rstrip("/").lower()
+        form = (e.get("form") or "").upper()
+        if form and (eu == url or (slot and e.get("slot") == slot)):
+            return form
+    return ""
+
+
+def collect(links_dir: Path, rank_path: Path | None = None, pass_dir: Path | None = None) -> list[dict]:
     """Return one record per ticker that has a usable annual URL, market-cap first."""
     by_sym = {}
     for fp in sorted(links_dir.glob("*.json")):
@@ -76,6 +100,10 @@ def collect(links_dir: Path, rank_path: Path | None = None) -> list[dict]:
             if not annual:
                 continue
             key = str(sym).upper()
+            if not annual.get("form"):
+                pf = _pass_form(pass_dir, key, annual)
+                if pf:
+                    annual = {**annual, "form": pf}
             by_sym[key] = {
                 "symbol": key,
                 "cik": (rec.get("cik") or ""),
@@ -122,8 +150,11 @@ def is_current(existing: dict | None, rec: dict) -> bool:
         return False
     if not _same_filing(existing, rec):
         return False
-    if int(existing.get("extractor") or 0) < EXTRACTOR_VERSION:
-        return False
-    if existing.get("empty"):
+    short = (existing.get("short_en") or "").strip()
+    # Keep a good description even if the extractor is later bumped.
+    if short and not is_boilerplate_text(short):
         return True
-    return bool(existing.get("short_en"))
+    # Retry empty stubs and preamble-only fills when the extractor is newer.
+    if existing.get("empty") and int(existing.get("extractor") or 0) >= EXTRACTOR_VERSION:
+        return True
+    return False
