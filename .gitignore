@@ -11,3 +11,7 @@ private*/
 sec-report-tool/**/__pycache__/
 sec-report-tool/**/cache/
 sec-report-tool/**/*.pyc
+
+# Python bytecode from automation scripts
+scripts/**/__pycache__/
+scripts/**/*.pyc

@@ -1,0 +1,159 @@
+# Company descriptions (על החברה) from stored annual-report links in report-links-all.
+# Latest 10-K Item 1 / 20-F or 40-F Item 4, extractive English + offline Hebrew translation
+# (Argos Translate, or Helsinki opus-mt-en-he). No paid APIs.
+# Official sec.gov / data.sec.gov only. User-Agent: SavageTracker Savtra12@gmail.com.
+# 1 request/second. HTTP 403/429: hard stop for 24 hours, no workaround, no self-chain.
+# 502/503/504 or timeout: save progress and resume (transient defer).
+# Shares sec-edgar-shared so it never sends SEC requests alongside the EDGAR report pass
+# or earnings-board. Skips the fetch step during the earnings-live window
+# (US trading days 10:00-02:00 Israel). Commits only company-profiles/. Never force-pushes.
+# Never writes הערה / הערה_en, never touches news.json, calendar.json, or portfolio data.
+name: company-profiles
+on:
+  workflow_dispatch:
+    inputs:
+      max_fetch:
+        description: 'Max annual reports to fetch this run'
+        type: string
+        default: '400'
+  schedule:
+    # Off the earnings-live window as a backup if the self-chain stopped.
+    # Israel 02:00-10:00 is 00:00-08:00 UTC in winter and 23:00-07:00 UTC in summer;
+    # the script also exits without SEC requests when earnings-live-window.cjs is active.
+    - cron: '20 * * * *'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: sec-edgar-shared
+  cancel-in-progress: false
+  queue: max
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main, fetch-depth: 1 }
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: offline extraction tests
+        run: python3 tests/company-profiles-regressions.py
+      - name: leave the reporting window to earnings-live
+        id: gate
+        run: |
+          set -euo pipefail
+          if node scripts/earnings-live-window.cjs; then
+            echo "::notice::earnings-live window (10:00-02:00 Israel) - no SEC requests this run"
+            echo "go=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "go=1" >> "$GITHUB_OUTPUT"
+      - name: cache translation models
+        if: steps.gate.outputs.go == '1'
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.local/share/argos-translate
+            ~/.local/cache/argos-translate
+            ~/.cache/huggingface
+          key: company-profiles-translate-v1
+          restore-keys: company-profiles-translate-
+      - name: install offline translator (Argos en-he)
+        if: steps.gate.outputs.go == '1'
+        run: |
+          set -euo pipefail
+          pip install --quiet 'argostranslate==1.9.6'
+          python3 - << 'PY'
+          import argostranslate.package as pkg
+          import argostranslate.translate as tr
+          langs = tr.get_installed_languages()
+          en = next((l for l in langs if l.code == "en"), None)
+          he = next((l for l in langs if l.code == "he"), None)
+          if en and he and en.get_translation(he):
+              print("argos en-he already installed")
+              raise SystemExit(0)
+          pkg.update_package_index()
+          cands = [p for p in pkg.get_available_packages() if p.from_code == "en" and p.to_code == "he"]
+          if not cands:
+              raise SystemExit("no Argos en-he package in the index")
+          path = cands[0].download()
+          pkg.install_from_path(path)
+          print("installed", path)
+          PY
+      - name: fill descriptions from stored annual-report links
+        if: steps.gate.outputs.go == '1'
+        id: fill
+        env:
+          COMPANY_PROFILES_BUDGET_SEC: '2800'
+          COMPANY_PROFILES_MAX_FETCH: ${{ github.event.inputs.max_fetch || '400' }}
+        run: |
+          set -euo pipefail
+          code=0
+          python3 scripts/company-profiles/cli.py --root . --out company-profiles || code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -gt 20 ]; then exit "$code"; fi
+          # 0 ok, 10 transient defer (commit + resume), 20 hard stop (commit, do not chain)
+          echo "remaining=$(python3 -c 'import json,sys; print(json.loads(sys.stdin.read()).get("remaining",0))' < <(true))"
+          # The CLI prints one JSON report on stdout as the last line.
+          python3 - << 'PY' > "$RUNNER_TEMP/cp-report.env"
+          import json, pathlib, os
+          # re-read status written by the CLI
+          p = pathlib.Path("company-profiles/status.json")
+          d = json.loads(p.read_text()) if p.exists() else {}
+          print(f"remaining={int(d.get('pending') or 0)}")
+          print(f"filled={int(d.get('filled') or 0)}")
+          PY
+          cat "$RUNNER_TEMP/cp-report.env" >> "$GITHUB_OUTPUT"
+      - name: commit company-profiles only
+        if: steps.gate.outputs.go == '1'
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add company-profiles/
+          other="$(git status --porcelain | grep -v ' company-profiles/' || true)"
+          if [ -n "$other" ]; then echo "Unexpected changes: $other" >&2; git status --porcelain >&2; exit 1; fi
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            echo "pushed=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "company-profiles: annual-report descriptions"
+          ok=0
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "pushed=1" >> "$GITHUB_OUTPUT"
+              ok=1
+              break
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 8))
+          done
+          if [ "$ok" != 1 ]; then echo "Push failed after retries (no force-push)" >&2; exit 1; fi
+      - name: publish Pages
+        if: steps.commit.outputs.pushed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages-queued.yml --ref main || echo "::warning::could not dispatch Pages publication"
+      - name: self-chain if work remains
+        if: steps.gate.outputs.go == '1' && steps.fill.outputs.code != '20'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REMAINING: ${{ steps.fill.outputs.remaining }}
+        run: |
+          set -euo pipefail
+          rem="${REMAINING:-0}"
+          if [ "$rem" -gt 0 ]; then
+            # Do not chain into the earnings-live window.
+            if node scripts/earnings-live-window.cjs; then
+              echo "work remains ($rem) but earnings-live window is open; a scheduled run will resume"
+              exit 0
+            fi
+            echo "chaining; remaining=$rem"
+            gh workflow run company-profiles.yml --ref main
+          else
+            echo "inventory complete"
+          fi
