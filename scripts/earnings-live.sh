@@ -29,7 +29,7 @@ held() {        # a 403/429 in the last 24 hours
 busy() {        # other SEC jobs: never overlap them (keeps the project total <= 2 requests/second)
   [ -n "${GITHUB_REPOSITORY:-}" ] || return 1
   gh run list -R "$GITHUB_REPOSITORY" --status in_progress --json workflowName,databaseId \
-    --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID:-0}) | .workflowName" 2>/dev/null | grep -Ex 'financials|financials-fast|earnings-board' || true
+    --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID:-0}) | .workflowName" 2>/dev/null | grep -Ex 'financials|financials-fast|earnings-board|company-profiles' || true
 }
 
 publish() {     # commit reports.json / financials shards on change; push without force; dispatch Pages + push-news

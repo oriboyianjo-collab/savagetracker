@@ -5,8 +5,8 @@ name: earnings-board
 #  - Every hour on weekdays (outside the 10-minute earnings-live windows; skipped while that loop runs): SEC 8-K Item 2.02 check for rows dated yesterday..tomorrow (release confirmed, time, link),
 #    and GAAP revenue actuals from the financials/ shards.
 # SEC fair access: UA "SavageTracker Savtra12@gmail.com", 1 req/s here (<=2 req/s overall), official endpoints only, stop on 403/429.
-# Shares the sec-edgar-shared concurrency group so it never sends SEC requests alongside the EDGAR report pass, and skips
-# the SEC step while the financials / 8-K jobs run. Never writes notes (הערה / הערה_en); never touches news/calendar.
+# Shares the sec-edgar-shared concurrency group so it never sends SEC requests alongside the EDGAR report pass or company-profiles, and skips
+# the SEC step while the financials / company-profiles / earnings-live jobs run. Never writes notes (הערה / הערה_en); never touches news/calendar.
 # Commits only on a real change. push-news queues only rows that can raise a new alert (new results).
 on:
   schedule:
@@ -63,9 +63,9 @@ jobs:
             if ! reason=$(node scripts/av-slot.cjs "$SCHEDULE"); then echo "::notice::$reason - Alpha Vantage part skipped"; flags="${flags/--av /}"; fi
           fi
           # Keep the combined SEC rate <= 2 req/s: this job uses 1 req/s (financials-fast uses the other 1 req/s);
-          # skip SEC requests while the full financials build (2 req/s, outside this group) runs, and while the 10-minute
+          # skip SEC requests while the full financials build (2 req/s, outside this group) or company-profiles runs, and while the 10-minute
           # earnings-live loop (1 req/s, same work in the reporting windows) runs. Rechecked inside the script.
-          busy=$(gh run list -R "$GITHUB_REPOSITORY" --status in_progress --json workflowName,databaseId --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID}) | .workflowName" | grep -Ei '^financials$' || true)
+          busy=$(gh run list -R "$GITHUB_REPOSITORY" --status in_progress --json workflowName,databaseId --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID}) | .workflowName" | grep -Ei '^(financials|company-profiles)$' || true)
           if node scripts/earnings-live-window.cjs; then busy="${busy} earnings-live window (10:00-02:00 Israel)"; fi
           if [ -n "${busy// /}" ]; then echo "::notice::SEC step skipped this run, busy: $busy"; flags="${flags/--sec/}"; fi
           echo "flags=$flags" >> "$GITHUB_OUTPUT"

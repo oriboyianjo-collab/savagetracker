@@ -358,5 +358,74 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('quota: the counter is per New York date', eb.avClient('k', { avCalls: { '2026-11-18': 25 } }, '2026-11-19', 0).left() === 12);
 }
 
+
+// --- issuer pre-announcements + investor call time (never used as the release clock) ---
+{
+  const tcom = 'Trip.com Group Limited today announced that it will announce its unaudited financial results for the quarter ended September 30, 2026, on Tuesday, December 1, 2026, U.S. Time, after the market closes. The Company will hold a conference call at 7:00 PM U.S. Eastern Time on December 1, 2026 (or 8:00 AM Hong Kong Time on December 2, 2026) following the announcement. In Hong Kong, the Company will announce the results on Wednesday, December 2, 2026, before the Hong Kong market opens.';
+  const p = eb.parseEarningsPreannounce(tcom);
+  ok('TCOM pre-announce: US date 1 Dec, after the close, no release clock, call 02:00 Israel',
+    p && p.date === '2026-12-01' && p.session === 'after' && !p.releaseTimeIl && p.callTimeIl === '02:00', JSON.stringify(p));
+  const row = { 'סימול': 'TCOM', 'תאריך': '2026-11-23', 'הערה': 'keep-me', 'הערה_en': 'keep-en', 'מזהה': 'r-1' };
+  ok('TCOM date is corrected and the note is left alone',
+    eb.applyPreannounce(row, p, { today: '2026-11-23', source: 'https://www.sec.gov/Archives/edgar/data/1269238/000119312526467690/d77175dex992.htm' })
+    && row['תאריך'] === '2026-12-01' && row['תאריך_מקורי'] === '2026-11-23' && row['מועד'] === 'after'
+    && !row.release_time_il && row.call_time_il === '02:00' && row.release_time_basis !== 'issuer-scheduled'
+    && row.call_time_basis === 'issuer-scheduled' && row['הערה'] === 'keep-me' && row['הערה_en'] === 'keep-en');
+
+  const exactTxt = 'Acme Corp will release its third quarter fiscal 2026 financial results in a press release at 4:05 p.m. Eastern Time on Tuesday, November 24, 2026. The company will host a conference call at 5:00 p.m. Eastern Time on the same day.';
+  const ex = eb.parseEarningsPreannounce(exactTxt);
+  ok('exact press-release clock is 23:05 Israel; call is 00:00 and is not used as the release time',
+    ex && ex.date === '2026-11-24' && ex.session === 'after' && ex.releaseTimeIl === '23:05' && ex.callTimeIl === '00:00', JSON.stringify(ex));
+  const acme = { 'סימול': 'ACME', 'תאריך': '2026-11-24', 'הערה': 'n' };
+  eb.applyPreannounce(acme, ex, { today: '2026-11-23', source: 'https://www.sec.gov/ex99.htm' });
+  ok('exact clock stored as issuer-scheduled, call stored separately, note untouched',
+    acme.release_time_il === '23:05' && acme.release_time_basis === 'issuer-scheduled' && acme.release_time_approx === false
+    && acme.call_time_il === '00:00' && acme['הערה'] === 'n' && acme['מועד'] === 'after');
+
+  const onlyCall = 'Beta Inc announced the date of its fourth quarter and fiscal year 2026 earnings release. The company will report financial results after the market closes on Thursday, December 3, 2026, and will host a conference call at 8:30 a.m. Eastern Time on Friday, December 4, 2026.';
+  const oc = eb.parseEarningsPreannounce(onlyCall);
+  ok('call time is not promoted to a release clock when the filing only gives a call time',
+    oc && oc.date === '2026-12-03' && oc.session === 'after' && !oc.releaseTimeIl && oc.callTimeIl === '15:30', JSON.stringify(oc));
+
+  const divi = 'On November 4, 2026, the Board of Directors of Hewlett Packard Enterprise Company approved declaring a cash dividend of $0.1425 per share on the company\'s common stock. The dividend will be paid on January 2, 2027.';
+  ok('a non-earnings 7.01 (dividend) is ignored', eb.parseEarningsPreannounce(divi) === null);
+
+  const resultsPr = 'For immediate release. Gamma Inc reports third quarter 2026 financial results. Revenue was $1.2 billion. The company will host a conference call at 8:00 a.m. Eastern Time today, November 20, 2026.';
+  ok('a results press release is not treated as a pre-announcement', eb.parseEarningsPreannounce(resultsPr) === null);
+  ok('but the same 2.02 / 6-K release can still yield an investor-call clock', eb.parseCallTimeFromRelease(resultsPr, '2026-11-20') === '15:00');
+
+  const trap = 'Delta Co will host a conference call to discuss its third quarter 2026 financial results at 4:30 p.m. Eastern Time on Wednesday, November 25, 2026. The press release will be issued at the start of the call.';
+  const tr = eb.parseEarningsPreannounce(trap);
+  ok('a call time is never stored as the release clock, even if the release is "at the start of the call"',
+    tr && tr.callTimeIl === '23:30' && !tr.releaseTimeIl, JSON.stringify(tr));
+
+  // 2.02 acceptance replaces an issuer-scheduled clock, keeps the call and issuer-confirmed protection
+  const sched = { 'סימול': 'ACME', 'תאריך': '2026-11-24', 'release_time_il': '23:05', 'release_time_basis': 'issuer-scheduled', 'מועד': 'after', 'call_time_il': '00:00', 'הערה': 'n', 'מזהה': 'r-2' };
+  const hit = { acc: '0000000000-26-000001', iso: '2026-11-24T16:12:00-05:00', et: { date: '2026-11-24', min: 16 * 60 + 12 }, dd: 0, form: '8-K' };
+  // etParts would normally build this; applySec uses hit.et and ilClock(hit.iso)
+  eb.applySec(sched, hit, { today: '2026-11-24', cik: '1', link: 'https://www.sec.gov/ex99.htm' });
+  ok('2.02 acceptance replaces an issuer-scheduled clock and keeps the call and the note',
+    sched.release_time_basis === 'sec-8k-item-2.02-acceptance' && sched.release_time_il !== '23:05'
+    && sched.call_time_il === '00:00' && sched['הערה'] === 'n', JSON.stringify({ t: sched.release_time_il, b: sched.release_time_basis, c: sched.call_time_il }));
+
+  const confirmed = { 'סימול': 'X', 'תאריך': '2026-11-24', 'release_time_il': '14:00', 'release_time_basis': 'issuer-confirmed', 'מועד': 'before', 'קישור_לדוח': 'https://issuer.invalid/pr', 'call_time_il': '16:00', 'הערה': 'n' };
+  eb.applySec(confirmed, hit, { today: '2026-11-24', cik: '1' });
+  ok('issuer-confirmed release time stays protected; call and note stay',
+    confirmed.release_time_il === '14:00' && confirmed['מועד'] === 'before' && confirmed.call_time_il === '16:00' && confirmed['הערה'] === 'n');
+
+  const recent = {
+    form: ['8-K', '8-K', '6-K', '10-Q'],
+    items: ['7.01,9.01', '2.02,9.01', '', ''],
+    accessionNumber: ['a-701', 'a-202', 'a-6k', 'a-10q'],
+    acceptanceDateTime: ['2026-11-19T09:00:00-05:00', '2026-11-20T16:20:00-05:00', '2026-11-19T08:00:00-05:00', '2026-11-01T08:00:00-05:00'],
+    filingDate: ['2026-11-19', '2026-11-20', '2026-11-19', '2026-11-01'],
+    primaryDocument: ['d8k.htm', 'd202.htm', 'd6k.htm', 'd10q.htm'],
+  };
+  const pre = eb.findPreannounceFilings(recent, '2026-11-23');
+  ok('pre-announce scan keeps 7.01 and 6-K and skips Item 2.02',
+    pre.map((x) => x.acc).join(',') === 'a-701,a-6k', JSON.stringify(pre));
+}
+
+
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all earnings-board checks passed');

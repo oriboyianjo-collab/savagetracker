@@ -1,7 +1,7 @@
 // Simple service worker: caches the app shell for offline use. Price APIs are never cached.
 // Company logos (Parqet / FMP image URLs – only a ticker in the URL) go to their own runtime cache, cache-first, capped at
 // LOGO_MAX entries (oldest dropped). It survives app updates (not tied to the shell version).
-const CACHE = 'portfolio-shell-v337';
+const CACHE = 'portfolio-shell-v338';
 const LOGO_CACHE = 'portfolio-logos-v1', LOGO_MAX = 120;
 const AL_CACHE = 'savage-alerts-v1', AL_CFG = './__alerts/cfg';   // v187: alerts state shared with the page (prefs, ticker lists, seen keys, pending items) – on this device only
 const SHELL = ['./portfolio-currency.js','./portfolio-fx.js','./portfolio-tax-fx.js','./mini-ema.js','./mini-ema.css','./chart-tools.css?v=267','./', './index.html', './manifest.json', './icon-192.png?v=33', './icon-512.png?v=33', './icon-maskable-512.png?v=33', './apple-touch-icon.png?v=33', './logo.svg?v=33', './favicon-32.png?v=33', './tax-data.json?v=33', './alerts-core.js?v=271', './badge-mono-96.png','./i18n-runtime.js','./i18n-en.js','./content-language.js',
@@ -35,7 +35,7 @@ self.addEventListener('fetch', e => {
   if (/\/holdings\/[^/]+\.json$/.test(url.pathname)) return; // v111: daily issuer-holdings file (public ETF data) – always from the network, never cached
   if (/\/fundamentals\.json$/.test(url.pathname)) return; // v112: daily public fundamentals file (SEC / Yahoo company data) – always from the network, never cached
   if (/\/financials\/[^/]+\.json$/.test(url.pathname)) return; // Finance-tab SEC figures – always from the network, never cached
-  if (/\/company-profiles\/[^/]+\.json$/.test(url.pathname)) return; // v337: company descriptions from stored annual reports – always from the network, never cached
+  if (/\/company-profiles\/[^/]+\.json$/.test(url.pathname)) return; // v338: company descriptions from stored annual reports – always from the network, never cached
   if (url.pathname.includes('/news-images/')) {   // v55: owner-uploaded images – network-first (a replaced file shows), cache as offline fallback
     e.respondWith(fetch(req).then(r => { if (r.ok) { const cp = r.clone(); caches.open(CACHE).then(c => c.put(req, cp)); } return r; }).catch(() => caches.match(req)));
     return;
