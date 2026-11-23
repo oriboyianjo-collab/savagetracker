@@ -425,6 +425,10 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
   ok('pre-announce scan keeps 7.01 and 6-K and skips Item 2.02',
     pre.map((x) => x.acc).join(',') === 'a-701,a-6k', JSON.stringify(pre));
 }
+  ok('resolveCik reads TCOM from the stored report-links map without throwing',
+    String(eb.resolveCik('TCOM') || '').replace(/^0+/, '') === '1269238');
+  ok('resolveCik for an unknown symbol returns null, not a throw', eb.resolveCik('__NOT_A_TICKER__') === null);
+
 
 
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
