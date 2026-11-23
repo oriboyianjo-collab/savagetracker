@@ -5,7 +5,7 @@ import re
 from html import unescape
 
 # Bump when the extractor changes so stored stubs and weak fills are retried once.
-EXTRACTOR_VERSION = 3
+EXTRACTOR_VERSION = 4
 
 FOOTER_RE = re.compile(
     r"^(Table of Contents|TABLE OF CONTENTS|"
@@ -130,7 +130,7 @@ def _prefer_business_overview(body: str) -> str:
         body,
     )
     if not m:
-        m = re.search(r"(?i)(?:^|\n)\s*(?:[b4]\.?\s*)business overview\b", body)
+        m = re.search(r"(?i)(?:^|\n)\s*(?:[b4]\.?\s*)?business overview(?:\s+of the company)?\b", body)
     if not m:
         return body
     chunk = body[m.start():].strip()
@@ -212,6 +212,11 @@ _BOILER_RE = re.compile(
     r"|cautionary (?:note|statement) regarding forward"
     r"|speak only as of the date (?:hereof|of this)"
     r"|actual results (?:and outcomes )?may differ materially"
+    r"|voluntary disclosures in this report"
+    r"|may not necessarily be .{0,2}material.{0,2}"
+    r"|legal and commercial name is"
+    r"|our principal executive office is located"
+    r"|information contained on our website is not incorporated"
     r")"
 )
 
@@ -231,7 +236,8 @@ _DEF_RE = re.compile(
 
 
 def _sentences(text: str) -> list[str]:
-    parts = re.split(r"(?<=[.?!])\s+", text.strip())
+    # Do not split on abbreviations such as Inc. or Ltd.
+    parts = re.split(r"(?<=[a-z0-9)])[.?!](?=\s+[A-Z])", text.strip())
     return [p.strip() for p in parts if p.strip()]
 
 
@@ -239,6 +245,16 @@ def _is_boiler_sentence(s: str) -> bool:
     if _BOILER_RE.search(s) or _DEF_RE.search(s):
         return True
     if re.match(r"(?i)^annual report on form\s*(?:10-?k|20-?f)", s):
+        return True
+    # Leftover clause after a false split on "Inc."
+    if re.match(r"(?i)^(?:and its subsidiaries|unless the context (?:otherwise )?(?:indicates|requires|indicates otherwise))", s):
+        return True
+    if re.match(r"^[a-z]", s) and re.search(r"(?i)unless the context|subsidiaries", s):
+        return True
+    # Section cross-references like “Overview — Regulation — …”
+    if s.count("—") >= 2 and re.search(r"(?i)regulation|risk factor|item\s+\d", s):
+        return True
+    if re.search(r"(?i)^our history and structure\b", s) and re.search(r"(?i)legal and commercial name", s):
         return True
     return False
 
@@ -248,7 +264,12 @@ def is_boilerplate_text(text: str) -> bool:
     s = (text or "").strip()
     if not s:
         return False
+    # Starts mid-sentence or with a preamble: retry even if a later sentence is useful.
+    if re.match(r"^[a-z]", s):
+        return True
     sents = _sentences(s) or [s]
+    if sents and _is_boiler_sentence(sents[0]):
+        return True
     return all(_is_boiler_sentence(x) for x in sents)
 
 
@@ -295,6 +316,7 @@ def paragraphs(item_text: str) -> list[str]:
             continue
         # Drop leftover "Item 1. Business" prefixes on the first line.
         p = re.sub(r"^Item\s+\d+[A-Z]?(?:\s|\.|:|–|—|-)+\S+(?:\s+\S+){0,6}\s*", "", p, flags=re.I).strip()
+        p = re.sub(r"^(?:Our History and Structure|Business Overview(?: of the Company)?)\s+", "", p, flags=re.I).strip()
         p = _strip_leading_boilerplate(p)
         if not _is_prose(p):
             continue
