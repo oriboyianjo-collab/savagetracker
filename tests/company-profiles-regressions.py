@@ -15,7 +15,7 @@ HERE = ROOT / "scripts" / "company-profiles"
 FIXT = ROOT / "tests" / "fixtures" / "company-profiles"
 sys.path.insert(0, str(HERE))
 
-from extract import EXTRACTOR_VERSION, extract_profile_text, html_to_text, item_body  # noqa: E402
+from extract import EXTRACTOR_VERSION, extract_profile_text, html_to_text, item_body, is_boilerplate_text  # noqa: E402
 from inventory import collect, infer_form, is_annual, is_current, latest_annual  # noqa: E402
 from sec_http import HardStop, SecClient, TransientDefer  # noqa: E402
 
@@ -59,11 +59,46 @@ class ExtractTests(unittest.TestCase):
         self.assertNotIn("Executive Officers", out["short_en"])
         self.assertNotIn("How We Generate", out["short_en"])
 
+    def test_skips_forward_looking_preamble(self):
+        raw = (FIXT / "amzn-item1-preamble.html").read_text(encoding="utf-8")
+        out = extract_profile_text(raw, "10-K")
+        self.assertIn("e-commerce and cloud computing", out["short_en"])
+        self.assertTrue(out["short_en"].startswith("Amazon") or "Amazon is a leading" in out["short_en"])
+        self.assertNotIn("forward-looking", out["short_en"].lower())
+        self.assertNotIn("This Annual Report", out["short_en"])
+        self.assertFalse(is_boilerplate_text(out["short_en"]))
+        self.assertTrue(is_boilerplate_text(
+            "This Annual Report on Form 10-K contains forward-looking statements based on expectations."
+        ))
+
+    def test_20f_business_overview_not_toc(self):
+        raw = (FIXT / "sample-20f-item4-overview.html").read_text(encoding="utf-8")
+        out = extract_profile_text(raw, "20-F")
+        self.assertIn("semiconductor foundry", out["short_en"])
+        self.assertNotIn("Should not be included", out["short_en"])
+        self.assertNotIn("Risk Factors", out["short_en"])
+        # History subsection is skipped in favor of Business Overview.
+        self.assertNotIn("was incorporated in 1987", out["short_en"])
+
+    def test_item4_fallback_when_form_looks_like_10k(self):
+        raw = (FIXT / "sample-20f-item4-overview.html").read_text(encoding="utf-8")
+        out = extract_profile_text(raw, "10-K")
+        self.assertIn("semiconductor foundry", out["short_en"])
+
+    def test_item1_loose_heading(self):
+        text = (
+            "PART I\n\nItem 1.\n\n   \nBUSINESS\n\n"
+            "The Company develops and licenses software platforms for enterprises worldwide.\n\n"
+            "Item 1A. Risk Factors\n\nMany risks.\n"
+        )
+        out = extract_profile_text(text, "10-K")
+        self.assertIn("develops and licenses software", out["short_en"])
+        self.assertNotIn("Many risks", out["short_en"])
+
     def test_20f_item4(self):
         raw = (FIXT / "sample-20f-item4.html").read_text(encoding="utf-8")
         out = extract_profile_text(raw, "20-F")
-        self.assertIn("incorporated in 1998", out["short_en"])
-        self.assertIn("industrial equipment", out["short_en"])
+        self.assertIn("designs, manufactures and sells industrial machinery", out["short_en"])
         self.assertIn("designs, manufactures and sells industrial machinery", out["full_en"])
         self.assertNotIn("Business Overview", out["short_en"])  # headings are skipped
         self.assertNotIn("Should not be included", out["short_en"])
@@ -95,13 +130,36 @@ class InventoryTests(unittest.TestCase):
         e = {"slot": "2024-FY", "filing_date": "2025-03-31",
              "url": "https://www.sec.gov/Archives/edgar/data/1/0001/form20-f.htm"}
         self.assertEqual(infer_form(e), "20-F")
+        self.assertEqual(infer_form({"url": "https://www.sec.gov/x/d38065d20f.htm"}), "20-F")
+        self.assertEqual(infer_form({"url": "https://www.sec.gov/x/beke-20251231x20f.htm"}), "20-F")
+        self.assertEqual(infer_form({"url": "https://www.sec.gov/x/valeform20f_2025.htm"}), "20-F")
+        self.assertEqual(infer_form({"url": "https://www.sec.gov/x/qh-20241231x20fa.htm"}), "20-F/A")
+        self.assertEqual(infer_form({"url": "https://www.sec.gov/x/tsm-20251231.htm"}), "10-K")
+
+    def test_form_from_pass_state_when_url_is_plain(self):
+        with tempfile.TemporaryDirectory() as td:
+            d = Path(td)
+            links = d / "links"
+            pas = d / "pass"
+            links.mkdir(); pas.mkdir()
+            annual = {"slot": "2025-FY", "filing_date": "2026-04-16",
+                      "url": "https://www.sec.gov/Archives/edgar/data/1/tsm-20251231.htm",
+                      "body_sha256": "x"}
+            (links / "TSM.a.json").write_text(json.dumps({"symbols": {"TSM": {"cik": "1", "ledger": [annual]}}}))
+            (pas / "TSM.b.json").write_text(json.dumps({
+                "row": {"cik": "1", "ledger": [{**annual, "form": "20-F"}]}
+            }))
+            items = collect(links, pass_dir=pas)
+            self.assertEqual(items[0]["form"], "20-F")
 
     def test_is_current_matches_hash_and_skips_empty_stub(self):
         rec = {"url": "https://www.sec.gov/a.htm", "filing_date": "2026-11-03", "form": "10-K", "doc_sha256": "abc"}
         self.assertFalse(is_current(None, rec))
-        self.assertTrue(is_current({"short_en": "Hello", "doc_sha256": "abc", "extractor": EXTRACTOR_VERSION}, rec))
-        # Fills and empty stubs from an older extractor are retried.
-        self.assertFalse(is_current({"short_en": "Hello", "doc_sha256": "abc"}, rec))
+        # A real description stays current even without a version stamp.
+        self.assertTrue(is_current({"short_en": "The Company designs widgets for industry use worldwide.", "doc_sha256": "abc"}, rec))
+        self.assertTrue(is_current({"short_en": "The Company designs widgets for industry use worldwide.", "doc_sha256": "abc", "extractor": EXTRACTOR_VERSION}, rec))
+        # Preamble-only fills and empty stubs from an older extractor are retried.
+        self.assertFalse(is_current({"short_en": "This Annual Report on Form 10-K contains forward-looking statements.", "doc_sha256": "abc", "extractor": 2}, rec))
         self.assertFalse(is_current({"empty": True, "short_en": "", "doc_sha256": "abc"}, rec))
         self.assertFalse(is_current({"short_en": "Hello", "doc_sha256": "zzz", "url": "x", "filing_date": "x", "form": "10-K", "extractor": EXTRACTOR_VERSION}, rec))
         self.assertTrue(is_current({"empty": True, "short_en": "", "doc_sha256": "abc", "extractor": EXTRACTOR_VERSION}, rec))

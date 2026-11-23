@@ -91,7 +91,7 @@ def main(argv=None):
         except ValueError:
             pass
 
-    items = collect(links_dir, rank_path)
+    items = collect(links_dir, rank_path, pass_dir=root / "report-pass-state")
     if args.symbols:
         want = {s.strip().upper() for s in args.symbols.split(",") if s.strip()}
         items = [x for x in items if x["symbol"] in want]

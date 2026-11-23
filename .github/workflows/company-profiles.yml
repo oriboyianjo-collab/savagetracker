@@ -16,6 +16,11 @@ on:
         description: 'Max annual reports to fetch this run'
         type: string
         default: '400'
+      symbols:
+        description: 'Optional comma-separated tickers to (re)fill only'
+        type: string
+        required: false
+        default: ''
   schedule:
     # Off the earnings-live window as a backup if the self-chain stopped.
     # Israel 02:00-10:00 is 00:00-08:00 UTC in winter and 23:00-07:00 UTC in summer;
@@ -88,10 +93,15 @@ jobs:
         env:
           COMPANY_PROFILES_BUDGET_SEC: '2800'
           COMPANY_PROFILES_MAX_FETCH: ${{ github.event.inputs.max_fetch || '400' }}
+          COMPANY_PROFILES_SYMBOLS: ${{ github.event.inputs.symbols || '' }}
         run: |
           set -euo pipefail
           code=0
-          python3 scripts/company-profiles/cli.py --root . --out company-profiles || code=$?
+          extra=()
+          if [ -n "${COMPANY_PROFILES_SYMBOLS:-}" ]; then
+            extra+=(--symbols "$COMPANY_PROFILES_SYMBOLS")
+          fi
+          python3 scripts/company-profiles/cli.py --root . --out company-profiles "${extra[@]}" || code=$?
           echo "code=$code" >> "$GITHUB_OUTPUT"
           if [ "$code" -gt 20 ]; then exit "$code"; fi
           # 0 ok, 10 transient defer (commit + resume), 20 hard stop (commit, do not chain)

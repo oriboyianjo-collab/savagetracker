@@ -5,7 +5,7 @@ import re
 from html import unescape
 
 # Bump when the extractor changes so stored stubs and weak fills are retried once.
-EXTRACTOR_VERSION = 2
+EXTRACTOR_VERSION = 3
 
 FOOTER_RE = re.compile(
     r"^(Table of Contents|TABLE OF CONTENTS|"
@@ -17,6 +17,11 @@ FOOTER_RE = re.compile(
 ITEM1_START = re.compile(
     r"Item\s+1(?:\s|\.|:|–|—|-)+(?:Description of\s+)?Business\b",
     re.I,
+)
+# Some 10-Ks put a few words or line breaks between "Item 1." and "Business".
+ITEM1_LOOSE = re.compile(
+    r"Item\s+1(?:\s|\.|:|–|—|-)+.{0,200}?Business\b",
+    re.I | re.S,
 )
 ITEM1A_START = re.compile(r"Item\s+1A(?:\s|\.|:)+Risk Factors\b", re.I)
 ITEM1B_START = re.compile(r"Item\s+1B\b", re.I)
@@ -105,15 +110,56 @@ def _best_span(text: str, start_pats: list, end_pats: list) -> str:
     return pool[0][3].strip()
 
 
+def _item1_body(text: str) -> str:
+    body = _best_span(text, [ITEM1_START], [ITEM1A_START, ITEM1B_START, ITEM2_START])
+    if len(body) >= _MIN_BODY:
+        return body
+    loose = _best_span(text, [ITEM1_LOOSE], [ITEM1A_START, ITEM1B_START, ITEM2_START])
+    return loose if len(loose) > len(body) else body
+
+
+def _item4_body(text: str) -> str:
+    body = _best_span(text, [ITEM4_START, ITEM4_BARE], [ITEM4A_OR_5, ITEM5_BARE])
+    return _prefer_business_overview(body) if body else ""
+
+
+def _prefer_business_overview(body: str) -> str:
+    """Start at 'B. Business Overview' when that subsection exists and is substantial."""
+    m = re.search(
+        r"(?im)^(?:item\s+4\.?\s*)?(?:b\.?|[b4]\.\s*)\s*business overview\b",
+        body,
+    )
+    if not m:
+        m = re.search(r"(?i)(?:^|\n)\s*(?:[b4]\.?\s*)business overview\b", body)
+    if not m:
+        return body
+    chunk = body[m.start():].strip()
+    end = _next_end(chunk, 0, [
+        re.compile(r"(?im)^(?:item\s+4\.?\s*)?(?:c\.?|[c4]\.?\s*)\s*organizational structure\b"),
+        re.compile(r"(?im)^(?:item\s+4\.?\s*)?(?:d\.?|[d4]\.?\s*)\s*property, plants and equipment\b"),
+        ITEM4A_OR_5,
+        ITEM5_BARE,
+    ])
+    if end > 0:
+        chunk = chunk[:end].strip()
+    return chunk if len(chunk) >= 80 else body
+
+
 def item_body(text: str, form: str = "10-K") -> str:
     form = (form or "10-K").upper()
-    if form.startswith("20-F") or form.startswith("40-F"):
-        body = _best_span(text, [ITEM4_START, ITEM4_BARE], [ITEM4A_OR_5, ITEM5_BARE])
-        if body:
-            return body
-        # Fall back to Item 1 Business if a 40-F uses domestic headings.
-        return _best_span(text, [ITEM1_START], [ITEM1A_START, ITEM1B_START, ITEM2_START])
-    return _best_span(text, [ITEM1_START], [ITEM1A_START, ITEM1B_START, ITEM2_START])
+    foreign = form.startswith("20-F") or form.startswith("40-F")
+    item1 = _item1_body(text)
+    item4 = _item4_body(text)
+    if foreign:
+        # Prefer a substantial Item 4, otherwise any Item 1 (or the longer of the two).
+        if len(item4) >= _MIN_BODY or (item4 and len(item4) >= len(item1)):
+            return item4
+        return item1
+    if len(item1) >= _MIN_BODY or (item1 and len(item1) >= len(item4)):
+        return item1
+    # Many 20-F / 40-F URLs look like a 10-K (tsm-20251231.htm). If Item 1 is
+    # missing, try Item 4 so foreign issuers still get a description.
+    return item4
 
 
 _HEADING = re.compile(
@@ -146,6 +192,74 @@ def _is_prose(p: str) -> bool:
     if re.search(r"[.?!](?:\s|$)", p):
         return True
     return len(p) >= 120 and bool(re.search(r"[a-z]{3,}", p))
+
+
+_BOILER_RE = re.compile(
+    r"(?i)("
+    r"forward[- ]looking statement"
+    r"|private securities litigation reform act"
+    r"|documents incorporated herein by reference"
+    r"|this annual report on form\s*(?:10-?k|20-?f|40-?f)"
+    r"|in this annual report on form\s*(?:10-?k|20-?f|40-?f)"
+    r"|throughout this annual report"
+    r"|as used (?:herein|in this annual report)"
+    r"|unless (?:otherwise expressly stated or )?the context otherwise requires"
+    r"|unless the context requires otherwise"
+    r"|except as (?:otherwise )?(?:noted by the context|the context otherwise may require)"
+    r"|the following description of the business should be read in conjunction"
+    r"|amounts reported in this annual report"
+    r"|and analysis of financial condition and results of operations"
+    r"|cautionary (?:note|statement) regarding forward"
+    r"|speak only as of the date (?:hereof|of this)"
+    r"|actual results (?:and outcomes )?may differ materially"
+    r")"
+)
+
+# Opening sentences that only define “we/our/the Company” in this report.
+_DEF_RE = re.compile(
+    r"(?i)^("
+    r"as used (?:herein|in this)"
+    r"|unless (?:otherwise|the context)"
+    r"|except as the context"
+    r"|throughout this annual report"
+    r"|the terms? .{0,80} (?:used herein|mean|refer to)"
+    r"|when we refer to"
+    r"|references (?:herein|in this annual report)"
+    r"|the term [\"“]fiscal year[\"”]"
+    r")"
+)
+
+
+def _sentences(text: str) -> list[str]:
+    parts = re.split(r"(?<=[.?!])\s+", text.strip())
+    return [p.strip() for p in parts if p.strip()]
+
+
+def _is_boiler_sentence(s: str) -> bool:
+    if _BOILER_RE.search(s) or _DEF_RE.search(s):
+        return True
+    if re.match(r"(?i)^annual report on form\s*(?:10-?k|20-?f)", s):
+        return True
+    return False
+
+
+def is_boilerplate_text(text: str) -> bool:
+    """True when a stored short description is only a preamble / FLS warning."""
+    s = (text or "").strip()
+    if not s:
+        return False
+    sents = _sentences(s) or [s]
+    return all(_is_boiler_sentence(x) for x in sents)
+
+
+def _strip_leading_boilerplate(p: str) -> str:
+    sents = _sentences(p)
+    if not sents:
+        return p
+    i = 0
+    while i < len(sents) and _is_boiler_sentence(sents[i]):
+        i += 1
+    return " ".join(sents[i:]).strip()
 
 
 def paragraphs(item_text: str) -> list[str]:
@@ -181,6 +295,7 @@ def paragraphs(item_text: str) -> list[str]:
             continue
         # Drop leftover "Item 1. Business" prefixes on the first line.
         p = re.sub(r"^Item\s+\d+[A-Z]?(?:\s|\.|:|–|—|-)+\S+(?:\s+\S+){0,6}\s*", "", p, flags=re.I).strip()
+        p = _strip_leading_boilerplate(p)
         if not _is_prose(p):
             continue
         out.append(p)
