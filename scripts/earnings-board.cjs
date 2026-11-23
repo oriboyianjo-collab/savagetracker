@@ -13,6 +13,10 @@
 'use strict';
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
+function shard(s) {
+  const f = path.join(ROOT, 'financials', String(s || '').replace(/[^A-Z0-9.\-]/g, '') + '.json');
+  try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { return null; }
+}
 globalThis.self = globalThis;
 require(path.join(ROOT, 'content-language.js'));
 const CL = globalThis.ContentLanguage;
@@ -528,7 +532,6 @@ async function main() {
   const names = Object.fromEntries((secu.d || []).map((x) => [symKey(x[0]), x[1]]));
   const mcap = JSON.parse(fs.readFileSync(path.join(ROOT, 'mcap-rank.json'), 'utf8'));
   const rank = Object.fromEntries((mcap.ranked || []).map((x, i) => [symKey(x[0]), i + 1]));
-  const shard = (s) => { const f = path.join(ROOT, 'financials', s.replace(/[^A-Z0-9.\-]/g, '') + '.json'); try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { return null; } };
   const byRank = (a, b) => (rank[symKey(a['סימול'])] || 1e9) - (rank[symKey(b['סימול'])] || 1e9);
   const fetched = applyOnly && fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf8')) : { cal: null, earn: {}, est: {}, sec: {} };
   const stats = { today, av: 0, sec: 0 };
