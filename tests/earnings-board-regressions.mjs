@@ -431,5 +431,42 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
 
 
 
+// --- pre-announce date must be today or later; repair undoes stale moves ---
+{
+
+  const stale = { 'סימול': 'CRM', 'תאריך': '2026-12-02', 'הערה': 'keep', 'מזהה': 'r-9' };
+  const staleParsed = { isPreannounce: true, date: '2026-10-20', session: 'after', releaseTimeIl: null, callTimeIl: '23:00' };
+  ok('a past "results on" date is not applied to an upcoming row, and the note stays',
+    eb.applyPreannounce(stale, staleParsed, { today: '2026-11-23', source: 'https://www.sec.gov/old.htm' }) === false
+    && stale['תאריך'] === '2026-12-02' && !stale.call_time_il && stale['הערה'] === 'keep');
+
+  const twinA = { 'סימול': 'VMAR', 'תאריך': '2026-11-27', 'מזהה': 'r-10' };
+  const twinB = { 'סימול': 'VMAR', 'תאריך': '2027-01-12', 'מזהה': 'r-11' };
+  const vmarP = { isPreannounce: true, date: '2026-12-05', session: 'after', releaseTimeIl: null, callTimeIl: '16:00' };
+  ok('a future issuer date is still applied',
+    eb.applyPreannounce(twinA, vmarP, { today: '2026-11-23', source: 'https://www.sec.gov/x.htm' }) === true
+    && twinA['תאריך'] === '2026-12-05' && twinA.call_time_il === '16:00');
+  ok('applying to one row does not by itself change a later row of the same symbol',
+    twinB['תאריך'] === '2027-01-12' && !twinB.call_time_il);
+
+  const bad = { 'סימול': 'ADBE', 'תאריך': '2026-09-02', 'תאריך_מקורי': '2026-12-09', 'הערה': 'n',
+    'היסטוריית_מועד': [
+      { scheduled_date: '2026-12-09', basis: 'Previous board date', preserved_on: '2026-11-23' },
+      { date: '2026-09-02', basis: 'Issuer scheduled earnings release (SEC 8-K/6-K pre-announcement)', source: 'https://www.sec.gov/x.htm', verified_on: '2026-11-23' },
+    ],
+    call_time_il: '15:00', call_time_basis: 'issuer-scheduled', call_time_verified_date: '2026-11-23' };
+  const keep = { 'סימול': 'TCOM', 'תאריך': '2026-12-01', 'תאריך_מקורי': '2026-11-23', 'call_time_il': '02:00',
+    call_time_basis: 'issuer-scheduled', call_time_verified_date: '2026-11-23',
+    'היסטוריית_מועד': [
+      { scheduled_date: '2026-11-23', basis: 'Previous board date', preserved_on: '2026-11-23' },
+      { date: '2026-12-01', basis: 'Issuer scheduled earnings release (SEC 8-K/6-K pre-announcement)', source: 'https://www.sec.gov/t.htm', verified_on: '2026-11-23' },
+    ] };
+  ok('repair restores a past pre-announce date and drops its call time',
+    eb.revertInvalidPreannounceDates([bad, keep], '2026-11-23') === 1
+    && bad['תאריך'] === '2026-12-09' && !bad['תאריך_מקורי'] && !bad.call_time_il && bad['הערה'] === 'n'
+    && keep['תאריך'] === '2026-12-01' && keep.call_time_il === '02:00');
+}
+
+
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all earnings-board checks passed');
