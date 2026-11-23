@@ -45,6 +45,38 @@ def month_name(month):
     return list(MONTHS)[month - 1]
 
 
+# Real statement headers abbreviate the English month (Jan, Feb., Sept, Sept.).
+# The token is the whole word: "mar" must not match "margin", "may" not "maybe".
+_MONTH_TOKENS = (
+    'jan(?:uary)?',
+    'feb(?:ruary)?',
+    'mar(?:ch)?',
+    'apr(?:il)?',
+    'may',
+    'jun(?:e)?',
+    'jul(?:y)?',
+    'aug(?:ust)?',
+    'sept?(?:ember)?',
+    'oct(?:ober)?',
+    'nov(?:ember)?',
+    'dec(?:ember)?',
+)
+
+
+def month_token(month):
+    """Regex body for one calendar month, full name or a real abbreviation."""
+    return _MONTH_TOKENS[month - 1]
+
+
+def month_number(word):
+    """Month index for a full or abbreviated English month, else None."""
+    w = (word or '').lower().rstrip('.')
+    for i, tok in enumerate(_MONTH_TOKENS, 1):
+        if re.fullmatch(tok, w):
+            return i
+    return None
+
+
 class Document(HTMLParser):
     """Visible-text, visible-table, link and inline-fact view of an SEC HTML document.
 

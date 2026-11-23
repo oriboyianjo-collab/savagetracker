@@ -45,7 +45,25 @@ class PublicationTests(unittest.TestCase):
     def test_empty_ledger(self):self.linked()['ledger']=[];self.assertRaises(ValueError,self.check)
     def test_held_does_not_publish(self):self.linked()['status']='held';idx,_=self.check();self.assertFalse(idx['symbols'])
     def test_last_good_removal(self):self.linked();old,_=self.check();self.rows[self.i]['status']='held';self.assertRaises(ValueError,self.check,old)
-    def test_last_good_changed_url(self):r=self.linked();old,_=self.check();r['reports']['2027']['Q1']=r['reports']['2027']['Q1'].replace('report.htm','other.htm');r['ledger'][0]['url']=r['reports']['2027']['Q1'];self.assertRaises(ValueError,self.check,old)
+    def test_last_good_pending_keeps_links(self):
+        r=self.linked();old,_=self.check();sym=r['symbol']
+        r.update(status='pending',reports={},ledger=[])
+        idx,st=self.check(old)
+        self.assertEqual(idx['symbols'][sym]['reports'],old['symbols'][sym]['reports'])
+        row=next(x for x in st['rows'] if x['symbol']==sym)
+        self.assertEqual(row['status'],'pending');self.assertEqual(row['linked_slots'],1)
+    def test_last_good_changed_url(self):
+        r=self.linked();old,_=self.check();sym=r['symbol'];kept=old['symbols'][sym]['reports']['2027']['Q1']
+        r['reports']['2027']['Q1']=kept.replace('report.htm','other.htm');r['ledger'][0]['url']=r['reports']['2027']['Q1']
+        idx,_=self.check(old);self.assertEqual(idx['symbols'][sym]['reports']['2027']['Q1'],kept)
+    def test_last_good_keeps_old_slot_and_adds_new(self):
+        r=self.linked();old,_=self.check();sym=r['symbol']
+        u2='https://www.sec.gov/Archives/edgar/data/123/000119312526000002/annual.htm'
+        r['reports']['2026']={'FY':u2}
+        r['ledger'].append({'slot':'2026-FY','url':u2,'body_sha256':'b'*64,'period_end':'2025-12-31','filing_date':'2026-02-20'})
+        idx,_=self.check(old)
+        self.assertEqual(idx['symbols'][sym]['reports']['2027']['Q1'],old['symbols'][sym]['reports']['2027']['Q1'])
+        self.assertEqual(idx['symbols'][sym]['reports']['2026']['FY'],u2)
     def test_last_good_unchanged(self):self.linked();old,_=self.check();self.check(old)
 
 if __name__=='__main__':unittest.main(verbosity=2)

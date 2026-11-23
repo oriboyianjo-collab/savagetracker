@@ -893,6 +893,93 @@ class TestRecognitionRules(unittest.TestCase):
         self.assertNotIn('2019-Q3', [le.get('slot') for le in row['ledger']])
         self.assertFalse((row.get('reports') or {}).get('2019', {}).get('Q3'))
 
+    def test_abbreviated_and_numeric_statement_dates(self):
+        from universal.core import statements, _date_header_bound
+        from universal.sechtml import Document, month_number
+        end = date(2024, 1, 28)
+        def pack(hdr):
+            return ('<html><body>'
+                    '<table><tr><td>Year Ended %s</td></tr><tr><td>Total revenue</td><td>$ 5</td></tr>'
+                    '<tr><td>Net income</td><td>$ 1</td></tr></table>'
+                    '<table><tr><td>As of %s</td></tr><tr><td>Total assets</td><td>$ 9</td></tr>'
+                    '<tr><td>Total liabilities</td><td>$ 4</td></tr></table>'
+                    '<table><tr><td>Period Ended %s</td></tr>'
+                    '<tr><td>Net cash provided by operating activities</td><td>$ 2</td></tr>'
+                    '<tr><td>Cash flows from investing activities</td><td>(1)</td></tr>'
+                    '<tr><td>Cash flows from financing activities</td><td>(1)</td></tr></table>'
+                    '</body></html>' % (hdr, hdr, hdr)).encode()
+        for hdr in ('Jan 28, 2024', 'Jan. 28, 2024', '01/28/2024', '2024-01-28', '28 Jan 2024'):
+            self.assertIn('income', statements(Document(pack(hdr)), end), hdr)
+        sept = date(2024, 9, 30)
+        for hdr in ('Sept 30, 2024', 'Sept. 30, 2024', 'Sep 30, 2024'):
+            self.assertTrue(_date_header_bound('Three Months Ended %s Revenue' % hdr, sept), hdr)
+        self.assertFalse(_date_header_bound('Year Ended Jan 29, 2024 Revenue $ 1', end))
+        self.assertFalse(_date_header_bound('Maybe 28, 2024 and margin 28', end))
+        self.assertEqual(month_number('Dec'), 12)
+        self.assertIsNone(month_number('margin'))
+
+    def test_year_columns_net_earnings_and_sales_caption(self):
+        from universal.core import statements
+        from universal.sechtml import Document
+        end = date(2024, 12, 31)
+        body = ('<html><body>'
+                '<table><tr><td>2024 2023 2022 Sales</td><td>$ 64</td></tr>'
+                '<tr><td>Net earnings attributable to holders</td><td>$ 17</td></tr></table>'
+                '<table><tr><td>2024 2023</td></tr><tr><td>Total assets</td><td>$ 9</td></tr>'
+                '<tr><td>Total liabilities</td><td>$ 4</td></tr></table>'
+                '<table><tr><td>2024 2023 2022</td></tr>'
+                '<tr><td>Cash flows from operating activities</td><td>$ 2</td></tr>'
+                '<tr><td>Cash flows used for investing activities</td><td>(1)</td></tr>'
+                '<tr><td>Cash flows from financing activities</td><td>(1)</td></tr></table>'
+                '</body></html>').encode()
+        self.assertIn('income', statements(Document(body), end, fiscal_year=2024))
+        # A prose mention of two years is not a column header.
+        prose = ('<html><body><table><tr><td>In 2024 versus 2023 sales grew</td><td>Net earnings $ 1</td></tr>'
+                 '<tr><td>Total assets $ 1</td><td>Total liabilities 1</td></tr>'
+                 '<tr><td>Net cash provided by operating activities $ 1 Cash flows from investing activities 1 '
+                 'financing activities 1</td></tr></table></body></html>').encode()
+        with self.assertRaises(ValueError):
+            statements(Document(prose), end, fiscal_year=2024)
+
+    def test_retail_fiscal_year_named_for_the_prior_calendar_year(self):
+        from universal.core import _fiscal_period_consistent
+        self.assertTrue(_fiscal_period_consistent(2024, 'FY', date(2025, 2, 2)))
+        self.assertTrue(_fiscal_period_consistent(2025, 'Q1', date(2025, 5, 4)))
+        self.assertFalse(_fiscal_period_consistent(2019, 'FY', date(2020, 3, 31)))
+        self.assertFalse(_fiscal_period_consistent(2019, 'Q3', date(2020, 3, 31)))
+
+    def test_cover_accepts_year_ended_without_the_word_fiscal(self):
+        self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp')])
+        b = Builder(self.sec)
+        body = synth.doc_regular(b.cik10, b.name, '10-K', '2025', 'FY', date(2025, 12, 31), symbol='TEST')
+        body = body.replace(b'For the fiscal year ended', b'For the year ended', 1)
+        b.filings.append(synth.fil(b.cik10, 1, '10-K', '2026-02-19', '2025-12-31', 'ms.htm'))
+        b.docs[id(b.filings[-1])] = body
+        b.commit()
+        row = run_batch(inventory([inv_row('TEST', 'Test Corp', 1)]), None, self.replay, as_of=AS_OF)['rows'][0]
+        self.assertEqual(row['status'], 'connected', row.get('reason'))
+
+    def test_year_columns_after_a_dollar_unit_label(self):
+        from universal.core import _date_header_bound
+        end = date(2025, 6, 30)
+        head = '($ millions) 2025 2024 Net cash provided by operating activities $ 17'
+        self.assertTrue(_date_header_bound(head, end, (2025,)))
+
+    def test_abbreviated_statement_headers_still_bind_the_cover(self):
+        self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp')])
+        b = Builder(self.sec)
+        body = synth.doc_regular(b.cik10, b.name, '10-K', '2024', 'FY', date(2024, 1, 28), symbol='TEST')
+        body = body.replace(b'January 28, 2024', b'Jan 28, 2024')
+        # Cover keeps the full month; only the statement tables use the abbreviation.
+        body = body.replace(b'For the fiscal year ended Jan 28, 2024',
+                            b'For the fiscal year ended January 28, 2024', 1)
+        b.filings.append(synth.fil(b.cik10, 1, '10-K', '2024-02-21', '2024-01-28', 'nvda.htm'))
+        b.docs[id(b.filings[-1])] = body
+        b.commit()
+        row = run_batch(inventory([inv_row('TEST', 'Test Corp', 1)]), None, self.replay, as_of=AS_OF)['rows'][0]
+        self.assertEqual(row['status'], 'connected', row.get('reason'))
+        self.assertIn('FY', row['reports'].get('2024', {}))
+
     def test_cover_may_insert_commission_file_between_ended_and_date(self):
         self.sec.add_ticker_map([(Builder.CIK, 'TEST', 'Test Corp')])
         b = Builder(self.sec)

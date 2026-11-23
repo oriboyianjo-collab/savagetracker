@@ -89,16 +89,43 @@ def project(inventory,inventory_bytes,result,prior=None):
     if prior:
         if prior.get('inventory_sha256')!=ih or prior.get('as_of')!=as_of:prior=None  # a previous pass/inventory is superseded wholesale
     if prior:
+        by_status={x['symbol']:x for x in statuses}
+        fresh={r.get('symbol'):r for r in rows}
         for s,old in prior.get('symbols',{}).items():
-            if s not in symbols:raise ValueError('last-good symbol would disappear')
-            new=symbols[s]
-            if new['cik']!=old['cik']:raise ValueError('issuer reassignment requires review')
-            for y,ps in old['reports'].items():
-                for q,u in ps.items():
-                    if new['reports'].get(y,{}).get(q)!=u:raise ValueError('last-good report replacement/removal requires review')
+            if s not in symbols:
+                # A repair re-pass marks the issuer pending until its scan finishes.
+                # Last-good links stay published; a finished hold or drop still fails.
+                if fresh.get(s,{}).get('status')=='pending':
+                    symbols[s]=json.loads(json.dumps(old))
+                    by_status[s]['linked_slots']=len(old.get('ledger') or [])
+                    by_status[s]['available_slots']=sorted(e['slot'] for e in old.get('ledger') or [])
+                    continue
+                raise ValueError('last-good symbol would disappear')
+            symbols[s]=_preserve_last_good(old, symbols[s])
+            by_status[s]['linked_slots']=len(symbols[s]['ledger'])
+            by_status[s]['available_slots']=sorted(e['slot'] for e in symbols[s]['ledger'])
+        # Security-class children were copied before last-good URLs were restored.
+        for s,source in expected.items():
+            par=source.get('parent_symbol')
+            if par and par in symbols and by_symbol[s]['reason_code']=='HOLD_SECURITY_CLASS':
+                symbols[s]=json.loads(json.dumps(symbols[par]))
+                by_symbol[s].update({'linked_slots':len(symbols[s]['ledger']),'available_slots':sorted(e['slot'] for e in symbols[s]['ledger']),'parent_symbol':par})
     index={'schema_version':1,'inventory_sha256':ih,'as_of':as_of,'symbols':symbols}
     status={'schema_version':1,'inventory_sha256':ih,'as_of':as_of,'complete_pass':bool(result.get('complete_pass')),'access_held':bool(result.get('access_held')),'summary':counts,'rows':statuses,'coverage_basis':'validated_discovered_filings_only','historical_coverage_verified':False,'q4_prefetch_window_days':75,'coverage_limitations':['Q4 candidates filed later than 75 days after a validated/expected fiscal year end are not fetched','Rejected Q4 candidates may not appear in unresolved counts','A connected status does not certify all historical filings were discovered or all expected slots exist']}
     return index,status
+
+def _preserve_last_good(old, new):
+    """Keep every already published slot URL. New slots from this pass are added.
+    A different URL for an existing slot does not replace the published one."""
+    if new['cik']!=old['cik']:raise ValueError('issuer reassignment requires review')
+    reports=json.loads(json.dumps(new['reports']))
+    ledger={e['slot']:dict(e) for e in new['ledger']}
+    for e in old['ledger']:
+        y,q=e['slot'].split('-',1)
+        if reports.get(y,{}).get(q)!=e['url']:
+            reports.setdefault(y,{})[q]=e['url']
+            ledger[e['slot']]={k:e[k] for k in ('slot','url','body_sha256','period_end','filing_date') if k in e}
+    return {'cik':new['cik'],'reports':reports,'ledger':sorted(ledger.values(),key=lambda e:e['slot'])}
 
 def read_prior(path,shard_directory=None):
     prior=json.loads(Path(path).read_text())
