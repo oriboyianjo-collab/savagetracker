@@ -213,6 +213,42 @@ class ExtractTests(unittest.TestCase):
         self.assertFalse(is_boilerplate_text(out["short_en"]))
 
 
+    def test_skips_tax_and_license_leftovers_for_business_overview(self):
+        text = (
+            "Item 4. Information on the Company\n\n"
+            "B. Business Overview\n\n"
+            "Moreover, taxing authorities in many jurisdictions in which we operate may adopt and enforce more stringent tax rules. For example, the OECD has introduced a global minimum tax of 15%.\n\n"
+            "We operate a leading e-commerce and cloud computing platform that connects merchants and consumers in China and internationally.\n\n"
+            "We are required to obtain various operating licenses and permits and to make registrations and filings for our current business in China; failure to comply with these requirements may materially and adversely affect our business and results of operations.\n\n"
+            "C. Organizational Structure\n\nShould not be included.\n\n"
+            "Item 5. Operating and Financial Review\n\nShould not be included.\n"
+        )
+        out = extract_profile_text(text, "20-F")
+        self.assertIn("e-commerce and cloud computing platform", out["short_en"])
+        self.assertNotIn("taxing authorities", out["short_en"].lower())
+        self.assertNotIn("global minimum tax", out["full_en"].lower())
+        self.assertNotIn("operating licenses", out["full_en"].lower())
+        self.assertFalse(is_boilerplate_text(out["short_en"]))
+        self.assertTrue(is_boilerplate_text(
+            "Moreover, taxing authorities in many jurisdictions in which we operate may adopt and enforce more stringent tax rules."
+        ))
+        self.assertTrue(is_boilerplate_text(
+            "We are required to obtain various operating licenses and permits and to make registrations and filings for our current business in China; failure to comply with these requirements may materially and adversely affect our business and results of operations."
+        ))
+
+    def test_skips_all_other_item10_information(self):
+        text = (
+            "Item 1. Business\n\n"
+            "All other information required by this Item 10 contained in the Proxy Statement is incorporated herein by reference.\n\n"
+            "The Company operates a consumer lending and financial-services platform in the United States.\n\n"
+            "Item 1A. Risk Factors\n\nMany risks.\n"
+        )
+        out = extract_profile_text(text, "10-K")
+        self.assertIn("consumer lending and financial-services platform", out["short_en"])
+        self.assertNotIn("Item 10", out["short_en"])
+        self.assertNotIn("Proxy Statement", out["short_en"])
+
+
 class InventoryTests(unittest.TestCase):
     def test_latest_annual_and_form(self):
         ledger = [
@@ -265,6 +301,7 @@ class InventoryTests(unittest.TestCase):
         self.assertFalse(is_current({"short_en": "We seek to be Earth’s most customer-centric company We are guided by four principles.", "doc_sha256": "abc", "extractor": 4}, rec))
         self.assertFalse(is_current({"short_en": "Furthermore, much of this information is subject to methodological considerations or information, including from third-parties.", "doc_sha256": "abc", "extractor": 4}, rec))
         self.assertFalse(is_current({"short_en": "Certain of our platform businesses face regulatory inquiries and investigations on involutionary competition, including pricing practices.", "doc_sha256": "abc", "extractor": 4}, rec))
+        self.assertFalse(is_current({"short_en": "Moreover, taxing authorities in many jurisdictions in which we operate may adopt and enforce more stringent tax rules.", "doc_sha256": "abc", "extractor": 5}, rec))
         self.assertFalse(is_current({"short_en": "on Private Education—Regulations on After-school Tutoring for more details.", "doc_sha256": "abc", "extractor": 4}, rec))
         self.assertFalse(is_current({"empty": True, "short_en": "", "doc_sha256": "abc"}, rec))
         self.assertFalse(is_current({"short_en": "Hello", "doc_sha256": "zzz", "url": "x", "filing_date": "x", "form": "10-K", "extractor": EXTRACTOR_VERSION}, rec))
