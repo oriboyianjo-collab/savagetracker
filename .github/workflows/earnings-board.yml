@@ -31,7 +31,8 @@ permissions:
   contents: write
   actions: write   # bot pushes do not trigger other workflows: dispatch Pages publication and push-news explicitly
 concurrency:
-  group: sec-edgar-shared
+  # A repair-only / no-SEC dispatch must not wait behind company-profiles or EDGAR.
+  group: ${{ github.event.inputs.sec == 'false' && format('earnings-board-nosec-{0}', github.run_id) || 'sec-edgar-shared' }}
   cancel-in-progress: false
   queue: max
 jobs:
