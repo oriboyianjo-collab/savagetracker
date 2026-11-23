@@ -58,15 +58,20 @@ if (require.main === module) (async () => {
   const commitTime=Number(git('show','-s','--format=%ct',after)?.trim())*1000;
   const body = JSON.stringify({ schema:2, commit, commitTime, news, reports });
   if(Buffer.byteLength(body)>1000000)throw new Error('Publication intent exceeds safe request size');
-  for (let i = 1; i <= 3; i++) {
+  // Retry transient failures (network, 429, 5xx such as a Cloudflare daily-limit 500) with backoff: ~3.5 min in total.
+  // Fail fast only on a definite configuration answer from the Worker (401 key, 404 route, JSON 503 "not configured").
+  const waits = [5, 15, 30, 60, 90];
+  for (let i = 1; i <= waits.length + 1; i++) {
     try {
       const r = await fetch(URL_, { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Push-Key': key }, body, signal: AbortSignal.timeout(25000) });
       const t = await r.text();
       if (r.ok) { console.log('push-news: ok ' + t.slice(0, 300)); return; }
-      if (r.status === 404 || r.status === 401 || r.status === 503) { throw new Error('Worker rejected queue ingest: '+r.status+' '+t.slice(0,120)); }
-      console.log('push-news: attempt ' + i + ' HTTP ' + r.status + ' ' + t.slice(0, 120));
-    } catch (e) { console.log('push-news: attempt ' + i + ' ' + e.message); }
-    await new Promise((x) => setTimeout(x, 2000 * i));
+      let cfg = r.status === 401 || r.status === 404;
+      if (r.status === 503) { try { cfg = !!JSON.parse(t).error; } catch (e) {} }
+      if (cfg) throw Object.assign(new Error('Worker rejected queue ingest: '+r.status+' '+t.slice(0,120)), { fatal: true });
+      console.log('push-news: attempt ' + i + ' HTTP ' + r.status + ' ' + t.replace(/\s+/g, ' ').slice(0, 120));
+    } catch (e) { if (e.fatal) throw e; console.log('push-news: attempt ' + i + ' ' + e.message); }
+    if (i <= waits.length) await new Promise((x) => setTimeout(x, waits[i - 1] * 1000));
   }
-  throw new Error('Durable queue ingest failed after 3 attempts; event not confirmed queued');
+  throw new Error('Durable queue ingest failed after ' + (waits.length + 1) + ' attempts; event not confirmed queued (the next successful run re-sends the newest 80 items)');
 })().catch((e) => { warn(e.message); process.exitCode=1; });
