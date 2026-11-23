@@ -321,6 +321,8 @@ function applyCallTime(row, text, ctx) {
 function applyPreannounce(row, parsed, ctx) {
   if (!parsed || !parsed.isPreannounce) return false;
   const { today, source } = ctx || {};
+  // A date before today is a prior release or a period-end, never the upcoming report.
+  if (parsed.date && today && parsed.date < today) return false;
   let changed = false;
   const set = (k, v) => { if (row[k] !== v) { row[k] = v; changed = true; } };
   if (parsed.date && parsed.date !== row['תאריך'] && !isPublished(row) && !secConfirmed(row)) {
@@ -344,6 +346,33 @@ function applyPreannounce(row, parsed, ctx) {
   }
   if (parsed.callTimeIl && applyCallTime(row, null, { today, source, basis: 'issuer-scheduled', clock: parsed.callTimeIl })) changed = true;
   return changed;
+}
+
+// Undo pre-announce date moves whose announced date was already in the past (stale 6-K / prior-quarter text).
+function revertInvalidPreannounceDates(rows, today) {
+  let n = 0;
+  for (const r of rows) {
+    const hist = Array.isArray(r['היסטוריית_מועד']) ? r['היסטוריית_מועד'] : [];
+    const applied = hist.filter((h) => h && h.verified_on === today && /pre-announcement/i.test(String(h.basis || '')));
+    if (!applied.length) continue;
+    const newDate = applied[applied.length - 1].date || r['תאריך'];
+    if (newDate >= today) continue;
+    const orig = r['תאריך_מקורי'] || (hist[0] && hist[0].scheduled_date);
+    if (!orig) continue;
+    r['תאריך'] = orig;
+    const kept = hist.filter((h) => !(h && h.verified_on === today && /pre-announcement/i.test(String(h.basis || ''))));
+    const onlyMarker = kept.length && kept.every((h) => h && h.scheduled_date && !h.date);
+    if (!kept.length || onlyMarker) { delete r['היסטוריית_מועד']; delete r['תאריך_מקורי']; }
+    else r['היסטוריית_מועד'] = kept;
+    if (r.call_time_verified_date === today && /issuer-scheduled/i.test(String(r.call_time_basis || ''))) {
+      delete r.call_time_il; delete r.call_time_basis; delete r.call_time_source; delete r.call_time_verified_date;
+    }
+    if (r.release_time_verified_date === today && /issuer-scheduled/i.test(String(r.release_time_basis || ''))) {
+      delete r.release_time_il; delete r.release_time_approx; delete r.release_time_basis; delete r.release_time_source; delete r.release_time_verified_date;
+    }
+    n++;
+  }
+  return n;
 }
 
 function findPreannounceFilings(recent, today) {
@@ -627,6 +656,7 @@ async function main() {
               const got = await fetchFilingTexts(sec, cik, filing);
               if (!got.text) continue;
               const parsed = parseEarningsPreannounce(got.text, ilClock);
+              if (parsed && parsed.date && parsed.date < today) continue;   // stale prior-quarter / already-released filing
               if (parsed && (parsed.date || parsed.callTimeIl || parsed.releaseTimeIl || parsed.session)) {
                 rec.pre = parsed;
                 rec.preUrl = (got.urls && got.urls[0]) || got.index;
@@ -641,6 +671,7 @@ async function main() {
       stats.sec = sec.count;
     }
   }
+  const preannounceReverted = revertInvalidPreannounceDates(rows, today);
   let secApplied = 0;
   // 2b) live 8-K feed + press-release figures (earnings-live workflow)
   let live = null;
@@ -673,15 +704,24 @@ async function main() {
     if (f.prText) applyCallTime(r, f.prText, { today, source: f.link, basis: 'sec-8k-item-2.02-pr', date: r['תאריך'] });
   }
   let preApplied = 0, callFilled = 0;
+  const preBySym = new Map();
   for (const r of rows) {
-    const f = fetched.sec[symKey(r['סימול'])];
-    if (!f) continue;
-    if (f.pre && applyPreannounce(r, f.pre, { today, source: f.preUrl })) preApplied++;
-    else if (f.pre && f.pre.callTimeIl && applyCallTime(r, null, { today, source: f.preUrl, basis: 'issuer-scheduled', clock: f.pre.callTimeIl })) callFilled++;
-    if (has(r.call_time_il)) callFilled++;
+    const s = symKey(r['סימול']); const f = fetched.sec[s];
+    if (!f || !f.pre) continue;
+    if (!preBySym.has(s)) preBySym.set(s, []);
+    preBySym.get(s).push(r);
   }
-  // callFilled above double-counts existing clocks; report only newly present values after this run via preApplied/sec path
-  callFilled = rows.filter((r) => has(r.call_time_il)).length;
+  for (const [s, list] of preBySym) {
+    const f = fetched.sec[s];
+    const open = list.filter((r) => !secConfirmed(r) && !isPublished(r));
+    const inWin = open.filter((r) => { const d = String(r['תאריך']); return d >= addDays(today, -1) && d <= addDays(today, 21); });
+    const pool = inWin.length ? inWin : open;
+    if (!pool.length) continue;
+    if (f.pre.date) pool.sort((a, b) => Math.abs(diffDays(f.pre.date, String(a['תאריך']))) - Math.abs(diffDays(f.pre.date, String(b['תאריך']))));
+    const row = pool[0];
+    if (applyPreannounce(row, f.pre, { today, source: f.preUrl })) preApplied++;
+    else if (f.pre.callTimeIl && applyCallTime(row, null, { today, source: f.preUrl, basis: 'issuer-scheduled', clock: f.pre.callTimeIl })) callFilled++;
+  }
 
   // 3) actuals
   let epsFilled = 0, revFilled = 0, revEst = 0;
@@ -721,7 +761,7 @@ async function main() {
     await sealRow(r, b ? fresh.get(r) : true); changed++;
   }
   if (live) { secApplied += live.secApplied; epsFilled += live.epsFilled; revFilled += live.revFilled; }
-  Object.assign(stats, { secApplied, preApplied: preApplied || 0, callTimes: rows.filter((r) => has(r.call_time_il)).length, epsFilled, revFilled, revEst, pruned, changed, added, rows: keep.length, warnings });
+  Object.assign(stats, { secApplied, preApplied: preApplied || 0, preannounceReverted: preannounceReverted || 0, callTimes: rows.filter((r) => has(r.call_time_il)).length, epsFilled, revFilled, revEst, pruned, changed, added, rows: keep.length, warnings });
   fs.writeFileSync(cacheFile, JSON.stringify(fetched));
   fs.writeFileSync(stateFile, JSON.stringify(state));
   if (changed || pruned) fs.writeFileSync(file, JSON.stringify(keep));
@@ -732,5 +772,5 @@ async function main() {
 
 const parsePreannounce = (text, fn) => parseEarningsPreannounce(text, fn || ilClock);
 const parseCallClock = (text, date, fn) => parseCallTimeFromRelease(text, date, fn || ilClock);
-module.exports = { avClient, avReserve, applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, findPreannounceFilings, applySec, applyPreannounce, applyCallTime, parseEarningsPreannounce: parsePreannounce, parseCallTimeFromRelease: parseCallClock, storedCik, resolveCik, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
+module.exports = { avClient, avReserve, applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, findPreannounceFilings, applySec, applyPreannounce, applyCallTime, revertInvalidPreannounceDates, parseEarningsPreannounce: parsePreannounce, parseCallTimeFromRelease: parseCallClock, storedCik, resolveCik, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
 if (require.main === module) main().catch((e) => { console.log('::error::earnings-board: ' + e.message); process.exitCode = 1; });

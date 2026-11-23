@@ -23,11 +23,16 @@ on:
         description: 'Also call Alpha Vantage this run (uses up to 12 of the 25 daily calls)'
         type: boolean
         default: true
+      sec:
+        description: 'Run the SEC 2.02 / pre-announce detector this run'
+        type: boolean
+        default: true
 permissions:
   contents: write
   actions: write   # bot pushes do not trigger other workflows: dispatch Pages publication and push-news explicitly
 concurrency:
-  group: sec-edgar-shared
+  # A repair-only / no-SEC dispatch must not wait behind company-profiles or EDGAR.
+  group: ${{ github.event.inputs.sec == 'false' && format('earnings-board-nosec-{0}', github.run_id) || 'sec-edgar-shared' }}
   cancel-in-progress: false
   queue: max
 jobs:
@@ -52,8 +57,10 @@ jobs:
           SCHEDULE: ${{ github.event.schedule }}
           EVENT: ${{ github.event_name }}
           AV_INPUT: ${{ github.event.inputs.av }}
+          SEC_INPUT: ${{ github.event.inputs.sec }}
         run: |
-          flags="--sec"
+          flags=""
+          if [ "$EVENT" != "workflow_dispatch" ] || [ "$SEC_INPUT" != "false" ]; then flags="--sec"; fi
           case "$SCHEDULE" in "0 12 * * *"|"0 11 * * *"|"0 0 * * *"|"0 23 * * *") avcron=1 ;; *) avcron= ;; esac
           if [ -n "$avcron" ] || { [ "$EVENT" = "workflow_dispatch" ] && [ "$AV_INPUT" = "true" ]; }; then flags="--av $flags"; fi
           # A scheduled AV backup runs Alpha Vantage only when its due time is 14:00 or 02:00 Israel time today (the other
