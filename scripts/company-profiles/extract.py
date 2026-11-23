@@ -5,7 +5,7 @@ import re
 from html import unescape
 
 # Bump when the extractor changes so stored stubs and weak fills are retried once.
-EXTRACTOR_VERSION = 5
+EXTRACTOR_VERSION = 6
 
 FOOTER_RE = re.compile(
     r"^(Table of Contents|TABLE OF CONTENTS|"
@@ -239,6 +239,10 @@ _BOILER_RE = re.compile(
     r"|for additional information regarding the effects"
     r"|for more details"
     r"|could adversely affect (?:its|the company.?s|our) financial condition"
+    r"|taxing authorities"
+    r"|global minimum tax"
+    r"|all other information required by this item"
+    r"|materially and adversely affect our business and results of operations"
     r")"
 )
 
@@ -327,7 +331,13 @@ def _is_boiler_sentence(s: str) -> bool:
         return True
     if _starts_mid_sentence(s):
         return True
-    if re.search(r"(?i)^(?:any information required by this item|10-k for additional information)", s):
+    if re.search(r"(?i)^(?:any information required by this item|all other information required by this item|10-k for additional information)", s):
+        return True
+    if re.match(r"(?i)^(?:moreover|further|in addition),", s) and re.search(
+        r"(?i)taxing authorities|tax rules|regulatory|inquir|investigation", s
+    ):
+        return True
+    if re.match(r"(?i)^we are required to obtain", s):
         return True
     if re.search(r"(?i)could adversely affect .{0,40}(?:financial condition|operating results)", s) and re.search(r"(?i)laws or regulations", s):
         return True
@@ -403,10 +413,12 @@ def paragraphs(item_text: str) -> list[str]:
 
 
 _BUSINESS_LEAD = re.compile(
-    r"(?i)^(?:.{0,120}?)(?:"
-    r"we (?:are|operate|provide|design|develop|manufacture|offer|sell|make|serve|create|build|focus|combine|believe|seek|have|maintain)"
+    r"(?i)^(?:"
+    # The company verb must start the sentence, so “in which we operate” does not match.
+    r"we (?!are required|may be|could be|will rely)"
+    r"(?:are|operate|provide|design|develop|manufacture|offer|sell|make|serve|create|build|focus|combine|believe|seek|have|maintain)"
     r"|the company (?:is|designs|develops|operates|provides|manufactures|offers|sells)"
-    r"|\bis an?\b"
+    r"|.{0,80}?\bis an? (?:leading|global|provider|manufacturer|developer|technology|semiconductor|industry|digital|enterprise|supplier|dedicated)"
     r"|mission is"
     r"|was founded"
     r"|as a .{0,60}, we "
