@@ -3,8 +3,10 @@
 // Sources (public data only, no portfolio data):
 //  - Alpha Vantage (personal free key, repo secret ALPHAVANTAGE_KEY, <=25 calls/day): EARNINGS_CALENDAR (dates, timing, EPS estimate),
 //    EARNINGS (reported EPS, same street basis as its estimate), EARNINGS_ESTIMATES (revenue consensus) for a short priority list.
-//  - SEC EDGAR (official data.sec.gov / sec.gov only): 8-K Item 2.02 detection -> release confirmed, time, report link.
-//    Fair access: User-Agent "SavageTracker Savtra12@gmail.com", <=2 req/s, stop on 403/429 (no retry, no circumvention).
+//  - SEC EDGAR (official data.sec.gov / sec.gov only): 8-K Item 2.02 / 6-K acceptance -> release confirmed, time, report link.
+//    Also 8-K Items 7.01/8.01 and 6-K exhibits for issuer pre-announcements: scheduled release date, exact release
+//    clock only when stated as the press-release time (never a conference-call time), and a separate investor-call clock.
+//    Fair access: User-Agent "SavageTracker Savtra12@gmail.com", 1 req/s here, official endpoints only, stop on 403/429 (no retry, no circumvention).
 //  - financials/<SYM>.json shards already in the repo (built from SEC XBRL / 8-K) -> GAAP revenue actuals.
 // Never writes or changes הערה / הערה_en (Ori writes notes). Never deletes manual rows.
 // Usage: node scripts/earnings-board.cjs [--av] [--sec] [--live FEED.json] [--apply-only] [--state DIR] [--today YYYY-MM-DD]
@@ -14,6 +16,7 @@ const ROOT = path.resolve(__dirname, '..');
 globalThis.self = globalThis;
 require(path.join(ROOT, 'content-language.js'));
 const CL = globalThis.ContentLanguage;
+const { parseEarningsPreannounce, parseCallTimeFromRelease, stripHtml } = require(path.join(__dirname, 'earnings-preannounce.cjs'));
 
 const UA = 'SavageTracker Savtra12@gmail.com';
 const SEC_INTERVAL_MS = 1000;           // 1 req/s: financials-fast may use the other 1 req/s of the 2 req/s project budget
@@ -58,7 +61,11 @@ async function sealRow(row, wasFresh) {
 // ---------- row helpers ----------
 const isPublished = (r) => has(r['בפועל_EPS']) || has(r['הכנסות_בפועל']);
 const secConfirmed = (r) => has(r['אימות_פרסום_SEC']);
-const issuerTimed = (r) => /^issuer/.test(String(r.release_time_basis || '')) || has(r['מועד_פרסום_מאומת']);
+const issuerTimed = (r) => {
+  const b = String(r.release_time_basis || '');
+  if (/issuer-scheduled/i.test(b)) return false;   // a scheduled clock is replaced by the 8-K 2.02 / 6-K acceptance time
+  return /^issuer/.test(b) || has(r['מועד_פרסום_מאומת']);
+};
 const avEstimate = (r) => !has(r['צפי_EPS']) || /^Alpha Vantage/.test(String(r['מקור_צפי_EPS'] || ''));
 function nextId(rows) { let m = 0; for (const r of rows) { const x = /^r-(\d+)$/.exec(r['מזהה'] || ''); if (x) m = Math.max(m, +x[1]); } return m; }
 
@@ -149,7 +156,7 @@ function applySec(row, hit, ctx) {
   if (!late && !issuerTimed(row)) {
     const m = hit.et.min < 570 ? 'before' : hit.et.min >= 960 ? 'after' : '';
     if (m) set('מועד', m);
-    if (!has(row.release_time_il) || /^(third-party|sec-8k)/.test(String(row.release_time_basis || ''))) {
+    if (!has(row.release_time_il) || /^(third-party|sec-8k|issuer-scheduled)/.test(String(row.release_time_basis || ''))) {
       set('release_time_il', ilClock(hit.iso)); set('release_time_approx', true); set('release_time_basis', 'sec-8k-item-2.02-acceptance');
       set('release_time_source', index); set('release_time_verified_date', today);
     }
@@ -282,13 +289,118 @@ function applySec6k(row, hit, ctx) {
   const set = (k, v) => { if (row[k] !== v) { row[k] = v; changed = true; } };
   if (hit.dd < 0 || hit.dd > 1) return false;
   set('אימות_פרסום_SEC', hit.acc);
-  if (hit.dd === 0 && !issuerTimed(row) && (!has(row.release_time_il) || /^(third-party|sec-)/.test(String(row.release_time_basis || '')))) {
+  if (hit.dd === 0 && !issuerTimed(row) && (!has(row.release_time_il) || /^(third-party|sec-|issuer-scheduled)/.test(String(row.release_time_basis || '')))) {
     set('release_time_il', ilClock(hit.iso)); set('release_time_approx', true); set('release_time_basis', 'sec-6k-acceptance');
     set('release_time_source', index); set('release_time_verified_date', today);
   }
   if (!has(row['קישור_לדוח'])) set('קישור_לדוח', link || index);
   return changed;
 }
+// Investor-call clock only. Never writes release_time_il. Leaves הערה untouched.
+function applyCallTime(row, text, ctx) {
+  const { today, source, basis, clock, date } = ctx || {};
+  let c = clock || null;
+  if (!c && text) c = parseCallTimeFromRelease(text, date || row['תאריך'], ilClock);
+  if (!c || !/^([01]\d|2[0-3]):[0-5]\d$/.test(c)) return false;
+  if (has(row.call_time_il) && row.call_time_il === c && (row.call_time_basis || '') === (basis || row.call_time_basis || '')) return false;
+  // A 2.02 / 6-K press-release call time wins over a scheduled one; never the other way if both exist and differ? Allow 2.02 to update.
+  if (has(row.call_time_il) && /sec-8k-item-2\.02-pr|sec-6k-pr/.test(String(row.call_time_basis || '')) && !/sec-8k-item-2\.02-pr|sec-6k-pr/.test(String(basis || ''))) return false;
+  row.call_time_il = c;
+  row.call_time_basis = basis || 'issuer-scheduled';
+  if (source) row.call_time_source = source;
+  if (today) row.call_time_verified_date = today;
+  return true;
+}
+
+// Issuer pre-announcement: may move the board date, set BMO/AMC, set an exact release clock only when
+// the filing states a press-release time, and store the investor-call clock separately. Never writes notes.
+function applyPreannounce(row, parsed, ctx) {
+  if (!parsed || !parsed.isPreannounce) return false;
+  const { today, source } = ctx || {};
+  let changed = false;
+  const set = (k, v) => { if (row[k] !== v) { row[k] = v; changed = true; } };
+  if (parsed.date && parsed.date !== row['תאריך'] && !isPublished(row) && !secConfirmed(row)) {
+    if (!has(row['תאריך_מקורי'])) row['תאריך_מקורי'] = row['תאריך'];
+    const h = Array.isArray(row['היסטוריית_מועד']) ? row['היסטוריית_מועד'].slice() : [];
+    if (!h.length) h.push({ scheduled_date: row['תאריך'], basis: 'Previous board date', preserved_on: today });
+    h.push({ date: parsed.date, basis: 'Issuer scheduled earnings release (SEC 8-K/6-K pre-announcement)', source: source || '', verified_on: today });
+    row['היסטוריית_מועד'] = h;
+    row['תאריך'] = parsed.date;
+    changed = true;
+  }
+  if (parsed.session && !isPublished(row) && !secConfirmed(row)) set('מועד', parsed.session);
+  if (parsed.releaseTimeIl && !isPublished(row) && !secConfirmed(row) && !issuerTimed(row)) {
+    if (!has(row.release_time_il) || /^(third-party|issuer-scheduled)/.test(String(row.release_time_basis || '')) || !row.release_time_basis) {
+      set('release_time_il', parsed.releaseTimeIl);
+      set('release_time_approx', false);
+      set('release_time_basis', 'issuer-scheduled');
+      if (source) set('release_time_source', source);
+      set('release_time_verified_date', today);
+    }
+  }
+  if (parsed.callTimeIl && applyCallTime(row, null, { today, source, basis: 'issuer-scheduled', clock: parsed.callTimeIl })) changed = true;
+  return changed;
+}
+
+function findPreannounceFilings(recent, today) {
+  if (!recent || !Array.isArray(recent.form)) return [];
+  const from = addDays(today, -120), to = addDays(today, 7);
+  const out = [];
+  for (let i = 0; i < recent.form.length; i++) {
+    const form = recent.form[i] || '';
+    const items = String(recent.items[i] || '');
+    const is8k = /^8-K(\/A)?$/.test(form) && (/(^|,)\s*7\.01(\s*,|$)/.test(items) || /(^|,)\s*8\.01(\s*,|$)/.test(items));
+    const is6k = /^6-K(\/A)?$/.test(form);
+    if (!is8k && !is6k) continue;
+    if (/(^|,)\s*2\.02(\s*,|$)/.test(items)) continue;   // results 8-K: handled by find202
+    const iso = recent.acceptanceDateTime[i];
+    const filed = (iso && etParts(iso).date) || String(recent.filingDate && recent.filingDate[i] || '').slice(0, 10);
+    if (!filed || filed < from || filed > to) continue;
+    out.push({ acc: recent.accessionNumber[i], iso, filed, form, items, doc: recent.primaryDocument && recent.primaryDocument[i] });
+  }
+  out.sort((a, b) => String(b.filed).localeCompare(String(a.filed)) || String(b.iso || '').localeCompare(String(a.iso || '')));
+  return out.slice(0, 4);
+}
+
+async function fetchFilingTexts(sec, cik, filing) {
+  const base = `https://www.sec.gov/Archives/edgar/data/${+cik}/${filing.acc.replace(/-/g, '')}`;
+  const ix = await sec.json(`${base}/index.json`);
+  const items = (ix && ix.directory && ix.directory.item) || [];
+  const htmls = items.filter((it) => /\.html?$/i.test(it.name || ''));
+  const names = [];
+  if (filing.doc && htmls.some((it) => it.name === filing.doc)) names.push(filing.doc);
+  const exhibits = htmls.filter((it) => /ex-?99|ex99|dex99/i.test(it.name)).sort((a, b) => String(a.name).localeCompare(String(b.name)));
+  for (const ex of exhibits) {
+    if (names.length >= 3) break;
+    if (!names.includes(ex.name)) names.push(ex.name);
+  }
+  if (!names.length && htmls[0]) names.push(htmls[0].name);
+  const texts = [], urls = [];
+  for (const name of names) {
+    const url = `${base}/${name}`;
+    const body = await sec.text(url);
+    if (body) { texts.push(body); urls.push(url); }
+  }
+  return { text: texts.join('\n\n'), urls, index: `${base}/${filing.acc}-index.htm` };
+}
+
+let linksCikMap = null;
+function storedCik(sym) {
+  if (!linksCikMap) {
+    try {
+      const j = JSON.parse(fs.readFileSync(path.join(ROOT, 'report-links-all.json'), 'utf8'));
+      linksCikMap = {};
+      for (const [k, v] of Object.entries((j && j.symbols) || {})) {
+        if (v && v.cik) linksCikMap[symKey(k)] = String(v.cik).padStart(10, '0');
+      }
+    } catch (e) { linksCikMap = {}; }
+  }
+  return linksCikMap[sym] || null;
+}
+function resolveCik(sym, tickers) {
+  return storedCik(sym) || (shard(sym) || {}).cik || (tickers && (tickers[sym] || tickers[sym.replace(/\./g, '-')])) || null;
+}
+
 // Applies the live feed: SEC release confirmation/time/link, EPS and revenue from the press release. Returns stats.
 function applyLive(rows, feed, ctx) {
   const { today, cikOf } = ctx; const st = { secApplied: 0, epsFilled: 0, revFilled: 0 };
@@ -310,8 +422,11 @@ function applyLive(rows, feed, ctx) {
     const row = hit0.r;
     if (!secConfirmed(row)) {
       if (String(row['תאריך']) < addDays(today, -1)) continue;     // older rows: the hourly submissions check owns them
-      if (f.form === '6-K') { if (applySec6k(row, { acc: f.acc, iso, et, dd: hit0.dd }, { today, cik: f.cik, link: f.url })) st.secApplied++; continue; }
-      if (applySec(row, { acc: f.acc, iso, et, dd: hit0.dd, form: f.form || '8-K' }, { today, cik: f.cik, link: f.url })) st.secApplied++;
+      if (f.form === '6-K') { if (applySec6k(row, { acc: f.acc, iso, et, dd: hit0.dd }, { today, cik: f.cik, link: f.url })) st.secApplied++; }
+      else if (applySec(row, { acc: f.acc, iso, et, dd: hit0.dd, form: f.form || '8-K' }, { today, cik: f.cik, link: f.url })) st.secApplied++;
+      const pr = f.text || f.pr || f.body || f.excerpt || f.summary || '';
+      if (pr) applyCallTime(row, pr, { today, source: f.url, basis: f.form === '6-K' ? 'sec-6k-pr' : 'sec-8k-item-2.02-pr', date: row['תאריך'] });
+      if (f.form === '6-K') continue;
     }
     if (f.form === '6-K' || row['אימות_פרסום_SEC'] !== f.acc) continue;   // 6-K: release time + link only (numbers from Alpha Vantage)
     if (applyPrEps(row, f)) st.epsFilled++;
@@ -348,6 +463,17 @@ function secClient(state) {
       if (!r.ok) throw new Error('SEC HTTP ' + r.status);
       return r.json();
     },
+    async text(url) {
+      if (!/^https:\/\/(www\.sec\.gov|data\.sec\.gov)\//.test(url)) throw new Error('not an official SEC endpoint');
+      const w = next - Date.now(); if (w > 0) await sleep(w);
+      next = Date.now() + SEC_INTERVAL_MS; count++;
+      const r = await fetch(url, { headers: { 'User-Agent': UA, 'Accept-Encoding': 'gzip, deflate' }, signal: AbortSignal.timeout(30000) });
+      next = Date.now() + SEC_INTERVAL_MS;
+      if (r.status === 403 || r.status === 429) { state.secBlockedUntil = Date.now() + 24 * 3600e3; throw new SecBlocked('SEC HTTP ' + r.status + ' - stopping all SEC requests, no retry'); }
+      if (r.status === 404) return null;
+      if (!r.ok) throw new Error('SEC HTTP ' + r.status);
+      return r.text();
+    },
   };
 }
 // The 25-call quota resets at midnight New York time, so both daily runs (14:00 Israel = morning ET, 02:00 Israel = evening ET
@@ -381,7 +507,7 @@ async function otherSecJobBusy() {
     const r = await fetch(`https://api.github.com/repos/${repo}/actions/runs?status=in_progress&per_page=50`, { headers: { Authorization: 'Bearer ' + tok, Accept: 'application/vnd.github+json' }, signal: AbortSignal.timeout(15000) });
     if (!r.ok) return false; const j = await r.json();
     if (require(path.join(ROOT, 'scripts', 'earnings-live-window.cjs')).inWindow()) return true;   // earnings-live owns the window
-    return (j.workflow_runs || []).some((w) => String(w.id) !== String(process.env.GITHUB_RUN_ID) && /^financials$/i.test(w.name || ''));
+    return (j.workflow_runs || []).some((w) => String(w.id) !== String(process.env.GITHUB_RUN_ID) && /^(financials|company-profiles)$/i.test(w.name || ''));
   } catch (e) { return false; }
 }
 
@@ -455,32 +581,58 @@ async function main() {
     stats.av = av.calls;
   } else if (fetched.cal) stats.calendar = applyCalendar(rows, fetched.cal, { today, names });
 
-  // 2) SEC 8-K Item 2.02 detector
+  // 2) SEC 8-K Item 2.02 detector + issuer pre-announcements (8-K 7.01/8.01 and 6-K exhibits)
   if (flag('sec') && !applyOnly) {
     if (state.secBlockedUntil && Date.now() < state.secBlockedUntil) warnings.push('SEC requests paused after a 403/429 until ' + new Date(state.secBlockedUntil).toISOString());
     else {
       const sec = secClient(state);
-      const want = rows.filter((r) => { const d = String(r['תאריך']); return d >= addDays(today, -1) && d <= addDays(today, 1) && !secConfirmed(r); }).sort(byRank);
+      const want202 = rows.filter((r) => { const d = String(r['תאריך']); return d >= addDays(today, -1) && d <= addDays(today, 1) && !secConfirmed(r); });
+      const wantPre = rows.filter((r) => { const d = String(r['תאריך']); return d >= addDays(today, -1) && d <= addDays(today, 21) && !secConfirmed(r) && !isPublished(r); });
+      const seen = new Set(); const want = [];
+      for (const r of [...want202, ...wantPre].sort(byRank)) {
+        const s = symKey(r['סימול']); if (seen.has(s)) continue; seen.add(s); want.push(r);
+      }
       let tickers = null, n = 0;
       try {
         for (const r of want) {
-          if (n++ % 40 === 0 && await otherSecJobBusy()) { warnings.push('SEC step paused: the financials (2 req/s) or earnings-live job is running'); break; }
+          if (n++ % 40 === 0 && await otherSecJobBusy()) { warnings.push('SEC step paused: the financials, company-profiles, or earnings-live job is running'); break; }
           const s = symKey(r['סימול']); if (fetched.sec[s] !== undefined) continue;
-          let cik = (shard(s) || {}).cik;
+          let cik = resolveCik(s, tickers);
           if (!cik) {
             if (!tickers) { const t = await sec.json('https://www.sec.gov/files/company_tickers.json'); tickers = {}; for (const v of Object.values(t || {})) tickers[symKey(v.ticker)] = String(v.cik_str).padStart(10, '0'); }
-            cik = tickers[s] || tickers[s.replace(/\./g, '-')];
+            cik = resolveCik(s, tickers);
           }
           if (!cik) { fetched.sec[s] = null; continue; }
           const sub = await sec.json(`https://data.sec.gov/submissions/CIK${String(cik).padStart(10, '0')}.json`);
-          const hit = sub && find202(sub.filings && sub.filings.recent, String(r['תאריך']));
-          if (!hit) { fetched.sec[s] = { cik, none: true }; continue; }
-          let link = null;
-          const ix = await sec.json(`https://www.sec.gov/Archives/edgar/data/${+cik}/${hit.acc.replace(/-/g, '')}/index.json`);
-          const items = (ix && ix.directory && ix.directory.item) || [];
-          const ex = items.find((it) => /ex-?99(?:[-_.]?0?1)?\b|ex99/i.test(it.name) && /\.html?$/i.test(it.name)) || items.find((it) => /99/.test(it.name) && /\.html?$/i.test(it.name));
-          if (ex) link = `https://www.sec.gov/Archives/edgar/data/${+cik}/${hit.acc.replace(/-/g, '')}/${ex.name}`;
-          fetched.sec[s] = { cik, hit, link };
+          const recent = sub && sub.filings && sub.filings.recent;
+          const in202 = want202.some((x) => symKey(x['סימול']) === s);
+          const hit = in202 && recent ? find202(recent, String(r['תאריך'])) : null;
+          const rec = { cik, hit: hit || undefined, none: !hit };
+          if (hit) {
+            const ix = await sec.json(`https://www.sec.gov/Archives/edgar/data/${+cik}/${hit.acc.replace(/-/g, '')}/index.json`);
+            const items = (ix && ix.directory && ix.directory.item) || [];
+            const ex = items.find((it) => /ex-?99(?:[-_.]?0?1)?\b|ex99/i.test(it.name) && /\.html?$/i.test(it.name)) || items.find((it) => /99/.test(it.name) && /\.html?$/i.test(it.name));
+            if (ex) rec.link = `https://www.sec.gov/Archives/edgar/data/${+cik}/${hit.acc.replace(/-/g, '')}/${ex.name}`;
+            if (rec.link && !has(r.call_time_il)) {
+              const body = await sec.text(rec.link);
+              if (body) rec.prText = body;
+            }
+          }
+          if (!hit) {
+            const cands = recent ? findPreannounceFilings(recent, today) : [];
+            for (const filing of cands) {
+              const got = await fetchFilingTexts(sec, cik, filing);
+              if (!got.text) continue;
+              const parsed = parseEarningsPreannounce(got.text, ilClock);
+              if (parsed && (parsed.date || parsed.callTimeIl || parsed.releaseTimeIl || parsed.session)) {
+                rec.pre = parsed;
+                rec.preUrl = (got.urls && got.urls[0]) || got.index;
+                rec.preAcc = filing.acc;
+                break;
+              }
+            }
+          }
+          fetched.sec[s] = rec;
         }
       } catch (e) { if (e instanceof SecBlocked) { warnings.push(e.message); stats.secBlocked = true; } else warnings.push('SEC: ' + e.message); }
       stats.sec = sec.count;
@@ -503,7 +655,7 @@ async function main() {
       } catch (e) { warnings.push('SEC tickers: ' + e.message); if (e instanceof SecBlocked) { stats.secBlocked = true; fs.writeFileSync(path.join(stateDir, 'sec-hold'), e.message); } }
     }
     const tm = (tick && tick.m) || {};
-    const cikOf = (s) => (shard(s) || {}).cik || tm[s] || tm[s.replace(/\./g, '-')] || null;
+    const cikOf = (s) => storedCik(s) || (shard(s) || {}).cik || tm[s] || tm[s.replace(/\./g, '-')] || null;
     live = applyLive(rows, feed, { today, cikOf });
     // CIKs on the board today/tomorrow: the next round watches their Form 6-K (foreign issuers) too
     const bc = [...new Set(rows.filter((r) => { const d = String(r['תאריך']); return d >= today && d <= addDays(today, 1); }).map((r) => cikOf(symKey(r['סימול']))).filter(Boolean).map((c) => String(c).padStart(10, '0')))];
@@ -515,7 +667,18 @@ async function main() {
     if (!f || !f.hit || secConfirmed(r)) continue;
     const d = String(r['תאריך']); if (diffDays(f.hit.et.date, d) < -1 || diffDays(f.hit.et.date, d) > 1) continue;
     if (applySec(r, f.hit, { today, cik: f.cik, link: f.link })) secApplied++;
+    if (f.prText) applyCallTime(r, f.prText, { today, source: f.link, basis: 'sec-8k-item-2.02-pr', date: r['תאריך'] });
   }
+  let preApplied = 0, callFilled = 0;
+  for (const r of rows) {
+    const f = fetched.sec[symKey(r['סימול'])];
+    if (!f) continue;
+    if (f.pre && applyPreannounce(r, f.pre, { today, source: f.preUrl })) preApplied++;
+    else if (f.pre && f.pre.callTimeIl && applyCallTime(r, null, { today, source: f.preUrl, basis: 'issuer-scheduled', clock: f.pre.callTimeIl })) callFilled++;
+    if (has(r.call_time_il)) callFilled++;
+  }
+  // callFilled above double-counts existing clocks; report only newly present values after this run via preApplied/sec path
+  callFilled = rows.filter((r) => has(r.call_time_il)).length;
 
   // 3) actuals
   let epsFilled = 0, revFilled = 0, revEst = 0;
@@ -555,7 +718,7 @@ async function main() {
     await sealRow(r, b ? fresh.get(r) : true); changed++;
   }
   if (live) { secApplied += live.secApplied; epsFilled += live.epsFilled; revFilled += live.revFilled; }
-  Object.assign(stats, { secApplied, epsFilled, revFilled, revEst, pruned, changed, added, rows: keep.length, warnings });
+  Object.assign(stats, { secApplied, preApplied: preApplied || 0, callTimes: rows.filter((r) => has(r.call_time_il)).length, epsFilled, revFilled, revEst, pruned, changed, added, rows: keep.length, warnings });
   fs.writeFileSync(cacheFile, JSON.stringify(fetched));
   fs.writeFileSync(stateFile, JSON.stringify(state));
   if (changed || pruned) fs.writeFileSync(file, JSON.stringify(keep));
@@ -564,5 +727,7 @@ async function main() {
   for (const w of warnings) console.log('::warning::earnings-board: ' + w);
 }
 
-module.exports = { avClient, avReserve, applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, applySec, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
+const parsePreannounce = (text, fn) => parseEarningsPreannounce(text, fn || ilClock);
+const parseCallClock = (text, date, fn) => parseCallTimeFromRelease(text, date, fn || ilClock);
+module.exports = { avClient, avReserve, applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, findPreannounceFilings, applySec, applyPreannounce, applyCallTime, parseEarningsPreannounce: parsePreannounce, parseCallTimeFromRelease: parseCallClock, storedCik, resolveCik, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
 if (require.main === module) main().catch((e) => { console.log('::error::earnings-board: ' + e.message); process.exitCode = 1; });
