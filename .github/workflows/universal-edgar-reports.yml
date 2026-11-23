@@ -14,6 +14,11 @@ on:
         required: true
         default: '0'
         type: string
+      repair:
+        description: 'Reopen partial_validated issuers with unresolved slots and domestic NO_VALIDATED_REPORTS issuers, then continue this pass'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -39,7 +44,25 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Leave SEC access to earnings-live during its window
+        id: gate
+        run: |
+          set -euo pipefail
+          if node scripts/earnings-live-window.cjs; then
+            echo "::notice::earnings-live window (10:00-02:00 Israel) - no SEC requests this run"
+            echo "go=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=1" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Reopen affected issuers before this repair continuation
+        if: steps.gate.outputs.go == '1' && github.event.inputs.repair == 'true'
+        run: |
+          set -euo pipefail
+          python3 sec-report-tool/universal/repair.py \
+            --resume report-pass-resume.json --directory report-pass-state \
+            --control report-pass-control.json
       - name: Verify fixed pass and unchanged checkpoint before any SEC request
+        if: steps.gate.outputs.go == '1'
         env:
           PASS_ID: ${{ inputs.pass_id }}
           GENERATION: ${{ inputs.generation }}
@@ -55,6 +78,7 @@ jobs:
               --output "$RUNNER_TEMP/universal-prior.json" --hydrate
           fi
       - name: Run offline qualification and publication safety tests
+        if: steps.gate.outputs.go == '1'
         working-directory: sec-report-tool
         run: |
           set -euo pipefail
@@ -65,9 +89,11 @@ jobs:
           python3 -m unittest discover -s universal -p 'test_shards.py' -v
           python3 -m unittest universal.test_combined -v
           python3 -m unittest universal.test_diagnostics -v
+          python3 -m unittest universal.test_repair -v
           node universal/test_consumer.cjs
           node universal/test_consumer_async.cjs
       - name: Automatically discover and qualify the next bounded batch
+        if: steps.gate.outputs.go == '1'
         id: core
         working-directory: sec-report-tool
         env:
@@ -88,6 +114,7 @@ jobs:
           if test "$code" -gt 2; then exit "$code"; fi
           test -s "$RUNNER_TEMP/universal-result.json"
       - name: Validate output, sanitize resume state, and advance finite controller
+        if: steps.gate.outputs.go == '1'
         id: checkpoint
         env:
           PASS_ID: ${{ inputs.pass_id }}
@@ -115,6 +142,7 @@ jobs:
               f.write('generation='+str(x['generation'])+'\n')
           PY
       - name: Commit only automatically generated pass output
+        if: steps.gate.outputs.go == '1'
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
@@ -125,13 +153,14 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
       - name: Publish every saved checkpoint, including protective stops
+        if: steps.gate.outputs.go == '1'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           gh workflow run pages-queued.yml --ref main
       - name: Continue only this unfinished approved pass
-        if: steps.checkpoint.outputs.continue == 'true'
+        if: steps.gate.outputs.go == '1' && steps.checkpoint.outputs.continue == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           PASS_ID: ${{ inputs.pass_id }}
