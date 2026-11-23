@@ -348,31 +348,66 @@ function applyPreannounce(row, parsed, ctx) {
   return changed;
 }
 
+// Last still-valid scheduled date in a row's history (today or later). Prefers the most recently applied entry, not תאריך_מקורי.
+function lastGoodScheduledDate(row, today, hist) {
+  const list = Array.isArray(hist) ? hist : [];
+  let best = null;
+  for (const h of list) {
+    if (!h) continue;
+    if (h.date && h.date >= today) best = h.date;
+    else if (!h.date && h.scheduled_date && h.scheduled_date >= today && !best) best = h.scheduled_date;
+  }
+  if (best) return best;
+  const orig = row['תאריך_מקורי'];
+  return (orig && orig >= today) ? orig : null;
+}
+
 // Undo pre-announce date moves whose announced date was already in the past (stale 6-K / prior-quarter text).
 function revertInvalidPreannounceDates(rows, today) {
   let n = 0;
   for (const r of rows) {
     const hist = Array.isArray(r['היסטוריית_מועד']) ? r['היסטוריית_מועד'] : [];
-    const applied = hist.filter((h) => h && h.verified_on === today && /pre-announcement/i.test(String(h.basis || '')));
-    if (!applied.length) continue;
-    const newDate = applied[applied.length - 1].date || r['תאריך'];
-    if (newDate >= today) continue;
-    const orig = r['תאריך_מקורי'] || (hist[0] && hist[0].scheduled_date);
-    if (!orig) continue;
-    r['תאריך'] = orig;
-    const kept = hist.filter((h) => !(h && h.verified_on === today && /pre-announcement/i.test(String(h.basis || ''))));
-    const onlyMarker = kept.length && kept.every((h) => h && h.scheduled_date && !h.date);
-    if (!kept.length || onlyMarker) { delete r['היסטוריית_מועד']; delete r['תאריך_מקורי']; }
-    else r['היסטוריית_מועד'] = kept;
-    if (r.call_time_verified_date === today && /issuer-scheduled/i.test(String(r.call_time_basis || ''))) {
-      delete r.call_time_il; delete r.call_time_basis; delete r.call_time_source; delete r.call_time_verified_date;
+    const stale = hist.filter((h) => h && h.verified_on === today && /pre-announcement/i.test(String(h.basis || '')) && h.date && h.date < today);
+    const kept = hist.filter((h) => !(h && h.verified_on === today && /pre-announcement/i.test(String(h.basis || '')) && h.date && h.date < today));
+    if (stale.length) {
+      const orig = lastGoodScheduledDate(r, today, kept) || r['תאריך_מקורי'] || (hist[0] && hist[0].scheduled_date);
+      if (orig && r['תאריך'] !== orig) { r['תאריך'] = orig; n++; }
+      else if (stale.length) n++;
+      const onlyMarker = kept.length && kept.every((h) => h && h.scheduled_date && !h.date);
+      if (!kept.length || onlyMarker) { delete r['היסטוריית_מועד']; delete r['תאריך_מקורי']; }
+      else r['היסטוריית_מועד'] = kept;
+      if (r.call_time_verified_date === today && /issuer-scheduled/i.test(String(r.call_time_basis || ''))) {
+        delete r.call_time_il; delete r.call_time_basis; delete r.call_time_source; delete r.call_time_verified_date;
+      }
+      if (r.release_time_verified_date === today && /issuer-scheduled/i.test(String(r.release_time_basis || ''))) {
+        delete r.release_time_il; delete r.release_time_approx; delete r.release_time_basis; delete r.release_time_source; delete r.release_time_verified_date;
+      }
+      continue;
     }
-    if (r.release_time_verified_date === today && /issuer-scheduled/i.test(String(r.release_time_basis || ''))) {
-      delete r.release_time_il; delete r.release_time_approx; delete r.release_time_basis; delete r.release_time_source; delete r.release_time_verified_date;
+    // Second pass: a previous revert may have landed on תאריך_מקורי while a later AV/issuer date (>= today) remains in history.
+    const good = lastGoodScheduledDate(r, today, hist);
+    if (good && r['תאריך'] !== good && r['תאריך'] < today) { r['תאריך'] = good; n++; }
+    else if (good && r['תאריך'] !== good && r['תאריך_מקורי'] && r['תאריך'] === r['תאריך_מקורי'] && good !== r['תאריך_מקורי']) {
+      r['תאריך'] = good; n++;
     }
-    n++;
   }
   return n;
+}
+
+// Re-insert automatic calendar rows that a stale pre-announce date pushed past the 180-day prune.
+function restorePrunedPreannounceRows(rows) {
+  let added = 0;
+  try {
+    const missing = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'earnings-preannounce-restore.json'), 'utf8'));
+    const have = new Set(rows.map((r) => r['מזהה']).filter(Boolean));
+    for (const r of missing || []) {
+      if (!r || !r['מזהה'] || have.has(r['מזהה'])) continue;
+      rows.push(r);
+      have.add(r['מזהה']);
+      added++;
+    }
+  } catch (e) { /* restore file optional */ }
+  return added;
 }
 
 function findPreannounceFilings(recent, today) {
@@ -672,6 +707,7 @@ async function main() {
     }
   }
   const preannounceReverted = revertInvalidPreannounceDates(rows, today);
+  const preannounceRestored = restorePrunedPreannounceRows(rows);
   let secApplied = 0;
   // 2b) live 8-K feed + press-release figures (earnings-live workflow)
   let live = null;
@@ -749,7 +785,12 @@ async function main() {
   }
 
   // 4) rolling window: only automatic rows without notes and without results, long past
-  const keep = rows.filter((r) => !(r.auto_source === AUTO && !has(r['הערה']) && !isPublished(r) && String(r['תאריך']) < addDays(today, -180)));
+  const pruneBefore = addDays(today, -180);
+  const keep = rows.filter((r) => {
+    if (!(r.auto_source === AUTO && !has(r['הערה']) && !isPublished(r) && String(r['תאריך']) < pruneBefore)) return true;
+    const orig = r['תאריך_מקורי'] || lastGoodScheduledDate(r, pruneBefore, r['היסטוריית_מועד']);
+    return !!(orig && String(orig) >= pruneBefore);
+  });
   const pruned = rows.length - keep.length;
 
   // 5) seal changed rows, guard notes, write
@@ -761,7 +802,7 @@ async function main() {
     await sealRow(r, b ? fresh.get(r) : true); changed++;
   }
   if (live) { secApplied += live.secApplied; epsFilled += live.epsFilled; revFilled += live.revFilled; }
-  Object.assign(stats, { secApplied, preApplied: preApplied || 0, preannounceReverted: preannounceReverted || 0, callTimes: rows.filter((r) => has(r.call_time_il)).length, epsFilled, revFilled, revEst, pruned, changed, added, rows: keep.length, warnings });
+  Object.assign(stats, { secApplied, preApplied: preApplied || 0, preannounceReverted: preannounceReverted || 0, preannounceRestored: preannounceRestored || 0, callTimes: rows.filter((r) => has(r.call_time_il)).length, epsFilled, revFilled, revEst, pruned, changed, added, rows: keep.length, warnings });
   fs.writeFileSync(cacheFile, JSON.stringify(fetched));
   fs.writeFileSync(stateFile, JSON.stringify(state));
   if (changed || pruned) fs.writeFileSync(file, JSON.stringify(keep));
@@ -772,5 +813,5 @@ async function main() {
 
 const parsePreannounce = (text, fn) => parseEarningsPreannounce(text, fn || ilClock);
 const parseCallClock = (text, date, fn) => parseCallTimeFromRelease(text, date, fn || ilClock);
-module.exports = { avClient, avReserve, applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, findPreannounceFilings, applySec, applyPreannounce, applyCallTime, revertInvalidPreannounceDates, parseEarningsPreannounce: parsePreannounce, parseCallTimeFromRelease: parseCallClock, storedCik, resolveCik, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
+module.exports = { avClient, avReserve, applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, findPreannounceFilings, applySec, applyPreannounce, applyCallTime, revertInvalidPreannounceDates, restorePrunedPreannounceRows, lastGoodScheduledDate, parseEarningsPreannounce: parsePreannounce, parseCallTimeFromRelease: parseCallClock, storedCik, resolveCik, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
 if (require.main === module) main().catch((e) => { console.log('::error::earnings-board: ' + e.message); process.exitCode = 1; });

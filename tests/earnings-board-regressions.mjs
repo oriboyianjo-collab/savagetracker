@@ -465,6 +465,22 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
     eb.revertInvalidPreannounceDates([bad, keep], '2026-11-23') === 1
     && bad['תאריך'] === '2026-12-09' && !bad['תאריך_מקורי'] && !bad.call_time_il && bad['הערה'] === 'n'
     && keep['תאריך'] === '2026-12-01' && keep.call_time_il === '02:00');
+
+  const nnox = { 'סימול': 'NNOX', 'תאריך': '2026-11-19', 'תאריך_מקורי': '2026-11-19',
+    'היסטוריית_מועד': [
+      { scheduled_date: '2026-11-19', basis: 'Previous board date', preserved_on: '2026-11-19' },
+      { date: '2026-11-25', basis: 'Alpha Vantage earnings calendar', verified_on: '2026-11-19' },
+    ] };
+  ok('a second repair prefers the later AV date over תאריך_מקורי',
+    eb.revertInvalidPreannounceDates([nnox], '2026-11-23') === 1 && nnox['תאריך'] === '2026-11-25');
+
+  const blbd = { 'סימול': 'BLBD', 'תאריך': '2026-11-23', 'תאריך_מקורי': '2026-11-23',
+    'היסטוריית_מועד': [
+      { scheduled_date: '2026-11-23', basis: 'Previous board date', preserved_on: '2026-11-20' },
+      { date: '2026-12-02', basis: 'Alpha Vantage earnings calendar', verified_on: '2026-11-20' },
+    ] };
+  ok('a second repair does not drop a later AV date when the first revert landed on תאריך_מקורי',
+    eb.revertInvalidPreannounceDates([blbd], '2026-11-23') === 1 && blbd['תאריך'] === '2026-12-02');
 }
 
 

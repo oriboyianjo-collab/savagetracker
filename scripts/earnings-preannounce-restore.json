@@ -1,0 +1,67 @@
+[
+  {
+    "חברה": "Lotus Technology Inc.",
+    "סימול": "LOT",
+    "תאריך": "2026-11-23",
+    "רבעון_מסתיים": "2026-09-30",
+    "מקור_מועד": "Alpha Vantage EARNINGS_CALENDAR",
+    "auto_source": "alphavantage-calendar",
+    "מזהה": "r-3867",
+    "_translation": {
+      "en": {
+        "source_hash": "7af85c466c3959a147fb32de2f910dc2bc16237728389e0b3547d0b26ee79a79",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "חברה": "Banco BBVA Argentina S.A. ADS",
+    "סימול": "BBAR",
+    "תאריך": "2026-11-24",
+    "מועד": "after",
+    "צפי_EPS": "0.41",
+    "מטבע_EPS": "USD",
+    "בסיס_צפי_EPS": "Analyst consensus (Alpha Vantage)",
+    "מקור_צפי_EPS": "Alpha Vantage EARNINGS_CALENDAR",
+    "רבעון_מסתיים": "2026-09-30",
+    "מקור_מועד": "Alpha Vantage EARNINGS_CALENDAR",
+    "auto_source": "alphavantage-calendar",
+    "מזהה": "r-3882",
+    "_translation": {
+      "en": {
+        "source_hash": "45333524cab0bf7a3388faf77ae66bbedf6b2289501d3b662f6dbe7fec45672d",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "חברה": "EHang Holdings Limited - ADS",
+    "סימול": "EH",
+    "תאריך": "2026-11-25",
+    "רבעון_מסתיים": "2026-09-30",
+    "מקור_מועד": "Alpha Vantage EARNINGS_CALENDAR",
+    "auto_source": "alphavantage-calendar",
+    "מזהה": "r-3928",
+    "_translation": {
+      "en": {
+        "source_hash": "9bcd14af5a8fdb2ce3358b7008c4e4fac1e0b6b3d7ed8032008cc8108e2cf122",
+        "schema_version": 1
+      }
+    }
+  },
+  {
+    "חברה": "Imperial Petroleum Inc.",
+    "סימול": "IMPP",
+    "תאריך": "2026-12-10",
+    "רבעון_מסתיים": "2026-09-30",
+    "מקור_מועד": "Alpha Vantage EARNINGS_CALENDAR",
+    "auto_source": "alphavantage-calendar",
+    "מזהה": "r-4101",
+    "_translation": {
+      "en": {
+        "source_hash": "6af16b76c9db2e85964cd03b18e0d30e5dd432b37e401e42d4cade5edcef0ed9",
+        "schema_version": 1
+      }
+    }
+  }
+]
