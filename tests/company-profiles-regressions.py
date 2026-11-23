@@ -71,6 +71,33 @@ class ExtractTests(unittest.TestCase):
             "This Annual Report on Form 10-K contains forward-looking statements based on expectations."
         ))
 
+    def test_strips_inc_abbreviation_and_keeps_business(self):
+        raw = """
+        <html><body>
+        <h1>Item 1. Business</h1>
+        <p>As used herein, “Amazon.com,” “we,” “our,” and similar terms include Amazon.com, Inc. and its subsidiaries, unless the context indicates otherwise. We seek to be Earth’s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus.</p>
+        <h1>Item 1A. Risk Factors</h1>
+        <p>Should not be included.</p>
+        </body></html>
+        """
+        out = extract_profile_text(raw, "10-K")
+        self.assertIn("Earth’s most customer-centric company", out["short_en"])
+        self.assertTrue(out["short_en"].startswith("We seek") or "We seek to be" in out["short_en"])
+        self.assertNotIn("subsidiaries", out["short_en"])
+        self.assertFalse(is_boilerplate_text(out["short_en"]))
+        self.assertTrue(is_boilerplate_text("and its subsidiaries, unless the context indicates otherwise. We seek to be Earth’s most customer-centric company."))
+
+    def test_business_overview_of_the_company(self):
+        text = (
+            "Item 4. Information on the Company\n\n"
+            "Our History and Structure Our legal and commercial name is Example Foundry Inc.\n\n"
+            "Business Overview of the Company As a foundry, we manufacture semiconductors using our manufacturing processes for our customers.\n\n"
+            "Item 5. Operating and Financial Review\n\nShould not be included.\n"
+        )
+        out = extract_profile_text(text, "20-F")
+        self.assertIn("manufacture semiconductors", out["short_en"])
+        self.assertNotIn("legal and commercial name", out["short_en"])
+
     def test_20f_business_overview_not_toc(self):
         raw = (FIXT / "sample-20f-item4-overview.html").read_text(encoding="utf-8")
         out = extract_profile_text(raw, "20-F")
