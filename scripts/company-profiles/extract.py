@@ -5,7 +5,7 @@ import re
 from html import unescape
 
 # Bump when the extractor changes so stored stubs and weak fills are retried once.
-EXTRACTOR_VERSION = 4
+EXTRACTOR_VERSION = 5
 
 FOOTER_RE = re.compile(
     r"^(Table of Contents|TABLE OF CONTENTS|"
@@ -27,7 +27,7 @@ ITEM1A_START = re.compile(r"Item\s+1A(?:\s|\.|:)+Risk Factors\b", re.I)
 ITEM1B_START = re.compile(r"Item\s+1B\b", re.I)
 ITEM2_START = re.compile(r"Item\s+2(?:\s|\.|:)+(Properties|Unregistered)\b", re.I)
 ITEM4_START = re.compile(
-    r"Item\s+4(?:\s|\.|:|–|—|-)+(Information on the Company|Business(?: and General Information)?)\b",
+    r"Item\s+4(?:\s|\.|:|–|—|-)+(Information on\b|Business(?: and General Information)?)\b",
     re.I,
 )
 ITEM4A_OR_5 = re.compile(r"Item\s+(4A|5)(?:\s|\.|:)+", re.I)
@@ -124,18 +124,27 @@ def _item4_body(text: str) -> str:
 
 
 def _prefer_business_overview(body: str) -> str:
-    """Start at 'B. Business Overview' when that subsection exists and is substantial."""
+    """Start at 'B. Business Overview' / Item 4.B when that subsection exists."""
     m = re.search(
-        r"(?im)^(?:item\s+4\.?\s*)?(?:b\.?|[b4]\.\s*)\s*business overview\b",
+        r"(?im)^(?:item\s+4\.?\s*)?(?:b\.?|4\.b\.?|[b4]\.\s*)\s*business overview\b",
         body,
     )
     if not m:
+        m = re.search(
+            r"(?im)(?:item\s+4\.?\s*b\b|4\.b\b).{0,80}business overview",
+            body,
+        )
+    if not m:
         m = re.search(r"(?i)(?:^|\n)\s*(?:[b4]\.?\s*)?business overview(?:\s+of the company)?\b", body)
+    # Do not start at a later "Overview — Regulation" cross-reference.
+    if m and re.search(r"(?i)overview\s+[—\-].*regulation", body[m.start(): m.start() + 80]):
+        m = None
     if not m:
         return body
     chunk = body[m.start():].strip()
     end = _next_end(chunk, 0, [
-        re.compile(r"(?im)^(?:item\s+4\.?\s*)?(?:c\.?|[c4]\.?\s*)\s*organizational structure\b"),
+        re.compile(r"(?im)^(?:item\s+4\.?\s*)?(?:c\.?|4\.c\.?|[c4]\.?\s*)\s*organizational structure\b"),
+        re.compile(r"(?im)^(?:item\s+4\.?\s*c\b|4\.c\b)\b"),
         re.compile(r"(?im)^(?:item\s+4\.?\s*)?(?:d\.?|[d4]\.?\s*)\s*property, plants and equipment\b"),
         ITEM4A_OR_5,
         ITEM5_BARE,
@@ -217,6 +226,19 @@ _BOILER_RE = re.compile(
     r"|legal and commercial name is"
     r"|our principal executive office is located"
     r"|information contained on our website is not incorporated"
+    r"|methodological considerations"
+    r"|not independently verify"
+    r"|disclosures based on any standards"
+    r"|regulatory inquir(?:y|ies)"
+    r"|rectification orders"
+    r"|involutionary competition"
+    r"|regulations on network data security"
+    r"|any information required by this item\s+10"
+    r"|section 16\(a\) of the exchange act"
+    r"|included under the caption .{0,80}proxy statement"
+    r"|for additional information regarding the effects"
+    r"|for more details"
+    r"|could adversely affect (?:its|the company.?s|our) financial condition"
     r")"
 )
 
@@ -231,14 +253,61 @@ _DEF_RE = re.compile(
     r"|when we refer to"
     r"|references (?:herein|in this annual report)"
     r"|the term [\"“]fiscal year[\"”]"
+    r"|when used in this report"
+    r"|unless we state otherwise"
+    r"|references to\b"
+    r"|in this (?:annual )?report, the (?:words|terms)"
     r")"
 )
 
 
 def _sentences(text: str) -> list[str]:
     # Do not split on abbreviations such as Inc. or Ltd.
-    parts = re.split(r"(?<=[a-z0-9)])[.?!](?=\s+[A-Z])", text.strip())
-    return [p.strip() for p in parts if p.strip()]
+    # Keep the punctuation so joining sentences does not drop periods.
+    parts = re.split(r"(?<=[a-z0-9)])([.?!])(?=\s+[A-Z])", text.strip())
+    out = []
+    i = 0
+    while i < len(parts):
+        chunk = parts[i].strip()
+        punct = ""
+        if i + 1 < len(parts) and parts[i + 1] in ".?!":
+            punct = parts[i + 1]
+            i += 2
+        else:
+            i += 1
+        if not chunk:
+            continue
+        if punct and not chunk.endswith(punct):
+            chunk += punct
+        out.append(chunk)
+    return out
+
+
+_DROPPED_PERIOD = re.compile(
+    r"[a-z0-9)] ("
+    r"We|Our|In|These|This|It|As|Additionally|Furthermore|Also|"
+    r"The (?:Company|Group|Corporation)|"
+    r"Information on|Consumers|Sellers"
+    r")\b"
+)
+
+
+def _starts_mid_sentence(s: str) -> bool:
+    """True for a leftover clause, but not brand names such as eToro or iShares."""
+    s = (s or "").lstrip()
+    if not s or not s[0].islower():
+        return False
+    if re.match(r"^[a-z][A-Z]", s):
+        return False
+    return True
+
+
+def has_dropped_periods(text: str) -> bool:
+    """True when preamble-stripping removed sentence periods (e.g. 'company We are')."""
+    s = (text or "").strip()
+    if not s:
+        return False
+    return bool(_DROPPED_PERIOD.search(s))
 
 
 def _is_boiler_sentence(s: str) -> bool:
@@ -249,12 +318,18 @@ def _is_boiler_sentence(s: str) -> bool:
     # Leftover clause after a false split on "Inc."
     if re.match(r"(?i)^(?:and its subsidiaries|unless the context (?:otherwise )?(?:indicates|requires|indicates otherwise))", s):
         return True
-    if re.match(r"^[a-z]", s) and re.search(r"(?i)unless the context|subsidiaries", s):
+    if _starts_mid_sentence(s) and re.search(r"(?i)unless the context|subsidiaries", s):
         return True
     # Section cross-references like “Overview — Regulation — …”
     if s.count("—") >= 2 and re.search(r"(?i)regulation|risk factor|item\s+\d", s):
         return True
     if re.search(r"(?i)^our history and structure\b", s) and re.search(r"(?i)legal and commercial name", s):
+        return True
+    if _starts_mid_sentence(s):
+        return True
+    if re.search(r"(?i)^(?:any information required by this item|10-k for additional information)", s):
+        return True
+    if re.search(r"(?i)could adversely affect .{0,40}(?:financial condition|operating results)", s) and re.search(r"(?i)laws or regulations", s):
         return True
     return False
 
@@ -265,7 +340,9 @@ def is_boilerplate_text(text: str) -> bool:
     if not s:
         return False
     # Starts mid-sentence or with a preamble: retry even if a later sentence is useful.
-    if re.match(r"^[a-z]", s):
+    if _starts_mid_sentence(s):
+        return True
+    if has_dropped_periods(s):
         return True
     sents = _sentences(s) or [s]
     if sents and _is_boiler_sentence(sents[0]):
@@ -324,6 +401,34 @@ def paragraphs(item_text: str) -> list[str]:
     return out
 
 
+
+_BUSINESS_LEAD = re.compile(
+    r"(?i)^(?:.{0,120}?)(?:"
+    r"we (?:are|operate|provide|design|develop|manufacture|offer|sell|make|serve|create|build|focus|combine|believe|seek|have|maintain)"
+    r"|the company (?:is|designs|develops|operates|provides|manufactures|offers|sells)"
+    r"|\bis an?\b"
+    r"|mission is"
+    r"|was founded"
+    r"|as a .{0,60}, we "
+    r")"
+)
+
+
+def _looks_like_business_overview(p: str) -> bool:
+    first = (_sentences(p) or [p])[0]
+    if _is_boiler_sentence(first):
+        return False
+    return bool(_BUSINESS_LEAD.search(first))
+
+
+def _start_at_business(paras: list[str]) -> list[str]:
+    """Skip leftover legal/regulatory paragraphs until a business overview."""
+    for i, p in enumerate(paras):
+        if _looks_like_business_overview(p):
+            return paras[i:]
+    return paras
+
+
 def _cut_sentences(text: str, max_chars: int) -> str:
     if len(text) <= max_chars:
         return text.strip()
@@ -370,6 +475,6 @@ def short_and_full(paras: list[str], short_max=520, full_max=1800) -> tuple[str,
 def extract_profile_text(raw, form="10-K"):
     text = html_to_text(raw)
     body = item_body(text, form)
-    paras = paragraphs(body)
+    paras = _start_at_business(paragraphs(body))
     short, full = short_and_full(paras)
     return {"item_text": body, "paragraphs": paras, "short_en": short, "full_en": full}

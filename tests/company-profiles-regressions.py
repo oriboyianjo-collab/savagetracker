@@ -15,7 +15,7 @@ HERE = ROOT / "scripts" / "company-profiles"
 FIXT = ROOT / "tests" / "fixtures" / "company-profiles"
 sys.path.insert(0, str(HERE))
 
-from extract import EXTRACTOR_VERSION, extract_profile_text, html_to_text, item_body, is_boilerplate_text  # noqa: E402
+from extract import EXTRACTOR_VERSION, extract_profile_text, has_dropped_periods, html_to_text, item_body, is_boilerplate_text  # noqa: E402
 from inventory import collect, infer_form, is_annual, is_current, latest_annual  # noqa: E402
 from sec_http import HardStop, SecClient, TransientDefer  # noqa: E402
 
@@ -83,6 +83,8 @@ class ExtractTests(unittest.TestCase):
         out = extract_profile_text(raw, "10-K")
         self.assertIn("Earth’s most customer-centric company", out["short_en"])
         self.assertTrue(out["short_en"].startswith("We seek") or "We seek to be" in out["short_en"])
+        self.assertRegex(out["short_en"], r"company\. We are guided")
+        self.assertNotIn("company We are", out["short_en"])
         self.assertNotIn("subsidiaries", out["short_en"])
         self.assertFalse(is_boilerplate_text(out["short_en"]))
         self.assertTrue(is_boilerplate_text("and its subsidiaries, unless the context indicates otherwise. We seek to be Earth’s most customer-centric company."))
@@ -138,6 +140,79 @@ class ExtractTests(unittest.TestCase):
         self.assertNotIn("Many risks", body)
 
 
+    def test_skips_amd_style_disclosure(self):
+        raw = (FIXT / "amd-item1-disclosure.html").read_text(encoding="utf-8")
+        out = extract_profile_text(raw, "10-K")
+        self.assertIn("global semiconductor company", out["short_en"])
+        self.assertTrue(
+            out["short_en"].startswith("Advanced Micro Devices")
+            or "Advanced Micro Devices, Inc. is a global" in out["short_en"]
+        )
+        self.assertNotIn("methodological", out["short_en"].lower())
+        self.assertNotIn("independently verify", out["short_en"].lower())
+        self.assertNotIn("methodological", out["full_en"].lower())
+        self.assertFalse(is_boilerplate_text(out["short_en"]))
+        self.assertTrue(is_boilerplate_text(
+            "Furthermore, much of this information is subject to methodological considerations or information, including from third-parties, that is still evolving."
+        ))
+
+    def test_20f_item4b_skips_regulation(self):
+        raw = (FIXT / "baba-20f-item4b.html").read_text(encoding="utf-8")
+        out = extract_profile_text(raw, "20-F")
+        self.assertIn("e-commerce and cloud computing platform", out["short_en"])
+        self.assertIn("merchants", out["short_en"])
+        self.assertNotIn("regulatory inquiries", out["short_en"].lower())
+        self.assertNotIn("rectification", out["short_en"].lower())
+        self.assertNotIn("regulatory inquiries", out["full_en"].lower())
+        self.assertNotIn("Organizational Structure", out["short_en"])
+        self.assertNotIn("was founded in 1999", out["short_en"])
+        self.assertFalse(is_boilerplate_text(out["short_en"]))
+
+    def test_20f_information_on_named_company(self):
+        raw = (FIXT / "asml-20f-item4.html").read_text(encoding="utf-8")
+        out = extract_profile_text(raw, "20-F")
+        self.assertIn("lithography systems", out["short_en"])
+        self.assertIn("semiconductor industry", out["short_en"])
+        self.assertNotIn("incorporated in the Netherlands", out["short_en"])
+        self.assertNotIn("Should not be included", out["short_en"])
+        self.assertFalse(is_boilerplate_text(out["short_en"]))
+
+    def test_skips_item10_and_lowercase_fragments(self):
+        text = (
+            "Item 1. Business\n\n"
+            "Any information required by this Item 10 regarding compliance with Section 16(a) of the Exchange Act of 1934 included under the caption “Delinquent Section 16(a) Reports” in our Proxy Statement is incorporated herein by reference.\n\n"
+            "on Private Education—Regulations on After-school Tutoring Institutions and Online Education” for more details. The Alleviating Burden Opinion Regarding Compulsory Education also provides that administration over academic tutoring services shall be implemented by local authorities.\n\n"
+            "The Company operates a nationwide tutoring and learning-services platform for students and families.\n\n"
+            "Item 1A. Risk Factors\n\nMany risks.\n"
+        )
+        out = extract_profile_text(text, "10-K")
+        self.assertIn("tutoring and learning-services platform", out["short_en"])
+        self.assertNotIn("Item 10", out["short_en"])
+        self.assertNotIn("for more details", out["short_en"])
+        self.assertFalse(out["short_en"][0].islower())
+
+    def test_dropped_periods_are_detected_and_repaired(self):
+        broken = (
+            "We seek to be Earth’s most customer-centric company We are guided by four principles: "
+            "customer obsession rather than competitor focus."
+        )
+        self.assertTrue(has_dropped_periods(broken))
+        self.assertTrue(is_boilerplate_text(broken))
+        raw = """
+        <html><body>
+        <h1>Item 1. Business</h1>
+        <p>As used herein, “Amazon.com,” “we,” “our,” and similar terms include Amazon.com, Inc. and its subsidiaries, unless the context indicates otherwise. We seek to be Earth’s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking.</p>
+        <h1>Item 1A. Risk Factors</h1>
+        <p>Should not be included.</p>
+        </body></html>
+        """
+        out = extract_profile_text(raw, "10-K")
+        self.assertIn("company. We are guided", out["short_en"])
+        self.assertIn("thinking.", out["full_en"])
+        self.assertFalse(has_dropped_periods(out["short_en"]))
+        self.assertFalse(is_boilerplate_text(out["short_en"]))
+
+
 class InventoryTests(unittest.TestCase):
     def test_latest_annual_and_form(self):
         ledger = [
@@ -187,6 +262,10 @@ class InventoryTests(unittest.TestCase):
         self.assertTrue(is_current({"short_en": "The Company designs widgets for industry use worldwide.", "doc_sha256": "abc", "extractor": EXTRACTOR_VERSION}, rec))
         # Preamble-only fills and empty stubs from an older extractor are retried.
         self.assertFalse(is_current({"short_en": "This Annual Report on Form 10-K contains forward-looking statements.", "doc_sha256": "abc", "extractor": 2}, rec))
+        self.assertFalse(is_current({"short_en": "We seek to be Earth’s most customer-centric company We are guided by four principles.", "doc_sha256": "abc", "extractor": 4}, rec))
+        self.assertFalse(is_current({"short_en": "Furthermore, much of this information is subject to methodological considerations or information, including from third-parties.", "doc_sha256": "abc", "extractor": 4}, rec))
+        self.assertFalse(is_current({"short_en": "Certain of our platform businesses face regulatory inquiries and investigations on involutionary competition, including pricing practices.", "doc_sha256": "abc", "extractor": 4}, rec))
+        self.assertFalse(is_current({"short_en": "on Private Education—Regulations on After-school Tutoring for more details.", "doc_sha256": "abc", "extractor": 4}, rec))
         self.assertFalse(is_current({"empty": True, "short_en": "", "doc_sha256": "abc"}, rec))
         self.assertFalse(is_current({"short_en": "Hello", "doc_sha256": "zzz", "url": "x", "filing_date": "x", "form": "10-K", "extractor": EXTRACTOR_VERSION}, rec))
         self.assertTrue(is_current({"empty": True, "short_en": "", "doc_sha256": "abc", "extractor": EXTRACTOR_VERSION}, rec))
