@@ -2797,10 +2797,10 @@ async function cnbcQuotes(symbols, opts){   // v339: opts.raw = caller only need
       out[String(orig).toUpperCase()] = {x:X, pre, mcap: mc!=null ? (pence ? mc : mc/k) : null, price:last, prev, pdc, cur, name:q.name||'', time:q.last_time||'', ts:parseTs(q.last_time), date:String(q.last_time||'').slice(0,10), realTime:String(q.realTime)==='true', status:q.curmktstatus||'', idx:/INDEX/i.test(String(q.type||''))||undefined, halt: k===1 && (/suspend/i.test(q.curmktstatus||'') ? 'Suspended' : (String(ev.is_halted).toUpperCase()==='Y' || /halt/i.test(q.curmktstatus||'')) ? 'Halted' : ''), hsym:String(orig).toUpperCase(), source:'CNBC', contract:String(q.altSymbol||''), issueId:String(q.issue_id||'')};
       { const o = out[String(orig).toUpperCase()], sy = String(orig).toUpperCase();   // v225: after the close CNBC reports change=UNCH and previous_day_closing=last -> keep the last regular session's prior close until the next session
         const offEl = offhEligible(sy, o, k, opts); if(offEl) o.offh = true;   // v339: US stock/ETF outside the regular session -> daily pair comes from completed bars below, never from CNBC last/change
-        if(k===1 && !offEl && !/^[.@]|=/.test(sy) && o.date){   // v340: ONE locked prior close per symbol from the last completed daily bar; a CNBC last-change value never overwrites it
+        if(k===1 && !offEl && (PLK_IDX.has(sy) || !/^[.@]|=/.test(sy)) && o.date){   // v341: + .SPX/.NDX/.DJI/.RUT (never VIX); v340: ONE locked prior close per symbol from the last completed daily bar; a CNBC last-change value never overwrites it
           const cand = /^[+-]?[\d,.]+$/.test(String(q.change).trim()) && prev>0 ? prev : null, lk = plkGet(sy, o.date);
           if(lk){ o.prev = lk; plkGuardOhl(sy, o, cand, lk); }
-          else { o.prev = cand; o.plkCand = cand; o.plkPend = true; } } }
+          else { const yp = yPrevGet(sy, o.date); o.prev = yp || cand; o.plkCand = cand; o.plkPend = true; if(yp) plkGuardOhl(sy, o, cand, yp); } } }   // v341: no lock yet -> provisional prior close from the Yahoo stream (price - change, first tick of the NY session) before falling back to raw CNBC; the daily bar replaces it when it arrives
       if(israelIndexMeta(orig)){ const z=israelIndexQuote(q); Object.assign(out[String(orig).toUpperCase()],{indexPct:z.pct,prev:z.prev}); }
       { const o = out[String(orig).toUpperCase()], sy = String(orig).toUpperCase();   // v235: VIX keeps streaming live outside the regular session
         if(k===1 && o.idx && o.pdc>0 && o.date && isVixSym(sy)) iclTrack(sy, o.date, o.pdc); }
@@ -2853,10 +2853,13 @@ async function offhPair(sym){
 // v340: session lock for the prior close. CNBC's quote endpoint alternates between servers; one can return an older session's previous_day_closing
 // (and wrong open/high/low), so the % used to jump on every refresh. The lock comes from the last completed daily bar, is stored per symbol and
 // session date (a newer quote date replaces it; an older quote date never does) and is shared by every screen because it lives in cnbcQuotes.
-const PLK_KEY = 'ptPrevLock.v1', plkFail = {}, plkOhl = {};
+const PLK_KEY = 'ptPrevLock.v1', plkFail = {}, plkOhl = {}, PLK_IDX = new Set(['.SPX','.NDX','.DJI','.RUT']);
+// v341: Yahoo-stream prior close (price - change from the first regular-session tick per symbol and New York date); provisional only, the daily-bar lock wins
+const yPrev = {};
+function yPrevGet(sym, d){ const e = yPrev[sym]; return e && e.p>0 && e.d===d ? e.p : null; }
 function plkAll(){ try{ return JSON.parse(localStorage.getItem(PLK_KEY)||'{}') || {}; }catch(e){ return {}; } }
-function plkGet(sym, d){ const e = plkAll()[sym]; return e && e.p>0 && (e.d===d || d<e.d) ? e.p : null; }
-function plkSet(sym, d, p){ try{ const m = plkAll(); m[sym] = {d, p}; const ks = Object.keys(m); if(ks.length>800) ks.slice(0, ks.length-800).forEach(k=>delete m[k]); localStorage.setItem(PLK_KEY, JSON.stringify(m)); }catch(e){} }
+function plkGet(sym, d){ const e = plkAll()[sym]; return e && e.p>0 && e.d===d ? e.p : null; }   // v341: lock only for the quote's own session date
+function plkSet(sym, d, p){ try{ const m = plkAll(); if(m[sym] && m[sym].d > d) return; m[sym] = {d, p}; const ks = Object.keys(m); if(ks.length>800) ks.slice(0, ks.length-800).forEach(k=>delete m[k]); localStorage.setItem(PLK_KEY, JSON.stringify(m)); }catch(e){} }
 // a CNBC prior close more than 0.2% away from the lock marks a mismatching server: its open/high/low are not used (last good values kept, else empty)
 function plkGuardOhl(sym, o, cand, lk){ const X = o.x; if(!X) return;
   if(cand!=null && Math.abs(cand-lk) > Math.abs(lk)*0.002){ const g = plkOhl[sym]; X.open = g ? g.open : null; X.high = g ? g.high : null; X.low = g ? g.low : null; o.prevMismatch = true; }
@@ -8000,7 +8003,9 @@ function yApply(o){
   if(!kind || (kind !== 'reg' && (kind !== ss || o.id[0] === '^'))) return;   // extended ticks only inside their own session; indices have no extended line
   if(kind === 'reg' && ss !== 'reg') return;   // v176: the last regular tick (16:00:00) is a pre-auction print, not the official close – outside the regular session CNBC's close wins
   YWS.lastTick = now; let any = false;
+  const nyd = (kind === 'reg' && o.chg != null && isFinite(o.chg)) ? zoned('America/New_York', now).date : null;   // v341
   targets.forEach(s=>{ const u = String(s).toUpperCase(), prev = yLast[u];
+    if(nyd && !(yPrev[u] && yPrev[u].d === nyd)){ const pp = Math.round((o.p - o.chg) * 1e4) / 1e4; if(pp > 0) yPrev[u] = {d:nyd, p:pp}; }
     if(!prev || o.t >= prev.ts) yLast[u] = {kind, price:o.p, ts:o.t};
     if(yOne(state.quotes[s], kind, o, 'H')){ yDirtyH.add(s); any = true; }
     if(yOne(mq[u], kind, o, 'Q')){ yDirtyQ.add(u); any = true; }
