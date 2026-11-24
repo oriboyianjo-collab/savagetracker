@@ -2799,11 +2799,14 @@ async function cnbcQuotes(symbols, opts){   // v339: opts.raw = caller only need
         const offEl = offhEligible(sy, o, k, opts); if(offEl) o.offh = true;   // v339: US stock/ETF outside the regular session -> daily pair comes from completed bars below, never from CNBC last/change
         if(k===1 && !offEl && (PLK_IDX.has(sy) || !/^[.@]|=/.test(sy)) && o.date){   // v341: + .SPX/.NDX/.DJI/.RUT (never VIX); v340: ONE locked prior close per symbol from the last completed daily bar; a CNBC last-change value never overwrites it
           const nyD = zoned('America/New_York', new Date()).date, stored = plkAll()[sy], g0 = lastGoodGet(sy);   // v342
-          if(usSession()==='reg' && (o.date < nyD || (stored && stored.d && o.date < stored.d))){   // v342: stale-session quote (a lagging CNBC server resends a whole earlier session, e.g. Monday's quote on Tuesday): take no last/prev/open/high/low from it and keep it out of the bars path; return the last good quote instead (the symbol is never omitted, so no "price not found")
-            if(g0){ const y = yLast[sy], yok = y && y.kind==='reg' && y.ts > (g0.ts||0);
-              o.price = yok ? y.price : g0.price; o.ts = yok ? y.ts : g0.ts;
-              o.prev = plkGet(sy, stored && stored.d ? stored.d : nyD) || g0.prev || null; o.pdc = o.prev;
-              if(o.x){ const gx = g0.x || {}; o.x.open = gx.open != null ? gx.open : null; o.x.high = gx.high != null ? gx.high : null; o.x.low = gx.low != null ? gx.low : null; }
+          const yy = yLast[sy], gDate = ts=>{ try{ return ts>0 ? zoned('America/New_York', new Date(ts)).date : ''; }catch(e){ return ''; } };   // v343: stuck only with evidence of a NEWER quote for this symbol (lock date, last good quote or Yahoo tick); no evidence -> normal path (thin/suspended US stock, EU holiday)
+          const newerEv = (stored && stored.d && o.date < stored.d) || (g0 && g0.ts && o.date < gDate(g0.ts)) || (yy && yy.kind==='reg' && yy.ts && o.date < gDate(yy.ts));
+          if((marketOf(sy)==='us' || PLK_IDX.has(sy)) && usSession()==='reg' && o.date < nyD && newerEv){   // v342: stale-session quote (a lagging CNBC server resends a whole earlier session, e.g. Monday's quote on Tuesday): take no last/prev/open/high/low from it and keep it out of the bars path; return the last good quote instead (the symbol is never omitted, so no "price not found")
+            const gg = g0 || (yy && yy.price>0 ? {price:yy.price, prev:null, ts:yy.ts, x:{}} : null);   // v343: no last good yet -> the Yahoo tick price instead of erasing the price
+            if(gg){ const y = yy, yok = y && y.kind==='reg' && y.ts > (gg.ts||0);
+              o.price = yok ? y.price : gg.price; o.ts = yok ? y.ts : gg.ts;
+              o.prev = plkGet(sy, stored && stored.d ? stored.d : nyD) || gg.prev || null; o.pdc = o.prev;
+              if(o.x){ const gx = gg.x || {}; o.x.open = gx.open != null ? gx.open : null; o.x.high = gx.high != null ? gx.high : null; o.x.low = gx.low != null ? gx.low : null; }
               o.pre = null; o.date = nyD;
             } else { o.price = null; o.prev = null; o.pdc = null; o.pre = null; if(o.x){ o.x.open = o.x.high = o.x.low = null; } o.dayStale = true; }
           } else {
@@ -3976,7 +3979,9 @@ async function idxApply(q){
   // v50: indices have no pre-market quote – during US pre-market the ETF's (SPY/QQQ) pre % vs its prior close is the proxy
   const need = miss;   // v188: the SPY/QQQ pre/after stand-in is gone – the futures line (ES=F / NQ=F) shows the extended move
   let alt = {}; const alts = need.map(x=>x.alt).filter(Boolean); if(alts.length){ try{ alt = await cnbcQuotes(alts); }catch(e){} }
-  IDX.forEach(x=>{ const a = q[x.s], b = x.alt ? alt[x.alt] : null, u = a && a.price!=null && a.prev ? a : b && b.price!=null && b.prev ? b : null; if(!u) return;
+  IDX.forEach(x=>{ const a = q[x.s], b = x.alt ? alt[x.alt] : null, u = a && a.price!=null && a.prev ? a : b && b.price!=null && b.prev ? b : null;
+    if(!u){ if(a && a.price!=null){ const o = idxData.q[x.k]; idxData.q[x.k] = {last:a.price, prev:(o && o.sym===x.s && o.prev>0) ? o.prev : null, sym:x.s, etf:false, status:a.status||'', ts:a.ts||null, date:a.date||'', pre:null}; yMergeIdx(x.k); } return; }   // v343: price without a prior close -> keep the tile, change shows "—" (no vanishing card)
+
     const ep = null;
     idxData.q[x.k] = {last:u.price, prev:u.prev, sym: u===a ? x.s : x.alt, etf: u!==a, status:u.status||'', ts:u.ts||null, date:u.date||'', pre:ep}; yMergeIdx(x.k); });
   futPoll(); idxSave(); renderIdx(); idxSpark().catch(e=>console.warn('index sparkline', e.message));
@@ -4037,12 +4042,12 @@ function renderIdx(){
   M(row).h = list.map((x,i)=>{ const ar = i===ai ? `<button type="button" class="idx-arrowbtn${idxEditing?' on':''}" aria-pressed="${idxEditing}${I18n.p("ui-0305","\" aria-label=\"עריכת האריחים\" title=\"עריכת האריחים\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 5l7 7-7 7\"/></svg></button>")}` : ''; const ac = ar ? ' with-arrow' : ''; const q = idxData.q[x.k]; const dn = x.k.indexOf('sec:')===0 && x.sym ? x.sym : idxDisplayName(x); if(!q) return `<div class="idx${ac}" data-idx="${x.k}">${ar}${xb(x)}<div class="idx-n">${esc(dn)}</div><b class="idx-v num">—</b><div class="idx-c num"></div></div>`;
     const pr = preOf(q), sp = idxData.sp[x.k], cl = !pr && q.status && q.status!=='REG_MKT';
     // pre-market: implied level = last close × (1 + ETF pre %), change vs that close (badge 'pre'); otherwise the regular session move
-    const lvl = q.last, c = lvl - q.prev, pc = c/q.prev*100, up = c >= 0;   // v65: regular session level/change; extended move on its own line
+    const lvl = q.last, hp = q.prev > 0, c = hp ? lvl - q.prev : null, pc = hp ? c/q.prev*100 : null, up = hp ? c >= 0 : true;   // v343: prev null -> "—"   // v65: regular session level/change; extended move on its own line
     const xe = pr ? (()=>{ const xl = q.etf ? pr.price : q.last*(1+pr.pct/100); return {kind:pr.kind, price:xl, chg:xl-q.last, pct:pr.pct}; })() : null;
     let pts = sp && sp.sym===q.sym && sp.date===q.date ? sp.pts.slice() : null; if(pts && pts.length && !cl) pts.push(q.last);
     const name = q.etf ? `${esc(dn)} <small>· ${esc(x.alt)}</small>` : esc(dn);   // v257 approved: user-added tiles show the ticker only (e.g. XLK), default indices keep their names
     return `<div class="idx${ac}" data-idx="${x.k}" role="button" tabindex="0" title="${esc(q.etf ? dn+I18n.p("ui-0306"," – לפי תעודת הסל ")+x.alt : dn+' ('+x.s+')')}${cl ? I18n.p("ui-0307"," · שוק סגור") : ''}${pr ? I18n.p("ui-0308"," · טרום מסחר לפי ")+esc(pr.src) : ''}">${ar}${xb(x)}<div class="idx-n"><span class="idx-nt">${name}${cl ? I18n.p("ui-0309"," <small>· סגור</small>") : ''}</span>${extLineHtml(xe, 'idx-e')}</div>`+
-      `<b class="idx-v num">${q.etf ? '$' : ''}${fmtLvl(lvl)}</b><div class="idx-c num ${cls(c)}">${(up?'+':'')+fmtLvl(c)} (${fmtPct(pc)})</div>${futLine(x.k)}${sparkSvg(pts, q.prev, up)}</div>`; }).join('');
+      `<b class="idx-v num">${q.etf ? '$' : ''}${fmtLvl(lvl)}</b><div class="idx-c num ${cls(c)}">${hp ? (up?'+':'')+fmtLvl(c)+' ('+fmtPct(pc)+')' : '—'}</div>${futLine(x.k)}${hp ? sparkSvg(pts, q.prev, up) : ''}</div>`; }).join('');
 }
 // ---------- per-holding intraday sparkline (collapsed row) ----------
 // Today's regular session only: CNBC 5-minute bars (same free keyless source as the index tiles), kept for 09:30–16:00 New York /
@@ -7967,7 +7972,7 @@ function yWanted(){   // yahoo symbol -> Set(app symbols); priority order = inse
   const keys = [], add = k=>{ if(k) keys.push(k); };
   if(ui.tab==='market' && etfUi.mode==='etf') ETFS.forEach(add);
   yHoldKeys().forEach(add);
-  IDX.forEach(x=>{ const q = idxData.q[x.k]; if(q && q.sym) add(q.sym); });
+  IDX.forEach(x=>{ const q = idxData.q[x.k]; if(q && q.sym) add(q.sym); else if(YIDX[String(x.s).toUpperCase()]) add(String(x.s).toUpperCase()); });   // v343: index symbols are registered even before idxData.q exists (candles/quotes failed)
   FUT.forEach(f=>add(f.y));   // v188: index futures (used when the streamer sends them)
   const yk = it=>it && !it.der ? (it.sec ? it.sym : YIDX[String(it.q || '').toUpperCase()] ? String(it.q).toUpperCase() : null) : null;   // securities by ticker; of the built-in tiles only the US indices have a Yahoo twin
   add(yk(instSheet && instSheet.it));
