@@ -1723,7 +1723,7 @@ function haltRefine(sym){ try{ const u = String(sym||'').toUpperCase(), r = HALT
   Promise.all([get('/?s='), get('/halt?s=')]).then(([j, hd])=>{ const st = String(j && j.status || ''), d = hd && (hd.code || hd.reason || hd.haltTime) ? hd : null;
     let k = /suspend/i.test(st) ? 'Suspended' : /halt/i.test(st) ? 'Halted' : null; if(d && (haltCodeOf(d)==='H10' || /suspen/i.test(d.reason||''))) k = 'Suspended';
     const ch = k !== r.k || JSON.stringify(d) !== JSON.stringify(r.d); r.k = k; r.d = d; if(ch){ try{ renderAll(); }catch(_){} try{ instSheetLive(); }catch(_){} } }).finally(()=>{ r.busy = false; }); }catch(_){} }
-function preOf(q, now){ if(!q || !q.pre || !q.pre.ts || haltOf(q)) return null; const ss = usSession(now); if(ss!=='pre' && ss!=='post' && ss!=='night') return null;
+function preOf(q, now){ if(!q || !q.pre || !q.pre.ts || q.dayStale || haltOf(q)) return null; const ss = usSession(now); if(ss!=='pre' && ss!=='post' && ss!=='night') return null;
   const kind = q.pre.kind || 'pre'; if(ss==='night' ? kind!=='night' : (ss==='pre') !== (kind==='pre')) return null;
   const z = zoned('America/New_York', now), t = zoned('America/New_York', new Date(q.pre.ts)), close = US_EARLY.has(z.date) ? 13*60 : 16*60;
   if(!(q.pre.price > 0)) return null;
@@ -2384,11 +2384,11 @@ function economicDaily(sym,qty,base){
 function applyCurrencyResult(S){
  const E=currencyEconomic('ILS');S.cashILS=E.cashValue;S.equity=E.equity;S.totalPL=E.profit;S.unrealILS=E.unrealized;S.realizedILS=E.realized;S.feesILS=E.fees;S.divILS=E.dividend;S.intILS=E.interest==null||E.bonus==null?null:E.interest+E.bonus;S.taxPaidILS=E.taxPaid;S.cgtPaidILS=E.cgtPaid;S.L.netDepILS=E.netDeposits;S.L.netDepUSD=currencyEconomic('USD').netDeposits;S.totalPLPct=E.profit!=null&&E.netDeposits>0?E.profit/E.netDeposits*100:null;
  S.cashWeight=E.cashValue!=null&&E.equity>0?E.cashValue/E.equity*100:null;
- let di=0,du=0,pi=0,pu=0,validI=true,validU=true;
- for(const P of S.positions){const c=E.contributions[P.sym],i=economicDaily(P.sym,P.qty,'ILS'),u=economicDaily(P.sym,P.qty,'USD');P.mvILS=c?.marketValue??null;P.unrealILS=c?.unrealized??null;P.weight=P.mvILS!=null&&E.equity>0?P.mvILS/E.equity*100:null;P.dayILS=i?.amount??null;
-  if(i){di+=i.amount;pi+=i.previous}else validI=false;if(u){du+=u.amount;pu+=u.previous}else validU=false;
+ let di=0,du=0,pi=0,pu=0,validI=true,validU=true;const dayMissing=[];   // v339: only a holding whose off-hours daily pair is unavailable (dayStale) is left out of the total and counted; every other null still blanks the total as before
+ for(const P of S.positions){const c=E.contributions[P.sym],i=economicDaily(P.sym,P.qty,'ILS'),u=economicDaily(P.sym,P.qty,'USD'),stale=!P.manual&&!!state.quotes[P.sym]?.dayStale;if(stale&&!i&&!u&&!dayMissing.includes(P.sym))dayMissing.push(P.sym);P.mvILS=c?.marketValue??null;P.unrealILS=c?.unrealized??null;P.weight=P.mvILS!=null&&E.equity>0?P.mvILS/E.equity*100:null;P.dayILS=i?.amount??null;
+  if(i){di+=i.amount;pi+=i.previous}else if(!stale)validI=false;if(u){du+=u.amount;pu+=u.previous}else if(!stale)validU=false;
  }
- S.dayILS=validI?di:null;S.dayUSD=validU?du:null;S.dayPct=validI&&pi>0?di/pi*100:null;S.dayPctUSD=validU&&pu>0?du/pu*100:null;
+ S.dayMissing=dayMissing;S.dayILS=validI&&!(dayMissing.length&&!(pi>0))?di:null;S.dayUSD=validU&&!(dayMissing.length&&!(pu>0))?du:null;S.dayPct=validI&&pi>0?di/pi*100:null;S.dayPctUSD=validU&&pu>0?du/pu*100:null;
  return S;
 }
 
@@ -2750,7 +2750,8 @@ function computeAll(){
   let preILS = 0, preUSD = 0, preN = 0;
   positions.forEach(r=>{ if(r.manual || marketOf(r.sym)!=='us' || isCrypto(r.sym)) return; const pr = preOf(state.quotes[r.sym]); if(!pr) return;
     r.pre = pr.kind; r.prePrice = pr.price; r.ext = {kind:pr.kind, price:pr.price, chg:pr.chg, pct:pr.pct}; /* v65: day/dayPct stay regular-session (pill); extended move → its own line */ preUSD += r.qty*pr.chg; preILS += (toILS(r.qty*pr.chg, r.cur)||0); preN++; });
-  const preInfo = preN ? {ils:preILS, usd:preUSD, pct: equity > 0 ? preILS/equity*100 : null, pctUSD: equity > 0 && fxNow() ? preUSD/(equity/fxNow())*100 : null, n:preN, kind:extKind()} : null;
+  const preMiss = positions.filter(r=>!r.manual && marketOf(r.sym)==='us' && !isCrypto(r.sym) && state.quotes[r.sym]?.dayStale).map(r=>r.sym);   // v339: holdings without a trustworthy pre/after baseline are left out of this total and counted
+  const preInfo = preN ? {miss:preMiss, ils:preILS, usd:preUSD, pct: equity > 0 ? preILS/equity*100 : null, pctUSD: equity > 0 && fxNow() ? preUSD/(equity/fxNow())*100 : null, n:preN, kind:extKind()} : null;
   positions.sort((a,b)=>Math.abs(b.mvILS||0)-Math.abs(a.mvILS||0));
   // total return since the portfolio started = (current value − net deposits) / net deposits, in ILS.
   // current value = cash + market value, so realized + unrealized gains, dividends, interest, fees and tax are all inside it.
@@ -2770,7 +2771,7 @@ function parseCap(v){ const m = String(v||'').replace(/,/g,'').match(/^\s*([\d.]
 function capT(v, cur){ const t = fmtCap(v, cur); return t==='—' ? '' : t; }   // v61: row market-cap line – empty (hidden) when unknown
 function fmtCap(v, cur){ if(v==null || !isFinite(v) || v<=0) return '—'; const [d,u] = v>=1e12 ? [1e12,'T'] : v>=1e9 ? [1e9,'B'] : v>=1e6 ? [1e6,'M'] : [1e3,'K']; const x = v/d, t = x>=100 ? x.toFixed(0) : x>=10 ? x.toFixed(1) : x.toFixed(2);
   return cur==='ILS' ? '₪'+t+u : cur&&cur!=='USD'?(CUR_SYM[cur]||cur+' ')+t+u:t+u+'$'; }
-async function cnbcQuotes(symbols){
+async function cnbcQuotes(symbols, opts){   // v339: opts.raw = caller only needs non-price fields (no off-hours daily-bar pair)
   const out = {};
   for(let i=0;i<symbols.length;i+=40){
     const chunk = symbols.slice(i,i+40);
@@ -2795,7 +2796,8 @@ async function cnbcQuotes(symbols){
       const X = {open:px(q.open), high:px(q.high), low:px(q.low), yh:px(q.yrhiprice), yl:px(q.yrloprice), av10:big(q.tendayavgvol), eps:px(q.eps), feps:px(q.feps), pe:pn(q.pe), fpe:pn(q.fpe), ps:k>1 ? null : pn(q.psales), shs:big(q.sharesout), div:px(q.dividend)||px(ev.div_amount), dy:pn(String(q.dividendyield||'').replace('%','')), beta:pn(q.beta), exd:ev.div_ex_date||'', ne:ev.next_earnings_date||'', vol:big(q.volume)};   // v102: key-stats for the 'details' section (CNBC fields; TASE prices are in agorot -> /100)
       out[String(orig).toUpperCase()] = {x:X, pre, mcap: mc!=null ? (pence ? mc : mc/k) : null, price:last, prev, pdc, cur, name:q.name||'', time:q.last_time||'', ts:parseTs(q.last_time), date:String(q.last_time||'').slice(0,10), realTime:String(q.realTime)==='true', status:q.curmktstatus||'', idx:/INDEX/i.test(String(q.type||''))||undefined, halt: k===1 && (/suspend/i.test(q.curmktstatus||'') ? 'Suspended' : (String(ev.is_halted).toUpperCase()==='Y' || /halt/i.test(q.curmktstatus||'')) ? 'Halted' : ''), hsym:String(orig).toUpperCase(), source:'CNBC', contract:String(q.altSymbol||''), issueId:String(q.issue_id||'')};
       { const o = out[String(orig).toUpperCase()], sy = String(orig).toUpperCase();   // v225: after the close CNBC reports change=UNCH and previous_day_closing=last -> keep the last regular session's prior close until the next session
-        if(k===1 && !/^[.@]|=/.test(sy) && o.date){ if(/^[+-]?[\d,.]+$/.test(String(q.change).trim())){ if(prev>0) pclSet(sy, o.date, prev); }
+        const offEl = offhEligible(sy, o, k, opts); if(offEl) o.offh = true;   // v339: US stock/ETF outside the regular session -> daily pair comes from completed bars below, never from CNBC last/change
+        if(k===1 && !offEl && !/^[.@]|=/.test(sy) && o.date){ if(/^[+-]?[\d,.]+$/.test(String(q.change).trim())){ if(prev>0) pclSet(sy, o.date, prev); }
           else { const c = pclGet(sy, o.date); if(c>0) o.prev = c; else o.pclPend = true; } } }
       if(israelIndexMeta(orig)){ const z=israelIndexQuote(q); Object.assign(out[String(orig).toUpperCase()],{indexPct:z.pct,prev:z.prev}); }
       { const o = out[String(orig).toUpperCase()], sy = String(orig).toUpperCase();   // v235: VIX keeps streaming live outside the regular session
@@ -2807,7 +2809,43 @@ async function cnbcQuotes(symbols){
     for(let i=0;i<pend.length;i+=6) await Promise.all(pend.slice(i,i+6).map(async ([s,o])=>{ try{ const bars = await cnbcBars(cnbcSymbol(s), addDays(today(),-12)); const pb = bars.filter(b=>b[0] < o.date).pop(); if(pb && pb[4]>0){ o.prev = pb[4]; pclSet(s, o.date, pb[4]); } }catch(e){} delete o.pclPend; })); }
   { const pend = Object.entries(iclAll()).filter(([s,e])=>e.pend && out[s]);   // v235: missing close-before-last -> daily bars (the bar before the prior close's bar)
     for(let i=0;i<pend.length;i+=6) await Promise.all(pend.slice(i,i+6).map(async ([s,e])=>{ try{ const bars = await cnbcBars(cnbcSymbol(s), addDays(today(),-12)); const pb = bars.filter(b=>b[0] < e.d); if(pb.length>=2 && pb[pb.length-2][4]>0 && Math.abs(pb[pb.length-1][4]-e.p) <= Math.abs(e.p)*0.001+1e-9){ const m = iclAll(); if(m[s] && m[s].d===e.d){ m[s].p2 = pb[pb.length-2][4]; delete m[s].pend; iclSave(m); } } }catch(e2){} })); }
+  { const el = Object.entries(out).filter(([s,o])=>o.offh);   // v339: off-hours pair = last two COMPLETED daily bars; unavailable (no daily %, no pre/after baseline) when they cannot be established
+    for(let i=0;i<el.length;i+=6) await Promise.all(el.slice(i,i+6).map(async ([s,o])=>{ delete o.offh; let r = null; try{ r = await offhPair(s); }catch(e){}
+      if(r){ o.price = r.p; o.prev = r.p0; o.pdc = r.p0; o.date = r.d; o.ts = r.ts; o.realTime = false;
+        if(o.pre){ const chg = o.pre.price - r.p; o.pre = Object.assign({}, o.pre, {chg, pct: r.p ? chg/r.p*100 : null}); } }
+      else { o.prev = null; o.pdc = null; o.pre = null; o.dayStale = true; } })); }
   return out;
+}
+// v339: off-hours daily pair (US stocks/ETFs; pre / after / overnight / weekend / holiday). CNBC's last/change can alternate between the real
+// close and an older mid-day snapshot, so outside the regular session the price and prior close come from the last two COMPLETED daily bars
+// (unadjusted, same source as cnbcBars). expected = the last session whose bar must exist; if it is not available the symbol is unavailable (never an older pair).
+const OFFH_KEY = 'ptOffHrsPair.v1', offhMem = {};
+function offhAll(){ try{ return JSON.parse(localStorage.getItem(OFFH_KEY)||'{}') || {}; }catch(e){ return {}; } }
+function offhSave(m){ try{ const ks = Object.keys(m); if(ks.length>400) ks.slice(0, ks.length-400).forEach(k=>delete m[k]); localStorage.setItem(OFFH_KEY, JSON.stringify(m)); }catch(e){} }
+function usTradingDay(d){ const w = new Date(d+'T12:00:00Z').getUTCDay(); return w>0 && w<6 && !US_HOLIDAYS.has(d); }
+function usPrevTradingDay(d){ let x = addDays(d,-1); for(let i=0;i<10 && !usTradingDay(x);i++) x = addDays(x,-1); return x; }
+function usExpectedBar(now){ const z = zoned('America/New_York', now), close = US_EARLY.has(z.date) ? 13*60 : 16*60;
+  if(usTradingDay(z.date) && z.min >= close) return {d:z.date, settling: z.min < close+10};   // settling only means "do not cache yet": an available bar is used at once
+  return {d:usPrevTradingDay(z.date), settling:false}; }
+const OFFH_IDX = /^\.(SPX|NDX|DJI|RUT|IXIC)$/;   // US cash indices follow the same shared rule (VIX keeps its own streaming handling)
+function offhEligible(sy, o, k, opts){ if(k!==1 || (opts && opts.raw) || o.cur!=='USD' || usSession()==='reg') return false;
+  if(OFFH_IDX.test(sy)) return true;
+  return !o.idx && !/^[.@]|=/.test(sy) && marketOf(sy)==='us' && !isCrypto(sy); }
+async function offhPair(sym){
+  const E = usExpectedBar(new Date());
+  const c = offhAll()[sym]; if(c && c.exp===E.d && c.p>0 && c.p0>0) return c;
+  const m = offhMem[sym]; if(m && m.exp===E.d && Date.now() < m.next) return null;
+  let r = null;
+  try{ const bars = (await cnbcBars(cnbcSymbol(sym), addDays(today(),-14))).filter(b=>b[0]<=E.d), a = bars[bars.length-1], b = bars[bars.length-2];
+    if(a && b && a[0]===E.d && b[0]===usPrevTradingDay(E.d) && a[4]>0 && b[4]>0){
+      // a recorded split / bonus on the holding between the two closes means the unadjusted closes are not comparable
+      const corp = (state.txs||[]).some(t=>t.symbol===sym && (t.type==='split' || t.type==='sharebonus') && !t.voided && !t.dupSkip && t.date>b[0] && t.date<=a[0]);
+      if(!corp){ const ed = etDate(a[0], US_EARLY.has(a[0]) ? '13:00' : '16:00'); r = {exp:E.d, d:a[0], d0:b[0], p:a[4], p0:b[4], ts: ed ? ed.getTime() : Date.parse(a[0]+'T21:00:00Z')}; } }
+  }catch(e){}
+  if(r){ if(!E.settling){ const all = offhAll(); all[sym] = r; offhSave(all); } delete offhMem[sym]; return r; }   // a bar read right after the close is used but re-read until it is past the settling window
+  const since = m && m.exp===E.d ? m.since : Date.now();   // retries every 2 min for 30 min, then every 10 min; a failure is never cached for good
+  offhMem[sym] = {exp:E.d, since, next: Date.now() + (Date.now()-since < 30*60e3 ? 120e3 : 600e3)};
+  return null;
 }
 const PCL_KEY = 'ptPrevClose.v1';
 function pclAll(){ try{ return JSON.parse(localStorage.getItem(PCL_KEY)||'{}') || {}; }catch(e){ return {}; } }
@@ -3118,6 +3156,7 @@ function hdrVals(S){
  const c=dispCur(),E=currencyEconomic(c),usd=c==='USD',net=E.profit==null||S.TM.outstanding==null||S.hypoTax==null||S.TM.refundEstNow==null||S.hypoRefund==null?null:(taxDisplay(S.closeFeesILS+S.TM.outstanding+S.hypoTax-S.TM.refundEstNow-S.hypoRefund,c,true)==null?null:E.profit-taxDisplay(S.closeFeesILS+S.TM.outstanding+S.hypoTax-S.TM.refundEstNow-S.hypoRefund,c,true));
  return {c,eq:E.equity,pl:E.profit,plPct:chosenRet('0000',today(),usd,E.equity)?.pct??null,day:usd?S.dayUSD:S.dayILS,dayPct:usd?S.dayPctUSD:S.dayPct,net};
 }
+function missTxt(n){ return I18n.language==='en' ? (n===1?'1 missing':n+' missing') : (n===1?'חסרה מניה':'חסרות '+n); }   // v339: small coverage marker beside a partial header total
 function renderHeader(S){ extSessMark();
   const has = state.txs.length>0, V = hdrVals(S), C = V.c;
   const bc = $('btnCur'); bc.setAttribute('aria-pressed', C==='USD'); bc.setAttribute('aria-label', C==='USD' ? I18n.p("ui-0130","מוצג בדולרים – החלפה לשקלים") : I18n.p("ui-0131","מוצג בשקלים – החלפה לדולרים"));   // v57: segmented ₪ | $ (CSS highlights the active one)
@@ -3128,7 +3167,9 @@ function renderHeader(S){ extSessMark();
   const d = $('hDay'); d.textContent = hasDay ? fmtSigned(V.day,C,0) : '—'; d.className = 'tp-a num '+cls(V.day);
   const dp = $('hDayPct'); dp.textContent = hasDay && V.dayPct!=null ? fmtPct(V.dayPct) : '—'; dp.className = 'tp-v num '+cls(V.day);
   const open = (S.dayMk||[]).some(m=>{ const st = marketState(m).state; return st==='open' || st==='pre' || st==='post'; });
-  $('hDayLbl').textContent = !hasDay || open ? I18n.p("ui-0132","שינוי יומי") : I18n.p("ui-0133","שינוי יומי · מסחר אחרון");
+  { const dm = hasDay && S.dayMissing && S.dayMissing.length ? S.dayMissing : [], L = $('hDayLbl');
+    const lbl = (!hasDay || open ? I18n.p("ui-0132","שינוי יומי") : I18n.p("ui-0133","שינוי יומי · מסחר אחרון")) + (dm.length ? ' · '+missTxt(dm.length) : '');
+    if(L.textContent !== lbl) L.textContent = lbl; if(dm.length) L.title = dm.join(', '); else L.removeAttribute('title'); }
   // v52: the pre line's presence follows the session (US pre-market + US holdings), not each refresh's data – otherwise a refresh
   // without a pre quote removes the line and the sticky header shrinks, which shifts the whole page by one line
   const hp = $('hPre'), P = S.pre, preSlot = !!P || (!!extAny() && S.positions.some(p=>!p.manual && Math.abs(p.qty)>1e-9 && marketOf(p.sym)==='us'));
@@ -3139,7 +3180,9 @@ function renderHeader(S){ extSessMark();
     const h2 = on ? `<span class="pre-tag">${P.kind}</span><b class="num ${cls(P ? (C==='USD' ? P.usd : P.ils) : 0)}">${fmtPct(pcT)}</b>` : '';
     if(el.hidden !== !on) el.hidden = !on; if(el.innerHTML !== h2) el.innerHTML = h2; }
   if(preSlot){ const amt = P ? (C==='USD' ? P.usd : P.ils) : null, pc = P ? (C==='USD' ? P.pctUSD : P.pct) : null;
-    const html = `<span class="pre-tag">${P ? P.kind : extKind()}</span><b class="num ${cls(amt)}">${pc!=null ? fmtPct(pc) : '—'}</b><span class="num ${cls(amt)}">${amt!=null ? fmtSigned(amt, C, 0) : ''}</span>`; if(hp.innerHTML !== html) hp.innerHTML = html; }
+    const pmx = P && P.miss ? P.miss.filter(x=>!(hasDay && S.dayMissing && S.dayMissing.includes(x))) : [];   // the header label already names symbols missing from the daily total; the pre line only adds symbols it alone lacks
+    const pm = pmx.length ? `<span class="pre-miss" title="${esc(pmx.join(', '))}" style="font-size:.7em;opacity:.7;margin-inline-start:4px">· ${missTxt(pmx.length)}</span>` : '';
+      const html = `<span class="pre-tag">${P ? P.kind : extKind()}</span><b class="num ${cls(amt)}">${pc!=null ? fmtPct(pc) : '—'}</b><span class="num ${cls(amt)}">${amt!=null ? fmtSigned(amt, C, 0) : ''}</span>${pm}`; if(hp.innerHTML !== html) hp.innerHTML = html; }
   // v57: stat tiles – cost / unrealized / realized (v58: cash tile removed) in the display currency; amounts masked by the eye (fmtMoney / fmtSigned)
   { const E=currencyEconomic(C), cv=v=>v, cost=E.marketValue==null||E.unrealized==null?null:E.marketValue-E.unrealized;
     const T = [[I18n.p("ui-0134","עלות"), has ? fmtMoney(cv(cost), C, 0) : '—', ''], [I18n.p("ui-0135","לא ממומש"), has ? fmtSigned(E.unrealized, C, 0) : '—', cls(E.unrealized)], [I18n.p("ui-0136","ממומש"), has ? fmtSigned(E.realized, C, 0) : '—', cls(E.realized)]];
@@ -6953,7 +6996,7 @@ const REPCAP_K = 'portfolioTracker.repCap.v1', REPCAP_TTL = 24*3600e3; let repCa
 function repCapParse(v){ if(v==null || v==='') return null; if(typeof v==='number') return v>0 ? v : null; const m = String(v).replace(/[$,\s]/g,'').match(/^([\d.]+)(K|M|B|T|אלף|מיליון|מיליארד|טריליון)?$/i); if(!m) return null; const n = parseFloat(m[1]);
   const k = {K:1e3,M:1e6,B:1e9,T:1e12,'אלף':1e3,'מיליון':1e6,'מיליארד':1e9,'טריליון':1e12}[/^[a-z]$/i.test(m[2]||'') ? m[2].toUpperCase() : m[2]||''] || 1; return isFinite(n) && n>0 ? n*k : null; }
 async function loadRepCaps(syms){ if(repCapBusy) return false; const need = syms.filter(s=>!repCap[s] || Date.now()-repCap[s].at > REPCAP_TTL).slice(0, 400); if(!need.length) return false; repCapBusy = true;
-  try{ const Q = await cnbcQuotes(need); need.forEach(s=>{ const q = Q[s]; let v = q && num(q.mcap) > 0 ? num(q.mcap) : null; if(v!=null && q.cur && q.cur!=='USD' && FXQ[q.cur]) v = convertCur(v, q.cur, 'USD');
+  try{ const Q = await cnbcQuotes(need, {raw:true}); need.forEach(s=>{ const q = Q[s]; let v = q && num(q.mcap) > 0 ? num(q.mcap) : null; if(v!=null && q.cur && q.cur!=='USD' && FXQ[q.cur]) v = convertCur(v, q.cur, 'USD');
       repCap[s] = {v: v!=null && isFinite(v) ? v : null, at: Date.now()}; });
     try{ localStorage.setItem(REPCAP_K, JSON.stringify(repCap)); }catch(e){} return true; }catch(e){ return false; } finally{ repCapBusy = false; } } let ntSeq = 0, repShow = 60, repEnter = false, calEnter = false, repCtx = null, repPop = null;
 // v67: index tags come only from the item itself – "מדד" / "index" (string, list, or comma-separated). No tag = "אחר".

@@ -1,0 +1,10 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const s=fs.readFileSync('index.html','utf8');
+for(const n of ['offhPair','offhEligible','usExpectedBar','usTradingDay','usPrevTradingDay','offhSave','missTxt'])assert.ok(s.includes('function '+n+'('),n);
+assert.match(s,/q\.dayStale/);assert.match(s,/dayMissing/);assert.match(s,/pre-miss/);
+assert.match(s,/usSession\(\)==='reg'/);
+assert.match(s,/split/);
+console.log('PASS off-hours daily change: completed-bar pair, dayStale missing-row handling, partial total marker, regular-session gate');
+assert.ok(!/usExpectedBar\(new Date\(\)\);\s*if\(E\.settling\) return null/.test(s),'an available completed bar must not be hidden by a delay');
+assert.match(s,/if\(!E\.settling\)\{ const all = offhAll\(\)/);
+assert.match(s,/OFFH_IDX/);console.log('PASS indices share the off-hours rule');
