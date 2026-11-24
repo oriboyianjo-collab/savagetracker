@@ -3958,10 +3958,12 @@ async function futPoll(force){ if(futBusy || (!force && Date.now()-futAt < 20e3)
     const j = await fetchJSON(url, 10000); let arr = j && j.FormattedQuoteResult && j.FormattedQuoteResult.FormattedQuote; if(arr && !Array.isArray(arr)) arr = [arr]; let ch = false;
     (arr||[]).forEach(q=>{ const f = FUT.find(x=>x.c===q.symbol); if(!f || String(q.code)!=='0') return;
       const p = num(String(q.last||'').replace(/,/g,'')), pv = num(String(q.settlePrice||q.previous_day_closing||'').replace(/,/g,'')), t = Date.parse(q.last_time||'') || 0; if(!(p>0)) return;
-      const d = idxData.fut[f.k] || {}; if(t && d.ts && t < d.ts) return;   // v342: ignore a response whose last_time is older than what we already show (a lagging CNBC server resends an earlier session)
-      const pd = String(q.last_time||'').slice(0,10) || zoned('America/New_York', new Date()).date;   // v342: settle locked per contract and New York date; an older date never overwrites a newer one
-      if(pv>0 && !(d.prevD >= pd)){ d.prev = pv; d.prevD = pd; }
-      if(!d.ts || t >= d.ts || d.src!=='y'){ d.price = p; if(t) d.ts = t; else if(!d.ts) d.ts = Date.now(); d.src = 'c'; } idxData.fut[f.k] = d; ch = true; });
+      const d = idxData.fut[f.k] || {}, stale = !!(t && d.ts && t < d.ts);   // v342: a response whose last_time is older than what we already show (a lagging CNBC server resends an earlier session) never moves the price
+      const pd = String(q.last_time||'').slice(0,10) || zoned('America/New_York', new Date()).date;   // v342: settle locked per contract and New York date; an older date never overwrites a newer one, and within the day the FRESHEST response wins (a lagging server can carry today's date with an old settle)
+      let pvOk = false;
+      if(pv>0 && !(d.prevD > pd) && (d.prevD !== pd || !d.prevT || (t && t >= d.prevT))){ d.prev = pv; d.prevD = pd; if(t) d.prevT = t; pvOk = true; }
+      if(!stale){ if(!d.ts || t >= d.ts || d.src!=='y'){ d.price = p; if(t) d.ts = t; else if(!d.ts) d.ts = Date.now(); d.src = 'c'; } }
+      if(!stale || pvOk){ idxData.fut[f.k] = d; ch = true; } });
     if(ch){ idxSave(); renderIdx(); } }catch(e){} finally{ futBusy = false; } }
 setInterval(()=>{ if(!document.hidden) futPoll(); }, 30e3);
 function futLine(k){ const f = FUT.find(x=>x.k===k), d = idxData.fut[k]; if(!f || !d || !(d.price>0) || !(d.prev>0)) return '';
@@ -8029,7 +8031,7 @@ function yOne(q, kind, o, store){
 function yApply(o){
   const targets = YWS.subs.get(o.id); if(!targets) return;
   const now = Date.now(); if(o.t > now + 120000) return;
-  { const fu = FUT.find(f=>f.y===o.id); if(fu){ const d = idxData.fut[fu.k] || {}; if(o.t > (d.ts||0)){ d.price = o.p; d.ts = o.t; d.src = 'y'; if(!(d.prev>0) && o.chg!=null){ d.prev = o.p - o.chg; d.prevD = zoned('America/New_York', new Date()).date; } idxData.fut[fu.k] = d; yDirtyIdx = true; yQueue(); } return; } }   // v342: prevD
+  { const fu = FUT.find(f=>f.y===o.id); if(fu){ const d = idxData.fut[fu.k] || {}; if(o.t > (d.ts||0)){ d.price = o.p; d.ts = o.t; d.src = 'y'; if(!(d.prev>0) && o.chg!=null){ d.prev = o.p - o.chg; d.prevD = zoned('America/New_York', new Date()).date; d.prevT = o.t; } idxData.fut[fu.k] = d; yDirtyIdx = true; yQueue(); } return; } }   // v342: prevD
   const ss = usSession(); let kind = o.mh === 1 ? 'reg' : o.mh === 0 ? 'pre' : o.mh === 2 ? 'post' : o.mh === 4 ? 'night' : o.mh === 3 ? (ss === 'pre' || ss === 'post' || ss === 'night' ? ss : null) : null;
   if(!kind || (kind !== 'reg' && (kind !== ss || o.id[0] === '^'))) return;   // extended ticks only inside their own session; indices have no extended line
   if(kind === 'reg' && ss !== 'reg') return;   // v176: the last regular tick (16:00:00) is a pre-auction print, not the official close – outside the regular session CNBC's close wins
