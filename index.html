@@ -2797,16 +2797,19 @@ async function cnbcQuotes(symbols, opts){   // v339: opts.raw = caller only need
       out[String(orig).toUpperCase()] = {x:X, pre, mcap: mc!=null ? (pence ? mc : mc/k) : null, price:last, prev, pdc, cur, name:q.name||'', time:q.last_time||'', ts:parseTs(q.last_time), date:String(q.last_time||'').slice(0,10), realTime:String(q.realTime)==='true', status:q.curmktstatus||'', idx:/INDEX/i.test(String(q.type||''))||undefined, halt: k===1 && (/suspend/i.test(q.curmktstatus||'') ? 'Suspended' : (String(ev.is_halted).toUpperCase()==='Y' || /halt/i.test(q.curmktstatus||'')) ? 'Halted' : ''), hsym:String(orig).toUpperCase(), source:'CNBC', contract:String(q.altSymbol||''), issueId:String(q.issue_id||'')};
       { const o = out[String(orig).toUpperCase()], sy = String(orig).toUpperCase();   // v225: after the close CNBC reports change=UNCH and previous_day_closing=last -> keep the last regular session's prior close until the next session
         const offEl = offhEligible(sy, o, k, opts); if(offEl) o.offh = true;   // v339: US stock/ETF outside the regular session -> daily pair comes from completed bars below, never from CNBC last/change
-        if(k===1 && !offEl && !/^[.@]|=/.test(sy) && o.date){ if(/^[+-]?[\d,.]+$/.test(String(q.change).trim())){ if(prev>0) pclSet(sy, o.date, prev); }
-          else { const c = pclGet(sy, o.date); if(c>0) o.prev = c; else o.pclPend = true; } } }
+        if(k===1 && !offEl && !/^[.@]|=/.test(sy) && o.date){   // v340: ONE locked prior close per symbol from the last completed daily bar; a CNBC last-change value never overwrites it
+          const cand = /^[+-]?[\d,.]+$/.test(String(q.change).trim()) && prev>0 ? prev : null, lk = plkGet(sy, o.date);
+          if(lk){ o.prev = lk; plkGuardOhl(sy, o, cand, lk); }
+          else { o.prev = cand; o.plkCand = cand; o.plkPend = true; } } }
       if(israelIndexMeta(orig)){ const z=israelIndexQuote(q); Object.assign(out[String(orig).toUpperCase()],{indexPct:z.pct,prev:z.prev}); }
       { const o = out[String(orig).toUpperCase()], sy = String(orig).toUpperCase();   // v235: VIX keeps streaming live outside the regular session
         if(k===1 && o.idx && o.pdc>0 && o.date && isVixSym(sy)) iclTrack(sy, o.date, o.pdc); }
       { const o = out[String(orig).toUpperCase()]; if(o.halt) haltRefine(o.hsym); }   // v167: halted -> ask the Cboe book status (existing worker) whether it is a halt or a suspension
     });
   }
-  { const pend = Object.entries(out).filter(([s,o])=>o.pclPend);   // v225: no stored prior close -> daily bars (last bar before the quote's session date)
-    for(let i=0;i<pend.length;i+=6) await Promise.all(pend.slice(i,i+6).map(async ([s,o])=>{ try{ const bars = await cnbcBars(cnbcSymbol(s), addDays(today(),-12)); const pb = bars.filter(b=>b[0] < o.date).pop(); if(pb && pb[4]>0){ o.prev = pb[4]; pclSet(s, o.date, pb[4]); } }catch(e){} delete o.pclPend; })); }
+  { const pend = Object.entries(out).filter(([s,o])=>o.plkPend && !(plkFail[s] > Date.now()));   // v340: no locked prior close yet -> last completed daily bar before the quote's session date, then locked for the session
+    for(let i=0;i<pend.length;i+=6) await Promise.all(pend.slice(i,i+6).map(async ([s,o])=>{ let ok = false; try{ const bars = await cnbcBars(cnbcSymbol(s), addDays(today(),-12)); const pb = bars.filter(b=>b[0] < o.date).pop(); if(pb && pb[4]>0){ o.prev = pb[4]; plkSet(s, o.date, pb[4]); pclSet(s, o.date, pb[4]); plkGuardOhl(s, o, o.plkCand, pb[4]); ok = true; } }catch(e){} if(!ok) plkFail[s] = Date.now()+60000; delete o.plkPend; delete o.plkCand; })); }
+  Object.values(out).forEach(o=>{ delete o.plkPend; delete o.plkCand; });
   { const pend = Object.entries(iclAll()).filter(([s,e])=>e.pend && out[s]);   // v235: missing close-before-last -> daily bars (the bar before the prior close's bar)
     for(let i=0;i<pend.length;i+=6) await Promise.all(pend.slice(i,i+6).map(async ([s,e])=>{ try{ const bars = await cnbcBars(cnbcSymbol(s), addDays(today(),-12)); const pb = bars.filter(b=>b[0] < e.d); if(pb.length>=2 && pb[pb.length-2][4]>0 && Math.abs(pb[pb.length-1][4]-e.p) <= Math.abs(e.p)*0.001+1e-9){ const m = iclAll(); if(m[s] && m[s].d===e.d){ m[s].p2 = pb[pb.length-2][4]; delete m[s].pend; iclSave(m); } } }catch(e2){} })); }
   { const el = Object.entries(out).filter(([s,o])=>o.offh);   // v339: off-hours pair = last two COMPLETED daily bars; unavailable (no daily %, no pre/after baseline) when they cannot be established
@@ -2847,6 +2850,17 @@ async function offhPair(sym){
   offhMem[sym] = {exp:E.d, since, next: Date.now() + (Date.now()-since < 30*60e3 ? 120e3 : 600e3)};
   return null;
 }
+// v340: session lock for the prior close. CNBC's quote endpoint alternates between servers; one can return an older session's previous_day_closing
+// (and wrong open/high/low), so the % used to jump on every refresh. The lock comes from the last completed daily bar, is stored per symbol and
+// session date (a newer quote date replaces it; an older quote date never does) and is shared by every screen because it lives in cnbcQuotes.
+const PLK_KEY = 'ptPrevLock.v1', plkFail = {}, plkOhl = {};
+function plkAll(){ try{ return JSON.parse(localStorage.getItem(PLK_KEY)||'{}') || {}; }catch(e){ return {}; } }
+function plkGet(sym, d){ const e = plkAll()[sym]; return e && e.p>0 && (e.d===d || d<e.d) ? e.p : null; }
+function plkSet(sym, d, p){ try{ const m = plkAll(); m[sym] = {d, p}; const ks = Object.keys(m); if(ks.length>800) ks.slice(0, ks.length-800).forEach(k=>delete m[k]); localStorage.setItem(PLK_KEY, JSON.stringify(m)); }catch(e){} }
+// a CNBC prior close more than 0.2% away from the lock marks a mismatching server: its open/high/low are not used (last good values kept, else empty)
+function plkGuardOhl(sym, o, cand, lk){ const X = o.x; if(!X) return;
+  if(cand!=null && Math.abs(cand-lk) > Math.abs(lk)*0.002){ const g = plkOhl[sym]; X.open = g ? g.open : null; X.high = g ? g.high : null; X.low = g ? g.low : null; o.prevMismatch = true; }
+  else plkOhl[sym] = {open:X.open, high:X.high, low:X.low}; }
 const PCL_KEY = 'ptPrevClose.v1';
 function pclAll(){ try{ return JSON.parse(localStorage.getItem(PCL_KEY)||'{}') || {}; }catch(e){ return {}; } }
 function pclGet(sym, d){ const e = pclAll()[sym]; return e && e.d===d ? e.p : null; }
