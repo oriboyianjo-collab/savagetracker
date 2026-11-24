@@ -44,7 +44,61 @@ class PublicationTests(unittest.TestCase):
     def test_unpublished(self):self.linked()['ledger'][0]['filing_date']='2026-12-01';self.assertRaises(ValueError,self.check)
     def test_empty_ledger(self):self.linked()['ledger']=[];self.assertRaises(ValueError,self.check)
     def test_held_does_not_publish(self):self.linked()['status']='held';idx,_=self.check();self.assertFalse(idx['symbols'])
-    def test_last_good_removal(self):self.linked();old,_=self.check();self.rows[self.i]['status']='held';self.assertRaises(ValueError,self.check,old)
+    def test_last_good_removal(self):
+        r=self.linked();old,_=self.check();sym=r['symbol'];r['status']='held'
+        with self.assertRaises(ValueError) as cm:self.check(old)
+        self.assertEqual(str(cm.exception),'last-good symbol would disappear: '+sym)
+    def _security_pair(self):
+        r=self.linked();par=r['symbol']
+        src=next(x for x in self.inv['rows'] if x.get('parent_symbol') and x['symbol']!=par)
+        child=dict(src);child['parent_symbol']=par;child_symbol=child['symbol']
+        self.inv['rows']=[child if x['symbol']==child_symbol else x for x in self.inv['rows']]
+        c=next(x for x in self.rows if x['symbol']==child_symbol);c.update(status='held',reason_code='HOLD_SECURITY_CLASS')
+        import publication
+        raw=json.dumps(self.inv).encode();self.addCleanup(setattr,publication,'INVENTORY_SHA',publication.INVENTORY_SHA)
+        publication.INVENTORY_SHA=hashlib.sha256(raw).hexdigest();self.result['inventory_sha256']=publication.INVENTORY_SHA
+        return raw,par,child_symbol
+    def test_repair_repass_keeps_security_class_child_of_pending_parent(self):
+        raw,par,child=self._security_pair();prior,_=project(self.inv,raw,self.result)
+        self.assertEqual(prior['symbols'][child],prior['symbols'][par])
+        # The child is stored ahead of its parent, so restoration order cannot hide the bug.
+        ordered={child:prior['symbols'][child],par:prior['symbols'][par]};ordered.update(prior['symbols']);prior['symbols']=ordered
+        kept=json.loads(json.dumps(prior['symbols'][par]))
+        next(x for x in self.rows if x['symbol']==par).update(status='pending',reason_code='PENDING_NOT_ATTEMPTED',reports={},ledger=[])
+        idx,st=project(self.inv,raw,self.result,prior)
+        self.assertEqual(idx['symbols'][par],kept);self.assertEqual(idx['symbols'][child],idx['symbols'][par])
+        row=next(x for x in st['rows'] if x['symbol']==child)
+        self.assertEqual(row['status'],'held');self.assertEqual(row['reason_code'],'HOLD_SECURITY_CLASS');self.assertEqual(row['linked_slots'],1);self.assertEqual(row['parent_symbol'],par)
+        prow=next(x for x in st['rows'] if x['symbol']==par);self.assertEqual(prow['status'],'pending');self.assertEqual(prow['linked_slots'],1)
+    def test_pending_parent_absent_from_prior_keeps_child_last_good(self):
+        raw,par,child=self._security_pair();prior,_=project(self.inv,raw,self.result)
+        kept=json.loads(json.dumps(prior['symbols'][child]));del prior['symbols'][par]
+        next(x for x in self.rows if x['symbol']==par).update(status='pending',reason_code='PENDING_NOT_ATTEMPTED',reports={},ledger=[])
+        idx,st=project(self.inv,raw,self.result,prior)
+        self.assertNotIn(par,idx['symbols']);self.assertEqual(idx['symbols'][child],kept)
+        row=next(x for x in st['rows'] if x['symbol']==child);self.assertEqual(row['linked_slots'],1);self.assertEqual(row['parent_symbol'],par);self.assertEqual(row['status'],'held')
+    def test_security_class_child_still_raises_when_parent_drops(self):
+        raw,par,child=self._security_pair();prior,_=project(self.inv,raw,self.result)
+        next(x for x in self.rows if x['symbol']==par).update(status='held',reason_code='NO_VALIDATED_REPORTS',reports={},ledger=[])
+        with self.assertRaises(ValueError) as cm:project(self.inv,raw,self.result,prior)
+        names=set(str(cm.exception).split(': ',1)[1].split(', '))
+        self.assertEqual(names,{par,child})
+    def test_repair_repass_still_raises_for_a_real_drop(self):
+        raw,par,child=self._security_pair()
+        other=next(x for x in self.rows if x['symbol'] not in {par,child} and x['status']=='pending')
+        u='https://www.sec.gov/Archives/edgar/data/123/000119312526000009/other.htm'
+        other.update(status='partial_validated',cik='0000000123',reports={'2027':{'Q1':u}},ledger=[{'slot':'2027-Q1','url':u,'body_sha256':'c'*64,'period_end':'2026-09-30','filing_date':'2026-11-01'}])
+        prior,_=project(self.inv,raw,self.result)
+        next(x for x in self.rows if x['symbol']==par).update(status='pending',reason_code='PENDING_NOT_ATTEMPTED',reports={},ledger=[])
+        other.update(status='held',reason_code='NO_VALIDATED_REPORTS',reports={},ledger=[])
+        with self.assertRaises(ValueError) as cm:project(self.inv,raw,self.result,prior)
+        self.assertEqual(str(cm.exception),'last-good symbol would disappear: '+other['symbol'])
+    def test_disappearance_message_lists_first_symbols(self):
+        r=self.linked();prior,_=self.check();sym=r['symbol'];r['status']='held'
+        prior['symbols']={name:prior['symbols'][sym] for name in [sym,'ZZ1','ZZ2','ZZ3','ZZ4','ZZ5','ZZ6']}
+        with self.assertRaises(ValueError) as cm:self.check(prior)
+        shown=', '.join(sorted([sym,'ZZ1','ZZ2','ZZ3','ZZ4','ZZ5','ZZ6'])[:5])
+        self.assertEqual(str(cm.exception),'last-good symbol would disappear: %s (+2 more)'%shown)
     def test_last_good_pending_keeps_links(self):
         r=self.linked();old,_=self.check();sym=r['symbol']
         r.update(status='pending',reports={},ledger=[])

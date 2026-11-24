@@ -91,28 +91,53 @@ def project(inventory,inventory_bytes,result,prior=None):
     if prior:
         by_status={x['symbol']:x for x in statuses}
         fresh={r.get('symbol'):r for r in rows}
-        for s,old in prior.get('symbols',{}).items():
-            if s not in symbols:
-                # A repair re-pass marks the issuer pending until its scan finishes.
-                # Last-good links stay published; a finished hold or drop still fails.
-                if fresh.get(s,{}).get('status')=='pending':
-                    symbols[s]=json.loads(json.dumps(old))
-                    by_status[s]['linked_slots']=len(old.get('ledger') or [])
-                    by_status[s]['available_slots']=sorted(e['slot'] for e in old.get('ledger') or [])
-                    continue
-                raise ValueError('last-good symbol would disappear')
-            symbols[s]=_preserve_last_good(old, symbols[s])
-            by_status[s]['linked_slots']=len(symbols[s]['ledger'])
-            by_status[s]['available_slots']=sorted(e['slot'] for e in symbols[s]['ledger'])
+        prior_symbols=prior.get('symbols',{})
+        missing=[]
+        for s,old in prior_symbols.items():
+            if s in symbols:
+                symbols[s]=_preserve_last_good(old, symbols[s])
+                by_status[s]['linked_slots']=len(symbols[s]['ledger'])
+                by_status[s]['available_slots']=sorted(e['slot'] for e in symbols[s]['ledger'])
+                continue
+            # A repair re-pass marks the issuer pending until its scan finishes.
+            # Last-good links stay published; a finished hold or drop still fails.
+            if fresh.get(s,{}).get('status')=='pending':
+                _restore_last_good(symbols, by_status[s], old)
+                continue
+            # Held security-class children are resolved after pending parents are
+            # restored. Raising here, before that copy, drops a child whose parent
+            # is only awaiting re-scan. Iteration order must not matter.
+            missing.append(s)
         # Security-class children were copied before last-good URLs were restored.
+        # On a repair re-pass the parent is pending, so the held child is not in
+        # symbols yet. Mirror the preserved parent. If that parent is pending but
+        # has no last-good of its own, keep the child's published links.
         for s,source in expected.items():
             par=source.get('parent_symbol')
-            if par and par in symbols and by_symbol[s]['reason_code']=='HOLD_SECURITY_CLASS':
+            if not par or by_symbol[s]['reason_code']!='HOLD_SECURITY_CLASS':continue
+            if par in symbols:
                 symbols[s]=json.loads(json.dumps(symbols[par]))
                 by_symbol[s].update({'linked_slots':len(symbols[s]['ledger']),'available_slots':sorted(e['slot'] for e in symbols[s]['ledger']),'parent_symbol':par})
+            elif s in prior_symbols and fresh.get(par,{}).get('status')=='pending':
+                _restore_last_good(symbols, by_symbol[s], prior_symbols[s], par)
+        disappeared=[s for s in missing if s not in symbols]
+        if disappeared:
+            raise ValueError('last-good symbol would disappear: '+_disappear_detail(disappeared))
     index={'schema_version':1,'inventory_sha256':ih,'as_of':as_of,'symbols':symbols}
     status={'schema_version':1,'inventory_sha256':ih,'as_of':as_of,'complete_pass':bool(result.get('complete_pass')),'access_held':bool(result.get('access_held')),'summary':counts,'rows':statuses,'coverage_basis':'validated_discovered_filings_only','historical_coverage_verified':False,'q4_prefetch_window_days':75,'coverage_limitations':['Q4 candidates filed later than 75 days after a validated/expected fiscal year end are not fetched','Rejected Q4 candidates may not appear in unresolved counts','A connected status does not certify all historical filings were discovered or all expected slots exist']}
     return index,status
+
+def _restore_last_good(symbols, status_row, old, parent=None):
+    """Put a previously published symbol back without treating it as a new scan."""
+    symbols[status_row['symbol']]=json.loads(json.dumps(old))
+    status_row['linked_slots']=len(old.get('ledger') or [])
+    status_row['available_slots']=sorted(e['slot'] for e in old.get('ledger') or [])
+    if parent:status_row['parent_symbol']=parent
+
+def _disappear_detail(symbols):
+    shown=sorted(symbols)[:5]
+    more=len(symbols)-len(shown)
+    return ', '.join(shown)+(' (+%d more)'%more if more else '')
 
 def _preserve_last_good(old, new):
     """Keep every already published slot URL. New slots from this pass are added.
