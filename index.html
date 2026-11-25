@@ -1042,7 +1042,7 @@ html:not(.dark) .pchg .chg:has(.pos){background:#ecfdf5;border-color:#a7f3d0}htm
 .idx-editbar{flex:0 0 auto;width:30%;min-width:0;margin:0}
 .idx-editbar .ac{position:relative}
 /* v257 fix: the add-security dropdown inherited the thin 30% field width and clipped the result rows - the panel now spans the full tools-row width (the field is exactly 30% of it), its right edge still anchored to the field, and it sits above the controls below while open. */
-.idx-editbar .ac-list{left:auto;right:0;width:333.34%;z-index:30}
+.idx-editbar .ac-list{left:auto;right:0;width:333.34%;z-index:30}html[dir=ltr] .idx-editbar .ac-list{right:auto;left:0}   /* English/LTR: the edit bar sits at the left of the row, so anchor the suggestions to its left edge (they opened off-screen to the left; Ori screenshot 2026-11-25). Hebrew keeps the original right anchor. */
 .idx-editbar input#idxSearch{width:100%;box-sizing:border-box;height:26px!important;min-height:26px!important;padding-top:0!important;padding-bottom:0!important;padding-inline-start:32px!important;padding-inline-end:10px!important;font-size:.8rem!important;line-height:1}
 .idx-editbar .ac-ic2{position:absolute;inset-inline-start:10px;top:50%;transform:translateY(-50%);width:15px;height:15px;color:var(--muted);pointer-events:none}
 /* v261: reset button beside the add-search row (Ori, 2026-11-08) - restores the two original tiles only (S&P 500 / נאסד"ק 100); short "איפוס" label, 26px high like the search field so the tiles stay pixel-fixed. */
