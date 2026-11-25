@@ -1,0 +1,58 @@
+# DRAFT, NOT UPLOADED, NOT RUN. Read-only one-day dry run of the official-news code.
+# It never writes to the repo: permissions are contents: read only, the script runs without --write,
+# and the approval flag is not set. State between runs lives in the Actions cache, not in the repo.
+# After 24 hours from the first run it stops running the script and publishes the full list as an artifact.
+name: news-official-dryrun
+on:
+  schedule: [{cron: "*/5 * * * *"}]
+  workflow_dispatch: {}
+concurrency:
+  group: news-official-dryrun
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  dryrun:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Restore dry-run state
+        uses: actions/cache/restore@v4
+        with:
+          path: dryrun
+          key: dryrun-state-${{ github.run_id }}
+          restore-keys: dryrun-state-
+      - name: Check the 24 hour window
+        id: window
+        run: |
+          mkdir -p dryrun
+          [ -f dryrun/window_start ] || date -u +%s > dryrun/window_start
+          start=$(cat dryrun/window_start); now=$(date -u +%s)
+          if [ $((now - start)) -ge 86400 ]; then echo "over=true" >> "$GITHUB_OUTPUT"; else echo "over=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Dry-run round (no --write, no approval flag)
+        if: steps.window.outputs.over == 'false'
+        working-directory: dryrun
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # contents: read, used only for reading news.json
+        run: |
+          python ../automation/news_official.py | tee -a round_log.txt
+          echo "---- $(date -u +%FT%TZ) ----" >> round_log.txt
+      - name: Save dry-run state
+        if: steps.window.outputs.over == 'false'
+        uses: actions/cache/save@v4
+        with:
+          path: dryrun
+          key: dryrun-state-${{ github.run_id }}
+      - name: Publish the list that would have gone up
+        if: steps.window.outputs.over == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-official-dryrun-result
+          path: |
+            dryrun/dry_run_report.jsonl
+            dryrun/flags_log.jsonl
+            dryrun/round_log.txt
+          if-no-files-found: warn
