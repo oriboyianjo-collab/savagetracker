@@ -219,6 +219,14 @@ def run_round(write):
     for src in SOURCES:
         es = fetch_source(src)
         if es is not None: feeds.append((src, es))
+    # Burden cut (dry run only): with a local state and no feed link that could become a card, skip loading
+    # the 21 MB news.json. Same condition as the card loop below (unseen link, has a time, newer than first run).
+    if not write and os.path.exists(LOCAL_STATE):
+        st = json.load(open(LOCAL_STATE)); seen = set(st.get("seen_links", []))
+        start = dt.datetime.fromisoformat(st["first_run_utc"])
+        if not any(e["link"] and e["link"] not in seen and e["time"] and e["time"] > start for _, es in feeds for e in es):
+            print(f"round: 0 cards would go up (no new feed link; news.json not downloaded; {len(feeds)}/{len(SOURCES)} feeds read)")
+            return
     gh = GitHub(os.environ.get("GITHUB_TOKEN"))      # in dry-run the token is used for READS only (rate limit); nothing commits unless write is True
     for attempt in range(MAX_TRIES):
         head, files = gh.head()

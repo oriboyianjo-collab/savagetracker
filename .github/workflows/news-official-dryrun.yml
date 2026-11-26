@@ -1,11 +1,16 @@
-# DRAFT, NOT UPLOADED, NOT RUN. Read-only one-day dry run of the official-news code.
+# Read-only 24h dry run of the official-news code. Started ONLY by dispatch: the Cloudflare Worker "news-tick"
+# dispatches it every 5 minutes (GitHub's own schedule fired ~2 of ~288 runs/day in this repo).
 # It never writes to the repo: permissions are contents: read only, the script runs without --write,
 # and the approval flag is not set. State between runs lives in the Actions cache, not in the repo.
-# After 24 hours from the first run it stops running the script and publishes the full list as an artifact.
+# Every run uploads the accumulated lists as an artifact (newest run = full picture so far).
 name: news-official-dryrun
 on:
-  schedule: [{cron: "*/5 * * * *"}]
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      tick_ts:
+        description: 'Worker tick time (UTC ISO), for measuring the schedule'
+        required: false
+        default: ''
 concurrency:
   group: news-official-dryrun
   cancel-in-progress: false
@@ -16,43 +21,54 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Record run start
+        id: t0
+        run: echo "start=$(date -u +%FT%TZ)" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: automation
+          sparse-checkout-cone-mode: true
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - name: Restore dry-run state
         uses: actions/cache/restore@v4
         with:
           path: dryrun
-          key: dryrun-state-${{ github.run_id }}
-          restore-keys: dryrun-state-
-      - name: Check the 24 hour window
-        id: window
-        run: |
-          mkdir -p dryrun
-          [ -f dryrun/window_start ] || date -u +%s > dryrun/window_start
-          start=$(cat dryrun/window_start); now=$(date -u +%s)
-          if [ $((now - start)) -ge 86400 ]; then echo "over=true" >> "$GITHUB_OUTPUT"; else echo "over=false" >> "$GITHUB_OUTPUT"; fi
+          key: dryrun2-state-${{ github.run_id }}
+          restore-keys: dryrun2-state-
       - name: Dry-run round (no --write, no approval flag)
-        if: steps.window.outputs.over == 'false'
         working-directory: dryrun
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # contents: read, used only for reading news.json
+          TICK_TS: ${{ github.event.inputs.tick_ts }}
+          RUN_START: ${{ steps.t0.outputs.start }}
         run: |
-          python ../automation/news_official.py | tee -a round_log.txt
-          echo "---- $(date -u +%FT%TZ) ----" >> round_log.txt
+          set -o pipefail
+          echo "==== run ${GITHUB_RUN_ID} tick_ts=${TICK_TS:-none} run_start=${RUN_START} ====" >> round_log.txt
+          rc=0; python ../automation/news_official.py > round_out.txt 2>&1 || rc=$?
+          cat round_out.txt; cat round_out.txt >> round_log.txt
+          end=$(date -u +%FT%TZ)
+          cards=$(grep -oE 'round: [0-9]+' round_out.txt | grep -oE '[0-9]+' | tail -1)
+          [ -f ticks.tsv ] || printf 'run_id\ttick_ts\trun_start\tround_end\tcards\texit\n' > ticks.tsv
+          printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$GITHUB_RUN_ID" "${TICK_TS:-none}" "$RUN_START" "$end" "${cards:-?}" "$rc" >> ticks.tsv
+          echo "---- round_end=${end} exit=${rc} ----" >> round_log.txt
+          rm -f round_out.txt
+          exit $rc
       - name: Save dry-run state
-        if: steps.window.outputs.over == 'false'
+        if: always()
         uses: actions/cache/save@v4
         with:
           path: dryrun
-          key: dryrun-state-${{ github.run_id }}
-      - name: Publish the list that would have gone up
-        if: steps.window.outputs.over == 'true'
+          key: dryrun2-state-${{ github.run_id }}
+      - name: Publish the accumulated list (every run)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: news-official-dryrun-result
           path: |
+            dryrun/ticks.tsv
             dryrun/dry_run_report.jsonl
             dryrun/flags_log.jsonl
             dryrun/round_log.txt
           if-no-files-found: warn
+          retention-days: 3
