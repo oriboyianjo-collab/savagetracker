@@ -14,6 +14,10 @@ class PublicationTests(unittest.TestCase):
     def test_inventory(self):self.assertEqual(hashlib.sha256(self.raw).hexdigest(),INVENTORY_SHA);self.assertEqual(len(self.rows),6315)
     def test_full_accounting_pending_not_complete(self):idx,st=self.check();self.assertEqual(len(st['rows']),6315);self.assertFalse(st['complete_pass']);self.assertFalse(idx['symbols'])
     def test_noncalendar_year(self):r=self.linked();idx,_=self.check();self.assertEqual(idx['symbols'][r['symbol']]['reports']['2027'],r['reports']['2027'])
+    def test_retail_fiscal_year_2019(self):
+        r=self.rows[self.i];u='https://www.sec.gov/Archives/edgar/data/123/000119312526000001/report.htm'
+        r.update(status='partial_validated',cik='0000000123',reports={'2019':{'FY':u}},ledger=[{'slot':'2019-FY','url':u,'body_sha256':'a'*64,'period_end':'2020-02-02','filing_date':'2020-03-20','form':'10-K','decision':'validated'}])
+        idx,_=self.check();self.assertEqual(idx['symbols'][r['symbol']]['reports']['2019'],r['reports']['2019'])
     def test_project_only_public_evidence(self):r=self.linked();r['reason']='private reason must not publish';idx,st=self.check();self.assertNotIn('private',json.dumps(idx)+json.dumps(st));self.assertNotIn('decision',json.dumps(idx))
     def test_existing_companies_are_in_processing_scope(self):self.assertTrue(all(not x['existing']for x in self.inv['rows']));self.assertEqual(sum(x.get('previously_present',False)for x in self.inv['rows']),312)
     def test_no_preserved_constraint_holds_remain(self):self.assertFalse([x['symbol']for x in self.inv['rows']if x.get('hold_reason')])

@@ -36,7 +36,7 @@ def validate_symbol(row,as_of):
     if not isinstance(reports,dict) or not reports or not isinstance(ledger,list) or not 1<=len(ledger)<=200:raise ValueError('empty/oversized report mapping')
     flat={}
     for y,ps in reports.items():
-        if not re.fullmatch(r'20\d{2}',y) or int(y)<2020 or not isinstance(ps,dict) or not ps:raise ValueError('invalid fiscal year')
+        if not re.fullmatch(r'20\d{2}',y) or int(y)<2019 or not isinstance(ps,dict) or not ps:raise ValueError('invalid fiscal year: %s %s'%(row.get('symbol'),y))
         for q,u in ps.items():
             if q not in {'FY','Q1','Q2','Q3','Q4'}:raise ValueError('invalid period')
             url_ok(u,cik);flat[y+'-'+q]=u
