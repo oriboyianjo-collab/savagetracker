@@ -36,6 +36,8 @@ jobs:
           path: dryrun
           key: dryrun2-state-${{ github.run_id }}
           restore-keys: dryrun2-state-
+      - name: Make sure the state folder exists (first run has no cache)
+        run: mkdir -p dryrun
       - name: Dry-run round (no --write, no approval flag)
         working-directory: dryrun
         env:
