@@ -3569,6 +3569,10 @@ document.addEventListener('error', e=>{ const im = e.target; if(!im || im.tagNam
   if(+im.dataset.li < 0 || logoFix(sym)===1){ im.remove(); return; }   // v173: a LOGO_FIX image that fails → initials, never the generic chain / cache
   if(n < LOGO_SRC.length){ im.dataset.li = n; im.className = n ? 'fmp' : ''; im.src = LOGO_SRC[n](sym); }
   else { im.remove(); logoSet(sym, -1); } }, true);
+function logoReveal(root){   // v350: reveal logos that finished loading between the load event and a morph
+  if(!root) return;
+  root.querySelectorAll('img[data-lsym]').forEach(im=>{ if(im.complete && im.naturalWidth>=8) im.classList.add('ok'); });
+}
 function chgPct(v){ if(v==null||!isFinite(v)) return '—'; return (v>0.0000001?'+':'') + (Math.abs(v)>=100 ? v.toFixed(0) : v.toFixed(2)) + '%'; }
 function chgAmt(v,p,digits){const r=accountingRate(p.cur,dispCur(),today(),null,'equity').value;return fmtSigned(v==null||r==null?null:v*r,dispCur(),digits)}
 function chgLines(F){ const f = k=>`<b data-f="${k}" class="${F[k][1]}">${F[k][0]}</b>`;
@@ -4365,6 +4369,9 @@ function morphKids(a, b){ const A = [...a.childNodes], Bn = [...b.childNodes];
     if(x.nodeType===3 || x.nodeType===8){ if(x.nodeValue!==y.nodeValue) x.nodeValue = y.nodeValue; continue; }
     for(const at of [...x.attributes]) if(!y.hasAttribute(at.name)) x.removeAttribute(at.name);
     for(const at of [...y.attributes]) if(x.getAttribute(at.name)!==at.value) x.setAttribute(at.name, at.value);
+    if(x.tagName==='IMG' && x.dataset && x.dataset.lsym){   // v350: morph copies the fresh row HTML (no 'ok') onto a logo that already loaded; src unchanged -> no new load event -> keep it visible
+      if(x.complete && x.naturalWidth>=8) x.classList.add('ok');
+    }
     morphKids(x, y); }
   for(let i=A.length-1;i>=Bn.length;i--) a.removeChild(A[i]); }
 const M = el=>({ set h(v){ morph(el, v); } });
@@ -5325,7 +5332,7 @@ function drawEtfSel(){ const el = $('etfPick'); if(!el) return; const t = etfUi.
 function drawEtf(){ const t = etfUi.sel, d = etfData[t], ei = secInst({sym:t, type:'etf'}), q = iq(ei), pct = q && q.prev ? (q.price/q.prev-1)*100 : null;
   drawEtfSel(); $('etfView').querySelectorAll('button').forEach(b=>{ const on = b.dataset.ev===etfUi.view; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
   const isCust = etfCust.some(x=>x.t===t), hdH = `<div class="etfhd" role="button" tabindex="0" data-es="${t}">${logoHtml(t)}<div class="t"><b class="ltr">${ETF_LBL[t]||t}</b><small>${esc((d && d.name) || (q && q.name) || '')}</small></div><div class="r"><b class="num ${cls(pct)}">${pct!=null ? fmtPct(pct) : '—'}</b><span class="num muted">${q ? fmtPrice(q.ext ? q.ext.price : q.price, q.cur||'USD') : ''}</span>${extLineHtml(q && q.ext, 'etfx')}</div></div>`;
-  M($('etfHd')).h = isCust ? `<div class="etfrow">${hdH}${I18n.p("ui-0519","<button type=\"button\" class=\"etf-more\" data-ecm aria-label=\"תפריט הקרן\" aria-haspopup=\"menu\" aria-expanded=\"")}${etfMenuOpen}">⋯</button></div>` + (etfMenuOpen ? `${I18n.p("ui-0522","<div class=\"wl-menu etf-cmenu\" role=\"menu\" aria-label=\"תפריט הקרן\">")}${issData && issData.funds && issData.funds[t] ? I18n.p("ui-0520","<span class=\"etf-iss ok\">✓ ההחזקות נלקחות מקובץ המנפיק ומתעדכנות יומית</span>") : I18n.p("ui-0521","<button type=\"button\" role=\"menuitem\" data-ecissue>📥 הוסף לעדכון היומי מהמנפיק</button>")}${I18n.p("ui-0523","<button type=\"button\" role=\"menuitem\" class=\"del\" data-ecdel>🗑 הסר את <span class=\"ltr\">")}${esc(t)}${I18n.p("ui-0524","</span> מהרשימה</button><button type=\"button\" role=\"menuitem\" data-ecm>סגור</button></div>")}` : '') : hdH;;   // v107: pre/after line like the rows below (price = extended price, % above = regular session)
+  M($('etfHd')).h = isCust ? `<div class="etfrow">${hdH}${I18n.p("ui-0519","<button type=\"button\" class=\"etf-more\" data-ecm aria-label=\"תפריט הקרן\" aria-haspopup=\"menu\" aria-expanded=\"")}${etfMenuOpen}">⋯</button></div>` + (etfMenuOpen ? `${I18n.p("ui-0522","<div class=\"wl-menu etf-cmenu\" role=\"menu\" aria-label=\"תפריט הקרן\">")}${issData && issData.funds && issData.funds[t] ? I18n.p("ui-0520","<span class=\"etf-iss ok\">✓ ההחזקות נלקחות מקובץ המנפיק ומתעדכנות יומית</span>") : I18n.p("ui-0521","<button type=\"button\" role=\"menuitem\" data-ecissue>📥 הוסף לעדכון היומי מהמנפיק</button>")}${I18n.p("ui-0523","<button type=\"button\" role=\"menuitem\" class=\"del\" data-ecdel>🗑 הסר את <span class=\"ltr\">")}${esc(t)}${I18n.p("ui-0524","</span> מהרשימה</button><button type=\"button\" role=\"menuitem\" data-ecm>סגור</button></div>")}` : '') : hdH;; logoReveal($('etfHd'));   // v107: pre/after line like the rows below (price = extended price, % above = regular session)
   const body = $('etfBody'), info = $('etfInfo'), note = $('etfNote');
   if(!d){ if($('etfEstimate')) $('etfEstimate').innerHTML=''; drawEtfSort(false); info.textContent = ''; note.textContent = ''; etfHeatKey = ''; body.innerHTML = `<div class="wl-empty">${etfErr[t] ? I18n.p("ui-0525","לא ניתן לטעון את הרכב הקרן כרגע – נסו שוב מאוחר יותר.") : I18n.p("ui-0526","טוען הרכב…")}</div>`; return; }
   const dt = d.asOf ? fmtDate(String(d.asOf).slice(0,10)) : '';
@@ -5352,7 +5359,7 @@ function drawEtf(){ const t = etfUi.sel, d = etfData[t], ei = secInst({sym:t, ty
     return; }
   etfHeatKey = '';
   const html = `${I18n.p("ui-0542","<div class=\"ecols egrid\" aria-hidden=\"true\"><span></span><span>מניה</span><span class=\"pcol\">היום</span><span class=\"pcol\">משקל</span><span class=\"pcol\">מחיר</span><span class=\"pcol\">יומי</span></div><div class=\"etf-rows\">")}${etfOrder(its, LW).map(i=>etfRowHtml(its[i], LW[i], mx)).join('')}</div>`;
-  M(body).h = html; }
+  M(body).h = html; logoReveal(body); }
 
 // ---- v104: sort the holdings list of the selected fund (weight = default; tap the same option again to flip; saved) ----
 const ETF_SORT_KEY = 'portfolioTracker.etfHoldSort.v1', ETF_SN = {weight:I18n.p("ux-0531","משקל"), day:I18n.p("ux-0532","שינוי יומי"), price:I18n.p("ux-0533","מחיר"), cap:I18n.p("ux-0534","שווי שוק")};
