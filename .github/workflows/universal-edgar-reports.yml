@@ -183,6 +183,8 @@ jobs:
             report-status-all.json
             report-pass-control.json
             ${{ runner.temp }}/controller.json
+            ${{ runner.temp }}/universal-result.json
+            ${{ runner.temp }}/universal-run.jsonl
             ${{ runner.temp }}/universal-diagnostics
           if-no-files-found: ignore
           retention-days: 7
