@@ -90,8 +90,10 @@ jobs:
           python3 -m unittest universal.test_combined -v
           python3 -m unittest universal.test_diagnostics -v
           python3 -m unittest universal.test_repair -v
+          python3 -m unittest universal.test_live -v
           node universal/test_consumer.cjs
           node universal/test_consumer_async.cjs
+          node universal/test_live_consumer.cjs
       - name: Automatically discover and qualify the next bounded batch
         if: steps.gate.outputs.go == '1'
         id: core
