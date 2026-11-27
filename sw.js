@@ -1,7 +1,7 @@
 // Simple service worker: caches the app shell for offline use. Price APIs are never cached.
 // Company logos (Parqet / FMP image URLs – only a ticker in the URL) go to their own runtime cache, cache-first, capped at
 // LOGO_MAX entries (oldest dropped). It survives app updates (not tied to the shell version).
-const CACHE = 'portfolio-shell-v352';
+const CACHE = 'portfolio-shell-v353';
 const LOGO_CACHE = 'portfolio-logos-v1', LOGO_MAX = 120;
 const NEWS_ARCH_CACHE = 'savage-news-archive-v1';   // v350: closed archive pages (immutable), kept across shell updates
 const AL_CACHE = 'savage-alerts-v1', AL_CFG = './__alerts/cfg';   // v187: alerts state shared with the page (prefs, ticker lists, seen keys, pending items) – on this device only

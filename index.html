@@ -1155,6 +1155,12 @@ html:not(.dark) .viewtgl3 button.on{background:#1e3a8a}
 .fl-ibar{margin-top:3px;margin-inline-start:18px;height:3px}
 .fl-row.fl-ed{padding-inline-start:24px}
 .fl-row .ft-del{width:16px;height:16px;font-size:10px;inset-inline-start:4px}
+/* v353: Leaders/Losers selected row (option D): neutral soft fill, side padding so the rank badge is not clipped, no blue box. .fl-row.sel (Other gainers) is untouched. */
+.fl-hero,
+.fl-hero.lead{ padding: 6px 8px; margin: 2px 0; border-radius: 12px; outline: none; border: 0; -webkit-tap-highlight-color: transparent; }
+.fl-hero:focus, .fl-hero:focus-visible, .fl-hero:active, .fl-hero.sel:focus, .fl-hero.sel:focus-visible{ outline: none; }
+.fl-hero.sel{ background: rgba(127,127,127,.14); box-shadow: none; border: 0; }
+.fl-hero.sel:active{ background: rgba(127,127,127,.20); box-shadow: none; }
 
 @media (max-width:340px){
   .fl-row{grid-template-columns:54px minmax(0,1fr) minmax(40px,56px) minmax(58px,68px);gap:4px;padding:0 6px}

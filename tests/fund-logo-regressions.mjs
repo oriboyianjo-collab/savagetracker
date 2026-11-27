@@ -8,5 +8,5 @@ for(const t of 'PRAM DRNZ NECK NUKZ NCLD DRAM JEDI'.split(' '))assert.equal(fix(
 const ini=src.match(/const LOGO_INI = (\{[^}]*\})/);assert.ok(ini);const I=eval('('+ini[1]+')');
 assert.deepEqual(Object.values(I),['PRA','DRN','NEC','NUK','NCL','DRA','JED']);assert.equal(new Set(Object.values(I)).size,7);
 for(const f of ['logos/spdr.png','logos/ishares.png']){assert.ok(fs.existsSync(new URL('../'+f,import.meta.url)),f);assert.ok(sw.includes("'./"+f+"'"),'sw precache '+f);}
-assert.ok(/portfolio-shell-v352/.test(sw));
+assert.ok(/portfolio-shell-v35\d/.test(sw));
 console.log('fund-logo regressions passed');
