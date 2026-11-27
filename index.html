@@ -3003,7 +3003,7 @@ async function cnbcQuotes(symbols, opts){   // v339: opts.raw = caller only need
       out[String(orig).toUpperCase()] = {x:X, pre, mcap: mc!=null ? (pence ? mc : mc/k) : null, price:last, prev, pdc, cur, name:q.name||'', time:q.last_time||'', ts:parseTs(q.last_time), date:String(q.last_time||'').slice(0,10), realTime:String(q.realTime)==='true', status:q.curmktstatus||'', idx:/INDEX/i.test(String(q.type||''))||undefined, halt: k===1 && (/suspend/i.test(q.curmktstatus||'') ? 'Suspended' : (String(ev.is_halted).toUpperCase()==='Y' || /halt/i.test(q.curmktstatus||'')) ? 'Halted' : ''), hsym:String(orig).toUpperCase(), source:'CNBC', contract:String(q.altSymbol||''), issueId:String(q.issue_id||''), hasChg};
       { const o = out[String(orig).toUpperCase()], sy = String(orig).toUpperCase();   // v225: after the close CNBC reports change=UNCH and previous_day_closing=last -> keep the last regular session's prior close until the next session
         const offEl = offhEligible(sy, o, k, opts); if(offEl) o.offh = true;   // v339: US stock/ETF outside the regular session -> daily pair comes from completed bars below, never from CNBC last/change
-        if(k===1 && !offEl && (PLK_IDX.has(sy) || !/^[.@]|=/.test(sy)) && o.date){   // v341: + .SPX/.NDX/.DJI/.RUT (never VIX); v340: ONE locked prior close per symbol from the last completed daily bar; a CNBC last-change value never overwrites it
+        if(k===1 && !offEl && !isUsTreasuryYield(sy) && (PLK_IDX.has(sy) || !/^[.@]|=/.test(sy)) && o.date){   // v341: + .SPX/.NDX/.DJI/.RUT (never VIX); v340: ONE locked prior close per symbol from the last completed daily bar; a CNBC last-change value never overwrites it
           const nyD = zoned('America/New_York', new Date()).date, stored = plkAll()[sy], g0 = lastGoodGet(sy);   // v342
           const yy = yLast[sy], gDate = ts=>{ try{ return ts>0 ? zoned('America/New_York', new Date(ts)).date : ''; }catch(e){ return ''; } };   // v343: stuck only with evidence of a NEWER quote for this symbol (lock date, last good quote or Yahoo tick); no evidence -> normal path (thin/suspended US stock, EU holiday)
           const newerEv = (stored && stored.d && o.date < stored.d) || (g0 && g0.ts && o.date < gDate(g0.ts)) || (yy && yy.kind==='reg' && yy.ts && o.date < gDate(yy.ts));
@@ -3069,7 +3069,11 @@ function usExpectedBar(now){ const z = zoned('America/New_York', now), close = U
   if(usTradingDay(z.date) && z.min >= close) return {d:z.date, settling: z.min < close+10};   // settling only means "do not cache yet": an available bar is used at once
   return {d:usPrevTradingDay(z.date), settling:false}; }
 const OFFH_IDX = /^\.(SPX|NDX|DJI|RUT|IXIC)$/;   // US cash indices follow the same shared rule (VIX keeps its own streaming handling)
+function isUsTreasuryYield(sym){
+  return /^[A-Z]{2}\d{1,2}Y(-[A-Z]{2})?$/.test(String(sym || '').toUpperCase());
+}
 function offhEligible(sy, o, k, opts){ if(k!==1 || (opts && opts.raw) || o.cur!=='USD' || usSession()==='reg') return false;
+  if(isUsTreasuryYield(sy)) return false;   // Tradeweb yields stream nearly 24h; do not replace last with the official daily bar
   if(OFFH_IDX.test(sy)) return true;
   return !o.idx && !/^[.@]|=/.test(sy) && marketOf(sy)==='us' && !isCrypto(sy); }
 async function offhPair(sym){   // v344: -> {pair, prevClose}; prevClose = the last completed close before the expected session (null while throttled)
@@ -4660,7 +4664,7 @@ function saveMkt(){ try{ localStorage.setItem(MKT_KEY, JSON.stringify(mktCfg)); 
 function saveWl(){ try{ localStorage.setItem(WL_KEY, JSON.stringify(wlData)); }catch(e){} }
 function importExtras(j){ if(j && j.watchlists){ wlData = cleanWl(j.watchlists); saveWl(); } if(j && j.market){ mktCfg = cleanMkt(j.market); saveMkt(); } if(j && j.commodities && Array.isArray(j.commodities.keys)){ comCfg = {keys:j.commodities.keys.filter((k,i,a)=>COM_BY[k] && a.indexOf(k)===i)}; saveCom(); } }
 // an instrument = a catalog entry or a security from the directory search
-function secInst(m){ if(m.type==='fx' && FX_BY[String(m.sym).toUpperCase()]) return fxInst(FX_BY[String(m.sym).toUpperCase()]); const sym = m.sym.toUpperCase(), im=israelIndexMeta(sym), cr = m.type==='crypto', yl = /^[A-Z]{2}\d{1,2}Y(-[A-Z]{2})?$/.test(sym); return {k:'sec:'+sym, y: yl ? 1 : undefined, dp: yl ? 3 : undefined, sec:true, sym, q: cr ? sym+'.CM=' : sym, n:im?israelIndexName(im):m.name||sym, type:im?'index':m.type||'stock', cur: euCur(sym) || m.currency || (isTaseSec(sym) || isTaIndex(sym) ? 'ILS' : 'USD'), stock: !im && !cr && !yl && m.type!=='index' && marketOf(sym)==='us'}; }
+function secInst(m){ if(m.type==='fx' && FX_BY[String(m.sym).toUpperCase()]) return fxInst(FX_BY[String(m.sym).toUpperCase()]); const sym = m.sym.toUpperCase(), im=israelIndexMeta(sym), cr = m.type==='crypto', yl = isUsTreasuryYield(sym); return {k:'sec:'+sym, y: yl ? 1 : undefined, dp: yl ? 3 : undefined, sec:true, sym, q: cr ? sym+'.CM=' : sym, n:im?israelIndexName(im):m.name||sym, type:im?'index':m.type||'stock', cur: euCur(sym) || m.currency || (isTaseSec(sym) || isTaIndex(sym) ? 'ILS' : 'USD'), stock: !im && !cr && !yl && m.type!=='index' && marketOf(sym)==='us'}; }
 function mktInst(k){ if(MKT_BY[k]){ const c = MKT_BY[k]; return Object.assign({q:c.s}, c); } const m = mktCfg.meta[k]; return m ? secInst(m) : null; }
 const mq = {};   // live quotes keyed by the CNBC request symbol (upper-case)
 async function instQuotes(list,active){ const qs = [...new Set(list.flatMap(i=>i.der ? [i.der.a, i.der.b] : [i.q,...(euCur(i.sym)?[FXQ[euCur(i.sym)][0]]:[])]))].filter(Boolean); if(!qs.length) return;
