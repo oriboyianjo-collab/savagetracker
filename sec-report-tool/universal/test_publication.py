@@ -48,8 +48,28 @@ class PublicationTests(unittest.TestCase):
     def test_unpublished(self):self.linked()['ledger'][0]['filing_date']='2026-12-01';self.assertRaises(ValueError,self.check)
     def test_empty_ledger(self):self.linked()['ledger']=[];self.assertRaises(ValueError,self.check)
     def test_held_does_not_publish(self):self.linked()['status']='held';idx,_=self.check();self.assertFalse(idx['symbols'])
-    def test_last_good_removal(self):
-        r=self.linked();old,_=self.check();sym=r['symbol'];r['status']='held'
+    def test_last_good_held_rescan_keeps_links_and_records_reason(self):
+        # CRWD-like: published symbol is re-scanned and ends held. The generation must not abort.
+        r=self.linked();old,_=self.check();sym=r['symbol'];kept=json.loads(json.dumps(old['symbols'][sym]))
+        new_url='https://www.sec.gov/Archives/edgar/data/123/000119312526000777/new.htm'
+        r.update(status='held',reason_code='VERSION_CONFLICT_DUPLICATE_PERIOD',reports={'2027':{'Q2':new_url}},ledger=[{'slot':'2027-Q2','url':new_url,'body_sha256':'b'*64,'period_end':'2026-12-31','filing_date':'2027-01-02'}])
+        idx,st=self.check(old)
+        self.assertEqual(idx['symbols'][sym],kept)  # last-good kept, nothing new published from the failed scan
+        self.assertNotIn(new_url,json.dumps(idx))
+        row=next(x for x in st['rows'] if x['symbol']==sym)
+        self.assertEqual(row['status'],'held');self.assertEqual(row['reason_code'],'VERSION_CONFLICT_DUPLICATE_PERIOD')
+        self.assertTrue(row['last_good_preserved']);self.assertEqual(row['linked_slots'],1);self.assertEqual(row['available_slots'],['2027-Q1'])
+        self.assertEqual(st['last_good_preserved'],{sym:'VERSION_CONFLICT_DUPLICATE_PERIOD'})
+        self.assertEqual(st['summary']['held'],sum(x['status']=='held' for x in st['rows']))
+    def test_last_good_unsupported_rescan_keeps_links(self):
+        r=self.linked();old,_=self.check();sym=r['symbol']
+        r.update(status='unsupported',reason_code='UNSUPPORTED_NO_PERIODIC_FORMS',reports={},ledger=[])
+        idx,st=self.check(old);self.assertEqual(idx['symbols'][sym],old['symbols'][sym]);self.assertEqual(st['last_good_preserved'],{sym:'UNSUPPORTED_NO_PERIODIC_FORMS'})
+    def test_no_preserved_marker_without_prior_or_drop(self):
+        self.linked();_,st=self.check();self.assertEqual(st['last_good_preserved'],{})
+        self.assertFalse(any('last_good_preserved' in x for x in st['rows']))
+    def test_last_good_explicit_hold_still_raises(self):
+        r=self.linked();old,_=self.check();sym=r['symbol'];r.update(status='held',reason_code='HOLD_EXPLICIT')
         with self.assertRaises(ValueError) as cm:self.check(old)
         self.assertEqual(str(cm.exception),'last-good symbol would disappear: '+sym)
     def _security_pair(self):
@@ -81,12 +101,13 @@ class PublicationTests(unittest.TestCase):
         idx,st=project(self.inv,raw,self.result,prior)
         self.assertNotIn(par,idx['symbols']);self.assertEqual(idx['symbols'][child],kept)
         row=next(x for x in st['rows'] if x['symbol']==child);self.assertEqual(row['linked_slots'],1);self.assertEqual(row['parent_symbol'],par);self.assertEqual(row['status'],'held')
-    def test_security_class_child_still_raises_when_parent_drops(self):
+    def test_security_class_child_and_parent_keep_last_good_when_parent_held(self):
         raw,par,child=self._security_pair();prior,_=project(self.inv,raw,self.result)
+        kept=json.loads(json.dumps(prior['symbols'][par]))
         next(x for x in self.rows if x['symbol']==par).update(status='held',reason_code='NO_VALIDATED_REPORTS',reports={},ledger=[])
-        with self.assertRaises(ValueError) as cm:project(self.inv,raw,self.result,prior)
-        names=set(str(cm.exception).split(': ',1)[1].split(', '))
-        self.assertEqual(names,{par,child})
+        idx,st=project(self.inv,raw,self.result,prior)
+        self.assertEqual(idx['symbols'][par],kept);self.assertEqual(idx['symbols'][child],kept)
+        self.assertIn(par,st['last_good_preserved'])
     def test_repair_repass_still_raises_for_a_real_drop(self):
         raw,par,child=self._security_pair()
         other=next(x for x in self.rows if x['symbol'] not in {par,child} and x['status']=='pending')
@@ -94,15 +115,15 @@ class PublicationTests(unittest.TestCase):
         other.update(status='partial_validated',cik='0000000123',reports={'2027':{'Q1':u}},ledger=[{'slot':'2027-Q1','url':u,'body_sha256':'c'*64,'period_end':'2026-09-30','filing_date':'2026-11-01'}])
         prior,_=project(self.inv,raw,self.result)
         next(x for x in self.rows if x['symbol']==par).update(status='pending',reason_code='PENDING_NOT_ATTEMPTED',reports={},ledger=[])
-        other.update(status='held',reason_code='NO_VALIDATED_REPORTS',reports={},ledger=[])
+        other.update(status='held',reason_code='HOLD_EXPLICIT',reports={},ledger=[])
         with self.assertRaises(ValueError) as cm:project(self.inv,raw,self.result,prior)
         self.assertEqual(str(cm.exception),'last-good symbol would disappear: '+other['symbol'])
     def test_disappearance_message_lists_first_symbols(self):
-        r=self.linked();prior,_=self.check();sym=r['symbol'];r['status']='held'
-        prior['symbols']={name:prior['symbols'][sym] for name in [sym,'ZZ1','ZZ2','ZZ3','ZZ4','ZZ5','ZZ6']}
+        # Symbols absent from the fresh accounting entirely still trip the safety check.
+        r=self.linked();prior,_=self.check();sym=r['symbol']
+        prior['symbols']={name:prior['symbols'][sym] for name in ['ZZ1','ZZ2','ZZ3','ZZ4','ZZ5','ZZ6','ZZ7']}
         with self.assertRaises(ValueError) as cm:self.check(prior)
-        shown=', '.join(sorted([sym,'ZZ1','ZZ2','ZZ3','ZZ4','ZZ5','ZZ6'])[:5])
-        self.assertEqual(str(cm.exception),'last-good symbol would disappear: %s (+2 more)'%shown)
+        self.assertEqual(str(cm.exception),'last-good symbol would disappear: ZZ1, ZZ2, ZZ3, ZZ4, ZZ5 (+2 more)')
     def test_last_good_pending_keeps_links(self):
         r=self.linked();old,_=self.check();sym=r['symbol']
         r.update(status='pending',reports={},ledger=[])

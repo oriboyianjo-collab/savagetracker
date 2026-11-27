@@ -88,6 +88,7 @@ def project(inventory,inventory_bytes,result,prior=None):
     if bool(result.get('complete_pass'))!=(counts.get('pending',0)==0):raise ValueError('false complete-pass marker')
     if prior:
         if prior.get('inventory_sha256')!=ih or prior.get('as_of')!=as_of:prior=None  # a previous pass/inventory is superseded wholesale
+    preserved={}
     if prior:
         by_status={x['symbol']:x for x in statuses}
         fresh={r.get('symbol'):r for r in rows}
@@ -103,6 +104,15 @@ def project(inventory,inventory_bytes,result,prior=None):
             # Last-good links stay published; a finished hold or drop still fails.
             if fresh.get(s,{}).get('status')=='pending':
                 _restore_last_good(symbols, by_status[s], old)
+                continue
+            # A re-scan that ends held/unsupported (identity, version/amendment conflict, no
+            # validated reports, unsupported profile) must not abort the whole generation.
+            # Keep the last-good links, publish nothing new from the failed scan and record
+            # the reason in the status row. A deliberate explicit hold is still a hard stop.
+            if fresh.get(s,{}).get('status') in {'held','unsupported'} and by_status[s]['reason_code']!='HOLD_EXPLICIT':
+                _restore_last_good(symbols, by_status[s], old)
+                by_status[s]['last_good_preserved']=True
+                preserved[s]=by_status[s]['reason_code']
                 continue
             # Held security-class children are resolved after pending parents are
             # restored. Raising here, before that copy, drops a child whose parent
@@ -125,6 +135,7 @@ def project(inventory,inventory_bytes,result,prior=None):
             raise ValueError('last-good symbol would disappear: '+_disappear_detail(disappeared))
     index={'schema_version':1,'inventory_sha256':ih,'as_of':as_of,'symbols':symbols}
     status={'schema_version':1,'inventory_sha256':ih,'as_of':as_of,'complete_pass':bool(result.get('complete_pass')),'access_held':bool(result.get('access_held')),'summary':counts,'rows':statuses,'coverage_basis':'validated_discovered_filings_only','historical_coverage_verified':False,'q4_prefetch_window_days':75,'coverage_limitations':['Q4 candidates filed later than 75 days after a validated/expected fiscal year end are not fetched','Rejected Q4 candidates may not appear in unresolved counts','A connected status does not certify all historical filings were discovered or all expected slots exist']}
+    status['last_good_preserved']=dict(sorted(preserved.items()))
     return index,status
 
 def _restore_last_good(symbols, status_row, old, parent=None):
@@ -173,4 +184,4 @@ if __name__=='__main__':
     index,status=project(json.loads(raw),raw,json.loads(Path(a.result).read_text()),prior)
     # Both are fully checked before writes. The Git commit publishes both as one revision.
     atomic(a.app_output,index);atomic(a.status_output,status)
-    print(json.dumps({'summary':status['summary'],'complete_pass':status['complete_pass'],'access_held':status['access_held'],'published_symbols':len(index['symbols'])},sort_keys=True))
+    print(json.dumps({'summary':status['summary'],'complete_pass':status['complete_pass'],'access_held':status['access_held'],'published_symbols':len(index['symbols']),'last_good_preserved':status.get('last_good_preserved',{})},sort_keys=True))
