@@ -108,8 +108,9 @@ def project(inventory,inventory_bytes,result,prior=None):
             # A re-scan that ends held/unsupported (identity, version/amendment conflict, no
             # validated reports, unsupported profile) must not abort the whole generation.
             # Keep the last-good links, publish nothing new from the failed scan and record
-            # the reason in the status row. A deliberate explicit hold is still a hard stop.
-            if fresh.get(s,{}).get('status') in {'held','unsupported'} and by_status[s]['reason_code']!='HOLD_EXPLICIT':
+            # the reason in the status row. A deliberate explicit hold is still a hard stop, and held
+            # security-class children keep their existing parent-mirroring handling below.
+            if fresh.get(s,{}).get('status') in {'held','unsupported'} and by_status[s]['reason_code'] not in {'HOLD_EXPLICIT','HOLD_SECURITY_CLASS'}:
                 _restore_last_good(symbols, by_status[s], old)
                 by_status[s]['last_good_preserved']=True
                 preserved[s]=by_status[s]['reason_code']
