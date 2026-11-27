@@ -484,5 +484,35 @@ const clone = (x) => JSON.parse(JSON.stringify(x));
 }
 
 
+// --- P1: live new row for a top-N company without a board row (gated by ctx.newRow) ---
+{
+  const today = '2026-11-18';
+  const mkNr = (mode = 'on') => ({ mode, cikToSym: new Map([['0001326801', 'META'], ['0000999999', 'SMALL']]), rank: { META: 9, SMALL: 900, HD: 40 }, names: { META: 'Meta Platforms, Inc.' }, idx: { META: ['S&P 500'] }, topN: 700 });
+  const feed = { filings: [
+    { cik: '0001326801', acc: '0001326801-26-000100', form: '8-K', accepted: '2026-11-18T16:10:00-05:00', url: 'https://www.sec.gov/Archives/edgar/data/1326801/000132680126000100/ex991.htm' },
+    { cik: '0000999999', acc: '0000999999-26-000001', form: '8-K', accepted: '2026-11-18T07:00:00-05:00' },
+    { cik: '0000888888', acc: '0000888888-26-000001', form: '8-K', accepted: '2026-11-18T07:00:00-05:00' },
+    { cik: '0001326801', acc: '0001326801-26-000101', form: '6-K', results: true, accepted: '2026-11-18T16:10:00-05:00' },
+  ] };
+  const rows = [{ 'מזהה': 'r-0007', 'חברה': 'Old', 'סימול': 'OLD', 'תאריך': '2026-08-01' }];
+  const st = eb.applyLive(rows, feed, { today, cikOf: () => null, newRow: mkNr() });
+  const m = rows.find((r) => r['סימול'] === 'META');
+  ok('P1: top-N company gets one row from the 8-K acceptance', !!m && st.newRows === 1 && m['תאריך'] === '2026-11-18' && m['מועד'] === 'after' && m['מזהה'] === 'r-0008' && m['חברה'] === 'Meta Platforms, Inc.' && JSON.stringify(m['מדד']) === '["S&P 500"]', JSON.stringify(m));
+  ok('P1: row is confirmed against the filing and carries the link', m['אימות_פרסום_SEC'] === '0001326801-26-000100' && /ex991/.test(m['קישור_לדוח']));
+  ok('P1: outside top-N or unknown CIK -> no row; no notes keys', rows.length === 2 && !('הערה' in m) && !('הערה_en' in m));
+  const again = clone(rows); eb.applyLive(again, feed, { today, cikOf: () => null, newRow: mkNr() });
+  ok('P1: second pass is idempotent (no duplicate row)', JSON.stringify(again) === JSON.stringify(rows));
+  const near = [{ 'מזהה': 'r-1', 'סימול': 'META', 'תאריך': '2026-12-20' }];
+  eb.applyLive(near, feed, { today, cikOf: () => null, newRow: mkNr() });
+  ok('P1: an existing row within 40 days blocks creation', near.length === 1);
+  const off = []; eb.applyLive(off, feed, { today, cikOf: () => null });
+  ok('P1: without ctx.newRow (mode off) nothing is created', off.length === 0);
+  const dry = []; const nrd = mkNr('dry'); eb.applyLive(dry, feed, { today, cikOf: () => null, newRow: nrd });
+  ok('P1: dry mode records but does not write', dry.length === 0 && nrd.wouldAdd && nrd.wouldAdd.length === 1);
+  const gaps = eb.coverageGaps([{ 'סימול': 'HD', 'תאריך': '2026-12-01' }, { 'סימול': 'META', 'תאריך': '2025-01-01' }], { HD: 40, META: 9, SMALL: 900 }, today);
+  ok('P1: coverage canary lists top-N companies without a row in range', JSON.stringify(gaps) === '["META"]', JSON.stringify(gaps));
+}
+
+
 if (failed) { console.log(failed + ' failed'); process.exit(1); }
 console.log('all earnings-board checks passed');

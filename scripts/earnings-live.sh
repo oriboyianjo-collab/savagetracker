@@ -32,10 +32,17 @@ busy() {        # other SEC jobs: never overlap them (keeps the project total <=
     --jq ".[] | select(.databaseId != ${GITHUB_RUN_ID:-0}) | .workflowName" 2>/dev/null | grep -Ex 'financials|financials-fast|earnings-board|company-profiles' || true
 }
 
+add_live_links() {   # report-links-live.json only when it exists or is tracked ("git add" of a missing path adds nothing at all)
+  if [ -e report-links-live.json ] || git ls-files --error-unmatch report-links-live.json >/dev/null 2>&1; then git add -A -- report-links-live.json; fi
+}
+
 publish() {     # commit reports.json / financials shards on change; push without force; dispatch Pages + push-news
   git add reports.json financials/*.json 2>/dev/null
+  add_live_links
   if git diff --cached --quiet; then log "no change"; return 0; fi
   local msg; msg="earnings-live: $(node -e "const s=require('$STATE/board/summary.json');const l=s.live||{};console.log((l.secApplied||0)+' SEC confirmations, '+(s.epsFilled||0)+' EPS, '+(s.revFilled||0)+' revenue')" 2>/dev/null || echo update)"
+  local nl; nl=$(node -e "const s=require('$STATE/live/summary.json');console.log((s.new_slots||[]).length)" 2>/dev/null || echo 0)
+  [ "$(cat scripts/live-links-mode.txt 2>/dev/null || echo off)" = write ] && [ "${nl:-0}" -gt 0 ] && msg="$msg, $nl live report links"
   git commit -q -m "$msg"
   local base pushed="" i; base=$(git rev-parse HEAD~1)
   for i in 1 2 3 4 5; do
@@ -49,7 +56,13 @@ publish() {     # commit reports.json / financials shards on change; push withou
     git reset -q --hard origin/main
     for f in "$keep"/*.json; do [ -e "$f" ] || continue; b=financials/$(basename "$f"); git diff --quiet "$base" origin/main -- "$b" && cp "$f" "$b"; done
     node scripts/earnings-board.cjs --live "$FEED" --apply-only --state "$STATE/board" || return 1
-    git add reports.json financials/*.json; if git diff --cached --quiet; then log "already up to date"; return 0; fi
+    # live report links: re-apply only the slots this round added onto the upstream overlay (add-only merge, no network)
+    if [ -s "$STATE/live/added.json" ] && [ "$(cat scripts/live-links-mode.txt 2>/dev/null || echo off)" = write ]; then
+      (cd sec-report-tool && python3 -m universal.live --apply-only --added "$STATE/live/added.json" --inventory universal/universe.json \
+         --manifest ../report-links-all.json --shards ../report-links-all --live ../report-links-live.json --state "$STATE/live" --mode write) \
+        || echo "::warning::earnings-live: could not re-apply live report links after a push race"
+    fi
+    git add reports.json financials/*.json 2>/dev/null; add_live_links; if git diff --cached --quiet; then log "already up to date"; return 0; fi
     git commit -q -m "$msg"; base=$(git rev-parse HEAD~1)
   done
   [ -n "$pushed" ] || { echo "::warning::earnings-live: push failed after 5 attempts"; return 1; }
@@ -64,20 +77,35 @@ publish() {     # commit reports.json / financials shards on change; push withou
 iteration() {   # $1 = extra fast_layer args (catch-up), $2 = accessions to (re)process first
   git fetch -q origin main && git reset -q --hard origin/main
   cp .fast-layer-state.json "$STATE/fl-backup.json" 2>/dev/null || rm -f "$STATE/fl-backup.json"
-  local rc=0 a
+  local rc=0 a mode
+  mode=$(tr -cd 'a-z' < scripts/live-links-mode.txt 2>/dev/null); [ "$mode" = dry ] || [ "$mode" = write ] || mode=off
+  mkdir -p "$STATE/live"; cp "$STATE/live/state.json" "$STATE/live/state.bak" 2>/dev/null || rm -f "$STATE/live/state.bak"
+  rm -f "$STATE/periodic.json"; rm -rf "$STATE/live/summary.json" "$STATE/live/added.json"
+  local pargs=""; [ "$mode" = off ] || pargs="--periodic-out $STATE/periodic.json"
   for a in $(echo "${2:-}" | tr ',' ' '); do
     python3 sec-report-tool/financials/fast_layer.py --board-out "$FEED" --accession "$a" || rc=$?
     [ "$rc" -eq 2 ] && break
     sleep 1
   done
   # shellcheck disable=SC2086
-  [ "$rc" -eq 2 ] || python3 sec-report-tool/financials/fast_layer.py --board-out "$FEED" --board-ciks "$STATE/board/board-ciks.json" --budget-min 7 --max-filings 120 $1 || rc=$?
+  [ "$rc" -eq 2 ] || python3 sec-report-tool/financials/fast_layer.py --board-out "$FEED" --board-ciks "$STATE/board/board-ciks.json" --budget-min 7 --max-filings 120 $pargs $1 || rc=$?
   if [ "$rc" -eq 2 ]; then date +%s > "$STATE/sec-hold"; echo "::warning::earnings-live: SEC access held (403/429) - no SEC requests from this job for 24 hours"; fi
+  # Live 10-Q / 10-K report links (scripts/live-links-mode.txt: off | dry | write). off = no extra SEC request at all.
+  if [ "$mode" != off ] && [ "$rc" -ne 2 ] && [ -s "$STATE/periodic.json" ]; then
+    local lrc=0
+    mkdir -p "$STATE/live"
+    (cd sec-report-tool && python3 -m universal.live --detected "$STATE/periodic.json" --inventory universal/universe.json \
+       --manifest ../report-links-all.json --shards ../report-links-all --live ../report-links-live.json \
+       --state "$STATE/live" --mode "$mode" --budget-seconds 150 --max-filings 40) || lrc=$?
+    if [ "$lrc" -eq 2 ]; then date +%s > "$STATE/sec-hold"; echo "::warning::earnings-live: SEC access held (403/429) in universal.live - no SEC requests from this job for 24 hours"; fi
+    [ "$lrc" -eq 3 ] && echo "::warning::earnings-live: live report links failed (nothing written)"
+  fi
   [ -f "$FEED" ] || { log "no feed file"; return 0; }
   node scripts/earnings-board.cjs --live "$FEED" --state "$STATE/board" || { echo "::warning::earnings-live: board update failed"; return 0; }
   [ -f "$STATE/board/sec-hold" ] && date +%s > "$STATE/sec-hold"
   if ! publish; then   # not pushed: forget this round's processed filings so the next round redoes them
     [ -f "$STATE/fl-backup.json" ] && cp "$STATE/fl-backup.json" .fast-layer-state.json
+    if [ -f "$STATE/live/state.bak" ]; then cp "$STATE/live/state.bak" "$STATE/live/state.json"; else rm -f "$STATE/live/state.json"; fi   # live links redone next round too
     git reset -q --hard origin/main
   fi
 }

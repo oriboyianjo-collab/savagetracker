@@ -469,6 +469,32 @@ function resolveCik(sym, tickers) {
   return storedCik(sym) || (shard(sym) || {}).cik || (tickers && (tickers[sym] || tickers[sym.replace(/\./g, '-')])) || null;
 }
 
+// Live new row (P1): a top-N company whose Item 2.02 8-K appears in the live feed but that has no board row for the
+// quarter (e.g. Alpha Vantage never listed it) gets one row from the SEC acceptance time. Gated by ctx.newRow (mode file).
+const NEW_ROW_TOP_N = 700;
+const LIVE_ROW_SOURCE = 'sec-8k-live';
+function liveNewRow(rows, f, ctx) {
+  const nr = ctx.newRow; if (!nr || f.form !== '8-K' || !f.accepted) return null;
+  const sym = nr.cikToSym.get(String(f.cik).padStart(10, '0'));
+  if (!sym || !(nr.rank[sym] <= (nr.topN || NEW_ROW_TOP_N))) return null;
+  const et = etParts(new Date(f.accepted).toISOString());
+  if (et.date < addDays(ctx.today, -3) || et.date > addDays(ctx.today, 1)) return null;
+  if (rows.some((r) => symKey(r['סימול']) === sym && Math.abs(diffDays(et.date, String(r['תאריך']))) <= 40)) return null;
+  const row = { 'חברה': nr.names[sym] || sym, 'סימול': sym, 'תאריך': et.date };
+  const m = et.min < 570 ? 'before' : et.min >= 960 ? 'after' : ''; if (m) row['מועד'] = m;
+  row['מקור_מועד'] = 'SEC 8-K Item 2.02 (live)'; row.auto_source = LIVE_ROW_SOURCE;
+  const idx = (nr.idx || {})[sym]; if (idx) row['מדד'] = idx.slice();
+  row['מזהה'] = 'r-' + String(nextId(rows) + 1).padStart(4, '0');
+  if (nr.mode === 'dry') { (nr.wouldAdd = nr.wouldAdd || []).push(sym + ' ' + et.date); return null; }
+  rows.push(row); return row;
+}
+// Coverage canary: top-N companies with no board row dated in [today-45, today+100]. Warning only, never writes rows.
+function coverageGaps(rows, rank, today, topN = NEW_ROW_TOP_N) {
+  const have = new Set();
+  for (const r of rows) { const d = String(r['תאריך']); if (d >= addDays(today, -45) && d <= addDays(today, 100)) have.add(symKey(r['סימול'])); }
+  return Object.keys(rank).filter((s) => rank[s] <= topN && !have.has(s)).sort((a, b) => rank[a] - rank[b]);
+}
+
 // Applies the live feed: SEC release confirmation/time/link, EPS and revenue from the press release. Returns stats.
 function applyLive(rows, feed, ctx) {
   const { today, cikOf } = ctx; const st = { secApplied: 0, epsFilled: 0, revFilled: 0 };
@@ -481,7 +507,9 @@ function applyLive(rows, feed, ctx) {
   const files = ((feed && feed.filings) || []).filter((f) => f && f.acc && f.cik && f.accepted && (/^8-K(\/A)?$/.test(f.form || '8-K') || (f.form === '6-K' && f.results === true)))
     .sort((a, b) => (a.form === '8-K' ? 0 : 1) - (b.form === '8-K' ? 0 : 1) || String(a.accepted).localeCompare(String(b.accepted)));
   for (const f of files) {
-    const list = byCik.get(String(f.cik).padStart(10, '0')); if (!list) continue;
+    let list = byCik.get(String(f.cik).padStart(10, '0'));
+    if (!list && ctx.newRow) { const nrow = liveNewRow(rows, f, ctx); if (nrow) { list = [nrow]; byCik.set(String(f.cik).padStart(10, '0'), list); st.newRows = (st.newRows || 0) + 1; } }
+    if (!list) continue;
     const iso = new Date(f.accepted).toISOString(); const et = etParts(iso);
     const cand = list.map((r) => ({ r, dd: diffDays(et.date, String(r['תאריך'])) })).filter((x) => x.dd >= -1 && x.dd <= 1)
       .sort((a, b) => Math.abs(a.dd) - Math.abs(b.dd));
@@ -726,7 +754,17 @@ async function main() {
     }
     const tm = (tick && tick.m) || {};
     const cikOf = (s) => storedCik(s) || (shard(s) || {}).cik || tm[s] || tm[s.replace(/\./g, '-')] || null;
-    live = applyLive(rows, feed, { today, cikOf });
+    // P1 (off by default): scripts/live-rows-mode.txt = off | dry | on
+    let newRow = null; const rmFile = path.join(ROOT, 'scripts', 'live-rows-mode.txt');
+    const rowsMode = (fs.existsSync(rmFile) ? fs.readFileSync(rmFile, 'utf8').trim() : 'off');
+    if (rowsMode === 'dry' || rowsMode === 'on') {
+      const cikToSym = new Map();
+      for (const s of Object.keys(rank).sort((a, b) => rank[a] - rank[b])) { if (rank[s] > NEW_ROW_TOP_N) break; const c = cikOf(s); if (c && !cikToSym.has(String(c).padStart(10, '0'))) cikToSym.set(String(c).padStart(10, '0'), s); }
+      newRow = { mode: rowsMode, cikToSym, rank, names, idx: indexBySymbol(rows), topN: NEW_ROW_TOP_N };
+    }
+    live = applyLive(rows, feed, { today, cikOf, newRow });
+    if (newRow && newRow.wouldAdd) { live.newRowsWouldAdd = newRow.wouldAdd; console.log('::notice::earnings-board: live-rows dry, would add ' + newRow.wouldAdd.join(', ')); }
+    if (rowsMode !== 'off') { const gaps = coverageGaps(rows, rank, today); stats.coverageGapCount = gaps.length; if (gaps.length) console.log('::notice::earnings-board: top-' + NEW_ROW_TOP_N + ' without a board row (' + gaps.length + '): ' + gaps.slice(0, 40).join(', ')); }
     // CIKs on the board today/tomorrow: the next round watches their Form 6-K (foreign issuers) too
     const bc = [...new Set(rows.filter((r) => { const d = String(r['תאריך']); return d >= today && d <= addDays(today, 1); }).map((r) => cikOf(symKey(r['סימול']))).filter(Boolean).map((c) => String(c).padStart(10, '0')))];
     fs.writeFileSync(path.join(stateDir, 'board-ciks.json'), JSON.stringify(bc));
@@ -813,5 +851,5 @@ async function main() {
 
 const parsePreannounce = (text, fn) => parseEarningsPreannounce(text, fn || ilClock);
 const parseCallClock = (text, date, fn) => parseCallTimeFromRelease(text, date, fn || ilClock);
-module.exports = { avClient, avReserve, applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, findPreannounceFilings, applySec, applyPreannounce, applyCallTime, revertInvalidPreannounceDates, restorePrunedPreannounceRows, lastGoodScheduledDate, parseEarningsPreannounce: parsePreannounce, parseCallTimeFromRelease: parseCallClock, storedCik, resolveCik, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
+module.exports = { liveNewRow, coverageGaps, NEW_ROW_TOP_N, avClient, avReserve, applySec6k, applyLive, applyPrEps, epsPlausible, pickPrEps, prEps, moneyNum, revenuePlausible, applyCalendar, find202, findPreannounceFilings, applySec, applyPreannounce, applyCallTime, revertInvalidPreannounceDates, restorePrunedPreannounceRows, lastGoodScheduledDate, parseEarningsPreannounce: parsePreannounce, parseCallTimeFromRelease: parseCallClock, storedCik, resolveCik, shardRevenue, applyRevenue, avQuarter, applyAvActual, applyRevEstimate, sealRow, parseCsv, money, indexBySymbol, CL };
 if (require.main === module) main().catch((e) => { console.log('::error::earnings-board: ' + e.message); process.exitCode = 1; });

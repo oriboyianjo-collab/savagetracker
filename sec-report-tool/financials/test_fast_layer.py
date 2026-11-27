@@ -3,6 +3,7 @@
 import json
 import sys
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 
 DIR = Path(__file__).resolve().parent
@@ -336,6 +337,50 @@ class Nov18AfterClose(unittest.TestCase):
         one = ('<table><tr><td>Third Quarter 2026</td><td>Nine Months 2026</td></tr>'
                '<tr><td>Adjusted EPS 1</td><td>$1.10, +22%</td><td>$3.00</td></tr></table>')
         self.assertEqual(pr.adjusted_eps(one, '2026-09-30', None), (1.1, True))
+
+
+class PeriodicFeed(unittest.TestCase):
+    """10-Q / 10-K watch: exact forms only, one record per accession, no CIK filter here (universal.live maps CIKs)."""
+    @staticmethod
+    def entry(form, cik, acc, upd='2026-11-26T20:00:00-05:00'):
+        return ('<entry><title>%s - Example Corp (%s) (Filer)</title><updated>%s</updated>'
+                '<summary type="html">&lt;b&gt;Filed:&lt;/b&gt; 2026-11-26 &lt;b&gt;AccNo:&lt;/b&gt; %s</summary>'
+                '<link href="https://www.sec.gov/Archives/edgar/data/1/x-index.htm?accession-number=%s"/></entry>' % (form, cik, upd, acc, acc))
+
+    class Feed:
+        def __init__(self, pages):
+            self.pages, self.urls = pages, []
+
+        def get_text(self, url):
+            self.urls.append(url)
+            for form, body in self.pages.items():
+                if 'type=' + form + '&' in url:
+                    return body if 'start=0' in url else ''
+            return ''
+
+    def test_exact_forms_only(self):
+        from fast_layer import periodic_filings
+        q = ''.join([self.entry('10-Q', '0000001111', '0000001111-26-000001'),
+                     self.entry('10-Q/A', '0000002222', '0000002222-26-000001'),
+                     self.entry('10-Q', '0000001111', '0000001111-26-000001'),
+                     self.entry('NT 10-Q', '0000003333', '0000003333-26-000001')])
+        k = self.entry('10-K', '0000004444', '0000004444-26-000001') + self.entry('10-K/A', '0000005555', '0000005555-26-000001')
+        t = self.Feed({'10-Q': '<feed>' + q + '</feed>', '10-K': '<feed>' + k + '</feed>'})
+        got = periodic_filings(t, datetime(2026, 11, 26, tzinfo=timezone.utc))
+        self.assertEqual(sorted(got), ['0000001111-26-000001', '0000004444-26-000001'])
+        self.assertEqual(got['0000004444-26-000001']['form'], '10-K')
+        self.assertEqual(got['0000001111-26-000001']['cik'], '0000001111')
+        self.assertLessEqual(len(t.urls), 6)
+
+    def test_access_held_propagates(self):
+        from fast_layer import periodic_filings
+        from transport import AccessHeld
+
+        class Blocked:
+            def get_text(self, url):
+                raise AccessHeld('403')
+        with self.assertRaises(AccessHeld):
+            periodic_filings(Blocked(), datetime(2026, 11, 26, tzinfo=timezone.utc))
 
 
 if __name__ == '__main__':

@@ -182,6 +182,18 @@ def feed_filings(transport, since: datetime, max_pages=8, form='8-K'):
             return
 
 
+def periodic_filings(transport, since: datetime, max_pages=3):
+    """New 10-Q / 10-K filings from the EDGAR "latest filings" feeds (exact form only: no 10-Q/A, 10-K/A, NT, 10-K405).
+    Same transport and 1 request/second as the 8-K feed; 1-3 requests per form. Returns {acc: record}."""
+    hits = {}
+    for form in ('10-Q', '10-K'):
+        for f in feed_filings(transport, since, max_pages=max_pages, form=form):
+            if f.get('form') != form:
+                continue
+            hits[f['acc']] = {'cik': f['cik'].zfill(10), 'acc': f['acc'], 'form': form, 'filed': f['filed'], 'updated': f.get('updated')}
+    return hits
+
+
 def daily_index_8k(transport, day: date):
     q = (day.month - 1) // 3 + 1
     url = DAILY_IDX.format(y=day.year, q=q, ymd=day.strftime('%Y%m%d'))
@@ -357,6 +369,8 @@ def main(argv=None):
     ap.add_argument('--board-ciks', default='', help='JSON list of CIKs on the board today/tomorrow (6-K watch)')
     ap.add_argument('--board-out', default='', help='write every Item 2.02 filing seen (with parsed release '
                     'figures) as JSON for scripts/earnings-board.cjs --live')
+    ap.add_argument('--periodic-out', default='', help='also watch the 10-Q / 10-K feeds and write the new filings as JSON '
+                    'for universal.live (off when empty: no extra SEC requests)')
     args = ap.parse_args(argv)
 
     fin_dir = Path(args.fin_dir)
@@ -455,6 +469,18 @@ def main(argv=None):
                 state['feed6'] = now.isoformat()
             except AccessHeld as e:
                 _log('ACCESS HELD during 6-K watch:', e)
+    # New 10-Q / 10-K filings for the live report-link overlay (universal.live). Same transport, same 1 request/second.
+    if args.periodic_out and not args.accession and not transport.stopped:
+        sincep = max(now - timedelta(hours=args.hours), datetime.fromisoformat(state['feedp']) - timedelta(minutes=30)) \
+            if state.get('feedp') else now - timedelta(hours=args.hours)
+        sincep = max(sincep, now - timedelta(days=3))
+        try:
+            found = periodic_filings(transport, sincep)
+            state['feedp'] = now.isoformat()      # saved only when the round succeeded (the shell restores the state if publishing fails)
+            _atomic_write(Path(args.periodic_out), json.dumps({'generated': now.isoformat(), 'filings': list(found.values())[:2000]}, separators=(',', ':')))
+            _log('  periodic feed: %d new 10-Q/10-K filings' % len(found))
+        except AccessHeld as e:
+            _log('ACCESS HELD during 10-Q/10-K watch:', e)
     cutoff = (now - timedelta(days=10)).date().isoformat()
     state['done'] = {a: d for a, d in done.items() if d >= cutoff}
     state['pr'] = {a: v for a, v in prs.items() if (v.get('filed') or '') >= cutoff}
