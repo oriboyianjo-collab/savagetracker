@@ -3031,6 +3031,7 @@ async function cnbcQuotes(symbols, opts){   // v339: opts.raw = caller only need
       { const o = out[String(orig).toUpperCase()]; if(o.halt) haltRefine(o.hsym); }   // v167: halted -> ask the Cboe book status (existing worker) whether it is a halt or a suspension
     });
   }
+  const fillBars = async ()=>{
   { const pend = Object.entries(out).filter(([s,o])=>o.plkPend && !(plkFail[s] > Date.now()));   // v340: no locked prior close yet -> last completed daily bar before the quote's session date, then locked for the session
     for(let i=0;i<pend.length;i+=6) await Promise.all(pend.slice(i,i+6).map(async ([s,o])=>{ let ok = false; try{ const bars = await cnbcBars(cnbcSymbol(s), addDays(today(),-12)); const pb = bars.filter(b=>b[0] < o.date).pop(); if(pb && pb[4]>0){ o.prev = pb[4]; delete o.dayStale; plkSet(s, o.date, pb[4]); pclSet(s, o.date, pb[4]); plkGuardOhl(s, o, o.plkCand, pb[4]); ok = true; } }catch(e){} if(!ok) plkFail[s] = Date.now()+60000; delete o.plkPend; delete o.plkCand; })); }
   Object.values(out).forEach(o=>{ delete o.plkPend; delete o.plkCand; });
@@ -3053,6 +3054,15 @@ async function cnbcQuotes(symbols, opts){   // v339: opts.raw = caller only need
         else if(p0){ o.prev = o.pdc = p0; }   // v344: nothing displayed yet -> quote price against the locked prior close
         else { o.prev = null; o.pdc = null; o.pre = null; o.dayStale = true; } } })); }
   { const m = dlkAll(); Object.keys(out).forEach(s=>{ const o = out[s]; if(o && o.price>0 && o.prev>0 && !o.dayStale && o.date) m[s] = {d:o.date, p:o.price, prev:o.prev}; }); dlkSave(m); }   // v344: remember the last displayed daily pair for the post-close gap
+  };
+  if(opts && opts.fast){   // fast: return restQuote data now; the verbatim bar / lock blocks above run in the background
+    const heldKeys = [];
+    for(const [sy,o] of Object.entries(out)) if(o.offh){ if(opts.keep && opts.keep(sy,o)) heldKeys.push(sy); else { o.prev = null; o.pdc = null; } }   // no locked pair yet -> price only, no % until the lock is computed; a row already on screen keeps its last pair until the fill ends
+    const done = ()=>{ try{ opts.onFill && opts.onFill(out); }catch(e){} };
+    void fillBars().then(done, done);
+    const ret = Object.assign({}, out); heldKeys.forEach(k=>{ delete ret[k]; }); return ret;
+  }
+  await fillBars();
   return out;
 }
 // v339: off-hours daily pair (US stocks/ETFs; pre / after / overnight / weekend / holiday). CNBC's last/change can alternate between the real
@@ -4667,8 +4677,16 @@ function importExtras(j){ if(j && j.watchlists){ wlData = cleanWl(j.watchlists);
 function secInst(m){ if(m.type==='fx' && FX_BY[String(m.sym).toUpperCase()]) return fxInst(FX_BY[String(m.sym).toUpperCase()]); const sym = m.sym.toUpperCase(), im=israelIndexMeta(sym), cr = m.type==='crypto', yl = isUsTreasuryYield(sym); return {k:'sec:'+sym, y: yl ? 1 : undefined, dp: yl ? 3 : undefined, sec:true, sym, q: cr ? sym+'.CM=' : sym, n:im?israelIndexName(im):m.name||sym, type:im?'index':m.type||'stock', cur: euCur(sym) || m.currency || (isTaseSec(sym) || isTaIndex(sym) ? 'ILS' : 'USD'), stock: !im && !cr && !yl && m.type!=='index' && marketOf(sym)==='us'}; }
 function mktInst(k){ if(MKT_BY[k]){ const c = MKT_BY[k]; return Object.assign({q:c.s}, c); } const m = mktCfg.meta[k]; return m ? secInst(m) : null; }
 const mq = {};   // live quotes keyed by the CNBC request symbol (upper-case)
-async function instQuotes(list,active){ const qs = [...new Set(list.flatMap(i=>i.der ? [i.der.a, i.der.b] : [i.q,...(euCur(i.sym)?[FXQ[euCur(i.sym)][0]]:[])]))].filter(Boolean); if(!qs.length) return;
-  for(let i=0;i<qs.length;i+=40){if(active&&!active())break; try{ Object.assign(mq, yMergeAll(await cnbcQuotes(qs.slice(i,i+40))));for(const c in FXQ){const x=mq[FXQ[c][0]];if(x?.price>0){fxx[c]=FXQ[c][1]?1/x.price:x.price;fxxAsOf[c]=Date.now();}} }catch(e){ console.warn('market quotes', e.message); } } }
+async function instQuotes(list,active,fast){ const qs = [...new Set(list.flatMap(i=>i.der ? [i.der.a, i.der.b] : [i.q,...(euCur(i.sym)?[FXQ[euCur(i.sym)][0]]:[])]))].filter(Boolean); if(!qs.length) return;
+  const fxSync=()=>{for(const c in FXQ){const x=mq[FXQ[c][0]];if(x?.price>0){fxx[c]=FXQ[c][1]?1/x.price:x.price;fxxAsOf[c]=Date.now();}}};
+  for(let i=0;i<qs.length;i+=40){if(active&&!active())break; try{
+    if(fast){   // speed: Markets paints restQuote prices at once; the daily-bar fill (locks) runs in the background and redraws
+      Object.assign(mq, yMergeAll(await cnbcQuotes(qs.slice(i,i+40), {fast:true,
+        keep:(s,o)=>{ const old=mq[s]; return !!(old && old.price>0 && old.prev>0 && !old.dayStale); },
+        onFill:out=>{ for(const k in out){ if(!mq[k] || mq[k]===out[k] || (mq[k].ts||0) <= (out[k].ts||0)){ yMerge(k,out[k]); mq[k]=out[k]; } } fxSync(); mktFillRedraw(); } })));
+    } else Object.assign(mq, yMergeAll(await cnbcQuotes(qs.slice(i,i+40))));
+    fxSync(); }catch(e){ console.warn('market quotes', e.message); } } }
+function mktFillRedraw(){ if(document.hidden || ui.tab!=='market') return; if(etfUi.mode==='etf') drawEtf(); else if(etfUi.mode==='mk'){ if(etfUi.sub==='com') drawCom(); else if(etfUi.sub==='fx') drawFx(); else drawGlb(); } }
 function iq(it){ if(it.der){ const a = mq[it.der.a], b = mq[it.der.b]; return a && b && a.price && b.price ? {price:a.price/b.price*it.der.m, prev: a.prev && b.prev ? a.prev/b.prev*it.der.m : null} : null; }
   const q = mq[String(it.q).toUpperCase()] || null; if(!q || !it.sec || marketOf(it.sym)!=='us') return q;
   const hl = haltOf(q); if(hl) return Object.assign({}, q, {hlt:hl});
@@ -4817,10 +4835,10 @@ async function renderMarket(){ applyMktMode(); if(etfUi.mode==='mk'){ ++mktSeq; 
   await Promise.all(L.map(it=>instBars(it, mktRange).then(()=>{ if(seq!==mktSeq) return; const el = $('mktGrid').querySelector(`[data-mk="${CSS.escape(it.k)}"]`); if(el) el.outerHTML = mktCardHtml(it); }).catch(()=>{})));
   if(seq===mktSeq) drawMarket(); }
 async function mktTick(){ if(document.hidden) return;
-  if(ui.tab==='market' && etfUi.mode==='etf'){ const d = etfData[etfUi.sel]; if(d){ await instQuotes([secInst({sym:etfUi.sel, type:'etf'}), ...etfItems(d)]); drawEtf(); } }
-  else if(ui.tab==='market' && etfUi.sub==='com'){ await instQuotes(comItems());await verifyComQuoteDates(comItems()); drawCom(); }
-  else if(ui.tab==='market' && etfUi.sub==='fx'){ await instQuotes(fxItems()); drawFx(); }
-  else if(ui.tab==='market'){ await Promise.all([instQuotes(glbItems().filter(i=>!i.fileSrc)), loadIdxFile()]); drawGlb(); }
+  if(ui.tab==='market' && etfUi.mode==='etf'){ const d = etfData[etfUi.sel]; if(d){ await instQuotes([secInst({sym:etfUi.sel, type:'etf'}), ...etfItems(d)],null,true); drawEtf(); } }
+  else if(ui.tab==='market' && etfUi.sub==='com'){ await instQuotes(comItems(),null,true); drawCom(); const seq=mktSeq; void verifyComQuoteDates(comItems()).then(()=>{ if(seq===mktSeq && ui.tab==='market' && etfUi.sub==='com') drawCom(); }).catch(()=>{}); }
+  else if(ui.tab==='market' && etfUi.sub==='fx'){ await instQuotes(fxItems(),null,true); drawFx(); }
+  else if(ui.tab==='market'){ await Promise.all([instQuotes(glbItems().filter(i=>!i.fileSrc),null,true), loadIdxFile()]); drawGlb(); }
   else if(false){}
   else if(ui.tab==='market'){ const L = mktItems(); await instQuotes(L); if(mktRange==='1D' || mktRange==='1W') await Promise.all(L.map(it=>instBars(it, mktRange).catch(()=>{}))); drawMarket(); }
   else if(ui.tab==='watch'){ await renderWatch(true); }
@@ -4884,7 +4902,7 @@ function drawCom(){ const g = $('comGrid'); if(!g) return; const L = comItems();
   if(comEditing){ $('comRows').innerHTML = comCfg.keys.map((k,i)=>{ const c = COM_BY[k]; return `<div class="cr" data-ck="${k}${I18n.p("ui-0432","\"><button class=\"x\" data-cdel aria-label=\"הסרת ")}${esc(I18n.t(c.n))}">✕</button><div><b>${esc(I18n.t(c.n))}</b><small>${esc(I18n.t(c.u))} · ${esc(c.s.replace('.1',''))}${I18n.p("ui-0433","</small></div><button data-cmv=\"up\" aria-label=\"למעלה\" ")}${i===0?'disabled':''}${I18n.p("ui-0434",">▲</button><button data-cmv=\"down\" aria-label=\"למטה\" ")}${i===comCfg.keys.length-1?'disabled':''}>▼</button></div>`; }).join('');
     const rest = COM_CAT.filter(c=>!comCfg.keys.includes(c.k)); $('comAddList').innerHTML = rest.length ? rest.map(c=>`<button data-cadd="${c.k}">+ ${esc(I18n.t(c.n))}</button>`).join('') : I18n.p("ui-0435","<div class=\"note\">כל הסחורות כבר ברשימה.</div>"); }
   $('comUpd').textContent = '';  }
-async function renderCom(){drawCom();const L=comItems();if(L.some(it=>!iq(it)))await instQuotes(L);await verifyComQuoteDates(L);if(etfUi.mode==='mk'&&etfUi.sub==='com')drawCom();}
+async function renderCom(){drawCom();const L=comItems();if(L.some(it=>!iq(it)))await instQuotes(L,null,true);if(etfUi.mode==='mk'&&etfUi.sub==='com')drawCom();const seq=mktSeq;void verifyComQuoteDates(L).then(()=>{if(seq===mktSeq&&etfUi.mode==='mk'&&etfUi.sub==='com'&&ui.tab==='market')drawCom();}).catch(()=>{});}
 $('comEdit').onclick = ()=>{ comEditing = !comEditing; drawCom(); };
 $('comDone').onclick = ()=>{ comEditing = false; drawCom(); };
 $('comReset').onclick = ()=>{ if(!confirm(I18n.p("ui-0436","לאפס את הסחורות לברירת המחדל (6 הפריטים המקוריים)?"))) return; comCfg = {keys:COM_DEFAULT.slice()}; saveCom(); renderCom(); };
@@ -5002,7 +5020,7 @@ function drawGlb(){ const g = $('glbGrid'); if(!g) return; const L = glbItems();
   if(glbEditing){ const qq0 = (($('glbSearch')||{}).value||'').trim().toLowerCase(); $('glbRows').innerHTML = glbCfg.keys.map((k,i)=>{ const c = GLB_BY[k]; if(qq0 && !(c.n+' '+c.c+' '+c.e+' '+c.s).toLowerCase().includes(qq0)) return ''; return `<div class="cr" data-gk="${k}${I18n.p("ui-0479","\"><button class=\"x\" data-gdel aria-label=\"הסרת ")}${esc(I18n.t(c.n))}">✕</button><div><b>${esc(I18n.t(c.n))}</b><small>${esc(I18n.t(c.c))} · ${esc(c.s)}${I18n.p("ui-0480","</small></div><button data-gmv=\"up\" aria-label=\"למעלה\" ")}${i===0?'disabled':''}${I18n.p("ui-0481",">▲</button><button data-gmv=\"down\" aria-label=\"למטה\" ")}${i===glbCfg.keys.length-1?'disabled':''}>▼</button></div>`; }).join('');
     const qq = (($('glbSearch')||{}).value||'').trim().toLowerCase(); const rest = GLB_CAT.filter(c=>!glbCfg.keys.includes(c.k) && (!qq || (c.n+' '+c.c+' '+c.e+' '+c.s).toLowerCase().includes(qq))); $('glbAddList').innerHTML = rest.length ? rest.map(c=>`<button data-gadd="${c.k}">+ ${esc(I18n.t(c.n))} · ${esc(I18n.t(c.c))}</button>`).join('') : I18n.p("ui-0482","<div class=\"note\">לא נמצאו מדדים.</div>"); }
   const t = Object.values(mq).map(x=>x.ts||0).filter(Boolean); $('glbUpd').textContent = t.length ? '· '+new Date(Math.max(...t)).toLocaleTimeString(I18n.locale,{hour:'2-digit', minute:'2-digit'}) : ''; }
-async function renderGlb(){ drawGlb(); const L = glbItems(); if(L.some(it=>!iq(it))){ await Promise.all([instQuotes(L.filter(i=>!i.fileSrc)), L.some(i=>i.fileSrc) ? loadIdxFile() : null]); if(etfUi.mode==='mk' && etfUi.sub==='glob') drawGlb(); } }
+async function renderGlb(){ drawGlb(); const L = glbItems(); if(L.some(it=>!iq(it))){ await Promise.all([instQuotes(L.filter(i=>!i.fileSrc),null,true), L.some(i=>i.fileSrc) ? loadIdxFile() : null]); if(etfUi.mode==='mk' && etfUi.sub==='glob') drawGlb(); } }
 $('glbEdit').onclick = ()=>{ glbEditing = !glbEditing; drawGlb(); };
 $('glbDone').onclick = ()=>{ glbEditing = false; drawGlb(); };
 $('glbReset').onclick = ()=>{ if(!confirm(I18n.p("ui-0483","לאפס את הגלובל לברירת המחדל (8 המדדים המקוריים)?"))) return; glbCfg = {keys:GLB_DEFAULT.slice()}; saveGlb(); renderGlb(); };
@@ -5352,11 +5370,11 @@ $('etfSortWrap').addEventListener('click', e=>{ if(e.target.closest('[data-esort
 async function renderEtf(){ const seq = ++etfSeq, t = etfUi.sel; drawEtf(); etfIssuer().catch(()=>{});
   const d = await etfLoad(t); if(seq!==etfSeq || ui.tab!=='market' || etfUi.mode!=='etf') return; if(!d) etfErr[t] = 1; else delete etfErr[t];
   drawEtf(); const its = [secInst({sym:t, type:'etf'}), ...etfItems(d).filter(it=>!it.nq)];
-  instQuotes(ETFS.map(x=>secInst({sym:x, type:'etf'}))).then(()=>{ if(seq===etfSeq) drawEtf(); });
-  await instQuotes(its); if(seq!==etfSeq) return; drawEtf();
+  instQuotes(ETFS.map(x=>secInst({sym:x, type:'etf'})),null,true).then(()=>{ if(seq===etfSeq) drawEtf(); });
+  await instQuotes(its,null,true); if(seq!==etfSeq) return; drawEtf();
   if(d && d.rows.length) etfLoadP0(t, d).then(()=>{ if(seq===etfSeq && ui.tab==='market' && etfUi.mode==='etf') drawEtf(); }).catch(()=>{});
-  if(etfUi.view==='list') await Promise.all(etfItems(d).filter(it=>!it.nq).slice(0, ETF_SPARK).map(it=>instBars(it, '1D').catch(()=>{})));
-  if(seq===etfSeq) drawEtf(); }
+  if(etfUi.view==='list') void Promise.all(etfItems(d).filter(it=>!it.nq).slice(0, ETF_SPARK).map(it=>instBars(it, '1D').catch(()=>{}))).then(()=>{ if(seq===etfSeq && ui.tab==='market' && etfUi.mode==='etf') drawEtf(); });
+}
 function applyMktMode(){ if(etfUi.mode!=='etf') etfUi.mode = 'mk'; if(etfUi.sub!=='com' && etfUi.sub!=='fx') etfUi.sub = 'glob'; const etf = etfUi.mode==='etf', com = !etf && etfUi.sub==='com', fxs = !etf && etfUi.sub==='fx', glb = !etf && !com && !fxs;
   $('mktMode').querySelectorAll('button').forEach(b=>{ const on = (b.dataset.mm==='etf') === etf; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
   $('mkSub').hidden = etf; $('mkSub').querySelectorAll('button').forEach(b=>{ const on = b.dataset.ms===etfUi.sub; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
@@ -5988,7 +6006,7 @@ function drawFx(){ const g = $('fxGrid'); if(!g) return; const L = fxItems(), K 
     $('fxRows').innerHTML = K.map((k,i)=>{ const f = FX_BY[k]; if(!fxMatch(f,qq)) return ''; return `<div class="cr" data-fk="${esc(k)}${I18n.p("ui-0745","\"><button class=\"x\" data-fdel aria-label=\"הסרת ")}${esc(k)}">✕</button><div><b>${esc(k)}</b><small>${esc(f.n)}${I18n.p("ui-0746","</small></div><button data-fmv=\"up\" aria-label=\"למעלה\" ")}${i===0?'disabled':''}${I18n.p("ui-0747",">▲</button><button data-fmv=\"down\" aria-label=\"למטה\" ")}${i===K.length-1?'disabled':''}>▼</button></div>`; }).join('');
     const rest = FX_DIR.filter(f=>!K.includes(f.code) && fxMatch(f,qq)); $('fxAddList').innerHTML = rest.length ? rest.map(f=>`<button data-fadd="${esc(f.code)}">+ ${esc(f.code)} · ${esc(f.n)}</button>`).join('') : I18n.p("ui-0748","<div class=\"note\">לא נמצאו צמדים.</div>"); }
   const t = L.map(it=>{ const q = iq(it); return q && q.ts || 0; }).filter(Boolean); $('fxUpd').textContent = t.length ? '· '+new Date(Math.max(...t)).toLocaleTimeString(I18n.locale,{hour:'2-digit', minute:'2-digit'}) : ''; }
-async function renderFx(){ drawFx(); const L = fxItems(); await instQuotes(L); if(etfUi.mode==='mk' && etfUi.sub==='fx') drawFx(); }
+async function renderFx(){ drawFx(); const L = fxItems(); await instQuotes(L,null,true); if(etfUi.mode==='mk' && etfUi.sub==='fx') drawFx(); }
 $('fxEdit').onclick = ()=>{ fxEditing = !fxEditing; drawFx(); };
 $('fxDone').onclick = ()=>{ fxEditing = false; drawFx(); };
 $('fxReset').onclick = ()=>{ if(!confirm(I18n.p("ui-0749","לאפס את המט״ח לברירת המחדל (DXY, EUR/USD, USD/JPY)?"))) return; fxCfgV = {keys:FXT_DEFAULT.slice()}; saveFxT(); renderFx(); };
@@ -7735,7 +7753,10 @@ reportYears = function reportYears(sym){
   }
   return merged;
 };
+// Flip to true only in the same release that sets scripts/live-links-mode.txt to "write".
+const LIVE_REPORT_OVERLAY_ENABLED = false;
 (async function loadLiveReportOverlay(){
+  if(!LIVE_REPORT_OVERLAY_ENABLED) return;
   try{
     const response=await fetch('report-links-live.json',{cache:'no-cache'});if(!response.ok)return;
     const text=await response.text();if(text.length>512000)throw new Error('Oversized live report overlay');
@@ -8724,18 +8745,22 @@ function alAdd(items){ const fresh = items.filter(it=>!alSeen.keys.includes(it.k
   if(document.hidden) fresh.slice(0,4).forEach(alNotify);
   else if(fresh.length) { fresh.slice(0,3).forEach(alNotify); } }
 async function alSwallowNews(){   // v191: “every new item” switched on – the current news backlog counts as seen (no flood); only items that arrive later alert
-  try{ const news = await fetch('news.json', {cache:'no-store'}).then(r=>r.ok ? r.json() : []), S = alSyms();
+  try{ const nrc = await alRecentNews(), news = nrc ? nrc.items : [], S = alSyms();
     AlertsCore.detect({news, reports:[], prefs:{newsAll:true}, hold:S.hold, watch:S.watch, muted:alP.muted}).forEach(i=>{ if(!alSeen.keys.includes(i.key)) alSeen.keys.push(i.key); }); alSave(); }catch(e){} }
-var alLastRep = 0, alNewsTag = '';
+var alLastRep = 0, alNewsTag = '', alRepTag = '';
+async function alRecentNews(){ const r = await fetch('news-recent.json', {cache:'no-cache'}); if(!r.ok) return null; const j = await r.json(); return {tag: r.headers.get('etag') || r.headers.get('last-modified') || '', items: Array.isArray(j) ? j : (Array.isArray(j.items) ? j.items : [])}; }
 async function alCheckData(force){   // v192: news.json every 60 s while the app is visible (conditional request: ~0 bytes when unchanged); the 7 MB reports.json at most every 10 minutes
   if(!alP.on || !window.AlertsCore) return; if(!force && Date.now()-alLastData < 45e3) return; alLastData = Date.now();
   const needRep = force || Date.now()-alLastRep >= 10*60e3; if(needRep) alLastRep = Date.now();
   let news = [], reports = [], sameNews = false;
-  try{ const nr = await fetch('news.json', {cache:'no-cache'});
-    if(nr.ok){ const tag = nr.headers.get('etag') || nr.headers.get('last-modified') || ''; sameNews = !force && !!tag && tag===alNewsTag; alNewsTag = tag; if(!sameNews) news = await nr.json(); } }catch(e){}
-  if(needRep) reports = await fetch('reports.json', {cache:'no-store'}).then(r=>r.ok ? r.json() : []).catch(()=>[]);
+  try{ const nr = await alRecentNews();   // news-recent.json (50 newest, ~53 KB); the 25 MB news.json is never fetched here
+    if(nr){ sameNews = !force && !!nr.tag && nr.tag===alNewsTag; alNewsTag = nr.tag; if(!sameNews) news = nr.items; } }catch(e){}
+  let sameRep = !needRep;
+  if(needRep){ const getRep = ()=>fetch('reports.json', {cache:'no-store'}).then(r=>r.ok ? r.json() : []).catch(()=>[]);
+    try{ const h = await fetch('reports.json', {method:'HEAD', cache:'no-cache'}), tag = (h.ok && (h.headers.get('etag') || h.headers.get('last-modified'))) || '';
+      sameRep = !force && !!tag && tag===alRepTag; if(tag) alRepTag = tag; if(!sameRep) reports = await getRep(); }catch(e){ sameRep = false; reports = await getRep(); } }
   await alSync();
-  if(sameNews && !needRep) return;   // nothing new since the last check
+  if(sameNews && sameRep) return;   // nothing new since the last check
   const S = alSyms();let englishReadyIds=[];if(I18n.language==='en'){const coverage=await ContentLanguage.prepare('news',news);const pending=new Set(coverage.pending.map(x=>x.id));englishReadyIds=news.filter(x=>typeof x['מזהה']==='string'&&x['מזהה']&&!pending.has(ContentLanguage.originalIdentity('news',x))).map(x=>x['מזהה']);} let items = AlertsCore.detect({news, reports, lang:I18n.language,englishReadyIds,prefs:pnPayload(), hold:S.hold, watch:S.watch, muted:alP.muted});
   if(!alSeen.init){ alSeen.init = true; items.filter(i=>i.base).forEach(i=>{ if(!alSeen.keys.includes(i.key)) alSeen.keys.push(i.key); }); items = items.filter(i=>!i.base); alSave(); }
   alAdd(items); alSync(); }

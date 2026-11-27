@@ -1,7 +1,7 @@
 // Simple service worker: caches the app shell for offline use. Price APIs are never cached.
 // Company logos (Parqet / FMP image URLs – only a ticker in the URL) go to their own runtime cache, cache-first, capped at
 // LOGO_MAX entries (oldest dropped). It survives app updates (not tied to the shell version).
-const CACHE = 'portfolio-shell-v348';
+const CACHE = 'portfolio-shell-v349';
 const LOGO_CACHE = 'portfolio-logos-v1', LOGO_MAX = 120;
 const AL_CACHE = 'savage-alerts-v1', AL_CFG = './__alerts/cfg';   // v187: alerts state shared with the page (prefs, ticker lists, seen keys, pending items) – on this device only
 const SHELL = ['./portfolio-currency.js','./portfolio-fx.js','./portfolio-tax-fx.js','./mini-ema.js','./mini-ema.css','./chart-tools.css?v=267','./', './index.html', './manifest.json', './icon-192.png?v=33', './icon-512.png?v=33', './icon-maskable-512.png?v=33', './apple-touch-icon.png?v=33', './logo.svg?v=33', './favicon-32.png?v=33', './tax-data.json?v=33', './alerts-core.js?v=271', './badge-mono-96.png','./i18n-runtime.js','./i18n-en.js','./content-language.js',
@@ -31,6 +31,7 @@ self.addEventListener('fetch', e => {
   }
   const isShell = url.origin === self.location.origin || url.href.startsWith('https://cdn.jsdelivr.net/') || url.href.startsWith('https://cdn.sheetjs.com/');
   if (!isShell) return; // live data (prices/FX): straight to network
+  if (/\/report-links-live\.json$/.test(url.pathname)) return; // v349: never cache; a future write-mode overlay must be fresh
   if (/\/news(?:-recent)?\.(json|md)$/.test(url.pathname)) return; // v53: owner-edited news – always from the network, never cached
   if (/\/holdings\/[^/]+\.json$/.test(url.pathname)) return; // v111: daily issuer-holdings file (public ETF data) – always from the network, never cached
   if (/\/fundamentals\.json$/.test(url.pathname)) return; // v112: daily public fundamentals file (SEC / Yahoo company data) – always from the network, never cached
@@ -72,7 +73,8 @@ async function alAdd(items, fromPush){   // record in the shared state (the page
 async function alPeriodic(){   // background check (Chrome/Android installed PWA only; the browser decides how often)
   const cfg = await alGet(); if(!cfg || !cfg.prefs || !cfg.prefs.on || !self.AlertsCore) return;
   const get = f => fetch(f, {cache:'no-store'}).then(r=>r.ok ? r.json() : []).catch(()=>[]);
-  const [news, reports] = await Promise.all([get('./news.json'), get('./reports.json')]);
+  const [recent, reports] = await Promise.all([get('./news-recent.json'), get('./reports.json')]);   // v349: the 50 newest, not the 25 MB archive
+  const news = Array.isArray(recent) ? recent : (recent && Array.isArray(recent.items) ? recent.items : []);
   let englishReadyIds=[];if(cfg.lang==='en'&&self.ContentLanguage){const c=await self.ContentLanguage.prepare('news',news),pending=new Set(c.pending.map(x=>x.id));englishReadyIds=news.filter(x=>typeof x['מזהה']==='string'&&x['מזהה']&&!pending.has(self.ContentLanguage.originalIdentity('news',x))).map(x=>x['מזהה']);}let items = self.AlertsCore.detect({news, reports,lang:cfg.lang,englishReadyIds,prefs:cfg.prefs, hold:cfg.hold, watch:cfg.watch, muted:cfg.muted}).map(x=>Object.assign({lang:cfg.lang==='en'?'en':'he'},x));
   if(!cfg.init){ cfg.init = true; cfg.seen = (cfg.seen||[]).concat(items.filter(i=>i.base).map(i=>i.key)); await alPut(cfg); items = items.filter(i=>!i.base); }   // first run: don't flood with old news
   await alAdd(items, false);
