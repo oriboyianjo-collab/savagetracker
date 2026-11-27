@@ -1,8 +1,9 @@
 // Simple service worker: caches the app shell for offline use. Price APIs are never cached.
 // Company logos (Parqet / FMP image URLs – only a ticker in the URL) go to their own runtime cache, cache-first, capped at
 // LOGO_MAX entries (oldest dropped). It survives app updates (not tied to the shell version).
-const CACHE = 'portfolio-shell-v350';
+const CACHE = 'portfolio-shell-v351';
 const LOGO_CACHE = 'portfolio-logos-v1', LOGO_MAX = 120;
+const NEWS_ARCH_CACHE = 'savage-news-archive-v1';   // v350: closed archive pages (immutable), kept across shell updates
 const AL_CACHE = 'savage-alerts-v1', AL_CFG = './__alerts/cfg';   // v187: alerts state shared with the page (prefs, ticker lists, seen keys, pending items) – on this device only
 const SHELL = ['./portfolio-currency.js','./portfolio-fx.js','./portfolio-tax-fx.js','./mini-ema.js','./mini-ema.css','./chart-tools.css?v=267','./', './index.html', './manifest.json', './icon-192.png?v=33', './icon-512.png?v=33', './icon-maskable-512.png?v=33', './apple-touch-icon.png?v=33', './logo.svg?v=33', './favicon-32.png?v=33', './tax-data.json?v=33', './alerts-core.js?v=271', './badge-mono-96.png','./i18n-runtime.js','./i18n-en.js','./content-language.js',
   'https://cdn.jsdelivr.net/npm/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js',
@@ -11,7 +12,7 @@ self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(new Request(u, {cache: 'reload'})).catch(() => null)))).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE && k !== LOGO_CACHE && k !== AL_CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE && k !== LOGO_CACHE && k !== AL_CACHE && k !== NEWS_ARCH_CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
 self.addEventListener('fetch', e => {
   const req = e.request;
@@ -32,6 +33,11 @@ self.addEventListener('fetch', e => {
   const isShell = url.origin === self.location.origin || url.href.startsWith('https://cdn.jsdelivr.net/') || url.href.startsWith('https://cdn.sheetjs.com/');
   if (!isShell) return; // live data (prices/FX): straight to network
   if (/\/report-links-live\.json$/.test(url.pathname)) return; // v349: never cache; a future write-mode overlay must be fresh
+  if (/\/news-archive\/p\d{5}\.json$/.test(url.pathname) && url.searchParams.get('c') === '300') {   // v350: a FULL page (300 items) is closed and immutable: cache-first; the open page and index.json always come from the network
+    e.respondWith(caches.open(NEWS_ARCH_CACHE).then(c => c.match(req).then(hit => hit || fetch(req).then(res => { if (res.ok) c.put(req, res.clone()).catch(() => null); return res; }))));
+    return;
+  }
+  if (url.pathname.includes('/news-archive/')) return;
   if (/\/news(?:-recent)?\.(json|md)$/.test(url.pathname)) return; // v53: owner-edited news – always from the network, never cached
   if (/\/holdings\/[^/]+\.json$/.test(url.pathname)) return; // v111: daily issuer-holdings file (public ETF data) – always from the network, never cached
   if (/\/fundamentals\.json$/.test(url.pathname)) return; // v112: daily public fundamentals file (SEC / Yahoo company data) – always from the network, never cached

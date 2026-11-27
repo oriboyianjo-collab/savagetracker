@@ -7311,7 +7311,7 @@ let newsArchiveComplete=false,newsLoadState='',newsRecentMeta=null,newsInitialSe
 function newsSnapshotRead(){try{const s=JSON.parse(localStorage.getItem(NEWS_SNAPSHOT_KEY)||'null');return s?.version===1&&Array.isArray(s.items)&&s.items.length<=50&&/^[a-f0-9]{64}$/.test(s.archive_sha256||'')?s:null;}catch(_){return null;}}
 function newsSnapshotSave(s){try{localStorage.setItem(NEWS_SNAPSHOT_KEY,JSON.stringify({...s,saved_at:Date.now()}));}catch(_){}}
 function newsRecentOf(items){return items.map((o,i)=>({o,i,t:newsTime(newsPick(o,'date')),u:newsTime(newsPick(o,'up'))})).sort((a,b)=>((b.u??b.t??0)-(a.u??a.t??0))||((b.t??-Infinity)-(a.t??-Infinity))||a.i-b.i).slice(0,50).map(x=>x.o);}
-function newsStateText(){return newsLoadState==='cached'?pnText('תצוגה שמורה · בודק עדכונים וטוען ארכיון…','Saved view · checking updates and loading archive…'):newsLoadState==='loading'?pnText('חדשות אחרונות · טוען את הארכיון המלא…','Recent news · loading the complete archive…'):newsLoadState==='offline'?pnText('התצוגה לא עודכנה · הארכיון המלא אינו זמין כרגע','View not updated · complete archive currently unavailable'):'';}
+function newsStateText(){return newsLoadState==='cached'?pnText('תצוגה שמורה · בודק עדכונים…','Saved view · checking updates…'):newsLoadState==='older'?pnText('טוען חדשות ישנות יותר…','Loading older news…'):newsLoadState==='offline'?pnText('התצוגה לא עודכנה · החדשות הישנות אינן זמינות כרגע','View not updated · older news currently unavailable'):'';}
 async function newsApplyItems(items,{complete=false,raw=null,tick=0,seq=newsSeq}={}){
   const rawItems=items.filter(o=>o&&typeof o==='object'),nl=newsLang();
   if(nl==='en')await ContentLanguage.prepare('news',rawItems);
@@ -7319,7 +7319,7 @@ async function newsApplyItems(items,{complete=false,raw=null,tick=0,seq=newsSeq}
   if(newsInitialSeen===null){const seen=loadJ(NSEEN_KEY);newsInitialSeen=!seen||typeof seen!=='object'||!Object.keys(seen).length;}
   const L=rawItems.map((o,i)=>({i,ak:alNewsKey(o),identity:ContentLanguage.originalIdentity('news',o),legacySeen:ContentLanguage.legacyNewsSeenKey(o),title:ContentLanguage.displayText('news',o,'title',nl),date:newsPick(o,'date'),text:ContentLanguage.displayText('news',o,'text',nl),link:newsPick(o,'link'),company:ContentLanguage.displayText('news',o,'company',nl),up:newsPick(o,'up'),raw:o,cat:newsCatOf(o),sources:ContentLanguage.displaySources(o,nl),preview:ContentLanguage.displayText('news',o,'preview',nl),imgs:newsImgs(o)})).filter(o=>o.title||o.text||o.imgs.length);
   L.forEach(o=>o.t=newsTime(o.date));
-  {let seen=loadJ(NSEEN_KEY);if(!seen||typeof seen!=='object')seen={};const keep={},now=Date.now();L.forEach(o=>{const k=o.identity;if(seen[k]==null&&seen[o.legacySeen]!=null)seen[k]=seen[o.legacySeen];if(seen[k]==null)seen[k]=newsInitialSeen?(o.t||0):now;keep[k]=seen[k];const u=o.up?newsTime(o.up):null;o.u=u!=null?u:keep[k];});try{localStorage.setItem(NSEEN_KEY,JSON.stringify(complete?keep:{...seen,...keep}));}catch(_){}L.sort((a,b)=>(b.u-a.u)||((b.t??-Infinity)-(a.t??-Infinity))||a.i-b.i);}
+  {let seen=loadJ(NSEEN_KEY);if(!seen||typeof seen!=='object')seen={};const keep={},now=Date.now();L.forEach(o=>{const k=o.identity;if(seen[k]==null&&seen[o.legacySeen]!=null)seen[k]=seen[o.legacySeen];if(seen[k]==null)seen[k]=newsInitialSeen?(o.t||0):now;keep[k]=seen[k];const u=o.up?newsTime(o.up):null;o.u=u!=null?u:(o.t||0);});try{localStorage.setItem(NSEEN_KEY,JSON.stringify(complete?keep:{...seen,...keep}));}catch(_){}L.sort((a,b)=>(b.u-a.u)||((b.t??-Infinity)-(a.t??-Infinity))||a.i-b.i);}
   newsItems=L;newsRaw=raw;newsLanguage=nl;newsArchiveComplete=complete;newsErr=false;newsAt=tick;newsRender();return true;
 }
 async function loadNews(){if(!$('newsList'))return;if(newsRequest){if(alFocus?.kind==='news'&&!alFocus.done){alFocus.newsMark=Math.min(alFocus.newsMark,alNewsTick-1);alReveal();}return newsRequest;}
@@ -7329,20 +7329,41 @@ async function loadNews(){if(!$('newsList'))return;if(newsRequest){if(alFocus?.k
     // Reuse only validated original records, never a pre-rendered/translated HTML cache.
     if(newsItems.length&&newsLanguage!==newsLang())await newsApplyItems(newsItems.map(o=>o.raw),{complete:newsArchiveComplete,raw:newsRaw,tick,seq});
     if(!newsItems.length){const saved=newsSnapshotRead();if(saved){newsLoadState='cached';await newsApplyItems(saved.items,{tick,seq});}}
-    if(!newsArchiveComplete){try{const recent=JSON.parse(await get('news-recent.json',4500));if(recent.version!==1||!Array.isArray(recent.items)||recent.items.length>50||!Number.isInteger(recent.total)||recent.total<recent.items.length||!/^[a-f0-9]{64}$/.test(recent.archive_sha256||''))throw new Error('Invalid recent news snapshot');newsRecentMeta=recent;newsLoadState='loading';await newsApplyItems(recent.items,{tick,seq});newsSnapshotSave(recent);}catch(_){}}
-    // Give recent cards an actual paint before starting archive processing.
-    await new Promise(resolve=>requestAnimationFrame(()=>setTimeout(resolve,0)));
-    try{const text=await get('news.json',60000);if(seq!==newsSeq)return;
-      if(text===newsRaw&&newsArchiveComplete&&newsLanguage===newsLang()){newsLoadState='';newsAt=tick;newsRender();return;}
-      const j=JSON.parse(text),items=Array.isArray(j)?j:j?.items;if(!Array.isArray(items))throw new Error('Invalid news archive');
-      let digest=null;try{digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text)))].map(v=>v.toString(16).padStart(2,'0')).join('');}catch(_){}
-      if(newsRecentMeta&&digest&&newsRecentMeta.archive_sha256!==digest)newsRecentMeta=null;
-      // On an edge-cache generation mismatch, replace the entire view from the canonical
-      // archive. Never concatenate two generations or treat the recent slice as complete.
-      newsLoadState='';await newsApplyItems(items,{complete:true,raw:text,tick,seq});
-      if(digest){newsRecentMeta={version:1,archive_sha256:digest,total:items.length,items:newsRecentOf(items)};newsSnapshotSave(newsRecentMeta);}
-    }catch(e){if(seq!==newsSeq)return;newsLoadState='offline';if(!newsItems.length){try{const items=newsFromMd(await get('news.md',4500));await newsApplyItems(items,{tick,seq});}catch(_){newsErr=e instanceof SyntaxError;}}newsAt=tick;newsRender();}
+    // v350: open = the 50 newest only (news-recent.json). Older news loads page by page (news-archive/) on scroll or search. The full news.json is only a fallback when news-recent.json is unavailable.
+    let recent=null;
+    try{recent=JSON.parse(await get('news-recent.json',8000));if(recent.version!==1||!Array.isArray(recent.items)||recent.items.length>50||!Number.isInteger(recent.total)||recent.total<recent.items.length||!/^[a-f0-9]{64}$/.test(recent.archive_sha256||''))throw new Error('Invalid recent news snapshot');}catch(_){recent=null;}
+    if(seq!==newsSeq)return;
+    if(recent){
+      if(newsIdx&&newsIdx.archive_sha256!==recent.archive_sha256)newsIdx=null;   // a newer generation: re-read the page list (already loaded closed pages stay valid)
+      newsRecentMeta=recent;newsLoadState='';newsRecentRaw=recent.items;
+      await newsApplyItems(newsMergeOlder(recent.items),{complete:newsArchiveComplete&&!!newsIdx&&newsIdx.pages.every(p=>newsPagesLoaded.has(newsPageKey(p))),tick,seq});newsSnapshotSave(recent);
+    }else{
+      try{const text=await get('news.json',60000);if(seq!==newsSeq)return;const j=JSON.parse(text),items=Array.isArray(j)?j:j?.items;if(!Array.isArray(items))throw new Error('Invalid news archive');newsLoadState='';newsRecentRaw=null;await newsApplyItems(items,{complete:true,raw:text,tick,seq});}
+      catch(e){if(seq!==newsSeq)return;newsLoadState='offline';if(!newsItems.length){try{const items=newsFromMd(await get('news.md',4500));await newsApplyItems(items,{tick,seq});}catch(_){newsErr=e instanceof SyntaxError;}}newsAt=tick;newsRender();}
+    }
   })().finally(()=>{newsRequest=null;if(newsItems.length&&newsLanguage!==newsLang())loadNews();});return newsRequest;
+}
+// v350: paged archive. newsOlder holds raw items from loaded pages (key = original identity); recent items win on a duplicate.
+let newsIdx=null,newsRecentRaw=null,newsMoreBusy=false,newsMoreFailAt=0;const newsOlder=new Map(),newsPagesLoaded=new Set();
+const newsPageKey=p=>p.id+'#'+p.count;
+function newsMergeOlder(recent){const seen=new Set(recent.map(o=>ContentLanguage.originalIdentity('news',o))),out=recent.slice();for(const [k,o] of newsOlder)if(!seen.has(k))out.push(o);return out;}
+async function newsGetJSON(f,timeout=20000){const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),timeout);try{const r=await fetch(f,{cache:'no-cache',signal:ctrl.signal});if(r.status===404)return null;if(!r.ok)throw new Error(r.status);return await r.json();}finally{clearTimeout(timer);}}
+async function newsLoadMore(){
+  if(newsMoreBusy||newsArchiveComplete||newsRecentRaw==null||Date.now()-newsMoreFailAt<30000)return;
+  newsMoreBusy=true;const seq=newsSeq;let more=false;
+  try{
+    if(!newsIdx){const j=await newsGetJSON('news-archive/index.json');if(!j||j.version!==1||!Array.isArray(j.pages)||!/^[a-f0-9]{64}$/.test(j.archive_sha256||'')){if(seq===newsSeq){await newsApplyItems(newsMergeOlder(newsRecentRaw),{complete:false,tick:newsAt,seq});newsArchiveComplete=true;}return;}newsIdx=j;}   // no index yet (or invalid) = nothing older to load
+    const todo=newsIdx.pages.filter(p=>!newsPagesLoaded.has(newsPageKey(p))).slice(0,2);
+    if(todo.length){newsLoadState='older';{const c=$('newsCnt');if(c&&!($('newsQ').value||'').trim()){c.hidden=false;c.textContent=newsStateText();}}
+      const res=await Promise.all(todo.map(async p=>{const f=await newsGetJSON(p.file+'?c='+p.count);if(!f||!Array.isArray(f.items))throw new Error('page '+p.id);return {p,f};}));
+      if(seq!==newsSeq)return;
+      for(const {p,f} of res){for(const o of f.items){if(o&&typeof o==='object')newsOlder.set(ContentLanguage.originalIdentity('news',o),o);}newsPagesLoaded.add(newsPageKey(p));}}
+    more=newsIdx.pages.some(p=>!newsPagesLoaded.has(newsPageKey(p)));
+    newsLoadState='';const keep=newsPage?newsPage.at:0;
+    await newsApplyItems(newsMergeOlder(newsRecentRaw),{complete:!more,tick:newsAt,seq});
+    if(newsPage&&keep>newsPage.at&&keep<=newsPage.items.length)newsAppendBatch(keep-newsPage.at);   // keep the list exactly as far down as the reader was
+  }catch(e){newsMoreFailAt=Date.now();newsLoadState='offline';{const c=$('newsCnt');if(c){c.hidden=false;c.textContent=newsStateText();}}}
+  finally{newsMoreBusy=false;if(!newsArchiveComplete&&seq===newsSeq&&Date.now()-newsMoreFailAt>=30000&&(!newsPage||(newsPage.items.length<20&&((($('newsQ').value||'').trim())||newsCat!=='all'))))setTimeout(newsLoadMore,0);}   // a filtered view with few hits keeps reading older pages
 }
 // v56: search – live filter over title/text/company/date (case-insensitive), every match wrapped in <mark>; text is escaped piece by piece
 let newsItems = [], newsErr = false;
@@ -7369,7 +7390,7 @@ function newsSourceHtml(o){ if(!o.sources?.length)return /^https?:\/\//i.test(o.
 let newsRenderVersion=0,newsPage=null,newsMoreObserver=null,newsExpandMode=false;
 function newsAppendBatch(limit=50){const p=newsPage;if(!p||p.version!==newsRenderVersion)return;const start=p.at,end=Math.min(p.at+limit,p.items.length),rows=[];for(let i=p.at;i<end;i++){const o=p.items[i],q=p.q;newsBodyItems.set(String(i),{o,q});rows.push(`<article class="news-it" dir="${/[\u0590-\u05ff]/.test(o.title||o.text)?'rtl':'ltr'}" data-ak="${esc(o.ak)}"><details class="news-expand" data-news-body="${i}"><summary style="cursor:pointer;list-style-position:outside"><div class="news-d" style="display:inline-block;margin-bottom:6px">${newsHl(newsFd(o),q)}</div><h3 style="margin:0">${newsHl(o.title||o.company||I18n.p('ui-1253','עדכון'),q)}</h3><div class="news-preview" style="font-weight:400;font-size:13px;line-height:1.65;color:var(--muted);margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${newsBodyHl(newsPreview(o),q)}</div></summary></details></article>`);}p.sentinel.insertAdjacentHTML('beforebegin',rows.join(''));p.at=end;
   for(const d of [...$('newsList').querySelectorAll('details.news-expand')].slice(start,end)){const o=newsBodyItems.get(d.dataset.newsBody)?.o;if(newsExpandMode||p.open.has(o?.ak)){newsHydrate(d);d.open=true;if(newsExpandMode)d.querySelectorAll('details').forEach(x=>{x.open=true;});}}
-  if(p.at>=p.items.length){p.sentinel.remove();newsMoreObserver?.disconnect();}
+  if(p.at>=p.items.length){p.sentinel.remove();newsMoreObserver?.disconnect();if(!newsArchiveComplete)newsLoadMore();}
 }
 function newsDrainBatches(version){if(!newsExpandMode||!newsPage||newsPage.version!==version)return;if(newsPage.at>=newsPage.items.length){newsExpandMode=false;return;}newsAppendBatch();requestAnimationFrame(()=>newsDrainBatches(version));}
 function newsEnsureKey(key){const p=newsPage;if(!p)return;const index=p.items.findIndex(o=>o.ak===key);if(index<0||index<p.at)return;const version=p.version;const step=()=>{if(newsPage?.version!==version)return;newsAppendBatch();if(newsPage.at<=index)requestAnimationFrame(step);else alReveal();};requestAnimationFrame(step);}
@@ -7379,10 +7400,12 @@ function newsRender(){const el=$('newsList'),cnt=$('newsCnt');if(!el)return;cons
   const info=text=>{cnt.hidden=!text&&!status;cnt.textContent=[text,status].filter(Boolean).join(' · ');};
   if(!L.length){info('');el.innerHTML='<div class="news-empty">'+(status?esc(status):newsErr?I18n.p('ui-1247','קובץ החדשות (news.json) לא תקין – בדקו פסיקים ומירכאות.'):I18n.p('ui-1248','אין עדיין חדשות.<br><small>מוסיפים פריטים בקובץ news.json באתר GitHub.</small>'))+'</div>';alReveal();return;}
   const B=newsCat==='personal'?L.filter(o=>tnMatches(o.raw||{})):newsCat==='all'?L:L.filter(o=>o.cat===newsCat);
-  if(newsCat==='personal'&&!B.length){const tagged=L.filter(o=>o.raw?.tags_version===1&&(AlertsCore.taggedSymbols(o.raw)?.length||AlertsCore.newsSectors(o.raw).length)).length;info(pnText('0 התאמות · ','0 matches · ')+tagged+pnText(' כתבות מסווגות מתוך ',' tagged articles of ')+L.length);el.innerHTML='<div class="news-empty">'+(newsArchiveComplete?pnText('אין כתבות מסווגות שתואמות לבחירה. כתבות ללא סיווג נשארות זמינות בהכל, מיקרו ומאקרו.','No tagged articles match this selection. Untagged articles remain in All, Micro and Macro.'):esc(status||pnText('טוען את הארכיון המלא…','Loading the complete archive…')))+'</div>';alReveal();return;}
+  if(newsCat==='personal'&&!B.length){const tagged=L.filter(o=>o.raw?.tags_version===1&&(AlertsCore.taggedSymbols(o.raw)?.length||AlertsCore.newsSectors(o.raw).length)).length;info(pnText('0 התאמות · ','0 matches · ')+tagged+pnText(' כתבות מסווגות מתוך ',' tagged articles of ')+L.length);el.innerHTML='<div class="news-empty">'+(newsArchiveComplete?pnText('אין כתבות מסווגות שתואמות לבחירה. כתבות ללא סיווג נשארות זמינות בהכל, מיקרו ומאקרו.','No tagged articles match this selection. Untagged articles remain in All, Micro and Macro.'):esc(status||pnText('מחפש בחדשות ישנות יותר…','Searching older news…')))+'</div>';if(!newsArchiveComplete)newsLoadMore();alReveal();return;}
   const ql=q.toLocaleLowerCase(),M=q?B.filter(o=>[o.title,o.text,o.company,o.date,newsFd(o)].some(v=>String(v||'').toLocaleLowerCase().includes(ql))):B;
   info(q?(M.length===1?I18n.p('ui-1250','תוצאה אחת'):M.length+I18n.p('ui-1251',' תוצאות')):'');
-  if(!M.length){el.innerHTML='<div class="news-empty">'+(!newsArchiveComplete?esc(status||pnText('טוען את הארכיון המלא…','Loading the complete archive…')):q?I18n.p('ui-1252','לא נמצאו חדשות עבור „')+esc(q)+'”':I18n.p('ui-1249','אין עדיין חדשות בלשונית זו.'))+'</div>';alReveal();return;}
+  if(!M.length&&!newsArchiveComplete)newsLoadMore();
+  if(!M.length){el.innerHTML='<div class="news-empty">'+(!newsArchiveComplete?esc(status||pnText('מחפש בחדשות ישנות יותר…','Searching older news…')):q?I18n.p('ui-1252','לא נמצאו חדשות עבור „')+esc(q)+'”':I18n.p('ui-1249','אין עדיין חדשות בלשונית זו.'))+'</div>';alReveal();return;}
+  if(!newsArchiveComplete&&M.length<20&&(q||newsCat!=='all'))newsLoadMore();   // a filtered view with few hits keeps reading older pages
   el.replaceChildren();const sentinel=document.createElement('div');sentinel.setAttribute('aria-hidden','true');sentinel.style.height='1px';el.append(sentinel);newsPage={items:M,q,at:0,sentinel,version:newsRenderVersion,open};newsAppendBatch();
   if(newsPage.at<M.length){newsMoreObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting))newsAppendBatch();},{rootMargin:'0px 0px 600px 0px'});newsMoreObserver.observe(sentinel);}
   if(newsExpandMode)requestAnimationFrame(()=>newsDrainBatches(newsRenderVersion));alReveal();
@@ -8855,7 +8878,7 @@ function alReveal(){ try{ const f = alFocus; if(!f) return;
     if(newsTab!=='news' || !(newsAt > f.newsMark)) return;
     const again = Date.now()-(f.at||0)<20000;
     if(f.done){ if(again){ const el = [...document.querySelectorAll('#newsList article[data-ak]')].find(n=>n.dataset.ak===f.key); if(el) alShowNews(el); } return; }
-    const item = newsItems.find(o=>o.ak===f.key); if(!item){ if(!newsArchiveComplete)return; f.done = true; return; }
+    const item = newsItems.find(o=>o.ak===f.key); if(!item){ if(!newsArchiveComplete){ newsLoadMore(); return; } f.done = true; return; }
     const q = ($('newsQ').value||'').trim().toLocaleLowerCase();
     const hiddenCat = newsCat!=='all' && item.cat!==newsCat;
     const hiddenQ = !!q && ![item.title, item.text, item.company, item.date, newsFd(item)].some(v=>String(v||'').toLocaleLowerCase().includes(q));
